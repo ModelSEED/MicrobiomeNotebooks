@@ -158,6 +158,10 @@ cython_debug/
 # AGORA2 models
 AGORA2/*
 
+# grow files
+grow/MetaT/*
+grow/dense_metaT.json
+
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
