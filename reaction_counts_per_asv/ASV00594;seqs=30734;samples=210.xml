@@ -64481,26 +64481,26 @@
     <fbc:listOfObjectives fbc:activeObjective="obj">
       <fbc:objective fbc:id="obj" fbc:type="maximize">
         <fbc:listOfFluxObjectives>
-          <fbc:fluxObjective fbc:reaction="R_1HIBUP_S_GLCAASEe" fbc:coefficient="1"/>
+          <fbc:fluxObjective fbc:reaction="R_biomass525" fbc:coefficient="1"/>
         </fbc:listOfFluxObjectives>
       </fbc:objective>
     </fbc:listOfObjectives>
     <fbc:listOfGeneProducts>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__2199_55__46__peg" fbc:name="G_428128__46__7__46__2199_55__46__peg" fbc:label="G_428128__46__7__46__2199_55__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1808" fbc:name="G_428128__46__7__46__peg__46__1808" fbc:label="G_428128__46__7__46__peg__46__1808"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__876__46__peg" fbc:name="G_428128__46__7__46__876__46__peg" fbc:label="G_428128__46__7__46__876__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__797__46__peg" fbc:name="G_428128__46__7__46__797__46__peg" fbc:label="G_428128__46__7__46__797__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__796__46__peg" fbc:name="G_428128__46__7__46__796__46__peg" fbc:label="G_428128__46__7__46__796__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__877__46__peg" fbc:name="G_428128__46__7__46__877__46__peg" fbc:label="G_428128__46__7__46__877__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__876__46__peg" fbc:name="G_428128__46__7__46__876__46__peg" fbc:label="G_428128__46__7__46__876__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__796__46__peg" fbc:name="G_428128__46__7__46__796__46__peg" fbc:label="G_428128__46__7__46__796__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__797__46__peg" fbc:name="G_428128__46__7__46__797__46__peg" fbc:label="G_428128__46__7__46__797__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1595" fbc:name="G_428128__46__7__46__peg__46__1595" fbc:label="G_428128__46__7__46__peg__46__1595"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1601" fbc:name="G_428128__46__7__46__peg__46__1601" fbc:label="G_428128__46__7__46__peg__46__1601"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1698__46__peg" fbc:name="G_428128__46__7__46__1698__46__peg" fbc:label="G_428128__46__7__46__1698__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1236" fbc:name="G_428128__46__7__46__peg__46__1236" fbc:label="G_428128__46__7__46__peg__46__1236"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1598" fbc:name="G_428128__46__7__46__peg__46__1598" fbc:label="G_428128__46__7__46__peg__46__1598"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__549" fbc:name="G_428128__46__7__46__peg__46__549" fbc:label="G_428128__46__7__46__peg__46__549"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__534" fbc:name="G_428128__46__7__46__peg__46__534" fbc:label="G_428128__46__7__46__peg__46__534"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1598" fbc:name="G_428128__46__7__46__peg__46__1598" fbc:label="G_428128__46__7__46__peg__46__1598"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1236" fbc:name="G_428128__46__7__46__peg__46__1236" fbc:label="G_428128__46__7__46__peg__46__1236"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1599" fbc:name="G_428128__46__7__46__peg__46__1599" fbc:label="G_428128__46__7__46__peg__46__1599"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1596" fbc:name="G_428128__46__7__46__peg__46__1596" fbc:label="G_428128__46__7__46__peg__46__1596"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1599" fbc:name="G_428128__46__7__46__peg__46__1599" fbc:label="G_428128__46__7__46__peg__46__1599"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1765__46__peg" fbc:name="G_428128__46__7__46__1765__46__peg" fbc:label="G_428128__46__7__46__1765__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1764__46__peg" fbc:name="G_428128__46__7__46__1764__46__peg" fbc:label="G_428128__46__7__46__1764__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1737" fbc:name="G_428128__46__7__46__peg__46__1737" fbc:label="G_428128__46__7__46__peg__46__1737"/>
@@ -64508,21 +64508,21 @@
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2047" fbc:name="G_428128__46__7__46__peg__46__2047" fbc:label="G_428128__46__7__46__peg__46__2047"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__156" fbc:name="G_428128__46__7__46__peg__46__156" fbc:label="G_428128__46__7__46__peg__46__156"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__640" fbc:name="G_428128__46__7__46__peg__46__640" fbc:label="G_428128__46__7__46__peg__46__640"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1604" fbc:name="G_428128__46__7__46__peg__46__1604" fbc:label="G_428128__46__7__46__peg__46__1604"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1603" fbc:name="G_428128__46__7__46__peg__46__1603" fbc:label="G_428128__46__7__46__peg__46__1603"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1604" fbc:name="G_428128__46__7__46__peg__46__1604" fbc:label="G_428128__46__7__46__peg__46__1604"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__277" fbc:name="G_428128__46__7__46__peg__46__277" fbc:label="G_428128__46__7__46__peg__46__277"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__970" fbc:name="G_428128__46__7__46__peg__46__970" fbc:label="G_428128__46__7__46__peg__46__970"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__256__46__peg" fbc:name="G_428128__46__7__46__256__46__peg" fbc:label="G_428128__46__7__46__256__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__287_19_1__46__peg" fbc:name="G_428128__46__7__46__287_19_1__46__peg" fbc:label="G_428128__46__7__46__287_19_1__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__256__46__peg" fbc:name="G_428128__46__7__46__256__46__peg" fbc:label="G_428128__46__7__46__256__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1807_7__46__peg" fbc:name="G_428128__46__7__46__1807_7__46__peg" fbc:label="G_428128__46__7__46__1807_7__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1012_6__46__peg" fbc:name="G_428128__46__7__46__1012_6__46__peg" fbc:label="G_428128__46__7__46__1012_6__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1806_6__46__peg" fbc:name="G_428128__46__7__46__1806_6__46__peg" fbc:label="G_428128__46__7__46__1806_6__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1011_7__46__peg" fbc:name="G_428128__46__7__46__1011_7__46__peg" fbc:label="G_428128__46__7__46__1011_7__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__194" fbc:name="G_428128__46__7__46__peg__46__194" fbc:label="G_428128__46__7__46__peg__46__194"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1011" fbc:name="G_428128__46__7__46__peg__46__1011" fbc:label="G_428128__46__7__46__peg__46__1011"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1012" fbc:name="G_428128__46__7__46__peg__46__1012" fbc:label="G_428128__46__7__46__peg__46__1012"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1807" fbc:name="G_428128__46__7__46__peg__46__1807" fbc:label="G_428128__46__7__46__peg__46__1807"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1806" fbc:name="G_428128__46__7__46__peg__46__1806" fbc:label="G_428128__46__7__46__peg__46__1806"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1011" fbc:name="G_428128__46__7__46__peg__46__1011" fbc:label="G_428128__46__7__46__peg__46__1011"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1807" fbc:name="G_428128__46__7__46__peg__46__1807" fbc:label="G_428128__46__7__46__peg__46__1807"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1012" fbc:name="G_428128__46__7__46__peg__46__1012" fbc:label="G_428128__46__7__46__peg__46__1012"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1902" fbc:name="G_428128__46__7__46__peg__46__1902" fbc:label="G_428128__46__7__46__peg__46__1902"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__290" fbc:name="G_428128__46__7__46__peg__46__290" fbc:label="G_428128__46__7__46__peg__46__290"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__289_8__46__peg" fbc:name="G_428128__46__7__46__289_8__46__peg" fbc:label="G_428128__46__7__46__289_8__46__peg"/>
@@ -64541,32 +64541,32 @@
       <fbc:geneProduct fbc:id="G_428128__46__7__46__288_5__46__peg" fbc:name="G_428128__46__7__46__288_5__46__peg" fbc:label="G_428128__46__7__46__288_5__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__25" fbc:name="G_428128__46__7__46__peg__46__25" fbc:label="G_428128__46__7__46__peg__46__25"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2364" fbc:name="G_428128__46__7__46__peg__46__2364" fbc:label="G_428128__46__7__46__peg__46__2364"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__2111__46__peg" fbc:name="G_428128__46__7__46__2111__46__peg" fbc:label="G_428128__46__7__46__2111__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1634__46__peg" fbc:name="G_428128__46__7__46__1634__46__peg" fbc:label="G_428128__46__7__46__1634__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__165__46__peg" fbc:name="G_428128__46__7__46__165__46__peg" fbc:label="G_428128__46__7__46__165__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__2111__46__peg" fbc:name="G_428128__46__7__46__2111__46__peg" fbc:label="G_428128__46__7__46__2111__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2111" fbc:name="G_428128__46__7__46__peg__46__2111" fbc:label="G_428128__46__7__46__peg__46__2111"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1634" fbc:name="G_428128__46__7__46__peg__46__1634" fbc:label="G_428128__46__7__46__peg__46__1634"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__165" fbc:name="G_428128__46__7__46__peg__46__165" fbc:label="G_428128__46__7__46__peg__46__165"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2111" fbc:name="G_428128__46__7__46__peg__46__2111" fbc:label="G_428128__46__7__46__peg__46__2111"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__2054_12__46__peg" fbc:name="G_428128__46__7__46__2054_12__46__peg" fbc:label="G_428128__46__7__46__2054_12__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1211" fbc:name="G_428128__46__7__46__peg__46__1211" fbc:label="G_428128__46__7__46__peg__46__1211"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__84" fbc:name="G_428128__46__7__46__peg__46__84" fbc:label="G_428128__46__7__46__peg__46__84"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1167" fbc:name="G_428128__46__7__46__peg__46__1167" fbc:label="G_428128__46__7__46__peg__46__1167"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__84" fbc:name="G_428128__46__7__46__peg__46__84" fbc:label="G_428128__46__7__46__peg__46__84"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2137" fbc:name="G_428128__46__7__46__peg__46__2137" fbc:label="G_428128__46__7__46__peg__46__2137"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__772" fbc:name="G_428128__46__7__46__peg__46__772" fbc:label="G_428128__46__7__46__peg__46__772"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1277" fbc:name="G_428128__46__7__46__peg__46__1277" fbc:label="G_428128__46__7__46__peg__46__1277"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1808__46__peg" fbc:name="G_428128__46__7__46__1808__46__peg" fbc:label="G_428128__46__7__46__1808__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__495__46__peg" fbc:name="G_428128__46__7__46__495__46__peg" fbc:label="G_428128__46__7__46__495__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1570" fbc:name="G_428128__46__7__46__peg__46__1570" fbc:label="G_428128__46__7__46__peg__46__1570"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1950" fbc:name="G_428128__46__7__46__peg__46__1950" fbc:label="G_428128__46__7__46__peg__46__1950"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1966" fbc:name="G_428128__46__7__46__peg__46__1966" fbc:label="G_428128__46__7__46__peg__46__1966"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__96" fbc:name="G_428128__46__7__46__peg__46__96" fbc:label="G_428128__46__7__46__peg__46__96"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1966" fbc:name="G_428128__46__7__46__peg__46__1966" fbc:label="G_428128__46__7__46__peg__46__1966"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1950" fbc:name="G_428128__46__7__46__peg__46__1950" fbc:label="G_428128__46__7__46__peg__46__1950"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1569__46__peg" fbc:name="G_428128__46__7__46__1569__46__peg" fbc:label="G_428128__46__7__46__1569__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1065" fbc:name="G_428128__46__7__46__peg__46__1065" fbc:label="G_428128__46__7__46__peg__46__1065"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1024" fbc:name="G_428128__46__7__46__peg__46__1024" fbc:label="G_428128__46__7__46__peg__46__1024"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__702" fbc:name="G_428128__46__7__46__peg__46__702" fbc:label="G_428128__46__7__46__peg__46__702"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__257" fbc:name="G_428128__46__7__46__peg__46__257" fbc:label="G_428128__46__7__46__peg__46__257"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__284_26__46__peg" fbc:name="G_428128__46__7__46__284_26__46__peg" fbc:label="G_428128__46__7__46__284_26__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__662_25__46__peg" fbc:name="G_428128__46__7__46__662_25__46__peg" fbc:label="G_428128__46__7__46__662_25__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__284_26__46__peg" fbc:name="G_428128__46__7__46__284_26__46__peg" fbc:label="G_428128__46__7__46__284_26__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__283_23__46__peg" fbc:name="G_428128__46__7__46__283_23__46__peg" fbc:label="G_428128__46__7__46__283_23__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1763_2__46__peg" fbc:name="G_428128__46__7__46__1763_2__46__peg" fbc:label="G_428128__46__7__46__1763_2__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__875_11__46__peg" fbc:name="G_428128__46__7__46__875_11__46__peg" fbc:label="G_428128__46__7__46__875_11__46__peg"/>
@@ -64575,33 +64575,33 @@
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__216" fbc:name="G_428128__46__7__46__peg__46__216" fbc:label="G_428128__46__7__46__peg__46__216"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__216__46__peg" fbc:name="G_428128__46__7__46__216__46__peg" fbc:label="G_428128__46__7__46__216__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1945" fbc:name="G_428128__46__7__46__peg__46__1945" fbc:label="G_428128__46__7__46__peg__46__1945"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__1941__46__peg" fbc:name="G_428128__46__7__46__1941__46__peg" fbc:label="G_428128__46__7__46__1941__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__355__46__peg" fbc:name="G_428128__46__7__46__355__46__peg" fbc:label="G_428128__46__7__46__355__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__1941__46__peg" fbc:name="G_428128__46__7__46__1941__46__peg" fbc:label="G_428128__46__7__46__1941__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1250_2__46__peg" fbc:name="G_428128__46__7__46__1250_2__46__peg" fbc:label="G_428128__46__7__46__1250_2__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1352" fbc:name="G_428128__46__7__46__peg__46__1352" fbc:label="G_428128__46__7__46__peg__46__1352"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1355" fbc:name="G_428128__46__7__46__peg__46__1355" fbc:label="G_428128__46__7__46__peg__46__1355"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1349" fbc:name="G_428128__46__7__46__peg__46__1349" fbc:label="G_428128__46__7__46__peg__46__1349"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1354" fbc:name="G_428128__46__7__46__peg__46__1354" fbc:label="G_428128__46__7__46__peg__46__1354"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1349" fbc:name="G_428128__46__7__46__peg__46__1349" fbc:label="G_428128__46__7__46__peg__46__1349"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1355" fbc:name="G_428128__46__7__46__peg__46__1355" fbc:label="G_428128__46__7__46__peg__46__1355"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1352" fbc:name="G_428128__46__7__46__peg__46__1352" fbc:label="G_428128__46__7__46__peg__46__1352"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1350" fbc:name="G_428128__46__7__46__peg__46__1350" fbc:label="G_428128__46__7__46__peg__46__1350"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1348" fbc:name="G_428128__46__7__46__peg__46__1348" fbc:label="G_428128__46__7__46__peg__46__1348"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1357" fbc:name="G_428128__46__7__46__peg__46__1357" fbc:label="G_428128__46__7__46__peg__46__1357"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1351" fbc:name="G_428128__46__7__46__peg__46__1351" fbc:label="G_428128__46__7__46__peg__46__1351"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1348" fbc:name="G_428128__46__7__46__peg__46__1348" fbc:label="G_428128__46__7__46__peg__46__1348"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1350" fbc:name="G_428128__46__7__46__peg__46__1350" fbc:label="G_428128__46__7__46__peg__46__1350"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__341" fbc:name="G_428128__46__7__46__peg__46__341" fbc:label="G_428128__46__7__46__peg__46__341"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__613" fbc:name="G_428128__46__7__46__peg__46__613" fbc:label="G_428128__46__7__46__peg__46__613"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__341" fbc:name="G_428128__46__7__46__peg__46__341" fbc:label="G_428128__46__7__46__peg__46__341"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1822" fbc:name="G_428128__46__7__46__peg__46__1822" fbc:label="G_428128__46__7__46__peg__46__1822"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1784" fbc:name="G_428128__46__7__46__peg__46__1784" fbc:label="G_428128__46__7__46__peg__46__1784"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__906" fbc:name="G_428128__46__7__46__peg__46__906" fbc:label="G_428128__46__7__46__peg__46__906"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1600" fbc:name="G_428128__46__7__46__peg__46__1600" fbc:label="G_428128__46__7__46__peg__46__1600"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1602" fbc:name="G_428128__46__7__46__peg__46__1602" fbc:label="G_428128__46__7__46__peg__46__1602"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1600" fbc:name="G_428128__46__7__46__peg__46__1600" fbc:label="G_428128__46__7__46__peg__46__1600"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1044_16__46__peg" fbc:name="G_428128__46__7__46__1044_16__46__peg" fbc:label="G_428128__46__7__46__1044_16__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1618" fbc:name="G_428128__46__7__46__peg__46__1618" fbc:label="G_428128__46__7__46__peg__46__1618"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1718__46__peg" fbc:name="G_428128__46__7__46__1718__46__peg" fbc:label="G_428128__46__7__46__1718__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__271_1__46__peg" fbc:name="G_428128__46__7__46__271_1__46__peg" fbc:label="G_428128__46__7__46__271_1__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__733_1__46__peg" fbc:name="G_428128__46__7__46__733_1__46__peg" fbc:label="G_428128__46__7__46__733_1__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__732_4__46__peg" fbc:name="G_428128__46__7__46__732_4__46__peg" fbc:label="G_428128__46__7__46__732_4__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__733_1__46__peg" fbc:name="G_428128__46__7__46__733_1__46__peg" fbc:label="G_428128__46__7__46__733_1__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1363" fbc:name="G_428128__46__7__46__peg__46__1363" fbc:label="G_428128__46__7__46__peg__46__1363"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__280" fbc:name="G_428128__46__7__46__peg__46__280" fbc:label="G_428128__46__7__46__peg__46__280"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1957" fbc:name="G_428128__46__7__46__peg__46__1957" fbc:label="G_428128__46__7__46__peg__46__1957"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1363" fbc:name="G_428128__46__7__46__peg__46__1363" fbc:label="G_428128__46__7__46__peg__46__1363"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2343" fbc:name="G_428128__46__7__46__peg__46__2343" fbc:label="G_428128__46__7__46__peg__46__2343"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__354" fbc:name="G_428128__46__7__46__peg__46__354" fbc:label="G_428128__46__7__46__peg__46__354"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__707_10_13__46__peg" fbc:name="G_428128__46__7__46__707_10_13__46__peg" fbc:label="G_428128__46__7__46__707_10_13__46__peg"/>
@@ -64612,17 +64612,17 @@
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1619_5__46__peg" fbc:name="G_428128__46__7__46__1619_5__46__peg" fbc:label="G_428128__46__7__46__1619_5__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1619" fbc:name="G_428128__46__7__46__peg__46__1619" fbc:label="G_428128__46__7__46__peg__46__1619"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1960" fbc:name="G_428128__46__7__46__peg__46__1960" fbc:label="G_428128__46__7__46__peg__46__1960"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1379" fbc:name="G_428128__46__7__46__peg__46__1379" fbc:label="G_428128__46__7__46__peg__46__1379"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1232" fbc:name="G_428128__46__7__46__peg__46__1232" fbc:label="G_428128__46__7__46__peg__46__1232"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1903" fbc:name="G_428128__46__7__46__peg__46__1903" fbc:label="G_428128__46__7__46__peg__46__1903"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1379" fbc:name="G_428128__46__7__46__peg__46__1379" fbc:label="G_428128__46__7__46__peg__46__1379"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__964" fbc:name="G_428128__46__7__46__peg__46__964" fbc:label="G_428128__46__7__46__peg__46__964"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2359" fbc:name="G_428128__46__7__46__peg__46__2359" fbc:label="G_428128__46__7__46__peg__46__2359"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__2359__46__peg" fbc:name="G_428128__46__7__46__2359__46__peg" fbc:label="G_428128__46__7__46__2359__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1260" fbc:name="G_428128__46__7__46__peg__46__1260" fbc:label="G_428128__46__7__46__peg__46__1260"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1508" fbc:name="G_428128__46__7__46__peg__46__1508" fbc:label="G_428128__46__7__46__peg__46__1508"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2339" fbc:name="G_428128__46__7__46__peg__46__2339" fbc:label="G_428128__46__7__46__peg__46__2339"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__150" fbc:name="G_428128__46__7__46__peg__46__150" fbc:label="G_428128__46__7__46__peg__46__150"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2106" fbc:name="G_428128__46__7__46__peg__46__2106" fbc:label="G_428128__46__7__46__peg__46__2106"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__150" fbc:name="G_428128__46__7__46__peg__46__150" fbc:label="G_428128__46__7__46__peg__46__150"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1758" fbc:name="G_428128__46__7__46__peg__46__1758" fbc:label="G_428128__46__7__46__peg__46__1758"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__478__46__peg" fbc:name="G_428128__46__7__46__478__46__peg" fbc:label="G_428128__46__7__46__478__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1765" fbc:name="G_428128__46__7__46__peg__46__1765" fbc:label="G_428128__46__7__46__peg__46__1765"/>
@@ -64630,10 +64630,10 @@
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2148" fbc:name="G_428128__46__7__46__peg__46__2148" fbc:label="G_428128__46__7__46__peg__46__2148"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__2148_12__46__peg" fbc:name="G_428128__46__7__46__2148_12__46__peg" fbc:label="G_428128__46__7__46__2148_12__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__806_11_19__46__peg" fbc:name="G_428128__46__7__46__806_11_19__46__peg" fbc:label="G_428128__46__7__46__806_11_19__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__736" fbc:name="G_428128__46__7__46__peg__46__736" fbc:label="G_428128__46__7__46__peg__46__736"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__735" fbc:name="G_428128__46__7__46__peg__46__735" fbc:label="G_428128__46__7__46__peg__46__735"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__736_11__46__peg" fbc:name="G_428128__46__7__46__736_11__46__peg" fbc:label="G_428128__46__7__46__736_11__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__736" fbc:name="G_428128__46__7__46__peg__46__736" fbc:label="G_428128__46__7__46__peg__46__736"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__735_10__46__peg" fbc:name="G_428128__46__7__46__735_10__46__peg" fbc:label="G_428128__46__7__46__735_10__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__736_11__46__peg" fbc:name="G_428128__46__7__46__736_11__46__peg" fbc:label="G_428128__46__7__46__736_11__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__730_6__46__peg" fbc:name="G_428128__46__7__46__730_6__46__peg" fbc:label="G_428128__46__7__46__730_6__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1568" fbc:name="G_428128__46__7__46__peg__46__1568" fbc:label="G_428128__46__7__46__peg__46__1568"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1812" fbc:name="G_428128__46__7__46__peg__46__1812" fbc:label="G_428128__46__7__46__peg__46__1812"/>
@@ -64650,37 +64650,37 @@
       <fbc:geneProduct fbc:id="G_428128__46__7__46__2196__46__peg" fbc:name="G_428128__46__7__46__2196__46__peg" fbc:label="G_428128__46__7__46__2196__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__373__46__peg" fbc:name="G_428128__46__7__46__373__46__peg" fbc:label="G_428128__46__7__46__373__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__953__46__peg" fbc:name="G_428128__46__7__46__953__46__peg" fbc:label="G_428128__46__7__46__953__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__355" fbc:name="G_428128__46__7__46__peg__46__355" fbc:label="G_428128__46__7__46__peg__46__355"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1941" fbc:name="G_428128__46__7__46__peg__46__1941" fbc:label="G_428128__46__7__46__peg__46__1941"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__355" fbc:name="G_428128__46__7__46__peg__46__355" fbc:label="G_428128__46__7__46__peg__46__355"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__982_5__46__peg" fbc:name="G_428128__46__7__46__982_5__46__peg" fbc:label="G_428128__46__7__46__982_5__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__982" fbc:name="G_428128__46__7__46__peg__46__982" fbc:label="G_428128__46__7__46__peg__46__982"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1218" fbc:name="G_428128__46__7__46__peg__46__1218" fbc:label="G_428128__46__7__46__peg__46__1218"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1219" fbc:name="G_428128__46__7__46__peg__46__1219" fbc:label="G_428128__46__7__46__peg__46__1219"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1221" fbc:name="G_428128__46__7__46__peg__46__1221" fbc:label="G_428128__46__7__46__peg__46__1221"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1435" fbc:name="G_428128__46__7__46__peg__46__1435" fbc:label="G_428128__46__7__46__peg__46__1435"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__989" fbc:name="G_428128__46__7__46__peg__46__989" fbc:label="G_428128__46__7__46__peg__46__989"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1536" fbc:name="G_428128__46__7__46__peg__46__1536" fbc:label="G_428128__46__7__46__peg__46__1536"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__989" fbc:name="G_428128__46__7__46__peg__46__989" fbc:label="G_428128__46__7__46__peg__46__989"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2037" fbc:name="G_428128__46__7__46__peg__46__2037" fbc:label="G_428128__46__7__46__peg__46__2037"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1933_17_19__46__peg" fbc:name="G_428128__46__7__46__1933_17_19__46__peg" fbc:label="G_428128__46__7__46__1933_17_19__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1437_25__46__peg" fbc:name="G_428128__46__7__46__1437_25__46__peg" fbc:label="G_428128__46__7__46__1437_25__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__528_27__46__peg" fbc:name="G_428128__46__7__46__528_27__46__peg" fbc:label="G_428128__46__7__46__528_27__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__529_26__46__peg" fbc:name="G_428128__46__7__46__529_26__46__peg" fbc:label="G_428128__46__7__46__529_26__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__528_27__46__peg" fbc:name="G_428128__46__7__46__528_27__46__peg" fbc:label="G_428128__46__7__46__528_27__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__806" fbc:name="G_428128__46__7__46__peg__46__806" fbc:label="G_428128__46__7__46__peg__46__806"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__518" fbc:name="G_428128__46__7__46__peg__46__518" fbc:label="G_428128__46__7__46__peg__46__518"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1369" fbc:name="G_428128__46__7__46__peg__46__1369" fbc:label="G_428128__46__7__46__peg__46__1369"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1367" fbc:name="G_428128__46__7__46__peg__46__1367" fbc:label="G_428128__46__7__46__peg__46__1367"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1368" fbc:name="G_428128__46__7__46__peg__46__1368" fbc:label="G_428128__46__7__46__peg__46__1368"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1366" fbc:name="G_428128__46__7__46__peg__46__1366" fbc:label="G_428128__46__7__46__peg__46__1366"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__224" fbc:name="G_428128__46__7__46__peg__46__224" fbc:label="G_428128__46__7__46__peg__46__224"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1368" fbc:name="G_428128__46__7__46__peg__46__1368" fbc:label="G_428128__46__7__46__peg__46__1368"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1367" fbc:name="G_428128__46__7__46__peg__46__1367" fbc:label="G_428128__46__7__46__peg__46__1367"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1366" fbc:name="G_428128__46__7__46__peg__46__1366" fbc:label="G_428128__46__7__46__peg__46__1366"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__295" fbc:name="G_428128__46__7__46__peg__46__295" fbc:label="G_428128__46__7__46__peg__46__295"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1030" fbc:name="G_428128__46__7__46__peg__46__1030" fbc:label="G_428128__46__7__46__peg__46__1030"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__1590__46__peg" fbc:name="G_428128__46__7__46__1590__46__peg" fbc:label="G_428128__46__7__46__1590__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__866__46__peg" fbc:name="G_428128__46__7__46__866__46__peg" fbc:label="G_428128__46__7__46__866__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__1590__46__peg" fbc:name="G_428128__46__7__46__1590__46__peg" fbc:label="G_428128__46__7__46__1590__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1334_5_4__46__peg" fbc:name="G_428128__46__7__46__1334_5_4__46__peg" fbc:label="G_428128__46__7__46__1334_5_4__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2341" fbc:name="G_428128__46__7__46__peg__46__2341" fbc:label="G_428128__46__7__46__peg__46__2341"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2138" fbc:name="G_428128__46__7__46__peg__46__2138" fbc:label="G_428128__46__7__46__peg__46__2138"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__594" fbc:name="G_428128__46__7__46__peg__46__594" fbc:label="G_428128__46__7__46__peg__46__594"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2121" fbc:name="G_428128__46__7__46__peg__46__2121" fbc:label="G_428128__46__7__46__peg__46__2121"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2138" fbc:name="G_428128__46__7__46__peg__46__2138" fbc:label="G_428128__46__7__46__peg__46__2138"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__693" fbc:name="G_428128__46__7__46__peg__46__693" fbc:label="G_428128__46__7__46__peg__46__693"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__593" fbc:name="G_428128__46__7__46__peg__46__593" fbc:label="G_428128__46__7__46__peg__46__593"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1532__46__peg" fbc:name="G_428128__46__7__46__1532__46__peg" fbc:label="G_428128__46__7__46__1532__46__peg"/>
@@ -64699,9 +64699,9 @@
       <fbc:geneProduct fbc:id="G_428128__46__7__46__403__46__peg" fbc:name="G_428128__46__7__46__403__46__peg" fbc:label="G_428128__46__7__46__403__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1115__46__peg" fbc:name="G_428128__46__7__46__1115__46__peg" fbc:label="G_428128__46__7__46__1115__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__466__46__peg" fbc:name="G_428128__46__7__46__466__46__peg" fbc:label="G_428128__46__7__46__466__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__95" fbc:name="G_428128__46__7__46__peg__46__95" fbc:label="G_428128__46__7__46__peg__46__95"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1965" fbc:name="G_428128__46__7__46__peg__46__1965" fbc:label="G_428128__46__7__46__peg__46__1965"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1683" fbc:name="G_428128__46__7__46__peg__46__1683" fbc:label="G_428128__46__7__46__peg__46__1683"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1965" fbc:name="G_428128__46__7__46__peg__46__1965" fbc:label="G_428128__46__7__46__peg__46__1965"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__95" fbc:name="G_428128__46__7__46__peg__46__95" fbc:label="G_428128__46__7__46__peg__46__95"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__586" fbc:name="G_428128__46__7__46__peg__46__586" fbc:label="G_428128__46__7__46__peg__46__586"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__66" fbc:name="G_428128__46__7__46__peg__46__66" fbc:label="G_428128__46__7__46__peg__46__66"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__67" fbc:name="G_428128__46__7__46__peg__46__67" fbc:label="G_428128__46__7__46__peg__46__67"/>
@@ -64726,8 +64726,8 @@
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1248" fbc:name="G_428128__46__7__46__peg__46__1248" fbc:label="G_428128__46__7__46__peg__46__1248"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__357_11__46__peg" fbc:name="G_428128__46__7__46__357_11__46__peg" fbc:label="G_428128__46__7__46__357_11__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2229" fbc:name="G_428128__46__7__46__peg__46__2229" fbc:label="G_428128__46__7__46__peg__46__2229"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2230" fbc:name="G_428128__46__7__46__peg__46__2230" fbc:label="G_428128__46__7__46__peg__46__2230"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2228" fbc:name="G_428128__46__7__46__peg__46__2228" fbc:label="G_428128__46__7__46__peg__46__2228"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2230" fbc:name="G_428128__46__7__46__peg__46__2230" fbc:label="G_428128__46__7__46__peg__46__2230"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2370" fbc:name="G_428128__46__7__46__peg__46__2370" fbc:label="G_428128__46__7__46__peg__46__2370"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1264__46__peg" fbc:name="G_428128__46__7__46__1264__46__peg" fbc:label="G_428128__46__7__46__1264__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1687__46__peg" fbc:name="G_428128__46__7__46__1687__46__peg" fbc:label="G_428128__46__7__46__1687__46__peg"/>
@@ -64739,53 +64739,53 @@
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1246_8__46__peg" fbc:name="G_428128__46__7__46__1246_8__46__peg" fbc:label="G_428128__46__7__46__1246_8__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1492_18__46__peg" fbc:name="G_428128__46__7__46__1492_18__46__peg" fbc:label="G_428128__46__7__46__1492_18__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1228_23__46__peg" fbc:name="G_428128__46__7__46__1228_23__46__peg" fbc:label="G_428128__46__7__46__1228_23__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__1230_25__46__peg" fbc:name="G_428128__46__7__46__1230_25__46__peg" fbc:label="G_428128__46__7__46__1230_25__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1231_24__46__peg" fbc:name="G_428128__46__7__46__1231_24__46__peg" fbc:label="G_428128__46__7__46__1231_24__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__1230_25__46__peg" fbc:name="G_428128__46__7__46__1230_25__46__peg" fbc:label="G_428128__46__7__46__1230_25__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1227_22__46__peg" fbc:name="G_428128__46__7__46__1227_22__46__peg" fbc:label="G_428128__46__7__46__1227_22__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1229_26__46__peg" fbc:name="G_428128__46__7__46__1229_26__46__peg" fbc:label="G_428128__46__7__46__1229_26__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__2053__46__peg" fbc:name="G_428128__46__7__46__2053__46__peg" fbc:label="G_428128__46__7__46__2053__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__2181_19__46__peg" fbc:name="G_428128__46__7__46__2181_19__46__peg" fbc:label="G_428128__46__7__46__2181_19__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1006__46__peg" fbc:name="G_428128__46__7__46__1006__46__peg" fbc:label="G_428128__46__7__46__1006__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__1008_16__46__peg" fbc:name="G_428128__46__7__46__1008_16__46__peg" fbc:label="G_428128__46__7__46__1008_16__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1010_15__46__peg" fbc:name="G_428128__46__7__46__1010_15__46__peg" fbc:label="G_428128__46__7__46__1010_15__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__1008_16__46__peg" fbc:name="G_428128__46__7__46__1008_16__46__peg" fbc:label="G_428128__46__7__46__1008_16__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2337" fbc:name="G_428128__46__7__46__peg__46__2337" fbc:label="G_428128__46__7__46__peg__46__2337"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1963" fbc:name="G_428128__46__7__46__peg__46__1963" fbc:label="G_428128__46__7__46__peg__46__1963"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__127" fbc:name="G_428128__46__7__46__peg__46__127" fbc:label="G_428128__46__7__46__peg__46__127"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1964" fbc:name="G_428128__46__7__46__peg__46__1964" fbc:label="G_428128__46__7__46__peg__46__1964"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2233" fbc:name="G_428128__46__7__46__peg__46__2233" fbc:label="G_428128__46__7__46__peg__46__2233"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__127" fbc:name="G_428128__46__7__46__peg__46__127" fbc:label="G_428128__46__7__46__peg__46__127"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2232" fbc:name="G_428128__46__7__46__peg__46__2232" fbc:label="G_428128__46__7__46__peg__46__2232"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1964" fbc:name="G_428128__46__7__46__peg__46__1964" fbc:label="G_428128__46__7__46__peg__46__1964"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1513_12__46__peg" fbc:name="G_428128__46__7__46__1513_12__46__peg" fbc:label="G_428128__46__7__46__1513_12__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2199" fbc:name="G_428128__46__7__46__peg__46__2199" fbc:label="G_428128__46__7__46__peg__46__2199"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__808" fbc:name="G_428128__46__7__46__peg__46__808" fbc:label="G_428128__46__7__46__peg__46__808"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__486" fbc:name="G_428128__46__7__46__peg__46__486" fbc:label="G_428128__46__7__46__peg__46__486"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2023" fbc:name="G_428128__46__7__46__peg__46__2023" fbc:label="G_428128__46__7__46__peg__46__2023"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__486" fbc:name="G_428128__46__7__46__peg__46__486" fbc:label="G_428128__46__7__46__peg__46__486"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2199" fbc:name="G_428128__46__7__46__peg__46__2199" fbc:label="G_428128__46__7__46__peg__46__2199"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__355_16_21__46__peg" fbc:name="G_428128__46__7__46__355_16_21__46__peg" fbc:label="G_428128__46__7__46__355_16_21__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__1247_20__46__peg" fbc:name="G_428128__46__7__46__1247_20__46__peg" fbc:label="G_428128__46__7__46__1247_20__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1941_21__46__peg" fbc:name="G_428128__46__7__46__1941_21__46__peg" fbc:label="G_428128__46__7__46__1941_21__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__1247_20__46__peg" fbc:name="G_428128__46__7__46__1247_20__46__peg" fbc:label="G_428128__46__7__46__1247_20__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1222" fbc:name="G_428128__46__7__46__peg__46__1222" fbc:label="G_428128__46__7__46__peg__46__1222"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2309" fbc:name="G_428128__46__7__46__peg__46__2309" fbc:label="G_428128__46__7__46__peg__46__2309"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1789" fbc:name="G_428128__46__7__46__peg__46__1789" fbc:label="G_428128__46__7__46__peg__46__1789"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1209_22__46__peg" fbc:name="G_428128__46__7__46__1209_22__46__peg" fbc:label="G_428128__46__7__46__1209_22__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1209" fbc:name="G_428128__46__7__46__peg__46__1209" fbc:label="G_428128__46__7__46__peg__46__1209"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__92" fbc:name="G_428128__46__7__46__peg__46__92" fbc:label="G_428128__46__7__46__peg__46__92"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__93" fbc:name="G_428128__46__7__46__peg__46__93" fbc:label="G_428128__46__7__46__peg__46__93"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__94" fbc:name="G_428128__46__7__46__peg__46__94" fbc:label="G_428128__46__7__46__peg__46__94"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1102" fbc:name="G_428128__46__7__46__peg__46__1102" fbc:label="G_428128__46__7__46__peg__46__1102"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__93" fbc:name="G_428128__46__7__46__peg__46__93" fbc:label="G_428128__46__7__46__peg__46__93"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__92" fbc:name="G_428128__46__7__46__peg__46__92" fbc:label="G_428128__46__7__46__peg__46__92"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__94" fbc:name="G_428128__46__7__46__peg__46__94" fbc:label="G_428128__46__7__46__peg__46__94"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__476" fbc:name="G_428128__46__7__46__peg__46__476" fbc:label="G_428128__46__7__46__peg__46__476"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__911" fbc:name="G_428128__46__7__46__peg__46__911" fbc:label="G_428128__46__7__46__peg__46__911"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1257" fbc:name="G_428128__46__7__46__peg__46__1257" fbc:label="G_428128__46__7__46__peg__46__1257"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__706" fbc:name="G_428128__46__7__46__peg__46__706" fbc:label="G_428128__46__7__46__peg__46__706"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__577" fbc:name="G_428128__46__7__46__peg__46__577" fbc:label="G_428128__46__7__46__peg__46__577"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1070" fbc:name="G_428128__46__7__46__peg__46__1070" fbc:label="G_428128__46__7__46__peg__46__1070"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__677" fbc:name="G_428128__46__7__46__peg__46__677" fbc:label="G_428128__46__7__46__peg__46__677"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__676" fbc:name="G_428128__46__7__46__peg__46__676" fbc:label="G_428128__46__7__46__peg__46__676"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__677" fbc:name="G_428128__46__7__46__peg__46__677" fbc:label="G_428128__46__7__46__peg__46__677"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1865" fbc:name="G_428128__46__7__46__peg__46__1865" fbc:label="G_428128__46__7__46__peg__46__1865"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__1867__46__peg" fbc:name="G_428128__46__7__46__1867__46__peg" fbc:label="G_428128__46__7__46__1867__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1164__46__peg" fbc:name="G_428128__46__7__46__1164__46__peg" fbc:label="G_428128__46__7__46__1164__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__1867__46__peg" fbc:name="G_428128__46__7__46__1867__46__peg" fbc:label="G_428128__46__7__46__1867__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__677_25__46__peg" fbc:name="G_428128__46__7__46__677_25__46__peg" fbc:label="G_428128__46__7__46__677_25__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__30_23__46__peg" fbc:name="G_428128__46__7__46__30_23__46__peg" fbc:label="G_428128__46__7__46__30_23__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__676_24__46__peg" fbc:name="G_428128__46__7__46__676_24__46__peg" fbc:label="G_428128__46__7__46__676_24__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__675_23__46__peg" fbc:name="G_428128__46__7__46__675_23__46__peg" fbc:label="G_428128__46__7__46__675_23__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__677_25__46__peg" fbc:name="G_428128__46__7__46__677_25__46__peg" fbc:label="G_428128__46__7__46__677_25__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__441" fbc:name="G_428128__46__7__46__peg__46__441" fbc:label="G_428128__46__7__46__peg__46__441"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1190" fbc:name="G_428128__46__7__46__peg__46__1190" fbc:label="G_428128__46__7__46__peg__46__1190"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__375" fbc:name="G_428128__46__7__46__peg__46__375" fbc:label="G_428128__46__7__46__peg__46__375"/>
@@ -64802,8 +64802,8 @@
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__318" fbc:name="G_428128__46__7__46__peg__46__318" fbc:label="G_428128__46__7__46__peg__46__318"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__161_54__46__peg" fbc:name="G_428128__46__7__46__161_54__46__peg" fbc:label="G_428128__46__7__46__161_54__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__160_53__46__peg" fbc:name="G_428128__46__7__46__160_53__46__peg" fbc:label="G_428128__46__7__46__160_53__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2267" fbc:name="G_428128__46__7__46__peg__46__2267" fbc:label="G_428128__46__7__46__peg__46__2267"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1130" fbc:name="G_428128__46__7__46__peg__46__1130" fbc:label="G_428128__46__7__46__peg__46__1130"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2267" fbc:name="G_428128__46__7__46__peg__46__2267" fbc:label="G_428128__46__7__46__peg__46__2267"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1320__46__peg" fbc:name="G_428128__46__7__46__1320__46__peg" fbc:label="G_428128__46__7__46__1320__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1093" fbc:name="G_428128__46__7__46__peg__46__1093" fbc:label="G_428128__46__7__46__peg__46__1093"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__290_21__46__peg" fbc:name="G_428128__46__7__46__290_21__46__peg" fbc:label="G_428128__46__7__46__290_21__46__peg"/>
@@ -64820,21 +64820,21 @@
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1438_22__46__peg" fbc:name="G_428128__46__7__46__1438_22__46__peg" fbc:label="G_428128__46__7__46__1438_22__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1578_26__46__peg" fbc:name="G_428128__46__7__46__1578_26__46__peg" fbc:label="G_428128__46__7__46__1578_26__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1578" fbc:name="G_428128__46__7__46__peg__46__1578" fbc:label="G_428128__46__7__46__peg__46__1578"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__461" fbc:name="G_428128__46__7__46__peg__46__461" fbc:label="G_428128__46__7__46__peg__46__461"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1438" fbc:name="G_428128__46__7__46__peg__46__1438" fbc:label="G_428128__46__7__46__peg__46__1438"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__461" fbc:name="G_428128__46__7__46__peg__46__461" fbc:label="G_428128__46__7__46__peg__46__461"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1094" fbc:name="G_428128__46__7__46__peg__46__1094" fbc:label="G_428128__46__7__46__peg__46__1094"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__524_3__46__peg" fbc:name="G_428128__46__7__46__524_3__46__peg" fbc:label="G_428128__46__7__46__524_3__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1269__46__peg" fbc:name="G_428128__46__7__46__1269__46__peg" fbc:label="G_428128__46__7__46__1269__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__600_27__46__peg" fbc:name="G_428128__46__7__46__600_27__46__peg" fbc:label="G_428128__46__7__46__600_27__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1980_30__46__peg" fbc:name="G_428128__46__7__46__1980_30__46__peg" fbc:label="G_428128__46__7__46__1980_30__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1066" fbc:name="G_428128__46__7__46__peg__46__1066" fbc:label="G_428128__46__7__46__peg__46__1066"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__266" fbc:name="G_428128__46__7__46__peg__46__266" fbc:label="G_428128__46__7__46__peg__46__266"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1066" fbc:name="G_428128__46__7__46__peg__46__1066" fbc:label="G_428128__46__7__46__peg__46__1066"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1978_34__46__peg" fbc:name="G_428128__46__7__46__1978_34__46__peg" fbc:label="G_428128__46__7__46__1978_34__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1330" fbc:name="G_428128__46__7__46__peg__46__1330" fbc:label="G_428128__46__7__46__peg__46__1330"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1106" fbc:name="G_428128__46__7__46__peg__46__1106" fbc:label="G_428128__46__7__46__peg__46__1106"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1330" fbc:name="G_428128__46__7__46__peg__46__1330" fbc:label="G_428128__46__7__46__peg__46__1330"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1544" fbc:name="G_428128__46__7__46__peg__46__1544" fbc:label="G_428128__46__7__46__peg__46__1544"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1546" fbc:name="G_428128__46__7__46__peg__46__1546" fbc:label="G_428128__46__7__46__peg__46__1546"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1543" fbc:name="G_428128__46__7__46__peg__46__1543" fbc:label="G_428128__46__7__46__peg__46__1543"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1544" fbc:name="G_428128__46__7__46__peg__46__1544" fbc:label="G_428128__46__7__46__peg__46__1544"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1545" fbc:name="G_428128__46__7__46__peg__46__1545" fbc:label="G_428128__46__7__46__peg__46__1545"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1509" fbc:name="G_428128__46__7__46__peg__46__1509" fbc:label="G_428128__46__7__46__peg__46__1509"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1620" fbc:name="G_428128__46__7__46__peg__46__1620" fbc:label="G_428128__46__7__46__peg__46__1620"/>
@@ -64875,34 +64875,34 @@
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1613" fbc:name="G_428128__46__7__46__peg__46__1613" fbc:label="G_428128__46__7__46__peg__46__1613"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1027_40__46__peg" fbc:name="G_428128__46__7__46__1027_40__46__peg" fbc:label="G_428128__46__7__46__1027_40__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__428" fbc:name="G_428128__46__7__46__peg__46__428" fbc:label="G_428128__46__7__46__peg__46__428"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__796_3__46__peg" fbc:name="G_428128__46__7__46__796_3__46__peg" fbc:label="G_428128__46__7__46__796_3__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1551_1__46__peg" fbc:name="G_428128__46__7__46__1551_1__46__peg" fbc:label="G_428128__46__7__46__1551_1__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__797_3__46__peg" fbc:name="G_428128__46__7__46__797_3__46__peg" fbc:label="G_428128__46__7__46__797_3__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__877_3__46__peg" fbc:name="G_428128__46__7__46__877_3__46__peg" fbc:label="G_428128__46__7__46__877_3__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__226_4__46__peg" fbc:name="G_428128__46__7__46__226_4__46__peg" fbc:label="G_428128__46__7__46__226_4__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__796_3__46__peg" fbc:name="G_428128__46__7__46__796_3__46__peg" fbc:label="G_428128__46__7__46__796_3__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__876_3__46__peg" fbc:name="G_428128__46__7__46__876_3__46__peg" fbc:label="G_428128__46__7__46__876_3__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__797_3__46__peg" fbc:name="G_428128__46__7__46__797_3__46__peg" fbc:label="G_428128__46__7__46__797_3__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__226_4__46__peg" fbc:name="G_428128__46__7__46__226_4__46__peg" fbc:label="G_428128__46__7__46__226_4__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__877_3__46__peg" fbc:name="G_428128__46__7__46__877_3__46__peg" fbc:label="G_428128__46__7__46__877_3__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1593" fbc:name="G_428128__46__7__46__peg__46__1593" fbc:label="G_428128__46__7__46__peg__46__1593"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__1592_1__46__peg" fbc:name="G_428128__46__7__46__1592_1__46__peg" fbc:label="G_428128__46__7__46__1592_1__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1954_1__46__peg" fbc:name="G_428128__46__7__46__1954_1__46__peg" fbc:label="G_428128__46__7__46__1954_1__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__1592_1__46__peg" fbc:name="G_428128__46__7__46__1592_1__46__peg" fbc:label="G_428128__46__7__46__1592_1__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1109" fbc:name="G_428128__46__7__46__peg__46__1109" fbc:label="G_428128__46__7__46__peg__46__1109"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__701" fbc:name="G_428128__46__7__46__peg__46__701" fbc:label="G_428128__46__7__46__peg__46__701"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__465_41__46__peg" fbc:name="G_428128__46__7__46__465_41__46__peg" fbc:label="G_428128__46__7__46__465_41__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__866" fbc:name="G_428128__46__7__46__peg__46__866" fbc:label="G_428128__46__7__46__peg__46__866"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1590" fbc:name="G_428128__46__7__46__peg__46__1590" fbc:label="G_428128__46__7__46__peg__46__1590"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__866" fbc:name="G_428128__46__7__46__peg__46__866" fbc:label="G_428128__46__7__46__peg__46__866"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2345" fbc:name="G_428128__46__7__46__peg__46__2345" fbc:label="G_428128__46__7__46__peg__46__2345"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__690" fbc:name="G_428128__46__7__46__peg__46__690" fbc:label="G_428128__46__7__46__peg__46__690"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1099" fbc:name="G_428128__46__7__46__peg__46__1099" fbc:label="G_428128__46__7__46__peg__46__1099"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__690" fbc:name="G_428128__46__7__46__peg__46__690" fbc:label="G_428128__46__7__46__peg__46__690"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1020_15__46__peg" fbc:name="G_428128__46__7__46__1020_15__46__peg" fbc:label="G_428128__46__7__46__1020_15__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2183" fbc:name="G_428128__46__7__46__peg__46__2183" fbc:label="G_428128__46__7__46__peg__46__2183"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1574_24__46__peg" fbc:name="G_428128__46__7__46__1574_24__46__peg" fbc:label="G_428128__46__7__46__1574_24__46__peg"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__2371_25__46__peg" fbc:name="G_428128__46__7__46__2371_25__46__peg" fbc:label="G_428128__46__7__46__2371_25__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__2372_24__46__peg" fbc:name="G_428128__46__7__46__2372_24__46__peg" fbc:label="G_428128__46__7__46__2372_24__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__2373_23__46__peg" fbc:name="G_428128__46__7__46__2373_23__46__peg" fbc:label="G_428128__46__7__46__2373_23__46__peg"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__2371_25__46__peg" fbc:name="G_428128__46__7__46__2371_25__46__peg" fbc:label="G_428128__46__7__46__2371_25__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__904_1__46__peg" fbc:name="G_428128__46__7__46__904_1__46__peg" fbc:label="G_428128__46__7__46__904_1__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__1737__46__peg" fbc:name="G_428128__46__7__46__1737__46__peg" fbc:label="G_428128__46__7__46__1737__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1021" fbc:name="G_428128__46__7__46__peg__46__1021" fbc:label="G_428128__46__7__46__peg__46__1021"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2195" fbc:name="G_428128__46__7__46__peg__46__2195" fbc:label="G_428128__46__7__46__peg__46__2195"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__892" fbc:name="G_428128__46__7__46__peg__46__892" fbc:label="G_428128__46__7__46__peg__46__892"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2195" fbc:name="G_428128__46__7__46__peg__46__2195" fbc:label="G_428128__46__7__46__peg__46__2195"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__724_43__46__peg" fbc:name="G_428128__46__7__46__724_43__46__peg" fbc:label="G_428128__46__7__46__724_43__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__723_44__46__peg" fbc:name="G_428128__46__7__46__723_44__46__peg" fbc:label="G_428128__46__7__46__723_44__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1748" fbc:name="G_428128__46__7__46__peg__46__1748" fbc:label="G_428128__46__7__46__peg__46__1748"/>
@@ -64913,8 +64913,8 @@
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__752" fbc:name="G_428128__46__7__46__peg__46__752" fbc:label="G_428128__46__7__46__peg__46__752"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1247" fbc:name="G_428128__46__7__46__peg__46__1247" fbc:label="G_428128__46__7__46__peg__46__1247"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2153" fbc:name="G_428128__46__7__46__peg__46__2153" fbc:label="G_428128__46__7__46__peg__46__2153"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2344" fbc:name="G_428128__46__7__46__peg__46__2344" fbc:label="G_428128__46__7__46__peg__46__2344"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__391" fbc:name="G_428128__46__7__46__peg__46__391" fbc:label="G_428128__46__7__46__peg__46__391"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2344" fbc:name="G_428128__46__7__46__peg__46__2344" fbc:label="G_428128__46__7__46__peg__46__2344"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__885" fbc:name="G_428128__46__7__46__peg__46__885" fbc:label="G_428128__46__7__46__peg__46__885"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2157" fbc:name="G_428128__46__7__46__peg__46__2157" fbc:label="G_428128__46__7__46__peg__46__2157"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2156" fbc:name="G_428128__46__7__46__peg__46__2156" fbc:label="G_428128__46__7__46__peg__46__2156"/>
@@ -64932,128 +64932,128 @@
       <fbc:geneProduct fbc:id="G_428128__46__7__46__204__46__peg" fbc:name="G_428128__46__7__46__204__46__peg" fbc:label="G_428128__46__7__46__204__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__204" fbc:name="G_428128__46__7__46__peg__46__204" fbc:label="G_428128__46__7__46__peg__46__204"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__464" fbc:name="G_428128__46__7__46__peg__46__464" fbc:label="G_428128__46__7__46__peg__46__464"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1932" fbc:name="G_428128__46__7__46__peg__46__1932" fbc:label="G_428128__46__7__46__peg__46__1932"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2271" fbc:name="G_428128__46__7__46__peg__46__2271" fbc:label="G_428128__46__7__46__peg__46__2271"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__530" fbc:name="G_428128__46__7__46__peg__46__530" fbc:label="G_428128__46__7__46__peg__46__530"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2271" fbc:name="G_428128__46__7__46__peg__46__2271" fbc:label="G_428128__46__7__46__peg__46__2271"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__5" fbc:name="G_428128__46__7__46__peg__46__5" fbc:label="G_428128__46__7__46__peg__46__5"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__86" fbc:name="G_428128__46__7__46__peg__46__86" fbc:label="G_428128__46__7__46__peg__46__86"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__930" fbc:name="G_428128__46__7__46__peg__46__930" fbc:label="G_428128__46__7__46__peg__46__930"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1932" fbc:name="G_428128__46__7__46__peg__46__1932" fbc:label="G_428128__46__7__46__peg__46__1932"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__929" fbc:name="G_428128__46__7__46__peg__46__929" fbc:label="G_428128__46__7__46__peg__46__929"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__931" fbc:name="G_428128__46__7__46__peg__46__931" fbc:label="G_428128__46__7__46__peg__46__931"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1518" fbc:name="G_428128__46__7__46__peg__46__1518" fbc:label="G_428128__46__7__46__peg__46__1518"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2276" fbc:name="G_428128__46__7__46__peg__46__2276" fbc:label="G_428128__46__7__46__peg__46__2276"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1033" fbc:name="G_428128__46__7__46__peg__46__1033" fbc:label="G_428128__46__7__46__peg__46__1033"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1120" fbc:name="G_428128__46__7__46__peg__46__1120" fbc:label="G_428128__46__7__46__peg__46__1120"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1757" fbc:name="G_428128__46__7__46__peg__46__1757" fbc:label="G_428128__46__7__46__peg__46__1757"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2124" fbc:name="G_428128__46__7__46__peg__46__2124" fbc:label="G_428128__46__7__46__peg__46__2124"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__11" fbc:name="G_428128__46__7__46__peg__46__11" fbc:label="G_428128__46__7__46__peg__46__11"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__317" fbc:name="G_428128__46__7__46__peg__46__317" fbc:label="G_428128__46__7__46__peg__46__317"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1699" fbc:name="G_428128__46__7__46__peg__46__1699" fbc:label="G_428128__46__7__46__peg__46__1699"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2101" fbc:name="G_428128__46__7__46__peg__46__2101" fbc:label="G_428128__46__7__46__peg__46__2101"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1031" fbc:name="G_428128__46__7__46__peg__46__1031" fbc:label="G_428128__46__7__46__peg__46__1031"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2275" fbc:name="G_428128__46__7__46__peg__46__2275" fbc:label="G_428128__46__7__46__peg__46__2275"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2119" fbc:name="G_428128__46__7__46__peg__46__2119" fbc:label="G_428128__46__7__46__peg__46__2119"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2094" fbc:name="G_428128__46__7__46__peg__46__2094" fbc:label="G_428128__46__7__46__peg__46__2094"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__930" fbc:name="G_428128__46__7__46__peg__46__930" fbc:label="G_428128__46__7__46__peg__46__930"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2100" fbc:name="G_428128__46__7__46__peg__46__2100" fbc:label="G_428128__46__7__46__peg__46__2100"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2091" fbc:name="G_428128__46__7__46__peg__46__2091" fbc:label="G_428128__46__7__46__peg__46__2091"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__942" fbc:name="G_428128__46__7__46__peg__46__942" fbc:label="G_428128__46__7__46__peg__46__942"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1256" fbc:name="G_428128__46__7__46__peg__46__1256" fbc:label="G_428128__46__7__46__peg__46__1256"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__541" fbc:name="G_428128__46__7__46__peg__46__541" fbc:label="G_428128__46__7__46__peg__46__541"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1617" fbc:name="G_428128__46__7__46__peg__46__1617" fbc:label="G_428128__46__7__46__peg__46__1617"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__260" fbc:name="G_428128__46__7__46__peg__46__260" fbc:label="G_428128__46__7__46__peg__46__260"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__920" fbc:name="G_428128__46__7__46__peg__46__920" fbc:label="G_428128__46__7__46__peg__46__920"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1439" fbc:name="G_428128__46__7__46__peg__46__1439" fbc:label="G_428128__46__7__46__peg__46__1439"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1675" fbc:name="G_428128__46__7__46__peg__46__1675" fbc:label="G_428128__46__7__46__peg__46__1675"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__790" fbc:name="G_428128__46__7__46__peg__46__790" fbc:label="G_428128__46__7__46__peg__46__790"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__542" fbc:name="G_428128__46__7__46__peg__46__542" fbc:label="G_428128__46__7__46__peg__46__542"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__786" fbc:name="G_428128__46__7__46__peg__46__786" fbc:label="G_428128__46__7__46__peg__46__786"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1518" fbc:name="G_428128__46__7__46__peg__46__1518" fbc:label="G_428128__46__7__46__peg__46__1518"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__260" fbc:name="G_428128__46__7__46__peg__46__260" fbc:label="G_428128__46__7__46__peg__46__260"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2275" fbc:name="G_428128__46__7__46__peg__46__2275" fbc:label="G_428128__46__7__46__peg__46__2275"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1439" fbc:name="G_428128__46__7__46__peg__46__1439" fbc:label="G_428128__46__7__46__peg__46__1439"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2101" fbc:name="G_428128__46__7__46__peg__46__2101" fbc:label="G_428128__46__7__46__peg__46__2101"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__11" fbc:name="G_428128__46__7__46__peg__46__11" fbc:label="G_428128__46__7__46__peg__46__11"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1617" fbc:name="G_428128__46__7__46__peg__46__1617" fbc:label="G_428128__46__7__46__peg__46__1617"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__920" fbc:name="G_428128__46__7__46__peg__46__920" fbc:label="G_428128__46__7__46__peg__46__920"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__942" fbc:name="G_428128__46__7__46__peg__46__942" fbc:label="G_428128__46__7__46__peg__46__942"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__317" fbc:name="G_428128__46__7__46__peg__46__317" fbc:label="G_428128__46__7__46__peg__46__317"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1033" fbc:name="G_428128__46__7__46__peg__46__1033" fbc:label="G_428128__46__7__46__peg__46__1033"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1256" fbc:name="G_428128__46__7__46__peg__46__1256" fbc:label="G_428128__46__7__46__peg__46__1256"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2094" fbc:name="G_428128__46__7__46__peg__46__2094" fbc:label="G_428128__46__7__46__peg__46__2094"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__541" fbc:name="G_428128__46__7__46__peg__46__541" fbc:label="G_428128__46__7__46__peg__46__541"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1699" fbc:name="G_428128__46__7__46__peg__46__1699" fbc:label="G_428128__46__7__46__peg__46__1699"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2119" fbc:name="G_428128__46__7__46__peg__46__2119" fbc:label="G_428128__46__7__46__peg__46__2119"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1757" fbc:name="G_428128__46__7__46__peg__46__1757" fbc:label="G_428128__46__7__46__peg__46__1757"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2276" fbc:name="G_428128__46__7__46__peg__46__2276" fbc:label="G_428128__46__7__46__peg__46__2276"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1120" fbc:name="G_428128__46__7__46__peg__46__1120" fbc:label="G_428128__46__7__46__peg__46__1120"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2124" fbc:name="G_428128__46__7__46__peg__46__2124" fbc:label="G_428128__46__7__46__peg__46__2124"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1031" fbc:name="G_428128__46__7__46__peg__46__1031" fbc:label="G_428128__46__7__46__peg__46__1031"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__917" fbc:name="G_428128__46__7__46__peg__46__917" fbc:label="G_428128__46__7__46__peg__46__917"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__211" fbc:name="G_428128__46__7__46__peg__46__211" fbc:label="G_428128__46__7__46__peg__46__211"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__231" fbc:name="G_428128__46__7__46__peg__46__231" fbc:label="G_428128__46__7__46__peg__46__231"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1818" fbc:name="G_428128__46__7__46__peg__46__1818" fbc:label="G_428128__46__7__46__peg__46__1818"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2116" fbc:name="G_428128__46__7__46__peg__46__2116" fbc:label="G_428128__46__7__46__peg__46__2116"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__791" fbc:name="G_428128__46__7__46__peg__46__791" fbc:label="G_428128__46__7__46__peg__46__791"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__764" fbc:name="G_428128__46__7__46__peg__46__764" fbc:label="G_428128__46__7__46__peg__46__764"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__767" fbc:name="G_428128__46__7__46__peg__46__767" fbc:label="G_428128__46__7__46__peg__46__767"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__553" fbc:name="G_428128__46__7__46__peg__46__553" fbc:label="G_428128__46__7__46__peg__46__553"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__781" fbc:name="G_428128__46__7__46__peg__46__781" fbc:label="G_428128__46__7__46__peg__46__781"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1224" fbc:name="G_428128__46__7__46__peg__46__1224" fbc:label="G_428128__46__7__46__peg__46__1224"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1058" fbc:name="G_428128__46__7__46__peg__46__1058" fbc:label="G_428128__46__7__46__peg__46__1058"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1427" fbc:name="G_428128__46__7__46__peg__46__1427" fbc:label="G_428128__46__7__46__peg__46__1427"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__766" fbc:name="G_428128__46__7__46__peg__46__766" fbc:label="G_428128__46__7__46__peg__46__766"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2190" fbc:name="G_428128__46__7__46__peg__46__2190" fbc:label="G_428128__46__7__46__peg__46__2190"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1755" fbc:name="G_428128__46__7__46__peg__46__1755" fbc:label="G_428128__46__7__46__peg__46__1755"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2085" fbc:name="G_428128__46__7__46__peg__46__2085" fbc:label="G_428128__46__7__46__peg__46__2085"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__712" fbc:name="G_428128__46__7__46__peg__46__712" fbc:label="G_428128__46__7__46__peg__46__712"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__540" fbc:name="G_428128__46__7__46__peg__46__540" fbc:label="G_428128__46__7__46__peg__46__540"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__451" fbc:name="G_428128__46__7__46__peg__46__451" fbc:label="G_428128__46__7__46__peg__46__451"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__775" fbc:name="G_428128__46__7__46__peg__46__775" fbc:label="G_428128__46__7__46__peg__46__775"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__795" fbc:name="G_428128__46__7__46__peg__46__795" fbc:label="G_428128__46__7__46__peg__46__795"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__768" fbc:name="G_428128__46__7__46__peg__46__768" fbc:label="G_428128__46__7__46__peg__46__768"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__542" fbc:name="G_428128__46__7__46__peg__46__542" fbc:label="G_428128__46__7__46__peg__46__542"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__769" fbc:name="G_428128__46__7__46__peg__46__769" fbc:label="G_428128__46__7__46__peg__46__769"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1002" fbc:name="G_428128__46__7__46__peg__46__1002" fbc:label="G_428128__46__7__46__peg__46__1002"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1198" fbc:name="G_428128__46__7__46__peg__46__1198" fbc:label="G_428128__46__7__46__peg__46__1198"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__105" fbc:name="G_428128__46__7__46__peg__46__105" fbc:label="G_428128__46__7__46__peg__46__105"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1213" fbc:name="G_428128__46__7__46__peg__46__1213" fbc:label="G_428128__46__7__46__peg__46__1213"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__786" fbc:name="G_428128__46__7__46__peg__46__786" fbc:label="G_428128__46__7__46__peg__46__786"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__104" fbc:name="G_428128__46__7__46__peg__46__104" fbc:label="G_428128__46__7__46__peg__46__104"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1864" fbc:name="G_428128__46__7__46__peg__46__1864" fbc:label="G_428128__46__7__46__peg__46__1864"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__784" fbc:name="G_428128__46__7__46__peg__46__784" fbc:label="G_428128__46__7__46__peg__46__784"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__444" fbc:name="G_428128__46__7__46__peg__46__444" fbc:label="G_428128__46__7__46__peg__46__444"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__794" fbc:name="G_428128__46__7__46__peg__46__794" fbc:label="G_428128__46__7__46__peg__46__794"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__787" fbc:name="G_428128__46__7__46__peg__46__787" fbc:label="G_428128__46__7__46__peg__46__787"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__776" fbc:name="G_428128__46__7__46__peg__46__776" fbc:label="G_428128__46__7__46__peg__46__776"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__148" fbc:name="G_428128__46__7__46__peg__46__148" fbc:label="G_428128__46__7__46__peg__46__148"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__779" fbc:name="G_428128__46__7__46__peg__46__779" fbc:label="G_428128__46__7__46__peg__46__779"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__416" fbc:name="G_428128__46__7__46__peg__46__416" fbc:label="G_428128__46__7__46__peg__46__416"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__598" fbc:name="G_428128__46__7__46__peg__46__598" fbc:label="G_428128__46__7__46__peg__46__598"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1184" fbc:name="G_428128__46__7__46__peg__46__1184" fbc:label="G_428128__46__7__46__peg__46__1184"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__404" fbc:name="G_428128__46__7__46__peg__46__404" fbc:label="G_428128__46__7__46__peg__46__404"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__789" fbc:name="G_428128__46__7__46__peg__46__789" fbc:label="G_428128__46__7__46__peg__46__789"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__140" fbc:name="G_428128__46__7__46__peg__46__140" fbc:label="G_428128__46__7__46__peg__46__140"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1188" fbc:name="G_428128__46__7__46__peg__46__1188" fbc:label="G_428128__46__7__46__peg__46__1188"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__788" fbc:name="G_428128__46__7__46__peg__46__788" fbc:label="G_428128__46__7__46__peg__46__788"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__212" fbc:name="G_428128__46__7__46__peg__46__212" fbc:label="G_428128__46__7__46__peg__46__212"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__187" fbc:name="G_428128__46__7__46__peg__46__187" fbc:label="G_428128__46__7__46__peg__46__187"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__142" fbc:name="G_428128__46__7__46__peg__46__142" fbc:label="G_428128__46__7__46__peg__46__142"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2107" fbc:name="G_428128__46__7__46__peg__46__2107" fbc:label="G_428128__46__7__46__peg__46__2107"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1165" fbc:name="G_428128__46__7__46__peg__46__1165" fbc:label="G_428128__46__7__46__peg__46__1165"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__450" fbc:name="G_428128__46__7__46__peg__46__450" fbc:label="G_428128__46__7__46__peg__46__450"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1857" fbc:name="G_428128__46__7__46__peg__46__1857" fbc:label="G_428128__46__7__46__peg__46__1857"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__783" fbc:name="G_428128__46__7__46__peg__46__783" fbc:label="G_428128__46__7__46__peg__46__783"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__141" fbc:name="G_428128__46__7__46__peg__46__141" fbc:label="G_428128__46__7__46__peg__46__141"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1732" fbc:name="G_428128__46__7__46__peg__46__1732" fbc:label="G_428128__46__7__46__peg__46__1732"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__782" fbc:name="G_428128__46__7__46__peg__46__782" fbc:label="G_428128__46__7__46__peg__46__782"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1196" fbc:name="G_428128__46__7__46__peg__46__1196" fbc:label="G_428128__46__7__46__peg__46__1196"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__778" fbc:name="G_428128__46__7__46__peg__46__778" fbc:label="G_428128__46__7__46__peg__46__778"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__105" fbc:name="G_428128__46__7__46__peg__46__105" fbc:label="G_428128__46__7__46__peg__46__105"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1188" fbc:name="G_428128__46__7__46__peg__46__1188" fbc:label="G_428128__46__7__46__peg__46__1188"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1818" fbc:name="G_428128__46__7__46__peg__46__1818" fbc:label="G_428128__46__7__46__peg__46__1818"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__777" fbc:name="G_428128__46__7__46__peg__46__777" fbc:label="G_428128__46__7__46__peg__46__777"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__794" fbc:name="G_428128__46__7__46__peg__46__794" fbc:label="G_428128__46__7__46__peg__46__794"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__767" fbc:name="G_428128__46__7__46__peg__46__767" fbc:label="G_428128__46__7__46__peg__46__767"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__211" fbc:name="G_428128__46__7__46__peg__46__211" fbc:label="G_428128__46__7__46__peg__46__211"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__784" fbc:name="G_428128__46__7__46__peg__46__784" fbc:label="G_428128__46__7__46__peg__46__784"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__780" fbc:name="G_428128__46__7__46__peg__46__780" fbc:label="G_428128__46__7__46__peg__46__780"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1857" fbc:name="G_428128__46__7__46__peg__46__1857" fbc:label="G_428128__46__7__46__peg__46__1857"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__764" fbc:name="G_428128__46__7__46__peg__46__764" fbc:label="G_428128__46__7__46__peg__46__764"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1732" fbc:name="G_428128__46__7__46__peg__46__1732" fbc:label="G_428128__46__7__46__peg__46__1732"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__783" fbc:name="G_428128__46__7__46__peg__46__783" fbc:label="G_428128__46__7__46__peg__46__783"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__782" fbc:name="G_428128__46__7__46__peg__46__782" fbc:label="G_428128__46__7__46__peg__46__782"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__769" fbc:name="G_428128__46__7__46__peg__46__769" fbc:label="G_428128__46__7__46__peg__46__769"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__788" fbc:name="G_428128__46__7__46__peg__46__788" fbc:label="G_428128__46__7__46__peg__46__788"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1213" fbc:name="G_428128__46__7__46__peg__46__1213" fbc:label="G_428128__46__7__46__peg__46__1213"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__792" fbc:name="G_428128__46__7__46__peg__46__792" fbc:label="G_428128__46__7__46__peg__46__792"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1184" fbc:name="G_428128__46__7__46__peg__46__1184" fbc:label="G_428128__46__7__46__peg__46__1184"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__104" fbc:name="G_428128__46__7__46__peg__46__104" fbc:label="G_428128__46__7__46__peg__46__104"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__712" fbc:name="G_428128__46__7__46__peg__46__712" fbc:label="G_428128__46__7__46__peg__46__712"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__785" fbc:name="G_428128__46__7__46__peg__46__785" fbc:label="G_428128__46__7__46__peg__46__785"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1224" fbc:name="G_428128__46__7__46__peg__46__1224" fbc:label="G_428128__46__7__46__peg__46__1224"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__793" fbc:name="G_428128__46__7__46__peg__46__793" fbc:label="G_428128__46__7__46__peg__46__793"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__598" fbc:name="G_428128__46__7__46__peg__46__598" fbc:label="G_428128__46__7__46__peg__46__598"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__787" fbc:name="G_428128__46__7__46__peg__46__787" fbc:label="G_428128__46__7__46__peg__46__787"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2085" fbc:name="G_428128__46__7__46__peg__46__2085" fbc:label="G_428128__46__7__46__peg__46__2085"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__790" fbc:name="G_428128__46__7__46__peg__46__790" fbc:label="G_428128__46__7__46__peg__46__790"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1552" fbc:name="G_428128__46__7__46__peg__46__1552" fbc:label="G_428128__46__7__46__peg__46__1552"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__231" fbc:name="G_428128__46__7__46__peg__46__231" fbc:label="G_428128__46__7__46__peg__46__231"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2107" fbc:name="G_428128__46__7__46__peg__46__2107" fbc:label="G_428128__46__7__46__peg__46__2107"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1198" fbc:name="G_428128__46__7__46__peg__46__1198" fbc:label="G_428128__46__7__46__peg__46__1198"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__451" fbc:name="G_428128__46__7__46__peg__46__451" fbc:label="G_428128__46__7__46__peg__46__451"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__142" fbc:name="G_428128__46__7__46__peg__46__142" fbc:label="G_428128__46__7__46__peg__46__142"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1427" fbc:name="G_428128__46__7__46__peg__46__1427" fbc:label="G_428128__46__7__46__peg__46__1427"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1742" fbc:name="G_428128__46__7__46__peg__46__1742" fbc:label="G_428128__46__7__46__peg__46__1742"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2116" fbc:name="G_428128__46__7__46__peg__46__2116" fbc:label="G_428128__46__7__46__peg__46__2116"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1002" fbc:name="G_428128__46__7__46__peg__46__1002" fbc:label="G_428128__46__7__46__peg__46__1002"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__780" fbc:name="G_428128__46__7__46__peg__46__780" fbc:label="G_428128__46__7__46__peg__46__780"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__785" fbc:name="G_428128__46__7__46__peg__46__785" fbc:label="G_428128__46__7__46__peg__46__785"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__442" fbc:name="G_428128__46__7__46__peg__46__442" fbc:label="G_428128__46__7__46__peg__46__442"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__791" fbc:name="G_428128__46__7__46__peg__46__791" fbc:label="G_428128__46__7__46__peg__46__791"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1769" fbc:name="G_428128__46__7__46__peg__46__1769" fbc:label="G_428128__46__7__46__peg__46__1769"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__444" fbc:name="G_428128__46__7__46__peg__46__444" fbc:label="G_428128__46__7__46__peg__46__444"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__768" fbc:name="G_428128__46__7__46__peg__46__768" fbc:label="G_428128__46__7__46__peg__46__768"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__404" fbc:name="G_428128__46__7__46__peg__46__404" fbc:label="G_428128__46__7__46__peg__46__404"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__775" fbc:name="G_428128__46__7__46__peg__46__775" fbc:label="G_428128__46__7__46__peg__46__775"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__776" fbc:name="G_428128__46__7__46__peg__46__776" fbc:label="G_428128__46__7__46__peg__46__776"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1165" fbc:name="G_428128__46__7__46__peg__46__1165" fbc:label="G_428128__46__7__46__peg__46__1165"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1058" fbc:name="G_428128__46__7__46__peg__46__1058" fbc:label="G_428128__46__7__46__peg__46__1058"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1755" fbc:name="G_428128__46__7__46__peg__46__1755" fbc:label="G_428128__46__7__46__peg__46__1755"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__779" fbc:name="G_428128__46__7__46__peg__46__779" fbc:label="G_428128__46__7__46__peg__46__779"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__417" fbc:name="G_428128__46__7__46__peg__46__417" fbc:label="G_428128__46__7__46__peg__46__417"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__789" fbc:name="G_428128__46__7__46__peg__46__789" fbc:label="G_428128__46__7__46__peg__46__789"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__212" fbc:name="G_428128__46__7__46__peg__46__212" fbc:label="G_428128__46__7__46__peg__46__212"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__795" fbc:name="G_428128__46__7__46__peg__46__795" fbc:label="G_428128__46__7__46__peg__46__795"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__141" fbc:name="G_428128__46__7__46__peg__46__141" fbc:label="G_428128__46__7__46__peg__46__141"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__450" fbc:name="G_428128__46__7__46__peg__46__450" fbc:label="G_428128__46__7__46__peg__46__450"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__862" fbc:name="G_428128__46__7__46__peg__46__862" fbc:label="G_428128__46__7__46__peg__46__862"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2188" fbc:name="G_428128__46__7__46__peg__46__2188" fbc:label="G_428128__46__7__46__peg__46__2188"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__148" fbc:name="G_428128__46__7__46__peg__46__148" fbc:label="G_428128__46__7__46__peg__46__148"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__792" fbc:name="G_428128__46__7__46__peg__46__792" fbc:label="G_428128__46__7__46__peg__46__792"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2133" fbc:name="G_428128__46__7__46__peg__46__2133" fbc:label="G_428128__46__7__46__peg__46__2133"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__187" fbc:name="G_428128__46__7__46__peg__46__187" fbc:label="G_428128__46__7__46__peg__46__187"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__540" fbc:name="G_428128__46__7__46__peg__46__540" fbc:label="G_428128__46__7__46__peg__46__540"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__781" fbc:name="G_428128__46__7__46__peg__46__781" fbc:label="G_428128__46__7__46__peg__46__781"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__917" fbc:name="G_428128__46__7__46__peg__46__917" fbc:label="G_428128__46__7__46__peg__46__917"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__766" fbc:name="G_428128__46__7__46__peg__46__766" fbc:label="G_428128__46__7__46__peg__46__766"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__140" fbc:name="G_428128__46__7__46__peg__46__140" fbc:label="G_428128__46__7__46__peg__46__140"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__416" fbc:name="G_428128__46__7__46__peg__46__416" fbc:label="G_428128__46__7__46__peg__46__416"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2190" fbc:name="G_428128__46__7__46__peg__46__2190" fbc:label="G_428128__46__7__46__peg__46__2190"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1864" fbc:name="G_428128__46__7__46__peg__46__1864" fbc:label="G_428128__46__7__46__peg__46__1864"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__417" fbc:name="G_428128__46__7__46__peg__46__417" fbc:label="G_428128__46__7__46__peg__46__417"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__793" fbc:name="G_428128__46__7__46__peg__46__793" fbc:label="G_428128__46__7__46__peg__46__793"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1769" fbc:name="G_428128__46__7__46__peg__46__1769" fbc:label="G_428128__46__7__46__peg__46__1769"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__777" fbc:name="G_428128__46__7__46__peg__46__777" fbc:label="G_428128__46__7__46__peg__46__777"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__862" fbc:name="G_428128__46__7__46__peg__46__862" fbc:label="G_428128__46__7__46__peg__46__862"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1742" fbc:name="G_428128__46__7__46__peg__46__1742" fbc:label="G_428128__46__7__46__peg__46__1742"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__359" fbc:name="G_428128__46__7__46__peg__46__359" fbc:label="G_428128__46__7__46__peg__46__359"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__718_16__46__peg" fbc:name="G_428128__46__7__46__718_16__46__peg" fbc:label="G_428128__46__7__46__718_16__46__peg"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2279" fbc:name="G_428128__46__7__46__peg__46__2279" fbc:label="G_428128__46__7__46__peg__46__2279"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__316" fbc:name="G_428128__46__7__46__peg__46__316" fbc:label="G_428128__46__7__46__peg__46__316"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2122" fbc:name="G_428128__46__7__46__peg__46__2122" fbc:label="G_428128__46__7__46__peg__46__2122"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__415" fbc:name="G_428128__46__7__46__peg__46__415" fbc:label="G_428128__46__7__46__peg__46__415"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__414" fbc:name="G_428128__46__7__46__peg__46__414" fbc:label="G_428128__46__7__46__peg__46__414"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1926" fbc:name="G_428128__46__7__46__peg__46__1926" fbc:label="G_428128__46__7__46__peg__46__1926"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2365" fbc:name="G_428128__46__7__46__peg__46__2365" fbc:label="G_428128__46__7__46__peg__46__2365"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__420" fbc:name="G_428128__46__7__46__peg__46__420" fbc:label="G_428128__46__7__46__peg__46__420"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__765" fbc:name="G_428128__46__7__46__peg__46__765" fbc:label="G_428128__46__7__46__peg__46__765"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__575" fbc:name="G_428128__46__7__46__peg__46__575" fbc:label="G_428128__46__7__46__peg__46__575"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__807" fbc:name="G_428128__46__7__46__peg__46__807" fbc:label="G_428128__46__7__46__peg__46__807"/>
-      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1588" fbc:name="G_428128__46__7__46__peg__46__1588" fbc:label="G_428128__46__7__46__peg__46__1588"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1426" fbc:name="G_428128__46__7__46__peg__46__1426" fbc:label="G_428128__46__7__46__peg__46__1426"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__420" fbc:name="G_428128__46__7__46__peg__46__420" fbc:label="G_428128__46__7__46__peg__46__420"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__414" fbc:name="G_428128__46__7__46__peg__46__414" fbc:label="G_428128__46__7__46__peg__46__414"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1588" fbc:name="G_428128__46__7__46__peg__46__1588" fbc:label="G_428128__46__7__46__peg__46__1588"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__807" fbc:name="G_428128__46__7__46__peg__46__807" fbc:label="G_428128__46__7__46__peg__46__807"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2122" fbc:name="G_428128__46__7__46__peg__46__2122" fbc:label="G_428128__46__7__46__peg__46__2122"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1926" fbc:name="G_428128__46__7__46__peg__46__1926" fbc:label="G_428128__46__7__46__peg__46__1926"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__575" fbc:name="G_428128__46__7__46__peg__46__575" fbc:label="G_428128__46__7__46__peg__46__575"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__316" fbc:name="G_428128__46__7__46__peg__46__316" fbc:label="G_428128__46__7__46__peg__46__316"/>
       <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__1068" fbc:name="G_428128__46__7__46__peg__46__1068" fbc:label="G_428128__46__7__46__peg__46__1068"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__765" fbc:name="G_428128__46__7__46__peg__46__765" fbc:label="G_428128__46__7__46__peg__46__765"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__415" fbc:name="G_428128__46__7__46__peg__46__415" fbc:label="G_428128__46__7__46__peg__46__415"/>
+      <fbc:geneProduct fbc:id="G_428128__46__7__46__peg__46__2365" fbc:name="G_428128__46__7__46__peg__46__2365" fbc:label="G_428128__46__7__46__peg__46__2365"/>
     </fbc:listOfGeneProducts>
   </model>
 </sbml>

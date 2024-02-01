@@ -60066,12 +60066,12 @@
       <fbc:geneProduct fbc:id="G_ASJ35_RS02340" fbc:name="G_ASJ35_RS02340" fbc:label="G_ASJ35_RS02340"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS11410" fbc:name="G_ASJ35_RS11410" fbc:label="G_ASJ35_RS11410"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS06480" fbc:name="G_ASJ35_RS06480" fbc:label="G_ASJ35_RS06480"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS16825" fbc:name="G_ASJ35_RS16825" fbc:label="G_ASJ35_RS16825"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04970" fbc:name="G_ASJ35_RS04970" fbc:label="G_ASJ35_RS04970"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS16825" fbc:name="G_ASJ35_RS16825" fbc:label="G_ASJ35_RS16825"/>
       <fbc:geneProduct fbc:id="G_Unknown" fbc:name="G_Unknown" fbc:label="G_Unknown"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09445" fbc:name="G_ASJ35_RS09445" fbc:label="G_ASJ35_RS09445"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS16695" fbc:name="G_ASJ35_RS16695" fbc:label="G_ASJ35_RS16695"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12645" fbc:name="G_ASJ35_RS12645" fbc:label="G_ASJ35_RS12645"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS16695" fbc:name="G_ASJ35_RS16695" fbc:label="G_ASJ35_RS16695"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS02425" fbc:name="G_ASJ35_RS02425" fbc:label="G_ASJ35_RS02425"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS05620" fbc:name="G_ASJ35_RS05620" fbc:label="G_ASJ35_RS05620"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS06020" fbc:name="G_ASJ35_RS06020" fbc:label="G_ASJ35_RS06020"/>
@@ -60079,8 +60079,8 @@
       <fbc:geneProduct fbc:id="G_ASJ35_RS16590" fbc:name="G_ASJ35_RS16590" fbc:label="G_ASJ35_RS16590"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS10095" fbc:name="G_ASJ35_RS10095" fbc:label="G_ASJ35_RS10095"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS05190" fbc:name="G_ASJ35_RS05190" fbc:label="G_ASJ35_RS05190"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS00125" fbc:name="G_ASJ35_RS00125" fbc:label="G_ASJ35_RS00125"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS00120" fbc:name="G_ASJ35_RS00120" fbc:label="G_ASJ35_RS00120"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS00125" fbc:name="G_ASJ35_RS00125" fbc:label="G_ASJ35_RS00125"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12480" fbc:name="G_ASJ35_RS12480" fbc:label="G_ASJ35_RS12480"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03745" fbc:name="G_ASJ35_RS03745" fbc:label="G_ASJ35_RS03745"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS15955" fbc:name="G_ASJ35_RS15955" fbc:label="G_ASJ35_RS15955"/>
@@ -60096,58 +60096,58 @@
       <fbc:geneProduct fbc:id="G_ASJ35_RS15870" fbc:name="G_ASJ35_RS15870" fbc:label="G_ASJ35_RS15870"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08915" fbc:name="G_ASJ35_RS08915" fbc:label="G_ASJ35_RS08915"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS06015" fbc:name="G_ASJ35_RS06015" fbc:label="G_ASJ35_RS06015"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS18190" fbc:name="G_ASJ35_RS18190" fbc:label="G_ASJ35_RS18190"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS05755" fbc:name="G_ASJ35_RS05755" fbc:label="G_ASJ35_RS05755"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS18190" fbc:name="G_ASJ35_RS18190" fbc:label="G_ASJ35_RS18190"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS10570" fbc:name="G_ASJ35_RS10570" fbc:label="G_ASJ35_RS10570"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS01200" fbc:name="G_ASJ35_RS01200" fbc:label="G_ASJ35_RS01200"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03860" fbc:name="G_ASJ35_RS03860" fbc:label="G_ASJ35_RS03860"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS01200" fbc:name="G_ASJ35_RS01200" fbc:label="G_ASJ35_RS01200"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09485" fbc:name="G_ASJ35_RS09485" fbc:label="G_ASJ35_RS09485"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08390" fbc:name="G_ASJ35_RS08390" fbc:label="G_ASJ35_RS08390"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS16575" fbc:name="G_ASJ35_RS16575" fbc:label="G_ASJ35_RS16575"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS10930" fbc:name="G_ASJ35_RS10930" fbc:label="G_ASJ35_RS10930"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS14380" fbc:name="G_ASJ35_RS14380" fbc:label="G_ASJ35_RS14380"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS05540" fbc:name="G_ASJ35_RS05540" fbc:label="G_ASJ35_RS05540"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS10930" fbc:name="G_ASJ35_RS10930" fbc:label="G_ASJ35_RS10930"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS16575" fbc:name="G_ASJ35_RS16575" fbc:label="G_ASJ35_RS16575"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS14380" fbc:name="G_ASJ35_RS14380" fbc:label="G_ASJ35_RS14380"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08175" fbc:name="G_ASJ35_RS08175" fbc:label="G_ASJ35_RS08175"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13530" fbc:name="G_ASJ35_RS13530" fbc:label="G_ASJ35_RS13530"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS03250" fbc:name="G_ASJ35_RS03250" fbc:label="G_ASJ35_RS03250"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08530" fbc:name="G_ASJ35_RS08530" fbc:label="G_ASJ35_RS08530"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS13595" fbc:name="G_ASJ35_RS13595" fbc:label="G_ASJ35_RS13595"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS04165" fbc:name="G_ASJ35_RS04165" fbc:label="G_ASJ35_RS04165"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS10885" fbc:name="G_ASJ35_RS10885" fbc:label="G_ASJ35_RS10885"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS10795" fbc:name="G_ASJ35_RS10795" fbc:label="G_ASJ35_RS10795"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS16110" fbc:name="G_ASJ35_RS16110" fbc:label="G_ASJ35_RS16110"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS13595" fbc:name="G_ASJ35_RS13595" fbc:label="G_ASJ35_RS13595"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS04165" fbc:name="G_ASJ35_RS04165" fbc:label="G_ASJ35_RS04165"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS03250" fbc:name="G_ASJ35_RS03250" fbc:label="G_ASJ35_RS03250"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08530" fbc:name="G_ASJ35_RS08530" fbc:label="G_ASJ35_RS08530"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS01855" fbc:name="G_ASJ35_RS01855" fbc:label="G_ASJ35_RS01855"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS16110" fbc:name="G_ASJ35_RS16110" fbc:label="G_ASJ35_RS16110"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS06195" fbc:name="G_ASJ35_RS06195" fbc:label="G_ASJ35_RS06195"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08910" fbc:name="G_ASJ35_RS08910" fbc:label="G_ASJ35_RS08910"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS00220" fbc:name="G_ASJ35_RS00220" fbc:label="G_ASJ35_RS00220"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09850" fbc:name="G_ASJ35_RS09850" fbc:label="G_ASJ35_RS09850"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09845" fbc:name="G_ASJ35_RS09845" fbc:label="G_ASJ35_RS09845"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS00225" fbc:name="G_ASJ35_RS00225" fbc:label="G_ASJ35_RS00225"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS00215" fbc:name="G_ASJ35_RS00215" fbc:label="G_ASJ35_RS00215"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08705" fbc:name="G_ASJ35_RS08705" fbc:label="G_ASJ35_RS08705"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS14790" fbc:name="G_ASJ35_RS14790" fbc:label="G_ASJ35_RS14790"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09835" fbc:name="G_ASJ35_RS09835" fbc:label="G_ASJ35_RS09835"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS00205" fbc:name="G_ASJ35_RS00205" fbc:label="G_ASJ35_RS00205"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS00220" fbc:name="G_ASJ35_RS00220" fbc:label="G_ASJ35_RS00220"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS00225" fbc:name="G_ASJ35_RS00225" fbc:label="G_ASJ35_RS00225"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09840" fbc:name="G_ASJ35_RS09840" fbc:label="G_ASJ35_RS09840"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09835" fbc:name="G_ASJ35_RS09835" fbc:label="G_ASJ35_RS09835"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS00460" fbc:name="G_ASJ35_RS00460" fbc:label="G_ASJ35_RS00460"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08685" fbc:name="G_ASJ35_RS08685" fbc:label="G_ASJ35_RS08685"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08710" fbc:name="G_ASJ35_RS08710" fbc:label="G_ASJ35_RS08710"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS14770" fbc:name="G_ASJ35_RS14770" fbc:label="G_ASJ35_RS14770"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS11715" fbc:name="G_ASJ35_RS11715" fbc:label="G_ASJ35_RS11715"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS00215" fbc:name="G_ASJ35_RS00215" fbc:label="G_ASJ35_RS00215"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS00205" fbc:name="G_ASJ35_RS00205" fbc:label="G_ASJ35_RS00205"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09850" fbc:name="G_ASJ35_RS09850" fbc:label="G_ASJ35_RS09850"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08710" fbc:name="G_ASJ35_RS08710" fbc:label="G_ASJ35_RS08710"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS14790" fbc:name="G_ASJ35_RS14790" fbc:label="G_ASJ35_RS14790"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09845" fbc:name="G_ASJ35_RS09845" fbc:label="G_ASJ35_RS09845"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS11120" fbc:name="G_ASJ35_RS11120" fbc:label="G_ASJ35_RS11120"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS11715" fbc:name="G_ASJ35_RS11715" fbc:label="G_ASJ35_RS11715"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS11775" fbc:name="G_ASJ35_RS11775" fbc:label="G_ASJ35_RS11775"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04860" fbc:name="G_ASJ35_RS04860" fbc:label="G_ASJ35_RS04860"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12365" fbc:name="G_ASJ35_RS12365" fbc:label="G_ASJ35_RS12365"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS05390" fbc:name="G_ASJ35_RS05390" fbc:label="G_ASJ35_RS05390"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08575" fbc:name="G_ASJ35_RS08575" fbc:label="G_ASJ35_RS08575"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13555" fbc:name="G_ASJ35_RS13555" fbc:label="G_ASJ35_RS13555"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08575" fbc:name="G_ASJ35_RS08575" fbc:label="G_ASJ35_RS08575"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS18920" fbc:name="G_ASJ35_RS18920" fbc:label="G_ASJ35_RS18920"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS19655" fbc:name="G_ASJ35_RS19655" fbc:label="G_ASJ35_RS19655"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS18510" fbc:name="G_ASJ35_RS18510" fbc:label="G_ASJ35_RS18510"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08570" fbc:name="G_ASJ35_RS08570" fbc:label="G_ASJ35_RS08570"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS04830" fbc:name="G_ASJ35_RS04830" fbc:label="G_ASJ35_RS04830"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS11525" fbc:name="G_ASJ35_RS11525" fbc:label="G_ASJ35_RS11525"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS04830" fbc:name="G_ASJ35_RS04830" fbc:label="G_ASJ35_RS04830"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08560" fbc:name="G_ASJ35_RS08560" fbc:label="G_ASJ35_RS08560"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08570" fbc:name="G_ASJ35_RS08570" fbc:label="G_ASJ35_RS08570"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08565" fbc:name="G_ASJ35_RS08565" fbc:label="G_ASJ35_RS08565"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS11125" fbc:name="G_ASJ35_RS11125" fbc:label="G_ASJ35_RS11125"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS11100" fbc:name="G_ASJ35_RS11100" fbc:label="G_ASJ35_RS11100"/>
@@ -60157,42 +60157,42 @@
       <fbc:geneProduct fbc:id="G_ASJ35_RS17795" fbc:name="G_ASJ35_RS17795" fbc:label="G_ASJ35_RS17795"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12640" fbc:name="G_ASJ35_RS12640" fbc:label="G_ASJ35_RS12640"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS06430" fbc:name="G_ASJ35_RS06430" fbc:label="G_ASJ35_RS06430"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS13230" fbc:name="G_ASJ35_RS13230" fbc:label="G_ASJ35_RS13230"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS04100" fbc:name="G_ASJ35_RS04100" fbc:label="G_ASJ35_RS04100"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS00245" fbc:name="G_ASJ35_RS00245" fbc:label="G_ASJ35_RS00245"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS04100" fbc:name="G_ASJ35_RS04100" fbc:label="G_ASJ35_RS04100"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS13230" fbc:name="G_ASJ35_RS13230" fbc:label="G_ASJ35_RS13230"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12200" fbc:name="G_ASJ35_RS12200" fbc:label="G_ASJ35_RS12200"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS04560" fbc:name="G_ASJ35_RS04560" fbc:label="G_ASJ35_RS04560"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04565" fbc:name="G_ASJ35_RS04565" fbc:label="G_ASJ35_RS04565"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS04690" fbc:name="G_ASJ35_RS04690" fbc:label="G_ASJ35_RS04690"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS04560" fbc:name="G_ASJ35_RS04560" fbc:label="G_ASJ35_RS04560"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS04710" fbc:name="G_ASJ35_RS04710" fbc:label="G_ASJ35_RS04710"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04705" fbc:name="G_ASJ35_RS04705" fbc:label="G_ASJ35_RS04705"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04695" fbc:name="G_ASJ35_RS04695" fbc:label="G_ASJ35_RS04695"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS04710" fbc:name="G_ASJ35_RS04710" fbc:label="G_ASJ35_RS04710"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04700" fbc:name="G_ASJ35_RS04700" fbc:label="G_ASJ35_RS04700"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS04690" fbc:name="G_ASJ35_RS04690" fbc:label="G_ASJ35_RS04690"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12435" fbc:name="G_ASJ35_RS12435" fbc:label="G_ASJ35_RS12435"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS11905" fbc:name="G_ASJ35_RS11905" fbc:label="G_ASJ35_RS11905"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04185" fbc:name="G_ASJ35_RS04185" fbc:label="G_ASJ35_RS04185"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS11905" fbc:name="G_ASJ35_RS11905" fbc:label="G_ASJ35_RS11905"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS16820" fbc:name="G_ASJ35_RS16820" fbc:label="G_ASJ35_RS16820"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03385" fbc:name="G_ASJ35_RS03385" fbc:label="G_ASJ35_RS03385"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS15365" fbc:name="G_ASJ35_RS15365" fbc:label="G_ASJ35_RS15365"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03380" fbc:name="G_ASJ35_RS03380" fbc:label="G_ASJ35_RS03380"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS15560" fbc:name="G_ASJ35_RS15560" fbc:label="G_ASJ35_RS15560"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS11545" fbc:name="G_ASJ35_RS11545" fbc:label="G_ASJ35_RS11545"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08435" fbc:name="G_ASJ35_RS08435" fbc:label="G_ASJ35_RS08435"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08440" fbc:name="G_ASJ35_RS08440" fbc:label="G_ASJ35_RS08440"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS11070" fbc:name="G_ASJ35_RS11070" fbc:label="G_ASJ35_RS11070"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS00160" fbc:name="G_ASJ35_RS00160" fbc:label="G_ASJ35_RS00160"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08435" fbc:name="G_ASJ35_RS08435" fbc:label="G_ASJ35_RS08435"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS06805" fbc:name="G_ASJ35_RS06805" fbc:label="G_ASJ35_RS06805"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS11070" fbc:name="G_ASJ35_RS11070" fbc:label="G_ASJ35_RS11070"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12875" fbc:name="G_ASJ35_RS12875" fbc:label="G_ASJ35_RS12875"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS00160" fbc:name="G_ASJ35_RS00160" fbc:label="G_ASJ35_RS00160"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04085" fbc:name="G_ASJ35_RS04085" fbc:label="G_ASJ35_RS04085"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS19810" fbc:name="G_ASJ35_RS19810" fbc:label="G_ASJ35_RS19810"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12320" fbc:name="G_ASJ35_RS12320" fbc:label="G_ASJ35_RS12320"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS19810" fbc:name="G_ASJ35_RS19810" fbc:label="G_ASJ35_RS19810"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS05690" fbc:name="G_ASJ35_RS05690" fbc:label="G_ASJ35_RS05690"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13210" fbc:name="G_ASJ35_RS13210" fbc:label="G_ASJ35_RS13210"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS01095" fbc:name="G_ASJ35_RS01095" fbc:label="G_ASJ35_RS01095"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS05920" fbc:name="G_ASJ35_RS05920" fbc:label="G_ASJ35_RS05920"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09185" fbc:name="G_ASJ35_RS09185" fbc:label="G_ASJ35_RS09185"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS01540" fbc:name="G_ASJ35_RS01540" fbc:label="G_ASJ35_RS01540"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS05920" fbc:name="G_ASJ35_RS05920" fbc:label="G_ASJ35_RS05920"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS01095" fbc:name="G_ASJ35_RS01095" fbc:label="G_ASJ35_RS01095"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS01550" fbc:name="G_ASJ35_RS01550" fbc:label="G_ASJ35_RS01550"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS01540" fbc:name="G_ASJ35_RS01540" fbc:label="G_ASJ35_RS01540"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12510" fbc:name="G_ASJ35_RS12510" fbc:label="G_ASJ35_RS12510"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS19405" fbc:name="G_ASJ35_RS19405" fbc:label="G_ASJ35_RS19405"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS06045" fbc:name="G_ASJ35_RS06045" fbc:label="G_ASJ35_RS06045"/>
@@ -60203,22 +60203,22 @@
       <fbc:geneProduct fbc:id="G_ASJ35_RS08355" fbc:name="G_ASJ35_RS08355" fbc:label="G_ASJ35_RS08355"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS14915" fbc:name="G_ASJ35_RS14915" fbc:label="G_ASJ35_RS14915"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS02300" fbc:name="G_ASJ35_RS02300" fbc:label="G_ASJ35_RS02300"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS02500" fbc:name="G_ASJ35_RS02500" fbc:label="G_ASJ35_RS02500"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS02595" fbc:name="G_ASJ35_RS02595" fbc:label="G_ASJ35_RS02595"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS02495" fbc:name="G_ASJ35_RS02495" fbc:label="G_ASJ35_RS02495"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS02545" fbc:name="G_ASJ35_RS02545" fbc:label="G_ASJ35_RS02545"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS01455" fbc:name="G_ASJ35_RS01455" fbc:label="G_ASJ35_RS01455"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS02595" fbc:name="G_ASJ35_RS02595" fbc:label="G_ASJ35_RS02595"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS02590" fbc:name="G_ASJ35_RS02590" fbc:label="G_ASJ35_RS02590"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS11915" fbc:name="G_ASJ35_RS11915" fbc:label="G_ASJ35_RS11915"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS01455" fbc:name="G_ASJ35_RS01455" fbc:label="G_ASJ35_RS01455"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS02500" fbc:name="G_ASJ35_RS02500" fbc:label="G_ASJ35_RS02500"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS11490" fbc:name="G_ASJ35_RS11490" fbc:label="G_ASJ35_RS11490"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS11915" fbc:name="G_ASJ35_RS11915" fbc:label="G_ASJ35_RS11915"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS07135" fbc:name="G_ASJ35_RS07135" fbc:label="G_ASJ35_RS07135"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS07250" fbc:name="G_ASJ35_RS07250" fbc:label="G_ASJ35_RS07250"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS16075" fbc:name="G_ASJ35_RS16075" fbc:label="G_ASJ35_RS16075"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS07250" fbc:name="G_ASJ35_RS07250" fbc:label="G_ASJ35_RS07250"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03305" fbc:name="G_ASJ35_RS03305" fbc:label="G_ASJ35_RS03305"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04500" fbc:name="G_ASJ35_RS04500" fbc:label="G_ASJ35_RS04500"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS11805" fbc:name="G_ASJ35_RS11805" fbc:label="G_ASJ35_RS11805"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS11440" fbc:name="G_ASJ35_RS11440" fbc:label="G_ASJ35_RS11440"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS11640" fbc:name="G_ASJ35_RS11640" fbc:label="G_ASJ35_RS11640"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS11440" fbc:name="G_ASJ35_RS11440" fbc:label="G_ASJ35_RS11440"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS14350" fbc:name="G_ASJ35_RS14350" fbc:label="G_ASJ35_RS14350"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12845" fbc:name="G_ASJ35_RS12845" fbc:label="G_ASJ35_RS12845"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS16350" fbc:name="G_ASJ35_RS16350" fbc:label="G_ASJ35_RS16350"/>
@@ -60227,8 +60227,8 @@
       <fbc:geneProduct fbc:id="G_ASJ35_RS17930" fbc:name="G_ASJ35_RS17930" fbc:label="G_ASJ35_RS17930"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09410" fbc:name="G_ASJ35_RS09410" fbc:label="G_ASJ35_RS09410"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03015" fbc:name="G_ASJ35_RS03015" fbc:label="G_ASJ35_RS03015"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09430" fbc:name="G_ASJ35_RS09430" fbc:label="G_ASJ35_RS09430"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13195" fbc:name="G_ASJ35_RS13195" fbc:label="G_ASJ35_RS13195"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09430" fbc:name="G_ASJ35_RS09430" fbc:label="G_ASJ35_RS09430"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS16795" fbc:name="G_ASJ35_RS16795" fbc:label="G_ASJ35_RS16795"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09405" fbc:name="G_ASJ35_RS09405" fbc:label="G_ASJ35_RS09405"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS15345" fbc:name="G_ASJ35_RS15345" fbc:label="G_ASJ35_RS15345"/>
@@ -60246,14 +60246,14 @@
       <fbc:geneProduct fbc:id="G_ASJ35_RS11095" fbc:name="G_ASJ35_RS11095" fbc:label="G_ASJ35_RS11095"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS15225" fbc:name="G_ASJ35_RS15225" fbc:label="G_ASJ35_RS15225"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08065" fbc:name="G_ASJ35_RS08065" fbc:label="G_ASJ35_RS08065"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09215" fbc:name="G_ASJ35_RS09215" fbc:label="G_ASJ35_RS09215"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS17500" fbc:name="G_ASJ35_RS17500" fbc:label="G_ASJ35_RS17500"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS07125" fbc:name="G_ASJ35_RS07125" fbc:label="G_ASJ35_RS07125"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09215" fbc:name="G_ASJ35_RS09215" fbc:label="G_ASJ35_RS09215"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS00980" fbc:name="G_ASJ35_RS00980" fbc:label="G_ASJ35_RS00980"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS07125" fbc:name="G_ASJ35_RS07125" fbc:label="G_ASJ35_RS07125"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS00090" fbc:name="G_ASJ35_RS00090" fbc:label="G_ASJ35_RS00090"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS11040" fbc:name="G_ASJ35_RS11040" fbc:label="G_ASJ35_RS11040"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS01940" fbc:name="G_ASJ35_RS01940" fbc:label="G_ASJ35_RS01940"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03465" fbc:name="G_ASJ35_RS03465" fbc:label="G_ASJ35_RS03465"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS01940" fbc:name="G_ASJ35_RS01940" fbc:label="G_ASJ35_RS01940"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08250" fbc:name="G_ASJ35_RS08250" fbc:label="G_ASJ35_RS08250"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS01740" fbc:name="G_ASJ35_RS01740" fbc:label="G_ASJ35_RS01740"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS00385" fbc:name="G_ASJ35_RS00385" fbc:label="G_ASJ35_RS00385"/>
@@ -60261,13 +60261,13 @@
       <fbc:geneProduct fbc:id="G_ASJ35_RS04060" fbc:name="G_ASJ35_RS04060" fbc:label="G_ASJ35_RS04060"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13645" fbc:name="G_ASJ35_RS13645" fbc:label="G_ASJ35_RS13645"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03110" fbc:name="G_ASJ35_RS03110" fbc:label="G_ASJ35_RS03110"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS13410" fbc:name="G_ASJ35_RS13410" fbc:label="G_ASJ35_RS13410"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS14375" fbc:name="G_ASJ35_RS14375" fbc:label="G_ASJ35_RS14375"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS13410" fbc:name="G_ASJ35_RS13410" fbc:label="G_ASJ35_RS13410"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS07150" fbc:name="G_ASJ35_RS07150" fbc:label="G_ASJ35_RS07150"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS06845" fbc:name="G_ASJ35_RS06845" fbc:label="G_ASJ35_RS06845"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13665" fbc:name="G_ASJ35_RS13665" fbc:label="G_ASJ35_RS13665"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS12500" fbc:name="G_ASJ35_RS12500" fbc:label="G_ASJ35_RS12500"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS06845" fbc:name="G_ASJ35_RS06845" fbc:label="G_ASJ35_RS06845"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS10255" fbc:name="G_ASJ35_RS10255" fbc:label="G_ASJ35_RS10255"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS12500" fbc:name="G_ASJ35_RS12500" fbc:label="G_ASJ35_RS12500"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09775" fbc:name="G_ASJ35_RS09775" fbc:label="G_ASJ35_RS09775"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS16830" fbc:name="G_ASJ35_RS16830" fbc:label="G_ASJ35_RS16830"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04900" fbc:name="G_ASJ35_RS04900" fbc:label="G_ASJ35_RS04900"/>
@@ -60276,38 +60276,38 @@
       <fbc:geneProduct fbc:id="G_ASJ35_RS01750" fbc:name="G_ASJ35_RS01750" fbc:label="G_ASJ35_RS01750"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03620" fbc:name="G_ASJ35_RS03620" fbc:label="G_ASJ35_RS03620"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03920" fbc:name="G_ASJ35_RS03920" fbc:label="G_ASJ35_RS03920"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS03520" fbc:name="G_ASJ35_RS03520" fbc:label="G_ASJ35_RS03520"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03525" fbc:name="G_ASJ35_RS03525" fbc:label="G_ASJ35_RS03525"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS03520" fbc:name="G_ASJ35_RS03520" fbc:label="G_ASJ35_RS03520"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03210" fbc:name="G_ASJ35_RS03210" fbc:label="G_ASJ35_RS03210"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS05245" fbc:name="G_ASJ35_RS05245" fbc:label="G_ASJ35_RS05245"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS06265" fbc:name="G_ASJ35_RS06265" fbc:label="G_ASJ35_RS06265"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS10940" fbc:name="G_ASJ35_RS10940" fbc:label="G_ASJ35_RS10940"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS00275" fbc:name="G_ASJ35_RS00275" fbc:label="G_ASJ35_RS00275"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03360" fbc:name="G_ASJ35_RS03360" fbc:label="G_ASJ35_RS03360"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS13495" fbc:name="G_ASJ35_RS13495" fbc:label="G_ASJ35_RS13495"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS11535" fbc:name="G_ASJ35_RS11535" fbc:label="G_ASJ35_RS11535"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS05545" fbc:name="G_ASJ35_RS05545" fbc:label="G_ASJ35_RS05545"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS10890" fbc:name="G_ASJ35_RS10890" fbc:label="G_ASJ35_RS10890"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS13495" fbc:name="G_ASJ35_RS13495" fbc:label="G_ASJ35_RS13495"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS16605" fbc:name="G_ASJ35_RS16605" fbc:label="G_ASJ35_RS16605"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS05545" fbc:name="G_ASJ35_RS05545" fbc:label="G_ASJ35_RS05545"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS11535" fbc:name="G_ASJ35_RS11535" fbc:label="G_ASJ35_RS11535"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS10970" fbc:name="G_ASJ35_RS10970" fbc:label="G_ASJ35_RS10970"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08340" fbc:name="G_ASJ35_RS08340" fbc:label="G_ASJ35_RS08340"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS04010" fbc:name="G_ASJ35_RS04010" fbc:label="G_ASJ35_RS04010"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS15595" fbc:name="G_ASJ35_RS15595" fbc:label="G_ASJ35_RS15595"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS04010" fbc:name="G_ASJ35_RS04010" fbc:label="G_ASJ35_RS04010"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS16010" fbc:name="G_ASJ35_RS16010" fbc:label="G_ASJ35_RS16010"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04995" fbc:name="G_ASJ35_RS04995" fbc:label="G_ASJ35_RS04995"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS05135" fbc:name="G_ASJ35_RS05135" fbc:label="G_ASJ35_RS05135"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS05125" fbc:name="G_ASJ35_RS05125" fbc:label="G_ASJ35_RS05125"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS05135" fbc:name="G_ASJ35_RS05135" fbc:label="G_ASJ35_RS05135"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS19540" fbc:name="G_ASJ35_RS19540" fbc:label="G_ASJ35_RS19540"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS02185" fbc:name="G_ASJ35_RS02185" fbc:label="G_ASJ35_RS02185"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS11595" fbc:name="G_ASJ35_RS11595" fbc:label="G_ASJ35_RS11595"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08270" fbc:name="G_ASJ35_RS08270" fbc:label="G_ASJ35_RS08270"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS05105" fbc:name="G_ASJ35_RS05105" fbc:label="G_ASJ35_RS05105"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08270" fbc:name="G_ASJ35_RS08270" fbc:label="G_ASJ35_RS08270"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12530" fbc:name="G_ASJ35_RS12530" fbc:label="G_ASJ35_RS12530"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS12525" fbc:name="G_ASJ35_RS12525" fbc:label="G_ASJ35_RS12525"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12520" fbc:name="G_ASJ35_RS12520" fbc:label="G_ASJ35_RS12520"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08370" fbc:name="G_ASJ35_RS08370" fbc:label="G_ASJ35_RS08370"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08405" fbc:name="G_ASJ35_RS08405" fbc:label="G_ASJ35_RS08405"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS12525" fbc:name="G_ASJ35_RS12525" fbc:label="G_ASJ35_RS12525"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04660" fbc:name="G_ASJ35_RS04660" fbc:label="G_ASJ35_RS04660"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08405" fbc:name="G_ASJ35_RS08405" fbc:label="G_ASJ35_RS08405"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08370" fbc:name="G_ASJ35_RS08370" fbc:label="G_ASJ35_RS08370"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12735" fbc:name="G_ASJ35_RS12735" fbc:label="G_ASJ35_RS12735"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS01100" fbc:name="G_ASJ35_RS01100" fbc:label="G_ASJ35_RS01100"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS01905" fbc:name="G_ASJ35_RS01905" fbc:label="G_ASJ35_RS01905"/>
@@ -60315,86 +60315,86 @@
       <fbc:geneProduct fbc:id="G_ASJ35_RS12495" fbc:name="G_ASJ35_RS12495" fbc:label="G_ASJ35_RS12495"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09455" fbc:name="G_ASJ35_RS09455" fbc:label="G_ASJ35_RS09455"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09580" fbc:name="G_ASJ35_RS09580" fbc:label="G_ASJ35_RS09580"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS04930" fbc:name="G_ASJ35_RS04930" fbc:label="G_ASJ35_RS04930"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS05200" fbc:name="G_ASJ35_RS05200" fbc:label="G_ASJ35_RS05200"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS11335" fbc:name="G_ASJ35_RS11335" fbc:label="G_ASJ35_RS11335"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS04930" fbc:name="G_ASJ35_RS04930" fbc:label="G_ASJ35_RS04930"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS15190" fbc:name="G_ASJ35_RS15190" fbc:label="G_ASJ35_RS15190"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13820" fbc:name="G_ASJ35_RS13820" fbc:label="G_ASJ35_RS13820"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS07260" fbc:name="G_ASJ35_RS07260" fbc:label="G_ASJ35_RS07260"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS06955" fbc:name="G_ASJ35_RS06955" fbc:label="G_ASJ35_RS06955"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS00760" fbc:name="G_ASJ35_RS00760" fbc:label="G_ASJ35_RS00760"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS06950" fbc:name="G_ASJ35_RS06950" fbc:label="G_ASJ35_RS06950"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS00760" fbc:name="G_ASJ35_RS00760" fbc:label="G_ASJ35_RS00760"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS02235" fbc:name="G_ASJ35_RS02235" fbc:label="G_ASJ35_RS02235"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08660" fbc:name="G_ASJ35_RS08660" fbc:label="G_ASJ35_RS08660"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS07270" fbc:name="G_ASJ35_RS07270" fbc:label="G_ASJ35_RS07270"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS10225" fbc:name="G_ASJ35_RS10225" fbc:label="G_ASJ35_RS10225"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS02250" fbc:name="G_ASJ35_RS02250" fbc:label="G_ASJ35_RS02250"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS06525" fbc:name="G_ASJ35_RS06525" fbc:label="G_ASJ35_RS06525"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13750" fbc:name="G_ASJ35_RS13750" fbc:label="G_ASJ35_RS13750"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS06525" fbc:name="G_ASJ35_RS06525" fbc:label="G_ASJ35_RS06525"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12375" fbc:name="G_ASJ35_RS12375" fbc:label="G_ASJ35_RS12375"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04515" fbc:name="G_ASJ35_RS04515" fbc:label="G_ASJ35_RS04515"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS06115" fbc:name="G_ASJ35_RS06115" fbc:label="G_ASJ35_RS06115"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS06125" fbc:name="G_ASJ35_RS06125" fbc:label="G_ASJ35_RS06125"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS06120" fbc:name="G_ASJ35_RS06120" fbc:label="G_ASJ35_RS06120"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS06115" fbc:name="G_ASJ35_RS06115" fbc:label="G_ASJ35_RS06115"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS06440" fbc:name="G_ASJ35_RS06440" fbc:label="G_ASJ35_RS06440"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS06435" fbc:name="G_ASJ35_RS06435" fbc:label="G_ASJ35_RS06435"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13910" fbc:name="G_ASJ35_RS13910" fbc:label="G_ASJ35_RS13910"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04545" fbc:name="G_ASJ35_RS04545" fbc:label="G_ASJ35_RS04545"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08305" fbc:name="G_ASJ35_RS08305" fbc:label="G_ASJ35_RS08305"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09255" fbc:name="G_ASJ35_RS09255" fbc:label="G_ASJ35_RS09255"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08155" fbc:name="G_ASJ35_RS08155" fbc:label="G_ASJ35_RS08155"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08150" fbc:name="G_ASJ35_RS08150" fbc:label="G_ASJ35_RS08150"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04525" fbc:name="G_ASJ35_RS04525" fbc:label="G_ASJ35_RS04525"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08150" fbc:name="G_ASJ35_RS08150" fbc:label="G_ASJ35_RS08150"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04535" fbc:name="G_ASJ35_RS04535" fbc:label="G_ASJ35_RS04535"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08155" fbc:name="G_ASJ35_RS08155" fbc:label="G_ASJ35_RS08155"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04540" fbc:name="G_ASJ35_RS04540" fbc:label="G_ASJ35_RS04540"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12910" fbc:name="G_ASJ35_RS12910" fbc:label="G_ASJ35_RS12910"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09920" fbc:name="G_ASJ35_RS09920" fbc:label="G_ASJ35_RS09920"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09905" fbc:name="G_ASJ35_RS09905" fbc:label="G_ASJ35_RS09905"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS16775" fbc:name="G_ASJ35_RS16775" fbc:label="G_ASJ35_RS16775"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS16790" fbc:name="G_ASJ35_RS16790" fbc:label="G_ASJ35_RS16790"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS16770" fbc:name="G_ASJ35_RS16770" fbc:label="G_ASJ35_RS16770"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09915" fbc:name="G_ASJ35_RS09915" fbc:label="G_ASJ35_RS09915"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09910" fbc:name="G_ASJ35_RS09910" fbc:label="G_ASJ35_RS09910"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09920" fbc:name="G_ASJ35_RS09920" fbc:label="G_ASJ35_RS09920"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS16785" fbc:name="G_ASJ35_RS16785" fbc:label="G_ASJ35_RS16785"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09900" fbc:name="G_ASJ35_RS09900" fbc:label="G_ASJ35_RS09900"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS16770" fbc:name="G_ASJ35_RS16770" fbc:label="G_ASJ35_RS16770"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09910" fbc:name="G_ASJ35_RS09910" fbc:label="G_ASJ35_RS09910"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS16785" fbc:name="G_ASJ35_RS16785" fbc:label="G_ASJ35_RS16785"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09145" fbc:name="G_ASJ35_RS09145" fbc:label="G_ASJ35_RS09145"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS05935" fbc:name="G_ASJ35_RS05935" fbc:label="G_ASJ35_RS05935"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09285" fbc:name="G_ASJ35_RS09285" fbc:label="G_ASJ35_RS09285"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS18060" fbc:name="G_ASJ35_RS18060" fbc:label="G_ASJ35_RS18060"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09280" fbc:name="G_ASJ35_RS09280" fbc:label="G_ASJ35_RS09280"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS16675" fbc:name="G_ASJ35_RS16675" fbc:label="G_ASJ35_RS16675"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS16900" fbc:name="G_ASJ35_RS16900" fbc:label="G_ASJ35_RS16900"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09280" fbc:name="G_ASJ35_RS09280" fbc:label="G_ASJ35_RS09280"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS16715" fbc:name="G_ASJ35_RS16715" fbc:label="G_ASJ35_RS16715"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS05530" fbc:name="G_ASJ35_RS05530" fbc:label="G_ASJ35_RS05530"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS02325" fbc:name="G_ASJ35_RS02325" fbc:label="G_ASJ35_RS02325"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS11030" fbc:name="G_ASJ35_RS11030" fbc:label="G_ASJ35_RS11030"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS02330" fbc:name="G_ASJ35_RS02330" fbc:label="G_ASJ35_RS02330"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS02325" fbc:name="G_ASJ35_RS02325" fbc:label="G_ASJ35_RS02325"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS02335" fbc:name="G_ASJ35_RS02335" fbc:label="G_ASJ35_RS02335"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS01000" fbc:name="G_ASJ35_RS01000" fbc:label="G_ASJ35_RS01000"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS02330" fbc:name="G_ASJ35_RS02330" fbc:label="G_ASJ35_RS02330"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS10590" fbc:name="G_ASJ35_RS10590" fbc:label="G_ASJ35_RS10590"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS12920" fbc:name="G_ASJ35_RS12920" fbc:label="G_ASJ35_RS12920"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS01005" fbc:name="G_ASJ35_RS01005" fbc:label="G_ASJ35_RS01005"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS10585" fbc:name="G_ASJ35_RS10585" fbc:label="G_ASJ35_RS10585"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS02345" fbc:name="G_ASJ35_RS02345" fbc:label="G_ASJ35_RS02345"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS12920" fbc:name="G_ASJ35_RS12920" fbc:label="G_ASJ35_RS12920"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS10585" fbc:name="G_ASJ35_RS10585" fbc:label="G_ASJ35_RS10585"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS01000" fbc:name="G_ASJ35_RS01000" fbc:label="G_ASJ35_RS01000"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS01005" fbc:name="G_ASJ35_RS01005" fbc:label="G_ASJ35_RS01005"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12915" fbc:name="G_ASJ35_RS12915" fbc:label="G_ASJ35_RS12915"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS00115" fbc:name="G_ASJ35_RS00115" fbc:label="G_ASJ35_RS00115"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS06305" fbc:name="G_ASJ35_RS06305" fbc:label="G_ASJ35_RS06305"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS07060" fbc:name="G_ASJ35_RS07060" fbc:label="G_ASJ35_RS07060"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS00115" fbc:name="G_ASJ35_RS00115" fbc:label="G_ASJ35_RS00115"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS11085" fbc:name="G_ASJ35_RS11085" fbc:label="G_ASJ35_RS11085"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08780" fbc:name="G_ASJ35_RS08780" fbc:label="G_ASJ35_RS08780"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS14955" fbc:name="G_ASJ35_RS14955" fbc:label="G_ASJ35_RS14955"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08780" fbc:name="G_ASJ35_RS08780" fbc:label="G_ASJ35_RS08780"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS16045" fbc:name="G_ASJ35_RS16045" fbc:label="G_ASJ35_RS16045"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09555" fbc:name="G_ASJ35_RS09555" fbc:label="G_ASJ35_RS09555"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS06460" fbc:name="G_ASJ35_RS06460" fbc:label="G_ASJ35_RS06460"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS00290" fbc:name="G_ASJ35_RS00290" fbc:label="G_ASJ35_RS00290"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS01565" fbc:name="G_ASJ35_RS01565" fbc:label="G_ASJ35_RS01565"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS11230" fbc:name="G_ASJ35_RS11230" fbc:label="G_ASJ35_RS11230"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS17980" fbc:name="G_ASJ35_RS17980" fbc:label="G_ASJ35_RS17980"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS11230" fbc:name="G_ASJ35_RS11230" fbc:label="G_ASJ35_RS11230"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS11355" fbc:name="G_ASJ35_RS11355" fbc:label="G_ASJ35_RS11355"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13990" fbc:name="G_ASJ35_RS13990" fbc:label="G_ASJ35_RS13990"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS11185" fbc:name="G_ASJ35_RS11185" fbc:label="G_ASJ35_RS11185"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13475" fbc:name="G_ASJ35_RS13475" fbc:label="G_ASJ35_RS13475"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS18250" fbc:name="G_ASJ35_RS18250" fbc:label="G_ASJ35_RS18250"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS11185" fbc:name="G_ASJ35_RS11185" fbc:label="G_ASJ35_RS11185"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS19275" fbc:name="G_ASJ35_RS19275" fbc:label="G_ASJ35_RS19275"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13155" fbc:name="G_ASJ35_RS13155" fbc:label="G_ASJ35_RS13155"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03530" fbc:name="G_ASJ35_RS03530" fbc:label="G_ASJ35_RS03530"/>
@@ -60405,8 +60405,8 @@
       <fbc:geneProduct fbc:id="G_ASJ35_RS12955" fbc:name="G_ASJ35_RS12955" fbc:label="G_ASJ35_RS12955"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12960" fbc:name="G_ASJ35_RS12960" fbc:label="G_ASJ35_RS12960"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS01170" fbc:name="G_ASJ35_RS01170" fbc:label="G_ASJ35_RS01170"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS01160" fbc:name="G_ASJ35_RS01160" fbc:label="G_ASJ35_RS01160"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS01165" fbc:name="G_ASJ35_RS01165" fbc:label="G_ASJ35_RS01165"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS01160" fbc:name="G_ASJ35_RS01160" fbc:label="G_ASJ35_RS01160"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08230" fbc:name="G_ASJ35_RS08230" fbc:label="G_ASJ35_RS08230"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09945" fbc:name="G_ASJ35_RS09945" fbc:label="G_ASJ35_RS09945"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13150" fbc:name="G_ASJ35_RS13150" fbc:label="G_ASJ35_RS13150"/>
@@ -60421,58 +60421,58 @@
       <fbc:geneProduct fbc:id="G_ASJ35_RS06025" fbc:name="G_ASJ35_RS06025" fbc:label="G_ASJ35_RS06025"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03590" fbc:name="G_ASJ35_RS03590" fbc:label="G_ASJ35_RS03590"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS07025" fbc:name="G_ASJ35_RS07025" fbc:label="G_ASJ35_RS07025"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08380" fbc:name="G_ASJ35_RS08380" fbc:label="G_ASJ35_RS08380"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08385" fbc:name="G_ASJ35_RS08385" fbc:label="G_ASJ35_RS08385"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS00070" fbc:name="G_ASJ35_RS00070" fbc:label="G_ASJ35_RS00070"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08380" fbc:name="G_ASJ35_RS08380" fbc:label="G_ASJ35_RS08380"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS00295" fbc:name="G_ASJ35_RS00295" fbc:label="G_ASJ35_RS00295"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS15360" fbc:name="G_ASJ35_RS15360" fbc:label="G_ASJ35_RS15360"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08195" fbc:name="G_ASJ35_RS08195" fbc:label="G_ASJ35_RS08195"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS00070" fbc:name="G_ASJ35_RS00070" fbc:label="G_ASJ35_RS00070"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS07120" fbc:name="G_ASJ35_RS07120" fbc:label="G_ASJ35_RS07120"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08195" fbc:name="G_ASJ35_RS08195" fbc:label="G_ASJ35_RS08195"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS12035" fbc:name="G_ASJ35_RS12035" fbc:label="G_ASJ35_RS12035"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS10430" fbc:name="G_ASJ35_RS10430" fbc:label="G_ASJ35_RS10430"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12025" fbc:name="G_ASJ35_RS12025" fbc:label="G_ASJ35_RS12025"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS12035" fbc:name="G_ASJ35_RS12035" fbc:label="G_ASJ35_RS12035"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09095" fbc:name="G_ASJ35_RS09095" fbc:label="G_ASJ35_RS09095"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08460" fbc:name="G_ASJ35_RS08460" fbc:label="G_ASJ35_RS08460"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08445" fbc:name="G_ASJ35_RS08445" fbc:label="G_ASJ35_RS08445"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04680" fbc:name="G_ASJ35_RS04680" fbc:label="G_ASJ35_RS04680"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12135" fbc:name="G_ASJ35_RS12135" fbc:label="G_ASJ35_RS12135"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS11655" fbc:name="G_ASJ35_RS11655" fbc:label="G_ASJ35_RS11655"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS06450" fbc:name="G_ASJ35_RS06450" fbc:label="G_ASJ35_RS06450"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS12050" fbc:name="G_ASJ35_RS12050" fbc:label="G_ASJ35_RS12050"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS05915" fbc:name="G_ASJ35_RS05915" fbc:label="G_ASJ35_RS05915"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03835" fbc:name="G_ASJ35_RS03835" fbc:label="G_ASJ35_RS03835"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS06450" fbc:name="G_ASJ35_RS06450" fbc:label="G_ASJ35_RS06450"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS05915" fbc:name="G_ASJ35_RS05915" fbc:label="G_ASJ35_RS05915"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS12050" fbc:name="G_ASJ35_RS12050" fbc:label="G_ASJ35_RS12050"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13775" fbc:name="G_ASJ35_RS13775" fbc:label="G_ASJ35_RS13775"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08815" fbc:name="G_ASJ35_RS08815" fbc:label="G_ASJ35_RS08815"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12230" fbc:name="G_ASJ35_RS12230" fbc:label="G_ASJ35_RS12230"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS12040" fbc:name="G_ASJ35_RS12040" fbc:label="G_ASJ35_RS12040"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS10425" fbc:name="G_ASJ35_RS10425" fbc:label="G_ASJ35_RS10425"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS12040" fbc:name="G_ASJ35_RS12040" fbc:label="G_ASJ35_RS12040"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS01660" fbc:name="G_ASJ35_RS01660" fbc:label="G_ASJ35_RS01660"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS14490" fbc:name="G_ASJ35_RS14490" fbc:label="G_ASJ35_RS14490"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS05515" fbc:name="G_ASJ35_RS05515" fbc:label="G_ASJ35_RS05515"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS03140" fbc:name="G_ASJ35_RS03140" fbc:label="G_ASJ35_RS03140"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09100" fbc:name="G_ASJ35_RS09100" fbc:label="G_ASJ35_RS09100"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS14490" fbc:name="G_ASJ35_RS14490" fbc:label="G_ASJ35_RS14490"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS03140" fbc:name="G_ASJ35_RS03140" fbc:label="G_ASJ35_RS03140"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS05515" fbc:name="G_ASJ35_RS05515" fbc:label="G_ASJ35_RS05515"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08310" fbc:name="G_ASJ35_RS08310" fbc:label="G_ASJ35_RS08310"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS10130" fbc:name="G_ASJ35_RS10130" fbc:label="G_ASJ35_RS10130"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS00265" fbc:name="G_ASJ35_RS00265" fbc:label="G_ASJ35_RS00265"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS10605" fbc:name="G_ASJ35_RS10605" fbc:label="G_ASJ35_RS10605"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS07895" fbc:name="G_ASJ35_RS07895" fbc:label="G_ASJ35_RS07895"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS10605" fbc:name="G_ASJ35_RS10605" fbc:label="G_ASJ35_RS10605"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08320" fbc:name="G_ASJ35_RS08320" fbc:label="G_ASJ35_RS08320"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09725" fbc:name="G_ASJ35_RS09725" fbc:label="G_ASJ35_RS09725"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS01555" fbc:name="G_ASJ35_RS01555" fbc:label="G_ASJ35_RS01555"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09725" fbc:name="G_ASJ35_RS09725" fbc:label="G_ASJ35_RS09725"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS05060" fbc:name="G_ASJ35_RS05060" fbc:label="G_ASJ35_RS05060"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS18310" fbc:name="G_ASJ35_RS18310" fbc:label="G_ASJ35_RS18310"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS18320" fbc:name="G_ASJ35_RS18320" fbc:label="G_ASJ35_RS18320"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS18325" fbc:name="G_ASJ35_RS18325" fbc:label="G_ASJ35_RS18325"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS18310" fbc:name="G_ASJ35_RS18310" fbc:label="G_ASJ35_RS18310"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS18315" fbc:name="G_ASJ35_RS18315" fbc:label="G_ASJ35_RS18315"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS10835" fbc:name="G_ASJ35_RS10835" fbc:label="G_ASJ35_RS10835"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS15760" fbc:name="G_ASJ35_RS15760" fbc:label="G_ASJ35_RS15760"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS07045" fbc:name="G_ASJ35_RS07045" fbc:label="G_ASJ35_RS07045"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS06180" fbc:name="G_ASJ35_RS06180" fbc:label="G_ASJ35_RS06180"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS18945" fbc:name="G_ASJ35_RS18945" fbc:label="G_ASJ35_RS18945"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS06180" fbc:name="G_ASJ35_RS06180" fbc:label="G_ASJ35_RS06180"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04510" fbc:name="G_ASJ35_RS04510" fbc:label="G_ASJ35_RS04510"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03215" fbc:name="G_ASJ35_RS03215" fbc:label="G_ASJ35_RS03215"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS00990" fbc:name="G_ASJ35_RS00990" fbc:label="G_ASJ35_RS00990"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS01140" fbc:name="G_ASJ35_RS01140" fbc:label="G_ASJ35_RS01140"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS00990" fbc:name="G_ASJ35_RS00990" fbc:label="G_ASJ35_RS00990"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13175" fbc:name="G_ASJ35_RS13175" fbc:label="G_ASJ35_RS13175"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13220" fbc:name="G_ASJ35_RS13220" fbc:label="G_ASJ35_RS13220"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09475" fbc:name="G_ASJ35_RS09475" fbc:label="G_ASJ35_RS09475"/>
@@ -60481,35 +60481,35 @@
       <fbc:geneProduct fbc:id="G_ASJ35_RS09450" fbc:name="G_ASJ35_RS09450" fbc:label="G_ASJ35_RS09450"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09480" fbc:name="G_ASJ35_RS09480" fbc:label="G_ASJ35_RS09480"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04530" fbc:name="G_ASJ35_RS04530" fbc:label="G_ASJ35_RS04530"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08725" fbc:name="G_ASJ35_RS08725" fbc:label="G_ASJ35_RS08725"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03205" fbc:name="G_ASJ35_RS03205" fbc:label="G_ASJ35_RS03205"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08725" fbc:name="G_ASJ35_RS08725" fbc:label="G_ASJ35_RS08725"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13180" fbc:name="G_ASJ35_RS13180" fbc:label="G_ASJ35_RS13180"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04465" fbc:name="G_ASJ35_RS04465" fbc:label="G_ASJ35_RS04465"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS18285" fbc:name="G_ASJ35_RS18285" fbc:label="G_ASJ35_RS18285"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS18275" fbc:name="G_ASJ35_RS18275" fbc:label="G_ASJ35_RS18275"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS18270" fbc:name="G_ASJ35_RS18270" fbc:label="G_ASJ35_RS18270"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS01825" fbc:name="G_ASJ35_RS01825" fbc:label="G_ASJ35_RS01825"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS18280" fbc:name="G_ASJ35_RS18280" fbc:label="G_ASJ35_RS18280"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS01825" fbc:name="G_ASJ35_RS01825" fbc:label="G_ASJ35_RS01825"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS05450" fbc:name="G_ASJ35_RS05450" fbc:label="G_ASJ35_RS05450"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS18285" fbc:name="G_ASJ35_RS18285" fbc:label="G_ASJ35_RS18285"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS01830" fbc:name="G_ASJ35_RS01830" fbc:label="G_ASJ35_RS01830"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS18270" fbc:name="G_ASJ35_RS18270" fbc:label="G_ASJ35_RS18270"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS18275" fbc:name="G_ASJ35_RS18275" fbc:label="G_ASJ35_RS18275"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09115" fbc:name="G_ASJ35_RS09115" fbc:label="G_ASJ35_RS09115"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS01145" fbc:name="G_ASJ35_RS01145" fbc:label="G_ASJ35_RS01145"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS06880" fbc:name="G_ASJ35_RS06880" fbc:label="G_ASJ35_RS06880"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS19385" fbc:name="G_ASJ35_RS19385" fbc:label="G_ASJ35_RS19385"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS00975" fbc:name="G_ASJ35_RS00975" fbc:label="G_ASJ35_RS00975"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS00970" fbc:name="G_ASJ35_RS00970" fbc:label="G_ASJ35_RS00970"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS19385" fbc:name="G_ASJ35_RS19385" fbc:label="G_ASJ35_RS19385"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS17165" fbc:name="G_ASJ35_RS17165" fbc:label="G_ASJ35_RS17165"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS17170" fbc:name="G_ASJ35_RS17170" fbc:label="G_ASJ35_RS17170"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS17210" fbc:name="G_ASJ35_RS17210" fbc:label="G_ASJ35_RS17210"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13630" fbc:name="G_ASJ35_RS13630" fbc:label="G_ASJ35_RS13630"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13625" fbc:name="G_ASJ35_RS13625" fbc:label="G_ASJ35_RS13625"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13635" fbc:name="G_ASJ35_RS13635" fbc:label="G_ASJ35_RS13635"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS06500" fbc:name="G_ASJ35_RS06500" fbc:label="G_ASJ35_RS06500"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS06505" fbc:name="G_ASJ35_RS06505" fbc:label="G_ASJ35_RS06505"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS06500" fbc:name="G_ASJ35_RS06500" fbc:label="G_ASJ35_RS06500"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS15695" fbc:name="G_ASJ35_RS15695" fbc:label="G_ASJ35_RS15695"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13005" fbc:name="G_ASJ35_RS13005" fbc:label="G_ASJ35_RS13005"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS04140" fbc:name="G_ASJ35_RS04140" fbc:label="G_ASJ35_RS04140"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS08630" fbc:name="G_ASJ35_RS08630" fbc:label="G_ASJ35_RS08630"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS04140" fbc:name="G_ASJ35_RS04140" fbc:label="G_ASJ35_RS04140"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12360" fbc:name="G_ASJ35_RS12360" fbc:label="G_ASJ35_RS12360"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS15920" fbc:name="G_ASJ35_RS15920" fbc:label="G_ASJ35_RS15920"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS14030" fbc:name="G_ASJ35_RS14030" fbc:label="G_ASJ35_RS14030"/>
@@ -60520,8 +60520,8 @@
       <fbc:geneProduct fbc:id="G_ASJ35_RS05240" fbc:name="G_ASJ35_RS05240" fbc:label="G_ASJ35_RS05240"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03635" fbc:name="G_ASJ35_RS03635" fbc:label="G_ASJ35_RS03635"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS14035" fbc:name="G_ASJ35_RS14035" fbc:label="G_ASJ35_RS14035"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS06350" fbc:name="G_ASJ35_RS06350" fbc:label="G_ASJ35_RS06350"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12175" fbc:name="G_ASJ35_RS12175" fbc:label="G_ASJ35_RS12175"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS06350" fbc:name="G_ASJ35_RS06350" fbc:label="G_ASJ35_RS06350"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS00140" fbc:name="G_ASJ35_RS00140" fbc:label="G_ASJ35_RS00140"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS05995" fbc:name="G_ASJ35_RS05995" fbc:label="G_ASJ35_RS05995"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03890" fbc:name="G_ASJ35_RS03890" fbc:label="G_ASJ35_RS03890"/>
@@ -60533,10 +60533,10 @@
       <fbc:geneProduct fbc:id="G_ASJ35_RS06345" fbc:name="G_ASJ35_RS06345" fbc:label="G_ASJ35_RS06345"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS17925" fbc:name="G_ASJ35_RS17925" fbc:label="G_ASJ35_RS17925"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12125" fbc:name="G_ASJ35_RS12125" fbc:label="G_ASJ35_RS12125"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS17845" fbc:name="G_ASJ35_RS17845" fbc:label="G_ASJ35_RS17845"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13975" fbc:name="G_ASJ35_RS13975" fbc:label="G_ASJ35_RS13975"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS04610" fbc:name="G_ASJ35_RS04610" fbc:label="G_ASJ35_RS04610"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03740" fbc:name="G_ASJ35_RS03740" fbc:label="G_ASJ35_RS03740"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS17845" fbc:name="G_ASJ35_RS17845" fbc:label="G_ASJ35_RS17845"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS04610" fbc:name="G_ASJ35_RS04610" fbc:label="G_ASJ35_RS04610"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS11695" fbc:name="G_ASJ35_RS11695" fbc:label="G_ASJ35_RS11695"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS03780" fbc:name="G_ASJ35_RS03780" fbc:label="G_ASJ35_RS03780"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12750" fbc:name="G_ASJ35_RS12750" fbc:label="G_ASJ35_RS12750"/>
@@ -60550,125 +60550,125 @@
       <fbc:geneProduct fbc:id="G_ASJ35_RS11130" fbc:name="G_ASJ35_RS11130" fbc:label="G_ASJ35_RS11130"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12380" fbc:name="G_ASJ35_RS12380" fbc:label="G_ASJ35_RS12380"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS17150" fbc:name="G_ASJ35_RS17150" fbc:label="G_ASJ35_RS17150"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS12740" fbc:name="G_ASJ35_RS12740" fbc:label="G_ASJ35_RS12740"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS10235" fbc:name="G_ASJ35_RS10235" fbc:label="G_ASJ35_RS10235"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09770" fbc:name="G_ASJ35_RS09770" fbc:label="G_ASJ35_RS09770"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS06165" fbc:name="G_ASJ35_RS06165" fbc:label="G_ASJ35_RS06165"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09770" fbc:name="G_ASJ35_RS09770" fbc:label="G_ASJ35_RS09770"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS10235" fbc:name="G_ASJ35_RS10235" fbc:label="G_ASJ35_RS10235"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS10345" fbc:name="G_ASJ35_RS10345" fbc:label="G_ASJ35_RS10345"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS12740" fbc:name="G_ASJ35_RS12740" fbc:label="G_ASJ35_RS12740"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS15380" fbc:name="G_ASJ35_RS15380" fbc:label="G_ASJ35_RS15380"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS02380" fbc:name="G_ASJ35_RS02380" fbc:label="G_ASJ35_RS02380"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS14165" fbc:name="G_ASJ35_RS14165" fbc:label="G_ASJ35_RS14165"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS10730" fbc:name="G_ASJ35_RS10730" fbc:label="G_ASJ35_RS10730"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS01190" fbc:name="G_ASJ35_RS01190" fbc:label="G_ASJ35_RS01190"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS15400" fbc:name="G_ASJ35_RS15400" fbc:label="G_ASJ35_RS15400"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS12665" fbc:name="G_ASJ35_RS12665" fbc:label="G_ASJ35_RS12665"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS19425" fbc:name="G_ASJ35_RS19425" fbc:label="G_ASJ35_RS19425"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS15405" fbc:name="G_ASJ35_RS15405" fbc:label="G_ASJ35_RS15405"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS10730" fbc:name="G_ASJ35_RS10730" fbc:label="G_ASJ35_RS10730"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS06275" fbc:name="G_ASJ35_RS06275" fbc:label="G_ASJ35_RS06275"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS10515" fbc:name="G_ASJ35_RS10515" fbc:label="G_ASJ35_RS10515"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS06255" fbc:name="G_ASJ35_RS06255" fbc:label="G_ASJ35_RS06255"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS10705" fbc:name="G_ASJ35_RS10705" fbc:label="G_ASJ35_RS10705"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS07235" fbc:name="G_ASJ35_RS07235" fbc:label="G_ASJ35_RS07235"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS05005" fbc:name="G_ASJ35_RS05005" fbc:label="G_ASJ35_RS05005"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS00075" fbc:name="G_ASJ35_RS00075" fbc:label="G_ASJ35_RS00075"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS00810" fbc:name="G_ASJ35_RS00810" fbc:label="G_ASJ35_RS00810"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS01395" fbc:name="G_ASJ35_RS01395" fbc:label="G_ASJ35_RS01395"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS15400" fbc:name="G_ASJ35_RS15400" fbc:label="G_ASJ35_RS15400"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS07610" fbc:name="G_ASJ35_RS07610" fbc:label="G_ASJ35_RS07610"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09370" fbc:name="G_ASJ35_RS09370" fbc:label="G_ASJ35_RS09370"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS15340" fbc:name="G_ASJ35_RS15340" fbc:label="G_ASJ35_RS15340"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS10700" fbc:name="G_ASJ35_RS10700" fbc:label="G_ASJ35_RS10700"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS12665" fbc:name="G_ASJ35_RS12665" fbc:label="G_ASJ35_RS12665"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS00145" fbc:name="G_ASJ35_RS00145" fbc:label="G_ASJ35_RS00145"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS13785" fbc:name="G_ASJ35_RS13785" fbc:label="G_ASJ35_RS13785"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS15340" fbc:name="G_ASJ35_RS15340" fbc:label="G_ASJ35_RS15340"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS05005" fbc:name="G_ASJ35_RS05005" fbc:label="G_ASJ35_RS05005"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS06275" fbc:name="G_ASJ35_RS06275" fbc:label="G_ASJ35_RS06275"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS14165" fbc:name="G_ASJ35_RS14165" fbc:label="G_ASJ35_RS14165"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS10705" fbc:name="G_ASJ35_RS10705" fbc:label="G_ASJ35_RS10705"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS10515" fbc:name="G_ASJ35_RS10515" fbc:label="G_ASJ35_RS10515"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS10700" fbc:name="G_ASJ35_RS10700" fbc:label="G_ASJ35_RS10700"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS12660" fbc:name="G_ASJ35_RS12660" fbc:label="G_ASJ35_RS12660"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS02420" fbc:name="G_ASJ35_RS02420" fbc:label="G_ASJ35_RS02420"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS07015" fbc:name="G_ASJ35_RS07015" fbc:label="G_ASJ35_RS07015"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS01190" fbc:name="G_ASJ35_RS01190" fbc:label="G_ASJ35_RS01190"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS10725" fbc:name="G_ASJ35_RS10725" fbc:label="G_ASJ35_RS10725"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS13785" fbc:name="G_ASJ35_RS13785" fbc:label="G_ASJ35_RS13785"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS06255" fbc:name="G_ASJ35_RS06255" fbc:label="G_ASJ35_RS06255"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS01725" fbc:name="G_ASJ35_RS01725" fbc:label="G_ASJ35_RS01725"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS14410" fbc:name="G_ASJ35_RS14410" fbc:label="G_ASJ35_RS14410"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09005" fbc:name="G_ASJ35_RS09005" fbc:label="G_ASJ35_RS09005"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09025" fbc:name="G_ASJ35_RS09025" fbc:label="G_ASJ35_RS09025"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08950" fbc:name="G_ASJ35_RS08950" fbc:label="G_ASJ35_RS08950"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS05010" fbc:name="G_ASJ35_RS05010" fbc:label="G_ASJ35_RS05010"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08980" fbc:name="G_ASJ35_RS08980" fbc:label="G_ASJ35_RS08980"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09020" fbc:name="G_ASJ35_RS09020" fbc:label="G_ASJ35_RS09020"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08890" fbc:name="G_ASJ35_RS08890" fbc:label="G_ASJ35_RS08890"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS06205" fbc:name="G_ASJ35_RS06205" fbc:label="G_ASJ35_RS06205"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS02285" fbc:name="G_ASJ35_RS02285" fbc:label="G_ASJ35_RS02285"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS13800" fbc:name="G_ASJ35_RS13800" fbc:label="G_ASJ35_RS13800"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS10635" fbc:name="G_ASJ35_RS10635" fbc:label="G_ASJ35_RS10635"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09015" fbc:name="G_ASJ35_RS09015" fbc:label="G_ASJ35_RS09015"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS15330" fbc:name="G_ASJ35_RS15330" fbc:label="G_ASJ35_RS15330"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09610" fbc:name="G_ASJ35_RS09610" fbc:label="G_ASJ35_RS09610"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS05650" fbc:name="G_ASJ35_RS05650" fbc:label="G_ASJ35_RS05650"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS06400" fbc:name="G_ASJ35_RS06400" fbc:label="G_ASJ35_RS06400"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS06985" fbc:name="G_ASJ35_RS06985" fbc:label="G_ASJ35_RS06985"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS06290" fbc:name="G_ASJ35_RS06290" fbc:label="G_ASJ35_RS06290"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09780" fbc:name="G_ASJ35_RS09780" fbc:label="G_ASJ35_RS09780"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08955" fbc:name="G_ASJ35_RS08955" fbc:label="G_ASJ35_RS08955"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08940" fbc:name="G_ASJ35_RS08940" fbc:label="G_ASJ35_RS08940"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS11725" fbc:name="G_ASJ35_RS11725" fbc:label="G_ASJ35_RS11725"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS06395" fbc:name="G_ASJ35_RS06395" fbc:label="G_ASJ35_RS06395"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS19555" fbc:name="G_ASJ35_RS19555" fbc:label="G_ASJ35_RS19555"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS11390" fbc:name="G_ASJ35_RS11390" fbc:label="G_ASJ35_RS11390"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09010" fbc:name="G_ASJ35_RS09010" fbc:label="G_ASJ35_RS09010"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS19530" fbc:name="G_ASJ35_RS19530" fbc:label="G_ASJ35_RS19530"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS11505" fbc:name="G_ASJ35_RS11505" fbc:label="G_ASJ35_RS11505"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08975" fbc:name="G_ASJ35_RS08975" fbc:label="G_ASJ35_RS08975"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08970" fbc:name="G_ASJ35_RS08970" fbc:label="G_ASJ35_RS08970"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS10220" fbc:name="G_ASJ35_RS10220" fbc:label="G_ASJ35_RS10220"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08875" fbc:name="G_ASJ35_RS08875" fbc:label="G_ASJ35_RS08875"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS06295" fbc:name="G_ASJ35_RS06295" fbc:label="G_ASJ35_RS06295"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS12235" fbc:name="G_ASJ35_RS12235" fbc:label="G_ASJ35_RS12235"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS12980" fbc:name="G_ASJ35_RS12980" fbc:label="G_ASJ35_RS12980"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08995" fbc:name="G_ASJ35_RS08995" fbc:label="G_ASJ35_RS08995"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS10955" fbc:name="G_ASJ35_RS10955" fbc:label="G_ASJ35_RS10955"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS10445" fbc:name="G_ASJ35_RS10445" fbc:label="G_ASJ35_RS10445"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS13095" fbc:name="G_ASJ35_RS13095" fbc:label="G_ASJ35_RS13095"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09030" fbc:name="G_ASJ35_RS09030" fbc:label="G_ASJ35_RS09030"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS16005" fbc:name="G_ASJ35_RS16005" fbc:label="G_ASJ35_RS16005"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS07040" fbc:name="G_ASJ35_RS07040" fbc:label="G_ASJ35_RS07040"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08985" fbc:name="G_ASJ35_RS08985" fbc:label="G_ASJ35_RS08985"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS11565" fbc:name="G_ASJ35_RS11565" fbc:label="G_ASJ35_RS11565"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08960" fbc:name="G_ASJ35_RS08960" fbc:label="G_ASJ35_RS08960"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08885" fbc:name="G_ASJ35_RS08885" fbc:label="G_ASJ35_RS08885"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS04640" fbc:name="G_ASJ35_RS04640" fbc:label="G_ASJ35_RS04640"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08895" fbc:name="G_ASJ35_RS08895" fbc:label="G_ASJ35_RS08895"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08965" fbc:name="G_ASJ35_RS08965" fbc:label="G_ASJ35_RS08965"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09590" fbc:name="G_ASJ35_RS09590" fbc:label="G_ASJ35_RS09590"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS06980" fbc:name="G_ASJ35_RS06980" fbc:label="G_ASJ35_RS06980"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS05000" fbc:name="G_ASJ35_RS05000" fbc:label="G_ASJ35_RS05000"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS16275" fbc:name="G_ASJ35_RS16275" fbc:label="G_ASJ35_RS16275"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08945" fbc:name="G_ASJ35_RS08945" fbc:label="G_ASJ35_RS08945"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS13060" fbc:name="G_ASJ35_RS13060" fbc:label="G_ASJ35_RS13060"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS19685" fbc:name="G_ASJ35_RS19685" fbc:label="G_ASJ35_RS19685"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09620" fbc:name="G_ASJ35_RS09620" fbc:label="G_ASJ35_RS09620"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS06210" fbc:name="G_ASJ35_RS06210" fbc:label="G_ASJ35_RS06210"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS00410" fbc:name="G_ASJ35_RS00410" fbc:label="G_ASJ35_RS00410"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS11720" fbc:name="G_ASJ35_RS11720" fbc:label="G_ASJ35_RS11720"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08925" fbc:name="G_ASJ35_RS08925" fbc:label="G_ASJ35_RS08925"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08900" fbc:name="G_ASJ35_RS08900" fbc:label="G_ASJ35_RS08900"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS11510" fbc:name="G_ASJ35_RS11510" fbc:label="G_ASJ35_RS11510"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08990" fbc:name="G_ASJ35_RS08990" fbc:label="G_ASJ35_RS08990"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09570" fbc:name="G_ASJ35_RS09570" fbc:label="G_ASJ35_RS09570"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09875" fbc:name="G_ASJ35_RS09875" fbc:label="G_ASJ35_RS09875"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS02380" fbc:name="G_ASJ35_RS02380" fbc:label="G_ASJ35_RS02380"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS02420" fbc:name="G_ASJ35_RS02420" fbc:label="G_ASJ35_RS02420"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09370" fbc:name="G_ASJ35_RS09370" fbc:label="G_ASJ35_RS09370"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS10725" fbc:name="G_ASJ35_RS10725" fbc:label="G_ASJ35_RS10725"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS01395" fbc:name="G_ASJ35_RS01395" fbc:label="G_ASJ35_RS01395"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS00810" fbc:name="G_ASJ35_RS00810" fbc:label="G_ASJ35_RS00810"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS07015" fbc:name="G_ASJ35_RS07015" fbc:label="G_ASJ35_RS07015"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS00075" fbc:name="G_ASJ35_RS00075" fbc:label="G_ASJ35_RS00075"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS07610" fbc:name="G_ASJ35_RS07610" fbc:label="G_ASJ35_RS07610"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS07235" fbc:name="G_ASJ35_RS07235" fbc:label="G_ASJ35_RS07235"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS01210" fbc:name="G_ASJ35_RS01210" fbc:label="G_ASJ35_RS01210"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS10210" fbc:name="G_ASJ35_RS10210" fbc:label="G_ASJ35_RS10210"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS05010" fbc:name="G_ASJ35_RS05010" fbc:label="G_ASJ35_RS05010"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08895" fbc:name="G_ASJ35_RS08895" fbc:label="G_ASJ35_RS08895"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS13800" fbc:name="G_ASJ35_RS13800" fbc:label="G_ASJ35_RS13800"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08990" fbc:name="G_ASJ35_RS08990" fbc:label="G_ASJ35_RS08990"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08885" fbc:name="G_ASJ35_RS08885" fbc:label="G_ASJ35_RS08885"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS06290" fbc:name="G_ASJ35_RS06290" fbc:label="G_ASJ35_RS06290"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS04640" fbc:name="G_ASJ35_RS04640" fbc:label="G_ASJ35_RS04640"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS05000" fbc:name="G_ASJ35_RS05000" fbc:label="G_ASJ35_RS05000"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08890" fbc:name="G_ASJ35_RS08890" fbc:label="G_ASJ35_RS08890"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS10955" fbc:name="G_ASJ35_RS10955" fbc:label="G_ASJ35_RS10955"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08955" fbc:name="G_ASJ35_RS08955" fbc:label="G_ASJ35_RS08955"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS05650" fbc:name="G_ASJ35_RS05650" fbc:label="G_ASJ35_RS05650"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS11725" fbc:name="G_ASJ35_RS11725" fbc:label="G_ASJ35_RS11725"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS02285" fbc:name="G_ASJ35_RS02285" fbc:label="G_ASJ35_RS02285"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09875" fbc:name="G_ASJ35_RS09875" fbc:label="G_ASJ35_RS09875"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08975" fbc:name="G_ASJ35_RS08975" fbc:label="G_ASJ35_RS08975"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS19685" fbc:name="G_ASJ35_RS19685" fbc:label="G_ASJ35_RS19685"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS06980" fbc:name="G_ASJ35_RS06980" fbc:label="G_ASJ35_RS06980"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS15330" fbc:name="G_ASJ35_RS15330" fbc:label="G_ASJ35_RS15330"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS16275" fbc:name="G_ASJ35_RS16275" fbc:label="G_ASJ35_RS16275"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08875" fbc:name="G_ASJ35_RS08875" fbc:label="G_ASJ35_RS08875"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09015" fbc:name="G_ASJ35_RS09015" fbc:label="G_ASJ35_RS09015"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09615" fbc:name="G_ASJ35_RS09615" fbc:label="G_ASJ35_RS09615"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08985" fbc:name="G_ASJ35_RS08985" fbc:label="G_ASJ35_RS08985"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS06985" fbc:name="G_ASJ35_RS06985" fbc:label="G_ASJ35_RS06985"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08900" fbc:name="G_ASJ35_RS08900" fbc:label="G_ASJ35_RS08900"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS13095" fbc:name="G_ASJ35_RS13095" fbc:label="G_ASJ35_RS13095"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08940" fbc:name="G_ASJ35_RS08940" fbc:label="G_ASJ35_RS08940"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS06205" fbc:name="G_ASJ35_RS06205" fbc:label="G_ASJ35_RS06205"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09590" fbc:name="G_ASJ35_RS09590" fbc:label="G_ASJ35_RS09590"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS00410" fbc:name="G_ASJ35_RS00410" fbc:label="G_ASJ35_RS00410"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS11510" fbc:name="G_ASJ35_RS11510" fbc:label="G_ASJ35_RS11510"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09020" fbc:name="G_ASJ35_RS09020" fbc:label="G_ASJ35_RS09020"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08970" fbc:name="G_ASJ35_RS08970" fbc:label="G_ASJ35_RS08970"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08965" fbc:name="G_ASJ35_RS08965" fbc:label="G_ASJ35_RS08965"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS06400" fbc:name="G_ASJ35_RS06400" fbc:label="G_ASJ35_RS06400"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS19555" fbc:name="G_ASJ35_RS19555" fbc:label="G_ASJ35_RS19555"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08945" fbc:name="G_ASJ35_RS08945" fbc:label="G_ASJ35_RS08945"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS10210" fbc:name="G_ASJ35_RS10210" fbc:label="G_ASJ35_RS10210"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08980" fbc:name="G_ASJ35_RS08980" fbc:label="G_ASJ35_RS08980"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS11720" fbc:name="G_ASJ35_RS11720" fbc:label="G_ASJ35_RS11720"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS07040" fbc:name="G_ASJ35_RS07040" fbc:label="G_ASJ35_RS07040"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09610" fbc:name="G_ASJ35_RS09610" fbc:label="G_ASJ35_RS09610"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08960" fbc:name="G_ASJ35_RS08960" fbc:label="G_ASJ35_RS08960"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS16005" fbc:name="G_ASJ35_RS16005" fbc:label="G_ASJ35_RS16005"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS14410" fbc:name="G_ASJ35_RS14410" fbc:label="G_ASJ35_RS14410"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS10445" fbc:name="G_ASJ35_RS10445" fbc:label="G_ASJ35_RS10445"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09005" fbc:name="G_ASJ35_RS09005" fbc:label="G_ASJ35_RS09005"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09570" fbc:name="G_ASJ35_RS09570" fbc:label="G_ASJ35_RS09570"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS06395" fbc:name="G_ASJ35_RS06395" fbc:label="G_ASJ35_RS06395"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS10635" fbc:name="G_ASJ35_RS10635" fbc:label="G_ASJ35_RS10635"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08925" fbc:name="G_ASJ35_RS08925" fbc:label="G_ASJ35_RS08925"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08950" fbc:name="G_ASJ35_RS08950" fbc:label="G_ASJ35_RS08950"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS09000" fbc:name="G_ASJ35_RS09000" fbc:label="G_ASJ35_RS09000"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09010" fbc:name="G_ASJ35_RS09010" fbc:label="G_ASJ35_RS09010"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS06210" fbc:name="G_ASJ35_RS06210" fbc:label="G_ASJ35_RS06210"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS12235" fbc:name="G_ASJ35_RS12235" fbc:label="G_ASJ35_RS12235"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS19530" fbc:name="G_ASJ35_RS19530" fbc:label="G_ASJ35_RS19530"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09030" fbc:name="G_ASJ35_RS09030" fbc:label="G_ASJ35_RS09030"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09620" fbc:name="G_ASJ35_RS09620" fbc:label="G_ASJ35_RS09620"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09025" fbc:name="G_ASJ35_RS09025" fbc:label="G_ASJ35_RS09025"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS10220" fbc:name="G_ASJ35_RS10220" fbc:label="G_ASJ35_RS10220"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS13060" fbc:name="G_ASJ35_RS13060" fbc:label="G_ASJ35_RS13060"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS11505" fbc:name="G_ASJ35_RS11505" fbc:label="G_ASJ35_RS11505"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS11565" fbc:name="G_ASJ35_RS11565" fbc:label="G_ASJ35_RS11565"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09780" fbc:name="G_ASJ35_RS09780" fbc:label="G_ASJ35_RS09780"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08995" fbc:name="G_ASJ35_RS08995" fbc:label="G_ASJ35_RS08995"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS06295" fbc:name="G_ASJ35_RS06295" fbc:label="G_ASJ35_RS06295"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS11390" fbc:name="G_ASJ35_RS11390" fbc:label="G_ASJ35_RS11390"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS12980" fbc:name="G_ASJ35_RS12980" fbc:label="G_ASJ35_RS12980"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS13795" fbc:name="G_ASJ35_RS13795" fbc:label="G_ASJ35_RS13795"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS00620" fbc:name="G_ASJ35_RS00620" fbc:label="G_ASJ35_RS00620"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS00625" fbc:name="G_ASJ35_RS00625" fbc:label="G_ASJ35_RS00625"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS00620" fbc:name="G_ASJ35_RS00620" fbc:label="G_ASJ35_RS00620"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS15710" fbc:name="G_ASJ35_RS15710" fbc:label="G_ASJ35_RS15710"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS09740" fbc:name="G_ASJ35_RS09740" fbc:label="G_ASJ35_RS09740"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS07000" fbc:name="G_ASJ35_RS07000" fbc:label="G_ASJ35_RS07000"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS06260" fbc:name="G_ASJ35_RS06260" fbc:label="G_ASJ35_RS06260"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS08880" fbc:name="G_ASJ35_RS08880" fbc:label="G_ASJ35_RS08880"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS04485" fbc:name="G_ASJ35_RS04485" fbc:label="G_ASJ35_RS04485"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS10855" fbc:name="G_ASJ35_RS10855" fbc:label="G_ASJ35_RS10855"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS08880" fbc:name="G_ASJ35_RS08880" fbc:label="G_ASJ35_RS08880"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS02990" fbc:name="G_ASJ35_RS02990" fbc:label="G_ASJ35_RS02990"/>
+      <fbc:geneProduct fbc:id="G_ASJ35_RS06995" fbc:name="G_ASJ35_RS06995" fbc:label="G_ASJ35_RS06995"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS10740" fbc:name="G_ASJ35_RS10740" fbc:label="G_ASJ35_RS10740"/>
       <fbc:geneProduct fbc:id="G_ASJ35_RS07010" fbc:name="G_ASJ35_RS07010" fbc:label="G_ASJ35_RS07010"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS09740" fbc:name="G_ASJ35_RS09740" fbc:label="G_ASJ35_RS09740"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS06995" fbc:name="G_ASJ35_RS06995" fbc:label="G_ASJ35_RS06995"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS02990" fbc:name="G_ASJ35_RS02990" fbc:label="G_ASJ35_RS02990"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS10855" fbc:name="G_ASJ35_RS10855" fbc:label="G_ASJ35_RS10855"/>
-      <fbc:geneProduct fbc:id="G_ASJ35_RS07000" fbc:name="G_ASJ35_RS07000" fbc:label="G_ASJ35_RS07000"/>
       <fbc:geneProduct fbc:id="G_TQ39_RS01680" fbc:name="G_TQ39_RS01680" fbc:label="G_TQ39_RS01680"/>
       <fbc:geneProduct fbc:id="G_TQ39_RS15035" fbc:name="G_TQ39_RS15035" fbc:label="G_TQ39_RS15035"/>
       <fbc:geneProduct fbc:id="G_TQ39_RS09595" fbc:name="G_TQ39_RS09595" fbc:label="G_TQ39_RS09595"/>
@@ -60687,26 +60687,26 @@
       <fbc:geneProduct fbc:id="G_TQ39_RS09360" fbc:name="G_TQ39_RS09360" fbc:label="G_TQ39_RS09360"/>
       <fbc:geneProduct fbc:id="G_TQ39_RS00180" fbc:name="G_TQ39_RS00180" fbc:label="G_TQ39_RS00180"/>
       <fbc:geneProduct fbc:id="G_TQ39_RS11950" fbc:name="G_TQ39_RS11950" fbc:label="G_TQ39_RS11950"/>
-      <fbc:geneProduct fbc:id="G_TQ39_RS14735" fbc:name="G_TQ39_RS14735" fbc:label="G_TQ39_RS14735"/>
       <fbc:geneProduct fbc:id="G_TQ39_RS13120" fbc:name="G_TQ39_RS13120" fbc:label="G_TQ39_RS13120"/>
-      <fbc:geneProduct fbc:id="G_TQ39_RS14495" fbc:name="G_TQ39_RS14495" fbc:label="G_TQ39_RS14495"/>
+      <fbc:geneProduct fbc:id="G_TQ39_RS14735" fbc:name="G_TQ39_RS14735" fbc:label="G_TQ39_RS14735"/>
       <fbc:geneProduct fbc:id="G_TQ39_RS14490" fbc:name="G_TQ39_RS14490" fbc:label="G_TQ39_RS14490"/>
+      <fbc:geneProduct fbc:id="G_TQ39_RS14495" fbc:name="G_TQ39_RS14495" fbc:label="G_TQ39_RS14495"/>
       <fbc:geneProduct fbc:id="G_TQ39_RS14500" fbc:name="G_TQ39_RS14500" fbc:label="G_TQ39_RS14500"/>
       <fbc:geneProduct fbc:id="G_HMPREF1032_RS03690" fbc:name="G_HMPREF1032_RS03690" fbc:label="G_HMPREF1032_RS03690"/>
-      <fbc:geneProduct fbc:id="G_HMPREF1032_RS05140" fbc:name="G_HMPREF1032_RS05140" fbc:label="G_HMPREF1032_RS05140"/>
       <fbc:geneProduct fbc:id="G_HMPREF1032_RS05135" fbc:name="G_HMPREF1032_RS05135" fbc:label="G_HMPREF1032_RS05135"/>
+      <fbc:geneProduct fbc:id="G_HMPREF1032_RS05140" fbc:name="G_HMPREF1032_RS05140" fbc:label="G_HMPREF1032_RS05140"/>
       <fbc:geneProduct fbc:id="G_HMPREF1032_RS17220" fbc:name="G_HMPREF1032_RS17220" fbc:label="G_HMPREF1032_RS17220"/>
       <fbc:geneProduct fbc:id="G_665956__46__3__46__2454__46__peg" fbc:name="G_665956__46__3__46__2454__46__peg" fbc:label="G_665956__46__3__46__2454__46__peg"/>
-      <fbc:geneProduct fbc:id="G_665956__46__3__46__485__46__peg" fbc:name="G_665956__46__3__46__485__46__peg" fbc:label="G_665956__46__3__46__485__46__peg"/>
       <fbc:geneProduct fbc:id="G_665956__46__3__46__1830__46__peg" fbc:name="G_665956__46__3__46__1830__46__peg" fbc:label="G_665956__46__3__46__1830__46__peg"/>
+      <fbc:geneProduct fbc:id="G_665956__46__3__46__485__46__peg" fbc:name="G_665956__46__3__46__485__46__peg" fbc:label="G_665956__46__3__46__485__46__peg"/>
+      <fbc:geneProduct fbc:id="G_665956__46__3__46__2356_16__46__peg" fbc:name="G_665956__46__3__46__2356_16__46__peg" fbc:label="G_665956__46__3__46__2356_16__46__peg"/>
       <fbc:geneProduct fbc:id="G_665956__46__3__46__4421_12__46__peg" fbc:name="G_665956__46__3__46__4421_12__46__peg" fbc:label="G_665956__46__3__46__4421_12__46__peg"/>
       <fbc:geneProduct fbc:id="G_665956__46__3__46__1852_12__46__peg" fbc:name="G_665956__46__3__46__1852_12__46__peg" fbc:label="G_665956__46__3__46__1852_12__46__peg"/>
-      <fbc:geneProduct fbc:id="G_665956__46__3__46__2356_16__46__peg" fbc:name="G_665956__46__3__46__2356_16__46__peg" fbc:label="G_665956__46__3__46__2356_16__46__peg"/>
       <fbc:geneProduct fbc:id="G_665956__46__3__46__3987_12__46__peg" fbc:name="G_665956__46__3__46__3987_12__46__peg" fbc:label="G_665956__46__3__46__3987_12__46__peg"/>
-      <fbc:geneProduct fbc:id="G_665956__46__3__46__1286_8__46__peg" fbc:name="G_665956__46__3__46__1286_8__46__peg" fbc:label="G_665956__46__3__46__1286_8__46__peg"/>
       <fbc:geneProduct fbc:id="G_665956__46__3__46__869_8__46__peg" fbc:name="G_665956__46__3__46__869_8__46__peg" fbc:label="G_665956__46__3__46__869_8__46__peg"/>
-      <fbc:geneProduct fbc:id="G_665956__46__3__46__3569_18__46__peg" fbc:name="G_665956__46__3__46__3569_18__46__peg" fbc:label="G_665956__46__3__46__3569_18__46__peg"/>
+      <fbc:geneProduct fbc:id="G_665956__46__3__46__1286_8__46__peg" fbc:name="G_665956__46__3__46__1286_8__46__peg" fbc:label="G_665956__46__3__46__1286_8__46__peg"/>
       <fbc:geneProduct fbc:id="G_665956__46__3__46__2862_18__46__peg" fbc:name="G_665956__46__3__46__2862_18__46__peg" fbc:label="G_665956__46__3__46__2862_18__46__peg"/>
+      <fbc:geneProduct fbc:id="G_665956__46__3__46__3569_18__46__peg" fbc:name="G_665956__46__3__46__3569_18__46__peg" fbc:label="G_665956__46__3__46__3569_18__46__peg"/>
       <fbc:geneProduct fbc:id="G_HMPREF1032_RS07585" fbc:name="G_HMPREF1032_RS07585" fbc:label="G_HMPREF1032_RS07585"/>
       <fbc:geneProduct fbc:id="G_HMPREF1032_RS07600" fbc:name="G_HMPREF1032_RS07600" fbc:label="G_HMPREF1032_RS07600"/>
       <fbc:geneProduct fbc:id="G_HMPREF1032_RS09065" fbc:name="G_HMPREF1032_RS09065" fbc:label="G_HMPREF1032_RS09065"/>

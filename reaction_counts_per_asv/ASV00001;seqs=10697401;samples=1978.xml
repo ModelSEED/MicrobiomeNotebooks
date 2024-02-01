@@ -64215,14 +64215,14 @@
       <fbc:geneProduct fbc:id="G_ADH70_RS22110" fbc:name="G_ADH70_RS22110" fbc:label="G_ADH70_RS22110"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01850" fbc:name="G_ADH70_RS01850" fbc:label="G_ADH70_RS01850"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS06845" fbc:name="G_ADH70_RS06845" fbc:label="G_ADH70_RS06845"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS12190" fbc:name="G_ADH70_RS12190" fbc:label="G_ADH70_RS12190"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS19210" fbc:name="G_ADH70_RS19210" fbc:label="G_ADH70_RS19210"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS01855" fbc:name="G_ADH70_RS01855" fbc:label="G_ADH70_RS01855"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS16135" fbc:name="G_ADH70_RS16135" fbc:label="G_ADH70_RS16135"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS19065" fbc:name="G_ADH70_RS19065" fbc:label="G_ADH70_RS19065"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11935" fbc:name="G_ADH70_RS11935" fbc:label="G_ADH70_RS11935"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS01860" fbc:name="G_ADH70_RS01860" fbc:label="G_ADH70_RS01860"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS16135" fbc:name="G_ADH70_RS16135" fbc:label="G_ADH70_RS16135"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS01855" fbc:name="G_ADH70_RS01855" fbc:label="G_ADH70_RS01855"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS19210" fbc:name="G_ADH70_RS19210" fbc:label="G_ADH70_RS19210"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS19065" fbc:name="G_ADH70_RS19065" fbc:label="G_ADH70_RS19065"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS12190" fbc:name="G_ADH70_RS12190" fbc:label="G_ADH70_RS12190"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS09705" fbc:name="G_ADH70_RS09705" fbc:label="G_ADH70_RS09705"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS01860" fbc:name="G_ADH70_RS01860" fbc:label="G_ADH70_RS01860"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS09825" fbc:name="G_ADH70_RS09825" fbc:label="G_ADH70_RS09825"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10020" fbc:name="G_ADH70_RS10020" fbc:label="G_ADH70_RS10020"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS09675" fbc:name="G_ADH70_RS09675" fbc:label="G_ADH70_RS09675"/>
@@ -64236,26 +64236,26 @@
       <fbc:geneProduct fbc:id="G_ADH70_RS12270" fbc:name="G_ADH70_RS12270" fbc:label="G_ADH70_RS12270"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS05535" fbc:name="G_ADH70_RS05535" fbc:label="G_ADH70_RS05535"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03790" fbc:name="G_ADH70_RS03790" fbc:label="G_ADH70_RS03790"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS21385" fbc:name="G_ADH70_RS21385" fbc:label="G_ADH70_RS21385"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04575" fbc:name="G_ADH70_RS04575" fbc:label="G_ADH70_RS04575"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04610" fbc:name="G_ADH70_RS04610" fbc:label="G_ADH70_RS04610"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS21385" fbc:name="G_ADH70_RS21385" fbc:label="G_ADH70_RS21385"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03940" fbc:name="G_ADH70_RS03940" fbc:label="G_ADH70_RS03940"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS04245" fbc:name="G_ADH70_RS04245" fbc:label="G_ADH70_RS04245"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01880" fbc:name="G_ADH70_RS01880" fbc:label="G_ADH70_RS01880"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS04245" fbc:name="G_ADH70_RS04245" fbc:label="G_ADH70_RS04245"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS05935" fbc:name="G_ADH70_RS05935" fbc:label="G_ADH70_RS05935"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19830" fbc:name="G_ADH70_RS19830" fbc:label="G_ADH70_RS19830"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11960" fbc:name="G_ADH70_RS11960" fbc:label="G_ADH70_RS11960"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11965" fbc:name="G_ADH70_RS11965" fbc:label="G_ADH70_RS11965"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS06930" fbc:name="G_ADH70_RS06930" fbc:label="G_ADH70_RS06930"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11690" fbc:name="G_ADH70_RS11690" fbc:label="G_ADH70_RS11690"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11685" fbc:name="G_ADH70_RS11685" fbc:label="G_ADH70_RS11685"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS06930" fbc:name="G_ADH70_RS06930" fbc:label="G_ADH70_RS06930"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02510" fbc:name="G_ADH70_RS02510" fbc:label="G_ADH70_RS02510"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03415" fbc:name="G_ADH70_RS03415" fbc:label="G_ADH70_RS03415"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS18340" fbc:name="G_ADH70_RS18340" fbc:label="G_ADH70_RS18340"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18455" fbc:name="G_ADH70_RS18455" fbc:label="G_ADH70_RS18455"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS15720" fbc:name="G_ADH70_RS15720" fbc:label="G_ADH70_RS15720"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS16585" fbc:name="G_ADH70_RS16585" fbc:label="G_ADH70_RS16585"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18455" fbc:name="G_ADH70_RS18455" fbc:label="G_ADH70_RS18455"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10940" fbc:name="G_ADH70_RS10940" fbc:label="G_ADH70_RS10940"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS16585" fbc:name="G_ADH70_RS16585" fbc:label="G_ADH70_RS16585"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11955" fbc:name="G_ADH70_RS11955" fbc:label="G_ADH70_RS11955"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13190" fbc:name="G_ADH70_RS13190" fbc:label="G_ADH70_RS13190"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08530" fbc:name="G_ADH70_RS08530" fbc:label="G_ADH70_RS08530"/>
@@ -64280,37 +64280,37 @@
       <fbc:geneProduct fbc:id="G_ADH70_RS20525" fbc:name="G_ADH70_RS20525" fbc:label="G_ADH70_RS20525"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS16415" fbc:name="G_ADH70_RS16415" fbc:label="G_ADH70_RS16415"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19595" fbc:name="G_ADH70_RS19595" fbc:label="G_ADH70_RS19595"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18380" fbc:name="G_ADH70_RS18380" fbc:label="G_ADH70_RS18380"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS09915" fbc:name="G_ADH70_RS09915" fbc:label="G_ADH70_RS09915"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18380" fbc:name="G_ADH70_RS18380" fbc:label="G_ADH70_RS18380"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11605" fbc:name="G_ADH70_RS11605" fbc:label="G_ADH70_RS11605"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13285" fbc:name="G_ADH70_RS13285" fbc:label="G_ADH70_RS13285"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS22390" fbc:name="G_ADH70_RS22390" fbc:label="G_ADH70_RS22390"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14025" fbc:name="G_ADH70_RS14025" fbc:label="G_ADH70_RS14025"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS11630" fbc:name="G_ADH70_RS11630" fbc:label="G_ADH70_RS11630"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS04470" fbc:name="G_ADH70_RS04470" fbc:label="G_ADH70_RS04470"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14295" fbc:name="G_ADH70_RS14295" fbc:label="G_ADH70_RS14295"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS11435" fbc:name="G_ADH70_RS11435" fbc:label="G_ADH70_RS11435"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS22370" fbc:name="G_ADH70_RS22370" fbc:label="G_ADH70_RS22370"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS11445" fbc:name="G_ADH70_RS11445" fbc:label="G_ADH70_RS11445"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS11630" fbc:name="G_ADH70_RS11630" fbc:label="G_ADH70_RS11630"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS22390" fbc:name="G_ADH70_RS22390" fbc:label="G_ADH70_RS22390"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS04470" fbc:name="G_ADH70_RS04470" fbc:label="G_ADH70_RS04470"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14025" fbc:name="G_ADH70_RS14025" fbc:label="G_ADH70_RS14025"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS16615" fbc:name="G_ADH70_RS16615" fbc:label="G_ADH70_RS16615"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS16595" fbc:name="G_ADH70_RS16595" fbc:label="G_ADH70_RS16595"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08615" fbc:name="G_ADH70_RS08615" fbc:label="G_ADH70_RS08615"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS01175" fbc:name="G_ADH70_RS01175" fbc:label="G_ADH70_RS01175"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS06965" fbc:name="G_ADH70_RS06965" fbc:label="G_ADH70_RS06965"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS22365" fbc:name="G_ADH70_RS22365" fbc:label="G_ADH70_RS22365"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS22355" fbc:name="G_ADH70_RS22355" fbc:label="G_ADH70_RS22355"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS08630" fbc:name="G_ADH70_RS08630" fbc:label="G_ADH70_RS08630"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS16590" fbc:name="G_ADH70_RS16590" fbc:label="G_ADH70_RS16590"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS08610" fbc:name="G_ADH70_RS08610" fbc:label="G_ADH70_RS08610"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS11435" fbc:name="G_ADH70_RS11435" fbc:label="G_ADH70_RS11435"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS06955" fbc:name="G_ADH70_RS06955" fbc:label="G_ADH70_RS06955"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01155" fbc:name="G_ADH70_RS01155" fbc:label="G_ADH70_RS01155"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS22375" fbc:name="G_ADH70_RS22375" fbc:label="G_ADH70_RS22375"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS22365" fbc:name="G_ADH70_RS22365" fbc:label="G_ADH70_RS22365"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS08630" fbc:name="G_ADH70_RS08630" fbc:label="G_ADH70_RS08630"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS08610" fbc:name="G_ADH70_RS08610" fbc:label="G_ADH70_RS08610"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS22355" fbc:name="G_ADH70_RS22355" fbc:label="G_ADH70_RS22355"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS06965" fbc:name="G_ADH70_RS06965" fbc:label="G_ADH70_RS06965"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS16615" fbc:name="G_ADH70_RS16615" fbc:label="G_ADH70_RS16615"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS06960" fbc:name="G_ADH70_RS06960" fbc:label="G_ADH70_RS06960"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS16590" fbc:name="G_ADH70_RS16590" fbc:label="G_ADH70_RS16590"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS11445" fbc:name="G_ADH70_RS11445" fbc:label="G_ADH70_RS11445"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS22370" fbc:name="G_ADH70_RS22370" fbc:label="G_ADH70_RS22370"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11360" fbc:name="G_ADH70_RS11360" fbc:label="G_ADH70_RS11360"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS06955" fbc:name="G_ADH70_RS06955" fbc:label="G_ADH70_RS06955"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS01175" fbc:name="G_ADH70_RS01175" fbc:label="G_ADH70_RS01175"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS06960" fbc:name="G_ADH70_RS06960" fbc:label="G_ADH70_RS06960"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS24100" fbc:name="G_ADH70_RS24100" fbc:label="G_ADH70_RS24100"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS21755" fbc:name="G_ADH70_RS21755" fbc:label="G_ADH70_RS21755"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS21760" fbc:name="G_ADH70_RS21760" fbc:label="G_ADH70_RS21760"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS21745" fbc:name="G_ADH70_RS21745" fbc:label="G_ADH70_RS21745"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS21760" fbc:name="G_ADH70_RS21760" fbc:label="G_ADH70_RS21760"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS21755" fbc:name="G_ADH70_RS21755" fbc:label="G_ADH70_RS21755"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS06150" fbc:name="G_ADH70_RS06150" fbc:label="G_ADH70_RS06150"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04180" fbc:name="G_ADH70_RS04180" fbc:label="G_ADH70_RS04180"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08910" fbc:name="G_ADH70_RS08910" fbc:label="G_ADH70_RS08910"/>
@@ -64318,159 +64318,159 @@
       <fbc:geneProduct fbc:id="G_ADH70_RS01690" fbc:name="G_ADH70_RS01690" fbc:label="G_ADH70_RS01690"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10500" fbc:name="G_ADH70_RS10500" fbc:label="G_ADH70_RS10500"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS09210" fbc:name="G_ADH70_RS09210" fbc:label="G_ADH70_RS09210"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS12450" fbc:name="G_ADH70_RS12450" fbc:label="G_ADH70_RS12450"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10000" fbc:name="G_ADH70_RS10000" fbc:label="G_ADH70_RS10000"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS12450" fbc:name="G_ADH70_RS12450" fbc:label="G_ADH70_RS12450"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00410" fbc:name="G_ADH70_RS00410" fbc:label="G_ADH70_RS00410"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS09520" fbc:name="G_ADH70_RS09520" fbc:label="G_ADH70_RS09520"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS18345" fbc:name="G_ADH70_RS18345" fbc:label="G_ADH70_RS18345"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS18325" fbc:name="G_ADH70_RS18325" fbc:label="G_ADH70_RS18325"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04220" fbc:name="G_ADH70_RS04220" fbc:label="G_ADH70_RS04220"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04215" fbc:name="G_ADH70_RS04215" fbc:label="G_ADH70_RS04215"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS01100" fbc:name="G_ADH70_RS01100" fbc:label="G_ADH70_RS01100"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14820" fbc:name="G_ADH70_RS14820" fbc:label="G_ADH70_RS14820"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS21565" fbc:name="G_ADH70_RS21565" fbc:label="G_ADH70_RS21565"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14845" fbc:name="G_ADH70_RS14845" fbc:label="G_ADH70_RS14845"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14820" fbc:name="G_ADH70_RS14820" fbc:label="G_ADH70_RS14820"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS01100" fbc:name="G_ADH70_RS01100" fbc:label="G_ADH70_RS01100"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14205" fbc:name="G_ADH70_RS14205" fbc:label="G_ADH70_RS14205"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS01530" fbc:name="G_ADH70_RS01530" fbc:label="G_ADH70_RS01530"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14545" fbc:name="G_ADH70_RS14545" fbc:label="G_ADH70_RS14545"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS01575" fbc:name="G_ADH70_RS01575" fbc:label="G_ADH70_RS01575"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS01570" fbc:name="G_ADH70_RS01570" fbc:label="G_ADH70_RS01570"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS15360" fbc:name="G_ADH70_RS15360" fbc:label="G_ADH70_RS15360"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14275" fbc:name="G_ADH70_RS14275" fbc:label="G_ADH70_RS14275"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS15355" fbc:name="G_ADH70_RS15355" fbc:label="G_ADH70_RS15355"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14280" fbc:name="G_ADH70_RS14280" fbc:label="G_ADH70_RS14280"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18140" fbc:name="G_ADH70_RS18140" fbc:label="G_ADH70_RS18140"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS05955" fbc:name="G_ADH70_RS05955" fbc:label="G_ADH70_RS05955"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14830" fbc:name="G_ADH70_RS14830" fbc:label="G_ADH70_RS14830"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS13115" fbc:name="G_ADH70_RS13115" fbc:label="G_ADH70_RS13115"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS01535" fbc:name="G_ADH70_RS01535" fbc:label="G_ADH70_RS01535"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS20560" fbc:name="G_ADH70_RS20560" fbc:label="G_ADH70_RS20560"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS21535" fbc:name="G_ADH70_RS21535" fbc:label="G_ADH70_RS21535"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14620" fbc:name="G_ADH70_RS14620" fbc:label="G_ADH70_RS14620"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS06400" fbc:name="G_ADH70_RS06400" fbc:label="G_ADH70_RS06400"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS20560" fbc:name="G_ADH70_RS20560" fbc:label="G_ADH70_RS20560"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18140" fbc:name="G_ADH70_RS18140" fbc:label="G_ADH70_RS18140"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS21535" fbc:name="G_ADH70_RS21535" fbc:label="G_ADH70_RS21535"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14545" fbc:name="G_ADH70_RS14545" fbc:label="G_ADH70_RS14545"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14270" fbc:name="G_ADH70_RS14270" fbc:label="G_ADH70_RS14270"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14610" fbc:name="G_ADH70_RS14610" fbc:label="G_ADH70_RS14610"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS13110" fbc:name="G_ADH70_RS13110" fbc:label="G_ADH70_RS13110"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14615" fbc:name="G_ADH70_RS14615" fbc:label="G_ADH70_RS14615"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS01535" fbc:name="G_ADH70_RS01535" fbc:label="G_ADH70_RS01535"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01565" fbc:name="G_ADH70_RS01565" fbc:label="G_ADH70_RS01565"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS06400" fbc:name="G_ADH70_RS06400" fbc:label="G_ADH70_RS06400"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS05955" fbc:name="G_ADH70_RS05955" fbc:label="G_ADH70_RS05955"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS15360" fbc:name="G_ADH70_RS15360" fbc:label="G_ADH70_RS15360"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14280" fbc:name="G_ADH70_RS14280" fbc:label="G_ADH70_RS14280"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS01575" fbc:name="G_ADH70_RS01575" fbc:label="G_ADH70_RS01575"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS13115" fbc:name="G_ADH70_RS13115" fbc:label="G_ADH70_RS13115"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14610" fbc:name="G_ADH70_RS14610" fbc:label="G_ADH70_RS14610"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14830" fbc:name="G_ADH70_RS14830" fbc:label="G_ADH70_RS14830"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS13110" fbc:name="G_ADH70_RS13110" fbc:label="G_ADH70_RS13110"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS01530" fbc:name="G_ADH70_RS01530" fbc:label="G_ADH70_RS01530"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14615" fbc:name="G_ADH70_RS14615" fbc:label="G_ADH70_RS14615"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS15355" fbc:name="G_ADH70_RS15355" fbc:label="G_ADH70_RS15355"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS01570" fbc:name="G_ADH70_RS01570" fbc:label="G_ADH70_RS01570"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14275" fbc:name="G_ADH70_RS14275" fbc:label="G_ADH70_RS14275"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04145" fbc:name="G_ADH70_RS04145" fbc:label="G_ADH70_RS04145"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02735" fbc:name="G_ADH70_RS02735" fbc:label="G_ADH70_RS02735"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11975" fbc:name="G_ADH70_RS11975" fbc:label="G_ADH70_RS11975"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS09000" fbc:name="G_ADH70_RS09000" fbc:label="G_ADH70_RS09000"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13200" fbc:name="G_ADH70_RS13200" fbc:label="G_ADH70_RS13200"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10205" fbc:name="G_ADH70_RS10205" fbc:label="G_ADH70_RS10205"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS09000" fbc:name="G_ADH70_RS09000" fbc:label="G_ADH70_RS09000"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02740" fbc:name="G_ADH70_RS02740" fbc:label="G_ADH70_RS02740"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS23900" fbc:name="G_ADH70_RS23900" fbc:label="G_ADH70_RS23900"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14810" fbc:name="G_ADH70_RS14810" fbc:label="G_ADH70_RS14810"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS03235" fbc:name="G_ADH70_RS03235" fbc:label="G_ADH70_RS03235"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03240" fbc:name="G_ADH70_RS03240" fbc:label="G_ADH70_RS03240"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS03235" fbc:name="G_ADH70_RS03235" fbc:label="G_ADH70_RS03235"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10590" fbc:name="G_ADH70_RS10590" fbc:label="G_ADH70_RS10590"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03315" fbc:name="G_ADH70_RS03315" fbc:label="G_ADH70_RS03315"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS22795" fbc:name="G_ADH70_RS22795" fbc:label="G_ADH70_RS22795"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS15235" fbc:name="G_ADH70_RS15235" fbc:label="G_ADH70_RS15235"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS22795" fbc:name="G_ADH70_RS22795" fbc:label="G_ADH70_RS22795"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10240" fbc:name="G_ADH70_RS10240" fbc:label="G_ADH70_RS10240"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS10225" fbc:name="G_ADH70_RS10225" fbc:label="G_ADH70_RS10225"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS07695" fbc:name="G_ADH70_RS07695" fbc:label="G_ADH70_RS07695"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS17905" fbc:name="G_ADH70_RS17905" fbc:label="G_ADH70_RS17905"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS10225" fbc:name="G_ADH70_RS10225" fbc:label="G_ADH70_RS10225"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01180" fbc:name="G_ADH70_RS01180" fbc:label="G_ADH70_RS01180"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS03305" fbc:name="G_ADH70_RS03305" fbc:label="G_ADH70_RS03305"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS06775" fbc:name="G_ADH70_RS06775" fbc:label="G_ADH70_RS06775"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS21790" fbc:name="G_ADH70_RS21790" fbc:label="G_ADH70_RS21790"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04710" fbc:name="G_ADH70_RS04710" fbc:label="G_ADH70_RS04710"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS21790" fbc:name="G_ADH70_RS21790" fbc:label="G_ADH70_RS21790"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS03305" fbc:name="G_ADH70_RS03305" fbc:label="G_ADH70_RS03305"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08145" fbc:name="G_ADH70_RS08145" fbc:label="G_ADH70_RS08145"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS19715" fbc:name="G_ADH70_RS19715" fbc:label="G_ADH70_RS19715"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS17905" fbc:name="G_ADH70_RS17905" fbc:label="G_ADH70_RS17905"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS06775" fbc:name="G_ADH70_RS06775" fbc:label="G_ADH70_RS06775"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19720" fbc:name="G_ADH70_RS19720" fbc:label="G_ADH70_RS19720"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS19715" fbc:name="G_ADH70_RS19715" fbc:label="G_ADH70_RS19715"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS07230" fbc:name="G_ADH70_RS07230" fbc:label="G_ADH70_RS07230"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS07220" fbc:name="G_ADH70_RS07220" fbc:label="G_ADH70_RS07220"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS07215" fbc:name="G_ADH70_RS07215" fbc:label="G_ADH70_RS07215"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14265" fbc:name="G_ADH70_RS14265" fbc:label="G_ADH70_RS14265"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03085" fbc:name="G_ADH70_RS03085" fbc:label="G_ADH70_RS03085"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS07225" fbc:name="G_ADH70_RS07225" fbc:label="G_ADH70_RS07225"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS07215" fbc:name="G_ADH70_RS07215" fbc:label="G_ADH70_RS07215"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS07220" fbc:name="G_ADH70_RS07220" fbc:label="G_ADH70_RS07220"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14265" fbc:name="G_ADH70_RS14265" fbc:label="G_ADH70_RS14265"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS07230" fbc:name="G_ADH70_RS07230" fbc:label="G_ADH70_RS07230"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS00425" fbc:name="G_ADH70_RS00425" fbc:label="G_ADH70_RS00425"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14665" fbc:name="G_ADH70_RS14665" fbc:label="G_ADH70_RS14665"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14595" fbc:name="G_ADH70_RS14595" fbc:label="G_ADH70_RS14595"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS21320" fbc:name="G_ADH70_RS21320" fbc:label="G_ADH70_RS21320"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS16535" fbc:name="G_ADH70_RS16535" fbc:label="G_ADH70_RS16535"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS20655" fbc:name="G_ADH70_RS20655" fbc:label="G_ADH70_RS20655"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14665" fbc:name="G_ADH70_RS14665" fbc:label="G_ADH70_RS14665"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS07880" fbc:name="G_ADH70_RS07880" fbc:label="G_ADH70_RS07880"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS01865" fbc:name="G_ADH70_RS01865" fbc:label="G_ADH70_RS01865"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS17670" fbc:name="G_ADH70_RS17670" fbc:label="G_ADH70_RS17670"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14595" fbc:name="G_ADH70_RS14595" fbc:label="G_ADH70_RS14595"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS00425" fbc:name="G_ADH70_RS00425" fbc:label="G_ADH70_RS00425"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS16535" fbc:name="G_ADH70_RS16535" fbc:label="G_ADH70_RS16535"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS21320" fbc:name="G_ADH70_RS21320" fbc:label="G_ADH70_RS21320"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01875" fbc:name="G_ADH70_RS01875" fbc:label="G_ADH70_RS01875"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13345" fbc:name="G_ADH70_RS13345" fbc:label="G_ADH70_RS13345"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS17670" fbc:name="G_ADH70_RS17670" fbc:label="G_ADH70_RS17670"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS01865" fbc:name="G_ADH70_RS01865" fbc:label="G_ADH70_RS01865"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00160" fbc:name="G_ADH70_RS00160" fbc:label="G_ADH70_RS00160"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS22640" fbc:name="G_ADH70_RS22640" fbc:label="G_ADH70_RS22640"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS16015" fbc:name="G_ADH70_RS16015" fbc:label="G_ADH70_RS16015"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19195" fbc:name="G_ADH70_RS19195" fbc:label="G_ADH70_RS19195"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS21400" fbc:name="G_ADH70_RS21400" fbc:label="G_ADH70_RS21400"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS10950" fbc:name="G_ADH70_RS10950" fbc:label="G_ADH70_RS10950"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00905" fbc:name="G_ADH70_RS00905" fbc:label="G_ADH70_RS00905"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS10950" fbc:name="G_ADH70_RS10950" fbc:label="G_ADH70_RS10950"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00875" fbc:name="G_ADH70_RS00875" fbc:label="G_ADH70_RS00875"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS15860" fbc:name="G_ADH70_RS15860" fbc:label="G_ADH70_RS15860"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00870" fbc:name="G_ADH70_RS00870" fbc:label="G_ADH70_RS00870"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03010" fbc:name="G_ADH70_RS03010" fbc:label="G_ADH70_RS03010"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS01755" fbc:name="G_ADH70_RS01755" fbc:label="G_ADH70_RS01755"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS17010" fbc:name="G_ADH70_RS17010" fbc:label="G_ADH70_RS17010"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS15940" fbc:name="G_ADH70_RS15940" fbc:label="G_ADH70_RS15940"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS15860" fbc:name="G_ADH70_RS15860" fbc:label="G_ADH70_RS15860"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS17000" fbc:name="G_ADH70_RS17000" fbc:label="G_ADH70_RS17000"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS22900" fbc:name="G_ADH70_RS22900" fbc:label="G_ADH70_RS22900"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS05370" fbc:name="G_ADH70_RS05370" fbc:label="G_ADH70_RS05370"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11100" fbc:name="G_ADH70_RS11100" fbc:label="G_ADH70_RS11100"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS01755" fbc:name="G_ADH70_RS01755" fbc:label="G_ADH70_RS01755"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS22900" fbc:name="G_ADH70_RS22900" fbc:label="G_ADH70_RS22900"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS15940" fbc:name="G_ADH70_RS15940" fbc:label="G_ADH70_RS15940"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS17010" fbc:name="G_ADH70_RS17010" fbc:label="G_ADH70_RS17010"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS05370" fbc:name="G_ADH70_RS05370" fbc:label="G_ADH70_RS05370"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11490" fbc:name="G_ADH70_RS11490" fbc:label="G_ADH70_RS11490"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS00840" fbc:name="G_ADH70_RS00840" fbc:label="G_ADH70_RS00840"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS00805" fbc:name="G_ADH70_RS00805" fbc:label="G_ADH70_RS00805"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS00835" fbc:name="G_ADH70_RS00835" fbc:label="G_ADH70_RS00835"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00800" fbc:name="G_ADH70_RS00800" fbc:label="G_ADH70_RS00800"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS00835" fbc:name="G_ADH70_RS00835" fbc:label="G_ADH70_RS00835"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS00805" fbc:name="G_ADH70_RS00805" fbc:label="G_ADH70_RS00805"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS00840" fbc:name="G_ADH70_RS00840" fbc:label="G_ADH70_RS00840"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS15695" fbc:name="G_ADH70_RS15695" fbc:label="G_ADH70_RS15695"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08505" fbc:name="G_ADH70_RS08505" fbc:label="G_ADH70_RS08505"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10720" fbc:name="G_ADH70_RS10720" fbc:label="G_ADH70_RS10720"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS15975" fbc:name="G_ADH70_RS15975" fbc:label="G_ADH70_RS15975"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS08765" fbc:name="G_ADH70_RS08765" fbc:label="G_ADH70_RS08765"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS08755" fbc:name="G_ADH70_RS08755" fbc:label="G_ADH70_RS08755"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08760" fbc:name="G_ADH70_RS08760" fbc:label="G_ADH70_RS08760"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS04060" fbc:name="G_ADH70_RS04060" fbc:label="G_ADH70_RS04060"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS08755" fbc:name="G_ADH70_RS08755" fbc:label="G_ADH70_RS08755"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS08765" fbc:name="G_ADH70_RS08765" fbc:label="G_ADH70_RS08765"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01285" fbc:name="G_ADH70_RS01285" fbc:label="G_ADH70_RS01285"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS09215" fbc:name="G_ADH70_RS09215" fbc:label="G_ADH70_RS09215"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS04060" fbc:name="G_ADH70_RS04060" fbc:label="G_ADH70_RS04060"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13040" fbc:name="G_ADH70_RS13040" fbc:label="G_ADH70_RS13040"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13045" fbc:name="G_ADH70_RS13045" fbc:label="G_ADH70_RS13045"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS10170" fbc:name="G_ADH70_RS10170" fbc:label="G_ADH70_RS10170"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS09215" fbc:name="G_ADH70_RS09215" fbc:label="G_ADH70_RS09215"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10815" fbc:name="G_ADH70_RS10815" fbc:label="G_ADH70_RS10815"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS15265" fbc:name="G_ADH70_RS15265" fbc:label="G_ADH70_RS15265"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS10170" fbc:name="G_ADH70_RS10170" fbc:label="G_ADH70_RS10170"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS15275" fbc:name="G_ADH70_RS15275" fbc:label="G_ADH70_RS15275"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS15270" fbc:name="G_ADH70_RS15270" fbc:label="G_ADH70_RS15270"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS15265" fbc:name="G_ADH70_RS15265" fbc:label="G_ADH70_RS15265"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03905" fbc:name="G_ADH70_RS03905" fbc:label="G_ADH70_RS03905"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03920" fbc:name="G_ADH70_RS03920" fbc:label="G_ADH70_RS03920"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03910" fbc:name="G_ADH70_RS03910" fbc:label="G_ADH70_RS03910"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03975" fbc:name="G_ADH70_RS03975" fbc:label="G_ADH70_RS03975"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00590" fbc:name="G_ADH70_RS00590" fbc:label="G_ADH70_RS00590"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS23980" fbc:name="G_ADH70_RS23980" fbc:label="G_ADH70_RS23980"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS19675" fbc:name="G_ADH70_RS19675" fbc:label="G_ADH70_RS19675"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19680" fbc:name="G_ADH70_RS19680" fbc:label="G_ADH70_RS19680"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS19675" fbc:name="G_ADH70_RS19675" fbc:label="G_ADH70_RS19675"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS18705" fbc:name="G_ADH70_RS18705" fbc:label="G_ADH70_RS18705"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS09920" fbc:name="G_ADH70_RS09920" fbc:label="G_ADH70_RS09920"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS20135" fbc:name="G_ADH70_RS20135" fbc:label="G_ADH70_RS20135"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08540" fbc:name="G_ADH70_RS08540" fbc:label="G_ADH70_RS08540"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03210" fbc:name="G_ADH70_RS03210" fbc:label="G_ADH70_RS03210"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS22060" fbc:name="G_ADH70_RS22060" fbc:label="G_ADH70_RS22060"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS05185" fbc:name="G_ADH70_RS05185" fbc:label="G_ADH70_RS05185"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS09880" fbc:name="G_ADH70_RS09880" fbc:label="G_ADH70_RS09880"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS04280" fbc:name="G_ADH70_RS04280" fbc:label="G_ADH70_RS04280"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11655" fbc:name="G_ADH70_RS11655" fbc:label="G_ADH70_RS11655"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS23970" fbc:name="G_ADH70_RS23970" fbc:label="G_ADH70_RS23970"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS22060" fbc:name="G_ADH70_RS22060" fbc:label="G_ADH70_RS22060"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS04280" fbc:name="G_ADH70_RS04280" fbc:label="G_ADH70_RS04280"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS05185" fbc:name="G_ADH70_RS05185" fbc:label="G_ADH70_RS05185"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS09880" fbc:name="G_ADH70_RS09880" fbc:label="G_ADH70_RS09880"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS22030" fbc:name="G_ADH70_RS22030" fbc:label="G_ADH70_RS22030"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS22125" fbc:name="G_ADH70_RS22125" fbc:label="G_ADH70_RS22125"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS10755" fbc:name="G_ADH70_RS10755" fbc:label="G_ADH70_RS10755"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS05530" fbc:name="G_ADH70_RS05530" fbc:label="G_ADH70_RS05530"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01460" fbc:name="G_ADH70_RS01460" fbc:label="G_ADH70_RS01460"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS22195" fbc:name="G_ADH70_RS22195" fbc:label="G_ADH70_RS22195"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS05530" fbc:name="G_ADH70_RS05530" fbc:label="G_ADH70_RS05530"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS10755" fbc:name="G_ADH70_RS10755" fbc:label="G_ADH70_RS10755"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS23920" fbc:name="G_ADH70_RS23920" fbc:label="G_ADH70_RS23920"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS22195" fbc:name="G_ADH70_RS22195" fbc:label="G_ADH70_RS22195"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11575" fbc:name="G_ADH70_RS11575" fbc:label="G_ADH70_RS11575"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03045" fbc:name="G_ADH70_RS03045" fbc:label="G_ADH70_RS03045"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11865" fbc:name="G_ADH70_RS11865" fbc:label="G_ADH70_RS11865"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01080" fbc:name="G_ADH70_RS01080" fbc:label="G_ADH70_RS01080"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01085" fbc:name="G_ADH70_RS01085" fbc:label="G_ADH70_RS01085"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS02225" fbc:name="G_ADH70_RS02225" fbc:label="G_ADH70_RS02225"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS20945" fbc:name="G_ADH70_RS20945" fbc:label="G_ADH70_RS20945"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01210" fbc:name="G_ADH70_RS01210" fbc:label="G_ADH70_RS01210"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS02225" fbc:name="G_ADH70_RS02225" fbc:label="G_ADH70_RS02225"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01075" fbc:name="G_ADH70_RS01075" fbc:label="G_ADH70_RS01075"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS18175" fbc:name="G_ADH70_RS18175" fbc:label="G_ADH70_RS18175"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS15350" fbc:name="G_ADH70_RS15350" fbc:label="G_ADH70_RS15350"/>
@@ -64490,18 +64490,18 @@
       <fbc:geneProduct fbc:id="G_ADH70_RS13280" fbc:name="G_ADH70_RS13280" fbc:label="G_ADH70_RS13280"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS05200" fbc:name="G_ADH70_RS05200" fbc:label="G_ADH70_RS05200"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS20860" fbc:name="G_ADH70_RS20860" fbc:label="G_ADH70_RS20860"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS20845" fbc:name="G_ADH70_RS20845" fbc:label="G_ADH70_RS20845"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01055" fbc:name="G_ADH70_RS01055" fbc:label="G_ADH70_RS01055"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS20845" fbc:name="G_ADH70_RS20845" fbc:label="G_ADH70_RS20845"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS22035" fbc:name="G_ADH70_RS22035" fbc:label="G_ADH70_RS22035"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02110" fbc:name="G_ADH70_RS02110" fbc:label="G_ADH70_RS02110"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS04290" fbc:name="G_ADH70_RS04290" fbc:label="G_ADH70_RS04290"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04285" fbc:name="G_ADH70_RS04285" fbc:label="G_ADH70_RS04285"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS04290" fbc:name="G_ADH70_RS04290" fbc:label="G_ADH70_RS04290"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03370" fbc:name="G_ADH70_RS03370" fbc:label="G_ADH70_RS03370"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03245" fbc:name="G_ADH70_RS03245" fbc:label="G_ADH70_RS03245"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08215" fbc:name="G_ADH70_RS08215" fbc:label="G_ADH70_RS08215"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14310" fbc:name="G_ADH70_RS14310" fbc:label="G_ADH70_RS14310"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08250" fbc:name="G_ADH70_RS08250" fbc:label="G_ADH70_RS08250"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13150" fbc:name="G_ADH70_RS13150" fbc:label="G_ADH70_RS13150"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14310" fbc:name="G_ADH70_RS14310" fbc:label="G_ADH70_RS14310"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS22820" fbc:name="G_ADH70_RS22820" fbc:label="G_ADH70_RS22820"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS22830" fbc:name="G_ADH70_RS22830" fbc:label="G_ADH70_RS22830"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10090" fbc:name="G_ADH70_RS10090" fbc:label="G_ADH70_RS10090"/>
@@ -64510,26 +64510,26 @@
       <fbc:geneProduct fbc:id="G_ADH70_RS02725" fbc:name="G_ADH70_RS02725" fbc:label="G_ADH70_RS02725"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02275" fbc:name="G_ADH70_RS02275" fbc:label="G_ADH70_RS02275"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02355" fbc:name="G_ADH70_RS02355" fbc:label="G_ADH70_RS02355"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS04595" fbc:name="G_ADH70_RS04595" fbc:label="G_ADH70_RS04595"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04600" fbc:name="G_ADH70_RS04600" fbc:label="G_ADH70_RS04600"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS04595" fbc:name="G_ADH70_RS04595" fbc:label="G_ADH70_RS04595"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04640" fbc:name="G_ADH70_RS04640" fbc:label="G_ADH70_RS04640"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS08585" fbc:name="G_ADH70_RS08585" fbc:label="G_ADH70_RS08585"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13145" fbc:name="G_ADH70_RS13145" fbc:label="G_ADH70_RS13145"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS07690" fbc:name="G_ADH70_RS07690" fbc:label="G_ADH70_RS07690"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS08585" fbc:name="G_ADH70_RS08585" fbc:label="G_ADH70_RS08585"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08165" fbc:name="G_ADH70_RS08165" fbc:label="G_ADH70_RS08165"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS12260" fbc:name="G_ADH70_RS12260" fbc:label="G_ADH70_RS12260"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS12255" fbc:name="G_ADH70_RS12255" fbc:label="G_ADH70_RS12255"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS12250" fbc:name="G_ADH70_RS12250" fbc:label="G_ADH70_RS12250"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS00040" fbc:name="G_ADH70_RS00040" fbc:label="G_ADH70_RS00040"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS22220" fbc:name="G_ADH70_RS22220" fbc:label="G_ADH70_RS22220"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS00150" fbc:name="G_ADH70_RS00150" fbc:label="G_ADH70_RS00150"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03400" fbc:name="G_ADH70_RS03400" fbc:label="G_ADH70_RS03400"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS01525" fbc:name="G_ADH70_RS01525" fbc:label="G_ADH70_RS01525"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS22220" fbc:name="G_ADH70_RS22220" fbc:label="G_ADH70_RS22220"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS00040" fbc:name="G_ADH70_RS00040" fbc:label="G_ADH70_RS00040"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS00150" fbc:name="G_ADH70_RS00150" fbc:label="G_ADH70_RS00150"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS21095" fbc:name="G_ADH70_RS21095" fbc:label="G_ADH70_RS21095"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS01525" fbc:name="G_ADH70_RS01525" fbc:label="G_ADH70_RS01525"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00330" fbc:name="G_ADH70_RS00330" fbc:label="G_ADH70_RS00330"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10120" fbc:name="G_ADH70_RS10120" fbc:label="G_ADH70_RS10120"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS03870" fbc:name="G_ADH70_RS03870" fbc:label="G_ADH70_RS03870"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08770" fbc:name="G_ADH70_RS08770" fbc:label="G_ADH70_RS08770"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS03870" fbc:name="G_ADH70_RS03870" fbc:label="G_ADH70_RS03870"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS21775" fbc:name="G_ADH70_RS21775" fbc:label="G_ADH70_RS21775"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04345" fbc:name="G_ADH70_RS04345" fbc:label="G_ADH70_RS04345"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19815" fbc:name="G_ADH70_RS19815" fbc:label="G_ADH70_RS19815"/>
@@ -64537,33 +64537,33 @@
       <fbc:geneProduct fbc:id="G_ADH70_RS03040" fbc:name="G_ADH70_RS03040" fbc:label="G_ADH70_RS03040"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS21770" fbc:name="G_ADH70_RS21770" fbc:label="G_ADH70_RS21770"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08725" fbc:name="G_ADH70_RS08725" fbc:label="G_ADH70_RS08725"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS15225" fbc:name="G_ADH70_RS15225" fbc:label="G_ADH70_RS15225"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS15230" fbc:name="G_ADH70_RS15230" fbc:label="G_ADH70_RS15230"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08720" fbc:name="G_ADH70_RS08720" fbc:label="G_ADH70_RS08720"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS15225" fbc:name="G_ADH70_RS15225" fbc:label="G_ADH70_RS15225"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02750" fbc:name="G_ADH70_RS02750" fbc:label="G_ADH70_RS02750"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03705" fbc:name="G_ADH70_RS03705" fbc:label="G_ADH70_RS03705"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18295" fbc:name="G_ADH70_RS18295" fbc:label="G_ADH70_RS18295"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04025" fbc:name="G_ADH70_RS04025" fbc:label="G_ADH70_RS04025"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18295" fbc:name="G_ADH70_RS18295" fbc:label="G_ADH70_RS18295"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03765" fbc:name="G_ADH70_RS03765" fbc:label="G_ADH70_RS03765"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03435" fbc:name="G_ADH70_RS03435" fbc:label="G_ADH70_RS03435"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00820" fbc:name="G_ADH70_RS00820" fbc:label="G_ADH70_RS00820"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03770" fbc:name="G_ADH70_RS03770" fbc:label="G_ADH70_RS03770"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS22915" fbc:name="G_ADH70_RS22915" fbc:label="G_ADH70_RS22915"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS22545" fbc:name="G_ADH70_RS22545" fbc:label="G_ADH70_RS22545"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS19395" fbc:name="G_ADH70_RS19395" fbc:label="G_ADH70_RS19395"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS22945" fbc:name="G_ADH70_RS22945" fbc:label="G_ADH70_RS22945"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS19395" fbc:name="G_ADH70_RS19395" fbc:label="G_ADH70_RS19395"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS20535" fbc:name="G_ADH70_RS20535" fbc:label="G_ADH70_RS20535"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS03350" fbc:name="G_ADH70_RS03350" fbc:label="G_ADH70_RS03350"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19875" fbc:name="G_ADH70_RS19875" fbc:label="G_ADH70_RS19875"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS17955" fbc:name="G_ADH70_RS17955" fbc:label="G_ADH70_RS17955"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS03350" fbc:name="G_ADH70_RS03350" fbc:label="G_ADH70_RS03350"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS16050" fbc:name="G_ADH70_RS16050" fbc:label="G_ADH70_RS16050"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS06815" fbc:name="G_ADH70_RS06815" fbc:label="G_ADH70_RS06815"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS16050" fbc:name="G_ADH70_RS16050" fbc:label="G_ADH70_RS16050"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS13100" fbc:name="G_ADH70_RS13100" fbc:label="G_ADH70_RS13100"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18110" fbc:name="G_ADH70_RS18110" fbc:label="G_ADH70_RS18110"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS05965" fbc:name="G_ADH70_RS05965" fbc:label="G_ADH70_RS05965"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19785" fbc:name="G_ADH70_RS19785" fbc:label="G_ADH70_RS19785"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS13100" fbc:name="G_ADH70_RS13100" fbc:label="G_ADH70_RS13100"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS17945" fbc:name="G_ADH70_RS17945" fbc:label="G_ADH70_RS17945"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS18210" fbc:name="G_ADH70_RS18210" fbc:label="G_ADH70_RS18210"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18110" fbc:name="G_ADH70_RS18110" fbc:label="G_ADH70_RS18110"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS17920" fbc:name="G_ADH70_RS17920" fbc:label="G_ADH70_RS17920"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03355" fbc:name="G_ADH70_RS03355" fbc:label="G_ADH70_RS03355"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS23795" fbc:name="G_ADH70_RS23795" fbc:label="G_ADH70_RS23795"/>
@@ -64577,177 +64577,177 @@
       <fbc:geneProduct fbc:id="G_ADH70_RS18275" fbc:name="G_ADH70_RS18275" fbc:label="G_ADH70_RS18275"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS15530" fbc:name="G_ADH70_RS15530" fbc:label="G_ADH70_RS15530"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS15525" fbc:name="G_ADH70_RS15525" fbc:label="G_ADH70_RS15525"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS20255" fbc:name="G_ADH70_RS20255" fbc:label="G_ADH70_RS20255"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS13965" fbc:name="G_ADH70_RS13965" fbc:label="G_ADH70_RS13965"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18690" fbc:name="G_ADH70_RS18690" fbc:label="G_ADH70_RS18690"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS18790" fbc:name="G_ADH70_RS18790" fbc:label="G_ADH70_RS18790"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18690" fbc:name="G_ADH70_RS18690" fbc:label="G_ADH70_RS18690"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS13965" fbc:name="G_ADH70_RS13965" fbc:label="G_ADH70_RS13965"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS20255" fbc:name="G_ADH70_RS20255" fbc:label="G_ADH70_RS20255"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS05325" fbc:name="G_ADH70_RS05325" fbc:label="G_ADH70_RS05325"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11315" fbc:name="G_ADH70_RS11315" fbc:label="G_ADH70_RS11315"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11085" fbc:name="G_ADH70_RS11085" fbc:label="G_ADH70_RS11085"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08775" fbc:name="G_ADH70_RS08775" fbc:label="G_ADH70_RS08775"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08790" fbc:name="G_ADH70_RS08790" fbc:label="G_ADH70_RS08790"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14575" fbc:name="G_ADH70_RS14575" fbc:label="G_ADH70_RS14575"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS19265" fbc:name="G_ADH70_RS19265" fbc:label="G_ADH70_RS19265"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18715" fbc:name="G_ADH70_RS18715" fbc:label="G_ADH70_RS18715"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS20505" fbc:name="G_ADH70_RS20505" fbc:label="G_ADH70_RS20505"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS08490" fbc:name="G_ADH70_RS08490" fbc:label="G_ADH70_RS08490"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS18710" fbc:name="G_ADH70_RS18710" fbc:label="G_ADH70_RS18710"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS06090" fbc:name="G_ADH70_RS06090" fbc:label="G_ADH70_RS06090"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS08490" fbc:name="G_ADH70_RS08490" fbc:label="G_ADH70_RS08490"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS11550" fbc:name="G_ADH70_RS11550" fbc:label="G_ADH70_RS11550"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS20505" fbc:name="G_ADH70_RS20505" fbc:label="G_ADH70_RS20505"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18715" fbc:name="G_ADH70_RS18715" fbc:label="G_ADH70_RS18715"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS19265" fbc:name="G_ADH70_RS19265" fbc:label="G_ADH70_RS19265"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS18685" fbc:name="G_ADH70_RS18685" fbc:label="G_ADH70_RS18685"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS11550" fbc:name="G_ADH70_RS11550" fbc:label="G_ADH70_RS11550"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS15670" fbc:name="G_ADH70_RS15670" fbc:label="G_ADH70_RS15670"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04005" fbc:name="G_ADH70_RS04005" fbc:label="G_ADH70_RS04005"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01990" fbc:name="G_ADH70_RS01990" fbc:label="G_ADH70_RS01990"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02300" fbc:name="G_ADH70_RS02300" fbc:label="G_ADH70_RS02300"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS21365" fbc:name="G_ADH70_RS21365" fbc:label="G_ADH70_RS21365"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS21140" fbc:name="G_ADH70_RS21140" fbc:label="G_ADH70_RS21140"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02960" fbc:name="G_ADH70_RS02960" fbc:label="G_ADH70_RS02960"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS21140" fbc:name="G_ADH70_RS21140" fbc:label="G_ADH70_RS21140"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14360" fbc:name="G_ADH70_RS14360" fbc:label="G_ADH70_RS14360"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS24045" fbc:name="G_ADH70_RS24045" fbc:label="G_ADH70_RS24045"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03090" fbc:name="G_ADH70_RS03090" fbc:label="G_ADH70_RS03090"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08285" fbc:name="G_ADH70_RS08285" fbc:label="G_ADH70_RS08285"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS11640" fbc:name="G_ADH70_RS11640" fbc:label="G_ADH70_RS11640"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS20715" fbc:name="G_ADH70_RS20715" fbc:label="G_ADH70_RS20715"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS20700" fbc:name="G_ADH70_RS20700" fbc:label="G_ADH70_RS20700"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS11640" fbc:name="G_ADH70_RS11640" fbc:label="G_ADH70_RS11640"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS22540" fbc:name="G_ADH70_RS22540" fbc:label="G_ADH70_RS22540"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS01485" fbc:name="G_ADH70_RS01485" fbc:label="G_ADH70_RS01485"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS09185" fbc:name="G_ADH70_RS09185" fbc:label="G_ADH70_RS09185"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01835" fbc:name="G_ADH70_RS01835" fbc:label="G_ADH70_RS01835"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS09185" fbc:name="G_ADH70_RS09185" fbc:label="G_ADH70_RS09185"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS01485" fbc:name="G_ADH70_RS01485" fbc:label="G_ADH70_RS01485"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13290" fbc:name="G_ADH70_RS13290" fbc:label="G_ADH70_RS13290"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS09155" fbc:name="G_ADH70_RS09155" fbc:label="G_ADH70_RS09155"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS08290" fbc:name="G_ADH70_RS08290" fbc:label="G_ADH70_RS08290"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS04480" fbc:name="G_ADH70_RS04480" fbc:label="G_ADH70_RS04480"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18950" fbc:name="G_ADH70_RS18950" fbc:label="G_ADH70_RS18950"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14255" fbc:name="G_ADH70_RS14255" fbc:label="G_ADH70_RS14255"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS04480" fbc:name="G_ADH70_RS04480" fbc:label="G_ADH70_RS04480"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS08290" fbc:name="G_ADH70_RS08290" fbc:label="G_ADH70_RS08290"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18950" fbc:name="G_ADH70_RS18950" fbc:label="G_ADH70_RS18950"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01935" fbc:name="G_ADH70_RS01935" fbc:label="G_ADH70_RS01935"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11800" fbc:name="G_ADH70_RS11800" fbc:label="G_ADH70_RS11800"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS09975" fbc:name="G_ADH70_RS09975" fbc:label="G_ADH70_RS09975"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS23330" fbc:name="G_ADH70_RS23330" fbc:label="G_ADH70_RS23330"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01430" fbc:name="G_ADH70_RS01430" fbc:label="G_ADH70_RS01430"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS21765" fbc:name="G_ADH70_RS21765" fbc:label="G_ADH70_RS21765"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS06355" fbc:name="G_ADH70_RS06355" fbc:label="G_ADH70_RS06355"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS09005" fbc:name="G_ADH70_RS09005" fbc:label="G_ADH70_RS09005"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00295" fbc:name="G_ADH70_RS00295" fbc:label="G_ADH70_RS00295"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS13205" fbc:name="G_ADH70_RS13205" fbc:label="G_ADH70_RS13205"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS08835" fbc:name="G_ADH70_RS08835" fbc:label="G_ADH70_RS08835"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS22160" fbc:name="G_ADH70_RS22160" fbc:label="G_ADH70_RS22160"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS06355" fbc:name="G_ADH70_RS06355" fbc:label="G_ADH70_RS06355"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08870" fbc:name="G_ADH70_RS08870" fbc:label="G_ADH70_RS08870"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS08835" fbc:name="G_ADH70_RS08835" fbc:label="G_ADH70_RS08835"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS13205" fbc:name="G_ADH70_RS13205" fbc:label="G_ADH70_RS13205"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS09005" fbc:name="G_ADH70_RS09005" fbc:label="G_ADH70_RS09005"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS22160" fbc:name="G_ADH70_RS22160" fbc:label="G_ADH70_RS22160"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14740" fbc:name="G_ADH70_RS14740" fbc:label="G_ADH70_RS14740"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02270" fbc:name="G_ADH70_RS02270" fbc:label="G_ADH70_RS02270"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS22680" fbc:name="G_ADH70_RS22680" fbc:label="G_ADH70_RS22680"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS22690" fbc:name="G_ADH70_RS22690" fbc:label="G_ADH70_RS22690"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS22685" fbc:name="G_ADH70_RS22685" fbc:label="G_ADH70_RS22685"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS22690" fbc:name="G_ADH70_RS22690" fbc:label="G_ADH70_RS22690"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS22680" fbc:name="G_ADH70_RS22680" fbc:label="G_ADH70_RS22680"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04015" fbc:name="G_ADH70_RS04015" fbc:label="G_ADH70_RS04015"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS07490" fbc:name="G_ADH70_RS07490" fbc:label="G_ADH70_RS07490"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13275" fbc:name="G_ADH70_RS13275" fbc:label="G_ADH70_RS13275"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS12315" fbc:name="G_ADH70_RS12315" fbc:label="G_ADH70_RS12315"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS21450" fbc:name="G_ADH70_RS21450" fbc:label="G_ADH70_RS21450"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08690" fbc:name="G_ADH70_RS08690" fbc:label="G_ADH70_RS08690"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS21450" fbc:name="G_ADH70_RS21450" fbc:label="G_ADH70_RS21450"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS09645" fbc:name="G_ADH70_RS09645" fbc:label="G_ADH70_RS09645"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01290" fbc:name="G_ADH70_RS01290" fbc:label="G_ADH70_RS01290"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19725" fbc:name="G_ADH70_RS19725" fbc:label="G_ADH70_RS19725"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS06365" fbc:name="G_ADH70_RS06365" fbc:label="G_ADH70_RS06365"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS09010" fbc:name="G_ADH70_RS09010" fbc:label="G_ADH70_RS09010"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS09015" fbc:name="G_ADH70_RS09015" fbc:label="G_ADH70_RS09015"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14790" fbc:name="G_ADH70_RS14790" fbc:label="G_ADH70_RS14790"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS10920" fbc:name="G_ADH70_RS10920" fbc:label="G_ADH70_RS10920"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS20510" fbc:name="G_ADH70_RS20510" fbc:label="G_ADH70_RS20510"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS06375" fbc:name="G_ADH70_RS06375" fbc:label="G_ADH70_RS06375"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS09020" fbc:name="G_ADH70_RS09020" fbc:label="G_ADH70_RS09020"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS01950" fbc:name="G_ADH70_RS01950" fbc:label="G_ADH70_RS01950"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS01940" fbc:name="G_ADH70_RS01940" fbc:label="G_ADH70_RS01940"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS06370" fbc:name="G_ADH70_RS06370" fbc:label="G_ADH70_RS06370"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01945" fbc:name="G_ADH70_RS01945" fbc:label="G_ADH70_RS01945"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS09015" fbc:name="G_ADH70_RS09015" fbc:label="G_ADH70_RS09015"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS09010" fbc:name="G_ADH70_RS09010" fbc:label="G_ADH70_RS09010"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS01950" fbc:name="G_ADH70_RS01950" fbc:label="G_ADH70_RS01950"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS09020" fbc:name="G_ADH70_RS09020" fbc:label="G_ADH70_RS09020"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS10920" fbc:name="G_ADH70_RS10920" fbc:label="G_ADH70_RS10920"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS01940" fbc:name="G_ADH70_RS01940" fbc:label="G_ADH70_RS01940"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS06365" fbc:name="G_ADH70_RS06365" fbc:label="G_ADH70_RS06365"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS20510" fbc:name="G_ADH70_RS20510" fbc:label="G_ADH70_RS20510"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS17700" fbc:name="G_ADH70_RS17700" fbc:label="G_ADH70_RS17700"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS22610" fbc:name="G_ADH70_RS22610" fbc:label="G_ADH70_RS22610"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS19735" fbc:name="G_ADH70_RS19735" fbc:label="G_ADH70_RS19735"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19745" fbc:name="G_ADH70_RS19745" fbc:label="G_ADH70_RS19745"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS19735" fbc:name="G_ADH70_RS19735" fbc:label="G_ADH70_RS19735"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19730" fbc:name="G_ADH70_RS19730" fbc:label="G_ADH70_RS19730"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04225" fbc:name="G_ADH70_RS04225" fbc:label="G_ADH70_RS04225"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS09680" fbc:name="G_ADH70_RS09680" fbc:label="G_ADH70_RS09680"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13320" fbc:name="G_ADH70_RS13320" fbc:label="G_ADH70_RS13320"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS22590" fbc:name="G_ADH70_RS22590" fbc:label="G_ADH70_RS22590"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13495" fbc:name="G_ADH70_RS13495" fbc:label="G_ADH70_RS13495"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS00595" fbc:name="G_ADH70_RS00595" fbc:label="G_ADH70_RS00595"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02575" fbc:name="G_ADH70_RS02575" fbc:label="G_ADH70_RS02575"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS13805" fbc:name="G_ADH70_RS13805" fbc:label="G_ADH70_RS13805"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS00595" fbc:name="G_ADH70_RS00595" fbc:label="G_ADH70_RS00595"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00250" fbc:name="G_ADH70_RS00250" fbc:label="G_ADH70_RS00250"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS13805" fbc:name="G_ADH70_RS13805" fbc:label="G_ADH70_RS13805"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13825" fbc:name="G_ADH70_RS13825" fbc:label="G_ADH70_RS13825"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS23825" fbc:name="G_ADH70_RS23825" fbc:label="G_ADH70_RS23825"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS22065" fbc:name="G_ADH70_RS22065" fbc:label="G_ADH70_RS22065"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19790" fbc:name="G_ADH70_RS19790" fbc:label="G_ADH70_RS19790"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS22065" fbc:name="G_ADH70_RS22065" fbc:label="G_ADH70_RS22065"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS23825" fbc:name="G_ADH70_RS23825" fbc:label="G_ADH70_RS23825"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00400" fbc:name="G_ADH70_RS00400" fbc:label="G_ADH70_RS00400"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS15090" fbc:name="G_ADH70_RS15090" fbc:label="G_ADH70_RS15090"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02500" fbc:name="G_ADH70_RS02500" fbc:label="G_ADH70_RS02500"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS06915" fbc:name="G_ADH70_RS06915" fbc:label="G_ADH70_RS06915"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS06910" fbc:name="G_ADH70_RS06910" fbc:label="G_ADH70_RS06910"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08780" fbc:name="G_ADH70_RS08780" fbc:label="G_ADH70_RS08780"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS22885" fbc:name="G_ADH70_RS22885" fbc:label="G_ADH70_RS22885"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS21725" fbc:name="G_ADH70_RS21725" fbc:label="G_ADH70_RS21725"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS17735" fbc:name="G_ADH70_RS17735" fbc:label="G_ADH70_RS17735"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS22890" fbc:name="G_ADH70_RS22890" fbc:label="G_ADH70_RS22890"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS17730" fbc:name="G_ADH70_RS17730" fbc:label="G_ADH70_RS17730"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS21720" fbc:name="G_ADH70_RS21720" fbc:label="G_ADH70_RS21720"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS22890" fbc:name="G_ADH70_RS22890" fbc:label="G_ADH70_RS22890"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS21725" fbc:name="G_ADH70_RS21725" fbc:label="G_ADH70_RS21725"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS22885" fbc:name="G_ADH70_RS22885" fbc:label="G_ADH70_RS22885"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS17735" fbc:name="G_ADH70_RS17735" fbc:label="G_ADH70_RS17735"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS07210" fbc:name="G_ADH70_RS07210" fbc:label="G_ADH70_RS07210"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS22415" fbc:name="G_ADH70_RS22415" fbc:label="G_ADH70_RS22415"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS19310" fbc:name="G_ADH70_RS19310" fbc:label="G_ADH70_RS19310"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS05815" fbc:name="G_ADH70_RS05815" fbc:label="G_ADH70_RS05815"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS16055" fbc:name="G_ADH70_RS16055" fbc:label="G_ADH70_RS16055"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS16265" fbc:name="G_ADH70_RS16265" fbc:label="G_ADH70_RS16265"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS15155" fbc:name="G_ADH70_RS15155" fbc:label="G_ADH70_RS15155"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS21070" fbc:name="G_ADH70_RS21070" fbc:label="G_ADH70_RS21070"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS08555" fbc:name="G_ADH70_RS08555" fbc:label="G_ADH70_RS08555"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS19405" fbc:name="G_ADH70_RS19405" fbc:label="G_ADH70_RS19405"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS23950" fbc:name="G_ADH70_RS23950" fbc:label="G_ADH70_RS23950"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS10715" fbc:name="G_ADH70_RS10715" fbc:label="G_ADH70_RS10715"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS21555" fbc:name="G_ADH70_RS21555" fbc:label="G_ADH70_RS21555"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS23945" fbc:name="G_ADH70_RS23945" fbc:label="G_ADH70_RS23945"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS10785" fbc:name="G_ADH70_RS10785" fbc:label="G_ADH70_RS10785"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS10780" fbc:name="G_ADH70_RS10780" fbc:label="G_ADH70_RS10780"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS21555" fbc:name="G_ADH70_RS21555" fbc:label="G_ADH70_RS21555"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS19310" fbc:name="G_ADH70_RS19310" fbc:label="G_ADH70_RS19310"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS23950" fbc:name="G_ADH70_RS23950" fbc:label="G_ADH70_RS23950"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS08555" fbc:name="G_ADH70_RS08555" fbc:label="G_ADH70_RS08555"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS16055" fbc:name="G_ADH70_RS16055" fbc:label="G_ADH70_RS16055"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS22415" fbc:name="G_ADH70_RS22415" fbc:label="G_ADH70_RS22415"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS19405" fbc:name="G_ADH70_RS19405" fbc:label="G_ADH70_RS19405"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS21070" fbc:name="G_ADH70_RS21070" fbc:label="G_ADH70_RS21070"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS05815" fbc:name="G_ADH70_RS05815" fbc:label="G_ADH70_RS05815"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS10715" fbc:name="G_ADH70_RS10715" fbc:label="G_ADH70_RS10715"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS21655" fbc:name="G_ADH70_RS21655" fbc:label="G_ADH70_RS21655"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS10780" fbc:name="G_ADH70_RS10780" fbc:label="G_ADH70_RS10780"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS10785" fbc:name="G_ADH70_RS10785" fbc:label="G_ADH70_RS10785"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS15280" fbc:name="G_ADH70_RS15280" fbc:label="G_ADH70_RS15280"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS12080" fbc:name="G_ADH70_RS12080" fbc:label="G_ADH70_RS12080"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS08115" fbc:name="G_ADH70_RS08115" fbc:label="G_ADH70_RS08115"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13370" fbc:name="G_ADH70_RS13370" fbc:label="G_ADH70_RS13370"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS08115" fbc:name="G_ADH70_RS08115" fbc:label="G_ADH70_RS08115"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS16100" fbc:name="G_ADH70_RS16100" fbc:label="G_ADH70_RS16100"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13420" fbc:name="G_ADH70_RS13420" fbc:label="G_ADH70_RS13420"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18975" fbc:name="G_ADH70_RS18975" fbc:label="G_ADH70_RS18975"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14560" fbc:name="G_ADH70_RS14560" fbc:label="G_ADH70_RS14560"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS07925" fbc:name="G_ADH70_RS07925" fbc:label="G_ADH70_RS07925"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01675" fbc:name="G_ADH70_RS01675" fbc:label="G_ADH70_RS01675"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14560" fbc:name="G_ADH70_RS14560" fbc:label="G_ADH70_RS14560"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18975" fbc:name="G_ADH70_RS18975" fbc:label="G_ADH70_RS18975"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14305" fbc:name="G_ADH70_RS14305" fbc:label="G_ADH70_RS14305"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00105" fbc:name="G_ADH70_RS00105" fbc:label="G_ADH70_RS00105"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18180" fbc:name="G_ADH70_RS18180" fbc:label="G_ADH70_RS18180"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18190" fbc:name="G_ADH70_RS18190" fbc:label="G_ADH70_RS18190"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18185" fbc:name="G_ADH70_RS18185" fbc:label="G_ADH70_RS18185"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS13465" fbc:name="G_ADH70_RS13465" fbc:label="G_ADH70_RS13465"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS20100" fbc:name="G_ADH70_RS20100" fbc:label="G_ADH70_RS20100"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS18145" fbc:name="G_ADH70_RS18145" fbc:label="G_ADH70_RS18145"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS20095" fbc:name="G_ADH70_RS20095" fbc:label="G_ADH70_RS20095"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18190" fbc:name="G_ADH70_RS18190" fbc:label="G_ADH70_RS18190"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18180" fbc:name="G_ADH70_RS18180" fbc:label="G_ADH70_RS18180"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS13465" fbc:name="G_ADH70_RS13465" fbc:label="G_ADH70_RS13465"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18185" fbc:name="G_ADH70_RS18185" fbc:label="G_ADH70_RS18185"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS05910" fbc:name="G_ADH70_RS05910" fbc:label="G_ADH70_RS05910"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14995" fbc:name="G_ADH70_RS14995" fbc:label="G_ADH70_RS14995"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS20115" fbc:name="G_ADH70_RS20115" fbc:label="G_ADH70_RS20115"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10220" fbc:name="G_ADH70_RS10220" fbc:label="G_ADH70_RS10220"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS20115" fbc:name="G_ADH70_RS20115" fbc:label="G_ADH70_RS20115"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13305" fbc:name="G_ADH70_RS13305" fbc:label="G_ADH70_RS13305"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11095" fbc:name="G_ADH70_RS11095" fbc:label="G_ADH70_RS11095"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS18935" fbc:name="G_ADH70_RS18935" fbc:label="G_ADH70_RS18935"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS23380" fbc:name="G_ADH70_RS23380" fbc:label="G_ADH70_RS23380"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS20940" fbc:name="G_ADH70_RS20940" fbc:label="G_ADH70_RS20940"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS07980" fbc:name="G_ADH70_RS07980" fbc:label="G_ADH70_RS07980"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS05710" fbc:name="G_ADH70_RS05710" fbc:label="G_ADH70_RS05710"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS20940" fbc:name="G_ADH70_RS20940" fbc:label="G_ADH70_RS20940"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19070" fbc:name="G_ADH70_RS19070" fbc:label="G_ADH70_RS19070"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03815" fbc:name="G_ADH70_RS03815" fbc:label="G_ADH70_RS03815"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04800" fbc:name="G_ADH70_RS04800" fbc:label="G_ADH70_RS04800"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS15455" fbc:name="G_ADH70_RS15455" fbc:label="G_ADH70_RS15455"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18225" fbc:name="G_ADH70_RS18225" fbc:label="G_ADH70_RS18225"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS18200" fbc:name="G_ADH70_RS18200" fbc:label="G_ADH70_RS18200"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS15195" fbc:name="G_ADH70_RS15195" fbc:label="G_ADH70_RS15195"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18225" fbc:name="G_ADH70_RS18225" fbc:label="G_ADH70_RS18225"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01930" fbc:name="G_ADH70_RS01930" fbc:label="G_ADH70_RS01930"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS04440" fbc:name="G_ADH70_RS04440" fbc:label="G_ADH70_RS04440"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS15455" fbc:name="G_ADH70_RS15455" fbc:label="G_ADH70_RS15455"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS05240" fbc:name="G_ADH70_RS05240" fbc:label="G_ADH70_RS05240"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS04440" fbc:name="G_ADH70_RS04440" fbc:label="G_ADH70_RS04440"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS09175" fbc:name="G_ADH70_RS09175" fbc:label="G_ADH70_RS09175"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS17230" fbc:name="G_ADH70_RS17230" fbc:label="G_ADH70_RS17230"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS17485" fbc:name="G_ADH70_RS17485" fbc:label="G_ADH70_RS17485"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS17230" fbc:name="G_ADH70_RS17230" fbc:label="G_ADH70_RS17230"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS18260" fbc:name="G_ADH70_RS18260" fbc:label="G_ADH70_RS18260"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10560" fbc:name="G_ADH70_RS10560" fbc:label="G_ADH70_RS10560"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14990" fbc:name="G_ADH70_RS14990" fbc:label="G_ADH70_RS14990"/>
@@ -64758,11 +64758,11 @@
       <fbc:geneProduct fbc:id="G_ADH70_RS00885" fbc:name="G_ADH70_RS00885" fbc:label="G_ADH70_RS00885"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02125" fbc:name="G_ADH70_RS02125" fbc:label="G_ADH70_RS02125"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS17875" fbc:name="G_ADH70_RS17875" fbc:label="G_ADH70_RS17875"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS13690" fbc:name="G_ADH70_RS13690" fbc:label="G_ADH70_RS13690"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS22165" fbc:name="G_ADH70_RS22165" fbc:label="G_ADH70_RS22165"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS09875" fbc:name="G_ADH70_RS09875" fbc:label="G_ADH70_RS09875"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19620" fbc:name="G_ADH70_RS19620" fbc:label="G_ADH70_RS19620"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS09090" fbc:name="G_ADH70_RS09090" fbc:label="G_ADH70_RS09090"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS09875" fbc:name="G_ADH70_RS09875" fbc:label="G_ADH70_RS09875"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS13690" fbc:name="G_ADH70_RS13690" fbc:label="G_ADH70_RS13690"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS16010" fbc:name="G_ADH70_RS16010" fbc:label="G_ADH70_RS16010"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04865" fbc:name="G_ADH70_RS04865" fbc:label="G_ADH70_RS04865"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03935" fbc:name="G_ADH70_RS03935" fbc:label="G_ADH70_RS03935"/>
@@ -64776,14 +64776,14 @@
       <fbc:geneProduct fbc:id="G_ADH70_RS04265" fbc:name="G_ADH70_RS04265" fbc:label="G_ADH70_RS04265"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01225" fbc:name="G_ADH70_RS01225" fbc:label="G_ADH70_RS01225"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04685" fbc:name="G_ADH70_RS04685" fbc:label="G_ADH70_RS04685"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS07485" fbc:name="G_ADH70_RS07485" fbc:label="G_ADH70_RS07485"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS07525" fbc:name="G_ADH70_RS07525" fbc:label="G_ADH70_RS07525"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS07485" fbc:name="G_ADH70_RS07485" fbc:label="G_ADH70_RS07485"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10945" fbc:name="G_ADH70_RS10945" fbc:label="G_ADH70_RS10945"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02515" fbc:name="G_ADH70_RS02515" fbc:label="G_ADH70_RS02515"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS09480" fbc:name="G_ADH70_RS09480" fbc:label="G_ADH70_RS09480"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS11300" fbc:name="G_ADH70_RS11300" fbc:label="G_ADH70_RS11300"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11290" fbc:name="G_ADH70_RS11290" fbc:label="G_ADH70_RS11290"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11295" fbc:name="G_ADH70_RS11295" fbc:label="G_ADH70_RS11295"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS11300" fbc:name="G_ADH70_RS11300" fbc:label="G_ADH70_RS11300"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13195" fbc:name="G_ADH70_RS13195" fbc:label="G_ADH70_RS13195"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS09465" fbc:name="G_ADH70_RS09465" fbc:label="G_ADH70_RS09465"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS09590" fbc:name="G_ADH70_RS09590" fbc:label="G_ADH70_RS09590"/>
@@ -64792,47 +64792,47 @@
       <fbc:geneProduct fbc:id="G_ADH70_RS01000" fbc:name="G_ADH70_RS01000" fbc:label="G_ADH70_RS01000"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS12120" fbc:name="G_ADH70_RS12120" fbc:label="G_ADH70_RS12120"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS23335" fbc:name="G_ADH70_RS23335" fbc:label="G_ADH70_RS23335"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS08595" fbc:name="G_ADH70_RS08595" fbc:label="G_ADH70_RS08595"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS15435" fbc:name="G_ADH70_RS15435" fbc:label="G_ADH70_RS15435"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS17740" fbc:name="G_ADH70_RS17740" fbc:label="G_ADH70_RS17740"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS08595" fbc:name="G_ADH70_RS08595" fbc:label="G_ADH70_RS08595"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01550" fbc:name="G_ADH70_RS01550" fbc:label="G_ADH70_RS01550"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS07480" fbc:name="G_ADH70_RS07480" fbc:label="G_ADH70_RS07480"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS15435" fbc:name="G_ADH70_RS15435" fbc:label="G_ADH70_RS15435"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04680" fbc:name="G_ADH70_RS04680" fbc:label="G_ADH70_RS04680"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS07530" fbc:name="G_ADH70_RS07530" fbc:label="G_ADH70_RS07530"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS07480" fbc:name="G_ADH70_RS07480" fbc:label="G_ADH70_RS07480"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11840" fbc:name="G_ADH70_RS11840" fbc:label="G_ADH70_RS11840"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS12035" fbc:name="G_ADH70_RS12035" fbc:label="G_ADH70_RS12035"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS05915" fbc:name="G_ADH70_RS05915" fbc:label="G_ADH70_RS05915"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18665" fbc:name="G_ADH70_RS18665" fbc:label="G_ADH70_RS18665"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS12035" fbc:name="G_ADH70_RS12035" fbc:label="G_ADH70_RS12035"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02520" fbc:name="G_ADH70_RS02520" fbc:label="G_ADH70_RS02520"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS13170" fbc:name="G_ADH70_RS13170" fbc:label="G_ADH70_RS13170"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18665" fbc:name="G_ADH70_RS18665" fbc:label="G_ADH70_RS18665"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10470" fbc:name="G_ADH70_RS10470" fbc:label="G_ADH70_RS10470"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS10955" fbc:name="G_ADH70_RS10955" fbc:label="G_ADH70_RS10955"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11005" fbc:name="G_ADH70_RS11005" fbc:label="G_ADH70_RS11005"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS13170" fbc:name="G_ADH70_RS13170" fbc:label="G_ADH70_RS13170"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS10955" fbc:name="G_ADH70_RS10955" fbc:label="G_ADH70_RS10955"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS17830" fbc:name="G_ADH70_RS17830" fbc:label="G_ADH70_RS17830"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02280" fbc:name="G_ADH70_RS02280" fbc:label="G_ADH70_RS02280"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS22535" fbc:name="G_ADH70_RS22535" fbc:label="G_ADH70_RS22535"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS20665" fbc:name="G_ADH70_RS20665" fbc:label="G_ADH70_RS20665"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10820" fbc:name="G_ADH70_RS10820" fbc:label="G_ADH70_RS10820"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS22535" fbc:name="G_ADH70_RS22535" fbc:label="G_ADH70_RS22535"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08440" fbc:name="G_ADH70_RS08440" fbc:label="G_ADH70_RS08440"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02995" fbc:name="G_ADH70_RS02995" fbc:label="G_ADH70_RS02995"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02315" fbc:name="G_ADH70_RS02315" fbc:label="G_ADH70_RS02315"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS18255" fbc:name="G_ADH70_RS18255" fbc:label="G_ADH70_RS18255"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS23985" fbc:name="G_ADH70_RS23985" fbc:label="G_ADH70_RS23985"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS06230" fbc:name="G_ADH70_RS06230" fbc:label="G_ADH70_RS06230"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS19895" fbc:name="G_ADH70_RS19895" fbc:label="G_ADH70_RS19895"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS23985" fbc:name="G_ADH70_RS23985" fbc:label="G_ADH70_RS23985"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19910" fbc:name="G_ADH70_RS19910" fbc:label="G_ADH70_RS19910"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19905" fbc:name="G_ADH70_RS19905" fbc:label="G_ADH70_RS19905"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS19895" fbc:name="G_ADH70_RS19895" fbc:label="G_ADH70_RS19895"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19900" fbc:name="G_ADH70_RS19900" fbc:label="G_ADH70_RS19900"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS07445" fbc:name="G_ADH70_RS07445" fbc:label="G_ADH70_RS07445"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS22845" fbc:name="G_ADH70_RS22845" fbc:label="G_ADH70_RS22845"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10115" fbc:name="G_ADH70_RS10115" fbc:label="G_ADH70_RS10115"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS22845" fbc:name="G_ADH70_RS22845" fbc:label="G_ADH70_RS22845"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS21380" fbc:name="G_ADH70_RS21380" fbc:label="G_ADH70_RS21380"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS17660" fbc:name="G_ADH70_RS17660" fbc:label="G_ADH70_RS17660"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS09650" fbc:name="G_ADH70_RS09650" fbc:label="G_ADH70_RS09650"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13785" fbc:name="G_ADH70_RS13785" fbc:label="G_ADH70_RS13785"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS01475" fbc:name="G_ADH70_RS01475" fbc:label="G_ADH70_RS01475"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS09655" fbc:name="G_ADH70_RS09655" fbc:label="G_ADH70_RS09655"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS01475" fbc:name="G_ADH70_RS01475" fbc:label="G_ADH70_RS01475"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13780" fbc:name="G_ADH70_RS13780" fbc:label="G_ADH70_RS13780"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS09650" fbc:name="G_ADH70_RS09650" fbc:label="G_ADH70_RS09650"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS18965" fbc:name="G_ADH70_RS18965" fbc:label="G_ADH70_RS18965"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04020" fbc:name="G_ADH70_RS04020" fbc:label="G_ADH70_RS04020"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS06830" fbc:name="G_ADH70_RS06830" fbc:label="G_ADH70_RS06830"/>
@@ -64849,27 +64849,27 @@
       <fbc:geneProduct fbc:id="G_ADH70_RS11420" fbc:name="G_ADH70_RS11420" fbc:label="G_ADH70_RS11420"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19740" fbc:name="G_ADH70_RS19740" fbc:label="G_ADH70_RS19740"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14705" fbc:name="G_ADH70_RS14705" fbc:label="G_ADH70_RS14705"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS15550" fbc:name="G_ADH70_RS15550" fbc:label="G_ADH70_RS15550"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03750" fbc:name="G_ADH70_RS03750" fbc:label="G_ADH70_RS03750"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS15550" fbc:name="G_ADH70_RS15550" fbc:label="G_ADH70_RS15550"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS06340" fbc:name="G_ADH70_RS06340" fbc:label="G_ADH70_RS06340"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS05500" fbc:name="G_ADH70_RS05500" fbc:label="G_ADH70_RS05500"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01630" fbc:name="G_ADH70_RS01630" fbc:label="G_ADH70_RS01630"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS05505" fbc:name="G_ADH70_RS05505" fbc:label="G_ADH70_RS05505"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS05500" fbc:name="G_ADH70_RS05500" fbc:label="G_ADH70_RS05500"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01625" fbc:name="G_ADH70_RS01625" fbc:label="G_ADH70_RS01625"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS05505" fbc:name="G_ADH70_RS05505" fbc:label="G_ADH70_RS05505"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04450" fbc:name="G_ADH70_RS04450" fbc:label="G_ADH70_RS04450"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS02630" fbc:name="G_ADH70_RS02630" fbc:label="G_ADH70_RS02630"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS10830" fbc:name="G_ADH70_RS10830" fbc:label="G_ADH70_RS10830"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS10825" fbc:name="G_ADH70_RS10825" fbc:label="G_ADH70_RS10825"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS10835" fbc:name="G_ADH70_RS10835" fbc:label="G_ADH70_RS10835"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS02635" fbc:name="G_ADH70_RS02635" fbc:label="G_ADH70_RS02635"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS02625" fbc:name="G_ADH70_RS02625" fbc:label="G_ADH70_RS02625"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02640" fbc:name="G_ADH70_RS02640" fbc:label="G_ADH70_RS02640"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS02630" fbc:name="G_ADH70_RS02630" fbc:label="G_ADH70_RS02630"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS10825" fbc:name="G_ADH70_RS10825" fbc:label="G_ADH70_RS10825"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS02625" fbc:name="G_ADH70_RS02625" fbc:label="G_ADH70_RS02625"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS10835" fbc:name="G_ADH70_RS10835" fbc:label="G_ADH70_RS10835"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS10830" fbc:name="G_ADH70_RS10830" fbc:label="G_ADH70_RS10830"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS02635" fbc:name="G_ADH70_RS02635" fbc:label="G_ADH70_RS02635"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10805" fbc:name="G_ADH70_RS10805" fbc:label="G_ADH70_RS10805"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08545" fbc:name="G_ADH70_RS08545" fbc:label="G_ADH70_RS08545"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10085" fbc:name="G_ADH70_RS10085" fbc:label="G_ADH70_RS10085"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS22790" fbc:name="G_ADH70_RS22790" fbc:label="G_ADH70_RS22790"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS11155" fbc:name="G_ADH70_RS11155" fbc:label="G_ADH70_RS11155"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11145" fbc:name="G_ADH70_RS11145" fbc:label="G_ADH70_RS11145"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS11155" fbc:name="G_ADH70_RS11155" fbc:label="G_ADH70_RS11155"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19235" fbc:name="G_ADH70_RS19235" fbc:label="G_ADH70_RS19235"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11150" fbc:name="G_ADH70_RS11150" fbc:label="G_ADH70_RS11150"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10885" fbc:name="G_ADH70_RS10885" fbc:label="G_ADH70_RS10885"/>
@@ -64878,18 +64878,18 @@
       <fbc:geneProduct fbc:id="G_ADH70_RS13845" fbc:name="G_ADH70_RS13845" fbc:label="G_ADH70_RS13845"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13850" fbc:name="G_ADH70_RS13850" fbc:label="G_ADH70_RS13850"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13840" fbc:name="G_ADH70_RS13840" fbc:label="G_ADH70_RS13840"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS01420" fbc:name="G_ADH70_RS01420" fbc:label="G_ADH70_RS01420"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01415" fbc:name="G_ADH70_RS01415" fbc:label="G_ADH70_RS01415"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS01420" fbc:name="G_ADH70_RS01420" fbc:label="G_ADH70_RS01420"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS22205" fbc:name="G_ADH70_RS22205" fbc:label="G_ADH70_RS22205"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11985" fbc:name="G_ADH70_RS11985" fbc:label="G_ADH70_RS11985"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS19230" fbc:name="G_ADH70_RS19230" fbc:label="G_ADH70_RS19230"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00955" fbc:name="G_ADH70_RS00955" fbc:label="G_ADH70_RS00955"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS19230" fbc:name="G_ADH70_RS19230" fbc:label="G_ADH70_RS19230"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11875" fbc:name="G_ADH70_RS11875" fbc:label="G_ADH70_RS11875"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS22525" fbc:name="G_ADH70_RS22525" fbc:label="G_ADH70_RS22525"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS12465" fbc:name="G_ADH70_RS12465" fbc:label="G_ADH70_RS12465"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS17860" fbc:name="G_ADH70_RS17860" fbc:label="G_ADH70_RS17860"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS11600" fbc:name="G_ADH70_RS11600" fbc:label="G_ADH70_RS11600"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS12145" fbc:name="G_ADH70_RS12145" fbc:label="G_ADH70_RS12145"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS11600" fbc:name="G_ADH70_RS11600" fbc:label="G_ADH70_RS11600"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS12465" fbc:name="G_ADH70_RS12465" fbc:label="G_ADH70_RS12465"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11535" fbc:name="G_ADH70_RS11535" fbc:label="G_ADH70_RS11535"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11065" fbc:name="G_ADH70_RS11065" fbc:label="G_ADH70_RS11065"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS12430" fbc:name="G_ADH70_RS12430" fbc:label="G_ADH70_RS12430"/>
@@ -64897,76 +64897,76 @@
       <fbc:geneProduct fbc:id="G_ADH70_RS12115" fbc:name="G_ADH70_RS12115" fbc:label="G_ADH70_RS12115"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS18985" fbc:name="G_ADH70_RS18985" fbc:label="G_ADH70_RS18985"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01700" fbc:name="G_ADH70_RS01700" fbc:label="G_ADH70_RS01700"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS09990" fbc:name="G_ADH70_RS09990" fbc:label="G_ADH70_RS09990"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS10985" fbc:name="G_ADH70_RS10985" fbc:label="G_ADH70_RS10985"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS17845" fbc:name="G_ADH70_RS17845" fbc:label="G_ADH70_RS17845"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01770" fbc:name="G_ADH70_RS01770" fbc:label="G_ADH70_RS01770"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS10985" fbc:name="G_ADH70_RS10985" fbc:label="G_ADH70_RS10985"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS16160" fbc:name="G_ADH70_RS16160" fbc:label="G_ADH70_RS16160"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS09990" fbc:name="G_ADH70_RS09990" fbc:label="G_ADH70_RS09990"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS17845" fbc:name="G_ADH70_RS17845" fbc:label="G_ADH70_RS17845"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00370" fbc:name="G_ADH70_RS00370" fbc:label="G_ADH70_RS00370"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01540" fbc:name="G_ADH70_RS01540" fbc:label="G_ADH70_RS01540"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS12455" fbc:name="G_ADH70_RS12455" fbc:label="G_ADH70_RS12455"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10005" fbc:name="G_ADH70_RS10005" fbc:label="G_ADH70_RS10005"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS12455" fbc:name="G_ADH70_RS12455" fbc:label="G_ADH70_RS12455"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS15410" fbc:name="G_ADH70_RS15410" fbc:label="G_ADH70_RS15410"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00745" fbc:name="G_ADH70_RS00745" fbc:label="G_ADH70_RS00745"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03700" fbc:name="G_ADH70_RS03700" fbc:label="G_ADH70_RS03700"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03690" fbc:name="G_ADH70_RS03690" fbc:label="G_ADH70_RS03690"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS00750" fbc:name="G_ADH70_RS00750" fbc:label="G_ADH70_RS00750"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00755" fbc:name="G_ADH70_RS00755" fbc:label="G_ADH70_RS00755"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS20300" fbc:name="G_ADH70_RS20300" fbc:label="G_ADH70_RS20300"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS00750" fbc:name="G_ADH70_RS00750" fbc:label="G_ADH70_RS00750"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00815" fbc:name="G_ADH70_RS00815" fbc:label="G_ADH70_RS00815"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS08800" fbc:name="G_ADH70_RS08800" fbc:label="G_ADH70_RS08800"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS07265" fbc:name="G_ADH70_RS07265" fbc:label="G_ADH70_RS07265"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS19610" fbc:name="G_ADH70_RS19610" fbc:label="G_ADH70_RS19610"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS08800" fbc:name="G_ADH70_RS08800" fbc:label="G_ADH70_RS08800"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS15835" fbc:name="G_ADH70_RS15835" fbc:label="G_ADH70_RS15835"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS19610" fbc:name="G_ADH70_RS19610" fbc:label="G_ADH70_RS19610"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03460" fbc:name="G_ADH70_RS03460" fbc:label="G_ADH70_RS03460"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03965" fbc:name="G_ADH70_RS03965" fbc:label="G_ADH70_RS03965"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02255" fbc:name="G_ADH70_RS02255" fbc:label="G_ADH70_RS02255"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS13605" fbc:name="G_ADH70_RS13605" fbc:label="G_ADH70_RS13605"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS11530" fbc:name="G_ADH70_RS11530" fbc:label="G_ADH70_RS11530"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS20480" fbc:name="G_ADH70_RS20480" fbc:label="G_ADH70_RS20480"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS19580" fbc:name="G_ADH70_RS19580" fbc:label="G_ADH70_RS19580"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19585" fbc:name="G_ADH70_RS19585" fbc:label="G_ADH70_RS19585"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS10970" fbc:name="G_ADH70_RS10970" fbc:label="G_ADH70_RS10970"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS16140" fbc:name="G_ADH70_RS16140" fbc:label="G_ADH70_RS16140"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS15400" fbc:name="G_ADH70_RS15400" fbc:label="G_ADH70_RS15400"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS15405" fbc:name="G_ADH70_RS15405" fbc:label="G_ADH70_RS15405"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS11530" fbc:name="G_ADH70_RS11530" fbc:label="G_ADH70_RS11530"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS19580" fbc:name="G_ADH70_RS19580" fbc:label="G_ADH70_RS19580"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS13605" fbc:name="G_ADH70_RS13605" fbc:label="G_ADH70_RS13605"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS19215" fbc:name="G_ADH70_RS19215" fbc:label="G_ADH70_RS19215"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS16145" fbc:name="G_ADH70_RS16145" fbc:label="G_ADH70_RS16145"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS10970" fbc:name="G_ADH70_RS10970" fbc:label="G_ADH70_RS10970"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS19220" fbc:name="G_ADH70_RS19220" fbc:label="G_ADH70_RS19220"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS15400" fbc:name="G_ADH70_RS15400" fbc:label="G_ADH70_RS15400"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS15120" fbc:name="G_ADH70_RS15120" fbc:label="G_ADH70_RS15120"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS16140" fbc:name="G_ADH70_RS16140" fbc:label="G_ADH70_RS16140"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10965" fbc:name="G_ADH70_RS10965" fbc:label="G_ADH70_RS10965"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS24040" fbc:name="G_ADH70_RS24040" fbc:label="G_ADH70_RS24040"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS19215" fbc:name="G_ADH70_RS19215" fbc:label="G_ADH70_RS19215"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS15115" fbc:name="G_ADH70_RS15115" fbc:label="G_ADH70_RS15115"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS15120" fbc:name="G_ADH70_RS15120" fbc:label="G_ADH70_RS15120"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS15405" fbc:name="G_ADH70_RS15405" fbc:label="G_ADH70_RS15405"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS24035" fbc:name="G_ADH70_RS24035" fbc:label="G_ADH70_RS24035"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS19220" fbc:name="G_ADH70_RS19220" fbc:label="G_ADH70_RS19220"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00960" fbc:name="G_ADH70_RS00960" fbc:label="G_ADH70_RS00960"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13330" fbc:name="G_ADH70_RS13330" fbc:label="G_ADH70_RS13330"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS07500" fbc:name="G_ADH70_RS07500" fbc:label="G_ADH70_RS07500"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS02285" fbc:name="G_ADH70_RS02285" fbc:label="G_ADH70_RS02285"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19240" fbc:name="G_ADH70_RS19240" fbc:label="G_ADH70_RS19240"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19340" fbc:name="G_ADH70_RS19340" fbc:label="G_ADH70_RS19340"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS13820" fbc:name="G_ADH70_RS13820" fbc:label="G_ADH70_RS13820"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS02285" fbc:name="G_ADH70_RS02285" fbc:label="G_ADH70_RS02285"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS23845" fbc:name="G_ADH70_RS23845" fbc:label="G_ADH70_RS23845"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS13820" fbc:name="G_ADH70_RS13820" fbc:label="G_ADH70_RS13820"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS07260" fbc:name="G_ADH70_RS07260" fbc:label="G_ADH70_RS07260"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08795" fbc:name="G_ADH70_RS08795" fbc:label="G_ADH70_RS08795"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19870" fbc:name="G_ADH70_RS19870" fbc:label="G_ADH70_RS19870"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS07260" fbc:name="G_ADH70_RS07260" fbc:label="G_ADH70_RS07260"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS04235" fbc:name="G_ADH70_RS04235" fbc:label="G_ADH70_RS04235"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04240" fbc:name="G_ADH70_RS04240" fbc:label="G_ADH70_RS04240"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS04235" fbc:name="G_ADH70_RS04235" fbc:label="G_ADH70_RS04235"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04160" fbc:name="G_ADH70_RS04160" fbc:label="G_ADH70_RS04160"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10520" fbc:name="G_ADH70_RS10520" fbc:label="G_ADH70_RS10520"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00910" fbc:name="G_ADH70_RS00910" fbc:label="G_ADH70_RS00910"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00275" fbc:name="G_ADH70_RS00275" fbc:label="G_ADH70_RS00275"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS23305" fbc:name="G_ADH70_RS23305" fbc:label="G_ADH70_RS23305"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS20830" fbc:name="G_ADH70_RS20830" fbc:label="G_ADH70_RS20830"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00205" fbc:name="G_ADH70_RS00205" fbc:label="G_ADH70_RS00205"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS20830" fbc:name="G_ADH70_RS20830" fbc:label="G_ADH70_RS20830"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS23305" fbc:name="G_ADH70_RS23305" fbc:label="G_ADH70_RS23305"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS18990" fbc:name="G_ADH70_RS18990" fbc:label="G_ADH70_RS18990"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01015" fbc:name="G_ADH70_RS01015" fbc:label="G_ADH70_RS01015"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS20235" fbc:name="G_ADH70_RS20235" fbc:label="G_ADH70_RS20235"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01005" fbc:name="G_ADH70_RS01005" fbc:label="G_ADH70_RS01005"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS15535" fbc:name="G_ADH70_RS15535" fbc:label="G_ADH70_RS15535"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14230" fbc:name="G_ADH70_RS14230" fbc:label="G_ADH70_RS14230"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS00880" fbc:name="G_ADH70_RS00880" fbc:label="G_ADH70_RS00880"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS06110" fbc:name="G_ADH70_RS06110" fbc:label="G_ADH70_RS06110"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS01105" fbc:name="G_ADH70_RS01105" fbc:label="G_ADH70_RS01105"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS06110" fbc:name="G_ADH70_RS06110" fbc:label="G_ADH70_RS06110"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS00880" fbc:name="G_ADH70_RS00880" fbc:label="G_ADH70_RS00880"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00705" fbc:name="G_ADH70_RS00705" fbc:label="G_ADH70_RS00705"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS20225" fbc:name="G_ADH70_RS20225" fbc:label="G_ADH70_RS20225"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS11870" fbc:name="G_ADH70_RS11870" fbc:label="G_ADH70_RS11870"/>
@@ -64980,140 +64980,140 @@
       <fbc:geneProduct fbc:id="G_ADH70_RS17850" fbc:name="G_ADH70_RS17850" fbc:label="G_ADH70_RS17850"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS12920" fbc:name="G_ADH70_RS12920" fbc:label="G_ADH70_RS12920"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS19345" fbc:name="G_ADH70_RS19345" fbc:label="G_ADH70_RS19345"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS13815" fbc:name="G_ADH70_RS13815" fbc:label="G_ADH70_RS13815"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS23835" fbc:name="G_ADH70_RS23835" fbc:label="G_ADH70_RS23835"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS22055" fbc:name="G_ADH70_RS22055" fbc:label="G_ADH70_RS22055"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS05820" fbc:name="G_ADH70_RS05820" fbc:label="G_ADH70_RS05820"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS12310" fbc:name="G_ADH70_RS12310" fbc:label="G_ADH70_RS12310"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS07275" fbc:name="G_ADH70_RS07275" fbc:label="G_ADH70_RS07275"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS23835" fbc:name="G_ADH70_RS23835" fbc:label="G_ADH70_RS23835"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS05820" fbc:name="G_ADH70_RS05820" fbc:label="G_ADH70_RS05820"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS13815" fbc:name="G_ADH70_RS13815" fbc:label="G_ADH70_RS13815"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS04490" fbc:name="G_ADH70_RS04490" fbc:label="G_ADH70_RS04490"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS05190" fbc:name="G_ADH70_RS05190" fbc:label="G_ADH70_RS05190"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS09525" fbc:name="G_ADH70_RS09525" fbc:label="G_ADH70_RS09525"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS08510" fbc:name="G_ADH70_RS08510" fbc:label="G_ADH70_RS08510"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS07640" fbc:name="G_ADH70_RS07640" fbc:label="G_ADH70_RS07640"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10125" fbc:name="G_ADH70_RS10125" fbc:label="G_ADH70_RS10125"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS10840" fbc:name="G_ADH70_RS10840" fbc:label="G_ADH70_RS10840"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS04490" fbc:name="G_ADH70_RS04490" fbc:label="G_ADH70_RS04490"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS09525" fbc:name="G_ADH70_RS09525" fbc:label="G_ADH70_RS09525"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS04515" fbc:name="G_ADH70_RS04515" fbc:label="G_ADH70_RS04515"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18465" fbc:name="G_ADH70_RS18465" fbc:label="G_ADH70_RS18465"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18470" fbc:name="G_ADH70_RS18470" fbc:label="G_ADH70_RS18470"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS19140" fbc:name="G_ADH70_RS19140" fbc:label="G_ADH70_RS19140"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS04105" fbc:name="G_ADH70_RS04105" fbc:label="G_ADH70_RS04105"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18490" fbc:name="G_ADH70_RS18490" fbc:label="G_ADH70_RS18490"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS10175" fbc:name="G_ADH70_RS10175" fbc:label="G_ADH70_RS10175"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS21195" fbc:name="G_ADH70_RS21195" fbc:label="G_ADH70_RS21195"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS21395" fbc:name="G_ADH70_RS21395" fbc:label="G_ADH70_RS21395"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS03190" fbc:name="G_ADH70_RS03190" fbc:label="G_ADH70_RS03190"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS17745" fbc:name="G_ADH70_RS17745" fbc:label="G_ADH70_RS17745"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS11835" fbc:name="G_ADH70_RS11835" fbc:label="G_ADH70_RS11835"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS00915" fbc:name="G_ADH70_RS00915" fbc:label="G_ADH70_RS00915"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18485" fbc:name="G_ADH70_RS18485" fbc:label="G_ADH70_RS18485"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS13520" fbc:name="G_ADH70_RS13520" fbc:label="G_ADH70_RS13520"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS05355" fbc:name="G_ADH70_RS05355" fbc:label="G_ADH70_RS05355"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS12860" fbc:name="G_ADH70_RS12860" fbc:label="G_ADH70_RS12860"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS00460" fbc:name="G_ADH70_RS00460" fbc:label="G_ADH70_RS00460"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS10840" fbc:name="G_ADH70_RS10840" fbc:label="G_ADH70_RS10840"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS05190" fbc:name="G_ADH70_RS05190" fbc:label="G_ADH70_RS05190"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS07640" fbc:name="G_ADH70_RS07640" fbc:label="G_ADH70_RS07640"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS13300" fbc:name="G_ADH70_RS13300" fbc:label="G_ADH70_RS13300"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS04110" fbc:name="G_ADH70_RS04110" fbc:label="G_ADH70_RS04110"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS01280" fbc:name="G_ADH70_RS01280" fbc:label="G_ADH70_RS01280"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS15430" fbc:name="G_ADH70_RS15430" fbc:label="G_ADH70_RS15430"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS00565" fbc:name="G_ADH70_RS00565" fbc:label="G_ADH70_RS00565"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS06010" fbc:name="G_ADH70_RS06010" fbc:label="G_ADH70_RS06010"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS13520" fbc:name="G_ADH70_RS13520" fbc:label="G_ADH70_RS13520"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS21395" fbc:name="G_ADH70_RS21395" fbc:label="G_ADH70_RS21395"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18465" fbc:name="G_ADH70_RS18465" fbc:label="G_ADH70_RS18465"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS00460" fbc:name="G_ADH70_RS00460" fbc:label="G_ADH70_RS00460"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10180" fbc:name="G_ADH70_RS10180" fbc:label="G_ADH70_RS10180"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS00915" fbc:name="G_ADH70_RS00915" fbc:label="G_ADH70_RS00915"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS19140" fbc:name="G_ADH70_RS19140" fbc:label="G_ADH70_RS19140"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS11835" fbc:name="G_ADH70_RS11835" fbc:label="G_ADH70_RS11835"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03450" fbc:name="G_ADH70_RS03450" fbc:label="G_ADH70_RS03450"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18875" fbc:name="G_ADH70_RS18875" fbc:label="G_ADH70_RS18875"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS01110" fbc:name="G_ADH70_RS01110" fbc:label="G_ADH70_RS01110"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS08180" fbc:name="G_ADH70_RS08180" fbc:label="G_ADH70_RS08180"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS06790" fbc:name="G_ADH70_RS06790" fbc:label="G_ADH70_RS06790"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS13990" fbc:name="G_ADH70_RS13990" fbc:label="G_ADH70_RS13990"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14060" fbc:name="G_ADH70_RS14060" fbc:label="G_ADH70_RS14060"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14445" fbc:name="G_ADH70_RS14445" fbc:label="G_ADH70_RS14445"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS16485" fbc:name="G_ADH70_RS16485" fbc:label="G_ADH70_RS16485"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS10855" fbc:name="G_ADH70_RS10855" fbc:label="G_ADH70_RS10855"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS12070" fbc:name="G_ADH70_RS12070" fbc:label="G_ADH70_RS12070"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS04840" fbc:name="G_ADH70_RS04840" fbc:label="G_ADH70_RS04840"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14110" fbc:name="G_ADH70_RS14110" fbc:label="G_ADH70_RS14110"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14005" fbc:name="G_ADH70_RS14005" fbc:label="G_ADH70_RS14005"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14085" fbc:name="G_ADH70_RS14085" fbc:label="G_ADH70_RS14085"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS08265" fbc:name="G_ADH70_RS08265" fbc:label="G_ADH70_RS08265"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS04405" fbc:name="G_ADH70_RS04405" fbc:label="G_ADH70_RS04405"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18495" fbc:name="G_ADH70_RS18495" fbc:label="G_ADH70_RS18495"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18600" fbc:name="G_ADH70_RS18600" fbc:label="G_ADH70_RS18600"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS16450" fbc:name="G_ADH70_RS16450" fbc:label="G_ADH70_RS16450"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS04200" fbc:name="G_ADH70_RS04200" fbc:label="G_ADH70_RS04200"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18815" fbc:name="G_ADH70_RS18815" fbc:label="G_ADH70_RS18815"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14075" fbc:name="G_ADH70_RS14075" fbc:label="G_ADH70_RS14075"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14090" fbc:name="G_ADH70_RS14090" fbc:label="G_ADH70_RS14090"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS13000" fbc:name="G_ADH70_RS13000" fbc:label="G_ADH70_RS13000"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14050" fbc:name="G_ADH70_RS14050" fbc:label="G_ADH70_RS14050"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18820" fbc:name="G_ADH70_RS18820" fbc:label="G_ADH70_RS18820"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS16410" fbc:name="G_ADH70_RS16410" fbc:label="G_ADH70_RS16410"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS04055" fbc:name="G_ADH70_RS04055" fbc:label="G_ADH70_RS04055"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14135" fbc:name="G_ADH70_RS14135" fbc:label="G_ADH70_RS14135"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14055" fbc:name="G_ADH70_RS14055" fbc:label="G_ADH70_RS14055"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS13980" fbc:name="G_ADH70_RS13980" fbc:label="G_ADH70_RS13980"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14105" fbc:name="G_ADH70_RS14105" fbc:label="G_ADH70_RS14105"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18805" fbc:name="G_ADH70_RS18805" fbc:label="G_ADH70_RS18805"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS11235" fbc:name="G_ADH70_RS11235" fbc:label="G_ADH70_RS11235"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS08270" fbc:name="G_ADH70_RS08270" fbc:label="G_ADH70_RS08270"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS04050" fbc:name="G_ADH70_RS04050" fbc:label="G_ADH70_RS04050"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS11805" fbc:name="G_ADH70_RS11805" fbc:label="G_ADH70_RS11805"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS12860" fbc:name="G_ADH70_RS12860" fbc:label="G_ADH70_RS12860"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS21195" fbc:name="G_ADH70_RS21195" fbc:label="G_ADH70_RS21195"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS17745" fbc:name="G_ADH70_RS17745" fbc:label="G_ADH70_RS17745"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS04110" fbc:name="G_ADH70_RS04110" fbc:label="G_ADH70_RS04110"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS10175" fbc:name="G_ADH70_RS10175" fbc:label="G_ADH70_RS10175"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS05355" fbc:name="G_ADH70_RS05355" fbc:label="G_ADH70_RS05355"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS01280" fbc:name="G_ADH70_RS01280" fbc:label="G_ADH70_RS01280"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18490" fbc:name="G_ADH70_RS18490" fbc:label="G_ADH70_RS18490"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS03190" fbc:name="G_ADH70_RS03190" fbc:label="G_ADH70_RS03190"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18485" fbc:name="G_ADH70_RS18485" fbc:label="G_ADH70_RS18485"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS06010" fbc:name="G_ADH70_RS06010" fbc:label="G_ADH70_RS06010"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS04105" fbc:name="G_ADH70_RS04105" fbc:label="G_ADH70_RS04105"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS00565" fbc:name="G_ADH70_RS00565" fbc:label="G_ADH70_RS00565"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18470" fbc:name="G_ADH70_RS18470" fbc:label="G_ADH70_RS18470"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS15430" fbc:name="G_ADH70_RS15430" fbc:label="G_ADH70_RS15430"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14120" fbc:name="G_ADH70_RS14120" fbc:label="G_ADH70_RS14120"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS00455" fbc:name="G_ADH70_RS00455" fbc:label="G_ADH70_RS00455"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14115" fbc:name="G_ADH70_RS14115" fbc:label="G_ADH70_RS14115"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14125" fbc:name="G_ADH70_RS14125" fbc:label="G_ADH70_RS14125"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14070" fbc:name="G_ADH70_RS14070" fbc:label="G_ADH70_RS14070"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS15575" fbc:name="G_ADH70_RS15575" fbc:label="G_ADH70_RS15575"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS10105" fbc:name="G_ADH70_RS10105" fbc:label="G_ADH70_RS10105"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS08155" fbc:name="G_ADH70_RS08155" fbc:label="G_ADH70_RS08155"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS04850" fbc:name="G_ADH70_RS04850" fbc:label="G_ADH70_RS04850"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS19355" fbc:name="G_ADH70_RS19355" fbc:label="G_ADH70_RS19355"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS00925" fbc:name="G_ADH70_RS00925" fbc:label="G_ADH70_RS00925"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS17645" fbc:name="G_ADH70_RS17645" fbc:label="G_ADH70_RS17645"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS03715" fbc:name="G_ADH70_RS03715" fbc:label="G_ADH70_RS03715"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS22660" fbc:name="G_ADH70_RS22660" fbc:label="G_ADH70_RS22660"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14065" fbc:name="G_ADH70_RS14065" fbc:label="G_ADH70_RS14065"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS03425" fbc:name="G_ADH70_RS03425" fbc:label="G_ADH70_RS03425"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS12975" fbc:name="G_ADH70_RS12975" fbc:label="G_ADH70_RS12975"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS22665" fbc:name="G_ADH70_RS22665" fbc:label="G_ADH70_RS22665"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS12980" fbc:name="G_ADH70_RS12980" fbc:label="G_ADH70_RS12980"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14080" fbc:name="G_ADH70_RS14080" fbc:label="G_ADH70_RS14080"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS06320" fbc:name="G_ADH70_RS06320" fbc:label="G_ADH70_RS06320"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14045" fbc:name="G_ADH70_RS14045" fbc:label="G_ADH70_RS14045"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS06795" fbc:name="G_ADH70_RS06795" fbc:label="G_ADH70_RS06795"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14000" fbc:name="G_ADH70_RS14000" fbc:label="G_ADH70_RS14000"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS03525" fbc:name="G_ADH70_RS03525" fbc:label="G_ADH70_RS03525"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS16485" fbc:name="G_ADH70_RS16485" fbc:label="G_ADH70_RS16485"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS04200" fbc:name="G_ADH70_RS04200" fbc:label="G_ADH70_RS04200"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14040" fbc:name="G_ADH70_RS14040" fbc:label="G_ADH70_RS14040"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS13995" fbc:name="G_ADH70_RS13995" fbc:label="G_ADH70_RS13995"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS00465" fbc:name="G_ADH70_RS00465" fbc:label="G_ADH70_RS00465"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS00485" fbc:name="G_ADH70_RS00485" fbc:label="G_ADH70_RS00485"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS13000" fbc:name="G_ADH70_RS13000" fbc:label="G_ADH70_RS13000"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS04055" fbc:name="G_ADH70_RS04055" fbc:label="G_ADH70_RS04055"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14445" fbc:name="G_ADH70_RS14445" fbc:label="G_ADH70_RS14445"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS12070" fbc:name="G_ADH70_RS12070" fbc:label="G_ADH70_RS12070"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS04405" fbc:name="G_ADH70_RS04405" fbc:label="G_ADH70_RS04405"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS08180" fbc:name="G_ADH70_RS08180" fbc:label="G_ADH70_RS08180"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14085" fbc:name="G_ADH70_RS14085" fbc:label="G_ADH70_RS14085"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18815" fbc:name="G_ADH70_RS18815" fbc:label="G_ADH70_RS18815"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14100" fbc:name="G_ADH70_RS14100" fbc:label="G_ADH70_RS14100"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS11060" fbc:name="G_ADH70_RS11060" fbc:label="G_ADH70_RS11060"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS16505" fbc:name="G_ADH70_RS16505" fbc:label="G_ADH70_RS16505"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS16405" fbc:name="G_ADH70_RS16405" fbc:label="G_ADH70_RS16405"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14140" fbc:name="G_ADH70_RS14140" fbc:label="G_ADH70_RS14140"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18810" fbc:name="G_ADH70_RS18810" fbc:label="G_ADH70_RS18810"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14005" fbc:name="G_ADH70_RS14005" fbc:label="G_ADH70_RS14005"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS08155" fbc:name="G_ADH70_RS08155" fbc:label="G_ADH70_RS08155"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS01110" fbc:name="G_ADH70_RS01110" fbc:label="G_ADH70_RS01110"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14130" fbc:name="G_ADH70_RS14130" fbc:label="G_ADH70_RS14130"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS14095" fbc:name="G_ADH70_RS14095" fbc:label="G_ADH70_RS14095"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS16445" fbc:name="G_ADH70_RS16445" fbc:label="G_ADH70_RS16445"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS06790" fbc:name="G_ADH70_RS06790" fbc:label="G_ADH70_RS06790"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS16505" fbc:name="G_ADH70_RS16505" fbc:label="G_ADH70_RS16505"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS00485" fbc:name="G_ADH70_RS00485" fbc:label="G_ADH70_RS00485"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18820" fbc:name="G_ADH70_RS18820" fbc:label="G_ADH70_RS18820"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14060" fbc:name="G_ADH70_RS14060" fbc:label="G_ADH70_RS14060"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS16410" fbc:name="G_ADH70_RS16410" fbc:label="G_ADH70_RS16410"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14115" fbc:name="G_ADH70_RS14115" fbc:label="G_ADH70_RS14115"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS17645" fbc:name="G_ADH70_RS17645" fbc:label="G_ADH70_RS17645"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS13990" fbc:name="G_ADH70_RS13990" fbc:label="G_ADH70_RS13990"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18805" fbc:name="G_ADH70_RS18805" fbc:label="G_ADH70_RS18805"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS08270" fbc:name="G_ADH70_RS08270" fbc:label="G_ADH70_RS08270"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS00925" fbc:name="G_ADH70_RS00925" fbc:label="G_ADH70_RS00925"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS04850" fbc:name="G_ADH70_RS04850" fbc:label="G_ADH70_RS04850"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14055" fbc:name="G_ADH70_RS14055" fbc:label="G_ADH70_RS14055"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18600" fbc:name="G_ADH70_RS18600" fbc:label="G_ADH70_RS18600"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18495" fbc:name="G_ADH70_RS18495" fbc:label="G_ADH70_RS18495"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS12975" fbc:name="G_ADH70_RS12975" fbc:label="G_ADH70_RS12975"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14080" fbc:name="G_ADH70_RS14080" fbc:label="G_ADH70_RS14080"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS00455" fbc:name="G_ADH70_RS00455" fbc:label="G_ADH70_RS00455"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS00570" fbc:name="G_ADH70_RS00570" fbc:label="G_ADH70_RS00570"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS02460" fbc:name="G_ADH70_RS02460" fbc:label="G_ADH70_RS02460"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS06795" fbc:name="G_ADH70_RS06795" fbc:label="G_ADH70_RS06795"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS22665" fbc:name="G_ADH70_RS22665" fbc:label="G_ADH70_RS22665"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14000" fbc:name="G_ADH70_RS14000" fbc:label="G_ADH70_RS14000"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14090" fbc:name="G_ADH70_RS14090" fbc:label="G_ADH70_RS14090"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18875" fbc:name="G_ADH70_RS18875" fbc:label="G_ADH70_RS18875"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS16405" fbc:name="G_ADH70_RS16405" fbc:label="G_ADH70_RS16405"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS11805" fbc:name="G_ADH70_RS11805" fbc:label="G_ADH70_RS11805"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS22660" fbc:name="G_ADH70_RS22660" fbc:label="G_ADH70_RS22660"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS12980" fbc:name="G_ADH70_RS12980" fbc:label="G_ADH70_RS12980"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14125" fbc:name="G_ADH70_RS14125" fbc:label="G_ADH70_RS14125"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14095" fbc:name="G_ADH70_RS14095" fbc:label="G_ADH70_RS14095"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14050" fbc:name="G_ADH70_RS14050" fbc:label="G_ADH70_RS14050"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14045" fbc:name="G_ADH70_RS14045" fbc:label="G_ADH70_RS14045"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14135" fbc:name="G_ADH70_RS14135" fbc:label="G_ADH70_RS14135"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS04840" fbc:name="G_ADH70_RS04840" fbc:label="G_ADH70_RS04840"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS11235" fbc:name="G_ADH70_RS11235" fbc:label="G_ADH70_RS11235"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS16445" fbc:name="G_ADH70_RS16445" fbc:label="G_ADH70_RS16445"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS06320" fbc:name="G_ADH70_RS06320" fbc:label="G_ADH70_RS06320"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS00465" fbc:name="G_ADH70_RS00465" fbc:label="G_ADH70_RS00465"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS10855" fbc:name="G_ADH70_RS10855" fbc:label="G_ADH70_RS10855"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14105" fbc:name="G_ADH70_RS14105" fbc:label="G_ADH70_RS14105"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS11060" fbc:name="G_ADH70_RS11060" fbc:label="G_ADH70_RS11060"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS10105" fbc:name="G_ADH70_RS10105" fbc:label="G_ADH70_RS10105"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14070" fbc:name="G_ADH70_RS14070" fbc:label="G_ADH70_RS14070"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14140" fbc:name="G_ADH70_RS14140" fbc:label="G_ADH70_RS14140"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS03425" fbc:name="G_ADH70_RS03425" fbc:label="G_ADH70_RS03425"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS08265" fbc:name="G_ADH70_RS08265" fbc:label="G_ADH70_RS08265"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14065" fbc:name="G_ADH70_RS14065" fbc:label="G_ADH70_RS14065"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS15575" fbc:name="G_ADH70_RS15575" fbc:label="G_ADH70_RS15575"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS16450" fbc:name="G_ADH70_RS16450" fbc:label="G_ADH70_RS16450"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS19355" fbc:name="G_ADH70_RS19355" fbc:label="G_ADH70_RS19355"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14075" fbc:name="G_ADH70_RS14075" fbc:label="G_ADH70_RS14075"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS03715" fbc:name="G_ADH70_RS03715" fbc:label="G_ADH70_RS03715"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18810" fbc:name="G_ADH70_RS18810" fbc:label="G_ADH70_RS18810"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS13995" fbc:name="G_ADH70_RS13995" fbc:label="G_ADH70_RS13995"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS13980" fbc:name="G_ADH70_RS13980" fbc:label="G_ADH70_RS13980"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS14110" fbc:name="G_ADH70_RS14110" fbc:label="G_ADH70_RS14110"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS04050" fbc:name="G_ADH70_RS04050" fbc:label="G_ADH70_RS04050"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS03525" fbc:name="G_ADH70_RS03525" fbc:label="G_ADH70_RS03525"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS02455" fbc:name="G_ADH70_RS02455" fbc:label="G_ADH70_RS02455"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS02460" fbc:name="G_ADH70_RS02460" fbc:label="G_ADH70_RS02460"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS06185" fbc:name="G_ADH70_RS06185" fbc:label="G_ADH70_RS06185"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS12420" fbc:name="G_ADH70_RS12420" fbc:label="G_ADH70_RS12420"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS06610" fbc:name="G_ADH70_RS06610" fbc:label="G_ADH70_RS06610"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS14860" fbc:name="G_ADH70_RS14860" fbc:label="G_ADH70_RS14860"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS09350" fbc:name="G_ADH70_RS09350" fbc:label="G_ADH70_RS09350"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS06610" fbc:name="G_ADH70_RS06610" fbc:label="G_ADH70_RS06610"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS10550" fbc:name="G_ADH70_RS10550" fbc:label="G_ADH70_RS10550"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS10040" fbc:name="G_ADH70_RS10040" fbc:label="G_ADH70_RS10040"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS10155" fbc:name="G_ADH70_RS10155" fbc:label="G_ADH70_RS10155"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS03195" fbc:name="G_ADH70_RS03195" fbc:label="G_ADH70_RS03195"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS11855" fbc:name="G_ADH70_RS11855" fbc:label="G_ADH70_RS11855"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS16425" fbc:name="G_ADH70_RS16425" fbc:label="G_ADH70_RS16425"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS13985" fbc:name="G_ADH70_RS13985" fbc:label="G_ADH70_RS13985"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS16420" fbc:name="G_ADH70_RS16420" fbc:label="G_ADH70_RS16420"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS10550" fbc:name="G_ADH70_RS10550" fbc:label="G_ADH70_RS10550"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03540" fbc:name="G_ADH70_RS03540" fbc:label="G_ADH70_RS03540"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS03195" fbc:name="G_ADH70_RS03195" fbc:label="G_ADH70_RS03195"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS16425" fbc:name="G_ADH70_RS16425" fbc:label="G_ADH70_RS16425"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS18825" fbc:name="G_ADH70_RS18825" fbc:label="G_ADH70_RS18825"/>
-      <fbc:geneProduct fbc:id="G_ADH70_RS18500" fbc:name="G_ADH70_RS18500" fbc:label="G_ADH70_RS18500"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS13985" fbc:name="G_ADH70_RS13985" fbc:label="G_ADH70_RS13985"/>
       <fbc:geneProduct fbc:id="G_ADH70_RS03445" fbc:name="G_ADH70_RS03445" fbc:label="G_ADH70_RS03445"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS18500" fbc:name="G_ADH70_RS18500" fbc:label="G_ADH70_RS18500"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS16420" fbc:name="G_ADH70_RS16420" fbc:label="G_ADH70_RS16420"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS11855" fbc:name="G_ADH70_RS11855" fbc:label="G_ADH70_RS11855"/>
+      <fbc:geneProduct fbc:id="G_ADH70_RS10155" fbc:name="G_ADH70_RS10155" fbc:label="G_ADH70_RS10155"/>
       <fbc:geneProduct fbc:id="G_A4V09_RS12985" fbc:name="G_A4V09_RS12985" fbc:label="G_A4V09_RS12985"/>
     </fbc:listOfGeneProducts>
   </model>
