@@ -155,8 +155,9 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-# AGORA2 models
+# large directories
 AGORA2/*
+grow/MetaT-20240116T195841Z-001/*
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
