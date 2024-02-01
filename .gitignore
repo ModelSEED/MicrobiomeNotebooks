@@ -157,6 +157,7 @@ cython_debug/
 
 # AGORA2 models
 AGORA2/*
+*.zip
 
 # grow files
 grow/MetaT/*
