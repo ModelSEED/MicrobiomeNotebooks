@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" sboTerm="SBO:0000624" level="3" version="1" fbc:required="false">
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" metaid="meta_" sboTerm="SBO:0000624" level="3" version="1" fbc:required="false">
   <model name="MegaModel for ASV00725;seqs=22660;samples=94 from 1 members" fbc:strict="true">
     <listOfUnitDefinitions>
       <unitDefinition id="mmol_per_gDW_per_hr">
@@ -10,6 +10,11 @@
         </listOfUnits>
       </unitDefinition>
     </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="e" constant="true"/>
+      <compartment id="p" constant="true"/>
+      <compartment id="c" constant="true"/>
+    </listOfCompartments>
     <listOfSpecies>
       <species metaid="meta_M_12ppd_S__91__e__93__" sboTerm="SBO:0000247" id="M_12ppd_S__91__e__93__" name="(S)-propane-1,2-diol" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C3H8O2">
         <notes>
