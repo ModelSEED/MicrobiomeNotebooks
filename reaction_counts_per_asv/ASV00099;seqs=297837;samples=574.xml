@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" metaid="meta_" sboTerm="SBO:0000624" level="3" version="1" fbc:required="false">
-  <model name="MegaModel for ASV00099;seqs=297837;samples=574 from 1 members" fbc:strict="true">
+  <model id="ASV00099;seqs=297837;samples=574" name="MegaModel for ASV00099;seqs=297837;samples=574 from 1 members" fbc:strict="true">
     <listOfUnitDefinitions>
       <unitDefinition id="mmol_per_gDW_per_hr">
         <listOfUnits>
