@@ -34,24 +34,7 @@ sys.path = paths + sys.path
 
 from chenry_utility_module.kbdevutils import KBDevUtils
 
-class BaseUtil:
-    def __init__(self):
-        self.kbdevutil = None
-        self.msrecon = None
-        self.annoapi = None
-        self.obs_ec = None
-    
-    def get_kbdevutil(self,name):
-        if not self.kbdevutil:
-            self.kbdevutil = KBDevUtils(name) 
-        return self.kbdevutil
-    
-    def get_msrecon(self):
-        if not self.msrecon:
-            self.msrecon = self.kbdevutil.msseedrecon()
-        return self.msrecon
-    
-    def get_annoapi(self):
-        if not self.annoapi:
-            self.annoapi = self.get_kbdevutil().anno_client(native_python_api=True)
-        return self.annoapi
+class BaseUtil(KBDevUtils):
+    def __init__(self,name):
+        KBDevUtils.__init__(self,name,output_root=os.path.dirname(os.path.realpath(__file__)))
+        
