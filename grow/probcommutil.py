@@ -24,12 +24,12 @@ from modelseedpy.helpers import get_template
 
 class ProbCommUtil(BaseUtil):
     def __init__(self):
-        BaseUtil.__init__(self)
-        self.get_kbdevutil("ProbComm")
-        self.get_msrecon()
-
+        BaseUtil.__init__(self,"grow")
+        self.msseedrecon()
+        
     def extract_metaT_data(self, metaT_file):
         if not path.exists("MetaT"):
             with ZipFile("MetaT-20240116T195841Z-001.zip", 'r') as zipFile:
                 zipFile.extractall()
+
 util = ProbCommUtil() 

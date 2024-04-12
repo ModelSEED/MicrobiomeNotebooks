@@ -37,4 +37,7 @@ from chenry_utility_module.kbdevutils import KBDevUtils
 class BaseUtil(KBDevUtils):
     def __init__(self,name):
         KBDevUtils.__init__(self,name,output_root=os.path.dirname(os.path.realpath(__file__)))
+        self.kbdevutil = self
+        self.annoapi = self.anno_client(native_python_api=True)
+        self.obs_ec = None
         
