@@ -162,6 +162,8 @@ cython_debug/
 # large directories
 AGORA2/*
 *.zip
+*-ABX*/*
+hmdb_metabolites.xml
 
 # grow files
 grow/MetaT-20240116T195841Z-001/*
