@@ -165,10 +165,13 @@ AGORA2/*
 *-ABX*/*
 hmdb_metabolites.xml
 
-# grow files
+# large files
 grow/MetaT-20240116T195841Z-001/*
 grow/dense_metaT.json
 grow/MetaT/*
+*_comm.xml
+AGORA2_genomes/*
+AGORA2_genomes/*/*
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
