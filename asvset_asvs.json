@@ -1,0 +1,385 @@
+{
+    "ASV00001;seqs=10697401;samples=1978": [
+        "ASV00001;seqs=10697401;samples=1978",
+        "ASV00001;seqs=15073372;samples=2336"
+    ],
+    "ASV00002;seqs=7303020;samples=1403": [
+        "ASV00002;seqs=7303020;samples=1403"
+    ],
+    "ASV00003;seqs=7068340;samples=1916": [
+        "ASV00003;seqs=7068340;samples=1916",
+        "ASV00003;seqs=8864566;samples=2185"
+    ],
+    "ASV00004;seqs=6473178;samples=1764": [
+        "ASV00004;seqs=6473178;samples=1764",
+        "ASV00006;seqs=7202691;samples=2041"
+    ],
+    "ASV00004;seqs=7856150;samples=2507": [
+        "ASV00004;seqs=7856150;samples=2507",
+        "ASV00006;seqs=5698377;samples=2075"
+    ],
+    "ASV00005;seqs=5940024;samples=3018": [
+        "ASV00005;seqs=5940024;samples=3018",
+        "ASV00005;seqs=7246114;samples=3329"
+    ],
+    "ASV00007;seqs=4733995;samples=2456": [
+        "ASV00007;seqs=4733995;samples=2456",
+        "ASV00007;seqs=5884804;samples=2791"
+    ],
+    "ASV00008;seqs=3358093;samples=2591": [
+        "ASV00008;seqs=3358093;samples=2591"
+    ],
+    "ASV00011;seqs=3029063;samples=663": [
+        "ASV00011;seqs=3029063;samples=663",
+        "ASV00012;seqs=3048861;samples=714"
+    ],
+    "ASV00012;seqs=3022236;samples=1865": [
+        "ASV00012;seqs=3022236;samples=1865"
+    ],
+    "ASV00013;seqs=2579574;samples=1798": [
+        "ASV00013;seqs=2579574;samples=1798"
+    ],
+    "ASV00017;seqs=1396481;samples=730": [
+        "ASV00017;seqs=1396481;samples=730"
+    ],
+    "ASV00025;seqs=1136849;samples=1287": [
+        "ASV00025;seqs=1136849;samples=1287"
+    ],
+    "ASV00027;seqs=1091885;samples=1941": [
+        "ASV00027;seqs=1091885;samples=1941"
+    ],
+    "ASV00029;seqs=1026187;samples=847": [
+        "ASV00029;seqs=1026187;samples=847",
+        "ASV00029;seqs=1031672;samples=903"
+    ],
+    "ASV00030;seqs=1023078;samples=1476": [
+        "ASV00030;seqs=1023078;samples=1476",
+        "ASV00030;seqs=967751;samples=1354"
+    ],
+    "ASV00033;seqs=897444;samples=606": [
+        "ASV00033;seqs=897444;samples=606"
+    ],
+    "ASV00035;seqs=878188;samples=613": [
+        "ASV00035;seqs=878188;samples=613"
+    ],
+    "ASV00037;seqs=790233;samples=478": [
+        "ASV00037;seqs=790233;samples=478",
+        "ASV00037;seqs=859691;samples=551"
+    ],
+    "ASV00041;seqs=738577;samples=964": [
+        "ASV00041;seqs=738577;samples=964"
+    ],
+    "ASV00042;seqs=720709;samples=659": [
+        "ASV00042;seqs=720709;samples=659"
+    ],
+    "ASV00044;seqs=695095;samples=947": [
+        "ASV00044;seqs=695095;samples=947",
+        "ASV00097;seqs=301787;samples=693"
+    ],
+    "ASV00045;seqs=682529;samples=872": [
+        "ASV00045;seqs=682529;samples=872"
+    ],
+    "ASV00053;seqs=557190;samples=884": [
+        "ASV00053;seqs=557190;samples=884"
+    ],
+    "ASV00057;seqs=537929;samples=1455": [
+        "ASV00057;seqs=537929;samples=1455",
+        "ASV00058;seqs=641221;samples=1619"
+    ],
+    "ASV00061;seqs=520349;samples=687": [
+        "ASV00061;seqs=520349;samples=687"
+    ],
+    "ASV00063;seqs=484209;samples=582": [
+        "ASV00063;seqs=484209;samples=582"
+    ],
+    "ASV00064;seqs=481044;samples=828": [
+        "ASV00064;seqs=481044;samples=828"
+    ],
+    "ASV00071;seqs=462564;samples=479": [
+        "ASV00071;seqs=462564;samples=479"
+    ],
+    "ASV00074;seqs=453649;samples=728": [
+        "ASV00074;seqs=453649;samples=728"
+    ],
+    "ASV00077;seqs=439987;samples=931": [
+        "ASV00077;seqs=439987;samples=931"
+    ],
+    "ASV00079;seqs=432109;samples=775": [
+        "ASV00079;seqs=432109;samples=775"
+    ],
+    "ASV00080;seqs=431952;samples=791": [
+        "ASV00080;seqs=431952;samples=791"
+    ],
+    "ASV00081;seqs=422495;samples=841": [
+        "ASV00081;seqs=422495;samples=841"
+    ],
+    "ASV00082;seqs=402005;samples=650": [
+        "ASV00082;seqs=402005;samples=650"
+    ],
+    "ASV00086;seqs=386275;samples=304": [
+        "ASV00086;seqs=386275;samples=304"
+    ],
+    "ASV00091;seqs=357806;samples=489": [
+        "ASV00091;seqs=357806;samples=489"
+    ],
+    "ASV00094;seqs=333747;samples=313": [
+        "ASV00094;seqs=333747;samples=313",
+        "ASV00460;seqs=43662;samples=276"
+    ],
+    "ASV00099;seqs=297837;samples=574": [
+        "ASV00099;seqs=297837;samples=574"
+    ],
+    "ASV00099;seqs=324118;samples=535": [
+        "ASV00099;seqs=324118;samples=535"
+    ],
+    "ASV00109;seqs=292857;samples=522": [
+        "ASV00109;seqs=292857;samples=522",
+        "ASV00131;seqs=228350;samples=476"
+    ],
+    "ASV00117;seqs=253103;samples=1167": [
+        "ASV00117;seqs=253103;samples=1167"
+    ],
+    "ASV00119;seqs=251577;samples=874": [
+        "ASV00119;seqs=251577;samples=874"
+    ],
+    "ASV00120;seqs=250666;samples=667": [
+        "ASV00120;seqs=250666;samples=667"
+    ],
+    "ASV00122;seqs=247627;samples=247": [
+        "ASV00122;seqs=247627;samples=247"
+    ],
+    "ASV00125;seqs=240088;samples=1074": [
+        "ASV00125;seqs=240088;samples=1074"
+    ],
+    "ASV00136;seqs=217325;samples=295": [
+        "ASV00136;seqs=217325;samples=295"
+    ],
+    "ASV00140;seqs=232860;samples=85": [
+        "ASV00140;seqs=232860;samples=85",
+        "ASV00174;seqs=168097;samples=70",
+        "ASV00242;seqs=106523;samples=69"
+    ],
+    "ASV00142;seqs=232340;samples=215": [
+        "ASV00142;seqs=232340;samples=215"
+    ],
+    "ASV00144;seqs=204904;samples=514": [
+        "ASV00144;seqs=204904;samples=514"
+    ],
+    "ASV00155;seqs=197875;samples=255": [
+        "ASV00155;seqs=197875;samples=255"
+    ],
+    "ASV00158;seqs=194899;samples=618": [
+        "ASV00158;seqs=194899;samples=618"
+    ],
+    "ASV00165;seqs=183426;samples=368": [
+        "ASV00165;seqs=183426;samples=368"
+    ],
+    "ASV00170;seqs=173585;samples=145": [
+        "ASV00170;seqs=173585;samples=145"
+    ],
+    "ASV00175;seqs=167476;samples=896": [
+        "ASV00175;seqs=167476;samples=896"
+    ],
+    "ASV00177;seqs=186095;samples=840": [
+        "ASV00177;seqs=186095;samples=840",
+        "ASV00178;seqs=166167;samples=748"
+    ],
+    "ASV00190;seqs=154591;samples=417": [
+        "ASV00190;seqs=154591;samples=417"
+    ],
+    "ASV00192;seqs=153897;samples=185": [
+        "ASV00192;seqs=153897;samples=185"
+    ],
+    "ASV00196;seqs=148906;samples=129": [
+        "ASV00196;seqs=148906;samples=129"
+    ],
+    "ASV00198;seqs=145630;samples=376": [
+        "ASV00198;seqs=145630;samples=376"
+    ],
+    "ASV00208;seqs=147389;samples=777": [
+        "ASV00208;seqs=147389;samples=777",
+        "ASV00240;seqs=106587;samples=647"
+    ],
+    "ASV00228;seqs=116069;samples=509": [
+        "ASV00228;seqs=116069;samples=509"
+    ],
+    "ASV00239;seqs=120783;samples=1230": [
+        "ASV00239;seqs=120783;samples=1230",
+        "ASV00254;seqs=102784;samples=1130"
+    ],
+    "ASV00257;seqs=100570;samples=517": [
+        "ASV00257;seqs=100570;samples=517"
+    ],
+    "ASV00260;seqs=100236;samples=73": [
+        "ASV00260;seqs=100236;samples=73"
+    ],
+    "ASV00289;seqs=86263;samples=412": [
+        "ASV00289;seqs=86263;samples=412"
+    ],
+    "ASV00302;seqs=78715;samples=316": [
+        "ASV00302;seqs=78715;samples=316"
+    ],
+    "ASV00325;seqs=72251;samples=398": [
+        "ASV00325;seqs=72251;samples=398",
+        "ASV00725;seqs=22660;samples=94"
+    ],
+    "ASV00336;seqs=68229;samples=314": [
+        "ASV00336;seqs=68229;samples=314"
+    ],
+    "ASV00362;seqs=60408;samples=206": [
+        "ASV00362;seqs=60408;samples=206"
+    ],
+    "ASV00374;seqs=58527;samples=490": [
+        "ASV00374;seqs=58527;samples=490"
+    ],
+    "ASV00387;seqs=55880;samples=55": [
+        "ASV00387;seqs=55880;samples=55",
+        "ASV00677;seqs=25167;samples=92"
+    ],
+    "ASV00403;seqs=52913;samples=142": [
+        "ASV00403;seqs=52913;samples=142"
+    ],
+    "ASV00410;seqs=51580;samples=142": [
+        "ASV00410;seqs=51580;samples=142"
+    ],
+    "ASV00462;seqs=43425;samples=32": [
+        "ASV00462;seqs=43425;samples=32",
+        "ASV01625;seqs=5373;samples=16"
+    ],
+    "ASV00467;seqs=42860;samples=60": [
+        "ASV00467;seqs=42860;samples=60"
+    ],
+    "ASV00516;seqs=38063;samples=113": [
+        "ASV00516;seqs=38063;samples=113"
+    ],
+    "ASV00519;seqs=37787;samples=49": [
+        "ASV00519;seqs=37787;samples=49"
+    ],
+    "ASV00555;seqs=34715;samples=589": [
+        "ASV00555;seqs=34715;samples=589",
+        "ASV00564;seqs=36645;samples=643"
+    ],
+    "ASV00564;seqs=33773;samples=37": [
+        "ASV00564;seqs=33773;samples=37"
+    ],
+    "ASV00588;seqs=31897;samples=216": [
+        "ASV00588;seqs=31897;samples=216"
+    ],
+    "ASV00594;seqs=30734;samples=210": [
+        "ASV00594;seqs=30734;samples=210"
+    ],
+    "ASV00825;seqs=18015;samples=10": [
+        "ASV00825;seqs=18015;samples=10"
+    ],
+    "ASV00839;seqs=17688;samples=366": [
+        "ASV00839;seqs=17688;samples=366",
+        "ASV00898;seqs=17757;samples=377",
+        "ASV03800;seqs=800;samples=27"
+    ],
+    "ASV00895;seqs=15764;samples=276": [
+        "ASV00895;seqs=15764;samples=276"
+    ],
+    "ASV00899;seqs=17749;samples=236": [
+        "ASV00899;seqs=17749;samples=236"
+    ],
+    "ASV00903;seqs=15426;samples=48": [
+        "ASV00903;seqs=15426;samples=48"
+    ],
+    "ASV00913;seqs=15231;samples=26": [
+        "ASV00913;seqs=15231;samples=26"
+    ],
+    "ASV00963;seqs=13932;samples=24": [
+        "ASV00963;seqs=13932;samples=24"
+    ],
+    "ASV01123;seqs=10705;samples=54": [
+        "ASV01123;seqs=10705;samples=54"
+    ],
+    "ASV01125;seqs=10675;samples=14": [
+        "ASV01125;seqs=10675;samples=14"
+    ],
+    "ASV01183;seqs=9843;samples=138": [
+        "ASV01183;seqs=9843;samples=138"
+    ],
+    "ASV01255;seqs=8684;samples=88": [
+        "ASV01255;seqs=8684;samples=88"
+    ],
+    "ASV01281;seqs=8341;samples=151": [
+        "ASV01281;seqs=8341;samples=151"
+    ],
+    "ASV01464;seqs=6653;samples=108": [
+        "ASV01464;seqs=6653;samples=108"
+    ],
+    "ASV01569;seqs=5738;samples=61": [
+        "ASV01569;seqs=5738;samples=61"
+    ],
+    "ASV02079;seqs=3176;samples=69": [
+        "ASV02079;seqs=3176;samples=69",
+        "ASV06113;seqs=258;samples=9"
+    ],
+    "ASV02112;seqs=3053;samples=100": [
+        "ASV02112;seqs=3053;samples=100"
+    ],
+    "ASV02328;seqs=2454;samples=51": [
+        "ASV02328;seqs=2454;samples=51"
+    ],
+    "ASV03156;seqs=1245;samples=21": [
+        "ASV03156;seqs=1245;samples=21"
+    ],
+    "ASV03716;seqs=853;samples=24": [
+        "ASV03716;seqs=853;samples=24"
+    ],
+    "ASV03883;seqs=765;samples=32": [
+        "ASV03883;seqs=765;samples=32"
+    ],
+    "ASV04165;seqs=643;samples=20": [
+        "ASV04165;seqs=643;samples=20"
+    ],
+    "ASV04297;seqs=595;samples=13": [
+        "ASV04297;seqs=595;samples=13"
+    ],
+    "ASV05516;seqs=336;samples=8": [
+        "ASV05516;seqs=336;samples=8"
+    ],
+    "ASV05771;seqs=299;samples=17": [
+        "ASV05771;seqs=299;samples=17"
+    ],
+    "ASV06060;seqs=263;samples=10": [
+        "ASV06060;seqs=263;samples=10"
+    ],
+    "ASV08110;seqs=126;samples=7": [
+        "ASV08110;seqs=126;samples=7"
+    ],
+    "ASV08433;seqs=114;samples=6": [
+        "ASV08433;seqs=114;samples=6"
+    ],
+    "ASV08434;seqs=114;samples=10": [
+        "ASV08434;seqs=114;samples=10"
+    ],
+    "ASV08468;seqs=113;samples=4": [
+        "ASV08468;seqs=113;samples=4"
+    ],
+    "ASV09422;seqs=85;samples=3": [
+        "ASV09422;seqs=85;samples=3"
+    ],
+    "ASV09528;seqs=83;samples=7": [
+        "ASV09528;seqs=83;samples=7"
+    ],
+    "ASV10516;seqs=64;samples=3": [
+        "ASV10516;seqs=64;samples=3"
+    ],
+    "ASV10593;seqs=63;samples=4": [
+        "ASV10593;seqs=63;samples=4"
+    ],
+    "ASV11246;seqs=54;samples=3": [
+        "ASV11246;seqs=54;samples=3"
+    ],
+    "ASV15074;seqs=17;samples=1": [
+        "ASV15074;seqs=17;samples=1"
+    ],
+    "ASV16539;seqs=10;samples=1": [
+        "ASV16539;seqs=10;samples=1"
+    ],
+    "ASV18371;seqs=5;samples=1": [
+        "ASV18371;seqs=5;samples=1"
+    ]
+}
