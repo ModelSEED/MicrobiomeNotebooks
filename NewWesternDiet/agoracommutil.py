@@ -28,21 +28,24 @@ class AGORACommUtil(BaseUtil):
         self.msseedrecon()
     
     def create_phenotypeset_from_compounds(
+        self,
         compounds,
         base_media=None,
         base_uptake=0,
         base_excretion=1000,
-        global_atom_limits={}
+        global_atom_limits={},
+        type="growth"
     ):
         cpd_hash = {}
         for cpd in compounds:
-            cpd_hash[cpd] = None
+            cpd_hash[cpd] = 10
         return MSGrowthPhenotypes.from_compound_hash(
-            compounds,
-            base_media,
-            base_uptake,
-            base_excretion,
-            global_atom_limits
+            cpd_hash,
+            base_media=base_media,
+            base_uptake=base_uptake,
+            base_excretion=base_excretion,
+            global_atom_limits=global_atom_limits,
+            type=type
         )
 
 util = AGORACommUtil() 
