@@ -1,0 +1,522 @@
+[
+   {
+      "map_name": "new_map",
+      "map_id": "3OegakBQV3Sp",
+      "map_description": "\nLast Modified Thu May 02 2024 21:46:57 GMT-0500 (Central Daylight Time)",
+      "homepage": "https://escher.github.io",
+      "schema": "https://escher.github.io/escher/jsonschema/1-0-0#"
+   },
+   {
+      "reactions": {
+         "0": {
+            "name": "diphosphate phosphohydrolase",
+            "bigg_id": "rxn00001_0_0",
+            "reversibility": false,
+            "label_x": -242.8153489006918,
+            "label_y": 103.11225355934926,
+            "gene_reaction_rule": "",
+            "genes": [],
+            "metabolites": [
+               {
+                  "bigg_id": "cpd00012_0_0_0",
+                  "coefficient": -1
+               },
+               {
+                  "bigg_id": "cpd00067_0_0_0",
+                  "coefficient": 1
+               },
+               {
+                  "bigg_id": "cpd00001_0_0_0",
+                  "coefficient": -1
+               },
+               {
+                  "bigg_id": "cpd00009_0_0_0",
+                  "coefficient": 2
+               }
+            ],
+            "segments": {
+               "0": {
+                  "from_node_id": "1",
+                  "to_node_id": "2",
+                  "b1": null,
+                  "b2": null
+               },
+               "1": {
+                  "from_node_id": "3",
+                  "to_node_id": "2",
+                  "b1": null,
+                  "b2": null
+               },
+               "2": {
+                  "from_node_id": "1",
+                  "to_node_id": "0",
+                  "b1": {
+                     "x": 2961.18779884681,
+                     "y": 1726.7400232374748
+                  },
+                  "b2": {
+                     "x": 2906.9405798287567,
+                     "y": 1727.2893217058356
+                  }
+               },
+               "3": {
+                  "from_node_id": "3",
+                  "to_node_id": "4",
+                  "b1": {
+                     "x": 3085.181442316646,
+                     "y": 1725.4844838812232
+                  },
+                  "b2": {
+                     "x": 3139.4286613346994,
+                     "y": 1724.9351854128624
+                  }
+               },
+               "4": {
+                  "from_node_id": "1",
+                  "to_node_id": "5",
+                  "b1": {
+                     "x": 2957.188003896171,
+                     "y": 1726.7805245070329
+                  },
+                  "b2": {
+                     "x": 2952.1205287364596,
+                     "y": 1744.8327597012044
+                  }
+               },
+               "5": {
+                  "from_node_id": "3",
+                  "to_node_id": "6",
+                  "b1": {
+                     "x": 3089.1812372672866,
+                     "y": 1725.4439826116666
+                  },
+                  "b2": {
+                     "x": 3094.6132238530054,
+                     "y": 1743.3899019732523
+                  }
+               }
+            }
+         },
+         "1": {
+            "name": "diphosphate phosphohydrolase",
+            "bigg_id": "rxn00001_0_0",
+            "reversibility": false,
+            "label_x": -242.8153489006918,
+            "label_y": 103.11225355934926,
+            "gene_reaction_rule": "",
+            "genes": [],
+            "metabolites": [
+               {
+                  "bigg_id": "cpd00012_0_0_0",
+                  "coefficient": -1
+               },
+               {
+                  "bigg_id": "cpd00067_0_0_0",
+                  "coefficient": 1
+               },
+               {
+                  "bigg_id": "cpd00001_0_0_0",
+                  "coefficient": -1
+               },
+               {
+                  "bigg_id": "cpd00009_0_0_0",
+                  "coefficient": 2
+               }
+            ],
+            "segments": {
+               "0": {
+                  "from_node_id": "1",
+                  "to_node_id": "2",
+                  "b1": null,
+                  "b2": null
+               },
+               "1": {
+                  "from_node_id": "3",
+                  "to_node_id": "2",
+                  "b1": null,
+                  "b2": null
+               },
+               "2": {
+                  "from_node_id": "1",
+                  "to_node_id": "0",
+                  "b1": {
+                     "x": 2961.18779884681,
+                     "y": 1726.7400232374748
+                  },
+                  "b2": {
+                     "x": 2906.9405798287567,
+                     "y": 1727.2893217058356
+                  }
+               },
+               "3": {
+                  "from_node_id": "3",
+                  "to_node_id": "4",
+                  "b1": {
+                     "x": 3085.181442316646,
+                     "y": 1725.4844838812232
+                  },
+                  "b2": {
+                     "x": 3139.4286613346994,
+                     "y": 1724.9351854128624
+                  }
+               },
+               "4": {
+                  "from_node_id": "1",
+                  "to_node_id": "5",
+                  "b1": {
+                     "x": 2957.188003896171,
+                     "y": 1726.7805245070329
+                  },
+                  "b2": {
+                     "x": 2952.1205287364596,
+                     "y": 1744.8327597012044
+                  }
+               },
+               "5": {
+                  "from_node_id": "3",
+                  "to_node_id": "6",
+                  "b1": {
+                     "x": 3089.1812372672866,
+                     "y": 1725.4439826116666
+                  },
+                  "b2": {
+                     "x": 3094.6132238530054,
+                     "y": 1743.3899019732523
+                  }
+               }
+            }
+         },
+         "2": {
+            "name": "diphosphate phosphohydrolase",
+            "bigg_id": "rxn00001_0_0",
+            "reversibility": false,
+            "label_x": -242.8153489006918,
+            "label_y": 103.11225355934926,
+            "gene_reaction_rule": "",
+            "genes": [],
+            "metabolites": [
+               {
+                  "bigg_id": "cpd00012_0_0_0",
+                  "coefficient": -1
+               },
+               {
+                  "bigg_id": "cpd00067_0_0_0",
+                  "coefficient": 1
+               },
+               {
+                  "bigg_id": "cpd00001_0_0_0",
+                  "coefficient": -1
+               },
+               {
+                  "bigg_id": "cpd00009_0_0_0",
+                  "coefficient": 2
+               }
+            ],
+            "segments": {
+               "0": {
+                  "from_node_id": "1",
+                  "to_node_id": "2",
+                  "b1": null,
+                  "b2": null
+               },
+               "1": {
+                  "from_node_id": "3",
+                  "to_node_id": "2",
+                  "b1": null,
+                  "b2": null
+               },
+               "2": {
+                  "from_node_id": "1",
+                  "to_node_id": "0",
+                  "b1": {
+                     "x": 2961.18779884681,
+                     "y": 1726.7400232374748
+                  },
+                  "b2": {
+                     "x": 2906.9405798287567,
+                     "y": 1727.2893217058356
+                  }
+               },
+               "3": {
+                  "from_node_id": "3",
+                  "to_node_id": "4",
+                  "b1": {
+                     "x": 3085.181442316646,
+                     "y": 1725.4844838812232
+                  },
+                  "b2": {
+                     "x": 3139.4286613346994,
+                     "y": 1724.9351854128624
+                  }
+               },
+               "4": {
+                  "from_node_id": "1",
+                  "to_node_id": "5",
+                  "b1": {
+                     "x": 2957.188003896171,
+                     "y": 1726.7805245070329
+                  },
+                  "b2": {
+                     "x": 2952.1205287364596,
+                     "y": 1744.8327597012044
+                  }
+               },
+               "5": {
+                  "from_node_id": "3",
+                  "to_node_id": "6",
+                  "b1": {
+                     "x": 3089.1812372672866,
+                     "y": 1725.4439826116666
+                  },
+                  "b2": {
+                     "x": 3094.6132238530054,
+                     "y": 1743.3899019732523
+                  }
+               }
+            }
+         },
+         "3": {
+            "name": "diphosphate phosphohydrolase",
+            "bigg_id": "rxn00001_0_0",
+            "reversibility": false,
+            "label_x": -242.8153489006918,
+            "label_y": 903.1122535593493,
+            "gene_reaction_rule": "",
+            "genes": [],
+            "metabolites": [
+               {
+                  "bigg_id": "cpd00012_0_0_0",
+                  "coefficient": -1
+               },
+               {
+                  "bigg_id": "cpd00067_0_0_0",
+                  "coefficient": 1
+               },
+               {
+                  "bigg_id": "cpd00001_0_0_0",
+                  "coefficient": -1
+               },
+               {
+                  "bigg_id": "cpd00009_0_0_0",
+                  "coefficient": 2
+               }
+            ],
+            "segments": {
+               "0": {
+                  "from_node_id": "1",
+                  "to_node_id": "2",
+                  "b1": null,
+                  "b2": null
+               },
+               "1": {
+                  "from_node_id": "3",
+                  "to_node_id": "2",
+                  "b1": null,
+                  "b2": null
+               },
+               "2": {
+                  "from_node_id": "1",
+                  "to_node_id": "0",
+                  "b1": {
+                     "x": 2961.18779884681,
+                     "y": 1726.7400232374748
+                  },
+                  "b2": {
+                     "x": 2906.9405798287567,
+                     "y": 1727.2893217058356
+                  }
+               },
+               "3": {
+                  "from_node_id": "3",
+                  "to_node_id": "4",
+                  "b1": {
+                     "x": 3085.181442316646,
+                     "y": 1725.4844838812232
+                  },
+                  "b2": {
+                     "x": 3139.4286613346994,
+                     "y": 1724.9351854128624
+                  }
+               },
+               "4": {
+                  "from_node_id": "1",
+                  "to_node_id": "5",
+                  "b1": {
+                     "x": 2957.188003896171,
+                     "y": 1726.7805245070329
+                  },
+                  "b2": {
+                     "x": 2952.1205287364596,
+                     "y": 1744.8327597012044
+                  }
+               },
+               "5": {
+                  "from_node_id": "3",
+                  "to_node_id": "6",
+                  "b1": {
+                     "x": 3089.1812372672866,
+                     "y": 1725.4439826116666
+                  },
+                  "b2": {
+                     "x": 3094.6132238530054,
+                     "y": 1743.3899019732523
+                  }
+               }
+            }
+         },
+         "4": {
+            "name": "diphosphate phosphohydrolase",
+            "bigg_id": "rxn00001_0_0",
+            "reversibility": false,
+            "label_x": -242.8153489006918,
+            "label_y": 903.1122535593493,
+            "gene_reaction_rule": "",
+            "genes": [],
+            "metabolites": [
+               {
+                  "bigg_id": "cpd00012_0_0_0",
+                  "coefficient": -1
+               },
+               {
+                  "bigg_id": "cpd00067_0_0_0",
+                  "coefficient": 1
+               },
+               {
+                  "bigg_id": "cpd00001_0_0_0",
+                  "coefficient": -1
+               },
+               {
+                  "bigg_id": "cpd00009_0_0_0",
+                  "coefficient": 2
+               }
+            ],
+            "segments": {
+               "0": {
+                  "from_node_id": "1",
+                  "to_node_id": "2",
+                  "b1": null,
+                  "b2": null
+               },
+               "1": {
+                  "from_node_id": "3",
+                  "to_node_id": "2",
+                  "b1": null,
+                  "b2": null
+               },
+               "2": {
+                  "from_node_id": "1",
+                  "to_node_id": "0",
+                  "b1": {
+                     "x": 2961.18779884681,
+                     "y": 1726.7400232374748
+                  },
+                  "b2": {
+                     "x": 2906.9405798287567,
+                     "y": 1727.2893217058356
+                  }
+               },
+               "3": {
+                  "from_node_id": "3",
+                  "to_node_id": "4",
+                  "b1": {
+                     "x": 3085.181442316646,
+                     "y": 1725.4844838812232
+                  },
+                  "b2": {
+                     "x": 3139.4286613346994,
+                     "y": 1724.9351854128624
+                  }
+               },
+               "4": {
+                  "from_node_id": "1",
+                  "to_node_id": "5",
+                  "b1": {
+                     "x": 2957.188003896171,
+                     "y": 1726.7805245070329
+                  },
+                  "b2": {
+                     "x": 2952.1205287364596,
+                     "y": 1744.8327597012044
+                  }
+               },
+               "5": {
+                  "from_node_id": "3",
+                  "to_node_id": "6",
+                  "b1": {
+                     "x": 3089.1812372672866,
+                     "y": 1725.4439826116666
+                  },
+                  "b2": {
+                     "x": 3094.6132238530054,
+                     "y": 1743.3899019732523
+                  }
+               }
+            }
+         }
+      },
+      "nodes": {
+         "0": {
+            "node_type": "metabolite",
+            "x": -751.8064085087653,
+            "y": 127.8841841024473,
+            "bigg_id": "cpd00012",
+            "name": "PPi",
+            "label_x": -876.8064085087653,
+            "label_y": 133.8841841024473,
+            "node_is_primary": true
+         },
+         "1": {
+            "node_type": "multimarker",
+            "x": -596.8143541714722,
+            "y": 126.31475990713102
+         },
+         "2": {
+            "node_type": "midmarker",
+            "x": -576.8153794182699,
+            "y": 126.11225355934903
+         },
+         "3": {
+            "node_type": "multimarker",
+            "x": -556.8164046650722,
+            "y": 125.90974721156476
+         },
+         "4": {
+            "node_type": "metabolite",
+            "x": -401.82435032777573,
+            "y": 124.34032301625075,
+            "bigg_id": "cpd00067",
+            "name": "H+",
+            "label_x": -376.82435032777573,
+            "label_y": 124.34032301625075,
+            "node_is_primary": true
+         },
+         "5": {
+            "node_type": "metabolite",
+            "x": -680.9999714814387,
+            "y": 207.1713108980057,
+            "bigg_id": "cpd00001",
+            "name": "H2O",
+            "label_x": -752.9999714814383,
+            "label_y": 237.1713108980057,
+            "node_is_primary": false
+         },
+         "6": {
+            "node_type": "metabolite",
+            "x": -471.0107365728443,
+            "y": 205.0449942462883,
+            "bigg_id": "cpd00009",
+            "name": "Phosphate",
+            "label_x": -543.010736572845,
+            "label_y": 235.04499424628807,
+            "node_is_primary": false
+         }
+      },
+      "text_labels": {},
+      "canvas": {
+         "x": -1550,
+         "y": -716,
+         "width": 4650,
+         "height": 2148
+      }
+   }
+]
