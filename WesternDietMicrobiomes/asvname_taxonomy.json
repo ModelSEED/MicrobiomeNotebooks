@@ -1,0 +1,2461 @@
+{
+   "Helicobacter.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " delta/epsilon subdivisions",
+      "order": " Epsilonproteobacteria",
+      "family": " Campylobacterales",
+      "genus": " Helicobacteraceae",
+      "species": " Helicobacter"
+   },
+   "Corynebacterium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Corynebacteriales",
+      "genus": " Corynebacteriaceae",
+      "species": " Corynebacterium"
+   },
+   "Bilophila.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " delta/epsilon subdivisions",
+      "order": " Deltaproteobacteria",
+      "family": " Desulfovibrionales",
+      "genus": " Desulfovibrionaceae",
+      "species": " Bilophila"
+   },
+   "Coprococcus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " Coprococcus"
+   },
+   "Erysipelotrichaceae.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Erysipelotrichia",
+      "family": " Erysipelotrichales",
+      "genus": " Erysipelotrichaceae",
+      "species": " unclassified Erysipelotrichaceae"
+   },
+   "Clostridium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Kandleria.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Erysipelotrichia",
+      "family": " Erysipelotrichales",
+      "genus": " Erysipelotrichaceae",
+      "species": " Kandleria"
+   },
+   "Finegoldia.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Tissierellia",
+      "family": " Tissierellales",
+      "genus": " Peptoniphilaceae",
+      "species": " Finegoldia"
+   },
+   "Bifidobacterium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Bifidobacteriales",
+      "genus": " Bifidobacteriaceae",
+      "species": " Bifidobacterium"
+   },
+   "bacterium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " unclassified Bacteria",
+      "class": " unclassified Bacteria (miscellaneous)"
+   },
+   "Enterorhabdus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Coriobacteriia",
+      "family": " Eggerthellales",
+      "genus": " Eggerthellaceae",
+      "species": " Enterorhabdus"
+   },
+   "Eubacterium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiales incertae sedis",
+      "species": " Clostridiales Family XIII. Incertae Sedis"
+   },
+   "Veillonella.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Negativicutes",
+      "family": " Veillonellales",
+      "genus": " Veillonellaceae",
+      "species": " Veillonella"
+   },
+   "Eubacterium.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiales incertae sedis",
+      "species": " Clostridiales Family XIII. Incertae Sedis"
+   },
+   "Parabacteroides.1": {
+      "kingdom": " Bacteria",
+      "phylum": " FCB group",
+      "class": " Bacteroidetes/Chlorobi group",
+      "order": " Bacteroidetes",
+      "family": " Bacteroidia",
+      "genus": " Bacteroidales",
+      "species": " Tannerellaceae"
+   },
+   "Bifidobacterium.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Bifidobacteriales",
+      "genus": " Bifidobacteriaceae",
+      "species": " Bifidobacterium"
+   },
+   "Bacillus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Bacillales",
+      "genus": " Bacillaceae",
+      "species": " Bacillus"
+   },
+   "Streptococcus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Streptococcaceae",
+      "species": " Streptococcus"
+   },
+   "Parvibacter.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Coriobacteriia",
+      "family": " Coriobacteriales",
+      "genus": " Coriobacteriaceae",
+      "species": " Parvibacter"
+   },
+   "Blautia.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " Blautia"
+   },
+   "Clostridium.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Bacteroides.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " unclassified Clostridiales",
+      "species": " [Bacteroides] pectinophilus"
+   },
+   "Clostridium.3": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Lactobacillus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Lactobacillaceae",
+      "species": " Lactobacillus"
+   },
+   "Bacteroides.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " unclassified Clostridiales",
+      "species": " [Bacteroides] pectinophilus"
+   },
+   "Clostridium.4": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Clostridium.5": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Enterococcus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Enterococcaceae",
+      "species": " Enterococcus"
+   },
+   "Salmonella.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Enterobacterales",
+      "family": " Enterobacteriaceae",
+      "genus": " Salmonella",
+      "species": " Salmonella enterica"
+   },
+   "Bacteroides.3": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " unclassified Clostridiales",
+      "species": " [Bacteroides] pectinophilus"
+   },
+   "Clostridium.6": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Mesorhizobium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Alphaproteobacteria",
+      "order": " Rhizobiales",
+      "family": " Phyllobacteriaceae",
+      "genus": " Mesorhizobium",
+      "species": " Mesorhizobium japonicum"
+   },
+   "Enterococcus.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Enterococcaceae",
+      "species": " Enterococcus"
+   },
+   "Clostridioides.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Peptostreptococcaceae",
+      "species": " Clostridioides"
+   },
+   "Clostridium.7": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Bacteroides.4": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " unclassified Clostridiales",
+      "species": " [Bacteroides] pectinophilus"
+   },
+   "Lachnospiraceae.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " unclassified Lachnospiraceae"
+   },
+   "Streptococcus.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Streptococcaceae",
+      "species": " Streptococcus"
+   },
+   "Stenotrophomonas.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Xanthomonadales",
+      "family": " Xanthomonadaceae",
+      "genus": " Stenotrophomonas",
+      "species": " Stenotrophomonas maltophilia group"
+   },
+   "Lactococcus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Streptococcaceae",
+      "species": " Lactococcus"
+   },
+   "Corynebacterium.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Corynebacteriales",
+      "genus": " Corynebacteriaceae",
+      "species": " Corynebacterium"
+   },
+   "Clostridium.8": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Clostridium.9": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Agrobacterium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Alphaproteobacteria",
+      "order": " Rhizobiales",
+      "family": " Rhizobiaceae",
+      "genus": " Rhizobium/Agrobacterium group",
+      "species": " Agrobacterium"
+   },
+   "Weissella.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Leuconostocaceae",
+      "species": " Weissella"
+   },
+   "Burkholderiales.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Betaproteobacteria",
+      "order": " Burkholderiales",
+      "family": " unclassified Burkholderiales",
+      "genus": " unclassified Burkholderiales (miscellaneous)"
+   },
+   "Eubacterium.3": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiales incertae sedis",
+      "species": " Clostridiales Family XIII. Incertae Sedis"
+   },
+   "Helicobacter.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " delta/epsilon subdivisions",
+      "order": " Epsilonproteobacteria",
+      "family": " Campylobacterales",
+      "genus": " Helicobacteraceae",
+      "species": " Helicobacter"
+   },
+   "Lactobacillus.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Lactobacillaceae",
+      "species": " Lactobacillus"
+   },
+   "Escherichia.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Enterobacterales",
+      "family": " Enterobacteriaceae",
+      "genus": " Escherichia",
+      "species": " Escherichia coli"
+   },
+   "Eubacterium.4": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiales incertae sedis",
+      "species": " Clostridiales Family XIII. Incertae Sedis"
+   },
+   "Brachybacterium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Micrococcales",
+      "genus": " Dermabacteraceae",
+      "species": " Brachybacterium"
+   },
+   "Faecalibacterium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Ruminococcaceae",
+      "species": " Faecalibacterium"
+   },
+   "Agathobacter.1": {},
+   "Coprobacillus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Erysipelotrichia",
+      "family": " Erysipelotrichales",
+      "genus": " Erysipelotrichaceae",
+      "species": " Coprobacillus"
+   },
+   "Synergistes.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Synergistetes",
+      "class": " Synergistia",
+      "order": " Synergistales",
+      "family": " Synergistaceae",
+      "genus": " Synergistes",
+      "species": " unclassified Synergistes"
+   },
+   "Proteus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Enterobacterales",
+      "family": " Morganellaceae",
+      "genus": " Proteus"
+   },
+   "Anaerotruncus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Ruminococcaceae",
+      "species": " Anaerotruncus"
+   },
+   "Methylobacterium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Alphaproteobacteria",
+      "order": " Rhizobiales",
+      "family": " Methylobacteriaceae",
+      "genus": " Methylobacterium",
+      "species": " Methylobacterium radiotolerans"
+   },
+   "Alistipes.1": {
+      "kingdom": " Bacteria",
+      "phylum": " FCB group",
+      "class": " Bacteroidetes/Chlorobi group",
+      "order": " Bacteroidetes",
+      "family": " Bacteroidia",
+      "genus": " Bacteroidales",
+      "species": " Rikenellaceae"
+   },
+   "Ruminococcus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Ruminococcaceae",
+      "species": " Ruminococcus"
+   },
+   "Bacteroides.5": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " unclassified Clostridiales",
+      "species": " [Bacteroides] pectinophilus"
+   },
+   "Paraclostridium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Peptostreptococcaceae",
+      "species": " Paraclostridium"
+   },
+   "Clostridium.10": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Cupriavidus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Betaproteobacteria",
+      "order": " Burkholderiales",
+      "family": " Burkholderiaceae",
+      "genus": " Cupriavidus",
+      "species": " Cupriavidus metallidurans"
+   },
+   "Stenotrophomonas.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Xanthomonadales",
+      "family": " Xanthomonadaceae",
+      "genus": " Stenotrophomonas",
+      "species": " Stenotrophomonas maltophilia group"
+   },
+   "Alistipes.2": {
+      "kingdom": " Bacteria",
+      "phylum": " FCB group",
+      "class": " Bacteroidetes/Chlorobi group",
+      "order": " Bacteroidetes",
+      "family": " Bacteroidia",
+      "genus": " Bacteroidales",
+      "species": " Rikenellaceae"
+   },
+   "Bacteroides.6": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " unclassified Clostridiales",
+      "species": " [Bacteroides] pectinophilus"
+   },
+   "Proteus.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Enterobacterales",
+      "family": " Morganellaceae",
+      "genus": " Proteus"
+   },
+   "Lactobacillus.3": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Lactobacillaceae",
+      "species": " Lactobacillus"
+   },
+   "Lachnospiraceae.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " unclassified Lachnospiraceae"
+   },
+   "Ruthenibacterium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Ruminococcaceae",
+      "species": " Ruthenibacterium"
+   },
+   "Leuconostoc.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Leuconostocaceae",
+      "species": " Leuconostoc"
+   },
+   "Bacteroides.7": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " unclassified Clostridiales",
+      "species": " [Bacteroides] pectinophilus"
+   },
+   "Clostridium.11": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Muribaculum.1": {
+      "kingdom": " Bacteria",
+      "phylum": " FCB group",
+      "class": " Bacteroidetes/Chlorobi group",
+      "order": " Bacteroidetes",
+      "family": " Bacteroidia",
+      "genus": " Bacteroidales",
+      "species": " Muribaculaceae"
+   },
+   "Leuconostoc.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Leuconostocaceae",
+      "species": " Leuconostoc"
+   },
+   "Pantoea.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Enterobacterales",
+      "family": " Erwiniaceae",
+      "genus": " Pantoea",
+      "species": " unclassified Pantoea"
+   },
+   "Bacteroides.8": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " unclassified Clostridiales",
+      "species": " [Bacteroides] pectinophilus"
+   },
+   "Comamonas.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Betaproteobacteria",
+      "order": " Burkholderiales",
+      "family": " Comamonadaceae",
+      "genus": " Comamonas"
+   },
+   "Staphylococcus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Bacillales",
+      "genus": " Staphylococcaceae",
+      "species": " Staphylococcus"
+   },
+   "Parabacteroides.2": {
+      "kingdom": " Bacteria",
+      "phylum": " FCB group",
+      "class": " Bacteroidetes/Chlorobi group",
+      "order": " Bacteroidetes",
+      "family": " Bacteroidia",
+      "genus": " Bacteroidales",
+      "species": " Tannerellaceae"
+   },
+   "Cutibacterium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Propionibacteriales",
+      "genus": " Propionibacteriaceae",
+      "species": " Cutibacterium"
+   },
+   "Clostridium.12": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Bacteroides.9": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " unclassified Clostridiales",
+      "species": " [Bacteroides] pectinophilus"
+   },
+   "Acinetobacter.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Pseudomonadales",
+      "family": " Moraxellaceae",
+      "genus": " Acinetobacter",
+      "species": " Acinetobacter radioresistens"
+   },
+   "Pseudomonas.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Pseudomonadales",
+      "family": " Pseudomonadaceae",
+      "genus": " Pseudomonas",
+      "species": " Pseudomonas fluorescens group"
+   },
+   "Clostridium.13": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Parabacteroides.3": {
+      "kingdom": " Bacteria",
+      "phylum": " FCB group",
+      "class": " Bacteroidetes/Chlorobi group",
+      "order": " Bacteroidetes",
+      "family": " Bacteroidia",
+      "genus": " Bacteroidales",
+      "species": " Tannerellaceae"
+   },
+   "Clostridium.14": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Bacteroides.10": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " unclassified Clostridiales",
+      "species": " [Bacteroides] pectinophilus"
+   },
+   "Phascolarctobacterium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Negativicutes",
+      "family": " Acidaminococcales",
+      "genus": " Acidaminococcaceae",
+      "species": " Phascolarctobacterium"
+   },
+   "Acidaminococcus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Negativicutes",
+      "family": " Acidaminococcales",
+      "genus": " Acidaminococcaceae",
+      "species": " Acidaminococcus"
+   },
+   "Cutibacterium.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Propionibacteriales",
+      "genus": " Propionibacteriaceae",
+      "species": " Cutibacterium"
+   },
+   "Acinetobacter.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Pseudomonadales",
+      "family": " Moraxellaceae",
+      "genus": " Acinetobacter",
+      "species": " Acinetobacter radioresistens"
+   },
+   "Staphylococcus.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Bacillales",
+      "genus": " Staphylococcaceae",
+      "species": " Staphylococcus"
+   },
+   "Odoribacter.1": {
+      "kingdom": " Bacteria",
+      "phylum": " FCB group",
+      "class": " Bacteroidetes/Chlorobi group",
+      "order": " Bacteroidetes",
+      "family": " Bacteroidia",
+      "genus": " Bacteroidales",
+      "species": " Odoribacteraceae"
+   },
+   "Corynebacterium.3": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Corynebacteriales",
+      "genus": " Corynebacteriaceae",
+      "species": " Corynebacterium"
+   },
+   "Streptococcus.3": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Streptococcaceae",
+      "species": " Streptococcus"
+   },
+   "Clostridium.15": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Blautia.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " Blautia"
+   },
+   "Clostridium.16": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Enterococcus.3": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Enterococcaceae",
+      "species": " Enterococcus"
+   },
+   "Bacteroides.11": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " unclassified Clostridiales",
+      "species": " [Bacteroides] pectinophilus"
+   },
+   "Aerococcus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Aerococcaceae",
+      "species": " Aerococcus"
+   },
+   "Klebsiella.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Enterobacterales",
+      "family": " Enterobacteriaceae",
+      "genus": " Klebsiella",
+      "species": " Klebsiella aerogenes"
+   },
+   "Anaerococcus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Tissierellia",
+      "family": " Tissierellales",
+      "genus": " Peptoniphilaceae",
+      "species": " Anaerococcus"
+   },
+   "Clostridium.17": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Acutalibacter.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Ruminococcaceae",
+      "species": " Acutalibacter"
+   },
+   "Brevibacterium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Micrococcales",
+      "genus": " Brevibacteriaceae",
+      "species": " Brevibacterium"
+   },
+   "Intestinimonas.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " unclassified Clostridiales",
+      "species": " Intestinimonas"
+   },
+   "Lactobacillus.4": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Lactobacillaceae",
+      "species": " Lactobacillus"
+   },
+   "Staphylococcus.3": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Bacillales",
+      "genus": " Staphylococcaceae",
+      "species": " Staphylococcus"
+   },
+   "Alistipes.3": {
+      "kingdom": " Bacteria",
+      "phylum": " FCB group",
+      "class": " Bacteroidetes/Chlorobi group",
+      "order": " Bacteroidetes",
+      "family": " Bacteroidia",
+      "genus": " Bacteroidales",
+      "species": " Rikenellaceae"
+   },
+   "Kytococcus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Micrococcales",
+      "genus": " Dermacoccaceae",
+      "species": " Kytococcus"
+   },
+   "Curtobacterium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Micrococcales",
+      "genus": " Microbacteriaceae",
+      "species": " Curtobacterium"
+   },
+   "Akkermansia.1": {
+      "kingdom": " Bacteria",
+      "phylum": " PVC group",
+      "class": " Verrucomicrobia",
+      "order": " Verrucomicrobiae",
+      "family": " Verrucomicrobiales",
+      "genus": " Akkermansiaceae",
+      "species": " Akkermansia"
+   },
+   "Parabacteroides.4": {
+      "kingdom": " Bacteria",
+      "phylum": " FCB group",
+      "class": " Bacteroidetes/Chlorobi group",
+      "order": " Bacteroidetes",
+      "family": " Bacteroidia",
+      "genus": " Bacteroidales",
+      "species": " Tannerellaceae"
+   },
+   "Corynebacterium.4": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Corynebacteriales",
+      "genus": " Corynebacteriaceae",
+      "species": " Corynebacterium"
+   },
+   "Lactobacillus.5": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Lactobacillaceae",
+      "species": " Lactobacillus"
+   },
+   "Coprobacillus.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Erysipelotrichia",
+      "family": " Erysipelotrichales",
+      "genus": " Erysipelotrichaceae",
+      "species": " Coprobacillus"
+   },
+   "Clostridium.18": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Oscillibacter.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Oscillospiraceae",
+      "species": " Oscillibacter"
+   },
+   "Agrobacterium.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Alphaproteobacteria",
+      "order": " Rhizobiales",
+      "family": " Rhizobiaceae",
+      "genus": " Rhizobium/Agrobacterium group",
+      "species": " Agrobacterium"
+   },
+   "Streptomyces.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Streptomycetales",
+      "genus": " Streptomycetaceae",
+      "species": " Streptomyces"
+   },
+   "Staphylococcus.4": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Bacillales",
+      "genus": " Staphylococcaceae",
+      "species": " Staphylococcus"
+   },
+   "Aliivibrio.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Vibrionales",
+      "family": " Vibrionaceae",
+      "genus": " Aliivibrio",
+      "species": " Aliivibrio salmonicida"
+   },
+   "Clostridium.19": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Turicibacter.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Erysipelotrichia",
+      "family": " Erysipelotrichales",
+      "genus": " Erysipelotrichaceae",
+      "species": " Turicibacter"
+   },
+   "Paeniclostridium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Peptostreptococcaceae",
+      "species": " Paeniclostridium"
+   },
+   "Clostridium.20": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Clostridium.21": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Kocuria.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Micrococcales",
+      "genus": " Micrococcaceae",
+      "species": " Kocuria"
+   },
+   "Anaerotruncus.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Ruminococcaceae",
+      "species": " Anaerotruncus"
+   },
+   "Lactobacillus.6": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Lactobacillaceae",
+      "species": " Lactobacillus"
+   },
+   "Peptoniphilus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Tissierellia",
+      "family": " Tissierellales",
+      "genus": " Peptoniphilaceae",
+      "species": " Peptoniphilus"
+   },
+   "Akkermansia.2": {
+      "kingdom": " Bacteria",
+      "phylum": " PVC group",
+      "class": " Verrucomicrobia",
+      "order": " Verrucomicrobiae",
+      "family": " Verrucomicrobiales",
+      "genus": " Akkermansiaceae",
+      "species": " Akkermansia"
+   },
+   "Mycolicibacterium.1": {},
+   "Nocardioides.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Propionibacteriales",
+      "genus": " Nocardioidaceae",
+      "species": " Nocardioides"
+   },
+   "Ruminococcus.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Ruminococcaceae",
+      "species": " Ruminococcus"
+   },
+   "Paenibacillus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Bacillales",
+      "genus": " Paenibacillaceae",
+      "species": " Paenibacillus"
+   },
+   "Clostridium.22": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Cellulosimicrobium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Micrococcales",
+      "genus": " Promicromonosporaceae",
+      "species": " Cellulosimicrobium"
+   },
+   "Weissella.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Leuconostocaceae",
+      "species": " Weissella"
+   },
+   "Actinomyces.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Actinomycetales",
+      "genus": " Actinomycetaceae",
+      "species": " Actinomyces"
+   },
+   "Bradyrhizobium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Alphaproteobacteria",
+      "order": " Rhizobiales",
+      "family": " Bradyrhizobiaceae",
+      "genus": " Bradyrhizobium",
+      "species": " Bradyrhizobium yuanmingense"
+   },
+   "Capnocytophaga.1": {
+      "kingdom": " Bacteria",
+      "phylum": " FCB group",
+      "class": " Bacteroidetes/Chlorobi group",
+      "order": " Bacteroidetes",
+      "family": " Flavobacteriia",
+      "genus": " Flavobacteriales",
+      "species": " Flavobacteriaceae"
+   },
+   "Microbacterium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Micrococcales",
+      "genus": " Microbacteriaceae",
+      "species": " Microbacterium"
+   },
+   "Blautia.3": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " Blautia"
+   },
+   "Stenotrophomonas.3": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Xanthomonadales",
+      "family": " Xanthomonadaceae",
+      "genus": " Stenotrophomonas",
+      "species": " Stenotrophomonas maltophilia group"
+   },
+   "Pseudoalteromonas.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Alteromonadales",
+      "family": " Pseudoalteromonadaceae",
+      "genus": " Pseudoalteromonas",
+      "species": " Pseudoalteromonas arctica"
+   },
+   "Coprococcus.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " Coprococcus"
+   },
+   "Campylobacter.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " delta/epsilon subdivisions",
+      "order": " Epsilonproteobacteria",
+      "family": " Campylobacterales",
+      "genus": " Campylobacteraceae",
+      "species": " Campylobacter"
+   },
+   "Geobacillus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Bacillales",
+      "genus": " Bacillaceae",
+      "species": " Geobacillus"
+   },
+   "Pseudomonas.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Pseudomonadales",
+      "family": " Pseudomonadaceae",
+      "genus": " Pseudomonas",
+      "species": " Pseudomonas fluorescens group"
+   },
+   "Flavonifractor.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Ruminococcaceae",
+      "species": " Flavonifractor"
+   },
+   "Intestinimonas.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " unclassified Clostridiales",
+      "species": " Intestinimonas"
+   },
+   "Eubacterium.5": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiales incertae sedis",
+      "species": " Clostridiales Family XIII. Incertae Sedis"
+   },
+   "Reyranella.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Alphaproteobacteria",
+      "order": " Rhodospirillales",
+      "family": " unclassified Rhodospirillales",
+      "genus": " Reyranella"
+   },
+   "Thermus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Deinococcus-Thermus",
+      "order": " Deinococci",
+      "family": " Thermales",
+      "genus": " Thermaceae",
+      "species": " Thermus"
+   },
+   "Clostridium.23": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Oceanobacillus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Bacillales",
+      "genus": " Bacillaceae",
+      "species": " Oceanobacillus"
+   },
+   "Mycobacterium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Corynebacteriales",
+      "genus": " Mycobacteriaceae",
+      "species": " Mycobacterium"
+   },
+   "Lactobacillus.7": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Lactobacillaceae",
+      "species": " Lactobacillus"
+   },
+   "Campylobacter.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " delta/epsilon subdivisions",
+      "order": " Epsilonproteobacteria",
+      "family": " Campylobacterales",
+      "genus": " Campylobacteraceae",
+      "species": " Campylobacter"
+   },
+   "Anaerofustis.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Eubacteriaceae",
+      "species": " Anaerofustis"
+   },
+   "Anaerobutyricum.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " Anaerobutyricum"
+   },
+   "Bacteroides.12": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " unclassified Clostridiales",
+      "species": " [Bacteroides] pectinophilus"
+   },
+   "Longibaculum.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Erysipelotrichia",
+      "family": " Erysipelotrichales",
+      "genus": " Erysipelotrichaceae",
+      "species": " Longibaculum"
+   },
+   "Pseudomonas.3": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Pseudomonadales",
+      "family": " Pseudomonadaceae",
+      "genus": " Pseudomonas",
+      "species": " Pseudomonas fluorescens group"
+   },
+   "Bosea.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Alphaproteobacteria",
+      "order": " Rhizobiales",
+      "family": " Bradyrhizobiaceae",
+      "genus": " Bosea"
+   },
+   "Salinibacterium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Micrococcales",
+      "genus": " Microbacteriaceae",
+      "species": " Salinibacterium"
+   },
+   "Lactobacillus.8": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Lactobacillaceae",
+      "species": " Lactobacillus"
+   },
+   "Clostridioides.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Peptostreptococcaceae",
+      "species": " Clostridioides"
+   },
+   "Clostridium.24": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Megasphaera.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Negativicutes",
+      "family": " Veillonellales",
+      "genus": " Veillonellaceae",
+      "species": " Megasphaera"
+   },
+   "Butyricicoccus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Butyricicoccus"
+   },
+   "Haemophilus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Pasteurellales",
+      "family": " Pasteurellaceae",
+      "genus": " Haemophilus",
+      "species": " Haemophilus parainfluenzae"
+   },
+   "Clostridium.25": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Neglecta.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Ruminococcaceae",
+      "species": " Neglecta"
+   },
+   "Murimonas.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " Murimonas"
+   },
+   "Neisseria.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Betaproteobacteria",
+      "order": " Neisseriales",
+      "family": " Neisseriaceae",
+      "genus": " Neisseria"
+   },
+   "Bacillus.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Bacillales",
+      "genus": " Bacillaceae",
+      "species": " Bacillus"
+   },
+   "Eubacterium.6": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiales incertae sedis",
+      "species": " Clostridiales Family XIII. Incertae Sedis"
+   },
+   "Bacillus.3": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Bacillales",
+      "genus": " Bacillaceae",
+      "species": " Bacillus"
+   },
+   "Intestinibacter.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Peptostreptococcaceae",
+      "species": " Intestinibacter"
+   },
+   "Pseudomonas.4": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Pseudomonadales",
+      "family": " Pseudomonadaceae",
+      "genus": " Pseudomonas",
+      "species": " Pseudomonas fluorescens group"
+   },
+   "Aneurinibacillus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Bacillales",
+      "genus": " Paenibacillaceae",
+      "species": " Aneurinibacillus group"
+   },
+   "Bacillus.4": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Bacillales",
+      "genus": " Bacillaceae",
+      "species": " Bacillus"
+   },
+   "Dorea.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " Dorea"
+   },
+   "Lachnospiraceae.3": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " unclassified Lachnospiraceae"
+   },
+   "Brevundimonas.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Alphaproteobacteria",
+      "order": " Caulobacterales",
+      "family": " Caulobacteraceae",
+      "genus": " Brevundimonas",
+      "species": " Brevundimonas bacteroides"
+   },
+   "Bacillus.5": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Bacillales",
+      "genus": " Bacillaceae",
+      "species": " Bacillus"
+   },
+   "Methylorubrum.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Alphaproteobacteria",
+      "order": " Rhizobiales",
+      "family": " Methylobacteriaceae",
+      "genus": " Methylorubrum",
+      "species": " Methylorubrum populi"
+   },
+   "Christensenella.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Christensenellaceae",
+      "species": " Christensenella"
+   },
+   "Clostridium.26": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Alistipes.4": {
+      "kingdom": " Bacteria",
+      "phylum": " FCB group",
+      "class": " Bacteroidetes/Chlorobi group",
+      "order": " Bacteroidetes",
+      "family": " Bacteroidia",
+      "genus": " Bacteroidales",
+      "species": " Rikenellaceae"
+   },
+   "Nosocomiicoccus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Bacillales",
+      "genus": " Staphylococcaceae",
+      "species": " Nosocomiicoccus"
+   },
+   "Clostridium.27": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "bacterium.2": {
+      "kingdom": " Bacteria",
+      "phylum": " unclassified Bacteria",
+      "class": " unclassified Bacteria (miscellaneous)"
+   },
+   "Gracilibacillus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Bacillales",
+      "genus": " Bacillaceae",
+      "species": " Gracilibacillus"
+   },
+   "Robinsoniella.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " Robinsoniella"
+   },
+   "Oscillibacter.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Oscillospiraceae",
+      "species": " Oscillibacter"
+   },
+   "Clostridium.28": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Brevibacillus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Bacillales",
+      "genus": " Paenibacillaceae",
+      "species": " Brevibacillus"
+   },
+   "Xanthomonas.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Xanthomonadales",
+      "family": " Xanthomonadaceae",
+      "genus": " Xanthomonas"
+   },
+   "Oscillibacter.3": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Oscillospiraceae",
+      "species": " Oscillibacter"
+   },
+   "Eubacterium.7": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiales incertae sedis",
+      "species": " Clostridiales Family XIII. Incertae Sedis"
+   },
+   "Ruminococcus.3": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Ruminococcaceae",
+      "species": " Ruminococcus"
+   },
+   "Hungatella.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Hungatella"
+   },
+   "Stenotrophomonas.4": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Xanthomonadales",
+      "family": " Xanthomonadaceae",
+      "genus": " Stenotrophomonas",
+      "species": " Stenotrophomonas maltophilia group"
+   },
+   "Bacillus.6": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Bacillales",
+      "genus": " Bacillaceae",
+      "species": " Bacillus"
+   },
+   "Lachnospiraceae.4": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " unclassified Lachnospiraceae"
+   },
+   "Virgibacillus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Bacillales",
+      "genus": " Bacillaceae",
+      "species": " Virgibacillus"
+   },
+   "Coprococcus.3": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " Coprococcus"
+   },
+   "Blautia.4": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " Blautia"
+   },
+   "Clostridium.29": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Eubacterium.8": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiales incertae sedis",
+      "species": " Clostridiales Family XIII. Incertae Sedis"
+   },
+   "Olsenella.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Coriobacteriia",
+      "family": " Coriobacteriales",
+      "genus": " Atopobiaceae",
+      "species": " Olsenella"
+   },
+   "Clostridium.30": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Flavobacterium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " FCB group",
+      "class": " Bacteroidetes/Chlorobi group",
+      "order": " Bacteroidetes",
+      "family": " Flavobacteriia",
+      "genus": " Flavobacteriales",
+      "species": " Flavobacteriaceae"
+   },
+   "Candidatus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Geodermatophilales",
+      "genus": " Geodermatophilaceae",
+      "species": " Blastococcus"
+   },
+   "Papillibacter.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Ruminococcaceae",
+      "species": " Papillibacter"
+   },
+   "Rhodococcus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Corynebacteriales",
+      "genus": " Nocardiaceae",
+      "species": " Rhodococcus"
+   },
+   "Candidatus.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Geodermatophilales",
+      "genus": " Geodermatophilaceae",
+      "species": " Blastococcus"
+   },
+   "Desulfovibrio.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " delta/epsilon subdivisions",
+      "order": " Deltaproteobacteria",
+      "family": " Desulfovibrionales",
+      "genus": " Desulfovibrionaceae",
+      "species": " Desulfovibrio"
+   },
+   "Paenibacillus.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Bacillales",
+      "genus": " Paenibacillaceae",
+      "species": " Paenibacillus"
+   },
+   "Acetivibrio.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Ruminococcaceae",
+      "species": " Acetivibrio"
+   },
+   "Cuneatibacter.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " Cuneatibacter"
+   },
+   "Moraxella.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Pseudomonadales",
+      "family": " Moraxellaceae",
+      "genus": " Moraxella"
+   },
+   "Alloiococcus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Carnobacteriaceae",
+      "species": " Alloiococcus"
+   },
+   "Yoonia.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Alphaproteobacteria",
+      "order": " Rhodobacterales",
+      "family": " Rhodobacteraceae",
+      "genus": " Yoonia"
+   },
+   "Paraeggerthella.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Coriobacteriia",
+      "family": " Eggerthellales",
+      "genus": " Eggerthellaceae",
+      "species": " Paraeggerthella"
+   },
+   "Pseudopropionibacterium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Propionibacteriales",
+      "genus": " Propionibacteriaceae",
+      "species": " Pseudopropionibacterium"
+   },
+   "Clostridium.31": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Lachnobacterium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " Lachnobacterium"
+   },
+   "Vagococcus.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Enterococcaceae",
+      "species": " Vagococcus"
+   },
+   "Gottschalkia.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Tissierellia",
+      "family": " Tissierellales",
+      "genus": " Gottschalkiaceae",
+      "species": " Gottschalkia"
+   },
+   "Brevibacterium.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Micrococcales",
+      "genus": " Brevibacteriaceae",
+      "species": " Brevibacterium"
+   },
+   "Fulvimarina.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Alphaproteobacteria",
+      "order": " Rhizobiales",
+      "family": " Aurantimonadaceae",
+      "genus": " Fulvimarina",
+      "species": " Fulvimarina pelagi"
+   },
+   "Candidatus.3": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Geodermatophilales",
+      "genus": " Geodermatophilaceae",
+      "species": " Blastococcus"
+   },
+   "Campylobacter.3": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " delta/epsilon subdivisions",
+      "order": " Epsilonproteobacteria",
+      "family": " Campylobacterales",
+      "genus": " Campylobacteraceae",
+      "species": " Campylobacter"
+   },
+   "Erysipelotrichaceae.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Erysipelotrichia",
+      "family": " Erysipelotrichales",
+      "genus": " Erysipelotrichaceae",
+      "species": " unclassified Erysipelotrichaceae"
+   },
+   "Olsenella.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Coriobacteriia",
+      "family": " Coriobacteriales",
+      "genus": " Atopobiaceae",
+      "species": " Olsenella"
+   },
+   "Prevotella.1": {
+      "kingdom": " Bacteria",
+      "phylum": " FCB group",
+      "class": " Bacteroidetes/Chlorobi group",
+      "order": " Bacteroidetes",
+      "family": " Bacteroidia",
+      "genus": " Bacteroidales",
+      "species": " Prevotellaceae"
+   },
+   "Silanimonas.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Gammaproteobacteria",
+      "order": " Xanthomonadales",
+      "family": " Xanthomonadaceae",
+      "genus": " Silanimonas",
+      "species": " Silanimonas lenta"
+   },
+   "Mesorhizobium.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Alphaproteobacteria",
+      "order": " Rhizobiales",
+      "family": " Phyllobacteriaceae",
+      "genus": " Mesorhizobium",
+      "species": " Mesorhizobium japonicum"
+   },
+   "Absiella.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Erysipelotrichia",
+      "family": " Erysipelotrichales",
+      "genus": " Erysipelotrichaceae",
+      "species": " Absiella"
+   },
+   "Anaerotignum.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " Anaerotignum"
+   },
+   "Novosphingobium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Alphaproteobacteria",
+      "order": " Sphingomonadales",
+      "family": " Sphingomonadaceae",
+      "genus": " Novosphingobium",
+      "species": " Novosphingobium aromaticivorans"
+   },
+   "Clostridium.32": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Rhodococcus.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Corynebacteriales",
+      "genus": " Nocardiaceae",
+      "species": " Rhodococcus"
+   },
+   "Eubacterium.9": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiales incertae sedis",
+      "species": " Clostridiales Family XIII. Incertae Sedis"
+   },
+   "Hungateiclostridium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Hungateiclostridiaceae",
+      "species": " Hungateiclostridium"
+   },
+   "Selenomonas.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Negativicutes",
+      "family": " Selenomonadales",
+      "genus": " Selenomonadaceae",
+      "species": " Selenomonas"
+   },
+   "Butyrivibrio.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " Butyrivibrio"
+   },
+   "Eggerthella.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Coriobacteriia",
+      "family": " Eggerthellales",
+      "genus": " Eggerthellaceae",
+      "species": " Eggerthella"
+   },
+   "Numidum.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Bacillales",
+      "genus": " Bacillaceae",
+      "species": " Numidum"
+   },
+   "Bacteroides.13": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " unclassified Clostridiales",
+      "species": " [Bacteroides] pectinophilus"
+   },
+   "Sutterella.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Betaproteobacteria",
+      "order": " Burkholderiales",
+      "family": " Sutterellaceae",
+      "genus": " Sutterella",
+      "species": " Sutterella wadsworthensis"
+   },
+   "Rikenella.1": {
+      "kingdom": " Bacteria",
+      "phylum": " FCB group",
+      "class": " Bacteroidetes/Chlorobi group",
+      "order": " Bacteroidetes",
+      "family": " Bacteroidia",
+      "genus": " Bacteroidales",
+      "species": " Rikenellaceae"
+   },
+   "Marvinbryantia.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " Marvinbryantia"
+   },
+   "Senegalimassilia.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Coriobacteriia",
+      "family": " Coriobacteriales",
+      "genus": " Coriobacteriaceae",
+      "species": " Senegalimassilia"
+   },
+   "Lachnospiraceae.5": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Lachnospiraceae",
+      "species": " unclassified Lachnospiraceae"
+   },
+   "Merdibacter.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Erysipelotrichia",
+      "family": " Erysipelotrichales",
+      "genus": " Erysipelotrichaceae",
+      "species": " Merdibacter"
+   },
+   "Clostridium.33": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Clostridiaceae",
+      "species": " Clostridium"
+   },
+   "Dehalobacterium.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Peptococcaceae",
+      "species": " Dehalobacterium"
+   },
+   "Lactobacillus.9": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Lactobacillaceae",
+      "species": " Lactobacillus"
+   },
+   "Culturomica.1": {
+      "kingdom": " Bacteria",
+      "phylum": " FCB group",
+      "class": " Bacteroidetes/Chlorobi group",
+      "order": " Bacteroidetes",
+      "family": " Bacteroidia",
+      "genus": " Bacteroidales",
+      "species": " Odoribacteraceae"
+   },
+   "Ralstonia.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Proteobacteria",
+      "class": " Betaproteobacteria",
+      "order": " Burkholderiales",
+      "family": " Burkholderiaceae",
+      "genus": " Ralstonia",
+      "species": " Ralstonia pickettii"
+   },
+   "Ruminococcus.4": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Ruminococcaceae",
+      "species": " Ruminococcus"
+   },
+   "Vallitalea.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " Vallitaleaceae",
+      "species": " Vallitalea"
+   },
+   "Bifidobacterium.3": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Actinobacteria",
+      "order": " Actinobacteria",
+      "family": " Bifidobacteriales",
+      "genus": " Bifidobacteriaceae",
+      "species": " Bifidobacterium"
+   },
+   "Peptoniphilus.2": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Tissierellia",
+      "family": " Tissierellales",
+      "genus": " Peptoniphilaceae",
+      "species": " Peptoniphilus"
+   },
+   "Clostridiales.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Clostridia",
+      "family": " Clostridiales",
+      "genus": " unclassified Clostridiales",
+      "species": " unclassified Clostridiales (miscellaneous)"
+   },
+   "Allobaculum.1": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Erysipelotrichia",
+      "family": " Erysipelotrichales",
+      "genus": " Erysipelotrichaceae",
+      "species": " Allobaculum"
+   },
+   "Lactobacillus.10": {
+      "kingdom": " Bacteria",
+      "phylum": " Terrabacteria group",
+      "class": " Firmicutes",
+      "order": " Bacilli",
+      "family": " Lactobacillales",
+      "genus": " Lactobacillaceae",
+      "species": " Lactobacillus"
+   }
+}
