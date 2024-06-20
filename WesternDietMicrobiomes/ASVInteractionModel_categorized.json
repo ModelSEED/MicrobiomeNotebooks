@@ -12,7 +12,7 @@
       },
       {
          "id": "cpd01293",
-         "name": "5-Oxoproline",
+         "name": "oxoAA",
          "compartment": ""
       },
       {
@@ -31,8 +31,8 @@
          "compartment": ""
       },
       {
-         "id": "scFattyAcid",
-         "name": "Acetate",
+         "id": "cpd00029",
+         "name": "scFatty Acid",
          "compartment": ""
       },
       {
@@ -42,42 +42,42 @@
       },
       {
          "id": "cpd00024",
-         "name": "2-Oxoglutarate",
+         "name": "oxoAA",
          "compartment": ""
       },
       {
-         "id": "Pyruvate AA",
-         "name": "L-Alanine",
+         "id": "cpd00035",
+         "name": "Pyruvate AA",
          "compartment": ""
       },
       {
-         "id": "Sugar",
-         "name": "D-Allose",
+         "id": "cpd01055",
+         "name": "Sugar",
          "compartment": ""
       },
       {
-         "id": "Sugar",
-         "name": "L-Arabinose",
+         "id": "cpd00224",
+         "name": "Sugar",
          "compartment": ""
       },
       {
-         "id": "OxaloacetateAA",
-         "name": "L-Asparagine",
+         "id": "cpd00132",
+         "name": "Oxaloacetate AA",
          "compartment": ""
       },
       {
-         "id": "OxaloacetateAA",
-         "name": "L-Aspartate",
+         "id": "cpd00041",
+         "name": "Oxaloacetate AA",
          "compartment": ""
       },
       {
-         "id": "scFattyAcid",
-         "name": "Butyrate",
+         "id": "cpd00211",
+         "name": "scFatty Acid",
          "compartment": ""
       },
       {
          "id": "cpd00158",
-         "name": "CELB",
+         "name": "complex Sugar",
          "compartment": ""
       },
       {
@@ -86,8 +86,8 @@
          "compartment": ""
       },
       {
-         "id": "fattyAcid",
-         "name": "Oleate",
+         "id": "cpd00536",
+         "name": "fatty Acid",
          "compartment": ""
       },
       {
@@ -96,13 +96,13 @@
          "compartment": ""
       },
       {
-         "id": "phosphoGlycerateAA",
-         "name": "L-Cysteine",
+         "id": "cpd00084",
+         "name": "phosphoGlycerate AA",
          "compartment": ""
       },
       {
-         "id": "fattyAcid",
-         "name": "Decanoate",
+         "id": "cpd01107",
+         "name": "fatty Acid",
          "compartment": ""
       },
       {
@@ -111,58 +111,58 @@
          "compartment": ""
       },
       {
-         "id": "fattyAcid",
-         "name": "ddca",
+         "id": "cpd01741",
+         "name": "fatty Acid",
          "compartment": ""
       },
       {
-         "id": "Sugar",
-         "name": "Thyminose",
+         "id": "cpd01242",
+         "name": "Sugar",
          "compartment": ""
       },
       {
-         "id": "Sugar",
-         "name": "D-Fructose",
+         "id": "cpd00082",
+         "name": "Sugar",
          "compartment": ""
       },
       {
-         "id": "Sugar",
-         "name": "L-Fucose",
+         "id": "cpd00751",
+         "name": "Sugar",
          "compartment": ""
       },
       {
-         "id": "scFattyAcid",
-         "name": "Fumarate",
+         "id": "cpd00106",
+         "name": "scFatty Acid",
          "compartment": ""
       },
       {
-         "id": "Sugar",
-         "name": "Galactose",
+         "id": "cpd00108",
+         "name": "Sugar",
          "compartment": ""
       },
       {
-         "id": "Sugar",
-         "name": "Dulcose",
+         "id": "cpd01171",
+         "name": "Sugar",
          "compartment": ""
       },
       {
-         "id": "Sugar",
-         "name": "D-Glucose",
+         "id": "cpd00027",
+         "name": "Sugar",
          "compartment": ""
       },
       {
-         "id": "alphaKetaGlutarateAA",
-         "name": "L-Glutamate",
+         "id": "cpd00023",
+         "name": "alphaKetaGlutarate AA",
          "compartment": ""
       },
       {
-         "id": "phosphoGlycerateAA",
-         "name": "Glycine",
+         "id": "cpd00033",
+         "name": "phosphoGlycerate AA",
          "compartment": ""
       },
       {
-         "id": "fattyAcid",
-         "name": "Palmitate",
+         "id": "cpd00214",
+         "name": "fatty Acid",
          "compartment": ""
       },
       {
@@ -172,12 +172,12 @@
       },
       {
          "id": "cpd01113",
-         "name": "Hexanoate",
+         "name": "fatty Acid",
          "compartment": ""
       },
       {
-         "id": "Pyruvate AA",
-         "name": "L-Isoleucine",
+         "id": "cpd00322",
+         "name": "Pyruvate AA",
          "compartment": ""
       },
       {
@@ -191,18 +191,18 @@
          "compartment": ""
       },
       {
-         "id": "Pyruvate AA",
-         "name": "L-Leucine",
+         "id": "cpd00107",
+         "name": "Pyruvate AA",
          "compartment": ""
       },
       {
-         "id": "fattyAcid",
-         "name": "Linoleate",
+         "id": "cpd01122",
+         "name": "fatty Acid",
          "compartment": ""
       },
       {
-         "id": "OxaloacetateAA",
-         "name": "L-Lysine",
+         "id": "cpd00039",
+         "name": "Oxaloacetate AA",
          "compartment": ""
       },
       {
@@ -211,8 +211,8 @@
          "compartment": ""
       },
       {
-         "id": "Sugar",
-         "name": "Melibiose",
+         "id": "cpd03198",
+         "name": "Sugar",
          "compartment": ""
       },
       {
@@ -221,8 +221,8 @@
          "compartment": ""
       },
       {
-         "id": "OxaloacetateAA",
-         "name": "L-Methionine",
+         "id": "cpd00060",
+         "name": "Oxaloacetate AA",
          "compartment": ""
       },
       {
@@ -232,7 +232,7 @@
       },
       {
          "id": "cpd03846",
-         "name": "octanoate",
+         "name": "fatty Acid",
          "compartment": ""
       },
       {
@@ -241,23 +241,23 @@
          "compartment": ""
       },
       {
-         "id": "Aromatic AA",
-         "name": "L-Phenylalanine",
+         "id": "cpd00066",
+         "name": "Aromatic AA",
          "compartment": ""
       },
       {
-         "id": "scFattyAcid",
-         "name": "Propionate",
+         "id": "cpd00141",
+         "name": "scFatty Acid",
          "compartment": ""
       },
       {
-         "id": "alphaKetaGlutarateAA",
-         "name": "L-Proline",
+         "id": "cpd00129",
+         "name": "alphaKetaGlutarate AA",
          "compartment": ""
       },
       {
-         "id": "scFattyAcid",
-         "name": "Valerate",
+         "id": "cpd00597",
+         "name": "scFatty Acid",
          "compartment": ""
       },
       {
@@ -267,22 +267,22 @@
       },
       {
          "id": "cpd00382",
-         "name": "Melitose",
+         "name": "complex Sugar",
          "compartment": ""
       },
       {
-         "id": "Sugar",
-         "name": "D-Ribose",
+         "id": "cpd00105",
+         "name": "Sugar",
          "compartment": ""
       },
       {
-         "id": "Sugar",
-         "name": "L-Rhamnose",
+         "id": "cpd00396",
+         "name": "Sugar",
          "compartment": ""
       },
       {
          "id": "cpd00550",
-         "name": "D-Serine",
+         "name": "phosphoGlycerate AA",
          "compartment": ""
       },
       {
@@ -291,28 +291,28 @@
          "compartment": ""
       },
       {
-         "id": "Sugar",
-         "name": "Sucrose",
+         "id": "cpd00076",
+         "name": "Sugar",
          "compartment": ""
       },
       {
-         "id": "OxaloacetateAA",
-         "name": "L-Threonine",
+         "id": "cpd00161",
+         "name": "Oxaloacetate AA",
          "compartment": ""
       },
       {
-         "id": "fattyAcid",
-         "name": "Myristic acid",
+         "id": "cpd03847",
+         "name": "fatty Acid",
          "compartment": ""
       },
       {
-         "id": "Aromatic AA",
-         "name": "L-Tyrosine",
+         "id": "cpd00069",
+         "name": "Aromatic AA",
          "compartment": ""
       },
       {
-         "id": "Pyruvate AA",
-         "name": "L-Valine",
+         "id": "cpd00156",
+         "name": "Pyruvate AA",
          "compartment": ""
       }
    ],
