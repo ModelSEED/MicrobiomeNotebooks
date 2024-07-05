@@ -10,23 +10,12 @@
         <g class="canvas-group">
             <rect id="mouse-node" width="0px" height="0px" pointer-events="all"/>
             <rect id="canvas" width="10296.527709960938" height="4567.068359375" transform="translate(-5308.4552001953125,-699.75927734375)" style="visibility: hidden;"/>
-            <rect class="drag-rect resize-rect" transform="translate(-5358.4552001953125,-649.75927734375)" height="4467.068359375" id="dragleft" width="100" cursor="ew-resize" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); pointer-events: auto;"/>
-            <rect class="drag-rect resize-rect" transform="translate(4938.072509765625,-649.75927734375)" id="dragright" height="4467.068359375" width="100" cursor="ew-resize" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); pointer-events: auto;"/>
-            <rect class="drag-rect resize-rect" transform="translate(-5258.4552001953125,-749.75927734375)" height="100" id="dragtop" width="10196.527709960938" cursor="ns-resize" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); pointer-events: auto;"/>
-            <rect class="drag-rect resize-rect" transform="translate(-5258.4552001953125,3817.30908203125)" id="dragbottom" height="100" width="10196.527709960938" cursor="ns-resize" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); pointer-events: auto;"/>
+            <rect class="drag-rect resize-rect" transform="translate(-5358.4552001953125,-649.75927734375)" height="4467.068359375" id="dragleft" width="100" cursor="ew-resize" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); pointer-events: none;"/>
+            <rect class="drag-rect resize-rect" transform="translate(4938.072509765625,-649.75927734375)" id="dragright" height="4467.068359375" width="100" cursor="ew-resize" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); pointer-events: none;"/>
+            <rect class="drag-rect resize-rect" transform="translate(-5258.4552001953125,-749.75927734375)" height="100" id="dragtop" width="10196.527709960938" cursor="ns-resize" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); pointer-events: none;"/>
+            <rect class="drag-rect resize-rect" transform="translate(-5258.4552001953125,3817.30908203125)" id="dragbottom" height="100" width="10196.527709960938" cursor="ns-resize" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); pointer-events: none;"/>
         </g>
-        <g id="brush-container" fill="none" pointer-events="all" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
-            <rect class="overlay" pointer-events="all" x="-5308.4552001953125" y="-699.75927734375" width="10296.527709960938" height="4567.068359375"/>
-            <rect class="selection" fill="#777" fill-opacity="0.3" stroke="#fff" shape-rendering="crispEdges" style="display: none;"/>
-            <rect class="handle handle--n" style="display: none;"/>
-            <rect class="handle handle--e" style="display: none;"/>
-            <rect class="handle handle--s" style="display: none;"/>
-            <rect class="handle handle--w" style="display: none;"/>
-            <rect class="handle handle--nw" style="display: none;"/>
-            <rect class="handle handle--ne" style="display: none;"/>
-            <rect class="handle handle--se" style="display: none;"/>
-            <rect class="handle handle--sw" style="display: none;"/>
-        </g>
+        <g id="brush-container" fill="none" pointer-events="all" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
         <g id="reactions">
             <g id="r0" class="reaction">
                 <g class="reaction-label-group" transform="translate(3975.7435455322266,582.1621353626251)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
@@ -31350,64 +31339,64 @@
         </g>
         <g id="text-labels">
             <g id="l0" class="text-label">
-                <text class="label" transform="translate(786.3713989257812,-564.2234497070312)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Day 6</text>
+                <text class="label edit-text-cursor" transform="translate(786.3713989257812,-564.2234497070312)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Days 5 to 7</text>
             </g>
             <g id="l3" class="text-label">
-                <text class="label" transform="translate(2228.190185546875,-570.9013061523438)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Day 9</text>
+                <text class="label edit-text-cursor" transform="translate(2228.190185546875,-570.9013061523438)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Days 7 to 11</text>
             </g>
             <g id="l7" class="text-label">
-                <text class="label" transform="translate(3726.82470703125,-594.2562561035156)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Day 12.5</text>
+                <text class="label edit-text-cursor" transform="translate(3726.82470703125,-594.2562561035156)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Days 11 to 14</text>
             </g>
             <g id="l8" class="text-label">
-                <text class="label" transform="translate(-819.1981811523438,-573.5150451660156)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Day 4</text>
+                <text class="label edit-text-cursor" transform="translate(-819.1981811523438,-573.5150451660156)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Days 3 to 5</text>
             </g>
             <g id="l9" class="text-label">
-                <text class="label" transform="translate(-2460.554229736328,-583.1266784667969)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Day 1.5</text>
+                <text class="label edit-text-cursor" transform="translate(-2460.554229736328,-583.1266784667969)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Days 0 to 3</text>
             </g>
             <g id="l11" class="text-label">
-                <text class="label" transform="translate(-4438.6380615234375,-570.8617858886719)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Day -1.5</text>
+                <text class="label edit-text-cursor" transform="translate(-4438.6380615234375,-570.8617858886719)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Days -3 to 0</text>
             </g>
             <g id="l13" class="text-label">
-                <text class="label" transform="translate(-5301.216064453125,484.25384521484375)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">RC</text>
+                <text class="label edit-text-cursor" transform="translate(-5301.216064453125,484.25384521484375)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">RC</text>
             </g>
             <g id="l27" class="text-label">
-                <text class="label" transform="translate(-5288.778747558594,2920.9482421875)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">WD</text>
+                <text class="label edit-text-cursor" transform="translate(-5288.778747558594,2920.9482421875)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">WD</text>
             </g>
             <g id="l34" class="text-label">
-                <text class="label" transform="translate(-4555.924072265625,1704.42578125)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 25</text>
+                <text class="label edit-text-cursor" transform="translate(-4555.924072265625,1704.42578125)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 25</text>
             </g>
             <g id="l36" class="text-label">
-                <text class="label" transform="translate(-4155.911926269531,3730.505859375)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 17</text>
+                <text class="label edit-text-cursor" transform="translate(-4155.911926269531,3730.505859375)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 17</text>
             </g>
             <g id="l37" class="text-label">
-                <text class="label" transform="translate(-2120.8273315429688,3675.97998046875)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 4</text>
+                <text class="label edit-text-cursor" transform="translate(-2120.8273315429688,3675.97998046875)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 4</text>
             </g>
             <g id="l38" class="text-label">
-                <text class="label" transform="translate(-607.30810546875,3714.660400390625)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 0</text>
+                <text class="label edit-text-cursor" transform="translate(-607.30810546875,3714.660400390625)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 0</text>
             </g>
             <g id="l40" class="text-label">
-                <text class="label" transform="translate(707.3909912109375,3710.499267578125)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 8</text>
+                <text class="label edit-text-cursor" transform="translate(707.3909912109375,3710.499267578125)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 8</text>
             </g>
             <g id="l41" class="text-label">
-                <text class="label" transform="translate(2037.0075073242188,3686.055908203125)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 13</text>
+                <text class="label edit-text-cursor" transform="translate(2037.0075073242188,3686.055908203125)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 13</text>
             </g>
             <g id="l42" class="text-label">
-                <text class="label" transform="translate(3724.1598510742188,3672.5418701171875)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 11</text>
+                <text class="label edit-text-cursor" transform="translate(3724.1598510742188,3672.5418701171875)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 11</text>
             </g>
             <g id="l45" class="text-label">
-                <text class="label" transform="translate(3729.2335205078125,1383.7367858886719)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 21</text>
+                <text class="label edit-text-cursor" transform="translate(3729.2335205078125,1383.7367858886719)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 21</text>
             </g>
             <g id="l46" class="text-label">
-                <text class="label" transform="translate(2025.4544677734375,1354.8145446777344)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 20</text>
+                <text class="label edit-text-cursor" transform="translate(2025.4544677734375,1354.8145446777344)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 20</text>
             </g>
             <g id="l47" class="text-label">
-                <text class="label" transform="translate(576.9647827148438,1365.123046875)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 14</text>
+                <text class="label edit-text-cursor" transform="translate(576.9647827148438,1365.123046875)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 14</text>
             </g>
             <g id="l48" class="text-label">
-                <text class="label" transform="translate(-990.7550964355469,1367.1136474609375)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 12</text>
+                <text class="label edit-text-cursor" transform="translate(-990.7550964355469,1367.1136474609375)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 12</text>
             </g>
             <g id="l49" class="text-label">
-                <text class="label" transform="translate(-2605.841064453125,1706.3570556640625)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 20</text>
+                <text class="label edit-text-cursor" transform="translate(-2605.841064453125,1706.3570556640625)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AA exchange: 20</text>
             </g>
         </g>
         <g id="direction-arrow-container" transform="translate(0,0)rotate(90)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">

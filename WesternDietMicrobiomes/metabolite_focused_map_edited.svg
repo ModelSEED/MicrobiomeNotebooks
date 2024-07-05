@@ -30536,7 +30536,7 @@
    </g>
   </g>
   <g id="direction-arrow-container" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" transform="translate(0,0)rotate(90)">
-   <path class="direction-arrow" d="M0 -5 L0 5 L20 5 L20 10 L30 0 L20 -10 L20 -5 Z" style="visibility: hidden;" transform="translate(30,0)scale(2.5)"/>
+   <path class="direction-arrow" d="M0 -5 L0 5 L20 5 L20 10 L30 0 L20 -10 L20 -5 Z" style="visibility: hidden;" transform="translate(30,0)scale(10.5)"/>
   </g>
  </g>
  <rect fill="#cc0000" height="15" width="40" x="9386.55532250616" y="1234.7303894798688"/>
