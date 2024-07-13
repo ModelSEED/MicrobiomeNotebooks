@@ -1,4 +1,4 @@
-aMake the arrow from CELB to muribaculum [s191] bolder and orange. Make line from CELB to enterococcus [s903] bolder and purple. Make day -1.5 lines to myristalic acid [s295, s444] bold purple... and line from myristalic acid to enterococus [s906].
+Make the arrow from CELB to muribaculum [s191] bolder and orange. Make line from CELB to enterococcus [s903] bolder and purple. Make day -1.5 lines to myristalic acid [s295, s444] bold purple... and line from myristalic acid to enterococus [s906].
 
 In day 1.5, make lines from enterococcus to citrate [s928], malate [s900], and n acetyl glucosamin [s913] bold purple. Make enterococcus bold. make acinetobacter bold.
 
