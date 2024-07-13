@@ -78,6 +78,7 @@ target/
 # KBase dev env
 */datacache/*
 */nboutput/*
+*/lpfiles/*
 
 # Jupyter Notebook
 .ipynb_checkpoints
