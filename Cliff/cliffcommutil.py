@@ -33,4 +33,35 @@ class CliffCommUtil(BaseUtil):
         else:
             return json.load(open('data/annotation_ani_prob_lo_70.json'))
 
+    def translate_protein_to_gene(self,protein):
+        back_translation_code = {
+            'A': ['GCA', 'GCC', 'GCG', 'GCT'],
+            'C': ['TGT', 'TGC'],
+            'D': ['GAC', 'GAT'],
+            'E': ['GAG', 'GAA'],
+            'F': ['TTT', 'TTC'],
+            'G': ['GGT', 'GGG', 'GGA', 'GGC'],
+            'H': ['CAT', 'CAC'],
+            'I': ['ATC', 'ATA', 'ATT'],
+            'K': ['AAG', 'AAA'],
+            'L': ['CTT', 'CTG', 'CTA', 'CTC', 'TTA', 'TTG'],
+            'M': ['ATG'],
+            'N': ['AAC', 'AAT'],
+            'P': ['CCT', 'CCG', 'CCA', 'CCC'],
+            'Q': ['CAA', 'CAG'],
+            'R': ['AGG', 'AGA', 'CGA', 'CGC', 'CGG', 'CGT'],
+            'S': ['AGC', 'AGT', 'TCT', 'TCG', 'TCC', 'TCA'],
+            'T': ['ACA', 'ACG', 'ACT', 'ACC'],
+            'V': ['GTA', 'GTC', 'GTG', 'GTT'],
+            'W': ['TGG'],
+            'Y': ['TAT', 'TAC'],
+            '*': ['TAA', 'TGA', 'TAG']
+        }
+        dna = ""
+        for aa in protein:
+            if aa in back_translation_code:
+                dna += back_translation_code[aa][0]
+        dna += 'TAA'
+        return dna
+
 util = CliffCommUtil() 
