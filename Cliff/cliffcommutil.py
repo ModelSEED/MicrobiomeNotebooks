@@ -4,7 +4,7 @@ from os import path
 from zipfile import ZipFile
 
 from cobrakbase.core.kbasefba import FBAModel
-from modelseedpy import AnnotationOntology, MSPackageManager, MSMedia, MSModelUtil, MSBuilder, MSATPCorrection, MSGapfill, MSGrowthPhenotype, MSGrowthPhenotypes, ModelSEEDBiochem
+# from modelseedpy import AnnotationOntology, MSPackageManager, MSMedia, MSModelUtil, MSBuilder, MSATPCorrection, MSGapfill, MSGrowthPhenotype, MSGrowthPhenotypes, ModelSEEDBiochem
 # from modelseedpy.core.annotationontology import convert_to_search_role, split_role
 from modelseedpy.core.mstemplate import MSTemplateBuilder
 from modelseedpy.core.msgenome import normalize_role
@@ -25,7 +25,7 @@ from cobra.io import write_sbml_model, read_sbml_model
 class CliffCommUtil(BaseUtil):
     def __init__(self):
         BaseUtil.__init__(self,"Cliff")
-        self.msseedrecon()
+        # self.msseedrecon()
     
     def load_function_data(self,small=True):
         if small:
