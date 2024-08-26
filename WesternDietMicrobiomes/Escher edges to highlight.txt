@@ -1,0 +1,7 @@
+Make the arrow from CELB to muribaculum [s191] bolder and orange. Make line from CELB to enterococcus [s903] bolder and purple. Make day -1.5 lines to myristalic acid [s295, s444] bold purple... and line from myristalic acid to enterococus [s906].
+
+In day 1.5, make lines from enterococcus to citrate [s928], malate [s900], and n acetyl glucosamin [s913] bold purple. Make enterococcus bold. make acinetobacter bold.
+
+On Day 4 make acinetobacter bold and bold purple acinetobacter to myristic acid [s67] to akkermansis [s1246]. Also make bold purple enterococcus to malate [s1150] and malate to muribaculum, alistipes [s1254], and akkermansia [s1238] in day 6. Highlight CELB to muribaculum [s1390] in bold purple on day 6. make link from CELB to enterococcus [s1304] on Day 6 bold RED.  Highlight enterococcus to fructose [s1370] on day 6, then fructose to bifido [s1666] on day 9.
+
+continue to highlight malate to akkermansia [s1637] and alistepes [s1588] day 9. On day 9, highlight enterococcus to n acetyl-glucosamine to blautia

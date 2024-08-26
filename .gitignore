@@ -75,6 +75,12 @@ docs/_build/
 .pybuilder/
 target/
 
+# KBase dev env
+*/datacache/*
+*/datacache_APF/*
+*/nboutput/*
+*/lpfiles/*
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
@@ -158,11 +164,24 @@ cython_debug/
 # large directories
 AGORA2/*
 *.zip
+*-ABX*/*
+hmdb_metabolites.xml
 
-# grow files
+# large files
 grow/MetaT-20240116T195841Z-001/*
 grow/dense_metaT.json
 grow/MetaT/*
+*_comm.xml
+AGORA2_genomes/*
+AGORA2_genomes/*/*
+AGORA/AGORA2_fva/*
+*/*.mov
+WesternDietMicrobiomes/feature_aliases.json
+WesternDietMicrobiomes/functions.json
+
+
+# bloated files
+*/*.png
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can

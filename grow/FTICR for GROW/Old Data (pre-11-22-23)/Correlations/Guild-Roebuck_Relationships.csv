@@ -1,0 +1,85 @@
+"Class","Guild","rho","p_value","padj"
+"Highly Unsaturated w/ Heteroatoms","chemolithoautotroph",0.0975299340500456,0.635513006044007,0.891443904953106
+"Highly Unsaturated w/ Heteroatoms","heterotroph-aromatic",-0.0776199557566233,0.625130459068439,0.891443904953106
+"Highly Unsaturated w/ Heteroatoms","heterotroph-polymer",-0.196165662013394,0.191354671209454,0.668422981244816
+"Highly Unsaturated w/ Heteroatoms","heterotroph-sugar",-0.272336179498763,0.10295608333718,0.581861456156395
+"Highly Unsaturated w/ Heteroatoms","methyl_c1",-0.161156399359077,0.320497813611613,0.728726429473667
+"Highly Unsaturated w/ Heteroatoms","SCFA  and alcohol conversions",0.27614173088056,0.147051430245297,0.668422981244816
+"Highly Unsaturated w/ Heteroatoms","heterotroph-ch4",-0.105967162112093,0.550867273901535,0.889862519379402
+"Unsaturated Aliphatics w/ Heteroatoms (including peptides)","chemolithoautotroph",0.0133607480828703,0.948350079021594,0.977557749240602
+"Unsaturated Aliphatics w/ Heteroatoms (including peptides)","heterotroph-aromatic",-0.117365049109613,0.459165178194576,0.842348117706602
+"Unsaturated Aliphatics w/ Heteroatoms (including peptides)","heterotroph-polymer",-0.19226452440544,0.20051123428306,0.668422981244816
+"Unsaturated Aliphatics w/ Heteroatoms (including peptides)","heterotroph-sugar",-0.185387164759932,0.271978297523098,0.728726429473667
+"Unsaturated Aliphatics w/ Heteroatoms (including peptides)","methyl_c1",0.0353252894392775,0.828676254494205,0.958690737921236
+"Unsaturated Aliphatics w/ Heteroatoms (including peptides)","SCFA  and alcohol conversions",0.104846552642445,0.588317582591603,0.891443904953106
+"Unsaturated Aliphatics w/ Heteroatoms (including peptides)","heterotroph-ch4",-0.23216861622235,0.186412692734585,0.668422981244816
+"Highly Unsaturated","chemolithoautotroph",-0.131079382123451,0.523299247122763,0.879142735166242
+"Highly Unsaturated","heterotroph-aromatic",0.0290227453918552,0.855228851235061,0.958690737921236
+"Highly Unsaturated","heterotroph-polymer",0.451555084671847,0.00163292272218962,0.0685827543319641
+"Highly Unsaturated","heterotroph-sugar",0.235340528969504,0.160864232695775,0.668422981244816
+"Highly Unsaturated","methyl_c1",0.0488583896733485,0.764644173655112,0.958690737921236
+"Highly Unsaturated","SCFA  and alcohol conversions",-0.433088479908589,0.018936629742492,0.265112816394888
+"Highly Unsaturated","heterotroph-ch4",0.164096047813167,0.353742785190361,0.742859848899758
+"Unsaturated Aliphatics","chemolithoautotroph",0.108235648550829,0.598677509937089,0.891443904953106
+"Unsaturated Aliphatics","heterotroph-aromatic",-0.148330077319675,0.348512536352784,0.742859848899758
+"Unsaturated Aliphatics","heterotroph-polymer",-0.362886793028738,0.0131891600548126,0.221577888920852
+"Unsaturated Aliphatics","heterotroph-sugar",-0.22919819302156,0.172393823287358,0.668422981244816
+"Unsaturated Aliphatics","methyl_c1",0.10833256501269,0.505800080034289,0.867085851487353
+"Unsaturated Aliphatics","SCFA  and alcohol conversions",0.279324709028426,0.142257820367534,0.668422981244816
+"Unsaturated Aliphatics","heterotroph-ch4",-0.283740935922595,0.103903831456499,0.581861456156395
+"Highly Aromatic including Polyphenols","chemolithoautotroph",-0.0196532138889028,0.924082503528683,0.970286628705118
+"Highly Aromatic including Polyphenols","heterotroph-aromatic",0.262417907748205,0.0931704222215233,0.581861456156395
+"Highly Aromatic including Polyphenols","heterotroph-polymer",-0.0312064372333111,0.836886508594158,0.958690737921236
+"Highly Aromatic including Polyphenols","heterotroph-sugar",0.276606217781756,0.0974597963672112,0.581861456156395
+"Highly Aromatic including Polyphenols","methyl_c1",0.0542730752569441,0.739425819646041,0.956787014803232
+"Highly Aromatic including Polyphenols","SCFA  and alcohol conversions",-0.0991988615403215,0.608672072491184,0.891443904953106
+"Highly Aromatic including Polyphenols","heterotroph-ch4",0.374441472081877,0.0291280131758285,0.271861456307732
+"Saturated Compounds w/ Heteroatoms","chemolithoautotroph",-0.0240212218753553,0.907274336790029,0.964696763169145
+"Saturated Compounds w/ Heteroatoms","heterotroph-aromatic",-0.0526847219285151,0.740370904312025,0.956787014803232
+"Saturated Compounds w/ Heteroatoms","heterotroph-polymer",0.298796579677199,0.0436845036897278,0.33359075544883
+"Saturated Compounds w/ Heteroatoms","heterotroph-sugar",-0.173379369602358,0.304784906251027,0.728726429473667
+"Saturated Compounds w/ Heteroatoms","methyl_c1",-0.0238043301447684,0.884080589853882,0.958690737921236
+"Saturated Compounds w/ Heteroatoms","SCFA  and alcohol conversions",-0.224135125498345,0.242461491918192,0.727384475754575
+"Saturated Compounds w/ Heteroatoms","heterotroph-ch4",-0.108885813444342,0.539885177094375,0.88922264462603
+"Saturated Compounds (including lipids)","chemolithoautotroph",0.181334085523426,0.375329885580991,0.768968546068372
+"Saturated Compounds (including lipids)","heterotroph-aromatic",0.0861603336376708,0.587445041524223,0.891443904953106
+"Saturated Compounds (including lipids)","heterotroph-polymer",0.205376035471926,0.170924009374184,0.668422981244816
+"Saturated Compounds (including lipids)","heterotroph-sugar",-0.124930036469123,0.461285873982187,0.842348117706602
+"Saturated Compounds (including lipids)","methyl_c1",-0.046209734366718,0.777069652371542,0.958690737921236
+"Saturated Compounds (including lipids)","SCFA  and alcohol conversions",-0.0284227505079069,0.883638991999961,0.958690737921236
+"Saturated Compounds (including lipids)","heterotroph-ch4",-0.136259424192765,0.442250835994429,0.842348117706602
+"High Aromaticity (<15C)","chemolithoautotroph",0.0319984227417137,0.876682947135936,0.958690737921236
+"High Aromaticity (<15C)","heterotroph-aromatic",-0.135190323150318,0.393314699853266,0.786629399706531
+"High Aromaticity (<15C)","heterotroph-polymer",-0.315780145933592,0.0325313914270273,0.27326368798703
+"High Aromaticity (<15C)","heterotroph-sugar",-0.240034931391494,0.152435921018863,0.668422981244816
+"High Aromaticity (<15C)","methyl_c1",0.031141347747808,0.848716867837333,0.958690737921236
+"High Aromaticity (<15C)","SCFA  and alcohol conversions",0.416903656419153,0.0244555453474709,0.267098883970212
+"High Aromaticity (<15C)","heterotroph-ch4",-0.0245889782649182,0.89021282806972,0.958690737921236
+"Highly Aromatic w/ Heteroatoms","chemolithoautotroph",0.152170302737204,0.458028594592869,0.842348117706602
+"Highly Aromatic w/ Heteroatoms","heterotroph-aromatic",0.111923726441712,0.480386734394063,0.858563525300027
+"Highly Aromatic w/ Heteroatoms","heterotroph-polymer",-0.518582605829521,0.000222473972606885,0.0186878136989783
+"Highly Aromatic w/ Heteroatoms","heterotroph-sugar",0.0802675504379241,0.636745646395076,0.891443904953106
+"Highly Aromatic w/ Heteroatoms","methyl_c1",-0.0280473878812633,0.863597932690848,0.958690737921236
+"Highly Aromatic w/ Heteroatoms","SCFA  and alcohol conversions",0.517001596672366,0.00408160059417018,0.114284816636765
+"Highly Aromatic w/ Heteroatoms","heterotroph-ch4",-0.0847821788705023,0.633554746175851,0.891443904953106
+"Saturated Compounds (including carbohydrates)","chemolithoautotroph",-0.223657386668613,0.272059292394161,0.728726429473667
+"Saturated Compounds (including carbohydrates)","heterotroph-aromatic",0.0341812326317825,0.829847435941196,0.958690737921236
+"Saturated Compounds (including carbohydrates)","heterotroph-polymer",0.329299221057491,0.025437988949544,0.267098883970212
+"Saturated Compounds (including carbohydrates)","heterotroph-sugar",-0.167752617288838,0.320986641553877,0.728726429473667
+"Saturated Compounds (including carbohydrates)","methyl_c1",-0.00384067640579746,0.981235185727977,0.989493007187861
+"Saturated Compounds (including carbohydrates)","SCFA  and alcohol conversions",-0.204788304189204,0.286579949925618,0.728726429473667
+"Saturated Compounds (including carbohydrates)","heterotroph-ch4",-0.120360416716042,0.497748692835476,0.867085851487353
+"Polycyclic Aromatic","chemolithoautotroph",0.0796469087557568,0.698931633925329,0.946939633060123
+"Polycyclic Aromatic","heterotroph-aromatic",0.189212065837643,0.230098354416242,0.715861547072752
+"Polycyclic Aromatic","heterotroph-polymer",-0.386935604238103,0.00789664792360778,0.165829606395763
+"Polycyclic Aromatic","heterotroph-sugar",0.158761213775305,0.347970911660386,0.742859848899758
+"Polycyclic Aromatic","methyl_c1",-0.0430846675856431,0.791800576916466,0.958690737921236
+"Polycyclic Aromatic","SCFA  and alcohol conversions",0.206090623040253,0.28345945192864,0.728726429473667
+"Polycyclic Aromatic","heterotroph-ch4",0.230802749530484,0.189090328894387,0.668422981244816
+"Polycyclic Aromatic w/ Heteroatoms","chemolithoautotroph",-0.00271623346752413,0.989493007187861,0.989493007187861
+"Polycyclic Aromatic w/ Heteroatoms","heterotroph-aromatic",-0.0574676879306466,0.717731191682177,0.956787014803232
+"Polycyclic Aromatic w/ Heteroatoms","heterotroph-polymer",0.166672656074298,0.268257321672065,0.728726429473667
+"Polycyclic Aromatic w/ Heteroatoms","heterotroph-sugar",0.170699776072257,0.31243464662704,0.728726429473667
+"Polycyclic Aromatic w/ Heteroatoms","methyl_c1",-0.0093612788152016,0.954282564734874,0.977557749240602
+"Polycyclic Aromatic w/ Heteroatoms","SCFA  and alcohol conversions",0.241511834464168,0.206892827528157,0.668422981244816
+"Polycyclic Aromatic w/ Heteroatoms","heterotroph-ch4",-0.0728402949567201,0.682256281522741,0.939500453244431

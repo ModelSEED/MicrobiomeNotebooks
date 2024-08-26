@@ -1,0 +1,5720 @@
+{
+   "RC": {
+      "-1.5": {
+         "Lactob.3": {
+            "ID": "r18",
+            "segments": {
+               "consumption": {
+                  "s341": [
+                     "n400",
+                     "inost"
+                  ],
+                  "s342": [
+                     "n198",
+                     "acglum"
+                  ],
+                  "s344": [
+                     "n201",
+                     "prpa"
+                  ]
+               },
+               "production": {
+                  "s337": [
+                     "n301",
+                     "fru"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00029",
+               "cpd00039",
+               "cpd00066",
+               "cpd00069",
+               "cpd00084",
+               "cpd00107",
+               "cpd00119",
+               "cpd00121",
+               "cpd00122",
+               "cpd00132",
+               "cpd00141",
+               "cpd00161",
+               "cpd00214",
+               "cpd00218",
+               "cpd01055"
+            ],
+            "products": [
+               "cpd00033",
+               "cpd00082"
+            ]
+         },
+         "Merdib.1": {
+            "ID": "r13",
+            "segments": {
+               "consumption": {
+                  "s240": [
+                     "n251",
+                     "pyr"
+                  ],
+                  "s243": [
+                     "n257",
+                     "ornth"
+                  ],
+                  "s245": [
+                     "n300",
+                     "sucr"
+                  ],
+                  "s246": [
+                     "n198",
+                     "acglum"
+                  ],
+                  "s250": [
+                     "n344",
+                     "butr"
+                  ]
+               },
+               "production": {
+                  "s251": [
+                     "n265",
+                     "palm"
+                  ],
+                  "s253": [
+                     "n346",
+                     "4hpro"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00020",
+               "cpd00023",
+               "cpd00029",
+               "cpd00064",
+               "cpd00076",
+               "cpd00122",
+               "cpd00129",
+               "cpd00132",
+               "cpd00161",
+               "cpd00211",
+               "cpd00218",
+               "cpd01293"
+            ],
+            "products": [
+               "cpd00066",
+               "cpd00214",
+               "cpd00851"
+            ]
+         },
+         "Nosoco.1": {
+            "ID": "r14",
+            "segments": {
+               "consumption": {
+                  "s262": [
+                     "n300",
+                     "sucr"
+                  ],
+                  "s266": [
+                     "n198",
+                     "acglum"
+                  ],
+                  "s269": [
+                     "n201",
+                     "prpa"
+                  ]
+               },
+               "production": {
+                  "s274": [
+                     "n289",
+                     "arbns"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00023",
+               "cpd00041",
+               "cpd00069",
+               "cpd00076",
+               "cpd00084",
+               "cpd00107",
+               "cpd00119",
+               "cpd00122",
+               "cpd00132",
+               "cpd00137",
+               "cpd00141",
+               "cpd00156",
+               "cpd00161",
+               "cpd00214",
+               "cpd00218",
+               "cpd00322"
+            ],
+            "products": [
+               "cpd00029",
+               "cpd00060",
+               "cpd00224"
+            ]
+         },
+         "Staphy.3": {
+            "ID": "r15",
+            "segments": {
+               "consumption": {
+                  "s279": [
+                     "n291",
+                     "akg"
+                  ],
+                  "s284": [
+                     "n300",
+                     "sucr"
+                  ],
+                  "s285": [
+                     "n301",
+                     "fru"
+                  ],
+                  "s288": [
+                     "n198",
+                     "acglum"
+                  ],
+                  "s290": [
+                     "n201",
+                     "prpa"
+                  ],
+                  "s292": [
+                     "n344",
+                     "butr"
+                  ]
+               },
+               "production": {
+                  "s295": [
+                     "n311",
+                     "myrst"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00024",
+               "cpd00039",
+               "cpd00041",
+               "cpd00066",
+               "cpd00069",
+               "cpd00076",
+               "cpd00082",
+               "cpd00084",
+               "cpd00119",
+               "cpd00122",
+               "cpd00132",
+               "cpd00141",
+               "cpd00161",
+               "cpd00211",
+               "cpd00218"
+            ],
+            "products": [
+               "cpd00023",
+               "cpd00322",
+               "cpd03847"
+            ]
+         },
+         "Turici.1": {
+            "ID": "r16",
+            "segments": {
+               "consumption": {
+                  "s303": [
+                     "n198",
+                     "acglum"
+                  ],
+                  "s308": [
+                     "n344",
+                     "butr"
+                  ]
+               },
+               "production": {
+                  "s302": [
+                     "n319",
+                     "galct"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00023",
+               "cpd00041",
+               "cpd00084",
+               "cpd00122",
+               "cpd00129",
+               "cpd00132",
+               "cpd00141",
+               "cpd00161",
+               "cpd00211",
+               "cpd00214",
+               "cpd00218",
+               "cpd00322"
+            ],
+            "products": [
+               "cpd00064",
+               "cpd00108"
+            ]
+         },
+         "Lactob.1": {
+            "ID": "r17",
+            "segments": {
+               "consumption": {
+                  "s326": [
+                     "n344",
+                     "butr"
+                  ]
+               },
+               "production": {
+                  "s328": [
+                     "n346",
+                     "4hpro"
+                  ],
+                  "s329": [
+                     "n347",
+                     "decac"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00029",
+               "cpd00033",
+               "cpd00041",
+               "cpd00066",
+               "cpd00076",
+               "cpd00107",
+               "cpd00119",
+               "cpd00129",
+               "cpd00132",
+               "cpd00156",
+               "cpd00161",
+               "cpd00211",
+               "cpd00322"
+            ],
+            "products": [
+               "cpd00039",
+               "cpd00851",
+               "cpd01107"
+            ]
+         },
+         "Muriba.1": {
+            "ID": "r10",
+            "segments": {
+               "consumption": {
+                  "s190": [
+                     "n201",
+                     "prpa"
+                  ],
+                  "s191": [
+                     "n202",
+                     "cellb"
+                  ],
+                  "s193": [
+                     "n204",
+                     "palm"
+                  ],
+                  "s195": [
+                     "n206",
+                     "melib"
+                  ],
+                  "s196": [
+                     "n207",
+                     "myrst"
+                  ]
+               },
+               "production": {
+                  "s184": [
+                     "n195",
+                     "fumr"
+                  ],
+                  "s185": [
+                     "n319",
+                     "galct"
+                  ],
+                  "s187": [
+                     "n198",
+                     "acglum"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00029",
+               "cpd00119",
+               "cpd00129",
+               "cpd00132",
+               "cpd00141",
+               "cpd00158",
+               "cpd00161",
+               "cpd00214",
+               "cpd00322",
+               "cpd03198",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00066",
+               "cpd00069",
+               "cpd00106",
+               "cpd00108",
+               "cpd00122"
+            ]
+         },
+         "Lactob.4": {
+            "ID": "r11",
+            "segments": {
+               "consumption": {
+                  "s205": [
+                     "n300",
+                     "sucr"
+                  ],
+                  "s210": [
+                     "n222",
+                     "malat"
+                  ],
+                  "s217": [
+                     "n229",
+                     "dulco"
+                  ]
+               },
+               "production": {
+                  "s199": [
+                     "n251",
+                     "pyr"
+                  ],
+                  "s200": [
+                     "n373",
+                     "akg"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00033",
+               "cpd00039",
+               "cpd00069",
+               "cpd00076",
+               "cpd00084",
+               "cpd00119",
+               "cpd00122",
+               "cpd00130",
+               "cpd00132",
+               "cpd00161",
+               "cpd00211",
+               "cpd00214",
+               "cpd00218",
+               "cpd01171"
+            ],
+            "products": [
+               "cpd00020",
+               "cpd00024",
+               "cpd00041",
+               "cpd00082",
+               "cpd00550"
+            ]
+         },
+         "Clostr.7": {
+            "ID": "r19",
+            "segments": {
+               "consumption": {
+                  "s354": [
+                     "n257",
+                     "ornth"
+                  ],
+                  "s361": [
+                     "n204",
+                     "palm"
+                  ],
+                  "s363": [
+                     "n383",
+                     "rhmn"
+                  ],
+                  "s364": [
+                     "n229",
+                     "dulco"
+                  ]
+               },
+               "production": {
+                  "s351": [
+                     "n251",
+                     "pyr"
+                  ],
+                  "s352": [
+                     "n373",
+                     "akg"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00039",
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00084",
+               "cpd00119",
+               "cpd00132",
+               "cpd00214",
+               "cpd00396",
+               "cpd01171"
+            ],
+            "products": [
+               "cpd00020",
+               "cpd00024",
+               "cpd00107",
+               "cpd00218"
+            ]
+         },
+         "Alloio.1": {
+            "ID": "r20",
+            "segments": {
+               "consumption": {
+                  "s376": [
+                     "n300",
+                     "sucr"
+                  ],
+                  "s379": [
+                     "n400",
+                     "inost"
+                  ],
+                  "s386": [
+                     "n407",
+                     "allos"
+                  ]
+               },
+               "production": {
+                  "s383": [
+                     "n404",
+                     "melit"
+                  ],
+                  "s384": [
+                     "n405",
+                     "rhmn"
+                  ],
+                  "s387": [
+                     "n206",
+                     "melib"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00023",
+               "cpd00033",
+               "cpd00036",
+               "cpd00039",
+               "cpd00041",
+               "cpd00069",
+               "cpd00076",
+               "cpd00107",
+               "cpd00119",
+               "cpd00121",
+               "cpd00132",
+               "cpd00141",
+               "cpd00218",
+               "cpd00550",
+               "cpd01055"
+            ],
+            "products": [
+               "cpd00029",
+               "cpd00035",
+               "cpd00064",
+               "cpd00382",
+               "cpd00396",
+               "cpd03198"
+            ]
+         },
+         "Lactob.5": {
+            "ID": "r7",
+            "segments": {
+               "consumption": {
+                  "s137": [
+                     "n198",
+                     "acglum"
+                  ],
+                  "s144": [
+                     "n407",
+                     "allos"
+                  ]
+               },
+               "production": {
+                  "s128": [
+                     "n137",
+                     "akg"
+                  ],
+                  "s143": [
+                     "n289",
+                     "arbns"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00033",
+               "cpd00039",
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00084",
+               "cpd00107",
+               "cpd00119",
+               "cpd00122",
+               "cpd00132",
+               "cpd00141",
+               "cpd00161",
+               "cpd00214",
+               "cpd00218",
+               "cpd01055"
+            ],
+            "products": [
+               "cpd00024",
+               "cpd00224"
+            ]
+         },
+         "Desulf.1": {
+            "ID": "r8",
+            "segments": {
+               "consumption": {
+                  "s152": [
+                     "n161",
+                     "fumr"
+                  ]
+               },
+               "production": {
+                  "s149": [
+                     "n432",
+                     "succ"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00023",
+               "cpd00035",
+               "cpd00066",
+               "cpd00069",
+               "cpd00106",
+               "cpd00119",
+               "cpd00122",
+               "cpd00132",
+               "cpd00137",
+               "cpd00161",
+               "cpd00218",
+               "cpd01107"
+            ],
+            "products": [
+               "cpd00036",
+               "cpd00214"
+            ]
+         },
+         "Burkho.1": {
+            "ID": "r9",
+            "segments": {
+               "consumption": {},
+               "production": {}
+            },
+            "reactants": [
+               "cpd00023",
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00082",
+               "cpd00119",
+               "cpd00122",
+               "cpd00129",
+               "cpd00132",
+               "cpd00141",
+               "cpd00161",
+               "cpd00322"
+            ],
+            "products": [
+               "cpd00029",
+               "cpd00033",
+               "cpd00035",
+               "cpd03847"
+            ]
+         },
+         "Staphy.4": {
+            "ID": "r22",
+            "segments": {
+               "consumption": {
+                  "s407": [
+                     "n251",
+                     "pyr"
+                  ],
+                  "s409": [
+                     "n432",
+                     "succ"
+                  ],
+                  "s417": [
+                     "n198",
+                     "acglum"
+                  ],
+                  "s419": [
+                     "n201",
+                     "prpa"
+                  ],
+                  "s421": [
+                     "n204",
+                     "palm"
+                  ]
+               },
+               "production": {}
+            },
+            "reactants": [
+               "cpd00020",
+               "cpd00023",
+               "cpd00036",
+               "cpd00039",
+               "cpd00041",
+               "cpd00066",
+               "cpd00069",
+               "cpd00084",
+               "cpd00107",
+               "cpd00119",
+               "cpd00122",
+               "cpd00132",
+               "cpd00141",
+               "cpd00161",
+               "cpd00214",
+               "cpd00218"
+            ],
+            "products": []
+         },
+         "Bacill.4": {
+            "ID": "r23",
+            "segments": {
+               "consumption": {
+                  "s441": [
+                     "n204",
+                     "palm"
+                  ],
+                  "s443": [
+                     "n229",
+                     "dulco"
+                  ]
+               },
+               "production": {
+                  "s425": [
+                     "n373",
+                     "akg"
+                  ],
+                  "s432": [
+                     "n195",
+                     "fumr"
+                  ],
+                  "s436": [
+                     "n222",
+                     "malat"
+                  ],
+                  "s444": [
+                     "n311",
+                     "myrst"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00039",
+               "cpd00066",
+               "cpd00069",
+               "cpd00084",
+               "cpd00119",
+               "cpd00132",
+               "cpd00141",
+               "cpd00161",
+               "cpd00211",
+               "cpd00214",
+               "cpd01171"
+            ],
+            "products": [
+               "cpd00024",
+               "cpd00064",
+               "cpd00082",
+               "cpd00106",
+               "cpd00107",
+               "cpd00122",
+               "cpd00130",
+               "cpd00218",
+               "cpd03847"
+            ]
+         }
+      },
+      "1.5": {
+         "Lactob.3": {
+            "ID": "r35",
+            "segments": {
+               "consumption": {
+                  "s679": [
+                     "n792",
+                     "sucr"
+                  ],
+                  "s683": [
+                     "n963",
+                     "acglum"
+                  ],
+                  "s685": [
+                     "n900",
+                     "cellb"
+                  ],
+                  "s687": [
+                     "n723",
+                     "allos"
+                  ],
+                  "s688": [
+                     "n311",
+                     "myrst"
+                  ]
+               },
+               "production": {
+                  "s680": [
+                     "n716",
+                     "fru"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00039",
+               "cpd00066",
+               "cpd00069",
+               "cpd00076",
+               "cpd00107",
+               "cpd00119",
+               "cpd00122",
+               "cpd00158",
+               "cpd00218",
+               "cpd01055",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00033",
+               "cpd00082",
+               "cpd00132"
+            ]
+         },
+         "Merdib.1": {
+            "ID": "r37",
+            "segments": {
+               "consumption": {
+                  "s713": [
+                     "n792",
+                     "sucr"
+                  ],
+                  "s715": [
+                     "n963",
+                     "acglum"
+                  ]
+               },
+               "production": {
+                  "s711": [
+                     "n789",
+                     "ornth"
+                  ],
+                  "s718": [
+                     "n756",
+                     "palm"
+                  ],
+                  "s720": [
+                     "n758",
+                     "4hpro"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00023",
+               "cpd00069",
+               "cpd00076",
+               "cpd00122",
+               "cpd00129",
+               "cpd00218"
+            ],
+            "products": [
+               "cpd00064",
+               "cpd00106",
+               "cpd00161",
+               "cpd00214",
+               "cpd00851"
+            ]
+         },
+         "Nosoco.1": {
+            "ID": "r38",
+            "segments": {
+               "consumption": {
+                  "s727": [
+                     "n792",
+                     "sucr"
+                  ],
+                  "s730": [
+                     "n963",
+                     "acglum"
+                  ],
+                  "s736": [
+                     "n756",
+                     "palm"
+                  ],
+                  "s740": [
+                     "n902",
+                     "dulco"
+                  ]
+               },
+               "production": {
+                  "s738": [
+                     "n799",
+                     "arbns"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00069",
+               "cpd00076",
+               "cpd00107",
+               "cpd00119",
+               "cpd00122",
+               "cpd00132",
+               "cpd00137",
+               "cpd00141",
+               "cpd00156",
+               "cpd00161",
+               "cpd00214",
+               "cpd00218",
+               "cpd00322",
+               "cpd01171"
+            ],
+            "products": [
+               "cpd00023",
+               "cpd00029",
+               "cpd00041",
+               "cpd00224"
+            ]
+         },
+         "Staphy.3": {
+            "ID": "r39",
+            "segments": {
+               "consumption": {
+                  "s744": [
+                     "n780",
+                     "akg"
+                  ],
+                  "s749": [
+                     "n789",
+                     "ornth"
+                  ],
+                  "s752": [
+                     "n792",
+                     "sucr"
+                  ],
+                  "s756": [
+                     "n796",
+                     "prpa"
+                  ]
+               },
+               "production": {
+                  "s745": [
+                     "n785",
+                     "glu"
+                  ],
+                  "s755": [
+                     "n963",
+                     "acglum"
+                  ],
+                  "s759": [
+                     "n799",
+                     "arbns"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00024",
+               "cpd00039",
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00076",
+               "cpd00119",
+               "cpd00141",
+               "cpd00158",
+               "cpd00218"
+            ],
+            "products": [
+               "cpd00023",
+               "cpd00027",
+               "cpd00035",
+               "cpd00041",
+               "cpd00107",
+               "cpd00122",
+               "cpd00224"
+            ]
+         },
+         "Turici.1": {
+            "ID": "r40",
+            "segments": {
+               "consumption": {
+                  "s766": [
+                     "n792",
+                     "sucr"
+                  ]
+               },
+               "production": {}
+            },
+            "reactants": [
+               "cpd00023",
+               "cpd00041",
+               "cpd00069",
+               "cpd00076",
+               "cpd00084",
+               "cpd00129",
+               "cpd00214",
+               "cpd00218",
+               "cpd00322"
+            ],
+            "products": [
+               "cpd00064"
+            ]
+         },
+         "Lactob.1": {
+            "ID": "r41",
+            "segments": {
+               "consumption": {
+                  "s779": [
+                     "n792",
+                     "sucr"
+                  ],
+                  "s783": [
+                     "n963",
+                     "acglum"
+                  ]
+               },
+               "production": {
+                  "s774": [
+                     "n780",
+                     "akg"
+                  ],
+                  "s780": [
+                     "n822",
+                     "ribs"
+                  ],
+                  "s788": [
+                     "n830",
+                     "decac"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00029",
+               "cpd00041",
+               "cpd00066",
+               "cpd00076",
+               "cpd00107",
+               "cpd00119",
+               "cpd00122",
+               "cpd00129",
+               "cpd00218"
+            ],
+            "products": [
+               "cpd00024",
+               "cpd00064",
+               "cpd00105",
+               "cpd00132",
+               "cpd00214",
+               "cpd01107",
+               "cpd01293"
+            ]
+         },
+         "Lactob.4": {
+            "ID": "r36",
+            "segments": {
+               "consumption": {
+                  "s701": [
+                     "n32",
+                     "malat"
+                  ],
+                  "s707": [
+                     "n902",
+                     "dulco"
+                  ]
+               },
+               "production": {
+                  "s691": [
+                     "n852",
+                     "pyr"
+                  ],
+                  "s697": [
+                     "n716",
+                     "fru"
+                  ],
+                  "s698": [
+                     "n735",
+                     "galct"
+                  ],
+                  "s700": [
+                     "n963",
+                     "acglum"
+                  ],
+                  "s702": [
+                     "n796",
+                     "prpa"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00033",
+               "cpd00039",
+               "cpd00069",
+               "cpd00076",
+               "cpd00119",
+               "cpd00130",
+               "cpd00158",
+               "cpd00214",
+               "cpd00218",
+               "cpd01171"
+            ],
+            "products": [
+               "cpd00020",
+               "cpd00041",
+               "cpd00082",
+               "cpd00108",
+               "cpd00122",
+               "cpd00141",
+               "cpd00550"
+            ]
+         },
+         "Clostr.7": {
+            "ID": "r42",
+            "segments": {
+               "consumption": {
+                  "s802": [
+                     "n902",
+                     "dulco"
+                  ]
+               },
+               "production": {}
+            },
+            "reactants": [
+               "cpd00039",
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00119",
+               "cpd00130",
+               "cpd00214",
+               "cpd01171",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00033",
+               "cpd00060",
+               "cpd00107",
+               "cpd01242"
+            ]
+         },
+         "Alloio.1": {
+            "ID": "r43",
+            "segments": {
+               "consumption": {
+                  "s816": [
+                     "n792",
+                     "sucr"
+                  ],
+                  "s823": [
+                     "n900",
+                     "cellb"
+                  ]
+               },
+               "production": {
+                  "s807": [
+                     "n852",
+                     "pyr"
+                  ],
+                  "s827": [
+                     "n871",
+                     "rhmn"
+                  ],
+                  "s829": [
+                     "n873",
+                     "melib"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00033",
+               "cpd00036",
+               "cpd00039",
+               "cpd00041",
+               "cpd00069",
+               "cpd00076",
+               "cpd00106",
+               "cpd00107",
+               "cpd00119",
+               "cpd00122",
+               "cpd00129",
+               "cpd00132",
+               "cpd00158",
+               "cpd00214",
+               "cpd00218",
+               "cpd00550"
+            ],
+            "products": [
+               "cpd00020",
+               "cpd00029",
+               "cpd00035",
+               "cpd00064",
+               "cpd00382",
+               "cpd00396",
+               "cpd03198"
+            ]
+         },
+         "Staphy.4": {
+            "ID": "r45",
+            "segments": {
+               "consumption": {
+                  "s852": [
+                     "n796",
+                     "prpa"
+                  ],
+                  "s854": [
+                     "n900",
+                     "cellb"
+                  ],
+                  "s856": [
+                     "n902",
+                     "dulco"
+                  ],
+                  "s857": [
+                     "n311",
+                     "myrst"
+                  ]
+               },
+               "production": {}
+            },
+            "reactants": [
+               "cpd00039",
+               "cpd00041",
+               "cpd00066",
+               "cpd00069",
+               "cpd00119",
+               "cpd00141",
+               "cpd00158",
+               "cpd00218",
+               "cpd01171",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00107",
+               "cpd00156"
+            ]
+         },
+         "Bacill.4": {
+            "ID": "r46",
+            "segments": {
+               "consumption": {
+                  "s869": [
+                     "n796",
+                     "prpa"
+                  ],
+                  "s870": [
+                     "n900",
+                     "cellb"
+                  ],
+                  "s873": [
+                     "n902",
+                     "dulco"
+                  ]
+               },
+               "production": {}
+            },
+            "reactants": [
+               "cpd00039",
+               "cpd00066",
+               "cpd00069",
+               "cpd00119",
+               "cpd00137",
+               "cpd00141",
+               "cpd00158",
+               "cpd00161",
+               "cpd00218",
+               "cpd01171",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00024",
+               "cpd00060",
+               "cpd00082",
+               "cpd00107"
+            ]
+         },
+         "Entero.2": {
+            "ID": "r48",
+            "segments": {
+               "consumption": {
+                  "s896": [
+                     "n716",
+                     "fru"
+                  ],
+                  "s898": [
+                     "n963",
+                     "acglum"
+                  ],
+                  "s902": [
+                     "n33",
+                     "citr"
+                  ],
+                  "s903": [
+                     "n900",
+                     "cellb"
+                  ],
+                  "s906": [
+                     "n311",
+                     "myrst"
+                  ]
+               },
+               "production": {
+                  "s900": [
+                     "n32",
+                     "malat"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00029",
+               "cpd00035",
+               "cpd00066",
+               "cpd00082",
+               "cpd00119",
+               "cpd00122",
+               "cpd00129",
+               "cpd00132",
+               "cpd00137",
+               "cpd00158",
+               "cpd00218",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00130",
+               "cpd01107"
+            ]
+         },
+         "Entero.1": {
+            "ID": "r49",
+            "segments": {
+               "consumption": {
+                  "s915": [
+                     "n900",
+                     "cellb"
+                  ],
+                  "s918": [
+                     "n902",
+                     "dulco"
+                  ]
+               },
+               "production": {
+                  "s913": [
+                     "n963",
+                     "acglum"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00066",
+               "cpd00069",
+               "cpd00119",
+               "cpd00132",
+               "cpd00158",
+               "cpd00214",
+               "cpd00218",
+               "cpd01171"
+            ],
+            "products": [
+               "cpd00060",
+               "cpd00122"
+            ]
+         },
+         "Acinet.1": {
+            "ID": "r1",
+            "segments": {
+               "consumption": {
+                  "s30": [
+                     "n32",
+                     "malat"
+                  ],
+                  "s31": [
+                     "n33",
+                     "citr"
+                  ]
+               },
+               "production": {
+                  "s26": [
+                     "n789",
+                     "ornth"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00023",
+               "cpd00033",
+               "cpd00039",
+               "cpd00066",
+               "cpd00069",
+               "cpd00082",
+               "cpd00130",
+               "cpd00137",
+               "cpd00161",
+               "cpd00322",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00064"
+            ]
+         },
+         "Entero.3": {
+            "ID": "r50",
+            "segments": {
+               "consumption": {},
+               "production": {
+                  "s928": [
+                     "n33",
+                     "citr"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00069",
+               "cpd00122",
+               "cpd00129",
+               "cpd00158",
+               "cpd00218",
+               "cpd01171",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00036",
+               "cpd00041",
+               "cpd00064",
+               "cpd00107",
+               "cpd00137",
+               "cpd01107"
+            ]
+         }
+      },
+      "4.0": {
+         "Lactob.3": {
+            "ID": "r54",
+            "segments": {
+               "consumption": {
+                  "s1035": [
+                     "n1090",
+                     "cellb"
+                  ],
+                  "s1038": [
+                     "n1179",
+                     "palm"
+                  ],
+                  "s1040": [
+                     "n1182",
+                     "melit"
+                  ],
+                  "s1041": [
+                     "n1237",
+                     "fucos"
+                  ],
+                  "s1042": [
+                     "n1097",
+                     "dulco"
+                  ]
+               },
+               "production": {
+                  "s1024": [
+                     "n1161",
+                     "pyr"
+                  ],
+                  "s1029": [
+                     "n1084",
+                     "sucr"
+                  ],
+                  "s1032": [
+                     "n1210",
+                     "acglum"
+                  ],
+                  "s1034": [
+                     "n1089",
+                     "citr"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00039",
+               "cpd00066",
+               "cpd00069",
+               "cpd00107",
+               "cpd00119",
+               "cpd00132",
+               "cpd00158",
+               "cpd00161",
+               "cpd00211",
+               "cpd00214",
+               "cpd00218",
+               "cpd00382",
+               "cpd00751",
+               "cpd01171"
+            ],
+            "products": [
+               "cpd00020",
+               "cpd00033",
+               "cpd00076",
+               "cpd00122",
+               "cpd00137"
+            ]
+         },
+         "Merdib.1": {
+            "ID": "r55",
+            "segments": {
+               "consumption": {
+                  "s1049": [
+                     "n1206",
+                     "fru"
+                  ],
+                  "s1050": [
+                     "n1210",
+                     "acglum"
+                  ],
+                  "s1053": [
+                     "n1090",
+                     "cellb"
+                  ]
+               },
+               "production": {
+                  "s1046": [
+                     "n1102",
+                     "glu"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00023",
+               "cpd00069",
+               "cpd00082",
+               "cpd00122",
+               "cpd00129",
+               "cpd00132",
+               "cpd00158",
+               "cpd00161",
+               "cpd00211",
+               "cpd00218",
+               "cpd01293"
+            ],
+            "products": [
+               "cpd00027",
+               "cpd00064",
+               "cpd00214",
+               "cpd00550"
+            ]
+         },
+         "Staphy.3": {
+            "ID": "r56",
+            "segments": {
+               "consumption": {
+                  "s1065": [
+                     "n62",
+                     "ornth"
+                  ],
+                  "s1075": [
+                     "n1132",
+                     "butr"
+                  ],
+                  "s1078": [
+                     "n1237",
+                     "fucos"
+                  ]
+               },
+               "production": {
+                  "s1062": [
+                     "n54",
+                     "akg"
+                  ],
+                  "s1069": [
+                     "n1207",
+                     "fumr"
+                  ],
+                  "s1077": [
+                     "n1134",
+                     "rhmn"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00039",
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00084",
+               "cpd00119",
+               "cpd00122",
+               "cpd00132",
+               "cpd00141",
+               "cpd00161",
+               "cpd00211",
+               "cpd00218",
+               "cpd00751"
+            ],
+            "products": [
+               "cpd00024",
+               "cpd00041",
+               "cpd00106",
+               "cpd00396",
+               "cpd03847"
+            ]
+         },
+         "Lactob.1": {
+            "ID": "r58",
+            "segments": {
+               "consumption": {
+                  "s1105": [
+                     "n1161",
+                     "pyr"
+                  ],
+                  "s1119": [
+                     "n1132",
+                     "butr"
+                  ],
+                  "s1123": [
+                     "n1182",
+                     "melit"
+                  ],
+                  "s1124": [
+                     "n1237",
+                     "fucos"
+                  ]
+               },
+               "production": {
+                  "s1106": [
+                     "n54",
+                     "akg"
+                  ],
+                  "s1110": [
+                     "n1169",
+                     "ribs"
+                  ],
+                  "s1112": [
+                     "n1171",
+                     "galct"
+                  ],
+                  "s1120": [
+                     "n1179",
+                     "palm"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00020",
+               "cpd00039",
+               "cpd00060",
+               "cpd00066",
+               "cpd00107",
+               "cpd00119",
+               "cpd00122",
+               "cpd00129",
+               "cpd00132",
+               "cpd00156",
+               "cpd00161",
+               "cpd00211",
+               "cpd00218",
+               "cpd00322",
+               "cpd00382",
+               "cpd00751",
+               "cpd01107"
+            ],
+            "products": [
+               "cpd00024",
+               "cpd00105",
+               "cpd00108",
+               "cpd00214"
+            ]
+         },
+         "Entero.2": {
+            "ID": "r61",
+            "segments": {
+               "consumption": {
+                  "s1164": [
+                     "n1171",
+                     "galct"
+                  ],
+                  "s1166": [
+                     "n1210",
+                     "acglum"
+                  ],
+                  "s1170": [
+                     "n1090",
+                     "cellb"
+                  ],
+                  "s1172": [
+                     "n1132",
+                     "butr"
+                  ],
+                  "s1175": [
+                     "n1237",
+                     "fucos"
+                  ]
+               },
+               "production": {
+                  "s1159": [
+                     "n54",
+                     "akg"
+                  ],
+                  "s1174": [
+                     "n1236",
+                     "arbns"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00029",
+               "cpd00035",
+               "cpd00108",
+               "cpd00119",
+               "cpd00122",
+               "cpd00129",
+               "cpd00132",
+               "cpd00141",
+               "cpd00158",
+               "cpd00161",
+               "cpd00211",
+               "cpd00218",
+               "cpd00751"
+            ],
+            "products": [
+               "cpd00024",
+               "cpd00066",
+               "cpd00069",
+               "cpd00224"
+            ]
+         },
+         "Entero.1": {
+            "ID": "r60",
+            "segments": {
+               "consumption": {
+                  "s1147": [
+                     "n1171",
+                     "galct"
+                  ],
+                  "s1152": [
+                     "n1090",
+                     "cellb"
+                  ],
+                  "s1156": [
+                     "n1097",
+                     "dulco"
+                  ]
+               },
+               "production": {
+                  "s1143": [
+                     "n1102",
+                     "glu"
+                  ],
+                  "s1144": [
+                     "n1206",
+                     "fru"
+                  ],
+                  "s1145": [
+                     "n1207",
+                     "fumr"
+                  ],
+                  "s1149": [
+                     "n1210",
+                     "acglum"
+                  ],
+                  "s1150": [
+                     "n1338",
+                     "malat"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00107",
+               "cpd00108",
+               "cpd00119",
+               "cpd00132",
+               "cpd00158",
+               "cpd00161",
+               "cpd00214",
+               "cpd00218",
+               "cpd01171"
+            ],
+            "products": [
+               "cpd00027",
+               "cpd00082",
+               "cpd00106",
+               "cpd00122",
+               "cpd00130"
+            ]
+         },
+         "Acinet.1": {
+            "ID": "r3",
+            "segments": {
+               "consumption": {
+                  "s53": [
+                     "n54",
+                     "akg"
+                  ],
+                  "s56": [
+                     "n60",
+                     "succ"
+                  ],
+                  "s66": [
+                     "n830",
+                     "decac"
+                  ]
+               },
+               "production": {
+                  "s54": [
+                     "n1102",
+                     "glu"
+                  ],
+                  "s58": [
+                     "n62",
+                     "ornth"
+                  ],
+                  "s63": [
+                     "n67",
+                     "prpa"
+                  ],
+                  "s67": [
+                     "n71",
+                     "myrst"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00024",
+               "cpd00033",
+               "cpd00036",
+               "cpd00066",
+               "cpd00069",
+               "cpd00107",
+               "cpd00132",
+               "cpd00161",
+               "cpd00322",
+               "cpd01107"
+            ],
+            "products": [
+               "cpd00027",
+               "cpd00039",
+               "cpd00064",
+               "cpd00141",
+               "cpd03847"
+            ]
+         },
+         "Entero.3": {
+            "ID": "r62",
+            "segments": {
+               "consumption": {
+                  "s1182": [
+                     "n1210",
+                     "acglum"
+                  ],
+                  "s1186": [
+                     "n1090",
+                     "cellb"
+                  ],
+                  "s1190": [
+                     "n1182",
+                     "melit"
+                  ],
+                  "s1192": [
+                     "n1255",
+                     "4hpro"
+                  ],
+                  "s1193": [
+                     "n1097",
+                     "dulco"
+                  ]
+               },
+               "production": {
+                  "s1178": [
+                     "n1102",
+                     "glu"
+                  ],
+                  "s1181": [
+                     "n1244",
+                     "inost"
+                  ],
+                  "s1185": [
+                     "n1089",
+                     "citr"
+                  ],
+                  "s1189": [
+                     "n1236",
+                     "arbns"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00035",
+               "cpd00084",
+               "cpd00122",
+               "cpd00129",
+               "cpd00132",
+               "cpd00158",
+               "cpd00161",
+               "cpd00218",
+               "cpd00382",
+               "cpd00851",
+               "cpd01171"
+            ],
+            "products": [
+               "cpd00027",
+               "cpd00121",
+               "cpd00137",
+               "cpd00224",
+               "cpd00550"
+            ]
+         },
+         "Clostr.21": {
+            "ID": "r59",
+            "segments": {
+               "consumption": {
+                  "s1140": [
+                     "n1237",
+                     "fucos"
+                  ]
+               },
+               "production": {
+                  "s1136": [
+                     "n1338",
+                     "malat"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00023",
+               "cpd00060",
+               "cpd00064",
+               "cpd00066",
+               "cpd00084",
+               "cpd00107",
+               "cpd00122",
+               "cpd00132",
+               "cpd00158",
+               "cpd00161",
+               "cpd00751"
+            ],
+            "products": [
+               "cpd00033",
+               "cpd00130"
+            ]
+         }
+      },
+      "6.0": {
+         "Lactob.3": {
+            "ID": "r72",
+            "segments": {
+               "consumption": {
+                  "s1375": [
+                     "n1448",
+                     "palm"
+                  ],
+                  "s1377": [
+                     "n1450",
+                     "fucos"
+                  ],
+                  "s1378": [
+                     "n71",
+                     "myrst"
+                  ]
+               },
+               "production": {
+                  "s1369": [
+                     "n1442",
+                     "sucr"
+                  ],
+                  "s1370": [
+                     "n1443",
+                     "fru"
+                  ],
+                  "s1373": [
+                     "n1446",
+                     "acglum"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00033",
+               "cpd00039",
+               "cpd00066",
+               "cpd00069",
+               "cpd00107",
+               "cpd00119",
+               "cpd00132",
+               "cpd00214",
+               "cpd00218",
+               "cpd00751",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00076",
+               "cpd00082",
+               "cpd00122"
+            ]
+         },
+         "Turici.1": {
+            "ID": "r74",
+            "segments": {
+               "consumption": {
+                  "s1400": [
+                     "n1330",
+                     "akg"
+                  ],
+                  "s1408": [
+                     "n1446",
+                     "acglum"
+                  ],
+                  "s1413": [
+                     "n1468",
+                     "4hpro"
+                  ]
+               },
+               "production": {}
+            },
+            "reactants": [
+               "cpd00024",
+               "cpd00069",
+               "cpd00084",
+               "cpd00105",
+               "cpd00107",
+               "cpd00122",
+               "cpd00132",
+               "cpd00211",
+               "cpd00218",
+               "cpd00322",
+               "cpd00851",
+               "cpd01242",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00023",
+               "cpd00039",
+               "cpd00041",
+               "cpd00064"
+            ]
+         },
+         "Lactob.1": {
+            "ID": "r71",
+            "segments": {
+               "consumption": {
+                  "s1362": [
+                     "n1341",
+                     "decac"
+                  ]
+               },
+               "production": {
+                  "s1346": [
+                     "n1330",
+                     "akg"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00033",
+               "cpd00041",
+               "cpd00060",
+               "cpd00066",
+               "cpd00107",
+               "cpd00119",
+               "cpd00129",
+               "cpd00132",
+               "cpd00156",
+               "cpd00214",
+               "cpd00218",
+               "cpd00224",
+               "cpd00322",
+               "cpd01107"
+            ],
+            "products": [
+               "cpd00024",
+               "cpd00039",
+               "cpd00064"
+            ]
+         },
+         "Muriba.1": {
+            "ID": "r73",
+            "segments": {
+               "consumption": {
+                  "s1390": [
+                     "n1322",
+                     "cellb"
+                  ],
+                  "s1394": [
+                     "n1468",
+                     "4hpro"
+                  ]
+               },
+               "production": {
+                  "s1387": [
+                     "n1446",
+                     "acglum"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00119",
+               "cpd00132",
+               "cpd00156",
+               "cpd00158",
+               "cpd00214",
+               "cpd00218",
+               "cpd00322",
+               "cpd00851",
+               "cpd01107",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00023",
+               "cpd00033",
+               "cpd00060",
+               "cpd00066",
+               "cpd00084",
+               "cpd00122"
+            ]
+         },
+         "Entero.2": {
+            "ID": "r67",
+            "segments": {
+               "consumption": {
+                  "s1282": [
+                     "n1350",
+                     "galct"
+                  ],
+                  "s1285": [
+                     "n1338",
+                     "malat"
+                  ]
+               },
+               "production": {
+                  "s1278": [
+                     "n1330",
+                     "akg"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00029",
+               "cpd00108",
+               "cpd00119",
+               "cpd00129",
+               "cpd00130",
+               "cpd00132",
+               "cpd00161",
+               "cpd00218",
+               "cpd00851",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00024",
+               "cpd00064",
+               "cpd00066"
+            ]
+         },
+         "Entero.3": {
+            "ID": "r68",
+            "segments": {
+               "consumption": {
+                  "s1299": [
+                     "n1350",
+                     "galct"
+                  ],
+                  "s1300": [
+                     "n1446",
+                     "acglum"
+                  ],
+                  "s1303": [
+                     "n1089",
+                     "citr"
+                  ],
+                  "s1304": [
+                     "n1322",
+                     "cellb"
+                  ],
+                  "s1306": [
+                     "n1468",
+                     "4hpro"
+                  ],
+                  "s1307": [
+                     "n1376",
+                     "dulco"
+                  ],
+                  "s1308": [
+                     "n1377",
+                     "2drib"
+                  ],
+                  "s1309": [
+                     "n71",
+                     "myrst"
+                  ]
+               },
+               "production": {
+                  "s1295": [
+                     "n1334",
+                     "ornth"
+                  ],
+                  "s1298": [
+                     "n1443",
+                     "fru"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00029",
+               "cpd00041",
+               "cpd00108",
+               "cpd00122",
+               "cpd00129",
+               "cpd00132",
+               "cpd00137",
+               "cpd00158",
+               "cpd00218",
+               "cpd00851",
+               "cpd01171",
+               "cpd01242",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00082"
+            ]
+         },
+         "Clostr.21": {
+            "ID": "r66",
+            "segments": {
+               "consumption": {
+                  "s1266": [
+                     "n1330",
+                     "akg"
+                  ],
+                  "s1267": [
+                     "n1334",
+                     "ornth"
+                  ],
+                  "s1271": [
+                     "n1338",
+                     "malat"
+                  ],
+                  "s1274": [
+                     "n1341",
+                     "decac"
+                  ]
+               },
+               "production": {}
+            },
+            "reactants": [
+               "cpd00024",
+               "cpd00064",
+               "cpd00066",
+               "cpd00107",
+               "cpd00119",
+               "cpd00130",
+               "cpd00132",
+               "cpd00137",
+               "cpd01107",
+               "cpd03847"
+            ],
+            "products": []
+         },
+         "Akkerm.1": {
+            "ID": "r64",
+            "segments": {
+               "consumption": {
+                  "s1232": [
+                     "n1330",
+                     "akg"
+                  ],
+                  "s1238": [
+                     "n1338",
+                     "malat"
+                  ],
+                  "s1241": [
+                     "n1448",
+                     "palm"
+                  ],
+                  "s1246": [
+                     "n71",
+                     "myrst"
+                  ]
+               },
+               "production": {}
+            },
+            "reactants": [
+               "cpd00024",
+               "cpd00033",
+               "cpd00066",
+               "cpd00069",
+               "cpd00107",
+               "cpd00130",
+               "cpd00132",
+               "cpd00156",
+               "cpd00214",
+               "cpd00218",
+               "cpd00322",
+               "cpd01107",
+               "cpd01293",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00082"
+            ]
+         },
+         "Eubact.5": {
+            "ID": "r69",
+            "segments": {
+               "consumption": {
+                  "s1321": [
+                     "n1468",
+                     "4hpro"
+                  ]
+               },
+               "production": {}
+            },
+            "reactants": [
+               "cpd00023",
+               "cpd00039",
+               "cpd00041",
+               "cpd00066",
+               "cpd00069",
+               "cpd00132",
+               "cpd00158",
+               "cpd00214",
+               "cpd00751",
+               "cpd00851"
+            ],
+            "products": []
+         },
+         "Alisti.2": {
+            "ID": "r65",
+            "segments": {
+               "consumption": {
+                  "s1254": [
+                     "n1338",
+                     "malat"
+                  ],
+                  "s1256": [
+                     "n1322",
+                     "cellb"
+                  ]
+               },
+               "production": {}
+            },
+            "reactants": [
+               "cpd00029",
+               "cpd00107",
+               "cpd00119",
+               "cpd00122",
+               "cpd00130",
+               "cpd00132",
+               "cpd00158",
+               "cpd00214",
+               "cpd00218",
+               "cpd00322",
+               "cpd01107",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00129",
+               "cpd00161",
+               "cpd00211"
+            ]
+         }
+      },
+      "9.0": {
+         "Lactob.3": {
+            "ID": "r94",
+            "segments": {
+               "consumption": {
+                  "s1748": [
+                     "n1737",
+                     "ornth"
+                  ],
+                  "s1755": [
+                     "n1673",
+                     "cellb"
+                  ],
+                  "s1757": [
+                     "n1743",
+                     "palm"
+                  ],
+                  "s1759": [
+                     "n1747",
+                     "myrst"
+                  ]
+               },
+               "production": {
+                  "s1753": [
+                     "n1882",
+                     "acglum"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00033",
+               "cpd00039",
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00107",
+               "cpd00119",
+               "cpd00132",
+               "cpd00158",
+               "cpd00161",
+               "cpd00214",
+               "cpd01242",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00122"
+            ]
+         },
+         "Merdib.1": {
+            "ID": "r96",
+            "segments": {
+               "consumption": {
+                  "s1785": [
+                     "n1882",
+                     "acglum"
+                  ],
+                  "s1787": [
+                     "n1673",
+                     "cellb"
+                  ],
+                  "s1788": [
+                     "n1743",
+                     "palm"
+                  ],
+                  "s1790": [
+                     "n1887",
+                     "decac"
+                  ],
+                  "s1791": [
+                     "n1888",
+                     "2drib"
+                  ]
+               },
+               "production": {
+                  "s1789": [
+                     "n1886",
+                     "4hpro"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00069",
+               "cpd00122",
+               "cpd00129",
+               "cpd00158",
+               "cpd00214",
+               "cpd01107",
+               "cpd01242"
+            ],
+            "products": [
+               "cpd00064",
+               "cpd00851"
+            ]
+         },
+         "Turici.1": {
+            "ID": "r87",
+            "segments": {
+               "consumption": {
+                  "s1652": [
+                     "n1882",
+                     "acglum"
+                  ],
+                  "s1655": [
+                     "n1743",
+                     "palm"
+                  ],
+                  "s1658": [
+                     "n1746",
+                     "melib"
+                  ],
+                  "s1659": [
+                     "n1747",
+                     "myrst"
+                  ]
+               },
+               "production": {
+                  "s1648": [
+                     "n1737",
+                     "ornth"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00084",
+               "cpd00107",
+               "cpd00122",
+               "cpd00129",
+               "cpd00214",
+               "cpd00218",
+               "cpd00322",
+               "cpd03198",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00035",
+               "cpd00041",
+               "cpd00064",
+               "cpd00082",
+               "cpd00161"
+            ]
+         },
+         "Lactob.1": {
+            "ID": "r93",
+            "segments": {
+               "consumption": {
+                  "s1729": [
+                     "n1737",
+                     "ornth"
+                  ],
+                  "s1731": [
+                     "n1443",
+                     "fru"
+                  ],
+                  "s1733": [
+                     "n1783",
+                     "galct"
+                  ],
+                  "s1736": [
+                     "n1672",
+                     "malat"
+                  ],
+                  "s1738": [
+                     "n1743",
+                     "palm"
+                  ],
+                  "s1740": [
+                     "n1834",
+                     "arbns"
+                  ],
+                  "s1743": [
+                     "n1887",
+                     "decac"
+                  ]
+               },
+               "production": {
+                  "s1724": [
+                     "n1714",
+                     "akg"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00041",
+               "cpd00060",
+               "cpd00064",
+               "cpd00066",
+               "cpd00082",
+               "cpd00107",
+               "cpd00108",
+               "cpd00119",
+               "cpd00129",
+               "cpd00130",
+               "cpd00156",
+               "cpd00214",
+               "cpd00218",
+               "cpd00224",
+               "cpd00322",
+               "cpd01107"
+            ],
+            "products": [
+               "cpd00024",
+               "cpd00033",
+               "cpd00039",
+               "cpd00851"
+            ]
+         },
+         "Muriba.1": {
+            "ID": "r95",
+            "segments": {
+               "consumption": {
+                  "s1777": [
+                     "n1673",
+                     "cellb"
+                  ],
+                  "s1778": [
+                     "n1743",
+                     "palm"
+                  ],
+                  "s1780": [
+                     "n1747",
+                     "myrst"
+                  ]
+               },
+               "production": {
+                  "s1762": [
+                     "n1682",
+                     "pyr"
+                  ],
+                  "s1770": [
+                     "n1866",
+                     "fumr"
+                  ],
+                  "s1772": [
+                     "n1868",
+                     "inost"
+                  ],
+                  "s1773": [
+                     "n1882",
+                     "acglum"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00023",
+               "cpd00029",
+               "cpd00039",
+               "cpd00119",
+               "cpd00129",
+               "cpd00156",
+               "cpd00158",
+               "cpd00214",
+               "cpd00322",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00020",
+               "cpd00041",
+               "cpd00066",
+               "cpd00069",
+               "cpd00084",
+               "cpd00106",
+               "cpd00121",
+               "cpd00122",
+               "cpd00132"
+            ]
+         },
+         "Entero.2": {
+            "ID": "r80",
+            "segments": {
+               "consumption": {
+                  "s1524": [
+                     "n1714",
+                     "akg"
+                  ],
+                  "s1532": [
+                     "n1613",
+                     "galct"
+                  ],
+                  "s1535": [
+                     "n1672",
+                     "malat"
+                  ]
+               },
+               "production": {
+                  "s1537": [
+                     "n2333",
+                     "citr"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00024",
+               "cpd00029",
+               "cpd00033",
+               "cpd00036",
+               "cpd00039",
+               "cpd00064",
+               "cpd00084",
+               "cpd00108",
+               "cpd00119",
+               "cpd00129",
+               "cpd00130",
+               "cpd00132",
+               "cpd00161",
+               "cpd00214",
+               "cpd00218"
+            ],
+            "products": [
+               "cpd00066",
+               "cpd00137"
+            ]
+         },
+         "Entero.3": {
+            "ID": "r122",
+            "segments": {
+               "consumption": {
+                  "s2214": [
+                     "n1789",
+                     "dulco"
+                  ]
+               },
+               "production": {
+                  "s2210": [
+                     "n2333",
+                     "citr"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00033",
+               "cpd00039",
+               "cpd00041",
+               "cpd00069",
+               "cpd00122",
+               "cpd00129",
+               "cpd00158",
+               "cpd00214",
+               "cpd00218",
+               "cpd01171"
+            ],
+            "products": [
+               "cpd00137"
+            ]
+         },
+         "Clostr.21": {
+            "ID": "r91",
+            "segments": {
+               "consumption": {
+                  "s1703": [
+                     "n1737",
+                     "ornth"
+                  ],
+                  "s1706": [
+                     "n1866",
+                     "fumr"
+                  ],
+                  "s1709": [
+                     "n1882",
+                     "acglum"
+                  ],
+                  "s1710": [
+                     "n1673",
+                     "cellb"
+                  ],
+                  "s1711": [
+                     "n1747",
+                     "myrst"
+                  ]
+               },
+               "production": {}
+            },
+            "reactants": [
+               "cpd00064",
+               "cpd00066",
+               "cpd00084",
+               "cpd00106",
+               "cpd00107",
+               "cpd00119",
+               "cpd00122",
+               "cpd00158",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00033"
+            ]
+         },
+         "Akkerm.1": {
+            "ID": "r86",
+            "segments": {
+               "consumption": {
+                  "s1630": [
+                     "n1714",
+                     "akg"
+                  ],
+                  "s1637": [
+                     "n1672",
+                     "malat"
+                  ],
+                  "s1640": [
+                     "n1743",
+                     "palm"
+                  ],
+                  "s1643": [
+                     "n1747",
+                     "myrst"
+                  ]
+               },
+               "production": {}
+            },
+            "reactants": [
+               "cpd00024",
+               "cpd00033",
+               "cpd00066",
+               "cpd00069",
+               "cpd00084",
+               "cpd00107",
+               "cpd00130",
+               "cpd00132",
+               "cpd00156",
+               "cpd00214",
+               "cpd00218",
+               "cpd01107",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00082"
+            ]
+         },
+         "Alisti.2": {
+            "ID": "r83",
+            "segments": {
+               "consumption": {
+                  "s1588": [
+                     "n1672",
+                     "malat"
+                  ],
+                  "s1589": [
+                     "n1673",
+                     "cellb"
+                  ]
+               },
+               "production": {}
+            },
+            "reactants": [
+               "cpd00029",
+               "cpd00039",
+               "cpd00107",
+               "cpd00119",
+               "cpd00122",
+               "cpd00130",
+               "cpd00158",
+               "cpd00214",
+               "cpd00218",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00066",
+               "cpd01293"
+            ]
+         },
+         "Bifido.1": {
+            "ID": "r88",
+            "segments": {
+               "consumption": {
+                  "s1666": [
+                     "n1443",
+                     "fru"
+                  ],
+                  "s1669": [
+                     "n1673",
+                     "cellb"
+                  ]
+               },
+               "production": {
+                  "s1667": [
+                     "n1783",
+                     "galct"
+                  ],
+                  "s1668": [
+                     "n1882",
+                     "acglum"
+                  ],
+                  "s1670": [
+                     "n1695",
+                     "rhmn"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00029",
+               "cpd00066",
+               "cpd00069",
+               "cpd00082",
+               "cpd00158",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00036",
+               "cpd00108",
+               "cpd00122",
+               "cpd00396"
+            ]
+         },
+         "Rumino.3": {
+            "ID": "r120",
+            "segments": {
+               "consumption": {},
+               "production": {
+                  "s2167": [
+                     "n1737",
+                     "ornth"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00033",
+               "cpd00041",
+               "cpd00066",
+               "cpd00069",
+               "cpd00082",
+               "cpd00119",
+               "cpd00122",
+               "cpd00137",
+               "cpd00158",
+               "cpd00214"
+            ],
+            "products": [
+               "cpd00064",
+               "cpd00161",
+               "cpd00218"
+            ]
+         },
+         "Acetiv.1": {
+            "ID": "r2",
+            "segments": {
+               "consumption": {},
+               "production": {
+                  "s46": [
+                     "n1882",
+                     "acglum"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00033",
+               "cpd00041",
+               "cpd00060",
+               "cpd00066",
+               "cpd00069",
+               "cpd00107",
+               "cpd00119",
+               "cpd00161",
+               "cpd00214",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00036",
+               "cpd00064",
+               "cpd00122",
+               "cpd00218"
+            ]
+         },
+         "Eubact.7": {
+            "ID": "r123",
+            "segments": {
+               "consumption": {
+                  "s2217": [
+                     "n1714",
+                     "akg"
+                  ],
+                  "s2225": [
+                     "n1866",
+                     "fumr"
+                  ]
+               },
+               "production": {
+                  "s2219": [
+                     "n1685",
+                     "succ"
+                  ],
+                  "s2228": [
+                     "n1882",
+                     "acglum"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00024",
+               "cpd00033",
+               "cpd00041",
+               "cpd00060",
+               "cpd00066",
+               "cpd00069",
+               "cpd00106",
+               "cpd00107",
+               "cpd00119",
+               "cpd00137",
+               "cpd00158",
+               "cpd00161",
+               "cpd00214",
+               "cpd00218"
+            ],
+            "products": [
+               "cpd00036",
+               "cpd00064",
+               "cpd00122",
+               "cpd00129"
+            ]
+         },
+         "Clostr.23": {
+            "ID": "r92",
+            "segments": {
+               "consumption": {
+                  "s1720": [
+                     "n1673",
+                     "cellb"
+                  ]
+               },
+               "production": {}
+            },
+            "reactants": [
+               "cpd00066",
+               "cpd00069",
+               "cpd00084",
+               "cpd00106",
+               "cpd00107",
+               "cpd00119",
+               "cpd00158",
+               "cpd03847"
+            ],
+            "products": []
+         },
+         "Alisti.4": {
+            "ID": "r84",
+            "segments": {
+               "consumption": {},
+               "production": {
+                  "s1596": [
+                     "n1682",
+                     "pyr"
+                  ],
+                  "s1599": [
+                     "n1685",
+                     "succ"
+                  ],
+                  "s1603": [
+                     "n1688",
+                     "sucr"
+                  ],
+                  "s1610": [
+                     "n1695",
+                     "rhmn"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00060",
+               "cpd00107",
+               "cpd00119",
+               "cpd00156",
+               "cpd00214",
+               "cpd00218",
+               "cpd00322",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00020",
+               "cpd00023",
+               "cpd00035",
+               "cpd00036",
+               "cpd00041",
+               "cpd00066",
+               "cpd00076",
+               "cpd00396"
+            ]
+         },
+         "Blauti.1": {
+            "ID": "r89",
+            "segments": {
+               "consumption": {
+                  "s1679": [
+                     "n1882",
+                     "acglum"
+                  ]
+               },
+               "production": {}
+            },
+            "reactants": [
+               "cpd00024",
+               "cpd00066",
+               "cpd00069",
+               "cpd00084",
+               "cpd00107",
+               "cpd00122",
+               "cpd00158",
+               "cpd00218",
+               "cpd01107"
+            ],
+            "products": []
+         },
+         "Clostr.16": {
+            "ID": "r90",
+            "segments": {
+               "consumption": {
+                  "s1695": [
+                     "n1673",
+                     "cellb"
+                  ],
+                  "s1698": [
+                     "n1789",
+                     "dulco"
+                  ]
+               },
+               "production": {
+                  "s1692": [
+                     "n1783",
+                     "galct"
+                  ],
+                  "s1694": [
+                     "n1882",
+                     "acglum"
+                  ],
+                  "s1699": [
+                     "n1746",
+                     "melib"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00060",
+               "cpd00066",
+               "cpd00069",
+               "cpd00084",
+               "cpd00107",
+               "cpd00119",
+               "cpd00158",
+               "cpd00214",
+               "cpd00218",
+               "cpd01171"
+            ],
+            "products": [
+               "cpd00023",
+               "cpd00064",
+               "cpd00108",
+               "cpd00122",
+               "cpd03198"
+            ]
+         }
+      },
+      "12.5": {
+         "Lactob.3": {
+            "ID": "r104",
+            "segments": {
+               "consumption": {
+                  "s1926": [
+                     "n2164",
+                     "galct"
+                  ]
+               },
+               "production": {
+                  "s1924": [
+                     "n2045",
+                     "fru"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00024",
+               "cpd00039",
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00107",
+               "cpd00108",
+               "cpd00119",
+               "cpd00122",
+               "cpd00132",
+               "cpd00161",
+               "cpd00214",
+               "cpd00382"
+            ],
+            "products": [
+               "cpd00082"
+            ]
+         },
+         "Merdib.1": {
+            "ID": "r97",
+            "segments": {
+               "consumption": {
+                  "s1794": [
+                     "n2042",
+                     "akg"
+                  ],
+                  "s1798": [
+                     "n2118",
+                     "acglum"
+                  ]
+               },
+               "production": {
+                  "s1797": [
+                     "n1895",
+                     "fumr"
+                  ],
+                  "s1803": [
+                     "n1901",
+                     "4hpro"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00024",
+               "cpd00064",
+               "cpd00122",
+               "cpd00129",
+               "cpd00132",
+               "cpd00161",
+               "cpd00382",
+               "cpd01293"
+            ],
+            "products": [
+               "cpd00027",
+               "cpd00106",
+               "cpd00851"
+            ]
+         },
+         "Turici.1": {
+            "ID": "r111",
+            "segments": {
+               "consumption": {
+                  "s2035": [
+                     "n2118",
+                     "acglum"
+                  ],
+                  "s2039": [
+                     "n2151",
+                     "palm"
+                  ],
+                  "s2042": [
+                     "n2154",
+                     "melib"
+                  ]
+               },
+               "production": {
+                  "s2028": [
+                     "n2140",
+                     "glu"
+                  ],
+                  "s2030": [
+                     "n2043",
+                     "ornth"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00023",
+               "cpd00084",
+               "cpd00107",
+               "cpd00122",
+               "cpd00129",
+               "cpd00132",
+               "cpd00161",
+               "cpd00214",
+               "cpd00218",
+               "cpd00322",
+               "cpd03198"
+            ],
+            "products": [
+               "cpd00027",
+               "cpd00041",
+               "cpd00064",
+               "cpd00066",
+               "cpd00082"
+            ]
+         },
+         "Lactob.1": {
+            "ID": "r103",
+            "segments": {
+               "consumption": {
+                  "s1904": [
+                     "n2043",
+                     "ornth"
+                  ],
+                  "s1907": [
+                     "n2164",
+                     "galct"
+                  ],
+                  "s1913": [
+                     "n2151",
+                     "palm"
+                  ]
+               },
+               "production": {
+                  "s1916": [
+                     "n2020",
+                     "decac"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00029",
+               "cpd00033",
+               "cpd00041",
+               "cpd00060",
+               "cpd00064",
+               "cpd00066",
+               "cpd00107",
+               "cpd00108",
+               "cpd00119",
+               "cpd00129",
+               "cpd00132",
+               "cpd00156",
+               "cpd00161",
+               "cpd00214",
+               "cpd00322"
+            ],
+            "products": [
+               "cpd00039",
+               "cpd00851",
+               "cpd01107"
+            ]
+         },
+         "Muriba.1": {
+            "ID": "r107",
+            "segments": {
+               "consumption": {
+                  "s1975": [
+                     "n2066",
+                     "melit"
+                  ]
+               },
+               "production": {
+                  "s1967": [
+                     "n2075",
+                     "sucr"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00029",
+               "cpd00033",
+               "cpd00039",
+               "cpd00119",
+               "cpd00129",
+               "cpd00132",
+               "cpd00156",
+               "cpd00161",
+               "cpd00214",
+               "cpd00322",
+               "cpd00382",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00066",
+               "cpd00076"
+            ]
+         },
+         "Clostr.21": {
+            "ID": "r113",
+            "segments": {
+               "consumption": {
+                  "s2069": [
+                     "n2118",
+                     "acglum"
+                  ],
+                  "s2072": [
+                     "n2154",
+                     "melib"
+                  ]
+               },
+               "production": {
+                  "s2067": [
+                     "n1895",
+                     "fumr"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00060",
+               "cpd00084",
+               "cpd00119",
+               "cpd00122",
+               "cpd00132",
+               "cpd00161",
+               "cpd03198"
+            ],
+            "products": [
+               "cpd00033",
+               "cpd00106"
+            ]
+         },
+         "Akkerm.1": {
+            "ID": "r105",
+            "segments": {
+               "consumption": {
+                  "s1937": [
+                     "n2043",
+                     "ornth"
+                  ],
+                  "s1941": [
+                     "n2118",
+                     "acglum"
+                  ]
+               },
+               "production": {
+                  "s1935": [
+                     "n2042",
+                     "akg"
+                  ],
+                  "s1939": [
+                     "n2045",
+                     "fru"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00029",
+               "cpd00064",
+               "cpd00107",
+               "cpd00122",
+               "cpd00132",
+               "cpd00137",
+               "cpd00156",
+               "cpd00161",
+               "cpd00214",
+               "cpd00322",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00024",
+               "cpd00066",
+               "cpd00082"
+            ]
+         },
+         "Alisti.2": {
+            "ID": "r106",
+            "segments": {
+               "consumption": {
+                  "s1959": [
+                     "n2066",
+                     "melit"
+                  ]
+               },
+               "production": {
+                  "s1960": [
+                     "n2067",
+                     "myrst"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00029",
+               "cpd00107",
+               "cpd00119",
+               "cpd00122",
+               "cpd00132",
+               "cpd00161",
+               "cpd00214",
+               "cpd00322",
+               "cpd00382"
+            ],
+            "products": [
+               "cpd03847"
+            ]
+         },
+         "Bifido.1": {
+            "ID": "r109",
+            "segments": {
+               "consumption": {
+                  "s2000": [
+                     "n2042",
+                     "akg"
+                  ],
+                  "s2005": [
+                     "n1688",
+                     "sucr"
+                  ],
+                  "s2007": [
+                     "n2117",
+                     "inost"
+                  ],
+                  "s2012": [
+                     "n2151",
+                     "palm"
+                  ]
+               },
+               "production": {
+                  "s2006": [
+                     "n2045",
+                     "fru"
+                  ],
+                  "s2008": [
+                     "n2118",
+                     "acglum"
+                  ],
+                  "s2013": [
+                     "n2123",
+                     "rhmn"
+                  ],
+                  "s2014": [
+                     "n2067",
+                     "myrst"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00024",
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00076",
+               "cpd00121",
+               "cpd00132",
+               "cpd00141",
+               "cpd00161",
+               "cpd00214"
+            ],
+            "products": [
+               "cpd00033",
+               "cpd00082",
+               "cpd00122",
+               "cpd00396",
+               "cpd03847"
+            ]
+         },
+         "Rumino.3": {
+            "ID": "r119",
+            "segments": {
+               "consumption": {
+                  "s2144": [
+                     "n2042",
+                     "akg"
+                  ],
+                  "s2149": [
+                     "n2045",
+                     "fru"
+                  ]
+               },
+               "production": {
+                  "s2162": [
+                     "n2067",
+                     "myrst"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00024",
+               "cpd00033",
+               "cpd00060",
+               "cpd00066",
+               "cpd00069",
+               "cpd00082",
+               "cpd00119",
+               "cpd00122",
+               "cpd00129",
+               "cpd00132",
+               "cpd00137",
+               "cpd00211",
+               "cpd00322",
+               "cpd00382",
+               "cpd01293"
+            ],
+            "products": [
+               "cpd00141",
+               "cpd00161",
+               "cpd00218",
+               "cpd03847"
+            ]
+         },
+         "Acetiv.1": {
+            "ID": "r0",
+            "segments": {
+               "consumption": {
+                  "s9": [
+                     "n2045",
+                     "fru"
+                  ],
+                  "s17": [
+                     "n18",
+                     "butr"
+                  ]
+               },
+               "production": {
+                  "s6": [
+                     "n2043",
+                     "ornth"
+                  ],
+                  "s12": [
+                     "n2118",
+                     "acglum"
+                  ],
+                  "s15": [
+                     "n16",
+                     "prpa"
+                  ],
+                  "s20": [
+                     "n2067",
+                     "myrst"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00060",
+               "cpd00066",
+               "cpd00069",
+               "cpd00082",
+               "cpd00107",
+               "cpd00119",
+               "cpd00132",
+               "cpd00137",
+               "cpd00161",
+               "cpd00211",
+               "cpd01293"
+            ],
+            "products": [
+               "cpd00029",
+               "cpd00035",
+               "cpd00041",
+               "cpd00064",
+               "cpd00122",
+               "cpd00141",
+               "cpd00218",
+               "cpd03847"
+            ]
+         },
+         "Eubact.7": {
+            "ID": "r116",
+            "segments": {
+               "consumption": {
+                  "s2098": [
+                     "n2042",
+                     "akg"
+                  ],
+                  "s2106": [
+                     "n2045",
+                     "fru"
+                  ],
+                  "s2113": [
+                     "n2230",
+                     "prpa"
+                  ]
+               },
+               "production": {
+                  "s2097": [
+                     "n2215",
+                     "pyr"
+                  ],
+                  "s2101": [
+                     "n2159",
+                     "succ"
+                  ],
+                  "s2109": [
+                     "n2118",
+                     "acglum"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00024",
+               "cpd00060",
+               "cpd00066",
+               "cpd00069",
+               "cpd00082",
+               "cpd00107",
+               "cpd00119",
+               "cpd00132",
+               "cpd00137",
+               "cpd00141",
+               "cpd00161",
+               "cpd00214",
+               "cpd00218",
+               "cpd01293"
+            ],
+            "products": [
+               "cpd00020",
+               "cpd00033",
+               "cpd00035",
+               "cpd00036",
+               "cpd00064",
+               "cpd00122",
+               "cpd00129"
+            ]
+         },
+         "Clostr.23": {
+            "ID": "r114",
+            "segments": {
+               "consumption": {
+                  "s2076": [
+                     "n2043",
+                     "ornth"
+                  ],
+                  "s2080": [
+                     "n2118",
+                     "acglum"
+                  ],
+                  "s2084": [
+                     "n2173",
+                     "dulco"
+                  ],
+                  "s2085": [
+                     "n2154",
+                     "melib"
+                  ]
+               },
+               "production": {
+                  "s2081": [
+                     "n2196",
+                     "malat"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00060",
+               "cpd00064",
+               "cpd00084",
+               "cpd00119",
+               "cpd00122",
+               "cpd00132",
+               "cpd00161",
+               "cpd01171",
+               "cpd03198"
+            ],
+            "products": [
+               "cpd00107",
+               "cpd00130"
+            ]
+         },
+         "Blauti.1": {
+            "ID": "r110",
+            "segments": {
+               "consumption": {
+                  "s2024": [
+                     "n2154",
+                     "melib"
+                  ]
+               },
+               "production": {}
+            },
+            "reactants": [
+               "cpd00060",
+               "cpd00084",
+               "cpd00122",
+               "cpd00132",
+               "cpd00161",
+               "cpd00218",
+               "cpd03198"
+            ],
+            "products": [
+               "cpd00130"
+            ]
+         },
+         "Clostr.16": {
+            "ID": "r112",
+            "segments": {
+               "consumption": {
+                  "s2060": [
+                     "n2173",
+                     "dulco"
+                  ]
+               },
+               "production": {
+                  "s2045": [
+                     "n2159",
+                     "succ"
+                  ],
+                  "s2047": [
+                     "n2043",
+                     "ornth"
+                  ],
+                  "s2051": [
+                     "n2164",
+                     "galct"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00060",
+               "cpd00066",
+               "cpd00069",
+               "cpd00107",
+               "cpd00119",
+               "cpd00132",
+               "cpd00137",
+               "cpd00161",
+               "cpd00214",
+               "cpd00218",
+               "cpd01171",
+               "cpd01293"
+            ],
+            "products": [
+               "cpd00036",
+               "cpd00064",
+               "cpd00108",
+               "cpd00122",
+               "cpd00129"
+            ]
+         },
+         "Oscill.3": {
+            "ID": "r118",
+            "segments": {
+               "consumption": {
+                  "s2137": [
+                     "n1882",
+                     "acglum"
+                  ]
+               },
+               "production": {
+                  "s2130": [
+                     "n1685",
+                     "succ"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00029",
+               "cpd00039",
+               "cpd00041",
+               "cpd00064",
+               "cpd00122",
+               "cpd00132",
+               "cpd00161",
+               "cpd00214",
+               "cpd00382"
+            ],
+            "products": [
+               "cpd00033",
+               "cpd00036",
+               "cpd00066",
+               "cpd00069",
+               "cpd00106"
+            ]
+         },
+         "Murimo.1": {
+            "ID": "r108",
+            "segments": {
+               "consumption": {
+                  "s1993": [
+                     "n2102",
+                     "cellb"
+                  ],
+                  "s1996": [
+                     "n2066",
+                     "melit"
+                  ]
+               },
+               "production": {
+                  "s1990": [
+                     "n2164",
+                     "galct"
+                  ],
+                  "s1997": [
+                     "n2154",
+                     "melib"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00023",
+               "cpd00036",
+               "cpd00039",
+               "cpd00041",
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00084",
+               "cpd00107",
+               "cpd00132",
+               "cpd00158",
+               "cpd00161",
+               "cpd00214",
+               "cpd00382"
+            ],
+            "products": [
+               "cpd00033",
+               "cpd00106",
+               "cpd00108",
+               "cpd00122",
+               "cpd03198"
+            ]
+         },
+         "Oscill.1": {
+            "ID": "r117",
+            "segments": {
+               "consumption": {
+                  "s2125": [
+                     "n2066",
+                     "melit"
+                  ]
+               },
+               "production": {}
+            },
+            "reactants": [
+               "cpd00041",
+               "cpd00106",
+               "cpd00132",
+               "cpd00161",
+               "cpd00214",
+               "cpd00382"
+            ],
+            "products": []
+         },
+         "Lachno.1": {
+            "ID": "r115",
+            "segments": {
+               "consumption": {
+                  "s2089": [
+                     "n2118",
+                     "acglum"
+                  ],
+                  "s2093": [
+                     "n2173",
+                     "dulco"
+                  ]
+               },
+               "production": {}
+            },
+            "reactants": [
+               "cpd00024",
+               "cpd00122",
+               "cpd00132",
+               "cpd00161",
+               "cpd01171",
+               "cpd03198"
+            ],
+            "products": [
+               "cpd00130"
+            ]
+         }
+      }
+   },
+   "WD": {
+      "-1.5": {
+         "Lactob.3": {
+            "ID": "r25",
+            "segments": {
+               "consumption": {
+                  "s477": [
+                     "n503",
+                     "prpa"
+                  ],
+                  "s481": [
+                     "n507",
+                     "rhmn"
+                  ]
+               },
+               "production": {
+                  "s466": [
+                     "n493",
+                     "akg"
+                  ],
+                  "s472": [
+                     "n498",
+                     "fru"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00035",
+               "cpd00039",
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00084",
+               "cpd00107",
+               "cpd00119",
+               "cpd00132",
+               "cpd00141",
+               "cpd00161",
+               "cpd00214",
+               "cpd00396"
+            ],
+            "products": [
+               "cpd00024",
+               "cpd00082",
+               "cpd00218",
+               "cpd03847"
+            ]
+         },
+         "Merdib.1": {
+            "ID": "r26",
+            "segments": {
+               "consumption": {
+                  "s487": [
+                     "n514",
+                     "ornth"
+                  ],
+                  "s490": [
+                     "n498",
+                     "fru"
+                  ],
+                  "s494": [
+                     "n570",
+                     "fucos"
+                  ],
+                  "s495": [
+                     "n522",
+                     "decac"
+                  ]
+               },
+               "production": {
+                  "s486": [
+                     "n528",
+                     "succ"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00029",
+               "cpd00064",
+               "cpd00082",
+               "cpd00129",
+               "cpd00132",
+               "cpd00751",
+               "cpd01107",
+               "cpd01293"
+            ],
+            "products": [
+               "cpd00036",
+               "cpd00066",
+               "cpd00076",
+               "cpd00550"
+            ]
+         },
+         "Muriba.1": {
+            "ID": "r27",
+            "segments": {
+               "consumption": {
+                  "s511": [
+                     "n539",
+                     "cellb"
+                  ]
+               },
+               "production": {
+                  "s500": [
+                     "n528",
+                     "succ"
+                  ],
+                  "s506": [
+                     "n534",
+                     "acglum"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00033",
+               "cpd00039",
+               "cpd00041",
+               "cpd00064",
+               "cpd00119",
+               "cpd00129",
+               "cpd00132",
+               "cpd00141",
+               "cpd00156",
+               "cpd00158",
+               "cpd00161",
+               "cpd00214",
+               "cpd00322",
+               "cpd01107",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00036",
+               "cpd00069",
+               "cpd00122",
+               "cpd00218"
+            ]
+         },
+         "Lactob.4": {
+            "ID": "r12",
+            "segments": {
+               "consumption": {
+                  "s228": [
+                     "n695",
+                     "galct"
+                  ],
+                  "s230": [
+                     "n243",
+                     "malat"
+                  ],
+                  "s236": [
+                     "n249",
+                     "melit"
+                  ]
+               },
+               "production": {
+                  "s220": [
+                     "n493",
+                     "akg"
+                  ],
+                  "s226": [
+                     "n498",
+                     "fru"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00033",
+               "cpd00039",
+               "cpd00069",
+               "cpd00076",
+               "cpd00084",
+               "cpd00108",
+               "cpd00119",
+               "cpd00130",
+               "cpd00132",
+               "cpd00141",
+               "cpd00161",
+               "cpd00214",
+               "cpd00322",
+               "cpd00382"
+            ],
+            "products": [
+               "cpd00024",
+               "cpd00041",
+               "cpd00082",
+               "cpd00550"
+            ]
+         },
+         "Akkerm.1": {
+            "ID": "r28",
+            "segments": {
+               "consumption": {
+                  "s531": [
+                     "n560",
+                     "inost"
+                  ],
+                  "s541": [
+                     "n570",
+                     "fucos"
+                  ]
+               },
+               "production": {
+                  "s520": [
+                     "n493",
+                     "akg"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00029",
+               "cpd00033",
+               "cpd00035",
+               "cpd00039",
+               "cpd00064",
+               "cpd00066",
+               "cpd00084",
+               "cpd00107",
+               "cpd00121",
+               "cpd00122",
+               "cpd00132",
+               "cpd00137",
+               "cpd00141",
+               "cpd00156",
+               "cpd00161",
+               "cpd00214",
+               "cpd00322",
+               "cpd00751",
+               "cpd01107"
+            ],
+            "products": [
+               "cpd00024",
+               "cpd00069",
+               "cpd00082",
+               "cpd00218"
+            ]
+         },
+         "Bifido.1": {
+            "ID": "r29",
+            "segments": {
+               "consumption": {
+                  "s554": [
+                     "n584",
+                     "palm"
+                  ]
+               },
+               "production": {
+                  "s556": [
+                     "n586",
+                     "myrst"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00084",
+               "cpd00132",
+               "cpd00141",
+               "cpd00161",
+               "cpd00214"
+            ],
+            "products": [
+               "cpd00024",
+               "cpd00029",
+               "cpd00218",
+               "cpd03847"
+            ]
+         },
+         "Rumino.3": {
+            "ID": "r30",
+            "segments": {
+               "consumption": {
+                  "s566": [
+                     "n498",
+                     "fru"
+                  ],
+                  "s575": [
+                     "n703",
+                     "butr"
+                  ],
+                  "s576": [
+                     "n584",
+                     "palm"
+                  ]
+               },
+               "production": {
+                  "s559": [
+                     "n668",
+                     "pyr"
+                  ],
+                  "s580": [
+                     "n586",
+                     "myrst"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00033",
+               "cpd00041",
+               "cpd00060",
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00082",
+               "cpd00119",
+               "cpd00122",
+               "cpd00129",
+               "cpd00132",
+               "cpd00137",
+               "cpd00156",
+               "cpd00158",
+               "cpd00211",
+               "cpd00214",
+               "cpd00322",
+               "cpd01293"
+            ],
+            "products": [
+               "cpd00020",
+               "cpd00161",
+               "cpd00218",
+               "cpd03847"
+            ]
+         },
+         "Lactoc.1": {
+            "ID": "r31",
+            "segments": {
+               "consumption": {
+                  "s583": [
+                     "n493",
+                     "akg"
+                  ],
+                  "s586": [
+                     "n528",
+                     "succ"
+                  ],
+                  "s593": [
+                     "n534",
+                     "acglum"
+                  ],
+                  "s595": [
+                     "n627",
+                     "citr"
+                  ],
+                  "s596": [
+                     "n503",
+                     "prpa"
+                  ],
+                  "s597": [
+                     "n539",
+                     "cellb"
+                  ],
+                  "s599": [
+                     "n703",
+                     "butr"
+                  ],
+                  "s602": [
+                     "n634",
+                     "allos"
+                  ],
+                  "s603": [
+                     "n706",
+                     "dulco"
+                  ]
+               },
+               "production": {
+                  "s584": [
+                     "n616",
+                     "glu"
+                  ],
+                  "s592": [
+                     "n498",
+                     "fru"
+                  ],
+                  "s600": [
+                     "n584",
+                     "palm"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00024",
+               "cpd00033",
+               "cpd00036",
+               "cpd00039",
+               "cpd00066",
+               "cpd00122",
+               "cpd00132",
+               "cpd00137",
+               "cpd00141",
+               "cpd00158",
+               "cpd00161",
+               "cpd00211",
+               "cpd01055",
+               "cpd01171"
+            ],
+            "products": [
+               "cpd00027",
+               "cpd00041",
+               "cpd00060",
+               "cpd00069",
+               "cpd00082",
+               "cpd00214",
+               "cpd00322"
+            ]
+         },
+         "Paracl.1": {
+            "ID": "r32",
+            "segments": {
+               "consumption": {
+                  "s622": [
+                     "n503",
+                     "prpa"
+                  ],
+                  "s624": [
+                     "n539",
+                     "cellb"
+                  ],
+                  "s627": [
+                     "n249",
+                     "melit"
+                  ],
+                  "s628": [
+                     "n706",
+                     "dulco"
+                  ]
+               },
+               "production": {
+                  "s606": [
+                     "n668",
+                     "pyr"
+                  ],
+                  "s609": [
+                     "n528",
+                     "succ"
+                  ],
+                  "s617": [
+                     "n695",
+                     "galct"
+                  ],
+                  "s619": [
+                     "n534",
+                     "acglum"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00039",
+               "cpd00041",
+               "cpd00060",
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00107",
+               "cpd00119",
+               "cpd00132",
+               "cpd00137",
+               "cpd00141",
+               "cpd00156",
+               "cpd00158",
+               "cpd00214",
+               "cpd00218",
+               "cpd00382",
+               "cpd01171",
+               "cpd01293"
+            ],
+            "products": [
+               "cpd00020",
+               "cpd00029",
+               "cpd00033",
+               "cpd00036",
+               "cpd00108",
+               "cpd00122",
+               "cpd01242"
+            ]
+         },
+         "Bacter.3": {
+            "ID": "r33",
+            "segments": {
+               "consumption": {
+                  "s647": [
+                     "n507",
+                     "rhmn"
+                  ]
+               },
+               "production": {
+                  "s633": [
+                     "n668",
+                     "pyr"
+                  ],
+                  "s634": [
+                     "n493",
+                     "akg"
+                  ],
+                  "s635": [
+                     "n528",
+                     "succ"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00039",
+               "cpd00064",
+               "cpd00066",
+               "cpd00119",
+               "cpd00129",
+               "cpd00132",
+               "cpd00161",
+               "cpd00214",
+               "cpd00322",
+               "cpd00396",
+               "cpd01107"
+            ],
+            "products": [
+               "cpd00020",
+               "cpd00024",
+               "cpd00036",
+               "cpd00082",
+               "cpd00218"
+            ]
+         },
+         "Clostr.11": {
+            "ID": "r34",
+            "segments": {
+               "consumption": {
+                  "s657": [
+                     "n498",
+                     "fru"
+                  ],
+                  "s662": [
+                     "n560",
+                     "inost"
+                  ],
+                  "s668": [
+                     "n703",
+                     "butr"
+                  ],
+                  "s671": [
+                     "n706",
+                     "dulco"
+                  ]
+               },
+               "production": {
+                  "s651": [
+                     "n668",
+                     "pyr"
+                  ],
+                  "s660": [
+                     "n695",
+                     "galct"
+                  ],
+                  "s663": [
+                     "n534",
+                     "acglum"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00041",
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00082",
+               "cpd00084",
+               "cpd00107",
+               "cpd00119",
+               "cpd00121",
+               "cpd00129",
+               "cpd00132",
+               "cpd00137",
+               "cpd00161",
+               "cpd00211",
+               "cpd00214",
+               "cpd01171",
+               "cpd01293"
+            ],
+            "products": [
+               "cpd00020",
+               "cpd00036",
+               "cpd00108",
+               "cpd00122",
+               "cpd00218"
+            ]
+         }
+      },
+      "1.5": {
+         "Merdib.1": {
+            "ID": "r51",
+            "segments": {
+               "consumption": {
+                  "s936": [
+                     "n668",
+                     "pyr"
+                  ],
+                  "s941": [
+                     "n993",
+                     "ornth"
+                  ],
+                  "s944": [
+                     "n996",
+                     "ribs"
+                  ],
+                  "s945": [
+                     "n997",
+                     "fumr"
+                  ],
+                  "s946": [
+                     "n998",
+                     "inost"
+                  ],
+                  "s948": [
+                     "n1000",
+                     "malat"
+                  ],
+                  "s951": [
+                     "n1003",
+                     "butr"
+                  ],
+                  "s953": [
+                     "n1005",
+                     "rhmn"
+                  ],
+                  "s955": [
+                     "n1007",
+                     "decac"
+                  ],
+                  "s956": [
+                     "n1008",
+                     "melib"
+                  ],
+                  "s957": [
+                     "n586",
+                     "myrst"
+                  ]
+               },
+               "production": {
+                  "s940": [
+                     "n1051",
+                     "succ"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00020",
+               "cpd00023",
+               "cpd00029",
+               "cpd00064",
+               "cpd00069",
+               "cpd00105",
+               "cpd00106",
+               "cpd00121",
+               "cpd00130",
+               "cpd00132",
+               "cpd00211",
+               "cpd00218",
+               "cpd00396",
+               "cpd00550",
+               "cpd01107",
+               "cpd03198",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00033",
+               "cpd00036",
+               "cpd00066",
+               "cpd00129",
+               "cpd00156"
+            ]
+         },
+         "Lactoc.1": {
+            "ID": "r53",
+            "segments": {
+               "consumption": {
+                  "s993": [
+                     "n1043",
+                     "akg"
+                  ],
+                  "s997": [
+                     "n1051",
+                     "succ"
+                  ],
+                  "s1002": [
+                     "n1056",
+                     "sucr"
+                  ],
+                  "s1004": [
+                     "n1058",
+                     "galct"
+                  ],
+                  "s1005": [
+                     "n1059",
+                     "acglum"
+                  ],
+                  "s1007": [
+                     "n1061",
+                     "prpa"
+                  ],
+                  "s1009": [
+                     "n1063",
+                     "cellb"
+                  ],
+                  "s1011": [
+                     "n1003",
+                     "butr"
+                  ],
+                  "s1012": [
+                     "n1066",
+                     "palm"
+                  ],
+                  "s1014": [
+                     "n1068",
+                     "melit"
+                  ],
+                  "s1015": [
+                     "n1005",
+                     "rhmn"
+                  ],
+                  "s1016": [
+                     "n1070",
+                     "fucos"
+                  ],
+                  "s1017": [
+                     "n1071",
+                     "4hpro"
+                  ],
+                  "s1018": [
+                     "n1072",
+                     "allos"
+                  ],
+                  "s1019": [
+                     "n1073",
+                     "dulco"
+                  ],
+                  "s1020": [
+                     "n1008",
+                     "melib"
+                  ],
+                  "s1021": [
+                     "n586",
+                     "myrst"
+                  ]
+               },
+               "production": {}
+            },
+            "reactants": [
+               "cpd00024",
+               "cpd00033",
+               "cpd00036",
+               "cpd00039",
+               "cpd00069",
+               "cpd00076",
+               "cpd00108",
+               "cpd00122",
+               "cpd00132",
+               "cpd00141",
+               "cpd00158",
+               "cpd00161",
+               "cpd00211",
+               "cpd00214",
+               "cpd00382",
+               "cpd00396",
+               "cpd00751",
+               "cpd00851",
+               "cpd01055",
+               "cpd01171",
+               "cpd03198",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00023",
+               "cpd00029",
+               "cpd00035",
+               "cpd00041",
+               "cpd00066",
+               "cpd00107",
+               "cpd00156",
+               "cpd00322"
+            ]
+         }
+      },
+      "4.0": {
+         "Lactoc.1": {
+            "ID": "r63",
+            "segments": {
+               "consumption": {
+                  "s1196": [
+                     "n1257",
+                     "pyr"
+                  ],
+                  "s1198": [
+                     "n1262",
+                     "akg"
+                  ],
+                  "s1202": [
+                     "n1266",
+                     "succ"
+                  ],
+                  "s1207": [
+                     "n1271",
+                     "sucr"
+                  ],
+                  "s1208": [
+                     "n1272",
+                     "fru"
+                  ],
+                  "s1210": [
+                     "n1274",
+                     "galct"
+                  ],
+                  "s1211": [
+                     "n1275",
+                     "inost"
+                  ],
+                  "s1212": [
+                     "n1276",
+                     "acglum"
+                  ],
+                  "s1213": [
+                     "n1277",
+                     "malat"
+                  ],
+                  "s1216": [
+                     "n1280",
+                     "prpa"
+                  ],
+                  "s1218": [
+                     "n1282",
+                     "cellb"
+                  ],
+                  "s1220": [
+                     "n1284",
+                     "butr"
+                  ],
+                  "s1221": [
+                     "n1285",
+                     "palm"
+                  ],
+                  "s1222": [
+                     "n1286",
+                     "melit"
+                  ],
+                  "s1223": [
+                     "n1287",
+                     "rhmn"
+                  ],
+                  "s1225": [
+                     "n1289",
+                     "fucos"
+                  ],
+                  "s1226": [
+                     "n1290",
+                     "allos"
+                  ],
+                  "s1227": [
+                     "n1291",
+                     "decac"
+                  ],
+                  "s1228": [
+                     "n1292",
+                     "dulco"
+                  ],
+                  "s1229": [
+                     "n1293",
+                     "myrst"
+                  ]
+               },
+               "production": {
+                  "s1215": [
+                     "n1279",
+                     "citr"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00020",
+               "cpd00023",
+               "cpd00024",
+               "cpd00029",
+               "cpd00033",
+               "cpd00035",
+               "cpd00036",
+               "cpd00039",
+               "cpd00069",
+               "cpd00076",
+               "cpd00082",
+               "cpd00108",
+               "cpd00121",
+               "cpd00122",
+               "cpd00130",
+               "cpd00132",
+               "cpd00141",
+               "cpd00158",
+               "cpd00161",
+               "cpd00211",
+               "cpd00214",
+               "cpd00382",
+               "cpd00396",
+               "cpd00550",
+               "cpd00751",
+               "cpd01055",
+               "cpd01107",
+               "cpd01171",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00041",
+               "cpd00066",
+               "cpd00107",
+               "cpd00137",
+               "cpd00156"
+            ]
+         }
+      },
+      "6.0": {
+         "Acinet.1": {
+            "ID": "r5",
+            "segments": {
+               "consumption": {
+                  "s88": [
+                     "n94",
+                     "ornth"
+                  ],
+                  "s92": [
+                     "n98",
+                     "ribs"
+                  ],
+                  "s93": [
+                     "n99",
+                     "fumr"
+                  ],
+                  "s95": [
+                     "n101",
+                     "inost"
+                  ],
+                  "s96": [
+                     "n102",
+                     "malat"
+                  ],
+                  "s99": [
+                     "n1509",
+                     "prpa"
+                  ],
+                  "s103": [
+                     "n1515",
+                     "melit"
+                  ],
+                  "s104": [
+                     "n110",
+                     "fucos"
+                  ],
+                  "s105": [
+                     "n1520",
+                     "decac"
+                  ],
+                  "s106": [
+                     "n112",
+                     "myrst"
+                  ]
+               },
+               "production": {
+                  "s86": [
+                     "n1498",
+                     "succ"
+                  ],
+                  "s94": [
+                     "n1505",
+                     "galct"
+                  ],
+                  "s98": [
+                     "n104",
+                     "citr"
+                  ],
+                  "s101": [
+                     "n1513",
+                     "butr"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00023",
+               "cpd00039",
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00105",
+               "cpd00106",
+               "cpd00121",
+               "cpd00130",
+               "cpd00132",
+               "cpd00141",
+               "cpd00161",
+               "cpd00322",
+               "cpd00382",
+               "cpd00751",
+               "cpd01107",
+               "cpd03847"
+            ],
+            "products": [
+               "cpd00033",
+               "cpd00036",
+               "cpd00082",
+               "cpd00108",
+               "cpd00137",
+               "cpd00211"
+            ]
+         },
+         "Lactoc.1": {
+            "ID": "r75",
+            "segments": {
+               "consumption": {
+                  "s1418": [
+                     "n1491",
+                     "pyr"
+                  ],
+                  "s1420": [
+                     "n1496",
+                     "akg"
+                  ],
+                  "s1422": [
+                     "n1498",
+                     "succ"
+                  ],
+                  "s1429": [
+                     "n1505",
+                     "galct"
+                  ],
+                  "s1430": [
+                     "n1506",
+                     "acglum"
+                  ],
+                  "s1433": [
+                     "n1509",
+                     "prpa"
+                  ],
+                  "s1435": [
+                     "n1511",
+                     "cellb"
+                  ],
+                  "s1437": [
+                     "n1513",
+                     "butr"
+                  ],
+                  "s1439": [
+                     "n1515",
+                     "melit"
+                  ],
+                  "s1440": [
+                     "n1516",
+                     "rhmn"
+                  ],
+                  "s1442": [
+                     "n1518",
+                     "4hpro"
+                  ],
+                  "s1443": [
+                     "n1519",
+                     "allos"
+                  ],
+                  "s1444": [
+                     "n1520",
+                     "decac"
+                  ],
+                  "s1445": [
+                     "n1521",
+                     "dulco"
+                  ]
+               },
+               "production": {}
+            },
+            "reactants": [
+               "cpd00020",
+               "cpd00024",
+               "cpd00036",
+               "cpd00039",
+               "cpd00069",
+               "cpd00082",
+               "cpd00108",
+               "cpd00122",
+               "cpd00129",
+               "cpd00132",
+               "cpd00141",
+               "cpd00158",
+               "cpd00211",
+               "cpd00382",
+               "cpd00396",
+               "cpd00550",
+               "cpd00851",
+               "cpd01055",
+               "cpd01107",
+               "cpd01171"
+            ],
+            "products": [
+               "cpd00023",
+               "cpd00035",
+               "cpd00041",
+               "cpd00066",
+               "cpd00107",
+               "cpd00156",
+               "cpd00161",
+               "cpd00322"
+            ]
+         }
+      },
+      "9.0": {
+         "Lactob.3": {
+            "ID": "r81",
+            "segments": {
+               "consumption": {
+                  "s1553": [
+                     "n2318",
+                     "prpa"
+                  ],
+                  "s1557": [
+                     "n1540",
+                     "melit"
+                  ]
+               },
+               "production": {
+                  "s1543": [
+                     "n1626",
+                     "glu"
+                  ],
+                  "s1549": [
+                     "n2308",
+                     "fru"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00039",
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00084",
+               "cpd00107",
+               "cpd00119",
+               "cpd00141",
+               "cpd00161",
+               "cpd00214",
+               "cpd00218",
+               "cpd00382",
+               "cpd01242"
+            ],
+            "products": [
+               "cpd00027",
+               "cpd00033",
+               "cpd00082"
+            ]
+         },
+         "Entero.2": {
+            "ID": "r121",
+            "segments": {
+               "consumption": {
+                  "s2180": [
+                     "n2299",
+                     "pyr"
+                  ],
+                  "s2183": [
+                     "n1589",
+                     "ornth"
+                  ],
+                  "s2186": [
+                     "n2308",
+                     "fru"
+                  ],
+                  "s2195": [
+                     "n104",
+                     "citr"
+                  ],
+                  "s2196": [
+                     "n2318",
+                     "prpa"
+                  ],
+                  "s2197": [
+                     "n1538",
+                     "butr"
+                  ],
+                  "s2201": [
+                     "n2323",
+                     "dulco"
+                  ]
+               },
+               "production": {
+                  "s2188": [
+                     "n2310",
+                     "ribs"
+                  ],
+                  "s2189": [
+                     "n2311",
+                     "fumr"
+                  ],
+                  "s2190": [
+                     "n2312",
+                     "galct"
+                  ],
+                  "s2192": [
+                     "n2314",
+                     "inost"
+                  ],
+                  "s2193": [
+                     "n2315",
+                     "malat"
+                  ],
+                  "s2199": [
+                     "n2321",
+                     "arbns"
+                  ],
+                  "s2200": [
+                     "n2322",
+                     "4hpro"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00020",
+               "cpd00035",
+               "cpd00039",
+               "cpd00064",
+               "cpd00082",
+               "cpd00084",
+               "cpd00119",
+               "cpd00132",
+               "cpd00137",
+               "cpd00141",
+               "cpd00211",
+               "cpd00218",
+               "cpd01171"
+            ],
+            "products": [
+               "cpd00066",
+               "cpd00069",
+               "cpd00105",
+               "cpd00106",
+               "cpd00108",
+               "cpd00121",
+               "cpd00130",
+               "cpd00224",
+               "cpd00851"
+            ]
+         },
+         "Entero.1": {
+            "ID": "r79",
+            "segments": {
+               "consumption": {
+                  "s1509": [
+                     "n1589",
+                     "ornth"
+                  ],
+                  "s1517": [
+                     "n2318",
+                     "prpa"
+                  ],
+                  "s1518": [
+                     "n1538",
+                     "butr"
+                  ],
+                  "s1519": [
+                     "n1558",
+                     "palm"
+                  ],
+                  "s1521": [
+                     "n2323",
+                     "dulco"
+                  ]
+               },
+               "production": {
+                  "s1512": [
+                     "n2308",
+                     "fru"
+                  ],
+                  "s1515": [
+                     "n1534",
+                     "acglum"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00039",
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00107",
+               "cpd00119",
+               "cpd00132",
+               "cpd00141",
+               "cpd00211",
+               "cpd00214",
+               "cpd00218",
+               "cpd01171"
+            ],
+            "products": [
+               "cpd00060",
+               "cpd00082",
+               "cpd00122"
+            ]
+         },
+         "Acinet.1": {
+            "ID": "r77",
+            "segments": {
+               "consumption": {
+                  "s1470": [
+                     "n1544",
+                     "akg"
+                  ],
+                  "s1477": [
+                     "n2311",
+                     "fumr"
+                  ],
+                  "s1478": [
+                     "n2315",
+                     "malat"
+                  ],
+                  "s1479": [
+                     "n104",
+                     "citr"
+                  ],
+                  "s1480": [
+                     "n1558",
+                     "palm"
+                  ]
+               },
+               "production": {
+                  "s1482": [
+                     "n1560",
+                     "decac"
+                  ],
+                  "s1483": [
+                     "n1561",
+                     "myrst"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00024",
+               "cpd00033",
+               "cpd00039",
+               "cpd00064",
+               "cpd00069",
+               "cpd00106",
+               "cpd00130",
+               "cpd00137",
+               "cpd00214",
+               "cpd00322"
+            ],
+            "products": [
+               "cpd00023",
+               "cpd00066",
+               "cpd00082",
+               "cpd01107",
+               "cpd03847"
+            ]
+         },
+         "Lactoc.1": {
+            "ID": "r76",
+            "segments": {
+               "consumption": {
+                  "s1449": [
+                     "n1544",
+                     "akg"
+                  ],
+                  "s1450": [
+                     "n1527",
+                     "succ"
+                  ],
+                  "s1455": [
+                     "n1532",
+                     "sucr"
+                  ],
+                  "s1456": [
+                     "n2308",
+                     "fru"
+                  ],
+                  "s1457": [
+                     "n1534",
+                     "acglum"
+                  ],
+                  "s1461": [
+                     "n1538",
+                     "butr"
+                  ],
+                  "s1463": [
+                     "n1540",
+                     "melit"
+                  ]
+               },
+               "production": {
+                  "s1459": [
+                     "n104",
+                     "citr"
+                  ],
+                  "s1464": [
+                     "n1541",
+                     "rhmn"
+                  ],
+                  "s1466": [
+                     "n1543",
+                     "melib"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00023",
+               "cpd00024",
+               "cpd00036",
+               "cpd00039",
+               "cpd00066",
+               "cpd00069",
+               "cpd00076",
+               "cpd00082",
+               "cpd00122",
+               "cpd00132",
+               "cpd00161",
+               "cpd00211",
+               "cpd00382"
+            ],
+            "products": [
+               "cpd00060",
+               "cpd00137",
+               "cpd00322",
+               "cpd00396",
+               "cpd00550",
+               "cpd03198"
+            ]
+         },
+         "Agroba.1": {
+            "ID": "r78",
+            "segments": {
+               "consumption": {
+                  "s1488": [
+                     "n1527",
+                     "succ"
+                  ],
+                  "s1501": [
+                     "n1540",
+                     "melit"
+                  ],
+                  "s1502": [
+                     "n1581",
+                     "2drib"
+                  ]
+               },
+               "production": {
+                  "s1493": [
+                     "n2311",
+                     "fumr"
+                  ],
+                  "s1495": [
+                     "n2312",
+                     "galct"
+                  ],
+                  "s1497": [
+                     "n1576",
+                     "cellb"
+                  ],
+                  "s1504": [
+                     "n1543",
+                     "melib"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00029",
+               "cpd00036",
+               "cpd00066",
+               "cpd00069",
+               "cpd00084",
+               "cpd00161",
+               "cpd00214",
+               "cpd00218",
+               "cpd00382",
+               "cpd01242"
+            ],
+            "products": [
+               "cpd00023",
+               "cpd00064",
+               "cpd00106",
+               "cpd00107",
+               "cpd00108",
+               "cpd00132",
+               "cpd00158",
+               "cpd01293",
+               "cpd03198"
+            ]
+         },
+         "Stenot.1": {
+            "ID": "r82",
+            "segments": {
+               "consumption": {
+                  "s1576": [
+                     "n1538",
+                     "butr"
+                  ],
+                  "s1579": [
+                     "n1540",
+                     "melit"
+                  ]
+               },
+               "production": {
+                  "s1562": [
+                     "n1626",
+                     "glu"
+                  ],
+                  "s1571": [
+                     "n2311",
+                     "fumr"
+                  ],
+                  "s1572": [
+                     "n2312",
+                     "galct"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00033",
+               "cpd00039",
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00082",
+               "cpd00084",
+               "cpd00119",
+               "cpd00137",
+               "cpd00211",
+               "cpd00214",
+               "cpd00218",
+               "cpd00382"
+            ],
+            "products": [
+               "cpd00023",
+               "cpd00027",
+               "cpd00041",
+               "cpd00106",
+               "cpd00108",
+               "cpd00122"
+            ]
+         }
+      },
+      "12.5": {
+         "Lactob.3": {
+            "ID": "r102",
+            "segments": {
+               "consumption": {
+                  "s1894": [
+                     "n1942",
+                     "palm"
+                  ],
+                  "s1896": [
+                     "n85",
+                     "melit"
+                  ]
+               },
+               "production": {
+                  "s1882": [
+                     "n1986",
+                     "glu"
+                  ],
+                  "s1889": [
+                     "n1992",
+                     "inost"
+                  ],
+                  "s1890": [
+                     "n1937",
+                     "acglum"
+                  ],
+                  "s1892": [
+                     "n1940",
+                     "citr"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00033",
+               "cpd00039",
+               "cpd00066",
+               "cpd00069",
+               "cpd00107",
+               "cpd00119",
+               "cpd00132",
+               "cpd00161",
+               "cpd00214",
+               "cpd00218",
+               "cpd00382"
+            ],
+            "products": [
+               "cpd00027",
+               "cpd00121",
+               "cpd00122",
+               "cpd00137"
+            ]
+         },
+         "Entero.2": {
+            "ID": "r101",
+            "segments": {
+               "consumption": {
+                  "s1866": [
+                     "n1951",
+                     "fru"
+                  ],
+                  "s1867": [
+                     "n82",
+                     "galct"
+                  ],
+                  "s1872": [
+                     "n1940",
+                     "citr"
+                  ],
+                  "s1873": [
+                     "n1975",
+                     "prpa"
+                  ],
+                  "s1879": [
+                     "n1961",
+                     "dulco"
+                  ]
+               },
+               "production": {
+                  "s1869": [
+                     "n1937",
+                     "acglum"
+                  ],
+                  "s1875": [
+                     "n1942",
+                     "palm"
+                  ],
+                  "s1877": [
+                     "n1979",
+                     "arbns"
+                  ],
+                  "s1878": [
+                     "n1980",
+                     "decac"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00035",
+               "cpd00064",
+               "cpd00082",
+               "cpd00108",
+               "cpd00119",
+               "cpd00129",
+               "cpd00132",
+               "cpd00137",
+               "cpd00141",
+               "cpd00161",
+               "cpd00218",
+               "cpd01171"
+            ],
+            "products": [
+               "cpd00069",
+               "cpd00122",
+               "cpd00214",
+               "cpd00224",
+               "cpd01107"
+            ]
+         },
+         "Entero.1": {
+            "ID": "r100",
+            "segments": {
+               "consumption": {
+                  "s1849": [
+                     "n1929",
+                     "akg"
+                  ],
+                  "s1856": [
+                     "n1942",
+                     "palm"
+                  ],
+                  "s1858": [
+                     "n85",
+                     "melit"
+                  ],
+                  "s1859": [
+                     "n1945",
+                     "fucos"
+                  ],
+                  "s1860": [
+                     "n1961",
+                     "dulco"
+                  ]
+               },
+               "production": {
+                  "s1850": [
+                     "n1951",
+                     "fru"
+                  ],
+                  "s1853": [
+                     "n1937",
+                     "acglum"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00024",
+               "cpd00107",
+               "cpd00119",
+               "cpd00132",
+               "cpd00161",
+               "cpd00214",
+               "cpd00218",
+               "cpd00382",
+               "cpd00751",
+               "cpd01171"
+            ],
+            "products": [
+               "cpd00082",
+               "cpd00122"
+            ]
+         },
+         "Acinet.1": {
+            "ID": "r4",
+            "segments": {
+               "consumption": {
+                  "s75": [
+                     "n80",
+                     "fumr"
+                  ],
+                  "s79": [
+                     "n1942",
+                     "palm"
+                  ],
+                  "s80": [
+                     "n85",
+                     "melit"
+                  ]
+               },
+               "production": {
+                  "s72": [
+                     "n77",
+                     "ornth"
+                  ],
+                  "s77": [
+                     "n82",
+                     "galct"
+                  ],
+                  "s81": [
+                     "n86",
+                     "myrst"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00033",
+               "cpd00106",
+               "cpd00107",
+               "cpd00132",
+               "cpd00214",
+               "cpd00382"
+            ],
+            "products": [
+               "cpd00039",
+               "cpd00064",
+               "cpd00066",
+               "cpd00069",
+               "cpd00108",
+               "cpd03847"
+            ]
+         },
+         "Lactoc.1": {
+            "ID": "r99",
+            "segments": {
+               "consumption": {
+                  "s1827": [
+                     "n1924",
+                     "pyr"
+                  ],
+                  "s1829": [
+                     "n1929",
+                     "akg"
+                  ],
+                  "s1834": [
+                     "n1934",
+                     "sucr"
+                  ],
+                  "s1837": [
+                     "n1937",
+                     "acglum"
+                  ],
+                  "s1845": [
+                     "n1945",
+                     "fucos"
+                  ]
+               },
+               "production": {
+                  "s1840": [
+                     "n1940",
+                     "citr"
+                  ],
+                  "s1842": [
+                     "n1942",
+                     "palm"
+                  ],
+                  "s1843": [
+                     "n1943",
+                     "rhmn"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00020",
+               "cpd00023",
+               "cpd00024",
+               "cpd00033",
+               "cpd00035",
+               "cpd00039",
+               "cpd00066",
+               "cpd00076",
+               "cpd00107",
+               "cpd00122",
+               "cpd00129",
+               "cpd00132",
+               "cpd00161",
+               "cpd00751",
+               "cpd01293"
+            ],
+            "products": [
+               "cpd00121",
+               "cpd00137",
+               "cpd00214",
+               "cpd00396",
+               "cpd00550"
+            ]
+         },
+         "Agroba.1": {
+            "ID": "r98",
+            "segments": {
+               "consumption": {
+                  "s1809": [
+                     "n1908",
+                     "succ"
+                  ],
+                  "s1819": [
+                     "n1942",
+                     "palm"
+                  ],
+                  "s1822": [
+                     "n85",
+                     "melit"
+                  ]
+               },
+               "production": {
+                  "s1812": [
+                     "n80",
+                     "fumr"
+                  ],
+                  "s1813": [
+                     "n82",
+                     "galct"
+                  ],
+                  "s1824": [
+                     "n86",
+                     "myrst"
+                  ]
+               }
+            },
+            "reactants": [
+               "cpd00029",
+               "cpd00036",
+               "cpd00132",
+               "cpd00161",
+               "cpd00214",
+               "cpd00218",
+               "cpd00382",
+               "cpd00751"
+            ],
+            "products": [
+               "cpd00023",
+               "cpd00064",
+               "cpd00069",
+               "cpd00106",
+               "cpd00108",
+               "cpd00137",
+               "cpd00156",
+               "cpd00158",
+               "cpd00322",
+               "cpd03847"
+            ]
+         }
+      }
+   }
+}
