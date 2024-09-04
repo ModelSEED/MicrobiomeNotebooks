@@ -1,0 +1,23 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/534/1.f:OHCFJE_04840 -            693 CBM58.hmm            -            117   4.5e-66  224.4   9.9   1   1   6.8e-68   1.9e-63  215.9   2.0     1   117   218   334   218   334 0.99 [190263/534/1]
+190263/391/1.f:NONBJF_08120 -            693 CBM58.hmm            -            117   4.5e-66  224.4   9.9   1   1   6.8e-68   1.9e-63  215.9   2.0     1   117   218   334   218   334 0.99 [190263/391/1]
+190263/545/1.f:NCJBIN_08240 -            693 CBM58.hmm            -            117   4.5e-66  224.4   9.9   1   1   6.8e-68   1.9e-63  215.9   2.0     1   117   218   334   218   334 0.99 [190263/545/1]
+190263/504/1.f:DOAHDM_08100 -            692 CBM58.hmm            -            117     1e-62  213.5  10.2   1   1   7.9e-64   2.2e-59  202.8   1.3     1   117   218   335   218   335 0.99 [190263/504/1]
+190263/401/1.f:DMFJNH_07595 -            692 CBM58.hmm            -            117     1e-62  213.5  10.2   1   1   7.9e-64   2.2e-59  202.8   1.3     1   117   218   335   218   335 0.99 [190263/401/1]
+190263/456/1.f:LKAJBD_15395 -            681 CBM58.hmm            -            117   1.9e-61  209.5   9.8   1   1     5e-62   1.4e-57  197.0   2.5     1   116   211   325   211   326 0.99 [190263/456/1]
+190263/466/1.f:PGJOII_07605 -            686 CBM58.hmm            -            117   2.1e-57  196.4  15.1   1   1   1.8e-59   5.1e-55  188.7   2.2     1   116   216   330   216   331 0.99 [190263/466/1]
+190263/421/1.f:PBKEAC_05055 -            772 CBM58.hmm            -            117   1.2e-52  181.0   8.4   1   1   2.9e-53   8.2e-49  168.7   1.6     2   115   299   414   298   416 0.97 [190263/421/1]
+190263/446/1.f:LHJMMB_09610 -            772 CBM58.hmm            -            117   3.2e-52  179.7   8.6   1   1   7.3e-53   2.1e-48  167.4   1.8     2   115   299   414   298   416 0.96 [190263/446/1]
+190263/556/1.f:EMIPPF_02175 -            772 CBM58.hmm            -            117   2.2e-51  177.0   9.1   1   1   3.9e-52   1.1e-47  165.1   2.0     2   115   299   414   298   416 0.96 [190263/556/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/CBM58/CBM58.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/CBM58/CBM58-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/CBM58/CBM58.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 19:00:58 2024
+# [ok]

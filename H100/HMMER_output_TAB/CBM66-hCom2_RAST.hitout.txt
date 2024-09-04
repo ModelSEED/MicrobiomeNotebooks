@@ -1,0 +1,21 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/438/1.f:IKAFOJ_09945 -           1669 CBM66.hmm            -            155   2.6e-88  298.5  59.2   1   3   1.2e-22   1.9e-19   74.9   7.1     3   155    48   214    46   214 0.89 [190263/438/1]
+190263/438/1.f:IKAFOJ_09945 -           1669 CBM66.hmm            -            155   2.6e-88  298.5  59.2   2   3   9.8e-43   1.6e-39  140.1   6.6     2   155   228   397   227   397 0.93 [190263/438/1]
+190263/438/1.f:IKAFOJ_09945 -           1669 CBM66.hmm            -            155   2.6e-88  298.5  59.2   3   3   2.1e-32   3.4e-29  106.6   7.8     1   154  1109  1261  1109  1262 0.97 [190263/438/1]
+190263/477/1.f:PCLDCI_05730 -           1704 CBM66.hmm            -            155   5.8e-46  161.0  27.9   1   2     3e-17   4.8e-14   57.3   0.9    25   150   172   292   152   297 0.87 [190263/477/1]
+190263/477/1.f:PCLDCI_05730 -           1704 CBM66.hmm            -            155   5.8e-46  161.0  27.9   2   2   3.8e-20   6.1e-17   66.7   3.7     4   145   505   641   502   650 0.87 [190263/477/1]
+190263/488/1.f:DNPFAC_05570 -            799 CBM66.hmm            -            155   3.7e-26   96.7   0.1   1   1   5.2e-29   8.3e-26   95.5   0.1     2   154    72   231    71   232 0.97 [190263/488/1]
+190263/417/1.f:MHBJAE_05030 -            799 CBM66.hmm            -            155   9.6e-25   92.1   0.5   1   1   1.3e-27   2.1e-24   91.0   0.1     2   154    72   231    71   232 0.95 [190263/417/1]
+190263/556/1.f:EMIPPF_11830 -            811 CBM66.hmm            -            155   3.2e-20   77.4   0.0   1   1   4.5e-23   7.1e-20   76.3   0.0     6   155    83   238    80   238 0.92 [190263/556/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/CBM66/CBM66.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/CBM66/CBM66-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/CBM66/CBM66.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 19:01:05 2024
+# [ok]

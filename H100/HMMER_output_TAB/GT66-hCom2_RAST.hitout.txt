@@ -1,0 +1,15 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/473/1.f:MLHPCA_08555 -            819 GT66.hmm             -            693   2.8e-63  218.8  34.7   1   1   5.6e-65   7.5e-62  214.1  34.8    87   661    86   729    81   741 0.83 [190263/473/1]
+190263/415/1.f:OLCEDN_01210 -            760 GT66.hmm             -            693   9.6e-63  217.0  21.7   1   1   1.2e-65   1.6e-62  216.3  21.7    98   646    96   655    89   681 0.85 [190263/415/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GT66/GT66.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GT66/GT66-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GT66/GT66.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:59:14 2024
+# [ok]

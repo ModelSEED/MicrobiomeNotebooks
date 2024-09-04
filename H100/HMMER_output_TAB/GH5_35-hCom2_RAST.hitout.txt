@@ -1,0 +1,21 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/455/1.f:GDGJDA_10880 -           1701 GH5_35.hmm           -            141   5.5e-86  290.0 126.2   1   4   4.2e-17   3.7e-13   54.0   5.3     3   124   557   679   557   682 0.95 [190263/455/1]
+190263/455/1.f:GDGJDA_10880 -           1701 GH5_35.hmm           -            141   5.5e-86  290.0 126.2   2   4   1.2e-16     1e-12   52.6  10.6    11   141   611   743   603   743 0.92 [190263/455/1]
+190263/455/1.f:GDGJDA_10880 -           1701 GH5_35.hmm           -            141   5.5e-86  290.0 126.2   3   4   3.4e-16     3e-12   51.1   7.9     7   140   888  1028   885  1029 0.95 [190263/455/1]
+190263/455/1.f:GDGJDA_10880 -           1701 GH5_35.hmm           -            141   5.5e-86  290.0 126.2   4   4   7.5e-17   6.6e-13   53.2  12.1     7   140  1183  1322  1180  1323 0.88 [190263/455/1]
+190263/512/1.f:JBCLGH_04560 -           1414 GH5_35.hmm           -            141   6.3e-66  225.0  74.0   1   2   7.7e-16   6.8e-12   49.9  12.2     8   141   595   731   589   731 0.94 [190263/512/1]
+190263/512/1.f:JBCLGH_04560 -           1414 GH5_35.hmm           -            141   6.3e-66  225.0  74.0   2   2     7e-19   6.1e-15   59.8   6.3     7   140   880  1020   875  1021 0.94 [190263/512/1]
+190263/455/1.f:GDGJDA_05355 -           1061 GH5_35.hmm           -            141   4.8e-53  183.3  88.8   1   1   2.3e-19     2e-15   61.3  12.5     9   139   685   816   676   818 0.92 [190263/455/1]
+190263/412/1.f:OOIBGL_01200 -            518 GH5_35.hmm           -            141   3.3e-18   70.4   8.5   1   1   3.8e-22   3.3e-18   70.4   8.5     3   139    44   180    26   182 0.94 [190263/412/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GH5_35/GH5_35.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GH5_35/GH5_35-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GH5_35/GH5_35.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:46:59 2024
+# [ok]

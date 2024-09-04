@@ -1,0 +1,15 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/396/1.f:KAAOMA_07080 -            765 CBM80.hmm            -             88   1.9e-43  150.6   1.0   1   1   1.6e-47   5.7e-43  149.0   1.0     1    88   547   633   547   633 0.99 [190263/396/1]
+190263/396/1.f:KAAOMA_14180 -            947 CBM80.hmm            -             88     1e-39  138.6   1.4   1   1   1.6e-43   5.9e-39  136.2   1.4    10    88   423   501   416   501 0.95 [190263/396/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/CBM80/CBM80.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/CBM80/CBM80-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/CBM80/CBM80.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 19:01:18 2024
+# [ok]

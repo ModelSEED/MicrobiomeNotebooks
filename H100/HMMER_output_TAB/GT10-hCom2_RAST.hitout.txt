@@ -1,0 +1,24 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/488/1.f:DNPFAC_01305 -            295 GT10.hmm             -            347   1.4e-74  255.7   0.0   1   1   8.5e-79   1.6e-74  255.5   0.0    37   334     3   291     1   294 0.86 [190263/488/1]
+190263/417/1.f:MHBJAE_00995 -            296 GT10.hmm             -            347   1.8e-74  255.3   0.0   1   1   1.2e-78   2.2e-74  255.1   0.0    37   334     3   292     1   294 0.90 [190263/417/1]
+190263/506/1.f:IKGMED_03930 -            332 GT10.hmm             -            347   7.5e-38  134.9   0.0   1   1   5.9e-42   1.1e-37  134.4   0.0   136   305    94   263    87   303 0.88 [190263/506/1]
+190263/370/1.f:MFKGBO_24380 -            389 GT10.hmm             -            347   7.8e-33  118.4   0.1   1   1   8.4e-37   1.6e-32  117.4   0.1   170   305   120   276    84   293 0.88 [190263/370/1]
+190263/580/1.f:JCPJNN_10800 -            355 GT10.hmm             -            347   1.1e-32  118.0   6.5   1   1   6.8e-37   1.3e-32  117.7   6.5   167   324   138   305    37   320 0.79 [190263/580/1]
+190263/552/1.f:EMALNL_20895 -            346 GT10.hmm             -            347     3e-28  103.3   2.5   1   1   2.9e-32   5.5e-28  102.5   2.5   168   292   148   269   121   276 0.82 [190263/552/1]
+190263/516/1.f:MGNFBC_14365 -            331 GT10.hmm             -            347   9.1e-26   95.2   1.2   1   1   5.8e-30   1.1e-25   94.9   1.2   139   287   106   248    27   272 0.74 [190263/516/1]
+190263/391/1.f:NONBJF_18450 -            333 GT10.hmm             -            347   8.6e-21   78.8   2.9   1   1   5.3e-25     1e-20   78.6   2.9   152   282   119   251     9   283 0.84 [190263/391/1]
+190263/369/1.f:JCDIFE_05450 -            350 GT10.hmm             -            347   3.4e-20   76.9   2.3   1   1   2.4e-24   4.5e-20   76.5   2.2   165   287   134   256   108   317 0.88 [190263/369/1]
+190263/417/1.f:MHBJAE_09990 -            338 GT10.hmm             -            347   7.9e-19   72.4   5.4   1   1   5.4e-23     1e-18   72.0   5.4   173   297   147   268    21   307 0.84 [190263/417/1]
+190263/506/1.f:IKGMED_03940 -            343 GT10.hmm             -            347   1.2e-17   68.4   0.0   1   1   7.9e-22   1.5e-17   68.2   0.0    60   302    26   265     2   301 0.73 [190263/506/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GT10/GT10.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GT10/GT10-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GT10/GT10.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:57:50 2024
+# [ok]

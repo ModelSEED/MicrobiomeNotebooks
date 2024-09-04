@@ -1,0 +1,69 @@
+{
+   "Simple_carbs": [
+      "Dulcose",
+      "Galactose",
+      "D-Fructose",
+      "D-Allose",
+      "L-Arabinose",
+      "D-Glucose",
+      "D-Ribose",
+      "L-Inositol",
+      "Sucrose",
+      "L-Fucose",
+      "Thyminose",
+      "L-Rhamnose"
+   ],
+   "Complex_carbs": [
+      "Melibiose",
+      "Melitose",
+      "CELB"
+   ],
+   "SCFAs": [
+      "Acetate",
+      "Propionate",
+      "Butyrate"
+   ],
+   "Fatty Acids": [
+      "Decanoate",
+      "Myristic acid",
+      "Palmitate"
+   ],
+   "Amino Acids": [
+      "L-Methionine",
+      "L-Histidine",
+      "L-Tryptophan",
+      "L-Alanine",
+      "L-Threonine",
+      "L-Glutamate",
+      "L-Isoleucine",
+      "L-Proline",
+      "L-Leucine",
+      "Glycine",
+      "L-Phenylalanine",
+      "L-Tyrosine",
+      "L-Valine",
+      "L-Glutamine",
+      "L-Arginine",
+      "L-Asparagine",
+      "L-Aspartate",
+      "L-Lysine",
+      "L-Serine",
+      "L-Cysteine",
+      "D-Serine",
+      "5-Oxoproline"
+   ],
+   "Simple_carbon": [
+      "Succinate",
+      "Citrate",
+      "L-Malate",
+      "Pyruvate"
+   ],
+   "Other": [
+      "N-Acetyl-D-glucosamine",
+      "Ornithine",
+      "Fumarate",
+      "trans-4-Hydroxy-L-proline",
+      "2-Oxoglutarate",
+      "Niacin"
+   ]
+}

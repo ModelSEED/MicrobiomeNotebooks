@@ -1,0 +1,21 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/552/1.f:EMALNL_06495 -            263 GT6.hmm              -            280   6.3e-75  256.3   0.0   1   1   2.5e-79   7.6e-75  256.0   0.0    44   257     2   217     1   234 0.96 [190263/552/1]
+190263/573/1.f:LIDFCI_17210 -            263 GT6.hmm              -            280   9.8e-73  249.1   0.0   1   1   3.9e-77   1.2e-72  248.8   0.0    44   260     2   220     1   234 0.96 [190263/573/1]
+190263/443/1.f:LNLACP_10505 -            281 GT6.hmm              -            280   3.3e-64  221.1   0.0   1   1   1.2e-68   3.7e-64  220.9   0.0    43   262     2   222     1   241 0.94 [190263/443/1]
+190263/466/1.f:PGJOII_04035 -            258 GT6.hmm              -            280     2e-56  195.6   1.9   1   1   8.1e-61   2.5e-56  195.3   1.9    44   266     2   218     1   226 0.92 [190263/466/1]
+190263/404/1.f:BGJBIG_14370 -            263 GT6.hmm              -            280   5.4e-56  194.2   0.4   1   1   2.1e-60   6.4e-56  193.9   0.4    44   258     2   215     1   231 0.92 [190263/404/1]
+190263/552/1.f:EMALNL_19575 -            260 GT6.hmm              -            280   7.4e-56  193.7   0.3   1   1   2.9e-60   8.8e-56  193.5   0.3    43   259     1   213     1   228 0.92 [190263/552/1]
+190263/443/1.f:LNLACP_06185 -            286 GT6.hmm              -            280   2.9e-49  172.1   0.0   1   1   1.1e-53   3.4e-49  171.9   0.0    41   270     4   232     1   244 0.92 [190263/443/1]
+190263/379/1.f:LOJHAC_16925 -            269 GT6.hmm              -            280   1.1e-46  163.7   2.0   1   1   5.1e-51   1.6e-46  163.1   2.0    44   265     2   218     1   224 0.90 [190263/379/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GT6/GT6.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GT6/GT6-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GT6/GT6.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:57:46 2024
+# [ok]

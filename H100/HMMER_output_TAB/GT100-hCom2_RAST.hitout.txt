@@ -1,0 +1,19 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/580/1.f:JCPJNN_11135 -            357 GT100.hmm            -            222     2e-37  133.5   0.0   1   1   1.6e-41   2.8e-37  133.0   0.0     6   211   104   321    87   331 0.86 [190263/580/1]
+190263/495/1.f:ANKNCD_14870 -            527 GT100.hmm            -            222   1.1e-29  108.2   6.9   1   1   6.6e-34   1.1e-29  108.2   6.9     6   217    81   301    74   306 0.89 [190263/495/1]
+190263/596/1.f:GDHELL_01225 -            531 GT100.hmm            -            222   2.3e-25   94.1   0.1   1   1   1.3e-29   2.3e-25   94.1   0.1    13   217    82   310    59   315 0.87 [190263/596/1]
+190263/443/1.f:LNLACP_03765 -            325 GT100.hmm            -            222   2.4e-23   87.5   0.0   1   1   1.7e-27   2.9e-23   87.2   0.0    13   217    88   305    50   312 0.84 [190263/443/1]
+190263/596/1.f:GDHELL_01245 -            502 GT100.hmm            -            222   2.3e-18   71.2   2.5   1   1   2.4e-22   4.2e-18   70.3   2.5     3   217    94   318    92   323 0.82 [190263/596/1]
+190263/386/1.f:DBGIOG_16985 -            609 GT100.hmm            -            222   2.5e-18   71.1   2.6   1   1   2.8e-21   4.9e-17   66.8   2.5    15   219   368   571   351   575 0.76 [190263/386/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GT100/GT100.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GT100/GT100-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GT100/GT100.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:59:54 2024
+# [ok]

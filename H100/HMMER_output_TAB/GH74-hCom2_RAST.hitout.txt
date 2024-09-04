@@ -1,0 +1,21 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/400/1.f:EIBLKL_10225 -            750 GH74.hmm             -            233  6.9e-130  435.8  36.9   1   1  3.6e-102   6.7e-99  334.4   9.9    45   233   203   400   201   400 0.99 [190263/400/1]
+190263/369/1.f:JCDIFE_01325 -            747 GH74.hmm             -            233   8.4e-63  216.3   4.0   1   2   7.5e-23   1.4e-19   74.8   0.0     4   111    69   175    66   205 0.92 [190263/369/1]
+190263/369/1.f:JCDIFE_01325 -            747 GH74.hmm             -            233   8.4e-63  216.3   4.0   2   2   3.8e-21   7.1e-18   69.2   0.1    77   214   210   351   176   355 0.84 [190263/369/1]
+190263/461/1.f:DHPHOK_01495 -            759 GH74.hmm             -            233   5.5e-62  213.6   3.0   1   2     8e-21   1.5e-17   68.2   0.0     4   111    81   187    78   211 0.91 [190263/461/1]
+190263/461/1.f:DHPHOK_01495 -            759 GH74.hmm             -            233   5.5e-62  213.6   3.0   2   2   9.1e-22   1.7e-18   71.3   0.2    78   214   223   363   188   367 0.85 [190263/461/1]
+190263/412/1.f:OOIBGL_17240 -            764 GH74.hmm             -            233     2e-56  195.4  12.7   1   2   1.3e-19   2.4e-16   64.3   0.0    10   127   112   227   104   242 0.90 [190263/412/1]
+190263/412/1.f:OOIBGL_17240 -            764 GH74.hmm             -            233     2e-56  195.4  12.7   2   2   2.6e-17   4.8e-14   56.7   0.0    26   132   598   747   594   758 0.83 [190263/412/1]
+190263/520/1.f:GGDGDE_13405 -            774 GH74.hmm             -            233     4e-32  115.9   0.0   1   1   8.3e-17   1.5e-13   55.1   0.1    41   146    90   198    58   201 0.90 [190263/520/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GH74/GH74.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GH74/GH74-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GH74/GH74.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:54:08 2024
+# [ok]

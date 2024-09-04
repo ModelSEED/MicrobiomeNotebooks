@@ -1,0 +1,18 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/439/1.f:KGLJGB_09445 -           1698 GH81.hmm             -            622  1.5e-116  395.2  21.1   1   1  1.9e-121  1.5e-116  395.2  21.1     7   608   390  1100   385  1108 0.81 [190263/439/1]
+190263/439/1.f:KGLJGB_01380 -           1720 GH81.hmm             -            622  5.6e-116  393.3  33.5   1   1  5.6e-119  4.4e-114  387.0  18.9     9   571   363   977   356   985 0.88 [190263/439/1]
+190263/439/1.f:KGLJGB_10240 -           1233 GH81.hmm             -            622  3.5e-110  374.2  29.4   1   1  4.4e-115  3.5e-110  374.2  29.4    11   615    82   770    73   777 0.82 [190263/439/1]
+190263/439/1.f:KGLJGB_10870 -           1629 GH81.hmm             -            622  4.4e-109  370.5  34.0   1   1  5.5e-114  4.4e-109  370.5  34.0    14   622    86   802    71   802 0.82 [190263/439/1]
+190263/439/1.f:KGLJGB_05630 -           2451 GH81.hmm             -            622  1.1e-102  349.4  28.5   1   1  1.4e-107  1.1e-102  349.4  28.5     4   621   508  1220   505  1221 0.82 [190263/439/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GH81/GH81.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GH81/GH81-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GH81/GH81.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:54:22 2024
+# [ok]

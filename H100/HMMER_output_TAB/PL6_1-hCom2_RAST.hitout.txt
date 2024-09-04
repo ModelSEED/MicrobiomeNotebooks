@@ -1,0 +1,20 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/562/1.f:KJGNCK_05635 -            757 PL6_1.hmm            -            347    6e-160  536.5   2.0   1   2  5.8e-123  2.7e-119  402.8   2.0     7   345    33   371    30   373 0.98 [190263/562/1]
+190263/562/1.f:KJGNCK_05635 -            757 PL6_1.hmm            -            347    6e-160  536.5   2.0   2   2   3.5e-39   1.6e-35  127.3   0.0     6   210   450   655   447   661 0.94 [190263/562/1]
+190263/456/1.f:LKAJBD_02605 -            756 PL6_1.hmm            -            347  3.8e-152  510.8  12.7   1   2  2.6e-121  1.2e-117  397.4   5.3     5   345    28   368    26   370 0.98 [190263/456/1]
+190263/456/1.f:LKAJBD_02605 -            756 PL6_1.hmm            -            347  3.8e-152  510.8  12.7   2   2   4.2e-36     2e-32  117.2   0.6     4   210   446   655   444   687 0.91 [190263/456/1]
+190263/502/1.f:NONHGB_21425 -            466 PL6_1.hmm            -            347  3.4e-116  392.6   2.1   1   1    1e-119  4.8e-116  392.1   2.1    13   345    42   387    30   389 0.98 [190263/502/1]
+190263/502/1.f:NONHGB_21685 -            464 PL6_1.hmm            -            347  3.7e-104  353.0   0.1   1   1  1.1e-107  5.1e-104  352.6   0.1    13   344    39   378    28   381 0.95 [190263/502/1]
+190263/405/1.f:EHKDKA_23615 -            464 PL6_1.hmm            -            347  3.3e-103  349.9   0.1   1   1  9.2e-107  4.4e-103  349.5   0.1    13   344    39   378    30   381 0.93 [190263/405/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/PL6_1/PL6_1.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/PL6_1/PL6_1-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/PL6_1/PL6_1.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 19:02:28 2024
+# [ok]

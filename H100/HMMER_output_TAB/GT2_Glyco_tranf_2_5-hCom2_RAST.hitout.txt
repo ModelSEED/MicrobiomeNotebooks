@@ -1,0 +1,22 @@
+#                                                                                      --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name              accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- -----    -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/490/1.f:OIBLLI_06015 -            221 GT2_Glyco_tranf_2_5.hmm PF13712.5    210   2.2e-91  309.6   2.3   1   1   1.3e-94   2.5e-91  309.4   2.3     1   210     7   215     7   215 0.99 [190263/490/1]
+190263/495/1.f:ANKNCD_03175 -            395 GT2_Glyco_tranf_2_5.hmm PF13712.5    210   2.9e-82  279.8   3.8   1   1   2.7e-85   5.1e-82  279.0   3.8     1   210     7   216     7   216 0.97 [190263/495/1]
+190263/520/1.f:GGDGDE_18485 -            403 GT2_Glyco_tranf_2_5.hmm PF13712.5    210   1.8e-74  254.3   0.0   1   1   1.4e-77   2.7e-74  253.8   0.0     1   210     7   215     7   215 0.98 [190263/520/1]
+190263/585/1.f:DLBDDB_02425 -            295 GT2_Glyco_tranf_2_5.hmm PF13712.5    210   1.7e-35  127.0   0.1   1   1   1.2e-38   2.4e-35  126.6   0.1     1   190     3   200     3   221 0.89 [190263/585/1]
+190263/404/1.f:BGJBIG_04505 -            292 GT2_Glyco_tranf_2_5.hmm PF13712.5    210     3e-35  126.2   0.5   1   1     2e-38   3.7e-35  125.9   0.5     1   184     3   206     3   221 0.89 [190263/404/1]
+190263/461/1.f:DHPHOK_05810 -            291 GT2_Glyco_tranf_2_5.hmm PF13712.5    210     9e-34  121.4   0.5   1   1   6.2e-37   1.2e-33  121.0   0.5     1   186     3   208     3   224 0.82 [190263/461/1]
+190263/405/1.f:EHKDKA_04060 -            290 GT2_Glyco_tranf_2_5.hmm PF13712.5    210   9.5e-34  121.3   0.3   1   1   6.8e-37   1.3e-33  120.9   0.3     1   192     3   201     3   224 0.88 [190263/405/1]
+190263/552/1.f:EMALNL_06505 -            290 GT2_Glyco_tranf_2_5.hmm PF13712.5    210   1.1e-30  111.3   0.2   1   1   7.5e-34   1.4e-30  110.9   0.2     1   180     3   208     3   228 0.84 [190263/552/1]
+190263/573/1.f:LIDFCI_17200 -            290 GT2_Glyco_tranf_2_5.hmm PF13712.5    210   1.2e-30  111.2   0.2   1   1   8.1e-34   1.5e-30  110.8   0.2     1   179     3   196     3   227 0.84 [190263/573/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GT2_Glyco_tranf_2_5/GT2_Glyco_tranf_2_5.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GT2_Glyco_tranf_2_5/GT2_Glyco_tranf_2_5-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GT2_Glyco_tranf_2_5/GT2_Glyco_tranf_2_5.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:57:32 2024
+# [ok]

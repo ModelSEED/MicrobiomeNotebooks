@@ -1,0 +1,18 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/506/1.f:IKGMED_09535 -            624 AA1.hmm              -            358   1.2e-62  217.0   1.8   1   1     1e-66   3.6e-62  215.4   1.8     7   357    43   529    33   530 0.68 [190263/506/1]
+190263/580/1.f:JCPJNN_03780 -            309 AA1.hmm              -            358   2.8e-44  156.6   6.5   1   1   5.2e-40   1.9e-35  127.6   0.2    11   231    40   259    34   259 0.86 [190263/580/1]
+190263/510/1.f:DELAEA_08720 -            480 AA1.hmm              -            358   1.1e-40  144.7   1.6   1   1   4.1e-45   1.5e-40  144.4   1.6     9   357    88   473    77   474 0.75 [190263/510/1]
+190263/448/1.f:IBJDOL_05570 -            294 AA1.hmm              -            358   1.3e-38  137.9   9.7   1   1   5.6e-39     2e-34  124.2   1.1    10   231    39   256    24   258 0.84 [190263/448/1]
+190263/448/1.f:IBJDOL_01465 -            488 AA1.hmm              -            358   6.9e-16   63.2   0.8   1   1     6e-19   2.2e-14   58.3   0.8    17   264    73   420    70   483 0.65 [190263/448/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/AA1/AA1.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/AA1/AA1-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/AA1/AA1.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 19:04:00 2024
+# [ok]

@@ -1,0 +1,15 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/399/1.f:CDLIDF_00475 -            321 GH16_15.hmm          -            231   1.8e-18   71.5  11.8   1   1   8.4e-23   4.7e-18   70.1  11.8     1   231    52   314    52   314 0.75 [190263/399/1]
+190263/399/1.f:CDLIDF_00565 -            316 GH16_15.hmm          -            231   2.6e-16   64.4   3.9   1   1   6.1e-20   3.4e-15   60.8   3.9    11   231    69   310    50   310 0.76 [190263/399/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GH16_15/GH16_15.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GH16_15/GH16_15-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GH16_15/GH16_15.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:50:09 2024
+# [ok]

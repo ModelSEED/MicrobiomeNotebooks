@@ -1,0 +1,18 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/495/1.f:ANKNCD_08725 -           1674 CBM82.hmm            -            124     6e-79  266.7  10.8   1   2   3.4e-44   9.7e-40  140.1   2.0     1   124    50   173    50   173 0.98 [190263/495/1]
+190263/495/1.f:ANKNCD_08725 -           1674 CBM82.hmm            -            124     6e-79  266.7  10.8   2   2   1.2e-44   3.5e-40  141.6   1.7     1   124   182   304   182   304 0.96 [190263/495/1]
+190263/520/1.f:GGDGDE_06845 -           1856 CBM82.hmm            -            124   2.5e-76  258.3  16.6   1   2   8.8e-43   2.5e-38  135.6   2.2     2   124   166   287   165   287 0.93 [190263/520/1]
+190263/520/1.f:GGDGDE_06845 -           1856 CBM82.hmm            -            124   2.5e-76  258.3  16.6   2   2   1.2e-43   3.4e-39  138.3   6.8     2   122   294   409   293   411 0.96 [190263/520/1]
+190263/423/1.f:PDNKFB_06835 -           1368 CBM82.hmm            -            124   1.5e-40  142.7   5.9   1   1   5.3e-45   1.5e-40  142.7   5.9     1   123    49   177    49   178 0.97 [190263/423/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/CBM82/CBM82.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/CBM82/CBM82-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/CBM82/CBM82.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 19:01:19 2024
+# [ok]

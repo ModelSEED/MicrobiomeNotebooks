@@ -1,0 +1,18 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/400/1.f:EIBLKL_08285 -            659 GH5_11.hmm           -            313   1.2e-20   78.5   2.6   1   1   8.7e-19   1.1e-14   58.8   0.4     1   213   268   479   268   492 0.86 [190263/400/1]
+190263/412/1.f:OOIBGL_08215 -            579 GH5_11.hmm           -            313   3.2e-19   73.8   0.4   1   1     1e-19   1.4e-15   61.9   0.1     2   211    60   278    59   291 0.91 [190263/412/1]
+190263/396/1.f:KAAOMA_00970 -            708 GH5_11.hmm           -            313   2.6e-16   64.2   2.3   1   1   4.6e-19     6e-15   59.7   0.3     1   208    52   265    52   278 0.89 [190263/396/1]
+190263/412/1.f:OOIBGL_06550 -            649 GH5_11.hmm           -            313   2.9e-15   60.8   2.9   1   1   2.7e-17   3.5e-13   53.9   0.3     1   207   258   462   258   475 0.86 [190263/412/1]
+190263/412/1.f:OOIBGL_15685 -            682 GH5_11.hmm           -            313   1.2e-12   52.2   0.7   1   1   2.5e-16   3.3e-12   50.8   0.6     3   313    56   392    54   392 0.83 [190263/412/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GH5_11/GH5_11.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GH5_11/GH5_11-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GH5_11/GH5_11.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:46:29 2024
+# [ok]

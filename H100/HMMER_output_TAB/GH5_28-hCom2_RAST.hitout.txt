@@ -1,0 +1,21 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/583/1.f:BCCKNC_08740 -            522 GH5_28.hmm           -            336   1.2e-62  216.1   2.4   1   1   1.3e-55   3.2e-52  181.8   0.6     2   189    43   229    42   248 0.92 [190263/583/1]
+190263/562/1.f:KJGNCK_06265 -            361 GH5_28.hmm           -            336   1.7e-19   74.2   1.3   1   1   5.1e-17   1.2e-13   55.0   0.5   137   334   142   333   131   334 0.79 [190263/562/1]
+190263/552/1.f:EMALNL_04190 -            361 GH5_28.hmm           -            336   2.6e-19   73.6   1.2   1   1   4.7e-17   1.1e-13   55.1   0.7   136   334   141   333   129   334 0.79 [190263/552/1]
+190263/475/1.f:MCKEEP_04325 -            361 GH5_28.hmm           -            336   3.1e-19   73.3   1.0   1   1     6e-17   1.5e-13   54.7   0.6   136   334   141   333   129   334 0.79 [190263/475/1]
+190263/573/1.f:LIDFCI_19295 -            361 GH5_28.hmm           -            336   3.1e-19   73.3   1.0   1   1     6e-17   1.5e-13   54.7   0.6   136   334   141   333   129   334 0.79 [190263/573/1]
+190263/409/1.f:AJJCMD_29030 -            452 GH5_28.hmm           -            336   2.2e-17   67.3   0.0   1   1   2.1e-20   5.1e-17   66.1   0.0   145   327   156   328   148   335 0.86 [190263/409/1]
+190263/580/1.f:JCPJNN_03075 -            446 GH5_28.hmm           -            336   4.7e-16   62.9   0.0   1   1   5.1e-19   1.2e-15   61.5   0.0   138   332   153   333   144   336 0.86 [190263/580/1]
+190263/366/1.f:DBJPFP_06635 -            414 GH5_28.hmm           -            336   1.2e-15   61.6   0.8   1   1   1.9e-16   4.6e-13   53.1   0.1   143   226   185   268   169   298 0.86 [190263/366/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GH5_28/GH5_28.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GH5_28/GH5_28-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GH5_28/GH5_28.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:46:52 2024
+# [ok]

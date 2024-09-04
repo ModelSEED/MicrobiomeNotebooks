@@ -1,0 +1,21 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/474/1.f:AMDJJA_00550 -           1708 GH13_24.hmm          -            295     1e-68  236.1   5.9   1   1   6.8e-71   7.9e-68  233.2   0.2     1   295    77   355    77   355 0.91 [190263/474/1]
+190263/527/1.f:HGADJN_04155 -           1752 GH13_24.hmm          -            295   2.4e-56  195.6   5.0   1   1   5.3e-58   6.2e-55  190.9   2.3     1   295    72   359    72   359 0.88 [190263/527/1]
+190263/527/1.f:HGADJN_07635 -           1463 GH13_24.hmm          -            295   1.9e-23   87.6   5.7   1   1   9.2e-26   1.1e-22   85.1   5.7     1   265   128   386   128   399 0.79 [190263/527/1]
+190263/578/1.f:HIHCLH_05700 -            699 GH13_24.hmm          -            295   2.6e-20   77.3   2.0   1   1   1.7e-21     2e-18   71.1   2.0     1   274   101   367   101   374 0.83 [190263/578/1]
+190263/527/1.f:HGADJN_07590 -           1010 GH13_24.hmm          -            295   4.8e-20   76.4   2.4   1   1   4.2e-22   4.9e-19   73.1   2.4     1   265   100   355   100   371 0.72 [190263/527/1]
+190263/596/1.f:GDHELL_09670 -           1063 GH13_24.hmm          -            295   5.3e-19   73.0   4.5   1   1   8.1e-22   9.4e-19   72.1   4.5     1   270    75   345    75   364 0.77 [190263/596/1]
+190263/596/1.f:GDHELL_00370 -            568 GH13_24.hmm          -            295   8.8e-18   68.9   0.5   1   1   6.3e-19   7.3e-16   62.6   0.5     1   266    68   327    68   337 0.81 [190263/596/1]
+190263/520/1.f:GGDGDE_02775 -            587 GH13_24.hmm          -            295   4.7e-13   53.4   1.9   1   1   8.3e-16   9.7e-13   52.4   1.9    25   270   146   399   137   418 0.77 [190263/520/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GH13_24/GH13_24.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GH13_24/GH13_24-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GH13_24/GH13_24.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:48:56 2024
+# [ok]
