@@ -178,6 +178,8 @@ AGORA/AGORA2_fva/*
 WesternDietMicrobiomes/functions.json
 WesternDietMicrobiomes/feature_aliases.json
 */*.mov
+*/*.gz
+*/*/cazy_data.txt
 
 # bloated files
 */*.png
