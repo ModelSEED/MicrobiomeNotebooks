@@ -1,0 +1,19 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/420/1.f:GMHOLO_06765 -            399 GH5_23.hmm           -            280   7.6e-19   72.5   0.0   1   1   4.3e-22     4e-18   70.1   0.0     3   273    63   354    61   360 0.73 [190263/420/1]
+190263/527/1.f:HGADJN_07095 -            399 GH5_23.hmm           -            280   7.6e-19   72.5   0.0   1   1   4.3e-22     4e-18   70.1   0.0     3   273    63   354    61   360 0.73 [190263/527/1]
+190263/546/1.f:GEHMID_14985 -            382 GH5_23.hmm           -            280   3.9e-17   66.9   0.0   1   1   5.8e-21   5.3e-17   66.4   0.0     3   250    53   309    51   351 0.78 [190263/546/1]
+190263/474/1.f:AMDJJA_07615 -            422 GH5_23.hmm           -            280   2.8e-15   60.8   0.0   1   1   9.9e-19   9.1e-15   59.1   0.0     3   275    62   353    60   356 0.73 [190263/474/1]
+190263/433/1.f:ADFNDI_03700 -            388 GH5_23.hmm           -            280   4.9e-13   53.4   0.1   1   1     2e-16   1.8e-12   51.5   0.0     3   236    53   298    51   309 0.69 [190263/433/1]
+190263/455/1.f:GDGJDA_02900 -            388 GH5_23.hmm           -            280   8.8e-13   52.6   0.0   1   1     4e-16   3.7e-12   50.5   0.0     3   236    53   298    51   309 0.73 [190263/455/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GH5_23/GH5_23.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GH5_23/GH5_23-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GH5_23/GH5_23.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:46:44 2024
+# [ok]

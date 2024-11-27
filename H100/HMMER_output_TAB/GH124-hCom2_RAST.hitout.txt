@@ -1,0 +1,16 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/396/1.f:KAAOMA_01775 -            516 GH124.hmm            -            332  6.3e-119  401.4  21.2   1   2  9.7e-110  2.4e-106  360.0   3.3    64   332    32   275    26   275 0.98 [190263/396/1]
+190263/396/1.f:KAAOMA_01775 -            516 GH124.hmm            -            332  6.3e-119  401.4  21.2   2   2   2.8e-16     7e-13   52.8   0.3    23   101   434   514   420   516 0.89 [190263/396/1]
+190263/396/1.f:KAAOMA_10445 -            526 GH124.hmm            -            332   9.6e-13   52.4   0.4   1   1   6.2e-16   1.6e-12   51.7   0.4    30   129   359   459   345   480 0.84 [190263/396/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GH124/GH124.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GH124/GH124-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GH124/GH124.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:55:54 2024
+# [ok]

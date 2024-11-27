@@ -1,0 +1,22 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/433/1.f:ADFNDI_03700 -            388 GH5_33.hmm           -            278   2.9e-34  123.0   0.1   1   1   3.9e-21   3.5e-17   67.0   0.0     2    92    47   133    46   137 0.97 [190263/433/1]
+190263/546/1.f:GEHMID_14985 -            382 GH5_33.hmm           -            278     5e-34  122.3   0.9   1   1   2.5e-22   2.2e-18   71.0   0.0     2    92    47   133    46   139 0.96 [190263/546/1]
+190263/541/1.f:IDEEIE_12870 -            391 GH5_33.hmm           -            278   4.8e-32  115.8   0.3   1   1   6.9e-21     6e-17   66.2   0.0     2    92    47   133    46   137 0.97 [190263/541/1]
+190263/420/1.f:GMHOLO_06775 -            402 GH5_33.hmm           -            278   1.1e-31  114.5   0.2   1   1   1.4e-21   1.3e-17   68.5   0.0     2    94    50   138    49   142 0.95 [190263/420/1]
+190263/527/1.f:HGADJN_07105 -            402 GH5_33.hmm           -            278   1.1e-31  114.5   0.2   1   1   1.4e-21   1.3e-17   68.5   0.0     2    94    50   138    49   142 0.95 [190263/527/1]
+190263/455/1.f:GDGJDA_02900 -            388 GH5_33.hmm           -            278     5e-30  109.1   0.2   1   1   6.1e-20   5.3e-16   63.1   0.0     2    93    47   134    46   138 0.96 [190263/455/1]
+190263/474/1.f:AMDJJA_07615 -            422 GH5_33.hmm           -            278     3e-28  103.3   0.2   1   1   1.7e-20   1.5e-16   64.9   0.0     2    92    56   142    55   147 0.94 [190263/474/1]
+190263/420/1.f:GMHOLO_06765 -            399 GH5_33.hmm           -            278   2.9e-23   87.0   0.1   1   1   7.2e-17   6.3e-13   53.0   0.0     2    93    57   144    56   147 0.95 [190263/420/1]
+190263/527/1.f:HGADJN_07095 -            399 GH5_33.hmm           -            278   2.9e-23   87.0   0.1   1   1   7.2e-17   6.3e-13   53.0   0.0     2    93    57   144    56   147 0.95 [190263/527/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GH5_33/GH5_33.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GH5_33/GH5_33-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GH5_33/GH5_33.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:46:58 2024
+# [ok]

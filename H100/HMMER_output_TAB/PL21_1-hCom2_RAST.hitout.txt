@@ -1,0 +1,18 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/456/1.f:LKAJBD_01660 -            773 PL21_1.hmm           -             72   2.1e-49  169.6   2.0   1   1   5.4e-53   4.5e-49  168.5   2.0     1    72   389   460   389   460 0.99 [190263/456/1]
+190263/466/1.f:PGJOII_02365 -            773 PL21_1.hmm           -             72   2.2e-49  169.5   2.0   1   1   5.4e-53   4.5e-49  168.5   2.0     1    72   389   460   389   460 0.99 [190263/466/1]
+190263/502/1.f:NONHGB_03470 -            771 PL21_1.hmm           -             72   3.2e-49  169.0   3.4   1   1     9e-53   7.4e-49  167.8   3.4     1    72   387   458   387   458 0.99 [190263/502/1]
+190263/466/1.f:PGJOII_09875 -            780 PL21_1.hmm           -             72     4e-48  165.5   2.0   1   1   1.3e-51     1e-47  164.1   2.0     2    72   397   467   396   467 0.99 [190263/466/1]
+190263/456/1.f:LKAJBD_10000 -            780 PL21_1.hmm           -             72   5.1e-48  165.1   2.6   1   1   1.3e-51   1.1e-47  164.1   2.6     2    72   397   467   396   467 0.99 [190263/456/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/PL21_1/PL21_1.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/PL21_1/PL21_1-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/PL21_1/PL21_1.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 19:03:20 2024
+# [ok]

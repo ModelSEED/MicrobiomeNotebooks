@@ -1,0 +1,16 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/516/1.f:MGNFBC_11475 -            325 GT45.hmm             -            115   1.9e-14   57.9   2.2   1   1   1.1e-16   3.4e-14   57.0   2.2     2    93    29   120    28   140 0.92 [190263/516/1]
+190263/514/1.f:MMHOAN_00410 -            250 GT45.hmm             -            115   3.9e-14   56.8   1.1   1   1   2.2e-16   6.6e-14   56.1   1.1     3   104    29   132    27   146 0.91 [190263/514/1]
+190263/433/1.f:ADFNDI_12425 -            250 GT45.hmm             -            115   1.6e-13   54.9   1.0   1   1   8.9e-16   2.7e-13   54.1   1.0     3   100    29   126    27   146 0.90 [190263/433/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GT45/GT45.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GT45/GT45-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GT45/GT45.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:58:45 2024
+# [ok]

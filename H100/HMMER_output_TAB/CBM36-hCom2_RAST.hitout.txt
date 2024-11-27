@@ -1,0 +1,24 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/502/1.f:NONHGB_05225 -            461 CBM36.hmm            -            115   3.3e-16   63.9   0.3   1   1   1.3e-19   7.7e-16   62.7   0.1     1   115   342   460   342   460 0.96 [190263/502/1]
+190263/541/1.f:IDEEIE_12540 -           1769 CBM36.hmm            -            115   7.5e-16   62.7   0.1   1   1   1.3e-19   7.5e-16   62.7   0.1     3   115  1417  1542  1415  1542 0.95 [190263/541/1]
+190263/396/1.f:KAAOMA_11710 -            952 CBM36.hmm            -            115     1e-15   62.3   1.1   1   1   1.7e-19     1e-15   62.3   1.1     1   114   762   880   762   880 0.94 [190263/396/1]
+190263/562/1.f:KJGNCK_02445 -            464 CBM36.hmm            -            115   8.8e-15   59.3   0.0   1   1     3e-18   1.8e-14   58.2   0.0     1   114   342   461   342   462 0.95 [190263/562/1]
+190263/405/1.f:EHKDKA_02300 -            456 CBM36.hmm            -            115     5e-14   56.8   0.1   1   1   1.6e-17   9.6e-14   55.9   0.1     1   115   329   450   329   450 0.90 [190263/405/1]
+190263/456/1.f:LKAJBD_15320 -            449 CBM36.hmm            -            115   6.3e-14   56.5   0.2   1   1     2e-17   1.2e-13   55.6   0.2     1   115   327   448   327   448 0.91 [190263/456/1]
+190263/405/1.f:EHKDKA_05940 -            894 CBM36.hmm            -            115   1.8e-13   55.0   0.2   1   1   7.6e-17   4.6e-13   53.7   0.0     1   115   774   892   774   892 0.91 [190263/405/1]
+190263/460/1.f:IHFGKI_00025 -            986 CBM36.hmm            -            115   3.4e-13   54.2   0.0   1   1   1.1e-16   6.6e-13   53.2   0.0     1   115   352   474   352   474 0.91 [190263/460/1]
+190263/396/1.f:KAAOMA_17065 -           1003 CBM36.hmm            -            115   4.6e-13   53.7   0.6   1   1   4.4e-16   2.6e-12   51.3   0.2     1   115   338   456   338   456 0.91 [190263/396/1]
+190263/552/1.f:EMALNL_07535 -            443 CBM36.hmm            -            115   7.9e-13   53.0   0.0   1   1   2.8e-16   1.7e-12   51.9   0.0     1   115   321   442   321   442 0.95 [190263/552/1]
+190263/456/1.f:LKAJBD_15325 -            452 CBM36.hmm            -            115   1.3e-12   52.2   0.2   1   1   3.8e-16   2.3e-12   51.5   0.2     2   115   329   450   328   450 0.87 [190263/456/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/CBM36/CBM36.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/CBM36/CBM36-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/CBM36/CBM36.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 19:00:40 2024
+# [ok]

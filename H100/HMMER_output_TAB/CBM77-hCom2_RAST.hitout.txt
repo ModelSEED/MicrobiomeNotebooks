@@ -1,0 +1,20 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/396/1.f:KAAOMA_17455 -           1278 CBM77.hmm            -            103   2.4e-42  147.6   5.7   1   1   9.8e-47   2.4e-42  147.6   5.7     1   103  1068  1169  1068  1169 0.98 [190263/396/1]
+190263/457/1.f:IIKDLL_06165 -           1202 CBM77.hmm            -            103   1.3e-39  138.8   5.0   1   1   2.5e-43   6.3e-39  136.6   5.0     2   103   635   736   634   736 0.99 [190263/457/1]
+190263/412/1.f:OOIBGL_05485 -           1413 CBM77.hmm            -            103   1.2e-38  135.8   5.8   1   1   4.8e-43   1.2e-38  135.8   5.8     2   103   615   715   614   715 0.98 [190263/412/1]
+190263/490/1.f:OIBLLI_06680 -           1226 CBM77.hmm            -            103   1.2e-37  132.5   2.6   1   1   4.9e-42   1.2e-37  132.5   2.6     2   103   782   888   781   888 0.97 [190263/490/1]
+190263/457/1.f:IIKDLL_07105 -           1190 CBM77.hmm            -            103   5.3e-34  120.8   6.8   1   1   1.4e-37   3.5e-33  118.2   6.8     2   103   772   877   771   877 0.96 [190263/457/1]
+190263/457/1.f:IIKDLL_07100 -           1037 CBM77.hmm            -            103   1.3e-31  113.2   5.1   1   1   2.7e-35   6.8e-31  110.8   5.1     1   103   606   712   606   712 0.94 [190263/457/1]
+190263/460/1.f:IHFGKI_13490 -            774 CBM77.hmm            -            103   3.4e-19   73.2   9.1   1   1   1.4e-23   3.4e-19   73.2   9.1     4   103   658   765   655   765 0.91 [190263/460/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/CBM77/CBM77.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/CBM77/CBM77-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/CBM77/CBM77.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 19:01:15 2024
+# [ok]

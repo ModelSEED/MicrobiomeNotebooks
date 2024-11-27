@@ -1,0 +1,24 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/456/1.f:LKAJBD_02630 -            720 PL17.hmm             -            139   1.4e-45  158.9   0.1   1   1   1.9e-48   4.6e-45  157.2   0.1     1   137   379   516   379   518 0.98 [190263/456/1]
+190263/562/1.f:KJGNCK_05640 -            735 PL17.hmm             -            139   5.5e-42  147.2   1.5   1   1   7.1e-45   1.7e-41  145.7   1.5     1   136   386   523   386   526 0.98 [190263/562/1]
+190263/375/1.f:CNGHJF_16820 -            665 PL17.hmm             -            139   9.1e-29  104.4   0.1   1   1   7.1e-32   1.7e-28  103.6   0.1     1   137   374   508   374   509 0.89 [190263/375/1]
+190263/580/1.f:JCPJNN_26610 -            672 PL17.hmm             -            139   5.1e-25   92.3   0.0   1   1   4.4e-28     1e-24   91.3   0.0     1   135   376   509   376   511 0.93 [190263/580/1]
+190263/369/1.f:JCDIFE_07390 -            632 PL17.hmm             -            139   5.5e-23   85.7   0.0   1   1   6.5e-26   1.6e-22   84.2   0.0     2   133   403   513   402   517 0.95 [190263/369/1]
+190263/375/1.f:CNGHJF_00580 -            634 PL17.hmm             -            139   2.3e-22   83.7   0.3   1   1   1.9e-25   4.6e-22   82.7   0.3     1   135   399   509   399   513 0.95 [190263/375/1]
+190263/502/1.f:NONHGB_06680 -            636 PL17.hmm             -            139   5.8e-22   82.4   0.0   1   1   5.9e-25   1.4e-21   81.1   0.0     2   137   399   513   398   515 0.94 [190263/502/1]
+190263/502/1.f:NONHGB_08585 -           1220 PL17.hmm             -            139   3.9e-21   79.7   0.0   1   1   4.1e-24   9.6e-21   78.4   0.0     1   133   974  1085   974  1090 0.94 [190263/502/1]
+190263/456/1.f:LKAJBD_13635 -           1218 PL17.hmm             -            139   4.3e-20   76.3   0.0   1   1     5e-23   1.2e-19   74.9   0.0     1   133   974  1085   974  1089 0.94 [190263/456/1]
+190263/421/1.f:PBKEAC_13130 -            297 PL17.hmm             -            139   8.4e-14   55.9   0.0   1   1   6.8e-17   1.6e-13   55.0   0.0     1   136    48   169    48   172 0.90 [190263/421/1]
+190263/466/1.f:PGJOII_12230 -            722 PL17.hmm             -            139     2e-13   54.7   0.3   1   1   8.4e-17     2e-13   54.7   0.3     1   138   434   572   434   573 0.89 [190263/466/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/PL17/PL17.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/PL17/PL17-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/PL17/PL17.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 19:03:14 2024
+# [ok]

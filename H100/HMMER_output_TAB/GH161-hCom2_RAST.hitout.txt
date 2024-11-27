@@ -1,0 +1,21 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/375/1.f:CNGHJF_08275 -           1041 GH161.hmm            -           1063         0 1444.6   4.8   1   1         0         0 1444.4   4.8     6  1061     2  1031     1  1033 0.99 [190263/375/1]
+190263/495/1.f:ANKNCD_12660 -           1053 GH161.hmm            -           1063         0 1383.2   7.7   1   1         0         0 1383.0   7.7     9  1061     3  1051     1  1053 0.98 [190263/495/1]
+190263/439/1.f:KGLJGB_05610 -           1059 GH161.hmm            -           1063         0 1361.9   8.1   1   1         0         0 1361.7   8.1     1  1062     1  1058     1  1059 0.98 [190263/439/1]
+190263/439/1.f:KGLJGB_03950 -           1047 GH161.hmm            -           1063         0 1191.1   6.1   1   1         0         0 1190.9   6.1     1  1062     1  1046     1  1047 0.97 [190263/439/1]
+190263/443/1.f:LNLACP_06765 -            510 GH161.hmm            -           1063  3.8e-167  562.7   0.0   1   1  2.5e-171  4.7e-167  562.4   0.0     6   484     2   470     1   471 0.98 [190263/443/1]
+190263/443/1.f:LNLACP_06760 -            456 GH161.hmm            -           1063  1.4e-129  438.3   0.0   1   1  9.7e-134  1.8e-129  437.9   0.0   567   964     3   379     1   396 0.96 [190263/443/1]
+190263/495/1.f:ANKNCD_12655 -            907 GH161.hmm            -           1063   2.8e-18   69.8   3.4   1   1   8.1e-18   1.5e-13   54.1   3.2   694  1062   560   900   519   901 0.78 [190263/495/1]
+190263/439/1.f:KGLJGB_05615 -            898 GH161.hmm            -           1063   1.7e-16   63.9   5.2   1   1   1.2e-16   2.3e-12   50.2   0.8   709  1021   576   864   547   887 0.78 [190263/439/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GH161/GH161.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GH161/GH161-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GH161/GH161.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:56:57 2024
+# [ok]

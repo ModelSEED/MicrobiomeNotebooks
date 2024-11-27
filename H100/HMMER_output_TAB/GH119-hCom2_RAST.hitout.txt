@@ -1,0 +1,20 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/477/1.f:PCLDCI_13665 -           1957 GH119.hmm            -           1070   2.5e-31  112.6  26.9   1   2   6.4e-20     7e-16   61.4   7.2   790   893  1361  1466  1352  1473 0.87 [190263/477/1]
+190263/477/1.f:PCLDCI_13665 -           1957 GH119.hmm            -           1070   2.5e-31  112.6  26.9   2   2     3e-18   3.3e-14   55.9   4.9   805   898  1470  1563  1465  1574 0.90 [190263/477/1]
+190263/512/1.f:JBCLGH_12080 -           1912 GH119.hmm            -           1070   2.9e-31  112.4  18.8   1   2   4.8e-18   5.2e-14   55.3   3.0   809   900  1666  1758  1644  1765 0.86 [190263/512/1]
+190263/512/1.f:JBCLGH_12080 -           1912 GH119.hmm            -           1070   2.9e-31  112.4  18.8   2   2   2.9e-21   3.2e-17   65.9   3.7   810   902  1769  1862  1763  1867 0.91 [190263/512/1]
+190263/557/1.f:DOLMEB_10775 -           1301 GH119.hmm            -           1070   5.4e-29  104.9  39.7   1   2   1.5e-19   1.7e-15   60.2  14.5   801   901   943  1046   935  1048 0.91 [190263/557/1]
+190263/557/1.f:DOLMEB_10775 -           1301 GH119.hmm            -           1070   5.4e-29  104.9  39.7   2   2   1.6e-19   1.8e-15   60.1  17.2   809   901  1047  1140  1045  1198 0.91 [190263/557/1]
+190263/562/1.f:KJGNCK_22385 -            394 GH119.hmm            -           1070   4.6e-14   55.4   0.0   1   1   5.2e-18   5.7e-14   55.1   0.0   809   897   303   392   253   394 0.92 [190263/562/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GH119/GH119.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GH119/GH119-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GH119/GH119.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:55:44 2024
+# [ok]

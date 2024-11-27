@@ -1,0 +1,21 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/474/1.f:AMDJJA_00550 -           1708 GH13_27.hmm          -            318   3.9e-32  116.2   1.5   1   1   6.4e-29   5.2e-26   96.1   0.2    13   318    77   361    66   361 0.82 [190263/474/1]
+190263/527/1.f:HGADJN_04155 -           1752 GH13_27.hmm          -            318   1.4e-31  114.3   7.9   1   1     1e-30   8.3e-28  102.0   0.7    13   315    72   362    66   365 0.80 [190263/527/1]
+190263/417/1.f:MHBJAE_18870 -            481 GH13_27.hmm          -            318   3.1e-20   77.1   0.3   1   1   3.9e-22   3.2e-19   73.8   0.3     3   317    25   362    23   364 0.67 [190263/417/1]
+190263/368/1.f:HPMDBE_05470 -            480 GH13_27.hmm          -            318   3.8e-20   76.8   0.1   1   1   3.1e-22   2.5e-19   74.1   0.1     4   317    26   362    23   363 0.71 [190263/368/1]
+190263/379/1.f:LOJHAC_03785 -            480 GH13_27.hmm          -            318     5e-20   76.4   0.2   1   1   4.4e-22   3.6e-19   73.6   0.2     4   317    26   362    23   363 0.71 [190263/379/1]
+190263/516/1.f:MGNFBC_04845 -            482 GH13_27.hmm          -            318   5.1e-20   76.4   0.2   1   1   4.4e-22   3.6e-19   73.6   0.2     4   317    26   362    23   363 0.71 [190263/516/1]
+190263/502/1.f:NONHGB_12240 -            481 GH13_27.hmm          -            318   8.3e-20   75.7   1.0   1   1   3.4e-22   2.8e-19   74.0   1.0     3   317    25   362    23   364 0.70 [190263/502/1]
+190263/506/1.f:IKGMED_09345 -            526 GH13_27.hmm          -            318   2.7e-14   57.6   0.7   1   1   1.2e-16   9.6e-14   55.8   0.7     3   318    59   397    57   397 0.69 [190263/506/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GH13_27/GH13_27.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GH13_27/GH13_27-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GH13_27/GH13_27.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:49:01 2024
+# [ok]

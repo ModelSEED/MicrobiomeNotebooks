@@ -1,0 +1,22 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/573/1.f:LIDFCI_04455 -            451 GH158.hmm            -            132   4.6e-43  150.8   0.1   1   1   2.1e-45   8.6e-43  149.9   0.1     1   132    56   188    56   188 0.98 [190263/573/1]
+190263/461/1.f:DHPHOK_10865 -            429 GH158.hmm            -            132   7.3e-32  114.5   0.2   1   1   2.8e-34   1.1e-31  113.9   0.2     2   131    38   168    37   169 0.96 [190263/461/1]
+190263/369/1.f:JCDIFE_19210 -            451 GH158.hmm            -            132     8e-32  114.4   0.2   1   1   3.1e-34   1.3e-31  113.7   0.2     2   131    59   189    58   190 0.96 [190263/369/1]
+190263/388/1.f:FDDJJK_11160 -            797 GH158.hmm            -            132   3.3e-14   57.4   0.0   1   1   1.5e-16   6.3e-14   56.5   0.0    16   132   322   446   299   446 0.78 [190263/388/1]
+190263/461/1.f:DHPHOK_17565 -            797 GH158.hmm            -            132   3.3e-14   57.4   0.0   1   1   1.5e-16   6.3e-14   56.5   0.0    16   132   322   446   299   446 0.78 [190263/461/1]
+190263/545/1.f:NCJBIN_06925 -            812 GH158.hmm            -            132   1.9e-13   55.0   0.0   1   1   8.5e-16   3.5e-13   54.1   0.0    15   132   345   462   334   462 0.88 [190263/545/1]
+190263/534/1.f:OHCFJE_06355 -            812 GH158.hmm            -            132   1.9e-13   55.0   0.0   1   1   8.5e-16   3.5e-13   54.1   0.0    15   132   345   462   334   462 0.88 [190263/534/1]
+190263/391/1.f:NONBJF_06730 -            812 GH158.hmm            -            132   1.9e-13   55.0   0.0   1   1   8.5e-16   3.5e-13   54.1   0.0    15   132   345   462   334   462 0.88 [190263/391/1]
+190263/388/1.f:FDDJJK_05980 -            812 GH158.hmm            -            132   1.9e-13   54.9   0.0   1   1   8.5e-16   3.5e-13   54.1   0.0    15   132   345   462   334   462 0.88 [190263/388/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GH158/GH158.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GH158/GH158-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GH158/GH158.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:56:51 2024
+# [ok]

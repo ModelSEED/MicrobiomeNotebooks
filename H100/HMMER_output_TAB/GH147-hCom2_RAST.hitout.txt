@@ -1,0 +1,23 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/552/1.f:EMALNL_13355 -            869 GH147.hmm            -            816         0 1159.1   0.2   1   1         0         0 1158.8   0.2     6   816    20   851    15   851 0.99 [190263/552/1]
+190263/405/1.f:EHKDKA_24050 -            855 GH147.hmm            -            816         0 1158.4   0.2   1   1         0         0 1158.1   0.2     4   816    19   837    16   837 0.99 [190263/405/1]
+190263/562/1.f:KJGNCK_13430 -            869 GH147.hmm            -            816         0 1156.4   0.2   1   1         0         0 1156.1   0.2     6   816    20   851    15   851 0.99 [190263/562/1]
+190263/502/1.f:NONHGB_22130 -            855 GH147.hmm            -            816         0 1147.4   0.0   1   1         0         0 1147.2   0.0     5   816    20   837    16   837 0.98 [190263/502/1]
+190263/404/1.f:BGJBIG_09355 -            868 GH147.hmm            -            816         0 1138.6   0.0   1   1         0         0 1138.4   0.0     6   816    19   850    14   850 0.98 [190263/404/1]
+190263/585/1.f:DLBDDB_18270 -            869 GH147.hmm            -            816         0 1128.7   0.7   1   1         0         0 1128.4   0.7     6   815    20   850    15   851 0.98 [190263/585/1]
+190263/562/1.f:KJGNCK_12255 -            834 GH147.hmm            -            816  3.9e-252  843.4   0.0   1   1  2.9e-254  2.6e-250  837.4   0.0    11   803    21   793    16   810 0.95 [190263/562/1]
+190263/556/1.f:EMIPPF_06435 -            600 GH147.hmm            -            816   4.7e-68  234.5   0.3   1   2   2.3e-28     2e-24   90.2   0.1    14   192    43   221    37   235 0.85 [190263/556/1]
+190263/556/1.f:EMIPPF_06435 -            600 GH147.hmm            -            816   4.7e-68  234.5   0.3   2   2   6.5e-44   5.7e-40  141.6   0.0   197   514   259   597   253   600 0.81 [190263/556/1]
+190263/400/1.f:EIBLKL_00330 -           1173 GH147.hmm            -            816   4.1e-15   59.4   0.5   1   1   1.6e-16   1.4e-12   51.0   0.1    98   199   147   251   135   273 0.82 [190263/400/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GH147/GH147.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GH147/GH147-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GH147/GH147.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:56:35 2024
+# [ok]

@@ -1,0 +1,22 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/580/1.f:JCPJNN_21415 -            395 GH93.hmm             -            307   1.2e-90  308.2   0.0   1   1   6.3e-94   1.4e-90  308.0   0.0     1   302    52   368    52   373 0.93 [190263/580/1]
+190263/401/1.f:DMFJNH_03470 -            570 GH93.hmm             -            307     1e-59  206.6   0.0   1   1     6e-63   1.3e-59  206.3   0.0     2   277    62   332    61   382 0.85 [190263/401/1]
+190263/504/1.f:DOAHDM_03920 -            570 GH93.hmm             -            307   2.5e-59  205.3   0.0   1   1   1.4e-62   3.1e-59  205.0   0.0     2   277    62   332    61   382 0.85 [190263/504/1]
+190263/366/1.f:DBJPFP_04570 -            591 GH93.hmm             -            307   2.4e-25   93.7   0.1   1   1   1.5e-28   3.2e-25   93.3   0.1     2   229    57   300    56   359 0.78 [190263/366/1]
+190263/552/1.f:EMALNL_03960 -            598 GH93.hmm             -            307   1.2e-21   81.6   0.0   1   1     8e-25   1.7e-21   81.1   0.0     4   268    90   366    87   397 0.80 [190263/552/1]
+190263/562/1.f:KJGNCK_06495 -            598 GH93.hmm             -            307   1.2e-21   81.6   0.0   1   1     8e-25   1.7e-21   81.1   0.0     4   268    90   366    87   397 0.80 [190263/562/1]
+190263/562/1.f:KJGNCK_07495 -            625 GH93.hmm             -            307   5.4e-20   76.1   3.9   1   1   3.7e-23   7.9e-20   75.6   3.9     3   282    94   380    92   405 0.76 [190263/562/1]
+190263/573/1.f:LIDFCI_20105 -            625 GH93.hmm             -            307   5.9e-20   76.0   3.6   1   1   4.2e-23     9e-20   75.4   3.6     3   282    94   380    92   405 0.76 [190263/573/1]
+190263/366/1.f:DBJPFP_04600 -            609 GH93.hmm             -            307   4.3e-16   63.3   1.1   1   1   3.6e-19   7.8e-16   62.5   1.1     4   269    81   370    79   389 0.77 [190263/366/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GH93/GH93.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GH93/GH93-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GH93/GH93.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:54:45 2024
+# [ok]

@@ -26,7 +26,7 @@ from modelseedpy.helpers import get_template
 class CliffCommUtil(BaseUtil):
     def __init__(self):
         BaseUtil.__init__(self,"Cliff")
-        self.msseedrecon()
+        # self.msseedrecon()
     
     def load_function_data(self,small=True):
         if small:

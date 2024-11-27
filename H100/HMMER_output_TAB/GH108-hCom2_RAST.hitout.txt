@@ -1,0 +1,23 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/415/1.f:OLCEDN_00735 -            227 GH108.hmm            -             86   3.6e-28  102.1   0.0   1   1   4.5e-32   7.4e-28  101.1   0.0     3    86    10   127     8   127 0.99 [190263/415/1]
+190263/473/1.f:MLHPCA_09855 -            191 GH108.hmm            -             86   5.7e-25   91.8   0.0   1   1   5.5e-29     9e-25   91.2   0.0     3    86    13   104    11   104 0.98 [190263/473/1]
+190263/545/1.f:NCJBIN_18100 -            173 GH108.hmm            -             86   3.6e-20   76.4   0.1   1   1   3.1e-24   5.1e-20   75.9   0.1     3    86     9    97     7    97 0.92 [190263/545/1]
+190263/488/1.f:DNPFAC_06605 -            192 GH108.hmm            -             86   9.9e-20   75.0   0.3   1   1   9.9e-24   1.6e-19   74.3   0.3     3    86     9    99     7    99 0.95 [190263/488/1]
+190263/461/1.f:DHPHOK_14530 -            174 GH108.hmm            -             86   1.7e-19   74.3   0.8   1   1   1.6e-23   2.6e-19   73.7   0.8     2    86     8    98     7    98 0.96 [190263/461/1]
+190263/415/1.f:OLCEDN_04490 -            197 GH108.hmm            -             86   5.4e-19   72.7   0.0   1   1   5.9e-23   9.8e-19   71.8   0.0     3    86    10   107     8   107 0.97 [190263/415/1]
+190263/405/1.f:EHKDKA_11120 -            173 GH108.hmm            -             86   7.2e-19   72.3   0.1   1   1   8.8e-23   1.4e-18   71.3   0.1     3    86     9    97     7    97 0.93 [190263/405/1]
+190263/415/1.f:OLCEDN_05195 -            230 GH108.hmm            -             86   1.1e-17   68.4   0.0   1   1   1.5e-21   2.5e-17   67.3   0.0     2    86    11   102    10   102 0.95 [190263/415/1]
+190263/364/1.f:DKBBKL_05525 -            163 GH108.hmm            -             86   1.1e-13   55.6   0.0   1   1   9.9e-18   1.6e-13   55.1   0.0     5    86     2    93     1    93 0.83 [190263/364/1]
+190263/415/1.f:OLCEDN_06295 -            188 GH108.hmm            -             86   1.4e-13   55.3   0.0   1   1   1.2e-17     2e-13   54.8   0.0     2    86    11   102    10   102 0.94 [190263/415/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GH108/GH108.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GH108/GH108-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GH108/GH108.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:55:20 2024
+# [ok]

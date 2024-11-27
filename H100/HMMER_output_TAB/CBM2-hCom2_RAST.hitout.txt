@@ -1,0 +1,22 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/423/1.f:PDNKFB_10555 -           1186 CBM2.hmm             -            101   1.3e-46  161.6  18.7   1   2   1.2e-24   1.3e-20   78.1   8.1     3    98    97   190    96   192 0.92 [190263/423/1]
+190263/423/1.f:PDNKFB_10555 -           1186 CBM2.hmm             -            101   1.3e-46  161.6  18.7   2   2     1e-27   1.1e-23   87.9   2.8     2    95   201   293   201   296 0.90 [190263/423/1]
+190263/400/1.f:EIBLKL_08285 -            659 CBM2.hmm             -            101   6.9e-19   72.5   6.1   1   1   6.3e-23   6.9e-19   72.5   6.1     4   101   118   217   117   217 0.94 [190263/400/1]
+190263/532/1.f:BGDBBA_09710 -            542 CBM2.hmm             -            101     1e-18   72.0   1.7   1   1   2.5e-22   2.8e-18   70.6   1.7     3    96    88   183    87   187 0.91 [190263/532/1]
+190263/400/1.f:EIBLKL_10965 -            570 CBM2.hmm             -            101   1.2e-18   71.8  11.9   1   1   1.1e-22   1.2e-18   71.8  11.9     2    99   125   224   124   226 0.91 [190263/400/1]
+190263/412/1.f:OOIBGL_06550 -            649 CBM2.hmm             -            101   1.8e-15   61.6   3.4   1   1   1.7e-19   1.8e-15   61.6   3.4     8   101   108   203   103   203 0.87 [190263/412/1]
+190263/490/1.f:OIBLLI_10295 -            536 CBM2.hmm             -            101   5.6e-13   53.6   2.3   1   1   5.1e-17   5.6e-13   53.6   2.3     2    90    69   161    68   171 0.86 [190263/490/1]
+190263/513/1.f:MKNBNH_06080 -            555 CBM2.hmm             -            101     2e-12   51.8   0.7   1   1   4.9e-16   5.4e-12   50.4   0.5     9    85    96   176    90   189 0.88 [190263/513/1]
+190263/578/1.f:HIHCLH_05675 -            532 CBM2.hmm             -            101   3.4e-12   51.1   7.5   1   1   9.3e-16     1e-11   49.5   7.5     4    87   109   197   106   225 0.89 [190263/578/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/CBM2/CBM2.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/CBM2/CBM2-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/CBM2/CBM2.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 19:00:11 2024
+# [ok]

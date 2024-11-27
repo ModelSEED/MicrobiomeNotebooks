@@ -175,10 +175,11 @@ grow/MetaT/*
 AGORA2_genomes/*
 AGORA2_genomes/*/*
 AGORA/AGORA2_fva/*
-*/*.mov
-WesternDietMicrobiomes/feature_aliases.json
 WesternDietMicrobiomes/functions.json
-
+WesternDietMicrobiomes/feature_aliases.json
+*/*.mov
+*/*.gz
+*/*/cazy_data.txt
 
 # bloated files
 */*.png

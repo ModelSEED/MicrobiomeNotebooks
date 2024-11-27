@@ -1,0 +1,21 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/412/1.f:OOIBGL_06550 -            649 GH5_24.hmm           -            315   1.4e-28  104.7   8.4   1   1   1.5e-22   1.3e-18   72.0   2.1     1   202   258   462   258   472 0.85 [190263/412/1]
+190263/412/1.f:OOIBGL_08215 -            579 GH5_24.hmm           -            315     1e-27  101.9   9.0   1   1   2.4e-22   2.1e-18   71.3   1.3     1   207    59   279    59   287 0.89 [190263/412/1]
+190263/400/1.f:EIBLKL_08285 -            659 GH5_24.hmm           -            315     4e-27  100.0   8.8   1   1   1.4e-21   1.2e-17   68.8   1.8     1   203   268   473   268   485 0.84 [190263/400/1]
+190263/396/1.f:KAAOMA_01805 -            641 GH5_24.hmm           -            315   4.7e-27   99.7   3.7   1   1   7.3e-31   6.5e-27   99.3   3.7     3   309    84   423    82   428 0.82 [190263/396/1]
+190263/412/1.f:OOIBGL_15685 -            682 GH5_24.hmm           -            315   5.8e-27   99.4   3.2   1   1   1.1e-30   9.8e-27   98.7   3.2     3   309    56   394    54   399 0.82 [190263/412/1]
+190263/396/1.f:KAAOMA_01810 -            634 GH5_24.hmm           -            315   2.4e-26   97.4   5.8   1   1   1.2e-18   1.1e-14   59.1   0.2     3   205    57   313    55   324 0.81 [190263/396/1]
+190263/396/1.f:KAAOMA_00970 -            708 GH5_24.hmm           -            315   6.1e-26   96.1  13.2   1   1   5.2e-21   4.6e-17   66.9   1.5     1   203    52   265    52   274 0.89 [190263/396/1]
+190263/396/1.f:KAAOMA_01800 -            744 GH5_24.hmm           -            315   8.2e-25   92.4   7.3   1   1   1.1e-20   9.6e-17   65.8   0.2     1   204    51   271    51   279 0.85 [190263/396/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/GH5_24/GH5_24.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/GH5_24/GH5_24-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/GH5_24/GH5_24.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:46:46 2024
+# [ok]

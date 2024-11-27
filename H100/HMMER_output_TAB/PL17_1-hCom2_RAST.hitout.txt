@@ -1,0 +1,17 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/375/1.f:CNGHJF_16820 -            665 PL17_1.hmm           -            135     8e-44  153.5   1.6   1   1   3.5e-47   1.3e-43  152.8   0.4     2   134   375   506   374   507 0.97 [190263/375/1]
+190263/580/1.f:JCPJNN_26610 -            672 PL17_1.hmm           -            135   1.6e-36  129.8   0.0   1   1   9.3e-40   3.6e-36  128.7   0.0     2   133   377   508   376   510 0.96 [190263/580/1]
+190263/369/1.f:JCDIFE_07390 -            632 PL17_1.hmm           -            135   7.3e-17   66.2   0.0   1   1   4.4e-20   1.7e-16   65.0   0.0    11    88   410   487   402   502 0.91 [190263/369/1]
+190263/502/1.f:NONHGB_06680 -            636 PL17_1.hmm           -            135   8.8e-15   59.4   0.1   1   1     6e-18   2.3e-14   58.1   0.1    11    92   406   487   398   504 0.90 [190263/502/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/PL17_1/PL17_1.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/PL17_1/PL17_1-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/PL17_1/PL17_1.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 19:03:16 2024
+# [ok]

@@ -1,0 +1,19 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+190263/588/1.f:LGPOLK_06645 -            351 SLH.hmm              -             42   3.4e-35  124.0  10.9   1   1   8.1e-18   1.6e-14   57.9   0.0     1    42    88   128    88   128 0.99 [190263/588/1]
+190263/422/1.f:HJBCNJ_21490 -           1247 SLH.hmm              -             42   2.6e-32  114.8   6.0   1   1   8.6e-16   1.7e-12   51.4   0.0     1    42  1118  1159  1118  1159 0.99 [190263/422/1]
+190263/422/1.f:HJBCNJ_06440 -            243 SLH.hmm              -             42   4.1e-32  114.2   0.7   1   1   6.9e-17   1.3e-13   54.9   0.2     1    42   143   184   143   184 0.99 [190263/422/1]
+190263/591/1.f:NBPJEL_00475 -            442 SLH.hmm              -             42   9.9e-15   58.5   0.1   1   1   1.2e-17   2.3e-14   57.3   0.1     1    41    26    66    26    67 0.98 [190263/591/1]
+190263/591/1.f:NBPJEL_06845 -            403 SLH.hmm              -             42   3.6e-14   56.7   0.5   1   1     4e-17   7.8e-14   55.7   0.1     1    41    26    66    26    67 0.98 [190263/591/1]
+190263/591/1.f:NBPJEL_06850 -            420 SLH.hmm              -             42   3.9e-14   56.6   0.4   1   1   4.9e-17   9.5e-14   55.4   0.1     1    41    26    66    26    67 0.98 [190263/591/1]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /kb/module/work/tmp/output.1725388484971/SLH/SLH.hmm
+# Target file:     /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta
+# Option settings: /kb/module/hmmer/bin/hmmsearch --domtblout /kb/module/work/tmp/output.1725388484971/SLH/SLH-hCom2_RAST.hitout.txt --noali --notextw --domE 1e-15 /kb/module/work/tmp/output.1725388484971/SLH/SLH.hmm /kb/module/work/tmp/output.1725388484971/hCom2_RAST.fasta 
+# Current dir:     /kb/module/work/tmp/output.1725388484971
+# Date:            Tue Sep  3 18:45:54 2024
+# [ok]
