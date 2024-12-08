@@ -1,0 +1,304 @@
+{
+    "RC-ABX_-1.5": {
+        "names": [
+            "Lactobacillus.3",
+            "Merdibacter.1",
+            "Nosocomiicoccus.1",
+            "Staphylococcus.3",
+            "Turicibacter.1",
+            "Lactobacillus.1",
+            "Muribaculum.1",
+            "Lactobacillus.4",
+            "Clostridium.7",
+            "Alloiococcus.1",
+            "Lactobacillus.5",
+            "Desulfovibrio.1",
+            "Burkholderiales.1",
+            "Staphylococcus.4",
+            "Bacillus.4"
+        ],
+        "abundances": {
+            "Lactobacillus.3": 0.04843895548529505,
+            "Merdibacter.1": 0.21186061018309485,
+            "Nosocomiicoccus.1": 0.08786203695767955,
+            "Staphylococcus.3": 0.1264915649541215,
+            "Turicibacter.1": 0.028043883563881544,
+            "Lactobacillus.1": 0.08819119567468148,
+            "Muribaculum.1": 0.08117072035313463,
+            "Lactobacillus.4": 0.03467786614577383,
+            "Clostridium.7": 0.08385539204093137,
+            "Alloiococcus.1": 0.024959315539621465,
+            "Lactobacillus.5": 0.016264689349344427,
+            "Desulfovibrio.1": 0.011508571646387479,
+            "Burkholderiales.1": 0.0117252922299623,
+            "Staphylococcus.4": 0.06368399216670433,
+            "Bacillus.4": 0.015231733328271546
+        }
+    },
+    "RC-ABX_1.5": {
+        "names": [
+            "Lactobacillus.3",
+            "Merdibacter.1",
+            "Enterococcus.2",
+            "Nosocomiicoccus.1",
+            "Staphylococcus.3",
+            "Turicibacter.1",
+            "Enterococcus.1",
+            "Lactobacillus.1",
+            "Lactobacillus.4",
+            "Clostridium.7",
+            "Alloiococcus.1",
+            "Staphylococcus.4",
+            "Bacillus.4",
+            "Acinetobacter.1",
+            "Enterococcus.3"
+        ],
+        "abundances": {
+            "Lactobacillus.3": 0.20348989421771158,
+            "Merdibacter.1": 0.08474639367504053,
+            "Enterococcus.2": 0.1309746907186885,
+            "Nosocomiicoccus.1": 0.07327134180519605,
+            "Staphylococcus.3": 0.13183227286093865,
+            "Turicibacter.1": 0.011185657316570624,
+            "Enterococcus.1": 0.04320292168200713,
+            "Lactobacillus.1": 0.08321287177640227,
+            "Lactobacillus.4": 0.013824145944972874,
+            "Clostridium.7": 0.04353588773310435,
+            "Alloiococcus.1": 0.021774696128366383,
+            "Staphylococcus.4": 0.058851523898559285,
+            "Bacillus.4": 0.0121459895596003,
+            "Acinetobacter.1": 0.049445436875540864,
+            "Enterococcus.3": 0.01263951643347127
+        }
+    },
+    "RC-ABX_4.0": {
+        "names": [
+            "Lactobacillus.3",
+            "Merdibacter.1",
+            "Enterococcus.2",
+            "Acinetobacter.1",
+            "Enterococcus.3",
+            "Staphylococcus.3",
+            "Enterococcus.1",
+            "Lactobacillus.1",
+            "Clostridium.21"
+        ],
+        "abundances": {
+            "Lactobacillus.3": 0.5223255953271383,
+            "Merdibacter.1": 0.029688565965290306,
+            "Enterococcus.2": 0.12685395161587878,
+            "Acinetobacter.1": 0.045847414270716896,
+            "Enterococcus.3": 0.12491009267865137,
+            "Staphylococcus.3": 0.02993478969855076,
+            "Enterococcus.1": 0.04056675224406694,
+            "Lactobacillus.1": 0.024671742790403576,
+            "Clostridium.21": 0.012753390481033026
+        }
+    },
+    "RC-ABX_6.0": {
+        "names": [
+            "Lactobacillus.3",
+            "Enterococcus.2",
+            "Enterococcus.3",
+            "Turicibacter.1",
+            "Lactobacillus.1",
+            "Akkermansia.1",
+            "Clostridium.21",
+            "Eubacterium.5",
+            "Muribaculum.1",
+            "Alistipes.2"
+        ],
+        "abundances": {
+            "Lactobacillus.3": 0.5479700189823683,
+            "Enterococcus.2": 0.016939205875678202,
+            "Enterococcus.3": 0.17129545502377416,
+            "Turicibacter.1": 0.014990036371055929,
+            "Lactobacillus.1": 0.02331390107623066,
+            "Akkermansia.1": 0.038705380174784434,
+            "Clostridium.21": 0.05924120216497522,
+            "Eubacterium.5": 0.012159245402962348,
+            "Muribaculum.1": 0.042053362651426264,
+            "Alistipes.2": 0.016180477046671023
+        }
+    },
+    "RC-ABX_9.0": {
+        "names": [
+            "Lactobacillus.3",
+            "Merdibacter.1",
+            "Enterococcus.2",
+            "Enterococcus.3",
+            "Turicibacter.1",
+            "Lactobacillus.1",
+            "Muribaculum.1",
+            "Akkermansia.1",
+            "Clostridium.21",
+            "Bifidobacterium.1",
+            "Ruminococcus.3",
+            "Alistipes.2",
+            "Acetivibrio.1",
+            "Eubacterium.7",
+            "Clostridium.23",
+            "Alistipes.4",
+            "Blautia.1",
+            "Clostridium.16"
+        ],
+        "abundances": {
+            "Lactobacillus.3": 0.10248990296145745,
+            "Merdibacter.1": 0.15454569147007216,
+            "Enterococcus.2": 0.02287631014870932,
+            "Enterococcus.3": 0.012639219226789709,
+            "Turicibacter.1": 0.11244735415019055,
+            "Lactobacillus.1": 0.08184513012674441,
+            "Muribaculum.1": 0.10458304278911564,
+            "Akkermansia.1": 0.09219064917003918,
+            "Clostridium.21": 0.06378843951477596,
+            "Bifidobacterium.1": 0.028446779584784615,
+            "Ruminococcus.3": 0.021299977279976328,
+            "Alistipes.2": 0.04679677048360666,
+            "Acetivibrio.1": 0.02137231622620549,
+            "Eubacterium.7": 0.015559243662778941,
+            "Clostridium.23": 0.024141510627509546,
+            "Alistipes.4": 0.012146896403305596,
+            "Blautia.1": 0.012125945022898753,
+            "Clostridium.16": 0.012981154235968155
+        }
+    },
+    "RC-ABX_12.5": {
+        "names": [
+            "Lactobacillus.3",
+            "Merdibacter.1",
+            "Turicibacter.1",
+            "Lactobacillus.1",
+            "Muribaculum.1",
+            "Akkermansia.1",
+            "Clostridium.21",
+            "Bifidobacterium.1",
+            "Ruminococcus.3",
+            "Alistipes.2",
+            "Acetivibrio.1",
+            "Oscillibacter.3",
+            "Eubacterium.7",
+            "Murimonas.1",
+            "Clostridium.23",
+            "Blautia.1",
+            "Oscillibacter.1",
+            "Clostridium.16",
+            "Lachnospiraceae.1"
+        ],
+        "abundances": {
+            "Lactobacillus.3": 0.024458789845926185,
+            "Merdibacter.1": 0.11871834591514248,
+            "Turicibacter.1": 0.15495749611124895,
+            "Lactobacillus.1": 0.06474662465284936,
+            "Muribaculum.1": 0.05355259196732413,
+            "Akkermansia.1": 0.05201672016057413,
+            "Clostridium.21": 0.08938738315811354,
+            "Bifidobacterium.1": 0.038403350639573466,
+            "Ruminococcus.3": 0.01710460231269331,
+            "Alistipes.2": 0.050355429750714054,
+            "Acetivibrio.1": 0.054534591331764914,
+            "Oscillibacter.3": 0.02327551430898224,
+            "Eubacterium.7": 0.053492077263034975,
+            "Murimonas.1": 0.042714655582511495,
+            "Clostridium.23": 0.06235016456065008,
+            "Blautia.1": 0.010351575387101172,
+            "Oscillibacter.1": 0.023710479000277052,
+            "Clostridium.16": 0.013359911677262288,
+            "Lachnospiraceae.1": 0.019238155924709642
+        }
+    },
+    "WD-ABX_-1.5": {
+        "names": [
+            "Lactococcus.1",
+            "Lactobacillus.3",
+            "Merdibacter.1",
+            "Muribaculum.1",
+            "Akkermansia.1",
+            "Lactobacillus.4",
+            "Paraclostridium.1",
+            "Bacteroides.3",
+            "Bifidobacterium.1",
+            "Ruminococcus.3",
+            "Clostridium.11"
+        ],
+        "abundances": {
+            "Lactococcus.1": 0.5724575894566899,
+            "Lactobacillus.3": 0.01786575989674439,
+            "Merdibacter.1": 0.19469988075810687,
+            "Muribaculum.1": 0.018557567027312583,
+            "Akkermansia.1": 0.02191826014083486,
+            "Lactobacillus.4": 0.025256247353833975,
+            "Paraclostridium.1": 0.04965250955514438,
+            "Bacteroides.3": 0.019734998319308444,
+            "Bifidobacterium.1": 0.015558822946300743,
+            "Ruminococcus.3": 0.011568992398063242,
+            "Clostridium.11": 0.013779463339833398
+        }
+    },
+    "WD-ABX_1.5": {
+        "names": [
+            "Lactococcus.1",
+            "Merdibacter.1"
+        ],
+        "abundances": {
+            "Lactococcus.1": 0.9771184448588813,
+            "Merdibacter.1": 0.014562341076577055
+        }
+    },
+    "WD-ABX_4.0": {
+        "names": [
+            "Lactococcus.1"
+        ],
+        "abundances": {
+            "Lactococcus.1": 0.9910188953151016
+        }
+    },
+    "WD-ABX_6.0": {
+        "names": [
+            "Lactococcus.1",
+            "Acinetobacter.1"
+        ],
+        "abundances": {
+            "Lactococcus.1": 0.9303184566665498,
+            "Acinetobacter.1": 0.04878425387373013
+        }
+    },
+    "WD-ABX_9.0": {
+        "names": [
+            "Lactococcus.1",
+            "Lactobacillus.3",
+            "Enterococcus.2",
+            "Acinetobacter.1",
+            "Enterococcus.1",
+            "Agrobacterium.1",
+            "Stenotrophomonas.1"
+        ],
+        "abundances": {
+            "Lactococcus.1": 0.4678468939204259,
+            "Lactobacillus.3": 0.041978921955132614,
+            "Enterococcus.2": 0.2048703595248024,
+            "Acinetobacter.1": 0.1871183502278516,
+            "Enterococcus.1": 0.06263996611756113,
+            "Agrobacterium.1": 0.023190877277416623,
+            "Stenotrophomonas.1": 0.010592838672341499
+        }
+    },
+    "WD-ABX_12.5": {
+        "names": [
+            "Lactococcus.1",
+            "Lactobacillus.3",
+            "Enterococcus.2",
+            "Acinetobacter.1",
+            "Enterococcus.1",
+            "Agrobacterium.1"
+        ],
+        "abundances": {
+            "Lactococcus.1": 0.21401255754019918,
+            "Lactobacillus.3": 0.1151254944319341,
+            "Enterococcus.2": 0.392760208045482,
+            "Acinetobacter.1": 0.1190671374721447,
+            "Enterococcus.1": 0.13352923179898543,
+            "Agrobacterium.1": 0.015221608100266574
+        }
+    }
+}

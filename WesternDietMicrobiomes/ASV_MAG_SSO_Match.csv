@@ -1,0 +1,15 @@
+asv,mag,match_count,asv_unique,mag_unique,
+Lactococcus.1,Bin.010.fastaHF19_extracted_bins.AssemblySet.RAST.RAST,1383,446,8,0.005784526
+Muribaculum.1,Bin.024.fastaHF12_extracted_bins.AssemblySet.RAST.RAST,933,336,193,0.206859593
+Lactobacillus.4,Bin.030.fastaHF18_extracted_bins.AssemblySet.RAST.RAST,1028,1320,17,0.016536965
+Bacteroides.3,Bin.013.fastaHF11_extracted_bins.AssemblySet.RAST.RAST,1498,958,89,0.05941255
+Bacteroides.3,Bin.037.fastaHF22_extracted_bins.AssemblySet.RAST.RAST,1493,963,79,0.052913597
+Bifidobacterium.1,Bin.030.fastaHF11_extracted_bins.AssemblySet.RAST.RAST,935,3448,40,0.042780749
+Parabacteroides.1,Bin.012.fastaHF23_extracted_bins.AssemblySet.RAST.RAST,1598,471,72,0.04505632
+,,,,,
+Filtered,,,,,
+Lactobacillus.3,Bin.030.fastaHF18_extracted_bins.AssemblySet.RAST.RAST,975,2106,70,0.071794872
+Lactobacillus.1,Bin.030.fastaHF18_extracted_bins.AssemblySet.RAST.RAST,846,935,199,0.235224586
+Lactobacillus.5,Bin.030.fastaHF18_extracted_bins.AssemblySet.RAST.RAST,974,1648,71,0.072895277
+Muribaculum.1,Bin.021.fastaHF5_extracted_bins.AssemblySet.RAST.RAST,1008,261,219,0.217261905
+Muribaculum.1,Bin.022.fastaHF15_extracted_bins.AssemblySet.RAST.RAST,998,271,216,0.216432866
