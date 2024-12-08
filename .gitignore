@@ -180,6 +180,7 @@ WesternDietMicrobiomes/feature_aliases.json
 */*.mov
 */*.gz
 */*/cazy_data.txt
+*/Sequencing_stats/*
 
 # bloated files
 */*.png
