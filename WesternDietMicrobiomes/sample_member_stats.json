@@ -1,0 +1,308 @@
+{
+   "RC": {
+      "-1.5": {
+         "flux": {
+            "Lactobacillus.3": 164.24658027078212,
+            "Alloiococcus.1": 64.56620502047848,
+            "Lactobacillus.5": 55.15023142081204,
+            "Desulfovibrio.1": 39.023210095730924,
+            "Burkholderiales.1": 39.75806522152436,
+            "Staphylococcus.4": 215.9393782664835,
+            "Bacillus.4": 51.64768904904593,
+            "Merdibacter.1": 718.3759510920592,
+            "Nosocomiicoccus.1": 147.86362177693377,
+            "Staphylococcus.3": 428.90699786292896,
+            "Turicibacter.1": 95.09106723570542,
+            "Lactobacillus.1": 294.81577173858426,
+            "Muribaculum.1": 275.23329317383167,
+            "Lactobacillus.4": 76.96402890881629,
+            "Clostridium.7": 142.95050375264287
+         },
+         "biomass": {
+            "Lactobacillus.3": 0.2189954403610428,
+            "Alloiococcus.1": 0.1128425714994817,
+            "Lactobacillus.5": 0.073533641894416,
+            "Desulfovibrio.1": 0.0520309467943079,
+            "Burkholderiales.1": 0.0530107536286992,
+            "Staphylococcus.4": 0.2879191710219774,
+            "Bacillus.4": 0.068863585398728,
+            "Merdibacter.1": 0.957834601456074,
+            "Nosocomiicoccus.1": 0.3972295703280904,
+            "Staphylococcus.3": 0.5718759971505722,
+            "Turicibacter.1": 0.1267880896476073,
+            "Lactobacillus.1": 0.3987177167477711,
+            "Muribaculum.1": 0.3669777242317739,
+            "Lactobacillus.4": 0.1567807251682066,
+            "Clostridium.7": 0.3791152869146099
+         }
+      },
+      "1.5": {
+         "flux": {
+            "Lactobacillus.3": 421.1002908042576,
+            "Clostridium.7": 141.53386850603968,
+            "Alloiococcus.1": 39.60387828429058,
+            "Staphylococcus.4": 191.32454346406098,
+            "Bacillus.4": 39.48624867242649,
+            "Acinetobacter.1": 160.745635965179,
+            "Enterococcus.3": 41.090689773958196,
+            "Merdibacter.1": 275.50799038017095,
+            "Enterococcus.2": 425.7948010028158,
+            "Nosocomiicoccus.1": 137.10779674831363,
+            "Staphylococcus.3": 428.58277488997857,
+            "Turicibacter.1": 32.14173325374132,
+            "Enterococcus.1": 140.45140583565922,
+            "Lactobacillus.1": 270.52255656787224,
+            "Lactobacillus.4": 44.94188487389734
+         },
+         "biomass": {
+            "Lactobacillus.3": 0.8820527440741792,
+            "Clostridium.7": 0.1887118246747199,
+            "Alloiococcus.1": 0.0943851808722168,
+            "Staphylococcus.4": 0.2550993912854132,
+            "Bacillus.4": 0.0526483315632354,
+            "Acinetobacter.1": 0.2143275146202388,
+            "Enterococcus.3": 0.0547875863652773,
+            "Merdibacter.1": 0.3673439871735602,
+            "Enterococcus.2": 0.5677264013370882,
+            "Nosocomiicoccus.1": 0.317603920085212,
+            "Staphylococcus.3": 0.5714436998533057,
+            "Turicibacter.1": 0.0484856497089661,
+            "Enterococcus.1": 0.1872685411142123,
+            "Lactobacillus.1": 0.360696742090497,
+            "Lactobacillus.4": 0.0599225131651964
+         }
+      },
+      "4.0": {
+         "flux": {
+            "Lactobacillus.3": 898.6094241399611,
+            "Merdibacter.1": 98.18790590014413,
+            "Enterococcus.2": 419.5394239951954,
+            "Acinetobacter.1": 151.6294725532071,
+            "Enterococcus.3": 413.1105705896563,
+            "Staphylococcus.3": 94.7797291554734,
+            "Enterococcus.1": 134.16493260980448,
+            "Lactobacillus.1": 81.59595051943174,
+            "Clostridium.21": 42.178820826963154
+         },
+         "biomass": {
+            "Lactobacillus.3": 2.303291058839626,
+            "Merdibacter.1": 0.1309172078668585,
+            "Enterococcus.2": 0.5593858986602629,
+            "Acinetobacter.1": 0.2021726300709427,
+            "Enterococcus.3": 0.5508140941195392,
+            "Staphylococcus.3": 0.1320029768361882,
+            "Enterococcus.1": 0.178886576813072,
+            "Lactobacillus.1": 0.108794600692575,
+            "Clostridium.21": 0.0562384277692844
+         }
+      },
+      "6.0": {
+         "flux": {
+            "Lactobacillus.3": 979.9784512207484,
+            "Alistipes.2": 54.34778855081336,
+            "Enterococcus.2": 56.8962445603209,
+            "Enterococcus.3": 575.355667357333,
+            "Turicibacter.1": 50.34927738615493,
+            "Lactobacillus.1": 78.30788686457451,
+            "Akkermansia.1": 125.78303589933603,
+            "Clostridium.21": 198.98228707790045,
+            "Eubacterium.5": 40.841076328685986,
+            "Muribaculum.1": 141.25091952716065
+         },
+         "biomass": {
+            "Lactobacillus.3": 2.454065158312996,
+            "Alistipes.2": 0.072463718067751,
+            "Enterococcus.2": 0.0758616594137611,
+            "Enterococcus.3": 0.7671408898097782,
+            "Turicibacter.1": 0.0671323698482062,
+            "Lactobacillus.1": 0.1044105158194329,
+            "Akkermansia.1": 0.1733407333171148,
+            "Clostridium.21": 0.2653097161038659,
+            "Eubacterium.5": 0.0544547684382482,
+            "Muribaculum.1": 0.1883345593695462
+         }
+      },
+      "9.0": {
+         "flux": {
+            "Lactobacillus.3": 174.18209737895774,
+            "Bifidobacterium.1": 95.59135675904302,
+            "Ruminococcus.3": 70.20523137845176,
+            "Alistipes.2": 157.25389122296892,
+            "Acetivibrio.1": 58.541619168987616,
+            "Eubacterium.7": 52.284625310103806,
+            "Clostridium.23": 55.48388491225752,
+            "Alistipes.4": 40.817917688812116,
+            "Blautia.1": 18.1112305997319,
+            "Clostridium.16": 43.621322477511846,
+            "Merdibacter.1": 448.3193237432829,
+            "Enterococcus.2": 76.87258651680293,
+            "Enterococcus.3": 42.47229851318693,
+            "Turicibacter.1": 377.86334003623665,
+            "Lactobacillus.1": 213.33640144651494,
+            "Muribaculum.1": 351.43644026221534,
+            "Akkermansia.1": 217.8381221782179,
+            "Clostridium.21": 160.7031184435588
+         },
+         "biomass": {
+            "Lactobacillus.3": 0.4592036554431196,
+            "Bifidobacterium.1": 0.1274551423453903,
+            "Ruminococcus.3": 0.0954340588213728,
+            "Alistipes.2": 0.2096718549639583,
+            "Acetivibrio.1": 0.0957581718079157,
+            "Eubacterium.7": 0.0697128337468052,
+            "Clostridium.23": 0.1081654836988213,
+            "Alistipes.4": 0.0544238902517494,
+            "Blautia.1": 0.0543300180732089,
+            "Clostridium.16": 0.0581617633033491,
+            "Merdibacter.1": 0.6924384198385868,
+            "Enterococcus.2": 0.1024967820224041,
+            "Enterococcus.3": 0.056629731350916,
+            "Turicibacter.1": 0.5038177867149798,
+            "Lactobacillus.1": 0.3667052250849782,
+            "Muribaculum.1": 0.4685819203496215,
+            "Akkermansia.1": 0.4130580854630774,
+            "Clostridium.21": 0.285802637662883
+         }
+      },
+      "12.5": {
+         "flux": {
+            "Lactobacillus.3": 80.07958568793129,
+            "Alistipes.2": 164.86678110309433,
+            "Acetivibrio.1": 162.93957320598167,
+            "Oscillibacter.3": 76.20546863839455,
+            "Eubacterium.7": 158.62292182320274,
+            "Murimonas.1": 139.85041547016394,
+            "Clostridium.23": 204.13828227167306,
+            "Blautia.1": 33.89169592765091,
+            "Oscillibacter.1": 77.62956985056378,
+            "Clostridium.16": 43.74117438687242,
+            "Lachnospiraceae.1": 62.98690841023628,
+            "Merdibacter.1": 388.69118277430323,
+            "Turicibacter.1": 507.340394434715,
+            "Lactobacillus.1": 211.98444034040304,
+            "Muribaculum.1": 175.3344872854542,
+            "Akkermansia.1": 166.0857768873802,
+            "Clostridium.21": 292.6598026362418,
+            "Bifidobacterium.1": 125.73493732183226,
+            "Ruminococcus.3": 49.907496820938704
+         },
+         "biomass": {
+            "Lactobacillus.3": 0.1067727809172417,
+            "Alistipes.2": 0.2198223748041265,
+            "Acetivibrio.1": 0.2380661516517214,
+            "Oscillibacter.3": 0.1016072915178596,
+            "Eubacterium.7": 0.2335151445510089,
+            "Murimonas.1": 0.1864672206268852,
+            "Clostridium.23": 0.27218437636223,
+            "Blautia.1": 0.0451889279035347,
+            "Oscillibacter.1": 0.1035060931340848,
+            "Clostridium.16": 0.0583215658491631,
+            "Lachnospiraceae.1": 0.0839825445469817,
+            "Merdibacter.1": 0.5182549103657353,
+            "Turicibacter.1": 0.6764538592462896,
+            "Lactobacillus.1": 0.2826459204538697,
+            "Muribaculum.1": 0.2337793163806064,
+            "Akkermansia.1": 0.2270745977509396,
+            "Clostridium.21": 0.3902130701816574,
+            "Bifidobacterium.1": 0.1676465830957763,
+            "Ruminococcus.3": 0.0746686964855678
+         }
+      }
+   },
+   "WD": {
+      "-1.5": {
+         "flux": {
+            "Lactococcus.1": 1885.6001521143148,
+            "Ruminococcus.3": 38.12250284981899,
+            "Clostridium.11": 45.40651530981333,
+            "Lactobacillus.3": 58.87180656215494,
+            "Merdibacter.1": 641.5810905280683,
+            "Muribaculum.1": 61.151470892388765,
+            "Akkermansia.1": 72.2257311554578,
+            "Lactobacillus.4": 83.22517023033505,
+            "Paraclostridium.1": 163.61649069226894,
+            "Bacteroides.3": 65.03137903305715,
+            "Bifidobacterium.1": 47.0474068609676
+         },
+         "biomass": {
+            "Lactococcus.1": 2.515173357029388,
+            "Ruminococcus.3": 0.0508300037997586,
+            "Clostridium.11": 0.0605420204130846,
+            "Lactobacillus.3": 0.0784957420828731,
+            "Merdibacter.1": 0.8554414540374234,
+            "Muribaculum.1": 0.0815352945231848,
+            "Akkermansia.1": 0.0963009748739436,
+            "Lactobacillus.4": 0.110966893640447,
+            "Paraclostridium.1": 0.2181553209230263,
+            "Bacteroides.3": 0.0867085053774096,
+            "Bifidobacterium.1": 0.0683598884214527
+         }
+      },
+      "1.5": {
+         "flux": {
+            "Lactococcus.1": 2468.344188477459,
+            "Merdibacter.1": 792.6750072994757
+         },
+         "biomass": {
+            "Lactococcus.1": 3.291125584636618,
+            "Merdibacter.1": 1.0613535755871597
+         }
+      },
+      "4.0": {
+         "flux": {
+            "Lactococcus.1": 2467.5093570162235
+         },
+         "biomass": {
+            "Lactococcus.1": 3.2900124760216496
+         }
+      },
+      "6.0": {
+         "flux": {
+            "Lactococcus.1": 2521.833577319173,
+            "Acinetobacter.1": 1067.1736832648824
+         },
+         "biomass": {
+            "Lactococcus.1": 3.3624447697589015,
+            "Acinetobacter.1": 1.4276165982523463
+         }
+      },
+      "9.0": {
+         "flux": {
+            "Lactococcus.1": 947.0056220698324,
+            "Lactobacillus.3": 119.33773200627246,
+            "Enterococcus.2": 649.949578907819,
+            "Acinetobacter.1": 593.6314712319017,
+            "Enterococcus.1": 153.89669127752137,
+            "Agrobacterium.1": 73.57287289347931,
+            "Stenotrophomonas.1": 29.38315907761231
+         },
+         "biomass": {
+            "Lactococcus.1": 1.9789873778534357,
+            "Lactobacillus.3": 0.1775703927174771,
+            "Enterococcus.2": 0.8665994385437519,
+            "Acinetobacter.1": 0.7915086283092015,
+            "Enterococcus.1": 0.2649663894464261,
+            "Agrobacterium.1": 0.0980971638579726,
+            "Stenotrophomonas.1": 0.0448075947507884
+         }
+      },
+      "12.5": {
+         "flux": {
+            "Lactococcus.1": 684.7965846059421,
+            "Lactobacillus.3": 240.62541380328514,
+            "Enterococcus.2": 1256.7526510127605,
+            "Acinetobacter.1": 376.7680626207835,
+            "Enterococcus.1": 384.1023775780809,
+            "Agrobacterium.1": 48.70604491194289
+         },
+         "biomass": {
+            "Lactococcus.1": 0.9130621128079228,
+            "Lactobacillus.3": 0.4911708377875621,
+            "Enterococcus.2": 1.6756702013503413,
+            "Acinetobacter.1": 0.5079874440820472,
+            "Enterococcus.1": 0.5696884515064005,
+            "Agrobacterium.1": 0.0649413932159237
+         }
+      }
+   }
+}

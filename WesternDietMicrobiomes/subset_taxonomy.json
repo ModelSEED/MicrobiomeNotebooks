@@ -1,0 +1,47 @@
+{
+   "unknown0": {
+      "Kingdom": "Bacteria",
+      "Phylum": "Firmicutes",
+      "Class": "Bacilli",
+      "Order": "Lactobacillales",
+      "Family": "Streptococcaceae",
+      "Genus": "Lactococcus",
+      "Species": null
+   },
+   "unknown1": {
+      "Kingdom": "Bacteria",
+      "Phylum": "Firmicutes",
+      "Class": "Bacilli",
+      "Order": "Lactobacillales",
+      "Family": "Streptococcaceae",
+      "Genus": "Lactococcus",
+      "Species": null
+   },
+   "unknown2": {
+      "Kingdom": "Bacteria",
+      "Phylum": "Firmicutes",
+      "Class": "Clostridia",
+      "Order": "Clostridiales",
+      "Family": "Peptostreptococcaceae",
+      "Genus": null,
+      "Species": null
+   },
+   "unknown3": {
+      "Kingdom": "Bacteria",
+      "Phylum": "Firmicutes",
+      "Class": "Clostridia",
+      "Order": "Clostridiales",
+      "Family": "Lachnospiraceae",
+      "Genus": "uncultured",
+      "Species": "Lachnospiraceae bacterium A2"
+   },
+   "unknown4": {
+      "Kingdom": "Bacteria",
+      "Phylum": "Firmicutes",
+      "Class": "Clostridia",
+      "Order": "Clostridiales",
+      "Family": "Family XIII",
+      "Genus": "[Eubacterium] brachy group",
+      "Species": "uncultured Eubacteriaceae bacterium"
+   }
+}
