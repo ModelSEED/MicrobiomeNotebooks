@@ -182,6 +182,10 @@ WesternDietMicrobiomes/feature_aliases.json
 */*/cazy_data.txt
 */Sequencing_stats/*
 
+digestor/MAG_matches.json
+digestor/all_v_all_alignments.csv
+Cliff/jplfaria/*
+
 # bloated files
 */*.png
 
