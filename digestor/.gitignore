@@ -2,3 +2,5 @@ all_matches/*
 best_matches/*
 alignments/*
 matches.json
+bac120_taxonomy.tsv
+ar53_taxonomy.tsv
