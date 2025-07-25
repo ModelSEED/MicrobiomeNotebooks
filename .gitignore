@@ -181,7 +181,7 @@ WesternDietMicrobiomes/feature_aliases.json
 */*.gz
 */*/cazy_data.txt
 */Sequencing_stats/*
-
+digestor/seqID_matches.json
 digestor/MAG_matches.json
 digestor/all_v_all_alignments.csv
 Cliff/jplfaria/*
