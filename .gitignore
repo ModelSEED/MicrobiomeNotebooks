@@ -187,7 +187,6 @@ digestor/all_v_all_alignments.csv
 Cliff/jplfaria/*
 
 # bloated files
-*/*.png
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
