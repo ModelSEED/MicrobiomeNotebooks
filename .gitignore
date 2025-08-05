@@ -186,6 +186,9 @@ digestor/MAG_matches.json
 digestor/all_v_all_alignments.csv
 Cliff/jplfaria/*
 digestor/uids.json
+digestor/uids/*
+digestor/best_uids.json
+digestor/insufficient_sequences.npy
 
 # bloated files
 
