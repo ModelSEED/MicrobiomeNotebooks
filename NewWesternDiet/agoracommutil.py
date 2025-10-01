@@ -7,6 +7,7 @@ from zipfile import ZipFile
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from baseutil import *
+import logging
 
 import hashlib
 import pandas as pd
