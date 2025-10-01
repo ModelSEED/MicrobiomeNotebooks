@@ -179,6 +179,7 @@ WesternDietMicrobiomes/functions.json
 WesternDietMicrobiomes/feature_aliases.json
 */*.mov
 */*.gz
+*/*/*.gz
 */*/cazy_data.txt
 */Sequencing_stats/*
 digestor/seqID_matches.json
