@@ -186,6 +186,7 @@ digestor/seqID_matches.json
 digestor/MAG_matches.json
 digestor/all_v_all_alignments.csv
 Cliff/jplfaria/*
+salterns/jplfaria/*
 digestor/uids.json
 digestor/uids/*
 digestor/best_uids.json
