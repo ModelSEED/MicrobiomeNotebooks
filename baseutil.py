@@ -31,7 +31,6 @@ for i,filepath in enumerate(paths):
     if filepath[0:1] != "/":
         paths[i] = codebase+"/"+filepath
 sys.path = paths + sys.path
-
 from chenry_utility_module.kbdevutils import KBDevUtils
 
 class BaseUtil(KBDevUtils):
