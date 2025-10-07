@@ -4,3 +4,5 @@ alignments/*
 matches.json
 bac120_taxonomy.tsv
 ar53_taxonomy.tsv
+uids.json
+uids/*
