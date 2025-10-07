@@ -76,8 +76,8 @@ docs/_build/
 target/
 
 # KBase dev env
-*/datacache/*
-*/datacache_APF/*
+#*/datacache/*
+#*/datacache_APF/*
 */nboutput/*
 */lpfiles/*
 
