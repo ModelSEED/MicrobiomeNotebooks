@@ -1,0 +1,217 @@
+[
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.15",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.18",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.4",
+        "pgfam_id": "PGF_12385295",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.20",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.5",
+        "pgfam_id": "PGF_12573137",
+        "product": "Mobile element protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.2",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.21",
+        "pgfam_id": "PGF_04521500",
+        "product": "Glycosyl transferase, family 2"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.25",
+        "pgfam_id": "PGF_00063916",
+        "product": "Tyrosyl-tRNA synthetase (EC 6.1.1.1)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.1",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.28",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.27",
+        "product": "ABC transporter, permease protein 2 (cluster 11, riboflavin/purine nucleoside/unknown)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.23",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.16",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.24",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.11",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.10",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.7",
+        "pgfam_id": "PGF_03495000",
+        "product": "Mobile element protein"
+    },
+    {
+        "feature_type": "rRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.rna.1",
+        "product": "SSU rRNA ## 16S rRNA, small subunit ribosomal RNA"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.14",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.17",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.22",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.8",
+        "product": "TPR-repeat-containing protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.9",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.19",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.13",
+        "pgfam_id": "PGF_10420457",
+        "product": "MBL-fold metallo-hydrolase superfamily"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.12",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.6",
+        "pgfam_id": "PGF_03495000",
+        "product": "Mobile element protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.3",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "rRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.rna.2",
+        "product": "5S rRNA ## 5S ribosomal RNA"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1883427.480.peg.26",
+        "product": "Putative deoxyribose-specific ABC transporter, ATP-binding protein"
+    }
+]

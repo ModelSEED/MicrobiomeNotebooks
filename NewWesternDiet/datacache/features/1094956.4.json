@@ -1,0 +1,1430 @@
+[
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.92",
+        "pgfam_id": "PGF_08107337",
+        "product": "Mobilization protein MobA @ Conjugal transfer protein TraA"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.69",
+        "pgfam_id": "PGF_03425586",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.84",
+        "pgfam_id": "PGF_07214360",
+        "product": "Integrase"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.11",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.130",
+        "product": "DNA recombination-dependent growth factor C"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.29",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.145",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.3",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.83",
+        "pgfam_id": "PGF_07214360",
+        "product": "Integrase"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.159",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.73",
+        "pgfam_id": "PGF_03029859",
+        "product": "Bis-ABC ATPase Uup"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.36",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.51",
+        "pgfam_id": "PGF_08225224",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.60",
+        "pgfam_id": "PGF_05965846",
+        "product": "Pyruvate-utilizing enzyme, similar to phosphoenolpyruvate synthase"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.112",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.153",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.150",
+        "pgfam_id": "PGF_00040141",
+        "product": "Alkaline phosphatase (EC 3.1.3.1)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.95",
+        "pgfam_id": "PGF_08327623",
+        "product": "Uncharacterized protein YpeB"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.117",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.30",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.109",
+        "pgfam_id": "PGF_08560330",
+        "product": "Oar protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.113",
+        "pgfam_id": "PGF_01000105",
+        "product": "Mobile element protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.42",
+        "pgfam_id": "PGF_00008385",
+        "product": "Glutaredoxin-related protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.31",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.107",
+        "pgfam_id": "PGF_07131324",
+        "product": "Oligopeptide ABC transporter, ATP-binding protein OppF (TC 3.A.1.5.1)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.127",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.135",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.119",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "rRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.rna.16",
+        "product": "LSU rRNA # 23S rRNA, large subunit ribosomal RNA - 5 prime truncation - 3 prime truncation"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.7",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.2",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.54",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.18",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.115",
+        "pgfam_id": "PGF_05754809",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.168",
+        "pgfam_id": "PGF_00182237",
+        "product": "Beta-lactamase-like"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.45",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.1",
+        "product": "UPF0380 proteins YafZ and homologs"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.58",
+        "product": "putative transmembrane efflux protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.47",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.72",
+        "pgfam_id": "PGF_01396822",
+        "product": "Uncharacterized aldehyde oxidase, 2Fe-2S subunit"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.110",
+        "pgfam_id": "PGF_07262334",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.133",
+        "pgfam_id": "PGF_07451554",
+        "product": "Uncharacterized aldehyde oxidase, molybdopterin-binding subunit"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.164",
+        "pgfam_id": "PGF_00066964",
+        "product": "Xanthine/uracil/thiamine/ascorbate permease family protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.165",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.126",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "tRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.rna.18",
+        "product": "tRNA-Ile-GAT"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.61",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.63",
+        "pgfam_id": "PGF_00072409",
+        "product": "hydrolase, haloacid dehalogenase-like family protein BCZK2594"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.76",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.94",
+        "product": "Probable lipase"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.38",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.105",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.125",
+        "pgfam_id": "PGF_00020984",
+        "product": "Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9) / Methylenetetrahydrofolate dehydrogenase (NADP+) (EC 1.5.1.5)"
+    },
+    {
+        "feature_type": "rRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.rna.12",
+        "product": "5S rRNA ## 5S ribosomal RNA"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.9",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.123",
+        "pgfam_id": "PGF_04922998",
+        "product": "Cell surface glycan-binding lipoprotein, utilization system for glycans and polysaccharides (PUL), SusD family"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.101",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.77",
+        "pgfam_id": "PGF_06323093",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.10",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.140",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.35",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.166",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.43",
+        "pgfam_id": "PGF_08861326",
+        "product": "Aspartate aminotransferase (AspB-4) (EC 2.6.1.1)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.14",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.99",
+        "pgfam_id": "PGF_10403915",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.161",
+        "pgfam_id": "PGF_00188611",
+        "product": "IncP-type DNA transfer protein TraL"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "tRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.rna.2",
+        "product": "tRNA-Ala-TGC"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.78",
+        "pgfam_id": "PGF_03420099",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.16",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.12",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.90",
+        "pgfam_id": "PGF_09981954",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.129",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.6",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.146",
+        "pgfam_id": "PGF_04566857",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.143",
+        "pgfam_id": "PGF_00871787",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.97",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "rRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.rna.11",
+        "product": "LSU rRNA # 23S rRNA, large subunit ribosomal RNA - 5 prime truncation"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "tRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.rna.6",
+        "product": "tRNA-Met-CAT"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.86",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "tRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.rna.8",
+        "product": "tRNA-Met-CAT"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.147",
+        "pgfam_id": "PGF_00064344",
+        "product": "UPF0380 proteins YafZ and homologs"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.136",
+        "pgfam_id": "PGF_07717533",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.163",
+        "pgfam_id": "PGF_08225224",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.27",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.28",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.89",
+        "pgfam_id": "PGF_00069969",
+        "product": "conjugative transfer protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.82",
+        "pgfam_id": "PGF_04275604",
+        "product": "Phage integrase, site-specific tyrosine recombinase"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.156",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.71",
+        "pgfam_id": "PGF_07451554",
+        "product": "Uncharacterized aldehyde oxidase, molybdopterin-binding subunit"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.134",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.167",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.142",
+        "pgfam_id": "PGF_01029141",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.66",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.157",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "rRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.rna.9",
+        "product": "5S rRNA ## 5S ribosomal RNA"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.104",
+        "pgfam_id": "PGF_02755714",
+        "product": "Outer membrane TonB-dependent transporter, utilization system for glycans and polysaccharides (PUL), SusC family"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.22",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.122",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.75",
+        "pgfam_id": "PGF_03415794",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.103",
+        "pgfam_id": "PGF_07614301",
+        "product": "probable hydrolase, haloacid dehalogenase-like family"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.93",
+        "pgfam_id": "PGF_09996723",
+        "product": "Uncharacterized MFS-type transporter"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.85",
+        "pgfam_id": "PGF_03405150",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.138",
+        "pgfam_id": "PGF_00024249",
+        "product": "N1-spermidine/spermine acetyltransferase PaiA"
+    },
+    {
+        "feature_type": "rRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.rna.15",
+        "product": "SSU rRNA # 16S rRNA, small subunit ribosomal RNA - 3 prime truncation"
+    },
+    {
+        "feature_type": "rRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.rna.1",
+        "product": "LSU rRNA # 23S rRNA, large subunit ribosomal RNA - 3 prime truncation"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.91",
+        "pgfam_id": "PGF_00331299",
+        "product": "Replication protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "rRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.rna.4",
+        "product": "SSU rRNA # 16S rRNA, small subunit ribosomal RNA - 5 prime missing fragment"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.20",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "rRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.rna.5",
+        "product": "5S rRNA ## 5S ribosomal RNA"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.100",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.26",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.13",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.121",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "tRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.rna.3",
+        "product": "tRNA-Ile-GAT"
+    },
+    {
+        "feature_type": "tRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.rna.19",
+        "product": "tRNA-Ala-TGC"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.141",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.108",
+        "pgfam_id": "PGF_00066964",
+        "product": "Xanthine/uracil/thiamine/ascorbate permease family protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.37",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.132",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.114",
+        "pgfam_id": "PGF_01000105",
+        "product": "Mobile element protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.44",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.50",
+        "pgfam_id": "PGF_08225224",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "rRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.rna.17",
+        "product": "LSU rRNA # 23S rRNA, large subunit ribosomal RNA - 5 prime truncation - 3 prime truncation"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.57",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.25",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.118",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.34",
+        "pgfam_id": "PGF_09996723",
+        "product": "Uncharacterized MFS-type transporter"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.21",
+        "product": "GCN5-related N-acetyltransferase"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.53",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.162",
+        "pgfam_id": "PGF_03422066",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.52",
+        "pgfam_id": "PGF_00091721",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.56",
+        "pgfam_id": "PGF_00209663",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.79",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "rRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.rna.14",
+        "product": "5S rRNA ## 5S ribosomal RNA"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.5",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.149",
+        "pgfam_id": "PGF_08225224",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.80",
+        "pgfam_id": "PGF_00061943",
+        "product": "TrkA domain protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.160",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.155",
+        "pgfam_id": "PGF_07385460",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.19",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.120",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.49",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.74",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "tRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.rna.13",
+        "product": "tRNA-Met-CAT"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.158",
+        "pgfam_id": "PGF_08861326",
+        "product": "Aspartate aminotransferase (AspB-4) (EC 2.6.1.1)"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.4",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.88",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.23",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.128",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.32",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.124",
+        "pgfam_id": "PGF_02755714",
+        "product": "Outer membrane TonB-dependent transporter, utilization system for glycans and polysaccharides (PUL), SusC family"
+    },
+    {
+        "feature_type": "rRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.rna.10",
+        "product": "LSU rRNA # 23S rRNA, large subunit ribosomal RNA - 5 prime truncation - 3 prime truncation"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.102",
+        "pgfam_id": "PGF_00156369",
+        "product": "Protein of unknown function DUF1304"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.39",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.139",
+        "pgfam_id": "PGF_08225224",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.64",
+        "pgfam_id": "PGF_03404760",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.40",
+        "pgfam_id": "PGF_08225224",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.81",
+        "pgfam_id": "PGF_07165184",
+        "product": "Na+/H+ antiporter, NhaP family"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.70",
+        "pgfam_id": "PGF_07356637",
+        "product": "Prolyl oligopeptidase family protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.169",
+        "pgfam_id": "PGF_00871787",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.151",
+        "pgfam_id": "PGF_08225224",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.46",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.62",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.131",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.154",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.17",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.116",
+        "pgfam_id": "PGF_05752732",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.98",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.170",
+        "pgfam_id": "PGF_09773768",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.65",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.55",
+        "pgfam_id": "PGF_00411453",
+        "product": "Thiamine pyrophosphate-requiring protein PA2108"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.152",
+        "pgfam_id": "PGF_00358945",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.144",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "rRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.rna.7",
+        "product": "5S rRNA ## 5S ribosomal RNA"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.96",
+        "pgfam_id": "PGF_05129169",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.33",
+        "pgfam_id": "PGF_08225224",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.137",
+        "pgfam_id": "PGF_00721125",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.15",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "rRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.rna.20",
+        "product": "LSU rRNA # 23S rRNA, large subunit ribosomal RNA - 5 prime truncation - 3 prime truncation"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.111",
+        "pgfam_id": "PGF_03105494",
+        "product": "putative neutral zinc metalloprotease"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.148",
+        "pgfam_id": "PGF_03419213",
+        "product": "Adenylate cyclase (EC 4.6.1.1)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.67",
+        "pgfam_id": "PGF_12770209",
+        "product": "Insertion element ISR1 (Rhizobium class IV strains) transposase"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.8",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.87",
+        "pgfam_id": "PGF_08107337",
+        "product": "Mobilization protein MobA @ Conjugal transfer protein TraA"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.59",
+        "pgfam_id": "PGF_07182652",
+        "product": "Transcriptional regulator, AcrR family"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.106",
+        "pgfam_id": "PGF_08225224",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.24",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.41",
+        "pgfam_id": "PGF_00060481",
+        "product": "Translation initiation factor SUI1-related protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.68",
+        "pgfam_id": "PGF_01000105",
+        "product": "Mobile element protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|1094956.4.peg.48",
+        "pgfam_id": "PGF_06463602",
+        "product": "Glutathione S-transferase (EC 2.5.1.18)"
+    }
+]

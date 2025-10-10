@@ -1,0 +1,2173 @@
+[
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.104",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.11",
+        "pgfam_id": "PGF_08284191",
+        "product": "ABC transporter, ATP-binding protein (cluster 5, nickel/peptides/opines)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.282",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.155",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.17",
+        "pgfam_id": "PGF_08284191",
+        "product": "ABC transporter, ATP-binding protein (cluster 5, nickel/peptides/opines)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.192",
+        "pgfam_id": "PGF_10048774",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.188",
+        "pgfam_id": "PGF_09959599",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.27",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.130",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.178",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.44",
+        "pgfam_id": "PGF_04057876",
+        "product": "Methylcrotonyl-CoA carboxylase biotin-containing subunit (EC 6.4.1.4)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.64",
+        "pgfam_id": "PGF_06461498",
+        "product": "Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.131",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.85",
+        "pgfam_id": "PGF_00060333",
+        "product": "Transglutaminase-like domain"
+    },
+    {
+        "feature_type": "tRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.rna.5",
+        "product": "tRNA-Ala-TGC"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.106",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.219",
+        "pgfam_id": "PGF_00033988",
+        "product": "Phosphoserine aminotransferase (EC 2.6.1.52)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.66",
+        "pgfam_id": "PGF_06128454",
+        "product": "Haloacid dehalogenase, type II (EC 3.8.1.2)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.177",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.121",
+        "pgfam_id": "PGF_02892617",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.88",
+        "pgfam_id": "PGF_01853493",
+        "product": "Dihydropteroate synthase (EC 2.5.1.15)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.39",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.29",
+        "product": "SAM-dependent methyltransferase"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.209",
+        "pgfam_id": "PGF_00061880",
+        "product": "Trimethylamine methyltransferase family protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.103",
+        "pgfam_id": "PGF_01978396",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.244",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.7",
+        "pgfam_id": "PGF_09108724",
+        "product": "ABC transporter, substrate-binding protein (cluster 5, nickel/peptides/opines)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.318",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.294",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.300",
+        "pgfam_id": "PGF_00734739",
+        "product": "Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.65",
+        "pgfam_id": "PGF_08225224",
+        "product": "FIG00451076: hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.166",
+        "product": "Methyltransferase (EC 2.1.1.-), possibly involved in O-methyl phosphoramidate capsule modification"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.302",
+        "pgfam_id": "PGF_08225224",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "rRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.rna.6",
+        "product": "SSU rRNA ## 16S rRNA, small subunit ribosomal RNA"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.301",
+        "pgfam_id": "PGF_08238312",
+        "product": "Transcriptional regulator, IclR family"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.213",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.57",
+        "pgfam_id": "PGF_08225224",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.47",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.94",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.202",
+        "product": "Protein containing domains DUF403"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.224",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.116",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.203",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.25",
+        "pgfam_id": "PGF_03572345",
+        "product": "Alcohol dehydrogenase (EC 1.1.1.1)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.176",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.321",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.148",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.291",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.75",
+        "pgfam_id": "PGF_10428547",
+        "product": "Acyl-CoA dehydrogenase"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.95",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.239",
+        "product": "FIG111991: hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.289",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.262",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.220",
+        "pgfam_id": "PGF_00012987",
+        "product": "D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.261",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.107",
+        "product": "Type I secretion system ATPase"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.145",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.132",
+        "pgfam_id": "PGF_08729895",
+        "product": "N-methylhydantoinase B (EC 3.5.2.14)"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.235",
+        "product": "Hypothetical nudix hydrolase YeaB"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.295",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.259",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.204",
+        "product": "Lipopolysaccharide export system permease protein LptG"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.127",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.26",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.126",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.119",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.134",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.59",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.234",
+        "pgfam_id": "PGF_00033872",
+        "product": "Phosphonoacetate hydrolase (EC 3.11.1.2)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.190",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.99",
+        "product": "3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.102",
+        "pgfam_id": "PGF_04701892",
+        "product": "L-carnitine dehydratase/bile acid-inducible protein F"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.297",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.308",
+        "pgfam_id": "PGF_10552060",
+        "product": "ABC transporter, permease protein 2 (cluster 1, maltose/g3p/polyamine/iron)"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.129",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.93",
+        "pgfam_id": "PGF_02801842",
+        "product": "TRAP-type C4-dicarboxylate transport system, large permease component"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.287",
+        "pgfam_id": "PGF_00066223",
+        "product": "Ureidoglycine aminohydrolase"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.229",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.275",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.4",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.316",
+        "product": "Ribulose-5-phosphate 4-epimerase and related epimerases and aldolases"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.217",
+        "pgfam_id": "PGF_02790700",
+        "product": "Adenosylcobinamide kinase (EC 2.7.1.156) / Adenosylcobinamide-phosphate guanylyltransferase (EC 2.7.7.62)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.18",
+        "pgfam_id": "PGF_10565701",
+        "product": "ABC transporter, permease protein 2 (cluster 5, nickel/peptides/opines)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.61",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.169",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.36",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.293",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.161",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.151",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.143",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.314",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.230",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.168",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.84",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.193",
+        "pgfam_id": "PGF_08225224",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.140",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.266",
+        "pgfam_id": "PGF_00012987",
+        "product": "D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.37",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.186",
+        "product": "Oxidoreductase"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.207",
+        "pgfam_id": "PGF_00040141",
+        "product": "Alkaline phosphatase (EC 3.1.3.1)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.180",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.21",
+        "pgfam_id": "PGF_00001016",
+        "product": "FIG00919029: hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.5",
+        "pgfam_id": "PGF_08327306",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.305",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.214",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.160",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.279",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.6",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.82",
+        "pgfam_id": "PGF_02059020",
+        "product": "Energy-dependent translational throttle protein EttA"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.54",
+        "product": "Holo-[acyl-carrier-protein] synthase (EC 2.7.8.7)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.163",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.91",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.201",
+        "pgfam_id": "PGF_00038061",
+        "product": "Protein containing domains DUF404, DUF407"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.245",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.191",
+        "pgfam_id": "PGF_02820109",
+        "product": "GTP cyclohydrolase I (EC 3.5.4.16) type 1"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.281",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.258",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.243",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.309",
+        "pgfam_id": "PGF_02876233",
+        "product": "ABC transporter, permease protein 1 (cluster 1, maltose/g3p/polyamine/iron)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.147",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.286",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "tRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.rna.4",
+        "product": "tRNA-Ile-GAT"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.16",
+        "pgfam_id": "PGF_08284191",
+        "product": "ABC transporter, ATP-binding protein (cluster 5, nickel/peptides/opines)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.253",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.248",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.31",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.250",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.283",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.270",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.276",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.210",
+        "product": "Thioesterase family protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.56",
+        "product": "DNA-directed RNA polymerase omega subunit (EC 2.7.7.6)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.80",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.141",
+        "product": "Alcohol dehydrogenase (EC 1.1.1.1)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.32",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.63",
+        "pgfam_id": "PGF_05614715",
+        "product": "Oligoendopeptidase F-like protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.113",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.278",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.69",
+        "pgfam_id": "PGF_00822481",
+        "product": "Dipeptide ABC transporter, permease protein DppB (TC 3.A.1.5.2)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.184",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "tRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.rna.8",
+        "product": "tRNA-Ser-TGA"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.46",
+        "pgfam_id": "PGF_05369673",
+        "product": "Methylcrotonyl-CoA carboxylase carboxyl transferase subunit (EC 6.4.1.4)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.320",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.156",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.12",
+        "pgfam_id": "PGF_07440470",
+        "product": "Exoenzymes regulatory protein AepA precursor"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.216",
+        "pgfam_id": "PGF_00418244",
+        "product": "Cob(I)alamin adenosyltransferase (EC 2.5.1.17) @ Cob(I)alamin adenosyltransferase (EC 2.5.1.17), clustered with cobalamin synthesis"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.110",
+        "product": "Glycosyl transferase, group 1 family protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.162",
+        "product": "Phosphoglutamine cytidylyltransferase (EC 2.7.7.-) in O-methyl phosphoramidate capsule modification"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.257",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.89",
+        "pgfam_id": "PGF_06275407",
+        "product": "Cell division-associated, ATP-dependent zinc metalloprotease FtsH"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.9",
+        "pgfam_id": "PGF_10565701",
+        "product": "ABC transporter, permease protein 2 (cluster 5, nickel/peptides/opines)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.223",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.292",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.90",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.78",
+        "pgfam_id": "PGF_00024619",
+        "product": "Acetate permease ActP (cation/acetate symporter)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.222",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.233",
+        "pgfam_id": "PGF_02890229",
+        "product": "Gamma-glutamyltranspeptidase (EC 2.3.2.2) @ Glutathione hydrolase (EC 3.4.19.13)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.194",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.30",
+        "pgfam_id": "PGF_08225224",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.86",
+        "pgfam_id": "PGF_05520131",
+        "product": "Hydroxymethylpyrimidine phosphate kinase ThiD (EC 2.7.4.7)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.313",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.38",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.304",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.251",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.274",
+        "product": "Low-specificity L-threonine aldolase (EC 4.1.2.48)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.252",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.174",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.273",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.303",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.19",
+        "pgfam_id": "PGF_07935890",
+        "product": "ABC transporter, permease protein 1 (cluster 5, nickel/peptides/opines)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.50",
+        "pgfam_id": "PGF_00032869",
+        "product": "Isovaleryl-CoA dehydrogenase (EC 1.3.8.4)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.268",
+        "pgfam_id": "PGF_06935032",
+        "product": "Adenylosuccinate synthetase (EC 6.3.4.4)"
+    },
+    {
+        "feature_type": "rRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.rna.2",
+        "product": "5S rRNA ## 5S ribosomal RNA"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.246",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.70",
+        "pgfam_id": "PGF_10565701",
+        "product": "ABC transporter, permease protein 2 (cluster 5, nickel/peptides/opines)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.15",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.228",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.154",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.142",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.157",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.158",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.72",
+        "pgfam_id": "PGF_03556786",
+        "product": "UDP-N-acetylglucosamine 4,6-dehydratase (EC 4.2.1.135)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.307",
+        "pgfam_id": "PGF_07870324",
+        "product": "ABC transporter, substrate-binding protein (cluster 1, maltose/g3p/polyamine/iron)"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.226",
+        "pgfam_id": "PGF_12847559",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "tRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.rna.7",
+        "product": "tRNA-Ser-GCT"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.206",
+        "pgfam_id": "PGF_07629184",
+        "product": "Cytosol aminopeptidase PepA (EC 3.4.11.1)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.120",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.136",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.34",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.28",
+        "pgfam_id": "PGF_09449820",
+        "product": "Oxidoreductase, short-chain dehydrogenase/reductase family"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.306",
+        "pgfam_id": "PGF_03427698",
+        "product": "3',5'-cyclic-nucleotide phosphodiesterase (EC 3.1.4.17)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.71",
+        "pgfam_id": "PGF_00780840",
+        "product": "Undecaprenyl-phosphate alpha-N-acetylglucosaminyl 1-phosphate transferase (EC 2.7.8.33)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.77",
+        "pgfam_id": "PGF_00120352",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.221",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.45",
+        "product": "Mannose-6-phosphate isomerase (EC 5.3.1.8)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.242",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.96",
+        "product": "TRAP transporter solute receptor, unknown substrate 6"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.232",
+        "pgfam_id": "PGF_08225224",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.159",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.20",
+        "pgfam_id": "PGF_09108724",
+        "product": "ABC transporter, substrate-binding protein (cluster 5, nickel/peptides/opines)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.123",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.124",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.100",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.182",
+        "product": "TRAP dicarboxylate transporter, DctQ subunit, unknown substrate 6"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.263",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.76",
+        "pgfam_id": "PGF_07204877",
+        "product": "Succinate-semialdehyde dehydrogenase [NAD(P)+] (EC 1.2.1.16)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.135",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.137",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.181",
+        "pgfam_id": "PGF_00055808",
+        "product": "TRAP transporter solute receptor, unknown substrate 6"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.74",
+        "pgfam_id": "PGF_08673773",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.79",
+        "pgfam_id": "PGF_00024619",
+        "product": "Acetate permease ActP (cation/acetate symporter)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.254",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.68",
+        "pgfam_id": "PGF_08637108",
+        "product": "Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.33",
+        "product": "RidA/YER057c/UK114 superfamily, group 1"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.265",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.67",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.139",
+        "pgfam_id": "PGF_00025574",
+        "product": "Nicotinamidase/isochorismatase family protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.241",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.205",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.172",
+        "pgfam_id": "PGF_05950073",
+        "product": "Cystathionine gamma-lyase (EC 4.4.1.1)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.187",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.212",
+        "pgfam_id": "PGF_01427545",
+        "product": "Aquaporin Z"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.8",
+        "pgfam_id": "PGF_07935890",
+        "product": "ABC transporter, permease protein 1 (cluster 5, nickel/peptides/opines)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.269",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.144",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.225",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.117",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.13",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.118",
+        "product": "RlgA"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.112",
+        "pgfam_id": "PGF_01033123",
+        "product": "UDP-glucose 4-epimerase (EC 5.1.3.2)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.165",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.62",
+        "pgfam_id": "PGF_00734739",
+        "product": "Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.290",
+        "product": "2-Oxobutyrate oxidase, putative"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.171",
+        "pgfam_id": "PGF_07987589",
+        "product": "Transcriptional regulator, LysR family"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.48",
+        "product": "Short chain dehydrogenase"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.315",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.108",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.277",
+        "product": "TRAP-type C4-dicarboxylate transport system, large permease component"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.237",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.208",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.267",
+        "pgfam_id": "PGF_02224568",
+        "product": "ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.272",
+        "pgfam_id": "PGF_10569727",
+        "product": "LSU rRNA pseudouridine(1911/1915/1917) synthase (EC 5.4.99.23)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.87",
+        "pgfam_id": "PGF_01137124",
+        "product": "Phosphoglucosamine mutase (EC 5.4.2.10)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.288",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.198",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.211",
+        "product": "Beta-lactamase class C and other penicillin binding proteins"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.24",
+        "pgfam_id": "PGF_07191648",
+        "product": "3-isopropylmalate dehydrogenase (EC 1.1.1.85)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.92",
+        "pgfam_id": "PGF_02801842",
+        "product": "TRAP-type C4-dicarboxylate transport system, large permease component"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.231",
+        "pgfam_id": "PGF_09996125",
+        "product": "NADH:flavin oxidoreductases, Old Yellow Enzyme family"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.215",
+        "pgfam_id": "PGF_05554840",
+        "product": "Cobyric acid synthase (EC 6.3.5.10)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.14",
+        "product": "3-dehydroquinate dehydratase II (EC 4.2.1.10)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.2",
+        "pgfam_id": "PGF_03717135",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.22",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.319",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.170",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.322",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.312",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.133",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.175",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "tRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.rna.1",
+        "product": "tRNA-Met-CAT"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.55",
+        "pgfam_id": "PGF_00010349",
+        "product": "Guanosine-3',5'-bis(diphosphate) 3'-pyrophosphohydrolase (EC 3.1.7.2) / GTP pyrophosphokinase (EC 2.7.6.5), (p)ppGpp synthetase II"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.227",
+        "pgfam_id": "PGF_08571437",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.199",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.280",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.255",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.23",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.53",
+        "pgfam_id": "PGF_05785543",
+        "product": "Signal peptidase I (EC 3.4.21.89)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.105",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.285",
+        "pgfam_id": "PGF_03116630",
+        "product": "Membrane-bound lytic murein transglycosylase B"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.240",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.317",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.185",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.111",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.164",
+        "pgfam_id": "PGF_00033407",
+        "product": "L-glutamine kinase involved in O-methyl phosphoramidate capsule modification"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.1",
+        "product": "biphenyl-2,3-diol 1,2-dioxygenase III-related protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.149",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.81",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.299",
+        "pgfam_id": "PGF_06043321",
+        "product": "Ferric iron ABC transporter, iron-binding protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.73",
+        "pgfam_id": "PGF_00448620",
+        "product": "Uncharacterized protein PA0131"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.152",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.40",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.311",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.296",
+        "product": "Hybrid peroxiredoxin hyPrx5 (EC 1.11.1.15)"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.298",
+        "pgfam_id": "PGF_08225224",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.42",
+        "pgfam_id": "PGF_08790694",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.150",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.271",
+        "pgfam_id": "PGF_06053106",
+        "product": "RNA polymerase sigma factor RpoH"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.122",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.197",
+        "pgfam_id": "PGF_04596496",
+        "product": "Quinone oxidoreductase (EC 1.6.5.5)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.236",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.173",
+        "pgfam_id": "PGF_06463602",
+        "product": "Glutathione S-transferase (EC 2.5.1.18)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.51",
+        "pgfam_id": "PGF_00007027",
+        "product": "GTP-binding protein Era"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.179",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.3",
+        "product": "Putative oxidoreductase"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.98",
+        "product": "Transcriptional regulator, GntR family"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.218",
+        "pgfam_id": "PGF_04701892",
+        "product": "L-carnitine dehydratase/bile acid-inducible protein F"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.58",
+        "pgfam_id": "PGF_00014061",
+        "product": "Indolepyruvate ferredoxin oxidoreductase, alpha and beta subunits"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.167",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.138",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.249",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.189",
+        "pgfam_id": "PGF_00403986",
+        "product": "probable P23 protein"
+    },
+    {
+        "feature_type": "rRNA",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.rna.3",
+        "product": "LSU rRNA ## 23S rRNA, large subunit ribosomal RNA"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.310",
+        "product": "pyridoxal phosphate-dependent deaminase, putative"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.10",
+        "pgfam_id": "PGF_08284191",
+        "product": "ABC transporter, ATP-binding protein (cluster 5, nickel/peptides/opines)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.247",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.324",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.260",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.153",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.97",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.115",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.128",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.114",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.264",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.146",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.125",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.41",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.49",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.60",
+        "pgfam_id": "PGF_02338698",
+        "product": "Nucleotide sugar epimerase"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.43",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.83",
+        "product": "Glyoxalase/bleomycin resistance protein/dioxygenase"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.323",
+        "product": "Protein containing transglutaminase-like domain, putative cysteine protease"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.196",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.200",
+        "pgfam_id": "PGF_08094426",
+        "product": "Inner-membrane proton/drug antiporter (MSF type) of tripartite multidrug efflux system"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.52",
+        "product": "Ribonuclease III (EC 3.1.26.3)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.35",
+        "product": "Enoyl-CoA hydratase (EC 4.2.1.17)"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.238",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.109",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.195",
+        "pgfam_id": "PGF_00915037",
+        "product": "Oxidoreductase, GMC family"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "source",
+        "annotation": "RefSeq"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.256",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.183",
+        "pgfam_id": "PGF_00055741",
+        "product": "TRAP dicarboxylate transporter, DctM subunit, unknown substrate 6"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.284",
+        "product": "hypothetical protein"
+    },
+    {
+        "feature_type": "CDS",
+        "annotation": "PATRIC",
+        "patric_id": "fig|281031.75.peg.101",
+        "pgfam_id": "PGF_08225224",
+        "product": "hypothetical protein"
+    }
+]
