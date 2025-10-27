@@ -193,6 +193,7 @@ digestor/best_uids.json
 digestor/insufficient_sequences.npy
 NewWesternDiet/datacache/md5_seqs.json
 NewWesternDiet/datacache/feature_probabilities.json
+data/md5_seqs.json
 # bloated files
 
 # PyCharm
