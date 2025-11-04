@@ -196,6 +196,7 @@ NewWesternDiet/datacache/feature_probabilities.json
 data/md5_seqs.json
 NewWesternDiet/datacache/16S_metadata.json
 NewWesternDiet/datacache/Fasta16S.fasta
+data/feature_probabilities.json
 # bloated files
 
 # PyCharm
