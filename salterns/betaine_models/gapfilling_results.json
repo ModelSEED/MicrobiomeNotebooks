@@ -1,0 +1,231 @@
+{
+  "timestamp": "2025-12-23T01:10:27.470794",
+  "betaine_mags": {
+    "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs": "R1_A_D1",
+    "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs": "R1_A_D1",
+    "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs": "R1_A_D1",
+    "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": "R1_A_D2",
+    "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": "R1_A_D2",
+    "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": "R1_A_D2",
+    "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs": "R1_A_D2",
+    "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": "R1_B_D1",
+    "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs": "R1_B_D1",
+    "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": "R1_B_D2",
+    "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": "R1_C_D1",
+    "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": "R1_C_D2",
+    "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": "R1_C_D2",
+    "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs": "R2_A_D1",
+    "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": "R2_B_D2"
+  },
+  "taxonomy": {
+    "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs": "Clostridia; Tissierellales; Dethiosulfatibacteraceae",
+    "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs": "Halanaerobiia; Halanaerobiales",
+    "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs": "Clostridia; Peptostreptococcales; BM714",
+    "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": "Clostridia; Peptostreptococcales; Acidaminobacteraceae",
+    "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": "Halanaerobiia; Halanaerobiales; Halanaerobium saccharolyticum",
+    "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": "Clostridia; Peptostreptococcales; BM714",
+    "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs": "Clostridia; Peptostreptococcales; BM714",
+    "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": "Halanaerobiia; Halanaerobiales; Halanaerobium",
+    "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs": "Synergistia; Synergistales",
+    "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": "Halanaerobiia; Halanaerobiales; Halanaerobium",
+    "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": "Clostridia; Peptostreptococcales; BM714",
+    "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": "Clostridia; Tissierellales; Dethiosulfatibacteraceae",
+    "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": "Halanaerobiia; Halanaerobiales",
+    "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs": "Synergistia; Synergistales",
+    "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": "Halanaerobiia; Halanaerobiales"
+  },
+  "results": [
+    {
+      "sample_id": "R1_A_D1",
+      "initial_reactions": 35504,
+      "final_reactions": 35530,
+      "betaine_reactions_added": 26,
+      "compartments": 27,
+      "betaine_uptake": 10.0,
+      "tma_production": 1000.0,
+      "active_compartments": [
+        {
+          "compartment": "c11",
+          "flux": 58.69364860851894
+        },
+        {
+          "compartment": "c14",
+          "flux": 144.31190271350434
+        },
+        {
+          "compartment": "c16",
+          "flux": 69.86339548121114
+        }
+      ],
+      "feasible": true
+    },
+    {
+      "sample_id": "R1_A_D2",
+      "initial_reactions": 35405,
+      "final_reactions": 35431,
+      "betaine_reactions_added": 26,
+      "compartments": 27,
+      "betaine_uptake": 10.0,
+      "tma_production": 1000.0,
+      "active_compartments": [
+        {
+          "compartment": "c1",
+          "flux": 233.45280611802824
+        },
+        {
+          "compartment": "c2",
+          "flux": 154.09822029792042
+        },
+        {
+          "compartment": "c13",
+          "flux": 50.23887933904944
+        },
+        {
+          "compartment": "c26",
+          "flux": 45.39386727791293
+        }
+      ],
+      "feasible": true
+    },
+    {
+      "sample_id": "R1_B_D1",
+      "initial_reactions": 40025,
+      "final_reactions": 40054,
+      "betaine_reactions_added": 29,
+      "compartments": 30,
+      "betaine_uptake": 10.0,
+      "tma_production": 1000.0,
+      "active_compartments": [
+        {
+          "compartment": "c1",
+          "flux": 143.85861342145324
+        },
+        {
+          "compartment": "c15",
+          "flux": 40.39707254371225
+        }
+      ],
+      "feasible": true
+    },
+    {
+      "sample_id": "R1_B_D2",
+      "initial_reactions": 41294,
+      "final_reactions": 41324,
+      "betaine_reactions_added": 30,
+      "compartments": 31,
+      "betaine_uptake": 10.0,
+      "tma_production": 1000.0,
+      "active_compartments": [
+        {
+          "compartment": "c3",
+          "flux": 217.699584632928
+        },
+        {
+          "compartment": "c5",
+          "flux": 77.43651531171928
+        },
+        {
+          "compartment": "c9",
+          "flux": 32.40469208211143
+        }
+      ],
+      "feasible": true
+    },
+    {
+      "sample_id": "R1_C_D1",
+      "initial_reactions": 37562,
+      "final_reactions": 37589,
+      "betaine_reactions_added": 27,
+      "compartments": 28,
+      "betaine_uptake": 10.0,
+      "tma_production": 1000.0,
+      "active_compartments": [
+        {
+          "compartment": "c1",
+          "flux": 30.458681896815573
+        },
+        {
+          "compartment": "c12",
+          "flux": 581.6167223599306
+        }
+      ],
+      "feasible": true
+    },
+    {
+      "sample_id": "R1_C_D2",
+      "initial_reactions": 42549,
+      "final_reactions": 42580,
+      "betaine_reactions_added": 31,
+      "compartments": 32,
+      "betaine_uptake": 10.0,
+      "tma_production": 1000.0,
+      "active_compartments": [
+        {
+          "compartment": "c13",
+          "flux": 88.40588998097365
+        },
+        {
+          "compartment": "c16",
+          "flux": 387.1211127121347
+        }
+      ],
+      "feasible": true
+    },
+    {
+      "sample_id": "R2_A_D1",
+      "initial_reactions": 40745,
+      "final_reactions": 40776,
+      "betaine_reactions_added": 31,
+      "compartments": 31,
+      "betaine_uptake": 10.0,
+      "tma_production": 1000.0,
+      "active_compartments": [
+        {
+          "compartment": "c5",
+          "flux": 22.167990957908835
+        },
+        {
+          "compartment": "c7",
+          "flux": 401.8277656300144
+        },
+        {
+          "compartment": "c8",
+          "flux": 31.797822116283513
+        },
+        {
+          "compartment": "c10",
+          "flux": 11.290420079333046
+        },
+        {
+          "compartment": "c11",
+          "flux": 4.409011432211298
+        }
+      ],
+      "feasible": true
+    },
+    {
+      "sample_id": "R2_B_D2",
+      "initial_reactions": 42874,
+      "final_reactions": 42906,
+      "betaine_reactions_added": 32,
+      "compartments": 32,
+      "betaine_uptake": 10.0,
+      "tma_production": 1000.0,
+      "active_compartments": [
+        {
+          "compartment": "c1",
+          "flux": 128.78123961754713
+        },
+        {
+          "compartment": "c14",
+          "flux": 495.23841654972193
+        },
+        {
+          "compartment": "c25",
+          "flux": 11.849686923559908
+        }
+      ],
+      "feasible": true
+    }
+  ]
+}

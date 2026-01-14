@@ -1,0 +1,152 @@
+[
+  {
+    "model_id": "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs",
+    "has_betaine_reductase": true,
+    "betaine_flux": 0.0,
+    "tma_production": 0.0,
+    "acetate_production": 0.0,
+    "feasible": true,
+    "taxonomy": "Clostridia; Tissierellales; Dethiosulfatibacteraceae; UBA8670",
+    "pathway_type": "stickland"
+  },
+  {
+    "model_id": "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs",
+    "has_betaine_reductase": true,
+    "betaine_flux": 0.0,
+    "tma_production": 0.0,
+    "acetate_production": 0.0,
+    "feasible": true,
+    "taxonomy": "Halanaerobiia; Halanaerobiales",
+    "pathway_type": "betaine_reductase"
+  },
+  {
+    "model_id": "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs",
+    "has_betaine_reductase": true,
+    "betaine_flux": 0.0,
+    "tma_production": 0.0,
+    "acetate_production": 0.0,
+    "feasible": true,
+    "taxonomy": "Clostridia; Peptostreptococcales; BM714",
+    "pathway_type": "stickland"
+  },
+  {
+    "model_id": "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs",
+    "has_betaine_reductase": true,
+    "betaine_flux": 0.0,
+    "tma_production": 0.0,
+    "acetate_production": 0.0,
+    "feasible": true,
+    "taxonomy": "Clostridia; Peptostreptococcales; Acidaminobacteraceae",
+    "pathway_type": "stickland"
+  },
+  {
+    "model_id": "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs",
+    "has_betaine_reductase": true,
+    "betaine_flux": 0.0,
+    "tma_production": 0.0,
+    "acetate_production": 0.0,
+    "feasible": true,
+    "taxonomy": "Halanaerobiia; Halanaerobiales; Halanaerobium saccharolyticum",
+    "pathway_type": "betaine_reductase"
+  },
+  {
+    "model_id": "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs",
+    "has_betaine_reductase": true,
+    "betaine_flux": 0.0,
+    "tma_production": 0.0,
+    "acetate_production": 0.0,
+    "feasible": true,
+    "taxonomy": "Clostridia; Peptostreptococcales; BM714",
+    "pathway_type": "stickland"
+  },
+  {
+    "model_id": "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs",
+    "has_betaine_reductase": true,
+    "betaine_flux": 0.0,
+    "tma_production": 0.0,
+    "acetate_production": 0.0,
+    "feasible": true,
+    "taxonomy": "Clostridia; Peptostreptococcales; BM714",
+    "pathway_type": "stickland"
+  },
+  {
+    "model_id": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs",
+    "has_betaine_reductase": true,
+    "betaine_flux": 0.0,
+    "tma_production": 0.0,
+    "acetate_production": 0.0,
+    "feasible": true,
+    "taxonomy": "Halanaerobiia; Halanaerobiales; Halanaerobium",
+    "pathway_type": "betaine_reductase"
+  },
+  {
+    "model_id": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs",
+    "has_betaine_reductase": true,
+    "betaine_flux": 0.0,
+    "tma_production": 0.0,
+    "acetate_production": 0.0,
+    "feasible": true,
+    "taxonomy": "Synergistia; Synergistales",
+    "pathway_type": "stickland"
+  },
+  {
+    "model_id": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs",
+    "has_betaine_reductase": true,
+    "betaine_flux": 0.0,
+    "tma_production": 0.0,
+    "acetate_production": 0.0,
+    "feasible": true,
+    "taxonomy": "Halanaerobiia; Halanaerobiales; Halanaerobium",
+    "pathway_type": "betaine_reductase"
+  },
+  {
+    "model_id": "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs",
+    "has_betaine_reductase": true,
+    "betaine_flux": 0.0,
+    "tma_production": 0.0,
+    "acetate_production": 0.0,
+    "feasible": true,
+    "taxonomy": "Clostridia; Peptostreptococcales; BM714",
+    "pathway_type": "stickland"
+  },
+  {
+    "model_id": "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs",
+    "has_betaine_reductase": true,
+    "betaine_flux": 0.0,
+    "tma_production": 0.0,
+    "acetate_production": 0.0,
+    "feasible": true,
+    "taxonomy": "Clostridia; Tissierellales; Dethiosulfatibacteraceae; UBA8670",
+    "pathway_type": "stickland"
+  },
+  {
+    "model_id": "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs",
+    "has_betaine_reductase": true,
+    "betaine_flux": 0.0,
+    "tma_production": 0.0,
+    "acetate_production": 0.0,
+    "feasible": true,
+    "taxonomy": "Halanaerobiia; Halanaerobiales",
+    "pathway_type": "betaine_reductase"
+  },
+  {
+    "model_id": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs",
+    "has_betaine_reductase": true,
+    "betaine_flux": 0.0,
+    "tma_production": 0.0,
+    "acetate_production": 0.0,
+    "feasible": true,
+    "taxonomy": "Synergistia; Synergistales",
+    "pathway_type": "stickland"
+  },
+  {
+    "model_id": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs",
+    "has_betaine_reductase": true,
+    "betaine_flux": 0.0,
+    "tma_production": 0.0,
+    "acetate_production": 0.0,
+    "feasible": true,
+    "taxonomy": "Halanaerobiia; Halanaerobiales",
+    "pathway_type": "betaine_reductase"
+  }
+]
