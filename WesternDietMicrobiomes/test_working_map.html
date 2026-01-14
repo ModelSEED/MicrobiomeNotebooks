@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Escher Builder</title>
+
+    <script src="https://unpkg.com/escher@1.8.1/dist/escher.min.js"></script>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, height=device-height,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
+  </head>
+  <body>
+    <div style="height: 100%; width: 100%;" id="map-container"></div>
+
+    <script>
+     /* Data from python */
+     var data = get_data();
+     escher.Builder(data.map_data, data.model_data, data.embedded_css,
+                    escher.libs.d3_select('#map-container'), data.options);
+
+     function b64DecodeUnicode(str) {
+       return decodeURIComponent(Array.prototype.map.call(atob(str), function(c) {
+         return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2)
+       }).join(''))
+     }
+
+     // Put this at the end so Chrome doesn't cut off the code above.
+     function get_data() {
+       /** Return the data passed in by the Python module. */
+       const data = {
+         // defaults
+         map_data: null,
+         model_data: null,
+         embedded_css: null,
+         options: {
+           fill_screen: true,
+         }
+       };
+       
+       data.map_data = JSON.parse(b64DecodeUnicode('W3sibWFwX25hbWUiOiAibmV3X21hcCIsICJtYXBfaWQiOiAiaUVPYlV4TElRVzVuIiwgIm1hcF9kZXNjcmlwdGlvbiI6ICIiLCAiaG9tZXBhZ2UiOiAiaHR0cHM6Ly9lc2NoZXIuZ2l0aHViLmlvIiwgInNjaGVtYSI6ICJodHRwczovL2VzY2hlci5naXRodWIuaW8vZXNjaGVyL2pzb25zY2hlbWEvMS0wLTAjIn0sIHsicmVhY3Rpb25zIjogeyIwIjogeyJuYW1lIjogInRoaW9zdWxmYXRlOmZlcnJpY3l0b2Nocm9tZS1jIG94aWRvcmVkdWN0YXNlIiwgImJpZ2dfaWQiOiAicnhuMDAwMjMiLCAicmV2ZXJzaWJpbGl0eSI6IGZhbHNlLCAibGFiZWxfeCI6IC0yMi45OTk5Njk0ODI0MjE4NzUsICJsYWJlbF95IjogMTMyLjAwMDAzMDUxNzU3ODEyLCAiZ2VuZV9yZWFjdGlvbl9ydWxlIjogIiIsICJnZW5lcyI6IFtdLCAibWV0YWJvbGl0ZXMiOiBbeyJiaWdnX2lkIjogImNwZDAwMjY4IiwgImNvZWZmaWNpZW50IjogLTJ9LCB7ImJpZ2dfaWQiOiAiY3BkMDE0MTQiLCAiY29lZmZpY2llbnQiOiAxfSwgeyJiaWdnX2lkIjogImNwZDAwMTEwIiwgImNvZWZmaWNpZW50IjogMn0sIHsiYmlnZ19pZCI6ICJjcGQwMDA2NyIsICJjb2VmZmljaWVudCI6IDJ9LCB7ImJpZ2dfaWQiOiAiY3BkMDAxMDkiLCAiY29lZmZpY2llbnQiOiAtMn1dLCAic2VnbWVudHMiOiB7IjAiOiB7ImZyb21fbm9kZV9pZCI6ICIxIiwgInRvX25vZGVfaWQiOiAiMiIsICJiMSI6IG51bGwsICJiMiI6IG51bGx9LCAiMSI6IHsiZnJvbV9ub2RlX2lkIjogIjMiLCAidG9fbm9kZV9pZCI6ICIyIiwgImIxIjogbnVsbCwgImIyIjogbnVsbH0sICIyIjogeyJmcm9tX25vZGVfaWQiOiAiMSIsICJ0b19ub2RlX2lkIjogIjAiLCAiYjEiOiB7IngiOiAtMzcuOTk5OTY5NDgyNDIxODc1LCAieSI6IDYwLjAwMDAzMDUxNzU3ODEyNX0sICJiMiI6IHsieCI6IC0zNy45OTk5Njk0ODI0MjE4NywgInkiOiA1Ljc1MDAzMDUxNzU3ODEyNX19LCAiMyI6IHsiZnJvbV9ub2RlX2lkIjogIjMiLCAidG9fbm9kZV9pZCI6ICI0IiwgImIxIjogeyJ4IjogLTM3Ljk5OTk2OTQ4MjQyMTg3NSwgInkiOiAxODQuMDAwMDMwNTE3NTc4MTJ9LCAiYjIiOiB7IngiOiAtMzcuOTk5OTY5NDgyNDIxODc1LCAieSI6IDIzOC4yNTAwMzA1MTc1NzgxMn19LCAiNCI6IHsiZnJvbV9ub2RlX2lkIjogIjMiLCAidG9fbm9kZV9pZCI6ICI1IiwgImIxIjogeyJ4IjogLTM3Ljk5OTk2OTQ4MjQyMTg3NSwgInkiOiAxODguMDAwMDMwNTE3NTc4MTJ9LCAiYjIiOiB7IngiOiAtMTkuOTk5OTY5NDgyNDIxODc1LCAieSI6IDE5My4yNTAwMzA1MTc1NzgxMn19LCAiNSI6IHsiZnJvbV9ub2RlX2lkIjogIjMiLCAidG9fbm9kZV9pZCI6ICI2IiwgImIxIjogeyJ4IjogLTM3Ljk5OTk2OTQ4MjQyMTg3NSwgInkiOiAxODguMDAwMDMwNTE3NTc4MTJ9LCAiYjIiOiB7IngiOiAtNTUuOTk5OTY5NDgyNDIxODc1LCAieSI6IDE5My4yNTAwMzA1MTc1NzgxMn19LCAiNiI6IHsiZnJvbV9ub2RlX2lkIjogIjEiLCAidG9fbm9kZV9pZCI6ICI3IiwgImIxIjogeyJ4IjogLTM3Ljk5OTk2OTQ4MjQyMTg3NSwgInkiOiA1Ni4wMDAwMzA1MTc1NzgxMjV9LCAiYjIiOiB7IngiOiAtNTUuOTk5OTY5NDgyNDIxODc1LCAieSI6IDUwLjc1MDAzMDUxNzU3ODEyNX19fX19LCAibm9kZXMiOiB7IjAiOiB7Im5vZGVfdHlwZSI6ICJtZXRhYm9saXRlIiwgIngiOiAtMzcuOTk5OTY5NDgyNDIxODc1LCAieSI6IC01Mi45OTk5Njk0ODI0MjE4NzUsICJiaWdnX2lkIjogImNwZDAwMjY4IiwgIm5hbWUiOiAiSDJTMk8zIiwgImxhYmVsX3giOiAtMTIuOTk5OTY5NDgyNDIxODc1LCAibGFiZWxfeSI6IC01Mi45OTk5Njk0ODI0MjE4NzUsICJub2RlX2lzX3ByaW1hcnkiOiB0cnVlfSwgIjEiOiB7Im5vZGVfdHlwZSI6ICJtdWx0aW1hcmtlciIsICJ4IjogLTM3Ljk5OTk2OTQ4MjQyMTg3NSwgInkiOiAxMDIuMDAwMDMwNTE3NTc4MTJ9LCAiMiI6IHsibm9kZV90eXBlIjogIm1pZG1hcmtlciIsICJ4IjogLTM3Ljk5OTk2OTQ4MjQyMTg3NSwgInkiOiAxMjIuMDAwMDMwNTE3NTc4MTJ9LCAiMyI6IHsibm9kZV90eXBlIjogIm11bHRpbWFya2VyIiwgIngiOiAtMzcuOTk5OTY5NDgyNDIxODc1LCAieSI6IDE0Mi4wMDAwMzA1MTc1NzgxMn0sICI0IjogeyJub2RlX3R5cGUiOiAibWV0YWJvbGl0ZSIsICJ4IjogLTM3Ljk5OTk2OTQ4MjQyMTg3NSwgInkiOiAyOTcuMDAwMDMwNTE3NTc4MSwgImJpZ2dfaWQiOiAiY3BkMDE0MTQiLCAibmFtZSI6ICJUZXRyYXRoaW9uYXRlIiwgImxhYmVsX3giOiAtMTIuOTk5OTY5NDgyNDIxODc1LCAibGFiZWxfeSI6IDI5Ny4wMDAwMzA1MTc1NzgxLCAibm9kZV9pc19wcmltYXJ5IjogdHJ1ZX0sICI1IjogeyJub2RlX3R5cGUiOiAibWV0YWJvbGl0ZSIsICJ4IjogNDIuMDAwMDMwNTE3NTc4MTI1LCAieSI6IDIyNy4wMDAwMzA1MTc1NzgxMiwgImJpZ2dfaWQiOiAiY3BkMDAxMTAiLCAibmFtZSI6ICJDeXRvY2hyb21lIGMyKyIsICJsYWJlbF94IjogNTcuMDAwMDMwNTE3NTc4MTI1LCAibGFiZWxfeSI6IDIyNy4wMDAwMzA1MTc1NzgxMiwgIm5vZGVfaXNfcHJpbWFyeSI6IGZhbHNlfSwgIjYiOiB7Im5vZGVfdHlwZSI6ICJtZXRhYm9saXRlIiwgIngiOiAtMTE3Ljk5OTk2OTQ4MjQyMTg4LCAieSI6IDIyNy4wMDAwMzA1MTc1NzgxMiwgImJpZ2dfaWQiOiAiY3BkMDAwNjciLCAibmFtZSI6ICJIKyIsICJsYWJlbF94IjogLTE4OS45OTk5Njk0ODI0MjE4OCwgImxhYmVsX3kiOiAyNTcuMDAwMDMwNTE3NTc4MSwgIm5vZGVfaXNfcHJpbWFyeSI6IGZhbHNlfSwgIjciOiB7Im5vZGVfdHlwZSI6ICJtZXRhYm9saXRlIiwgIngiOiAtMTE3Ljk5OTk2OTQ4MjQyMTg4LCAieSI6IDE3LjAwMDAzMDUxNzU3ODEyNSwgImJpZ2dfaWQiOiAiY3BkMDAxMDkiLCAibmFtZSI6ICJDeXRvY2hyb21lIGMzKyIsICJsYWJlbF94IjogLTE4OS45OTk5Njk0ODI0MjE4OCwgImxhYmVsX3kiOiA0Ny4wMDAwMzA1MTc1NzgxMjUsICJub2RlX2lzX3ByaW1hcnkiOiBmYWxzZX19LCAidGV4dF9sYWJlbHMiOiB7fSwgImNhbnZhcyI6IHsieCI6IC0xNDk5LCAieSI6IC03NTIsICJ3aWR0aCI6IDQ0OTcsICJoZWlnaHQiOiAyMjU2fX1d'));
+       
+       
+       data.model_data = JSON.parse(b64DecodeUnicode('bnVsbA=='));
+       
+       
+       
+       const newOptions = JSON.parse(b64DecodeUnicode('eyJlbmFibGVfa2V5cyI6IGZhbHNlLCAiZW5hYmxlX3Rvb2x0aXBzIjogZmFsc2UsICJmdWxsX3NjcmVlbl9idXR0b24iOiB7ImVuYWJsZV9rZXlzIjogdHJ1ZSwgInNjcm9sbF9iZWhhdmlvciI6ICJwYW4iLCAiZW5hYmxlX2VkaXRpbmciOiB0cnVlLCAibWVudSI6ICJhbGwiLCAiZW5hYmxlX3Rvb2x0aXBzIjogWyJsYWJlbCJdfSwgInNjcm9sbF9iZWhhdmlvciI6ICJub25lIn0='));
+       data.options = Object.assign({}, data.options, newOptions);
+       
+       return data;
+     }
+    </script>
+  </body>
+</html>
