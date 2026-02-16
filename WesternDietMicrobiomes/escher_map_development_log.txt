@@ -1,0 +1,143 @@
+================================================================================
+ESCHER MAP DEVELOPMENT LOG - ASV Community Flux Visualization
+================================================================================
+Date: 2026-01-17
+Project: WesternDietMicrobiomes
+Working Directory: /Users/andrewfreiburger/Documents/Research/MicrobiomeNotebooks/WesternDietMicrobiomes
+
+================================================================================
+OBJECTIVE
+================================================================================
+Create Python code that generates Escher reaction maps for each ASV (Amplicon
+Sequence Variant) from a CSV file (RC_-1.5_communityFluxes.csv) where:
+- Rows are ASVs
+- Columns are metabolites
+- Values are consumption/production fluxes (negative = consumed, positive = produced)
+
+================================================================================
+ENVIRONMENT SETUP
+================================================================================
+Python virtual environment: ~/Documents/venv_microbiome_stable
+Package installation: uv pip install escher
+
+================================================================================
+KEY CHALLENGES & SOLUTIONS
+================================================================================
+
+1. BLANK HTML RENDERING
+   Problem: Generated HTML files appeared blank in Firefox and Brave browsers
+   Solution:
+   - Used local escher.min.js copied from installed package
+   - Proper HTML template with full-screen container styling
+   - DOMContentLoaded event handler
+   - zoom_extent_canvas() call after delay
+
+2. BUILDER.MAP UNDEFINED FOR MULTI-REACTION MAPS
+   Problem: Single reaction maps worked, but maps with 2+ reactions failed
+            with builder.map being undefined
+
+   Investigation:
+   - Tested incrementally: 1 reaction worked, 2+ failed
+   - Model map with 115 reactions worked
+   - Compared structure between working and failing maps
+
+   ROOT CAUSE DISCOVERED:
+   Segment IDs must be GLOBALLY UNIQUE across all reactions, not just unique
+   within each reaction.
+
+   Evidence from model map:
+   - Reaction 0: segment IDs = ['0', '1', '2', '3', '4']...
+   - Reaction 1: segment IDs = ['21', '22', '23', '24', '25']...
+   - Reaction 2: segment IDs = ['35', '36', '37', '38', '39']...
+
+   Fix: Added global segment_id_counter that increments across all reactions
+
+3. METABOLITE LAYOUT ORGANIZATION
+   Requirement: Position metabolites based on their role across all ASVs
+
+   Implementation:
+   - Only consumed (reactants): LEFT side of ASV nodes
+   - Only produced (products): RIGHT side of ASV nodes
+   - Mixed (both consumed and produced): CENTER near ASV nodes
+
+   Added categorize_metabolites() function to analyze flux patterns
+
+================================================================================
+FILES CREATED/MODIFIED
+================================================================================
+
+MAIN SCRIPT:
+- create_asv_escher_map.py
+  - Reads CSV flux data
+  - Categorizes metabolites by flux patterns
+  - Generates Escher-compatible JSON with proper structure
+  - Creates standalone HTML visualization
+  - Uses globally unique segment IDs (critical fix)
+
+OUTPUT FILES:
+- asv_map_fixed.json / asv_map_fixed.html (working multi-reaction map)
+- asv_map_categorized.json / asv_map_categorized.html (with metabolite layout)
+
+TEST FILES CREATED DURING DEBUGGING:
+- test_two_rxn.json / test_two_rxn.html
+- test_two_independent.html
+- test_unique_segments.html (confirmed the segment ID fix)
+- minimal_asv.json / minimal_asv.html (single reaction test)
+
+================================================================================
+ESCHER MAP STRUCTURE REQUIREMENTS
+================================================================================
+
+1. JSON format: Array with two elements
+   [0]: Header object (map_name, map_id, schema, etc.)
+   [1]: Data object (reactions, nodes, text_labels, canvas)
+
+2. Node types:
+   - "multimarker": Connection point for metabolites
+   - "midmarker": Center of reaction
+   - "metabolite": Metabolite node with bigg_id, name, coordinates
+
+3. Segment structure:
+   - from_node_id, to_node_id: String node IDs
+   - b1, b2: Bezier control points (can be null for straight lines)
+   - CRITICAL: Segment IDs must be globally unique across entire map
+
+4. Reaction structure:
+   - name, bigg_id, reversibility
+   - label_x, label_y: Position of reaction label
+   - metabolites: Array of {bigg_id, coefficient}
+   - segments: Object with unique segment IDs as keys
+
+================================================================================
+FINAL METABOLITE CATEGORIZATION (RC_-1.5_communityFluxes.csv)
+================================================================================
+- Only consumed (reactants): 15 metabolites -> LEFT side
+- Only produced (products): 5 metabolites -> RIGHT side
+- Mixed (both): 25 metabolites -> CENTER near ASV nodes
+
+Total: 49 metabolites, 15 ASVs with non-zero fluxes
+
+================================================================================
+USAGE
+================================================================================
+
+Generate Escher map from CSV:
+  ~/Documents/venv_microbiome_stable/bin/python3 create_asv_escher_map.py \
+      RC_-1.5_communityFluxes.csv -o output.json --html
+
+Options:
+  -o, --output    Output JSON file path
+  -n, --map-name  Name for the Escher map
+  -p, --prefix    Prefix for reaction IDs
+  --html          Also generate standalone HTML file
+
+================================================================================
+DEPENDENCIES
+================================================================================
+- Python 3.x
+- escher (installed via uv pip install)
+- Local copy of escher.min.js required in same directory as HTML output
+
+================================================================================
+END OF LOG
+================================================================================
