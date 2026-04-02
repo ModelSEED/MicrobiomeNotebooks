@@ -7441,16 +7441,6 @@
 }
 },
 {
-"id":"cpd00027_e0",
-"name":"D-Glucose [e0]",
-"compartment":"e0",
-"charge":0,
-"formula":"C6H12O6",
-"notes":{
-"modelseed_template_id":"cpd00027_e"
-}
-},
-{
 "id":"cpd00099_e0",
 "name":"Cl- [e0]",
 "compartment":"e0",
@@ -7498,16 +7488,6 @@
 "formula":"C40H66O7P2",
 "notes":{
 "modelseed_template_id":"cpd02557_c"
-}
-},
-{
-"id":"cpd02685_c0",
-"name":"N-acetyl-LL-2,6-diaminopimelate [c0]",
-"compartment":"c0",
-"charge":-1,
-"formula":"C9H15N2O5",
-"notes":{
-"modelseed_template_id":"cpd02685_c"
 }
 },
 {
@@ -7701,16 +7681,6 @@
 }
 },
 {
-"id":"cpd00790_c0",
-"name":"O-Acetyl-L-homoserine [c0]",
-"compartment":"c0",
-"charge":0,
-"formula":"C6H11NO4",
-"notes":{
-"modelseed_template_id":"cpd00790_c"
-}
-},
-{
 "id":"cpd15329_c0",
 "name":"1-octadecanoyl-sn-glycerol 3-phosphate [c0]",
 "compartment":"c0",
@@ -7728,6 +7698,16 @@
 "formula":"C39H76O8P",
 "notes":{
 "modelseed_template_id":"cpd15526_c"
+}
+},
+{
+"id":"cpd02893_c0",
+"name":"5'-Phosphoribosyl-4-carboxy-5-aminoimidazole [c0]",
+"compartment":"c0",
+"charge":-2,
+"formula":"C9H12N3O9P",
+"notes":{
+"modelseed_template_id":"cpd02893_c"
 }
 },
 {
@@ -7831,6 +7811,36 @@
 }
 },
 {
+"id":"cpd00332_c0",
+"name":"Mevalonic acid [c0]",
+"compartment":"c0",
+"charge":-1,
+"formula":"C6H11O4",
+"notes":{
+"modelseed_template_id":"cpd00332_c"
+}
+},
+{
+"id":"cpd00292_c0",
+"name":"HMG-CoA [c0]",
+"compartment":"c0",
+"charge":-5,
+"formula":"C27H39N7O20P3S",
+"notes":{
+"modelseed_template_id":"cpd00292_c"
+}
+},
+{
+"id":"cpd00293_c0",
+"name":"N-Acetyl-D-glucosamine 6-phosphate [c0]",
+"compartment":"c0",
+"charge":-2,
+"formula":"C8H14NO9P",
+"notes":{
+"modelseed_template_id":"cpd00293_c"
+}
+},
+{
 "id":"cpd03372_c0",
 "name":"Homoisocitrate [c0]",
 "compartment":"c0",
@@ -7901,6 +7911,16 @@
 }
 },
 {
+"id":"cpd15430_c0",
+"name":"cardiolipin tetraoctadecanoyl [c0]",
+"compartment":"c0",
+"charge":-2,
+"formula":"C81H156O17P2",
+"notes":{
+"modelseed_template_id":"cpd15430_c"
+}
+},
+{
 "id":"cpd03920_c0",
 "name":"Adenosylcobinamide-GDP [c0]",
 "compartment":"c0",
@@ -7951,16 +7971,6 @@
 }
 },
 {
-"id":"cpd02893_c0",
-"name":"5'-Phosphoribosyl-4-carboxy-5-aminoimidazole [c0]",
-"compartment":"c0",
-"charge":-2,
-"formula":"C9H12N3O9P",
-"notes":{
-"modelseed_template_id":"cpd02893_c"
-}
-},
-{
 "id":"cpd08211_c0",
 "name":"trans,trans,cis-Geranylgeranyl diphosphate [c0]",
 "compartment":"c0",
@@ -7978,6 +7988,26 @@
 "formula":"C7H8O4",
 "notes":{
 "modelseed_template_id":"cpd01710_c"
+}
+},
+{
+"id":"cpd00841_c0",
+"name":"5-diphosphomevalonate [c0]",
+"compartment":"c0",
+"charge":-3,
+"formula":"C6H11O10P2",
+"notes":{
+"modelseed_template_id":"cpd00841_c"
+}
+},
+{
+"id":"cpd00812_c0",
+"name":"5-phosphomevalonate [c0]",
+"compartment":"c0",
+"charge":-3,
+"formula":"C6H10O7P",
+"notes":{
+"modelseed_template_id":"cpd00812_c"
 }
 },
 {
@@ -22053,23 +22083,6 @@
 }
 },
 {
-"id":"rxn03086_c0",
-"name":"R04467",
-"metabolites":{
-"cpd00023_c0":1,
-"cpd00024_c0":-1,
-"cpd02685_c0":-1,
-"cpd03289_c0":1
-},
-"lower_bound":-100.0,
-"upper_bound":0.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn03086"
-}
-},
-{
 "id":"rxn08333_c0",
 "name":"1,4-dihydroxy-2-naphthoate octaprenyltransferase",
 "metabolites":{
@@ -22085,26 +22098,6 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn08333"
-}
-},
-{
-"id":"rxn09177_c0",
-"name":"(R)-4'-Phosphopantothenate:L-cysteine ligase",
-"metabolites":{
-"cpd00012_c0":1,
-"cpd00046_c0":1,
-"cpd00052_c0":-1,
-"cpd00067_c0":2,
-"cpd00084_c0":-1,
-"cpd02201_c0":-1,
-"cpd02666_c0":1
-},
-"lower_bound":0.0,
-"upper_bound":100.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn09177"
 }
 },
 {
@@ -22243,6 +22236,25 @@
 }
 },
 {
+"id":"rxn00949_c0",
+"name":"L-homocysteine hydrogen-sulfide-lyase (deaminating; 2-oxobutanoate-forming)",
+"metabolites":{
+"cpd00001_c0":-1,
+"cpd00013_c0":1,
+"cpd00067_c0":1,
+"cpd00094_c0":1,
+"cpd00135_c0":-1,
+"cpd00239_c0":1
+},
+"lower_bound":-100.0,
+"upper_bound":0.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn00949"
+}
+},
+{
 "id":"rxn00128_c0",
 "name":"S-adenosyl-L-methionine methylthioadenosine-lyase (1-aminocyclopropane-1-carboxylate-forming)",
 "metabolites":{
@@ -22275,6 +22287,45 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn00796"
+}
+},
+{
+"id":"rxn12512_c0",
+"name":"(R)-4'-Phosphopantothenate:L-cysteine ligase",
+"metabolites":{
+"cpd00002_c0":-1,
+"cpd00012_c0":1,
+"cpd00018_c0":1,
+"cpd00067_c0":2,
+"cpd00084_c0":-1,
+"cpd02201_c0":-1,
+"cpd02666_c0":1
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn12512"
+}
+},
+{
+"id":"rxn10484_c0",
+"name":"diaminopimelate dehydrogenase",
+"metabolites":{
+"cpd00005_c0":-1,
+"cpd00006_c0":1,
+"cpd00013_c0":-1,
+"cpd00067_c0":-2,
+"cpd00516_c0":1,
+"cpd02465_c0":-1
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn10484"
 }
 },
 {
@@ -22367,25 +22418,6 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn10197"
-}
-},
-{
-"id":"rxn05293_c0",
-"name":"2C-methyl-D-erythritol 2,4 cyclodiphosphate dehydratase",
-"metabolites":{
-"cpd00001_c0":1,
-"cpd00003_c0":1,
-"cpd00004_c0":-1,
-"cpd00067_c0":-1,
-"cpd08301_c0":-1,
-"cpd08615_c0":1
-},
-"lower_bound":0.0,
-"upper_bound":100.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn05293"
 }
 },
 {
@@ -22513,27 +22545,6 @@
 }
 },
 {
-"id":"rxn06078_c0",
-"name":"O-acetyl-L-homoserine acetate-lyase (L-homocysteine forming)",
-"metabolites":{
-"cpd00029_c0":1,
-"cpd00067_c0":1,
-"cpd00081_c0":1,
-"cpd00135_c0":1,
-"cpd00268_c0":-1,
-"cpd00790_c0":-1,
-"cpd11420_c0":1,
-"cpd11421_c0":-1
-},
-"lower_bound":0.0,
-"upper_bound":100.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn06078"
-}
-},
-{
 "id":"rxn10213_c0",
 "name":"stearoyl-1-acylglycerol-3-phosphate O-acyltransferase",
 "metabolites":{
@@ -22549,6 +22560,26 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn10213"
+}
+},
+{
+"id":"rxn05229_c0",
+"name":"NCAIR synthetase and NCAIR mutase",
+"metabolites":{
+"cpd00002_c0":-1,
+"cpd00008_c0":1,
+"cpd00009_c0":1,
+"cpd00067_c0":1,
+"cpd00242_c0":-1,
+"cpd02140_c0":-1,
+"cpd02893_c0":1
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn05229"
 }
 },
 {
@@ -22686,6 +22717,25 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn03536"
+}
+},
+{
+"id":"rxn01501_c0",
+"name":"(R)-Mevalonate:NADP+ oxidoreductase (CoA acylating)",
+"metabolites":{
+"cpd00005_c0":2,
+"cpd00006_c0":-2,
+"cpd00010_c0":-1,
+"cpd00067_c0":2,
+"cpd00292_c0":1,
+"cpd00332_c0":-1
+},
+"lower_bound":-100.0,
+"upper_bound":0.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn01501"
 }
 },
 {
@@ -22891,23 +22941,6 @@
 }
 },
 {
-"id":"rxn01972_c0",
-"name":"N6-Acetyl-LL-2,6-diaminoheptanedioate amidohydrolase",
-"metabolites":{
-"cpd00001_c0":-1,
-"cpd00029_c0":1,
-"cpd00504_c0":1,
-"cpd02685_c0":-1
-},
-"lower_bound":0.0,
-"upper_bound":100.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn01972"
-}
-},
-{
 "id":"rxn00979_c0",
 "name":"glycolaldehyde:NAD+ oxidoreductase",
 "metabolites":{
@@ -23082,6 +23115,23 @@
 }
 },
 {
+"id":"rxn12811_c0",
+"name":"sulfate transport via sodium symport",
+"metabolites":{
+"cpd00048_c0":1,
+"cpd00048_e0":-1,
+"cpd00971_c0":2,
+"cpd00971_e0":-2
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn12811"
+}
+},
+{
 "id":"rxn03147_c0",
 "name":"1-(5-Phosphoribosyl)-5-amino-4-carboxyimidazole:L-aspartate ligase (ADP-forming)",
 "metabolites":{
@@ -23154,6 +23204,25 @@
 }
 },
 {
+"id":"rxn00829_c0",
+"name":"ATP:(R)-5-diphosphomevalonate carboxy-lyase (adding ATP; isopentenyl-diphosphate-forming)",
+"metabolites":{
+"cpd00002_c0":-1,
+"cpd00008_c0":1,
+"cpd00009_c0":1,
+"cpd00011_c0":1,
+"cpd00113_c0":1,
+"cpd00841_c0":-1
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn00829"
+}
+},
+{
 "id":"rxn02402_c0",
 "name":"Nicotinate-nucleotide:pyrophosphate phosphoribosyltransferase (carboxylating)",
 "metabolites":{
@@ -23173,20 +23242,21 @@
 }
 },
 {
-"id":"rxn01303_c0",
-"name":"Acetyl-CoA:L-homoserine O-acetyltransferase",
+"id":"rxn01607_c0",
+"name":"ATP:(R)-mevalonate 5-phosphotransferase",
 "metabolites":{
-"cpd00010_c0":1,
-"cpd00022_c0":-1,
-"cpd00227_c0":-1,
-"cpd00790_c0":1
+"cpd00002_c0":-1,
+"cpd00008_c0":1,
+"cpd00067_c0":1,
+"cpd00332_c0":-1,
+"cpd00812_c0":1
 },
 "lower_bound":0.0,
 "upper_bound":100.0,
 "gene_reaction_rule":"",
 "annotation":{
 "sbo":"SBO:0000176",
-"seed.reaction":"rxn01303"
+"seed.reaction":"rxn01607"
 }
 },
 {
@@ -23202,6 +23272,21 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn00297"
+}
+},
+{
+"id":"rxn01106_c0",
+"name":"2-Phospho-D-glycerate 2,3-phosphomutase",
+"metabolites":{
+"cpd00169_c0":1,
+"cpd00482_c0":-1
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn01106"
 }
 },
 {
@@ -23520,26 +23605,6 @@
 }
 },
 {
-"id":"rxn05153_c0",
-"name":"sulfate-transporting ATPase",
-"metabolites":{
-"cpd00001_c0":-1,
-"cpd00002_c0":-1,
-"cpd00008_c0":1,
-"cpd00009_c0":1,
-"cpd00048_c0":1,
-"cpd00048_e0":-1,
-"cpd00067_c0":1
-},
-"lower_bound":0.0,
-"upper_bound":100.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn05153"
-}
-},
-{
 "id":"rxn00461_c0",
 "name":"Phosphoenolpyruvate:UDP-N-acetyl-D-glucosamine 1-carboxyvinyl-transferase",
 "metabolites":{
@@ -23609,22 +23674,21 @@
 }
 },
 {
-"id":"rxn04113_c0",
-"name":"isopentenyl-diphosphate:NAD(P)+ oxidoreductase",
+"id":"rxn05909_c0",
+"name":"L-serine hydro-lyase (adding hydrogen sulfide, L-cysteine-forming)",
 "metabolites":{
 "cpd00001_c0":1,
-"cpd00005_c0":-1,
-"cpd00006_c0":1,
+"cpd00054_c0":-1,
 "cpd00067_c0":-1,
-"cpd00113_c0":1,
-"cpd08615_c0":-1
+"cpd00084_c0":1,
+"cpd00239_c0":-1
 },
-"lower_bound":0.0,
-"upper_bound":100.0,
+"lower_bound":-100.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"",
 "annotation":{
 "sbo":"SBO:0000176",
-"seed.reaction":"rxn04113"
+"seed.reaction":"rxn05909"
 }
 },
 {
@@ -23658,23 +23722,6 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn02213"
-}
-},
-{
-"id":"rxn05226_c0",
-"name":"D-glucose transport via PEP:Pyr PTS",
-"metabolites":{
-"cpd00020_c0":1,
-"cpd00027_e0":-1,
-"cpd00061_c0":-1,
-"cpd00079_c0":1
-},
-"lower_bound":0.0,
-"upper_bound":100.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn05226"
 }
 },
 {
@@ -23732,6 +23779,24 @@
 }
 },
 {
+"id":"rxn02322_c0",
+"name":"ATP:(R)-5-phosphomevalonate phosphotransferase",
+"metabolites":{
+"cpd00002_c0":-1,
+"cpd00008_c0":1,
+"cpd00067_c0":-1,
+"cpd00812_c0":-1,
+"cpd00841_c0":1
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn02322"
+}
+},
+{
 "id":"rxn11702_c0",
 "name":"2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase",
 "metabolites":{
@@ -23747,27 +23812,6 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn11702"
-}
-},
-{
-"id":"rxn10053_c0",
-"name":"phosphoribosylaminoimidazole carboxylase (ATP-dependent)",
-"metabolites":{
-"cpd00001_c0":-1,
-"cpd00002_c0":-1,
-"cpd00008_c0":1,
-"cpd00009_c0":1,
-"cpd00011_c0":-1,
-"cpd00067_c0":2,
-"cpd02140_c0":-1,
-"cpd02893_c0":1
-},
-"lower_bound":0.0,
-"upper_bound":100.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn10053"
 }
 },
 {
@@ -23879,6 +23923,22 @@
 }
 },
 {
+"id":"rxn00991_c0",
+"name":"(S)-3-hydroxy-3-methylglutaryl-CoA acetoacetate-lyase (acetyl-CoA-forming)",
+"metabolites":{
+"cpd00022_c0":1,
+"cpd00142_c0":1,
+"cpd00292_c0":-1
+},
+"lower_bound":-100.0,
+"upper_bound":0.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn00991"
+}
+},
+{
 "id":"rxn00134_c0",
 "name":"ATP:adenosine 5'-phosphotransferase",
 "metabolites":{
@@ -23928,6 +23988,27 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn02185"
+}
+},
+{
+"id":"rxn05604_c0",
+"name":"malate-H+/Na+-lactate antiporter",
+"metabolites":{
+"cpd00067_c0":2,
+"cpd00067_e0":-2,
+"cpd00130_c0":1,
+"cpd00130_e0":-1,
+"cpd00159_c0":-1,
+"cpd00159_e0":1,
+"cpd00971_c0":-1,
+"cpd00971_e0":1
+},
+"lower_bound":-100.0,
+"upper_bound":0.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn05604"
 }
 },
 {
@@ -24214,6 +24295,23 @@
 }
 },
 {
+"id":"rxn00990_c0",
+"name":"Acetoacetyl-CoA:acetate CoA-transferase",
+"metabolites":{
+"cpd00022_c0":1,
+"cpd00029_c0":-1,
+"cpd00142_c0":1,
+"cpd00279_c0":-1
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn00990"
+}
+},
+{
 "id":"rxn02341_c0",
 "name":"N-[(R)-4'-Phosphopantothenoyl]-L-cysteine carboxy-lyase",
 "metabolites":{
@@ -24299,23 +24397,6 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn00202"
-}
-},
-{
-"id":"rxn02914_c0",
-"name":"3-Phosphoserine:2-oxoglutarate aminotransferase",
-"metabolites":{
-"cpd00023_c0":1,
-"cpd00024_c0":-1,
-"cpd00738_c0":-1,
-"cpd02069_c0":1
-},
-"lower_bound":-100.0,
-"upper_bound":0.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn02914"
 }
 },
 {
@@ -24483,16 +24564,6 @@
 "cpd25960_e0":-1
 },
 "lower_bound":-1000.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":""
-},
-{
-"id":"EX_cpd00027_e0",
-"name":"",
-"metabolites":{
-"cpd00027_e0":-1
-},
-"lower_bound":-10.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":""
 },

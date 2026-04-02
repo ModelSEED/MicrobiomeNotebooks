@@ -9551,6 +9551,26 @@
 }
 },
 {
+"id":"cpd00404_c0",
+"name":"D-Ornithine [c0]",
+"compartment":"c0",
+"charge":1,
+"formula":"C5H13N2O2",
+"notes":{
+"modelseed_template_id":"cpd00404_c"
+}
+},
+{
+"id":"cpd02448_c0",
+"name":"2,4-Diaminopentanoate [c0]",
+"compartment":"c0",
+"charge":1,
+"formula":"C5H13N2O2",
+"notes":{
+"modelseed_template_id":"cpd02448_c"
+}
+},
+{
 "id":"cpd00982_c0",
 "name":"FADH2 [c0]",
 "compartment":"c0",
@@ -9568,16 +9588,6 @@
 "formula":"C40H66O7P2",
 "notes":{
 "modelseed_template_id":"cpd02557_c"
-}
-},
-{
-"id":"cpd02685_c0",
-"name":"N-acetyl-LL-2,6-diaminopimelate [c0]",
-"compartment":"c0",
-"charge":-1,
-"formula":"C9H15N2O5",
-"notes":{
-"modelseed_template_id":"cpd02685_c"
 }
 },
 {
@@ -9611,6 +9621,16 @@
 }
 },
 {
+"id":"cpd02121_c0",
+"name":"2-Amino-4-oxopentanoate [c0]",
+"compartment":"c0",
+"charge":0,
+"formula":"C5H9NO3",
+"notes":{
+"modelseed_template_id":"cpd02121_c"
+}
+},
+{
 "id":"cpd00229_c0",
 "name":"Glycolaldehyde [c0]",
 "compartment":"c0",
@@ -9618,6 +9638,16 @@
 "formula":"C2H4O2",
 "notes":{
 "modelseed_template_id":"cpd00229_c"
+}
+},
+{
+"id":"cpd03521_c0",
+"name":"Dihydroneopterin phosphate [c0]",
+"compartment":"c0",
+"charge":-2,
+"formula":"C9H12N5O7P",
+"notes":{
+"modelseed_template_id":"cpd03521_c"
 }
 },
 {
@@ -9648,6 +9678,16 @@
 "formula":"C10H17N2O3",
 "notes":{
 "modelseed_template_id":"cpd01311_c"
+}
+},
+{
+"id":"cpd00617_c0",
+"name":"Lactoyl-CoA [c0]",
+"compartment":"c0",
+"charge":-3,
+"formula":"C24H37N7O18P3S",
+"notes":{
+"modelseed_template_id":"cpd00617_c"
 }
 },
 {
@@ -9711,23 +9751,13 @@
 }
 },
 {
-"id":"cpd00791_c0",
-"name":"ProtoporphyrinogenIX [c0]",
+"id":"cpd00007_c0",
+"name":"O2 [c0]",
 "compartment":"c0",
-"charge":-2,
-"formula":"C34H38N4O4",
+"charge":0,
+"formula":"O2",
 "notes":{
-"modelseed_template_id":"cpd00791_c"
-}
-},
-{
-"id":"cpd01476_c0",
-"name":"Protoporphyrin [c0]",
-"compartment":"c0",
-"charge":-2,
-"formula":"C34H32N4O4",
-"notes":{
-"modelseed_template_id":"cpd01476_c"
+"modelseed_template_id":"cpd00007_c"
 }
 },
 {
@@ -9798,6 +9828,26 @@
 "formula":"C3H7NO2",
 "notes":{
 "modelseed_template_id":"cpd00085_c"
+}
+},
+{
+"id":"cpd00332_c0",
+"name":"Mevalonic acid [c0]",
+"compartment":"c0",
+"charge":-1,
+"formula":"C6H11O4",
+"notes":{
+"modelseed_template_id":"cpd00332_c"
+}
+},
+{
+"id":"cpd00292_c0",
+"name":"HMG-CoA [c0]",
+"compartment":"c0",
+"charge":-5,
+"formula":"C27H39N7O20P3S",
+"notes":{
+"modelseed_template_id":"cpd00292_c"
 }
 },
 {
@@ -9891,6 +9941,36 @@
 }
 },
 {
+"id":"cpd02522_c0",
+"name":"2-Aminoadipate 6-semialdehyde [c0]",
+"compartment":"c0",
+"charge":0,
+"formula":"C6H11NO3",
+"notes":{
+"modelseed_template_id":"cpd02522_c"
+}
+},
+{
+"id":"cpd00841_c0",
+"name":"5-diphosphomevalonate [c0]",
+"compartment":"c0",
+"charge":-3,
+"formula":"C6H11O10P2",
+"notes":{
+"modelseed_template_id":"cpd00841_c"
+}
+},
+{
+"id":"cpd00812_c0",
+"name":"5-phosphomevalonate [c0]",
+"compartment":"c0",
+"charge":-3,
+"formula":"C6H10O7P",
+"notes":{
+"modelseed_template_id":"cpd00812_c"
+}
+},
+{
 "id":"cpd00773_c0",
 "name":"UDP-MurNAc [c0]",
 "compartment":"c0",
@@ -9918,6 +9998,16 @@
 "formula":"C5H5O4",
 "notes":{
 "modelseed_template_id":"cpd00340_c"
+}
+},
+{
+"id":"cpd00408_c0",
+"name":"Pantoate [c0]",
+"compartment":"c0",
+"charge":-1,
+"formula":"C6H11O4",
+"notes":{
+"modelseed_template_id":"cpd00408_c"
 }
 },
 {
@@ -9981,16 +10071,6 @@
 }
 },
 {
-"id":"cpd00007_c0",
-"name":"O2 [c0]",
-"compartment":"c0",
-"charge":0,
-"formula":"O2",
-"notes":{
-"modelseed_template_id":"cpd00007_c"
-}
-},
-{
 "id":"cpd02083_c0",
 "name":"CoproporphyrinogenIII [c0]",
 "compartment":"c0",
@@ -9998,6 +10078,26 @@
 "formula":"C36H40N4O8",
 "notes":{
 "modelseed_template_id":"cpd02083_c"
+}
+},
+{
+"id":"cpd00791_c0",
+"name":"ProtoporphyrinogenIX [c0]",
+"compartment":"c0",
+"charge":-2,
+"formula":"C34H38N4O4",
+"notes":{
+"modelseed_template_id":"cpd00791_c"
+}
+},
+{
+"id":"cpd01476_c0",
+"name":"Protoporphyrin [c0]",
+"compartment":"c0",
+"charge":-2,
+"formula":"C34H32N4O4",
+"notes":{
+"modelseed_template_id":"cpd01476_c"
 }
 },
 {
@@ -10031,16 +10131,6 @@
 }
 },
 {
-"id":"cpd00408_c0",
-"name":"Pantoate [c0]",
-"compartment":"c0",
-"charge":-1,
-"formula":"C6H11O4",
-"notes":{
-"modelseed_template_id":"cpd00408_c"
-}
-},
-{
 "id":"cpd00712_c0",
 "name":"2-Dehydropantoate [c0]",
 "compartment":"c0",
@@ -10058,16 +10148,6 @@
 "formula":"C14H24N6O3S",
 "notes":{
 "modelseed_template_id":"cpd00837_c"
-}
-},
-{
-"id":"cpd02522_c0",
-"name":"2-Aminoadipate 6-semialdehyde [c0]",
-"compartment":"c0",
-"charge":0,
-"formula":"C6H11NO3",
-"notes":{
-"modelseed_template_id":"cpd02522_c"
 }
 },
 {
@@ -10099,6 +10179,16 @@
 "notes":{
 "modelseed_template_id":"cpd01772_c"
 }
+},
+{
+"id":"cpd11574_e0",
+"name":"",
+"compartment":"e0"
+},
+{
+"id":"cpd25960_e0",
+"name":"",
+"compartment":"e0"
 },
 {
 "id":"cpd00441_c0",
@@ -27048,8 +27138,8 @@
 "metabolites":{
 "cpd00027_e0":-1
 },
-"lower_bound":-10.0,
-"upper_bound":1000.0,
+"lower_bound":-0.0,
+"upper_bound":100.0,
 "gene_reaction_rule":"",
 "subsystem":"exchanges",
 "annotation":{
@@ -27917,23 +28007,6 @@
 }
 },
 {
-"id":"rxn03086_c0",
-"name":"R04467",
-"metabolites":{
-"cpd00023_c0":1,
-"cpd00024_c0":-1,
-"cpd02685_c0":-1,
-"cpd03289_c0":1
-},
-"lower_bound":-100.0,
-"upper_bound":0.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn03086"
-}
-},
-{
 "id":"rxn08333_c0",
 "name":"1,4-dihydroxy-2-naphthoate octaprenyltransferase",
 "metabolites":{
@@ -28105,25 +28178,22 @@
 }
 },
 {
-"id":"rxn00416_c0",
-"name":"L-aspartate:L-glutamine amido-ligase (AMP-forming)",
+"id":"rxn10484_c0",
+"name":"diaminopimelate dehydrogenase",
 "metabolites":{
-"cpd00001_c0":-1,
-"cpd00002_c0":-1,
-"cpd00012_c0":1,
-"cpd00018_c0":1,
-"cpd00023_c0":1,
-"cpd00041_c0":-1,
-"cpd00053_c0":-1,
-"cpd00067_c0":2,
-"cpd00132_c0":1
+"cpd00005_c0":-1,
+"cpd00006_c0":1,
+"cpd00013_c0":-1,
+"cpd00067_c0":-2,
+"cpd00516_c0":1,
+"cpd02465_c0":-1
 },
 "lower_bound":0.0,
 "upper_bound":100.0,
 "gene_reaction_rule":"",
 "annotation":{
 "sbo":"SBO:0000176",
-"seed.reaction":"rxn00416"
+"seed.reaction":"rxn10484"
 }
 },
 {
@@ -28142,21 +28212,6 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn01739"
-}
-},
-{
-"id":"rxn01974_c0",
-"name":"LL-2,6-Diaminoheptanedioate 2-epimerase",
-"metabolites":{
-"cpd00504_c0":-1,
-"cpd00516_c0":1
-},
-"lower_bound":0.0,
-"upper_bound":100.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn01974"
 }
 },
 {
@@ -28302,6 +28357,43 @@
 }
 },
 {
+"id":"rxn00340_c0",
+"name":"L-aspartate:ammonia ligase (AMP-forming)",
+"metabolites":{
+"cpd00002_c0":-1,
+"cpd00012_c0":1,
+"cpd00013_c0":-1,
+"cpd00018_c0":1,
+"cpd00041_c0":-1,
+"cpd00067_c0":2,
+"cpd00132_c0":1
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn00340"
+}
+},
+{
+"id":"rxn00220_c0",
+"name":"D-Glucose-6-phosphate phosphohydrolase",
+"metabolites":{
+"cpd00001_c0":-1,
+"cpd00009_c0":1,
+"cpd00027_c0":1,
+"cpd00079_c0":-1
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn00220"
+}
+},
+{
 "id":"rxn00625_c0",
 "name":"R00864",
 "metabolites":{
@@ -28367,23 +28459,6 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn05039"
-}
-},
-{
-"id":"rxn09180_c0",
-"name":"protoporphyrinogen oxidase (anaerobic)",
-"metabolites":{
-"cpd00036_c0":3,
-"cpd00106_c0":-3,
-"cpd00791_c0":-1,
-"cpd01476_c0":1
-},
-"lower_bound":0.0,
-"upper_bound":100.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn09180"
 }
 },
 {
@@ -28504,6 +28579,24 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn00656"
+}
+},
+{
+"id":"rxn01013_c0",
+"name":"D-Glycerate:NADP+ 2-oxidoreductase",
+"metabolites":{
+"cpd00005_c0":1,
+"cpd00006_c0":-1,
+"cpd00067_c0":1,
+"cpd00145_c0":1,
+"cpd00223_c0":-1
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn01013"
 }
 },
 {
@@ -28671,23 +28764,6 @@
 }
 },
 {
-"id":"rxn01972_c0",
-"name":"N6-Acetyl-LL-2,6-diaminoheptanedioate amidohydrolase",
-"metabolites":{
-"cpd00001_c0":-1,
-"cpd00029_c0":1,
-"cpd00504_c0":1,
-"cpd02685_c0":-1
-},
-"lower_bound":0.0,
-"upper_bound":100.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn01972"
-}
-},
-{
 "id":"rxn11703_c0",
 "name":"2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase",
 "metabolites":{
@@ -28757,24 +28833,6 @@
 }
 },
 {
-"id":"rxn05119_c0",
-"name":"L-aspartate:NAD+ oxidoreductase (deaminating)",
-"metabolites":{
-"cpd00003_c0":-1,
-"cpd00004_c0":1,
-"cpd00041_c0":-1,
-"cpd00067_c0":2,
-"cpd03470_c0":1
-},
-"lower_bound":0.0,
-"upper_bound":100.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn05119"
-}
-},
-{
 "id":"rxn10282_c0",
 "name":"stearoyl-UDP-glucosyltransferase (monoglucosyl)",
 "metabolites":{
@@ -28789,6 +28847,42 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn10282"
+}
+},
+{
+"id":"rxn02226_c0",
+"name":"L-2-Aminoadipate-6-semialdehyde:NAD+ 6-oxidoreductase",
+"metabolites":{
+"cpd00001_c0":-1,
+"cpd00003_c0":-1,
+"cpd00004_c0":1,
+"cpd00067_c0":2,
+"cpd00705_c0":1,
+"cpd02522_c0":-1
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn02226"
+}
+},
+{
+"id":"rxn12811_c0",
+"name":"sulfate transport via sodium symport",
+"metabolites":{
+"cpd00048_c0":1,
+"cpd00048_e0":-1,
+"cpd00971_c0":2,
+"cpd00971_e0":-2
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn12811"
 }
 },
 {
@@ -28953,6 +29047,23 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn00505"
+}
+},
+{
+"id":"rxn01792_c0",
+"name":"Pantothenate amidohydrolase",
+"metabolites":{
+"cpd00001_c0":-1,
+"cpd00085_c0":1,
+"cpd00408_c0":1,
+"cpd00644_c0":-1
+},
+"lower_bound":-100.0,
+"upper_bound":0.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn01792"
 }
 },
 {
@@ -29168,23 +29279,20 @@
 }
 },
 {
-"id":"rxn05153_c0",
-"name":"sulfate-transporting ATPase",
+"id":"rxn02304_c0",
+"name":"protoporphyrinogen-IX:oxygen oxidoreductase",
 "metabolites":{
-"cpd00001_c0":-1,
-"cpd00002_c0":-1,
-"cpd00008_c0":1,
-"cpd00009_c0":1,
-"cpd00048_c0":1,
-"cpd00048_e0":-1,
-"cpd00067_c0":1
+"cpd00001_c0":6,
+"cpd00007_c0":-3,
+"cpd00791_c0":-2,
+"cpd01476_c0":2
 },
 "lower_bound":0.0,
 "upper_bound":100.0,
 "gene_reaction_rule":"",
 "annotation":{
 "sbo":"SBO:0000176",
-"seed.reaction":"rxn05153"
+"seed.reaction":"rxn02304"
 }
 },
 {
@@ -29402,21 +29510,6 @@
 }
 },
 {
-"id":"rxn00704_c0",
-"name":"alpha-D-Glucose 1-phosphate 1,6-phosphomutase",
-"metabolites":{
-"cpd00079_c0":1,
-"cpd00089_c0":-1
-},
-"lower_bound":-100.0,
-"upper_bound":0.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn00704"
-}
-},
-{
 "id":"rxn11702_c0",
 "name":"2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase",
 "metabolites":{
@@ -29432,6 +29525,24 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn11702"
+}
+},
+{
+"id":"rxn05117_c0",
+"name":"L-aspartate:NADP+ oxidoreductase (deaminating)",
+"metabolites":{
+"cpd00005_c0":1,
+"cpd00006_c0":-1,
+"cpd00041_c0":-1,
+"cpd00067_c0":2,
+"cpd03470_c0":1
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn05117"
 }
 },
 {
@@ -29595,25 +29706,6 @@
 }
 },
 {
-"id":"rxn02227_c0",
-"name":"L-2-Aminoadipate-6-semialdehyde:NADP+ 6-oxidoreductase",
-"metabolites":{
-"cpd00001_c0":-1,
-"cpd00005_c0":1,
-"cpd00006_c0":-1,
-"cpd00067_c0":2,
-"cpd00705_c0":1,
-"cpd02522_c0":-1
-},
-"lower_bound":0.0,
-"upper_bound":100.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn02227"
-}
-},
-{
 "id":"rxn02185_c0",
 "name":"2-Acetolactate pyruvate-lyase (carboxylating)",
 "metabolites":{
@@ -29665,6 +29757,27 @@
 }
 },
 {
+"id":"rxn05604_c0",
+"name":"malate-H+/Na+-lactate antiporter",
+"metabolites":{
+"cpd00067_c0":2,
+"cpd00067_e0":-2,
+"cpd00130_c0":1,
+"cpd00130_e0":-1,
+"cpd00159_c0":-1,
+"cpd00159_e0":1,
+"cpd00971_c0":-1,
+"cpd00971_e0":1
+},
+"lower_bound":-100.0,
+"upper_bound":0.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn05604"
+}
+},
+{
 "id":"rxn03622_c0",
 "name":"pimeloyl-CoA:NAD+ oxidoreductase",
 "metabolites":{
@@ -29679,24 +29792,6 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn03622"
-}
-},
-{
-"id":"rxn01011_c0",
-"name":"D-Glycerate:NAD+ 2-oxidoreductase",
-"metabolites":{
-"cpd00003_c0":-1,
-"cpd00004_c0":1,
-"cpd00067_c0":1,
-"cpd00145_c0":1,
-"cpd00223_c0":-1
-},
-"lower_bound":0.0,
-"upper_bound":100.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn01011"
 }
 },
 {
@@ -29925,26 +30020,6 @@
 }
 },
 {
-"id":"rxn01791_c0",
-"name":"(R)-Pantoate:beta-alanine ligase (AMP-forming)",
-"metabolites":{
-"cpd00002_c0":-1,
-"cpd00012_c0":1,
-"cpd00018_c0":1,
-"cpd00067_c0":2,
-"cpd00085_c0":-1,
-"cpd00408_c0":-1,
-"cpd00644_c0":1
-},
-"lower_bound":0.0,
-"upper_bound":100.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn01791"
-}
-},
-{
 "id":"rxn10300_c0",
 "name":"stearoyl-lipoteichoic acid synthesis (n=24), linked, glucose substituted",
 "metabolites":{
@@ -30140,6 +30215,36 @@
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn48586"
 }
+},
+{
+"id":"EX_cpd11574_e0",
+"name":"",
+"metabolites":{
+"cpd11574_e0":-1
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"EX_cpd00159_e0",
+"name":"",
+"metabolites":{
+"cpd00159_e0":-1
+},
+"lower_bound":-100.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"EX_cpd25960_e0",
+"name":"",
+"metabolites":{
+"cpd25960_e0":-1
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
 },
 {
 "id":"rxn17220_c0",

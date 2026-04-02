@@ -8421,16 +8421,6 @@
 }
 },
 {
-"id":"cpd00027_e0",
-"name":"D-Glucose [e0]",
-"compartment":"e0",
-"charge":0,
-"formula":"C6H12O6",
-"notes":{
-"modelseed_template_id":"cpd00027_e"
-}
-},
-{
 "id":"cpd00099_e0",
 "name":"Cl- [e0]",
 "compartment":"e0",
@@ -8721,16 +8711,6 @@
 }
 },
 {
-"id":"cpd00790_c0",
-"name":"O-Acetyl-L-homoserine [c0]",
-"compartment":"c0",
-"charge":0,
-"formula":"C6H11NO4",
-"notes":{
-"modelseed_template_id":"cpd00790_c"
-}
-},
-{
 "id":"cpd15329_c0",
 "name":"1-octadecanoyl-sn-glycerol 3-phosphate [c0]",
 "compartment":"c0",
@@ -8738,6 +8718,16 @@
 "formula":"C21H41O7P",
 "notes":{
 "modelseed_template_id":"cpd15329_c"
+}
+},
+{
+"id":"cpd00790_c0",
+"name":"O-Acetyl-L-homoserine [c0]",
+"compartment":"c0",
+"charge":0,
+"formula":"C6H11NO4",
+"notes":{
+"modelseed_template_id":"cpd00790_c"
 }
 },
 {
@@ -8951,6 +8941,26 @@
 }
 },
 {
+"id":"cpd02693_c0",
+"name":"3-Isopropylmalate [c0]",
+"compartment":"c0",
+"charge":-2,
+"formula":"C7H10O5",
+"notes":{
+"modelseed_template_id":"cpd02693_c"
+}
+},
+{
+"id":"cpd01710_c0",
+"name":"2-Isopropylmaleate [c0]",
+"compartment":"c0",
+"charge":-2,
+"formula":"C7H8O4",
+"notes":{
+"modelseed_template_id":"cpd01710_c"
+}
+},
+{
 "id":"cpd00843_c0",
 "name":"Tartronate semialdehyde [c0]",
 "compartment":"c0",
@@ -9149,6 +9159,11 @@
 "notes":{
 "modelseed_template_id":"cpd02210_c"
 }
+},
+{
+"id":"cpd25960_e0",
+"name":"",
+"compartment":"e0"
 },
 {
 "id":"cpd00441_e0",
@@ -25762,46 +25777,6 @@
 }
 },
 {
-"id":"rxn13022_c0",
-"name":"3-isopropylmalate dehydrogenase",
-"metabolites":{
-"cpd00003_c0":-1,
-"cpd00004_c0":1,
-"cpd00011_c0":1,
-"cpd00200_c0":1,
-"cpd01646_c0":-1
-},
-"lower_bound":0.0,
-"upper_bound":100.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn13022"
-}
-},
-{
-"id":"rxn09427_c0",
-"name":"fatty-acyl-CoA synthase (n-C18:0CoA)",
-"metabolites":{
-"cpd00001_c0":1,
-"cpd00005_c0":-2,
-"cpd00006_c0":2,
-"cpd00010_c0":1,
-"cpd00011_c0":1,
-"cpd00067_c0":-3,
-"cpd00070_c0":-1,
-"cpd00134_c0":-1,
-"cpd00327_c0":1
-},
-"lower_bound":0.0,
-"upper_bound":100.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn09427"
-}
-},
-{
 "id":"rxn00802_c0",
 "name":"2-(Nomega-L-arginino)succinate arginine-lyase (fumarate-forming)",
 "metabolites":{
@@ -25910,6 +25885,24 @@
 }
 },
 {
+"id":"rxn08551_c0",
+"name":"glycerol-3-phosphate acyltransferase (C18:0)",
+"metabolites":{
+"cpd00067_c0":-1,
+"cpd00080_c0":-1,
+"cpd11493_c0":1,
+"cpd15268_c0":-1,
+"cpd15329_c0":1
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn08551"
+}
+},
+{
 "id":"rxn06078_c0",
 "name":"O-acetyl-L-homoserine acetate-lyase (L-homocysteine forming)",
 "metabolites":{
@@ -25928,24 +25921,6 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn06078"
-}
-},
-{
-"id":"rxn10213_c0",
-"name":"stearoyl-1-acylglycerol-3-phosphate O-acyltransferase",
-"metabolites":{
-"cpd00010_c0":1,
-"cpd00067_c0":-1,
-"cpd00327_c0":-1,
-"cpd15329_c0":-1,
-"cpd15526_c0":1
-},
-"lower_bound":0.0,
-"upper_bound":100.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn10213"
 }
 },
 {
@@ -26000,23 +25975,6 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn09180"
-}
-},
-{
-"id":"rxn10204_c0",
-"name":"acyl-CoA:sn-glycerol-3-phosphate 1-O-acyltransferase",
-"metabolites":{
-"cpd00010_c0":1,
-"cpd00080_c0":-1,
-"cpd00327_c0":-1,
-"cpd15329_c0":1
-},
-"lower_bound":0.0,
-"upper_bound":100.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn10204"
 }
 },
 {
@@ -26170,25 +26128,6 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn01256"
-}
-},
-{
-"id":"rxn00251_c0",
-"name":"phosphate:oxaloacetate carboxy-lyase (adding phosphate;phosphoenolpyruvate-forming)",
-"metabolites":{
-"cpd00001_c0":1,
-"cpd00009_c0":-1,
-"cpd00011_c0":1,
-"cpd00032_c0":-1,
-"cpd00061_c0":1,
-"cpd00067_c0":-1
-},
-"lower_bound":-100.0,
-"upper_bound":0.0,
-"gene_reaction_rule":"",
-"annotation":{
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn00251"
 }
 },
 {
@@ -26405,6 +26344,23 @@
 }
 },
 {
+"id":"rxn00102_c0",
+"name":"carbonate hydro-lyase (carbon-dioxide-forming)",
+"metabolites":{
+"cpd00001_c0":1,
+"cpd00011_c0":1,
+"cpd00067_c0":-1,
+"cpd00242_c0":-1
+},
+"lower_bound":-100.0,
+"upper_bound":0.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn00102"
+}
+},
+{
 "id":"rxn12868_c0",
 "name":"Biotin synthase",
 "metabolites":{
@@ -26461,6 +26417,62 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn02269"
+}
+},
+{
+"id":"rxn10954_c0",
+"name":"Fatty acid biosynthesis (n-C18:0)",
+"metabolites":{
+"cpd00001_c0":8,
+"cpd00005_c0":-16,
+"cpd00006_c0":16,
+"cpd00011_c0":7,
+"cpd00067_c0":-15,
+"cpd11488_c0":-1,
+"cpd11492_c0":-7,
+"cpd11493_c0":7,
+"cpd15268_c0":1
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn10954"
+}
+},
+{
+"id":"rxn02811_c0",
+"name":"3-Isopropylmalate hydro-lyase",
+"metabolites":{
+"cpd00001_c0":1,
+"cpd01710_c0":1,
+"cpd02693_c0":-1
+},
+"lower_bound":-100.0,
+"upper_bound":0.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn02811"
+}
+},
+{
+"id":"rxn03062_c0",
+"name":"3-Isopropylmalate:NAD+ oxidoreductase",
+"metabolites":{
+"cpd00003_c0":-1,
+"cpd00004_c0":1,
+"cpd00067_c0":1,
+"cpd02605_c0":1,
+"cpd02693_c0":-1
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn03062"
 }
 },
 {
@@ -26746,6 +26758,22 @@
 }
 },
 {
+"id":"rxn02789_c0",
+"name":"2-Isopropylmalate hydro-lyase",
+"metabolites":{
+"cpd00001_c0":1,
+"cpd01646_c0":-1,
+"cpd01710_c0":1
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn02789"
+}
+},
+{
 "id":"rxn00333_c0",
 "name":"Glycolate:oxygen 2-oxidoreductase",
 "metabolites":{
@@ -26954,6 +26982,24 @@
 "annotation":{
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn00502"
+}
+},
+{
+"id":"rxn08088_c0",
+"name":"1-octadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:0)",
+"metabolites":{
+"cpd00067_c0":-2,
+"cpd11493_c0":1,
+"cpd15268_c0":-1,
+"cpd15329_c0":-1,
+"cpd15526_c0":1
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"annotation":{
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn08088"
 }
 },
 {
@@ -27636,6 +27682,16 @@
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn48586"
 }
+},
+{
+"id":"EX_cpd25960_e0",
+"name":"",
+"metabolites":{
+"cpd25960_e0":-1
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":""
 },
 {
 "id":"rxn17220_c0",
