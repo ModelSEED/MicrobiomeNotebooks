@@ -1,211 +1,211 @@
 
 
 Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9
-optimizing R2_C at 0.0039318797981455
-optimized at 0.0
-optimizing R1_A at 0.0005094651868271
-optimized at 0.0
-optimizing R2_B at 0.0024902184013949
-optimized at 0.0
-optimizing R1_B at 0.00037603703659
-optimized at 0.0
 optimizing R1_C at 0.0004784199386761
-optimized at 0.0
+optimized at -0.011662526176564887
+optimizing R2_B at 0.0024902184013949
+optimized at -0.11326810129521071
+optimizing R2_C at 0.0039318797981455
+optimized at -0.18607899068481676
+optimizing R1_A at 0.0005094651868271
+optimized at -0.013230461708644677
 optimizing R2_A at 0.0001657948050723
 optimized at 0.0
+optimizing R1_B at 0.00037603703659
+optimized at -0.006491693291684842
 
 Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47
-optimizing R2_C at 0.0244183501985708
-optimized at -11.846491157947625
-optimizing R1_A at 0.0013461494862162
-optimized at -0.6530804848050769
-optimizing R2_B at 0.0066706612972102
-optimized at -3.2362518119560093
-optimizing R1_B at 0.0018075006628783
-optimized at -0.8769036583896579
 optimizing R1_C at 0.0017121327008136
-optimized at -0.8306361706056485
+optimized at -2.7696619543637135
+optimizing R2_B at 0.0066706612972102
+optimized at -10.79091404337583
+optimizing R2_C at 0.0244183501985708
+optimized at -39.500779058296395
+optimizing R1_A at 0.0013461494862162
+optimized at -2.17762268957782
 optimizing R2_A at 0.0005845322910455
-optimized at -0.2835841308403035
+optimized at -0.9455790703820568
+optimizing R1_B at 0.0018075006628783
+optimized at -2.923935636579519
 
 Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51
-optimizing R2_C at 0.0012802111786133
-optimized at -0.06958847935573942
-optimizing R1_A at 0.0012914846407127
-optimized at -0.07020127129012836
-optimizing R2_B at 0.0006512496374315
-optimized at -0.03539999705276932
-optimizing R1_B at 0.000947706209731
-optimized at -0.051514496290061135
 optimizing R1_C at 0.000924419968192
-optimized at -0.050248725325332935
+optimized at -0.06701737556650532
+optimizing R2_B at 0.0006512496374315
+optimized at -0.04721343441407818
+optimizing R2_C at 0.0012802111786133
+optimized at -0.09281105592014462
+optimizing R1_A at 0.0012914846407127
+optimized at -0.09362834445722439
 optimizing R2_A at 6.690410145322048e-06
-optimized at -0.00036367083498166006
+optimized at -0.00048503250127746527
+optimizing R1_B at 0.000947706209731
+optimized at -0.06870555069085246
 
 Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27
-optimizing R2_C at 0.0175778467405017
-optimized at -0.008447981227357394
-optimizing R1_A at 0.0012012088830193
-optimized at -0.0005773056417919107
-optimizing R2_B at 0.009096508938857
-optimized at -0.0043718174292919345
-optimizing R1_B at 0.0007052894257184
-optimized at -0.0003389648297609188
 optimizing R1_C at 0.0013065211894933
-optimized at -0.0006279191441758969
+optimized at -0.07664354612157769
+optimizing R2_B at 0.009096508938857
+optimized at -1.1021569232047885
+optimizing R2_C at 0.0175778467405017
+optimized at -2.2346700387364167
+optimizing R1_A at 0.0012012088830193
+optimized at -0.06606904005511163
 optimizing R2_A at 0.0002759660642228
-optimized at -0.00013263035934989815
+optimized at -0.00013263035935846384
+optimizing R1_B at 0.0007052894257184
+optimized at -0.016273308812607606
 
 Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45
-optimizing R2_C at 0.0109785830059725
-optimized at -0.6195373055843074
-optimizing R1_A at 0.0004818097638393
-optimized at -0.0271892212984888
-optimizing R2_B at 0.0043769709366594
-optimized at -0.24699879567732885
-optimizing R1_B at 0.0004330013232783
-optimized at -0.024434890458298834
 optimizing R1_C at 0.0005742822786441
-optimized at -0.032407578952805494
+optimized at -0.04325570720521295
+optimizing R2_B at 0.0043769709366594
+optimized at -0.32967928895331156
+optimizing R2_C at 0.0109785830059725
+optimized at -0.8269215152445607
+optimizing R1_A at 0.0004818097638393
+optimized at -0.03629055405027021
 optimizing R2_A at 0.000298199994729
-optimized at -0.016827856669586156
+optimized at -0.02246082134216034
+optimizing R1_B at 0.0004330013232783
+optimized at -0.032614237206514005
 
 Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48
-optimizing R2_C at 0.0005110151919233
-optimized at 3.914993628275617e-14
-optimizing R1_A at 0.0003173667171796
+optimizing R1_C at 0.0001670210911576
 optimized at 0.0
 optimizing R2_B at 0.0004396390562449
-optimized at 0.0
-optimizing R1_B at 9.23871805950952e-05
-optimized at 0.0
-optimizing R1_C at 0.0001670210911576
+optimized at -0.0026878366793308913
+optimizing R2_C at 0.0005110151919233
+optimized at -0.00704304490940093
+optimizing R1_A at 0.0003173667171796
 optimized at 0.0
 optimizing R2_A at 2.151572747650509e-06
 optimized at 0.0
+optimizing R1_B at 9.23871805950952e-05
+optimized at 0.0
 
 Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50
-optimizing R2_C at 0.0003301930332741
-optimized at -0.01806867781260321
-optimizing R1_A at 0.0006941570462491
-optimized at -0.03798535631007997
-optimizing R2_B at 0.0002019921241235
-optimized at -0.011053324097365218
-optimizing R1_B at 0.0010142495867189
-optimized at -0.055501319401781664
 optimizing R1_C at 0.0006088251994581
-optimized at -0.033315864553901585
+optimized at -0.04450548482458164
+optimizing R2_B at 0.0002019921241235
+optimized at -0.014765744622372666
+optimizing R2_C at 0.0003301930332741
+optimized at -0.024137307464676277
+optimizing R1_A at 0.0006941570462491
+optimized at -0.0507432936665789
 optimizing R2_A at 4.276414808523786e-06
-optimized at -0.0002340120886321541
+optimized at -0.0003126084704341648
+optimizing R1_B at 0.0010142495867189
+optimized at -0.07414224908928516
 
 Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59
-optimizing R2_C at 0.0080979943835211
-optimized at -0.20250380099079346
-optimizing R1_A at 0.000378947068802
-optimized at -0.009476200917461998
-optimizing R2_B at 0.0042788936935781
-optimized at -0.10700084440023303
-optimizing R1_B at 0.000606820431113
-optimized at -0.015174552858336632
 optimizing R1_C at 0.0005395762881896
-optimized at -0.013493001366517026
+optimized at -0.013493001366517144
+optimizing R2_B at 0.0042788936935781
+optimized at -0.10700084440023282
+optimizing R2_C at 0.0080979943835211
+optimized at -0.20250380099079288
+optimizing R1_A at 0.000378947068802
+optimized at -0.009476200917462
 optimizing R2_A at 0.0002646968368914
-optimized at -0.0066191840895599525
+optimized at -0.006619184089559963
+optimizing R1_B at 0.000606820431113
+optimized at -0.015174552858336651
 
 Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58
-optimizing R2_C at 0.0010566942085021
-optimized at -0.03858645365633701
-optimizing R1_A at 0.0005292241652483
-optimized at -0.019325253760134067
-optimizing R2_B at 0.0003315210613245
-optimized at -0.012105888312788986
-optimizing R1_B at 0.000813927838023
-optimized at -0.029721549099807017
 optimizing R1_C at 0.0002026299588403
-optimized at -0.007399275450993541
+optimized at -0.007399275450993545
+optimizing R2_B at 0.0003315210613245
+optimized at -0.012105888312789002
+optimizing R2_C at 0.0010566942085021
+optimized at -0.03858645365633649
+optimizing R1_A at 0.0005292241652483
+optimized at -0.019325253760133988
 optimizing R2_A at 9.060623086065653e-05
-optimized at -0.003308594955806561
+optimized at -0.0033085949558065556
+optimizing R1_B at 0.000813927838023
+optimized at -0.029721549099807183
 
 Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73
-optimizing R2_C at 0.0053814613208541
-optimized at -0.19598889093680494
-optimizing R1_A at 0.0002704430815767
-optimized at -0.009849339511993021
-optimizing R2_B at 0.0028631601341371
-optimized at -0.10427420096646826
-optimizing R1_B at 0.0004742721725752
-optimized at -0.01727264613888405
 optimizing R1_C at 0.0003584402898875
-optimized at -0.013054133569610028
+optimized at -0.014622874189782581
+optimizing R2_B at 0.0028631601341371
+optimized at -0.16233984792197698
+optimizing R2_C at 0.0053814613208541
+optimized at -0.45171852648335314
+optimizing R1_A at 0.0002704430815767
+optimized at -0.01103295379722601
 optimizing R2_A at 0.0001847440977455
-optimized at -0.00672824511140692
+optimized at -0.007536791412274483
+optimizing R1_B at 0.0004742721725752
+optimized at -0.019348333619132446
 
 Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047
-optimizing R2_C at 0.0012845292689693
-optimized at -0.07024787823367404
-optimizing R1_A at 0.0007286755942492
-optimized at -0.03984955084576678
-optimizing R2_B at 0.0006222656196679
-optimized at -0.034030240131863045
-optimizing R1_B at 0.0006334374933405
-optimized at -0.03464120357220953
 optimizing R1_C at 0.0008235227720821
-optimized at -0.045036519457668726
+optimized at -0.06021723815618566
+optimizing R2_B at 0.0006222656196679
+optimized at -0.045501008941393174
+optimizing R2_C at 0.0012845292689693
+optimized at -0.09392673467006991
+optimizing R1_A at 0.0007286755942492
+optimized at -0.05328186819481229
 optimizing R2_A at 1.8194141893983016e-05
-optimized at -0.00099499473870318
+optimized at -0.0013303833392577932
+optimizing R1_B at 0.0006334374933405
+optimized at -0.046317913343311756
 
 Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85
-optimizing R2_C at 0.019403713598425
-optimized at 0.0
-optimizing R1_A at 0.0048736747145009
-optimized at 0.0
-optimizing R2_B at 0.0077866773909352
-optimized at 0.0
-optimizing R1_B at 0.002358342173358
-optimized at 0.0
 optimizing R1_C at 0.0021368242993397
-optimized at 0.0
+optimized at -0.13883252834141374
+optimizing R2_B at 0.0077866773909352
+optimized at -0.6381136551861526
+optimizing R2_C at 0.019403713598425
+optimized at -1.6647185658341215
+optimizing R1_A at 0.0048736747145009
+optimized at -0.3806897478361765
 optimizing R2_A at 0.0006915546260883
-optimized at 0.0
+optimized at -0.011113124074267088
+optimizing R1_B at 0.002358342173358
+optimized at -0.15840820437459036
 
 Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40
-optimizing R2_C at 0.0065661096456209
-optimized at -0.27277271124536395
-optimizing R1_A at 0.0037193551017596
-optimized at -0.1545113666915189
-optimizing R2_B at 0.0062358308761372
-optimized at -0.2590521003690397
-optimizing R1_B at 0.0022030074690537
-optimized at -0.09151847176788103
 optimizing R1_C at 0.0043473867081417
-optimized at -0.18060137938798443
+optimized at -0.31650730206634603
+optimizing R2_B at 0.0062358308761372
+optimized at -0.4974322664919271
+optimizing R2_C at 0.0065661096456209
+optimized at -0.5290750736408264
+optimizing R1_A at 0.0037193551017596
+optimized at -0.25633787902038185
 optimizing R2_A at 0.0016844192558958
-optimized at -0.0699750129227623
+optimized at -0.06997501292276205
+optimizing R1_B at 0.0022030074690537
+optimized at -0.11106212972707583
 
 Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98
-optimizing R2_C at 0.0076027824076566
-optimized at 0.0
-optimizing R1_A at 0.0016725986761422
-optimized at 0.0
-optimizing R2_B at 0.0044455196500604
-optimized at 0.0
-optimizing R1_B at 0.0013810298843359
-optimized at 0.0
 optimizing R1_C at 0.0018543110752193
-optimized at 0.0
+optimized at -0.06666326018475854
+optimizing R2_B at 0.0044455196500604
+optimized at -0.290308407312205
+optimizing R2_C at 0.0076027824076566
+optimized at -0.5675102409306367
+optimizing R1_A at 0.0016725986761422
+optimized at -0.05915067768691815
 optimizing R2_A at 0.000433524831721
-optimized at 0.0
+optimized at -0.007923328731048646
+optimizing R1_B at 0.0013810298843359
+optimized at -0.047096274061378514
 
 Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52
-optimizing R2_C at 0.0186998114690168
-optimized at 0.0
-optimizing R1_A at 0.0002036931248483
-optimized at 0.0
-optimizing R2_B at 0.014512647706748
-optimized at 0.0
-optimizing R1_B at 0.0003000335919337
-optimized at 0.0
 optimizing R1_C at 0.0004978476338881
 optimized at 0.0
+optimizing R2_B at 0.014512647706748
+optimized at -2.8835764421193035
+optimizing R2_C at 0.0186998114690168
+optimized at -3.8350698700093413
+optimizing R1_A at 0.0002036931248483
+optimized at 0.0
 optimizing R2_A at 0.0026726380795565
+optimized at -0.19304605304146427
+optimizing R1_B at 0.0003000335919337
 optimized at 0.0
