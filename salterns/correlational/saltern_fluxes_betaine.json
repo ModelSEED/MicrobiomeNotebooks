@@ -244,126 +244,21 @@
       }
    },
    "methane": {
-      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs": {
-         "R1_C": 0.11877360101673594,
-         "R2_B": 0.35540910649001545,
-         "R2_C": 0.524982888189978,
-         "R1_A": 0.12242526301215367,
-         "R2_A": 0.09438110115425691,
-         "R1_B": 0.10673092863382226
-      },
-      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs": {
-         "R1_C": 3.990412182547269,
-         "R2_B": 15.5470940385574,
-         "R2_C": 56.9110572234241,
-         "R1_A": 3.1374269685843235,
-         "R2_A": 1.3623504616039415,
-         "R1_B": 4.212683200131364
-      },
-      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs": {
-         "R1_C": 0.001400483645301548,
-         "R2_B": 0.0009866343194805825,
-         "R2_C": 0.001939502477090323,
-         "R1_A": 0.001956581618432341,
-         "R2_A": 1.0135880131634025e-05,
-         "R1_B": 0.0014357619836737614
-      },
-      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
-         "R1_C": 0.09220200822257009,
-         "R2_B": 0.18587910165696406,
-         "R2_C": 0.2659504428880121,
-         "R1_A": 0.0866019883411337,
-         "R2_A": 0.04528741181113993,
-         "R1_B": 0.06023129232791808
-      },
-      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
-         "R1_C": 0.03929419255579877,
-         "R2_B": 0.2994860631992844,
-         "R2_C": 0.7511890418158916,
-         "R1_A": 0.03296693340471109,
-         "R2_A": 0.020403777808859363,
-         "R1_B": 0.0296273069995909
-      },
-      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
-         "R1_C": 0.19408392318252538,
-         "R2_B": 0.1924909951497264,
-         "R2_C": 0.20302839601693917,
-         "R1_A": 0.18875851028675109,
-         "R2_A": 0.19992378884866935,
-         "R1_B": 0.19672754109339027
-      },
-      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs": {
-         "R1_C": 0.000867745731987084,
-         "R2_B": 0.0002878951195830684,
-         "R2_C": 0.00047061717486480303,
-         "R1_A": 0.0009893674157172747,
-         "R2_A": 6.0950839446294265e-06,
-         "R1_B": 0.0014455885709533016
-      },
-      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
-         "R1_C": 0.010131229236107769,
-         "R2_B": 0.08034165665809047,
-         "R2_C": 0.15205011644866193,
-         "R1_A": 0.00711521189203024,
-         "R2_A": 0.004970018867243302,
-         "R1_B": 0.011393823315303447
-      },
-      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs": {
-         "R1_C": 0.006018919142848719,
-         "R2_B": 0.009847499716644599,
-         "R2_C": 0.03138803874852153,
-         "R1_A": 0.0157200715891258,
-         "R2_A": 0.002691366965229394,
-         "R1_B": 0.024176907863042996
-      },
-      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
-         "R1_C": 0.011384951681302631,
-         "R2_B": 0.13647587306966852,
-         "R2_C": 0.40310581404308626,
-         "R1_A": 0.008589942322777547,
-         "R2_A": 0.005867930267823687,
-         "R1_B": 0.01506405926144567
-      },
-      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
-         "R1_C": 0.0,
-         "R2_B": 0.0,
-         "R2_C": 0.0,
-         "R1_A": 0.0,
-         "R2_A": 0.0,
-         "R1_B": 0.0
-      },
-      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
-         "R1_C": 0.21829481198284847,
-         "R2_B": 0.6632733551764127,
-         "R2_C": 1.5782231359990908,
-         "R1_A": 0.43384726811462715,
-         "R2_A": 0.10446636665886119,
-         "R1_B": 0.23574140736753774
-      },
-      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
-         "R1_C": 0.269258875587036,
-         "R2_B": 0.4296597823609872,
-         "R2_C": 0.4577130417642497,
-         "R1_A": 0.21591504850778215,
-         "R2_A": 0.05166834624793377,
-         "R1_B": 0.08711932375584247
-      },
-      "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs": {
-         "R1_C": 0.056638364185884235,
-         "R2_B": 0.2600455622399057,
-         "R2_C": 0.5157543509036547,
-         "R1_A": 0.0559878406042236,
-         "R2_A": 0.05155200265750879,
-         "R1_B": 0.05494403525186661
-      },
-      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
-         "R1_C": 0.05291830001384035,
-         "R2_B": 2.82434096060502,
-         "R2_C": 3.7587438708549272,
-         "R1_A": 0.045418091024803875,
-         "R2_A": 0.18213729216233604,
-         "R1_B": 0.0531419725455952
-      }
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs": {},
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs": {},
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs": {},
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {},
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {},
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {},
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs": {},
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {},
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs": {},
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {},
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {},
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {},
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {},
+      "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs": {},
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {}
    },
    "lactate": {
       "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs": {
