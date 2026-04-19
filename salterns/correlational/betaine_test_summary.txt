@@ -1,0 +1,45 @@
+================================================================================
+BETAINE METABOLISM MODEL VALIDATION - SUMMARY
+================================================================================
+Generated: 2025-12-01 14:01:17
+
+Total Models Tested: 15
+Total Tests Run: 60
+Feasible Tests: 60 (100.0%)
+
+================================================================================
+RESULTS BY TAXONOMIC ORDER
+================================================================================
+
+Halanaerobiales
+--------------------------------------------------------------------------------
+  Models: 6
+  Tests: 24 (24 feasible, 100.0%)
+  Average growth rate: 0.0000
+  Average betaine uptake: 0.0000
+  Average TMA production: 0.0000
+
+Peptostreptococcales
+--------------------------------------------------------------------------------
+  Models: 5
+  Tests: 20 (20 feasible, 100.0%)
+  Average growth rate: 0.0000
+  Average betaine uptake: 0.0000
+  Average TMA production: 0.0000
+
+Synergistales
+--------------------------------------------------------------------------------
+  Models: 2
+  Tests: 8 (8 feasible, 100.0%)
+  Average growth rate: 0.0000
+  Average betaine uptake: 0.0000
+  Average TMA production: 0.0000
+
+Tissierellales
+--------------------------------------------------------------------------------
+  Models: 2
+  Tests: 8 (8 feasible, 100.0%)
+  Average growth rate: 0.0000
+  Average betaine uptake: 0.0000
+  Average TMA production: 0.0000
+

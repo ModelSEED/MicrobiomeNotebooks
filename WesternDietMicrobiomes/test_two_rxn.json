@@ -1,0 +1,64 @@
+[
+  {
+    "map_name": "Two Reaction Test",
+    "map_id": "test123",
+    "map_description": "Minimal 2-reaction test",
+    "homepage": "https://escher.github.io",
+    "schema": "https://escher.github.io/escher/jsonschema/1-0-0#"
+  },
+  {
+    "reactions": {
+      "1": {
+        "name": "Reaction1",
+        "bigg_id": "rxn1",
+        "reversibility": false,
+        "label_x": 400,
+        "label_y": 300,
+        "gene_reaction_rule": "",
+        "genes": [],
+        "metabolites": [
+          {"bigg_id": "A", "coefficient": -1.0},
+          {"bigg_id": "B", "coefficient": 1.0}
+        ],
+        "segments": {
+          "0": {"from_node_id": "1", "to_node_id": "2", "b1": null, "b2": null},
+          "1": {"from_node_id": "3", "to_node_id": "2", "b1": null, "b2": null},
+          "2": {"from_node_id": "1", "to_node_id": "10", "b1": {"x": 350, "y": 310}, "b2": {"x": 250, "y": 200}},
+          "3": {"from_node_id": "3", "to_node_id": "11", "b1": {"x": 450, "y": 330}, "b2": {"x": 550, "y": 200}}
+        }
+      },
+      "2": {
+        "name": "Reaction2",
+        "bigg_id": "rxn2",
+        "reversibility": false,
+        "label_x": 400,
+        "label_y": 600,
+        "gene_reaction_rule": "",
+        "genes": [],
+        "metabolites": [
+          {"bigg_id": "B", "coefficient": -1.0},
+          {"bigg_id": "C", "coefficient": 1.0}
+        ],
+        "segments": {
+          "0": {"from_node_id": "4", "to_node_id": "5", "b1": null, "b2": null},
+          "1": {"from_node_id": "6", "to_node_id": "5", "b1": null, "b2": null},
+          "2": {"from_node_id": "4", "to_node_id": "11", "b1": {"x": 350, "y": 610}, "b2": {"x": 550, "y": 300}},
+          "3": {"from_node_id": "6", "to_node_id": "12", "b1": {"x": 450, "y": 630}, "b2": {"x": 550, "y": 500}}
+        }
+      }
+    },
+    "nodes": {
+      "1": {"node_type": "multimarker", "x": 380, "y": 320},
+      "2": {"node_type": "midmarker", "x": 400, "y": 320},
+      "3": {"node_type": "multimarker", "x": 420, "y": 320},
+      "4": {"node_type": "multimarker", "x": 380, "y": 620},
+      "5": {"node_type": "midmarker", "x": 400, "y": 620},
+      "6": {"node_type": "multimarker", "x": 420, "y": 620},
+      "10": {"node_type": "metabolite", "x": 200, "y": 150, "bigg_id": "A", "name": "MetA", "label_x": 210, "label_y": 140, "node_is_primary": true},
+      "11": {"node_type": "metabolite", "x": 600, "y": 150, "bigg_id": "B", "name": "MetB", "label_x": 610, "label_y": 140, "node_is_primary": true},
+      "12": {"node_type": "metabolite", "x": 600, "y": 550, "bigg_id": "C", "name": "MetC", "label_x": 610, "label_y": 540, "node_is_primary": true}
+    },
+    "text_labels": {},
+    "canvas": {"x": -200, "y": -200, "width": 1000, "height": 1000}
+  }
+]

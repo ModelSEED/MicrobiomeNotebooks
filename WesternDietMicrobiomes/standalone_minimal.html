@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minimal Test</title>
+    <script src="https://unpkg.com/escher@1.7.3/dist/escher.min.js"></script>
+    <style>
+        body { margin: 0; padding: 0; }
+        #map-container { width: 100vw; height: 100vh; }
+    </style>
+</head>
+<body>
+    <div id="map-container"></div>
+    <script>
+        var mapData = [{"map_name": "minimal_test", "map_id": "test123", "map_description": "Minimal test map", "homepage": "https://escher.github.io", "schema": "https://escher.github.io/escher/jsonschema/1-0-0#"}, {"reactions": {"0": {"name": "Test_Reaction", "bigg_id": "test_rxn", "reversibility": false, "label_x": 0, "label_y": 110, "gene_reaction_rule": "", "genes": [], "metabolites": [{"bigg_id": "met_a", "coefficient": -1}, {"bigg_id": "met_b", "coefficient": 1}], "segments": {"0": {"from_node_id": "1", "to_node_id": "2", "b1": null, "b2": null}, "1": {"from_node_id": "3", "to_node_id": "2", "b1": null, "b2": null}, "2": {"from_node_id": "1", "to_node_id": "0", "b1": {"x": 0, "y": 60}, "b2": {"x": 0, "y": 10}}, "3": {"from_node_id": "3", "to_node_id": "4", "b1": {"x": 0, "y": 180}, "b2": {"x": 0, "y": 230}}}}}, "nodes": {"0": {"node_type": "metabolite", "x": 0, "y": -50, "bigg_id": "met_a", "name": "Metabolite A", "label_x": 25, "label_y": -50, "node_is_primary": true}, "1": {"node_type": "multimarker", "x": 0, "y": 100}, "2": {"node_type": "midmarker", "x": 0, "y": 120}, "3": {"node_type": "multimarker", "x": 0, "y": 140}, "4": {"node_type": "metabolite", "x": 0, "y": 290, "bigg_id": "met_b", "name": "Metabolite B", "label_x": 25, "label_y": 290, "node_is_primary": true}}, "text_labels": {}, "canvas": {"x": -200, "y": -200, "width": 600, "height": 600}}];
+        
+        try {
+            var builder = escher.Builder(mapData, null, null, 
+                d3.select('#map-container'), {
+                    fill_screen: true,
+                    menu: 'zoom',
+                    scroll_behavior: 'zoom',
+                    enable_editing: false,
+                    enable_keys: true,
+                    enable_search: true
+                });
+            console.log("Escher map loaded successfully");
+        } catch (e) {
+            console.error("Error loading Escher map:", e);
+            document.getElementById('map-container').innerHTML = 
+                '<pre style="color:red;">Error: ' + e.message + '</pre>';
+        }
+    </script>
+</body>
+</html>

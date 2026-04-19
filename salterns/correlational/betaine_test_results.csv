@@ -1,0 +1,61 @@
+model_id,test_name,objective,growth_rate,betaine_uptake,tma_production,acetate_production,amino_acid_uptake,has_betaine_reductase,has_tma_transport,selenite_available,feasible,error,Order,Family,Genus,model_short
+Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs,Betaine minimal,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Halanaerobiales,,,bins.metabat.47
+Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs,Betaine + Selenite,bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Halanaerobiales,,,bins.metabat.47
+Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs,Betaine + Amino acids (Stickland),bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Halanaerobiales,,,bins.metabat.47
+Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs,Amino acids only,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Halanaerobiales,,,bins.metabat.47
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs,Betaine minimal,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Halanaerobiales,Halanaerobiaceae,Halanaerobium,metabat.45
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs,Betaine + Selenite,bio1,0.0,0.0,0.0,0.0,{},False,False,True,True,,Halanaerobiales,Halanaerobiaceae,Halanaerobium,metabat.45
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs,Betaine + Amino acids (Stickland),bio1,0.0,0.0,0.0,0.0,{},False,False,True,True,,Halanaerobiales,Halanaerobiaceae,Halanaerobium,metabat.45
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs,Amino acids only,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Halanaerobiales,Halanaerobiaceae,Halanaerobium,metabat.45
+Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs,Betaine minimal,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Halanaerobiales,Halanaerobiaceae,Halanaerobium,out.59
+Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs,Betaine + Selenite,bio1,0.0,0.0,0.0,0.0,{},False,False,True,True,,Halanaerobiales,Halanaerobiaceae,Halanaerobium,out.59
+Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs,Betaine + Amino acids (Stickland),bio1,0.0,0.0,0.0,0.0,{},False,False,True,True,,Halanaerobiales,Halanaerobiaceae,Halanaerobium,out.59
+Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs,Amino acids only,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Halanaerobiales,Halanaerobiaceae,Halanaerobium,out.59
+Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs,Betaine minimal,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Synergistales,,,out.98
+Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs,Betaine + Selenite,bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Synergistales,,,out.98
+Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs,Betaine + Amino acids (Stickland),bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Synergistales,,,out.98
+Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs,Amino acids only,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Synergistales,,,out.98
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs,Betaine minimal,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Peptostreptococcales,BM714,BM714,metabat.48
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs,Betaine + Selenite,bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Peptostreptococcales,BM714,BM714,metabat.48
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs,Betaine + Amino acids (Stickland),bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Peptostreptococcales,BM714,BM714,metabat.48
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs,Amino acids only,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Peptostreptococcales,BM714,BM714,metabat.48
+Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs,Betaine minimal,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Peptostreptococcales,BM714,BM714,maxbin.047
+Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs,Betaine + Selenite,bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Peptostreptococcales,BM714,BM714,maxbin.047
+Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs,Betaine + Amino acids (Stickland),bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Peptostreptococcales,BM714,BM714,maxbin.047
+Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs,Amino acids only,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Peptostreptococcales,BM714,BM714,maxbin.047
+Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs,Betaine minimal,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Halanaerobiales,,,metabat.40
+Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs,Betaine + Selenite,bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Halanaerobiales,,,metabat.40
+Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs,Betaine + Amino acids (Stickland),bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Halanaerobiales,,,metabat.40
+Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs,Amino acids only,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Halanaerobiales,,,metabat.40
+Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs,Betaine minimal,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Tissierellales,Dethiosulfatibacteraceae,UBA8670,out.85
+Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs,Betaine + Selenite,bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Tissierellales,Dethiosulfatibacteraceae,UBA8670,out.85
+Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs,Betaine + Amino acids (Stickland),bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Tissierellales,Dethiosulfatibacteraceae,UBA8670,out.85
+Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs,Amino acids only,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Tissierellales,Dethiosulfatibacteraceae,UBA8670,out.85
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs,Betaine minimal,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Peptostreptococcales,BM714,BM714,metabat.50
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs,Betaine + Selenite,bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Peptostreptococcales,BM714,BM714,metabat.50
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs,Betaine + Amino acids (Stickland),bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Peptostreptococcales,BM714,BM714,metabat.50
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs,Amino acids only,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Peptostreptococcales,BM714,BM714,metabat.50
+Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs,Betaine minimal,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Halanaerobiales,,,metabat.52
+Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs,Betaine + Selenite,bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Halanaerobiales,,,metabat.52
+Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs,Betaine + Amino acids (Stickland),bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Halanaerobiales,,,metabat.52
+Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs,Amino acids only,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Halanaerobiales,,,metabat.52
+Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs,Betaine minimal,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Halanaerobiales,Halanaerobiaceae,Halanaerobium,out.73
+Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs,Betaine + Selenite,bio1,0.0,0.0,0.0,0.0,{},False,False,True,True,,Halanaerobiales,Halanaerobiaceae,Halanaerobium,out.73
+Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs,Betaine + Amino acids (Stickland),bio1,0.0,0.0,0.0,0.0,{},False,False,True,True,,Halanaerobiales,Halanaerobiaceae,Halanaerobium,out.73
+Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs,Amino acids only,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Halanaerobiales,Halanaerobiaceae,Halanaerobium,out.73
+Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs,Betaine minimal,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Tissierellales,Dethiosulfatibacteraceae,UBA8670,out.9
+Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs,Betaine + Selenite,bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Tissierellales,Dethiosulfatibacteraceae,UBA8670,out.9
+Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs,Betaine + Amino acids (Stickland),bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Tissierellales,Dethiosulfatibacteraceae,UBA8670,out.9
+Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs,Amino acids only,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Tissierellales,Dethiosulfatibacteraceae,UBA8670,out.9
+Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs,Betaine minimal,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Peptostreptococcales,BM714,BM714,bins.metabat.51
+Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs,Betaine + Selenite,bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Peptostreptococcales,BM714,BM714,bins.metabat.51
+Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs,Betaine + Amino acids (Stickland),bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Peptostreptococcales,BM714,BM714,bins.metabat.51
+Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs,Amino acids only,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Peptostreptococcales,BM714,BM714,bins.metabat.51
+Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs,Betaine minimal,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Synergistales,,,metabat.58
+Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs,Betaine + Selenite,bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Synergistales,,,metabat.58
+Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs,Betaine + Amino acids (Stickland),bio1,0.0,0.0,0.0,0.0,{},False,False,False,True,,Synergistales,,,metabat.58
+Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs,Amino acids only,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Synergistales,,,metabat.58
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs,Betaine minimal,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Peptostreptococcales,Acidaminobacteraceae,,metabat.27
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs,Betaine + Selenite,bio1,0.0,0.0,0.0,0.0,{},False,False,True,True,,Peptostreptococcales,Acidaminobacteraceae,,metabat.27
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs,Betaine + Amino acids (Stickland),bio1,0.0,0.0,0.0,0.0,{},False,False,True,True,,Peptostreptococcales,Acidaminobacteraceae,,metabat.27
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs,Amino acids only,bio1,0.0,0.0,0.0,0.0,{},False,False,N/A,True,,Peptostreptococcales,Acidaminobacteraceae,,metabat.27
