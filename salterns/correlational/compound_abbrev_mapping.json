@@ -1,0 +1,142 @@
+{
+  "cpd00001": {
+    "name": "H2O",
+    "abbrev": "h2o",
+    "source": "BiGG"
+  },
+  "cpd00002": {
+    "name": "ATP",
+    "abbrev": "atp",
+    "source": "BiGG"
+  },
+  "cpd00003": {
+    "name": "NAD",
+    "abbrev": "nad",
+    "source": "BiGG"
+  },
+  "cpd00004": {
+    "name": "NADH",
+    "abbrev": "nadh",
+    "source": "BiGG"
+  },
+  "cpd00009": {
+    "name": "Phosphate",
+    "abbrev": "pi",
+    "source": "BiGG"
+  },
+  "cpd00012": {
+    "name": "Pyrophosphate",
+    "abbrev": "ppi",
+    "source": "BiGG"
+  },
+  "cpd00013": {
+    "name": "Ammonia",
+    "abbrev": "nh3",
+    "source": "BiGG"
+  },
+  "cpd00017": {
+    "name": "S-Adenosyl-L-methionine",
+    "abbrev": "amet",
+    "source": "BiGG"
+  },
+  "cpd00060": {
+    "name": "L-Methionine",
+    "abbrev": "met__L",
+    "source": "BiGG"
+  },
+  "cpd00067": {
+    "name": "H+",
+    "abbrev": "h",
+    "source": "BiGG"
+  },
+  "cpd00128": {
+    "name": "Adenine",
+    "abbrev": "ade",
+    "source": "BiGG"
+  },
+  "cpd00196": {
+    "name": "Acetyl phosphate",
+    "abbrev": "actp",
+    "source": "BiGG"
+  },
+  "cpd00425": {
+    "name": "Dimethylamine",
+    "abbrev": "dma",
+    "source": "BiGG"
+  },
+  "cpd00441": {
+    "name": "Trimethylamine",
+    "abbrev": "tma",
+    "source": "BiGG"
+  },
+  "cpd00540": {
+    "name": "Glycine betaine",
+    "abbrev": "glyb",
+    "source": "BiGG"
+  },
+  "cpd01024": {
+    "name": "Methane",
+    "abbrev": "ch4",
+    "source": "BiGG"
+  },
+  "cpd02246": {
+    "name": "Coenzyme M",
+    "abbrev": "com",
+    "source": "BiGG"
+  },
+  "cpd02438": {
+    "name": "Methyl-Coenzyme M",
+    "abbrev": "mcom",
+    "source": "BiGG"
+  },
+  "cpd02817": {
+    "name": "Coenzyme B (HTP)",
+    "abbrev": "cob",
+    "source": "BiGG"
+  },
+  "cpd03091": {
+    "name": "5'-Deoxyadenosine",
+    "abbrev": "dad_5",
+    "source": "BiGG"
+  },
+  "cpd15887": {
+    "name": "CoB-CoM heterodisulfide",
+    "abbrev": "hsfd",
+    "source": "BiGG"
+  },
+  "cpd15895": {
+    "name": "Monomethylamine",
+    "abbrev": "mma",
+    "source": "BiGG"
+  },
+  "cpd27735": {
+    "name": "Oxidized thioredoxin",
+    "abbrev": "trdox",
+    "source": "BiGG"
+  },
+  "cpd28060": {
+    "name": "Reduced thioredoxin",
+    "abbrev": "trdrd",
+    "source": "BiGG"
+  },
+  "cpd25960": {
+    "name": "Methylphosphonate",
+    "abbrev": "mepn",
+    "source": "proposed"
+  },
+  "cpd26508": {
+    "name": "5-phospho-alpha-D-ribosyl 1,2-cyclic phosphate",
+    "abbrev": "prpcp",
+    "source": "proposed"
+  },
+  "cpd26518": {
+    "name": "alpha-D-ribose-1-methylphosphonate 5-triphosphate (RPnTP)",
+    "abbrev": "rpntp",
+    "source": "proposed"
+  },
+  "cpd26519": {
+    "name": "5-phospho-alpha-D-ribosyl 1-methylphosphonate (PRPn)",
+    "abbrev": "prpn",
+    "source": "proposed"
+  }
+}
