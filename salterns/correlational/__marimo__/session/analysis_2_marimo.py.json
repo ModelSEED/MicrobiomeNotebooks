@@ -1,0 +1,797 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.4",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "6e5104b4a776830c536d0bb0e6f6966a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"loading-content\">Loading content</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "d38ec697c7e3ecf7f431e9519bb94641",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"normalizing-abundances\">normalizing abundances</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "699bd0b82209cc440c1c5c07294c01fd",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"volume-weighting-dna-measurements\">volume-weighting DNA measurements</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "0e7157c4aecd09e5c1823518e90ec509",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "88d543eedf36a7b5508863b1d2f9be96",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"normalize-the\">normalize the</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "149f3b1f0c24f7bd32728cbe7538dbe0",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "name 'display' is not defined",
+          "traceback": null
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "Traceback (most recent call last):\n  File \"/var/folders/j8/f5pb70wx5gn1qv1nz77lfhyr0000gn/T/marimo_38872/__marimo__cell_Xref_.py\", line 14, in <module>\n    display(normalized_abundances)\n    ^^^^^^^\nNameError: name 'display' is not defined\n",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "9f988ebed020343abf6c4f4d091f97f4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "d11238de5b7e077816b14d4101e6826a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "27332ba53dfb91f3040248d41538833d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "\r  0%|          | 0/27 [00:00<?, ?it/s]\r  4%|\u258e         | 1/27 [00:00<00:11,  2.23it/s]\r  7%|\u258b         | 2/27 [00:00<00:11,  2.16it/s]\r 11%|\u2588         | 3/27 [00:01<00:10,  2.37it/s]\r 15%|\u2588\u258d        | 4/27 [00:01<00:10,  2.28it/s]\r 19%|\u2588\u258a        | 5/27 [00:02<00:08,  2.59it/s]\r 22%|\u2588\u2588\u258f       | 6/27 [00:02<00:09,  2.26it/s]",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "skip Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_metabat.14.contigs\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "\r 30%|\u2588\u2588\u2589       | 8/27 [00:02<00:05,  3.28it/s]\r 33%|\u2588\u2588\u2588\u258e      | 9/27 [00:03<00:06,  2.83it/s]\r 37%|\u2588\u2588\u2588\u258b      | 10/27 [00:03<00:06,  2.80it/s]\r 41%|\u2588\u2588\u2588\u2588      | 11/27 [00:04<00:06,  2.52it/s]\r 44%|\u2588\u2588\u2588\u2588\u258d     | 12/27 [00:04<00:05,  2.53it/s]\r 48%|\u2588\u2588\u2588\u2588\u258a     | 13/27 [00:05<00:05,  2.58it/s]\r 52%|\u2588\u2588\u2588\u2588\u2588\u258f    | 14/27 [00:05<00:05,  2.31it/s]",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "skip Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_metabat.31.contigs\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "\r 59%|\u2588\u2588\u2588\u2588\u2588\u2589    | 16/27 [00:05<00:03,  3.40it/s]\r 63%|\u2588\u2588\u2588\u2588\u2588\u2588\u258e   | 17/27 [00:06<00:02,  3.39it/s]\r 67%|\u2588\u2588\u2588\u2588\u2588\u2588\u258b   | 18/27 [00:06<00:02,  3.37it/s]\r 70%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588   | 19/27 [00:06<00:02,  2.75it/s]\r 74%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258d  | 20/27 [00:07<00:02,  2.76it/s]\r 78%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258a  | 21/27 [00:07<00:02,  2.85it/s]\r 81%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258f | 22/27 [00:08<00:01,  2.85it/s]",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "skip Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_metabat.16.contigs\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "\r 89%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2589 | 24/27 [00:08<00:00,  3.12it/s]\r 93%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258e| 25/27 [00:08<00:00,  3.02it/s]\r 96%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258b| 26/27 [00:09<00:00,  2.96it/s]\r100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 27/27 [00:09<00:00,  2.90it/s]\r100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 27/27 [00:09<00:00,  2.79it/s]\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "90f3b5a2afa91f26768d3b27be425ea1",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "ae04269653d235b61fea54f69d694bcf",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"determine-methane-emission-from-methylphosphate-as-the-sole-phosphate-source-on-lactate\">determine methane emission from methylphosphate as the sole phosphate source on lactate</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "a5447a3dbe2d4bd19c1d432ced32aeed",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "e92b6bde9be06c8adec155e12923d31a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"compare-with-the-abundances-of-each-respective-species\">compare with the abundances of each respective species</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "fcce2fbf2b41b4c049eb1dfe9268aec6",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "1bd68ed05f4d78d1428e863d90f3192e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"notes\">notes</h1>\n<h2 id=\"-the-salt_pond_metag_r2_c_d1_mg_dastool_bins_metabat17-organism-both-generates-the-most-methane-emission-of-all-organisms-and-is-the-only-one-of-the-most-abundant-members-that-was-defined-with-a-model-in-the-mepn-set-of-organisms\">- the Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_metabat.17 organism both generates the most methane emission of all organisms and is the only one of the most abundant members that was defined with a model in the MePn set of organisms</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "3a7618bc2041ab0ecd7a9eba00912af8",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "95cb2f5005bba0c87c987c4b198844be",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"correlate-the-normalized-abundances-of-members-with-the-normalized-methane-flux\">correlate the normalized abundances of members with the normalized methane flux</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "7d0f8d8143ec45649f99fb41ac4528eb",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "An ancestor raised an exception (NameError): ",
+          "traceback": null
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": "50f2be23f01ca39d853c6b7b8ea4668d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"look-at-the-total-abundances-of-mepn-consumers-and-betaine-reducers\">look at the total abundances of MePn consumers and betaine reducers</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "DnEU",
+      "code_hash": "c80554929be0ad3539d5d85a81065e08",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ulZA",
+      "code_hash": "219638775c078cb4f42dd99944147c66",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"mepn-reducers\">MePn reducers</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ecfG",
+      "code_hash": "4f05fdb853ab2bbe708c755929e4b73a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"todo-correlate-with-all-the-experimental-metabolites-including-mepn\">TODO correlate with all the experimental metabolites, including MePn</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Pvdt",
+      "code_hash": "99611e16d47ebb54f607dad6cdc78601",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ZBYS",
+      "code_hash": "311247530088b6dd6009cce6d3bf500e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"simulation\">Simulation</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "aLJB",
+      "code_hash": "dbf1382de7baef2529d11b605c01cf16",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "name 'display' is not defined",
+          "traceback": null
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "Traceback (most recent call last):\n  File \"/var/folders/j8/f5pb70wx5gn1qv1nz77lfhyr0000gn/T/marimo_38872/__marimo__cell_aLJB_.py\", line 1, in <module>\n    display(cobra.Configuration())\n    ^^^^^^^\nNameError: name 'display' is not defined\n",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    },
+    {
+      "id": "nHfw",
+      "code_hash": "aff415109ff422b0f9471aac350a886b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"simulate-the-mepn-consuming-organisms\">simulate the MePn-consuming organisms</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "xXTn",
+      "code_hash": "6b01bc32a0ede2f9d5b87bd15e9dff91",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "An ancestor raised an exception (NameError): ",
+          "traceback": null
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "AjVT",
+      "code_hash": "6a8956dfce60aacaab3840091c8b62aa",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"compute-the-methane-emission-from-substrate-addition-of-mepn\">compute the methane emission from substrate addition of MePn</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "pHFh",
+      "code_hash": "041b32861c0e0e9a031770c117022531",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "NCOB",
+      "code_hash": "e7659367ccac7c3a723d8b79e078d190",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "aqbW",
+      "code_hash": "aa5573ef610dbd6e995517e48c23a714",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "TRpd",
+      "code_hash": "db941c13c95a00234cae5a09e8ec33d5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.55.contigs = Roseovarius\nSalt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.45.contigs = Roseovarius\nSalt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.8.contigs = Albimonas</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TXez",
+      "code_hash": "44779203411068b378b74bdd66f8c659",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"simulate-the-betaine-consuming-organisms\">simulate the betaine-consuming organisms</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "dNNg",
+      "code_hash": "b3238119913f95b78fab05c6e3be870e",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "yCnT",
+      "code_hash": "7ad36285072095cf33eca39c152d7963",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "wlCL",
+      "code_hash": "f9d4876f5927048ccba8ce3dd972ad6a",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "kqZH",
+      "code_hash": "e407430c60bd331c691c11792a3a646a",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "wAgl",
+      "code_hash": "d4eff427acc31c19a52b8ccbfee6c3a9",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "rEll",
+      "code_hash": "5058575f8e8395b652d2cc3058ed6e5d",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "An ancestor raised an exception (NameError): ",
+          "traceback": null
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "dGlV",
+      "code_hash": "1bc8eb5665787e1688c487de2d507034",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"plot-the-correlational-and-modeling-v-experimental-figures\">plot the correlational and modeling v experimental figures</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SdmI",
+      "code_hash": "62fc0efbbda46237b157f3406da5fdfa",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "cycle",
+          "evalue": "This cell is in a cycle",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lgWD",
+      "code_hash": "28872c209525c210cfce1ddcac1367ce",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "yOPj",
+      "code_hash": "271823d6fadd1ff7548961237884ed05",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h5 id=\"claude-updated-visualization\">Claude updated visualization</h5></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "fwwy",
+      "code_hash": "e7d4834c43757d0c4c04b3a45fc66436",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "cycle",
+          "evalue": "This cell is in a cycle",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "LJZf",
+      "code_hash": "41d247538d21886fe3ab98a545ee90e4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"heatmap-co-occurrence-assessment\">heatmap co-occurrence assessment</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "urSm",
+      "code_hash": "9b8e42b3f763ad91bd0288e6c7023c0c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"iterativeids\">IterativeIDs</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "jxvo",
+      "code_hash": "0a8df85e14af48d843fa2dee2696d65f",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "An ancestor raised an exception (NameError): ",
+          "traceback": null
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "mWxS",
+      "code_hash": "108cefc17794cb812b5d28a9bd259f59",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "An ancestor raised an exception (NameError): ",
+          "traceback": null
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "CcZR",
+      "code_hash": "9ee58fd0c0d57893e501e65229cebdc4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"all-v-all-heatmap\">all v all heatmap</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "YWSi",
+      "code_hash": "cca73ed339fe639b655c523273893a5f",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "zlud",
+      "code_hash": "82c0d1eb3b802668e37756bda2327a74",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"co-occurance-network\">co-occurance network</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "tZnO",
+      "code_hash": "efac32abfa79851e29caa2c59f0e0b8f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h4 id=\"proposed-data-processing-from-claude\">proposed data processing from Claude</h4></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "xvXZ",
+      "code_hash": "84d4e87166525618e42fffc4940e4a1c",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "cycle",
+          "evalue": "This cell is in a cycle",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "CLip",
+      "code_hash": "f0ba72ccee2e65ff1eda09759da6b3e8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"co-occurrence-network\">co-occurrence network</h3></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "YECM",
+      "code_hash": "cbc28c5b9f868f8bb5d63aa3f3146a57",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "cEAS",
+      "code_hash": "5e9c070b4edeeb284743519a54b45c11",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "cycle",
+          "evalue": "This cell is in a cycle",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lRjg",
+      "code_hash": "1d7990ac4100a4772319057611e9a130",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='lRjg-0' random-id='0568bda1-fe36-7be5-7f32-4cd88c10de52'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[]&quot;' data-total-rows='0' data-total-columns='11' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;taxon_a&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;taxon_b&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;r_within&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;r_marginal&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;r_between&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;cooccurrence&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;perm_p&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;q_BH&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;fdr_pass&quot;,[&quot;boolean&quot;,&quot;bool&quot;]],[&quot;effect_pass&quot;,[&quot;boolean&quot;,&quot;bool&quot;]],[&quot;both_pass&quot;,[&quot;boolean&quot;,&quot;bool&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "min non-zero abundance: 7.410e-08, pseudocount: 3.705e-08\nmaxT (FWER) noise floor: 95th-pct |r| under null = 0.992, 99th-pct = 0.995\n  -> 0.70 sits at the 0.0 percentile of the null max-|r|\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "/Users/andrewfreiburger/Documents/venv_microbiome_stable/lib/python3.11/site-packages/numpy/_core/_methods.py:188: RuntimeWarning: invalid value encountered in subtract\n  x = um.subtract(arr, arrmean, out=...)\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Samples: 12, taxa (post-filter): 140\nConditions: {np.str_('R1'): 3, np.str_('R2'): 3, np.str_('R2A'): 3, np.str_('SF2'): 3}\nUpper-tri pairs: 9730\n  |r_marginal| > 0.7: 5680\n  |r_within|   > 0.7: 1321\nCandidates tested (cooc>=6): 8180\n  pass effect (0.7): 1179\n  pass FDR    (q<0.05):    0\n  pass BOTH:                       0\nGraphical Lasso edges: 216\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "UkgJ",
+      "code_hash": "40871a1de3bb2da1940719f851f8cd8b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "/Users/andrewfreiburger/Documents/venv_microbiome_stable/lib/python3.11/site-packages/seaborn/matrix.py:560: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.\n  warnings.warn(msg)\n/Users/andrewfreiburger/Documents/venv_microbiome_stable/lib/python3.11/site-packages/seaborn/matrix.py:560: UserWarning: Clustering large matrix with scipy. Installing `fastcluster` may give better performance.\n  warnings.warn(msg)\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Saved within_condition_triangle.png  ([28.0, 28.0])\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "ObSc",
+      "code_hash": "bad1afc4e1d710f754cb3aac1c4ead10",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Louvain communities: 9 (sizes: [31, 24, 19, 18, 17, 11, 10, 7]...)\nSaved within_condition_network.png  (nodes, edges, communities, betaine, mepe, labeled = (140, 1179, 9, 6, 10, 115))\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "kAFd",
+      "code_hash": "1ed3d1495aa8728105be3dfbf7ad4234",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "|partial_r| > 0.05: kept 138 of 216 edges\nGlasso Louvain communities: 6 (sizes: [18, 16, 14, 8, 7, 3]...)\nSaved within_condition_glasso_network.png  (nodes, edges, positive_pcorr, negative_pcorr, communities = (66, 138, 88, 50, 6))\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "iXej",
+      "code_hash": "66e2328ba4167bb646210d6e5003178c",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "EJmg",
+      "code_hash": "5faaea49390616eb51f8a6cdaae75dbd",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "UmEG",
+      "code_hash": "cf6f55af75f8ce8e77e32496f69b2437",
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
