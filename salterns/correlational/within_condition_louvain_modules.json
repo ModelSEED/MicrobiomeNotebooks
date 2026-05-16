@@ -1,0 +1,170 @@
+{
+  "module_1": {
+    "size": 13,
+    "type": "louvain",
+    "members": [
+      "Bipolaricaulia",
+      "Crateriforma",
+      "Halanaerobiales",
+      "Halioglobus",
+      "Maribacter",
+      "Mcinerneyibacterium",
+      "Paceibacterales",
+      "S36-B12",
+      "SURF-3",
+      "Salinarimonas",
+      "UBA6264",
+      "UBA6794",
+      "Wenzhouxiangella"
+    ]
+  },
+  "module_2": {
+    "size": 13,
+    "type": "louvain",
+    "members": [
+      "Acidaminobacteraceae",
+      "BM002",
+      "BM004",
+      "Gracilimonas",
+      "Gramella",
+      "Lutibacter",
+      "Marinobacter",
+      "Microbacteriaceae",
+      "Nitriliruptorales",
+      "Ornithinicoccus_A",
+      "Salegentibacter",
+      "UBA12294",
+      "UBA8670"
+    ]
+  },
+  "module_3": {
+    "size": 12,
+    "type": "louvain",
+    "members": [
+      "Alphaproteobacteria",
+      "Balneolales",
+      "GWC2-71-9",
+      "Halofilum",
+      "JAAYYF01",
+      "KS3-K002",
+      "Nevskiales",
+      "PWMO01",
+      "SLND01",
+      "SMO-BIN1",
+      "UBA11386",
+      "UBA5335"
+    ]
+  },
+  "module_4": {
+    "size": 11,
+    "type": "louvain",
+    "members": [
+      "ATBO01",
+      "Desulfurivibrionaceae",
+      "Gallionellaceae",
+      "Geothermobacteraceae",
+      "JAAXQD01",
+      "NaphS2",
+      "SAR324",
+      "SG8-39",
+      "Sunxiuqinia",
+      "UBA4486",
+      "WC007"
+    ]
+  },
+  "module_5": {
+    "size": 5,
+    "type": "louvain",
+    "members": [
+      "4572-130",
+      "DT-110",
+      "Opitutales",
+      "Phaeodactylibacter",
+      "Psychroflexus"
+    ]
+  },
+  "singleton_1": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "SZUA-36"
+    ]
+  },
+  "singleton_2": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "UBA11579"
+    ]
+  },
+  "singleton_3": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "JAACFB01"
+    ]
+  },
+  "singleton_4": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "M0040"
+    ]
+  },
+  "singleton_5": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "BM003"
+    ]
+  },
+  "singleton_6": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "BM509"
+    ]
+  },
+  "singleton_7": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "Desulfomicrobiaceae"
+    ]
+  },
+  "singleton_8": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "J153"
+    ]
+  },
+  "singleton_9": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "UBA10428"
+    ]
+  },
+  "singleton_10": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "SHZL01"
+    ]
+  },
+  "singleton_11": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "RZYO01"
+    ]
+  },
+  "singleton_12": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "Alkalispirochaeta"
+    ]
+  }
+}
