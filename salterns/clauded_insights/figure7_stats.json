@@ -1,0 +1,114 @@
+{
+  "panel_a_modelled_vs_measured": {
+    "raw_areal_basis_corrected": {
+      "MePn": {
+        "n": 6,
+        "slope": 0.6472638887070047,
+        "intercept": -247.23652157917945,
+        "pearson_r2": 0.37042581234513705,
+        "spearman_rho": 0.6,
+        "spearman_p": 0.208
+      },
+      "Betaine": {
+        "n": 6,
+        "slope": -1.0052423389980734,
+        "intercept": 4499.774013005656,
+        "pearson_r2": 0.09680718805637227,
+        "spearman_rho": -0.08571428571428573,
+        "spearman_p": 0.8717434402332361
+      }
+    },
+    "DNA_normalised_basis_as_submitted": {
+      "MePn": {
+        "n": 6,
+        "slope": 0.1818958881073197,
+        "intercept": 158.29600457143573,
+        "pearson_r2": 0.8858749607566735,
+        "spearman_rho": 0.6,
+        "spearman_p": 0.208
+      },
+      "Betaine": {
+        "n": 6,
+        "slope": -0.3190012336545995,
+        "intercept": 3942.2365657696296,
+        "pearson_r2": 0.2952153695911271,
+        "spearman_rho": -0.4285714285714286,
+        "spearman_p": 0.3965014577259473
+      }
+    }
+  },
+  "panel_b_methane_vs_abundance": {
+    "raw_all_12_cores_corrected": {
+      "MePn": {
+        "n": 12,
+        "slope": 13752.252120684087,
+        "intercept": 36.049403583893195,
+        "pearson_r2": 0.7521188875459093,
+        "spearman_rho": 0.7272727272727274,
+        "spearman_p": 0.0073550288578051294
+      },
+      "Betaine": {
+        "n": 12,
+        "slope": 15224.753741123903,
+        "intercept": 260.6140974809689,
+        "pearson_r2": 0.37878217198034747,
+        "spearman_rho": 0.6993006993006995,
+        "spearman_p": 0.01137419864269093
+      }
+    },
+    "raw_unrestored_only_n6": {
+      "MePn": {
+        "n": 6,
+        "slope": 4574.931206731679,
+        "intercept": 820.556256807083,
+        "pearson_r2": 0.0563767386929372,
+        "spearman_rho": 0.48571428571428577,
+        "spearman_p": 0.3287230320699708
+      },
+      "Betaine": {
+        "n": 6,
+        "slope": -7910.205167849089,
+        "intercept": 1527.5460798551815,
+        "pearson_r2": 0.1704670193319024,
+        "spearman_rho": -0.08571428571428573,
+        "spearman_p": 0.8717434402332361
+      }
+    },
+    "DNAnorm_both_axes_all12_as_submitted": {
+      "MePn": {
+        "n": 12,
+        "slope": 76387.28032827229,
+        "intercept": -313.1466591964904,
+        "pearson_r2": 0.6426513949789382,
+        "spearman_rho": 0.7972027972027973,
+        "spearman_p": 0.0019003677255282697
+      },
+      "Betaine": {
+        "n": 12,
+        "slope": 142693.51874740433,
+        "intercept": -117.10089545522396,
+        "pearson_r2": 0.3611950578362665,
+        "spearman_rho": 0.7482517482517484,
+        "spearman_p": 0.005124081698753054
+      }
+    },
+    "DNAnorm_both_axes_unrestored_n6_as_submitted": {
+      "MePn": {
+        "n": 6,
+        "slope": 99976.45395453891,
+        "intercept": -1317.1653150457003,
+        "pearson_r2": 0.5642888049644629,
+        "spearman_rho": 0.6,
+        "spearman_p": 0.208
+      },
+      "Betaine": {
+        "n": 6,
+        "slope": 296157.8958525358,
+        "intercept": -2607.8654561005796,
+        "pearson_r2": 0.18522361455814484,
+        "spearman_rho": 0.028571428571428574,
+        "spearman_p": 0.9571545189504373
+      }
+    }
+  }
+}

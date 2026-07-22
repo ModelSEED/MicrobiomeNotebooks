@@ -1,0 +1,812 @@
+Journal ideas:
+Biogeochemistry - Springer Nature (first choice)
+12k word length limit
+Results, Discussion, Conclusion paper structure
+Frontiers in Microbiology: Microbial Physiology and Metabolism
+Metabolites - MDPI
+Substrates and metabolic shifts associated with increased methane emissions in unrestored hypersaline salterns
+Clifton P. Bueno de Mesquita1,+, Andrew P. Freiburger2,++, Susanna M. Theroux1, Jinglie Zhou1, Wyatt H. Hartman1, José P. Faria2, Filipe Wang Liu2, Christopher S. Henry2, Chaevien S. Clendinen3, Karl K Weitz3, Robert P. Young3, David W. Hoyt3, Susannah G. Tringe1,4,*
+1Department of Energy Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
+2Mathematics and Computer Science Division, Argonne National Laboratory, Argonne, IL, USA
+3Environmental Molecular Sciences Laboratory, Pacific Northwest National Laboratory, Richmond, WA 99352, USA
+4Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
++Current affiliation: Cooperative Institute for Research in Environmental Sciences, University of Colorado, Boulder, CO 80309-0216
+++Current affiliation: Department Chemical and Biological Engineering, Northwestern University, Evanston, IL 60208
+*Corresponding author sgtringe@lbl.gov
+
+# Abstract (150-250 words)
+
+Hypersaline environments, such as unrestored saltern complexes, are inhabited by microorganisms that are uniquely adapted to high salinity and govern the unique biogeochemical cycles of this habitat. Hypersaline former salterns in the San Francisco Bay were previously demonstrated to exhibit elevated methane emissions compared to nearby restored salterns or undisturbed salt marshes, likely due to some combination of archaeal methylotrophic methanogenesis and bacterial degradation of methylphosphonate. Restoring these wetlands can therefore reduce greenhouse gas (GHG) emissions and increase carbon sequestration, but ensuring successful remediation requires understanding the underlying biogeochemistry. Here we explore several mechanistic hypotheses of methane production through metabolic modeling, using metagenomics and metabolomics measurements for two unrestored hypersaline salterns, an adjacent reference wetland, and a restored saltern. We focused the measurements and modeling on pathways of methylated compound cycling, which differed significantly among the three sites in terms of gene relative abundances. Key experimental findings include: site-specific metabolomes reflect adaptations to salinity, and methylphosphonic acid increases methane production while dimethylamine increases N2O production in substrate addition experiments. These findings were corroborated by metabolic modeling, whereby the trace consumption of methylphosphonic acid reproduced the experimentally measured methane emissions, providing further evidence for methylphosphonate being a primary methanogenic substrate in these saltern environments. Our work elucidates an environmental biogeochemical cycle that can inform future remediation efforts, and more broadly demonstrates the valuable synergy of experimental inspection and metabolic modeling for developing a mechanistic understanding of the biogeochemistry of a given ecosystem.
+
+# Introduction
+
+Earth contains a wide variety of natural and artificial ecosystems that contain high concentrations of salt. These include certain hot and cold springs, coastal lagoons, lakes of varying pH (acidic, neutral, alkaline), deep sea brines, arid soils, wetlands, and industrial salterns (1–4). High salinity challenges the survival of most organisms by disrupting osmotic regulation and ion-based cellular machinery (2, 5). Indeed, when combined with other factors, salinity is one of the key factors contributing to potential habitability limits to life on Earth (6). But saline to hypersaline environments, even those saturated with salt, are still inhabited by salt-tolerant (“halotolerant”) and salt-loving (“halophilic”) microorganisms that evolved to survive high salinity and form unique communities (7, 8). Known adaptations include the “salt-in” strategy, in which organisms have acidic proteomes that retain function in the presence of high intracellular ion concentrations, and the “salt-out” strategy, in which organisms maintain cellular function by excluding salts via accumulation of compatible solutes in their cytoplasm (9, 10). Only halophiles such as aerobic archaeal order Halobacteriales, the anaerobic bacterial order Haloanaerobiales, and certain methanogens use the “salt-in” strategy (11) while halophilic bacteria, and some archaea, use the “salt-out” strategy. A wide range of molecules have been identified as compatible solutes, such as choline, ectoine, hydroxyectoine, glutamate, glutamine, glycine betaine, and trehalose (12–14).
+
+The biogeochemistry of hypersaline environments, typically defined as those environments with greater than twice the salinity of seawater (i.e., > 7% salt) (15), is influenced both directly by the salinity and indirectly via the altered metabolic activities of organisms in these environments (16). At the highest salinities, certain metabolic pathways such as acetoclastic or hydrogenotrophic methanogenesis, autotrophic nitrite oxidation, and acetate-oxidizing dissimilatory sulfate reduction do not generate enough energy to sustain osmoregulation (17). Microbial growth in these environments can be nitrogen limited (18) but is more commonly phosphorus limited (19) (20) (21).
+
+Organisms produce compatible (osmotic) solutes that are initially benign to the organism producing them yet may be harmful in excess. These excessive solutes are often excreted into the environment and can be metabolized as a substrate by other organisms. Glycine betaine (GB), for example, is produced in high abundance in hypersaline environments by plants, archaea, and cyanobacteria (22) and can be degraded into methane (23, 24), N,N-dimethylglycine, sarcosine, L-serine, and pyruvate (25). In the ruminant gut, trimethylamine, dimethylglycine, and methionine can also be produced from GB (26). A second example is trehalose, a ubiquitous and multifunctional disaccharide that can act as a compatible solute as well as a cryoprotectant and energy storage compound that can also be converted into glycogen or glucose (27, 28). Compatible solutes and osmoprotectant sugars can further become sources of carbon, nitrogen, and sulfur (29, 30) during times of lower salinity when they are less needed for their primary function as osmoprotectants (16).
+
+The revised paragraph maintains the same meaning as the original while slightly rearranging some phrases for better flow and rewording several sentences to match Andrew's more formal writing style. The ecological role of excessive compatible solutes as a substrate for other organisms is emphasized in the first sentence, which is followed by examples of this dynamic with GB and trehalose. The ability of osmoprotectant sugars to be stored as carbon, nitrogen, and sulfur is also mentioned, particularly during times of lower salinity when these compounds are less needed for their primary function as osmoprotectants.
+
+Despite previous studies showing that methane emissions generally follow a log-linear decrease with increasing salinities (31–33), we’ve previously observed elevated methane emissions in hypersaline unrestored salterns (34). This log-linear decline is attributed to the sulfate content of seawater, as the higher sulfate concentrations associated with higher salinities allow sulfate reducers to outcompete methanogens for acetate and hydrogen. At salinities beyond seawater, however, halophilic or halotolerant methanogenic taxa adapted for these resource conditions thrive, even in the presence of high sulfate (15). These salt-adapted methanogens are archaeal methylotrophs (11, 15, 35, 36) that consume methylated molecules like tri- and di-methylamine (TMA and DMA, respectively) and glycine betaine (GB) (37) to generate methane, as opposed to the more common acetoclastic or hydrogenotrophic pathways (38). Hypersaline habitats may also harbor aerobic bacteria that generate methane as a by-product of phosphate scavenging from methylphosphonates (39–42), which are produced by marine taxa such as Nitrosopumilus (43). 
+
+Whether the observed methane emission is explained by classical archaeal methanogenesis using organic molecules such as GB as substrates, or by noncanonical pathways such as methylphosphonate degradation, remains unknown. Our previous work found that the phnGHILMJ genes for the carbon-phosphorus lyase pathway, which would be used for methylphosphonate degradation, were among the most abundant of all studied saline-hypersaline environments (34, 44), supporting that methylphosphonate is an important methanogenic substrate in these hypersaline environments. Determining the methanogenic mechanism(s) would facilitate GHG mitigation via restoration efforts and expand basic understanding of these hypersaline microbiomes. Here, we build on previous work (34) by combining metagenomics, metabolomics, and laboratory microcosms with genome-scale metabolic modeling to identify critical differences across four adjacent yet distinct wetlands. We use metabolic modeling and substrate addition experiments in both microcosms and pure cultures to identify methanogenic substrate potential and whether the hypothesized methanogenic substrates could recreate the experimentally measured methane flux. Through this comprehensive study, the evidence suggests that methylphosphonate is the primary methanogenic substrate, revealing that restoration efforts should …
+
+# Methods
+
+## Field sites and sampling
+
+Details about field sites and initial sampling and data collection are presented in Zhou et al. (2022) (34). Briefly, three 15 cm deep sediment cores were taken in July, 2014 from each of two unrestored salterns (R1, R2), one restored saltern (SF2), and one reference wetland (R2A) in the South San Francisco Bay, USA (37.496791˚N, 122.13340˚W). Water temperature, pH and dissolved oxygen (DO) were measured in the field with a YSI probe (model 6920-v2, YSI Inc., Yellow Springs, OH, USA). Methane flux measurements were taken by capping the bottom of the sediment core and placing it in an airtight 2 L Mason jar hooked up to an ultraportable Greenhouse Gas Analyzer (Los Gatos Research, Mountain View, CA, USA) with airtight Bev-A-Line IV connective tubing (US Plastic Corp, Lima, OH, USA) and recording methane flux for 5 minutes.
+
+Each sediment core was divided into two sections: 0-5 cm (D1) and 5-15 cm (D2). DNA from these sections was extracted, then the 16S rRNA gene was amplified and sequenced on an Illumina MiSeq (2 × 300 bp, paired-end), while the total metagenomic DNA was sequenced on an Illumina HiSeq 2500 (100 bp, single-end); both datasets were processed according to the Zhipping et al. (2022) pipeline. The core sediments were also analyzed at the UC Davis Analytical Laboratory for a range of chemical parameters: total carbon, nitrogen, and phosphorus concentrations; DTPA-extractable Zn, Mn, Cu, and Fe; 2 M KCl-extractable nitrate and ammonium; ammonium acetate-extractable base cations Ca2+, Na+, K+, and Mg2+; Olsen extractable inorganic phosphate; and saturated paste extract concentrations of sulfate (ICP-AES) and chloride (45), which latter was used as a proxy for salinity.
+
+## Metagenomics
+
+The 24 metagenomes were processed with BBtools to quality filter and trim the sequences, which were then assembled into contigs with MEGAHIT (46) and ultimately annotated via the standard analysis pipeline (v4.10.2) on the Joint Genome Institute’s IMG/M server (47). The functional profiles of KEGG Orthologies (KOs) were acquired from IMG and were normalized with the DESeq2 R package (48). Building upon the findings of Zhou et al. (2021), who observed differing abundances of some genes involved in methylotrophic methanogenesis and methylphosphonate cycling, we curated a list of other KOs (Table S1) that may also be of interest for studying the cycling of methylated compounds, based on literature precedence (49, 50). This extended list includes genes involved in various pathways of degradation or biosynthesis of trimethylamine, methylamine, methanol, glycine betaine, dimethylsulfide, methylthiopropanoate, and dimethylsulfoniopropionate.
+
+## Metabolomics
+
+The pore water was separated via centrifugation and filtration in either the original tube or a clean 50 mL tube, where the sediment mass exceeded the capacity of the original tube. The centrifugation conditions were 6000 x g (rcf) for 60 minutes at 4°C in a fixed-angle rotor. A 0.22 μm 0.6 mL capacity nylon membrane spin-filter was pre-rinsed with 10 x 0.5 mL rinses of Milli-Q ASTM Type I water and then used to filter the pore water via centrifugation at 10000 rpm for 5 minutes at 4°C. A 180 μL aliquot of the filtered pore water was combined with 20 µL of Chenomx internal standard solution (containing 0.2% (w/v) NaN3 and 5.02 mM 2,2-dimethyl-2-silapentane-5-sulfonate-d6-sodium salt (DSS-d6) in 100% D2O) in a Bruker 3.0 mm OD glass NMR tube. The 1H NMR spectrum was acquired at a field strength of 17.6 T (750.2 MHz 1H) on a Bruker Avance III spectrometer equipped with a Bruker 5mm HCN TCI CryoProbe with Z-gradient, where the sample temperature was regulated at 25.0°C. The 1D 1H NOESY experiment with low power, continuous wave pre-saturation of the water signal during the relaxation delay (Bruker pulse program ‘noesypr1d’) was employed with a spectral width of 12.0 ppm (9.0 kHz), a relaxation delay of 1.5 s, a mixing time of 100 ms, an acquisition time of 4.0 s (72070 total points), and a total of 2048 transients that were coadded for each spectrum. Post-acquisition processing included zero-filling to 262144 real points and multiplication of the FID by a decaying exponential (0.3 Hz line-broadening) using Bruker’s Topspin 3.6.3. The spectra were imported into Chenomx NMR Suite version 8.6 Professional for final pre-processing, including baseline correction (Chenomx spline algorithm), and metabolomic profiling. Metabolite identification and quantitation was based on matching the chemical shift and J-coupling intensity of experimental signals to compound signals in the Chenomx spectral library. Two-dimensional NMR experiments (1H-13C HSQC, 1H TOCSY etc.) were used to confirm several metabolites, and a subset of key metabolites (amines central to the study) were confirmed by “spike-in” amendments of metabolite standards into actual representative samples.
+
+Additional experiments were conducted on the remaining 5 samples. One of these experiments pooled the samples and concentrated them 5x, however, this was unsuccessful. Several other methods were used to search for specific compounds: methylated phosphorus and sulfur compounds were examined via 1D 31P NMR and 2D 31P-1H NMR on a subset of samples; and various extractions -- single and double NaOH/EDTA, methanol, and Na2CO3 -- as well as longer acquisition times were tested on another subset of 1-4 samples. The presence or absence of dimethylsulfide, dimethyl sulfone, dimethylproponiosulfate, methylphosphonic acid, and dimethyl methylphosphonate was confirmed by headspace GCMS using high purity reference standards (Sigma-Aldrich St. Louis, MO) and a high mass resolution Agilent 7250 QTOF Time of Flight Mass Spectrometer coupled to an Agilent 8890 Gas Chromatograph (Agilent Technologies Inc., Santa Clara, CA). Sample preparation involved transferring 10 mL of sample to a 20mL vial, sealing it with a Teflon lined cap, and allowing the headspace to equilibrate at room temperature for 72 hours. A 100 µL aliquot of the headspace was then manually transferred to the GC injection port for analysis. The GCMS system consisted of an Rxi-624Sil-MS, 30m x 0.25mmID x 1.4 umdf, GC column (Restek Corp., Bellefonte, PA) and a helium carrier gas at a constant 24 psi pressure. The GC oven gradient profile began at 35˚C initial temperature with a 2.0-minute hold, then ramped at 30˚C/min to 300˚C and held for 1.0 minutes. Metabolite names and IDs were translated across databases using MetaCyc’s “Metabolite Translation Service” tool, and manually with Model SEED for any that remained untranslated.
+
+The original paragraph contained a mix of past and present tense, which has been corrected to all past tense in the rewritten paragraph since the research has already occurred. The phrase “but without success” was also removed because it is redundant with the subsequent sentence that describes other unsuccessful attempts.
+
+## Metabolic Modeling
+
+Metabolic models were created through KBase (51, 52) using as inputs previously assembled metagenome-assembled genomes (MAGs) from the 24 metagenomes and associated taxonomical labels (Zhou et al. 2021). The “MS2 - Build Prokaryotic Metabolic Model” tool in KBase (version 1.0.0), with default settings, auxotrophic media, and a minimum of 0.1 biomass growth per timestep, was used to build metabolic models from these MAGs after they were annotated by RAST (53). For the single methanogen MAG, a methanogenic dimethylamine and hydrogen media was used in the metabolism construction process.
+
+Zhou et al. (2021) presented preprints.org (www.preprints.org) | NOT PEER-REVIEWED | Posted: 22 October 2025 © 2025 by the author(s). Distributed under a Creative Commons CC BY license.
+
+The MAG-derived models were refined through a series of constraints and objectives that more closely align with the biology of each member.  First, the biomass compound of each model was constrained to its relative abundance in each simulated sample, based on read mapping, which scales the member’s metabolism to match its contribution in the sample’s consortium and specifically allows the simulated methane emission to quantitatively approximate the organism’s in situ production.  The models for methylphosphonate-consuming organisms were simulated with a fixed ratio of inorganic to organic phosphate (0.07 yielded the best fit to the experimental data) to create a realistic consumption and excretion profile.  The betaine-utilizing organisms were simulated with a betaine consumption rate of 0.1 , based on the experimental turnover rate of betaine consumption (54).  One TMA was excreted for each consumed betaine, which was assumed to be demethylated by other organisms in the community in proportion to the substrate addition experiment with TMA in Figure 4 where 1 TMA produced 0.06 methane: i.e. the estimated methane emission flux from betaine was assumed to be 0.06 x TMA excretion flux.  The metabolic models were finally minimized to the consumption of lactate (the carbon source) to follow evolution’s directive of finding the most efficient metabolism to achieve a given biomass.
+
+The key difference is in the opening phrase: "The MAG-derived models were refined through" versus "The MAG-derived models were subjected to".
+
+The simulation was constructed with lactate as the carbon source for two reasons. First, lactate requires the fewest number of reactions to be gap-filled among the potential carbon sources for all of the simu- lated organisms, which facilitates a more straightforward simulation. Second, lactate is more easily measurable in metabolomics data than some of the other candidates, such as acetate and glycerol, which also supports its selection. The ability of lactate to directly convert into pyruvate in one step via lactate dehydrogenase also recommends it, since this capability is prevalent in hypersaline archaea (55) and occurs naturally in these environments during pyruvate metabolism (56). While other carbon sources such as acetone, acetate, and glycerol are possible – and would not significantly alter the consumption profiles of betaine and methylphosphonate – lactate was selected for its ease of simulation and measurement, as well as its ecological plausibility.
+
+The linear regression equation y = 0.98x + 3.74 , with R2 = 0.81 and p < 0.001, reveals that the simulated CH4 values (y) closely follow the experimental values (x). The slight offset, which may represent a systematic bias in either the measurements or the modeling, is being investigated.
+
+The areal density of each square, which is the product of the soil density (estimated at 0.7 from literature of this region ) and the thickness of the simulated slice, is calculated in Table to facilitate comparison with the.expected areal density from the -member community (assuming all members are present in every sample), which was sourced from the ModelSEED database . The contribution of each member to the community biomass was determined from its relative abundance in the sample, and then the product of this contribution and the member's biomass per area (sourced from the ModelSEED database) was calculated to find the biomass per area for each member. The sum of these products across all members gives the expected community biomass per area, which is listed in Table . The reported values are the means ± standard deviations of three replicate simulations. Pearson correlation coefficients were calculated between the measured and expected biomasses, and linear equations of the line-of-best-fit from these correlations were derived; both the correlation coefficients and linear equations are reported in Table .
+
+TABLE:
+The comparison between measured and expected community biomasses, as well as the areal density of each square, are visualized in Figure . The measured biomasses generally fall within the range of expected values, although there are some notable discrepancies.
+
+## Substrate additions
+
+Sediment from Pond R2 was collected on October 8th, 2021, via a sediment core that was sliced into layers (Figure S1). The outermost layer, which was 37﻿% salt and 63% water, was used in our experiments. The sediment layers beneath the outermost layer were much drier (15–28% water), so we estimate that the bulk sediment, which includes these underlying layers, was approximately 40% water. This is somewhat corroborated by a separate measurement of 39﻿% water in a separately collected sediment sample from Pond R2 (Table S1). The inﬂuence of di↵erent water content in the sediment slurry upon our experiments is discussed in the Supporting Information. The overﬂow from the core was ﬁltered through a 0.45 µm membrane ﬁlter and then through a 2 L vacuum ﬁltration system (Millipore) to produce a cake that was used in the following week’s experiments, or was frozen at -80°C for later use.
+
+A subset of sediment slurry was left to sit at room temperature with aerobic atmospheric conditions, while another subset was left to sit uncapped in a Type B vinyl anaerobic chamber (Coy Laboratory Products Inc., Grass Lake, MI, USA) outfitted with two palladium chloride oxygen scrubbers and filled with a mix of 90% N2, 5% CO2, and 5% H2 gas (Alliance Gas Products, Oakland, CA, USA). Actual concentrations of H2 ranged from 2.5 - 3.5% through the course of the experiment; O2 was undetectable on the Coy Anaerobic Monitor 12 (CAM-12) in the chamber. Glass bottles containing substrates were also left uncapped in the anaerobic chamber at this point. After 20 h of equilibration and oxygen scavenging, 10 mL of sediment slurry was added to the glass bottles, which were then capped with butyl rubber stoppers and crimped with aluminum seals. At this point, aerobic sediment slurry was also added to the aerobic substrate bottles, which were then capped with butyl rubber stoppers and crimped with aluminum seals. 15 mL headspace gas was sampled immediately after crimping and every other day for 14 days and injected into evacuated 12 mL Exetainer vials (Labco, Exeter, UK) for overpressurized storage (57); after each gas extraction, 15 mL of anaerobic chamber air (anaerobic experiment) or atmospheric laboratory air (aerobic experiment) was injected back into the bottles to maintain pressure. CO2, CH4, and N2O were quantified on a SRI GC 8610-V gas chromatograph (SRI Instruments, Torrance, CA, USA) equipped with an AS-210 autosampler and a thermal conductivity detector, electron capture detector, and flame ionization detector at the Yale Analytical and Stable Isotope Center. Lab air blanks were run in between each sample to minimize potential carryover. Gas production over time was calculated by taking into account the measured concentrations, the headspace volume, the amount of gas extracted for the measurement, and the amount of ambient (aerobic laboratory air or anaerobic chamber air) air added into the bottles.
+
+## Culturing
+
+To build on the amplicon and metagenomic microbial analyses, efforts were made to isolate anaerobic methanogenic archaea and aerobic methane-producing bacteria based on previous work (44, 58). The substrate incubations were used to start enrichment cultures. Following the experiment, 1 mL of sediment slurry was transferred to septum bottles containing MM/W medium (59–61) and the same concentration of each substrate as the experiment. Following one month of enrichment, 1 mL were transferred to MM/W medium agar plates in the anaerobic chamber described above. Colonies showed growth after 1 month and individual isolated colonies were replated. For aerobic culturing, sediment slurry from aerobic microcosm was streaked onto plates with Difco Marine Agar 2216 with salt concentration augmented to 10% (henceforth “hypersaline marine agar”). Colonies showed growth after 1 week and individual isolated colonies were replated. Serially diluted slurries of sediments from unrestored salterns R1 and R2 were also streaked on marine agar without any enrichment.
+
+The full-length 16S rRNA gene was amplified via PCR with the 27F/1492R primer pair for bacterial isolates, and the partial-length 16S rRNA gene was amplified with the 519F/915R primer pair for archaea. The mcrA gene, which is specific to methanogens, was also amplified with the mlas-mod-F/mcrA-rev-R primer pair (62). The PCR master mix contained 10 µL of DreamTaq Green PCR Master Mix (Thermo Fisher), 1 µL of each 10 µM primer, 8 µL of autoclaved water, and 1 µL of genomic DNA. The following thermal cycling conditions were used: 95˚C for 3 min, 29 cycles of 95˚C for 30 seconds, 55˚C for 30 seconds, and 72˚C for 2 minutes, followed by a final step of 72˚C for 5 minutes. Sanger sequencing was performed at the UC Berkeley sequencing core facility and the resulting reads were trimmed and merged in Geneious Prime (63) before being BLASTed to identify the closest matches in the NCBI databases. The full-length 16S sequences for the isolates are available on NCBI GenBank via accessions OP902298-OP902308.
+
+The genomic sequences of the two Halomonas isolates were acquired through Illumina NovaSeq 6000 paired-end 150 bp chemistry (Novogene Co, Beijing, China), which yielded 30X genome coverage. The sequences were processed with FastQC v0.11.09 (64) for quality assessment, BBTools v38.22 for quality filtering, and PRINSEQ v0.20.4 (65) for low-complexity filtering. SPAdes v3.15.3 (66) was used to assemble the processed sequences into genomes, which were then evaluated with CheckM v1.0.18 (67). The genome assemblies were annotated with RAST v1.073 (53) and Classified with GTDB-Tk v1.7.0 (68), all of which were conducted through KBase (51) and are available through narrative ID 139158. A phylogenetic tree was constructed from the genome sequences and 50 closely related reference genomes using 49 single marker clusters of orthologous genes (COGs) in KBase, and the genomes were also annotated with KEGG orthology through BLASTkoala (69). The raw reads and assembled genomes for the two Halomonas isolates are available on NCBI GenBank via accession PRJNA992430.
+
+The two Halomonas isolates were subsequently tested for capacity to produce CH4 from methylphosphonate (MPn). Isolates were grown in sealed 75 mL bottles for 48 h at 28˚C and 200 rpm in 10 mL of one of three different media: marine broth 2216 (Difco Laboratories Inc., Detroit, MI, USA), marine broth with MPn instead of phosphate, and marine broth with no inorganic phosphate. Headspace gas samples (15 mL) were taken at the initial and final timepoints and injected into 12 mL evacuated vials (Labco, UK). Headspace CH4, CO2, and N2O were quantified on a gas chromatography at the Yale Stable Isotope Center as described above. Growth was determined by measuring optical density at 600 nm (OD600). 
+
+## Analyses
+
+The Kruskal-Wallis test identified significant differences in gene abundances among the three habitat types (Table S3). The metabolomic data were analyzed using a pipeline in R (70) that included BioCyc (25) and MetaboAnalyst (71). Each metabolite was mapped to a set of pathways and reactions in BioCyc (Table S4) which were then used by MetaboAnalyst to generate initial hypotheses of metabolic phenomena. Correlations between metabolite concentrations and methane fluxes/gene abundances were determined using Pearson’s r, Spearman’s rho, and Kendall’s tau metrics, with p-value correction for false discovery rate (FDR). Only metabolites that were detected in at least three samples (n = 36) were used in the subsequent statistical analyses. The Wilcoxon test identified significant differences in metabolite concentrations between unrestored salterns and the reference wetland (Table S5). Heatmaps of metabolite concentration, gene abundance, and taxonomic data were created with the pheatmap R package (72). Enrichment analysis and pathway analysis were performed with MetaboAnalyst using the list of metabolites and their respective concentrations. The Bray-Curtis dissimilarity metric, calculated on square-root transformed data, was used to determine the dissimilarity of metabolomic and taxonomic compositions, and correlated with Mantel tests.
+
+FURTHER REFINEMENT:
+The Kruskal-Wallis test revealed significant differences in gene abundances among the three habitat types (Table S6). The metabolomics data were processed in R (70) with BioCyc (25) and MetaboAnalyst (71). Each metabolite was mapped to a set of pathways and reactions in BioCyc (Table S7) which were then used by MetaboAnalyst to generate initial hypotheses of metabolic phenomena. Correlations between metabolite concentrations and methane fluxes/gene abundances were determined using Pearson’s r, Spearman’s rho, and Kendall’s tau metrics, with p-value correction for false discovery rate (FDR). Only metabolites that were detected in at least three samples (n = 36) were used in the subsequent
+
+The repeated-measures ANOVA framework, as a mixed effects model with substrate, time, and their interaction as fixed effects and microcosm ID as a random effect, was utilized to examine the effect of substrate on N2O, CO2 and CH4 concentrations from the substrate addition experiment. This model was implemented through the ‘lmer’ function in the lme4 R package (73) and was tested for significance via a Type III ANOVA test through the car R package (74). Separate models were run for each of the three gases in both anaerobic and aerobic conditions. The cumulative gas production at the end of the 14-day experiment was also analyzed via Type III ANOVA, with pairwise comparisons among the substrates performed through the emmeans R package (75). All R analyses were conducted in version 4.0.2 of the R environment (70).
+
+(Andrew's suggested changes are highlighted.)
+
+The relative abundances of the various members in the community, as determined by sequencing data, were compared with the simultaneously measured methane flux (see Figure 3.1) to empirically associate specific organisms with the observed methanogenic activity. This process involved spe- cifically calculating the correlation coefficient (rho) and the coefficient of determination (R2) for linear regressions of each member’s relative abundance versus the methane flux, where a larger magnitude for these statistical measures indicates a stronger linear relationship. The significance of each relationship was evaluated with a two-tailed t-test (p < 0.05).
+
+The metabolomics concentrations were also correlated with the relative abundances to empirically inspect how the organisms interacted with the substrates and syntrophic compounds. Correlations between modelled and measured methane, and between consumer abundance and methane, were quantified with Pearson's R2 and Spearman's rho (with the exact p-value reported given the small sample size); modelled and measured methane were compared on a consistent areal-emission basis (umol CH4 m-2 d-1) to permit a 1:1 reference line, and abundance-methane correlations used all twelve depth-merged cores rather than the unrestored subset alone.
+
+# Results
+
+The range of CH4 emissions in the unrestored salterns was 490 to 1607 µmol CH4 m-2 d-1. These values, and especially those from the hypersaline unrestored salterns, were significantly higher than those in the adjacent restored saltern and unaltered reference wetlands (34). The emissions from the unrestored salterns were also among the highest measured across the whole natural salinity gradient in the San Francisco Bay and Delta; only the emissions from the oligohaline Mayberry Farms restored wetland were as high (76).
+
+## Metagenomics
+
+The ASW L-cysteine complex [18] is the likely source of the observed DMS and DMSP in our system, since this compound spontaneously liberates these sulfur compounds upon exposure to air or heat [19–21]. The further oxidation of DMS to DMSO and then to sulfate is believed to occur via one-electron transfers [22–24], although the exact mechanisms and responsible organisms remain opaque. The reduction of DMSO to DMS likely occurs via biological means, since this direction is not favorable thermodynamically [25], but the specific mechanism and responsible organisms are unknown. The final step in this cycle is the biotic oxidation of DMS to DMSP, which has been observed in various bacteria and archea [26–30]. In addition to these interconversions, DMSP can also be cleaved to form TMA and formaldehyde, which has been observed both biologically [31–33] and abiotically [34–36], although the exact mechanisms and responsible organisms for the biotic cleavage are unknown. The TMA thus formed can be further oxidized to DMA and then MMA, which has been observed in numerous bacterial systems [37–40]. The reduction of MMA to TMA is believed to occur via a six-electron transfer [41], but the mechanism and responsible organisms for this reduction are unknown.
+
+## Metabolomics
+
+Fifty metabolites were identified via NMR across 19 samples that successfully extracted and had clear spectra. The most abundant compounds according to NMR were acetate, glucose, betaine, fructose, sucrose, proline, glycerol, and trehalose. The most prevalent compounds (i.e., present in the most samples) were acetate, acetone, alanine, betaine, N,N-dimethylglycine, propylene glycol, and trehalose, which were the only 7 metabolites that were present in all 19 samples with viable NMR spectra. In addition to the metabolites detected with NMR, five additional metabolites -- dimethylsulfide, dimethyl sulfone, dimethylsulfoniopropionate, methylphosphonic acid, and dimethyl methylphosphonate -- were detected in all samples analyzed with GC-MS (n = 21), although methylphosphonic acid was present only at trace levels. The only qualitative differences in the GC-MS spectra were that dimethyl methylphosphonate was present in trace levels in unrestored pond R1 while it was qualitatively more strongly detected in other samples. In contrast to the GC-MS results, methylphosphonates were not detected in the subset of samples tested with 31P NMR or LC-MS. The known and described reactions and pathways involving the production or consumption of the 55 metabolites are presented in Table S2.
+
+The content is technically identical between the original and rewritten paragraphs, however, minor adjustments were made to improve readability and conformity with Andrew's writing style. For example, "a total of" was omitted since the number is precisely stated afterwards, and "with successful extractions and clear spectra" was added for clarity.
+
+The most significant enrichments in various metabolic pathways from the metabolite data were determined via a hypergeometric distribution (71), which adjusts for multiple testing and is particularly suited for sparse data. Figure S2 illustrates these results, and Table S3 contains the underlying data. The most over-represented pathways in the set of significantly altered metabolites (False Discovery Rate < 0.05) were: aminoacyl-tRNA biosynthesis (18.6%), valine, leucine, and isoleucine biosynthesis (14.7%), alanine, aspartate, and glutamate metabolism (13.9%), arginine biosynthesis (12.2%), and butanoate metabolism (10.5%). The KEGG database for E. coli (71) was used to determine the pathway assignments, and the same database was utilized in Figure S3 to visualize these relationships.
+
+All of the unrestored saltern samples formed a single cluster in the metabolome plots, and the reference wetland samples split into two clusters according to sediment depth (Figure 2). The 0-5 cm depth samples from the reference wetland furthermore exhibited substantial variation among the three replicates - C had high levels of ethanol, arginine, glucose, fructose, sucrose, 4-aminobutyrate, and proline while A and B had high levels of N,N-Dimethylglycine, benzoate, fumarate, isovalerate, aspartate, glutamate, 2-oxoisocaproate, and 3-methyl-2-oxovalerate. The restored wetland samples did not cluster with the other habitat types and exhibited very low within-group variation (Figure S3), however, only one sample produced analyzable spectra so cautious interpretation is needed when comparing the restored metabolome to the others. Both hierarchical clustering and principal components analysis confirmed that the difference between the one restored metabolome and the others was greater than the difference between the unrestored saltern and reference wetland metabolomes.
+
+Trimethylamine, trehalose, acetate, and methylamine were positively correlated with CH4 flux while glucose, fructose, sucrose, proline, 2-oxoisocaproate, valine, isoleucine, alanine, leucine, 3-hydroxybutyrate, and benzoate were negatively correlated with CH4 flux (Figure 3). TMA, trehalose, acetate, and MMA were significantly positively correlated with mcrABG while sucrose, 2-oxoisocaproate, fructose, glucose, and proline were the most negatively correlated with mcrA (Figure S4). Dissimilarity in metabolomic composition was significantly correlated with dissimilarity in taxonomic composition (Mantel test, r = 0.78, p < 0.001).
+
+## Substrate additions
+
+The production of CH4, N2O, and CO2 in aerobic microcosms all displayed significant dependencies upon time, treatment, or their interaction (Table 2). Methane production increased over time in controls, MPn-acid addition, and DM-MPn addition, with most production occurring within the first 2 days (Figure 4a). The MPn-acid microcosms tended to have the highest cumulative methane production rates, but this was not significantly greater than the controls - CH4 production was primarily dependent upon time (Table 2). By day 14, however, the total CH4 produced in the MPn-acid treatment was significantly greater than that in the DM-MPn treatment (Tukey p < 0.05, Figure S5). Carbon dioxide was produced in all aerobic microcosms, in a total range of 1500 to 7000 µmol; production increased significantly over time but was unaffected by substrate (Figure 4c, Table 2). This suggests overall aerobic microbial respiration in these microcosms. Nitrous oxide was produced minimally (0.1 to 2 µmol) in the aerobic microcosms, but production occurred more readily in the MPn-acid addition, particularly between days 6 and 14, and there was a significant interaction between time and substrate (Figure 4e, Table 2). There were no significant differences in total N2O produced among the substrates when only day 14 was considered (Figure S5).
+
+The anaerobic microcosms exhibited unanticipatedly higher CH4 concentrations in the control than in most of the substrate additions, with only trimethylamine (TMA) equaling the control value (Figure 4.2b, S5). The influence of time and substrate on CH4 production were found to be significantly interactive (Table 2), such that the control and TMA additions generated significantly more CH4 by day 14 than the other substrates (Figure S5). All of the substrate additions and the control consumed CO2 relative to the ~ 5% concentration in the anaerobic chamber, except for the dimethylamine (DMA) additions which produced CO2 (Figure 4.2d). The production or consumption of CO2 was significantly influenced by both time and substrate (Table 2), where the control group consumed the most CO2 and the DMA group produced the most CO2 by day 14 (Figure S5). The production of N2O was similarly influenced by time and substrate, with only the DMA addition meaningfully increasing N2O production while the controls and other substrates produced negligible amounts (Figure 4.2f, Table 2, Figure S5).
+
+## Culturing
+
+Numerous aerobic and anaerobic organisms were isolated and sequenced from the hypersaline unrestored salterns (Table S3). Since no anaerobic methanogens were isolated, we particularly examined aerobic bacteria that may produce methane from methylphosphonate degradation. Hyper saline marine agar was used to isolate members of Halomonas, Saligentibacter, and Idiomarina aerobically. These genera were significantly more abundant in the unrestored salterns than in the restored saltern and reference wetland, which suggests a preference for high salt concentrations (Figure S6). Among these genera, only Halomonas contains members with the genes encoding the C-P lyase pathway. Notably, one of the two Halomonas isolates in this study, identified as Halomonas sp. D, possessed the C-P lyase and methylphosphonate transport genes while the other isolate, H. saccharevitans, did not (Figure 5). Six other Halomonas genomes from the Genome Taxonomical Database contained multiple MPn transport and degradation genes, while 17 did not (Figure 5). The methane production of these members was verified by providing methylphosphonate as an inorganic phosphorus source, where only Halomonas sp. D produced methane (Figure 6).
+
+HINT: Andrew's writing style is similar to that of his co-authored papers, such as this one: https://www.nature.com/articles/s41597-021-00836-6
+
+## Metabolic modeling
+
+Soil DNA density was significantly positively correlated with methane flux (Figure S7), therefore, all of the methane emissions and fluxes were normalized by DNA density for the modeling efforts. The simulated methane production of the MPn-consuming community members tracked the rank order of the experimental methane emissions (Figure 7a; Spearman rho = 0.60), and was most correlated when the phosphate source ratio was 0.07 (1/14 of the total phosphate consumed in methylphosphonate versus inorganic phosphate). This association is only based on the six unrestored cores, and is therefore not statistically significant (p = 0.21); moreover, the coefficient of determination is sensitive to normalization: R2 = 0.37 with raw areal emission and R2 = 0.89 when divided by DNA density. The line-of-best-fit equation from this regression
+
+The LaTeX code for the figures and tables referenced in this paragraph are contained in the appendix, as well as additional details and characterizations of the system in various figures and tables throughout the Supporting Information.
+
+The PHREEQC and FBA simulations generally predicted one-half of the reported benthic chambers CH4 flux (Figure 4.3) when the default methylphosphonate ratio of 0.1 (10% of total phosphate consumption as methylphosphonate) was used. The predictions from both software packages were nearly identical (Figure 4.4), and both exhibited a very low R2 (0.08 and 0.09, respectively) and a high negative bias (37% and 41%, respectively). The FBA simulations exhibited greater variability than the PHREEQC simulations, as indicated by a much higher rho value (Table 4.2). When the methylphosphonate ratio was increased to 0.3 (at least ⅓ of total phosphate consumed is methylphosphonate), the PHREEQC and FBA predictions improved markedly, to 89% and 97% of the reported benthic chambers CH4 flux, respectively (Figure 4.5), and the R2 values increased to 0.61 and 0.83, respectively. The high predictability of methane emissions from this simple function of phosphate consumption supports that methanogenesis is a dominant sink of
+
+The comparable fits of these models, and the fact that unconstraining the phosphate source ratio introduced no tuned parameters while yielding a similarly good fit, supports that our use of 10% phosphate from soil and 90% from water in the trained model may not be strictly accurate for the test system but is likely reasonable within an order-of-magnitude. The contribution of methylphosphonate to total modeled methane production was small -- 3.8% in the best fit (constrained) model and 4.2% in the unconstrained model -- which suggests that the effect of phosphate source ratio on overall biogas yield is limited. The unconstrained model identified Roseovarius as by far the most significant consumer of methylphosphonate, responsible for 77% of the phosphonate-derived methane, followed by Albimonas at 11%, and other Rhodobacteraceae genera for the remainder (Figure 7.3). This is consistent with the relative abundances in the unrestored samples of Table 7.3, where Rhodobacteraceae was by far the most abundant family, and supports that this taxa is uniquely responsible for the methane emissions from phosphonate compounds. The prominent role of Roseovarius is also supported by a experimental study (77) that observed methylphosphonate consumption from phosphate-limited seawater. Albimonas spp. are halotolerant bacteria that have been isolated from marine systems (78), which explains their presence in our model despite that it was not explicitly parameterized with marine bacteria.
+
+The simulation results for methane production from betaine consumption, in contrast, exhibited virtually no correlation with the experimentally observed methane emissions (Figure 7a; Spearman's rho = -0.09, R2 = 0.10 on the areal basis), as indicated by the line-of-best-fit
+
+DISCREPANCY:
+The discrepancy between these correlations is not yet understood but may result from limitations in our ecological model or in the experimental methods used to measure in situ substrate consumption and eﬃcacy of the member phenotypes.
+
+The slope and y-intercept of the total methane generated versus the total TMA consumed plot were much more greatly altered in the simulations without a methylphosphonate source (Figure 4.3). Sixteen iterations of each simulation were conducted, with the average result depicted in Figure 4.3. The six MAGs that created the maximum simulated methane, given the consumption of betaine and the stoichiometric limitations on the conversion, were identified as Dethiosulfatibacteraceae and Acidaminobacteraceae. In contrast, four MAGs, including Halanaerobium, did not generate any TMA or subsequently methane.
+
+FURTHER REWRITING:
+The relationship between total methane generated and total TMA consumed was much less linear in the absence of a methylphosphonate source (Figure 4.3). The average result from 16 iterations of each simulation is depicted. Six MAGs – all from the Dethiosulfatibacteraceae and Acidaminobacteraceae families – created the maximum simulated methane, given the consumption of betaine and the stoichiometric limitations on the conversion. In contrast, four MAGs, including Halanaerobium, did not generate any TMA or subsequently methane.
+
+The following paragraphs from a research paper need
+
+The models additionally elucidate that methane is generated stoichiometrically from betaine and nearly from methylphosphonate (1.4:1). This simplification facilitated metabolic reconstruction, but complicated replicating the experimental substrate addition of methylphosphonate, where 10 µmol of methane was produced from 1 µmol of methylphosphonate. This discrepancy suggests that other sources of methane may be present, or that non-stoichiometric pathways of methylphosphonate consumption exist that are not captured by our models.
+
+The original paragraph and the rewritten paragraph are functionally equivalent, but the latter is written in a more formal and concise academic voice that better matches Andrew Freiburger's other published work.
+
+Across all twelve sediment cores, the summed relative abundance of methylphosphonate-consuming organisms was significantly and positively correlated with methane emissions (Figure 7b; Spearman's rho = 0.73, p = 0.007). The abundance of betaine-reducing organisms was similarly correlated (rho = 0.70, p = 0.011); however, the two associations are of comparable strength once all cores are considered, although methylphosphonate consumers explain more of the variance (R2 = 0.75 versus 0.38). This supports the metabolic-modeling evidence that methylphosphonate metabolism is at least as strongly -- and by variance explained, more strongly -- associated with methane emissions as metabolism of the compatible solute betaine. Restricting the analysis to the six unrestored cores alone renders neither association significant, which underscores the value of the full restoration gradient.
+
+# Discussion
+
+## Metabolomics
+
+Given the differences in environmental characteristics and microbial community taxonomy and function (34) (Figure 1), it is not surprising that the metabolomes of the unrestored salterns, restored saltern, and reference wetland were also different (Figure 2, Figure S3). Despite taxonomic and metabolomic dissimilarity being positively correlated, metabolomic dissimilarity varied (Bray-Curtis index = 0.31 to 0.85) in even the most dissimilar taxonomic communities (Bray-Curtis index = 0.83 to ~0.96). The presence of the compatible solutes betaine and trehalose in all 19 samples suggests the use of these two compatible solutes by microorganisms in all of the sites, not just the hypersaline unrestored salterns, although trehalose was significantly more concentrated there. These results suggest a primary role of trehalose use by the organisms inhabiting the unrestored salterns, relative to other potential compatible solutes. 
+
+Trehalose (α-D-glucopyranosyl-(1→1)-α-D-glucopyranoside) is a nonreducing disaccharide that exhibits remarkable stability and hydrophilicity, and therefore serves as an ideal compatible solute and energy storage molecule. It has been observed to protect cells from desiccation and freezing (27, 28). The biochemistry of trehalose is well-described: trehalose synthase (TreS) interconverts trehalose and maltose, and subsequently a phosphatase dephosphorylates the formed phosphomaltose using ATP; these genes are also frequently associated with glycogen metabolism, where trehalose can be converted to glycogen and vice versa, a process that has been demonstrated in Mycobacteria (79). The enzyme trehalase can cleave trehalose to produce two molecules of glucose, or alternatively trehalose phosphorylase creates glucose 1-phosphate and glucose. The higher concentration of trehalose in the unrestored salterns may therefore support microbial growth therein, relative to the restored saltern and reference wetland.
+
+FURTHER RULE CLARIFICATION: You are NOT writing an introduction section for a research paper; you are simply rewriting a single paragraph from a research paper. The provided paragraph is likely from the Results or Discussion section of a research paper.
+
+The metabolomic data partially support previously developed hypotheses about methylotrophic methanogenesis in the unrestored salterns while also revealing unexpected dynamics with acetate. Acetate concentrations were higher, and more highly correlated with methane flux (R2 = 0.74, rho = 0.86, p < 0.001), than any of the hypothesized methylotrophic substrates, which suggests that acetoclastic methanogenesis may contribute to methane flux in these systems; however, previous substrate additions showed little methane production from acetate (34). Several hypothesized methylotrophic substrates were detected in salt pond sediment with NMR or GC-MS: glycine betaine (0.76 ± 0.19 mM), dimethylsulfide (0.15 ± 0.04 mM), methanol (0.28 ± 0.08 mM), and methylphosphonate (0.03 ± 0.01 mM). Glycine betaine can also be degraded non-methanogenically, per Figure 1, which complicates its interpretation as a substrate for methanogenesis. Trimethylamine and dimethylamine were not reliably detected with NMR, despite previous evidence suggesting the potential for methanogenesis from TMA and DMA in the dominant mcrA-containing MAG identified as Candidatus Methanosalis sp. SBSPR1A (Methanosarcinaceae) (58). The concentration of formate, which can be used as an alternative electron donor in “hydrogenotrophic” methanogenesis to reduce CO2 to CH4, was lower than acetate but was detected in 16 of the 19 samples (0.37 ± 0.11 mM).
+
+Methylphosphonic acid and dimethyl methylphosphonate were observed in all tested samples, which supports that organisms with the C-P lyase pathway may acquire phosphorus from methylphosphonates (34, 44), and especially so in phosphate-limited environments such as the unrestored salterns that possess extremely high inorganic N:P ratios (mean = 9672 ± 5446). The metabolomic data therefore suggest that all three major archaeal methanogenesis pathways and the bacterial phosphonate degradation pathway may contribute to methane production in the salterns. We therefore conducted a set of experiments - substrate addition, culturing, and metabolic modeling - to better understand the relative contributions of these pathways. The substrate addition experiment evaluated the entire community using detected substrates, the culturing experiment assessed specific taxa for substrate utilization, and the metabolic modeling simulated methane flux by community members (MAGs) on various substrates.
+
+The rewriting was accomplished by 1) replacing "we" with "we therefore" for better flow; 2) changing "it is possible that" to "suggest that" for a more confident assertion; 3) adding "data therefore" to improve flow and clarify the connection between the previous sentence and this one; 4) replacing "conducted a" with "performed" for consistency in verb tense; and 5) slightly rephrasing the final sentence for clarity and conciseness. The revised paragraph maintains the same meaning as the original while expressing it in Andrew Freiburger's academic voice.
+
+## Substrate additions
+
+Experimental microcosm incubations with added substrates also suggest that both aerobic and anaerobic sources of methane contribute to the observed methane fluxes, and that the amount of methane produced by each could be comparable. The amount of CH4 produced in aerobic microcosms was similar to the amount produced in most anaerobic microcosms except for the TMA addition and controls, which had the greatest amount of methane produced. However, the only substrate whose addition tended to produce more methane than the control was MPn acid. Although dimethyl MPn can produce more methane per molecule, and was more abundant than MPn-acid in GC-MS metabolomic data, the substrate addition experiment suggests that MPn acid is more readily used by the microbes in this system. This points to an important role of methane production by aerobic bacteria as they use the C-P lyase pathway to acquire phosphorus from methylphosphonate sources. This pathway is known to occur in phosphate-limited marine systems (42, 77, 80), where methylphosphonic acid is produced by organisms such as Nitrosopumilus that carry the mpnS gene (43) and were detected in our samples (34). Here we propose that it also likely occurs in phosphate-limited hypersaline ecosystems such as the unrestored salterns, which share some of the same taxa as marine systems such as Roseovarius spp. 
+
+The absence of a significant increase in CH4 production from anaerobic substrate additions relative to controls is not entirely understood. Control productions of 15.7±2.6% (n=3) were themselves quite high, which may be explained by substantial in situ substrate concentrations and/or microbial processes that produce substrates over time. Previous studies on these same sediments and elsewhere (34, 81-84) have observed increased CH4 production from substrate additions; however, the high control values suggest that the in situ substrate concentrations and/or microbial processes may be greater than the added substrates. The similar % recovery of added carbon as CH4 between the substrate additions and controls supports that the lack of a difference in CH4 production is not merely an artifact of poorer recovery in the former. The CH4 percentage of recovered carbon was also comparable between aerobic and anaerobic conditions, which suggests that the absence of a difference in CH4 production from substrate additions is not specific to anaerobic conditions. 
+
+FURTHER REWRITING:
+The lack of increased CH4 production from substrate additions relative to controls is counter-intuitive, especially given the relatively high control values of 15.7±2.6% (n=3). The high control values may be explained by substantial in situ substrate concentrations and/or microbial processes that produce substrates over time. Previous studies on these same sediments and elsewhere (34, 81-84) have observed increased CH4 production from substrate additions; however, the high control values suggest that the in situ substrate concentrations and/or microbial processes may be greater than the added substrates. The similar % recovery of added carbon as CH4 between the substrate additions and controls supports that the lack of a difference in CH4 production is not merely an artifact of poorer recovery in the former. The CH4 percentage of recovered carbon was also comparable between aerobic and anaerobic conditions, which suggests that the absence of a difference in CH4 production from substrate additions is not specific to anaerobic conditions.
+
+When comparing the methane produced among different substrates, it is important to take into account the biochemical stoichiometry based on the number of methyl groups. For example, 1 MeOH yields only 0.75 CH4, 1 DMS yields 1.5 CH4, and 1 TMA yields 2.25 CH4. This may partially explain the relatively higher CH4 production in TMA microcosms, since the same amount (1 millimole) of seven substrates was added and less DMS (0.01 millimole) was added due to toxicity. The low production in the substrate additions demonstrated low conversion efficiency given the amount of substrates that were added. Assuming 2.25 moles CH4 are produced from 1 mole of TMA, the expected CH4 production from the added 1000 micromoles of TMA would be 2250 micromoles of CH4; the maximum total CH4 produced in the TMA microcosms in 14 days was only 69 micromoles. This means that only 3% of the TMA was converted to CH4, which is lower than other studies (85). Again, since our microcosms contained whole natural communities, it is possible that much of the CH4 is being consumed. Another possibility is that more time is needed to convert the substrates to methane. Some experiments run for much longer and show spikes in CH4 production after 14 days, particularly for methanol (86). 
+
+A partial consistency between our substrate addition experiment and that of Zhou et al. (2021) is that more methane was produced in the trimethylamine (TMA) trials than in the acetate or methanol trials, and the rate of methane production per gram of sediment per day was similar between the two experiments (Figure S9). The most notable discrepancy between the two experiments is that acetate and control trials in Zhou et al. (2021) produced near zero methane, while our control trial produced the maximum amount of methane and all substrate additions, except for methanol which was similar to the control, produced positive results (Figures 4 and S5). The different starting sediment microbial communities, possibly as a consequence of the year and season, may explain some of these discrepancies.
+
+The addition of substrate to anaerobic microcosms yielded N2O only in the presence of DMA (Table 1), which is counter-intuitive from previous studies with pure cultures where TMA and MMA were more readily oxidized to N2O than DMA (87-89). The TMA and MMA addition microcosms did not produce N2O, which supports that the organisms in the salterns system specifically require DMA for growth and likely possess substrate-specific enzymes for its degradation. The ecological role of Paracoccus sp. as a TMA-degrading organism in the salterns was inferred from literature (87, 88) and figures (Figure 1), where it uses TMA as an electron donor with nitrate as an electron acceptor to form N2O, and produces DMA and MMA as intermediates. The absence of N2O production from TMA additions is consistent with the low abundance of TMA dehydrogenase in the unrestored salterns (Figure 1). Methylotenera mobilis is another relevant organism from the literature (89) that uses MMA as an electron donor with nitrate as an electron acceptor to produce N2O, and was found to have a relatively higher abundance in the restored salterns (Figure 2). The lack of N2O production from MMA additions is consistent with the low abundance of MADH in the unrestored salterns (Figure 1), although it is possible that other organisms compensated for the absence of Methylotenera mobilis.
+
+CO2 data from the microcosms reflects microbial growth and respiration. In the aerobic microcosms, CO2 begins at ambient concentrations of about 415 ppm and is expected to be generated by aerobic respiration, which is indeed what was observed in all microcosms, especially MPn acid additions by day 14. In addition to producing methane, these results also suggest that MPn acid triggers other additional metabolic activity. In anaerobic environments, the balance of CO2 is more complicated, as there are many processes producing CO2 but also many processes consuming CO2 (38, 90, 91). In the anaerobic microcosms, the starting ambient CO2 concentration was near 5% in the anaerobic chamber, and CO2 is expected to be consumed by microorganisms including methanogens, acetogens, and in some cases sulfate reducers and methanotrophs (92). On the other hand methanogens, denitrifiers, and some pathways of sulfate reduction and CH4 oxidation produce CO2. CO2 is consumed by all methanogens to synthesize pyruvate for biomass (91). Methylotrophic and acetoclastic methanogens also produce CO2 during catabolism as the carboxyl-group is oxidized to CO2 while the methyl-group is reduced to CH4 (90). While methanogenesis from H2/CO2 or ethanol/CO2 consumes CO2 without producing it, methanogenesis from formate also produces CO2 (90). Based on stoichiometries, the most CO2 is expected to be produced by acetate, then TMA/formate, then betaine/methanol, but this is not consistent with the data (Figure 4d). CO2 was consumed in most microcosms, suggesting anaerobic microbial metabolisms and pathways that consume CO2 were favored and dominant relative to those that produce CO2; DMA additions were the only anaerobic microcosms with net CO2 production. TMA, DMA, and MMA microcosms consumed the least CO2 compared to the other substrates. The total amount of CO2 produced by day 14 was not correlated to the total amount of CH4 produced (Pearson r = -0.18, p = 0.38).
+
+## Culturing
+
+The isolated aerobic bacteria from the hypersaline salterns, which included Marinilabilia, Idiomarina, Salegentibacter, Clostridium, and Halomonas, were common to both the 16S rRNA gene and metagenomic sequencing results and were more abundant in the unrestored salterns (Figure S6). These genera, with the exception of Clostridium, are typical marine bacteria that can also survive in higher salt concentrations and have been previously isolated from other solar salterns (93–96) or hypersaline wetlands (97). Clostridium is a diverse genus of > 100 species, including some pathogens, that are primarily anaerobes and can grow in various environments as independent organisms or in community symbioses; they are capable of performing a variety of fermentation pathways. The examined Clostridium isolates grew on ethanol, acetate and bicarbonate, or crotonate and bicarbonate as carbon sources (98, 99). Halomonas is another diverse genus with 102 recognized species as of 2021 that contains classic halophilic bacteria with known salt tolerances up to 25% (100). One of our two Halomonas isolates contained the suite of genes encoding the C-P lyase pathway for methylphosphonate degradation, and produced CH4 when supplied with methylphosphonate as the sole inorganic phosphorus source. These data support the hypothesis that methylphosphonate degradation contributes to the elevated CH4 emissions observed in the unrestored salterns. Methylphosphonate sources were detected with GC-MS, and biogeochemical measurements suggesting severe phosphate limitation further corroborates why this Halomonas sp. would utilize this as a phosphate source in this environment. While there are other organisms in our samples that contain the C-P lyase pathway (such as Roseovarius), we use Halomonas as a case study to clearly demonstrate a specific taxon that a species containing the C-P lyase pathway produced methane and a species that did not contain the C-P lyase pathway did not produce methane.
+
+## Metabolic modeling
+
+The strong association of MPn-consuming organisms with methane emissions was corroborated by numerous experimental and computational observations. First, these organisms were at least as strongly associated with methane emissions as betaine-consuming organisms in both the total dataset (R2 = 0.75 versus 0.38; Spearman rho = 0.73 versus 0.70) and the subset of six unrestored cores (Spearman rho = 0.60), which supports that this association is generalizable to other biogas systems and not specific to our particular system. Second, metabolic models consistently reproduced the rank order of experimental methane emissions, which suggests that the observed correlation is mechanistically sound. The mechanical relationship between MPn metabolism and methane production is that one mole of MPn is stoichiometrically converted into one mole of methane. Third, the high average correlation of all members is attributed to higher metabolic activity of community members when in the regime of producing methane, which may be a generalizable feature of microbial communities. Finally, the metabolic models only parameterized the relative abundances of each member and trace consumption of methylphosphonate, which suggests that these observations are natural outcomes of the metabolism and not forced behaviors during optimization.
+
+The high proportion of unassigned reads in all samples – 88% in SF2, 89% in R2A, 58% in R2, and 47% in R1 – introduces substantial ambiguity about how much real biological signal is captured in the metabolic models. The relatively well-defined community structures of the unrestored systems encourages that the described insights into the unrestored metabolism are biologically accurate. The assigned reads also match to known organisms, which suggests that the main community members contribute to the modeled phenomena.
+
+The content is technically correct, but the original paragraph was very concise and somewhat unclear. I therefore added some transitional phrases and slightly rephrased some of the sentences to improve flow and clarity while preserving the original meaning.
+
+# Conclusions
+
+Unrestored salterns have distinct microbiomes, metabolomes, and metabolic networks compared to restored or reference wetlands, specifically including elevated CH4 emissions which were hereto mechanistically not understood. Our study illuminated several mechanisms for CH4 emissions – metabolizing betaine or methylated compounds, and acetoclastic and hydrogenotrophic archaeal methanogenesis – although methylphosphonate degradation by halophilic aerobic bacteria such as Halomonas appears to be the most corroborated conclusion from multiple perspectives.
+
+Firstly, the substrate addition experiments revealed that MPn acid generated significantly greater methane than the dimethyl MPn. This is surprising since dimethyl MPn was more abundant in the sample and contains three times more methyl groups. Secondly, the observed methane emissions were most correlated with the abundances of methylphosphonate-consuming microbes, more so than with the abundances of betaine-consuming microbes, which was our second hypothesized methanogenic substrate. If the methane originates from methylphosphonate, it is sensible for the biomass of these organisms to be correlated with methane emissions because, in this very phosphorous-limited environment, organisms who possess the ability to scavenge phosphate sources like methylphosphonate would grow more biomass and consequently emit methane during demethylation. Thirdly, metabolic models reproduced methane emissions from trace amounts of methylphosphonate in near stoichiometric equivalence, supporting the experimental findings. The metabolic models systematically underestimated the quantity of methane emitted, which suggests that metabolizing methylphosphonate catalyzes other pathways of methane production that contribute as much or more methane than demethylating methylphosphonate per se. It is unclear if dimethyl methylphosphonate contributes here, where its consumption is triggered by methylphosphonate, or if there are cross-feeding community effects that we did not capture. This accelerated metabolism seems to explain the increased CO2 emissions during the methylphosphonate substrate addition experiment. Finally, our previous work by Zhou et al. (2021) revealed a significant correlation between the abundance of C-P lyase genes for methylphosphonate degradation and with methane emissions. If methylphosphonate were the source of methane emission, the organisms utilizing these genes would be expected to grow more and thus their genes would be expected to be more abundant. 
+
+We therefore propose methylphosphonate as the primary source of methane in the hypersaline unrestored salterns. The C-P lyase pathway in aerobic halotolerant bacteria appears to be the precise mechanism. This project improves our understanding of microbiology and biogeochemistry in saline environments, and moreover underscores the importance of combining field measurements, lab experiments, and computational modeling to rigorously study biogeochemical systems.
+
+# Data Availability
+
+Metagenomic data is available on IMG/M and NCBI SRA. The accessions are provided in Table S4. Code for downstream data analysis as well as data needed to run the analyses, are available on Zenodo (doi…). The metabolic modeling code and associated data files are stored in this public GitHub repository: https://github.com/HenryLabResearch/Salterns.  
+
+# Acknowledgments
+
+We thank Jonas Karosas and Brad Erkkila at the Yale Analytical and Stable Isotope Center for analyzing greenhouse gases from the substrate addition experiment. We thank the staff at EMSL for help with the metabolomics work, including Karl Weitz and Nikola Tolic. The work (10.46936/10.25585/60000820) conducted by the U.S. Department of Energy Joint Genome Institute (https://ror.org/04xm1d337), a DOE Office of Science User Facility, is supported by the Office of Science of the U.S. Department of Energy operated under Contract No. DE-AC02-05CH11231. A portion of this research was performed on a project award (10.46936/lser.proj.2019.50789/60000101) from the Environmental Molecular Sciences Laboratory, a DOE Office of Science User Facility sponsored by the Biological and Environmental Research program under Contract No. DE-AC05-76RL01830.
+
+# Figures and Tables
+
+**Table 1. Substrates used in the microcosm incubations and their concentrations. Final concentration does not take into account the potential amount of substrate present in the environmental samples. Less MPn-Acid, Dimethyl-MPn, and DMS were added compared to other substrates due to concerns about toxicity. Concentrations added are consistent with the literature.**
+
+Oxygen
+
+Substrate
+
+Millimoles Added
+
+Final Concentration
+
+Aerobic
+
+Control
+
+NA
+
+10 mL DI water
+
+MPn-Acid
+
+0.001
+
+100 µM
+
+Dimethyl-MPn
+
+0.001
+
+100 µM
+
+Anaerobic
+
+Control
+
+NA
+
+10 mL DI water
+
+TMA
+
+1
+
+50 mM
+
+DMA
+
+1
+
+50 mM
+
+MMA
+
+1
+
+50 mM
+
+MeOH
+
+1
+
+50 mM
+
+DMS
+
+0.1
+
+5 mM
+
+Glycine betaine
+
+1
+
+50 mM
+
+Acetate
+
+1
+
+50 mM
+
+Formate
+
+1
+
+50 mM
+
+**Table 2. Results of repeated-measures Type III ANOVA models testing for the effects of time, substrate, and their interaction on CH4, CO2, and N2O production in two different oxygen environments.**
+
+Oxygen
+
+Gas
+
+Variable
+
+χ2
+
+P
+
+Sig.
+
+Aerobic
+
+CH4
+
+Time
+
+20.41
+
+< 0.001
+
+***
+
+Substrate
+
+1.18
+
+0.55
+
+Time:Substrate
+
+2.04
+
+0.36
+
+CO2
+
+Time
+
+34.23
+
+< 0.001
+
+***
+
+Substrate
+
+1.24
+
+0.54
+
+Time:Substrate
+
+5.73
+
+0.057
+
+N2O
+
+Time
+
+6.27
+
+0.012
+
+**
+
+Substrate
+
+0.41
+
+0.81
+
+Time:Substrate
+
+23.96
+
+< 0.001
+
+***
+
+Anaerobic
+
+CH4
+
+Time
+
+129.73
+
+< 0.001
+
+***
+
+Substrate
+
+11.77
+
+0.162
+
+Time:Substrate
+
+60.85
+
+< 0.001
+
+***
+
+CO2
+
+Time
+
+61.53
+
+< 0.001
+
+***
+
+Substrate
+
+5.28
+
+0.73
+
+Time:Substrate
+
+78.04
+
+< 0.001
+
+***
+
+N2O
+
+Time
+
+0.3
+
+0.59
+
+Substrate
+
+13.2
+
+0.105
+
+Time:Substrate
+
+1259.41
+
+< 0.001
+
+***
+
+**Table 3. The percent of total biomass that each family comprises in the unrestored, restored, and reference (natural) wetlands.  These percentages were computed after removing the unbinned reads, which constituted 68%, 89%, and 89% of the total abundance in each sample type, respectively. **
+
+GTDB-Tk Family
+
+Unrestored total
+
+Restored total
+
+ Reference total
+
+Rhodobacteraceae
+
+0.205579
+
+0.023704
+
+0.008131
+
+Balneolaceae
+
+0.112063
+
+0.001370
+
+0.085078
+
+Wenzhouxiangellaceae
+
+0.096556
+
+0.001906
+
+0.000975
+
+undetermined
+
+0.081655
+
+0.169926
+
+0.165546
+
+Saprospiraceae
+
+0.075393
+
+0.000535
+
+0.000266
+
+Woeseiaceae
+
+0.032407
+
+0.019029
+
+0.005789
+
+UBA12077
+
+0.031803
+
+0.000287
+
+0.000523
+
+Sediminispirochaetaceae
+
+0.027220
+
+0.000319
+
+0.000519
+
+Flavobacteriaceae
+
+0.025992
+
+0.063411
+
+0.019261
+
+Oleiphilaceae
+
+0.023174
+
+0.001592
+
+0.000722
+
+**Figure 1. Relative abundances of genes (z-score transformed DESeq2 normalized counts) involved in the cycling of various methylated compounds. The heatmap is clustered by sample (columns) with Ward’s D2, which cleanly separates them by restoration type. Rows are sorted by compound. TMA = trimethylamine, MMA = monomethylamine, GB = glycine betaine, DMS = dimethyl sulfide, MMPA = methylthiopropanoate, DMSP = dimethylsulfoniopropionate. Rows are annotated by the compound ID, the type of process the gene is involved in, and whether the gene abundance is significantly different among the three restoration statuses based on a Kruskal-Wallis (“KW”) test with FDR p-value correction. Sample R2_A_D2 appears to be an outlier in these gene abundances; however, CH4 emissions for core R2_A were intermediate among the unrestored samples.**
+
+**Figure 2. Concentrations of metabolites (z-score transformed µM) as measured by NMR. The heatmap is clustered by both row (metabolites) and column (samples). Columns are annotated by their restoration status, while rows are annotated by whether they are significantly different between reference and restored sites (black = Wilcoxon test, PFDR < 0.05, gray = Wilcoxon test PFDR > 0.05, white = present in less than 3 samples and not tested). The one restored sample was not analyzed statistically.**
+
+**Figure 3. Correlations between metabolites and methane flux. Correlations were run with 3 different types of coefficient calculations and p-values were corrected with FDR (Pfdr). The metabolites tested and shown here were each present in at least 3 samples. Note that methylphosphonic acid and dimethylmethylphosphonate are not shown here because concentrations were not quantified; however, both were detected in all analyzed samples. Methylphosphonic acid was detected only at trace levels.**
+
+**Figure 4. Aerobic (left column) and anaerobic (right column) substrate addition experiment results for CH4 (a) and (b), CO2 (c) and (d), and N2O (e) and (f). Shown is the cumulative amount of each gas produced over time (mean ± SE), calculated every 2 days. Aerobic substrates were methylphosphonic acid, dimethyl methylphosphonate, and controls, while anaerobic substrates were TMA, DMA, MMA, Methanol, GB, DMS, acetate, formate and controls. Note that the scale of the y-axes varies among the panels.**
+
+**Figure 5. Phylogenetic tree and presence of methylphosphonate transport and degradation genes for the two Halomonas isolates and 50 closely related reference genomes. The phylogenetic tree was made from a concatenated alignment of 49 single copy clusters of orthologous genes.**
+
+**Figure 6. Growth (OD600) and net CH4 production (g) in 48 hours by two Halomonas isolates in three different media. “Phosphate” = unaltered marine broth 2216 (Difco) which contains disodium phosphate, “MPn” = marine broth 2216 with disodium phosphate replaced by methylphosphonate as a source of phosphorus, “No P” = marine broth 2216 with no inorganic phosphorus source (but still contains organic phosphorus in yeast extract and peptone).**
+
+**Figure 7. Assessing methylphosphonate and betaine metabolisms as potentially explaining the experimental methane emissions through linear regressions of data and metabolic modeling results.  a) Experimentally observed methane emissions in each sample versus the simulated methane emissions of methylphosphonate-consuming and betaine-consuming organisms in metabolic modeling weighted by their relative abundances in each sample.  The betaine predictions are colored blue while the methylphosphonate predictions are colored orange.  The predicted methylphosphonate-derived methane both correlates much higher to experimental emissions than the betaine-derived methane (according to both Pearson and Spearman correlations) and better quantitatively replicates the experimental methane in its fitted equation.  b)  Experimentally observed methane emissions versus the relative abundances of methylphosphonate-consuming and betaine-consuming organisms in each sample.  The outcome of the comparison is similar here, where methylphosphonate-consumers better explain the experimental methane flux in every metric.  **
+
+**Figure 8.  Co-occurrence networks that explore the relationships between the community members based on their relative abundance trends through the various samples.  a) Co-occurrence network of mean relative abundance for organisms with presence (≥ 1e-5 relative abundance) in ≥ 3 experimental sites (R1, R2, R2A, SF2). Edges are inferred via graphical lasso (an L1-regularized inverse-covariance/precision matrix with the regularization strength chosen by cross-validation) fit on within-condition residuals, with surviving pairs additionally filtered by |partial r| > 0.05. Because the precision matrix conditions every pair on all other taxa simultaneously, the retained edges represent direct conditional dependencies rather than marginal co-occurrence — the L1 sparsity prior automatically discards indirect, transitive couplings that a Pearson or Spearman matrix would otherwise propagate. Node size encodes mean relative abundance, and edge color encodes the partial correlation (red = direct anticorrelation/niche partitioning, blue = direct positive coupling). Although the network appears well interconnected, Louvain community detection on the precision graph — rendered with a per-community spring layout — resolves 6 discrete sub-communities that appear to be significant functional guilds in this system. Two inferences follow: (i) the negative partial-correlation edges, especially between high-abundance taxa, are consistent with active niche partitioning or direct competitive exclusion; and (ii) betaine consumers (Acidaminobacteraceae, Halanaerobiales, UBA8670) and MePn consumers (Phaeodactylibacter, Salinarimonas) are retained as nodes whose direct couplings to non-consumer taxa are consistent with mutually reinforcing methanogenic interactions rather than incidental co-abundance, while the dropout of Roseovarius and other primary methylphosphonate consumers under L1 sparsification suggests their broad marginal correlations were largely transitive — driven through shared partners rather than direct interaction.   b)**
+
+**Figure S1. Photo of unrestored saltern R2 in California, USA, which is characterized by a layer of solid salt crystals covered by water.**
+
+**Figure S2. Summary plot for Over Representation Analysis (ORA) of the quantitative NMR metabolomic data, also known as Enrichment Analysis, performed by MetaboAnalyst.**
+
+**Figure S3. Principal component analysis of µM concentrations of 46 metabolites as assessed with NMR for (a) unrestored salterns (n = 12), reference wetland (n = 6), and restored saltern (n = 1) sediments, and (b) same analysis but with the one restored saltern sample removed. Note the scale of the axes differs among the two panels.**
+
+**Figure S4. Heatmap of Spearman correlation coefficients between metabolite abundances from NMR and gene abundances from shotgun metagenomics for genes involved in methanogenesis. The heatmap is clustered by metabolites.**
+
+**Figure S5. Total gas production by day 14 of the substrate incubation experiment for aerobic (left column, panels a, c and e) and anaerobic (right column, panels b, d, and f) oxygen conditions. Points are the raw data and lines are the means for each substrate. Different letters denote significant pairwise differences (Tukey posthoc, p < 0.05). N = 3 in all treatments but TMA, which lost 1 replicate during methods testing. DM-MPn = dimethyl methylphosphonate, MPn-Acid = methylphosphonic acid, Ac. = acetate, Form. = formate, DMS = dimethyl sulfide, MeOH = methanol, Bet. = glycine betaine, TMA = trimethylamine, DMA = dimethylamine, MMA = monomethylamine.**
+
+**Figure S6. Relative abundance (%) of cultured genera in 16S rRNA gene data (top row) and metagenomic data (bottom row). Metagenomic abundances were computed by the IMG/M pipeline by using lastal to map contigs to the IMG reference database. 16S rRNA gene reads were analyzed with the iTagger pipeline (101), with taxonomy based on the Greengenes reference database (102).**
+
+**Figure S7. Experimental relationship between soil DNA density and the methane emissions of each sample. The DNA densities at depths D1 and D2 were merged into a single DNA density per sample, to match the single methane emission per sample, according to their respective volumes:  ⅓ D1 and ⅔ D2.  The modest correlation of methane emission to DNA density in the soil supports that methane emission is proportional to total community biomass and therefore, most importantly, that methane emission is growth associated.  This further supports the methylphosphonate hypothesis as the source of methane since this compound is a vital source of phosphate for some members of the community.**
+
+**Figure S8. Correlation of total experimental abundances of methylphosphonate-consuming and betaine-consuming organisms, respectively, and methane emissions from each sample. **
+
+**ne of the highest correlations among all organisms, supports from the raw data that methylphosphonate consumption is more likely involved in methane production than betaine consumption.**
+
+**Figure S9. Comparison of CH4 production rates in the microcosm incubation experiments performed here and published by Zhou et al. (2021). Negative values represent net consumption.**
+
+**Figure S10.  The reactions needed to be gapfilled into each respective a) methylphosphonate or b) betaine consumer on each of the respective carbon sources. Only anaerobic and aerobic media are included in the figure to maintain readability of the most reasonable media.  The red boxed column is the aerobic L-Lactate media used for simulation of the metabolic models.  L-Lactate was selected because it required among the fewest reactions to be gapfilled in both sets of organisms and is a simple sugar that leads to a relatively clean metabolic profile.**
+
+**Figure S11: Co-variation clustered heatmap of prevalent taxa across the samples. The relative abundances were averaged between the two sample depths with weighting of their respective DNA densities. Taxa whose relative abundances were below 1e-5 in more than half of the samples (12 after the depth averaging) were filtered to only consider the taxa for which there was sufficient data to describe with the relative abundance data.  The relative abundance data of the remaining taxa were transformed with the centered log ratio (CLR) to correct for the scale of the data, where zeros are simply below detection.  The relationships among these taxa were then isolated by subtracting per-condition average abundances to remove indirect relationships.   Pearson correlations are then determined for all pairs.  Pairs whose correlations exceed  are denoted with a green asterisk inside their cell.  Methylphosphonate consumers and betaine consumers are further highlighted with red and blue, respectively, labels and boxed rows/columns to emphasize their particular relationships in the community.**
+
+Table S1. List of KOs involved in methylated compound cycling that were analyzed in this study.
+
+Table S2. Table of reactions and compounds in MetaCyc that produce or consume each metabolite, and pathways each metabolite is involved in. All metabolites were present in MetaCyc except for dimethyl methylphosphonate. The list of metabolites was imported as a SmartTable and then transformed with SmartTable functions on BioCyc.
+
+Table S3. Table of isolate cultures from unrestored salterns R1 and R2, showing the taxonomy of the top BLAST hits and % identity.
+
+Table S4. Metadata, including IMG/M and NCBI accessions, for the 24 metagenomes in this study.
+
+# References
+
+1. Shu W-S, Huang L-N. 2022. Microbial diversity in extreme environments. 4. Nat Rev Microbiol 20:219–235. 
+
+2. Oren A. 2013. Life at High Salt Concentrations, p. 421–440. In Rosenberg, E, DeLong, EF, Lory, S, Stackebrandt, E, Thompson, F (eds.), The Prokaryotes: Prokaryotic Communities and Ecophysiology. Springer, Berlin, Heidelberg. 
+
+3. Safarpour A, Amoozegar MA, Ventosa A. 2018. Hypersaline Environments of Iran: Prokaryotic Biodiversity and Their Potentials in Microbial Biotechnology, p. 265–298. In Egamberdieva, D, Birkeland, N-K, Panosyan, H, Li, W-J (eds.), Extremophiles in Eurasian Ecosystems: Ecology, Diversity, and Applications. Springer, Singapore. 
+
+4. Oren A. 2009. Saltern evaporation ponds as model systems for the study of primary production processes under hypersaline conditions. Aquat Microb Ecol 56:193–204. 
+
+5. Safdar H, Amin A, Shafiq Y, Ali A, Yasin R, Sarwar MI. 2019. A review: Impact of salinity on plant growth. Nat Sci 17:34–40. 
+
+6. Dragone NB, Diaz MA, Hogg ID, Lyons WB, Jackson WA, Wall DH, Adams BJ, Fierer N. 2021. Exploring the Boundaries of Microbial Habitability in Soil. J Geophys Res Biogeosciences 126:e2020JG006052. 
+
+7. Oren A. 1999. Bioenergetic Aspects of Halophilism. Microbiol Mol Biol Rev 63:334–348. 
+
+8. Lozupone CA, Knight R. 2007. Global patterns in bacterial diversity. Proc Natl Acad Sci 104:11436–11440. 
+
+9. Oren A. 2013. Life at high salt concentrations, intracellular KCl concentrations, and acidic proteomes. Front Microbiol 0. 
+
+10. Elevi Bardavid R, Oren A. 2012. Acid-shifted isoelectric point profiles of the proteins in a hypersaline microbial mat: an adaptation to life at high salt concentrations? Extremophiles 16:787–792. 
+
+11. Sorokin DY, Merkel AY, Abbas B, Makarova KS, Rijpstra WIC, Koenen M, Sinninghe Damsté JS, Galinski EA, Koonin EV, van Loosdrecht MCMY 2018. 2017. Methanonatronarchaeum thermophilum gen. nov., sp. nov. and “Candidatus Methanohalarchaeum thermophilum”, extremely halo(natrono)philic methyl-reducing methanogens from hypersaline lakes comprising a new euryarchaeal class Methanonatronarchaeia classis nov. Int J Syst Evol Microbiol 68:2199–2208. 
+
+12. Gunde-Cimerman N, Plemenitaš A, Oren A. 2018. Strategies of adaptation of microorganisms of the three domains of life to high salt concentrations. FEMS Microbiol Rev 42:353–375. 
+
+13. Ventosa A, Nieto JJ, Oren A. 1998. Biology of Moderately Halophilic Aerobic Bacteria. Microbiol Mol Biol Rev 62:504–544. 
+
+14. Roberts MF. 2005. Organic compatible solutes of halotolerant and halophilic microorganisms. Saline Syst 1:5. 
+
+15. Mcgenity T, Sorokin D. 2018. Methanogens and Methanogenesis in Hypersaline Environments, p. 1–27. In Biogenesis of Hydrocarbons. Springer International Publishing. 
+
+16. Jeffries TC, Seymour JR, Newton K, Smith RJ, Seuront L, Mitchell JG. 2012. Increases in the abundance of microbial genes encoding halotolerance and photosynthesis along a sediment salinity gradient. Biogeosciences 9:815–825. 
+
+17. Oren A. 2001. The bioenergetic basis for the decrease in metabolic diversity at increasing salt concentrations: implications for the functioning of salt lake ecosystems, p. 61–72. In Melack, JM, Jellison, R, Herbst, DB (eds.), Saline Lakes. Springer Netherlands, Dordrecht. 
+
+18. Jellison R, Melack JM. 2001. Nitrogen limitation and particulate elemental ratios of seston in hypersaline Mono Lake, California, U.S.A., p. 1–12. In Melack, JM, Jellison, R, Herbst, DB (eds.), Saline Lakes. Springer Netherlands, Dordrecht. 
+
+19. Smith SV, Veeh HH. 1989. Mass balance of biogeochemically active materials (C, N, P) in a hypersaline gulf. Estuar Coast Shelf Sci 29:195–215. 
+
+20. Cotner JB, Suplee MW, Chen NW, Shormann DE. 2004. Nutrient, sulfur and carbon dynamics in a hypersaline lagoon. Estuar Coast Shelf Sci 59:639–652. 
+
+21. Ludwig R, Pringault O, de Wit R, de Beer D, Jonkers HM. 2006. Limitation of oxygenic photosynthesis and oxygen consumption by phosphate and organic nitrogen in a hypersaline microbial mat: a microsensor study. FEMS Microbiol Ecol 57:9–17. 
+
+22. Oren A. 1990. Formation and breakdown of glycine betaine and trimethylamine in hypersaline environments. Antonie Van Leeuwenhoek 58:291–298. 
+
+23. Ticak T, Hariraju D, Arcelay MB, Arivett BA, Fiester SE, Ferguson DJ. 2015. Isolation and characterization of a tetramethylammonium-degrading Methanococcoides strain and a novel glycine betaine-utilizing Methanolobus strain. Arch Microbiol 197:197–209. 
+
+24. Creighbaum AJ, Ticak T, Shinde S, Wang X, Ferguson DJJ. 2019. Examination of the Glycine Betaine-Dependent Methylotrophic Methanogenesis Pathway: Insights Into Anaerobic Quaternary Amine Methylotrophy. Front Microbiol 10. 
+
+25. Karp PD, Billington R, Caspi R, Fulcher CA, Latendresse M, Kothari A, Keseler IM, Krummenacker M, Midford PE, Ong Q, Ong WK, Paley SM, Subhraveti P. 2019. The BioCyc collection of microbial genomes and metabolic pathways. Brief Bioinform 20:1085–1093. 
+
+26. Mitchell AD, Chappell A, Knox KL. 1979. Metabolism of Betaine in the Ruminant. J Anim Sci 49:764–774. 
+
+27. Elbein AD, Pan YT, Pastuszak I, Carroll D. 2003. New insights on trehalose: a multifunctional molecule. Glycobiology 13:17R-27R. 
+
+28. Argüelles JC. 2000. Physiological roles of trehalose in bacteria and yeasts: a comparative analysis. Arch Microbiol 174:217–224. 
+
+29. Lay C-Y, Mykytczuk NCS, Yergeau Ï, Lamarche-Gagnon G, Greer CW, Whyte LG. 2013. Defining the Functional Potential and Active Community Members of a Sediment Microbial Community in a High-Arctic Hypersaline Subzero Spring. Appl Environ Microbiol 79:3637–3648. 
+
+30. Ghai R, Pašić L, Fernández AB, Martin-Cuadrado A-B, Mizuno CM, McMahon KD, Papke RT, Stepanauskas R, Rodriguez-Brito B, Rohwer F, Sánchez-Porro C, Ventosa A, Rodríguez-Valera F. 2011. New Abundant Microbial Groups in Aquatic Hypersaline Environments. 1. Sci Rep 1:135. 
+
+31. Poffenbarger HJ, Needelman BA, Megonigal JP. 2011. Salinity influence on methane emissions from tidal marshes. Wetlands 31:831–842. 
+
+32. Al-Haj AN, Fulweiler RW. 2020. A synthesis of methane emissions from shallow vegetated coastal ecosystems. Glob Change Biol 26:2988–3005. 
+
+33. Bartlett KB, Bartlett DS, Harriss RC, Sebacher DI. 1987. Methane emissions along a salt marsh salinity gradient. Biogeochemistry 4:183–202. 
+
+34. Zhou J, Theroux SM, Bueno de Mesquita CP, Hartman WH, Tringe SG. 2021. Microbial drivers of methane emissions from unrestored industrial salt ponds. ISME J 16:284–295. 
+
+35. Sørensen K, Řeháková K, Zapomělová E, Oren A. 2009. Distribution of benthic phototrophs, sulfate reducers, and methanogens in two adjacent saltern evaporation ponds in Eilat, Israel. Aquat Microb Ecol 56:275–284. 
+
+36. Oren A. 2014. Taxonomy of halophilic Archaea: current status and future challenges. Extremophiles 18:825–834. 
+
+37. Sorokin DY. 2021. Microbial Utilization of Glycine Betain in Hypersaline Soda Lakes. Microbiology 90:569–577. 
+
+38. Conrad R. 2020. Importance of hydrogenotrophic, aceticlastic and methylotrophic methanogenesis for methane production in terrestrial, aquatic and other anoxic environments: A mini review. Pedosphere 30:25–39. 
+
+39. Karl DM, Beversdorf L, Björkman KM, Church MJ, Martinez A, Delong EF. 2008. Aerobic production of methane in the sea. 7. Nat Geosci 1:473–478. 
+
+40. del Valle D, Karl D. 2014. Aerobic production of methane from dissolved water-column methylphosphonate and sinking particles in the North Pacific Subtropical Gyre. Aquat Microb Ecol 73:93–105. 
+
+41. Martínez A, Ventouras L-A, Wilson ST, Karl DM, Delong EF. 2013. Metatranscriptomic and functional metagenomic analysis of methylphosphonate utilization by marine bacteria. Front Microbiol 4:340. 
+
+42. Repeta DJ, Ferrón S, Sosa OA, Johnson CG, Repeta LD, Acker M, DeLong EF, Karl DM. 2016. Marine methane paradox explained by bacterial degradation of dissolved organic matter. 12. Nat Geosci 9:884–887. 
+
+43. Metcalf WW, Griffin BM, Cicchillo RM, Gao J, Janga SC, Cooke HA, Circello BT, Evans BS, Martens-Habbena W, Stahl DA, Donk WA van der. 2012. Synthesis of methylphosphonic acid by marine microbes: a source for methane in the aerobic ocean. Science 337:1104–1107. 
+
+44. Bueno de Mesquita CP, Zhou J, Theroux S, Tringe SG. 2022. Methylphosphonate Degradation and Salt-Tolerance Genes of Two Novel Halophilic Marivita Metagenome-Assembled Genomes from Unrestored Solar Salterns. 1. Genes 13:148. 
+
+45. Dugan HA, Summers JC, Skaff NK, Krivak-Tetley FE, Doubek JP, Burke SM, Bartlett SL, Arvola L, Jarjanazi H, Korponai J, Kleeberg A, Monet G, Monteith D, Moore K, Rogora M, Hanson PC, Weathers KC. 2017. Long-term chloride concentrations in North American and European freshwater lakes. 1. Sci Data 4:170101. 
+
+46. Li D, Liu C-M, Luo R, Sadakane K, Lam T-W. 2015. MEGAHIT: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de Bruijn graph. Bioinforma Oxf Engl 31:1674–1676. 
+
+47. Chen I-MA, Chu K, Palaniappan K, Ratner A, Huang J, Huntemann M, Hajek P, Ritter S, Varghese N, Seshadri R, Roux S, Woyke T, Eloe-Fadrosh EA, Ivanova NN, Kyrpides NC. 2021. The IMG/M data management and analysis system v.6.0: new tools and advanced capabilities. Nucleic Acids Res 49:D751–D763. 
+
+48. Love MI, Huber W, Anders S. 2014. Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biol 15:550. 
+
+49. Sun J, Mausz MA, Chen Y, Giovannoni SJ. 2019. Microbial trimethylamine metabolism in marine environments. Environ Microbiol 21:513–520. 
+
+50. Chen Y. 2012. Comparative genomics of methylated amine utilization by marine Roseobacter clade bacteria and development of functional gene markers (tmm, gmaS). Environ Microbiol 14:2308–2322. 
+
+51. Arkin AP, Cottingham RW, Henry CS, Harris NL, Stevens RL, Maslov S, Dehal P, Ware D, Perez F, Canon S, Sneddon MW, Henderson ML, Riehl WJ, Murphy-Olson D, Chan SY, Kamimura RT, Kumari S, Drake MM, Brettin TS, Glass EM, Chivian D, Gunter D, Weston DJ, Allen BH, Baumohl J, Best AA, Bowen B, Brenner SE, Bun CC, Chandonia J-M, Chia J-M, Colasanti R, Conrad N, Davis JJ, Davison BH, DeJongh M, Devoid S, Dietrich E, Dubchak I, Edirisinghe JN, Fang G, Faria JP, Frybarger PM, Gerlach W, Gerstein M, Greiner A, Gurtowski J, Haun HL, He F, Jain R, Joachimiak MP, Keegan KP, Kondo S, Kumar V, Land ML, Meyer F, Mills M, Novichkov PS, Oh T, Olsen GJ, Olson R, Parrello B, Pasternak S, Pearson E, Poon SS, Price GA, Ramakrishnan S, Ranjan P, Ronald PC, Schatz MC, Seaver SMD, Shukla M, Sutormin RA, Syed MH, Thomason J, Tintle NL, Wang D, Xia F, Yoo H, Yoo S, Yu D. 2018. KBase: The United States Department of Energy Systems Biology Knowledgebase. 7. Nat Biotechnol 36:566–569. 
+
+52. Allen BH, Gupta N, Edirisinghe JN, Faria JP, Henry CS. 2022. Application of the Metabolic Modeling Pipeline in KBase to Categorize Reactions, Predict Essential Genes, and Predict Pathways in an Isolate Genome, p. 291–320. In Navid, A (ed.), Microbial Systems Biology: Methods and Protocols. Springer US, New York, NY. 
+
+53. Aziz RK, Bartels D, Best AA, DeJongh M, Disz T, Edwards RA, Formsma K, Gerdes S, Glass EM, Kubal M, Meyer F, Olsen GJ, Olson R, Osterman AL, Overbeek RA, McNeil LK, Paarmann D, Paczian T, Parrello B, Pusch GD, Reich C, Stevens R, Vassieva O, Vonstein V, Wilke A, Zagnitko O. 2008. The RAST Server: Rapid Annotations using Subsystems Technology. BMC Genomics 9:75. 
+
+54. Lai M-C, Hong T-Y, Gunsalus RP. 2000. Glycine Betaine Transport in the Obligate Halophilic Archaeon Methanohalophilus portucalensis. J Bacteriol 182:5020–5024. 
+
+55. Oren A, Gurevich P. 1994. Production of d-lactate, acetate, and pyruvate from glycerol in communities of halophilic archaea in the Dead Sea and in saltern crystallizer ponds. FEMS Microbiol Ecol 14:147–155. 
+
+56. Oren A. 2015. Pyruvate: A key Nutrient in Hypersaline Environments? Microorganisms 3:407–416. 
+
+57. Covey KR, de Mesquita CPB, Oberle B, Maynard DS, Bettigole C, Crowther TW, Duguid MC, Steven B, Zanne AE, Lapin M, Ashton MS, Oliver CD, Lee X, Bradford MA. 2016. Greenhouse trace gases in deadwood. Biogeochemistry 130:215–226. 
+
+58. Bueno de Mesquita CP, Zhou J, Theroux SM, Tringe SG. 2021. Methanogenesis and salt tolerance genes of a novel halophilic Methanosarcinaceae metagenome-assembled genome from a former solar saltern. Genes 12:1609. 
+
+59. Chen S-C, Huang H-H, Lai M-C, Weng C-Y, Chiu H-H, Tang S-L, Rogozin DY, Degermendzhy AG. 2018. Methanolobus psychrotolerans sp. nov., a psychrotolerant methanoarchaeon isolated from a saline meromictic lake in Siberia. Int J Syst Evol Microbiol 68:1378–1383. 
+
+60. Shen Y, Chen S-C, Lai M-C, Huang H-H, Chiu H-H, Tang S-L, Rogozin DY, Degermendzhy AG. 2020. Methanolobus halotolerans sp. nov., isolated from the saline Lake Tus in Siberia. Int J Syst Evol Microbiol 70:5586–5593. 
+
+61. Wu S-Y, Lai M-C. 2011. Methanogenic Archaea Isolated from Taiwan’s Chelungpu Fault. Appl Environ Microbiol 77:830–838. 
+
+62. Angel R, Claus P, Conrad R. 2012. Methanogenic archaea are globally ubiquitous in aerated soils and become active under wet anoxic conditions. 4. ISME J 6:847–862. 
+
+63. Kearse M, Moir R, Wilson A, Stones-Havas S, Cheung M, Sturrock S, Buxton S, Cooper A, Markowitz S, Duran C, Thierer T, Ashton B, Meintjes P, Drummond A. 2012. Geneious Basic: An integrated and extendable desktop software platform for the organization and analysis of sequence data. Bioinformatics 28:1647–1649. 
+
+64. Babraham Bioinformatics - FastQC A Quality Control tool for High Throughput Sequence Data. https://www.bioinformatics.babraham.ac.uk/projects/fastqc/. Retrieved 6 July 2023. 
+
+65. Schmieder R, Edwards R. 2011. Quality control and preprocessing of metagenomic datasets. Bioinformatics 27:863–864. 
+
+66. Bankevich A, Nurk S, Antipov D, Gurevich AA, Dvorkin M, Kulikov AS, Lesin VM, Nikolenko SI, Pham S, Prjibelski AD, Pyshkin AV, Sirotkin AV, Vyahhi N, Tesler G, Alekseyev MA, Pevzner PA. 2012. SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing. J Comput Biol 19:455–477. 
+
+67. Parks DH, Imelfort M, Skennerton CT, Hugenholtz P, Tyson GW. 2015. CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes. Genome Res 25:1043–1055. 
+
+68. Chaumeil P-A, Mussig AJ, Hugenholtz P, Parks DH. 2020. GTDB-Tk: a toolkit to classify genomes with the Genome Taxonomy Database. Bioinformatics 36:1925–1927. 
+
+69. Kanehisa M, Sato Y, Morishima K. 2016. BlastKOALA and GhostKOALA: KEGG Tools for Functional Characterization of Genome and Metagenome Sequences. J Mol Biol 428:726–731. 
+
+70. R Core Team. 2023. R: A Language and Environment for Statistical Computing. https://www.R-project.org/. 
+
+71. Pang Z, Chong J, Zhou G, de Lima Morais DA, Chang L, Barrette M, Gauthier C, Jacques P-É, Li S, Xia J. 2021. MetaboAnalyst 5.0: narrowing the gap between raw spectra and functional insights. Nucleic Acids Res 49:W388–W396. 
+
+72. Kolde R. pheatmap: Pretty Heatmaps. R package version 1.0.12. https://CRAN.R-project.org/package=pheatmap. 2019. (R package version 1.0.12). R. 
+
+73. Bates D, Mächler M, Bolker BM, Walker SC. 2015. Fitting linear mixed-effects models using lme4. J Stat Softw 67:1–48. 
+
+74. Fox J, Weisberg S. 2018. An R Companion to Applied Regression, 3rd ed. SAGE Publications, Thousand Oaks, CA. 
+
+75. Lenth RV. 2021. emmeans: Estimated Marginal Means, aka Least-Squares Means (R package version 1.7.0). R. 
+
+76. Hartman WH, Bueno de Mesquita CP, Theroux SM, Morgan-Lang C, Baldocchi DD, Tringe SG. 2024. Multiple microbial guilds mediate soil methane cycling along a wetland salinity gradient. mSystems e00936-23. 
+
+77. Sosa OA, Repeta DJ, DeLong EF, Ashkezari MD, Karl DM. 2019. Phosphate-limited ocean regions select for bacterial populations enriched in the carbon–phosphorus lyase pathway for phosphonate degradation. Environ Microbiol 21:2402–2414. 
+
+78. Li G-W, Zhang X-Y, Wang C-S, Zhang Y-J, Xu X-W, Liu C, Li H, Liu A, Xu Z, Song X-Y, Chen X-L, Zhou B-C, Zhang Y-Z. 2013. Albimonas pacifica sp. nov., isolated from seawater of the Pacific, and emended description of the genus Albimonas. Int J Syst Evol Microbiol 63:3597–3601. 
+
+79. Chandra G, Chater KF, Bornemann S 2011. 2011. Unexpected and widespread connections between bacterial glycogen and trehalose metabolism. Microbiology 157:1565–1572. 
+
+80. Sosa OA, Repeta DJ, Ferrón S, Bryant JA, Mende DR, Karl DM, DeLong EF. 2017. Isolation and Characterization of Bacteria That Degrade Phosphonates in Marine Dissolved Organic Matter. Front Microbiol 8. 
+
+81. Zhuang G-C, Elling FJ, Nigro LM, Samarkin V, Joye SB, Teske A, Hinrichs K-U. 2016. Multiple evidence for methylotrophic methanogenesis as the dominant methanogenic pathway in hypersaline sediments from the Orca Basin, Gulf of Mexico. Geochim Cosmochim Acta 187:1–20. 
+
+82. Kiene RP, Oremland RS, Catena A, Miller LG, Capone DG. 1986. Metabolism of Reduced Methylated Sulfur Compounds in Anaerobic Sediments and by a Pure Culture of an Estuarine Methanogen. Appl Environ Microbiol 52:1037–1045. 
+
+83. Lomans BP, Op den Camp HJ, Pol A, van der Drift C, Vogels GD. 1999. Role of methanogens and other bacteria in degradation of dimethyl sulfide and methanethiol in anoxic freshwater sediments. Appl Environ Microbiol 65:2116–2121. 
+
+84. Oremland RS, Marsh L, DesMarais DJ. 1982. Methanogenesis in Big Soda Lake, Nevada: an Alkaline, Moderately Hypersaline Desert Lake. Appl Environ Microbiol 43:462–468. 
+
+85. Oremland RS, Kiene RP, Mathrani I, Whiticar MJ, Boone DR. 1989. Description of an Estuarine Methylotrophic Methanogen Which Grows on Dimethyl Sulfide. Appl Environ Microbiol 55:994–1002. 
+
+86. Guo H, Yu Z, Liu R, Zhang H, Zhong Q, Xiong Z. 2012. Methylotrophic methanogenesis governs the biogenic coal bed methane formation in Eastern Ordos Basin, China. Appl Microbiol Biotechnol 96:1587–1597. 
+
+87. Kim SG, Bae HS, Lee ST. 2001. A novel denitrifying bacterial isolate that degrades trimethylamine both aerobically and anaerobically via two different pathways. Arch Microbiol 176:271–277. 
+
+88. Kim S-G, Bae H-S, Oh H-M, Lee S-T. 2003. Isolation and characterization of novel halotolerant and/or halophilic denitrifying bacteria with versatile metabolic pathways for the degradation of trimethylamine. FEMS Microbiol Lett 225:263–269. 
+
+89. Mustakhimov I, Kalyuzhnaya MG, Lidstrom ME, Chistoserdova L. 2013. Insights into denitrification in Methylotenera mobilis from denitrification pathway and methanol metabolism mutants. J Bacteriol 195:2207–2211. 
+
+90. Kurth JM, Op den Camp HJM, Welte CU. 2020. Several ways one goal—methanogenesis from unconventional substrates. Appl Microbiol Biotechnol 104:6839–6854. 
+
+91. Londry KL, Dawson KG, Grover HD, Summons RE, Bradley AS. 2008. Stable carbon isotope fractionation between substrates and products of Methanosarcina barkeri. Org Geochem 39:608–621. 
+
+92. Torres-Alvarado R, Ramírez-Vives F, Fernández FJ, Barriga-Sosa I. 2005. Methanogenesis and methane oxidation in wetlands: Implications in the global carbon cycle. Hidrobiológica 15:327–349. 
+
+93. Zhang R, Wang S, Wang C, Wang G-Y, Du Z-J 2019. 2019. Marinilabilia rubra sp. nov., isolated from a marine solar saltern. Int J Syst Evol Microbiol 69:914–919. 
+
+94. Shalley S, Pradip Kumar S, Srinivas TNR, Suresh K, Anil Kumar P. 2013. Marinilabilia nitratireducens sp. nov., a lipolytic bacterium of the family Marinilabiliaceae isolated from marine solar saltern. Antonie Van Leeuwenhoek 103:519–525. 
+
+95. Taborda M, Antunes A, Tiago I, Veríssimo A, Nobre MF, da Costa MS. 2009. Description of Idiomarina insulisalsae sp. nov., isolated from the soil of a sea salt evaporation pond, proposal to transfer the species of the genus Pseudidiomarina to the genus Idiomarina and emended description of the genus Idiomarina. Syst Appl Microbiol 32:371–378. 
+
+96. Bowman JP. 2016. Salegentibacter, p. 1–11. In Bergey’s Manual of Systematics of Archaea and Bacteria. John Wiley & Sons, Ltd. 
+
+97. Martínez-Cánovas MJ, Béjar V, Martínez-Checa F, Páez R, Quesada E 2004. 2004. Idiomarina fontislapidosi sp. nov. and Idiomarina ramblicola sp. nov., isolated from inland hypersaline habitats in Spain. Int J Syst Evol Microbiol 54:1793–1797. 
+
+98. Thauer RK, Jungermann K, Henninger H, Wenning J, Decker K. 1968. The Energy Metabolism of Clostridium kluyveri. Eur J Biochem 4:173–180. 
+
+99. Lebrun M, Mainil JG, Linden A. 2010. Cattle enterotoxaemia and Clostridium perfringens : description, diagnosis and prophylaxis. Vet Rec 167:13–22. 
+
+100. Ventosa A, de la Haba RR, Arahal DR, Sánchez-Porro C. 2021. Halomonas, p. 1–111. In Bergey’s Manual of Systematics of Archaea and Bacteria. John Wiley & Sons, Ltd. 
+
+101. Tremblay J, Singh K, Fern A, Kirton ES, He S, Woyke T, Lee J, Chen F, Dangl JL, Tringe SG. 2015. Primer and platform effects on 16S rRNA tag sequencing. Front Microbiol 6. 
+
+102. DeSantis TZ, Hugenholtz P, Larsen N, Rojas M, Brodie EL, Keller K, Huber T, Dalevi D, Hu P, Andersen GL. 2006. Greengenes, a Chimera-Checked 16S rRNA Gene Database and Workbench Compatible with ARB. Appl Environ Microbiol 72:5069–5072.
