@@ -1,0 +1,182 @@
+{
+  "workspace": 77580,
+  "input_ref": "77580/312/1",
+  "jobs": {
+    "checkm": {
+      "app_id": "kb_Msuite/run_checkM_lineage_wf",
+      "job_id": "6ad6ddfb4694a2f6923c6b2b",
+      "params": [
+        {
+          "workspace_name": "cliff_bueno:narrative_1605678421558",
+          "input_ref": "77580/312/1",
+          "reduced_tree": "1",
+          "save_plots_dir": "1",
+          "threads": "4"
+        }
+      ],
+      "submitted_utc": "2026-10-20T03:20:28.020563+00:00"
+    },
+    "gtdbtk_p1": {
+      "app_id": "kb_gtdbtk/run_kb_gtdbtk_classify_wf",
+      "job_id": "6ad809b2b3a2d40340bd8088",
+      "params": [
+        {
+          "workspace_id": 77580,
+          "input_object_ref": "77580/1281/1",
+          "output_tree_basename": "GTDB_Tree",
+          "copy_proximals": "0",
+          "save_trees": "0",
+          "min_perc_aa": 10,
+          "db_ver": "214",
+          "keep_intermediates": "0",
+          "overwrite_tax": "0",
+          "dendrogram_report": "1"
+        }
+      ],
+      "set": "SSFB_Assembly_Set_part1of3",
+      "n_assemblies": 104,
+      "tag": "beta",
+      "service_ver": "5d69c6a6ad6c2b10c965c2af36fccd73c5982e87",
+      "submitted_utc": "2026-10-21T00:39:14.145658+00:00"
+    },
+    "gtdbtk_p2": {
+      "app_id": "kb_gtdbtk/run_kb_gtdbtk_classify_wf",
+      "job_id": "6ad809b2b8737a6617bbffc2",
+      "params": [
+        {
+          "workspace_id": 77580,
+          "input_object_ref": "77580/1282/1",
+          "output_tree_basename": "GTDB_Tree",
+          "copy_proximals": "0",
+          "save_trees": "0",
+          "min_perc_aa": 10,
+          "db_ver": "214",
+          "keep_intermediates": "0",
+          "overwrite_tax": "0",
+          "dendrogram_report": "1"
+        }
+      ],
+      "set": "SSFB_Assembly_Set_part2of3",
+      "n_assemblies": 104,
+      "tag": "beta",
+      "service_ver": "5d69c6a6ad6c2b10c965c2af36fccd73c5982e87",
+      "submitted_utc": "2026-10-21T00:39:14.669400+00:00"
+    },
+    "gtdbtk_p3": {
+      "app_id": "kb_gtdbtk/run_kb_gtdbtk_classify_wf",
+      "job_id": "6ad809b24694a2f6923c6c39",
+      "params": [
+        {
+          "workspace_id": 77580,
+          "input_object_ref": "77580/1283/1",
+          "output_tree_basename": "GTDB_Tree",
+          "copy_proximals": "0",
+          "save_trees": "0",
+          "min_perc_aa": 10,
+          "db_ver": "214",
+          "keep_intermediates": "0",
+          "overwrite_tax": "0",
+          "dendrogram_report": "1"
+        }
+      ],
+      "set": "SSFB_Assembly_Set_part3of3",
+      "n_assemblies": 102,
+      "tag": "beta",
+      "service_ver": "5d69c6a6ad6c2b10c965c2af36fccd73c5982e87",
+      "submitted_utc": "2026-10-21T00:39:14.909024+00:00"
+    }
+  },
+  "failed": [
+    {
+      "app_id": "kb_gtdbtk/run_kb_gtdbtk_classify_wf",
+      "job_id": "6ad6ddfbd5afcc4c33882529",
+      "params": [
+        {
+          "workspace_id": 77580,
+          "input_object_ref": "77580/312/1",
+          "output_tree_basename": "GTDB_Tree",
+          "copy_proximals": "0",
+          "save_trees": "0",
+          "min_perc_aa": 10,
+          "db_ver": "214",
+          "keep_intermediates": "0",
+          "overwrite_tax": "0",
+          "dendrogram_report": "1"
+        }
+      ],
+      "submitted_utc": "2026-10-20T03:20:27.495158+00:00",
+      "archived_reason": "KBase JobRunner UTF-8 log-decode crash; re-run as partitions"
+    }
+  ],
+  "replaced": [
+    {
+      "app_id": "kb_gtdbtk/run_kb_gtdbtk_classify_wf",
+      "job_id": "6ad807f14694a2f6923c6c37",
+      "params": [
+        {
+          "workspace_id": 77580,
+          "input_object_ref": "77580/1281/1",
+          "output_tree_basename": "GTDB_Tree",
+          "copy_proximals": "0",
+          "save_trees": "0",
+          "min_perc_aa": 10,
+          "db_ver": "214",
+          "keep_intermediates": "0",
+          "overwrite_tax": "0",
+          "dendrogram_report": "1"
+        }
+      ],
+      "set": "SSFB_Assembly_Set_part1of3",
+      "n_assemblies": 104,
+      "submitted_utc": "2026-10-21T00:31:45.803751+00:00",
+      "cancelled_utc": "2026-10-21T00:39:13.442781+00:00",
+      "archived_reason": "replaced by a resubmission on tag=beta"
+    },
+    {
+      "app_id": "kb_gtdbtk/run_kb_gtdbtk_classify_wf",
+      "job_id": "6ad807f24694a2f6923c6c38",
+      "params": [
+        {
+          "workspace_id": 77580,
+          "input_object_ref": "77580/1282/1",
+          "output_tree_basename": "GTDB_Tree",
+          "copy_proximals": "0",
+          "save_trees": "0",
+          "min_perc_aa": 10,
+          "db_ver": "214",
+          "keep_intermediates": "0",
+          "overwrite_tax": "0",
+          "dendrogram_report": "1"
+        }
+      ],
+      "set": "SSFB_Assembly_Set_part2of3",
+      "n_assemblies": 104,
+      "submitted_utc": "2026-10-21T00:31:46.215656+00:00",
+      "cancelled_utc": "2026-10-21T00:39:13.514614+00:00",
+      "archived_reason": "replaced by a resubmission on tag=beta"
+    },
+    {
+      "app_id": "kb_gtdbtk/run_kb_gtdbtk_classify_wf",
+      "job_id": "6ad807f2d5afcc4c3388266f",
+      "params": [
+        {
+          "workspace_id": 77580,
+          "input_object_ref": "77580/1283/1",
+          "output_tree_basename": "GTDB_Tree",
+          "copy_proximals": "0",
+          "save_trees": "0",
+          "min_perc_aa": 10,
+          "db_ver": "214",
+          "keep_intermediates": "0",
+          "overwrite_tax": "0",
+          "dendrogram_report": "1"
+        }
+      ],
+      "set": "SSFB_Assembly_Set_part3of3",
+      "n_assemblies": 102,
+      "submitted_utc": "2026-10-21T00:31:46.556208+00:00",
+      "cancelled_utc": "2026-10-21T00:39:13.583587+00:00",
+      "archived_reason": "replaced by a resubmission on tag=beta"
+    }
+  ]
+}

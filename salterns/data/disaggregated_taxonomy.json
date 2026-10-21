@@ -2518,5 +2518,275 @@
       "family": "Microbacteriaceae",
       "genus": "Aquiluna",
       "species": ""
+   },
+   "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.5": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "",
+      "genus": "",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.21": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Methanosarcinia",
+      "order": "Methanosarcinales",
+      "family": "Methanosarcinaceae",
+      "genus": "Methanolobus",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_metabat.14": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Haloferacaceae",
+      "genus": "Haloquadratum",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_metabat.8": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Haloferacaceae",
+      "genus": "Halorubrum",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.17": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Haloferacaceae",
+      "genus": "Haloquadratum",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_metabat.31": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Natrialbaceae",
+      "genus": "Natrinema",
+      "species": "Natrinema hispanicum_A"
+   },
+   "Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_metabat.29": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Haloferacaceae",
+      "genus": "Haloquadratum",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_concoct_out.19": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Haloferacaceae",
+      "genus": "Halonotius",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_concoct_out.67": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Haloarculaceae",
+      "genus": "CBA1134",
+      "species": "CBA1134 sp009184545"
+   },
+   "Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_concoct_out.9": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Haloferacaceae",
+      "genus": "Halorubrum",
+      "species": "Halorubrum sp003990725"
+   },
+   "Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_metabat.14": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Haloferacaceae",
+      "genus": "Halorubrum",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_metabat.16": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Haloferacaceae",
+      "genus": "Haloquadratum",
+      "species": "Haloquadratum walsbyi"
+   },
+   "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_concoct_out.11": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Haloarculaceae",
+      "genus": "Halomicroarcula",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_concoct_out.29": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Haloferacaceae",
+      "genus": "Haloplanus",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_concoct_out.45": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Haloarculaceae",
+      "genus": "Halomicroarcula",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_maxbin.035": {
+      "domain": "Archaea",
+      "phylum": "Nanohaloarchaeota",
+      "class": "Nanosalinia",
+      "order": "Nanosalinales",
+      "family": "Nanosalinaceae",
+      "genus": "M3-22",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_metabat.14": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Haloferacaceae",
+      "genus": "Halohasta",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R2_B_H2O_MG_DASTool_bins_metabat.16": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Haloferacaceae",
+      "genus": "Halonotius",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R2_B_H2O_MG_DASTool_bins_metabat.17": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Haloarculaceae",
+      "genus": "Natronomonas",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R2_B_H2O_MG_DASTool_bins_metabat.29": {
+      "domain": "Archaea",
+      "phylum": "Nanohaloarchaeota",
+      "class": "Nanosalinia",
+      "order": "Nanosalinales",
+      "family": "Nanosalinaceae",
+      "genus": "B1-Br10-U2g21",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R2_C_H2O_MG_DASTool_bins_concoct_out.35": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Haloferacaceae",
+      "genus": "Halorubrum",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R2_C_H2O_MG_DASTool_bins_concoct_out.60": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Haloarculaceae",
+      "genus": "Halomicroarcula",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R2_C_H2O_MG_DASTool_bins_metabat.20": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Haloarculaceae",
+      "genus": "Natronomonas",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R2_C_H2O_MG_DASTool_bins_metabat.29": {
+      "domain": "Archaea",
+      "phylum": "Nanohaloarchaeota",
+      "class": "Nanosalinia",
+      "order": "Nanosalinales",
+      "family": "Nanosalinaceae",
+      "genus": "Nanosalina",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.12": {
+      "domain": "Archaea",
+      "phylum": "Asgardarchaeota",
+      "class": "Heimdallarchaeia",
+      "order": "LC-2",
+      "family": "LC-2",
+      "genus": "GCA-2728275",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.37": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "",
+      "genus": "",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.40": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "",
+      "genus": "",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_metabat.16": {
+      "domain": "Archaea",
+      "phylum": "Thermoproteota",
+      "class": "Nitrososphaeria",
+      "order": "Nitrososphaerales",
+      "family": "Nitrosopumilaceae",
+      "genus": "Nitrosopumilus",
+      "species": ""
+   },
+   "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_concoct_out.52": {
+      "domain": "Archaea",
+      "phylum": "Thermoproteota",
+      "class": "Nitrososphaeria",
+      "order": "Nitrososphaerales",
+      "family": "Nitrosopumilaceae",
+      "genus": "Nitrosopumilus",
+      "species": ""
+   },
+   "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.25": {
+      "domain": "Archaea",
+      "phylum": "Halobacteriota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Haladaptataceae",
+      "genus": "",
+      "species": ""
    }
 }

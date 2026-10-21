@@ -17,8 +17,12 @@ Inputs (already on disk, identical to the Glasso figure's inputs):
 Outputs (new naming, parallel to within_condition_glasso_network.png):
     within_condition_louvain_network.png
     within_condition_louvain_modules.json
+
+Every input/output path can be overridden on the command line (defaults = the files above),
+e.g. the GTDB r232 rerun in r232/rerun_correlational_r232.py.
 """
 
+import argparse
 import math
 from json import dump, load
 from pathlib import Path
@@ -39,15 +43,26 @@ PARTIAL_THRESHOLD = 0.05          # same edge filter as the Glasso figure
 LOUVAIN_RESOLUTION = 1.0          # codiffusion default
 LOUVAIN_SEED = 42
 
+_ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+_ap.add_argument("--edges", type=Path, default=HERE / "glasso_direct_edges.csv")
+_ap.add_argument("--meta", type=Path, default=HERE / "within_condition_meta.json")
+_ap.add_argument("--ids", type=Path, default=HERE / "iterativeIDs.json")
+_ap.add_argument("--phylogeny", type=Path, default=HERE.parent / "data" / "Saltern_phylogeny.json")
+_ap.add_argument("--abundances", type=Path, default=HERE / "averaged_normalized_MAG_abundances.csv")
+_ap.add_argument("--out-png", type=Path, default=HERE / "within_condition_louvain_network.png")
+_ap.add_argument("--out-modules", type=Path, default=HERE / "within_condition_louvain_modules.json")
+_ap.add_argument("--subtitle", default="same edges as within_condition_glasso_network.png")
+ARGS = _ap.parse_args()
+
 # ----- load Glasso edges + meta ----------------------------------------------
-edges_df = pd.read_csv(HERE / "glasso_direct_edges.csv")
-meta = load(open(HERE / "within_condition_meta.json"))
+edges_df = pd.read_csv(ARGS.edges)
+meta = load(open(ARGS.meta))
 taxa_in_panel = meta["taxa"]
 print(f"loaded {len(edges_df)} Glasso edges across {len(taxa_in_panel)} taxa")
 
 # ----- short-id -> phylum (node color) ---------------------------------------
-iterativeIDs = load(open(HERE / "iterativeIDs.json"))
-phylogeny    = load(open(HERE.parent / "data" / "Saltern_phylogeny.json"))
+iterativeIDs = load(open(ARGS.ids))
+phylogeny    = load(open(ARGS.phylogeny))
 
 def _to_short(full_id):
     bare = full_id
@@ -59,15 +74,18 @@ def _to_short(full_id):
     return ".".join(iid.split(".")[:-1]) if "." in iid else iid
 
 id_to_phylum = {}
+archaeal_phyla_by_kingdom = set()   # GTDB renames phyla, so the domain field beats keywords
 for full_id, taxonomy in phylogeny.items():
     short = _to_short(full_id)
     ph = taxonomy.get("Phylum", "Unknown") if isinstance(taxonomy, dict) else "Unknown"
     ph = ph or "Unknown"
     if id_to_phylum.get(short, "Unknown") in ("", "Unknown", None):
         id_to_phylum[short] = ph
+    if isinstance(taxonomy, dict) and taxonomy.get("Kingdom") == "Archaea":
+        archaeal_phyla_by_kingdom.add(ph)
 
 # ----- mean rel. abundance per short-taxon (-> node size) --------------------
-mag_abund = pd.read_csv(HERE / "averaged_normalized_MAG_abundances.csv", index_col=0)
+mag_abund = pd.read_csv(ARGS.abundances, index_col=0)
 mag_short = mag_abund.index.to_series().map(_to_short)
 per_short = mag_abund.groupby(mag_short).sum()
 per_sample_rel = per_short.div(per_short.sum(axis=0), axis=1)
@@ -119,8 +137,8 @@ for comm in sorted(layout_comms, key=lambda c: -len(c)):
         sing_n += 1
         module_export[f"singleton_{sing_n}"] = {
             "size": 1, "type": "isolate_singleton", "members": members}
-dump(module_export, open(HERE / "within_condition_louvain_modules.json", "w"), indent=2)
-print(f"wrote within_condition_louvain_modules.json "
+dump(module_export, open(ARGS.out_modules, "w"), indent=2)
+print(f"wrote {ARGS.out_modules.name} "
       f"({louv_n} modules + {sing_n} singletons)")
 
 # ----- per-module spring layout + ring placement -----------------------------
@@ -177,7 +195,8 @@ archaea_keywords = ("archae", "halobacterota", "methanobacteriota",
                     "thermoplasmatota", "micrarchaeota", "asgardarchaeota",
                     "nanohaloarchaeota")
 archaea_phyla  = sorted([p for p in present_phyla
-                         if p and any(k in p.lower() for k in archaea_keywords)])
+                         if p and (p in archaeal_phyla_by_kingdom
+                                   or any(k in p.lower() for k in archaea_keywords))])
 bacteria_phyla = sorted([p for p in present_phyla
                          if p and p not in archaea_phyla and p != "Unknown"])
 taxa_color_map = {}
@@ -288,7 +307,7 @@ for mi, (ca, verts, sv) in hull_data.items():
 # ----- titles, colorbar, legends ---------------------------------------------
 ax.set_axis_off()
 ax.set_title("Louvain modularity on the Graphical-Lasso direct-interaction network\n"
-             "(same edges as within_condition_glasso_network.png; per-module "
+             f"({ARGS.subtitle}; per-module "
              "spring layout, ring placement)",
              fontsize=22, pad=20)
 
@@ -354,7 +373,6 @@ ax.text(-0.10, 0.7, summary, transform=ax.transAxes,
         bbox=dict(boxstyle="round,pad=0.5", facecolor="white",
                   edgecolor="black", alpha=0.85, linewidth=1.5))
 
-fig.savefig(HERE / "within_condition_louvain_network.png",
-            dpi=300, bbox_inches="tight")
+fig.savefig(ARGS.out_png, dpi=300, bbox_inches="tight")
 plt.close(fig)
-print("wrote within_condition_louvain_network.png")
+print(f"wrote {ARGS.out_png.name}")

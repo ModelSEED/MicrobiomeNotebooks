@@ -1,0 +1,2792 @@
+{
+ "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.44.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "JAWOCM01",
+  "Genus": "JAWOCM01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.54.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Thiohalorhabdales",
+  "Family": "Thiohalorhabdaceae",
+  "Genus": "Thiohalorhabdus",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Clostridia",
+  "Order": "Tissierellales",
+  "Family": "Dethiosulfatibacteraceae",
+  "Genus": "UBA8670",
+  "Species": "UBA8670 sp964574015"
+ },
+ "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.15.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "Fodinibius",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.18.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "Halalkalibaculum",
+  "Species": "Halalkalibaculum sp035269475"
+ },
+ "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.26.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Halomonadaceae",
+  "Genus": "Halomonas",
+  "Species": "Halomonas fontilapidosi"
+ },
+ "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.45.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Thiohalospirales",
+  "Family": "Thiohalospiraceae",
+  "Genus": "Thiohalospira",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "DATFIM01",
+  "Genus": "DATFIM01",
+  "Species": "DATFIM01 sp035270125"
+ },
+ "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Clostridia",
+  "Order": "Peptostreptococcales",
+  "Family": "BM714",
+  "Genus": "BM714",
+  "Species": "BM714 sp964484935"
+ },
+ "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.6.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "Fodinibius",
+  "Species": "Fodinibius sp964397705"
+ },
+ "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.1.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "CAZOON01",
+  "Genus": "CAZOON01",
+  "Species": "CAZOON01 sp964581445"
+ },
+ "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.109.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "Prolixibacteraceae",
+  "Genus": "Tangfeifania",
+  "Species": "Tangfeifania diversioriginum"
+ },
+ "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.25.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "Spirochaetia",
+  "Order": "Sphaerochaetales",
+  "Family": "Sphaerochaetaceae",
+  "Genus": "Pleomorphochaeta",
+  "Species": "Pleomorphochaeta sp964589355"
+ },
+ "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.51.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "VadinHA17",
+  "Genus": "UBA9300",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.15.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "Spirochaetia",
+  "Order": "DSM-16054",
+  "Family": "Sediminispirochaetaceae",
+  "Genus": "DSBN01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Clostridia",
+  "Order": "Peptostreptococcales",
+  "Family": "Acidaminobacteraceae",
+  "Genus": "DATFJG01",
+  "Species": "DATFJG01 sp035269305"
+ },
+ "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.31.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "UBA12077",
+  "Genus": "UBA12077",
+  "Species": "UBA12077 sp964635605"
+ },
+ "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.36.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "UBA12077",
+  "Genus": "UBA12077",
+  "Species": "UBA12077 sp035269575"
+ },
+ "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "Halanaerobiaceae",
+  "Genus": "Halanaerobium",
+  "Species": "Halanaerobium saccharolyticum"
+ },
+ "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Clostridia",
+  "Order": "Peptostreptococcales",
+  "Family": "BM714",
+  "Genus": "BM714",
+  "Species": "BM714 sp035269385"
+ },
+ "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Clostridia",
+  "Order": "Peptostreptococcales",
+  "Family": "BM714",
+  "Genus": "BM714",
+  "Species": "BM714 sp964644525"
+ },
+ "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.84.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Patescibacteriia",
+  "Order": "UBA2591",
+  "Family": "UBA6264",
+  "Genus": "DATFJC01",
+  "Species": "DATFJC01 sp035269445"
+ },
+ "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_concoct_out.2.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Psychroflexus",
+  "Species": "Psychroflexus sp913056525"
+ },
+ "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_maxbin.022.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Nitrococcales",
+  "Family": "Nitrococcaceae",
+  "Genus": "Spiribacter",
+  "Species": "Spiribacter sp031581365"
+ },
+ "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_metabat.6.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Psychroflexus",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.53.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "Gracilimonas",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "Halanaerobiaceae",
+  "Genus": "Halanaerobium",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.89.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Psychroflexus",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.13.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "CAYVBJ01",
+  "Species": "CAYVBJ01 sp964449075"
+ },
+ "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.16.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Acidimicrobiia",
+  "Order": "Acidimicrobiales",
+  "Family": "Ilumatobacteraceae",
+  "Genus": "Sva-07",
+  "Species": "Sva-07 sp041686315"
+ },
+ "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.20.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "DAINOF01",
+  "Species": "DAINOF01 sp964587905"
+ },
+ "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.28.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Chitinophagales",
+  "Family": "Saprospiraceae",
+  "Genus": "JAWLFI01",
+  "Species": "JAWLFI01 sp964626595"
+ },
+ "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.29.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "Wenzhouxiangellaceae",
+  "Genus": "GCA-2722315",
+  "Species": "GCA-2722315 sp964476005"
+ },
+ "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.32.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": "Roseovarius sp964570675"
+ },
+ "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.38.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "Wenzhouxiangellaceae",
+  "Genus": "GCA-2722315",
+  "Species": "GCA-2722315 sp964548715"
+ },
+ "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.40.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Salibaculum",
+  "Species": "Salibaculum sp035270045"
+ },
+ "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.41.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Deinococcota",
+  "Class": "Deinococci",
+  "Order": "Deinococcales",
+  "Family": "Trueperaceae",
+  "Genus": "SLSQ01",
+  "Species": "SLSQ01 sp964561595"
+ },
+ "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.49.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "Spirochaetia",
+  "Order": "DSM-16054",
+  "Family": "Sediminispirochaetaceae",
+  "Genus": "DSBN01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Synergistota",
+  "Class": "Synergistia",
+  "Order": "Synergistales",
+  "Family": "JAFGMB01",
+  "Genus": "CAZFJG01",
+  "Species": "CAZFJG01 sp964519285"
+ },
+ "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.120.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Atribacterota",
+  "Class": "Phoenicimicrobiia",
+  "Order": "Phoenicimicrobiales",
+  "Family": "Stramentimicrobiaceae",
+  "Genus": "Oleincola",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.37.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Marivita",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.51.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "Halanaerobiaceae",
+  "Genus": "Halanaerobium",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.86.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Chitinophagales",
+  "Family": "Saprospiraceae",
+  "Genus": "DATFJT01",
+  "Species": "DATFJT01 sp035269065"
+ },
+ "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.87.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Salegentibacter",
+  "Species": "Salegentibacter sp035269545"
+ },
+ "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_maxbin.014.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Halieaceae",
+  "Genus": "Chromatocurvus",
+  "Species": "Chromatocurvus sp964613795"
+ },
+ "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.14.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "SW132",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.16.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Steroidobacterales",
+  "Family": "Woeseiaceae",
+  "Genus": "Lentisalinibacter",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.18.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": "Roseovarius sp037083845"
+ },
+ "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.19.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "Spirochaetia",
+  "Order": "DSM-16054",
+  "Family": "Sediminispirochaetaceae",
+  "Genus": "DSBN01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.27.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Longimicrobiales",
+  "Family": "Gaopeijiaceae",
+  "Genus": "Gaopeijia",
+  "Species": "Gaopeijia sp035269045"
+ },
+ "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.28.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Marivita",
+  "Species": "Marivita sp020055675"
+ },
+ "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.30.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "BM103",
+  "Genus": "JAQYVZ01",
+  "Species": "JAQYVZ01 sp035269105"
+ },
+ "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.34.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Flagellimonas",
+  "Species": "Flagellimonas sp040148835"
+ },
+ "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.37.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales_D",
+  "Family": "Cryomorphaceae",
+  "Genus": "JAIVHP01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.63.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Clostridia",
+  "Order": "Peptostreptococcales",
+  "Family": "Anaerovoracaceae",
+  "Genus": "JAAYHV01",
+  "Species": "JAAYHV01 sp035268985"
+ },
+ "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.78.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Patescibacteriia",
+  "Order": "Patescibacteriales",
+  "Family": "UBA12465",
+  "Genus": "JAIPJO01",
+  "Species": "JAIPJO01 sp035269015"
+ },
+ "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_concoct_out.13.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Schleiferiaceae",
+  "Genus": "CAJXMS01",
+  "Species": "CAJXMS01 sp913056475"
+ },
+ "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_concoct_out.19.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Actinomycetes",
+  "Order": "Actinomycetales",
+  "Family": "Microbacteriaceae",
+  "Genus": "CAJXVY01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_concoct_out.22.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Halothiobacillales",
+  "Family": "Halothiobacillaceae",
+  "Genus": "Guyparkeria",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_maxbin.028.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Nitrococcales",
+  "Family": "Nitrococcaceae",
+  "Genus": "Spiribacter",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.11.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Psychroflexus",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.5.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Halomonadaceae",
+  "Genus": "Vreelandella",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.7.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Thiotrichales",
+  "Family": "Thiotrichaceae",
+  "Genus": "Thiolinea",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_concoct_out.45.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "Spirochaetia",
+  "Order": "DSM-16054",
+  "Family": "Sediminispirochaetaceae",
+  "Genus": "DSBN01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Clostridia",
+  "Order": "Peptostreptococcales",
+  "Family": "BM714",
+  "Genus": "BM714",
+  "Species": "BM714 sp964484935"
+ },
+ "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_metabat.19.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Chitinophagales",
+  "Family": "Saprospiraceae",
+  "Genus": "JAWLFI01",
+  "Species": "JAWLFI01 sp964627995"
+ },
+ "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_metabat.27.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "Desulfobacteraceae",
+  "Genus": "Desulfobacter",
+  "Species": "Desulfobacter sp035270145"
+ },
+ "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.36.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Planctomycetia",
+  "Order": "Pirellulales",
+  "Family": "Pirellulaceae",
+  "Genus": "Roseimaritima",
+  "Species": "Roseimaritima sp964477385"
+ },
+ "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Clostridia",
+  "Order": "Tissierellales",
+  "Family": "Dethiosulfatibacteraceae",
+  "Genus": "UBA8670",
+  "Species": "UBA8670 sp964393495"
+ },
+ "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.30.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "Rhodohalobacter",
+  "Species": "Rhodohalobacter sp035312505"
+ },
+ "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "M55B127",
+  "Genus": "M55B127",
+  "Species": "M55B127 sp018334565"
+ },
+ "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.58.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Minisyncoccia",
+  "Order": "Minisyncoccales",
+  "Family": "CAYPLZ01",
+  "Genus": "CAYPLZ01",
+  "Species": "CAYPLZ01 sp964555095"
+ },
+ "Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.16.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Macinerneyibacteriota",
+  "Class": "Macinerneyibacteria",
+  "Order": "Macinerneyibacteriales",
+  "Family": "Macinerneyibacteriaceae",
+  "Genus": "CAZUKV01",
+  "Species": "CAZUKV01 sp964621075"
+ },
+ "Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.67.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Nitrococcales",
+  "Family": "Nitrococcaceae",
+  "Genus": "Spiribacter",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.79.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_metabat.23.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Nitrococcales",
+  "Family": "Nitrococcaceae",
+  "Genus": "Spiribacter",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.119.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Thermotogota",
+  "Class": "Thermotogae",
+  "Order": "MWEM01",
+  "Family": "MWEM01",
+  "Genus": "CAZVWW01",
+  "Species": "CAZVWW01 sp964631265"
+ },
+ "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.29.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "Wenzhouxiangellaceae",
+  "Genus": "Wenzhouxiangella",
+  "Species": "Wenzhouxiangella sp964439915"
+ },
+ "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.35.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhizobiales",
+  "Family": "Beijerinckiaceae",
+  "Genus": "Saliniramus",
+  "Species": "Saliniramus sp035311605"
+ },
+ "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.49.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.52.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "UBA12135",
+  "Order": "COTS27",
+  "Family": "CAZFAK01",
+  "Genus": "CAZFAK01",
+  "Species": "CAZFAK01 sp964517045"
+ },
+ "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.66.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Krumholzibacteriota",
+  "Class": "Krumholzibacteriia",
+  "Order": "Krumholzibacteriales",
+  "Family": "WJIX01",
+  "Genus": "JAGHBT01",
+  "Species": "JAGHBT01 sp035311885"
+ },
+ "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.84.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "Desulfosalsimonadaceae",
+  "Genus": "M55B175",
+  "Species": "M55B175 sp035312245"
+ },
+ "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.93.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Patescibacteriia",
+  "Order": "Patescibacteriales",
+  "Family": "JAGXOH01",
+  "Genus": "JAIOTG01",
+  "Species": "JAIOTG01 sp964644045"
+ },
+ "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Synergistota",
+  "Class": "Synergistia",
+  "Order": "Synergistales",
+  "Family": "JAFGMB01",
+  "Genus": "CAZFJG01",
+  "Species": "CAZFJG01 sp964410915"
+ },
+ "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_maxbin.001.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Actinomycetes",
+  "Order": "S36-B12",
+  "Family": "S36-B12",
+  "Genus": "S36-B12",
+  "Species": "S36-B12 sp964550285"
+ },
+ "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.10.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "Rhodohalobacter",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.12.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "Wenzhouxiangellaceae",
+  "Genus": "GCA-2722315",
+  "Species": "GCA-2722315 sp035311685"
+ },
+ "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.24.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "UBA12077",
+  "Genus": "JAGXLC01",
+  "Species": "JAGXLC01 sp964461045"
+ },
+ "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.32.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "Desulfosalsimonadaceae",
+  "Genus": "M55B175",
+  "Species": "M55B175 sp964635265"
+ },
+ "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.50.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Steroidobacterales",
+  "Family": "XN24",
+  "Genus": "XN24",
+  "Species": "XN24 sp035268405"
+ },
+ "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.61.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bipolaricaulota",
+  "Class": "Bipolaricaulia",
+  "Order": "M55B111",
+  "Family": "M55B111",
+  "Genus": "M55B111",
+  "Species": "M55B111 sp964614065"
+ },
+ "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.7.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "Spirochaetia",
+  "Order": "DSM-16054",
+  "Family": "Sediminispirochaetaceae",
+  "Genus": "DSBN01",
+  "Species": "DSBN01 sp964504785"
+ },
+ "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.9.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "Spirochaetia",
+  "Order": "DSM-16054",
+  "Family": "Sediminispirochaetaceae",
+  "Genus": "DSBN01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_concoct_out.110.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Oleiphilaceae",
+  "Genus": "Marinobacter",
+  "Species": "Marinobacter sp035268745"
+ },
+ "Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_concoct_out.40.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "Prolixibacteraceae",
+  "Genus": "Tangfeifania",
+  "Species": "Tangfeifania sp035269145"
+ },
+ "Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_metabat.10.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "SW132",
+  "Species": "SW132 sp964625635"
+ },
+ "Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_metabat.13.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "JASJAR01",
+  "Species": "JASJAR01 sp964588375"
+ },
+ "Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_metabat.22.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "Wenzhouxiangellaceae",
+  "Genus": "GCA-2722315",
+  "Species": "GCA-2722315 sp035269245"
+ },
+ "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.124.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Halieaceae",
+  "Genus": "Marimicrobium",
+  "Species": "Marimicrobium sp964519755"
+ },
+ "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.143.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": "Roseovarius sp023260815"
+ },
+ "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.32.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "CAZRZN01",
+  "Species": "CAZRZN01 sp964604565"
+ },
+ "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.39.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Steroidobacterales",
+  "Family": "Woeseiaceae",
+  "Genus": "Lentisalinibacter",
+  "Species": "Lentisalinibacter sp964421805"
+ },
+ "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.4.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Planctomycetia",
+  "Order": "Pirellulales",
+  "Family": "Pirellulaceae",
+  "Genus": "Crateriforma",
+  "Species": "Crateriforma sp964453205"
+ },
+ "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.80.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "UBA4802",
+  "Order": "UBA4802",
+  "Family": "UB4802",
+  "Genus": "M55B154",
+  "Species": "M55B154 sp964629365"
+ },
+ "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.10.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Marivita",
+  "Species": "Marivita sp020055635"
+ },
+ "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.16.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.19.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseibacterium",
+  "Species": "Roseibacterium sp964578115"
+ },
+ "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.20.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "Salinivirgaceae",
+  "Genus": "Salinivirga",
+  "Species": "Salinivirga sp035268865"
+ },
+ "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.38.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": "Roseovarius sp035268705"
+ },
+ "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.43.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Nitriliruptoria",
+  "Order": "Nitriliruptorales",
+  "Family": "Nitriliruptoraceae",
+  "Genus": "T1Sed10-7",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.44.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "Desulfosalsimonadaceae",
+  "Genus": "M55B175",
+  "Species": "M55B175 sp018334555"
+ },
+ "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.45.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "Geopsychrobacteraceae",
+  "Genus": "Pelovirga",
+  "Species": "Pelovirga sp035312385"
+ },
+ "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.50.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Steroidobacterales",
+  "Family": "XN24",
+  "Genus": "XN24",
+  "Species": "XN24 sp964441585"
+ },
+ "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "M55B127",
+  "Genus": "M55B127",
+  "Species": "M55B127 sp035269185"
+ },
+ "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.55.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": "Roseovarius sp035269125"
+ },
+ "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.62.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfovibrionia",
+  "Order": "Desulfovibrionales",
+  "Family": "Desulfothermaceae",
+  "Genus": "CAYUNZ01",
+  "Species": "CAYUNZ01 sp964446205"
+ },
+ "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.118.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "Spirochaetia",
+  "Order": "DSM-27196",
+  "Family": "Alkalispirochaetaceae",
+  "Genus": "Alkalispirochaeta",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.37.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfovibrionia",
+  "Order": "Desulfovibrionales",
+  "Family": "Desulfomicrobiaceae",
+  "Genus": "JAWLGC01",
+  "Species": "JAWLGC01 sp041685265"
+ },
+ "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.65.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Oleiphilaceae",
+  "Genus": "Marinobacter",
+  "Species": "Marinobacter sp964520755"
+ },
+ "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.7.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Chitinophagales",
+  "Family": "Saprospiraceae",
+  "Genus": "DT-110",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.71.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Chitinophagales",
+  "Family": "Saprospiraceae",
+  "Genus": "DATFKA01",
+  "Species": "DATFKA01 sp035268885"
+ },
+ "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.88.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Chitinophagales",
+  "Family": "Saprospiraceae",
+  "Genus": "Phaeodactylibacter",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.95.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "Desulfobacteraceae",
+  "Genus": "Desulfotignum",
+  "Species": "Desulfotignum sp035268905"
+ },
+ "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.98.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "GCA-2748055",
+  "Genus": "M55B112",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_maxbin.062.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "Desulfobacteraceae",
+  "Genus": "DATFJZ01",
+  "Species": "DATFJZ01 sp035268945"
+ },
+ "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_metabat.17.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_metabat.25.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Steroidobacterales",
+  "Family": "Woeseiaceae",
+  "Genus": "Lentisalinibacter",
+  "Species": "Lentisalinibacter sp035655155"
+ },
+ "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_metabat.7.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Krumholzibacteriota",
+  "Class": "Krumholzibacteriia",
+  "Order": "JAJRXK01",
+  "Family": "JAJRXK01",
+  "Genus": "JAJRXK01",
+  "Species": "JAJRXK01 sp035268685"
+ },
+ "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.100.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Maribacter",
+  "Species": "Maribacter sp964620945"
+ },
+ "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.104.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "UBA7960",
+  "Genus": "SKVR01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.18.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "JAVJPJ01",
+  "Species": "JAVJPJ01 sp040217295"
+ },
+ "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.21.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Fidelibacterota",
+  "Class": "UBA2242",
+  "Order": "UBA2242",
+  "Family": "JAFGTP01",
+  "Genus": "",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.45.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.47.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.12.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Verrucomicrobiota",
+  "Class": "Verrucomicrobiia",
+  "Order": "Opitutales",
+  "Family": "CAZCJJ01",
+  "Genus": "",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.17.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "Desulfobacteraceae",
+  "Genus": "Desulfotignum",
+  "Species": "Desulfotignum sp035268565"
+ },
+ "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.25.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "Desulfobacteraceae",
+  "Genus": "Desulfobacter",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.26.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "JAIPAH01",
+  "Genus": "JAIPAH01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.43.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales_D",
+  "Family": "Cryomorphaceae",
+  "Genus": "JAKVAV01",
+  "Species": "JAKVAV01 sp035268465"
+ },
+ "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.51.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "Rhodohalobacter",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.57.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Verrucomicrobiota",
+  "Class": "Verrucomicrobiia",
+  "Order": "Opitutales",
+  "Family": "Coraliomargaritaceae",
+  "Genus": "Coraliomargarita_B",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.13.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "UBA12077",
+  "Genus": "UBA12077",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.2.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Chitinophagales",
+  "Family": "Saprospiraceae",
+  "Genus": "CAZWDL01",
+  "Species": "CAZWDL01 sp964632995"
+ },
+ "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.22.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "Spirochaetia",
+  "Order": "DSM-27196",
+  "Family": "SLST01",
+  "Genus": "SLST01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.8.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Albimonas",
+  "Species": "Albimonas sp035268645"
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.17.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Palauibacterales",
+  "Family": "Palauibacteraceae",
+  "Genus": "Humimonas",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.2.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "DATFLG01",
+  "Family": "DATFLG01",
+  "Genus": "DATFLG01",
+  "Species": "DATFLG01 sp035267985"
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.20.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Eutrophobiales",
+  "Family": "Eutrophobiaceae",
+  "Genus": "JBBDSH01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.21.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Thiohalorhabdales",
+  "Family": "Thiohalorhabdaceae",
+  "Genus": "Thiohalorhabdus",
+  "Species": "Thiohalorhabdus sp035267605"
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.38.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "",
+  "Genus": "",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.46.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "Spirochaetia",
+  "Order": "DSM-27196",
+  "Family": "PWMO01",
+  "Genus": "",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.68.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Palauibacterales",
+  "Family": "Palauibacteraceae",
+  "Genus": "Humimonas",
+  "Species": "Humimonas sp035267645"
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.7.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "DATFLL01",
+  "Family": "DATFLL01",
+  "Genus": "DATFLL01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.89.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "XJ16",
+  "Family": "Halofilaceae",
+  "Genus": "Halofilum",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_maxbin.037.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Fidelibacterota",
+  "Class": "JAANXI01",
+  "Order": "JAANXI01",
+  "Family": "JAANXI01",
+  "Genus": "DATFLS01",
+  "Species": "DATFLS01 sp035267465"
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.11.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "Fodinibius",
+  "Species": "Fodinibius sp035267805"
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.13.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Fidelibacterota",
+  "Class": "JAANXI01",
+  "Order": "JAANXI01",
+  "Family": "",
+  "Genus": "",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.15.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Fidelibacterota",
+  "Class": "JAANXI01",
+  "Order": "JAANXI01",
+  "Family": "JAANXI01",
+  "Genus": "",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.18.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "UBA6429",
+  "Family": "Thiohalophilaceae",
+  "Genus": "Thiohalophilus",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.23.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "XJ16",
+  "Family": "Halofilaceae",
+  "Genus": "Halofilum",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.25.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "CAVTAV01",
+  "Family": "CAVTAV01",
+  "Genus": "CAVTAV01",
+  "Species": "CAVTAV01 sp963821875"
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.27.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Acidobacteriota",
+  "Class": "Aminicenantia",
+  "Order": "Aminicenantales",
+  "Family": "Aminicenantaceae",
+  "Genus": "WJMT01",
+  "Species": "WJMT01 sp035655135"
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.8.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_concoct_out.34.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Actinomycetes",
+  "Order": "Actinomycetales",
+  "Family": "Microbacteriaceae",
+  "Genus": "Pontimonas",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_concoct_out.44.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Actinomycetes",
+  "Order": "S36-B12",
+  "Family": "S36-B12",
+  "Genus": "S36-B12",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_maxbin.002.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Actinomycetes",
+  "Order": "S36-B12",
+  "Family": "S36-B12",
+  "Genus": "S36-B12",
+  "Species": "S36-B12 sp964634545"
+ },
+ "Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_maxbin.005.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Burkholderiales",
+  "Family": "Burkholderiaceae_B",
+  "Genus": "Algicoccus",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_maxbin.017.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Actinomycetes",
+  "Order": "S36-B12",
+  "Family": "S36-B12",
+  "Genus": "S36-B12",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.24.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Actinomycetes",
+  "Order": "Actinomycetales",
+  "Family": "Dermatophilaceae",
+  "Genus": "Ornithinicoccus",
+  "Species": "Ornithinicoccus sp035267225"
+ },
+ "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.42.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Christiangramia",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.46.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Chloroflexota",
+  "Class": "Anaerolineae",
+  "Order": "Anaerolineales",
+  "Family": "Villigracilaceae",
+  "Genus": "Defluviilinea",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.50.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Lutibacter",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.51.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "Geopsychrobacteraceae",
+  "Genus": "BM509",
+  "Species": "BM509 sp035267105"
+ },
+ "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.6.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Steroidobacterales",
+  "Family": "Woeseiaceae",
+  "Genus": "UBA1847",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_metabat.10.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "SZUA-36",
+  "Genus": "JAUIBE01",
+  "Species": "JAUIBE01 sp035267185"
+ },
+ "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_metabat.14.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Chloroflexota",
+  "Class": "Anaerolineae",
+  "Order": "Anaerolineales",
+  "Family": "UBA11579",
+  "Genus": "UBA11579",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_metabat.17.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Nitriliruptoria",
+  "Order": "Nitriliruptorales",
+  "Family": "Nitriliruptoraceae",
+  "Genus": "Salsipaludibacter",
+  "Species": "Salsipaludibacter sp035267125"
+ },
+ "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_concoct_out.10.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Acidobacteriota",
+  "Class": "Thermoanaerobaculia",
+  "Order": "Multivoradales",
+  "Family": "JBCCEF01",
+  "Genus": "CAZLBJ01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_concoct_out.25.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Gilvirhabdus",
+  "Species": "Gilvirhabdus sp035312485"
+ },
+ "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_concoct_out.37.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Thermoleophilia",
+  "Order": "Solirubrobacterales",
+  "Family": "70-9",
+  "Genus": "VAYN01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_concoct_out.51.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "SZUA-36",
+  "Genus": "",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_concoct_out.59.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Rhodothermales",
+  "Family": "DATGCC01",
+  "Genus": "DATGCC01",
+  "Species": "DATGCC01 sp035312345"
+ },
+ "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_metabat.7.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "JAFMPW01",
+  "Species": "JAFMPW01 sp035312365"
+ },
+ "Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_concoct_out.62.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Actinomycetes",
+  "Order": "Actinomycetales",
+  "Family": "Microbacteriaceae",
+  "Genus": "Aquiluna",
+  "Species": "Aquiluna sp040262185"
+ },
+ "Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_concoct_out.78.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "MAG-120531",
+  "Species": "MAG-120531 sp937136755"
+ },
+ "Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_metabat.16.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Halieaceae",
+  "Genus": "Aequoribacter",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_metabat.20.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Balneatricaceae",
+  "Genus": "Marinobacterium_E",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_metabat.22.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Puniceispirillales",
+  "Family": "Puniceispirillaceae",
+  "Genus": "UBA3439",
+  "Species": "UBA3439 sp017859295"
+ },
+ "Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_metabat.49.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Acidimicrobiia",
+  "Order": "Actinomarinales",
+  "Family": "Actinomarinaceae",
+  "Genus": "Actinomarina",
+  "Species": "Actinomarina sp014384285"
+ },
+ "Salt_Pond_MetaG_R2A_B_D1_MG_DASTool_bins_concoct_out.4.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Acidobacteriota",
+  "Class": "Thermoanaerobaculia",
+  "Order": "Multivoradales",
+  "Family": "JBCCEF01",
+  "Genus": "CAZLBJ01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.11.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Ignavibacteria",
+  "Order": "Ignavibacteriales",
+  "Family": "Ignavibacteriaceae",
+  "Genus": "JAKAGZ01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.37.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Eutrophobiales",
+  "Family": "Eutrophobiaceae",
+  "Genus": "",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.47.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "VadinHA17",
+  "Genus": "LD21",
+  "Species": "LD21 sp035268305"
+ },
+ "Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.54.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "JAKDMP01",
+  "Family": "JAKDMP01",
+  "Genus": "JBAUSV01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_metabat.6.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "UBA11574",
+  "Genus": "UBA11574",
+  "Species": "UBA11574 sp963731025"
+ },
+ "Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_concoct_out.59.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "MAG-120531",
+  "Species": "MAG-120531 sp937136755"
+ },
+ "Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_concoct_out.69.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Actinomycetes",
+  "Order": "Actinomycetales",
+  "Family": "Microbacteriaceae",
+  "Genus": "Pontimonas",
+  "Species": "Pontimonas sp030728325"
+ },
+ "Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_concoct_out.80.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "UBA3478",
+  "Species": "UBA3478 sp024638165"
+ },
+ "Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_maxbin.029.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Actinomycetes",
+  "Order": "Actinomycetales",
+  "Family": "Microbacteriaceae",
+  "Genus": "Aquiluna",
+  "Species": "Aquiluna sp040262185"
+ },
+ "Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_metabat.10.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Enterobacterales",
+  "Family": "Alteromonadaceae",
+  "Genus": "Opacimonas",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_metabat.42.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Burkholderiales",
+  "Family": "Methylophilaceae",
+  "Genus": "BACL14",
+  "Species": "BACL14 sp017852315"
+ },
+ "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_concoct_out.10.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "SZUA-140",
+  "Family": "SZUA-140",
+  "Genus": "CAZYTT01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_concoct_out.15.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Zeaxanthinibacter",
+  "Species": "Zeaxanthinibacter sp963721045"
+ },
+ "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_concoct_out.8.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Palauibacterales",
+  "Family": "Palauibacteraceae",
+  "Genus": "Humimonas",
+  "Species": "Humimonas hydrogenitrophica"
+ },
+ "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_maxbin.009.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Acidobacteriota",
+  "Class": "Thermoanaerobaculia",
+  "Order": "Multivoradales",
+  "Family": "",
+  "Genus": "",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.16.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota_D",
+  "Class": "UBA1144",
+  "Order": "Nemesobacterales",
+  "Family": "",
+  "Genus": "",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.17.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "JAKDMP01",
+  "Family": "JAKDMP01",
+  "Genus": "JBAUSV01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.18.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "SZUA-36",
+  "Genus": "JABDJL01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.4.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "GCA-001735895",
+  "Family": "GCA-001735895",
+  "Genus": "GCA-001735895",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.5.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Kiloniellales",
+  "Family": "J153",
+  "Genus": "",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.10.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Thermoleophilia",
+  "Order": "Solirubrobacterales",
+  "Family": "70-9",
+  "Genus": "VRUE01",
+  "Species": "VRUE01 sp035266685"
+ },
+ "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.16.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Thermoleophilia",
+  "Order": "Gaiellales",
+  "Family": "Gaiellaceae",
+  "Genus": "Palsa-739",
+  "Species": "Palsa-739 sp035266765"
+ },
+ "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.21.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Deinococcota",
+  "Class": "Deinococci",
+  "Order": "Deinococcales",
+  "Family": "Trueperaceae",
+  "Genus": "JASBRS01",
+  "Species": "JASBRS01 sp035266525"
+ },
+ "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.31.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobulbia",
+  "Order": "Desulfobulbales",
+  "Family": "VMSU01",
+  "Genus": "JADGBM01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.34.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "Prolixibacteraceae",
+  "Genus": "Sunxiuqinia",
+  "Species": "Sunxiuqinia sp035266925"
+ },
+ "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.36.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Krumholzibacteriota",
+  "Class": "Krumholzibacteriia",
+  "Order": "JAJRXK01",
+  "Family": "JAJRXK01",
+  "Genus": "JAOZPE01",
+  "Species": "JAOZPE01 sp963806035"
+ },
+ "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.4.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "Prolixibacteraceae",
+  "Genus": "Draconibacterium",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.41.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Deinococcota",
+  "Class": "Deinococci",
+  "Order": "Deinococcales",
+  "Family": "Trueperaceae",
+  "Genus": "JASBRS01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.42.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "Geothermobacteraceae",
+  "Genus": "DATFMT01",
+  "Species": "DATFMT01 sp035266745"
+ },
+ "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.45.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Chloroflexota",
+  "Class": "Anaerolineae",
+  "Order": "Anaerolineales",
+  "Family": "Villigracilaceae",
+  "Genus": "Defluviilinea",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.49.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "DATFMH01",
+  "Genus": "DATFNI01",
+  "Species": "DATFNI01 sp035266485"
+ },
+ "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.51.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobulbia",
+  "Order": "Desulfobulbales",
+  "Family": "JAGXFP01",
+  "Genus": "JAGXFP01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.69.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "ATBO01",
+  "Genus": "",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.9.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Burkholderiales",
+  "Family": "SG8-39",
+  "Genus": "DAHVFK01",
+  "Species": "DAHVFK01 sp035266805"
+ },
+ "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_maxbin.022.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "SAR324",
+  "Class": "SAR324",
+  "Order": "SAR324",
+  "Family": "JACQKK01",
+  "Genus": "DATFMP01",
+  "Species": "DATFMP01 sp035266845"
+ },
+ "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_metabat.10.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Acidobacteriota",
+  "Class": "Terriglobia",
+  "Order": "UBA7540",
+  "Family": "UBA7540",
+  "Genus": "SCRD01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_metabat.18.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "DSM-4660",
+  "Order": "Desulfatiglandales",
+  "Family": "Desulfatiglandaceae",
+  "Genus": "NaphS2",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_metabat.27.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Gemmatimonadales",
+  "Family": "GWC2-71-9",
+  "Genus": "DATFMZ01",
+  "Species": "DATFMZ01 sp035266665"
+ },
+ "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_metabat.38.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Burkholderiales",
+  "Family": "Gallionellaceae",
+  "Genus": "RI-121",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_C_H2O_MG_DASTool_bins_concoct_out.67.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Campylobacterota",
+  "Class": "Campylobacteria",
+  "Order": "Campylobacterales",
+  "Family": "Arcobacteraceae",
+  "Genus": "JALRJW01",
+  "Species": "JALRJW01 sp937138295"
+ },
+ "Salt_Pond_MetaG_R2A_C_H2O_MG_DASTool_bins_metabat.16.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Schleiferiaceae",
+  "Genus": "UBA10364",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_C_H2O_MG_DASTool_bins_metabat.4.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Balneatricaceae",
+  "Genus": "Marinobacterium_E",
+  "Species": "Marinobacterium_E sp013373575"
+ },
+ "Salt_Pond_MetaG_R2A_C_H2O_MG_DASTool_bins_metabat.5.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "JAHEIH01",
+  "Genus": "JAHEIH01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaGSF2_A_D1_MG_DASTool_bins_concoct_out.23.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobulbia",
+  "Order": "Desulfobulbales",
+  "Family": "BM004",
+  "Genus": "BM004",
+  "Species": "BM004 sp002868955"
+ },
+ "Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.11.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Campylobacterota",
+  "Class": "Campylobacteria",
+  "Order": "Campylobacterales",
+  "Family": "Sulfurovaceae",
+  "Genus": "Sulfurovum",
+  "Species": ""
+ },
+ "Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.13.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "UBA11574",
+  "Genus": "JAAXQD01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.28.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "UBA11574",
+  "Genus": "UBA11574",
+  "Species": "UBA11574 sp002868985"
+ },
+ "Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.33.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "DATFLG01",
+  "Family": "DATFLG01",
+  "Genus": "DATFML01",
+  "Species": "DATFML01 sp035266965"
+ },
+ "Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.40.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "DATFMH01",
+  "Genus": "DATFMH01",
+  "Species": "DATFMH01 sp035267045"
+ },
+ "Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.55.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Halieaceae",
+  "Genus": "JAACFI01",
+  "Species": "JAACFI01 sp029287595"
+ },
+ "Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.8.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Syntrophobacteria",
+  "Order": "BM002",
+  "Family": "BM002",
+  "Genus": "BM002",
+  "Species": "BM002 sp002899795"
+ },
+ "Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_concoct_out.23.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "BM103",
+  "Genus": "JAFDBW01",
+  "Species": "JAFDBW01 sp019313105"
+ },
+ "Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_concoct_out.33.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "NS11-12g",
+  "Family": "UBA955",
+  "Genus": "VMCP01",
+  "Species": "VMCP01 sp008081305"
+ },
+ "Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.14.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "BM103",
+  "Genus": "M0040",
+  "Species": "M0040 sp029859485"
+ },
+ "Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.23.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Litorivicinaceae",
+  "Genus": "HIMB30",
+  "Species": "HIMB30 sp002691485"
+ },
+ "Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.28.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "MAG-120531",
+  "Species": "MAG-120531 sp937136755"
+ },
+ "Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.34.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Chromatiales",
+  "Family": "Chromatiaceae",
+  "Genus": "VMDJ01",
+  "Species": "VMDJ01 sp008080925"
+ },
+ "Salt_Pond_MetaGSF2_B_D1_MG_DASTool_bins_concoct_out.44.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Yeosuana",
+  "Species": ""
+ },
+ "Salt_Pond_MetaGSF2_B_D1_MG_DASTool_bins_metabat.9.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "UBA11574",
+  "Genus": "JAAXQD01",
+  "Species": "JAAXQD01 sp024641825"
+ },
+ "Salt_Pond_MetaGSF2_B_D2_MG_DASTool_bins_concoct_out.42.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Phycisphaerae",
+  "Order": "SM23-33",
+  "Family": "SM23-33",
+  "Genus": "",
+  "Species": ""
+ },
+ "Salt_Pond_MetaGSF2_B_D2_MG_DASTool_bins_concoct_out.55.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Steroidobacterales",
+  "Family": "BM003",
+  "Genus": "BM003",
+  "Species": "BM003 sp002868855"
+ },
+ "Salt_Pond_MetaGSF2_B_D2_MG_DASTool_bins_metabat.4.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "Fodinibius",
+  "Species": ""
+ },
+ "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_concoct_out.14.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Actinomycetes",
+  "Order": "Actinomycetales",
+  "Family": "Microbacteriaceae",
+  "Genus": "Aquiluna",
+  "Species": "Aquiluna sp040262185"
+ },
+ "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_concoct_out.91.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Pseudohongiellaceae",
+  "Genus": "Eutrophocola",
+  "Species": "Eutrophocola sp030828385"
+ },
+ "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.11.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Pseudohongiellaceae",
+  "Genus": "UBA9145",
+  "Species": "UBA9145 sp003482475"
+ },
+ "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.19.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Planktomarina",
+  "Species": "Planktomarina temperata"
+ },
+ "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.25.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Schleiferiaceae",
+  "Genus": "UBA10364",
+  "Species": "UBA10364 sp018402665"
+ },
+ "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.28.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "UBA3478",
+  "Species": ""
+ },
+ "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.39.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Magnimaribacterales",
+  "Family": "D2472",
+  "Genus": "D2472",
+  "Species": "D2472 sp016779285"
+ },
+ "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.8.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "HIMB11",
+  "Species": "HIMB11 sp003486095"
+ },
+ "Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_concoct_out.13.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Campylobacterota",
+  "Class": "Campylobacteria",
+  "Order": "Campylobacterales",
+  "Family": "Sulfurovaceae",
+  "Genus": "Sulfurovum",
+  "Species": ""
+ },
+ "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.13.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Planctomycetia",
+  "Order": "Pirellulales",
+  "Family": "Thermoguttaceae",
+  "Genus": "JAZFUB01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.15.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "Fodinibius",
+  "Species": ""
+ },
+ "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.17.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "DASQZP01",
+  "Genus": "DASQZP01",
+  "Species": "DASQZP01 sp035638655"
+ },
+ "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.24.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "DATFMH01",
+  "Genus": "DATFMH01",
+  "Species": "DATFMH01 sp035267005"
+ },
+ "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.26.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "SMO-BIN1",
+  "Species": "SMO-BIN1 sp035638715"
+ },
+ "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.3.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Nevskiales",
+  "Family": "CAZYIP01",
+  "Genus": "",
+  "Species": ""
+ },
+ "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.32.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "GCA-2748055",
+  "Genus": "DASQZK01",
+  "Species": "DASQZK01 sp035638735"
+ },
+ "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.39.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "JAKDMP01",
+  "Family": "JAKDMP01",
+  "Genus": "JBAUSV01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.42.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "DDH964",
+  "Genus": "",
+  "Species": ""
+ },
+ "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.8.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "UBA5335",
+  "Family": "SLRW01",
+  "Genus": "DASQZJ01",
+  "Species": "DASQZJ01 sp035638775"
+ },
+ "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_metabat.11.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "UBA5335",
+  "Family": "SLRW01",
+  "Genus": "DASQZJ01",
+  "Species": "DASQZJ01 sp035638695"
+ },
+ "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_metabat.16.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Deinococcota",
+  "Class": "Deinococci",
+  "Order": "Deinococcales",
+  "Family": "Trueperaceae",
+  "Genus": "JASBRS01",
+  "Species": ""
+ },
+ "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_metabat.19.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "JAKDMP01",
+  "Family": "JAKDMP01",
+  "Genus": "",
+  "Species": ""
+ },
+ "Salt_Pond_MetaGSF2_C_H2O_MG_DASTool_bins_metabat.13.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "CAJXSD01",
+  "Species": "CAJXSD01 sp964633145"
+ },
+ "Salt_Pond_MetaGSF2_C_H2O_MG_DASTool_bins_metabat.16.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Verrucomicrobiota",
+  "Class": "Verrucomicrobiia",
+  "Order": "Opitutales",
+  "Family": "Seribacteraceae",
+  "Genus": "Chordibacter",
+  "Species": "Chordibacter sp027593365"
+ },
+ "Salt_Pond_MetaGSF2_C_H2O_MG_DASTool_bins_metabat.29.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "MS024-2A",
+  "Species": "MS024-2A sp017852075"
+ },
+ "Salt_Pond_MetaGSF2_C_H2O_MG_DASTool_bins_metabat.49.contigs__": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Actinomycetes",
+  "Order": "Actinomycetales",
+  "Family": "Microbacteriaceae",
+  "Genus": "Aquiluna",
+  "Species": "Aquiluna sp040262185"
+ },
+ "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.25.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haladaptataceae",
+  "Genus": "",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.5.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Natrialbaceae",
+  "Genus": "DATFIX01",
+  "Species": "DATFIX01 sp035269625"
+ },
+ "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.21.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Methanosarcinia",
+  "Order": "Methanosarcinales",
+  "Family": "Methanosarcinaceae",
+  "Genus": "Methanolobus",
+  "Species": "Methanolobus sp020055655"
+ },
+ "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_metabat.14.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Haloquadratum",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_metabat.8.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Halorubrum",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.17.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Haloquadratum",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_metabat.31.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Natrialbaceae",
+  "Genus": "Natrinema",
+  "Species": "Natrinema hispanicum_A"
+ },
+ "Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_metabat.29.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Haloquadratum",
+  "Species": "Haloquadratum sp031580685"
+ },
+ "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_metabat.16.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Thermoproteota",
+  "Class": "Nitrososphaeria",
+  "Order": "Nitrososphaerales",
+  "Family": "Nitrosopumilaceae",
+  "Genus": "Nitrosopumilus",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_concoct_out.52.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Thermoproteota",
+  "Class": "Nitrososphaeria",
+  "Order": "Nitrososphaerales",
+  "Family": "Nitrosopumilaceae",
+  "Genus": "Nitrosopumilus",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_concoct_out.19.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Halonotius",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_concoct_out.67.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloarculaceae",
+  "Genus": "Halosegnis",
+  "Species": "Halosegnis rubeus"
+ },
+ "Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_concoct_out.9.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Halorubrum",
+  "Species": "Halorubrum sp003990725"
+ },
+ "Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_metabat.14.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Halorubrum",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_metabat.16.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Haloquadratum",
+  "Species": "Haloquadratum walsbyi"
+ },
+ "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_concoct_out.11.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloarculaceae",
+  "Genus": "Haloarcula",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_concoct_out.29.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Haloplanus",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_concoct_out.45.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloarculaceae",
+  "Genus": "Haloarcula",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_maxbin.035.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Nanohalarchaeota",
+  "Class": "Nanosalinia",
+  "Order": "Nanosalinales",
+  "Family": "Nanosalinaceae",
+  "Genus": "Nanohalovita",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_metabat.14.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Halohasta",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_B_H2O_MG_DASTool_bins_metabat.16.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Halonotius",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_B_H2O_MG_DASTool_bins_metabat.17.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloarculaceae",
+  "Genus": "Natronomonas",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_B_H2O_MG_DASTool_bins_metabat.29.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Nanohalarchaeota",
+  "Class": "Nanosalinia",
+  "Order": "Nanosalinales",
+  "Family": "Nanosalinaceae",
+  "Genus": "B1-Br10-U2g21",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_C_H2O_MG_DASTool_bins_concoct_out.35.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Halorubrum",
+  "Species": "Halorubrum miltondacostae"
+ },
+ "Salt_Pond_MetaG_R2_C_H2O_MG_DASTool_bins_concoct_out.60.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloarculaceae",
+  "Genus": "Haloarcula",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_C_H2O_MG_DASTool_bins_metabat.20.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloarculaceae",
+  "Genus": "Natronomonas",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_C_H2O_MG_DASTool_bins_metabat.29.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Nanohalarchaeota",
+  "Class": "Nanosalinia",
+  "Order": "Nanosalinales",
+  "Family": "Nanosalinaceae",
+  "Genus": "Nanosalina",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.12.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Asgardarchaeota",
+  "Class": "Heimdallarchaeia",
+  "Order": "Heimdallarchaeales",
+  "Family": "Kariarchaeaceae",
+  "Genus": "Kariarchaeum",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.37.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Hikarchaeaceae",
+  "Genus": "",
+  "Species": ""
+ },
+ "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.40.contigs__": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Hikarchaeaceae",
+  "Genus": "",
+  "Species": ""
+ }
+}
