@@ -99,9 +99,11 @@ cd clauded_insights
 
 - **Phosphate ratio** (0.07) is a tuned parameter — lead with the parameter-free
   (unconstrained) fit, and/or tie it to the measured Olsen-P per core.
-- **No archaea in the abundance-weighted MAG set** (280 Bacteria, 0 archaea): the
-  betaine→TMA→methane route is closed with an empirical 0.06 × TMA scalar, not a modelled
-  methanogen. State explicitly.
+- **The betaine→TMA→methane step is not modelled**: the abundance-weighted MAG set holds 280
+  Bacteria and 30 archaea, including the one methanogen MAG (*Methanolobus*), but the route is
+  closed with an empirical 0.06 × TMA scalar, not a modelled methanogen. State explicitly.
+  (The archaea were mislabelled `unbinned_reads` in `data/mag_abundances_taxonomy.csv` until
+  2026-10-21.)
 - **Figure 8 network**: n = 12 over ~140 taxa (p ≫ n) — report bootstrap edge-stability
   rather than a single fit.
 

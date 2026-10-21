@@ -70,10 +70,10 @@ ANNOTATIONS = [
   "'BM003KS3-K002'). Add the caveat that the precision matrix is inferred from n = 12 over ~140 "
   "taxa (p >> n); edges are exploratory -- bootstrap edge-stability recommended."),
  ("For the one methanogen MAG, a methanogenic",
-  "Note for reviewers: the dereplicated MAG set used for abundance-weighting is entirely "
-  "bacterial (280 Bacteria, 0 archaea); this one methanogen MAG is not in that table, so the "
-  "betaine->TMA->methane route is closed with an empirical 0.06 x TMA scalar (from Fig 4) rather "
-  "than a modelled archaeon. State this explicitly so the archaeal step is not assumed modelled."),
+  "Note for reviewers: this methanogen MAG (Methanolobus) is one of the 30 archaea in the "
+  "dereplicated MAG set used for abundance-weighting, but the betaine->TMA->methane route is "
+  "closed with an empirical 0.06 x TMA scalar (from Fig 4) rather than a modelled archaeon. State "
+  "this explicitly so the archaeal step is not assumed modelled."),
 ]
 
 doc = Document(str(SRC))

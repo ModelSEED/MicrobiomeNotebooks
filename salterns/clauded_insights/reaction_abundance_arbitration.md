@@ -7,7 +7,8 @@ prior manual attempt at the same split.
 > Update: reaction presence is now taken from the **RAST gene annotation** (the local
 > RASTified genome JSONs), not the ModelSEED models. This recovered rxn00270 (48 MAGs)
 > and rxn05011 (41 MAGs) that the base models never built, confirmed C–P lyase in 22 MAGs
-> (matching the curated table), and confirmed methyl-CoM reductase in ~0–1 MAGs (archaea gap).
+> (matching the curated table), and confirmed methyl-CoM reductase in 1 MAG (*Methanolobus*, the only
+> one of the 30 archaeal MAGs with *mcrA*).
 
 ## The two methods measure different things
 | | denominator | weighting | presence source |
@@ -44,10 +45,12 @@ of the combined MePn+Bet pool.
    the same as an abundant one). Mine weights by read abundance, so the abundant MePn carriers
    (Roseovarius) raise MePn's share (29.6 % of MePn+Bet vs Sheet2's 19.4 %). For "which pathway
    the abundant organisms run" (i.e. what drives methane flux), abundance-weighting is correct.
-3. **Methanogenesis (mcom / rxn03127): Sheet2 is more reliable here.** My model-based count finds
-   it in **1** MAG because the dereplicated MAG set has essentially no archaea (the binning gap
-   flagged earlier); Sheet2's gene annotation finds mcom more broadly. Neither is large, but for
-   the terminal methanogenesis step trust the annotation, not my models.
+3. **Methanogenesis (mcom / rxn03127): the low count is real.** The models and the RAST gene
+   annotation both find it in **1** MAG, *Methanolobus*, the only one of the 30 archaeal MAGs with
+   methyl-CoM reductase (*mcrA*). This note first blamed a binning gap, but the archaea were in
+   the MAG set all along, mislabelled `unbinned_reads` in `data/mag_abundances_taxonomy.csv`
+   (fixed 2026-10-21). Sheet2's *mcom* row counts gene copies per sample (at most 9, almost all
+   in R1 samples), a different unit from a MAG count. Neither is large.
 4. My `rxn24612` (tma_corr) is annotated in 58 MAGs — a broad/promiscuous corrinoid
    methyltransferase that inflates my **Bet union**. Prefer the signature `rxn17220`.
 
@@ -58,7 +61,8 @@ of the combined MePn+Bet pool.
   (MePn C–P lyase `rxn43120` vs betaine reductase `rxn17220`): **MePn ≈ 7.3 % ≥ Bet ≈ 2.8 %** in
   unrestored, ~0 in restored/reference. Do **not** use Sheet2's 19:81 (osmolyte-inflated) or my
   Bet *union* (rxn24612-inflated).
-- **Methanogenesis**: defer to Sheet2's gene annotation; my model count is an archaeal-binning artefact.
+- **Methanogenesis**: report the single *mcrA* MAG (*Methanolobus*; up to 0.30 % of reads, detected only
+  in the unrestored cores). The count of one is real, not an archaeal-binning artefact.
 
 Net: the two didn't disagree by error so much as by definition. On the metric the question asks for
 (abundance of the pathway-carrying organisms) my by-type values are correct; Sheet2's headline
