@@ -1,0 +1,2466 @@
+{
+ "base_min6": {
+  "module_1": {
+   "size": 19,
+   "type": "louvain",
+   "members": [
+    "ATBO01",
+    "DAHVFK01",
+    "DATFML01",
+    "DATFMP01",
+    "DATFMT01",
+    "DATFMZ01",
+    "Draconibacterium",
+    "Halofilum",
+    "J153",
+    "JAAXQD01",
+    "JADGBM01",
+    "JAGXFP01",
+    "JASBRS01",
+    "JAZFUB01",
+    "JBBDSH01",
+    "Multivoradales",
+    "NaphS2",
+    "RI-121",
+    "Sunxiuqinia"
+   ]
+  },
+  "module_2": {
+   "size": 18,
+   "type": "louvain",
+   "members": [
+    "BM002",
+    "BM003",
+    "BM004",
+    "BM509",
+    "CAJXVY01",
+    "Christiangramia",
+    "DATFJG01",
+    "Defluviilinea",
+    "Gracilimonas",
+    "JAFDBW01",
+    "JAUIBE01",
+    "Lutibacter",
+    "Marinobacter",
+    "Ornithinicoccus",
+    "Salegentibacter",
+    "Salsipaludibacter",
+    "UBA8670",
+    "VAYN01"
+   ]
+  },
+  "module_3": {
+   "size": 11,
+   "type": "louvain",
+   "members": [
+    "CAYPLZ01",
+    "CAZUKV01",
+    "DATFJC01",
+    "JAGXLC01",
+    "M55B111",
+    "M55B127",
+    "Maribacter",
+    "Marimicrobium",
+    "Oleincola",
+    "S36-B12",
+    "Wenzhouxiangella"
+   ]
+  },
+  "module_4": {
+   "size": 9,
+   "type": "louvain",
+   "members": [
+    "Haloarcula",
+    "Halohasta",
+    "Halonotius",
+    "Haloplanus",
+    "Haloquadratum",
+    "Halorubrum",
+    "Halosegnis",
+    "Hikarchaeaceae",
+    "Natronomonas"
+   ]
+  },
+  "module_5": {
+   "size": 9,
+   "type": "louvain",
+   "members": [
+    "CAZCJJ01",
+    "CAZWDL01",
+    "Coraliomargarita_B",
+    "DATFJZ01",
+    "DATFKA01",
+    "DT-110",
+    "JAKVAV01",
+    "Phaeodactylibacter",
+    "Psychroflexus"
+   ]
+  },
+  "module_6": {
+   "size": 8,
+   "type": "louvain",
+   "members": [
+    "CAVTAV01",
+    "DASQZJ01",
+    "DATFMH01",
+    "Humimonas",
+    "JAKDMP01",
+    "JBAUSV01",
+    "PWMO01",
+    "SMO-BIN1"
+   ]
+  },
+  "singleton_1": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA1847"
+   ]
+  },
+  "singleton_2": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAWLGC01"
+   ]
+  },
+  "singleton_3": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA11579"
+   ]
+  },
+  "singleton_4": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "DASQZK01"
+   ]
+  },
+  "singleton_5": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "SZUA-36"
+   ]
+  },
+  "singleton_6": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Alkalispirochaeta"
+   ]
+  },
+  "singleton_7": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Pleomorphochaeta"
+   ]
+  },
+  "singleton_8": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "DASQZP01"
+   ]
+  }
+ },
+ "min4": {
+  "module_1": {
+   "size": 19,
+   "type": "louvain",
+   "members": [
+    "ATBO01",
+    "CAVTAV01",
+    "CAZYTT01",
+    "DAHVFK01",
+    "DASQZJ01",
+    "DATFMH01",
+    "DATFMP01",
+    "DATFMZ01",
+    "DATFNI01",
+    "Halofilum",
+    "Humimonas",
+    "JAKAGZ01",
+    "JASBRS01",
+    "JBAUSV01",
+    "JBBDSH01",
+    "Multivoradales",
+    "Nemesobacterales",
+    "PWMO01",
+    "Palsa-739"
+   ]
+  },
+  "module_2": {
+   "size": 10,
+   "type": "louvain",
+   "members": [
+    "B1-Br10-U2g21",
+    "CAYPLZ01",
+    "CAZFAK01",
+    "CAZUKV01",
+    "JAGHBT01",
+    "JAGXLC01",
+    "JAIOTG01",
+    "M55B111",
+    "M55B127",
+    "Oleincola"
+   ]
+  },
+  "module_3": {
+   "size": 7,
+   "type": "louvain",
+   "members": [
+    "Christiangramia",
+    "DATFJG01",
+    "Gracilimonas",
+    "Lutibacter",
+    "Ornithinicoccus",
+    "Sulfurovum",
+    "VAYN01"
+   ]
+  },
+  "module_4": {
+   "size": 7,
+   "type": "louvain",
+   "members": [
+    "Haloarcula",
+    "Halohasta",
+    "Halonotius",
+    "Haloquadratum",
+    "Halorubrum",
+    "Halosegnis",
+    "Natronomonas"
+   ]
+  },
+  "module_5": {
+   "size": 6,
+   "type": "louvain",
+   "members": [
+    "Draconibacterium",
+    "JADGBM01",
+    "JAGXFP01",
+    "NaphS2",
+    "RI-121",
+    "Sunxiuqinia"
+   ]
+  },
+  "module_6": {
+   "size": 5,
+   "type": "louvain",
+   "members": [
+    "CAZWDL01",
+    "DATFKA01",
+    "DT-110",
+    "Phaeodactylibacter",
+    "Psychroflexus"
+   ]
+  },
+  "singleton_1": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM509"
+   ]
+  },
+  "singleton_2": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salsipaludibacter"
+   ]
+  },
+  "singleton_3": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAUIBE01"
+   ]
+  },
+  "singleton_4": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAFDBW01"
+   ]
+  },
+  "singleton_5": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM004"
+   ]
+  },
+  "singleton_6": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM002"
+   ]
+  },
+  "singleton_7": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA1847"
+   ]
+  },
+  "singleton_8": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Marinobacter"
+   ]
+  },
+  "singleton_9": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM003"
+   ]
+  },
+  "singleton_10": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA11579"
+   ]
+  },
+  "singleton_11": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "CAZCJJ01"
+   ]
+  },
+  "singleton_12": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAKVAV01"
+   ]
+  },
+  "singleton_13": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "M0040"
+   ]
+  },
+  "singleton_14": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salegentibacter"
+   ]
+  }
+ },
+ "min3": {
+  "module_1": {
+   "size": 22,
+   "type": "louvain",
+   "members": [
+    "CAVTAV01",
+    "CAZYTT01",
+    "DAHVFK01",
+    "DASQZJ01",
+    "DATFMH01",
+    "DATFMP01",
+    "DATFMZ01",
+    "DATFNI01",
+    "Eutrophobiaceae",
+    "Halofilum",
+    "Humimonas",
+    "JAKAGZ01",
+    "JAOZPE01",
+    "JASBRS01",
+    "JBAUSV01",
+    "JBBDSH01",
+    "Multivoradales",
+    "Nemesobacterales",
+    "PWMO01",
+    "Palsa-739",
+    "SCRD01",
+    "Zeaxanthinibacter"
+   ]
+  },
+  "module_2": {
+   "size": 9,
+   "type": "louvain",
+   "members": [
+    "CAYPLZ01",
+    "CAZFAK01",
+    "CAZUKV01",
+    "JAGHBT01",
+    "JAGXLC01",
+    "JAIOTG01",
+    "M55B111",
+    "M55B127",
+    "Oleincola"
+   ]
+  },
+  "module_3": {
+   "size": 8,
+   "type": "louvain",
+   "members": [
+    "B1-Br10-U2g21",
+    "Haloarcula",
+    "Halohasta",
+    "Halonotius",
+    "Halorubrum",
+    "Halosegnis",
+    "Nanosalina",
+    "Natronomonas"
+   ]
+  },
+  "module_4": {
+   "size": 7,
+   "type": "louvain",
+   "members": [
+    "Christiangramia",
+    "DATFJG01",
+    "Gracilimonas",
+    "Lutibacter",
+    "Ornithinicoccus",
+    "Sulfurovum",
+    "VAYN01"
+   ]
+  },
+  "module_5": {
+   "size": 6,
+   "type": "louvain",
+   "members": [
+    "Draconibacterium",
+    "JADGBM01",
+    "JAGXFP01",
+    "NaphS2",
+    "RI-121",
+    "Sunxiuqinia"
+   ]
+  },
+  "module_6": {
+   "size": 5,
+   "type": "louvain",
+   "members": [
+    "CAZWDL01",
+    "DATFKA01",
+    "DT-110",
+    "Phaeodactylibacter",
+    "Psychroflexus"
+   ]
+  },
+  "singleton_1": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM509"
+   ]
+  },
+  "singleton_2": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAUIBE01"
+   ]
+  },
+  "singleton_3": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salsipaludibacter"
+   ]
+  },
+  "singleton_4": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAFDBW01"
+   ]
+  },
+  "singleton_5": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM004"
+   ]
+  },
+  "singleton_6": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM002"
+   ]
+  },
+  "singleton_7": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA1847"
+   ]
+  },
+  "singleton_8": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM003"
+   ]
+  },
+  "singleton_9": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "CAZCJJ01"
+   ]
+  },
+  "singleton_10": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA11579"
+   ]
+  },
+  "singleton_11": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Marinobacter"
+   ]
+  },
+  "singleton_12": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "M0040"
+   ]
+  },
+  "singleton_13": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salegentibacter"
+   ]
+  },
+  "singleton_14": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAKVAV01"
+   ]
+  }
+ },
+ "min2": {
+  "module_1": {
+   "size": 22,
+   "type": "louvain",
+   "members": [
+    "CAVTAV01",
+    "CAZYTT01",
+    "DAHVFK01",
+    "DASQZJ01",
+    "DATFMH01",
+    "DATFMP01",
+    "DATFMZ01",
+    "DATFNI01",
+    "Eutrophobiaceae",
+    "Halofilum",
+    "Humimonas",
+    "JAKAGZ01",
+    "JAOZPE01",
+    "JASBRS01",
+    "JBAUSV01",
+    "JBBDSH01",
+    "Multivoradales",
+    "Nemesobacterales",
+    "PWMO01",
+    "Palsa-739",
+    "SCRD01",
+    "Zeaxanthinibacter"
+   ]
+  },
+  "module_2": {
+   "size": 10,
+   "type": "louvain",
+   "members": [
+    "CAYPLZ01",
+    "CAZFAK01",
+    "CAZUKV01",
+    "JAGHBT01",
+    "JAGXLC01",
+    "JAIOTG01",
+    "LD21",
+    "M55B111",
+    "M55B127",
+    "Oleincola"
+   ]
+  },
+  "module_3": {
+   "size": 9,
+   "type": "louvain",
+   "members": [
+    "B1-Br10-U2g21",
+    "Haloarcula",
+    "Halohasta",
+    "Halonotius",
+    "Halorubrum",
+    "Halosegnis",
+    "Nanohalovita",
+    "Nanosalina",
+    "Natronomonas"
+   ]
+  },
+  "module_4": {
+   "size": 7,
+   "type": "louvain",
+   "members": [
+    "Christiangramia",
+    "DATFJG01",
+    "Gracilimonas",
+    "Lutibacter",
+    "Ornithinicoccus",
+    "Sulfurovum",
+    "VAYN01"
+   ]
+  },
+  "module_5": {
+   "size": 6,
+   "type": "louvain",
+   "members": [
+    "Draconibacterium",
+    "JADGBM01",
+    "JAGXFP01",
+    "NaphS2",
+    "RI-121",
+    "Sunxiuqinia"
+   ]
+  },
+  "module_6": {
+   "size": 5,
+   "type": "louvain",
+   "members": [
+    "CAZWDL01",
+    "DATFKA01",
+    "DT-110",
+    "Phaeodactylibacter",
+    "Psychroflexus"
+   ]
+  },
+  "singleton_1": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM509"
+   ]
+  },
+  "singleton_2": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAUIBE01"
+   ]
+  },
+  "singleton_3": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salsipaludibacter"
+   ]
+  },
+  "singleton_4": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAFDBW01"
+   ]
+  },
+  "singleton_5": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM004"
+   ]
+  },
+  "singleton_6": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM002"
+   ]
+  },
+  "singleton_7": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA1847"
+   ]
+  },
+  "singleton_8": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "CAZCJJ01"
+   ]
+  },
+  "singleton_9": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM003"
+   ]
+  },
+  "singleton_10": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA11579"
+   ]
+  },
+  "singleton_11": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "M0040"
+   ]
+  },
+  "singleton_12": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Marinobacter"
+   ]
+  },
+  "singleton_13": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAKVAV01"
+   ]
+  },
+  "singleton_14": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salegentibacter"
+   ]
+  }
+ },
+ "min1": {
+  "module_1": {
+   "size": 22,
+   "type": "louvain",
+   "members": [
+    "CAVTAV01",
+    "CAZYTT01",
+    "DAHVFK01",
+    "DASQZJ01",
+    "DATFMH01",
+    "DATFMP01",
+    "DATFMZ01",
+    "DATFNI01",
+    "Eutrophobiaceae",
+    "Halofilum",
+    "Humimonas",
+    "JAKAGZ01",
+    "JAOZPE01",
+    "JASBRS01",
+    "JBAUSV01",
+    "JBBDSH01",
+    "Multivoradales",
+    "Nemesobacterales",
+    "PWMO01",
+    "Palsa-739",
+    "SCRD01",
+    "Zeaxanthinibacter"
+   ]
+  },
+  "module_2": {
+   "size": 10,
+   "type": "louvain",
+   "members": [
+    "CAYPLZ01",
+    "CAZFAK01",
+    "CAZUKV01",
+    "JAGHBT01",
+    "JAGXLC01",
+    "JAIOTG01",
+    "LD21",
+    "M55B111",
+    "M55B127",
+    "Oleincola"
+   ]
+  },
+  "module_3": {
+   "size": 7,
+   "type": "louvain",
+   "members": [
+    "Christiangramia",
+    "DATFJG01",
+    "Gracilimonas",
+    "Lutibacter",
+    "Ornithinicoccus",
+    "Sulfurovum",
+    "VAYN01"
+   ]
+  },
+  "module_4": {
+   "size": 7,
+   "type": "louvain",
+   "members": [
+    "B1-Br10-U2g21",
+    "Halonotius",
+    "Halorubrum",
+    "Halosegnis",
+    "Nanohalovita",
+    "Nanosalina",
+    "Natronomonas"
+   ]
+  },
+  "module_5": {
+   "size": 6,
+   "type": "louvain",
+   "members": [
+    "Draconibacterium",
+    "JADGBM01",
+    "JAGXFP01",
+    "NaphS2",
+    "RI-121",
+    "Sunxiuqinia"
+   ]
+  },
+  "module_6": {
+   "size": 5,
+   "type": "louvain",
+   "members": [
+    "CAZWDL01",
+    "DATFKA01",
+    "DT-110",
+    "Phaeodactylibacter",
+    "Psychroflexus"
+   ]
+  },
+  "module_7": {
+   "size": 2,
+   "type": "louvain",
+   "members": [
+    "Haloarcula",
+    "Halohasta"
+   ]
+  },
+  "singleton_1": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM509"
+   ]
+  },
+  "singleton_2": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAUIBE01"
+   ]
+  },
+  "singleton_3": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salsipaludibacter"
+   ]
+  },
+  "singleton_4": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAFDBW01"
+   ]
+  },
+  "singleton_5": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM004"
+   ]
+  },
+  "singleton_6": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM002"
+   ]
+  },
+  "singleton_7": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA1847"
+   ]
+  },
+  "singleton_8": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "CAZCJJ01"
+   ]
+  },
+  "singleton_9": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM003"
+   ]
+  },
+  "singleton_10": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA11579"
+   ]
+  },
+  "singleton_11": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "M0040"
+   ]
+  },
+  "singleton_12": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Marinobacter"
+   ]
+  },
+  "singleton_13": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAKVAV01"
+   ]
+  },
+  "singleton_14": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salegentibacter"
+   ]
+  }
+ },
+ "min0": {
+  "module_1": {
+   "size": 23,
+   "type": "louvain",
+   "members": [
+    "ATBO01",
+    "CAVTAV01",
+    "CAZYTT01",
+    "DAHVFK01",
+    "DASQZJ01",
+    "DATFMH01",
+    "DATFMP01",
+    "DATFMZ01",
+    "DATFNI01",
+    "Eutrophobiaceae",
+    "Halofilum",
+    "Humimonas",
+    "JAKAGZ01",
+    "JAOZPE01",
+    "JASBRS01",
+    "JBAUSV01",
+    "JBBDSH01",
+    "Multivoradales",
+    "Nemesobacterales",
+    "PWMO01",
+    "Palsa-739",
+    "SCRD01",
+    "Zeaxanthinibacter"
+   ]
+  },
+  "module_2": {
+   "size": 10,
+   "type": "louvain",
+   "members": [
+    "CAYPLZ01",
+    "CAZFAK01",
+    "CAZUKV01",
+    "JAGHBT01",
+    "JAGXLC01",
+    "JAIOTG01",
+    "LD21",
+    "M55B111",
+    "M55B127",
+    "Oleincola"
+   ]
+  },
+  "module_3": {
+   "size": 9,
+   "type": "louvain",
+   "members": [
+    "B1-Br10-U2g21",
+    "Haloarcula",
+    "Halohasta",
+    "Halonotius",
+    "Halorubrum",
+    "Halosegnis",
+    "Nanohalovita",
+    "Nanosalina",
+    "Natronomonas"
+   ]
+  },
+  "module_4": {
+   "size": 7,
+   "type": "louvain",
+   "members": [
+    "Christiangramia",
+    "DATFJG01",
+    "Gracilimonas",
+    "Lutibacter",
+    "Ornithinicoccus",
+    "Sulfurovum",
+    "VAYN01"
+   ]
+  },
+  "module_5": {
+   "size": 6,
+   "type": "louvain",
+   "members": [
+    "Draconibacterium",
+    "JADGBM01",
+    "JAGXFP01",
+    "NaphS2",
+    "RI-121",
+    "Sunxiuqinia"
+   ]
+  },
+  "module_6": {
+   "size": 5,
+   "type": "louvain",
+   "members": [
+    "CAZWDL01",
+    "DATFKA01",
+    "DT-110",
+    "Phaeodactylibacter",
+    "Psychroflexus"
+   ]
+  },
+  "singleton_1": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM509"
+   ]
+  },
+  "singleton_2": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAUIBE01"
+   ]
+  },
+  "singleton_3": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salsipaludibacter"
+   ]
+  },
+  "singleton_4": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAFDBW01"
+   ]
+  },
+  "singleton_5": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM004"
+   ]
+  },
+  "singleton_6": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM002"
+   ]
+  },
+  "singleton_7": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA1847"
+   ]
+  },
+  "singleton_8": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM003"
+   ]
+  },
+  "singleton_9": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA11579"
+   ]
+  },
+  "singleton_10": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "CAZCJJ01"
+   ]
+  },
+  "singleton_11": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Marinobacter"
+   ]
+  },
+  "singleton_12": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "M0040"
+   ]
+  },
+  "singleton_13": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salegentibacter"
+   ]
+  },
+  "singleton_14": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAKVAV01"
+   ]
+  }
+ },
+ "min6_2020ids": {
+  "module_1": {
+   "size": 10,
+   "type": "louvain",
+   "members": [
+    "ATBO01",
+    "DAHVFK01",
+    "DATFMP01",
+    "Draconibacterium",
+    "JADGBM01",
+    "JAGXFP01",
+    "Multivoradales",
+    "NaphS2",
+    "RI-121",
+    "Sunxiuqinia"
+   ]
+  },
+  "module_2": {
+   "size": 6,
+   "type": "louvain",
+   "members": [
+    "Christiangramia",
+    "DATFJG01",
+    "Gracilimonas",
+    "Lutibacter",
+    "Ornithinicoccus",
+    "VAYN01"
+   ]
+  },
+  "module_3": {
+   "size": 3,
+   "type": "louvain",
+   "members": [
+    "Humimonas",
+    "JASBRS01",
+    "JBAUSV01"
+   ]
+  },
+  "module_4": {
+   "size": 3,
+   "type": "louvain",
+   "members": [
+    "CAZUKV01",
+    "M55B111",
+    "Oleincola"
+   ]
+  },
+  "singleton_1": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "PWMO01"
+   ]
+  },
+  "singleton_2": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAUIBE01"
+   ]
+  },
+  "singleton_3": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM509"
+   ]
+  }
+ },
+ "min4_2020ids": {
+  "module_1": {
+   "size": 19,
+   "type": "louvain",
+   "members": [
+    "ATBO01",
+    "CAVTAV01",
+    "CAZYTT01",
+    "DAHVFK01",
+    "DASQZJ01",
+    "DATFMH01",
+    "DATFMP01",
+    "DATFMZ01",
+    "DATFNI01",
+    "Halofilum",
+    "Humimonas",
+    "JAKAGZ01",
+    "JASBRS01",
+    "JBAUSV01",
+    "JBBDSH01",
+    "Multivoradales",
+    "Nemesobacterales",
+    "PWMO01",
+    "Palsa-739"
+   ]
+  },
+  "module_2": {
+   "size": 9,
+   "type": "louvain",
+   "members": [
+    "CAYPLZ01",
+    "CAZFAK01",
+    "CAZUKV01",
+    "JAGHBT01",
+    "JAGXLC01",
+    "JAIOTG01",
+    "M55B111",
+    "M55B127",
+    "Oleincola"
+   ]
+  },
+  "module_3": {
+   "size": 7,
+   "type": "louvain",
+   "members": [
+    "Christiangramia",
+    "DATFJG01",
+    "Gracilimonas",
+    "Lutibacter",
+    "Ornithinicoccus",
+    "Sulfurovum",
+    "VAYN01"
+   ]
+  },
+  "module_4": {
+   "size": 6,
+   "type": "louvain",
+   "members": [
+    "Draconibacterium",
+    "JADGBM01",
+    "JAGXFP01",
+    "NaphS2",
+    "RI-121",
+    "Sunxiuqinia"
+   ]
+  },
+  "module_5": {
+   "size": 5,
+   "type": "louvain",
+   "members": [
+    "CAZWDL01",
+    "DATFKA01",
+    "DT-110",
+    "Phaeodactylibacter",
+    "Psychroflexus"
+   ]
+  },
+  "singleton_1": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM509"
+   ]
+  },
+  "singleton_2": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salsipaludibacter"
+   ]
+  },
+  "singleton_3": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAUIBE01"
+   ]
+  },
+  "singleton_4": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM004"
+   ]
+  },
+  "singleton_5": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAFDBW01"
+   ]
+  },
+  "singleton_6": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM002"
+   ]
+  },
+  "singleton_7": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA1847"
+   ]
+  },
+  "singleton_8": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Marinobacter"
+   ]
+  },
+  "singleton_9": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM003"
+   ]
+  },
+  "singleton_10": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA11579"
+   ]
+  },
+  "singleton_11": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "CAZCJJ01"
+   ]
+  },
+  "singleton_12": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "M0040"
+   ]
+  }
+ },
+ "min3_2020ids": {
+  "module_1": {
+   "size": 22,
+   "type": "louvain",
+   "members": [
+    "ATBO01",
+    "CAVTAV01",
+    "CAZYTT01",
+    "DAHVFK01",
+    "DASQZJ01",
+    "DATFMH01",
+    "DATFMP01",
+    "DATFMZ01",
+    "DATFNI01",
+    "Halofilum",
+    "Humimonas",
+    "JAKAGZ01",
+    "JAOZPE01",
+    "JASBRS01",
+    "JBAUSV01",
+    "JBBDSH01",
+    "Multivoradales",
+    "Nemesobacterales",
+    "PWMO01",
+    "Palsa-739",
+    "SCRD01",
+    "Zeaxanthinibacter"
+   ]
+  },
+  "module_2": {
+   "size": 10,
+   "type": "louvain",
+   "members": [
+    "CAYPLZ01",
+    "CAZFAK01",
+    "CAZUKV01",
+    "Eutrophobiaceae",
+    "JAGHBT01",
+    "JAGXLC01",
+    "JAIOTG01",
+    "M55B111",
+    "M55B127",
+    "Oleincola"
+   ]
+  },
+  "module_3": {
+   "size": 7,
+   "type": "louvain",
+   "members": [
+    "Christiangramia",
+    "DATFJG01",
+    "Gracilimonas",
+    "Lutibacter",
+    "Ornithinicoccus",
+    "Sulfurovum",
+    "VAYN01"
+   ]
+  },
+  "module_4": {
+   "size": 6,
+   "type": "louvain",
+   "members": [
+    "Draconibacterium",
+    "JADGBM01",
+    "JAGXFP01",
+    "NaphS2",
+    "RI-121",
+    "Sunxiuqinia"
+   ]
+  },
+  "module_5": {
+   "size": 5,
+   "type": "louvain",
+   "members": [
+    "CAZWDL01",
+    "DATFKA01",
+    "DT-110",
+    "Phaeodactylibacter",
+    "Psychroflexus"
+   ]
+  },
+  "singleton_1": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM509"
+   ]
+  },
+  "singleton_2": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salsipaludibacter"
+   ]
+  },
+  "singleton_3": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAUIBE01"
+   ]
+  },
+  "singleton_4": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM004"
+   ]
+  },
+  "singleton_5": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAFDBW01"
+   ]
+  },
+  "singleton_6": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM002"
+   ]
+  },
+  "singleton_7": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA1847"
+   ]
+  },
+  "singleton_8": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Marinobacter"
+   ]
+  },
+  "singleton_9": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM003"
+   ]
+  },
+  "singleton_10": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA11579"
+   ]
+  },
+  "singleton_11": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "CAZCJJ01"
+   ]
+  },
+  "singleton_12": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "M0040"
+   ]
+  },
+  "singleton_13": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salegentibacter"
+   ]
+  }
+ },
+ "min2_2020ids": {
+  "module_1": {
+   "size": 21,
+   "type": "louvain",
+   "members": [
+    "ATBO01",
+    "CAZYTT01",
+    "DAHVFK01",
+    "DASQZJ01",
+    "DATFMH01",
+    "DATFMP01",
+    "DATFMZ01",
+    "DATFNI01",
+    "Halofilum",
+    "Humimonas",
+    "JAKAGZ01",
+    "JAOZPE01",
+    "JASBRS01",
+    "JBAUSV01",
+    "JBBDSH01",
+    "Multivoradales",
+    "Nemesobacterales",
+    "PWMO01",
+    "Palsa-739",
+    "SCRD01",
+    "Zeaxanthinibacter"
+   ]
+  },
+  "module_2": {
+   "size": 11,
+   "type": "louvain",
+   "members": [
+    "CAYPLZ01",
+    "CAZFAK01",
+    "CAZUKV01",
+    "Eutrophobiaceae",
+    "JAGHBT01",
+    "JAGXLC01",
+    "JAIOTG01",
+    "LD21",
+    "M55B111",
+    "M55B127",
+    "Oleincola"
+   ]
+  },
+  "module_3": {
+   "size": 7,
+   "type": "louvain",
+   "members": [
+    "Christiangramia",
+    "DATFJG01",
+    "Gracilimonas",
+    "Lutibacter",
+    "Ornithinicoccus",
+    "Sulfurovum",
+    "VAYN01"
+   ]
+  },
+  "module_4": {
+   "size": 6,
+   "type": "louvain",
+   "members": [
+    "Draconibacterium",
+    "JADGBM01",
+    "JAGXFP01",
+    "NaphS2",
+    "RI-121",
+    "Sunxiuqinia"
+   ]
+  },
+  "module_5": {
+   "size": 5,
+   "type": "louvain",
+   "members": [
+    "CAZWDL01",
+    "DATFKA01",
+    "DT-110",
+    "Phaeodactylibacter",
+    "Psychroflexus"
+   ]
+  },
+  "singleton_1": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM509"
+   ]
+  },
+  "singleton_2": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAUIBE01"
+   ]
+  },
+  "singleton_3": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salsipaludibacter"
+   ]
+  },
+  "singleton_4": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM004"
+   ]
+  },
+  "singleton_5": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAFDBW01"
+   ]
+  },
+  "singleton_6": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM002"
+   ]
+  },
+  "singleton_7": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA1847"
+   ]
+  },
+  "singleton_8": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Marinobacter"
+   ]
+  },
+  "singleton_9": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM003"
+   ]
+  },
+  "singleton_10": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "CAZCJJ01"
+   ]
+  },
+  "singleton_11": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA11579"
+   ]
+  },
+  "singleton_12": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "M0040"
+   ]
+  },
+  "singleton_13": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salegentibacter"
+   ]
+  }
+ },
+ "min1_2020ids": {
+  "module_1": {
+   "size": 22,
+   "type": "louvain",
+   "members": [
+    "ATBO01",
+    "CAVTAV01",
+    "CAZYTT01",
+    "DAHVFK01",
+    "DASQZJ01",
+    "DATFMH01",
+    "DATFMP01",
+    "DATFMZ01",
+    "DATFNI01",
+    "Halofilum",
+    "Humimonas",
+    "JAKAGZ01",
+    "JAOZPE01",
+    "JASBRS01",
+    "JBAUSV01",
+    "JBBDSH01",
+    "Multivoradales",
+    "Nemesobacterales",
+    "PWMO01",
+    "Palsa-739",
+    "SCRD01",
+    "Zeaxanthinibacter"
+   ]
+  },
+  "module_2": {
+   "size": 12,
+   "type": "louvain",
+   "members": [
+    "CAYPLZ01",
+    "CAZFAK01",
+    "CAZUKV01",
+    "Eutrophobiaceae",
+    "JAGHBT01",
+    "JAGXLC01",
+    "JAIOTG01",
+    "LD21",
+    "M55B111",
+    "M55B127",
+    "Oleincola",
+    "WJMT01"
+   ]
+  },
+  "module_3": {
+   "size": 7,
+   "type": "louvain",
+   "members": [
+    "Christiangramia",
+    "DATFJG01",
+    "Gracilimonas",
+    "Lutibacter",
+    "Ornithinicoccus",
+    "Sulfurovum",
+    "VAYN01"
+   ]
+  },
+  "module_4": {
+   "size": 6,
+   "type": "louvain",
+   "members": [
+    "Draconibacterium",
+    "JADGBM01",
+    "JAGXFP01",
+    "NaphS2",
+    "RI-121",
+    "Sunxiuqinia"
+   ]
+  },
+  "module_5": {
+   "size": 5,
+   "type": "louvain",
+   "members": [
+    "CAZWDL01",
+    "DATFKA01",
+    "DT-110",
+    "Phaeodactylibacter",
+    "Psychroflexus"
+   ]
+  },
+  "singleton_1": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM509"
+   ]
+  },
+  "singleton_2": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAUIBE01"
+   ]
+  },
+  "singleton_3": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salsipaludibacter"
+   ]
+  },
+  "singleton_4": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM004"
+   ]
+  },
+  "singleton_5": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAFDBW01"
+   ]
+  },
+  "singleton_6": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM002"
+   ]
+  },
+  "singleton_7": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA1847"
+   ]
+  },
+  "singleton_8": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Marinobacter"
+   ]
+  },
+  "singleton_9": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM003"
+   ]
+  },
+  "singleton_10": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "CAZCJJ01"
+   ]
+  },
+  "singleton_11": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA11579"
+   ]
+  },
+  "singleton_12": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "M0040"
+   ]
+  },
+  "singleton_13": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salegentibacter"
+   ]
+  },
+  "singleton_14": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAKVAV01"
+   ]
+  }
+ },
+ "min0_2020ids": {
+  "module_1": {
+   "size": 22,
+   "type": "louvain",
+   "members": [
+    "ATBO01",
+    "CAVTAV01",
+    "CAZYTT01",
+    "DAHVFK01",
+    "DASQZJ01",
+    "DATFMH01",
+    "DATFMP01",
+    "DATFMZ01",
+    "DATFNI01",
+    "Halofilum",
+    "Humimonas",
+    "JAKAGZ01",
+    "JAOZPE01",
+    "JASBRS01",
+    "JBAUSV01",
+    "JBBDSH01",
+    "Multivoradales",
+    "Nemesobacterales",
+    "PWMO01",
+    "Palsa-739",
+    "SCRD01",
+    "Zeaxanthinibacter"
+   ]
+  },
+  "module_2": {
+   "size": 12,
+   "type": "louvain",
+   "members": [
+    "CAYPLZ01",
+    "CAZFAK01",
+    "CAZUKV01",
+    "Eutrophobiaceae",
+    "JAGHBT01",
+    "JAGXLC01",
+    "JAIOTG01",
+    "LD21",
+    "M55B111",
+    "M55B127",
+    "Oleincola",
+    "WJMT01"
+   ]
+  },
+  "module_3": {
+   "size": 7,
+   "type": "louvain",
+   "members": [
+    "Christiangramia",
+    "DATFJG01",
+    "Gracilimonas",
+    "Lutibacter",
+    "Ornithinicoccus",
+    "Sulfurovum",
+    "VAYN01"
+   ]
+  },
+  "module_4": {
+   "size": 6,
+   "type": "louvain",
+   "members": [
+    "Draconibacterium",
+    "JADGBM01",
+    "JAGXFP01",
+    "NaphS2",
+    "RI-121",
+    "Sunxiuqinia"
+   ]
+  },
+  "module_5": {
+   "size": 5,
+   "type": "louvain",
+   "members": [
+    "CAZWDL01",
+    "DATFKA01",
+    "DT-110",
+    "Phaeodactylibacter",
+    "Psychroflexus"
+   ]
+  },
+  "singleton_1": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM509"
+   ]
+  },
+  "singleton_2": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAUIBE01"
+   ]
+  },
+  "singleton_3": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salsipaludibacter"
+   ]
+  },
+  "singleton_4": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM004"
+   ]
+  },
+  "singleton_5": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAFDBW01"
+   ]
+  },
+  "singleton_6": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM002"
+   ]
+  },
+  "singleton_7": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA1847"
+   ]
+  },
+  "singleton_8": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Marinobacter"
+   ]
+  },
+  "singleton_9": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM003"
+   ]
+  },
+  "singleton_10": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA11579"
+   ]
+  },
+  "singleton_11": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "CAZCJJ01"
+   ]
+  },
+  "singleton_12": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "M0040"
+   ]
+  },
+  "singleton_13": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAKVAV01"
+   ]
+  },
+  "singleton_14": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salegentibacter"
+   ]
+  }
+ },
+ "min1_pseudo_pinned": {
+  "module_1": {
+   "size": 23,
+   "type": "louvain",
+   "members": [
+    "ATBO01",
+    "CAVTAV01",
+    "CAZYTT01",
+    "DAHVFK01",
+    "DASQZJ01",
+    "DATFMH01",
+    "DATFMP01",
+    "DATFMZ01",
+    "DATFNI01",
+    "Eutrophobiaceae",
+    "Halofilum",
+    "Humimonas",
+    "JAKAGZ01",
+    "JAOZPE01",
+    "JASBRS01",
+    "JBAUSV01",
+    "JBBDSH01",
+    "Multivoradales",
+    "Nemesobacterales",
+    "PWMO01",
+    "Palsa-739",
+    "SCRD01",
+    "Zeaxanthinibacter"
+   ]
+  },
+  "module_2": {
+   "size": 8,
+   "type": "louvain",
+   "members": [
+    "CAYPLZ01",
+    "CAZFAK01",
+    "CAZUKV01",
+    "JAGHBT01",
+    "JAGXLC01",
+    "JAIOTG01",
+    "M55B111",
+    "Oleincola"
+   ]
+  },
+  "module_3": {
+   "size": 8,
+   "type": "louvain",
+   "members": [
+    "Christiangramia",
+    "DATFJG01",
+    "Gracilimonas",
+    "Lutibacter",
+    "Marinobacter",
+    "Ornithinicoccus",
+    "Sulfurovum",
+    "VAYN01"
+   ]
+  },
+  "module_4": {
+   "size": 8,
+   "type": "louvain",
+   "members": [
+    "Haloarcula",
+    "Halohasta",
+    "Halonotius",
+    "Halorubrum",
+    "Halosegnis",
+    "Nanohalovita",
+    "Nanosalina",
+    "Natronomonas"
+   ]
+  },
+  "module_5": {
+   "size": 6,
+   "type": "louvain",
+   "members": [
+    "Draconibacterium",
+    "JADGBM01",
+    "JAGXFP01",
+    "NaphS2",
+    "RI-121",
+    "Sunxiuqinia"
+   ]
+  },
+  "module_6": {
+   "size": 5,
+   "type": "louvain",
+   "members": [
+    "CAZWDL01",
+    "DATFKA01",
+    "DT-110",
+    "Phaeodactylibacter",
+    "Psychroflexus"
+   ]
+  },
+  "singleton_1": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM509"
+   ]
+  },
+  "singleton_2": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAUIBE01"
+   ]
+  },
+  "singleton_3": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salsipaludibacter"
+   ]
+  },
+  "singleton_4": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAFDBW01"
+   ]
+  },
+  "singleton_5": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM004"
+   ]
+  },
+  "singleton_6": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM002"
+   ]
+  },
+  "singleton_7": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "LD21"
+   ]
+  },
+  "singleton_8": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA1847"
+   ]
+  },
+  "singleton_9": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "CAZCJJ01"
+   ]
+  },
+  "singleton_10": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM003"
+   ]
+  },
+  "singleton_11": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA11579"
+   ]
+  },
+  "singleton_12": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "M0040"
+   ]
+  },
+  "singleton_13": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salegentibacter"
+   ]
+  }
+ },
+ "min0_pseudo_pinned": {
+  "module_1": {
+   "size": 23,
+   "type": "louvain",
+   "members": [
+    "ATBO01",
+    "CAVTAV01",
+    "CAZYTT01",
+    "DAHVFK01",
+    "DASQZJ01",
+    "DATFMH01",
+    "DATFMP01",
+    "DATFMZ01",
+    "DATFNI01",
+    "Eutrophobiaceae",
+    "Halofilum",
+    "Humimonas",
+    "JAKAGZ01",
+    "JAOZPE01",
+    "JASBRS01",
+    "JBAUSV01",
+    "JBBDSH01",
+    "Multivoradales",
+    "Nemesobacterales",
+    "PWMO01",
+    "Palsa-739",
+    "SCRD01",
+    "Zeaxanthinibacter"
+   ]
+  },
+  "module_2": {
+   "size": 9,
+   "type": "louvain",
+   "members": [
+    "CAYPLZ01",
+    "CAZFAK01",
+    "CAZUKV01",
+    "Halorubrum",
+    "JAGHBT01",
+    "JAGXLC01",
+    "JAIOTG01",
+    "M55B111",
+    "Oleincola"
+   ]
+  },
+  "module_3": {
+   "size": 7,
+   "type": "louvain",
+   "members": [
+    "Christiangramia",
+    "DATFJG01",
+    "Gracilimonas",
+    "Lutibacter",
+    "Ornithinicoccus",
+    "Sulfurovum",
+    "VAYN01"
+   ]
+  },
+  "module_4": {
+   "size": 7,
+   "type": "louvain",
+   "members": [
+    "Haloarcula",
+    "Halohasta",
+    "Halonotius",
+    "Halosegnis",
+    "Nanohalovita",
+    "Nanosalina",
+    "Natronomonas"
+   ]
+  },
+  "module_5": {
+   "size": 6,
+   "type": "louvain",
+   "members": [
+    "Draconibacterium",
+    "JADGBM01",
+    "JAGXFP01",
+    "NaphS2",
+    "RI-121",
+    "Sunxiuqinia"
+   ]
+  },
+  "module_6": {
+   "size": 5,
+   "type": "louvain",
+   "members": [
+    "CAZWDL01",
+    "DATFKA01",
+    "DT-110",
+    "Phaeodactylibacter",
+    "Psychroflexus"
+   ]
+  },
+  "singleton_1": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM509"
+   ]
+  },
+  "singleton_2": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAUIBE01"
+   ]
+  },
+  "singleton_3": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salsipaludibacter"
+   ]
+  },
+  "singleton_4": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "JAFDBW01"
+   ]
+  },
+  "singleton_5": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM004"
+   ]
+  },
+  "singleton_6": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM002"
+   ]
+  },
+  "singleton_7": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "LD21"
+   ]
+  },
+  "singleton_8": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA1847"
+   ]
+  },
+  "singleton_9": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Marinobacter"
+   ]
+  },
+  "singleton_10": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "CAZCJJ01"
+   ]
+  },
+  "singleton_11": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "UBA11579"
+   ]
+  },
+  "singleton_12": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "BM003"
+   ]
+  },
+  "singleton_13": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "M0040"
+   ]
+  },
+  "singleton_14": {
+   "size": 1,
+   "type": "isolate_singleton",
+   "members": [
+    "Salegentibacter"
+   ]
+  }
+ }
+}

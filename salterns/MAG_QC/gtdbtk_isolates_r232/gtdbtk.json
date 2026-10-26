@@ -1,0 +1,45 @@
+{
+    "version": "2.8.0",
+    "command_line": "gtdbtk classify_wf --batchfile /home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_QC/gtdbtk_isolates_r232/batchfile.tsv --out_dir /home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_QC/gtdbtk_isolates_r232 --cpus 32 --pplacer_cpus 8 --tmpdir /tmp/gtdbtk_isolates",
+    "database_version": "r232",
+    "database_path": "/home/freiburger/Documents/gtdbtk_data/release232",
+    "steps": [
+        {
+            "name": "ANI screen",
+            "output_dir": "/home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_QC/gtdbtk_isolates_r232",
+            "starts_at": "2026-10-26T13:25:26.426303",
+            "ends_at": "2026-10-26T13:25:50.046997",
+            "duration": "0:00:23",
+            "status": "completed",
+            "genome_dir": null,
+            "batchfile": "/home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_QC/gtdbtk_isolates_r232/batchfile.tsv",
+            "min_af": 0.5,
+            "output_files": {
+                "bac120": "/home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_QC/gtdbtk_isolates_r232/classify/ani_screen/gtdbtk.bac120.ani_summary.tsv"
+            },
+            "unassigned_hits_file": "/home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_QC/gtdbtk_isolates_r232/classify/ani_screen/gtdbtk.ani_screen_unassigned_hits.tsv.gz"
+        },
+        {
+            "name": "classify",
+            "output_dir": "/home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_QC/gtdbtk_isolates_r232",
+            "starts_at": "2026-10-26T13:25:50.085464",
+            "ends_at": "2026-10-26T13:25:51.448978",
+            "duration": "0:00:01",
+            "status": "completed",
+            "align_dir": null,
+            "genome_dir": null,
+            "batchfile": "/home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_QC/gtdbtk_isolates_r232/batchfile.tsv",
+            "scratch_dir": null,
+            "debug_option": false,
+            "full_tree": false,
+            "place_species": false,
+            "output_files": {
+                "bac120": [
+                    "/home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_QC/gtdbtk_isolates_r232/classify/gtdbtk.bac120.summary.tsv"
+                ]
+            }
+        }
+    ],
+    "output_dir": "/home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_QC/gtdbtk_isolates_r232",
+    "path": "/home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_QC/gtdbtk_isolates_r232/gtdbtk.json"
+}

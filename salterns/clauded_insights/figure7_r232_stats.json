@@ -1,0 +1,51 @@
+{
+ "MePn_0.07_20models": {
+  "n": 6,
+  "slope": -0.20323102837029638,
+  "intercept": 907.1969610006879,
+  "pearson_r2": 0.07980483652167084,
+  "pearson_p": 0.5875260859470552,
+  "spearman_rho": -0.2,
+  "spearman_p": 0.7040000000000001,
+  "model_over_measured_total": 0.5636562383172398,
+  "model_over_measured_min": 0.17783245912049142,
+  "model_over_measured_max": 1.4121130925104597,
+  "sim_by_core": {
+   "R1_A": 1041.179,
+   "R1_B": 1036.136,
+   "R1_C": 575.768,
+   "R2_A": 325.985,
+   "R2_B": 739.13,
+   "R2_C": 282.499
+  }
+ },
+ "betaine_grdH9": {
+  "n": 6,
+  "slope": -0.7052669266966933,
+  "intercept": 3192.5088205107054,
+  "pearson_r2": 0.09856826232607864,
+  "pearson_p": 0.544539297303394,
+  "spearman_rho": -0.08571428571428573,
+  "spearman_p": 0.8717434402332361,
+  "model_over_measured_total": 1.9934792866247253,
+  "model_over_measured_min": 0.8265172327016116,
+  "model_over_measured_max": 5.468777644984647,
+  "sim_by_core": {
+   "R1_A": 4032.239,
+   "R1_B": 3202.474,
+   "R1_C": 1665.984,
+   "R2_A": 1899.669,
+   "R2_B": 2035.891,
+   "R2_C": 1312.98
+  }
+ },
+ "measured_CH4": {
+  "R1_A": 737.32,
+  "R1_B": 1347.13,
+  "R1_C": 490.47,
+  "R2_A": 1327.18,
+  "R2_B": 1607.09,
+  "R2_C": 1588.57
+ },
+ "basis": "each MAG's flux per unit of simulated abundance, k_i = flux_i / a_i (a constant for the\nMePn models, CV < 1e-8), times its biomass in the core: the sum over the two layers of r_id x DNA_d x layer volume,\nconverted with the pipeline's constants (0.7 g soil cm-3, DNA = 10 % of biomass, 5 cm core, 5 + 10 cm layers).\nBetaine models: their TMA excretion is mostly set by the 0.1 betaine-uptake bound (33 of 54 grdH cells), not by\nthe biomass input, so the rescaling does not apply (it would give 0.1-27x the measured emissions). Their primary basis\nkeeps the pipeline's conversion of the summed flux with the core's volume-weighted DNA ('areal' for betaine); the\nper-core rescaling is reported as the sensitivity 'betaine_rescaled'.\nSensitivity basis 'relab_only': the same with a constant DNA (the six-core mean), i.e. biomass-specific emission."
+}

@@ -5,7 +5,10 @@ Write a copy of the manuscript DOCX with visible in-line annotations (red, bold,
 original figures/formatting are preserved (python-docx round-trip).  Annotations
 reference the corrected figures and numbers in this folder; nothing in the author's
 own text is altered -- the annotations are added paragraphs only.
+The last three annotations (added 2026-10-26) flag the draft errors found in the R232 review:
+Table 3, the P35 MAG-quality claim, and P69's "(Figure S8)" citation.
 """
+import csv
 from pathlib import Path
 from docx import Document
 from docx.text.paragraph import Paragraph
@@ -14,6 +17,7 @@ from docx.shared import Pt, RGBColor
 
 SRC = Path(__file__).resolve().parents[1] / "Metabolic Manuscript.docx"
 OUT = Path(__file__).resolve().parent / "Metabolic Manuscript (clauded annotations).docx"
+TABLE3_CSV = Path(__file__).resolve().parents[1] / "Table 3 - corrected values (2020 GTDB families).csv"
 RED = RGBColor(0xC0, 0x00, 0x00)
 
 
@@ -74,6 +78,41 @@ ANNOTATIONS = [
   "dereplicated MAG set used for abundance-weighting, but the betaine->TMA->methane route is "
   "closed with an empirical 0.06 x TMA scalar (from Fig 4) rather than a modelled archaeon. State "
   "this explicitly so the archaeal step is not assumed modelled."),
+]
+
+# ---- the three draft errors from the R232 review (2026-10-21) -------------------------
+with open(TABLE3_CSV, newline="") as fh:
+    _t3 = list(csv.DictReader(fh))
+_cols = ("Unrestored (R1, R2)", "Restored (SF2)", "Reference (R2A)")
+_top = [r for r in _t3 if r["In corrected top 10"] == "yes"]
+_unb = next(r for r in _t3 if r["Family (2020 GTDB)"].startswith("Unbinned share"))
+assert len(_top) == 10
+_rows = "; ".join(r["Family (2020 GTDB)"] + " " + " / ".join(f"{float(r[c]):.6f}" for c in _cols) for r in _top)
+_out = " and ".join(r["Family (2020 GTDB)"] for r in _t3 if r["In corrected top 10"] == "no")
+ANNOTATIONS += [
+ ("Table 3. The percent of total biomass",
+  "TABLE 3 VALUES AND CAPTION ARE WRONG. Cause (correlational/abundances.ipynb cell 1, now fixed): "
+  "'R1' in col or 'R2' in col also matched the six R2A cores, so 'Unrestored total' pooled R1 + R2 + R2A; "
+  "the notebook printed unrestored / reference / restored, which was pasted under the headers Unrestored / "
+  "Restored / Reference, so the Restored and Reference columns are swapped; and the 30 archaeal MAGs had no "
+  "taxonomy and were dropped with the unbinned reads ('68%' = unbinned + archaea over the 18 R1/R2/R2A "
+  "samples). Corrected unbinned shares: "
+  + ", ".join(f"{float(_unb[c]) * 100:.0f}%" for c in _cols) + " (unrestored, restored, reference). "
+  "Corrected top 10 (2020 GTDB families, all 310 MAGs; fraction of binned abundance, Unrestored R1+R2 / "
+  "Restored SF2 / Reference R2A): " + _rows + ". " + _out + " drop out of the top 10. Source: "
+  "'Table 3 - corrected values (2020 GTDB families).csv' (table3_2020_corrected.py); the R232-family "
+  "version is in the R232 review copy."),
+ ("dereplicated medium and high quality metagenome-assembled genomes (MAGs)",
+  "NOT ALL MEDIUM/HIGH QUALITY. CheckM (MAG_QC/checkm; the re-run reproduced the original values) puts all "
+  "310 dereplicated MAGs at >= 50% completeness, but 35 exceed 10% contamination, so only 275 meet the MIMAG "
+  "medium-quality criteria. Five modelled MAGs are among the 35: Roseovarius.11 and .12 (MePn set; 19.88% and "
+  "21.44%) and Halanaerobium.1, Halanaerobium.2 and BM714.4 (betaine set; 11.75%, 20.23% and 24.52%). Suggested "
+  "wording: '310 dereplicated metagenome-assembled genomes (MAGs; 275 meet the MIMAG medium-quality "
+  "criteria)'. Per-MAG values: 'Table S5 - MAG taxonomy, quality and guilds (GTDB R232).xlsx'."),
+ ("experimental methane emissions (Figure S8)",
+  "WRONG FIGURE CITATION. '(Figure S8)' should be '(Figure 7a)': Figure S8 plots the abundances of the "
+  "methylphosphonate- and betaine-consuming organisms against methane, whereas the modelled-versus-measured "
+  "methane comparison described here is Figure 7a (figure7_corrected.png panel a)."),
 ]
 
 doc = Document(str(SRC))

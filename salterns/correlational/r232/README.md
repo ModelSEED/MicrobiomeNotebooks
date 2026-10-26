@@ -56,7 +56,7 @@ How to read this:
 - **Within-condition pipeline (4 conditions × 3 cores, 2020 parameters):** `all_candidate_pairs_r232.csv`, `direct_interactions_r232.csv` (empty), `glasso_direct_edges_r232.csv`, `C_*_r232.csv` and `marginal_vs_within_r232.png`.
   - The analysis covers 169 taxa: 13 archaeal and 156 bacterial, against 140 bacterial in 2020. Only part of the difference is the archaea. The rest is r232 resolution: MAGs that 2020 lumped at family or order level now split into genera, and 93 bacterial taxon names are new.
   - The port is verified: with the 2020 IDs, this code reproduces the 2020 `C_within.csv` exactly (140 taxa, max difference 1e-16).
-  - 0 of 11,573 pairs pass FDR. The maxT 95th-percentile |r| is 0.993, so within-condition coupling is not distinguishable from noise; 2020 was the same.
+  - 0 of 11,573 pairs pass FDR. The maxT 95th-percentile |r| is 0.993 and one pair just exceeds it (DAHVFK01–Multivoradales, r = 0.9936). Apart from that pair, within-condition coupling is not distinguishable from noise; 2020 was the same.
   - The permutation p-values are an exact vectorisation of the 2020 loop. They differ from it only in floating-point tie handling, at most one permutation step (1/1297).
 - **`within_condition_louvain_network_r232.png` and `within_condition_louvain_modules_r232.json`:** Graphical-Lasso edges (326), drawn by `../louvain_cooccurrence_network.py`.
   - The network has 82 nodes and 186 edges (|partial r| > 0.05), split into 6 modules plus 8 singletons, Q = 0.747. 2020 had 5 + 12, Q = 0.701.
@@ -64,3 +64,22 @@ How to read this:
   - *Methanolobus*, *Roseovarius*, *Albimonas*, *Marivita*, *Halanaerobium* and *Halomonas*/*Vreelandella* have no edge, so they do not appear in the network.
 
 Run from this folder: `~/Documents/py_venv/bin/python rerun_correlational_r232.py [--parts guilds,corr,heatmap,network]`
+
+## Follow-up analyses (2026-10-26)
+
+Each has its own script in this folder. None changes the outputs above.
+
+- **Guild membership before vs after** (`guild_membership_2020_vs_r232.csv` / `.md`, `make_guild_membership_comparison.py`):
+  - one row per MAG in the 2020 or R232 MePn and betaine sets, plus the methanogen and the TMA-route candidates;
+  - for each: the change and its gene evidence, quality, abundance by site type, and whether it was modelled in 2020;
+  - the reconciliation of the 27 curated MePn consumers with the 20 simulated.
+- **Prefilter sensitivity** (`prefilter_sensitivity/abund_REPORT.md`, `prefilter_sensitivity/within_REPORT.md`; scripts `prefilter_sensitivity_abundance.py`, `prefilter_sensitivity_within.py`). For each filter: which key organisms it removes, what happens without it, and how essential it is given the downstream FDR, permutation and Graphical Lasso steps.
+  - **4-site heatmap filter:** the ≥ 3-of-4-sites filter drops *Methanolobus* and 8 of 9 *grdH* MAGs.
+  - **4-site heatmap statistics:** with n = 4, no pair can be significant under exact testing (smallest two-sided p = 1/12). The heatmap's p < 0.05 boxes are an artefact of scipy's t-approximation.
+  - **Within-condition 6-of-12-cores filter:** keeps nearly every key taxon. Removing it gives no edge to a guild taxon that lacked one; the new edges mostly join rarely detected taxa.
+  - **Why the key taxa have no edges:** Graphical Lasso on unstandardised residuals, where edge degree tracks residual variance (ρ = 0.90).
+  - **Network vs a shuffle null:** size and modularity fall within the null; only the excess of edges between related taxa does not.
+- **Archaeal MePn consumers and TMA-route candidates** (`archaeal_mepn_and_tma_candidates.md`, `_genes.csv`, `make_archaeal_mepn_tma_report.py`):
+  - **Archaeal MePn consumers:** gene-level look at *Natrinema*.1 and *Haloquadratum*.4, which have complete C–P lyase loci on the annotations; *Halorubrum*.3 has none.
+  - **TMA-route candidates:** the four candidates show no TMA-forming enzyme on the annotations.
+- **Figure S11 regeneration** (`FigureS11_regeneration.md`): what the figure is, the code that drew it, what an R232 version needs, and a prototype renderer.

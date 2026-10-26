@@ -11,6 +11,14 @@ merged, text unchanged), so that sentences can be located inside single runs:
     python <docx-skill>/scripts/merge_runs.py "../Metabolic Manuscript.docx" -o merged.docx
     ~/Documents/py_venv/bin/python make_r232_review_docx.py merged.docx
 Output: ../Metabolic Manuscript - R232 review (tracked changes).docx
+
+The 2026-10-26 revision adds the tracked edits listed in r232_review_edits_2026-10-26.json:
+- the modelling text and numbers on the areal basis (modelling_numbers_r232.py);
+- betaine models restricted to the nine grdH carriers (../correlational/betaine_grdH_r232/);
+- the R232 reclassification of the two Halomonas isolates (../MAG_QC/gtdbtk_isolates_r232/);
+- smaller corrections.
+
+It also replaces Figure 7 with figure7_r232.png (figure7_r232.py).
 """
 import copy
 import json
@@ -29,7 +37,8 @@ HERE = Path(__file__).resolve().parent
 S = HERE.parent
 R = S / "correlational" / "r232"
 OUT = S / "Metabolic Manuscript - R232 review (tracked changes).docx"
-AUTHOR, INITIALS, DATE = "Claude (R232 review)", "CR", "2026-10-21T00:00:00Z"
+AUTHOR, INITIALS, DATE = "Claude (R232 review)", "CR", "2026-10-26T00:00:00Z"
+EDITS = HERE / "r232_review_edits_2026-10-26.json"
 _ids = iter(range(7000, 999999))
 CONTENT = {qn(t) for t in ("w:t", "w:tab", "w:br", "w:drawing", "w:pict", "w:sym", "w:footnoteReference")}
 MARKUP = re.compile(r"(\*[^*]+\*|\^[^^]+\^|~[^~]+~)")
@@ -176,6 +185,14 @@ def _split(r, k):
     right = copy.deepcopy(r)
     t.text = text[:k]; t.set(qn("xml:space"), "preserve")
     rt = right.find(qn("w:t")); rt.text = text[k:]; rt.set(qn("xml:space"), "preserve")
+    # other content (e.g. a leading w:tab) stays on its own side of the w:t, not in both halves
+    kids, rkids = list(r), list(right)
+    ti = kids.index(t)
+    for c in kids[ti + 1:]:
+        r.remove(c)
+    for c in rkids[:ti]:
+        if c.tag != qn("w:rPr"):
+            right.remove(c)
     r.addnext(right)
     return right
 
@@ -212,6 +229,16 @@ def tracked_replace(p, old, new_markup):
             covered.append(r)
         pos += n
     tpl = first.find(qn("w:rPr"))
+    for r in covered:                       # a leading w:tab is the paragraph indent: keep it, undeleted, in front
+        kids = list(r); t = r.find(qn("w:t"))
+        tabs = [c for c in kids[:kids.index(t)] if c.tag == qn("w:tab")]
+        if tabs:
+            keep = el("w:r")
+            if r.find(qn("w:rPr")) is not None:
+                keep.append(copy.deepcopy(r.find(qn("w:rPr"))))
+            for c in tabs:
+                r.remove(c); keep.append(c)
+            r.addprevious(keep)
     dels = [wrap_del(r) for r in covered]
     w = ins(runs_from(new_markup, tpl)) if new_markup else None
     if w is not None:
@@ -288,6 +315,48 @@ def comment(doc, para_obj, run_el, text):
     doc.add_comment(Run(run_el, para_obj), text=text, author=AUTHOR, initials=INITIALS)
 
 
+M_NS = "{http://schemas.openxmlformats.org/officeDocument/2006/math}"
+
+
+def tracked_math_swap(p, replacements, drop_fraction=None):
+    """Tracked replacement of a paragraph's whole Office Math object: the old m:oMath goes into a w:del and an edited
+    copy into a w:ins (both allowed as run-level content). Swapping the whole object, rather than wrapping single math
+    runs, keeps the equation intact in viewers that ignore revisions inside math. `replacements` maps exact m:t texts
+    to new texts; `drop_fraction` = (numerator, denominator) text of an m:f to remove from the new copy."""
+    maths = p.findall(M_NS + "oMath")
+    assert len(maths) == 1, f"{len(maths)} m:oMath in paragraph"
+    old = maths[0]
+    new = copy.deepcopy(old)
+    for t in new.iter(M_NS + "t"):
+        if t.text in replacements:
+            t.text = replacements.pop(t.text)
+    assert not replacements, f"math texts not found: {list(replacements)}"
+    if drop_fraction:
+        fr = [f for f in new.iter(M_NS + "f")
+              if "".join(t.text for t in f.find(M_NS + "num").iter(M_NS + "t")) == drop_fraction[0]
+              and "".join(t.text for t in f.find(M_NS + "den").iter(M_NS + "t")) == drop_fraction[1]]
+        assert len(fr) == 1, f"fraction {drop_fraction} occurs {len(fr)}x"
+        fr[0].getparent().remove(fr[0])
+    d = stamp(el("w:del")); old.addprevious(d); d.append(old)
+    w = stamp(el("w:ins")); w.append(new); d.addnext(w)
+
+
+def apply_edits(P, pending_comments, path):
+    """Tracked edits from a JSON list; 'paragraph' is the paragraph index in the original draft.
+    Text edits go first, then comments, whose anchors must lie in text that is still undeleted."""
+    for e in sorted(json.load(open(path))["edits"], key=lambda e: e["kind"] == "comment"):
+        p = P[e["paragraph"]]
+        if e["kind"] == "replace":
+            tracked_replace(p._p, e["old"], e["new"])
+        elif e["kind"] == "insert_before":
+            tracked_insert_before(p._p, e["old"], e["new"])
+        elif e["kind"] == "replace_paragraph":
+            replace_paragraph(p._p, e["new"], lead_tab=p.text.startswith("\t"))
+        else:
+            _, start = _locate(p._p, e["old"])
+            pending_comments.append((p, _cut_at(p._p, start), e["new"]))
+
+
 # ---- content -------------------------------------------------------------------------------------------------
 LATIN = re.compile(r"^[A-Z][a-z]+$")
 
@@ -338,7 +407,10 @@ def table3():
     tab = pd.DataFrame(cols).sort_values("Unrestored (R1, R2)", ascending=False)
     top, other = tab.head(10), tab.iloc[10:].sum()
     arch = {ph[m + ".contigs__"]["Family"] for m in mags if ph[m + ".contigs__"]["Kingdom"] == "Archaea"}
-    rows = [[f, *top.loc[f].tolist()] for f in top.index] + [[f"Other families ({len(tab) - 10})", *other.tolist()]]
+    rest = list(tab.index[10:])
+    n_named, n_unassigned = sum(f != "no family assigned" for f in rest), fam.count("no family assigned")
+    label = f"Other families ({n_named})" + (f" and MAGs without a family ({n_unassigned})" if "no family assigned" in rest else "")
+    rows = [[f, *top.loc[f].tolist()] for f in top.index] + [[label, *other.tolist()]]
     return {"rows": rows, "unbinned": unb, "archaeal_in_top": [f for f in top.index if f in arch]}
 
 
@@ -386,13 +458,14 @@ def main(merged):
         "abundance of each guild, were correlated with methane flux (Spearman’s ρ) across the 12 cores, with the D1 and D2 "
         "abundances merged by weighting with their DNA concentrations, and separately across the six unrestored cores. "
         "Correlations were computed on two bases: relative abundance versus areal CH~4~ flux, and both quantities divided "
-        "by soil DNA concentration, as in the modeling. Because methane differs strongly among site types, each guild’s "
+        "by soil DNA concentration (the normalization of the model inputs). Because methane differs strongly among site types, each guild’s "
         "correlation was compared with those of 4,000 random sets of the same number of MAGs, and the fraction of random "
         "sets with an equal or higher ρ is reported. P values for the 310 individual MAGs were corrected with the "
         "Benjamini–Hochberg false discovery rate (FDR).", lead_tab=True)
     new_par_after(p[53]._p, body_pPr,
-        "Co-occurrence among taxa was analyzed on centered log-ratio (CLR) transformed abundances of the 12 cores, with "
-        "MAGs summed per taxon and only taxa present (relative abundance > 10^-5^) in at least six cores retained. Site "
+        "Co-occurrence among taxa was analyzed on centered log-ratio (CLR) transformed abundances of the 12 cores: only "
+        "MAGs present (relative abundance > 10^-5^) in at least six cores were retained and then summed per taxon, and "
+        "pairs were tested only if both taxa were present together in at least six cores. Site "
         "means were subtracted so that the within-site residuals reflect coupling rather than a shared response to site "
         "conditions. Residual correlations (Pearson) were tested against all 1,296 within-site permutations with "
         "Benjamini–Hochberg FDR correction, a sparse network of direct (conditional) associations was estimated from the "
@@ -416,15 +489,7 @@ def main(merged):
         "complete). These gene-based guilds are subsets of the curated sets used for metabolic modeling: five of the 27 "
         "MAGs previously treated as MPn consumers carry only accessory *phn* genes, and six of the 15 modeled betaine "
         "reducers lack *grdH*.", body_rpr, lead_tab=True)
-    w = tracked_replace(p[69]._p, "(Figure S8)", "(Figure 7a)")
-    pending_comments.append((p[69], w[0],
-        "Changed from Figure S8, which shows abundances rather than the modeling. The modeling R² values in this section "
-        "(0.966, 0.968, 0.970, 0.862) and in the Discussion (0.978) do not match Figure 7; corrections are in "
-        "clauded_insights/Metabolic Manuscript (tracked changes).docx (July 2026). Not changed in this R232 review."))
-    pending_comments.append((p[76], p[76]._p.findall(qn("w:r"))[0],
-        "Gene evidence (Table 4): the three Halanaerobium MAGs, which make no TMA in these models, all carry grdH, while "
-        "6 of the 15 modeled betaine MAGs (BM714.1, BM714.3, CAZFJG01.1–2, DATFIM01.1, UBA8670.1) lack it. Consider "
-        "re-running the betaine models on the nine grdH carriers."))
+    # P69 (Figure S8 citation and R² values), P74-P77 (betaine models): see the edits JSON
     hg, _ = new_par_after(p[77]._p, h3_pPr, "*Guild abundances and methane flux*", h3_rpr)
     c = corr.set_index(["guild", "basis", "cores"])
     v = lambda gname, basis, cores, k: c.loc[(gname, basis, cores), k]
@@ -439,7 +504,7 @@ def main(merged):
         "correlations largely reflect the separation of the high-methane unrestored salterns from the other sites: 254 of "
         "the 310 MAGs were individually correlated with methane (FDR q < 0.05), and on this areal basis no guild correlated "
         "more strongly than random sets of the same number of MAGs (24–46% of random sets did as well). When abundances and "
-        f"fluxes were both normalized by soil DNA, as in the modeling, MPn consumers stood out (ρ = "
+        f"fluxes were both normalized by soil DNA (the normalization of the model inputs), MPn consumers stood out (ρ = "
         f"{v('mepn_consumer', 'DNA-normalised', '12 cores', 'spearman_rho'):.2f}; higher than 99% of random 22-MAG sets), "
         f"whereas betaine reducers did not (ρ = {v('betaine_reducer', 'DNA-normalised', '12 cores', 'spearman_rho'):.2f}; "
         f"{v('betaine_reducer', 'DNA-normalised', '12 cores', 'null_frac_ge_rho'):.0%} of random sets did as well; Figure S8). "
@@ -457,11 +522,17 @@ def main(merged):
     hc, _ = new_par_after(p_meth, h3_pPr, "*Co-occurrence*", h3_rpr)
     new_par_after(hc, body_pPr,
         "With the R232 labels, the 30 archaeal MAGs entered the co-occurrence analysis (169 taxa, 13 of them archaeal). No "
-        "within-site correlation passed FDR correction (the 95th percentile of the permutation maximum |r| was 0.993), so "
-        "the network edges are conditional associations rather than individually significant pairs. The graphical-lasso "
-        "network (82 taxa, 186 edges) resolved six modules (Q = 0.747; Figure 8); all nine archaeal taxa in the network "
-        "formed a single haloarchaeal module, and *Roseovarius*, *Methanolobus*, *Halanaerobium*, and "
-        "*Halomonas*/*Vreelandella* had no direct edges.", body_rpr, lead_tab=True)
+        "within-site correlation passed FDR correction, and at most two pairs reached the 95th percentile of the "
+        "permutation maximum |r| (0.993), so the network edges are conditional associations rather than individually significant pairs. "
+        "The graphical-lasso network (82 taxa, 186 edges) resolved six modules (Q = 0.747; Figure 8), and all nine archaeal "
+        "taxa in the network formed a single haloarchaeal module. Graphical-lasso fits to 20 within-site permutations of "
+        "the residuals gave networks of similar size (167–534 nonzero edges, against 326 before the |partial r| > 0.05 "
+        "threshold) and modularity (Q = 0.60–0.80); what exceeded the permutations was that edges joined related taxa "
+        "(27% of edges joined taxa of the same phylum, against at most 15%; 18 of these 50 edges joined haloarchaea). *Roseovarius*, *Methanolobus*, *Halanaerobium*, and "
+        "*Halomonas*/*Vreelandella* had no direct edges, but this mainly reflects their low residual variance, because the "
+        "lasso penalty acts on unstandardized residuals; with standardized residuals each had 3–11 weak edges. Relaxing "
+        "the prevalence filter gave no edge to any guild taxon that lacked one; the new edges mostly joined rarely "
+        "detected taxa.", body_rpr, lead_tab=True)
 
     # ---- Discussion and Conclusions ----------------------------------------------------------------------------------------
     w = tracked_insert_before(p[83]._p, "Concentrations of formate",
@@ -489,16 +560,14 @@ def main(merged):
         "normalized by soil DNA; on an areal basis, betaine reducers, the single methanogen MAG, and most of the community "
         "followed the same site gradient.")
     p[102]._p.append(ins(runs_from(
-        " MAG quality assessments, GTDB R232 classifications, guild assignments, and the correlation and co-occurrence "
+        "MAG quality assessments, GTDB R232 classifications, guild assignments, and the correlation and co-occurrence "
         "analyses are in the MicrobiomeNotebooks repository (https://github.com/ModelSEED/MicrobiomeNotebooks; folders "
         "salterns/MAG_QC and salterns/correlational/r232).", first_rpr(p[102]._p))))
-    pending_comments.append((p[47], next(r for r in p[47]._p.iter(qn("w:r")) if "GTDB-Tk v1.7.0" in "".join(t.text or "" for t in r.iter(qn("w:t")))),
-        "GTDB R232 splits Halomonas (one of the two Halomonas MAGs is now Vreelandella). Re-classify the two isolates with "
-        "GTDB-Tk ≥ 2.4 against R232 before finalizing their names; the KBase GTDB-Tk app only offers up to R214."))
+    # P47 (Halomonas isolates, GTDB-Tk v1.7.0 -> v2.8.0 / R232): see the edits JSON
     pending_comments.append((p[18], p[18]._p.findall(qn("w:r"))[0],
-        "Not edited. If the abstract keeps the modeling/correlation claim, consider qualifying it: guild abundance tracks "
-        "methane more specifically for MPn consumers only on the DNA-normalized basis, and the single methanogen MAG does "
-        "not track methane within the unrestored salterns (Table 5)."))
+        "The modeling clause is now qualified (rank order, not magnitude). If the abstract keeps a correlation claim, also "
+        "note that guild abundance tracks methane more specifically for MPn consumers only on the DNA-normalized basis, "
+        "and that the single methanogen MAG does not track methane within the unrestored salterns (Table 5)."))
 
     # ---- Table 3 (replaced), Tables 4 and 5 (new) -------------------------------------------------------------------------
     unb = data["table3"]["unbinned"] if data else None
@@ -510,31 +579,36 @@ def main(merged):
         "reads in each site type, respectively. Because the table is sorted by the unrestored salterns, most of the restored "
         "and reference abundance falls in “Other families”.")
     pending_comments.append((p[113], w[0],
-        "The previous Table 3 appears to have had the Restored and Reference columns swapped (its ‘Restored’ values match "
-        "R2A and its ‘Reference’ values match SF2), left the archaea out (counted as ‘undetermined’), and gave 68% unbinned "
-        "reads for the unrestored sites where the Discussion and the data give about 52% (47% R1, 58% R2). Recomputed here "
-        "with GTDB R232 families and all 310 MAGs."))
+        "The previous Table 3 came from correlational/abundances.ipynb, which had three faults (fixed there on 2026-10-21): "
+        "(1) its selection 'R1' in col or 'R2' in col also took the six R2A cores, so the Unrestored column pooled R1, R2 "
+        "and R2A; (2) the 30 archaea had no 2020 taxonomy entry and were dropped with the unbinned reads, so the caption's "
+        "68% is unbinned plus archaeal reads over those 18 cores (the data give 52%: 47% R1, 58% R2); (3) the notebook's "
+        "column order was unrestored, reference, restored, which was copied under the headers Unrestored, Restored, "
+        "Reference, swapping the last two. Recomputed here with GTDB R232 families and all 310 MAGs; the corrected "
+        "2020-family values are in 'Table 3 - corrected values (2020 GTDB families).csv'."))
     delete_table(t3)
     arch = set(data["table3"]["archaeal_in_top"])
     rows3 = [[f + ("†" if f in arch else ""), *[f"{x:.1f}" for x in vals]] for f, *vals in data["table3"]["rows"]]
     new_t3 = build_table(tblPr_src, tcMar_src, ["GTDB R232 family", "Unrestored (R1, R2)", "Restored (SF2)", "Reference (R2A)"],
                          rows3, [2880, 1890, 1860, 1890], body_rpr, size=22)
-    t3.addnext(new_t3)
+    sep, _ = new_par_after(t3, body_pPr, "", body_rpr)       # keeps Word from merging the deleted and new tables
+    sep.addnext(new_t3)
     cap4, _ = new_par_after(new_t3, tcap_pPr,
         "Table 4. Functional guilds assigned from the RAST gene annotations of the 310 MAGs (GTDB R232 labels), compared "
         "with the curated sets used for metabolic modeling. Members are listed by iterativeID (taxon.number; Table S5).",
         tcap_rpr)
     rows4 = [
         ["MPn consumers", "*phnJ* (C–P lyase, EC 4.7.1.1)", str(len(guild["mepn_consumer"])), compress(guild["mepn_consumer"]),
-         "5 with only accessory *phn* genes: " + ", ".join(it_id(i) for i in sorted(set(guild["mepn_2020"]) - set(guild["mepn_consumer"])))],
+         "5 with only accessory *phn* genes: CAZRZN01.1, DAINOF01.1, *Thiolinea*.1 (simulated); *Gaopeijia*.1 (did not "
+         "grow); *Halorubrum*.3 (not simulated)"],
         ["Betaine reducers", "*grdH* (betaine reductase, betaine-specific subunit)", str(len(guild["betaine_reducer"])),
          compress(guild["betaine_reducer"]),
-         "6 without *grdH*: " + ", ".join(it_id(i) for i in sorted(set(guild["betaine_2020"]) - set(guild["betaine_reducer"])))],
+         "6 without *grdH* (all simulated in the original set): " + ", ".join(it_id(i) for i in sorted(set(guild["betaine_2020"]) - set(guild["betaine_reducer"])))],
         ["Methanogens", "*mcrA*", str(len(guild["methanogen"])), compress(guild["methanogen"]) + " (sp020055655)", "—"],
         ["TMA-route candidates", "*cntA*; genes of the choline TMA-lyase cluster (no *cutC* itself)", str(len(guild["tma_producer"])),
          "J153.1 (*cntA*); CAZFJG01.2, T1Sed10-7.1, UBA11579.1 (cluster genes only)", "Not modeled; weak evidence"],
     ]
-    t4 = build_table(tblPr_src, tcMar_src, ["Guild", "Marker gene", "n", "Members", "Removed from the modeling set"],
+    t4 = build_table(tblPr_src, tcMar_src, ["Guild", "Marker gene", "n", "Members", "In the curated modeling set but lacking the marker"],
                      rows4, [1350, 1650, 760, 2700, 2060], body_rpr, size=20,
                      align=["left", "left", "center", "left", "left"])
     cap4.addnext(t4)
@@ -555,24 +629,26 @@ def main(merged):
     cap5.addnext(t5)
 
     # ---- Figure 8 (replaced), Figure 9 (new), Figure S8 (replaced) ----------------------------------------------------------
-    pending_comments.append((p[129], p[129]._p.findall(qn("w:r"))[0],
-        "Panel b (consumer abundance vs methane, six unrestored cores) is superseded by Figure 9, Figure S8, and Table 5 "
-        "(gene-based guilds, all 12 cores, random-set comparison). Consider dropping panel b."))
+    # Figure 7: single panel on the areal basis, betaine = nine grdH carriers (caption P129 in the edits JSON)
+    delete_paragraph(P[128]._p)
+    picture_after(doc, P[128]._p, HERE / "figure7_r232.png", 5.6, img_pPr)
     for i in (132, 133):
         delete_paragraph(p[i]._p)
     picture_after(doc, p[133]._p, R / "within_condition_louvain_network_r232.png", 6.0, img_pPr)
     w = replace_paragraph(p[134]._p,
         "Figure 8. Co-occurrence network of the community members (GTDB R232 labels; archaea included). Edges are partial "
         "correlations from a graphical lasso (L1-regularized precision matrix, regularization chosen by cross-validation) "
-        "fit on within-site residuals of the CLR-transformed abundances of the 12 cores, for the 169 taxa present "
-        "(relative abundance > 10^-5^) in at least six cores; edges with |partial r| > 0.05 are shown (82 taxa, 186 edges). "
+        "fit on within-site residuals of the CLR-transformed abundances of the 12 cores, for the 169 taxa formed from "
+        "MAGs present (relative abundance > 10^-5^) in at least six cores; edges with |partial r| > 0.05 are shown (82 taxa, 186 edges). "
         "Node size encodes mean relative abundance, node color the phylum, and edge color the partial correlation (red = "
         "negative, blue = positive). Louvain community detection on the positive edges resolves six modules (Q = 0.747), "
         "shown as shaded hulls; all nine archaeal taxa in the network fall in one haloarchaeal module. No individual "
         "within-site correlation passed FDR correction, so edges indicate conditional associations rather than demonstrated "
-        "interactions. *Roseovarius*, *Methanolobus*, *Halanaerobium*, and *Halomonas*/*Vreelandella* have no edges above the "
-        "threshold; the MPn consumers retained in the network are *Haloquadratum* and *Phaeodactylibacter*, and the betaine "
-        "reducers are DATFJG01 and UBA8670 (in the same module) and M55B127.")
+        "interactions; graphical-lasso fits to permuted residuals give networks of similar size and modularity, and only the "
+        "excess of edges between related taxa exceeds them. Because the lasso penalty acts on unstandardized residuals, taxa "
+        "with low residual variance, including *Roseovarius*, *Methanolobus*, *Halanaerobium*, and *Halomonas*/*Vreelandella*, "
+        "have no edges above the threshold; the MPn consumers retained in the network are *Haloquadratum* and "
+        "*Phaeodactylibacter*, and the betaine reducers are DATFJG01 and UBA8670 (in the same module) and M55B127.")
     pending_comments.append((p[134], w[0],
         "Figure 8 is now a single panel: the previous panel a (plain graphical-lasso layout) was not re-rendered; this "
         "Louvain view shows the same edges. Code: correlational/r232/rerun_correlational_r232.py."))
@@ -589,12 +665,18 @@ def main(merged):
     picture_after(doc, p[148]._p, R / "guild_methane_dnanorm_r232.png", 6.5, img_pPr)
     replace_paragraph(p[149]._p,
         "Figure S8. As Figure 9, with guild abundance and methane flux both normalized by soil DNA concentration (the "
-        "basis used in the metabolic modeling). On this basis the MPn consumers (*phnJ*) correlate with methane more "
+        "normalization of the model inputs). On this basis the MPn consumers (*phnJ*) correlate with methane more "
         "strongly than 99% of random 22-MAG sets (ρ = 0.92), whereas the other guilds do not stand out (Table 5).")
     delete_paragraph(p[151]._p)
     pending_comments.append((p[163], p[163]._p.findall(qn("w:r"))[0],
-        "Not regenerated with R232 labels. The R232 within-site correlation matrix is correlational/r232/C_within_r232.csv "
-        "(169 taxa, including 13 archaeal); no pair passes FDR. Re-render with the new labels or drop."))
+        "Not regenerated with R232 labels. Regeneration needs no new statistics: the figure is drawn from the within-site "
+        "correlation matrix and the graphical-lasso edges, whose R232 versions exist (correlational/r232/C_within_r232.csv, "
+        "169 taxa including 13 archaeal; glasso_direct_edges_r232.csv). The 2020 plotting code, copied out of "
+        "analysis_2_marimo.py, reproduces this image exactly and renders an R232 version. Still needed: a choice of guild "
+        "sets to highlight (gene-based or curated), new colors for the R232 taxa, a larger canvas for 169 rows, porting the "
+        "renderer into rerun_correlational_r232.py, and the caption fixes noted in the comment below. Figure S11 is also "
+        "not cited anywhere in the text: cite it in the Co-occurrence results or drop it. Details: "
+        "correlational/r232/FigureS11_regeneration.md."))
 
     # ---- Tables S5 (external) and S6 -----------------------------------------------------------------------------------------
     s5, _ = new_par_after(p[175]._p, scap_pPr,
@@ -610,11 +692,23 @@ def main(merged):
                      rows6, [1100, 1400, 2500, 1820, 1700], body_rpr, size=20)
     s6.addnext(t6)
 
+    # ---- 2026-10-26 edits: modelling text and numbers, betaine set, Halomonas isolates, smaller corrections ------------------
+    apply_edits(P, pending_comments, EDITS)
+    # fitted-line equations (Office Math): consistent areal-basis fits (modelling_consistent_basis_r232.json), units without 1/DNA
+    for i, slope, icpt in ((70, ("=0.51*methan", "=−0.20*methan"), ("+138 [", "+907 [")),
+                           (72, ("=0.95*methan", "=−0.32*methan"), ("+224 [", "+1563 [")),
+                           (75, ("=0.24*methan", "=−0.71*methan"), ("+4632 [", "+3192 ["))):
+        tracked_math_swap(P[i]._p, dict([slope, icpt, ("*day*", "*day")]), drop_fraction=("ug DNA", "g soil"))
+
     # ---- comments, then save --------------------------------------------------------------------------------------------------
     pending_comments.insert(0, (first_par, first_par._p.findall(qn("w:r"))[0],
-        "R232 review (2026-10-21): tracked changes add MAG quality, taxonomy (GTDB R232), and gene-based guild methods and "
-        "results; replace the abundance–methane results, Table 3, Figure 8, and Figure S8; and add Figure 9, Tables 4–5, "
-        "S5 (Excel), and S6. Items flagged but not changed are in these comments; see the accompanying review notes."))
+        "R232 review (2026-10-21, revised 2026-10-26): tracked changes add MAG quality, taxonomy (GTDB R232), and gene-based "
+        "guild methods and results; replace the abundance–methane results, Table 3, Figure 8, and Figure S8; and add "
+        "Figure 9, Tables 4–5, S5 (Excel), and S6. The 2026-10-26 revision corrects the modeling text and numbers: on a "
+        "dimensionally consistent areal basis the simulated methane is of the measured magnitude but does not track the "
+        "differences among the six unrestored cores (the earlier high fits came from a 1/DNA term in the model input); it also restricts the betaine models to the nine grdH carriers, replaces "
+        "Figure 7 with a single panel, and reclassifies the two Halomonas isolates with GTDB R232. Items flagged but not "
+        "changed are in these comments; see the accompanying review notes."))
     for para, run_el, text in pending_comments:
         comment(doc, para, run_el, text)
     doc.save(OUT)

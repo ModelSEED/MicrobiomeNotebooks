@@ -1,0 +1,23 @@
+{
+ "taxa_identical": true,
+ "candidate_pairs_old_new_both": {
+  "both": 11573,
+  "left_only": 0,
+  "right_only": 0
+ },
+ "max_abs_diff_r_within": 1.1102230246251565e-16,
+ "max_abs_diff_r_marginal": 1.1102230246251565e-16,
+ "max_abs_diff_r_between": 8.326672684688674e-17,
+ "max_abs_diff_perm_p": 1.1102230246251565e-16,
+ "max_abs_diff_q_BH": 1.1102230246251565e-16,
+ "fdr_pass_equal": true,
+ "effect_pass_equal": true,
+ "glasso_edges_old_new": [
+  326,
+  326
+ ],
+ "glasso_edge_sets_equal": true,
+ "max_abs_diff_partial_r": 9.71445146547012e-17,
+ "louvain_modules_identical": true,
+ "louvain_on_committed_edge_csv_identical": true
+}

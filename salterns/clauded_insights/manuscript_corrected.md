@@ -31,7 +31,7 @@ The 24 metagenomes were quality filtered and trimmed with BBtools, assembled wit
 Soils were shipped to the Environmental Molecular Sciences Laboratory (EMSL) at Pacific Northwest National Laboratory for metabolomic analyses. Nuclear magnetic resonance (NMR) analysis was performed on pore water. To collect pore water, sediment samples were centrifuged in either their original 50 mL centrifuge tubes or, in cases where the sediment mass exceeded centrifuge limitations, a portion of the sediment was transferred to a clean 50 mL centrifuge tube. Centrifugation was conducted at 6000 x g (rcf) in a fixed-angle rotor for 60 minutes at 4°C. Aliquots (0.5 mL) were transferred to pre-rinsed (10 x 0.5 mL rinses with Milli-Q ASTM Type 1 water) 0.22 μm 0.6 mL capacity nylon membrane spin-filters and spun to filter at 10000 rpm for 5 minutes at 4°C. Filtrate aliquots of 180 μL were transferred to separate vials and 20 µL of Chenomx internal standard solution (consisting of 0.2%  (w/v) NaN3 and 5.02 mM 2,2-dimethyl-2-silapentane-5-sulfonate-d6-sodium salt (DSS-d6) in 100% D2O, Chenomx Inc., Edmonton, AB) was added to each and mixed prior to transferring to Bruker 3.0 mm OD glass NMR tubes for measurement. All NMR spectra were measured at a field strength of 17.6 T (750.2 MHz 1H) on a Bruker Avance III spectrometer equipped with a Bruker 5mm HCN TCI CryoProbe with Z-gradient. Sample temperature was regulated at 25.0°C. The 1D 1H NOESY experiment with low power, continuous wave pre-saturation of the water signal during the relaxation delay (Bruker pulse program ‘noesypr1d’) was acquired for all samples with the following parameters, spectral width of 12.0 ppm (9.0 kHz), a relaxation delay of 1.5 s, a mixing time of 100 ms, an acquisition time of 4.0 s (72070 total points), and a total of 2048 transients were coadded for each spectrum. Post-acquisition processing included zero-filling to 262144 real points and multiplication of the FID by a decaying exponential (0.3 Hz line-broadening) using Bruker’s Topspin 3.6.3. Spectra were imported into Chenomx NMR Suite version 8.6 Professional (Chenomx Inc., Edmonton, AB) for final pre-processing, including baseline correction (Chenomx spline algorithm), and metabolomic profiling. Metabolite identification and quantitation was based on matching the chemical shift and J-coupling intensity of experimental signals to compound signals in the Chenomx spectral library. While we attempted to collect metabolomic data for all 24 sediment samples, due to issues with the samples and the presence of paramagnetic ions, only 1 restored saltern sample was able to yield viable spectra for analysis. For additional confirmation of several metabolites, 2-D NMR experiments were employed (1H-13C HSQC, 1H TOCSY etc.). Additionally, a subset of key metabolites (amines central to the study) were confirmed by “spike-in” amendments of metabolite standards into actual representative samples.  
 Additional methods were attempted with the remaining 5 samples, including a pooling and concentration step to concentrate the samples 5x, but without success. In addition to NMR, several other methods were used to search for specific compounds of interest, including methylated phosphorus and sulfur compounds. Methylphosphonates were searched for using 1D 31P NMR and 2D 31P-1H NMR on a subset of samples. Another subset of 1-4  samples were also tested using single and double NaOH/EDTA extraction, methanol extraction, Na2CO3 extraction, and longer acquisition times. The compounds dimethylsulfide, dimethyl sulfone, dimethylproponiosulfate, methylphosphonic acid and dimethyl methylphosphonate were determined by headspace gas chromatography mass spectrometry (GCMS) using high purity reference standards (Sigma-Aldrich St. Louis, MO). Presence or absence of these compounds was confirmed by a targeted retention time with exact mass approach using a high mass resolution Agilent 7250 QTOF Time of Flight Mass Spectrometer coupled to an Agilent 8890 Gas Chromatograph (Agilent Technologies Inc., Santa Clara, CA). For each, approximately 10 ml of sample was transferred to a 20ml vial and sealed with a Teflon lined cap with an opening in the cap for syringe sampling. The samples were allowed to stand at room temperature for 72 hours when 100ul of headspace was syringe transferred manually to the GC injection port held at 240˚C for analysis. The analytical separations were performed using an Rxi-624Sil-MS, 30m x 0.25mmID x 1.4 umdf, GC column (Restek Corp., Bellefonte, PA.). Helium was used as a carrier gas at a constant 24 psi pressure. The GC oven gradient profile began at 35˚C initial temperature with a 2.0-minute hold, then ramped at 30˚C/min to 300˚C and held for 1.0 minutes. Metabolite names and IDs were translated across databases using MetaCyc’s “Metabolite Translation Service” tool, and manually with Model SEED for any that remained untranslated.
 ## Metabolic Modeling
-Metabolic models were developed using dereplicated medium and high quality metagenome-assembled genomes (MAGs) that were assembled from the 24 metagenomes and previously presented in Zhou et al. (2021). Models were built from these MAGs in KBase (51, 52) by first importing the assemblies into KBase and annotating them with RAST (53) through the “MS2 - Build Prokaryotic Metabolic Model” tool in KBase (version 1.0.0), with default settings, auxotrophic media, and gapfilling with a minimum of 0.1  biomass growth. For the one methanogen MAG, a methanogenic dimethylamine and hydrogen media was used.
+Metabolic models were developed using 310 dereplicated metagenome-assembled genomes (MAGs; 275 meet the MIMAG medium-quality criteria) that were assembled from the 24 metagenomes and previously presented in Zhou et al. (2021). Models were built from these MAGs in KBase (51, 52) by first importing the assemblies into KBase and annotating them with RAST (53) through the “MS2 - Build Prokaryotic Metabolic Model” tool in KBase (version 1.0.0), with default settings, auxotrophic media, and gapfilling with a minimum of 0.1  biomass growth. For the one methanogen MAG, a methanogenic dimethylamine and hydrogen media was used.
 The MAG-derived models were subjected to the following series of constraints and objectives to better follow their biology.  First, the biomass compound of each model was constrained to its relative abundance in each simulated sample (based on read mapping), which scales the member’s metabolism to match its contribution in the sample’s consortium and specifically allows the simulated methane emission to quantitatively approximate the organism’s in situ production.  The models for methylphosphonate-consuming organisms were simulated with a fixed ratio of inorganic to organic phosphate (0.07 yielded the best fit to the experimental data) to create a realistic consumption and excretion profile.  The betaine-utilizing organisms were simulated with a betaine consumption rate of 0.1 , based on the experimental turnover rate of betaine consumption (54).  One TMA was excreted for each consumed betaine, which was assumed to be demethylated by other organisms in the community in proportion to the substrate addition experiment with TMA in Figure 4 where 1 TMA produced 0.06 methane: i.e. the estimated methane emission flux from betaine was assumed to be 0.06 x TMA excretion flux.  The metabolic models were finally minimized to the consumption of lactate (the carbon source) to follow evolution’s directive of finding the most efficient metabolism to achieve a given biomass.
 Lactate was selected as the simulated carbon source because it required among the fewest reactions to be gapfilled among the potential carbon sources for all methylphosphonate- and betaine- consuming members (see Figure S9), partially because in one step it can directly convert into pyruvate via lactate dehydrogenase. This enzymatic capacity is prevalent in hypersaline archaea (55) and lactate can be generated in these environments during pyruvate metabolism (56), so it is a plausible available sugar in this ecosystem. Measuring lactate in the metabolomics data at every site further supports the selection of this carbon source. Glycerol and acetate are other candidate carbon sources – supported by the above literature, our metabolomics data, and the requisite number of reactions to be gapfilled – and could be simulated, but would not change the consumption profiles of betaine and methylphosphonate.
 Linear regression between the experimental and simulated methane emissions revealed explanatory power of the experimental measurements by the modeling results.  The modeling methane fluxes were converted into the experimental units  through unit conversions
@@ -219,51 +219,51 @@ Time:Substrate
 1259.41
 < 0.001
 ***
-**Table 3. The percent of total biomass that each family comprises in the unrestored, restored, and reference (natural) wetlands.  These percentages were computed after removing the unbinned reads, which constituted 68%, 89%, and 89% of the total abundance in each sample type, respectively. **
+**Table 3. The percent of total biomass that each family comprises in the unrestored, restored, and reference (natural) wetlands.  These percentages were computed after removing the unbinned reads, which constituted 52%, 88%, and 89% of the total abundance in each sample type, respectively. **
 GTDB-Tk Family
 Unrestored total
 Restored total
  Reference total
 Rhodobacteraceae
-0.205579
-0.023704
-0.008131
+0.205806
+0.007799
+0.023190
 Balneolaceae
-0.112063
-0.001370
-0.085078
+0.113485
+0.081598
+0.001340
 Wenzhouxiangellaceae
-0.096556
-0.001906
-0.000975
-undetermined
-0.081655
-0.169926
-0.165546
+0.097700
+0.000935
+0.001865
 Saprospiraceae
-0.075393
-0.000535
-0.000266
-Woeseiaceae
-0.032407
-0.019029
-0.005789
-UBA12077
-0.031803
-0.000287
+0.076393
+0.000255
 0.000523
+undetermined
+0.068143
+0.175628
+0.166376
+Haloferacaceae (archaeal)
+0.059095
+0.005976
+0.000427
+UBA12077
+0.032218
+0.000501
+0.000280
+Woeseiaceae
+0.030725
+0.005553
+0.018616
 Sediminispirochaetaceae
-0.027220
-0.000319
-0.000519
-Flavobacteriaceae
-0.025992
-0.063411
-0.019261
-Oleiphilaceae
-0.023174
-0.001592
-0.000722
+0.027567
+0.000498
+0.000312
+Haloarculaceae (archaeal)
+0.024781
+0.005981
+0.000204
 **Figure 1. Relative abundances of genes (z-score transformed DESeq2 normalized counts) involved in the cycling of various methylated compounds. The heatmap is clustered by sample (columns) with Ward’s D2, which cleanly separates them by restoration type. Rows are sorted by compound. TMA = trimethylamine, MMA = monomethylamine, GB = glycine betaine, DMS = dimethyl sulfide, MMPA = methylthiopropanoate, DMSP = dimethylsulfoniopropionate. Rows are annotated by the compound ID, the type of process the gene is involved in, and whether the gene abundance is significantly different among the three restoration statuses based on a Kruskal-Wallis (“KW”) test with FDR p-value correction. Sample R2_A_D2 appears to be an outlier in these gene abundances; however, CH4 emissions for core R2_A were intermediate among the unrestored samples.**
 **Figure 2. Concentrations of metabolites (z-score transformed µM) as measured by NMR. The heatmap is clustered by both row (metabolites) and column (samples). Columns are annotated by their restoration status, while rows are annotated by whether they are significantly different between reference and restored sites (black = Wilcoxon test, PFDR < 0.05, gray = Wilcoxon test PFDR > 0.05, white = present in less than 3 samples and not tested). The one restored sample was not analyzed statistically.**
 **Figure 3. Correlations between metabolites and methane flux. Correlations were run with 3 different types of coefficient calculations and p-values were corrected with FDR (Pfdr). The metabolites tested and shown here were each present in at least 3 samples. Note that methylphosphonic acid and dimethylmethylphosphonate are not shown here because concentrations were not quantified; however, both were detected in all analyzed samples. Methylphosphonic acid was detected only at trace levels.**

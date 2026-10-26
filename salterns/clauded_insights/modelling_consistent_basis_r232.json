@@ -1,0 +1,365 @@
+{
+ "basis": "each MAG's flux per unit of simulated abundance, k_i = flux_i / a_i (a constant for the\nMePn models, CV < 1e-8), times its biomass in the core: the sum over the two layers of r_id x DNA_d x layer volume,\nconverted with the pipeline's constants (0.7 g soil cm-3, DNA = 10 % of biomass, 5 cm core, 5 + 10 cm layers).\nBetaine models: their TMA excretion is mostly set by the 0.1 betaine-uptake bound (33 of 54 grdH cells), not by\nthe biomass input, so the rescaling does not apply (it would give 0.1-27x the measured emissions). Their primary basis\nkeeps the pipeline's conversion of the summed flux with the core's volume-weighted DNA ('areal' for betaine); the\nper-core rescaling is reported as the sensitivity 'betaine_rescaled'.\nSensitivity basis 'relab_only': the same with a constant DNA (the six-core mean), i.e. biomass-specific emission.",
+ "measured_CH4": {
+  "R1_A": 737.32,
+  "R1_B": 1347.13,
+  "R1_C": 490.47,
+  "R2_A": 1327.18,
+  "R2_B": 1607.09,
+  "R2_C": 1588.57
+ },
+ "VW_DNA": {
+  "R1_A": 4.7751,
+  "R1_B": 3.744,
+  "R1_C": 1.9644,
+  "R2_A": 2.3769,
+  "R2_B": 1.9236,
+  "R2_C": 1.2405
+ },
+ "areal": {
+  "MePn_0.07_20": {
+   "n": 6,
+   "slope": -0.20323102837029638,
+   "intercept": 907.1969610006879,
+   "pearson_r2": 0.07980483652167084,
+   "pearson_p": 0.5875260859470552,
+   "spearman_rho": -0.2,
+   "spearman_p": 0.7040000000000001,
+   "model_over_measured_total": 0.5636562383172398,
+   "model_over_measured_min": 0.17783245912049142,
+   "model_over_measured_max": 1.4121130925104597,
+   "sim_by_core": {
+    "R1_A": 1041.179,
+    "R1_B": 1036.136,
+    "R1_C": 575.768,
+    "R2_A": 325.985,
+    "R2_B": 739.13,
+    "R2_C": 282.499
+   }
+  },
+  "MePn_0.33_20": {
+   "n": 6,
+   "slope": -0.3219990476282928,
+   "intercept": 1562.621248064001,
+   "pearson_r2": 0.0635484461718768,
+   "pearson_p": 0.6298776486602085,
+   "spearman_rho": -0.08571428571428573,
+   "spearman_p": 0.8717434402332361,
+   "model_over_measured_total": 0.9989426985541655,
+   "model_over_measured_min": 0.30458321520286225,
+   "model_over_measured_max": 2.450526167850498,
+   "sim_by_core": {
+    "R1_A": 1806.822,
+    "R1_B": 1869.105,
+    "R1_C": 1001.363,
+    "R2_A": 597.722,
+    "R2_B": 1331.391,
+    "R2_C": 483.852
+   }
+  },
+  "MePn_0.07_phnJ17": {
+   "n": 6,
+   "slope": -0.19792705013757989,
+   "intercept": 880.5261728894087,
+   "pearson_r2": 0.08198170720036063,
+   "pearson_p": 0.5822499664900406,
+   "spearman_rho": -0.2,
+   "spearman_p": 0.7040000000000001,
+   "model_over_measured_total": 0.5464144093280053,
+   "model_over_measured_min": 0.1723697598764235,
+   "model_over_measured_max": 1.3747050377287167,
+   "sim_by_core": {
+    "R1_A": 1013.598,
+    "R1_B": 989.228,
+    "R1_C": 558.257,
+    "R2_A": 319.969,
+    "R2_B": 723.445,
+    "R2_C": 273.821
+   }
+  },
+  "MePn_0.07_nonbinding3": {
+   "n": 6,
+   "slope": -0.16070294144946207,
+   "intercept": 672.5046489380418,
+   "pearson_r2": 0.0952776528160285,
+   "pearson_p": 0.5516985380824012,
+   "spearman_rho": -0.2,
+   "spearman_p": 0.7040000000000001,
+   "model_over_measured_total": 0.40779020196877847,
+   "model_over_measured_min": 0.13244593838175325,
+   "model_over_measured_max": 1.0402813335223884,
+   "sim_by_core": {
+    "R1_A": 767.02,
+    "R1_B": 737.869,
+    "R1_C": 423.372,
+    "R2_A": 228.682,
+    "R2_B": 527.054,
+    "R2_C": 210.4
+   }
+  },
+  "betaine_grdH9": {
+   "n": 6,
+   "slope": -0.7052669266966933,
+   "intercept": 3192.5088205107054,
+   "pearson_r2": 0.09856826232607864,
+   "pearson_p": 0.544539297303394,
+   "spearman_rho": -0.08571428571428573,
+   "spearman_p": 0.8717434402332361,
+   "model_over_measured_total": 1.9934792866247253,
+   "model_over_measured_min": 0.8265172327016116,
+   "model_over_measured_max": 5.468777644984647,
+   "sim_by_core": {
+    "R1_A": 4032.239,
+    "R1_B": 3202.474,
+    "R1_C": 1665.984,
+    "R2_A": 1899.669,
+    "R2_B": 2035.891,
+    "R2_C": 1312.98
+   }
+  },
+  "betaine_orig15": {
+   "n": 6,
+   "slope": -1.005257054043582,
+   "intercept": 4499.8398820770335,
+   "pearson_r2": 0.09680718805637227,
+   "pearson_p": 0.5483524206143955,
+   "spearman_rho": -0.08571428571428573,
+   "spearman_p": 0.8717434402332361,
+   "model_over_measured_total": 2.798624634328834,
+   "model_over_measured_min": 1.198032400163894,
+   "model_over_measured_max": 7.7308260319593165,
+   "sim_by_core": {
+    "R1_A": 5700.093,
+    "R1_B": 4600.994,
+    "R1_C": 2303.919,
+    "R2_A": 2640.605,
+    "R2_B": 2715.196,
+    "R2_C": 1903.158
+   }
+  }
+ },
+ "relab_only": {
+  "MePn_0.07_20": {
+   "n": 6,
+   "slope": -0.024293374061257107,
+   "intercept": 667.6999601825396,
+   "pearson_r2": 0.0028016103244411293,
+   "pearson_p": 0.9206787846988482,
+   "spearman_rho": 0.3142857142857143,
+   "spearman_p": 0.5440932944606415,
+   "model_over_measured_total": 0.5401381875997793,
+   "model_over_measured_min": 0.20380822967301415,
+   "model_over_measured_max": 1.5812698351080965,
+   "sim_by_core": {
+    "R1_A": 582.573,
+    "R1_B": 741.091,
+    "R1_C": 775.565,
+    "R2_A": 270.49,
+    "R2_B": 873.619,
+    "R2_C": 590.432
+   }
+  },
+  "MePn_0.33_20": {
+   "n": 6,
+   "slope": 0.02309288077385336,
+   "intercept": 1117.0306431680242,
+   "pearson_r2": 0.0008299515457189195,
+   "pearson_p": 0.9567986355373245,
+   "spearman_rho": 0.3142857142857143,
+   "spearman_p": 0.5440932944606415,
+   "model_over_measured_total": 0.9673603481168103,
+   "model_over_measured_min": 0.373807974595789,
+   "model_over_measured_max": 2.7408279297685607,
+   "sim_by_core": {
+    "R1_A": 1010.903,
+    "R1_B": 1336.712,
+    "R1_C": 1344.294,
+    "R2_A": 496.11,
+    "R2_B": 1559.154,
+    "R2_C": 1118.918
+   }
+  },
+  "MePn_0.07_phnJ17": {
+   "n": 6,
+   "slope": -0.021258142973885848,
+   "intercept": 645.6087673456669,
+   "pearson_r2": 0.0023013552916165084,
+   "pearson_p": 0.9280965362517212,
+   "spearman_rho": 0.3142857142857143,
+   "spearman_p": 0.5440932944606415,
+   "model_over_measured_total": 0.5244989133472635,
+   "model_over_measured_min": 0.19990088217712815,
+   "model_over_measured_max": 1.5328847727100894,
+   "sim_by_core": {
+    "R1_A": 567.151,
+    "R1_B": 707.56,
+    "R1_C": 751.834,
+    "R2_A": 265.304,
+    "R2_B": 853.837,
+    "R2_C": 577.081
+   }
+  },
+  "MePn_0.07_nonbinding3": {
+   "n": 6,
+   "slope": -0.04126129837507296,
+   "intercept": 506.8050117522342,
+   "pearson_r2": 0.014833576317568804,
+   "pearson_p": 0.8182135587800433,
+   "spearman_rho": 0.14285714285714288,
+   "spearman_p": 0.7871720116618076,
+   "model_over_measured_total": 0.3871597908859622,
+   "model_over_measured_min": 0.14293524408719863,
+   "model_over_measured_max": 1.1660588404431402,
+   "sim_by_core": {
+    "R1_A": 429.198,
+    "R1_B": 527.813,
+    "R1_C": 571.917,
+    "R2_A": 189.701,
+    "R2_B": 628.144,
+    "R2_C": 401.194
+   }
+  },
+  "betaine_grdH9": {
+   "n": 6,
+   "slope": -4.245141475766964,
+   "intercept": 10580.530440451892,
+   "pearson_r2": 0.247246029995504,
+   "pearson_p": 0.31561250525223605,
+   "spearman_rho": -0.5428571428571429,
+   "spearman_p": 0.26570262390670546,
+   "model_over_measured_total": 4.698973659530842,
+   "model_over_measured_min": 0.46230722595879176,
+   "model_over_measured_max": 15.227652592923608,
+   "sim_by_core": {
+    "R1_A": 11227.653,
+    "R1_B": 9018.37,
+    "R1_C": 4534.271,
+    "R2_A": 5368.383,
+    "R2_B": 2469.103,
+    "R2_C": 734.407
+   }
+  },
+  "betaine_orig15": {
+   "n": 6,
+   "slope": -5.99503696683846,
+   "intercept": 14873.115560464692,
+   "pearson_r2": 0.24145444778796293,
+   "pearson_p": 0.3222527420365543,
+   "spearman_rho": -0.5428571428571429,
+   "spearman_p": 0.26570262390670546,
+   "model_over_measured_total": 6.577759713070153,
+   "model_over_measured_min": 0.6582307622487644,
+   "model_over_measured_max": 21.35628618815137,
+   "sim_by_core": {
+    "R1_A": 15746.417,
+    "R1_B": 12954.44,
+    "R1_C": 6303.655,
+    "R2_A": 7489.6,
+    "R2_B": 3147.601,
+    "R2_C": 1045.646
+   }
+  }
+ },
+ "stored_x_VW_superseded": {
+  "MePn_0.07_20": {
+   "pearson_r2": 0.37042581234513705,
+   "spearman_rho": 0.6,
+   "spearman_p": 0.208
+  },
+  "MePn_0.33_20": {
+   "pearson_r2": 0.4022859376999197,
+   "spearman_rho": 0.6,
+   "spearman_p": 0.208
+  },
+  "MePn_0.07_phnJ17": {
+   "pearson_r2": 0.37158554901401586,
+   "spearman_rho": 0.6,
+   "spearman_p": 0.208
+  },
+  "MePn_0.07_nonbinding3": {
+   "pearson_r2": 0.337044264996533,
+   "spearman_rho": 0.6,
+   "spearman_p": 0.208
+  },
+  "betaine_grdH9": {
+   "pearson_r2": 0.09856826232607864,
+   "spearman_rho": -0.08571428571428573,
+   "spearman_p": 0.8717434402332361
+  },
+  "betaine_orig15": {
+   "pearson_r2": 0.09680718805637231,
+   "spearman_rho": -0.08571428571428573,
+   "spearman_p": 0.8717434402332361
+  }
+ },
+ "betaine_rescaled": {
+  "betaine_grdH9": {
+   "n": 6,
+   "slope": -6.66903687746997,
+   "intercept": 15470.203280046011,
+   "pearson_r2": 0.17056558077158485,
+   "pearson_p": 0.41572764868299367,
+   "spearman_rho": -0.5428571428571429,
+   "spearman_p": 0.26570262390670546,
+   "model_over_measured_total": 6.408500215961769,
+   "model_over_measured_min": 0.14010919022599586,
+   "model_over_measured_max": 27.20512322562585,
+   "sim_by_core": {
+    "R1_A": 20058.881,
+    "R1_B": 12480.191,
+    "R1_C": 3385.937,
+    "R2_A": 6980.519,
+    "R2_B": 2357.894,
+    "R2_C": 222.573
+   }
+  },
+  "betaine_orig15": {
+   "n": 6,
+   "slope": -9.392503664913002,
+   "intercept": 21760.273651979616,
+   "pearson_r2": 0.1684340963389609,
+   "pearson_p": 0.4189524371761589,
+   "spearman_rho": -0.5428571428571429,
+   "spearman_p": 0.26570262390670546,
+   "model_over_measured_total": 9.002263404116903,
+   "model_over_measured_min": 0.18645823367211567,
+   "model_over_measured_max": 38.16008030651908,
+   "sim_by_core": {
+    "R1_A": 28136.19,
+    "R1_B": 17928.629,
+    "R1_C": 4712.26,
+    "R2_A": 9834.888,
+    "R2_B": 2987.736,
+    "R2_C": 296.202
+   }
+  }
+ },
+ "MePn_0.07_20_family_share": {
+  "Beijerinckiaceae": 0.0037,
+  "Rhodobacteraceae": 0.9962,
+  "Thiotrichaceae": 0.0001
+ },
+ "MePn_0.07_20_genus_share": {
+  "Albimonas": 0.0841,
+  "CAZRZN01": 0.0064,
+  "DAINOF01": 0.0241,
+  "JAVJPJ01": 0.0028,
+  "Marivita": 0.0448,
+  "Roseibacterium": 0.0194,
+  "Roseovarius": 0.8148,
+  "Saliniramus": 0.0037,
+  "Thiolinea": 0.0001
+ },
+ "factor_VW_x_mean_inverse_DNA": {
+  "spearman_rho": 0.6,
+  "spearman_p": 0.208,
+  "by_core": {
+   "R1_A": 0.998,
+   "R1_B": 0.975,
+   "R1_C": 1.053,
+   "R2_A": 1.055,
+   "R2_B": 6.354,
+   "R2_C": 4.072
+  }
+ }
+}

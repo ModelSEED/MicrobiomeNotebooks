@@ -57,9 +57,26 @@ which do **not** depend on the n = 6 modelling.
 | **`Metabolic Manuscript (tracked changes).docx`** | Copy of the submitted DOCX with **real Word tracked changes** (Review ▸ All Markup): 5 modelling paragraphs reworded with corrected numbers, plus 4 inserted paragraphs (geochem/gradient result, specificity caveat, modelling-as-attribution reframe, proposed-Figure-1 note). Reject → original numbers; Accept → corrections. All 20 figures preserved. |
 | `Metabolic Manuscript (clauded annotations).docx` | Copy of the submitted DOCX with in-line red "CLAUDE »" notes at each affected passage (comment-style, no revisions). Original text and all 20 figures preserved. |
 | `REASSESSMENT.md` | Round-2 critical re-evaluation: the gradient confound, the specificity null, the metabolite results, and the correction to my earlier "normalisation" claim. |
-| `manuscript_corrected.md` | Full manuscript with the modelling numbers corrected and the new figures referenced (6 surgical edits + a methods note). **Authoritative corrected text.** |
+| `manuscript_corrected.md` | Full manuscript with the modelling numbers corrected and the new figures referenced (6 surgical edits + a methods note; on 2026-10-26 also the three draft errors: Table 3, the P35 quality claim, P69's Figure S8 citation). `build_corrected_manuscript.py` now reads the text from `../Metabolic Manuscript.docx` directly. Superseded for the modelling numbers by the R232 review (below). |
 | `manuscript_corrected.andrew_voice.md` | `manuscript_corrected.md` restyled by the local `andrew-voice` model. **Stylistic draft — fact-check against `manuscript_corrected.md`** (see caveat below). |
 | `numbers_to_reconcile.md` | Every stale number → submitted-figure value → corrected value, with recommended framing. |
+
+The two July DOCX copies above also carry the three draft-error fixes (2026-10-26): Table 3 values and caption, P35, and, in the annotated copy, P69. Known issues in the July material, superseded by the R232 review below:
+- **The July "areal" basis (`figure7_corrected.py` panel a: ρ = 0.60, R² = 0.37) is not areal.** The model input was relative abundance ÷ DNA per depth. Two depths have 0.16 µg DNA g⁻¹, and multiplying by the core's DNA does not cancel that term. On a consistent basis the MePn models give ρ = −0.20 (`modelling_consistent_basis_r232.py`). Every July modelling claim built on ρ = 0.60 or "rank order" is therefore wrong.
+- Its P69 says "R² = 0.89 when both are divided by DNA density". In fact 0.89 is measured CH₄/DNA against the July areal value; dividing both axes gives 0.978.
+- The 77 % *Roseovarius* / 11 % *Albimonas* shares are from the ratio-0.07 run, not an unconstrained run.
+- **`manuscript_corrected.andrew_voice.md` contains fabricated content in its modelling paragraphs.** It has "PHREEQC" simulations, "benthic chambers", "sixteen iterations", "10 % phosphate from soil and 90 % from water", and figure labels such as "Figure 4.3" and "Table 7.3". None of these is in the source text. Do not use it.
+- `make_tracked_changes_docx.py` produces two schema errors (a hyperlink moved inside w:del; a doubled paragraph-mark w:ins). They date from July and are unrelated to the 2026-10-26 fixes; LibreOffice renders the file, but Word may complain.
+
+### R232 review (2026-10-21, revised 2026-10-26)
+| File | What it is |
+|---|---|
+| `make_r232_review_docx.py` | Builds `../Metabolic Manuscript - R232 review (tracked changes).docx`, the current revision (see `../Metabolic Manuscript - R232 review notes.md`). |
+| `r232_review_edits_2026-10-26.json` | The 2026-10-26 tracked edits and comments, each with its rationale and source. They cover the modelling text and numbers, the betaine set, the *Halomonas* isolates, and smaller fixes. |
+| `modelling_consistent_basis_r232.py` → `.json` | **Current model-vs-measured statistics.** Fluxes are rescaled to each member's biomass (relative abundance × DNA × layer thickness), which removes the 1/DNA term the stored model input carries. Result: MePn ρ = −0.20 (R² 0.08) at ratio 0.07 and 56 % of measured emissions; betaine ρ = −0.09. |
+| `modelling_numbers_r232.py` → `.json` | Traces each draft R² to its source (fits with both axes divided by DNA). Its "raw_areal" basis (= `figure7_corrected.py` panel a, ρ = 0.60) still carries the 1/DNA term and is superseded by the file above. |
+| `figure7_r232.py` → `figure7_r232.png/.svg`, `figure7_r232_stats.json` | New Figure 7: one panel, consistent areal basis, MePn (20 models) and betaine (9 *grdH* carriers). |
+| `table3_2020_corrected.py` → `../Table 3 - corrected values (2020 GTDB families).csv` | Old Table 3 next to its corrected 2020-family values. |
 
 ### Scripts (reproduce everything)
 `figure7_corrected.py` · `family_contribution.py` · `figure8_relabeled.py` ·
