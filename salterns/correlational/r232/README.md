@@ -82,4 +82,4 @@ Each has its own script in this folder. None changes the outputs above.
 - **Archaeal MePn consumers and TMA-route candidates** (`archaeal_mepn_and_tma_candidates.md`, `_genes.csv`, `make_archaeal_mepn_tma_report.py`):
   - **Archaeal MePn consumers:** gene-level look at *Natrinema*.1 and *Haloquadratum*.4, which have complete C–P lyase loci on the annotations; *Halorubrum*.3 has none.
   - **TMA-route candidates:** the four candidates show no TMA-forming enzyme on the annotations.
-- **Figure S11 regeneration** (`FigureS11_regeneration.md`): what the figure is, the code that drew it, what an R232 version needs, and a prototype renderer.
+- **Figure S11 regenerated** (`figureS11_r232.py` → `figureS11_r232.png`, `.order.json`; background in `FigureS11_regeneration.md`): the 2020 renderer ported to the R232 matrix and graphical-lasso edges, 169 taxa (13 archaeal), 186 asterisks, gene-based guild highlights. The TMA-route candidates are not boxed.

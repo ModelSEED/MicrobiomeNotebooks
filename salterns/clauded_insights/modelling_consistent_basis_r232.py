@@ -18,8 +18,17 @@ the biomass input, so the rescaling does not apply (it would give 0.1-27x the me
 keeps the pipeline's conversion of the summed flux with the core's volume-weighted DNA ('areal' for betaine); the
 per-core rescaling is reported as the sensitivity 'betaine_rescaled'.
 Sensitivity basis 'relab_only': the same with a constant DNA (the six-core mean), i.e. biomass-specific emission.
+'addition_no_ratio' is the stored substrate-addition run (saltern_fluxes_addition.json: no phosphate-ratio constraint,
+MePn uptake <= 0.001) on the same basis; its infeasible MAG x core cells are missing from the file and count as 0.
 
 Run: ~/Documents/py_venv/bin/python modelling_consistent_basis_r232.py  -> modelling_consistent_basis_r232.json
+
+'*_repaired' sets: Roseovarius.9, Roseovarius.11 and Albimonas.1 cannot grow without methylphosphonate because of
+gapfilling gaps (mepn_obligacy_check/README.md). Their stored methane per unit of simulated abundance is a constant
+(0.469737, 0.553445, 0.469737 at both ratios); after a one-reaction repair (homoserine kinase rxn01300, PRPP
+synthetase rxn00770, homoserine kinase) it is the ratio-bound value of every other model, r/(1+r) x 0.660485
+(0.043209 at 0.07, 0.163880 at 0.33). The repaired sets substitute that constant for the three models; the result is
+asserted against mepn_obligacy_check/analysis/step5_consistent_basis.json (which re-ran cell 27 on the repaired models).
 """
 import json
 import math
@@ -73,6 +82,21 @@ def simulated(flux_by_mag, scale=1.0, dna=None):
     return per.sum(axis=1), per
 
 
+K_OBLIGATE = {"Roseovarius.9": 0.469737, "Roseovarius.11": 0.553445, "Albimonas.1": 0.469737}
+K_RATIO = {"0.07": 0.043209, "0.33": 0.163880}
+
+
+def repaired(flux_by_mag, ratio):
+    """The three MePn-obligate models' methane replaced by the ratio-bound value of the repaired models."""
+    out = dict(flux_by_mag)
+    for mag, by_core in flux_by_mag.items():
+        iid = IDK[key(mag)]
+        if iid in K_OBLIGATE:
+            out[mag] = {c: v / K_OBLIGATE[iid] * K_RATIO[ratio] for c, v in by_core.items()}
+    assert sum(IDK[key(m)] in K_OBLIGATE for m in flux_by_mag) == 3
+    return out
+
+
 def fit(sim):
     lr = stats.linregress(CH4[CORES], sim[CORES])
     rho, p = stats.spearmanr(CH4[CORES], sim[CORES])
@@ -86,16 +110,20 @@ def fit(sim):
 def main():
     mepn = json.load(open(CORR / "saltern_fluxes.json"))
     bet = json.load(open(CORR / "saltern_fluxes_betaine.json"))["TMA"]
+    add = json.load(open(CORR / "saltern_fluxes_addition.json"))["methane"]
     phnj = {key(m) for m in GUILDS.loc[GUILDS.mepn_consumer, "mag"]}
     grdh = {key(m) for m in GUILDS.loc[GUILDS.betaine_reducer, "mag"]}
     sets = {
         "MePn_0.07_20": (mepn["0.07"]["methane"], 1.0),
         "MePn_0.33_20": (mepn["0.33"]["methane"], 1.0),
+        "MePn_0.07_20_repaired": (repaired(mepn["0.07"]["methane"], "0.07"), 1.0),
+        "MePn_0.33_20_repaired": (repaired(mepn["0.33"]["methane"], "0.33"), 1.0),
         "MePn_0.07_phnJ17": ({m: v for m, v in mepn["0.07"]["methane"].items() if key(m) in phnj}, 1.0),
         "MePn_0.07_nonbinding3": ({m: v for m, v in mepn["0.07"]["methane"].items()
                                    if IDK[key(m)] in ("Roseovarius.9", "Roseovarius.11", "Albimonas.1")}, 1.0),
         "betaine_grdH9": ({m: v for m, v in bet.items() if key(m) in grdh}, 0.06),
         "betaine_orig15": (bet, 0.06),
+        "addition_no_ratio": ({m: {c: v.get(c, 0.0) for c in CORES} for m, v in add.items()}, 1.0),
     }
     assert len(sets["MePn_0.07_phnJ17"][0]) == 17 and len(sets["MePn_0.07_nonbinding3"][0]) == 3
     assert len(sets["betaine_grdH9"][0]) == 9
@@ -112,14 +140,20 @@ def main():
         out["areal"][name] = fit(sim)
         out["relab_only"][name] = fit(simulated(fl, sc, dna=mean_dna)[0])
         out["stored_x_VW_superseded"][name] = {k: v for k, v in fit(stored * VW).items() if k in ("pearson_r2", "spearman_rho", "spearman_p")}
-        if name == "MePn_0.07_20":
+        if name in ("MePn_0.07_20", "MePn_0.07_20_repaired"):
             fam = {i: GUILDS.set_index("iterativeID_r232").loc[i, "family"] for i in per.columns}
-            out["MePn_0.07_20_family_share"] = (per.sum().groupby(fam).sum() / per.values.sum()).round(4).to_dict()
-            out["MePn_0.07_20_genus_share"] = (per.sum().groupby(lambda i: i.rsplit(".", 1)[0]).sum() / per.values.sum()).round(4).to_dict()
+            out[f"{name}_family_share"] = (per.sum().groupby(fam).sum() / per.values.sum()).round(4).to_dict()
+            out[f"{name}_genus_share"] = (per.sum().groupby(lambda i: i.rsplit(".", 1)[0]).sum() / per.values.sum()).round(4).to_dict()
+        if name.startswith("MePn_") and name.endswith("_20") or name.endswith("_repaired"):
+            out.setdefault("share_of_obligate3", {})[name] = round(float(per[[c for c in per.columns if c in K_OBLIGATE]].values.sum() / per.values.sum()), 4)
     # the 1/DNA factor alone (what the superseded 'areal' basis carried)
     fac = VW * pd.Series({c: (1 / DNA[c + "_D1"] + 1 / DNA[c + "_D2"]) / 2 for c in CORES})
     rho, p = stats.spearmanr(CH4[CORES], fac[CORES])
     out["factor_VW_x_mean_inverse_DNA"] = {"spearman_rho": rho, "spearman_p": p, "by_core": fac.round(3).to_dict()}
+    s5 = json.load(open(HERE / "mepn_obligacy_check" / "analysis" / "step5_consistent_basis.json"))["areal"]
+    for r in ("0.07", "0.33"):                         # regression vs the cell-27 re-run on the repaired models
+        for k in ("model_over_measured_total", "spearman_rho", "pearson_r2", "model_over_measured_min", "model_over_measured_max"):
+            assert abs(out["areal"][f"MePn_{r}_20_repaired"][k] - s5[r]["after"][k]) < 1e-4, (r, k)
     json.dump(out, open(HERE / "modelling_consistent_basis_r232.json", "w"), indent=1)
     for basis in ("areal", "relab_only", "betaine_rescaled", "stored_x_VW_superseded"):
         print(basis)
@@ -127,6 +161,9 @@ def main():
             extra = f"  model/measured {s['model_over_measured_total']:.2f} ({s['model_over_measured_min']:.2f}-{s['model_over_measured_max']:.2f})" if "model_over_measured_total" in s else ""
             print(f"  {name:24s} R2={s['pearson_r2']:.3f} rho={s['spearman_rho']:+.2f} p={s['spearman_p']:.2f}{extra}")
     print("family share 0.07:", out["MePn_0.07_20_family_share"])
+    print("family share 0.07 repaired:", out["MePn_0.07_20_repaired_family_share"])
+    print("genus share 0.07 repaired:", {k: v for k, v in out["MePn_0.07_20_repaired_genus_share"].items() if v > 0.01})
+    print("share of the 3 obligate models:", out["share_of_obligate3"])
     print("genus share 0.07:", {k: v for k, v in out["MePn_0.07_20_genus_share"].items() if v > 0.01})
     print("1/DNA factor alone:", out["factor_VW_x_mean_inverse_DNA"])
 

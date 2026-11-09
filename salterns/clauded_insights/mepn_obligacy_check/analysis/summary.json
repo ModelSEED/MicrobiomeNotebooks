@@ -1,0 +1,833 @@
+{
+ "per_model": [
+  {
+   "model": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.20.contigs",
+   "iterative_id": "DAINOF01.1",
+   "obligate": false,
+   "grows_cell5_with_mepn": 5.135624058541077,
+   "grows_cell5_without_mepn": 5.135624058541163,
+   "grows_pi_free_mepn_only": 5.12852366646264,
+   "in_saltern_fluxes_json": true,
+   "n_gapfilled_reactions_cell93": 66,
+   "ch4_per_abundance_stored_r0.07": 0.04320928588307312,
+   "ch4_per_abundance_stored_r0.07_range": [
+    0.04320928588305064,
+    0.04320928588316723
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.07": 6.9692515647368225e-16,
+   "ratio_binds_all_cores_r0.07": true,
+   "MePn_over_Pi_r0.07": 0.07000000000000013,
+   "ch4_per_abundance_stored_r0.33": 0.16387968684793797,
+   "ch4_per_abundance_stored_r0.33_range": [
+    0.16387968684540782,
+    0.16387968685494575
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.33": 3.7985890474767636e-14,
+   "ratio_binds_all_cores_r0.33": true,
+   "MePn_over_Pi_r0.33": 0.33,
+   "ch4_per_abundance_repaired_r0.07": 0.04320928588307312,
+   "ch4_per_abundance_repaired_r0.33": 0.16387968684793797
+  },
+  {
+   "model": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.32.contigs",
+   "iterative_id": "Roseovarius.1",
+   "obligate": false,
+   "grows_cell5_with_mepn": 5.083646532137276,
+   "grows_cell5_without_mepn": 5.083646532137194,
+   "grows_pi_free_mepn_only": 4.524151878305097,
+   "in_saltern_fluxes_json": true,
+   "n_gapfilled_reactions_cell93": 55,
+   "ch4_per_abundance_stored_r0.07": 0.043209285883060895,
+   "ch4_per_abundance_stored_r0.07_range": [
+    0.043209285883054,
+    0.04320928588307043
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.07": 8.191147413127986e-17,
+   "ratio_binds_all_cores_r0.07": true,
+   "MePn_over_Pi_r0.07": 0.07000000000000144,
+   "ch4_per_abundance_stored_r0.33": 0.16387968684541646,
+   "ch4_per_abundance_stored_r0.33_range": [
+    0.16387968684540097,
+    0.16387968684543985
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.33": 4.0549161250957866e-17,
+   "ratio_binds_all_cores_r0.33": true,
+   "MePn_over_Pi_r0.33": 0.33000000000000196,
+   "ch4_per_abundance_repaired_r0.07": 0.043209285883060895,
+   "ch4_per_abundance_repaired_r0.33": 0.16387968684541646
+  },
+  {
+   "model": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.51.contigs",
+   "iterative_id": "Roseovarius.2",
+   "obligate": false,
+   "grows_cell5_with_mepn": 4.005991635328344,
+   "grows_cell5_without_mepn": 4.005991635328125,
+   "grows_pi_free_mepn_only": 3.997854781262532,
+   "in_saltern_fluxes_json": true,
+   "n_gapfilled_reactions_cell93": 96,
+   "ch4_per_abundance_stored_r0.07": 0.043209285883058134,
+   "ch4_per_abundance_stored_r0.07_range": [
+    0.04320928588305348,
+    0.04320928588306487
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.07": 7.287193851818197e-17,
+   "ratio_binds_all_cores_r0.07": true,
+   "MePn_over_Pi_r0.07": 0.06999999999999976,
+   "ch4_per_abundance_stored_r0.33": 0.16387968684541424,
+   "ch4_per_abundance_stored_r0.33_range": [
+    0.16387968684539345,
+    0.16387968684545004
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.33": 2.7072528246963046e-16,
+   "ratio_binds_all_cores_r0.33": true,
+   "MePn_over_Pi_r0.33": 0.3299999999999998,
+   "ch4_per_abundance_repaired_r0.07": 0.043209285883058134,
+   "ch4_per_abundance_repaired_r0.33": 0.16387968684541424
+  },
+  {
+   "model": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.27.contigs",
+   "iterative_id": "Gaopeijia.1",
+   "obligate": false,
+   "grows_cell5_with_mepn": 0.0,
+   "grows_cell5_without_mepn": 0.0,
+   "grows_pi_free_mepn_only": 0.0,
+   "in_saltern_fluxes_json": false,
+   "n_gapfilled_reactions_cell93": 115
+  },
+  {
+   "model": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.28.contigs",
+   "iterative_id": "Marivita.2",
+   "obligate": false,
+   "grows_cell5_with_mepn": 5.02334492047165,
+   "grows_cell5_without_mepn": 5.0233449204716365,
+   "grows_pi_free_mepn_only": 5.019945860875321,
+   "in_saltern_fluxes_json": true,
+   "n_gapfilled_reactions_cell93": 60,
+   "ch4_per_abundance_stored_r0.07": 0.04320928588306291,
+   "ch4_per_abundance_stored_r0.07_range": [
+    0.0432092858830485,
+    0.043209285883086056
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.07": 2.474149357611921e-16,
+   "ratio_binds_all_cores_r0.07": true,
+   "MePn_over_Pi_r0.07": 0.07000000000000003,
+   "ch4_per_abundance_stored_r0.33": 0.16387968684438683,
+   "ch4_per_abundance_stored_r0.33_range": [
+    0.16387968683878348,
+    0.163879686845864
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.33": 8.319820526958566e-14,
+   "ratio_binds_all_cores_r0.33": true,
+   "MePn_over_Pi_r0.33": 0.32999999999999996,
+   "ch4_per_abundance_repaired_r0.07": 0.04320928588306291,
+   "ch4_per_abundance_repaired_r0.33": 0.16387968684438683
+  },
+  {
+   "model": "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.7.contigs",
+   "iterative_id": "Thiolinea.1",
+   "obligate": false,
+   "grows_cell5_with_mepn": 5.150123872256508,
+   "grows_cell5_without_mepn": 5.150123872256312,
+   "grows_pi_free_mepn_only": 4.54720077814772,
+   "in_saltern_fluxes_json": true,
+   "n_gapfilled_reactions_cell93": 57,
+   "ch4_per_abundance_stored_r0.07": 0.04320928588305456,
+   "ch4_per_abundance_stored_r0.07_range": [
+    0.04320928588304452,
+    0.043209285883061825
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.07": 3.696417902830657e-08,
+   "ratio_binds_all_cores_r0.07": true,
+   "MePn_over_Pi_r0.07": 0.06999999999999935,
+   "ch4_per_abundance_stored_r0.33": 0.1638796868453976,
+   "ch4_per_abundance_stored_r0.33_range": [
+    0.16387968684536053,
+    0.16387968684542462
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.33": 3.882799030213713e-18,
+   "ratio_binds_all_cores_r0.33": true,
+   "MePn_over_Pi_r0.33": 0.329999999999999,
+   "ch4_per_abundance_repaired_r0.07": 0.04320928588305456,
+   "ch4_per_abundance_repaired_r0.33": 0.1638796868453976,
+   "fva_ch4_per_abundance_r0.07": [
+    0.0,
+    0.056570787108319996
+   ]
+  },
+  {
+   "model": "Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.79.contigs",
+   "iterative_id": "Roseovarius.4",
+   "obligate": false,
+   "grows_cell5_with_mepn": 5.0242779075552395,
+   "grows_cell5_without_mepn": 5.024277907555206,
+   "grows_pi_free_mepn_only": 5.020616213056666,
+   "in_saltern_fluxes_json": true,
+   "n_gapfilled_reactions_cell93": 98,
+   "ch4_per_abundance_stored_r0.07": 0.04320928588305721,
+   "ch4_per_abundance_stored_r0.07_range": [
+    0.04320928588305124,
+    0.04320928588306491
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.07": 7.589415207398531e-18,
+   "ratio_binds_all_cores_r0.07": true,
+   "MePn_over_Pi_r0.07": 0.07000000000000003,
+   "ch4_per_abundance_stored_r0.33": 0.1638796868454091,
+   "ch4_per_abundance_stored_r0.33_range": [
+    0.16387968684538773,
+    0.1638796868454346
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.33": 4.992751004295748e-17,
+   "ratio_binds_all_cores_r0.33": true,
+   "MePn_over_Pi_r0.33": 0.33000000000000024,
+   "ch4_per_abundance_repaired_r0.07": 0.04320928588305721,
+   "ch4_per_abundance_repaired_r0.33": 0.1638796868454091
+  },
+  {
+   "model": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.35.contigs",
+   "iterative_id": "Saliniramus.1",
+   "obligate": false,
+   "grows_cell5_with_mepn": 5.11445743981589,
+   "grows_cell5_without_mepn": 5.114457439815754,
+   "grows_pi_free_mepn_only": 4.5272983091202,
+   "in_saltern_fluxes_json": true,
+   "n_gapfilled_reactions_cell93": 70,
+   "ch4_per_abundance_stored_r0.07": 0.04320928588306183,
+   "ch4_per_abundance_stored_r0.07_range": [
+    0.0432092858830585,
+    0.043209285883064615
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.07": 1.2427667402115095e-17,
+   "ratio_binds_all_cores_r0.07": true,
+   "MePn_over_Pi_r0.07": 0.06999999999999991,
+   "ch4_per_abundance_stored_r0.33": 0.16387968684542153,
+   "ch4_per_abundance_stored_r0.33_range": [
+    0.16387968684540086,
+    0.16387968684543344
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.33": 7.106945240642482e-17,
+   "ratio_binds_all_cores_r0.33": true,
+   "MePn_over_Pi_r0.33": 0.33000000000000007,
+   "ch4_per_abundance_repaired_r0.07": 0.04320928588306183,
+   "ch4_per_abundance_repaired_r0.33": 0.16387968684542153
+  },
+  {
+   "model": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.49.contigs",
+   "iterative_id": "Roseovarius.5",
+   "obligate": false,
+   "grows_cell5_with_mepn": 5.117991049198918,
+   "grows_cell5_without_mepn": 5.117991049205155,
+   "grows_pi_free_mepn_only": 5.110939297908628,
+   "in_saltern_fluxes_json": true,
+   "n_gapfilled_reactions_cell93": 64,
+   "ch4_per_abundance_stored_r0.07": 0.04320928588305993,
+   "ch4_per_abundance_stored_r0.07_range": [
+    0.043209285883051715,
+    0.0432092858830848
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.07": 2.8303097712734093e-16,
+   "ratio_binds_all_cores_r0.07": true,
+   "MePn_over_Pi_r0.07": 0.07000000000000002,
+   "ch4_per_abundance_stored_r0.33": 0.16387968684540355,
+   "ch4_per_abundance_stored_r0.33_range": [
+    0.16387968684539808,
+    0.16387968684540935
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.33": 1.087454779002961e-16,
+   "ratio_binds_all_cores_r0.33": true,
+   "MePn_over_Pi_r0.33": 0.3299999999999998,
+   "ch4_per_abundance_repaired_r0.07": 0.04320928588305993,
+   "ch4_per_abundance_repaired_r0.33": 0.16387968684540355
+  },
+  {
+   "model": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.143.contigs",
+   "iterative_id": "Roseovarius.6",
+   "obligate": false,
+   "grows_cell5_with_mepn": 5.1059553066071475,
+   "grows_cell5_without_mepn": 5.10595530660707,
+   "grows_pi_free_mepn_only": 5.1024435697490595,
+   "in_saltern_fluxes_json": true,
+   "n_gapfilled_reactions_cell93": 61,
+   "ch4_per_abundance_stored_r0.07": 0.043209285883057474,
+   "ch4_per_abundance_stored_r0.07_range": [
+    0.043209285883048835,
+    0.04320928588307119
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.07": 2.056731521205002e-16,
+   "ratio_binds_all_cores_r0.07": true,
+   "MePn_over_Pi_r0.07": 0.06999999999999998,
+   "ch4_per_abundance_stored_r0.33": 0.16387968692047963,
+   "ch4_per_abundance_stored_r0.33_range": [
+    0.1638796868454153,
+    0.1638796872352611
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.33": 9.071688712725123e-13,
+   "ratio_binds_all_cores_r0.33": true,
+   "MePn_over_Pi_r0.33": 0.32999999999999996,
+   "ch4_per_abundance_repaired_r0.07": 0.043209285883057474,
+   "ch4_per_abundance_repaired_r0.33": 0.16387968692047963
+  },
+  {
+   "model": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.32.contigs",
+   "iterative_id": "CAZRZN01.1",
+   "obligate": false,
+   "grows_cell5_with_mepn": 4.694653373283308,
+   "grows_cell5_without_mepn": 4.694653373283319,
+   "grows_pi_free_mepn_only": 4.68756315461657,
+   "in_saltern_fluxes_json": true,
+   "n_gapfilled_reactions_cell93": 75,
+   "ch4_per_abundance_stored_r0.07": 0.043209285883059674,
+   "ch4_per_abundance_stored_r0.07_range": [
+    0.04320928588305546,
+    0.04320928588306283
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.07": 3.184843881676169e-17,
+   "ratio_binds_all_cores_r0.07": true,
+   "MePn_over_Pi_r0.07": 0.06999999999999998,
+   "ch4_per_abundance_stored_r0.33": 0.16387968684541493,
+   "ch4_per_abundance_stored_r0.33_range": [
+    0.16387968684540216,
+    0.16387968684541981
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.33": 7.274996577377735e-17,
+   "ratio_binds_all_cores_r0.33": true,
+   "MePn_over_Pi_r0.33": 0.33000000000000007,
+   "ch4_per_abundance_repaired_r0.07": 0.043209285883059674,
+   "ch4_per_abundance_repaired_r0.33": 0.16387968684541493
+  },
+  {
+   "model": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.10.contigs",
+   "iterative_id": "Marivita.3",
+   "obligate": false,
+   "grows_cell5_with_mepn": 4.9757637421019005,
+   "grows_cell5_without_mepn": 4.975763742101925,
+   "grows_pi_free_mepn_only": 4.969098221508473,
+   "in_saltern_fluxes_json": true,
+   "n_gapfilled_reactions_cell93": 61,
+   "ch4_per_abundance_stored_r0.07": 0.043209285883057974,
+   "ch4_per_abundance_stored_r0.07_range": [
+    0.0432092858830539,
+    0.043209285883063456
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.07": 6.1257422745431e-17,
+   "ratio_binds_all_cores_r0.07": true,
+   "MePn_over_Pi_r0.07": 0.06999999999999992,
+   "ch4_per_abundance_stored_r0.33": 0.16387968684540444,
+   "ch4_per_abundance_stored_r0.33_range": [
+    0.16387968684538268,
+    0.16387968684542112
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.33": 2.8687989483966447e-16,
+   "ratio_binds_all_cores_r0.33": true,
+   "MePn_over_Pi_r0.33": 0.33,
+   "ch4_per_abundance_repaired_r0.07": 0.043209285883057974,
+   "ch4_per_abundance_repaired_r0.33": 0.16387968684540444
+  },
+  {
+   "model": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.16.contigs",
+   "iterative_id": "Roseovarius.7",
+   "obligate": false,
+   "grows_cell5_with_mepn": 4.865921776580113,
+   "grows_cell5_without_mepn": 4.865921776580797,
+   "grows_pi_free_mepn_only": 4.858305216298082,
+   "in_saltern_fluxes_json": true,
+   "n_gapfilled_reactions_cell93": 67,
+   "ch4_per_abundance_stored_r0.07": 0.043209285883062595,
+   "ch4_per_abundance_stored_r0.07_range": [
+    0.04320928588305319,
+    0.043209285883068146
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.07": 2.409097227262791e-16,
+   "ratio_binds_all_cores_r0.07": true,
+   "MePn_over_Pi_r0.07": 0.06999999999999995,
+   "ch4_per_abundance_stored_r0.33": 0.16387968684541132,
+   "ch4_per_abundance_stored_r0.33_range": [
+    0.16387968684535834,
+    0.16387968684543533
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.33": 8.743006318923108e-16,
+   "ratio_binds_all_cores_r0.33": true,
+   "MePn_over_Pi_r0.33": 0.33000000000000007,
+   "ch4_per_abundance_repaired_r0.07": 0.043209285883062595,
+   "ch4_per_abundance_repaired_r0.33": 0.16387968684541132
+  },
+  {
+   "model": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.19.contigs",
+   "iterative_id": "Roseibacterium.1",
+   "obligate": false,
+   "grows_cell5_with_mepn": 5.093473536025864,
+   "grows_cell5_without_mepn": 5.093473536029135,
+   "grows_pi_free_mepn_only": 5.086489139020256,
+   "in_saltern_fluxes_json": true,
+   "n_gapfilled_reactions_cell93": 64,
+   "ch4_per_abundance_stored_r0.07": 0.043209285882997925,
+   "ch4_per_abundance_stored_r0.07_range": [
+    0.043209285882675086,
+    0.04320928588306622
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.07": 1.9494388742158364e-14,
+   "ratio_binds_all_cores_r0.07": true,
+   "MePn_over_Pi_r0.07": 0.07000000000000195,
+   "ch4_per_abundance_stored_r0.33": 0.16387968684438656,
+   "ch4_per_abundance_stored_r0.33_range": [
+    0.16387968683917248,
+    0.16387968684544052
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.33": 3.162817230339954e-13,
+   "ratio_binds_all_cores_r0.33": true,
+   "MePn_over_Pi_r0.33": 0.33000000000000207,
+   "ch4_per_abundance_repaired_r0.07": 0.043209285882997925,
+   "ch4_per_abundance_repaired_r0.33": 0.16387968684438656,
+   "fva_ch4_per_abundance_r0.07": [
+    0.04320928588305569,
+    0.043209766936902316
+   ]
+  },
+  {
+   "model": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.38.contigs",
+   "iterative_id": "Roseovarius.8",
+   "obligate": false,
+   "grows_cell5_with_mepn": 5.083712765625518,
+   "grows_cell5_without_mepn": 5.0837127656254895,
+   "grows_pi_free_mepn_only": 5.076755093487948,
+   "in_saltern_fluxes_json": true,
+   "n_gapfilled_reactions_cell93": 59,
+   "ch4_per_abundance_stored_r0.07": 0.04320928588305577,
+   "ch4_per_abundance_stored_r0.07_range": [
+    0.04320928588304102,
+    0.04320928588306251
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.07": 1.2793585635328952e-16,
+   "ratio_binds_all_cores_r0.07": true,
+   "MePn_over_Pi_r0.07": 0.06999999999999997,
+   "ch4_per_abundance_stored_r0.33": 0.16387968684540247,
+   "ch4_per_abundance_stored_r0.33_range": [
+    0.16387968684538207,
+    0.163879686845414
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.33": 3.9768535686768303e-16,
+   "ratio_binds_all_cores_r0.33": true,
+   "MePn_over_Pi_r0.33": 0.32999999999999996,
+   "ch4_per_abundance_repaired_r0.07": 0.04320928588305577,
+   "ch4_per_abundance_repaired_r0.33": 0.16387968684540247
+  },
+  {
+   "model": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.55.contigs",
+   "iterative_id": "Roseovarius.9",
+   "obligate": true,
+   "grows_cell5_with_mepn": 4.699777657264821,
+   "grows_cell5_without_mepn": 0.0,
+   "grows_pi_free_mepn_only": 4.698058602689645,
+   "in_saltern_fluxes_json": true,
+   "n_gapfilled_reactions_cell93": 58,
+   "ch4_per_abundance_stored_r0.07": 0.46973679244337285,
+   "ch4_per_abundance_stored_r0.07_range": [
+    0.4697367924433558,
+    0.4697367924434103
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.07": 4.917941054394248e-16,
+   "ratio_binds_all_cores_r0.07": false,
+   "MePn_over_Pi_r0.07": 2.4626039462153417,
+   "ch4_per_abundance_stored_r0.33": 0.4697367924433744,
+   "ch4_per_abundance_stored_r0.33_range": [
+    0.46973679244335614,
+    0.46973679244340955
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.33": 7.424616477180734e-16,
+   "ratio_binds_all_cores_r0.33": false,
+   "MePn_over_Pi_r0.33": 2.462603946215736,
+   "repair_reactions": "rxn01300_c0",
+   "repaired_growth_a_b_c": [
+    5.125134684869016,
+    5.125134684868919,
+    5.118063247919629
+   ],
+   "repaired_ATPM_no_carbon": 0.0,
+   "ch4_per_abundance_repaired_r0.07": 0.04320928588306444,
+   "MePn_over_Pi_repaired_r0.07": 0.07000000000000005,
+   "ch4_per_abundance_repaired_r0.33": 0.1638796868454257,
+   "MePn_over_Pi_repaired_r0.33": 0.32999999999999996,
+   "fva_ch4_per_abundance_r0.07": [
+    0.4697367850493626,
+    0.469737313745519
+   ]
+  },
+  {
+   "model": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.88.contigs",
+   "iterative_id": "Phaeodactylibacter.1",
+   "obligate": false,
+   "grows_cell5_with_mepn": 0.0,
+   "grows_cell5_without_mepn": 0.0,
+   "grows_pi_free_mepn_only": 0.0,
+   "in_saltern_fluxes_json": false,
+   "n_gapfilled_reactions_cell93": 120
+  },
+  {
+   "model": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.95.contigs",
+   "iterative_id": "Desulfotignum.1",
+   "obligate": false,
+   "grows_cell5_with_mepn": 0.0,
+   "grows_cell5_without_mepn": 0.0,
+   "grows_pi_free_mepn_only": 0.0,
+   "in_saltern_fluxes_json": false,
+   "n_gapfilled_reactions_cell93": 78
+  },
+  {
+   "model": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_metabat.17.contigs",
+   "iterative_id": "Roseovarius.10",
+   "obligate": false,
+   "grows_cell5_with_mepn": 5.147968648203114,
+   "grows_cell5_without_mepn": 5.147968648197967,
+   "grows_pi_free_mepn_only": 5.140834104130737,
+   "in_saltern_fluxes_json": true,
+   "n_gapfilled_reactions_cell93": 60,
+   "ch4_per_abundance_stored_r0.07": 0.043209285883060986,
+   "ch4_per_abundance_stored_r0.07_range": [
+    0.04320928588305679,
+    0.04320928588306519
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.07": 2.2941717969793274e-16,
+   "ratio_binds_all_cores_r0.07": true,
+   "MePn_over_Pi_r0.07": 0.06999999999999984,
+   "ch4_per_abundance_stored_r0.33": 0.16387968684543533,
+   "ch4_per_abundance_stored_r0.33_range": [
+    0.16387968684541293,
+    0.1638796868455079
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.33": 1.9489618252599428e-15,
+   "ratio_binds_all_cores_r0.33": true,
+   "MePn_over_Pi_r0.33": 0.3299999999999999,
+   "ch4_per_abundance_repaired_r0.07": 0.043209285883060986,
+   "ch4_per_abundance_repaired_r0.33": 0.16387968684543533,
+   "fva_ch4_per_abundance_r0.07": [
+    0.043209285883052874,
+    0.04320976184181949
+   ]
+  },
+  {
+   "model": "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.18.contigs",
+   "iterative_id": "JAVJPJ01.1",
+   "obligate": false,
+   "grows_cell5_with_mepn": 5.111327457460626,
+   "grows_cell5_without_mepn": 5.111327457460332,
+   "grows_pi_free_mepn_only": 4.524898042013766,
+   "in_saltern_fluxes_json": true,
+   "n_gapfilled_reactions_cell93": 59,
+   "ch4_per_abundance_stored_r0.07": 0.04320928588321753,
+   "ch4_per_abundance_stored_r0.07_range": [
+    0.04320928588305254,
+    0.04320928588402274
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.07": 3.037370702174691e-14,
+   "ratio_binds_all_cores_r0.07": true,
+   "MePn_over_Pi_r0.07": 0.07000000000000009,
+   "ch4_per_abundance_stored_r0.33": 0.1638796868445487,
+   "ch4_per_abundance_stored_r0.33_range": [
+    0.163879686840279,
+    0.16387968684541468
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.33": 1.6042028816443121e-13,
+   "ratio_binds_all_cores_r0.33": true,
+   "MePn_over_Pi_r0.33": 0.32999999999999996,
+   "ch4_per_abundance_repaired_r0.07": 0.04320928588321753,
+   "ch4_per_abundance_repaired_r0.33": 0.1638796868445487
+  },
+  {
+   "model": "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.45.contigs",
+   "iterative_id": "Roseovarius.11",
+   "obligate": true,
+   "grows_cell5_with_mepn": 4.6734300698730245,
+   "grows_cell5_without_mepn": 0.0,
+   "grows_pi_free_mepn_only": 4.669642021848894,
+   "in_saltern_fluxes_json": true,
+   "n_gapfilled_reactions_cell93": 75,
+   "ch4_per_abundance_stored_r0.07": 0.5534446721745777,
+   "ch4_per_abundance_stored_r0.07_range": [
+    0.5534446721739671,
+    0.5534446721747239
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.07": 1.5586490431651612e-14,
+   "ratio_binds_all_cores_r0.07": false,
+   "MePn_over_Pi_r0.07": 5.170441134404335,
+   "ch4_per_abundance_stored_r0.33": 0.5534446721743558,
+   "ch4_per_abundance_stored_r0.33_range": [
+    0.5534446721727397,
+    0.5534446721747084
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.33": 3.98882316066107e-14,
+   "ratio_binds_all_cores_r0.33": false,
+   "MePn_over_Pi_r0.33": 5.170441134404355,
+   "repair_reactions": "rxn00770_c0",
+   "repaired_growth_a_b_c": [
+    4.679973140251997,
+    4.679973140252058,
+    4.66964202184813
+   ],
+   "repaired_ATPM_no_carbon": 0.0,
+   "ch4_per_abundance_repaired_r0.07": 0.04320928588305754,
+   "MePn_over_Pi_repaired_r0.07": 0.06999999999999972,
+   "ch4_per_abundance_repaired_r0.33": 0.1638796868454305,
+   "MePn_over_Pi_repaired_r0.33": 0.32999999999999596,
+   "fva_ch4_per_abundance_r0.07": [
+    0.5534445666124801,
+    0.5534448041263312
+   ]
+  },
+  {
+   "model": "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.47.contigs",
+   "iterative_id": "Roseovarius.12",
+   "obligate": false,
+   "grows_cell5_with_mepn": 4.99040149295164,
+   "grows_cell5_without_mepn": 4.990401492951372,
+   "grows_pi_free_mepn_only": 4.98310161600741,
+   "in_saltern_fluxes_json": true,
+   "n_gapfilled_reactions_cell93": 72,
+   "ch4_per_abundance_stored_r0.07": 0.04320928587542141,
+   "ch4_per_abundance_stored_r0.07_range": [
+    0.043209285837787215,
+    0.0432092858830595
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.07": 1.2385058256736414e-14,
+   "ratio_binds_all_cores_r0.07": true,
+   "MePn_over_Pi_r0.07": 0.06999999999999978,
+   "ch4_per_abundance_stored_r0.33": 0.1638796868603396,
+   "ch4_per_abundance_stored_r0.33_range": [
+    0.1638796868425656,
+    0.16387968693785152
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.33": 6.65530998367192e-14,
+   "ratio_binds_all_cores_r0.33": true,
+   "MePn_over_Pi_r0.33": 0.32999999999999985,
+   "ch4_per_abundance_repaired_r0.07": 0.04320928587542141,
+   "ch4_per_abundance_repaired_r0.33": 0.1638796868603396
+  },
+  {
+   "model": "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.17.contigs",
+   "iterative_id": "Desulfotignum.2",
+   "obligate": false,
+   "grows_cell5_with_mepn": 0.0,
+   "grows_cell5_without_mepn": 0.0,
+   "grows_pi_free_mepn_only": 0.0,
+   "in_saltern_fluxes_json": false,
+   "n_gapfilled_reactions_cell93": 82
+  },
+  {
+   "model": "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.8.contigs",
+   "iterative_id": "Albimonas.1",
+   "obligate": true,
+   "grows_cell5_with_mepn": 4.662873427122166,
+   "grows_cell5_without_mepn": 0.0,
+   "grows_pi_free_mepn_only": 4.654424849935151,
+   "in_saltern_fluxes_json": true,
+   "n_gapfilled_reactions_cell93": 64,
+   "ch4_per_abundance_stored_r0.07": 0.46973679268349977,
+   "ch4_per_abundance_stored_r0.07_range": [
+    0.4697367924433442,
+    0.4697367937658711
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.07": 3.9967985518418736e-13,
+   "ratio_binds_all_cores_r0.07": false,
+   "MePn_over_Pi_r0.07": 2.4626039462164138,
+   "ch4_per_abundance_stored_r0.33": 0.4697367924071808,
+   "ch4_per_abundance_stored_r0.33_range": [
+    0.4697367922023988,
+    0.4697367924671371
+   ],
+   "max_abs_diff_rerun_vs_stored_r0.33": 8.024700695608011e-14,
+   "ratio_binds_all_cores_r0.33": false,
+   "MePn_over_Pi_r0.33": 2.4626039462158666,
+   "repair_reactions": "rxn01300_c0",
+   "repaired_growth_a_b_c": [
+    5.101158043886447,
+    5.101158043887071,
+    5.06632204100782
+   ],
+   "repaired_ATPM_no_carbon": 0.0,
+   "ch4_per_abundance_repaired_r0.07": 0.04320928588307717,
+   "MePn_over_Pi_repaired_r0.07": 0.07000000000001039,
+   "ch4_per_abundance_repaired_r0.33": 0.16387968684542242,
+   "MePn_over_Pi_repaired_r0.33": 0.3300000000000056,
+   "fva_ch4_per_abundance_r0.07": [
+    0.469736781143582,
+    0.46973689753190356
+   ]
+  }
+ ],
+ "consistent_basis_areal": {
+  "0.07": {
+   "before": {
+    "model_over_measured_total": 0.5636562383172398,
+    "model_over_measured_min": 0.17783245912049142,
+    "model_over_measured_max": 1.4121130925104597,
+    "spearman_rho": -0.2,
+    "spearman_p": 0.7040000000000001,
+    "pearson_r2": 0.07980483652167084,
+    "share_of_three": 0.7234732346548856,
+    "sim_by_core": {
+     "R1_A": 1041.179,
+     "R1_B": 1036.136,
+     "R1_C": 575.768,
+     "R2_A": 325.985,
+     "R2_B": 739.13,
+     "R2_C": 282.499
+    }
+   },
+   "after": {
+    "model_over_measured_total": 0.19012752624324705,
+    "model_over_measured_min": 0.056698705276779914,
+    "model_over_measured_max": 0.4598023650963576,
+    "spearman_rho": -0.08571428571428573,
+    "spearman_p": 0.8717434402332361,
+    "pearson_r2": 0.05369305368290078,
+    "share_of_three": 0.1802026806521008,
+    "sim_by_core": {
+     "R1_A": 339.021,
+     "R1_B": 359.962,
+     "R1_C": 188.213,
+     "R2_A": 116.189,
+     "R2_B": 256.024,
+     "R2_C": 90.07
+    }
+   }
+  },
+  "0.33": {
+   "before": {
+    "model_over_measured_total": 0.9989426985541655,
+    "model_over_measured_min": 0.30458321520286225,
+    "model_over_measured_max": 2.450526167850498,
+    "spearman_rho": -0.08571428571428573,
+    "spearman_p": 0.8717434402332361,
+    "pearson_r2": 0.0635484461718768,
+    "share_of_three": 0.40822181545364206,
+    "sim_by_core": {
+     "R1_A": 1806.822,
+     "R1_B": 1869.105,
+     "R1_C": 1001.363,
+     "R2_A": 597.722,
+     "R2_B": 1331.391,
+     "R2_C": 483.852
+    }
+   },
+   "after": {
+    "model_over_measured_total": 0.7210959131774357,
+    "model_over_measured_min": 0.21504095417010255,
+    "model_over_measured_max": 1.7438906027784395,
+    "spearman_rho": -0.08571428571428573,
+    "spearman_p": 0.8717434402332361,
+    "pearson_r2": 0.05369305368681736,
+    "share_of_three": 0.18020268065121814,
+    "sim_by_core": {
+     "R1_A": 1285.805,
+     "R1_B": 1365.225,
+     "R1_C": 713.836,
+     "R2_A": 440.671,
+     "R2_B": 971.021,
+     "R2_C": 341.608
+    }
+   }
+  }
+ },
+ "regression": {
+  "MePn_0.07_20": {
+   "before_vs_stored_json": {
+    "model_over_measured_total": [
+     0.5636562383172398,
+     0.5636562383172398
+    ],
+    "spearman_rho": [
+     -0.2,
+     -0.2
+    ],
+    "model_over_measured_min": [
+     0.17783245912049142,
+     0.17783245912049142
+    ],
+    "model_over_measured_max": [
+     1.4121130925104597,
+     1.4121130925104597
+    ],
+    "pearson_r2": [
+     0.07980483652167084,
+     0.07980483652167084
+    ]
+   },
+   "max_abs_diff": 0.0
+  },
+  "MePn_0.33_20": {
+   "before_vs_stored_json": {
+    "model_over_measured_total": [
+     0.9989426985541655,
+     0.9989426985541655
+    ],
+    "spearman_rho": [
+     -0.08571428571428573,
+     -0.08571428571428573
+    ],
+    "model_over_measured_min": [
+     0.30458321520286225,
+     0.30458321520286225
+    ],
+    "model_over_measured_max": [
+     2.450526167850498,
+     2.450526167850498
+    ],
+    "pearson_r2": [
+     0.0635484461718768,
+     0.0635484461718768
+    ]
+   },
+   "max_abs_diff": 0.0
+  }
+ },
+ "alternatives_range_areal": {
+  "0.07": {
+   "metabolic": [
+    0.19012752624324425,
+    0.19012752624326684,
+    29
+   ],
+   "export_sink": [
+    0.1901275262432414,
+    0.30530619136031456,
+    76
+   ]
+  },
+  "0.33": {
+   "metabolic": [
+    0.7210959131774174,
+    0.7210959131774383,
+    29
+   ],
+   "export_sink": [
+    0.721095913177426,
+    0.8036889759870012,
+    76
+   ]
+  }
+ },
+ "relab_only": {
+  "0.07": {
+   "before": {
+    "model_over_measured_total": 0.5401381875997793,
+    "spearman_rho": 0.3142857142857143,
+    "share_of_three": 0.716779149806812
+   },
+   "after": {
+    "model_over_measured_total": 0.1855092827850606,
+    "spearman_rho": 0.48571428571428577,
+    "share_of_three": 0.1753598827123664
+   }
+  },
+  "0.33": {
+   "before": {
+    "model_over_measured_total": 0.9673603481168103,
+    "spearman_rho": 0.3142857142857143,
+    "share_of_three": 0.4002229279103811
+   },
+   "after": {
+    "model_over_measured_total": 0.7035803195665593,
+    "spearman_rho": 0.48571428571428577,
+    "share_of_three": 0.17535988271171712
+   }
+  }
+ }
+}

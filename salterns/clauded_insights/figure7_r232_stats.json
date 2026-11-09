@@ -1,5 +1,25 @@
 {
- "MePn_0.07_20models": {
+ "MePn_0.07_20models_repaired": {
+  "n": 6,
+  "slope": -0.05647511389746225,
+  "intercept": 291.7207698733013,
+  "pearson_r2": 0.0536930015486295,
+  "pearson_p": 0.6586445485045478,
+  "spearman_rho": -0.08571428571428573,
+  "spearman_p": 0.8717434402332361,
+  "model_over_measured_total": 0.190127281680834,
+  "model_over_measured_min": 0.0566986246997776,
+  "model_over_measured_max": 0.45980173769334803,
+  "sim_by_core": {
+   "R1_A": 339.021,
+   "R1_B": 359.961,
+   "R1_C": 188.213,
+   "R2_A": 116.189,
+   "R2_B": 256.024,
+   "R2_C": 90.07
+  }
+ },
+ "MePn_0.07_20models_as_built": {
   "n": 6,
   "slope": -0.20323102837029638,
   "intercept": 907.1969610006879,
@@ -47,5 +67,5 @@
   "R2_B": 1607.09,
   "R2_C": 1588.57
  },
- "basis": "each MAG's flux per unit of simulated abundance, k_i = flux_i / a_i (a constant for the\nMePn models, CV < 1e-8), times its biomass in the core: the sum over the two layers of r_id x DNA_d x layer volume,\nconverted with the pipeline's constants (0.7 g soil cm-3, DNA = 10 % of biomass, 5 cm core, 5 + 10 cm layers).\nBetaine models: their TMA excretion is mostly set by the 0.1 betaine-uptake bound (33 of 54 grdH cells), not by\nthe biomass input, so the rescaling does not apply (it would give 0.1-27x the measured emissions). Their primary basis\nkeeps the pipeline's conversion of the summed flux with the core's volume-weighted DNA ('areal' for betaine); the\nper-core rescaling is reported as the sensitivity 'betaine_rescaled'.\nSensitivity basis 'relab_only': the same with a constant DNA (the six-core mean), i.e. biomass-specific emission."
+ "basis": "each MAG's flux per unit of simulated abundance, k_i = flux_i / a_i (a constant for the\nMePn models, CV < 1e-8), times its biomass in the core: the sum over the two layers of r_id x DNA_d x layer volume,\nconverted with the pipeline's constants (0.7 g soil cm-3, DNA = 10 % of biomass, 5 cm core, 5 + 10 cm layers).\nBetaine models: their TMA excretion is mostly set by the 0.1 betaine-uptake bound (33 of 54 grdH cells), not by\nthe biomass input, so the rescaling does not apply (it would give 0.1-27x the measured emissions). Their primary basis\nkeeps the pipeline's conversion of the summed flux with the core's volume-weighted DNA ('areal' for betaine); the\nper-core rescaling is reported as the sensitivity 'betaine_rescaled'.\nSensitivity basis 'relab_only': the same with a constant DNA (the six-core mean), i.e. biomass-specific emission.\n'addition_no_ratio' is the stored substrate-addition run (saltern_fluxes_addition.json: no phosphate-ratio constraint,\nMePn uptake <= 0.001) on the same basis; its infeasible MAG x core cells are missing from the file and count as 0."
 }

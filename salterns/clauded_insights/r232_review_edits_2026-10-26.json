@@ -1,7 +1,7 @@
 {
  "author": "Claude (R232 review)",
  "date": "2026-10-26",
- "note": "Tracked edits applied by make_r232_review_docx.py. Sources: workflow tasks modelling-text (clauded_insights/modelling_numbers_r232.json), betaine-models (correlational/betaine_grdH_r232/), halomonas (MAG_QC/gtdbtk_isolates_r232/README.md), and orchestrator additions.",
+ "note": "Tracked edits applied by make_r232_review_docx.py. Sources: workflow tasks modelling-text (clauded_insights/modelling_numbers_r232.json), betaine-models (correlational/betaine_grdH_r232/), halomonas (MAG_QC/gtdbtk_isolates_r232/README.md), and orchestrator additions. Revised 2026-11-08: modelling edits updated for the repair of the three MePn-obligate models (clauded_insights/mepn_obligacy_check/); edits with a 'date' carry that date.",
  "edits": [
   {
    "paragraph": 47,
@@ -112,37 +112,20 @@
    "origin": "orchestrator"
   },
   {
-   "paragraph": 163,
-   "kind": "replace",
-   "old": "red and blue",
-   "new": "orange and blue",
-   "rationale": "The methylphosphonate-consumer labels in Figure S11 are orange (#e8671b), not red.",
-   "sources": "correlational/analysis_2_marimo.py within_condition_triangle_heatmap; FigureS11_regeneration.md",
-   "origin": "orchestrator"
-  },
-  {
-   "paragraph": 163,
-   "kind": "comment",
-   "old": "Pairs whose correlations exceed",
-   "new": "The asterisk rule is misdescribed. In the code that drew this figure (correlational/analysis_2_marimo.py, within_condition_triangle_heatmap) the green asterisks mark pairs joined by a graphical-lasso edge with |partial r| > 0.05 (138 pairs), not pairs whose within-site correlation exceeds 0.7 (1,321 pairs). The equation object here (ρ = 0.7) also uses Spearman's ρ for what are Pearson correlations. Suggested wording: 'Pairs joined by an edge of the graphical-lasso network (|partial r| > 0.05; Figure 8) are marked with a green asterisk.' The equation is an Office Math object and must be edited by hand.",
-   "rationale": "Draft error found while investigating the regeneration of Figure S11.",
-   "sources": "correlational/r232/FigureS11_regeneration.md",
-   "origin": "orchestrator"
-  },
-  {
    "paragraph": 18,
    "kind": "replace",
    "old": "These findings were corroborated by metabolic modeling, whereby the trace consumption of methylphosphonic acid reproduced the experimentally measured methane emissions, providing further evidence for methylphosphonate being a primary methanogenic substrate in these saltern environments.",
-   "new": "Metabolic modeling showed that trace consumption of methylphosphonic acid by the methylphosphonate-consuming community members could supply about half of the measured methane emissions, consistent with methylphosphonate being an important methanogenic substrate in these saltern environments, although the simulated emissions did not track the differences among cores.",
-   "rationale": "On the consistent areal basis the MPn models give 56% of the measured total (18–141% by core) but Spearman ρ = −0.20 (exact p = 0.71, n = 6). The stored fluxes were simulated with each model's biomass fixed to the mean over depths of relative abundance divided by DNA. Two depths have almost no DNA (R2_B_D1 and R2_C_D2, 0.16 µg g−1 soil), so that input carries a 1/DNA term, which multiplying by the core's DNA does not cancel. Both the draft's fits (R² 0.978/0.968/0.862, both axes divided by DNA) and an intermediate 'areal' correction (ρ = 0.60) came from that term: the factor VW_DNA × mean(1/DNA) alone has ρ = 0.60 against measured methane. On the consistent basis used here, each MAG's flux per unit of simulated abundance (a constant for every MePn model) is rescaled to its biomass in the core (relative abundance × DNA × layer thickness).",
-   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
-   "origin": "modelling"
+   "new": "Metabolic modeling showed that trace consumption of methylphosphonic acid by the methylphosphonate-consuming community members could supply part of the measured methane emissions (about one fifth to three quarters, depending on the assumed share of methylphosphonate in phosphate uptake), consistent with methylphosphonate being a source of methane in these saltern environments, although the simulated emissions did not track the differences among cores.",
+   "rationale": "Consistent areal basis, the three MePn-obligate models repaired (Methods): 19% of the measured total at ratio 0.07 (6–46% by core) and 72% at 0.33 (22–174%), Spearman ρ = −0.09 (exact p = 0.92, n = 6) at both. As built, the models gave 56% and 100% (ρ −0.20 at 0.07), but 72% of that methane at 0.07 came from three models that could not grow without methylphosphonate because of gapfilling gaps (mepn_obligacy_check/). 'Important source' is softened to 'a source' because the corrected magnitude is a fifth to three quarters and rests on an assumed ratio.",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (MePn_*_20_repaired; modelling_consistent_basis_r232.py); clauded_insights/mepn_obligacy_check/README.md",
+   "origin": "modelling",
+   "date": "2026-11-08T00:00:00Z"
   },
   {
    "paragraph": 36,
    "kind": "replace",
    "old": "constrained to its relative abundance in each simulated sample (based on read mapping)",
-   "new": "constrained to its relative abundance in each simulated sample (based on read mapping) divided by the soil DNA density, averaged over the two depths",
+   "new": "constrained to its relative abundance in each simulated sample (based on read mapping) divided by the soil DNA concentration, averaged over the two depths",
    "rationale": "This is the input the stored simulations used (analysis(1).ipynb at 22f4629; averaged_normalized_abundances_unrestored.csv of that commit); the Methods and the Figure 7 caption described it inconsistently.",
    "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
    "origin": "modelling"
@@ -152,18 +135,20 @@
    "kind": "replace",
    "old": "were simulated with a fixed ratio of inorganic to organic phosphate (0.07 yielded the best fit to the experimental data)",
    "new": "were simulated with a minimum ratio of methylphosphonate to inorganic phosphate uptake of 0.07 mol mol^−1^ (0.33 was also tested; see Results)",
-   "rationale": "analysis(1).ipynb cell 27 constrains MePn uptake ≥ ratio × Pi uptake: a minimum, and MePn:Pi rather than inorganic:organic. It binds in 17 of the 20 models. 'Best fit' held only on the basis with both axes divided by DNA.",
+   "rationale": "analysis(1).ipynb cell 27 constrains MePn uptake ≥ ratio × Pi uptake: a minimum, and MePn:Pi rather than inorganic:organic. As built it binds in 17 of the 20 models; after the repair of the three MePn-obligate models (P36, revised 2026-11-08) it binds in all 20. 'Best fit' held only on the basis with both axes divided by DNA.",
    "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
-   "origin": "modelling"
+   "origin": "modelling",
+   "date": "2026-11-08T00:00:00Z"
   },
   {
    "paragraph": 36,
    "kind": "replace",
    "old": "to create a realistic consumption and excretion profile.",
-   "new": "to create a realistic consumption and excretion profile. Of the 27 curated MPn consumers, 20 were simulated: the three archaeal MAGs were not simulated, and four models did not grow on the lactate medium. Three of the 20 (DAINOF01.1, Thiolinea.1, and CAZRZN01.1) lack *phnJ* (Table 4); excluding them does not change the results.",
-   "rationale": "phnJ-only (17 models), consistent basis at 0.07: R² 0.08, ρ −0.20 (vs 0.08, −0.20 for all 20). Not simulated: Halorubrum.3, Haloquadratum.4, Natrinema.1 (base models exist, with C–P lyase reactions in two of them, but no MePn-consumer model was run) and Desulfotignum.1, Desulfotignum.2, Gaopeijia.1, Phaeodactylibacter.1 (zero growth on the medium; the 'dontGrow' list in analysis(1).ipynb).",
-   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
-   "origin": "modelling"
+   "new": "to create a realistic consumption and excretion profile. Of the 27 curated MPn consumers, 20 were simulated: the three archaeal MAGs were not simulated, and four models did not grow on the lactate medium. Three of the 20 (DAINOF01.1, Thiolinea.1, and CAZRZN01.1) lack *phnJ* (Table 4); excluding them does not change the results. As built, three models (*Roseovarius*.9, *Roseovarius*.11, and *Albimonas*.1) could not grow without methylphosphonate. This dependence was an artifact of gapfilling on a medium in which methylphosphonate was the only phosphorus source: *Roseovarius*.9 and *Albimonas*.1 had no outlet for surplus one-carbon units other than methylphosphonate degradation, because the models lacked homoserine kinase (a step also unannotated in the other Rhodobacteraceae MAGs and in reference Rhodobacteraceae genomes, which grow without methylphosphonate), and *Roseovarius*.11, an 81%-complete and 20%-contaminated MAG, lacked PRPP synthetase, so that the C–P lyase pathway was its only source of PRPP. Each was repaired by adding one reaction (homoserine kinase, rxn01300, to *Roseovarius*.9 and *Albimonas*.1; PRPP synthetase, rxn00770, to *Roseovarius*.11) before the simulations reported here. After the repair the ratio constraint bound in all 20 models, so each produced the same methane per unit of biomass, set by the ratio and the phosphorus content of the biomass.",
+   "rationale": "phnJ-only (17 models), consistent basis, repaired: 17% of measured at 0.07, R² 0.06, ρ −0.09 (vs 19%, 0.05, −0.09 for all 20). Not simulated: Halorubrum.3, Haloquadratum.4, Natrinema.1 (base models exist, with C–P lyase reactions in two of them, but no MePn-consumer model was run) and Desulfotignum.1, Desulfotignum.2, Gaopeijia.1, Phaeodactylibacter.1 (zero growth on the medium; the 'dontGrow' list in analysis(1).ipynb). MePn obligacy (mepn_obligacy_check/README.md): Roseovarius.9 and Albimonas.1 use MePn only as a one-carbon sink (no PurU, Fhs forward-only in the template, glycine cleavage one-way, no homoserine kinase; the template's 5'-dA drain SK_cpd03091 turns each MePn into a purine rebuild); Roseovarius.11 lacks Prs (present in 22 of 24 MePn MAGs) and relies on AMP nucleosidase run backwards. fliu gapfilled on a Pi-free medium (gapfill.ipynb cells 92–93), where forced MePn uptake hid these gaps. After one-reaction repairs every model gives r/(1+r) × 0.660485 methane per unit biomass (0.043209 at 0.07, 0.163880 at 0.33); 29 metabolic repair variants give identical methane. Confirmed independently on 2026-11-08 with hand-built reactions.",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (MePn_*_20_repaired; modelling_consistent_basis_r232.py); clauded_insights/mepn_obligacy_check/README.md",
+   "origin": "modelling",
+   "date": "2026-11-08T00:00:00Z"
   },
   {
    "paragraph": 36,
@@ -196,7 +181,7 @@
    "paragraph": 40,
    "kind": "replace",
    "old": "The values were further normalized by DNA measurements to control for variability in biomass density among the samples.   Pearson coefficients were calculated between these two sets of methane concentrations, and linear equations of the line-of-best-fit from these correlations were reported.",
-   "new": "Because each model’s biomass had been fixed to its relative abundance divided by the DNA density of each depth, the simulated methane flux of each methylphosphonate-consuming member was rescaled to the member’s biomass in each core (its relative abundance times the soil DNA density of each depth, weighted by the depth intervals of 5 and 10 cm), so that the simulated and measured values are both areal emissions. The betaine models, whose TMA excretion was mostly set by the uptake bound rather than by biomass, were converted with the volume-weighted DNA density of each core. Pearson (R^2^) and Spearman (ρ, with exact permutation p values) correlations were calculated between the simulated and measured emissions of the six unrestored cores, and linear equations of the line-of-best-fit were reported.",
+   "new": "Because each model’s biomass had been fixed to its relative abundance divided by the DNA concentration of each depth, the simulated methane flux of each methylphosphonate-consuming member was rescaled to the member’s biomass in each core (its relative abundance times the soil DNA concentration of each depth, weighted by the depth intervals of 5 and 10 cm), so that the simulated and measured values are both areal emissions. The betaine models, whose TMA excretion was mostly set by the uptake bound rather than by biomass, were converted with the volume-weighted DNA concentration of each core. Pearson (R^2^) and Spearman (ρ, with exact permutation p values) correlations were calculated between the simulated and measured emissions of the six unrestored cores, and linear equations of the line-of-best-fit were reported.",
    "rationale": "The stored fluxes were simulated with each model's biomass fixed to the mean over depths of relative abundance divided by DNA. Two depths have almost no DNA (R2_B_D1 and R2_C_D2, 0.16 µg g−1 soil), so that input carries a 1/DNA term, which multiplying by the core's DNA does not cancel. Both the draft's fits (R² 0.978/0.968/0.862, both axes divided by DNA) and an intermediate 'areal' correction (ρ = 0.60) came from that term: the factor VW_DNA × mean(1/DNA) alone has ρ = 0.60 against measured methane. On the consistent basis used here, each MAG's flux per unit of simulated abundance (a constant for every MePn model) is rescaled to its biomass in the core (relative abundance × DNA × layer thickness).",
    "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
    "origin": "modelling"
@@ -205,7 +190,7 @@
    "paragraph": 69,
    "kind": "replace",
    "old": "Soil DNA density was significantly positively correlated with methane flux (Figure S7), therefore, we only used methane emissions and fluxes that were normalized by DNA density for all modeling efforts.",
-   "new": "Soil DNA density was weakly and not significantly correlated with methane flux (Figure S7; R^2^ = 0.22, Spearman ρ = 0.52, p = 0.08, n = 12 cores). The models were scaled by relative abundances normalized by DNA density, and for comparison with the measured emissions the simulated fluxes were converted to areal emissions from each member’s biomass in each core (Methods).",
+   "new": "Soil DNA concentration was weakly and not significantly correlated with methane flux (Figure S7; R^2^ = 0.22, Spearman ρ = 0.52, p = 0.08, n = 12 cores). The models were scaled by relative abundances normalized by DNA concentration, and for comparison with the measured emissions the simulated fluxes were converted to areal emissions from each member’s biomass in each core (Methods).",
    "rationale": "Figure S7's own fit (y = 256.82x + 116.18) has R² = 0.22; Pearson p = 0.12; Spearman ρ = 0.52, p = 0.08; n = 12.",
    "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
    "origin": "modelling"
@@ -214,28 +199,31 @@
    "paragraph": 69,
    "kind": "replace",
    "old": "The simulated methane production of the MPn-consuming community members correlated remarkably well (R2 = 0.966) with the experimental methane emissions (Figure S8), and was most correlated when the phosphate source ratio was 0.07 (at least 1/14 of the total phosphate consumed in methylphosphonate versus inorganic phosphate).",
-   "new": "With a phosphate source ratio of 0.07 (at least 0.07 mol of methylphosphonate per mol of inorganic phosphate, about 6.5% of the phosphate taken up), the simulated methane production of the MPn-consuming community members was of the same order as the experimental methane emissions but did not track their differences among the six unrestored cores (Figure 7; Spearman ρ = −0.20, exact p = 0.71, n = 6; R^2^ = 0.08).",
-   "rationale": "0.966 matches no stored fit. Consistent areal basis at 0.07: R² 0.080, ρ −0.20 (exact permutation p 0.71; scipy 0.70); model/measured 0.56 in total, 0.18–1.41 by core. Supersedes the builder's '(Figure S8)' → '(Figure 7a)' edit. The stored fluxes were simulated with each model's biomass fixed to the mean over depths of relative abundance divided by DNA. Two depths have almost no DNA (R2_B_D1 and R2_C_D2, 0.16 µg g−1 soil), so that input carries a 1/DNA term, which multiplying by the core's DNA does not cancel. Both the draft's fits (R² 0.978/0.968/0.862, both axes divided by DNA) and an intermediate 'areal' correction (ρ = 0.60) came from that term: the factor VW_DNA × mean(1/DNA) alone has ρ = 0.60 against measured methane. On the consistent basis used here, each MAG's flux per unit of simulated abundance (a constant for every MePn model) is rescaled to its biomass in the core (relative abundance × DNA × layer thickness).",
-   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
-   "origin": "modelling"
+   "new": "With a phosphate source ratio of 0.07 (at least 0.07 mol of methylphosphonate per mol of inorganic phosphate, about 6.5% of the phosphate taken up), the simulated methane production of the MPn-consuming community members amounted to 19% of the experimental methane emissions in total and did not track their differences among the six unrestored cores (Figure 7; Spearman ρ = −0.09, exact p = 0.92, n = 6; R^2^ = 0.05).",
+   "rationale": "0.966 matches no stored fit. Consistent areal basis at 0.07 with the three MePn-obligate models repaired (Methods): R² 0.054, ρ −0.086 (exact permutation p 0.92; scipy 0.87); model/measured 0.19 in total, 0.06–0.46 by core. As built: R² 0.080, ρ −0.20 (exact p 0.71), 0.56 (0.18–1.41). Supersedes the builder's '(Figure S8)' → '(Figure 7a)' edit. The stored fluxes were simulated with each model's biomass fixed to the mean over depths of relative abundance divided by DNA. Two depths have almost no DNA (R2_B_D1 and R2_C_D2, 0.16 µg g−1 soil), so that input carries a 1/DNA term, which multiplying by the core's DNA does not cancel. Both the draft's fits (R² 0.978/0.968/0.862, both axes divided by DNA) and an intermediate 'areal' correction (ρ = 0.60) came from that term: the factor VW_DNA × mean(1/DNA) alone has ρ = 0.60 against measured methane. On the consistent basis used here, each MAG's flux per unit of simulated abundance (a constant for every MePn model) is rescaled to its biomass in the core (relative abundance × DNA × layer thickness).",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (MePn_*_20_repaired; modelling_consistent_basis_r232.py); clauded_insights/mepn_obligacy_check/README.md",
+   "origin": "modelling",
+   "date": "2026-11-08T00:00:00Z"
   },
   {
    "paragraph": 69,
    "kind": "comment",
    "old": "The line-of-best-fit equation from this regression",
-   "new": "The equation below is replaced (tracked) by the fit on the consistent areal basis at ratio 0.07: simulated = −0.20 × experimental + 907, in µmol CH4 m−2 d−1 (R² = 0.08, Spearman ρ = −0.20, n = 6). The stored fluxes were simulated with each model's biomass fixed to the mean over depths of relative abundance divided by DNA. Two depths have almost no DNA (R2_B_D1 and R2_C_D2, 0.16 µg g−1 soil), so that input carries a 1/DNA term, which multiplying by the core's DNA does not cancel. Both the draft's fits (R² 0.978/0.968/0.862, both axes divided by DNA) and an intermediate 'areal' correction (ρ = 0.60) came from that term: the factor VW_DNA × mean(1/DNA) alone has ρ = 0.60 against measured methane. On the consistent basis used here, each MAG's flux per unit of simulated abundance (a constant for every MePn model) is rescaled to its biomass in the core (relative abundance × DNA × layer thickness). The old equation is a tracked deletion and the new one a tracked insertion; Word shows them as such, but LibreOffice and some other viewers ignore revisions on equations and display both.",
+   "new": "The equation below is replaced (tracked) by the fit on the consistent areal basis at ratio 0.07: simulated = −0.06 × experimental + 292, in µmol CH4 m−2 d−1 (R² = 0.05, Spearman ρ = −0.09, n = 6), with the three MePn-obligate models repaired (Methods); the models as built gave −0.20 × experimental + 907 (R² = 0.08, ρ = −0.20). The stored fluxes were simulated with each model's biomass fixed to the mean over depths of relative abundance divided by DNA. Two depths have almost no DNA (R2_B_D1 and R2_C_D2, 0.16 µg g−1 soil), so that input carries a 1/DNA term, which multiplying by the core's DNA does not cancel. Both the draft's fits (R² 0.978/0.968/0.862, both axes divided by DNA) and an intermediate 'areal' correction (ρ = 0.60) came from that term: the factor VW_DNA × mean(1/DNA) alone has ρ = 0.60 against measured methane. On the consistent basis used here, each MAG's flux per unit of simulated abundance (a constant for every MePn model) is rescaled to its biomass in the core (relative abundance × DNA × layer thickness). The old equation is a tracked deletion and the new one a tracked insertion; Word shows them as such, but LibreOffice and some other viewers ignore revisions on equations and display both.",
    "rationale": "Explains the equation swap in P70.",
-   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
-   "origin": "modelling"
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (MePn_*_20_repaired; modelling_consistent_basis_r232.py); clauded_insights/mepn_obligacy_check/README.md",
+   "origin": "modelling",
+   "date": "2026-11-08T00:00:00Z"
   },
   {
    "paragraph": 71,
    "kind": "replace",
    "old": "reveals that generally the models predict half of the experimental methane flux.",
-   "new": "reveals that the models predict about half of the experimental methane flux in total (56%), but from 18% to 141% among cores.",
-   "rationale": "Consistent basis, ratio 0.07: total 0.564; by core R1_A 1.41, R1_B 0.77, R1_C 1.17, R2_A 0.25, R2_B 0.46, R2_C 0.18.",
-   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
-   "origin": "modelling"
+   "new": "reveals that the models predict about one fifth of the experimental methane flux in total (19%), from 6% to 46% among cores.",
+   "rationale": "Consistent basis, ratio 0.07, three MePn-obligate models repaired: total 0.190; by core R1_A 0.46, R1_B 0.27, R1_C 0.38, R2_A 0.09, R2_B 0.16, R2_C 0.06. As built: 0.564 (0.18–1.41).",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (MePn_*_20_repaired; modelling_consistent_basis_r232.py); clauded_insights/mepn_obligacy_check/README.md",
+   "origin": "modelling",
+   "date": "2026-11-08T00:00:00Z"
   },
   {
    "paragraph": 71,
@@ -250,46 +238,51 @@
    "paragraph": 71,
    "kind": "replace",
    "old": "the models almost perfectly recapitulate the experimental methane emissions",
-   "new": "the simulated emissions match the measured ones in total (100%) but range from 30% to 245% among cores",
-   "rationale": "Consistent basis, ratio 0.33: total 0.999; by core 0.30 (R2_C) to 2.45 (R1_A).",
-   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
-   "origin": "modelling"
+   "new": "the simulated emissions reach 72% of the measured ones in total but range from 22% to 174% among cores",
+   "rationale": "Consistent basis, ratio 0.33, three MePn-obligate models repaired: total 0.721; by core 0.22 (R2_C) to 1.74 (R1_A). As built: 0.999 (0.30–2.45).",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (MePn_*_20_repaired; modelling_consistent_basis_r232.py); clauded_insights/mepn_obligacy_check/README.md",
+   "origin": "modelling",
+   "date": "2026-11-08T00:00:00Z"
   },
   {
    "paragraph": 71,
    "kind": "comment",
    "old": "If the phosphate ratio is",
-   "new": "The equation below is replaced (tracked) by the consistent-basis fit at ratio 0.33: simulated = −0.32 × experimental + 1563, in µmol CH4 m−2 d−1 (R² = 0.06, Spearman ρ = −0.09). The previous 0.95x + 224 was the fit with both axes divided by DNA (R² = 0.968). Word shows the swap as a tracked change; LibreOffice shows both equations.",
+   "new": "The equation below is replaced (tracked) by the consistent-basis fit at ratio 0.33 with the three MePn-obligate models repaired: simulated = −0.21 × experimental + 1106, in µmol CH4 m−2 d−1 (R² = 0.05, Spearman ρ = −0.09); the models as built gave −0.32 × experimental + 1563 (R² = 0.06). The previous 0.95x + 224 was the fit with both axes divided by DNA (R² = 0.968). Word shows the swap as a tracked change; LibreOffice shows both equations.",
    "rationale": "Explains the equation swap in P72.",
-   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
-   "origin": "modelling"
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (MePn_*_20_repaired; modelling_consistent_basis_r232.py); clauded_insights/mepn_obligacy_check/README.md",
+   "origin": "modelling",
+   "date": "2026-11-08T00:00:00Z"
   },
   {
    "paragraph": 73,
    "kind": "replace",
    "old": "and yield an almost identical fit to the best fitting regression (R2 = 0.968).",
-   "new": "and likewise do not track the measured emissions among cores (Spearman ρ = −0.09, exact p = 0.92, n = 6; R^2^ = 0.06): the ratio changes the magnitude of the simulated emissions but not their pattern.",
-   "rationale": "0.968 is fits.json[0.33] on the basis with both axes divided by DNA. Consistent basis at 0.33: R² 0.064, ρ −0.09 (exact p 0.92).",
-   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
-   "origin": "modelling"
+   "new": "and likewise do not track the measured emissions among cores (Spearman ρ = −0.09, exact p = 0.92, n = 6; R^2^ = 0.05): the ratio rescales the simulated emissions (3.8-fold from 0.07 to 0.33) but does not change their pattern.",
+   "rationale": "0.968 is fits.json[0.33] on the basis with both axes divided by DNA. Consistent basis at 0.33, repaired: R² 0.054, ρ −0.086 (exact p 0.92). With every model ratio-bound, methane per unit biomass is r/(1+r) × 0.660485, so 0.33 vs 0.07 is (0.33/1.33)/(0.07/1.07) = 3.79-fold in every core.",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (MePn_*_20_repaired; modelling_consistent_basis_r232.py); clauded_insights/mepn_obligacy_check/README.md",
+   "origin": "modelling",
+   "date": "2026-11-08T00:00:00Z"
   },
   {
    "paragraph": 73,
    "kind": "replace",
    "old": "It is worth noting that unconstraining the phosphate source ratio produced almost an identical fit (R2 = 0.970) and still resulted in methylphosphonate consumption by several marine organisms in the Rhodobacteraceae family: two species in the Roseovarius genera and one species in the Albimonas genera.",
-   "new": "It is worth noting that the ratio constraint did not bind for three models in the Rhodobacteraceae family, two *Roseovarius* MAGs (*Roseovarius*.9 and .11) and one *Albimonas* MAG (*Albimonas*.1): they took up 2.5–5.2 mol of methylphosphonate per mol of inorganic phosphate, and they were the only models that consumed methylphosphonate in the substrate-addition simulation, which had no ratio constraint. These three produced 72% of the simulated methane at a ratio of 0.07.",
-   "rationale": "No unconstrained run is stored (ratio loop [0.07, 0.33]); the draft's R² = 0.970 matches these three MAGs' summed 0.07 fluxes on the old basis (0.9705). Their MePn:Pi is 2.46, 5.17, 2.46 and their fluxes are identical at 0.07 and 0.33; they are the only MePn consumers in the stored substrate-addition run (MePn capped at 0.001, no ratio constraint). Share of consistent-basis methane at 0.07: 72%.",
-   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
-   "origin": "modelling"
+   "new": "It is worth noting that, as built, three models in the Rhodobacteraceae family, two *Roseovarius* MAGs (*Roseovarius*.9 and .11) and one *Albimonas* MAG (*Albimonas*.1), could not grow without methylphosphonate: they took up 2.5–5.2 mol of methylphosphonate per mol of inorganic phosphate at either ratio, were the only models that consumed methylphosphonate in the substrate-addition simulation, which had no ratio constraint, and produced 72% of the simulated methane at a ratio of 0.07. This dependence came from gaps in the models rather than from their genomes (Methods); once it was repaired, the three produced 18% of the simulated methane, and the total fell from 56% to 19% of the measured emissions at a ratio of 0.07 (and from 100% to 72% at 0.33).",
+   "rationale": "No unconstrained run is stored (ratio loop [0.07, 0.33]); the draft's R² = 0.970 matches these three MAGs' summed 0.07 fluxes on the old basis (0.9705). As built, their MePn:Pi is 2.46, 5.17, 2.46 and their fluxes are identical at 0.07 and 0.33; they are the only MePn consumers in the stored substrate-addition run (MePn capped at 0.001, no ratio constraint), which is the same artefact. Share of consistent-basis methane at 0.07: 72% as built, 18% repaired. Albimonas.1's C–P lyase genes (phnJ, phnI, phnH, phnK) are frameshifted and it has no PhnCDE transporter, so it may not use MePn at all; excluding it gives 18.6% (0.07) and 70.5% (0.33) of measured. The earlier wording ('did not bind … natural outcome') is withdrawn.",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (MePn_*_20_repaired; modelling_consistent_basis_r232.py); clauded_insights/mepn_obligacy_check/README.md",
+   "origin": "modelling",
+   "date": "2026-11-08T00:00:00Z"
   },
   {
    "paragraph": 73,
    "kind": "replace",
    "old": "which supports that this taxa is uniquely responsible for the methane emissions.",
-   "new": "which is consistent with this family contributing to the methane emissions (Rhodobacteraceae MAGs produced 99.6% of the simulated methane at a ratio of 0.07).",
-   "rationale": "'Uniquely responsible' is not supported (no guild beats random sets on the areal basis, Table 5). Consistent basis at 0.07: Rhodobacteraceae 99.6% (Roseovarius 81.5%, Albimonas 8.4%).",
-   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
-   "origin": "modelling"
+   "new": "which is consistent with this family contributing to the methane emissions (Rhodobacteraceae MAGs produced 99% of the simulated methane at a ratio of 0.07).",
+   "rationale": "'Uniquely responsible' is not supported (no guild beats random sets on the areal basis, Table 5). Consistent basis at 0.07, repaired: Rhodobacteraceae 98.9% (Roseovarius 67.7%, Marivita 13.3%, DAINOF01 7.2%, Roseibacterium 5.8%, Albimonas 2.3%). As built: 99.6% (Roseovarius 81.5%, Albimonas 8.4%). 16 of the 20 simulated models are Rhodobacteraceae, so this share mostly restates their biomass.",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (MePn_*_20_repaired; modelling_consistent_basis_r232.py); clauded_insights/mepn_obligacy_check/README.md",
+   "origin": "modelling",
+   "date": "2026-11-08T00:00:00Z"
   },
   {
    "paragraph": 74,
@@ -313,7 +306,7 @@
    "paragraph": 76,
    "kind": "replace_paragraph",
    "old": "requiring substantially more adjustments in the slope and th",
-   "new": "which has a negative slope; the simulated betaine-derived methane exceeded the measured emissions in five of the six cores. In the reported solution, four of the nine betaine reducers (UBA8670.2 of the Dethiosulfatibacteraceae, DATFJG01.1 of the Acidaminobacteraceae, BM714.2, and M55B127.2) consumed betaine at the uptake bound, and so produced the maximum methane allowed, in all six cores; *Halanaerobium*.2 was forced to excrete no TMA, and for several other models (including *Halanaerobium*.1 and BM714.4) the TMA excretion was not unique, zero being one of many equally optimal solutions. Because 33 of the 54 simulated betaine fluxes were at the uptake bound, the summed TMA excretion varied only 1.3-fold among cores, while the DNA-normalized abundance that fixed the model biomass varied 14.5-fold, so the simulated betaine-derived methane followed the soil DNA density used in the unit conversion (R^2^ = 0.97) rather than the abundance of betaine reducers; this comparison is therefore not a strong test of the betaine hypothesis.",
+   "new": "which has a negative slope; the simulated betaine-derived methane exceeded the measured emissions in five of the six cores. In the reported solution, four of the nine betaine reducers (UBA8670.2 of the Dethiosulfatibacteraceae, DATFJG01.1 of the Acidaminobacteraceae, BM714.2, and M55B127.2) consumed betaine at the uptake bound, and so produced the maximum methane allowed, in all six cores; *Halanaerobium*.2 was forced to excrete no TMA, and for several other models (including *Halanaerobium*.1 and BM714.4) the TMA excretion was not unique, zero being one of many equally optimal solutions. Because 33 of the 54 simulated betaine fluxes were at the uptake bound, the summed TMA excretion varied only 1.3-fold among cores, while the DNA-normalized abundance that fixed the model biomass varied 14.5-fold, so the simulated betaine-derived methane followed the soil DNA concentration used in the unit conversion (R^2^ = 0.97) rather than the abundance of betaine reducers; this comparison is therefore not a strong test of the betaine hypothesis.",
    "rationale": "Nine grdH carriers: model/measured 0.83 (R2_C) to 5.47 (R1_A), so >1 in five cores. FVA at the lactate optimum: Halanaerobium.2 forced to 0; Halanaerobium.1 FVA minimum 0 in every core (non-unique), BM714.4 non-unique; UBA8670.2, DATFJG01.1, BM714.2, M55B127.2 at 0.1 in all six cores in the stored solution. 33 of 54 cells at the bound; summed TMA 1.32-fold vs 14.5-fold in the model-input (DNA-normalized) abundance; simulated betaine methane vs VW DNA R² 0.973.",
    "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
    "origin": "modelling"
@@ -331,10 +324,11 @@
    "paragraph": 95,
    "kind": "replace",
    "old": "This was mechanistically corroborated by metabolic models that reproduced the experimental methane emissions with high accuracy (R2 = 0.978), and demonstrate that methane is generated stoichiometrically from methylphosphonate.",
-   "new": "Metabolic models of the MPn consumers produced methane at rates of the same order as the experimental emissions in the unrestored cores (about half in total at a phosphate source ratio of 0.07), with one methane generated per methylphosphonate consumed, but neither these models nor the betaine models tracked the differences in emissions among the six cores (Spearman ρ = −0.20 and −0.09).",
-   "rationale": "0.978 is fits.json[0.07] (both axes divided by DNA). Consistent basis: MPn 56% of measured, ρ −0.20; betaine ρ −0.09. CH4:MePn = 1.000 in every MAG and core.",
-   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
-   "origin": "modelling"
+   "new": "Metabolic models of the MPn consumers produced methane equivalent to about one fifth of the experimental emissions in the unrestored cores at a phosphate source ratio of 0.07 (about three quarters at 0.33), with one methane generated per methylphosphonate consumed, but neither these models nor the betaine models tracked the differences in emissions among the six cores (Spearman ρ = −0.09 for both).",
+   "rationale": "0.978 is fits.json[0.07] (both axes divided by DNA). Consistent basis, three MePn-obligate models repaired: MPn 19% (0.07) and 72% (0.33) of measured, ρ −0.09; betaine ρ −0.09. As built: 56% and 100%, ρ −0.20 at 0.07. CH4:MePn = 1.000 in every MAG and core.",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (MePn_*_20_repaired; modelling_consistent_basis_r232.py); clauded_insights/mepn_obligacy_check/README.md",
+   "origin": "modelling",
+   "date": "2026-11-08T00:00:00Z"
   },
   {
    "paragraph": 95,
@@ -349,37 +343,51 @@
    "paragraph": 95,
    "kind": "replace",
    "old": "The metabolic models only parameterized the relative abundances of each member and trace consumption of methylphosphonate, which encourages that these are natural outcomes of the metabolism and not forced behaviors during optimization.",
-   "new": "The metabolic models only parameterized the relative abundances of each member and a minimum ratio of methylphosphonate to inorganic phosphate uptake. Because the simulated methane of each member is then proportional to its abundance, the models mainly translate the abundance of MPn consumers into methane; that the ratio constraint did not bind for three Rhodobacteraceae models suggests that, for these organisms, methylphosphonate consumption is a natural outcome of their metabolism rather than a forced behavior.",
-   "rationale": "Modelled CH4 per unit of model-input abundance is one of three constants per MAG (0.04321, 0.46974, 0.55344 at 0.07; CV ≤ 1e-9). The constraint binds in 17 of 20 models.",
-   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
-   "origin": "modelling"
+   "new": "The metabolic models only parameterized the relative abundances of each member and a minimum ratio of methylphosphonate to inorganic phosphate uptake. Once three gapfilling gaps were repaired (Methods), every model produced the same methane per unit of biomass, set by the ratio and the phosphorus content of the biomass, so the simulated emissions translate the biomass of MPn consumers and the assumed ratio into methane rather than testing differences in their metabolism.",
+   "rationale": "Withdrawn: the 2026-10-26 wording read the three non-binding Rhodobacteraceae models as MePn consumption being 'a natural outcome of their metabolism'. Those three needed MePn because of gapfilling gaps (mepn_obligacy_check/). After repair the constraint binds in all 20 models and methane per unit biomass is r/(1+r) × 0.660485 for every model (0.043209 at 0.07, 0.163880 at 0.33). As built it was one of three constants per MAG (0.04321, 0.46974, 0.55344 at 0.07; CV ≤ 1e-9).",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (MePn_*_20_repaired; modelling_consistent_basis_r232.py); clauded_insights/mepn_obligacy_check/README.md",
+   "origin": "modelling",
+   "date": "2026-11-08T00:00:00Z"
   },
   {
    "paragraph": 99,
    "kind": "replace",
    "old": "Thirdly, metabolic models reproduced methane emissions from trace amounts of methylphosphonate in near stoichiometric equivalence, supporting the experimental findings. The metabolic models systematically underestimated the quantity of methane emitted, which suggests",
-   "new": "Thirdly, metabolic models showed that trace consumption of methylphosphonate, with one methane per methylphosphonate consumed, can account for about half of the methane emitted from the unrestored salterns, although the simulated emissions did not track the differences among cores. That the models underestimated the total methane emitted at a phosphate source ratio of 0.07 (56% of the measured flux) suggests",
-   "rationale": "Consistent basis at 0.07: 56% in total (18–141% by core; two cores above 1), ρ −0.20.",
-   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
-   "origin": "modelling"
+   "new": "Thirdly, metabolic models showed that trace consumption of methylphosphonate, with one methane per methylphosphonate consumed, can account for part of the methane emitted from the unrestored salterns (19% at a phosphate source ratio of 0.07 and 72% at 0.33), although the simulated emissions did not track the differences among cores. That the models underestimated the total methane emitted suggests",
+   "rationale": "Consistent basis, three MePn-obligate models repaired: 19% at 0.07 (6–46% by core) and 72% at 0.33 (22–174%; one core above 1), ρ −0.09. As built: 56% at 0.07 (18–141%), ρ −0.20. The draft's next clause ('metabolizing methylphosphonate catalyzes other pathways of methane production') is kept; with the corrected totals the shortfall is larger, but it also depends on the assumed ratio.",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (MePn_*_20_repaired; modelling_consistent_basis_r232.py); clauded_insights/mepn_obligacy_check/README.md",
+   "origin": "modelling",
+   "date": "2026-11-08T00:00:00Z"
   },
   {
    "paragraph": 100,
    "kind": "comment",
    "old": "We therefore propose methylphosphonate as the primary source of methane",
-   "new": "Consider hedging this conclusion. The modeling now shows that methylphosphonate consumption can supply methane of the measured magnitude but not the pattern among cores (Figure 7), and guild abundance tracks methane more specifically for MPn consumers only on the DNA-normalized basis (Table 5). The strongest support is the substrate-addition (Figure 4) and culturing (Figure 6) evidence. For example: 'We therefore propose methylphosphonate as the most consistent candidate source of methane…'.",
+   "new": "Consider hedging this conclusion. The modeling now shows that methylphosphonate consumption can supply part of the measured methane (about one fifth at a ratio of 0.07, three quarters at 0.33, once three models that needed methylphosphonate only because of gapfilling gaps are repaired) but not the pattern among cores (Figure 7), and guild abundance tracks methane more specifically for MPn consumers only on the DNA-normalized basis (Table 5). The strongest support is the substrate-addition (Figure 4) and culturing (Figure 6) evidence. For example: 'We therefore propose methylphosphonate as the most consistent candidate source of methane…'.",
    "rationale": "The Conclusions keep unqualified claims ('primary source', 'precise mechanism') that the revised Results no longer support.",
-   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
-   "origin": "modelling"
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (MePn_*_20_repaired; modelling_consistent_basis_r232.py); clauded_insights/mepn_obligacy_check/README.md",
+   "origin": "modelling",
+   "date": "2026-11-08T00:00:00Z"
   },
   {
    "paragraph": 129,
    "kind": "replace_paragraph",
    "old": "Figure 7. Assessing methylphosphonate and betaine metabolism",
-   "new": "Figure 7. Simulated versus measured methane emissions in the six unrestored cores. Orange: summed methane flux of the 20 simulated methylphosphonate-consuming models (phosphate source ratio 0.07), each rescaled to the member’s biomass in the core (relative abundance × soil DNA density of each depth, weighted by depth). Blue: summed methane of the nine betaine-reducing models (MAGs carrying *grdH*; methane = 0.06 × TMA excretion), converted with the core’s volume-weighted DNA density because their TMA excretion was mostly set by the uptake bound. Both axes are in µmol CH~4~ m^−2^ d^−1^ on log scales; the dotted line marks 1:1 agreement and the dashed lines are linear fits. Methylphosphonate-derived methane is of the same order as the measured emissions (56% of the total; 18–141% among cores) but does not track them (Spearman ρ = −0.20, exact p = 0.71; R^2^ = 0.08); betaine-derived methane does not track them either (ρ = −0.09, p = 0.92; R^2^ = 0.10). Guild abundance versus methane is shown in Figure 9 and Table 5.",
-   "rationale": "Single panel on the consistent basis (clauded_insights/figure7_r232.png); the old panel b (abundance vs methane) is superseded by Figure 9, Figure S8 and Table 5. The stored fluxes were simulated with each model's biomass fixed to the mean over depths of relative abundance divided by DNA. Two depths have almost no DNA (R2_B_D1 and R2_C_D2, 0.16 µg g−1 soil), so that input carries a 1/DNA term, which multiplying by the core's DNA does not cancel. Both the draft's fits (R² 0.978/0.968/0.862, both axes divided by DNA) and an intermediate 'areal' correction (ρ = 0.60) came from that term: the factor VW_DNA × mean(1/DNA) alone has ρ = 0.60 against measured methane. On the consistent basis used here, each MAG's flux per unit of simulated abundance (a constant for every MePn model) is rescaled to its biomass in the core (relative abundance × DNA × layer thickness).",
-   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
-   "origin": "modelling"
+   "new": "Figure 7. Simulated versus measured methane emissions in the six unrestored cores. Orange: summed methane flux of the 20 simulated methylphosphonate-consuming models (phosphate source ratio 0.07), each rescaled to the member’s biomass in the core (relative abundance × soil DNA concentration of each depth, weighted by depth); filled circles are with the three models that needed methylphosphonate only because of gapfilling gaps repaired (Methods), and open circles are the models as built. Blue: summed methane of the nine betaine-reducing models (MAGs carrying *grdH*; methane = 0.06 × TMA excretion), converted with the core’s volume-weighted DNA concentration because their TMA excretion was mostly set by the uptake bound. Both axes are in µmol CH~4~ m^−2^ d^−1^ on log scales; the dotted line marks 1:1 agreement and the dashed lines are linear fits (repaired methylphosphonate models and betaine models). Methylphosphonate-derived methane is 19% of the measured emissions in total (6–46% among cores) and does not track them (Spearman ρ = −0.09, exact p = 0.92; R^2^ = 0.05); betaine-derived methane does not track them either (ρ = −0.09, p = 0.92; R^2^ = 0.10). Guild abundance versus methane is shown in Figure 9 and Table 5.",
+   "rationale": "Figure regenerated 2026-11-08 (clauded_insights/figure7_r232.py): filled orange = repaired set (MePn_0.07_20_repaired), open orange = as built (56% of measured, ρ −0.20), no fit drawn for the as-built set. Single panel on the consistent basis (clauded_insights/figure7_r232.png); the old panel b (abundance vs methane) is superseded by Figure 9, Figure S8 and Table 5. The stored fluxes were simulated with each model's biomass fixed to the mean over depths of relative abundance divided by DNA. Two depths have almost no DNA (R2_B_D1 and R2_C_D2, 0.16 µg g−1 soil), so that input carries a 1/DNA term, which multiplying by the core's DNA does not cancel. Both the draft's fits (R² 0.978/0.968/0.862, both axes divided by DNA) and an intermediate 'areal' correction (ρ = 0.60) came from that term: the factor VW_DNA × mean(1/DNA) alone has ρ = 0.60 against measured methane. On the consistent basis used here, each MAG's flux per unit of simulated abundance (a constant for every MePn model) is rescaled to its biomass in the core (relative abundance × DNA × layer thickness).",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (MePn_*_20_repaired; modelling_consistent_basis_r232.py); clauded_insights/mepn_obligacy_check/README.md",
+   "origin": "modelling",
+   "date": "2026-11-08T00:00:00Z"
+  },
+  {
+   "paragraph": 36,
+   "kind": "comment",
+   "old": "The MAG-derived models were subjected",
+   "new": "Repair of the three methylphosphonate-obligate models (added 2026-11-08; details in clauded_insights/mepn_obligacy_check/README.md). Limits of this check: (1) repairs were searched in the local ModelSEED GramNeg v6 template with fliu's edits re-applied, not in her KBase template (GramNegModelTemplateV6_test, ws 12218); (2) the draft models were not re-gapfilled from scratch on a phosphate-containing, methylphosphonate-free medium, which would be the cleanest test; (3) the frameshifts in the C–P lyase genes of Albimonas.1 were not checked against reads. Every one of 29 metabolic repair variants gives identical methane; only artificial 'export' repairs (excreting a cofactor or nucleotide) leave methylphosphonate as the cheapest one-carbon sink and raise the total to at most 31% of measured at 0.07 (80% at 0.33). As built, the 20 models gave 56% of the measured methane at a ratio of 0.07 (100% at 0.33), 72% of it from these three models.",
+   "rationale": "Records the caveats of the MePn obligacy check where the repair is described.",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (MePn_*_20_repaired; modelling_consistent_basis_r232.py); clauded_insights/mepn_obligacy_check/README.md",
+   "origin": "modelling",
+   "date": "2026-11-08T00:00:00Z"
   }
  ]
 }

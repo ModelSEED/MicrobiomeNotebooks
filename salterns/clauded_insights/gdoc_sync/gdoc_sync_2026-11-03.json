@@ -1,0 +1,340 @@
+{
+ "source": "Google Doc 'Metabolic Manuscript' (1idf01km9tbuGXXXMU4Hw7BvU0UGpdX2BgShv7BVHcTw), revision of 2026-11-03T01:22Z, read via the Google Docs API on 2026-11-04; plus the 4 comment threads Susannah Tringe added on 2026-11-05 (read via the Drive API on 2026-11-09; the text is unchanged since 2026-11-03, checked against the Docs API that day)",
+ "base": "Metabolic Manuscript.docx (Google Doc export of 2026-07-02), after merge_runs.py",
+ "accept_revisions": {
+  "note": "Susannah Tringe's suggestions that A. Freiburger accepted in the Google Doc on 2026-08-27 (still tracked changes in the 2026-07-02 export)",
+  "paragraph_ids": {
+   "20": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "21": [
+    "6"
+   ],
+   "23": [
+    "7"
+   ]
+  }
+ },
+ "suggestions": {
+  "author": "Susannah Tringe",
+  "date": "2026-11-03T01:22:00Z",
+  "edits": [
+   {
+    "p": 8,
+    "kind": "insert_before",
+    "old": "Wyatt H. Hartman",
+    "new": "Kyle Hartman^1^, "
+   },
+   {
+    "p": 23,
+    "kind": "insert_before",
+    "old": "generally follow a log-linear",
+    "new": "in marine-influenced systems "
+   },
+   {
+    "p": 24,
+    "kind": "replace",
+    "old": "which would be used for",
+    "new": "enabling"
+   },
+   {
+    "p": 32,
+    "kind": "replace",
+    "old": "Soils",
+    "new": "Sediment samples"
+   },
+   {
+    "p": 32,
+    "kind": "replace",
+    "old": "analyses. Nuclear",
+    "new": "analyses, using nuclear"
+   },
+   {
+    "p": 32,
+    "kind": "replace",
+    "old": "was performed on",
+    "new": "of extracted"
+   },
+   {
+    "p": 32,
+    "kind": "replace",
+    "old": "parameters,",
+    "new": "parameters:"
+   },
+   {
+    "p": 32,
+    "kind": "replace",
+    "old": "only 1 restored saltern sample was",
+    "new": "only 1 of 6 restored saltern samples was"
+   },
+   {
+    "p": 32,
+    "kind": "superscript",
+    "old": "1H-13C HSQC, 1H TOCSY",
+    "spans": [
+     [
+      0,
+      1
+     ],
+     [
+      3,
+      5
+     ],
+     [
+      13,
+      14
+     ]
+    ]
+   },
+   {
+    "p": 35,
+    "kind": "replace",
+    "old": "(2021)",
+    "new": "(2022)"
+   },
+   {
+    "p": 37,
+    "kind": "replace",
+    "old": "Measuring ",
+    "new": "The presence of"
+   },
+   {
+    "p": 42,
+    "kind": "insert_before",
+    "old": " as measured with a YSI probe",
+    "new": ","
+   },
+   {
+    "p": 42,
+    "kind": "insert_before",
+    "old": " was 8.5%",
+    "new": ","
+   },
+   {
+    "p": 43,
+    "kind": "replace",
+    "old": "the glass bottles",
+    "new": "each glass bottle"
+   },
+   {
+    "p": 44,
+    "kind": "replace",
+    "old": "Culturing",
+    "new": "Microbial culturing"
+   },
+   {
+    "p": 45,
+    "kind": "replace",
+    "old": "1 mL were transferred",
+    "new": "1 mL of slurry was transferred"
+   },
+   {
+    "p": 45,
+    "kind": "replace",
+    "old": "aerobic microcosm was",
+    "new": "aerobic microcosms was"
+   },
+   {
+    "p": 49,
+    "kind": "replace",
+    "old": "Analyses",
+    "new": "Omics data analyses and statistical methods"
+   },
+   {
+    "p": 50,
+    "kind": "replace",
+    "old": "Metabolites were uploaded",
+    "new": "Identified metabolites were uploaded"
+   },
+   {
+    "p": 51,
+    "kind": "replace",
+    "old": "test for the effect",
+    "new": "test for the effects"
+   },
+   {
+    "p": 57,
+    "kind": "replace",
+    "old": "39 of the 60 selected KOs involved in methylated compound cycling were present",
+    "new": "Metagenomes from these sites were searched for 60 selected KOs involved in methylated compound cycling, of which 39 were present"
+   },
+   {
+    "p": 57,
+    "kind": "replace",
+    "old": "DMS, DMSP, TMA, DMA, MMA cycling",
+    "new": "dimethyl sulfide (DMS), dimethylsulfoniopropionate (DMSP), TMA, DMA, and monomethylamine (MMA) cycling"
+   }
+  ]
+ },
+ "remove_comments": {
+  "note": "thread resolved by A. Freiburger in the Google Doc on 2026-08-27 ('does this mean a line on log-scale axes?' + Clifton's reply)",
+  "word_ids": [
+   "4",
+   "5"
+  ]
+ },
+ "add_comments": [
+  {
+   "id": "doco.Q5glmYM28Ltcwzia3kcC4Q",
+   "anchor": "hypersaline",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:42:23Z",
+   "text": "halophilic?",
+   "p": 37,
+   "context": "This enzymatic capacity is prevalent in hypersaline archaea"
+  },
+  {
+   "id": "doco.GsqwLrI4dirK4qsZzjITLw",
+   "anchor": "trimethylamine, methylamine, methanol, glycine betaine, dimethylsulfide, methylthiopropanoate, and dimethylsulfoniopropionate.",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T01:22:16Z",
+   "text": "We might want to introduce the abbreviations for these compounds here."
+  },
+  {
+   "id": "doco.K8LIzLESwARLVSiBsjLS-g",
+   "anchor": "10 ml of sample",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:34:59Z",
+   "text": "Porewater?"
+  },
+  {
+   "id": "doco.AonefDpjJBF3AJPo2RR-Og",
+   "anchor": "subset of 1-4  samples",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:32:25Z",
+   "text": "Do we not know how many? Or 1-4 samples per sample type?"
+  },
+  {
+   "id": "doco.H5X4VRKCxDRRUpQRU6Z2mQ",
+   "anchor": "biomass compound",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:40:56Z",
+   "text": "What does this mean?"
+  },
+  {
+   "id": "doco.kxcDgxdALE8qV1eD83jRXA",
+   "anchor": "minimized to the consumption of lactate",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:41:24Z",
+   "text": "Not sure what this means?"
+  },
+  {
+   "id": "doco.2VAHCWYea53YzP00D-TOrA",
+   "anchor": "The soil density was estimated from other studies of this same region to be 0.7",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:44:31Z",
+   "text": "Is this a reference for this or is this based on our own previous observations? Also should this say \"sediment density\" rather than \"soil density\"?"
+  },
+  {
+   "id": "doco.Mxwr6dpmhTUJKlZ6k_WAeQ",
+   "anchor": "10 mL of substrate and 10 mL of sediment slurry were added to sterile 75 mL glass bottles.",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:54:13Z",
+   "text": "Is this describing the aerobic and anaerobic incubations that are described in more detail in the next paragraph? From this sentence here it sounds like they were combined immediately after collection - is there any need to keep this here since it's repeated later?"
+  },
+  {
+   "id": "doco.9p0lNBPPXmgNdy9i6cqr9Q",
+   "anchor": "A subset of sediment slurry was left to sit at room temperature with aerobic atmospheric conditions",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:55:46Z",
+   "text": "Was this also in a glass bottle? And it contained all the sediment slurry for all the aerobic experiments, which was then transferred to each substrate-containing glass bottle in 10 mL aliquots after equilibration? Was this done with a pipette?"
+  },
+  {
+   "id": "doco.ohNuipJ3wSoWB9acw56bwA",
+   "anchor": "another subset",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:56:06Z",
+   "text": "For all the anaerobic incubations?"
+  },
+  {
+   "id": "doco.mdUG7i0s5yFEgyHNIkU1yQ",
+   "anchor": "Glass bottles containing substrates",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:56:51Z",
+   "text": "Individual glass bottles, each containing 10 mL of substrate solution?"
+  },
+  {
+   "id": "doco.9v_VOZW_DpJYroVzkGFK2w",
+   "anchor": "septum bottles containing MM/W medium",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T01:00:16Z",
+   "text": "What size bottles? How much medium?"
+  },
+  {
+   "id": "doco.fvdLhSJGFHsPdGVCdUT8vg",
+   "anchor": "Bet. = glycine betaine",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T01:20:05Z",
+   "text": "This is abbreviated as GB in Figure 1."
+  },
+  {
+   "id": "doco.Yamf8sZPkLlv4i6HGbb69w",
+   "anchor": "type of process the gene is involved in",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-05T03:26:52Z",
+   "text": "I know they're unlikely to be confused, but is it possible to use different colors for type of process (biosynthesis / degradation / photosynthesis) and restoration status (reference / restored / unrestored)?",
+   "p": 115,
+   "context": "Rows are annotated by the compound ID, the type of process the gene is involved in, and whether"
+  },
+  {
+   "id": "doco.LGgYEUw7vYerHXqa2-IrQg",
+   "anchor": "betaine",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-05T03:35:59Z",
+   "text": "Same as glycine betaine or GB, correct? We should try to be consistent with terminology.",
+   "p": 36,
+   "context": "The betaine-utilizing organisms were simulated",
+   "locate_by_context": true
+  },
+  {
+   "id": "doco.RSW1ApWbfcYM7KjNZGzrZA",
+   "anchor": "betaine",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-05T03:37:38Z",
+   "text": "glycine betaine / GB?",
+   "p": 59,
+   "context": "acetate, glucose, betaine, fructose",
+   "locate_by_context": true
+  },
+  {
+   "id": "doco.NJ96fD8jOH8QYEZ_vAGerg",
+   "anchor": "z-score transformed µM",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-05T03:43:14Z",
+   "text": "Is that what the blue-red scale indicates? It needs some kind of label and scale.\nHow can you tell if a compound was detected or not in a sample? The text says only 7 metabolites were present in all 19 samples but that's hard to see here.",
+   "p": 117,
+   "context": "Concentrations of metabolites (z-score transformed µM) as measured by NMR"
+  }
+ ],
+ "add_replies": [
+  {
+   "parent_word_id": "10",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:17:15Z",
+   "text": "I think the abundance of betaine might also correlate with methane emission. But there is such a big difference in methane emissions, anything that is more abundant in the unrestored sites ends up being correlated with methane."
+  }
+ ]
+}

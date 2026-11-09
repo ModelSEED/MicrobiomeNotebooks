@@ -1,12 +1,75 @@
-# R232 review of the saltern manuscript (2026-10-21, revised 2026-10-26)
+# R232 review of the saltern manuscript (2026-10-21, revised 2026-10-26, rebased 2026-11-04, revised 2026-11-08)
 
-**File:** `Metabolic Manuscript - R232 review (tracked changes).docx`. It is a copy of `Metabolic Manuscript.docx` (2 July 2026) in which every edit is a Word tracked change by "Claude (R232 review)". "Reject all" restores the original text, tables and figures.
+**File:** `Metabolic Manuscript - R232 review (tracked changes).docx`.
+- **Base:** since 2026-11-04 it is built on the Google Doc as of 3 November 2026, through the verified local mirror `Metabolic Manuscript - Google Doc mirror (2026-11-03).docx`.
+- **Tracked changes:** every edit of this review is a Word tracked change by "Claude (R232 review)". Susannah Tringe's open suggestions appear as her own tracked changes.
+- **Undoing the review:** reject only the "Claude (R232 review)" changes (Word: Show Markup > Specific People, then Reject All Changes Shown). That restores the Google Doc text, tables and figures.
+
 **Accompanying file:** `Table S5 - MAG taxonomy, quality and guilds (GTDB R232).xlsx`, one row per MAG (310).
-**Rebuild:** `clauded_insights/make_r232_review_docx.py`. Its inputs are `correlational/r232/` and `data/`, plus `clauded_insights/r232_review_edits_2026-10-26.json` (39 tracked edits and comments, each with its rationale and source) and `clauded_insights/figure7_r232.png`.
 
-> **The draft may be out of date.** The "Metabolic Manuscript" Google Doc in the "JGI Salterns Modeling" Drive folder was modified on 2026-08-27, after this .docx. Edits made there since July will need to be reconciled with these changes.
+**Rebuild** in two steps, from `clauded_insights/`:
+1. **The mirror:** `make_gdoc_mirror_docx.py <merged.docx>`, where `<merged.docx>` is the 2 July export `Metabolic Manuscript.docx` after the docx skill's `merge_runs.py`.
+   - The Google Doc changes are specified in `gdoc_sync/gdoc_sync_2026-11-03.json`.
+   - The script checks every paragraph against `gdoc_sync/gdoc_views_2026-11-03.json`, the Docs API text with suggestions rejected and accepted.
+2. **The review:** `make_r232_review_docx.py "../Metabolic Manuscript - Google Doc mirror (2026-11-03).docx"`. Its inputs are:
+   - `correlational/r232/` and `data/`;
+   - `r232_review_edits_2026-10-26.json`, with 41 tracked edits and comments, each with its rationale and source (edits revised on 2026-11-08 carry that date, which their tracked changes show);
+   - `figure7_r232.png`.
 
-> **Author fixes (2026-10-21).** The author reports fixing the three draft errors (Table 3, P69, P35) in their own copy, which is not the local .docx or the Drive Google Doc. The tracked edits at P35 and P69 now duplicate those fixes. The R232 Table 3 replacement is a separate update. A hand fix of the old Table 3 also needs new Unrestored values, because that column pooled the R2A cores (see the Table 3 row below).
+Paragraph numbers (P…) in these notes are those of the July export, which the mirror keeps.
+
+> **Rebased on the Google Doc (2026-11-04).** The Drive connector cannot export the Google Doc as .docx because it is over the size limit. The mirror therefore rebuilds it from the July export plus every change the Docs API reports:
+> - the 8 suggestions accepted on 27 August;
+> - Susannah's 37 suggestions of 3 November (22 edits), as her tracked changes;
+> - the comment changes since July: the thread resolved on 27 August, and the 13 threads and 1 reply added since then.
+> - the 4 threads Susannah added on 5 November (Figure 1 colours, Figure 2 scale and detection, and two on "betaine" vs "glycine betaine"), added on 2026-11-09. The Google Doc text itself has not changed since 3 November.
+>
+> With the suggestions rejected, and again with them accepted, all 491 paragraphs match the Google Doc. The 20 figures are identical. The review of the 70 open comment threads is in `Google Doc comments - review (2026-11-04).md`.
+
+> **Author fixes (2026-10-21).** The author reports fixing the three draft errors (Table 3, P69, P35) in their own copy. That copy is neither the local .docx nor the Google Doc, which still has the original text on 3 November. The tracked edits at P35 and P69 now duplicate those fixes. The R232 Table 3 replacement is a separate update. A hand fix of the old Table 3 also needs new Unrestored values, because that column pooled the R2A cores (see the Table 3 row below).
+
+## 2026-11-08 revision: the three MePn-obligate models repaired
+
+**What changed.** Three of the 20 simulated MePn-consumer models (*Roseovarius*.9, *Roseovarius*.11 and *Albimonas*.1) could not grow without methylphosphonate. That dependence is a modelling artefact (`clauded_insights/mepn_obligacy_check/README.md`, checked 2026-11-04/05 and confirmed independently on 2026-11-08). Their stored methane per unit of biomass was 11–13× that of every other model at ratio 0.07 (3–3.4× at 0.33), and they produced 72 % of the simulated methane at ratio 0.07.
+- **Causes:**
+  - *Roseovarius*.9 and *Albimonas*.1 have no outlet for surplus one-carbon units except MePn degradation, because homoserine kinase is unannotated. It is also missing from the other Rhodobacteraceae MAGs and from reference genomes that grow without MePn.
+  - *Roseovarius*.11 lacks PRPP synthetase. Its MAG is 81 % complete and 20 % contaminated.
+  - The models were gapfilled on a phosphate-free MePn medium, which hid these gaps.
+  - *Albimonas*.1's C–P lyase genes are frameshifted.
+- **Repair:** one reaction each: homoserine kinase (rxn01300) for *Roseovarius*.9 and *Albimonas*.1, PRPP synthetase (rxn00770) for *Roseovarius*.11.
+  - Afterwards every model gives r/(1+r) × 0.660485 methane per unit biomass, and the ratio constraint binds in all 20 models.
+  - All 29 metabolic repair variants give the same methane.
+
+**Corrected numbers** (consistent areal basis; `modelling_consistent_basis_r232.json`, sets `MePn_*_20_repaired`, asserted against the cell-27 re-run in `mepn_obligacy_check/analysis/step5_consistent_basis.json`):
+
+| | as built (2026-10-26 text) | repaired (now in the text) |
+|---|---|---|
+| Model / measured at 0.07 | 56 % (18–141 % by core) | **19 % (6–46 %)** |
+| Model / measured at 0.33 | 100 % (30–245 %) | **72 % (22–174 %)** |
+| Spearman ρ (exact p), R² at 0.07 | −0.20 (0.71), 0.08 | −0.09 (0.92), 0.05 |
+| Fit P70 / P72 | −0.20x + 907 / −0.32x + 1563 | **−0.06x + 292 / −0.21x + 1106** |
+| Share of the three models | 72 % | 18 % |
+| Rhodobacteraceae share | 99.6 % (*Roseovarius* 81.5 %) | 98.9 % (*Roseovarius* 67.7 %) |
+
+**Edits revised** (dated 2026-11-08):
+- **Abstract P18:** "about half" becomes "part (about one fifth to three quarters, depending on the assumed share of MePn in phosphate uptake)", and "important source" becomes "a source".
+- **Methods P36:**
+  - new sentences describe the obligacy, its cause and the one-reaction repairs;
+  - the ratio-constraint rationale now says the constraint binds in all 20 models;
+  - a new comment lists the caveats: local template, no re-gapfilling, frameshifts not read-checked, and export repairs (at most 31 %).
+- **Results P69–P73:**
+  - the new totals, ρ and R²;
+  - the equations P70/P72;
+  - P73 now says the "non-binding" three were an artefact, and the earlier "did not bind … natural outcome" wording is withdrawn;
+  - the Rhodobacteraceae share.
+- **Discussion P95:** "about one fifth (three quarters at 0.33)". The last sentence now says the models translate MPn-consumer biomass and the assumed ratio into methane rather than testing their metabolism.
+- **Conclusions P99:** 19 % / 72 %. The comment on P100 is updated to match.
+- **Figure 7 and caption:** the repaired set is filled orange with its fit. Open orange circles show the as-built models, with no fit.
+
+**Still open:**
+- **No re-gapfilling:** the drafts were not re-gapfilled from scratch on a Pi-containing, MePn-free medium. That would be the cleanest test.
+- **Template:** fliu's KBase template (ws 12218) was not available locally.
+- **Ratio:** the magnitude now depends only on the consumer biomass and the assumed ratio r. Nothing in the data fixes r.
 
 ## 2026-10-26 revision
 
@@ -58,7 +121,7 @@ What this revision changed, and where the evidence is:
   - The key taxa have no edges because the lasso acts on unstandardized residuals (degree tracks residual variance, ρ = 0.90).
   - Relaxing the prevalence filter gives no edge to a guild taxon that lacked one; new edges mostly join rarely detected taxa.
   - At most two pairs reach the maxT threshold, depending on the number of permutations.
-- **Smaller corrections:** "Saligentibacter" → *Salegentibacter* (P67), and in the Figure S11 caption "red" → "orange".
+- **Smaller corrections:** "Saligentibacter" → *Salegentibacter* (P67).
 
 ## What the new analysis changed
 
@@ -116,7 +179,7 @@ What this revision changed, and where the evidence is:
 | Figure 8 | **Replaced.** Both old panels and the caption are deleted. Panel b (the Louvain view) was re-rendered with R232 labels and archaea and is now the single panel; panel a (the plain graphical-lasso layout of the same edges) was not re-rendered. |
 | Figure 9 | **New.** Guild abundance vs methane, areal basis (`correlational/r232/guild_methane_raw_r232.png`). |
 | Figure S8 | **Replaced** with the DNA-normalized version of Figure 9; the stray caption fragment (old P151) is deleted. |
-| Figure S11 | Not re-rendered. Caption colour fixed; comments explain the misdescribed asterisk rule and what regeneration needs (`correlational/r232/FigureS11_regeneration.md`). |
+| Figure S11 | **Replaced** (2026-10-30) by `correlational/r232/figureS11_r232.png` (`figureS11_r232.py`): 169 GTDB R232 taxa (13 archaeal, †), 186 graphical-lasso asterisks, gene-based highlights (*phnJ* orange, *grdH* blue, *mcrA* purple). Caption rewritten (the old one misdescribed the asterisks as ρ > 0.7); now cited in the Co-occurrence results. |
 | Table S5 | **New caption.** Content is in the Excel file. |
 | Table S6 | **New.** Per-core methane flux, *Methanolobus*.1 abundance, and total archaeal abundance. |
 
@@ -135,15 +198,15 @@ What this revision changed, and where the evidence is:
 11. **Table 3:** the three confirmed causes of the old table's errors.
 12. **Figure 5 caption:** the R232 counts assume the *H. campaniensis* tip is strain SK03.
 13. **Figure 8 caption:** the figure is now a single panel; the old panel a (plain glasso layout) was not re-rendered.
-14. **Figure S11 caption:** what regeneration needs, and the misdescribed asterisk rule.
+14. **Figure S11 caption:** what was regenerated and why the old asterisk description was wrong.
 15. **Table S3:** not in the document; consider adding the isolates' genome-based names and accessions.
 16. **Conclusions:** consider hedging "primary source … precise mechanism" in light of Figure 7 and Table 5.
+17. **Methods P36 (2026-11-08):** the repair of the three MePn-obligate models, its limits, and the as-built numbers.
 
-(Some topics carry two comments, which makes 18 in total.) Resolved and removed in this revision: the isolate-reclassification request, the modelling-R² comment, the betaine-model comment, and the Figure 7 panel-b comment.
+(Topic 7 carries two comments, which makes 18 in total.) Resolved and removed in this revision: the isolate-reclassification request, the modelling-R² comment, the betaine-model comment, and the Figure 7 panel-b comment.
 
 ## Not changed
 
-- **FBA simulations of the MPn models** were not re-run. They use the depth-mean DNA-normalised abundances of commit 22f4629, not the current DNA-weighted merge; since each model's methane is proportional to its abundance, a re-run would only rescale them.
-- **Figure S11:** not re-rendered (see comment 14 and `correlational/r232/FigureS11_regeneration.md`).
+- **FBA simulations of the MPn models** were not re-run, except for the three repaired models (cell 27 re-run in `mepn_obligacy_check/`; the other 17 are unchanged by the repair). They use the depth-mean DNA-normalised abundances of commit 22f4629, not the current DNA-weighted merge; since each model's methane is proportional to its abundance, a re-run would only rescale them.
 - **Figure 5:** tip labels are the original KBase names (the tree object in narrative 139158 could not be read).
 - **Citation formatting:** citations in inserted text, e.g. (51), (53), (67), (68), are plain text, not reference-manager links. Relink them if you use one.

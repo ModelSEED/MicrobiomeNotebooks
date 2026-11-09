@@ -1,5 +1,5 @@
 {
- "basis": "each MAG's flux per unit of simulated abundance, k_i = flux_i / a_i (a constant for the\nMePn models, CV < 1e-8), times its biomass in the core: the sum over the two layers of r_id x DNA_d x layer volume,\nconverted with the pipeline's constants (0.7 g soil cm-3, DNA = 10 % of biomass, 5 cm core, 5 + 10 cm layers).\nBetaine models: their TMA excretion is mostly set by the 0.1 betaine-uptake bound (33 of 54 grdH cells), not by\nthe biomass input, so the rescaling does not apply (it would give 0.1-27x the measured emissions). Their primary basis\nkeeps the pipeline's conversion of the summed flux with the core's volume-weighted DNA ('areal' for betaine); the\nper-core rescaling is reported as the sensitivity 'betaine_rescaled'.\nSensitivity basis 'relab_only': the same with a constant DNA (the six-core mean), i.e. biomass-specific emission.",
+ "basis": "each MAG's flux per unit of simulated abundance, k_i = flux_i / a_i (a constant for the\nMePn models, CV < 1e-8), times its biomass in the core: the sum over the two layers of r_id x DNA_d x layer volume,\nconverted with the pipeline's constants (0.7 g soil cm-3, DNA = 10 % of biomass, 5 cm core, 5 + 10 cm layers).\nBetaine models: their TMA excretion is mostly set by the 0.1 betaine-uptake bound (33 of 54 grdH cells), not by\nthe biomass input, so the rescaling does not apply (it would give 0.1-27x the measured emissions). Their primary basis\nkeeps the pipeline's conversion of the summed flux with the core's volume-weighted DNA ('areal' for betaine); the\nper-core rescaling is reported as the sensitivity 'betaine_rescaled'.\nSensitivity basis 'relab_only': the same with a constant DNA (the six-core mean), i.e. biomass-specific emission.\n'addition_no_ratio' is the stored substrate-addition run (saltern_fluxes_addition.json: no phosphate-ratio constraint,\nMePn uptake <= 0.001) on the same basis; its infeasible MAG x core cells are missing from the file and count as 0.",
  "measured_CH4": {
   "R1_A": 737.32,
   "R1_B": 1347.13,
@@ -55,6 +55,46 @@
     "R2_A": 597.722,
     "R2_B": 1331.391,
     "R2_C": 483.852
+   }
+  },
+  "MePn_0.07_20_repaired": {
+   "n": 6,
+   "slope": -0.05647511389746225,
+   "intercept": 291.7207698733013,
+   "pearson_r2": 0.0536930015486295,
+   "pearson_p": 0.6586445485045478,
+   "spearman_rho": -0.08571428571428573,
+   "spearman_p": 0.8717434402332361,
+   "model_over_measured_total": 0.190127281680834,
+   "model_over_measured_min": 0.0566986246997776,
+   "model_over_measured_max": 0.45980173769334803,
+   "sim_by_core": {
+    "R1_A": 339.021,
+    "R1_B": 359.961,
+    "R1_C": 188.213,
+    "R2_A": 116.189,
+    "R2_B": 256.024,
+    "R2_C": 90.07
+   }
+  },
+  "MePn_0.33_20_repaired": {
+   "n": 6,
+   "slope": -0.2141933910774514,
+   "intercept": 1106.4100488633717,
+   "pearson_r2": 0.05369306479567289,
+   "pearson_p": 0.6586443547845034,
+   "spearman_rho": -0.08571428571428573,
+   "spearman_p": 0.8717434402332361,
+   "model_over_measured_total": 0.7210960936586104,
+   "model_over_measured_min": 0.21504101440772141,
+   "model_over_measured_max": 1.7438910681693198,
+   "sim_by_core": {
+    "R1_A": 1285.806,
+    "R1_B": 1365.225,
+    "R1_C": 713.837,
+    "R2_A": 440.671,
+    "R2_B": 971.021,
+    "R2_C": 341.608
    }
   },
   "MePn_0.07_phnJ17": {
@@ -136,6 +176,26 @@
     "R2_B": 2715.196,
     "R2_C": 1903.158
    }
+  },
+  "addition_no_ratio": {
+   "n": 6,
+   "slope": -0.2808690415827851,
+   "intercept": 556.7883039859237,
+   "pearson_r2": 0.19739265135768247,
+   "pearson_p": 0.3774162930262542,
+   "spearman_rho": -0.5797710356524484,
+   "spearman_p": 0.22778395671501606,
+   "model_over_measured_total": 0.1898047800053698,
+   "model_over_measured_min": 0.0,
+   "model_over_measured_max": 1.0402813330914626,
+   "sim_by_core": {
+    "R1_A": 767.02,
+    "R1_B": 293.725,
+    "R1_C": 57.761,
+    "R2_A": 228.682,
+    "R2_B": 0.0,
+    "R2_C": 0.0
+   }
   }
  },
  "relab_only": {
@@ -177,6 +237,46 @@
     "R2_A": 496.11,
     "R2_B": 1559.154,
     "R2_C": 1118.918
+   }
+  },
+  "MePn_0.07_20_repaired": {
+   "n": 6,
+   "slope": 0.013017128992646065,
+   "intercept": 204.05104355807,
+   "pearson_r2": 0.007343563715351958,
+   "pearson_p": 0.8717727584587673,
+   "spearman_rho": 0.48571428571428577,
+   "spearman_p": 0.3287230320699708,
+   "model_over_measured_total": 0.18550905057754327,
+   "model_over_measured_min": 0.07270690216940139,
+   "model_over_measured_max": 0.5139873544776195,
+   "sim_by_core": {
+    "R1_A": 189.669,
+    "R1_B": 257.408,
+    "R1_C": 252.095,
+    "R2_A": 96.495,
+    "R2_B": 298.012,
+    "R2_C": 223.019
+   }
+  },
+  "MePn_0.33_20_repaired": {
+   "n": 6,
+   "slope": 0.04936988563545059,
+   "intercept": 773.9049776527736,
+   "pearson_r2": 0.007343502923603269,
+   "pearson_p": 0.8717732866027557,
+   "spearman_rho": 0.48571428571428577,
+   "spearman_p": 0.3287230320699708,
+   "model_over_measured_total": 0.7035804909414403,
+   "model_over_measured_min": 0.2757555616252118,
+   "model_over_measured_max": 1.9494009911537438,
+   "sim_by_core": {
+    "R1_A": 719.359,
+    "R1_B": 976.27,
+    "R1_C": 956.123,
+    "R2_A": 365.977,
+    "R2_B": 1130.27,
+    "R2_C": 845.846
    }
   },
   "MePn_0.07_phnJ17": {
@@ -258,6 +358,26 @@
     "R2_B": 3147.601,
     "R2_C": 1045.646
    }
+  },
+  "addition_no_ratio": {
+   "n": 6,
+   "slope": -0.17696748641438861,
+   "intercept": 361.9285051916969,
+   "pearson_r2": 0.25372747658852624,
+   "pearson_p": 0.30833247342882436,
+   "spearman_rho": -0.5797710356524484,
+   "spearman_p": 0.22778395671501606,
+   "model_over_measured_total": 0.12898411397082885,
+   "model_over_measured_min": 0.0,
+   "model_over_measured_max": 0.5821056696108489,
+   "sim_by_core": {
+    "R1_A": 429.198,
+    "R1_B": 209.995,
+    "R1_C": 86.605,
+    "R2_A": 189.701,
+    "R2_B": 0.0,
+    "R2_C": 0.0
+   }
   }
  },
  "stored_x_VW_superseded": {
@@ -270,6 +390,16 @@
    "pearson_r2": 0.4022859376999197,
    "spearman_rho": 0.6,
    "spearman_p": 0.208
+  },
+  "MePn_0.07_20_repaired": {
+   "pearson_r2": 0.41962260591590383,
+   "spearman_rho": 0.7714285714285715,
+   "spearman_p": 0.07239650145772594
+  },
+  "MePn_0.33_20_repaired": {
+   "pearson_r2": 0.4196225108873955,
+   "spearman_rho": 0.7714285714285715,
+   "spearman_p": 0.07239650145772594
   },
   "MePn_0.07_phnJ17": {
    "pearson_r2": 0.37158554901401586,
@@ -290,6 +420,11 @@
    "pearson_r2": 0.09680718805637231,
    "spearman_rho": -0.08571428571428573,
    "spearman_p": 0.8717434402332361
+  },
+  "addition_no_ratio": {
+   "pearson_r2": 0.3598188994527037,
+   "spearman_rho": -0.5797710356524484,
+   "spearman_p": 0.22778395671501606
   }
  },
  "betaine_rescaled": {
@@ -349,6 +484,28 @@
   "Roseovarius": 0.8148,
   "Saliniramus": 0.0037,
   "Thiolinea": 0.0001
+ },
+ "share_of_obligate3": {
+  "MePn_0.07_20": 0.7235,
+  "MePn_0.33_20": 0.4082,
+  "MePn_0.07_20_repaired": 0.1802,
+  "MePn_0.33_20_repaired": 0.1802
+ },
+ "MePn_0.07_20_repaired_family_share": {
+  "Beijerinckiaceae": 0.0109,
+  "Rhodobacteraceae": 0.9889,
+  "Thiotrichaceae": 0.0003
+ },
+ "MePn_0.07_20_repaired_genus_share": {
+  "Albimonas": 0.0229,
+  "CAZRZN01": 0.0188,
+  "DAINOF01": 0.0716,
+  "JAVJPJ01": 0.0082,
+  "Marivita": 0.1327,
+  "Roseibacterium": 0.0575,
+  "Roseovarius": 0.6771,
+  "Saliniramus": 0.0109,
+  "Thiolinea": 0.0003
  },
  "factor_VW_x_mean_inverse_DNA": {
   "spearman_rho": 0.6,

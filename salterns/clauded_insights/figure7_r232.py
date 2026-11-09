@@ -3,8 +3,9 @@
 Figure 7 for the R232 revision: simulated versus measured methane in the six unrestored cores, on the dimensionally
 consistent areal basis of modelling_consistent_basis_r232.py (run that first).
 
-- Methylphosphonate: the 20 simulated MePn-consumer models at phosphate source ratio 0.07, each MAG's flux per unit of
-  simulated abundance rescaled to its biomass in the core (relative abundance x DNA x layer thickness, summed over
+- Methylphosphonate: the 20 simulated MePn-consumer models at phosphate source ratio 0.07, with the three
+  MePn-obligate models (Roseovarius.9, Roseovarius.11, Albimonas.1) repaired (mepn_obligacy_check/README.md; open
+  circles = the models as built), each MAG's flux per unit of simulated abundance rescaled to its biomass in the core (relative abundance x DNA x layer thickness, summed over
   D1 and D2). The earlier 'areal' version (figure7_corrected.py panel a) kept a 1/DNA term from the model input and is
   superseded.
 - Betaine: the nine grdH carriers (methane = 0.06 x TMA), converted with the core's volume-weighted DNA, because
@@ -29,7 +30,8 @@ CORES = ["R1_A", "R1_B", "R1_C", "R2_A", "R2_B", "R2_C"]
 
 d = json.load(open(HERE / "modelling_consistent_basis_r232.json"))
 x = np.array([d["measured_CH4"][c] for c in CORES])
-series = [(d["areal"]["MePn_0.07_20"], C_MEPN, "o", "Methylphosphonate consumers (20 models)", "Methylphosphonate"),
+asbuilt = d["areal"]["MePn_0.07_20"]
+series = [(d["areal"]["MePn_0.07_20_repaired"], C_MEPN, "o", "Methylphosphonate consumers (20 models, 3 repaired)", "Methylphosphonate"),
           (d["areal"]["betaine_grdH9"], C_BET, "s", "Betaine reducers (9 grdH carriers)", "Betaine")]
 
 fig, ax = plt.subplots(figsize=(7.2, 6.4), dpi=300)
@@ -42,6 +44,11 @@ for s, c, mk, lab, _ in series:
     yl = s["slope"] * xs + s["intercept"]
     ax.plot(xs[yl > 0], yl[yl > 0], "--", color=c, lw=1.6, zorder=2)
     texts += [ax.text(xi, yi, k.replace("_", " "), fontsize=7.5, color="0.25") for xi, yi, k in zip(x, y, CORES)]
+ya = np.array([asbuilt["sim_by_core"][k] for k in CORES]); ys_all.append(ya)
+ax.scatter(x, ya, s=48, marker="o", facecolor="none", edgecolor=C_MEPN, lw=1.1, zorder=3,
+           label="Methylphosphonate consumers, as built (no fit)")
+for xi, y0, y1 in zip(x, ya, ys_all[0]):
+    ax.plot([xi, xi], [y0, y1], "-", color=C_MEPN, lw=0.6, alpha=0.5, zorder=1)
 ax.set_xscale("log"); ax.set_yscale("log")
 for axis in (ax.xaxis, ax.yaxis):
     axis.set_major_locator(LogLocator(base=10, subs=(1.0,)))
@@ -63,11 +70,11 @@ for (s, c, _, _, name), y0 in zip(series, (0.97, 0.80)):
            f"$R^2$ = {s['pearson_r2']:.2f};  Spearman ρ = {s['spearman_rho']:.2f} (n = 6)").replace("-", "−")
     ax.text(0.03, y0, txt, transform=ax.transAxes, fontsize=8.5, color="0.15", va="top",
             bbox=dict(boxstyle="round,pad=0.35", fc="white", ec=c, lw=1.2))
-ax.legend(loc="lower right", fontsize=8.5, framealpha=0.95)
+ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.11), ncol=2, fontsize=8.5, frameon=False)
 fig.tight_layout()
 fig.savefig(HERE / "figure7_r232.png", bbox_inches="tight")
 fig.savefig(HERE / "figure7_r232.svg", bbox_inches="tight")
-json.dump({"MePn_0.07_20models": series[0][0], "betaine_grdH9": series[1][0], "measured_CH4": d["measured_CH4"],
+json.dump({"MePn_0.07_20models_repaired": series[0][0], "MePn_0.07_20models_as_built": asbuilt, "betaine_grdH9": series[1][0], "measured_CH4": d["measured_CH4"],
            "basis": d["basis"]}, open(HERE / "figure7_r232_stats.json", "w"), indent=1)
 print("MePn", {k: round(v, 3) for k, v in series[0][0].items() if isinstance(v, float)})
 print("betaine", {k: round(v, 3) for k, v in series[1][0].items() if isinstance(v, float)})

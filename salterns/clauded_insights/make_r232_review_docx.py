@@ -1,15 +1,18 @@
 #!/usr/bin/env python
 """
-R232 review of the saltern manuscript: a copy of ../Metabolic Manuscript.docx with real Word tracked
+R232 review of the saltern manuscript: a copy of the Google Doc as of 2026-11-03 (the local mirror
+../Metabolic Manuscript - Google Doc mirror (2026-11-03).docx, from make_gdoc_mirror_docx.py) with real Word tracked
 changes (w:ins / w:del) and review comments that bring in the 2026 MAG re-analysis:
 CheckM re-run, GTDB-Tk 2.8.0 / R232 taxonomy, gene-based functional guilds, guild-methane correlations
 with a random-set comparison, the methanogen-methane correlation, and the R232 co-occurrence network
-(../correlational/r232/). "Reject all" in Word restores the original text, tables and figures.
+(../correlational/r232/). Rejecting the changes by "Claude (R232 review)" restores the Google Doc text, tables and
+figures; Susannah Tringe's open suggestions are her own tracked changes in the mirror.
 
-Input is the manuscript after the docx skill's merge_runs.py (adjacent identically formatted runs
+The mirror is built from the 2 July export after the docx skill's merge_runs.py (adjacent identically formatted runs
 merged, text unchanged), so that sentences can be located inside single runs:
     python <docx-skill>/scripts/merge_runs.py "../Metabolic Manuscript.docx" -o merged.docx
-    ~/Documents/py_venv/bin/python make_r232_review_docx.py merged.docx
+    ~/Documents/py_venv/bin/python make_gdoc_mirror_docx.py merged.docx
+    ~/Documents/py_venv/bin/python make_r232_review_docx.py "../Metabolic Manuscript - Google Doc mirror (2026-11-03).docx"
 Output: ../Metabolic Manuscript - R232 review (tracked changes).docx
 
 The 2026-10-26 revision adds the tracked edits listed in r232_review_edits_2026-10-26.json:
@@ -38,6 +41,7 @@ S = HERE.parent
 R = S / "correlational" / "r232"
 OUT = S / "Metabolic Manuscript - R232 review (tracked changes).docx"
 AUTHOR, INITIALS, DATE = "Claude (R232 review)", "CR", "2026-10-26T00:00:00Z"
+DATE_MEPN_REPAIR = "2026-11-08T00:00:00Z"   # edits revised for the MePn-obligate model repair (mepn_obligacy_check/)
 EDITS = HERE / "r232_review_edits_2026-10-26.json"
 _ids = iter(range(7000, 999999))
 CONTENT = {qn(t) for t in ("w:t", "w:tab", "w:br", "w:drawing", "w:pict", "w:sym", "w:footnoteReference")}
@@ -344,7 +348,10 @@ def tracked_math_swap(p, replacements, drop_fraction=None):
 def apply_edits(P, pending_comments, path):
     """Tracked edits from a JSON list; 'paragraph' is the paragraph index in the original draft.
     Text edits go first, then comments, whose anchors must lie in text that is still undeleted."""
+    global DATE
+    default = DATE
     for e in sorted(json.load(open(path))["edits"], key=lambda e: e["kind"] == "comment"):
+        DATE = e.get("date", default)                    # tracked changes carry the edit's own date when it has one
         p = P[e["paragraph"]]
         if e["kind"] == "replace":
             tracked_replace(p._p, e["old"], e["new"])
@@ -355,6 +362,7 @@ def apply_edits(P, pending_comments, path):
         else:
             _, start = _locate(p._p, e["old"])
             pending_comments.append((p, _cut_at(p._p, start), e["new"]))
+    DATE = default
 
 
 # ---- content -------------------------------------------------------------------------------------------------
@@ -442,7 +450,7 @@ def main(merged):
     # ---- Methods ---------------------------------------------------------------------------------------------------
     h, _ = new_par_after(p[30]._p, h3_pPr, "*MAG quality, taxonomy, and functional guilds*", h3_rpr)
     new_par_after(h, body_pPr,
-        "The 310 dereplicated MAGs from Zhou et al. (2021) were re-assessed for this study. Completeness and "
+        "The 310 dereplicated MAGs from Zhou et al. (2022) were re-assessed for this study. Completeness and "
         "contamination were estimated with CheckM v1.0.18 (67) (lineage workflow, reduced reference tree) in KBase (51), "
         "and the MAGs were classified with GTDB-Tk v2.8.0 (68) against GTDB release R232 (Table S5). Each MAG was "
         "labeled with its deepest named GTDB rank down to genus and numbered within that taxon (e.g., *Roseovarius*.3). "
@@ -524,7 +532,7 @@ def main(merged):
         "With the R232 labels, the 30 archaeal MAGs entered the co-occurrence analysis (169 taxa, 13 of them archaeal). No "
         "within-site correlation passed FDR correction, and at most two pairs reached the 95th percentile of the "
         "permutation maximum |r| (0.993), so the network edges are conditional associations rather than individually significant pairs. "
-        "The graphical-lasso network (82 taxa, 186 edges) resolved six modules (Q = 0.747; Figure 8), and all nine archaeal "
+        "The graphical-lasso network (82 taxa, 186 edges) resolved six modules (Q = 0.747; Figure 8; Figure S11), and all nine archaeal "
         "taxa in the network formed a single haloarchaeal module. Graphical-lasso fits to 20 within-site permutations of "
         "the residuals gave networks of similar size (167–534 nonzero edges, against 326 before the |partial r| > 0.05 "
         "threshold) and modularity (Q = 0.60–0.80); what exceeded the permutations was that edges joined related taxa "
@@ -668,15 +676,29 @@ def main(merged):
         "normalization of the model inputs). On this basis the MPn consumers (*phnJ*) correlate with methane more "
         "strongly than 99% of random 22-MAG sets (ρ = 0.92), whereas the other guilds do not stand out (Table 5).")
     delete_paragraph(p[151]._p)
-    pending_comments.append((p[163], p[163]._p.findall(qn("w:r"))[0],
-        "Not regenerated with R232 labels. Regeneration needs no new statistics: the figure is drawn from the within-site "
-        "correlation matrix and the graphical-lasso edges, whose R232 versions exist (correlational/r232/C_within_r232.csv, "
-        "169 taxa including 13 archaeal; glasso_direct_edges_r232.csv). The 2020 plotting code, copied out of "
-        "analysis_2_marimo.py, reproduces this image exactly and renders an R232 version. Still needed: a choice of guild "
-        "sets to highlight (gene-based or curated), new colors for the R232 taxa, a larger canvas for 169 rows, porting the "
-        "renderer into rerun_correlational_r232.py, and the caption fixes noted in the comment below. Figure S11 is also "
-        "not cited anywhere in the text: cite it in the Co-occurrence results or drop it. Details: "
-        "correlational/r232/FigureS11_regeneration.md."))
+    # Figure S11: regenerated with R232 labels (../correlational/r232/figureS11_r232.py)
+    delete_paragraph(P[162]._p)
+    picture_after(doc, P[162]._p, R / "figureS11_r232.png", 6.5, img_pPr)
+    for m in p[163]._p.findall(M_NS + "oMath"):            # the old caption's 'ρ=0.7' equation object
+        d = stamp(el("w:del")); m.addprevious(d); d.append(m)
+    w = replace_paragraph(p[163]._p,
+        "Figure S11. Within-site co-variation of prevalent taxa. Relative abundances of the 310 dereplicated MAGs were "
+        "merged across the two depths of each core, weighted by DNA concentration (12 cores). MAGs above 10^-5^ relative "
+        "abundance in at least 6 of the 12 cores (245 MAGs) were summed by GTDB R232 taxon (169 taxa, 13 archaeal, marked "
+        "†), CLR-transformed, and the mean of each site (R1, R2, SF2, R2A; three cores each) was subtracted, which removes "
+        "co-variation caused by shared responses to site. Colors show Pearson correlations between these within-site "
+        "residuals, with rows and columns ordered by hierarchical clustering (average linkage). Green asterisks mark the "
+        "186 pairs joined by an edge of the graphical-lasso network (|partial r| > 0.05; Figure 8). No pair passed the "
+        "permutation-based false discovery rate threshold, so the heatmap is descriptive. Labels and boxed rows/columns "
+        "mark methylphosphonate consumers (*phnJ*; orange), betaine reducers (*grdH*; blue), and the methanogen "
+        "*Methanolobus* (*mcrA*; purple).")
+    pending_comments.append((p[163], w[0],
+        "Regenerated with GTDB R232 labels and the gene-based guilds (correlational/r232/figureS11_r232.py), from the "
+        "R232 within-site matrix and graphical-lasso edges; no statistics were recomputed. The previous caption described "
+        "the asterisks as correlations above ρ = 0.7; in the code they marked graphical-lasso edges, as stated now. "
+        "Methanolobus is detected only in the six unrestored cores, so much of its row reflects the cores where it is "
+        "absent (CLR of below-detection values). The old caption's ρ = 0.7 equation object is a tracked deletion; "
+        "LibreOffice ignores revisions on equations and still shows it."))
 
     # ---- Tables S5 (external) and S6 -----------------------------------------------------------------------------------------
     s5, _ = new_par_after(p[175]._p, scap_pPr,
@@ -695,19 +717,27 @@ def main(merged):
     # ---- 2026-10-26 edits: modelling text and numbers, betaine set, Halomonas isolates, smaller corrections ------------------
     apply_edits(P, pending_comments, EDITS)
     # fitted-line equations (Office Math): consistent areal-basis fits (modelling_consistent_basis_r232.json), units without 1/DNA
-    for i, slope, icpt in ((70, ("=0.51*methan", "=−0.20*methan"), ("+138 [", "+907 [")),
-                           (72, ("=0.95*methan", "=−0.32*methan"), ("+224 [", "+1563 [")),
-                           (75, ("=0.24*methan", "=−0.71*methan"), ("+4632 [", "+3192 ["))):
+    # MePn fits (P70, P72): the three MePn-obligate models repaired (MePn_*_20_repaired), dated with that revision
+    global DATE
+    for i, slope, icpt, date in ((70, ("=0.51*methan", "=−0.06*methan"), ("+138 [", "+292 ["), DATE_MEPN_REPAIR),
+                                 (72, ("=0.95*methan", "=−0.21*methan"), ("+224 [", "+1106 ["), DATE_MEPN_REPAIR),
+                                 (75, ("=0.24*methan", "=−0.71*methan"), ("+4632 [", "+3192 ["), DATE)):
+        DATE, keep = date, DATE
         tracked_math_swap(P[i]._p, dict([slope, icpt, ("*day*", "*day")]), drop_fraction=("ug DNA", "g soil"))
+        DATE = keep
 
     # ---- comments, then save --------------------------------------------------------------------------------------------------
     pending_comments.insert(0, (first_par, first_par._p.findall(qn("w:r"))[0],
-        "R232 review (2026-10-21, revised 2026-10-26): tracked changes add MAG quality, taxonomy (GTDB R232), and gene-based "
+        "R232 review (2026-10-21, revised 2026-10-26, rebased 2026-11-04 on the Google Doc of 2026-11-03, whose open "
+        "suggestions by Susannah Tringe appear as her tracked changes): tracked changes add MAG quality, taxonomy (GTDB R232), and gene-based "
         "guild methods and results; replace the abundance–methane results, Table 3, Figure 8, and Figure S8; and add "
         "Figure 9, Tables 4–5, S5 (Excel), and S6. The 2026-10-26 revision corrects the modeling text and numbers: on a "
-        "dimensionally consistent areal basis the simulated methane is of the measured magnitude but does not track the "
+        "dimensionally consistent areal basis the simulated methane does not track the "
         "differences among the six unrestored cores (the earlier high fits came from a 1/DNA term in the model input); it also restricts the betaine models to the nine grdH carriers, replaces "
-        "Figure 7 with a single panel, and reclassifies the two Halomonas isolates with GTDB R232. Items flagged but not "
+        "Figure 7 with a single panel, and reclassifies the two Halomonas isolates with GTDB R232. The 2026-11-08 revision "
+        "repairs three methylphosphonate models (two Roseovarius, one Albimonas) that could not grow without methylphosphonate "
+        "because of gapfilling gaps; they had produced 72% of the simulated methane, and with them repaired the models supply "
+        "19% of the measured methane at a phosphate source ratio of 0.07 (72% at 0.33) instead of 56% (100%). Items flagged but not "
         "changed are in these comments; see the accompanying review notes."))
     for para, run_el, text in pending_comments:
         comment(doc, para, run_el, text)
