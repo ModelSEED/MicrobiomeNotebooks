@@ -1,0 +1,7 @@
+# live pipeline state: large (work/ holds bin FASTA, DAS Tool and CheckM outputs) and rewritten every watcher cycle
+work/
+ledger.json
+ledger.json.lock
+ledger.v1_backup.json
+watch.log
+__pycache__/

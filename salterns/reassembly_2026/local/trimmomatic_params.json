@@ -1,0 +1,1609 @@
+{
+ "generated_from": [
+  "/home/freiburger/Documents/MicrobiomeNotebooks/salterns/reassembly_2026/ledger.json",
+  "/home/freiburger/Documents/MicrobiomeNotebooks/salterns/reassembly_2026/manifest.tsv"
+ ],
+ "n": 39,
+ "n_ready": 39,
+ "jobs": [
+  {
+   "sample": "R1_A_D1",
+   "srr": "SRR5209943",
+   "coverage_group": "R1",
+   "input_reads_ref": "275645/9/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R1_A_D1.SRR5209943.trim_paired",
+   "other_outputs": [
+    "R1_A_D1.SRR5209943.trim_unpaired_fwd",
+    "R1_A_D1.SRR5209943.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/9/1",
+     "output_reads_name": "R1_A_D1.SRR5209943.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R1_A_D2",
+   "srr": "SRR5209944",
+   "coverage_group": "R1",
+   "input_reads_ref": "275645/5/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R1_A_D2.SRR5209944.trim_paired",
+   "other_outputs": [
+    "R1_A_D2.SRR5209944.trim_unpaired_fwd",
+    "R1_A_D2.SRR5209944.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/5/1",
+     "output_reads_name": "R1_A_D2.SRR5209944.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R1_B_D1",
+   "srr": "SRR5209942",
+   "coverage_group": "R1",
+   "input_reads_ref": "275645/13/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R1_B_D1.SRR5209942.trim_paired",
+   "other_outputs": [
+    "R1_B_D1.SRR5209942.trim_unpaired_fwd",
+    "R1_B_D1.SRR5209942.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/13/1",
+     "output_reads_name": "R1_B_D1.SRR5209942.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R1_B_D2",
+   "srr": "SRR5209946",
+   "coverage_group": "R1",
+   "input_reads_ref": "275645/4/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R1_B_D2.SRR5209946.trim_paired",
+   "other_outputs": [
+    "R1_B_D2.SRR5209946.trim_unpaired_fwd",
+    "R1_B_D2.SRR5209946.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/4/1",
+     "output_reads_name": "R1_B_D2.SRR5209946.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R1_C_D1",
+   "srr": "SRR14626311",
+   "coverage_group": "R1",
+   "input_reads_ref": "275645/6/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R1_C_D1.SRR14626311.trim_paired",
+   "other_outputs": [
+    "R1_C_D1.SRR14626311.trim_unpaired_fwd",
+    "R1_C_D1.SRR14626311.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/6/1",
+     "output_reads_name": "R1_C_D1.SRR14626311.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R1_C_D2",
+   "srr": "SRR5468416",
+   "coverage_group": "R1",
+   "input_reads_ref": "275645/2/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R1_C_D2.SRR5468416.trim_paired",
+   "other_outputs": [
+    "R1_C_D2.SRR5468416.trim_unpaired_fwd",
+    "R1_C_D2.SRR5468416.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/2/1",
+     "output_reads_name": "R1_C_D2.SRR5468416.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2_A_D1",
+   "srr": "SRR5468419",
+   "coverage_group": "R2",
+   "input_reads_ref": "275645/10/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2_A_D1.SRR5468419.trim_paired",
+   "other_outputs": [
+    "R2_A_D1.SRR5468419.trim_unpaired_fwd",
+    "R2_A_D1.SRR5468419.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/10/1",
+     "output_reads_name": "R2_A_D1.SRR5468419.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2_A_D2",
+   "srr": "SRR14626312",
+   "coverage_group": "R2",
+   "input_reads_ref": "275645/8/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2_A_D2.SRR14626312.trim_paired",
+   "other_outputs": [
+    "R2_A_D2.SRR14626312.trim_unpaired_fwd",
+    "R2_A_D2.SRR14626312.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/8/1",
+     "output_reads_name": "R2_A_D2.SRR14626312.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2_B_D1",
+   "srr": "SRR5209945",
+   "coverage_group": "R2",
+   "input_reads_ref": "275645/7/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2_B_D1.SRR5209945.trim_paired",
+   "other_outputs": [
+    "R2_B_D1.SRR5209945.trim_unpaired_fwd",
+    "R2_B_D1.SRR5209945.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/7/1",
+     "output_reads_name": "R2_B_D1.SRR5209945.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2_B_D2",
+   "srr": "SRR6056297",
+   "coverage_group": "R2",
+   "input_reads_ref": "275645/29/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2_B_D2.SRR6056297.trim_paired",
+   "other_outputs": [
+    "R2_B_D2.SRR6056297.trim_unpaired_fwd",
+    "R2_B_D2.SRR6056297.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/29/1",
+     "output_reads_name": "R2_B_D2.SRR6056297.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2_C_D1",
+   "srr": "SRR5210208",
+   "coverage_group": "R2",
+   "input_reads_ref": "275645/24/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2_C_D1.SRR5210208.trim_paired",
+   "other_outputs": [
+    "R2_C_D1.SRR5210208.trim_unpaired_fwd",
+    "R2_C_D1.SRR5210208.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/24/1",
+     "output_reads_name": "R2_C_D1.SRR5210208.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2_C_D2",
+   "srr": "SRR10375808",
+   "coverage_group": "R2",
+   "input_reads_ref": "275645/20/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2_C_D2.SRR10375808.trim_paired",
+   "other_outputs": [
+    "R2_C_D2.SRR10375808.trim_unpaired_fwd",
+    "R2_C_D2.SRR10375808.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/20/1",
+     "output_reads_name": "R2_C_D2.SRR10375808.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2_restored_C_black",
+   "srr": "SRR5210210",
+   "coverage_group": "R2",
+   "input_reads_ref": "275645/25/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2_restored_C_black.SRR5210210.trim_paired",
+   "other_outputs": [
+    "R2_restored_C_black.SRR5210210.trim_unpaired_fwd",
+    "R2_restored_C_black.SRR5210210.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/25/1",
+     "output_reads_name": "R2_restored_C_black.SRR5210210.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2_restored_D_shore",
+   "srr": "SRR5210213",
+   "coverage_group": "R2",
+   "input_reads_ref": "275645/22/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2_restored_D_shore.SRR5210213.trim_paired",
+   "other_outputs": [
+    "R2_restored_D_shore.SRR5210213.trim_unpaired_fwd",
+    "R2_restored_D_shore.SRR5210213.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/22/1",
+     "output_reads_name": "R2_restored_D_shore.SRR5210213.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "SF2_A_D1",
+   "srr": "SRR14626156",
+   "coverage_group": "SF2",
+   "input_reads_ref": "275645/28/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "SF2_A_D1.SRR14626156.trim_paired",
+   "other_outputs": [
+    "SF2_A_D1.SRR14626156.trim_unpaired_fwd",
+    "SF2_A_D1.SRR14626156.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/28/1",
+     "output_reads_name": "SF2_A_D1.SRR14626156.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "SF2_A_D2",
+   "srr": "SRR5210466",
+   "coverage_group": "SF2",
+   "input_reads_ref": "275645/31/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "SF2_A_D2.SRR5210466.trim_paired",
+   "other_outputs": [
+    "SF2_A_D2.SRR5210466.trim_unpaired_fwd",
+    "SF2_A_D2.SRR5210466.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/31/1",
+     "output_reads_name": "SF2_A_D2.SRR5210466.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "SF2_B_D1",
+   "srr": "SRR6056278",
+   "coverage_group": "SF2",
+   "input_reads_ref": "275645/27/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "SF2_B_D1.SRR6056278.trim_paired",
+   "other_outputs": [
+    "SF2_B_D1.SRR6056278.trim_unpaired_fwd",
+    "SF2_B_D1.SRR6056278.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/27/1",
+     "output_reads_name": "SF2_B_D1.SRR6056278.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "SF2_B_D2",
+   "srr": "SRR5210469",
+   "coverage_group": "SF2",
+   "input_reads_ref": "275645/35/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "SF2_B_D2.SRR5210469.trim_paired",
+   "other_outputs": [
+    "SF2_B_D2.SRR5210469.trim_unpaired_fwd",
+    "SF2_B_D2.SRR5210469.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/35/1",
+     "output_reads_name": "SF2_B_D2.SRR5210469.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "SF2_C_D1",
+   "srr": "SRR5210468",
+   "coverage_group": "SF2",
+   "input_reads_ref": "275645/38/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "SF2_C_D1.SRR5210468.trim_paired",
+   "other_outputs": [
+    "SF2_C_D1.SRR5210468.trim_unpaired_fwd",
+    "SF2_C_D1.SRR5210468.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/38/1",
+     "output_reads_name": "SF2_C_D1.SRR5210468.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "SF2_C_D2",
+   "srr": "SRR6056298",
+   "coverage_group": "SF2",
+   "input_reads_ref": "275645/42/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "SF2_C_D2.SRR6056298.trim_paired",
+   "other_outputs": [
+    "SF2_C_D2.SRR6056298.trim_unpaired_fwd",
+    "SF2_C_D2.SRR6056298.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/42/1",
+     "output_reads_name": "SF2_C_D2.SRR6056298.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2A_A_D1",
+   "srr": "SRR5210214",
+   "coverage_group": "R2A",
+   "input_reads_ref": "275645/48/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2A_A_D1.SRR5210214.trim_paired",
+   "other_outputs": [
+    "R2A_A_D1.SRR5210214.trim_unpaired_fwd",
+    "R2A_A_D1.SRR5210214.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/48/1",
+     "output_reads_name": "R2A_A_D1.SRR5210214.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2A_A_D2",
+   "srr": "SRR5468417",
+   "coverage_group": "R2A",
+   "input_reads_ref": "275645/49/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2A_A_D2.SRR5468417.trim_paired",
+   "other_outputs": [
+    "R2A_A_D2.SRR5468417.trim_unpaired_fwd",
+    "R2A_A_D2.SRR5468417.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/49/1",
+     "output_reads_name": "R2A_A_D2.SRR5468417.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2A_B_D1",
+   "srr": "SRR5468418",
+   "coverage_group": "R2A",
+   "input_reads_ref": "275645/39/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2A_B_D1.SRR5468418.trim_paired",
+   "other_outputs": [
+    "R2A_B_D1.SRR5468418.trim_unpaired_fwd",
+    "R2A_B_D1.SRR5468418.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/39/1",
+     "output_reads_name": "R2A_B_D1.SRR5468418.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2A_B_D2",
+   "srr": "SRR5210212",
+   "coverage_group": "R2A",
+   "input_reads_ref": "275645/41/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2A_B_D2.SRR5210212.trim_paired",
+   "other_outputs": [
+    "R2A_B_D2.SRR5210212.trim_unpaired_fwd",
+    "R2A_B_D2.SRR5210212.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/41/1",
+     "output_reads_name": "R2A_B_D2.SRR5210212.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2A_C_D1",
+   "srr": "SRR5210316",
+   "coverage_group": "R2A",
+   "input_reads_ref": "275645/43/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2A_C_D1.SRR5210316.trim_paired",
+   "other_outputs": [
+    "R2A_C_D1.SRR5210316.trim_unpaired_fwd",
+    "R2A_C_D1.SRR5210316.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/43/1",
+     "output_reads_name": "R2A_C_D1.SRR5210316.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2A_C_D2",
+   "srr": "SRR5210470",
+   "coverage_group": "R2A",
+   "input_reads_ref": "275645/52/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2A_C_D2.SRR5210470.trim_paired",
+   "other_outputs": [
+    "R2A_C_D2.SRR5210470.trim_unpaired_fwd",
+    "R2A_C_D2.SRR5210470.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/52/1",
+     "output_reads_name": "R2A_C_D2.SRR5210470.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R1_A_H2O",
+   "srr": "SRR5209947",
+   "coverage_group": "R1",
+   "input_reads_ref": "275645/50/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R1_A_H2O.SRR5209947.trim_paired",
+   "other_outputs": [
+    "R1_A_H2O.SRR5209947.trim_unpaired_fwd",
+    "R1_A_H2O.SRR5209947.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/50/1",
+     "output_reads_name": "R1_A_H2O.SRR5209947.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R1_B_H2O",
+   "srr": "SRR6056296",
+   "coverage_group": "R1",
+   "input_reads_ref": "275645/60/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R1_B_H2O.SRR6056296.trim_paired",
+   "other_outputs": [
+    "R1_B_H2O.SRR6056296.trim_unpaired_fwd",
+    "R1_B_H2O.SRR6056296.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/60/1",
+     "output_reads_name": "R1_B_H2O.SRR6056296.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R1_C_H2O",
+   "srr": "SRR14626313",
+   "coverage_group": "R1",
+   "input_reads_ref": "275645/61/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R1_C_H2O.SRR14626313.trim_paired",
+   "other_outputs": [
+    "R1_C_H2O.SRR14626313.trim_unpaired_fwd",
+    "R1_C_H2O.SRR14626313.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/61/1",
+     "output_reads_name": "R1_C_H2O.SRR14626313.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2_A_H2O",
+   "srr": "SRR14626314",
+   "coverage_group": "R2",
+   "input_reads_ref": "275645/58/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2_A_H2O.SRR14626314.trim_paired",
+   "other_outputs": [
+    "R2_A_H2O.SRR14626314.trim_unpaired_fwd",
+    "R2_A_H2O.SRR14626314.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/58/1",
+     "output_reads_name": "R2_A_H2O.SRR14626314.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2_B_H2O",
+   "srr": "SRR5209948",
+   "coverage_group": "R2",
+   "input_reads_ref": "275645/56/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2_B_H2O.SRR5209948.trim_paired",
+   "other_outputs": [
+    "R2_B_H2O.SRR5209948.trim_unpaired_fwd",
+    "R2_B_H2O.SRR5209948.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/56/1",
+     "output_reads_name": "R2_B_H2O.SRR5209948.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2_C_H2O",
+   "srr": "SRR5210216",
+   "coverage_group": "R2",
+   "input_reads_ref": "275645/59/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2_C_H2O.SRR5210216.trim_paired",
+   "other_outputs": [
+    "R2_C_H2O.SRR5210216.trim_unpaired_fwd",
+    "R2_C_H2O.SRR5210216.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/59/1",
+     "output_reads_name": "R2_C_H2O.SRR5210216.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2_restored_H2O",
+   "srr": "SRR5210209",
+   "coverage_group": "R2",
+   "input_reads_ref": "275645/66/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2_restored_H2O.SRR5210209.trim_paired",
+   "other_outputs": [
+    "R2_restored_H2O.SRR5210209.trim_unpaired_fwd",
+    "R2_restored_H2O.SRR5210209.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/66/1",
+     "output_reads_name": "R2_restored_H2O.SRR5210209.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "SF2_A_H2O",
+   "srr": "SRR5210317",
+   "coverage_group": "SF2",
+   "input_reads_ref": "275645/68/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "SF2_A_H2O.SRR5210317.trim_paired",
+   "other_outputs": [
+    "SF2_A_H2O.SRR5210317.trim_unpaired_fwd",
+    "SF2_A_H2O.SRR5210317.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/68/1",
+     "output_reads_name": "SF2_A_H2O.SRR5210317.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "SF2_B_H2O",
+   "srr": "SRR6056300",
+   "coverage_group": "SF2",
+   "input_reads_ref": "275645/71/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "SF2_B_H2O.SRR6056300.trim_paired",
+   "other_outputs": [
+    "SF2_B_H2O.SRR6056300.trim_unpaired_fwd",
+    "SF2_B_H2O.SRR6056300.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/71/1",
+     "output_reads_name": "SF2_B_H2O.SRR6056300.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "SF2_C_H2O",
+   "srr": "SRR6056279",
+   "coverage_group": "SF2",
+   "input_reads_ref": "275645/69/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "SF2_C_H2O.SRR6056279.trim_paired",
+   "other_outputs": [
+    "SF2_C_H2O.SRR6056279.trim_unpaired_fwd",
+    "SF2_C_H2O.SRR6056279.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/69/1",
+     "output_reads_name": "SF2_C_H2O.SRR6056279.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2A_A_H2O",
+   "srr": "SRR5210215",
+   "coverage_group": "R2A",
+   "input_reads_ref": "275645/73/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2A_A_H2O.SRR5210215.trim_paired",
+   "other_outputs": [
+    "R2A_A_H2O.SRR5210215.trim_unpaired_fwd",
+    "R2A_A_H2O.SRR5210215.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/73/1",
+     "output_reads_name": "R2A_A_H2O.SRR5210215.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2A_B_H2O",
+   "srr": "SRR5210211",
+   "coverage_group": "R2A",
+   "input_reads_ref": "275645/76/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2A_B_H2O.SRR5210211.trim_paired",
+   "other_outputs": [
+    "R2A_B_H2O.SRR5210211.trim_unpaired_fwd",
+    "R2A_B_H2O.SRR5210211.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/76/1",
+     "output_reads_name": "R2A_B_H2O.SRR5210211.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  },
+  {
+   "sample": "R2A_C_H2O",
+   "srr": "SRR5210467",
+   "coverage_group": "R2A",
+   "input_reads_ref": "275645/78/1",
+   "method": "kb_trimmomatic.runTrimmomatic",
+   "app_id": "kb_trimmomatic/run_trimmomatic",
+   "tag": "release",
+   "service_ver": "5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5",
+   "client_group": "bigmem",
+   "output_name_to_poll": "R2A_C_H2O.SRR5210467.trim_paired",
+   "other_outputs": [
+    "R2A_C_H2O.SRR5210467.trim_unpaired_fwd",
+    "R2A_C_H2O.SRR5210467.trim_unpaired_rev",
+    "kb_trimmomatic_report_<uuid4>"
+   ],
+   "params": [
+    {
+     "input_ws": "freiburgermsu:narrative_1793847843029",
+     "output_ws": "freiburgermsu:narrative_1793847843029",
+     "input_reads_ref": "275645/78/1",
+     "output_reads_name": "R2A_C_H2O.SRR5210467.trim",
+     "translate_to_phred33": 1,
+     "adapter_clip": {
+      "adapterFa": "TruSeq3-PE-2.fa",
+      "seed_mismatches": 2,
+      "palindrome_clip_threshold": 30,
+      "simple_clip_threshold": 10
+     },
+     "sliding_window": {
+      "sliding_window_size": 4,
+      "sliding_window_min_quality": 15
+     },
+     "leading_min_quality": 3,
+     "trailing_min_quality": 3,
+     "crop_length": 0,
+     "head_crop_length": 0,
+     "min_length": 50
+    }
+   ]
+  }
+ ]
+}

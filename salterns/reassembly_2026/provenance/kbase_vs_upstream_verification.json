@@ -1,0 +1,607 @@
+[
+ {
+  "tool": "BBTools (BBDuk/BBMap)",
+  "side": "kbase",
+  "claimed": "38.22 in RQCFilter (release) and jgi_mg_assembly (beta); 37.90 in the MetaBAT2 app (bbmap.sh ... fast ... mappedonly nodisk; same in 2022 beta); 38.90 in the CONCOCT app; 38.73 in kb_readmapper; 38.94 in dev-only run_BBMap; RQCFilter category ['reads'] is shown in the app panel",
+  "verdict": "verified",
+  "evidence": "Catalog get_module_info BBTools: release version 0.5.0, git_commit_hash cdfefe87f15639c14de2d7ad137920b892a8e35b, timestamp 2018-11-26; Dockerfile at that commit: 'BBMAP_VERSION=$(cat /kb/module/bbmap_version)'; https://raw.githubusercontent.com/kbaseapps/BBTools/cdfefe87f15639c14de2d7ad137920b892a8e35b/bbmap_version = '38.22'; dev cd0e4223 (2021-11-11) bbmap_version = '38.94'. NMS release: 'Run the JGI RQCFilter pipeline (BBTools v38.22)', categories ['reads']; BBTools/run_BBMap at release/beta: 'Method is not found'; at dev: 'Run the JGI BBMap Read Aligner (BBTools v38.94)'. jgi_mg_assembly beta c834d2a0 pipeline.cfg: 'BBTools = 38.22'. metabat caf4e3c0 (gitlab.com/jfroula/kbase-metabat) metabat_binary/bbmap/README.md: '# Version 37.90'; lib/metabat/Utils/MetabatUtil.py: 'bbmap.sh -Xmx{} fast threads={} ref={} in={} out={} mappedonly nodisk overwrite'; beta bd317234 has the same bbmap tree object id 96768888fc and the same command. kb_concoct 936c9bfe Dockerfile: 'wget https://sourceforge.net/projects/bbmap/files/latest/download'; catalog get_parsed_build_log 1617232313550_9eb73b9f (2021-03-31, uncached): 'Location: https://downloads.sourceforge.net/project/bbmap/BBMap_38.90.tar.gz'. kb_readmapper 05c2b0be bbmap_version '38.73'; build log 1581440790800: 'Saving to: BBMap_38.73.tar.gz'. Panel: kbase/narrative kbaseNarrativeAppPanel.js (develop 362ccef6) fallback ignoreCategories {inactive:1, importers:1, viewers:1}; the live list comes from NarrativeService appinfo.py: IGNORE_CATEGORIES = {'inactive','importers','viewers'}. Extra: kb_das_tool also vendors BBMap 37.90 (lib/kb_das_tool/bin/bbmap/README.md '# Version 37.90')."
+ },
+ {
+  "tool": "BBTools (BBDuk/BBMap)",
+  "side": "upstream",
+  "claimed": "40.05 (2026-10-14 SourceForge; bioconda build 2026-10-17)",
+  "verdict": "verified",
+  "evidence": "https://sourceforge.net/projects/bbmap/files/ row: 'BBMap_40.05.tar.gz | 2026-10-14 | 88.8 MB' (newest BBMap file; 40.04 2026-10-12, 40.03 2026-10-11). https://api.anaconda.org/package/bioconda/bbmap: latest_version '40.05', upload_time 2026-10-17. GitHub bbushnell/BBTools tag v40.05 commit date 2026-10-14; the newest GitHub release object is only v40.01 (2026-08-03), so later versions exist as tags only."
+ },
+ {
+  "tool": "fastp",
+  "side": "kbase",
+  "claimed": "none (not in KBase)",
+  "verdict": "verified",
+  "evidence": "Catalog.list_basic_module_info (include_released/unreleased/disabled; 568 modules): no module name or git_url matching fastp. NMS list_methods_full_info (release 493, beta 719, dev 1119 methods): no id, name, subtitle, tooltip or description matching 'fastp'. gh search code --owner kbaseapps fastp: only kbaseapps/kb_SparCC kb_SparCC.spec line 64 '/* FastPar' (a SparCC parameter), a false positive."
+ },
+ {
+  "tool": "fastp",
+  "side": "upstream",
+  "claimed": "1.4.0 (2026-10-07)",
+  "verdict": "verified",
+  "evidence": "gh api repos/OpenGene/fastp/releases/latest: tag_name 'v1.4.0', published_at 2026-10-07T00:51:29Z; master head ee125a52 'set version to v1.4.0'; api.anaconda.org bioconda/fastp latest_version 1.4.0, uploaded 2026-10-07."
+ },
+ {
+  "tool": "Trimmomatic",
+  "side": "kbase",
+  "claimed": "0.39 (kb_trimmomatic/run_trimmomatic; kb_trimmomatic 1.2.15 @ 5fb0fc6a, registered 2025-01-30)",
+  "verdict": "verified",
+  "evidence": "Catalog kb_trimmomatic release version 1.2.15, git_commit_hash 5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5, timestamp 2025-01-30 (beta and dev identical). https://raw.githubusercontent.com/kbaseapps/kb_trimmomatic/5fb0fc6aa22ac62359f5bd8f0d407f51c99beea5/Dockerfile: 'RUN curl -L https://github.com/usadellab/Trimmomatic/files/5854859/Trimmomatic-0.39.zip -o Trimmomatic-0.39.zip'. NMS: 'Trim Reads with Trimmomatic - v0.39'."
+ },
+ {
+  "tool": "Trimmomatic",
+  "side": "upstream",
+  "claimed": "0.41 (2026-07-03)",
+  "verdict": "verified",
+  "evidence": "gh api repos/usadellab/Trimmomatic/releases/latest: tag_name 'v0.41', published_at 2026-07-03T12:33:29Z (previous v0.40 2025-08-20, v0.39 2021-01-22); bioconda trimmomatic latest_version 0.41, uploaded 2026-07-03."
+ },
+ {
+  "tool": "MEGAHIT",
+  "side": "kbase",
+  "claimed": "1.2.9 (MEGAHIT 2.4.3 @ e2e6d557, registered 2022-12-20, github.com/kbaseapps/kb_megahit; the 2019-12-11 release 2.4.2 @ dfbd3ad0 was already 1.2.9; MegaHit_Sets/run_megahit is a 2017 'inactive' module)",
+  "verdict": "verified",
+  "evidence": "Catalog MEGAHIT: release 2.4.3, git_commit_hash e2e6d557da8a92d8b9a6cb4893a2a7293a3068bf, 2022-12-20, git_url https://github.com/kbaseapps/kb_megahit; list_released_module_versions includes 2.4.2 dfbd3ad0467892b2b998796a02d4259fe7cc742f (2019-12-11). Both Dockerfiles (raw.githubusercontent.com/kbaseapps/kb_megahit/<commit>/Dockerfile): 'ARG filename=MEGAHIT-1.2.9-Linux-x86_64-static' and 'curl -L -O https://github.com/voutcn/megahit/releases/download/v1.2.9/${filename}.tar.gz'. NMS: 'Assemble Reads with MEGAHIT v1.2.9'. MegaHit_Sets 0.4.1 (2017-01-26) run_megahit categories ['inactive','assembly','communities']."
+ },
+ {
+  "tool": "MEGAHIT",
+  "side": "upstream",
+  "claimed": "1.2.9 (2019-10-15)",
+  "verdict": "verified",
+  "evidence": "gh api repos/voutcn/megahit/releases/latest: tag_name 'v1.2.9', published_at 2019-10-15T02:53:17Z; there is no newer release or tag (master has only maintenance commits, e.g. c77d45c1 2025-10-28 'fix cmake minimum version'); bioconda megahit latest_version 1.2.9."
+ },
+ {
+  "tool": "metaSPAdes (SPAdes)",
+  "side": "kbase",
+  "claimed": "3.15.3 in the release (kb_SPAdes 1.3.4 @ ee3f83f9, 2022-10-13) and in the 2025-07-28 beta (d2893e6f); earlier releases v1.2.3 (2019-06-28) and v1.2.4 (2020-01-24) ran 3.13.0; jgi_mg_assembly (beta only) SPAdes 3.12.0; AssemblyRAST/run_spades inactive",
+  "verdict": "verified",
+  "evidence": "Catalog kb_SPAdes: release 1.3.4 ee3f83f9d451a7d0ad86709e55e8653bee497e30 (2022-10-13); beta/dev d2893e6f8dd36193ebdcf7c0cce93e5761654bff (2025-07-28); list_released_module_versions: 1.2.3 17687df2 (2019-06-28), 1.2.4 c16af2da (2020-01-24). Dockerfiles: ee3f83f9 and d2893e6f 'ENV SPADES_VERSION='3.15.3'' (beta: 'wget https://github.com/ablab/spades/releases/download/v3.15.3/SPAdes-3.15.3-Linux.tar.gz'); 17687df2 and c16af2da 'ENV SPADES_VERSION='3.13.0''. NMS release and beta: 'Assemble Reads with metaSPAdes - v3.15.3' (also run_SPAdes and run_hybridSPAdes, v3.15.3). jgi_mg_assembly beta c834d2a0 pipeline.cfg: 'SPAdes = 3.12.0'. AssemblyRAST/run_spades categories ['inactive','assembly']."
+ },
+ {
+  "tool": "metaSPAdes (SPAdes)",
+  "side": "upstream",
+  "claimed": "4.3.0 (2026-06-14)",
+  "verdict": "verified",
+  "evidence": "gh api repos/ablab/spades/releases/latest: tag_name 'v4.3.0', published_at 2026-06-14T10:06:02Z (tag commit 2026-06-13; previous v4.2.0 2025-05-06, v4.0.0 2024-06-04); bioconda spades latest_version 4.3.0, first upload 2026-06-15."
+ },
+ {
+  "tool": "IDBA-UD",
+  "side": "kbase",
+  "claimed": "1.1.3 patched to kMaxShortSequence = 512 (kb_IDBA 1.0.6 @ 3ec8e2d2, 2022-10-13); AssemblyRAST/run_idba inactive",
+  "verdict": "verified",
+  "evidence": "Catalog kb_IDBA release 1.0.6, 3ec8e2d205e6d4bc39cbcf5a3d5617f1aa8232a3, 2022-10-13. https://raw.githubusercontent.com/kbaseapps/kb_IDBA/3ec8e2d205e6d4bc39cbcf5a3d5617f1aa8232a3/Dockerfile: 'wget https://github.com/loneknightpy/idba/releases/download/1.1.3/idba-1.1.3.tar.gz' and \"sed -i -- 's/kMaxShortSequence *= *[0-9][0-9]*/kMaxShortSequence = 512/' src/sequence/short_sequence.h\". NMS: 'Assemble Reads with IDBA-UD - v1.1.3'. AssemblyRAST/run_idba categories ['inactive']."
+ },
+ {
+  "tool": "IDBA-UD",
+  "side": "upstream",
+  "claimed": "1.1.3 (2016-07-11)",
+  "verdict": "verified",
+  "evidence": "gh api repos/loneknightpy/idba/releases/latest: tag_name '1.1.3', published_at 2016-07-11T19:55:21Z; last master commit a1bafe6b 2016-12-31; bioconda idba latest_version 1.1.3."
+ },
+ {
+  "tool": "Bowtie2",
+  "side": "kbase",
+  "claimed": "2.3.2 in kb_Bowtie2 (0.4.2 @ 6a2636c6, 2019-06-28; NMS categories active, expression, sequence); Debian stretch 2.3.0-2 in the CONCOCT app (default 'bowtie2_default', also 'bowtie2_very_sensitive'); 2.2.3 in the MaxBin2 app (built by MaxBin 2.2.4's auxiliary installer)",
+  "verdict": "verified",
+  "evidence": "kb_Bowtie2 release 0.4.2 6a2636c6f2a9723f50855e4c693a79a5ce2c464f (2019-06-28); Dockerfile and build log 1561689956285: \"RUN VERSION='2.3.2' ... bowtie2-${VERSION}-source.zip\" (cached layer, but the instruction pins the version); NMS 'Align Reads using Bowtie2 - v2.3.2', categories ['active','expression','sequence']. kb_concoct build log 1617232313550 (uncached): 'Get:86 http://httpredir.debian.org/debian stretch/main amd64 bowtie2 amd64 2.3.0-2', 'Setting up bowtie2 (2.3.0-2)'; spec.json read_mapping_tool default_values ['bowtie2_default'], options include 'bowtie2_very_sensitive'. kb_maxbin 3574f0b2 Dockerfile runs MaxBin-2.2.4 './autobuild_auxiliary'; MaxBin-2.2.4/buildapp (SourceForge tarball): 'my $bowtie_f = \"bowtie2-2.2.3-source.zip\";'; MaxBinUtil.py passes '-reads_list' to run_MaxBin.pl, so this Bowtie2 does the mapping."
+ },
+ {
+  "tool": "Bowtie2",
+  "side": "upstream",
+  "claimed": "2.5.5 (2026-02-16)",
+  "verdict": "verified",
+  "evidence": "gh api repos/BenLangmead/bowtie2/releases/latest: tag_name 'v2.5.5', published_at 2026-02-17T03:48:37Z (UTC, i.e. 16 Feb in US time); NEWS at tag v2.5.5: '## Version 2.5.5 - Feb 16, 2026 ##'; SourceForge bowtie-bio/files/bowtie2 folder 2.5.5 modified 2026-03-07; bioconda bowtie2 latest_version 2.5.5 (first upload 2026-02-20)."
+ },
+ {
+  "tool": "BWA (BWA-MEM)",
+  "side": "kbase",
+  "claimed": "0.7.17-r1198-dirty (lh3/bwa commit 3ddd7b87, 2021-05-10) in kb_meta_decoder/map_reads_to_reference (BAM returned only as a report file); Debian stretch 0.7.15-2+deb9u1 in dev-only kb_Bwa (release=null, beta=null)",
+  "verdict": "verified",
+  "evidence": "kb_meta_decoder release 1.0.2 2c0fd8e0b7df5b9a564cd2e8deffd55c35ea1b4c (2022-04-12). Dockerfile: 'git clone https://github.com/lh3/bwa.git && cd bwa && git reset --hard 3ddd7b87d41f89a404d95f083fb37c369f70d783 && make'. gh api repos/lh3/bwa/commits/3ddd7b87: committer.date 2021-05-10T16:48:45Z. main.c at that commit: '#define PACKAGE_VERSION \"0.7.17-r1198-dirty\"'. Release image layer e2db10723e9a was built by registration 1646170127756 (log: 'HEAD is now at 3ddd7b8'). Impl: '/usr/local/bin/bwa mem ... |samtools view -S -b'; the BAM goes through dfuClient.file_to_shock into the report's 'file_links', with 'objects_created': []. kb_Bwa: catalog release None, beta None, dev 0.0.1 15a0a4bab7d1e327f5d2259f136678768409dd43 (2020-12-11); build log 1607723204160: 'Get:1 http://httpredir.debian.org/debian stretch/main amd64 bwa amd64 0.7.15-2+deb9u1', 'Setting up bwa (0.7.15-2+deb9u1)'. NMS run_kb_Bwa exists only at dev."
+ },
+ {
+  "tool": "BWA (BWA-MEM)",
+  "side": "upstream",
+  "claimed": "0.7.19 (r1273) (2025-03-22)",
+  "verdict": "verified",
+  "evidence": "gh api repos/lh3/bwa/releases/latest: tag_name 'v0.7.19', name 'BWA-0.7.19 (r1273)', published_at 2025-03-22T19:05:09Z; bioconda bwa latest_version 0.7.19. Context: the lh3/bwa README now says 'BWA-MEM ... will be replaced by minibwa for short reads' and points to BWA-MEM2 and BWA-MEM3 (fg-labs/bwa-mem3, latest v0.16.0, 2026-11-02)."
+ },
+ {
+  "tool": "BWA-MEM2",
+  "side": "kbase",
+  "claimed": "none (not in KBase)",
+  "verdict": "verified",
+  "evidence": "No catalog module (568, including unreleased and disabled) and no NMS method at release, beta or dev (full-info text search, pattern bwa[-_ ]?mem2) mentions BWA-MEM2; gh search code --owner kbaseapps 'bwa-mem2': 0 hits."
+ },
+ {
+  "tool": "BWA-MEM2",
+  "side": "upstream",
+  "claimed": "2.3 (2025-06-30)",
+  "verdict": "verified",
+  "evidence": "gh api repos/bwa-mem2/bwa-mem2/releases/latest: tag_name 'v2.3', published_at 2025-06-30T08:18:36Z (the tag points at a 2024-05-08 commit); bioconda bwa-mem2 latest_version 2.3, uploaded 2025-07-02."
+ },
+ {
+  "tool": "minimap2",
+  "side": "kbase",
+  "claimed": "2.17 in the CONCOCT app; 2.30 from bioconda in kb_minimap (beta only, 'Minimap2 Host Filter', not a coverage app), inferred",
+  "verdict": "verified",
+  "evidence": "kb_concoct 936c9bfe Dockerfile: 'wget https://github.com/lh3/minimap2/releases/download/v2.17/minimap2-2.17.tar.bz2', 'ENV PATH=/kb/module/lib/kb_concoct/bin/minimap2-2.17/:$PATH'. kb_minimap (git github.com/Cyrus-Shahnam/kb_minimap2): catalog release None, beta 0.0.1 17aab7c963dcf9193cfbe3c76c33e6551b1cc6ee (2025-10-08). Dockerfile: 'micromamba create -y -n hostf -c conda-forge -c bioconda minimap2=2.* samtools=1.*', then 'ENV PATH=/opt/conda/envs/hostf/bin:$PATH'. The beta build log shows 'Using cache' for every layer; those layers were created by registration 1759944721276 (2025-10-08 17:32), whose log reads '+ minimap2 2.30 h577a1d6_0 bioconda'. apt also installs 'minimap2 (2.17+dfsg-2)', but PATH order shadows it, and kb_minimapImpl.py calls 'minimap2' by name. The 2.30 figure is therefore observed directly in the build log, not inferred. NMS beta: 'Minimap2 Host Filter', categories ['read_processing']."
+ },
+ {
+  "tool": "minimap2",
+  "side": "upstream",
+  "claimed": "2.31 (r1302) (2026-05-19)",
+  "verdict": "verified",
+  "evidence": "gh api repos/lh3/minimap2/releases/latest: tag_name 'v2.31', published_at 2026-05-19T22:40:40Z; master commit 3c28777e 'Release minimap2-2.31 (r1302)'; bioconda minimap2 latest_version 2.31 (2026-05-20)."
+ },
+ {
+  "tool": "strobealign",
+  "side": "kbase",
+  "claimed": "none (not in KBase)",
+  "verdict": "verified",
+  "evidence": "No catalog module and no NMS method at release, beta or dev matches 'strobe'; gh search code --owner kbaseapps strobealign: 0 hits."
+ },
+ {
+  "tool": "strobealign",
+  "side": "upstream",
+  "claimed": "0.19.1 (2026-10-19)",
+  "verdict": "verified",
+  "evidence": "gh api repos/ksahlin/strobealign/releases/latest: tag_name 'v0.19.1', published_at 2026-10-19T20:53:29Z (v0.19.0 2026-10-08); bioconda strobealign latest_version 0.19.1 (2026-10-22)."
+ },
+ {
+  "tool": "CoverM",
+  "side": "kbase",
+  "claimed": "none usable; CoverM/run_CoverM is a dev-only registration (0.0.1 @ 48706d98, 2019-11-13) that bundled CoverM 0.3.0 and minimap2 2.17; github.com/n1mus/coverm returns 404",
+  "verdict": "verified",
+  "evidence": "Catalog CoverM: release None, beta None, dev 0.0.1 48706d980f5020dcb7245615ef6578a0b8dae523 (2019-11-13), git_url https://github.com/n1mus/coverm, which returns HTTP 404 (web and gh api). NMS run_CoverM exists only at dev ('CoverM', ['active']). Build log 1573609755823: 'curl --location https://github.com/wwood/CoverM/releases/download/v0.3.0/coverm-x86_64-unknown-linux-musl-0.3.0.tar.gz', 'curl -L https://github.com/lh3/minimap2/releases/download/v2.17/minimap2-2.17_x64-linux.tar.bz2' (plus samtools-1.9). The only other CoverM mention in NMS is a citation in dev-only kb_metabolic (release None, beta None)."
+ },
+ {
+  "tool": "CoverM",
+  "side": "upstream",
+  "claimed": "0.8.0 (2026-07-08)",
+  "verdict": "verified",
+  "evidence": "gh api repos/wwood/CoverM/releases/latest: tag_name 'v0.8.0', published_at 2026-07-08T03:37:16Z (previous v0.7.0 2024-01-19); bioconda coverm latest_version 0.8.0 (2026-07-08)."
+ },
+ {
+  "tool": "samtools",
+  "side": "kbase",
+  "claimed": "1.4.1 in ReadsAlignmentUtils; Debian stretch 1.3.1-3 (libhts1 1.3.2-2) in the CONCOCT app and kb_readmapper; 1.7 bundled in the MetaBAT2 app; Debian buster package in kb_meta_decoder (exact version unverified, cached layer); 1.22.1 in kb_minimap beta",
+  "verdict": "corrected",
+  "corrected": "Same as claimed, except the kb_meta_decoder version is now pinned: Debian buster samtools 1.9-4 (libhts2 1.9-12~deb10u1).",
+  "evidence": "ReadsAlignmentUtils 0.3.9 63bc7582bff40a01d7ce31e5afdc7648d680b411 (2019-11-22), build log 1574443074354: 'wget https://github.com/samtools/samtools/releases/download/1.4.1/samtools-1.4.1.tar.bz2'. kb_concoct build log 1617232313550 and kb_readmapper build log 1581440790800: 'Setting up libhts1:amd64 (1.3.2-2)', 'Setting up samtools (1.3.1-3)'. metabat caf4e3c0 metabat_binary/samtools/bin/samtools strings: 'samtools %s:' followed by '1.7', build paths 'htslib-1.7/htslib'. kb_meta_decoder release log 1649792656332, step 6 apt-get: 'Using cache ---> 37d49c2cc1d0'; the same layer id was built by registration 1646170127756 (2022-03-01), whose log reads 'Get:688 http://deb.debian.org/debian buster/main amd64 samtools amd64 1.9-4', 'Setting up libhts2:amd64 (1.9-12~deb10u1)', 'Setting up samtools (1.9-4)'. kb_minimap layer build 1759944721276: '+ samtools 1.22.1 h96c455f_0 bioconda', '+ htslib 1.22.1'."
+ },
+ {
+  "tool": "samtools",
+  "side": "upstream",
+  "claimed": "1.25 (2026-10-27)",
+  "verdict": "verified",
+  "evidence": "gh api repos/samtools/samtools/releases/latest: tag_name '1.25', published_at 2026-10-27T12:04:57Z (maintenance releases 1.24.1, 1.23.3, 1.22.4 and 1.21.3 the same day); bioconda samtools latest_version 1.25 (2026-10-27)."
+ },
+ {
+  "tool": "Coverage mapping in KBase binning apps (MetaBAT2, CONCOCT, MaxBin2)",
+  "side": "kbase",
+  "claimed": "MetaBAT2: BBMap 37.90 'fast', samtools 1.7, jgi_summarize_bam_contig_depths (bundled); beta 2.3.1 @ bd317234 still BBMap 37.90. CONCOCT: Bowtie2 2.3.0 by default, or BBMap 38.90, minimap2 2.17 or HISAT2 2.1.0; samtools 1.3.1; coverage from 'samtools bedcov' via CONCOCT 1.1.0 concoct_coverage_table.py plus jgi_summarize_bam_contig_depths. MaxBin2: Bowtie2 2.2.3 inside MaxBin 2.2.4",
+  "verdict": "verified",
+  "evidence": "metabat caf4e3c0 MetabatUtil.py: 'bbmap.sh -Xmx{} fast threads={} ref={} in={} out={} mappedonly nodisk overwrite', then 'samtools view -F 0x04 -uS ... | samtools sort', then 'jgi_summarize_bam_contig_depths'; bundled metabat_binary/{bbmap (README '# Version 37.90'), samtools/bin/samtools ('1.7'), jgi_summarize_bam_contig_depths}; beta bd317234 uses the same command and the same bbmap/samtools tree ids. kb_concoct 936c9bfe spec.json read_mapping_tool default 'bowtie2_default', options bbmap_fast/bbmap_default/bbmap_very_sensitive/bowtie2_default/bowtie2_very_sensitive/hisat2/minimap2. Build log 1617232313550: bowtie2 2.3.0-2, samtools 1.3.1-3, BBMap_38.90.tar.gz; Dockerfile minimap2 v2.17 and 'hisat2-2.1.0-Linux_x86_64.zip'. ConcoctUtil.py: 'python {}/scripts/concoct_coverage_table.py temp.bed' and '/kb/module/lib/kb_concoct/bin/jgi_summarize_bam_contig_depths'; CONCOCT 823dcd67 scripts/concoct_coverage_table.py: 'subprocess.Popen([\"samtools\", \"bedcov\", bedfile] + bamfiles'. kb_maxbin 3574f0b2: MaxBin-2.2.4 buildapp 'bowtie2-2.2.3-source.zip'; MaxBinUtil.py '-reads_list'."
+ },
+ {
+  "tool": "Coverage mapping in KBase binning apps (MetaBAT2, CONCOCT, MaxBin2)",
+  "side": "upstream",
+  "claimed": "Bowtie2 2.5.5 (2026-02-16); BBMap 40.05 (2026-10-14); minimap2 2.31 (2026-05-19); samtools 1.25 (2026-10-27); strobealign 0.19.1 (--aemb) (2026-10-19); CoverM 0.8.0 (2026-07-08)",
+  "verdict": "verified",
+  "evidence": "Same sources as the per-tool upstream rows: Bowtie2 v2.5.5 (NEWS 'Version 2.5.5 - Feb 16, 2026'; GitHub published 2026-02-17T03:48:37Z UTC); BBMap_40.05.tar.gz SourceForge 2026-10-14; minimap2 v2.31 published 2026-05-19T22:40:40Z; samtools 1.25 published 2026-10-27T12:04:57Z; strobealign v0.19.1 published 2026-10-19T20:53:29Z, README at v0.19.1: 'The command-line option --aemb switches strobealign into abundance estimation', CHANGES '#394: Added option --aemb (abundance estimation for metagenomic binning)'; CoverM v0.8.0 published 2026-07-08T03:37:16Z."
+ },
+ {
+  "tool": "MetaHipMer2 (MHM2)",
+  "side": "kbase",
+  "claimed": "MHM2 v2.1.0.1-357 in the release (hipmer 2.2.4 @ 538ffad4, 2023-05-25; categories ['inactive','assembly','communities'], hidden); the beta's app name says v2.2.0.0-cpu (2.3.0 @ ed40108e, 2024-04-17)",
+  "verdict": "verified",
+  "evidence": "Catalog hipmer: release 2.2.4 538ffad4a25b69ed119091b753bde6019193701b (2023-05-25); beta/dev 2.3.0 ed40108ef820bd8e9d4f3c0ad3840bc9cd3c75fe (2024-04-17). The repo ships mhm2.tgz, whose top directory is 'v2.1.0.1-357-gb7d8793-knl/' at the release (files dated 2022-08-28) and 'v2.2.0.0-perlmutter-cpu/' at the beta. hipmerUtils.py job script: 'HIPMER_INSTALL=$(pwd)/v2*/bin' then '${HIPMER_INSTALL}/mhm2.py' (release '#SBATCH -C knl,quad,cache'; beta '#SBATCH -C cpu'). NMS release: 'Assemble Metagenomic Reads with MetaHipMer - v2.1.0.1-357', categories ['inactive','assembly','communities'] (hidden, because NarrativeService IGNORE_CATEGORIES includes 'inactive'). NMS beta: 'Assemble Metagenomic Reads with MetaHipMer - v2.2.0.0-cpu', categories ['assembly','communities']. RELEASE_NOTES: 2.2.4 '* hide App'; 2.3.0 '* reactivated App'; 2.1.0 '* Update to MetaHipMer v2.1.0.1-357'."
+ },
+ {
+  "tool": "MetaHipMer2 (MHM2)",
+  "side": "upstream",
+  "claimed": "2.2.2.0 (2025-10-02)",
+  "verdict": "verified",
+  "evidence": "https://api.bitbucket.org/2.0/repositories/berkeleylab/mhm2/refs/tags?sort=-target.date: newest tag 'v2.2.2.0', target a7f17d1a43, date 2025-10-03T00:18:22+00:00. Commit patch header: 'Date: Thu, 2 Oct 2025 20:18:22 -0400', 'Subject: updated version to 2.2.2.0' (2025-10-02 local, 2025-10-03 UTC). Earlier tags: v2.2.1.0 2025-01-28, v2.2.0.0 2023-10-04. Master is active (b54f1ae8, 2026-10-28) but untagged since. Not on bioconda (api.anaconda.org/package/bioconda/mhm2 returns 404) and not on GitHub."
+ },
+ {
+  "tool": "Cutadapt",
+  "side": "kbase",
+  "claimed": "1.18 (kb_cutadapt 1.0.8 @ 4e1386ef, 2019-06-11); the dev branch pins 4.9 (c788a5e6, 2025-09-02) but is not released",
+  "verdict": "verified",
+  "evidence": "Catalog kb_cutadapt: release and beta 1.0.8 4e1386ef1098f7ef2114167e72f13bb7d4e2955f (2019-06-11); dev c788a5e680b578523f458a63666737bea7edff46 (2025-09-02). Dockerfile at 4e1386ef: 'RUN pip install cutadapt==1.18'; at c788a5e6: 'python3 -m pip install --no-cache-dir \"cutadapt==4.9\"'. NMS release/beta: 'Cutadapt - v1.18' (the dev entry is also still named 'Cutadapt - v1.18')."
+ },
+ {
+  "tool": "Cutadapt",
+  "side": "upstream",
+  "claimed": "5.2 (2025-10-23)",
+  "verdict": "verified",
+  "evidence": "https://pypi.org/pypi/cutadapt/json: info.version '5.2', 5.2 files upload_time 2025-10-23T13:32:16Z; git tag v5.2 commit date 2025-10-23 (GitHub release objects stop at v4.0 from 2022, so releases/latest understates the version); bioconda cutadapt latest_version 5.2."
+ },
+ {
+  "tool": "MetaBAT2",
+  "side": "kbase",
+  "claimed": "MetaBAT 2 v2.12.1 static binary built Aug 31 2017 (metabat 2.3.0 @ caf4e3c0, released 2019-07-08, GitLab jfroula/kbase-metabat, not kbaseapps); app title 'v1.7' is not the tool version; run_metabat_bigmem beta/dev only; beta/dev 2.3.1 @ bd317234 (2022-02-15) ships a byte-identical metabat2 (sha256 b013ad8e46824b5e...)",
+  "verdict": "verified",
+  "evidence": "Catalog metabat: git_url https://gitlab.com/jfroula/kbase-metabat; release 2.3.0 caf4e3c0c415602f3e11f1473734a7b682c6fdfb (2019-07-08); beta/dev 2.3.1 bd317234abfc301ff4d0fd63b1abe7615052b78f (2022-02-15). Dockerfile: 'COPY metabat_binary /kb/deployment/bin/metabat_binary/'. https://gitlab.com/jfroula/kbase-metabat/-/raw/caf4e3c0.../metabat_binary/metabat2: statically linked ELF, sha256 b013ad8e46824b5eefb827e122b4b17b595072dab4b1ee6efd44646e527a84bd; strings: '2.12.1', 'Aug 31 2017', '21:02:54' (format 'MetaBAT 2 (v%s)'). The GitLab tree gives metabat2 blob id aa1df8491c at both caf4e3c0 and bd317234, so the beta binary is byte-identical. NMS: 'MetaBAT2 Contig Binning - v1.7' (release ver 2.3.0, beta 2.3.1); metabat/run_metabat_bigmem release 'Method is not found', beta/dev 'MetaBAT2 Contig Binning - v1.7 (Large)'."
+ },
+ {
+  "tool": "MetaBAT2",
+  "side": "upstream",
+  "claimed": "v2.18 is the latest tag (2025-01-24); bioconda carries an untagged master build 2.18_23_gc869c52, uploaded 2026-05-06 (commit c869c524d0, 2026-05-04)",
+  "verdict": "verified",
+  "evidence": "https://api.bitbucket.org/2.0/repositories/berkeleylab/metabat/refs/tags?sort=-target.date: newest 'v2.18', date 2025-01-24T07:29:51+00:00 (then v2.17 2023-09-12; v2.12.1 2017-09-01). Master commits: c869c524d0 2026-05-04T22:44:12+00:00 'Merged in Issue184 (pull request #47)'; later only README edits (8eb96023ef, 2026-08-20). README: 'This bitbucket repository ... remains the primary place for the latest version'. api.anaconda.org bioconda/metabat2: latest_version '2.18_23_gc869c52', upload_time 2026-05-06."
+ },
+ {
+  "tool": "MaxBin2",
+  "side": "kbase",
+  "claimed": "MaxBin 2.2.4 with its bundled Bowtie2 2.2.3 (kb_maxbin 1.1.1 @ 3574f0b2, released 2019-08-29; beta and dev are the same commit)",
+  "verdict": "verified",
+  "evidence": "Catalog kb_maxbin: release, beta and dev 1.1.1 3574f0b2cc343f4f530bd52b86c8cf8b6b1427f3 (2019-08-29). Dockerfile: 'wget https://sourceforge.net/projects/maxbin2/files/MaxBin-2.2.4.tar.gz/download ... ./autobuild_auxiliary'. Build log 1567116334535: 'https://downloads.sourceforge.net/project/maxbin2/MaxBin-2.2.4.tar.gz', 'Downloading and Building Bowtie2...'. MaxBin-2.2.4/buildapp: 'my $bowtie_f = \"bowtie2-2.2.3-source.zip\";'. NMS: 'Bin Contigs using MaxBin2 - v2.2.4'."
+ },
+ {
+  "tool": "MaxBin2",
+  "side": "upstream",
+  "claimed": "2.2.7 (2020-06-12 SourceForge file date; bioconda 2.2.7 builds date from 2019-10-24)",
+  "verdict": "verified",
+  "evidence": "https://sourceforge.net/projects/maxbin2/files/: 'MaxBin-2.2.7.tar.gz | 2020-06-12 | 3.7 MB', labelled 'Download Latest Version MaxBin-2.2.7.tar.gz' (2.2.6 2019-02-13; 2.2.4 2017-07-07). api.anaconda.org bioconda/maxbin2: latest_version 2.2.7, uploads 2019-10-24 to 2025-09-26."
+ },
+ {
+  "tool": "CONCOCT",
+  "side": "kbase",
+  "claimed": "CONCOCT 1.1.0 plus 3 post-release commits (develop HEAD 823dcd670bc4, 2019-11-11); kb_concoct 1.3.4 @ 936c9bfe, released 2021-03-31, the module's only release; beta and dev are the same commit",
+  "verdict": "verified",
+  "evidence": "Catalog kb_concoct: release, beta and dev 1.3.4 936c9bfed7e07dd1ddcb76ac4fa775b73d60afbb (2021-03-31); list_released_module_versions returns only 1.3.4. Dockerfile: 'git clone https://github.com/BinPro/CONCOCT' (unpinned; default_branch 'develop'). Build log 1617232313550 (2021-03-31): 'Installed .../concoct-1.1.0-py3.6-linux-x86_64.egg', 'Finished processing dependencies for concoct==1.1.0'. gh api commits?sha=develop&until=2021-03-31T23:18Z: the newest is 823dcd670bc4 (2019-11-11T05:31:21Z). compare/1.1.0...823dcd670bc4: ahead_by 5, which is 3 non-merge commits (fe0d479d, 07277566, ed451907) plus 2 merges (f27b1d9f, 823dcd67); status 'diverged', behind_by 1 relative to tag 1.1.0 (c9fe8075)."
+ },
+ {
+  "tool": "CONCOCT",
+  "side": "upstream",
+  "claimed": "1.1.0 (2019-08-02)",
+  "verdict": "verified",
+  "evidence": "gh api repos/BinPro/CONCOCT/releases/latest: tag_name '1.1.0', published_at 2019-08-02T08:10:44Z; there are no later tags or releases, and develop has not changed since 823dcd67 (2019-11-11); bioconda concoct latest_version 1.1.0."
+ },
+ {
+  "tool": "DAS Tool",
+  "side": "kbase",
+  "claimed": "DAS Tool 1.1.2 with DIAMOND 0.9.27, Prodigal 2.6.3 and BLAST+ 'LATEST' as of the image build (kb_das_tool 1.0.7 @ c70fdbde, released 2021-07-16; earlier releases from 1.0.1 on 2019-12-20 to 1.0.6 on 2021-05-17)",
+  "verdict": "corrected",
+  "corrected": "Same as claimed, with BLAST+ resolved to 2.11.0: the 'LATEST' download layer in the release image was built on 2021-04-05.",
+  "evidence": "Catalog kb_das_tool: release 1.0.7 c70fdbdef91d5b6614dfd387fa127c1492769a8f (2021-07-16); list_released_module_versions: 1.0.1 (2019-12-20), 1.0.3 (2020-08-10), 1.0.5 (2021-05-03), 1.0.6 (2021-05-17), 1.0.7. Dockerfile at c70fdbde: 'prodigal/releases/download/v2.6.3/prodigal.linux', 'diamond/releases/download/v0.9.27/diamond-linux64.tar.gz', 'ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/*-x64-linux.tar.gz', 'DAS_Tool/archive/1.1.2.tar.gz'. Release build log 1626467919489: every tool layer 'Using cache'; the BLAST step layer is df4af323aaba. That layer was created by registration 1617642692882 (2021-04-05), whose log reads 'ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast%2B/LATEST/ncbi-blast-2.11.0%2B-x64-linux.tar.gz' then ' ---> df4af323aaba'. NMS: '... using DAS Tool - v1.1.2'."
+ },
+ {
+  "tool": "DAS Tool",
+  "side": "upstream",
+  "claimed": "1.1.7 (2024-01-08); master also has an untagged 2026-10-09 commit adding gzip support to Fasta_to_Contig2Bin.sh",
+  "verdict": "verified",
+  "evidence": "gh api repos/cmks/DAS_Tool/releases/latest: tag_name '1.1.7', published_at 2024-01-08T23:22:12Z; master head 846d0dc09d dated 2026-10-09, message 'add gzip support to Fasta_to_Contig2Bin.sh (#102)'; no tag after 1.1.7; bioconda das_tool latest_version 1.1.7."
+ },
+ {
+  "tool": "VAMB (incl. AVAMB, TaxVamb)",
+  "side": "kbase",
+  "claimed": "none; imramboVAMB (dev only, 0.0.1, 2019-10-30) runs an unpinned 'conda install -n VAMB -c bioconda vamb', was never in beta or released, and its app is named 'Method Name Here'",
+  "verdict": "verified",
+  "evidence": "Catalog imramboVAMB: release None, beta None, dev 0.0.1 dda809dcacbb455dce557a70866a6ba3063d4309 (2019-10-30). Dockerfile: 'conda create -n VAMB python=3.7 && conda install -n VAMB -c bioconda vamb'. NMS run_imramboVAMB release and beta absent ('wasn't tagged'); dev name 'Method Name Here'. Extra: build log 1572455592887 shows the unpinned install resolved to 'vamb-2.0.1 | py37h516909a_0 | bioconda'. No other catalog module or NMS method mentions VAMB."
+ },
+ {
+  "tool": "VAMB (incl. AVAMB, TaxVamb)",
+  "side": "upstream",
+  "claimed": "v5.0.4 (2025-04-29)",
+  "verdict": "verified",
+  "evidence": "gh api repos/RasmussenLab/vamb/releases/latest: tag_name 'v5.0.4', published_at 2025-04-29T13:02:59Z (v5.0.0 tag 2025-02-28; v4.1.3 2023-06-02); master has later doc and code commits (b146fb61, 2026-04-27) but no newer tag; bioconda vamb latest_version 5.0.4."
+ },
+ {
+  "tool": "SemiBin2",
+  "side": "kbase",
+  "claimed": "none (not in KBase)",
+  "verdict": "verified",
+  "evidence": "No catalog module (568) and no NMS method at release, beta or dev (full-info text) matches 'semibin'; gh search code --owner kbaseapps semibin: 0 hits."
+ },
+ {
+  "tool": "SemiBin2",
+  "side": "upstream",
+  "claimed": "v2.6.0 (2026-10-13)",
+  "verdict": "verified",
+  "evidence": "gh api repos/BigDataBiology/SemiBin/releases/latest: tag_name 'v2.6.0', published_at 2026-10-13T22:37:49Z (v2.5.0 2026-09-15); master head 851bbb2e 'RLS Version 2.6.0'; bioconda semibin latest_version 2.6.0 (2026-10-13)."
+ },
+ {
+  "tool": "COMEBin",
+  "side": "kbase",
+  "claimed": "Not in KBase",
+  "verdict": "verified",
+  "evidence": "Absence check covers: Catalog.list_basic_module_info (POST https://kbase.us/services/catalog, include_released/unreleased/disabled=1; 568 modules: no module_name/git_url match); NarrativeMethodStore.list_methods_full_info (POST https://kbase.us/services/narrative_method_store/rpc) for release (493), beta (719) and dev (1119) methods, grepping id/name/subtitle/tooltip/description/technical_description/publications: no match; Dockerfiles fetched from raw.githubusercontent.com/<repo>/<commit>/Dockerfile at every release/beta/dev commit (605 fetched; 33 unfetchable, mostly ContigFilter/demo modules, the rest e.g. n1mus/dRep, CoverM, MegaHit_Sets, kb_Vegan are covered by the NMS search; 9 non-GitHub modules not scanned): no match. Search term 'comebin'."
+ },
+ {
+  "tool": "COMEBin",
+  "side": "upstream",
+  "claimed": "1.1.0 (2026-08-16)",
+  "verdict": "verified",
+  "evidence": "gh api repos/ziyewang/COMEBin/releases: tag_name '1.1.0', name 'COMEBin v1.1.0', published_at 2026-08-16T15:08:38Z (previous 1.0.4, 2024-01-26). https://api.anaconda.org/package/bioconda/comebin: latest_version '1.1.0', first upload 2026-08-19. PyPI: 404. Release notes: 'Reduced runtime, memory usage, and intermediate disk I/O', 'Added optional fixed seeds for reproducible runs' (speed and usability; no algorithm change stated)."
+ },
+ {
+  "tool": "MetaDecoder",
+  "side": "kbase",
+  "claimed": "Not in KBase; kb_meta_decoder is an unrelated read-mapping, SNP and population-genetics module",
+  "verdict": "verified",
+  "evidence": "Absence check covers: Catalog.list_basic_module_info (568 modules), NMS list_methods_full_info for release (493), beta (719) and dev (1119) methods, and Dockerfiles at every release/beta/dev commit (605 fetched). The only NMS hits for 'metadecoder|meta_decoder' were kb_meta_decoder, kb_meta_decoder_py2 and a kb_StrainFinder publication link to kbaseapps/kb_meta_decoder. Catalog kb_meta_decoder release=beta=dev 1.0.2 @ 2c0fd8e0b7df5b9a564cd2e8deffd55c35ea1b4c (2022-04-12). Its Dockerfile at that commit: 'git clone -b py3 https://github.com/caozhichongchong/meta_decoder.git ... git clone https://bitbucket.org/yonatanf/strainfinder' (not liu-congcong/MetaDecoder). NMS release names: 'Map Reads to a Reference Sequence', 'Call Microbial SNPs' (BCFtools mpileup), 'Calculate population statistics, using meta_decoder'; dev-only kb_meta_decoder_py2/find_strains 'Find strains, using meta_decoder'."
+ },
+ {
+  "tool": "MetaDecoder",
+  "side": "upstream",
+  "claimed": "v1.2.2 (2025-12-12); GitHub wheel; not on PyPI or bioconda",
+  "verdict": "verified",
+  "evidence": "gh api repos/liu-congcong/MetaDecoder/releases: 'v1.2.2' name 'MetaDecoder v1.2.2' published_at 2025-12-12T03:30:12Z, asset 'metadecoder-1.2.2-py3-none-any.whl' (5,163,705 bytes). https://pypi.org/pypi/metadecoder/json and /MetaDecoder/json: HTTP 404. https://api.anaconda.org/package/bioconda/metadecoder: HTTP 404."
+ },
+ {
+  "tool": "BinSanity",
+  "side": "kbase",
+  "claimed": "Not in KBase",
+  "verdict": "verified",
+  "evidence": "Absence check covers: Catalog.list_basic_module_info (POST https://kbase.us/services/catalog, include_released/unreleased/disabled=1; 568 modules: no module_name/git_url match); NarrativeMethodStore.list_methods_full_info for release (493), beta (719) and dev (1119) methods: no match; Dockerfiles at every release/beta/dev commit (605 fetched; 33 unfetchable, mostly ContigFilter/demo modules; 9 non-GitHub modules not scanned): no match. Search term 'binsanity'."
+ },
+ {
+  "tool": "BinSanity",
+  "side": "upstream",
+  "claimed": "0.5.4 (tag commit 2021-04-07; PyPI upload 2021-05-25)",
+  "verdict": "verified",
+  "evidence": "gh api repos/edgraham/BinSanity: tag v0.5.4 -> commit 9032e788 'binsanity2-beta fix', committer date 2021-04-07T17:05:11Z; master commit dae19ec0 ' v0.5.4' 2021-05-25 (last master commit 2021-05-25). https://pypi.org/pypi/BinSanity/json: info.version '0.5.4', upload 2021-05-25T16:22:08Z. bioconda binsanity latest_version '0.5.4' (2021-06-05). Note: newest GitHub release object is v0.5.3 (2021-04-01); a tag 'v2.7' points to a 2018-05-04 commit ('Minor Changes to CheckM processing'), not a newer version."
+ },
+ {
+  "tool": "MetaBinner",
+  "side": "kbase",
+  "claimed": "Not in KBase",
+  "verdict": "verified",
+  "evidence": "Absence check covers: Catalog.list_basic_module_info (568 modules); NMS list_methods_full_info for release (493), beta (719) and dev (1119) methods; Dockerfiles at every release/beta/dev commit (605 fetched; 33 unfetchable, mostly ContigFilter/demo modules; 9 non-GitHub modules not scanned): no match. Search term 'metabinner'."
+ },
+ {
+  "tool": "MetaBinner",
+  "side": "upstream",
+  "claimed": "v1.4.4 (2022-09-15)",
+  "verdict": "verified",
+  "evidence": "gh api repos/ziyewang/MetaBinner/releases: 'v1.4.4' name 'MetaBinner v1.4.4' published_at 2022-09-15T18:09:43Z (latest). bioconda metabinner latest_version '1.4.4' (2022-09-16). PyPI: 404."
+ },
+ {
+  "tool": "MAGScoT",
+  "side": "kbase",
+  "claimed": "Not in KBase",
+  "verdict": "verified",
+  "evidence": "Absence check covers: Catalog.list_basic_module_info (568 modules); NMS list_methods_full_info for release (493), beta (719) and dev (1119) methods; Dockerfiles at every release/beta/dev commit (605 fetched; 33 unfetchable, mostly ContigFilter/demo modules; 9 non-GitHub modules not scanned): no match. Search term 'magscot'."
+ },
+ {
+  "tool": "MAGScoT",
+  "side": "upstream",
+  "claimed": "v1.1 (2024-10-10), GitHub only; master has an untagged Python port merged 2026-04-08",
+  "verdict": "verified",
+  "evidence": "gh api repos/ikmb/MAGScoT/releases: 'v1.1' name 'Release v1.1' published_at 2024-10-10T12:19:13Z (tags: v1.1, v1.0.0, v0.9 only). Pulls: #11 'Add Python port of MAGScoT.R' merged_at 2026-04-08T09:11:25Z (merge commit 0b561efc on master; no later tag). PyPI magscot and bioconda magscot: HTTP 404."
+ },
+ {
+  "tool": "Binette",
+  "side": "kbase",
+  "claimed": "Not in KBase",
+  "verdict": "verified",
+  "evidence": "Absence check covers: Catalog.list_basic_module_info (568 modules); NMS list_methods_full_info for release (493), beta (719) and dev (1119) methods; Dockerfiles at every release/beta/dev commit (605 fetched; 33 unfetchable, mostly ContigFilter/demo modules; 9 non-GitHub modules not scanned): no match. Search term 'binette'."
+ },
+ {
+  "tool": "Binette",
+  "side": "upstream",
+  "claimed": "v1.2.1 (2025-11-07)",
+  "verdict": "verified",
+  "evidence": "gh api repos/genotoul-bioinfo/Binette/releases: 'v1.2.1' published_at 2025-11-07T10:29:37Z. PyPI binette info.version '1.2.1', upload 2025-11-07T10:30:04Z. bioconda binette latest_version '1.2.1' (2025-11-10). v1.2.0 notes: 'Smarter bin filtering skips bins that are too small, too large, or too contaminated' and 'Output table format changed' (can affect results/parsers); rest is speed (bitmap storage, parallel CheckM2)."
+ },
+ {
+  "tool": "metaWRAP bin_refinement",
+  "side": "kbase",
+  "claimed": "Not in KBase",
+  "verdict": "verified",
+  "evidence": "Absence check covers: Catalog.list_basic_module_info (568 modules); NMS list_methods_full_info for release (493), beta (719) and dev (1119) methods; Dockerfiles at every release/beta/dev commit (605 fetched; 33 unfetchable, mostly ContigFilter/demo modules; 9 non-GitHub modules not scanned): no match. Search terms 'metawrap', 'metaWRAP'."
+ },
+ {
+  "tool": "metaWRAP bin_refinement",
+  "side": "upstream",
+  "claimed": "metaWRAP v1.3 (2020-08-04; bioconda metawrap-mg 1.3.0); successor MetaWrap2 v2.1.5 tagged 2026-11-01",
+  "verdict": "verified",
+  "evidence": "gh api repos/bxlab/metaWRAP/releases: 'v1.3' name 'metaWRAP v1.3' published_at 2020-08-04T17:42:59Z (latest). bioconda metawrap-mg latest_version '1.3.0' (upload 2021-12-08). bxlab/metaWRAP README line 3: '9/20/2026 update: [MetaWrap2](https://github.com/ursky/MetaWrap2) is live for testing!'. ursky/MetaWrap2: no GitHub release objects; annotated tag v2.1.5 tagger.date 2026-11-01T18:03:53Z -> commit 1fa0baf3 'MetaWrap2 v2.1.5 - presets default and deep, fixes from a new-user test'."
+ },
+ {
+  "tool": "CheckM 1.x (checkm-genome)",
+  "side": "kbase",
+  "claimed": "CheckM 1.0.18 + checkm_data_2015_01_16 (kb_Msuite 1.4.0 @ fae9ff52, released 2019-10-07; reduced_tree=1 default). Beta/dev kb_Msuite 1.4.2 @ 7495e02e = CheckM 1.1.2, never released. kb_dRep bundles CheckM 1.1.1",
+  "verdict": "verified",
+  "evidence": "Catalog.get_module_info kb_Msuite: release.version 1.4.0, git_commit_hash fae9ff521d21014413bb03e5fa080b4564218e9b, timestamp 2019-10-07; beta=dev 1.4.2 @ 7495e02e3380354255c859823aa52028e6e0a433 (2023-08-23). https://raw.githubusercontent.com/kbaseapps/kb_Msuite/fae9ff52.../Dockerfile: 'pip install checkm-genome==1.0.18'; scripts/entrypoint.sh init: 'wget -q https://data.ace.uq.edu.au/public/CheckM_databases/checkm_data_2015_01_16.tar.gz'. NMS get_method_spec (release) run_checkM_lineage_wf: reduced_tree default_values ['1'] = 'reduced tree'; name 'Assess Genome Quality with CheckM - v1.0.18'. Beta: Dockerfile 'FROM ialarmedalien/kbase_checkm_base:latest'; Dockerfile_checkM there does an unpinned 'pip install numpy matplotlib==3.1.0 pysam scipy dendropy coverage checkm-genome'; Docker Hub tag 'latest' last_updated 2020-05-06T15:40:22Z; PyPI checkm-genome 1.1.2 uploaded 2019-12-22, 1.1.3 not until 2020-07-09, so the image has 1.1.2 (inference), matching RELEASE_NOTES.md 'Version 1.4.2 ... updated CheckM to v1.1.2' and beta app name '... CheckM - v1.1.2'. kb_dRep 805c450d Dockerfile: 'RUN pip install checkm-genome==1.1.1'; scripts/load_reference_data.sh downloads checkm_data_2015_01_16.tar.gz."
+ },
+ {
+  "tool": "CheckM 1.x (checkm-genome)",
+  "side": "upstream",
+  "claimed": "1.2.5 (2026-03-02)",
+  "verdict": "verified",
+  "evidence": "https://pypi.org/pypi/checkm-genome/json: info.version '1.2.5', upload 2026-03-02T17:39:11Z. gh api repos/Ecogenomics/CheckM/releases: 'v1.2.5' published_at 2026-03-02T17:36:51Z. bioconda checkm-genome latest_version '1.2.5' (2026-03-05). v1.2.5 notes are fixes only: 'fix to regular expression syntax warnings in prettytable.py', setuptools in checkmData.py, pysam import in coverage.py. Reference data is still checkm_data_2015_01_16 in every version."
+ },
+ {
+  "tool": "CheckM2",
+  "side": "kbase",
+  "claimed": "CheckM2 1.0.1 + DIAMOND database v2 (Zenodo 5571251); kb_CheckM2 dev 0.0.2 @ d04a5b27 (2026-06-02) only, never released, no beta",
+  "verdict": "verified",
+  "evidence": "Catalog.get_module_info kb_CheckM2: release null, beta null, dev 0.0.2 @ d04a5b272f2f6fc1ff2021c09969ea9d7fa10201 (2026-06-02), git_url Cyrus-Shahnam/kb_CheckM2. Dockerfile: '/opt/conda/envs/checkm2/bin/pip install --no-cache-dir \"CheckM2>=1.0.0\"' (unpinned). The dev build (registration 1780420069620) reused cached layer 3b6e159d7ad9, created in build 1780343609548 (2026-06-01), whose log says 'Successfully installed CheckM2-1.0.1' and 'CheckM2 1.0.1' (PyPI hosts only 1.0.1). entrypoint.sh init: 'checkm2 database --download --path /data/checkm2_db'. CheckM2 1.0.1 checkm2/version/version_hashes_1.0.1.json: DIAMONDDB version '2', DOI '10.5281/zenodo.5571251'. zenodo_backpack resolves that exact DOI. https://zenodo.org/api/records/5571251: title 'CM2 Reference Database Uniref100/KO', version 2, published 2021-03-23."
+ },
+ {
+  "tool": "CheckM2",
+  "side": "upstream",
+  "claimed": "1.1.0 (2025-02-20); models trained on GTDB R202; DIAMOND database v3",
+  "verdict": "verified",
+  "evidence": "gh api repos/chklovski/CheckM2/releases: '1.1.0' published_at 2025-02-20T08:07:19Z. bioconda checkm2 latest_version '1.1.0' (2025-02-20); PyPI only '1.0.1'. Release body: 'This release uses models built on [GTDB release 202]', 'NEW DIAMOND database version 3, available at DOI 10.5281/zenodo.14897628', 'output results MAY DIFFER SLIGHTLY', 'should fix an issue where CheckM2 output changed slightly for the same MAG depending on what other MAGs were included in the input'. Intermediate 1.0.2 (2023-05-19): 'Models and database are unchanged from v 1.0.1'."
+ },
+ {
+  "tool": "GUNC",
+  "side": "kbase",
+  "claimed": "Not in KBase",
+  "verdict": "verified",
+  "evidence": "Absence check covers: Catalog.list_basic_module_info (568 modules); NMS list_methods_full_info for release (493), beta (719) and dev (1119) methods; Dockerfiles at every release/beta/dev commit (605 fetched; 33 unfetchable, mostly ContigFilter/demo modules; 9 non-GitHub modules not scanned): no match. Search term 'gunc'."
+ },
+ {
+  "tool": "GUNC",
+  "side": "upstream",
+  "claimed": "1.1.1 (2026-05-11)",
+  "verdict": "verified",
+  "evidence": "gh api repos/grp-bork/gunc/releases: 'v1.1.1' published_at 2026-05-11T08:46:53Z ('Minor release that updates the source of the reference database. No other changes.'). PyPI gunc info.version '1.1.1', upload 2026-05-11T08:49:01Z; bioconda gunc '1.1.1' (2026-05-11). v1.1.0 (2026-03-12) changes that can alter results: 'Added support for progenomes_3 and gtdb_214 reference databases', 'Diamond version pinned to 2.1.24'."
+ },
+ {
+  "tool": "BUSCO",
+  "side": "kbase",
+  "claimed": "BUSCO 6.1.0 + OrthoDB v12.2 lineages (default bacteria_odb12.2); kb_busco dev 0.1.0 @ d57a3085 (2026-09-25) only, never released",
+  "verdict": "verified",
+  "evidence": "Catalog.get_module_info kb_busco: release null, beta null, dev 0.1.0 @ d57a3085801e1897274bec0454d0e7139cc5bebb (2026-09-25), git_url Cyrus-Shahnam/kb_busco. env-busco.yml at that commit: 'busco=6.1.0', 'sepp=4.5.5'. Dev build log: '+ busco 6.1.0 pyhdfd78af_2 bioconda' and 'BUSCO 6.1.0'. data/refdata_lineages.txt: 'bacteria_odb12.2', 'archaea_odb12.2', 'eukaryota_odb12.2' ('odb12.2 datasets require BUSCO >= 6.1.0'). NMS get_method_spec (dev): name 'Assess Genome Completeness with BUSCO - v6.1.0'; lineage_dataset default_values ['bacteria_odb12.2']."
+ },
+ {
+  "tool": "BUSCO",
+  "side": "upstream",
+  "claimed": "6.1.0 (2026-06-05)",
+  "verdict": "verified",
+  "evidence": "https://api.anaconda.org/package/bioconda/busco: latest_version '6.1.0', upload 2026-06-05. bioconda-recipes commit 5f54c474 'Update BUSCO to 6.1.0 (#66027)' 2026-06-05T16:58:47Z; recipes/busco/meta.yaml: 'set version = \"6.1.0\"', source 'https://gitlab.com/ezlab/busco/-/archive/{{ version }}/busco-{{ version }}.tar.gz'; a later recipe commit (2026-08-19) is still 6.1.0. https://busco.ezlab.org/: 'BUSCO v6.1.0 is the current stable version!'. The 2026-06-05 date is the bioconda date: the GitLab tag/release date could not be read (gitlab.com API returned HTTP 429 twice)."
+ },
+ {
+  "tool": "dRep",
+  "side": "kbase",
+  "claimed": "dRep 3.1.0 (kb_dRep 1.0.0 @ 805c450d, released 2021-04-26); ANImf default (ANIn/gANI/goANI); Mash 2.2; MUMmer 3.23; CheckM 1.1.1 + checkm_data_2015_01_16; defaults S_ani 0.99, P_ani 0.9, completeness 75, contamination 25; dRep/dereplicate (n1mus/dRep) beta only, 2020",
+  "verdict": "verified",
+  "evidence": "Catalog.get_module_info kb_dRep: release=beta=dev 1.0.0 @ 805c450d9fa4767567aa452ca1a744bb25c15813, timestamp 2021-04-26. Dockerfile at that commit: 'RUN pip install drep==2.4.2' and later 'RUN pip install drep==3.1.0' (final), 'mash-Linux64-v2.2', 'MUMmer3.23', 'RUN pip install checkm-genome==1.1.1', ANIcalculator_v1; scripts/load_reference_data.sh downloads 'checkm_data_2015_01_16.tar.gz'. NMS get_method_spec (release): name 'Dereplicate genomes with dRep - v3.1.0'; S_algorithm default ['ANImf'], options ANImf/ANIn/gANI/goANI; S_ani ['0.99'], P_ani ['0.9'], completeness ['75'], contamination ['25']. Catalog dRep (git_url n1mus/dRep): release null, beta=dev 1.0.0 @ 454f2e70 (2020-05-08)."
+ },
+ {
+  "tool": "dRep",
+  "side": "upstream",
+  "claimed": "4.0.3 (2026-10-09; CHANGELOG entry dated 2026-10-08)",
+  "verdict": "verified",
+  "evidence": "https://pypi.org/pypi/drep/json: info.version '4.0.3', upload 2026-10-09T19:44:38Z. gh api repos/MrOlm/drep/releases: 'v4.0.3' published_at 2026-10-09T19:44:43Z. CHANGELOG.md at v4.0.3: '## [4.0.3] - 2026-10-08'. bioconda drep latest_version '4.0.3'. Changes that alter results: '## [4.0.0] - 2026-07-15 ... This release changes results', 'skani is now the default for both clustering steps' (was Mash/fastANI), 'Primary clustering now defaults to single linkage', plus a skani alignment-coverage bug fix. 4.0.2 is speed only ('Results are identical, but it's ~25-30x faster')."
+ },
+ {
+  "tool": "galah",
+  "side": "kbase",
+  "claimed": "Not in KBase",
+  "verdict": "verified",
+  "evidence": "Absence check covers: Catalog.list_basic_module_info (568 modules); NMS list_methods_full_info for release (493), beta (719) and dev (1119) methods; Dockerfiles at every release/beta/dev commit (605 fetched; 33 unfetchable, mostly ContigFilter/demo modules; 9 non-GitHub modules not scanned): no match. Search term 'galah'."
+ },
+ {
+  "tool": "galah",
+  "side": "upstream",
+  "claimed": "0.6.3 (2026-11-02)",
+  "verdict": "verified",
+  "evidence": "gh api repos/wwood/galah/releases: 'v0.6.3' name '0.6.3 - 2026-11-02', published_at 2026-11-02T02:05:22Z. bioconda galah latest_version '0.6.3' (2026-11-02). (PyPI 'galah' is an unrelated 2012 package.) 0.6.0 (2026-10-09) changes results: multi-domain quality assessment (isiteuk, EukCC), and with reference genomes it now dereplicates inputs first ('--skip-input-dereplication ... restores the behaviour prior to this release'). 0.6.3 is bug fixes."
+ },
+ {
+  "tool": "FastANI",
+  "side": "kbase",
+  "claimed": "FastANI app v1.1 (FastANI module 0.1.3 @ 5dc3c046, released 2021-08-10); inside kb_gtdbtk v1.33 (release), v1.34 (beta)",
+  "verdict": "verified",
+  "evidence": "Catalog.get_module_info FastANI: release=beta=dev 0.1.3 @ 5dc3c04653613cf41e3aca46d17cd4933e4356c6, timestamp 2021-08-10, git_url jayrbolton/kbase-fastANI. Dockerfile: 'ENV FASTANI_URL=\"https://github.com/ParBLiSS/FastANI/releases/download/v1.1/fastani-Linux64-v1.1.zip\"'. NMS release: FastANI/fast_ani 'Compute ANI with FastANI'. kb_gtdbtk release 99839a03 Dockerfile: \"ENV FASTANI_VERSION='v1.33'\"; beta 5d69c6a6: \"ENV FASTANI_VERSION='v1.34'\"."
+ },
+ {
+  "tool": "FastANI",
+  "side": "upstream",
+  "claimed": "1.34 (2023-07-28)",
+  "verdict": "verified",
+  "evidence": "gh api repos/ParBLiSS/FastANI/releases: 'v1.34' published_at 2023-07-28T21:04:50Z (latest). Body: 'released on July 28, 2023 ... fix multi-threading output bugs ... Output and interface of FastANI remains same as before'. bioconda fastani latest_version '1.34' (2023-07-29). Releases after KBase's v1.1: v1.2 (2019-07-26), v1.3 (2019-12-05), v1.31 (2020-07-12), v1.32 (2020-09-30), v1.33 (2021-04-29), v1.34."
+ },
+ {
+  "tool": "skani",
+  "side": "kbase",
+  "claimed": "None in KBase; KBase's GTDB-Tk 2.3.2 still uses FastANI + Mash",
+  "verdict": "corrected",
+  "evidence": "Two beta-only modules contain skani. (a) Catalog kb_cdm_genome_match (git_url pranjan77/kb_cdm_genome_match): release null, beta=dev 0.0.1 @ dd34d94f26b54af375410128bb352f4e6048fea7 (2025-03-12), methods run_mash_skani ('CDM Genome Finder -  Mash and Skani Similarity') and run_kb_cdm_genome_match. Its Dockerfile has 'curl -LJO https://github.com/bluenote-1577/skani/releases/download/latest/skani'. The beta build reused layer cee92a63d998, created in build 1739213195255 (2025-02-10) with a 3343k download. The 'latest' release object was re-created 2026-10-11 and v0.2.2 has no assets, so the binary's version can't be determined. By date it was most likely v0.2.2 (unverified). (b) Catalog KBDatalakeApps (kbaseapps/KBDatalakeApps): release null, beta=dev 0.1.0 @ 1e8499331e8b72db440695d502703e6306e195df (2026-03-05), method build_genome_datalake_tables ('Build Genome Datalake Tables'). Its Dockerfile has 'git clone https://github.com/bluenote-1577/skani.git' plus 'cargo install'. Build 1770361303626 log: 'Installed package `skani v0.3.1 (/opt/skani)`', and the beta build reused that layer (6854be4f2594). GTDB-Tk side: kb_gtdbtk release Dockerfile \"ENV GTDBTK_VERSION='2.3.2'\", \"FASTANI_VERSION='v1.33'\", \"MASH_VERSION='v2.3'\". GTDB-Tk 2.4.0 release notes: 'FastANI has been replaced by skani'.",
+  "corrected": "No released KBase app has skani. It is bundled in two beta-only modules, neither of them a MAG dereplication or ANI-clustering app: kb_cdm_genome_match/run_mash_skani (beta 0.0.1 @ dd34d94f, 2025-03-12; floating 'latest' binary fetched 2025-02-10, version unrecorded, probably v0.2.2) and KBDatalakeApps/build_genome_datalake_tables (beta 0.1.0 @ 1e849933, 2026-03-05; skani v0.3.1 built from git). KBase's released GTDB-Tk 2.3.2 still uses FastANI 1.33 + Mash 2.3."
+ },
+ {
+  "tool": "skani",
+  "side": "upstream",
+  "claimed": "0.4.0 (2026-10-11)",
+  "verdict": "verified",
+  "evidence": "gh api repos/bluenote-1577/skani/releases: 'v0.4.0' published_at 2026-10-11T02:35:03Z. Notes header: 'v0.4.0 - 2026-10-10 (Breaking changes; new database / sketches and 2x faster)', '2-3x faster ... Results are unchanged', 'BREAKING: the sketch format changed'. bioconda skani latest_version '0.4.0' (2026-10-11). Earlier: v0.3.0 2025-08-13, v0.3.1 2025-10-12, v0.3.2 2026-05-12."
+ },
+ {
+  "tool": "GTDB-Tk (with GTDB reference release)",
+  "side": "kbase",
+  "claimed": "GTDB-Tk 2.3.2 + GTDB r214 (214.1, default) or r207 (v2); FastANI 1.33, Mash 2.3 (kb_gtdbtk 1.4.1 @ 99839a03, released 2025-12-03); beta 1.4.2 @ 5d69c6a6 identical except FastANI 1.34; legacy run_kb_gtdbtk named 'GTDB-Tk Classify - v1.6.0'",
+  "verdict": "verified",
+  "evidence": "Catalog.get_module_info kb_gtdbtk: release 1.4.1 @ 99839a03cebee1110c6cd6d807dc448821837580, timestamp 2025-12-03; beta=dev 1.4.2 @ 5d69c6a6ad6c2b10c965c2af36fccd73c5982e87 (2026-09-08). Release Dockerfile: \"ENV GTDBTK_VERSION='2.3.2'\" / 'RUN pip install gtdbtk==${GTDBTK_VERSION}', \"ENV FASTANI_VERSION='v1.33'\", \"ENV MASH_VERSION='v2.3'\". diff against the beta Dockerfile: only FASTANI_VERSION 'v1.34' (and the zip-name case). scripts/entrypoint.sh init: r207 'gtdbtk_r${GTDB_VER_INT}_v2_data.tar.gz' (GTDB_VER_INT=207), r214 'GTDB_VER_FLT=214.1', 'gtdbtk_r214_data.tar.gz'. NMS get_method_spec (release) run_kb_gtdbtk_classify_wf: name 'Classify Microbes with GTDB-Tk - v2.3.2'; db_ver default ['214'], options ('207','r207'),('214','r214'). run_kb_gtdbtk name 'GTDB-Tk Classify - v1.6.0' (same module 1.4.1)."
+ },
+ {
+  "tool": "GTDB-Tk (with GTDB reference release)",
+  "side": "upstream",
+  "claimed": "GTDB-Tk 2.8.0 + GTDB R232 (2026-10-13; R232 released 2026-04-15)",
+  "verdict": "verified",
+  "evidence": "https://pypi.org/pypi/gtdbtk/json: info.version '2.8.0', upload 2026-10-13T07:23:52Z. gh api repos/Ecogenomics/GTDBTk/releases: '2.8.0' published_at 2026-10-13T07:23:26Z: 'GTDB-Tk v2.8.0 uses the same R232 reference package as v2.7.x. The minor version bump reflects changes to classify_wf results' (species-assignment rule unified with classify). 2.7.0 (2026-04-15): 'updates GTDB-Tk to use the latest GTDB R232 taxonomy and requires a new reference package'. 2.4.0: 'FastANI has been replaced by skani ... slight variations in the results'. https://data.gtdb.ecogenomic.org/releases/release232/232.0/RELEASE_NOTES.txt: 'Released Apr 15, 2026'; VERSION.txt 'v232'. bioconda gtdbtk '2.8.0' (2026-10-13)."
+ },
+ {
+  "tool": "DRAM (DRAM1 1.x; DRAM2)",
+  "side": "kbase",
+  "claimed": "DRAM-bio 1.4.0 (unpinned master clone, functionally v1.4.0) + DRAM_Minimal_data (Zenodo 7183884: KOfam/Pfam 2022-09-27, dbCAN V11, MEROPS and RefSeq viral 20220927, VOGDB latest; no KEGG, no UniRef90); kb_DRAM 0.1.2 @ 935498b6 (released 2022-11-18), beta 9efad5ba same Dockerfile; dev 0.1.3 @ 944c6b32 = DRAM-bio 1.5.0, same database snapshot",
+  "verdict": "verified",
+  "evidence": "Catalog.get_module_info kb_DRAM: release 0.1.2 @ 935498b6cc1a10df8a8405516141734b23cc5f15 (2022-11-18); beta 0.1.2 @ 9efad5ba19318dabea63c962e225efbea48121b0 (2023-10-13); dev 0.1.3 @ 944c6b3235a8ee7b0143b31044a09a8d9cc0f7f2 (2026-08-06). Release Dockerfile: 'RUN git clone https://github.com/WrightonLabCSU/DRAM.git' / 'RUN pip install ./DRAM' (unpinned); the beta Dockerfile is byte-identical. The release build log (registration 1668808071299) shows 'Using cache ---> 553cfd65b633' for 'pip install ./DRAM'. That layer was created in build 1666019537787 (2022-10-17 15:12 UTC): 'Created wheel for DRAM-bio: filename=DRAM_bio-1.4.0-py3-none-any.whl', 'Successfully installed DRAM-bio-1.4.0'. The beta build reuses the same layer. Precision: this is a master snapshot taken 4 days before the v1.4.0 tag (fb711ef56c; GitHub release 2022-10-21). It lacks the roughly seven master commits made between the clone and the tag: two test fixes, DRAM-v typo/name fixes, AMG-summary tweaks plus a merge, 'Add more places where you can import configs', and an argument-order fix in annotate_called_genes_cmd. entrypoint.sh: 'ZENODO_REF=7183884'. https://zenodo.org/api/records/7183884: title 'DRAM_Minimal_data', published 2022-10-06; files CONFIG, dbcan, description_db, dram_sheets, kofam, peptidase, pfam, viral, vogdb. Its CONFIG setup_info: kofam 'Download time: 09/27/2022', pfam '09/27/2022', dbcan version '11', vogdb version 'latest' (09/27/2022); search_databases viral 'refseq_viral.20220927.mmsdb', peptidase 'peptidases.20220927.mmsdb', 'kegg': null, 'uniref': null. Dev 944c6b32 build log: 'DRAM-bio==1.5.0'; its entrypoint still has 'ZENODO_REF=7183884'."
+ },
+ {
+  "tool": "DRAM (DRAM1 1.x; DRAM2)",
+  "side": "upstream",
+  "claimed": "DRAM1 1.5.0 latest stable (2024-01-03; bioconda 2024-03-25); DRAM2 2.0.0-beta40 prerelease (2026-10-27)",
+  "verdict": "verified",
+  "evidence": "gh api repos/WrightonLabCSU/DRAM/releases: 'v1.5.0' name 'DRAM 1.5.0 release' published_at 2024-01-03T20:19:30Z, prerelease false (newest non-prerelease); 'v2.0.0-beta40' published_at 2026-10-27T07:54:33Z, prerelease true (newest overall). PyPI DRAM-bio info.version '1.5.0', upload 2024-01-03. bioconda dram latest_version '1.5.0', upload 2024-03-25. Intermediate DRAM1 releases after KBase's snapshot: v1.4.0 (2022-10-21), v1.4.4 (2023-01-06), v1.4.5 (2023-01-07), v1.4.6 (2023-01-25)."
+ },
+ {
+  "tool": "Bakta",
+  "side": "kbase",
+  "claimed": "kb_bakta beta 0.0.1 @ f3f31e8f (2026-02-07): Bakta 1.11.4, bakta_proteins on an existing Genome's proteins, DB v6.0 full. BaktaAnnotation dev 0.5.0 @ 7780ca65 (2026-08-06): Bakta 1.12.0 from bioconda (seen in a 20:44 UTC build; final-build reuse not checked), full annotation of an Assembly, DB downloaded at run time (light default; version not verified). None released",
+  "verdict": "verified",
+  "evidence": "Catalog: kb_bakta (Fxe/kb_bakta) release null, beta=dev 0.0.1 @ f3f31e8f498b4eae4eef6affaeb518451028085b (2026-02-07); BaktaAnnotation (thebenallen/BaktaAnnotation) release null, beta null, dev 0.5.0 @ 7780ca654902862a58123995924f18788ff69074 (2026-08-06). kb_bakta Dockerfile: 'FROM oschwengers/bakta:v1.11.4'. Impl cmd: 'bakta_proteins', '--db', '/data/db'. NMS beta: 'Annotate Genome Proteins with Bakta', input_genome KBaseGenomes.Genome. scripts/prepare_data.sh URL: 'https://zenodo.org/records/14916843/files/db.tar.xz' (Zenodo 14916843 'Bakta database' version 6.0; db.tar.xz is the full 31.9 GB DB). BaktaAnnotation Dockerfile: 'RUN conda install -y -c conda-forge -c bioconda bakta' (unpinned). Open question resolved: the final dev build (registration 1786058789450, 2026-08-06 23:26 UTC, 'current commit hash at HEAD:7780ca65...') reused cached layer c0eccb74e7b0. That layer was created in the 20:53 UTC build (1786049596604), whose log shows 'bioconda/noarch::bakta-1.12.0-pyhdfd78af_0'; the 20:44 build also installed 1.12.0. NMS dev spec: assembly_ref types KBaseGenomeAnnotations.Assembly/KBaseGenomes.ContigSet; db_type default ['light'] (options light/full). Impl runs 'bakta_db download --output <scratch> --type <db_type>' unless BAKTA_DB is set. Bakta 1.12.0 db.py picks the highest minor with major == __db_schema_version__ (6), and db-versions.json has only 6.0 for major 6 (2025-02-24, Zenodo 14916843). So a runtime download yields DB v6.0 (light by default); this is inferred from the code, not observed."
+ },
+ {
+  "tool": "Bakta",
+  "side": "upstream",
+  "claimed": "1.12.2 (database v6.0) (2026-10-11)",
+  "verdict": "verified",
+  "evidence": "gh api repos/oschwengers/bakta/releases: 'v1.12.2' published_at 2026-10-11T13:28:31Z ('Re-enable generation of circular genome plots when meta flag is set'). PyPI bakta info.version '1.12.2', upload 2026-10-11T13:28:52Z; bioconda bakta '1.12.2' (2026-10-11). https://raw.githubusercontent.com/oschwengers/bakta/main/db-versions.json newest entry: {'date': '2025-02-24', 'major': 6, 'minor': 0, 'record': '14916843'}. v1.12.0 notes: 'Compatible database scheme version: 6'. Its result-relevant changes include partial genes on linear contigs, fixes for edge-spanning genes, and improved diamond sORF sensitivity."
+ },
+ {
+  "tool": "Prokka",
+  "side": "kbase",
+  "claimed": "Prokka 1.14.5 with bundled 2019 databases; barrnap 0.8 (ProkkaAnnotation 3.2.1 @ 1967e073, released 2020-10-30); dev-only kb_prokka (2018) and ProkkaAnnotationMetaGenome (2019) also exist",
+  "verdict": "verified",
+  "evidence": "Catalog.get_module_info ProkkaAnnotation: release=beta=dev 3.2.1 @ 1967e07320b1898db0c6998bb4549b7f1187e5a8, timestamp 2020-10-30, methods annotate_contigs, annotate_metagenome. Dockerfile: 'RUN git clone -b \"v1.14.5\" https://github.com/tseemann/prokka && prokka/bin/prokka --setupdb' (databases bundled in the v1.14.5 tag, commit 4d6894d6 'Bump to 1.14.5', 2019-11-11), 'RUN git clone -b \"0.8\" https://github.com/tseemann/barrnap'. Catalog kb_prokka (bio-boris/kb_prokka): dev-only 0.0.1 @ 2d91aba9 (2018-02-28). ProkkaAnnotationMetaGenome (bio-boris): dev-only 0.0.1 @ a0854b6c (2019-06-05)."
+ },
+ {
+  "tool": "Prokka",
+  "side": "upstream",
+  "claimed": "1.15.6 (2025-12-14)",
+  "verdict": "verified",
+  "evidence": "gh api repos/tseemann/prokka/releases: 'v1.15.6' name 'Heading into the sunset', published_at 2025-12-14T05:37:41Z. Body: 'This is probably the last release of Prokka', 'New sprot DBs for bacteria, archaea, viruses', 'New HAMAP HMMs for bacteria, archaea' (result-altering), 'Prodigal: don't set metagenome mode if training file given', 'Speed up overlap lookup in CDS stage'. bioconda prokka latest_version '1.15.6' (2025-12-14). Intermediate tag v1.14.6 dated 2020-02-20."
+ },
+ {
+  "tool": "RASTtk",
+  "side": "kbase",
+  "claimed": "RASTtk 'v1.073' as KBase labels it (kbase/rast_base:1.9.1 image, k-mer data 'Release70'); RAST_SDK 1.9.5 @ 7171090d (released 2022-10-19); beta 1.9.5 @ 3fa15775 (2026-02-13)",
+  "verdict": "verified",
+  "evidence": "Catalog.get_module_info RAST_SDK: release 1.9.5 @ 7171090d87fccc8b7ecf1a1d02398995dcc2dd45, timestamp 2022-10-19; beta=dev 1.9.5 @ 3fa15775c9c6c72d60e01c6024f633710137b1d7 (2026-02-13). The Dockerfile is identical at both commits: 'FROM kbase/rast_base:1.9.1'. scripts/entrypoint.sh init: 'curl -s https://bioseed.mcs.anl.gov/~qzhang/kmer_classification/kmer.tgz|tar xzf -', 'ln -s /data/kmer/Release70 /data/kmer/DEFAULT'. NMS release names: 'Annotate Genome/Assembly with RASTtk - v1.073', 'Bulk Annotate Genomes/Assemblies with RASTtk - v1.073', 'Annotate Metagenome Assembly and Re-annotate Metagenome with RASTtk - v1.073', 'Annotate Microbial Genome with RASTtk - v1.073', 'Annotate Microbial Assembly with RASTtk - v1.073' (plus the Multiple variants)."
+ },
+ {
+  "tool": "RASTtk",
+  "side": "upstream",
+  "claimed": "No comparable versioned release: last standalone RASTtk-Distribution release v1.3.0 (2016-01-14); BV-BRC CLI 1.048 (2025-08-11); which RASTtk version that wraps not verified",
+  "verdict": "verified",
+  "evidence": "gh api repos/TheSEED/RASTtk-Distribution/releases (kbase/RASTtk-Distribution returns 404): 'v1.3.0' name 'RASTtk Release 1.3.0' published_at 2016-01-14T21:27:23Z (latest; last code commit 2016-01-14, README edit 2020-09-14). gh api repos/BV-BRC/BV-BRC-CLI/releases: '1.048' name 'BV-BRC CLI release 1.048' published_at 2025-08-11T16:27:32Z. The RASTtk version behind the BV-BRC annotation service was not verified."
+ },
+ {
+  "tool": "eggNOG-mapper",
+  "side": "kbase",
+  "claimed": "eggNOG-mapper 2.1.9 + eggNOG DB 5.0.2 + novel_fams (version not recorded); kb_eggnog_mapper beta 0.0.1 @ b20cefbe (2022-08-13), never released; inputs GenomeSet, Tree or AnnotatedMetagenomeAssembly",
+  "verdict": "verified",
+  "evidence": "Catalog.get_module_info kb_eggnog_mapper: release null, beta=dev 0.0.1 @ b20cefbeed58659a80d95e9e3d533f5af7322c5c (2022-08-13). Dockerfile: 'ENV VER=2.1.9' / 'git clone --depth 1 --single-branch --branch ${VER} https://github.com/eggnogdb/eggnog-mapper'. scripts/entrypoint.sh init: 'EGGNOG_DB_VER=5.0.2', 'EGGNOG_DB_BASE_URL=\"http://eggnog5.embl.de/download/emapperdb-$EGGNOG_DB_VER\"'; novel fams come from the unversioned 'http://eggnog5.embl.de/download/novel_fams'. NMS get_method_spec (beta): name 'Annotate with eggNOG-mapper - v2.1.9'; target_refs valid_ws_types KBaseSearch.GenomeSet, KBaseTrees.Tree, KBaseMetagenomes.AnnotatedMetagenomeAssembly."
+ },
+ {
+  "tool": "eggNOG-mapper",
+  "side": "upstream",
+  "claimed": "2.1.15 stable (eggNOG 5.0.2; tag 2026-05-22, bioconda 2026-07-02); 3.0.0-beta6 prerelease (eggNOG 7; 2026-08-13)",
+  "verdict": "verified",
+  "evidence": "eggnogdb/eggnog-mapper: annotated tag v2.1.15, tagger.date 2026-05-22T07:53:03Z, commit 74cec656 'chore: release v2.1.15'. No GitHub release object exists for it; the newest 2.x release object is v2.1.14 (2026-05-04). eggnogmapper/version.py at v2.1.15: \"__VERSION__='2.1.15'\", \"__DB_VERSION__='5.0.2'\", \"__NOVEL_FAMS_DB_VERSION__='1.0.1'\". bioconda eggnog-mapper latest_version '2.1.15' (2026-07-02); PyPI only goes to 2.1.13 (2025-06-18). v3.0.0-beta6 release published_at 2026-08-13T18:40:54Z (API prerelease flag is false, but the body says 'Pre-release (beta) of eggNOG-mapper v3, targeting the eggNOG 7 database. Not compatible with eggNOG 5 data')."
+ }
+]

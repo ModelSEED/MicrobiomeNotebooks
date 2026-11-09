@@ -1,0 +1,128 @@
+{
+ "_about": "Local DAS Tool 1.1.7 refinement path for the 39 salterns assemblies in ws 275645. Recommended: BinnedContigs save -> MetagenomeUtils extract (beta) -> kb_Msuite CheckM (beta). Placeholders in <angle brackets>. Nothing here was sent to KBase; all tests were read-only.",
+ "WS_ID": 275645,
+ "WS_NAME": "freiburgermsu:narrative_1793847843029",
+
+ "step1_download_assembly": {
+  "calls": [
+   "Workspace.get_objects2([{'objects': [{'ref': '<assemble:<s> output_ref>', 'included': ['/fasta_handle_ref','/md5','/dna_size','/num_contigs','/contigs/*/contig_id','/contigs/*/length','/contigs/*/md5']}]}])",
+   "AbstractHandle.hids_to_handles([[<fasta_handle_ref>]])  -> handle.id = Blobstore node; handle.url may be https://services.kbase.us/services/shock-api (unreachable from here) -> ignore it",
+   "GET https://kbase.us/services/shock-api/node/<node>  (Authorization: OAuth <token>) -> data.file.checksum.md5",
+   "GET https://kbase.us/services/shock-api/node/<node>?download_raw  (Authorization: OAuth <token>), stream to disk"
+  ],
+  "checks": "md5(bytes) == node md5 == handle remote_md5; gunzip if magic 1f8b; first-word ids, lengths, per-contig md5 == Assembly contigs; md5(','.join(sorted(contig md5s))) == Assembly md5; rewrite headers to '>' + first word if any header has a description (MEGAHIT fallback assemblies do)",
+  "implementation": "scripts/fetch_assembly.py <ref> <out.fna>"
+ },
+
+ "step2_contig2bin": {
+  "source": "for b in (metabat, maxbin, concoct) with ledger state done: Workspace.get_objects2([{'objects': [{'ref': output_of(ledger, b, s), 'included': ['/assembly_ref', '/bins/[*]/bid', '/bins/[*]/contigs']}]}])",
+  "tsv_line": "<contig_id>\\t<label>.<bid without .fasta>\\n, no header; labels metabat2 / maxbin2 / concoct",
+  "checks": "data.assembly_ref == the downloaded Assembly UPA; every contig id is a FASTA id; contigs[cid].len == FASTA length; no contig twice within a binner",
+  "implementation": "scripts/binnedcontigs_to_contig2bin.py <asm.fna> <asm UPA> metabat2=<ref> maxbin2=<ref> concoct=<ref> --out <dir>"
+ },
+
+ "step2b_dastool_command": {
+  "env": "PATH=$HOME/Documents/dastool_env/env/bin:$PATH",
+  "argv": ["nice", "-n", "10", "DAS_Tool", "-i", "<dir>/metabat2.contigs2bin.tsv,<dir>/maxbin2.contigs2bin.tsv,<dir>/concoct.contigs2bin.tsv",
+           "-l", "metabat2,maxbin2,concoct", "-c", "<asm.fna>", "-o", "<work>/<s>/out/<s>", "--search_engine", "diamond",
+           "--score_threshold", "0.5", "--duplicate_penalty", "0.6", "--megabin_penalty", "0.5",
+           "--write_bin_evals", "--write_bins", "-t", "8"],
+  "why": "same thresholds the pipeline sends to kb_das_tool (pipeline.py:223-225); -t 8 because load is ~21/64; drop the -i/-l entry of a binner whose task is 'empty'",
+  "success": "exit 0 AND <prefix>_DASTool_summary.tsv + <prefix>_DASTool_contig2bin.tsv non-empty; exit 1 + 'No bins with bin-score >0.5' in <prefix>_DASTool.log = stage 'empty'"
+ },
+
+ "step3_save_binnedcontigs": {
+  "call": "Workspace.save_objects (KBUtilLib: kb.ws.save_objects(params[0]))",
+  "params": [{"id": 275645, "objects": [{
+   "type": "KBaseMetagenomes.BinnedContigs-1.0",
+   "name": "<s>.DASTool.BinnedContigs",
+   "data": {
+    "assembly_ref": "<275645/objid/ver of the sample's Assembly, exactly the one the binners used>",
+    "bins": [{"bid": "<DAS Tool label>.fasta, e.g. metabat2.bin.003.fasta or concoct.bin.018_sub.fasta",
+              "contigs": {"<contig_id>": {"gc": "<Assembly contigs[cid].gc_content>", "len": "<Assembly contigs[cid].length>"}},
+              "n_contigs": "<int>", "gc": "<(G+C)/bp, 5 dp>", "sum_contig_len": "<int bp>", "cov": 0.0}],
+    "total_contig_len": "<sum of sum_contig_len>"},
+   "meta": {"DAS_Tool": "1.1.7 (local)"},
+   "provenance": [{"time": "<YYYY-MM-DDTHH:MM:SS+0000>", "script": "pipeline.py dastool (local DAS Tool 1.1.7)",
+                   "script_ver": "<sha256[:12] of the script>", "script_command_line": "<argv>",
+                   "description": "DAS Tool 1.1.7 run locally on <host> over metabat2, maxbin2, concoct BinnedContigs ...",
+                   "input_ws_objects": ["<Assembly UPA>", "<MetaBAT2 UPA>", "<MaxBin2 UPA>", "<CONCOCT UPA>"]}]}]}],
+  "key_justification": {
+   "type": "KBaseMetagenomes.BinnedContigs-1.0 is the only version (Workspace.get_type_info); required assembly_ref, bins, total_contig_len; bin requires bid, contigs, n_contigs, gc, sum_contig_len; contig requires gc, len",
+   "name": "= pipeline names()['dastool'] (pipeline.py:106) so the ledger/adoption logic (pipeline.py:324-326) and the extract stage stay unchanged",
+   "assembly_ref": "@id ws KBaseGenomeAnnotations.Assembly; extract reads ONLY this, bins[].bid and contig keys (MetagenomeFileUtils.py:723-762 @54c6bc35)",
+   "bid": "becomes the extracted Assembly name prefix (bid + assembly_suffix, MetagenomeFileUtils.py:964) and is comma-joined into extracted_assemblies, so no ',' and only [A-Za-z0-9|._-]",
+   "contigs gc/len": "taken from the Assembly object as KBase binners do (MetagenomeFileUtils.py:278-304)",
+   "cov": "optional in the type; 0.0 = what kb_das_tool's own output holds (272312/963/1); kb_Msuite withFilter reads bins[].cov (DataStagingUtils.py:356-381 @7495e02e)",
+   "provenance.time format": "accepted by the WS in the earlier writebacks (~/gtdbtk_kbase/kbase_mags.py:263,290)"
+  },
+  "implementation": "scripts/dastool_to_binnedcontigs.py (builds + JSON-schema-validates the params and a predicted-Assembly manifest; does not save)"
+ },
+
+ "step4_extract": {
+  "app_id": "MetagenomeUtils/extract_bins_as_assemblies", "tag": "beta",
+  "service_ver": "54c6bc35fa899823966a3b0ab972e2cdfd2a36a2", "method": "MetagenomeUtils.extract_binned_contigs_as_assembly",
+  "clientgroup": "njs (no Catalog config; EE2 records cpu 12, memory 10000, disk 100)",
+  "params": [{"workspace_name": "freiburgermsu:narrative_1793847843029",
+              "binned_contig_obj_ref": "<UPA returned by save_objects>",
+              "extracted_assemblies": "<','.join(bins[].bid)>",
+              "assembly_suffix": "__<s>",
+              "assembly_set_name": "<s>.DASTool_bins.AssemblySet"}],
+  "key_justification": {
+   "workspace_name": "narrative_system_variable workspace -> workspace_name (NMS input mapping)",
+   "binned_contig_obj_ref": "resolved-ref in NMS; pass the absolute UPA",
+   "extracted_assemblies": "comma string split at MetagenomeFileUtils.py:939; '' would extract every bin (:952-954) but explicit is what the pipeline sends (pipeline.py:230-234)",
+   "assembly_suffix": "required (:138-141); names become '<bid>__<s>' like the wetland 'bin.006.fasta__SRR10127268'",
+   "assembly_set_name": "required when >1 bin (:152-154); the set is only saved when >1 Assembly was made (:978-991)"
+  },
+  "returns": "[{'assembly_ref_list': [...], 'assembly_set_ref': '<only if >1 bin>', 'report_name': ..., 'report_ref': ...}] (job 6ac691f5eacecf21bd996273)",
+  "post_check": "each new Assembly's info meta MD5 / N Contigs / Size == the predicted manifest (8/8 matched on SRR10489822)"
+ },
+
+ "step5_checkm": {
+  "app_id": "kb_Msuite/run_checkM_lineage_wf", "tag": "beta",
+  "service_ver": "7495e02e3380354255c859823aa52028e6e0a433", "method": "kb_Msuite.run_checkM_lineage_wf",
+  "clientgroup": "njs (no Catalog config; cpu 12, memory 10000, disk 100 on all 129 past kb_Msuite jobs)",
+  "params": [{"workspace_name": "freiburgermsu:narrative_1793847843029", "input_ref": "<s>.DASTool_bins.AssemblySet UPA",
+              "reduced_tree": "1", "save_plots_dir": "0", "threads": "4"}],
+  "key_justification": {
+   "workspace_name": "required (CheckMUtil.py:41-42); report saved there",
+   "input_ref": "AssemblySet accepted (DataStagingUtils.py:94-124): each item staged as '<Assembly name>.fna', so CheckM 'Bin Name' = Assembly object name; a bare Assembly ref also works (:81-90) for single-bin samples",
+   "reduced_tree": "'1' -> --reduced_tree (CheckMUtil.py:66-68, 229-230); '0' = full tree, 40+ GB, would not fit the 10 GB njs request",
+   "save_plots_dir": "'0' skips plots.zip (CheckMUtil.py:393-399); plots are still computed (:95-96)",
+   "threads": "inert: CheckMUtil uses config['threads'] (CheckMUtil.py:31) = 4 (deploy.cfg:13); kept because the NMS constant maps it"
+  },
+  "returns": "[{'report_name': 'kb_checkM_report_<uuid>', 'report_ref': '<UPA>'}]",
+  "report_files": {
+   "CheckM_summary_table.tsv.zip": "zip member CheckM_summary_table.tsv; columns Bin Name, Marker Lineage, # Genomes, # Markers, # Marker Sets, 0, 1, 2, 3, 4, 5+, Completeness, Contamination (2 dp) (OutputBuilder.py:253-313)",
+   "full_output.zip": "storage/bin_stats_ext.tsv = '<bin>\\t<python dict>' per bin, full precision (+ Genome size, GC, N50, ...)",
+   "plots.zip": "only if save_plots_dir '1'",
+   "download": "file_links[].URL with services.kbase.us -> kbase.us, + '?download', header Authorization: OAuth <token>"
+  },
+  "selection": "float(bin_stats_ext[bin]['Completeness']) >= 50 and float(...['Contamination']) < 10; map Bin Name -> AssemblySet item via object names",
+  "implementation": "scripts/collect_checkm_select.py --report <report_ref> --set <set UPA> --tag <s> --out <dir> [--local-fasta-dir <work>/<s>/out/<s>_DASTool_bins]"
+ },
+
+ "alternative_A_staging_plus_batch_import_NOT_RECOMMENDED": {
+  "upload": "POST https://kbase.us/services/staging_service/upload (service 1.4.0; 401 without auth), header Authorization: <raw token>, multipart part 'destPath' = '<dir relative to the user root>' FIRST, then part 'uploads' = the file; names must not start with ' ' or '.', must not contain ','; one request per file (staging_service app.py:418-483 @5eff277d)",
+  "app": {"app_id": "kb_uploadmethods/batch_import_assembly_from_staging", "tag": "beta", "service_ver": "654e7edeefc0ec443569e1238cee3b921a5e8374",
+          "method": "kb_uploadmethods.batch_import_assemblies_from_staging", "clientgroup": "kb_upload (Catalog; EE2 cpu 8, memory 4500, disk 50)",
+          "params": [{"workspace_name": "freiburgermsu:narrative_1793847843029", "staging_subdir": "<dir with only this sample's .fa/.fna/.fasta>",
+                      "assembly_set_name": "<s>.DASTool_bins.AssemblySet", "type": "mag", "min_contig_length": 500}]},
+  "why_not": "names forced to '<file stem>_<dir path, / -> _>' with a mount-dependent suffix (BatchUtil.py:65-82,97-111); per-file failures swallowed and the job still completes (:181-201,305-315); serial AssemblyUtil save per file, 310 files took 317 min (job 5fb4bbeebff87f4c5d430055); min_contig_length must be a JSON int (FastaToAssembly.py:367-372); needs staging writes and re-uploads bytes KBase already holds"
+ },
+
+ "alternative_A2_one_import_job_per_bin_NOT_RECOMMENDED": {
+  "app_id": "kb_uploadmethods/import_fasta_as_assembly_from_staging", "tag": "beta",
+  "params": [{"workspace_name": "freiburgermsu:narrative_1793847843029", "staging_file_subdir_path": "<dir>/<file>.fa",
+              "assembly_name": "<name>", "type": "mag", "min_contig_length": 500}],
+  "why_not": "1,000-3,000 kb_upload jobs and no AssemblySet (one would have to be saved separately)"
+ },
+
+ "alternative_B_direct_blob_handle_ws_NOT_RECOMMENDED": {
+  "calls": ["POST https://kbase.us/services/shock-api/node?filename=<name> raw body, Authorization: OAuth <token> (multipart without per-part Content-Length = HTTP 400)",
+            "AbstractHandle.persist_handle({'id': <node>, 'type': 'shock', 'url': 'https://services.kbase.us/services/shock-api', 'file_name': <name>, 'remote_md5': <md5>}) -> hid",
+            "Workspace.save_objects([{'id': 275645, 'objects': [{'type': 'KBaseGenomeAnnotations.Assembly-5.1', 'name': ..., 'data': {AssemblyUtil._parse_fasta fields + assembly_id, type, fasta_handle_ref: hid}, 'provenance': [...]}]}]) per bin, then one KBaseSets.AssemblySet-1.2 {description, items[{ref, label}]}"],
+  "why_not": "hand-builds 1,000-3,000 Assembly objects (md5, base_counts, gc, Ncount, handle) outside AssemblyUtil for bytes already in KBase; only the blob upload + persist_handle part was ever exercised here (~/gtdbtk_kbase/writeback_r232.py:563-589, report files)"
+ }
+}

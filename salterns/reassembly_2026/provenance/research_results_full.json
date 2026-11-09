@@ -1,0 +1,903 @@
+{
+  "summary": "When/how the saltern MAGs were assembled and binned, what tools have improved since, and whether re-assembly/re-binning is worth it",
+  "agentCount": 5,
+  "logs": [],
+  "result": {
+    "provenance": {
+      "summary": "The cores were sampled in July 2014 (R1, R2 and R2A on 2014-07-11; SF2 on 2014-07-17); the three R2_restored samples were collected on 2015-03-10. JGI sequenced all 39 libraries under proposal 1890 (approved 2015-03-02, PI Tringe) on two Illumina HiSeq 2500 runs: run 10057 (18 libraries, Dec 2015) and run 10092 (21 libraries, Jan 2016). Each library is one 2x151 bp run. The raw reads are public in SRA/ENA: 39 runs, 344.10 Gbp.\n\nEach sample has up to three different assemblies:\n- **(i) JGI standard assembly.** MEGAHIT v1.0.3 per Zhou et al., made 2015-12-26 to 2016-01-12 and annotated in IMG in 2016 (IMG 3300007532 to 3300009145). It exists for 38 samples (none for R1_C_H2O). This is the source of the IMG KO profiles and is what the manuscript's Metagenomics paragraph describes.\n- **(ii) JGI IMG-team \"SPAdes version 2\" reassembly.** Made 2018-03-21 to 2018-04-17 (IMG 3300026094 to 3300026251). Its IMG submission IDs 185694 to 185731 are exactly the /scratch/chenry/.../metagenome_assemblies files used by the Henry-lab CoverM runs.\n- **(iii) The Tringe lab's own per-sample reassembly.** BBTools Tadpole error correction plus SPAdes (Zhou 2022), SPAdes version not reported. This is the true source of the 450 MAG contigs.\n\nI tested (iii) against (ii) directly. None of 129,258 MAG contigs in 33 samples matches the v2 reassembly by NODE index and length, and only 1.6% of contigs of 20 kb or more have their length anywhere in it. The MAG-source assemblies have about 2-8x more contigs of 2.5 kb or more. R1_C_H2O has no JGI assembly at all, yet has 6 MAGs. The (iii) assemblies are not in IMG, NCBI or KBase.\n\nThe MAGs were binned on each per-sample assembly (contigs of 2.5 kb or more) with CONCOCT, MaxBin and MetaBAT, refined with DAS Tool, then checked with CheckM (completeness >70%, contamination <25%). dRep (gANI >96.5%, 60% overlap) kept 310 and set aside 140. All 450 come from 39 metagenomes, not 24: of the 310, 209 come from the 24 cores, 64 from the 12 water samples and 37 from the 3 R2_restored samples.\n\nBinning date is bounded by BBTools \"accessed 16 April 2018\" (Genes 2021) and the KBase upload on 2020-11-18. Most tool versions for the MAG pipeline are unreported. The only ones named are CheckM 1.0.18 and GTDB-Tk 1.1.0, in the Marivita paper.\n\nFor the user's question: the MAG-source assemblies are not public and the whole pipeline dates from 2015-2018, so any reassessment would reassemble from the 344 Gbp of public raw reads. In SF2 and R2A sediments only 5-34% of reads map even to the whole JGI v2 assembly (contigs of 500 bp or more). That suggests sequencing depth and assembly, not just the binning tools, limit the binned fraction there (inference).",
+      "timeline": [
+        {
+          "date": "2014-07-11",
+          "event": "Sediment cores (D1 0-5 cm, D2 5-15 cm) and water collected at R1, R2 and R2A",
+          "evidence": "SRA BioSample attribute collection_date=2014-07-11 for these samples (efetch db=sra; parsed to /tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/sra_files.tsv). Zhou 2022 Methods (https://pmc.ncbi.nlm.nih.gov/articles/PMC8692437/; local text /tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/PMC8692437.txt line 13): 'Soil core samples were collected from each sampling site in July 2014'"
+        },
+        {
+          "date": "2014-07-17",
+          "event": "SF2 (restored) cores and water collected",
+          "evidence": "SRA collection_date=2014-07-17 for all 9 SF2 samples (/tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/sra_files.tsv)"
+        },
+        {
+          "date": "2015-03-02",
+          "event": "JGI proposal 1890 (Special Proposal, PI S. Tringe, award DOI 10.46936/10.25585/60000820) approved",
+          "evidence": "JGI Data Portal API https://files.jgi.doe.gov/search/?q=Gp0125918 metadata proposal.date_approved='2015-03-02' (saved /tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/dl_jgi/files_search_Gp0125918.json)"
+        },
+        {
+          "date": "2015-03-10",
+          "event": "Three extra R2_restored samples collected (C_black, D_shore, H2O): a separate later campaign",
+          "evidence": "SRA collection_date=2015-03-10 for SRR5210210, SRR5210213, SRR5210209 (/tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/sra_files.tsv)"
+        },
+        {
+          "date": "2015-12-24",
+          "event": "HiSeq 2500 run 10057 (18 libraries) finished. Raw fastq written 2015-12-24; JGI RQC-filtered *.anqdpht.fastq.gz written 2015-12-24/25",
+          "evidence": "JGI portal file_date, e.g. 10057.6.146711.ATTACTC-ATAGAGG.fastq.gz 2015-12-24T05:00:43 and .anqdpht.fastq.gz 2015-12-25T14:50:55 (/tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/jgi_portal.tsv). SRA run_id 10057 x18"
+        },
+        {
+          "date": "2016-01-12",
+          "event": "HiSeq 2500 run 10092 (21 libraries); raw and filtered fastq dated 2016-01-12",
+          "evidence": "JGI portal file dates (/tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/jgi_portal.tsv); SRA run_id 10092 x21"
+        },
+        {
+          "date": "2015-12-26 to 2016-01-12",
+          "event": "JGI standard per-sample assemblies (MEGAHIT v1.0.3 per Zhou) for 38 samples (none for R1_C_H2O); files <SP>.scaffolds.fasta and README",
+          "evidence": "JGI portal labels ASSEMBLY_DATE 20151226/20151227/20160112 and file dates (jgi_portal.tsv columns orig_assembly_date_label, orig_contigs_file). Zhou PMC8692437.txt line 21: 'pre-processed using BBTools (filtering and trimming) and assembled using MEGAHIT v1.0.3'"
+        },
+        {
+          "date": "2016-03-02 to 2016-10-19",
+          "event": "IMG/M annotation of the original assemblies (Ga0102925 to Ga0102963; IMG 3300007532 to 3300009145). R1_A_D1 analysis project 'Complete' on 2016-03-22; IMG tarballs dated 2016-04-19 to 2016-10-19",
+          "evidence": "JGI portal metadata and file dates (jgi_portal.tsv; dl_jgi/files_search_Gp0125918.json: 78216.pipeline_version.info 2016-03-02, analysis_project status_date 2016-03-22); local /home/freiburger/Documents/MicrobiomeNotebooks/salterns/exported_img_data.tsv"
+        },
+        {
+          "date": "2017-01-27 to 2021-05-23",
+          "event": "Raw reads released to SRA in waves: 23 runs on 2017-01-27, 4 on 2017-04-23, 6 on 2017-09-20, 1 on 2019-10-30 (R2_C_D2), and 5 on 2021-05-23 (R1_C_D1, R2_A_D2, SF2_A_D1, R1_C_H2O, R2_A_H2O)",
+          "evidence": "NCBI runinfo ReleaseDate (https://trace.ncbi.nlm.nih.gov/Traces/sra-db-be/runinfo?acc=<SRP>; saved /tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/ncbi_runinfo/), tabulated in reads_summary.tsv"
+        },
+        {
+          "date": "2017-07-22",
+          "event": "Earliest artifact of the JGI IMG-team reassembly: pairedMapped.bam in /global/dna/dm_archive/pkmeco/analyses/AUTO-*",
+          "evidence": "JGI portal file_date (jgi_portal.tsv column sp2_pairedMapped_bam = 2017-07-22 for all 38)"
+        },
+        {
+          "date": "2018-03-21 to 2018-04-17",
+          "event": "JGI IMG-team 'SPAdes version 2' reassembly (label 'IMG reassembly, ASSEMBLY_DATE=20180321'). final.contigs.fasta written 2018-04-12/13; IMG submissions 185694 to 185731 on 2018-04-14; IMG 3300026094 to 3300026251 (Ga0209917 to Ga0209965) tarballs 2018-04-16/17. NOT the MAG source",
+          "evidence": "https://files.jgi.doe.gov/search/?q=3300026156 metadata portal.display_location 'IMG reassembly, ASSEMBLY_DATE=20180321' (dl_jgi/s_3300026156_.json); jgi_portal.tsv sp2_* columns"
+        },
+        {
+          "date": "~2018 (exact dates unknown; after 2017-08-10)",
+          "event": "Tringe lab per-sample Tadpole+SPAdes reassembly, BBTools read mapping, CONCOCT/MaxBin/MetaBAT binning and DAS Tool refinement",
+          "evidence": "Zhou PMC8692437.txt line 23: 'Each metagenome was re-assembled (de novo) using Tadpole error correction in BBTools and the SPAdes assembler'. Genes 2021 (https://pmc.ncbi.nlm.nih.gov/articles/PMC8535929/; PMC8535929.txt line 15): 'Reads were filtered and trimmed with BBTools (https://sourceforge.net/projects/bbmap/, accessed 16 April 2018) and assembled with SPAdes'. Lower bound: DAS Tool 1.0.0 released 2017-08-10 (GitHub API /repos/cmks/DAS_Tool/releases). Date is INFERRED"
+        },
+        {
+          "date": "after 2019-08-11 (inferred)",
+          "event": "CheckM QC of the bins, then dRep (gANI >96.5%, 60% overlap) giving 310 retained and 140 'not retained during dereplication'",
+          "evidence": "Genes 2022 (https://pmc.ncbi.nlm.nih.gov/articles/PMC8774927/; PMC8774927.txt line 13): 'as calculated by CheckM version 1.0.18'. CheckM v1.0.18 published 2019-08-11 (GitHub API Ecogenomics/CheckM). /home/freiburger/Documents/MicrobiomeNotebooks/salterns/data/Files Summary.xlsx row 3: 'Additional MAGs that were not retained furing dereplication (n = 140)'. The CheckM date is inferred from the version"
+        },
+        {
+          "date": "after 2020-04-14",
+          "event": "Original MAGs classified with GTDB-Tk 1.1.0 (pre-R95 reference data, i.e. R89 implied)",
+          "evidence": "PMC8774927.txt line 13: 'classified to genus level as Marivita by both Bin Annotation Tool and the GTDB-Tk classifier version 1.1.0'. GTDB-Tk 1.1.0 published 2020-04-14; the 1.3.0 note (2020-07-18) says it 'requires a new version of the GTDB-Tk reference package (gtdbtk_r95_data.tar.gz)'"
+        },
+        {
+          "date": "2020-11-18",
+          "event": "310 dereplicated MAG FASTAs imported to KBase ws 77580 ('Metabolism 310 Bins') and AssemblySet 77580/312/1 saved",
+          "evidence": "KBase get_objects2 provenance (script /tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/kbase_prov.py): 77580/2/1 kb_uploadmethods.batch_import_assemblies_from_staging, service_ver d42c2a16cc670db70e8a04e0a2b15b69baec7b22, time 2020-11-18T06:15:21Z, params {staging_subdir:'/cliff_bueno', type:'draft isolate', min_contig_length:500}; SSFB_Assembly_Set saved 2020-11-18T11:31:56Z by cliff_bueno (310 items)"
+        },
+        {
+          "date": "2020-11-23 to 2021-02-12",
+          "event": "RAST Genome objects (2020-11-23/24) and FBA models (2021-02) built in ws 77580",
+          "evidence": "list_ws_objects(77580): KBaseGenomes.Genome 279 on 2020-11-24 + 31 on 2020-11-23; KBaseFBA.FBAModel 136 on 2021-02-11 + 125 on 2021-02-12 (kbase_prov.py output)"
+        },
+        {
+          "date": "2021-01-19 / 2021-07-28",
+          "event": "Zhou et al. received by ISME J (2021-01-19), accepted (2021-07-09), published online (2021-07-28); print issue Jan 2022 (vol 16)",
+          "evidence": "Europe PMC JATS XML for PMC8692437 (date-type received/accepted, pub-date epub 28/7/2021, ppub 1/2022)"
+        },
+        {
+          "date": "2021-09-20",
+          "event": "Curated MAGs submitted by JGI to NCBI: Methanosarcinaceae/Methanosalis GCA_020055655.1 (PRJNA365332) and Marivita sp. GCF_020055675.1 (PRJNA365334)",
+          "evidence": "NCBI esummary db=assembly ids 10940631 and 10940641: submissiondate 2021/09/20, submitter DOE Joint Genome Institute"
+        },
+        {
+          "date": "2023-11-17",
+          "event": "140 unretained MAGs imported to KBase ws 163264 from a Google Drive download",
+          "evidence": "/home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_contigs/README.md line 12 ('import_fasta_as_assembly_from_staging, 2023-11-17 ... drive-download-20231117T205750Z-001/*.contigs.fa')"
+        },
+        {
+          "date": "2026-10-19 to 2026-10-21",
+          "event": "Local re-QC: all 450 MAG contig sets downloaded and verified; KBase CheckM 1.0.18 rerun; GTDB-Tk 2.8.0/R232 run locally",
+          "evidence": "/home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_contigs/README.md (fetched 2026-10-19); /home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_QC/ (checkm/, gtdbtk_local_r232/, jobs.json). Details are from the project memory note salterns-mag-inventory.md and were not re-verified here"
+        }
+      ],
+      "tools": [
+        {
+          "step": "Sequencing",
+          "tool": "Illumina HiSeq 2500 at JGI",
+          "version": "2x151 bp paired-end (avgLength 302 per spot); one library and one run per sample (libraries AUSS* to AUSW*); runs 10057 and 10092",
+          "settings": "SRA nominal_length=270 for all 39 libraries; reads per run 20.3-41.2 M pairs",
+          "evidence": "NCBI runinfo/SRA XML (/tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/reads_summary.tsv, dl_sraxml/batch*.xml). Zhou PMC8692437.txt line 21: '~20 Gb of shotgun sequence data were generated on the HiSeq 2500 platform (Illumina) in a 2 x 150 paired-end run mode'"
+        },
+        {
+          "step": "Read QC (JGI)",
+          "tool": "BBTools (JGI RQCFilter), output *.anqdpht.fastq.gz",
+          "version": "not reported (Genes 2021: BBTools 'accessed 16 April 2018')",
+          "settings": "filtering and trimming; the SRA holds the RAW fastq (SRA original filename lacks 'anqdpht', e.g. 10057.6.146711.ATTACTC-ATAGAGG.fastq.gz, same 5,898,925,401 bytes as the JGI raw file)",
+          "evidence": "PMC8692437.txt line 21; PMC8535929.txt line 15; JGI portal raw vs filtered file names and sizes (dl_jgi/files_search_Gp0125918.json); SRA XML SRAFile supertype='Original'"
+        },
+        {
+          "step": "Assembly #1: JGI standard (IMG v1; source of the KO profiles)",
+          "tool": "MEGAHIT",
+          "version": "v1.0.3 (released 2015-10-11)",
+          "settings": "per sample; 38 of 39 samples (none for R1_C_H2O); IMG Ga0102925-Ga0102963; JGI ASSEMBLY_DATE 2015-12-26 to 2016-01-12",
+          "evidence": "PMC8692437.txt line 21 ('assembled using MEGAHIT v1.0.3'); jgi_portal.tsv; GitHub API voutcn/megahit v1.0.3 published 2015-10-11. Not checked against the JGI 1092xxx.README.txt (login-gated, purged to tape)"
+        },
+        {
+          "step": "Annotation of assembly #1",
+          "tool": "JGI IMG/M Metagenome Annotation Pipeline (MAP v4 era)",
+          "version": "manuscript says 'v4.10.2': UNVERIFIED",
+          "settings": "KO 'estimated gene copies' downloaded from IMG and normalized with DESeq2",
+          "evidence": "Manuscript /home/freiburger/Documents/MicrobiomeNotebooks/salterns/Metabolic Manuscript.docx paragraph 30 (python-docx index); the per-sample 78216.pipeline_version.info (2016-03-02) exists but is login-gated (dl_jgi/files_search_Gp0125918.json)"
+        },
+        {
+          "step": "Assembly #2: JGI IMG-team 'SPAdes version 2' reassembly (NOT used for the MAGs)",
+          "tool": "SPAdes --meta, with bfc read correction, on raw reads",
+          "version": "SPAdes 3.10.0-dev; bfc r181; bwa mem 0.7.15. INFERRED from a sibling README of the same 2018-03-21 batch, not from the salterns README",
+          "settings": "README text: 'raw/unfiltered reads were read corrected using bfc (r181) with kmer size of 21'; '--meta --only-assembler -k 21,33,55,77,99,127'. IMG submissions 185694-185731 (local copies filtered to >=500 bp were used for the Henry-lab CoverM mapping)",
+          "evidence": "https://portal.nersc.gov/cfs/m342/BioIT/1006528/README.txt lines 1-3, 61-67 (saved /tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/dl_nersc_readme/README_1006528.txt). Local /home/freiburger/Documents/MicrobiomeNotebooks/salterns/reads/metagenome_assembly.txt lines 1-38. BAM header refs '185694.assembled.fna.filtered~Ga0209936_1000001...' (209,409 contigs, min 500 bp)"
+        },
+        {
+          "step": "Assembly #3: MAG source (Tringe lab)",
+          "tool": "BBTools Tadpole error correction + SPAdes; QUAST for statistics",
+          "version": "not reported (SPAdes version and k-mer list unknown)",
+          "settings": "de novo, per sample, not co-assembled. Contig names are raw SPAdes NODE_<n>_length_<L>_cov_<c>. Evidence of a separate assembly: 0/129,258 MAG contigs match the v2 reassembly NODE_n<->Ga_n; 222/13,690 (1.6%) contigs of 20 kb or more have their length in it; MAG-source assemblies have 1.9-8x (median per sample) more long contigs (R1_A_D1: >=37,193 vs 19,166 contigs of 2.5 kb or more). Per-sample evidence: no contig name shared across samples; the 27 cross-sample identical sequences have different NODE numbers and cov values; R1_A_D1 SPAdes k-mer cov / own-read depth median 0.34 (89% <1), consistent with single-sample input but not decisive (final k unknown)",
+          "evidence": "PMC8692437.txt line 23; /tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/node_vs_img.tsv, node_rank.tsv, kmercov_R1_A_D1.txt (scripts node_vs_img.py, node_rank.py, kmercov_vs_depth.py in the same dir); /home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_contigs/README.md line 26"
+        },
+        {
+          "step": "Contig length cutoff before binning",
+          "tool": "(pre-binning length filter)",
+          "version": "n/a",
+          "settings": ">=2,500 bp: every one of the 450 MAGs, from all three binners (metabat 221, concoct 212, maxbin 17), has a shortest contig of exactly 2,500 bp or more. MaxBin2 and CONCOCT do not default to 2,500, so a shared upstream filter is implied (INFERRED)",
+          "evidence": "python check over /home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_contigs/*.fna: 'metabat min-of-min=2500; concoct_out min-of-min=2500; maxbin min-of-min=2500'; MAG_contigs/README.md line 28"
+        },
+        {
+          "step": "Read mapping / depth for binning",
+          "tool": "BBTools (BBMap)",
+          "version": "not reported",
+          "settings": "'default parameters'. Zhou says reads 'from each sample were mapped to all contigs ... to get read depths across samples', which suggests a multi-sample (differential) depth matrix on per-sample assemblies. AMBIGUOUS and not verifiable locally (no depth files)",
+          "evidence": "PMC8692437.txt line 23"
+        },
+        {
+          "step": "Binning",
+          "tool": "CONCOCT, MaxBin, MetaBAT",
+          "version": "not reported (Zhou cites the MetaBAT 1 paper, Kang 2015; 'maxbin.005' 3-digit names match MaxBin2 style; CONCOCT bins have no cut-up '.concoct_part' suffixes)",
+          "settings": "'binning was performed on each individual assembly'. Retained 310 by binner: CONCOCT 155, MetaBAT 141, MaxBin 14 (all 450: 212/221/17)",
+          "evidence": "PMC8692437.txt line 23; counts from /home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_contigs/index.tsv"
+        },
+        {
+          "step": "Bin refinement",
+          "tool": "DAS Tool",
+          "version": "not reported (1.0.0 released 2017-08-10; 1.1.0 2018-01-06; 1.1.1 2018-10-06; 1.1.2 2019-11-06)",
+          "settings": "one run per sample; names follow DAS Tool output '<sample>_DASTool_bins/<binner>.<n>.contigs.fa'",
+          "evidence": "PMC8692437.txt line 23 ('DAS Tool was used to select the best non-redundant set of genome bins from the three software tools'); GitHub API cmks/DAS_Tool releases"
+        },
+        {
+          "step": "MAG quality",
+          "tool": "CheckM (lineage-specific marker sets; UID lineages in Zhou Table S2)",
+          "version": "1.0.18 per Genes 2022 (released 2019-08-11)",
+          "settings": "kept completeness >70%, contamination <25%, strain heterogeneity <200%. Result: 130 HQ, 145 MQ, 35 with 77.2-100% completeness and 10.2-25.5% contamination. Zhou Table S2 matches the local 2020 KBase table (CheckM 1.0.18, reduced tree) for 301/310 MAGs",
+          "evidence": "PMC8692437.txt line 23; Zhou Table S2 https://static-content.springer.com/esm/art%3A10.1038%2Fs41396-021-01067-w/MediaObjects/41396_2021_1067_MOESM3_ESM.xlsx vs /home/freiburger/Documents/MicrobiomeNotebooks/salterns/cliff_mags/checkm_summary_table.tsv ('identical compl+contam: 301/310'); PMC8774927.txt line 13"
+        },
+        {
+          "step": "Dereplication",
+          "tool": "dRep",
+          "version": "not reported",
+          "settings": "'gANI > 96.5% and minimum overlap 60%' across metagenomes: 310 retained; 140 'not retained during dereplication'",
+          "evidence": "PMC8692437.txt line 23; /home/freiburger/Documents/MicrobiomeNotebooks/salterns/data/Files Summary.xlsx rows 2-3"
+        },
+        {
+          "step": "Taxonomy (2020)",
+          "tool": "BAT (CAT/BAT) + 56-single-copy-gene IMG tree (Zhou); GTDB-Tk (Marivita paper)",
+          "version": "GTDB-Tk 1.1.0 (released 2020-04-14; pre-R95, R89 implied)",
+          "settings": "GTDB release behind the local 2020 table cliff_mags/gtdb_table_bac.csv is unverified",
+          "evidence": "PMC8692437.txt line 24; PMC8774927.txt line 13; GitHub API Ecogenomics/GTDBTk 1.1.0 and 1.3.0 notes"
+        },
+        {
+          "step": "MAG abundance (basis of the manuscript numbers)",
+          "tool": "BBTools mapping of raw reads to all MAGs; average depth; DESeq2 / CPM",
+          "version": "not reported",
+          "settings": "24 cores only; Cliff_310MAG_relabund.tsv has 24 core columns and an 'unbinned_reads' row (mean unbinned: R1 0.469, R2 0.580, SF2 0.884, R2A 0.891)",
+          "evidence": "PMC8692437.txt line 23 ('Raw reads were then mapped to all the collected MAGs using BBTools'); PMC8535929.txt line 18 ('across the 24 metagenome samples'); /home/freiburger/Documents/MicrobiomeNotebooks/salterns/data/Cliff_310MAG_relabund.tsv lines 1 and 312"
+        },
+        {
+          "step": "Henry-lab re-quantification",
+          "tool": "CoverM genome with strobealign + samtools",
+          "version": "strobealign 0.13.0; samtools 1.20-52-ge6591ef (BAM @PG); CoverM version not recorded",
+          "settings": "JGI filtered reads mapped competitively to all 450 MAGs (ani_library.txt) and to the JGI v2 assembly (>=500 bp); 33 of 39 samples. Share of reads mapping to the whole v2 assembly: R2A sediments 5.4-34.3%, SF2 sediments 8.1-24.4%, R1 45-60%",
+          "evidence": "pysam header of /home/freiburger/Documents/MicrobiomeNotebooks/salterns/reads/coverm/R1_A_D1_MG/bam_metagenome/*.bam; /home/freiburger/Documents/MicrobiomeNotebooks/salterns/reads/coverm/run_coverm_metagnome.sh lines 1-33; /home/freiburger/Documents/MicrobiomeNotebooks/salterns/cliff_mags/reads.ipynb cell 19 output"
+        },
+        {
+          "step": "KBase import",
+          "tool": "kb_uploadmethods.batch_import_assemblies_from_staging (310); import_fasta_as_assembly_from_staging (140)",
+          "version": "commit d42c2a16cc670db70e8a04e0a2b15b69baec7b22 (2020)",
+          "settings": "min_contig_length=500 (removed nothing, since all contigs are >=2,500 bp), type 'draft isolate'; workspaces 77580/163264/155805 are private (globalread 'n')",
+          "evidence": "kbase_prov.py output (get_objects2 provenance of 77580/2/1 and 77580/312/1); get_workspace_info globalread='n' for 77580, 163264, 155805"
+        }
+      ],
+      "reads": {
+        "where": "Public. NCBI SRA (mirrored at ENA) holds one RAW (unfiltered) JGI fastq run per metagenome for all 39, uploaded by JGI. The JGI-filtered *.anqdpht.fastq.gz files and the IMG assemblies are only in the JGI Data Portal (proposal 1890; download requires login, many files purged to tape). Metadata: GOLD study Gs0114514, projects Gp0125918-Gp0125958.",
+        "accessions": "One BioProject and one SRA study per sample: BioProjects PRJNA365331-PRJNA365363 and PRJNA405998-PRJNA406003. SRA studies SRP098108-SRP098139 (23 studies), SRP104918-SRP104921, SRP118406-SRP118413 (6), SRP227561, SRP320967-SRP320972 (5). Runs: SRR5209942-SRR5209948, SRR5210208-SRR5210216, SRR5210316-SRR5210317, SRR5210466-SRR5210470, SRR5468416-SRR5468419, SRR6056278-SRR6056279, SRR6056296-SRR6056300, SRR10375808, SRR14626156, SRR14626311-SRR14626314 (full map in per_sample and in /tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/reads_summary.tsv)",
+        "total_gbp": "344.10 Gbp (344,095,332,134 bases; 1,139,388,517 read pairs; 6.14-12.44 Gbp per run, mean 8.82): 24 sediment cores 207.62 Gbp, 12 water 112.61 Gbp, 3 R2_restored 23.87 Gbp",
+        "evidence": "Accessions from Zhou Table S1 (https://static-content.springer.com/esm/art%3A10.1038%2Fs41396-021-01067-w/MediaObjects/41396_2021_1067_MOESM2_ESM.xlsx; parsed to /tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/table_s1.tsv). Bases from NCBI runinfo (https://trace.ncbi.nlm.nih.gov/Traces/sra-db-be/runinfo?acc=<SRP>) and ENA filereport, which agree exactly. Command '~/Documents/py_venv/bin/python -I .../rebinning/tabulate_reads.py' printed 'runs: 39 ... total bases: 344095332134 = 344.10 Gbp' and 'ENA total bases: 344095332134'. SRA XML original filenames match all 33 local coverm read files ('match=yes', sra_files.tsv)",
+        "per_sample": "R1_A_D1 SRR5209943 PRJNA365331 9.03Gbp rel2017-01-27 JGI:10057.6.146711.ATTACTC-ATAGAGG; R1_A_D2 SRR5209944 PRJNA365332 8.92Gbp rel2017-01-27 JGI:10057.7.146718.ATTACTC-CCTATCC; R1_B_D1 SRR5209942 PRJNA365333 9.53Gbp rel2017-01-27 JGI:10092.1.147996.ATTACTC-AGGCGAA; R1_B_D2 SRR5209946 PRJNA365334 9.05Gbp rel2017-01-27 JGI:10092.2.148003.ATTACTC-TAATCTT; R1_C_D1 SRR14626311 PRJNA365335 7.48Gbp rel2021-05-23 JGI:10057.6.146711.TCCGGAG-TATAGCC; R1_C_D2 SRR5468416 PRJNA365336 7.39Gbp rel2017-04-23 JGI:10057.6.146711.TCCGGAG-ATAGAGG; R2A_A_D1 SRR5210214 PRJNA365351 8.56Gbp rel2017-01-27 JGI:10057.8.146725.CGCTCAT-GTACTGA; R2A_A_D2 SRR5468417 PRJNA365352 8.80Gbp rel2017-04-23 JGI:10057.8.146725.GAGATTC-TATAGCC; R2A_B_D1 SRR5468418 PRJNA365353 6.65Gbp rel2017-04-23 JGI:10092.1.147996.GAGATTC-CCTATCC; R2A_B_D2 SRR5210212 PRJNA365354 7.12Gbp rel2017-01-27 JGI:10092.1.147996.GAGATTC-GGCTCTG; R2A_C_D1 SRR5210316 PRJNA365355 6.95Gbp rel2017-01-27 JGI:10092.1.147996.GAGATTC-TAATCTT; R2A_C_D2 SRR5210470 PRJNA365356 8.33Gbp rel2017-01-27 JGI:10092.2.148003.GAGATTC-CAGGACG; R2_A_D1 SRR5468419 PRJNA365337 10.11Gbp rel2017-04-23 JGI:10057.7.146718.TCCGGAG-GGCTCTG; R2_A_D2 SRR14626312 PRJNA365338 8.64Gbp rel2021-05-23 JGI:10092.2.148003.TCCGGAG-AGGCGAA; R2_B_D1 SRR5209945 PRJNA365339 7.55Gbp rel2017-01-27 JGI:10057.6.146711.TCCGGAG-CAGGACG; R2_B_D2 SRR6056297 PRJNA405998 12.44Gbp rel2017-09-20 JGI:10092.3.148009.TCCGGAG-GTACTGA; R2_C_D1 SRR5210208 PRJNA365340 8.34Gbp rel2017-01-27 JGI:10057.6.146711.CGCTCAT-ATAGAGG; R2_C_D2 SRR10375808 PRJNA365341 6.41Gbp rel2019-10-30 JGI:10057.7.146718.CGCTCAT-CCTATCC; SF2_A_D1 SRR14626156 PRJNA365360 9.45Gbp rel2021-05-23 JGI:10092.2.148003.ATTCAGA-TATAGCC; SF2_A_D2 SRR5210466 PRJNA365361 9.75Gbp rel2017-01-27 JGI:10092.3.148009.ATTCAGA-ATAGAGG; SF2_B_D1 SRR6056278 PRJNA406002 8.97Gbp rel2017-09-20 JGI:10092.3.148009.ATTCAGA-GGCTCTG; SF2_B_D2 SRR5210469 PRJNA365362 9.19Gbp rel2017-01-27 JGI:10092.4.148015.ATTCAGA-AGGCGAA; SF2_C_D1 SRR5210468 PRJNA365363 9.09Gbp rel2017-01-27 JGI:10092.4.148015.ATTCAGA-CAGGACG; SF2_C_D2 SRR6056298 PRJNA406003 9.87Gbp rel2017-09-20 JGI:10092.4.148015.ATTCAGA-GTACTGA; R1_A_H2O SRR5209947 PRJNA365348 8.21Gbp rel2017-01-27 JGI:10057.8.146725.ATTACTC-GGCTCTG; R1_B_H2O SRR6056296 PRJNA405999 10.05Gbp rel2017-09-20 JGI:10092.3.148009.ATTACTC-CAGGACG; R1_C_H2O SRR14626313 PRJNA365349 9.61Gbp rel2021-05-23 JGI:10057.8.146725.TCCGGAG-CCTATCC; R2A_A_H2O SRR5210215 PRJNA365357 9.65Gbp rel2017-01-27 JGI:10057.8.146725.GAGATTC-ATAGAGG; R2A_B_H2O SRR5210211 PRJNA365358 8.40Gbp rel2017-01-27 JGI:10092.1.147996.GAGATTC-AGGCGAA; R2A_C_H2O SRR5210467 PRJNA365359 10.20Gbp rel2017-01-27 JGI:10092.2.148003.GAGATTC-GTACTGA; R2_A_H2O SRR14626314 PRJNA365344 8.33Gbp rel2021-05-23 JGI:10092.1.147996.TCCGGAG-TAATCTT; R2_B_H2O SRR5209948 PRJNA365345 6.14Gbp rel2017-01-27 JGI:10057.6.146711.CGCTCAT-TATAGCC; R2_C_H2O SRR5210216 PRJNA365346 7.70Gbp rel2017-01-27 JGI:10057.7.146718.CGCTCAT-GGCTCTG; SF2_A_H2O SRR5210317 PRJNA365350 12.13Gbp rel2017-01-27 JGI:10092.3.148009.ATTCAGA-CCTATCC; SF2_B_H2O SRR6056300 PRJNA406000 11.94Gbp rel2017-09-20 JGI:10092.4.148015.ATTCAGA-TAATCTT; SF2_C_H2O SRR6056279 PRJNA406001 10.23Gbp rel2017-09-20 JGI:10092.4.148015.GAATTCG-TATAGCC; R2_restored_C_black SRR5210210 PRJNA365342 8.58Gbp rel2017-01-27 JGI:10057.7.146718.CGCTCAT-AGGCGAA; R2_restored_D_shore SRR5210213 PRJNA365343 6.85Gbp rel2017-01-27 JGI:10057.7.146718.CGCTCAT-TAATCTT; R2_restored_H2O SRR5210209 PRJNA365347 8.44Gbp rel2017-01-27 JGI:10057.8.146725.CGCTCAT-CAGGACG"
+      },
+      "discrepancies": [
+        "MEGAHIT vs SPAdes. Manuscript paragraph 30 (Metabolic Manuscript.docx, python-docx index): 'The 24 metagenomes were quality filtered and trimmed with BBtools, assembled with MEGAHIT'. Paragraph 35: MAGs 'were assembled from the 24 metagenomes'. MEGAHIT v1.0.3 is right only for JGI's standard IMG assemblies, which supplied the KO profiles. The MAGs come from separate per-sample Tadpole+SPAdes re-assemblies (Zhou PMC8692437.txt line 23), which is why all 145,616 MAG contigs carry SPAdes NODE_ headers (MAG_contigs/README.md line 26). The Methods need one sentence for the IMG/KO assemblies and another for the MAG assemblies.",
+        "The MAG source is neither IMG assembly. Genes 2021 (PMC8535929.txt line 15) cites 'IMG ID 3300026157' (the JGI 2018 '(SPAdes) (version 2)' record) for the Methanosalis MAG. Yet 0/129,258 MAG contigs match that reassembly's contigs by index and length (node_vs_img.tsv), and only 1.6% of contigs of 20 kb or more have their length in it (node_rank.tsv). So IMG IDs in the papers identify the sample, not the assembly that was binned. The MAG-source assemblies are not deposited anywhere I checked (IMG, NCBI 'Salt_Pond_MetaG' search = 0 hits, KBase). R1_C_H2O has no JGI assembly at all (Zhou Table S1 IMG ID 'NA') yet contributes 6 MAGs.",
+        "24 vs 39 metagenomes. The MAGs were binned from 39 metagenomes (Zhou Table S1 lists 39: 26 'Sediment' incl. 2 R2_restored, 13 'Water'). The 310 retained MAGs split 209 from the 24 cores, 64 from the 12 water samples and 37 from the 3 R2_restored samples (all 450: 313/96/41). Abundance and unbinned fractions were computed only on the 24 cores (Cliff_310MAG_relabund.tsv has 24 core columns; Genes papers: 'across the 24 metagenome samples'). 'Assembled from the 24 metagenomes' is wrong for binning but right for quantification.",
+        "Sampling date. The 3 R2_restored samples were collected 2015-03-10 (SRA collection_date), not in July 2014. SF2 was sampled 2014-07-17 and R1/R2/R2A on 2014-07-11. Manuscript paragraph 27 ('July, 2014') holds only for the 24 cores, but 37 of the 310 MAGs come from the 2015 samples.",
+        "Sequencing yield. Zhou line 21 says '~20 Gb ... for each metagenome sample ... for a total of 700 Gb with ~400 bp inserts'. SRA/ENA show 6.14-12.44 Gbp per run and 344.10 Gbp over the 39 runs, with nominal_length 270 for every library. Genes 2021 ('Approximately 10 Gb' for R1_A_D2) matches SRA (8.92 Gbp). Zhou's figures are about 2x high.",
+        "Unbinned fractions disagree within the manuscript. Paragraph 96 gives '88% in SF2, 89% in R2A, 58% in R2, and 47% in R1', which matches Cliff's table (means 0.884/0.891/0.580/0.469). The Table 3 caption (paragraph 113) gives '68%, 89%, and 89%' for unrestored/restored/reference, but the unrestored mean from the same table is ~52%.",
+        "IMG annotation pipeline 'v4.10.2' (paragraph 30) is UNVERIFIED. The per-sample pipeline_version.info (2016-03-02) sits behind a JGI login and is purged to tape. A 2016 MAP v4-era pipeline is consistent, but the exact version is not confirmed.",
+        "CheckM numbers in Zhou disagree slightly with themselves. Zhou states contamination <25%, but Table S2 has a maximum of 25.53%. The text gives 'contamination from 12 to 24%' for the 35 contaminated MAGs; Table S2 shows 10.16-25.53%. Separately, the local KBase reduced-tree CheckM 1.0.18 table matches Zhou S2 for 301/310 MAGs but puts one MAG below 70% completeness (63.27%), while Zhou S2's minimum is 75.44%.",
+        "Zhou Table S1 mixes measures in 'Assembled Genome Size'. For the 24 cores it reports IMG total bases including unassembled reads (R1_A_D1 1,426,804,145 = JGI portal img.total_bases; the assembled size is 689,817,367 in IMG_Info.xlsx). For the water and R2_restored rows it reports assembled size.",
+        "Citation issues. Zhou ref 39 and Genes 2021 ref 35 cite Lin & Liao 2016 (MyCC) for CONCOCT; CONCOCT's paper is Alneberg et al. 2014. The manuscript text has 'Zhou et al. (202)' typos (paragraphs 27-28) and 'Zhou et al. (2021)' for a paper whose reference is ISME J 16:284-295 (online 2021-07-28, issue Jan 2022). The reference list also omits co-author Ye Tian.",
+        "Read basis differs between analyses. The Henry-lab CoverM re-quantification (reads/coverm, cliff_mags/reads.ipynb) covers 33/39 samples. It is missing R1_C_D1, R2_A_D2, R2_C_D2, SF2_A_D1, R1_C_H2O and R2_A_H2O, the runs SRA released late in 2019/2021; four of them are marked 'IMG_data' in Sample_reads_IDs.txt lines 8, 18, 21, 25. The manuscript's binned/unbinned numbers instead come from Cliff's BBTools table, which covers all 24 cores.",
+        "Data availability. Paragraph 102 covers only reads and IMG assemblies. The 450 MAGs are not public: KBase ws 77580, 163264 and 155805 are private (globalread 'n'). Only the curated Methanosalis and Marivita MAGs are public (IMG 2929001634, 2930928012, 2930931642; NCBI GCA_020055655.1, GCF_020055675.1).",
+        "Task-listed local file missing. /home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_QC/README.md does not exist; MAG_QC/ holds checkm/, gtdbtk_local_r232/, gtdbtk_isolates_r232/, compare_vs_2020.py, comparison_vs_2020.csv and jobs.json."
+      ],
+      "open_questions": [
+        "Where are the Tringe-lab per-sample Tadpole+SPAdes assemblies, the BBMap depth tables and the per-binner, DAS Tool and dRep outputs (Zhou/Tringe at JGI/NERSC? the 'Dereplicated/Unretained MAGs' folders in the 'JGI Salterns Modeling' Drive are not visible to this account; a Drive search found nothing)? Without them, re-binning means reassembling from the public raw reads.",
+        "Unreported versions and settings: Tadpole/BBTools and BBMap versions; SPAdes version, k-mer list and meta mode; MetaBAT 1 vs 2; MaxBin2, CONCOCT, DAS Tool and dRep versions; the CheckM version used for Zhou Table S2; the GTDB release behind cliff_mags/gtdb_table_*.csv.",
+        "Single- vs multi-sample (differential) coverage for binning. Zhou's 'to get read depths across samples' suggests a multi-sample depth matrix on per-sample assemblies, but it is not explicit, and it is unknown which samples were cross-mapped (all 39? same site only?).",
+        "The >=2,500 bp contig pre-filter before binning is inferred from the data (shortest contig is 2,500 bp in all three binners) and not documented.",
+        "Exact dates of the MAG assembly, binning, CheckM and dRep steps. They are bounded only by BBTools 'accessed 16 April 2018', DAS Tool 1.0.0 (2017-08-10), CheckM 1.0.18 (2019-08-11) and GTDB-Tk 1.1.0 (2020-04-14) on one side and the KBase upload (2020-11-18) on the other.",
+        "Was R1_C_H2O ever assembled or annotated by JGI? Its GOLD project Gp0125940 returns no portal files and has no IMG record; its reads entered SRA only on 2021-05-23.",
+        "Confirming MEGAHIT v1.0.3 and IMG MAP v4.10.2 for the original assemblies needs the JGI-login files 1092xxx.README.txt and 78216.pipeline_version.info (purged to tape). The 2018 reassembly's tool versions (bfc r181, SPAdes 3.10.0-dev) are inferred from a sibling README of the same batch, not from the salterns READMEs.",
+        "SPAdes k-mer coverage vs own-sample read depth for R1_A_D1 (median 0.34, 89% below 1) supports single-sample assembly input, but the final k is unknown, so co-assembly from a few samples cannot be strictly excluded. Zhou says each metagenome was assembled de novo.",
+        "Relevant to the reassembly decision (inference): in SF2/R2A sediments only 5-34% of reads map even to the whole JGI v2 assembly (contigs >=500 bp), and only 7-10 Gbp of reads exist per sample. That suggests sequencing depth and assembly, not just binner choice, cap the binned fraction in the restored and reference cores. A modern reassembly with multi-sample coverage would need to be tested empirically."
+      ]
+    },
+    "advances": {
+      "summary": "WHEN (verified from Zhou et al. 2022 Methods, PMC8692437, plus release dates): the JGI/IMG assemblies were made with MEGAHIT v1.0.3 (a 2015-10-11 release). The MAGs come from a separate per-sample re-assembly ('Tadpole error correction in BBTools and the SPAdes assembler'; SPAdes version and whether --meta was used are not reported). Each assembly was binned with CONCOCT, MaxBin and MetaBAT, merged by DAS Tool (2018 paper), scored with CheckM, and dereplicated with dRep (gANI >96.5%, 60% overlap). So this is a 2018-2020 pipeline: the FASTAs reached KBase on 2020-11-18 (KBase provenance in the user's MAG-inventory notes), and the paper was received 2021-01-19 and published online 2021-07-28. The manuscript's 'assembled with MEGAHIT' describes the IMG assemblies, not the MAG assemblies. Locally, 112 of 1,287 R2A_B_D1 MAG contigs are longer than that sample's longest IMG contig (16,025 bp). WHAT CHANGED SINCE: (1) Short-read assemblers have not improved much. CAMI II found 'performances were similar across software versions'. SPAdes 3.14-4.3 releases are about speed and RAM, and v4.0 was declared the last major feature release. MEGAHIT has had no release since 1.2.9 (2019). (2) Binning has improved. Multi-sample (differential-coverage) binning gave +78% filtered bins and cut the share of bins with >=5% contamination from 22.5% to 3.5% (Mattock & Watson 2023, MetaBAT2 2.15). An independent 13-tool benchmark (Han 2025) found +100% MQ and +194% NC MAGs with 30 marine short-read samples, and its top-ranked short-read binner is COMEBin. In the tools' own papers, the newer binners (COMEBin, SemiBin/SemiBin2, MetaBinner, MetaDecoder, VAMB/AVAMB/TaxVAMB) recover about 10-80% more near-complete or HQ genomes than MetaBAT2 or a CONCOCT/MaxBin/MetaBAT + DAS Tool ensemble (2-3x in some datasets). Newer refiners such as MAGScoT add only about 5-25% over DAS Tool. (3) Quality estimation has improved. For poorly represented or reduced-genome phyla, including Nanohaloarchaeota, CheckM2's completeness error is 3.6% vs 26.3% for CheckM1. GUNC flags 15-30% of 'HQ' MAGs in large studies as chimeras. skani-based dereplication (dRep v4, galah) removes the low-ANI bias that Mash/FastANI show on incomplete MAGs. VERDICT: re-QC is clearly worth doing (CheckM2 + GUNC + skani, no re-assembly needed). Re-binning with all-vs-all coverage across the 39 samples, a ~1 kb contig floor, a modern binner and a refiner is probably worthwhile: expect more and cleaner MAGs, mainly from the unrestored cores and the water samples. Re-assembling only to get a newer assembler version is not worthwhile. In the SF2/R2A cores the ~88% of reads that are unbinned are mostly unassembled: only ~14-15% of their reads map to >=500 bp contigs of the IMG assembly, and the MAGs already hold 9-12%. No binner can fix that; it needs deeper or long-read sequencing, or per-site co-assembly.",
+      "advances": [
+        {
+          "area": "Short-read assembler versions (metaSPAdes, MEGAHIT)",
+          "then_tool": "IMG assembly: MEGAHIT v1.0.3 (released 2015-10-11). MAG assembly: per-sample SPAdes after BBTools Tadpole error correction (version and --meta use not reported)",
+          "now_tool": "SPAdes 4.3.0 (2026-06-14; 4.0.0 2024-06-04); MEGAHIT 1.2.9 (2019-10-15, still the latest release)",
+          "year": "2019-2026",
+          "quantitative_claim": "No published contiguity or genome-fraction gain comes from version upgrades. CAMI II (marine, strain-madness, plant-associated datasets) reports assembly 'performances were similar across software versions'. The SPAdes 3.14/3.15/4.x release notes list performance and RAM reductions plus non-MAG pipelines (metaviral, metaplasmid, biosynthetic, hpcSPAdes, BinSPreader). MEGAHIT has had no release after v1.2.9.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9007738/ ; https://github.com/ablab/spades/releases/tag/v4.0.0 ; https://github.com/voutcn/megahit/releases (release list read via the GitHub API)",
+          "quote": "CAMI II: \"In addition, genome coverage, parameter settings and data preprocessing impacted assembly quality, while performances were similar across software versions.\" SPAdes v4.0.0 notes: \"SPAdes 4.0 will most likely be the last major release introducing new features and significant changes.\""
+        },
+        {
+          "area": "Short-read assembly state of the art (CAMI II)",
+          "then_tool": "CAMI 1-era assemblers (Ray Meta, MEGAHIT, metaSPAdes; challenge run 2015-2017)",
+          "now_tool": "CAMI II submissions (2019-2020): MetaHipMer/HipMer, GATB, MEGAHIT, SPAdes, ABySS, A-STAR, OPERA-MS",
+          "year": "2022",
+          "quantitative_claim": "Best short-read genome fraction was only 41.1% on marine and 10.4% on strain-madness, both from MEGAHIT; gold-standard assemblies reached 90.8% and 76.9%. SPAdes assembled low-coverage marine genomes best (from 9.2x; MEGAHIT needed 10x). The headline 'assembler performances rose by up to 30%' vs CAMI 1 refers to examples such as HipMer making 30% fewer mismatches than Ray Meta, not to MEGAHIT or metaSPAdes gains.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9007738/",
+          "quote": "\"Short-read assemblers achieved genome fractions of up to 10.4% on strain-madness and 41.1% on marine data, both by MEGAHIT.\" [citation numeral removed] \"HipMer introduced the fewest mismatches (67 mismatches per 100 kb) on the marine data. This was 30% less than Ray Meta, the best performing method also participating in CAMI 1.\""
+        },
+        {
+          "area": "Co-assembly vs per-sample assembly",
+          "then_tool": "Per-sample SPAdes assembly of each of the 39 metagenomes",
+          "now_tool": "Per-sample assembly + multi-sample binning (benchmark recommendation), with targeted co-assembly or mix-assembly for low-coverage genomes",
+          "year": "2021-2025",
+          "quantitative_claim": "CAMI II (plant-associated spike-ins): co-assembly helps short-read assemblers on low-coverage genomes when there is no cross-sample strain diversity; single-sample assembly is preferable when coverage is sufficient and related strains are expected. Han et al. 2025 (5 real datasets): short-read co-assembly binning recovered the fewest MQ, NC and HQ MAGs. Vosloo et al. 2021 (low-diversity drinking-water time series, metaSPAdes 3.13.1): co-assembling all samples gave the highest read mapping (90.61 +/- 3.28% vs 85.47 +/- 4.45% for individual assemblies) and the most medium-quality MAGs with MetaBAT2.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9007738/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC11933696/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC8567270/",
+          "quote": "CAMI II: \"Thus, coassembly could generally improve assembly for OPERA-MS and for short-read assemblers on low coverage genomes without expected strain diversity across samples.\" Han 2025: \"For short-read data, co-assembly binning recovered the fewest number of MQ, NC, and HQ MAGs across five datasets\""
+        },
+        {
+          "area": "Minimum contig length used for binning",
+          "then_tool": "2,500 bp floor: all 145,616 contigs in the 450 MAGs are >=2,500 bp (local check of MAG_contigs/*.fna headers), matching MetaBAT's default --minContig 2500",
+          "now_tool": "Binning contigs >=1 kb: COMEBin default 1000 bp; MetaBAT2 recruits 1-2.5 kb contigs by abundance correlation once there are enough samples; SemiBin drops to 1 kb automatically only if 1-2.5 kb contigs hold <5% of bp",
+          "year": "2022 (CAMI II); tool docs 2023-2026",
+          "quantitative_claim": "On the CAMI II marine MEGAHIT assembly, mean genome completeness across binners fell to 21.2 +/- 1.6%, vs 36.9 +/- 4.0% on the gold-standard assembly, at similar purity. CAMI II attributes this to unbinned 1.5-2 kb contigs. On the strain-madness MEGAHIT assembly completeness fell to 5.2 +/- 0.6%.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9007738/ ; https://bitbucket.org/berkeleylab/metabat (README) ; https://github.com/ziyewang/COMEBin (README) ; https://pmc.ncbi.nlm.nih.gov/articles/PMC9051138/",
+          "quote": "\"For the marine MA, average bin purity (78.3 ± 2.6%) was similar, while average completeness was only 21.2 ± 1.6% (Fig. 2a,c and Supplementary Table 10), due to many short contigs with 1.5–2 kb, which most binners did not bin (Supplementary Fig. 6).\""
+        },
+        {
+          "area": "Multi-sample (multi-coverage) vs single-sample binning",
+          "then_tool": "Binning of each individual assembly. Zhou et al. say reads were 'mapped to all contigs ... to get read depths across samples', so whether cross-sample coverage was used is unclear (unverified)",
+          "now_tool": "All-vs-all mapping of every sample's reads to every per-sample assembly, then binning with all coverage profiles (multi-coverage binning)",
+          "year": "2023",
+          "quantitative_claim": "42 rumen samples, MEGAHIT 1.1.3 + MetaBAT2 2.15, all else identical. Multi-coverage gave 1,660 vs 931 bins at >=80% complete / <=10% contaminated (+78%). Bins with CheckM contamination >=5% fell from 22.5% to 3.5%. By a coverage-correlation test, 46% of single-coverage filtered bins vs 10.6% of multi-coverage bins carried >10% contaminant contigs.",
+          "source_url": "https://www.pure.ed.ac.uk/ws/files/353027783/57714_3_art_18_5917_v2.pdf (accepted manuscript of Nat Methods 20:1170-1173) ; https://pubmed.ncbi.nlm.nih.gov/37386187/",
+          "quote": "\"Using these cut-offs, the single coverage approach produced 931 filtered bins, compared to 1660 produced by the multi-coverage approach, an increase of 78%.\""
+        },
+        {
+          "area": "Multi-sample vs single-sample binning (independent real-data benchmark of 13 tools)",
+          "then_tool": "Single-sample binning",
+          "now_tool": "Multi-sample binning (same per-sample MEGAHIT 1.2.9 assemblies, contigs >1 kb, evaluated with CheckM2)",
+          "year": "2025",
+          "quantitative_claim": "Marine, 30 short-read samples: +100% MQ (1101 vs 550), +194% NC (306 vs 104) and +82% HQ (62 vs 34) MAGs. Human gut II, 30 samples: +44% MQ, +82% NC, +233% HQ. Human gut I, only 3 samples: +22% MQ and comparable NC/HQ. Marine NC species after dereplication: +41% (135 vs 96). The gain scales with the number of samples that share taxa.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11933696/",
+          "quote": "\"In the marine dataset (30 mNGS samples), multi-sample binning substantially outperformed single-sample binning, retrieving 100% (1101 versus 550) more MQ MAGs, 194% (306 versus 104) more NC MAGs, and 82% (62 versus 34) more HQ MAGs.\" / \"In the human gut I dataset (three mNGS samples), multi-sample binning recovered 22% (181 versus 148) more MQ MAGs and retrieved comparable numbers of NC and HQ MAGs compared to single-sample binning.\""
+        },
+        {
+          "area": "MetaBAT2 updates since 2019",
+          "then_tool": "MetaBAT (Zhou et al. cite the 2015 MetaBAT 1 paper; the version actually run is not reported)",
+          "now_tool": "MetaBAT 2.18 (2025-01-24; earlier tags 2.15 2020-01-04, 2.16 2023-04-11, 2.17 2023-09-12)",
+          "year": "2019 (paper); 2020-2025 (releases)",
+          "quantitative_claim": "MetaBAT 2 (2019) recovered 333 of 753 CAMI-1 high-complexity genomes (44.2%) at >=90% completeness / >=95% precision, vs 195 (25.9%) for MaxBin2. The post-2020 releases are bug-fix and maintenance releases (Bitbucket tag messages) with no new accuracy benchmark. Han 2025 lists MetaBAT2 as 'efficient', not top-ranked: MAGScoT-refined top binners gave 59%, 54%, 166%, 99% and 34% more NC MAGs than MetaBAT2 alone on its five datasets.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6662567/ ; https://bitbucket.org/berkeleylab/metabat (tags read via the Bitbucket API) ; https://pmc.ncbi.nlm.nih.gov/articles/PMC11933696/",
+          "quote": "\"For example, at 90% completeness and 95% precision levels MetaBAT 2 recovers 333 out of 753 genomes (44.2%) from the CAMI High Complexity dataset, while the next best software, MaxBin2, only recovers 195 genomes (25.9%).\""
+        },
+        {
+          "area": "Deep-learning binner VAMB",
+          "then_tool": "MetaBAT/CONCOCT/MaxBin + DAS Tool",
+          "now_tool": "VAMB (2021; current v5.0.4, 2025) with the 'multi-split' per-sample-assembly workflow",
+          "year": "2021",
+          "quantitative_claim": "29-98% more NC genomes than existing binners on simulated (CAMI2) data and 45% more on real data. It separates strains up to 99.5% ANI. The README says its binners 'perform excellently with multiple samples, and pretty good on single-sample data'.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/33398153/ ; https://github.com/RasmussenLab/vamb",
+          "quote": "\"VAMB outperforms existing state-of-the-art binners, reconstructing 29-98% and 45% more near-complete (NC) genomes on simulated and real data, respectively.\""
+        },
+        {
+          "area": "VAMB successor AVAMB (adversarial + variational autoencoders)",
+          "then_tool": "VAMB",
+          "now_tool": "AVAMB (2023); the VAMB README now calls it obsolete and recommends TaxVamb",
+          "year": "2023",
+          "quantitative_claim": "+20% NC genomes vs VAMB on simulated CAMI2 data and +29% on real data. On the 1,000-sample Almeida gut and HMP2 sets it gave 5,733 and 3,569 NC bins (+24% and +34%). But in the same paper SemiBin, SemiBin2 and MetaDecoder recovered 15-36%, 15-45% and 1-28% more NC genomes than AVAMB on CAMI.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10590447/ ; https://github.com/RasmussenLab/vamb",
+          "quote": "\"Finally, we implemented a pipeline Integrating VAMB and AAMB that enabled improved binning, recovering 20% and 29% more simulated and real NC genomes, respectively, compared to VAMB, with moderate additional runtime.\""
+        },
+        {
+          "area": "VAMB successor TaxVAMB (taxonomy-informed)",
+          "then_tool": "VAMB",
+          "now_tool": "TaxVAMB (part of Vamb 5.x; needs a contig taxonomy run such as mmseqs taxonomy)",
+          "year": "2026 (Nat Biotechnol, online 2026-04-27; preprint 2024)",
+          "quantitative_claim": "+29% HQ assemblies vs the next-best binner on CAMI2 human short-read datasets, but only 'on par with the best binners on short-read datasets'. +83% HQ bins vs VAMB in single-sample mode; +300% HQ bins of incomplete genomes vs the next best. The 2024 preprint reported 40% and 255% instead of 29% and 300%.",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/42045408/ (doi:10.1038/s41587-026-03098-0) ; preprint https://doi.org/10.1101/2024.10.25.620172",
+          "quote": "\"TaxVAMB outperformed all other binners on CAMI2 human microbiome datasets, returning on average 29% more high-quality assemblies than the next best binner, and performed on par with the best binners on short-read datasets.\""
+        },
+        {
+          "area": "SemiBin (semi-supervised siamese network) on real data, including soil",
+          "then_tool": "MetaBAT2, single-sample",
+          "now_tool": "SemiBin (2022)",
+          "year": "2022",
+          "quantitative_claim": "Single-sample binning of real data, HQ = CheckM >90%/<5% plus a GUNC pass, vs MetaBAT2: +41.2% (human gut, 1497 HQ), +72.0% (dog gut), +48.7% (ocean) and +61.0% (soil: 95 vs 59 HQ bins from 101 samples). Multi-sample vs VAMB: +17.5%, +11.0%, +30.7%, +171.4%.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9051138/",
+          "quote": "\"In the human gut, dog gut, ocean, and soil datasets, SemiBin reconstructed 1497, 2415, 446, and 95 high-quality bins with single-sample binning, significantly outperforming Metabat2 with an increase of 437 (41.2%), 1011 (72.0%), 146 (48.7%), and 36 (61.0%), respectively.\""
+        },
+        {
+          "area": "SemiBin2 (self-supervised contrastive learning)",
+          "then_tool": "VAMB / SemiBin1, multi-sample",
+          "now_tool": "SemiBin2 (v2.6.0, 2026-10-13)",
+          "year": "2023",
+          "quantitative_claim": "Multi-sample binning of real short-read data: 1678, 3776, 631 and 254 HQ bins (human gut, dog gut, ocean, soil). That is +27.3%, +21.5%, +44.7% and +229.9% vs VAMB, and +8.3-21.5% vs SemiBin1 at ~25% of SemiBin1's running time and 11% of its peak memory. Pretrained models exist for 12 environments, none hypersaline; otherwise SemiBin2 trains on the user's own samples.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10311329/ ; https://github.com/BigDataBiology/SemiBin (README)",
+          "quote": "\"Compared to VAMB, SemiBin2 generated 27.3% (360), 21.5% (669), 44.7% (195), and 229.9% (177) more high-quality bins.\""
+        },
+        {
+          "area": "COMEBin (contrastive multi-view representation learning)",
+          "then_tool": "MetaBAT2 / VAMB / SemiBin2 / MetaDecoder (best other binner per dataset)",
+          "now_tool": "COMEBin (v1.1.0, 2026-08-16)",
+          "year": "2024 (independent confirmation 2025)",
+          "quantitative_claim": "On average +9.3% NC bins on simulated datasets (incl. CAMI II) and +22.4% on real datasets, vs the best other binner per dataset. CAMI II marine gold-standard assembly: 285 -> 337 NC bins. Real data: +33.2% NC genomes in single-sample and +28.0% in multi-sample binning. Han et al. 2025 independently ranked COMEBin first for both short-read single-sample and short-read multi-sample binning.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10794208/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC11933696/ (Table 2)",
+          "quote": "\"Compared with the best of other methods (the best results of other binners for all datasets come from different binning methods), COMEBin has an average improvement of 9.3% and 22.4% on the simulated datasets and the real datasets, respectively.\""
+        },
+        {
+          "area": "MetaBinner and MetaDecoder vs the CONCOCT/MaxBin/MetaBAT + DAS Tool configuration used here",
+          "then_tool": "DAS Tool over CONCOCT + MaxBin + MetaBAT bins",
+          "now_tool": "MetaBinner (2023, stand-alone ensemble binner); MetaDecoder (2022, GPU DPGMM + GMM)",
+          "year": "2022-2023",
+          "quantitative_claim": "MetaBinner vs DAS Tool (CONCOCT+MaxBin+MetaBAT inputs), NC (>90%/<5%) bins: CAMI Airways 129 vs 71 (+82%), CAMI GI tract 147 vs 111 (+32%), CAMI mouse gut 409 vs 357 (+15%), real STEC MEGAHIT assembly 38 vs 26 (+46%). MetaDecoder on 145 T2D stool samples: 2014 HQ clusters vs 1302 for MetaBAT2 (+55%) and 1802 for DAS Tool on CONCOCT+MetaBAT2 (+12%).",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9817263/ (Tables 1-2) ; https://pmc.ncbi.nlm.nih.gov/articles/PMC8908641/",
+          "quote": "MetaBinner Table 1 note: \"The input binning results of MetaWRAP and DAS Tool are generated by CONCOCT, MaxBin, and MetaBAT.\" MetaDecoder: \"We obtained a total of 2014 high-quality clusters (contamination ≤ 0.05 and completeness ≥ 0.90), compared to MetaBAT2 (1302), DASTool_MM (1865) and DASTool_CM (1802).\""
+        },
+        {
+          "area": "Assembly-graph binners and graph-based refinement",
+          "then_tool": "Composition + coverage only (graph ignored)",
+          "now_tool": "GraphMB (2022), MetaCoAG (2021 preprint), BinSPreader (2022; now bundled in SPAdes 4)",
+          "year": "2021-2022",
+          "quantitative_claim": "GraphMB: on average +17.5% HQ bins vs state-of-the-art binners (+13.7% when its results are aggregated with the others), but it was benchmarked on long-read assemblies. MetaCoAG (short-read assembly graphs): 'more high-quality bins than the second-best tool', average median F1 88.40% (preprint). BinSPreader propagates bins to shorter contigs through the assembly graph; no numeric gain was extracted (magnitude unverified).",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9525014/ ; https://doi.org/10.1101/2021.09.10.459728 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC9386100/",
+          "quote": "GraphMB: \"In particular, we obtained on average 17.5% more HQ bins when compared with state-of-the-art binners and 13.7% when aggregating the results of our binner with the others.\""
+        },
+        {
+          "area": "Bin refinement: DAS Tool vs MAGScoT, Binette, MetaWRAP",
+          "then_tool": "DAS Tool (2018; current 1.1.7, 2024-01-08)",
+          "now_tool": "MAGScoT (2022; v1.1 2024), Binette (2024; v1.2.1 2025, CheckM2-based scoring)",
+          "year": "2022-2025",
+          "quantitative_claim": "MAGScoT vs DAS Tool on identical inputs: >90%/<5% MAGs 416 vs 398 (CAMI2 marine) and 251 vs 224 (HMP2 gut); >50%/<10% MAGs 614 vs 559 and 420 vs 333; ~15x faster than DAS Tool on the marine data. Han 2025: MetaWRAP was best for MQ and MAGScoT best for NC, but no refiner had a clear HQ advantage. Binette's JOSS paper reports no quantitative benchmark (its gains are unverified).",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9750101/ (Table 1) ; https://pmc.ncbi.nlm.nih.gov/articles/PMC11933696/ ; https://joss.theoj.org/papers/10.21105/joss.06782",
+          "quote": "Han 2025: \"However, none of the three methods showed a remarkable advantage in recovering HQ MAGs.\" MAGScoT: \"In summary, MAGScoT outperforms the two popular bin refinement solutions metaWRAP and DASTool in terms of the quantity and quality of MAGs recovered, while being more economical with computational resources.\""
+        },
+        {
+          "area": "Multi-binner + refinement toolkit tested on saline-lake sediment (BASALT)",
+          "then_tool": "DAS Tool (MaxBin2+CONCOCT+MetaBAT2 inputs) / metaWRAP",
+          "now_tool": "BASALT (2024): multiple binners at multiple thresholds, neural-network refinement and gap-filling reassembly",
+          "year": "2024",
+          "quantitative_claim": "CAMI-high, OPERA-MS hybrid assembly (not short reads only): 54.8%, 52.8% and 26.1% more MAGs than VAMB, DAS Tool (MaxBin2+CONCOCT+MetaBAT2) and metaWRAP; +259% quality>=90 genomes vs DAS Tool; MAGs recruited 77.6% vs 49.6% of reads for DAS Tool. Aiding Lake (inland saline lake) sediment, short reads only, vs metaWRAP: 557 vs 392 nonredundant MAGs (+42%) and 155 vs 79 HQ MAGs (+96%). These numbers include BASALT's gap-filling and are not a DAS Tool head-to-head on short reads.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10928208/",
+          "quote": "\"Using SRS assemblies, BASALT produced 557 nonredundant MAGs (completeness = 80.8% ± 12.57%, contamination = 1.45% ± 1.44%, quality = 73.2 ± 12.38) from Aiding Lake sediment samples, including 155 high-quality MAGs (completeness ≥90%, contamination ≤5%), checked using CheckM.\" [citation numeral removed]"
+        },
+        {
+          "area": "Genome-quality estimation: CheckM1 -> CheckM2",
+          "then_tool": "CheckM 1.0.x lineage_wf (the 2020 table is reproduced exactly by KBase CheckM 1.0.18, reduced tree)",
+          "now_tool": "CheckM2 (1.1.0, 2025-02-20)",
+          "year": "2023",
+          "quantitative_claim": "Completeness MAE for simulated RefSeq202 genomes: similar on high-quality genomes (2.1% vs 2.0%), better on medium/low quality (2.9% vs 4.7%), phylum-weighted 2.5% vs 5.7%. For phyla with very few reference genomes, including Nanohaloarchaeota, Patescibacteria and Iainarchaeota, high-quality MAE is 3.6% vs 26.3% for CheckM1. On GTDB r202 MAGs, 91% of completeness calls are within 5% of CheckM1. Speed: 1.56 vs 0.57 genomes per minute per thread.",
+          "source_url": "https://par.nsf.gov/servlets/purl/10509877 (published PDF, Nat Methods 20:1203-1212) ; https://pubmed.ncbi.nlm.nih.gov/37500759/",
+          "quote": "\"The most significant increase in performance of CheckM2 was seen in predicting completeness of genomes from the phyla with very few high-quality genomic representatives such as Iainarchaeota, Nanohaloarchaeota, Dependentiae, Bipolaricaulota and Patescibacteria (high-quality MAE 3.6 ± 2.9%) when compared to CheckM1 (high-quality MAE 26.3 ± 10.8%) or BUSCO (high-quality MAE 34.1 ± 7.1%) (Fig. 3b,c).\""
+        },
+        {
+          "area": "Chimerism detection: GUNC",
+          "then_tool": "None (CheckM single-copy-gene contamination only)",
+          "now_tool": "GUNC (2021; v1.1.1, 2026-05-11)",
+          "year": "2021",
+          "quantitative_claim": "15-30% of pre-filtered 'high-quality' MAGs in recent large studies are flagged as undetected chimeras. CheckM systematically overestimated completeness and underestimated contamination for non-redundant (cross-lineage) contamination. Limitation: detection degrades for chimeras of entirely novel lineages at low contamination, and Mattock & Watson 2023 found contaminated single-coverage bins that both CheckM and GUNC missed.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8201837/",
+          "quote": "\"GUNC complements existing approaches by targeting previously underdetected types of contamination: we conservatively estimate that 5.7% of genomes in GenBank, 5.2% in RefSeq, and 15–30% of pre-filtered “high-quality” metagenome-assembled genomes in recent studies are undetected chimeras.\""
+        },
+        {
+          "area": "Dereplication: dRep (Mash + gANI) -> skani-based dRep v4 / galah",
+          "then_tool": "dRep (2017) with gANI >96.5% and 60% minimum overlap (Zhou et al. 2022)",
+          "now_tool": "dRep v4.0.3 (2026-10-09; skani by default), galah 0.6.3 (2026-11-02), skani 0.4.0",
+          "year": "2023-2026",
+          "quantitative_claim": "Sketch-based ANI is biased low for incomplete MAGs: Mash under-estimated ANI by up to 4% at 50% completeness, and FastANI is sensitive to fragmentation (the original study required N50 >=10 kb). skani is robust to incompleteness and >20x faster than FastANI. dRep v4 replaced Mash + fastANI with skani for both clustering stages. In AVAMB's CAMI2 tests, CheckM2-guided de-replication lost 28 NC bins vs 40 with dRep.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10630134/ ; https://github.com/MrOlm/drep (README) ; https://github.com/wwood/galah ; https://pmc.ncbi.nlm.nih.gov/articles/PMC10590447/",
+          "quote": "skani paper: \"Mash was the most affected, with up to a difference of 4% ANI at 50% completeness, which can cause two very similar genomes of up to 99% ANI to be classified as different species when subject to the standard 95% ANI species threshold.\" dRep README: \"dRep v4 uses skani for both primary and secondary genome comparisons by default, replacing v3's default of MASH (primary) + fastANI (secondary).\" [markdown formatting removed]"
+        }
+      ],
+      "relevance_here": "Local measurements come from the existing CoverM 0.7.0/strobealign runs in /home/freiburger/Documents/MicrobiomeNotebooks/salterns/reads/coverm/*/coverm_metagenome.out, coverm_bins.out and BAM headers. They are tabulated in /tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/assembly_vs_bins.tsv. (1) ASSEMBLY, NOT BINNING, LIMITS THE RESTORED/REFERENCE CORES. In the 6 R2A cores, a mean 15.1% of reads map to the sample's own IMG MEGAHIT assembly (contigs >=500 bp), and the 450 MAGs recruit 9.3%. In SF2 cores the figures are 14.2% vs 12.0%. In the unrestored cores the MAGs already hold 94-97% of the assembled reads (R1 53.9% vs 52.3%; R2 41.4% vs 38.9%). So ~85% of SF2/R2A core reads never assembled into >=500 bp contigs. Even a perfect re-binning of that assembly could add only ~2-6 percentage points of reads. Caveats: the MAGs were binned from a separate SPAdes re-assembly that is more contiguous (in R2A_B_D1, 112 of 1,287 MAG contigs are longer than the longest IMG contig, 16,025 bp), and its read recruitment is unmeasured. MAG recruitment is competitive mapping against MAGs from all 39 samples. 6 of the 39 samples lack the IMG-assembly BAM. Getting these cores well above ~11-12% binned needs more depth, long reads, or per-site co-assembly of the 6 replicate cores, not a new binner. Sereika et al. 2025 report 183% more dereplicated MAGs from 154 deeply Nanopore-sequenced soils/sediments than from ~10,700 shallow short-read samples (PMC12313526). CAMI II supports co-assembly for low-coverage genomes without cross-sample strain diversity. (2) THE 2.5 KB FLOOR IS THE BEST-QUANTIFIED LEVER. All 145,616 MAG contigs are >=2,500 bp. In the IMG assemblies only ~20% (R2A cores) and ~23% (SF2 cores) of assembled bp lie in contigs >=2.5 kb, vs 41% (R1) and 34% (R2). CAMI II links a drop in mean completeness from 36.9% to 21.2% to unbinned 1.5-2 kb contigs. Binning >=1 kb contigs with 39-sample coverage (COMEBin default; MetaBAT2 --minContigByCorr 1000; SemiBin2 --min-len set explicitly, because its automatic drop to 1 kb triggers only when 1-2.5 kb contigs hold <5% of bp; this rule is from the SemiBin1 paper, so confirm it in the SemiBin2 docs) should mostly raise completeness of existing MAGs and add some new ones, at some cost in purity. (3) MULTI-SAMPLE COVERAGE IS THE LARGEST DOCUMENTED GAIN, BUT IT SCALES WITH SHARED SAMPLES. The documented gains are +78% filtered bins with contaminated bins cut from 22.5% to 3.5% (Mattock & Watson), and +100% MQ / +194% NC with 30 marine samples, but only +22% MQ and comparable NC/HQ with 3 samples (Han 2025). The 39 samples here are 4 sites x (6 cores + 3 waters) plus 3 extra R2 samples, so a given taxon probably co-occurs in ~6-12 samples. Expect a gain between those two extremes (extrapolation, not measured). Zhou et al.'s 'read depths across samples' may mean cross-sample coverage was already used (unverified), in which case part of this gain is already realised. (4) WHERE RE-BINNING SHOULD PAY OFF. In the unrestored cores (16-20 MAGs per sample; most assembled reads already binned), gains would be more NC/HQ MAGs, fewer chimeras, and strain separation within the 25 Rhodobacteraceae (12 Roseovarius). Among the 35 MAGs with CheckM contamination >=10%, multi-coverage binning is the documented fix. The water samples have the most headroom: the assembly recruits 38-93% of reads, but MAGs hold only 23-68% of that (SF2 H2O 38.0% vs 8.7%) and they yield 5-9 MAGs per sample vs 16-20 in R1/R2 cores. These samples are therefore limited by binning and retention; plausible causes are brine strain microdiversity, eukaryotic or viral DNA, and the >70% completeness retention cutoff (unverified). (5) NOVEL HYPERSALINE LINEAGES FAVOUR REFERENCE-FREE BINNERS. At GTDB r232, 134 of 310 MAGs lack a species name and 20 lack a genus. There are 30 archaea (24 Halobacteriota, 3 Nanohalarchaeota, 2 Thermoproteota, 1 Asgardarchaeota) and 15 Bacillota (MAG_QC/gtdbtk_local_r232/*.summary.tsv). TaxVAMB, SemiBin1 and GUNC depend on reference taxonomy; in CAMI II, Nanohaloarchaeota were 'not detected at all' by taxonomic profilers. SemiBin2 has no hypersaline pretrained model. So the best choices here are self-trained SemiBin2, COMEBin, VAMB and MetaBAT2, combined with MAGScoT or Binette. (6) RE-QC IS CHEAP AND NEEDS NO RE-ASSEMBLY. 106 of 310 MAGs were scored by CheckM1 with only domain-level markers (99 k__Bacteria, 7 k__Archaea; MAG_QC/comparison_vs_2020.csv), the situation CheckM2's authors describe as 'reduced accuracy and sensitivity'. These include the 3 Nanohalarchaeota and 2 Patescibacteriota MAGs (CheckM1 completeness 63-85%), exactly the lineages where CheckM2 cut completeness error from 26.3% to 3.6%. Run CheckM2 and GUNC (plus multi-coverage correlation checks) on all 450 MAGs. Re-dereplicate with skani (dRep v4 or galah): Mash-based clustering under-estimates ANI for incomplete MAGs, so the 310/140 split may be slightly over-split (hypothesis). (7) PRACTICAL POINTS AND BOTTOM LINE. The per-sample SPAdes assemblies were not found locally or in KBase, where only binned contigs were uploaded (per the user's MAG inventory notes; existence elsewhere, e.g. at JGI, unverified). Re-binning may therefore require re-assembly anyway; if so, use metaSPAdes 4.x or MEGAHIT 1.2.9, but expect no accuracy gain from the version itself. Multi-sample coverage costs either 39 mappings to one concatenated reference (VAMB/SemiBin multi-split: \"we first concatenate contigs from every sample into a single database to which short reads are mapped\") or 39x39 = 1,521 pairwise mappings (Mattock/Han approach), with 39-78 M reads per library per the CoverM logs. Bottom line: re-QC, yes. Re-binning with multi-sample coverage, a >=1 kb floor, modern binner(s) and a refiner is likely worthwhile, giving more and cleaner MAGs mainly in the R1/R2 cores and water samples but only a modest change in the SF2/R2A binned fraction. Re-assembling only for a newer software version, no.",
+      "caveats": [
+        "Nearly all quantitative gains come from simulated CAMI data or from human-gut, marine, rumen and soil datasets, mostly in the tool authors' own papers, against the 'second-best' tool. The only independent multi-tool real-data benchmark used here is Han et al. 2025, which used MEGAHIT 1.2.9 and CheckM2. No benchmark is hypersaline; the nearest is BASALT's Aiding Lake saline sediment, compared against metaWRAP and including gap-filling.",
+        "The local assembly-vs-MAG recruitment figures are against the IMG MEGAHIT assemblies (contigs >=500 bp), not the SPAdes re-assembly the MAGs were binned from. 6 of 39 samples (R1_C_D1, R1_C_H2O, R2_A_D2, R2_A_H2O, R2_C_D2, SF2_A_D1) have no IMG-assembly BAM. MAG recruitment is competitive mapping across all 450 MAGs, so it can exceed a sample's own assembly recruitment.",
+        "Whether the original binning used cross-sample (differential) coverage is unverified. Zhou et al. say reads were 'mapped to all contigs ... to get read depths across samples' but also that binning 'was performed on each individual assembly'.",
+        "The versions of SPAdes (and whether --meta was used), CONCOCT, MaxBin and MetaBAT are not reported. Zhou et al. cite the MetaBAT 1 (2015) and MaxBin 1 (2014) papers, and their reference 39 for CONCOCT is actually the MyCC paper.",
+        "CAMI II's 'assembler performances rose by up to 30%' vs CAMI 1 refers to HipMer/A-STAR-type gains (e.g., 30% fewer mismatches than Ray Meta). It is not evidence that MEGAHIT or metaSPAdes upgrades improve MAGs.",
+        "TaxVAMB numbers are from the 2026 Nat Biotechnol abstract (PMID 42045408); the 2024 preprint gave 40%/255%. The full text was not read. The CheckM2 numbers come from the published PDF hosted on NSF PAR. VAMB, CheckM2 (abstract) and Mattock & Watson are paywalled; quotes are from the PubMed abstracts and the Edinburgh accepted manuscript.",
+        "Binette: no quantitative benchmark in its JOSS paper; the bioRxiv preprint could not be read because of bioRxiv rate-limiting/Cloudflare, so its claimed gains are unverified. BinSPreader's and MetaCoAG's gains are not quantified here (MetaCoAG figures are from a 2021 preprint).",
+        "The 'expected gain' statements for this dataset (sample co-occurrence of ~6-12, the size of the 1-2.5 kb contig gain, possible over-splitting of the 310/140 dereplication) are extrapolations, not measurements. Causes of the water-sample binning gap (strain microdiversity, eukaryotic/viral DNA, the 70% completeness retention cutoff) are hypotheses.",
+        "The KBase CheckM 1.0.18 (reduced tree) table includes one MAG at 63.27% completeness, below Zhou et al.'s stated >70% retention filter. The original CheckM run behind the 310 selection may therefore differ from the table now in hand.",
+        "Long-read and hybrid sequencing (Sereika et al. 2025; Han et al. 2025 hybrid results) would be the main route to raising the binned fraction in high-diversity sediments, but that is new sequencing, outside a re-processing decision."
+      ]
+    },
+    "feasibility": {
+      "summary": "Your two questions, answered first.\n\n(1) WHEN WERE THE MAGs MADE? Roughly between April 2018 and November 2020. Zhou et al. built them, but not from the IMG assemblies the manuscript describes.\n- Sampling: cores were taken in July 2014. Zhou et al., ISME J 16:284, https://pmc.ncbi.nlm.nih.gov/articles/PMC8692437/ : 'Soil core samples were collected from each sampling site in July 2014.'\n- Sequencing and SRA release: JGI sequenced on a HiSeq 2500, 2x151 bp. Release dates came from NCBI E-utilities runinfo for the 39 BioSamples in Zhou Table S1 (saved at /tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/dl_sra/sra_runs_by_sample.csv): 23 runs on 2017-01-27, 4 on 2017-04-23, 6 on 2017-09-20, 1 on 2019-10-30 (R2_C_D2), and 5 on 2021-05-23 (R1_C_D1, R1_C_H2O, R2_A_D2, R2_A_H2O, SF2_A_D1).\n- JGI assemblies, first round: MEGAHIT ('assembled using MEGAHIT v1.0.3.', PMC8692437). These are IMG 3300007xxx-3300009xxx, the KO-profile assemblies of manuscript paragraph 30.\n- JGI assemblies, second round: JGI later added '(SPAdes) (version 2)' assemblies, IMG 33000260xx-33000262xx (salterns/exported_img_data.tsv, e.g. line 30 = 3300026156 R1_A_D1, line 55 = 3300026157 R1_A_D2). Not verified: the IMG and GOLD add-dates for either round. Both sites returned HTTP 403 or asked for a login. You can read the 'Add Date' off the IMG taxon page when logged in.\n- The MAGs themselves come from Zhou et al.'s own re-assembly (PMC8692437):\n  - 'Each metagenome was re-assembled (de novo) using Tadpole error correction in BBTools and the SPAdes assembler'\n  - 'to generate longer contigs for high-quality bins.'\n  - 'binning was performed on each individual assembly with three different tools (CONCOCT, MaxBin, and MetaBat)'\n  - 'DAS Tool was used to select the best non-redundant set of genome bins from the three software tools'\n  - Then CheckM and dRep.\n- Dates that bracket the binning:\n  - The companion Methanosalis paper (Genes 12:1609, https://pmc.ncbi.nlm.nih.gov/articles/PMC8535929) cites BBTools with an access date of 16 April 2018. This was paraphrased by the fetch tool and not checked against the page.\n  - The 2020 GTDB table uses p__Halobacteriota (salterns/cliff_mags/gtdb_table_arc.csv line 2). That spelling first appears in GTDB R95: https://gtdb.ecogenomic.org/stats/r95 shows 'Halobacteriota 545' and 'GTDB release date: July 17, 2020', while R89 used 'Halobacterota 411' (https://gtdb.ecogenomic.org/stats/r89). So taxonomy was run on or after 17 July 2020.\n  - The first object in KBase ws 77580 was saved 2020-11-18T06:16:01 (Workspace list_objects, today).\n  - The paper was 'Received 2021 Jan 19'.\n  - KBase CheckM 1.0.18 reproduces the 2020 CheckM table exactly (memory salterns-mag-inventory.md lines 71-73).\n- Unexplained discrepancy, not an error: the paper says '~20 Gb' per sample and 700 Gb in total, but SRA holds 8.8 Gbp per sample and 344.1 Gbp in total.\n\n(2) HAVE THE TOOLS ADVANCED ENOUGH TO JUSTIFY RE-DOING THIS? Binning and QC: yes. Assembly: barely.\n- Assembly, from the GitHub release APIs today (saved at /tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/dl_github/latest_releases.json):\n  - MEGAHIT's last release is still v1.2.9 (2019-10-15), the same version KBase runs.\n  - SPAdes has gone from 3.x to v4.3.0 (2026-06-14).\n- Binning:\n  - Han et al. 2025, Nat Commun, https://pmc.ncbi.nlm.nih.gov/articles/PMC11933696/ : 'multi-sample binning achieves an average improvement of 125%, 54%, and 61%' (medium-quality, near-complete and high-quality MAG counts versus single-sample binning). Also: 'COMEBin achieved the highest overall ranking scores for hybrid_multi, hybrid_single, short_multi, and short_single'.\n  - Mattock & Watson 2023, Nat Methods 20:1170, report 22.5% of single-coverage bins versus 3.5% of multi-coverage bins with contamination of 5 or more. This comes from a search snippet and was not checked against the paper.\n  - Current versions: SemiBin 2.6.0, COMEBin 1.1.0, VAMB 5.0.4, DAS Tool 1.1.7, MetaBAT 2.18 (Bitbucket API, 2025-01-24).\n- QC: CheckM2 1.1.0 and GUNC 1.1.1 exist; neither has been run on these MAGs.\n- Zhou et al. may already have used depth across samples ('Metagenomic reads from each sample were mapped to all contigs using BBTools' and 'to get read depths across samples'). If so, multi-sample binning would gain less here.\n\nNEW TEST 1: THE ASSEMBLIES ZHOU BINNED ARE NOT THE IMG ASSEMBLIES, AND WE CANNOT REACH THEM. Results are in /tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/mag_vs_img_lengths.json.\n- I compared exact contig lengths between the MAG contigs and the IMG SPAdes v2 assemblies, using the @SQ headers of the 2025 CoverM BAMs. The '.filtered' step on those files is undocumented; the shortest contig observed is 500 bp.\n- Matches are at chance level in every length class. For R1_A_D1, contigs of 10-50 kb match 0.11 of the time, the same as a null with lengths shifted by 7 bp; contigs of 50 kb or more match 0 of 103.\n- In 7 SF2/R2A sediment samples the MAGs contain more bp than the IMG assembly has in all its contigs of 2.5 kb or more (SF2_C_D1: 17.7 vs 8.6 Mb; R2A_B_D1: 9.8 vs 3.3 Mb).\n- R1_C_H2O has 6 MAGs but no IMG assembly at all (Table S1 IMG ID is blank).\n- Unresolved tension: the Genes 2021 paper names IMG 3300026157 as the metagenome the Methanosalis MAG came from ('The metagenome from which it was derived is also available with IMG ID 3300026157'). It may be citing the metagenome record rather than the exact assembly file.\n- Where things stand: Zhou's per-sample SPAdes assemblies are not in IMG, not in KBase, and not on this machine. Locally we have only the 450 MAG contig sets (1.49 Gbp).\n\nNEW TEST 2: IN THE RESTORED AND REFERENCE CORES, THE LIMIT IS ASSEMBLY, NOT BINNING. These numbers come from read-only passes over the 33 own-assembly BAMs on disk, plus the 2025 CoverM logs. Table: /tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/per_sample_summary.tsv.\n\nMean % of reads per site (sediment cores):\n\n| Site | n | Map to own IMG v2 assembly | On contigs ≥1 kb | On contigs ≥2.5 kb | Recruited by the 310 MAGs |\n|---|---|---|---|---|---|\n| R1 | 5 (R1_C_D1 absent) | 53.9 | 45.2 | 33.2 | 49.5 |\n| R2 | 4 | 41.4 | 32.3 | 20.9 | 36.9 |\n| R2A | 6 | 15.1 | 10.2 | 6.0 | 9.0 |\n| SF2 | 5 | 14.2 | 10.0 | 5.4 | 11.2 |\n\n- In SF2 and R2A, only about 4.6% of reads go to MAGs binned from the same sample. The rest of what the MAGs capture comes from MAGs binned in other samples (/tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/own_vs_other.json).\n- So re-binning per-sample assemblies cannot materially shrink the 88-89% unbinned there. With about 9 Gbp of short reads per sample, these sediments are limited by depth and diversity.\n- The task's figures (R1 53%, R2 42%, 11-12% for SF2/R2A) came from a different tally. Mine cover only the 33 samples available locally.\n\nINPUTS AVAILABLE\n- Reads for 33 of 39 samples are already on disk inside the BAMs in salterns/reads/coverm.\n  - Each BAM holds every JGI-filtered read, including unmapped reads. This was verified on all 33 bam_metagenome files (SF2_C_D1: 52,071,488 records, equal to CoverM's total). For the bam_bins and bins copies it is inferred from equal CoverM totals and similar file sizes.\n  - Total: 1.81 G reads, about 271 Gbp.\n  - The same reads are stored in three copies: bam_bins 168.5 GB, bam_metagenome 163.0 GB, bins 171.6 GB.\n- Six samples need SRA: SRR10375808, SRR14626156, SRR14626311, SRR14626312, SRR14626313, SRR14626314. They total 49.9 Gbp raw (22.0 GiB). SRA has raw reads, not JGI-filtered ones.\n- The full SRA set is 39 runs, 344.1 Gbp, 153.3 GiB.\n- No read libraries exist in the readable salterns narratives (77580, 155805, 163264, 92727). I could not read 90991, 104160 or 134952.\n\nTHIS MACHINE\n- 64 cores (load average 25-35 today), 251 GB RAM with about 115 GB available, 187 GB disk free.\n- None of these are installed: samtools, mappers, assemblers, binners, CheckM2, GUNC, conda, docker. pysam is in py_venv. Any local option needs new tooling, which needs your approval per CLAUDE.md.\n\nKBASE TODAY (NMS and Catalog queries, saved at /tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/kbase_specs.json and /tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/kbase_nms_hits.json)\n- KBase offers the same generation of tools Zhou used: MetaBAT2 2.12.1 (built 2017), MaxBin2 2.2.4, CONCOCT 1.1, DAS Tool 1.1.2, CheckM 1.0.18, dRep 3.1.0, and GTDB-Tk 2.3.2 with R214 at most. GTDB-Tk failed on this set in both its release and beta versions.\n- CheckM2 is dev-only. SemiBin, COMEBin and GUNC are absent. The VAMB and CoverM entries are placeholder stubs.\n- Calibration from your wetland runs (EE2 job data, /tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/ee2_wetland_jobs.json):\n\n| App (wetland narratives) | Jobs | Median run | Median queue |\n|---|---|---|---|\n| MEGAHIT | 811 | 4.36 h (p90 12.1 h) | 95 h |\n| MetaBAT2 / MaxBin2 / CONCOCT | 770-771 each | 0.5-0.8 h | ~105 h |\n| DAS Tool | 776 | 0.17 h | 5.3 h |\n| SRA import | 781 | 0.47 h | 23.6 h |\n\n  - metaSPAdes: 8 of 8 failed (out of memory at 387 GB on 861M-read libraries).\n  - Every wetland binning job used exactly one read library, i.e. single-sample depth.\n\nMANUSCRIPT METHODS NEED A CORRECTION REGARDLESS\n- Metabolic Manuscript.docx, paragraphs 30 and 35 of word/document.xml, says the MAGs were 'assembled from the 24 metagenomes' with MEGAHIT.\n- In fact the 450 MAGs come from 39 metagenomes (24 cores, 12 water, 3 R2_restored; counted from MAG_contigs/index.tsv). They were built from SPAdes re-assemblies with the CONCOCT/MaxBin/MetaBat + DAS Tool + CheckM + dRep workflow of Zhou et al.\n\nScripts for all of this are in /tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/scripts/. All checks were read-only, and the KBase token was never printed.",
+      "options": [
+        {
+          "name": "(a) Keep the current MAGs; re-QC only (already done)",
+          "what": "Keep Zhou et al.'s 310 retained and 140 unretained MAGs unchanged.\n- QC already re-run: KBase CheckM 1.0.18 reproduces the 2020 table field for field. 275 of 310 are MIMAG medium quality or better; 35 have contamination of 10% or more, including the two Roseovarius MePn-consumer models (R2_C_D2 concoct_out.45 at 19.9%, .47 at 21.4%). Memory salterns-mag-inventory.md lines 71-78.\n- Local GTDB-Tk 2.8.0 with R232 classified all 310 (lines 108-119).",
+          "inputs_needed": "None new.",
+          "where_to_run": "Done: KBase kb_Msuite for CheckM; ~/Documents/gtdbtk_venv for GTDB-Tk R232.",
+          "compute_and_time": "0 additional.",
+          "disk": "0 additional.",
+          "downstream_rework": "- Only what is already planned: switching to R232 labels and IterativeIDs.\n- The Methods correction: 39 metagenomes, SPAdes re-assemblies, Zhou's binning workflow.\n- In the manuscript, state the binned fraction per site and that the SF2/R2A cores are limited by assembly, not binning.",
+          "risks": "- The contamination in 35 MAGs is left unaddressed, and it sits under the central MePn and betaine models (2 Roseovarius, 3 betaine MAGs).\n- CheckM1 with the reduced tree is the 2015-era estimator.\n- Reviewers may still ask about the 88-89% unbinned in SF2/R2A. This option answers that with the assembly-ceiling numbers, not with new MAGs."
+        },
+        {
+          "name": "(a+) Keep the MAGs, add modern QC, and clean the existing bins with multi-sample coverage (recommended add-on)",
+          "what": "Run CheckM2 1.1.0 and GUNC 1.1.1 on the 450 MAGs.\n- Build a depth table for all 145,616 MAG contigs across 33 samples from the bam_bins BAMs already on disk. Each one holds a sample's reads mapped competitively to all 450 MAGs; I checked the header: 145,616 contigs, 450 genomes, 1.493 Gbp.\n- Flag contigs whose cross-sample coverage disagrees with the rest of their bin (the Mattock & Watson multi-coverage point). Optionally re-cluster the pooled MAG contigs with MetaBAT2 2.18 or SemiBin2 using that table.\n- Edit only bins that fail. MAG names and identities stay the same.",
+          "inputs_needed": "All local except the databases and one optional download:\n- MAG_contigs/: 450 FASTA, 1.5 GB.\n- 33 bam_bins BAMs.\n- CheckM2 DIAMOND database, ~3 GB (estimate).\n- GUNC database, ~13 GB for proGenomes (estimate).\n- Optional: SRA SRR10375808 for R2_C_D2 (2.8 GiB). That is where both contaminated Roseovarius MAGs come from, and it has no local BAM, so their own-sample depth is missing; depth from the other 33 samples is present.",
+          "where_to_run": "This machine.\n- The depth pass needs only pysam, which is already in py_venv.\n- CheckM2 and GUNC need a new environment, so your approval is required per CLAUDE.md.\n- Not KBase: CheckM2 exists there only as dev app kb_CheckM2 0.0.2, and there is no GUNC.",
+          "compute_and_time": "About 1 day in total.\n- Depth pass: measured today on the bam_metagenome copies at a median 174 s per BAM single-threaded (max 260 s), so about 15-25 min wall-clock for 33 BAMs at 6 in parallel.\n- CheckM2 + GUNC on 450 MAGs: ~1-3 h at 16-32 threads (estimate, unverified).\n- Mapping SRR10375808 to the 450 MAGs: ~45-60 min single-threaded (based on the 2025 strobealign -t 1 runs).\n- GTDB-Tk R232 re-run for any changed MAGs: ~3 h (310 MAGs took about 2.7 h).",
+          "disk": "Under 25 GB: databases plus small tables. No new BAMs needed.",
+          "downstream_rework": "Limited to MAGs whose contigs change (expected: some of the 35 contaminated):\n- Re-annotate and re-model those, e.g. the 2 Roseovarius MePn and 3 betaine models.\n- Re-run the guild and correlation scripts in correlational/r232 (minutes to hours).\n- Update the quality columns in Table S5.\n- Everything else stays the Zhou et al. set.",
+          "risks": "- Coverage-based cleaning can remove contaminant contigs but cannot add missing genes.\n- It does not change the binned fraction in SF2/R2A.\n- 6 samples have no local BAM.\n- The flagging threshold needs a sanity check against known-good, high-quality MAGs."
+        },
+        {
+          "name": "(b) Re-bin the existing assemblies with multi-sample coverage and a modern binner",
+          "what": "Pipeline:\n1. Concatenate the per-sample assemblies (contigs of 1-1.5 kb or more) into one catalogue.\n2. Map each sample to it once and stream the depths.\n3. Bin with SemiBin2, COMEBin, VAMB or MetaBAT2 2.18.\n4. Refine with DAS Tool 1.1.7, MAGScoT or Binette.\n5. QC with CheckM2 and GUNC; dereplicate with dRep or galah (skani); classify with GTDB-Tk R232.\n\nCaveat: the only existing assemblies we can reach are not the ones Zhou binned (see summary). So this produces a new MAG set, and the downstream rework is close to (d).\n\nBest variant: if Cliff Bueno de Mesquita or Susannah Tringe can supply Zhou's original per-sample SPAdes assemblies (and the Drive folders 'Dereplicated MAGs' and 'Unretained MAGs'), run (b) on those. That keeps contig identity with the current MAGs.",
+          "inputs_needed": "Assemblies:\n- IMG SPAdes v2 assemblies exist for 38 of 39 samples (none for R1_C_H2O).\n- The 2025 CoverM run used copies of at least 500 bp at /scratch/chenry/Projects/Salterns/nboutput/metagenome_assemblies/1857xx.assembled.fna.filtered.fa (salterns/reads/metagenome_assembly.txt lines 1-38). That is a remote ANL host; access unverified.\n- Otherwise download from JGI IMG or the Data Portal (login required).\n- Size, for the 33 seen: 6.0 Gbp total; 3.9 Gbp in contigs of 1 kb or more; 3.0 Gbp at 1.5 kb or more; 2.1 Gbp at 2.5 kb or more.\n\nReads:\n- 33 samples streamed out of the local BAMs to FASTQ.\n- 6 from SRA (49.9 Gbp raw, 22.0 GiB). Mixed preprocessing: JGI-filtered for 33, raw SRA plus your own QC for 6.",
+          "where_to_run": "Three possibilities:\n- This machine, for modern binners: needs new tooling and your approval.\n- The ANL server where the 2025 CoverM run's reads (/scratch/jplfaria/ReadMapping/data/*.anqdpht.fastq, salterns/reads/coverm/run_coverm_metagnome.sh line 1) and assemblies already sit. Access and capacity unverified.\n- KBase, but only with the old binners. MetaBAT2 2.12.1, MaxBin2 2.2.4 and CONCOCT 1.1 accept several read libraries, which gives multi-sample depth; then DAS Tool 1.1.2. This first needs 39 import_sra_as_reads_from_web jobs and an upload of 38 assemblies.",
+          "compute_and_time": "Local, about 1-2 weeks elapsed on the shared machine:\n- Mapping: 39 runs against a ~3-3.5 Gbp catalogue. The 2025 strobealign runs took 44-57 min per sample single-threaded (R1_A_D1 logs, '-t 1' in all three @PG headers), so ~10-15 h wall-clock at 16 threads (estimate).\n- SemiBin2 multi-sample: ~1-2 h per sample on CPU, 1-3 days in total (estimate, unverified).\n- Refinement, QC, dereplication and GTDB-Tk: ~1 day.\n\nKBase, about 2-4 weeks:\n- ~114 binning jobs (38 assemblies x 3 binners), each re-mapping 9-13 libraries with bowtie2. Single-library jobs took a median 0.5-0.8 h in the wetland; multi-library jobs might take roughly 5-10 times as long (estimate).\n- DAS Tool: 0.17 h each.\n- Wetland queue medians were ~105 h.",
+          "disk": "- Assemblies: ~6 GB.\n- Depths must be streamed (strobealign --aemb, or piping to a depth tool). Keeping 39 BAMs against a 3 Gbp catalogue would take over 100 GB (estimate).\n- The 6 SRA FASTQs: ~25-30 GB.\n- Fits in the 187 GB free only if depths are streamed.",
+          "downstream_rework": "Complete:\n- New MAG names and IterativeIDs.\n- CoverM abundances for all 39 samples (about a day).\n- RAST/DRAM annotation, and the phnJ, grdH and mcrA guilds.\n- correlational/r232 outputs.\n- ModelSEED reconstruction and gapfilling (ws 77580 holds 266 FBAModels, ws 155805 holds 618, plus 130 .dlt datalake tables), then re-curating the betaine and MePn community models.\n- Tables 3 and S5, Figures 7 and S11.\n- The cross-references to Methanosalis SBSPR1A (JAIPUR000000000) and Marivita SBSPR1/SBSPR2 (JAIPUS/JAIPUT).\n- The paper would no longer analyse the MAGs of Zhou et al.",
+          "risks": "- In SF2/R2A the IMG v2 assemblies are less contiguous than Zhou's: in 7 samples the current MAGs hold more bp than the assembly's contigs of 2.5 kb or more. Re-binning them could give fewer or worse MAGs there.\n- The gain is mostly quality, not read capture: contigs of 2.5 kb or more hold only 5-6% of reads in SF2/R2A.\n- If Zhou already used cross-sample depth, the gain shrinks further.\n- Getting the assemblies needs a JGI login or ANL access."
+        },
+        {
+          "name": "(c) Restored and reference samples only (SF2, R2A)",
+          "what": "Two versions:\n- (c1) Re-bin the per-sample SF2/R2A assemblies with multi-sample coverage.\n- (c2) Co-assemble each site's 6 cores (optionally plus its 3 water samples) and bin with the depth of all 9 samples. Run it first as a single pilot, e.g. R2A sediments, where all 6 cores have local BAMs.",
+          "inputs_needed": "Reads (raw Gbp from SRA):\n- SF2: sediments 56.3 (SF2_A_D1 is SRA-only), water 34.3.\n- R2A: sediments 46.4, water 28.3.\n- 17 of the 18 samples are on disk in BAM form.\n\nFor c1 you also need the IMG v2 assemblies, same access issue as (b).",
+          "where_to_run": "- c1: this machine.\n- c2 on KBase: merge the libraries with kb_ReadsUtilities/KButil_Merge_MultipleReadsLibs_to_OneLibrary, then run MEGAHIT v1.2.9 on bigmem. Alternatively, hipmer/run_hipmer_hpc_meta (MetaHipMer v2.1.0.1-357) takes several libraries directly, up to read_Gbp_limit 500; its reliability is unverified.\n- c2 locally with MEGAHIT only if 100+ GB of RAM can be reserved. About 115 GB is available and the machine is shared, so this is marginal.\n- The ANL server is another possibility.",
+          "compute_and_time": "- c1: about half of (b), roughly 0.5-1 week.\n- c2, one site: MEGAHIT co-assembly of ~45-60 Gbp filtered reads, ~1-3 days at 32 threads with peak RAM of roughly 100-250 GB (estimate, unverified). Then 9 mappings at ~45-60 min each single-threaded, plus binning and QC (~1 day). About 1 week per site locally.\n- On KBase add the queue (MEGAHIT queue median 95 h). A co-assembly will take far longer than the 4.4 h single-library median.",
+          "disk": "- c2: ~25-35 GB of FASTQ.gz per site, plus tens of GB of MEGAHIT temp files, plus 1-3 GB of output (estimate).\n- Feasible one site at a time.",
+          "downstream_rework": "- New SF2/R2A MAGs must be dereplicated against the existing 450.\n- All 39 samples must be re-mapped competitively to the combined catalogue. Otherwise MAG recovery differs by method between sites, which confounds the site comparisons.\n- Re-run guilds and correlations.\n- The models are mostly unaffected (they centre on unrestored-pond consumers) unless new phnJ or grdH carriers appear.\n- Add a supplementary table or figure.",
+          "risks": "- c1 is pointless on these numbers: in SF2/R2A cores, contigs of 1 kb or more hold ~10% of reads and contigs of 2.5 kb or more hold ~5-6%, while the current MAGs already recruit 9-11%.\n- c2's gain is unknown for hyper-diverse sediments, and co-assembly risks chimeras (Han et al. 2025: 'it may result in inter-sample chimeric contigs').\n- Mixing pipelines between sites biases the site comparisons."
+        },
+        {
+          "name": "(d) Full re-assembly plus modern binning, refinement, QC, dereplication and GTDB-Tk R232",
+          "what": "Pipeline:\n1. Read QC with BBDuk or fastp (JGI's RQCFilter is in KBase as BBTools 38.22).\n2. Per-sample assembly with metaSPAdes 4.3 or MEGAHIT 1.2.9, and/or per-site co-assemblies (R1, R2, R2A, SF2, R2_restored).\n3. Multi-sample binning with SemiBin2, COMEBin, VAMB or MetaBAT2 2.18.\n4. Refinement with DAS Tool 1.1.7, MAGScoT or Binette.\n5. CheckM2 + GUNC; dRep or galah; GTDB-Tk R232 (local environment already exists).\n6. Then CoverM, annotation, guilds and models.\n\nNote: the wetland template (narratives 261700 and 272312) is per-sample KBase MEGAHIT, then single-library MetaBAT2, MaxBin2 and CONCOCT, then DAS Tool 1.0.7/1.1.2. That is the same 2018-era design as Zhou's. Copying it would re-run the old method, not modernise it.",
+          "inputs_needed": "- All 39 SRA runs: 344.1 Gbp raw, 153.3 GiB as .sra, roughly 200-240 GB as fastq.gz (estimate).\n- Or the 33 local BAM read sets (271 Gbp filtered) plus the 6 SRA runs.",
+          "where_to_run": "- KBase can do the import (import_sra_as_reads_from_web), assembly (MEGAHIT v1.2.9; metaSPAdes v3.15.3, one library per job) and the old binners.\n- The modern binners and QC must run locally (new tooling, your approval) or on the ANL server.\n- Local per-sample metaSPAdes is risky with ~115 GB free. The wetland KBase metaSPAdes jobs all failed in spades-hammer (error correction) with mmap out-of-memory at 387 GB, on 861M-read libraries. The salterns libraries are about 15 times smaller, so they may fit (unverified), and the app has an 'Assembly only (No Error Correction)' switch.",
+          "compute_and_time": "KBase, about 2-4 weeks elapsed:\n- 39 SRA imports (wetland: median 0.47 h, queue 23.6 h).\n- 39 MEGAHIT jobs (wetland: median 4.36 h, p90 12.1 h, queue median 95 h; 27 of 811 errored).\n- Binning (wetland: 0.5-0.8 h per single-library job, queue ~105 h).\n\nLocal (estimates, unverified):\n- MEGAHIT ~2-6 h per sample at 24-32 threads, 4-8 days serial.\n- metaSPAdes ~10-30 h per sample, 3-5 weeks.\n- Co-assemblies 1-3 days each.\n- Mapping, binning and QC as in (b), 1-2 weeks.\n\nOverall: about 3-6 weeks of compute, plus 1-3 months of downstream rework.",
+          "disk": "Does not fit in 187 GB unless one of these is done:\n- Stream reads from the BAMs.\n- Process in batches.\n- You remove two of the three redundant BAM copies in reads/coverm (~340 GB) and the 57 GiB GTDB R232 tarball (memory line 119). Both are your decisions.",
+          "downstream_rework": "Everything in (b), plus:\n- Rewriting the sample-to-MAG mapping and the Methods.\n- Re-doing the curated betaine and MePn community models.\n- Re-validating Figure 7 and Table 3.\n- The paper would no longer analyse the Zhou et al. MAGs.",
+          "risks": "- The largest cost of all the options.\n- Short-read assembly has improved little since 2019, so gains in SF2/R2A are uncertain; the limit there is depth and diversity.\n- The wetland work shows KBase zombie jobs, out-of-memory failures and silent DAS Tool segfaults (memory wetland-gtdbtk-local.md lines 132-139; berdl-mags-download.md lines 79-94).\n- Loses comparability with Zhou et al. and the three published genomes.\n- Reviewers see a moving target."
+        }
+      ],
+      "kbase_apps": [
+        {
+          "app_id": "MEGAHIT/run_megahit",
+          "tool_version": "MEGAHIT v1.2.9; module 2.4.3, commit e2e6d557, release 2022-12-20",
+          "evidence": "NMS list_methods/get_method_spec (tag release) and Catalog.get_module_info, run 2026-11-04. Title: 'Assemble Reads with MEGAHIT v1.2.9'. Takes one read_library_ref (not multiple); min_contig_length default 2000. Used for all 811 wetland assemblies in ws 261700 (EE2: 770 completed, median 4.36 h, queue median 95 h, bigmem)."
+        },
+        {
+          "app_id": "MegaHit_Sets/run_megahit",
+          "tool_version": "MEGAHIT version not stated; module 0.4.1, commit 01410020, release 2017-01-26",
+          "evidence": "NMS spec has combined_assembly_flag (default 1) on a ReadsSet input, i.e. a co-assembly route. Old module; MEGAHIT version unverified."
+        },
+        {
+          "app_id": "kb_SPAdes/run_metaSPAdes",
+          "tool_version": "metaSPAdes v3.15.3; module 1.3.4, commit ee3f83f9, release 2022-10-13 (beta d2893e6f, 2025-07-28)",
+          "evidence": "NMS title 'Assemble Reads with metaSPAdes - v3.15.3'. One library per job; has a skip_error_correction switch. Wetland ws 261700: 8 of 8 jobs failed with 'Error running SPAdes, return code: 12/28', mmap out-of-memory in spades-hammer at 387G (EE2 job logs)."
+        },
+        {
+          "app_id": "hipmer/run_hipmer_hpc_meta",
+          "tool_version": "MetaHipMer v2.1.0.1-357; module 2.2.4, release 2023-05-25 (beta 2.3.0, 2024-04-17)",
+          "evidence": "NMS: the reads parameter takes several libraries (co-assembly), read_Gbp_limit default 500. Not tested on this project."
+        },
+        {
+          "app_id": "kb_IDBA/run_idba_ud",
+          "tool_version": "IDBA-UD v1.1.3; module 1.0.6",
+          "evidence": "NMS release list title 'Assemble Reads with IDBA-UD - v1.1.3'."
+        },
+        {
+          "app_id": "jgi_mg_assembly/run_mg_assembly_pipeline",
+          "tool_version": "JGI metagenome assembly pipeline, beta only, module 0.6.0, 2019-10-01; assembler version not stated",
+          "evidence": "NMS beta spec: reads_upa plus an optional RQCFilter step."
+        },
+        {
+          "app_id": "BBTools/RQCFilter",
+          "tool_version": "BBTools v38.22; module 0.5.0, 2018-11-26",
+          "evidence": "NMS title 'Run the JGI RQCFilter pipeline (BBTools v38.22)'."
+        },
+        {
+          "app_id": "kb_uploadmethods/import_sra_as_reads_from_web",
+          "tool_version": "app v1.0.10; module 1.0.57",
+          "evidence": "NMS release list. Wetland: 781 imports completed, median 0.47 h, queue median 23.6 h (EE2). Needed because no salterns reads exist in KBase."
+        },
+        {
+          "app_id": "kb_ReadsUtilities/KButil_Merge_MultipleReadsLibs_to_OneLibrary",
+          "tool_version": "v1.2.2",
+          "evidence": "NMS title 'Merge Reads Libraries - v1.2.2'. Route to co-assembly with the single-library MEGAHIT or metaSPAdes apps."
+        },
+        {
+          "app_id": "kb_Bowtie2/align_reads_using_bowtie2",
+          "tool_version": "Bowtie2 v2.3.2; module 0.4.2, 2019-06-28",
+          "evidence": "NMS title 'Align Reads using Bowtie2 - v2.3.2'."
+        },
+        {
+          "app_id": "kb_AssemblyUtilities/run_assembly_depth_of_coverage_with_bbmap",
+          "tool_version": "beta 1.3.0, 2022-10-26; BBMap version not stated",
+          "evidence": "NMS beta spec: input_assembly_refs and input_reads_refs both take multiple objects."
+        },
+        {
+          "app_id": "metabat/run_metabat",
+          "tool_version": "MetaBAT2 2.12.1, binary built 2017-08-31; app 2.3.0, commit caf4e3c0, release 2019-07-08. The 'v1.7' in the app title is the app label, not MetaBAT's version.",
+          "evidence": "strings on metabat_binary/metabat2 at gitlab jfroula/kbase-metabat commit caf4e3c0 show '2.12.1' and 'Aug 31 2017'; the binary was not executed. NMS: reads_list takes several libraries (multi-sample depth), min_contig_length 2500. Wetland used one library per job (771 jobs, median 0.73 h, queue 104 h). Upstream is v2.18 (2025-01-24, Bitbucket API)."
+        },
+        {
+          "app_id": "metabat/run_metabat_bigmem",
+          "tool_version": "MetaBAT2 (same binary family), beta 2.3.1, 2022-02-15",
+          "evidence": "NMS beta title 'MetaBAT2 Contig Binning - v1.7 (Large)'."
+        },
+        {
+          "app_id": "kb_maxbin/run_maxbin2",
+          "tool_version": "MaxBin2 v2.2.4; module 1.1.1, 2019-08-29",
+          "evidence": "NMS title 'Bin Contigs using MaxBin2 - v2.2.4'. reads_list takes several libraries. Wetland median 0.78 h."
+        },
+        {
+          "app_id": "kb_concoct/run_kb_concoct",
+          "tool_version": "CONCOCT v1.1; module 1.3.4, 2021-03-31",
+          "evidence": "NMS: reads_list takes several libraries; mapping tool options bbmap, bowtie2, hisat2, minimap2. Wetland median 0.50 h. Upstream CONCOCT's last release is 1.1.0 (2019-08-02)."
+        },
+        {
+          "app_id": "kb_cocacola/run_kb_cocacola",
+          "tool_version": "COCACOLA v1.0, beta only, 2019-12-01",
+          "evidence": "NMS beta title 'Bin Contigs using COCACOLA - v1.0'."
+        },
+        {
+          "app_id": "kb_das_tool/run_kb_das_tool",
+          "tool_version": "DAS Tool v1.1.2; module 1.0.7, commit c70fdbde, 2021-07-16",
+          "evidence": "NMS title '... using DAS Tool - v1.1.2'. Wetland: 776 jobs, median 0.17 h, 67 errors; exits 0 when R segfaults (memory wetland-gtdbtk-local.md lines 132-135). Upstream is 1.1.7 (2024-01-08)."
+        },
+        {
+          "app_id": "MetagenomeUtils/extract_bins_as_assemblies",
+          "tool_version": "v1.0.2; module 1.1.1",
+          "evidence": "NMS release list. Wetland median 0.06 h."
+        },
+        {
+          "app_id": "kb_Msuite/run_checkM_lineage_wf",
+          "tool_version": "CheckM v1.0.18; module 1.4.0, commit fae9ff52, 2019-10-07 (beta 1.4.2, 2023-08-23)",
+          "evidence": "NMS title 'Assess Genome Quality with CheckM - v1.0.18'. Took 4.5 h on the 310 MAGs and reproduced the 2020 table exactly (memory salterns-mag-inventory.md lines 71-73). Upstream CheckM is v1.2.5."
+        },
+        {
+          "app_id": "binqc/binqc",
+          "tool_version": "beta 1.1.2, 2018-09-14; MIMAG tiers from CheckM + tRNAscan-SE + infernal",
+          "evidence": "NMS beta description: labels bins high, medium or low quality per MIMAG."
+        },
+        {
+          "app_id": "kb_CheckM2/run_kb_CheckM2",
+          "tool_version": "dev tag only, v0.0.2; CheckM2 version not stated",
+          "evidence": "Catalog list_basic_module_info shows dev only (github Cyrus-Shahnam/kb_CheckM2); NMS dev description 'This app wraps the **CheckM2** tool'. Not in release or beta. Upstream CheckM2 is 1.1.0 (2025-02-20)."
+        },
+        {
+          "app_id": "kb_gtdbtk/run_kb_gtdbtk_classify_wf",
+          "tool_version": "GTDB-Tk v2.3.2 with db_ver 207 or 214; release 1.4.1 (99839a03, 2025-12-03), beta 1.4.2 (5d69c6a6, 2026-09-08)",
+          "evidence": "NMS db_ver options ['207','214']. Observed in Oct 2026 (platform-side): both versions failed on this set. Release: UTF-8 log-relay crash. Beta: fastANI needs GLIBC_2.35 (memory salterns-mag-inventory.md lines 65-69 and 94-96). R232 was therefore run locally with GTDB-Tk 2.8.0."
+        },
+        {
+          "app_id": "kb_dRep/run_dereplicate",
+          "tool_version": "dRep v3.1.0; module 1.0.0, 2021-04-26",
+          "evidence": "NMS title 'Dereplicate genomes with dRep - v3.1.0'. Upstream is v4.0.3 (2026-10-09)."
+        },
+        {
+          "app_id": "kb_DRAM/run_kb_dram_annotate",
+          "tool_version": "DRAM 1.4.0; module 0.1.2, commit 935498b6",
+          "evidence": "NMS release list; DRAM version from memory wetland-gtdbtk-local.md (kb_DRAM 935498b6 = DRAM 1.4.0, about 24-45 min per MAG)."
+        },
+        {
+          "app_id": "kb_quast/run_QUAST_app",
+          "tool_version": "QUAST v4.4 in release (beta run_quast_app v5.2.0)",
+          "evidence": "NMS release and beta titles."
+        },
+        {
+          "app_id": "imramboVAMB/run_imramboVAMB and CoverM/run_CoverM",
+          "tool_version": "dev tag only, 0.0.1; placeholder stubs",
+          "evidence": "NMS dev get_method_full_info: title 'Method Name Here' and lorem-ipsum descriptions. Not usable as-is."
+        },
+        {
+          "app_id": "(absent) SemiBin/SemiBin2, COMEBin, GUNC, MetaWRAP, Binette, MAGScoT, galah",
+          "tool_version": "not offered",
+          "evidence": "Catalog.list_basic_module_info (558 modules incl. unreleased) and NMS list_methods for release, beta and dev: no matches."
+        }
+      ],
+      "recommendation": "Short answer: re-assembling and re-binning is not worth it for this manuscript. Do the cheap, targeted fixes now, and treat any re-processing as a gated pilot or a follow-up study.\n\nWhy not now:\n1. What has really advanced since the 2018-2020 binning is binning and QC (multi-sample coverage, SemiBin2/COMEBin, CheckM2/GUNC), not short-read assembly. MEGAHIT is still 1.2.9 from 2019.\n2. The 88-89% unbinned in the SF2/R2A cores is an assembly ceiling, not a binning failure. Only 14-15% of their reads align to their own assembly and 5-6% lie on contigs of 2.5 kb or more (R2A n=6, SF2 n=5), while the current MAGs already recruit 9-11%. Re-binning cannot fix that.\n3. The assemblies Zhou binned cannot be reached, and the IMG ones are measurably different (worse in SF2/R2A). So any re-bin produces a new MAG set. That means redoing abundances, guilds, correlations, 266 + 618 FBAModels, the curated betaine and MePn models, Tables 3 and S5, and Figures 7 and S11, and dropping 'MAGs of Zhou et al.'. Modelling on KBase was also unreliable at scale.\n\nDo now:\n1. Fix the Methods. The MAGs come from 39 metagenomes (24 cores, 12 water, 3 R2_restored), assembled with Tadpole + SPAdes per sample and binned with CONCOCT/MaxBin/MetaBat + DAS Tool + CheckM + dRep (Zhou et al.). MEGAHIT v1.0.3 and IMG pipeline v4.10.2 apply only to the KO-profile assemblies.\n2. Run option (a+), about 1 day:\n   - CheckM2 + GUNC on all 450 MAGs.\n   - A multi-sample coverage screen using the bam_bins BAMs already on disk, prioritising the 35 MAGs with contamination of 10% or more, especially the two Roseovarius MePn models (19.9% and 21.4%) and the 3 betaine models.\n   - Map SRR10375808 (R2_C_D2), since that sample has no local BAM.\n   - This needs a new tool environment, so it is your call per CLAUDE.md.\n3. In the paper, report the binned fraction per site and the assembly ceiling. Back the SF2/R2A comparisons with binning-independent gene-level data. The manuscript's IMG KO profiles already do this; an optional read-level phnJ/grdH/mcrA search is another route.\n4. Ask Cliff or Susannah Tringe for Zhou's original per-sample SPAdes assemblies and the Drive bin folders. If those exist, option (b) run on them is the cleanest modernisation later.\n\nGate for heavier work:\n- Only if reviewers insist on more recovery in restored or reference sites, run one co-assembly pilot (option c2): R2A cores, all 6 available locally. Use MEGAHIT on KBase via merged libraries, or MetaHipMer, or this machine if about 120 GB of RAM can be reserved, then multi-sample binning.\n- Go further only if read recruitment in those cores rises well above about 10% and new phnJ, grdH or mcrA carriers appear.\n- Full re-processing (option d) belongs in a follow-up study, preferably run on the ANL server that already holds the reads.\n\nHousekeeping (your decision): reads/coverm holds three copies of the same reads (~503 GB). Keeping one would free about 340 GB."
+    },
+    "verification": [
+      {
+        "claim": "1. Assembler versions: SPAdes 4.3.0 (2026-06-14; 4.0.0 2024-06-04); MEGAHIT 1.2.9 (2019-10-15, still the latest) vs the IMG assembly with MEGAHIT v1.0.3 (released 2015-10-11) and the MAG assembly with per-sample SPAdes after BBTools Tadpole (version and --meta not reported). Version upgrades bring no published gain in contiguity or genome fraction. CAMI II: 'performances were similar across software versions'. The SPAdes 3.14/3.15/4.x notes list performance and RAM reductions plus non-MAG pipelines (metaviral, metaplasmid, biosynthetic, hpcSPAdes, BinSPreader). MEGAHIT has had no release after v1.2.9.",
+        "verdict": "corrected",
+        "corrected_claim": "All dates and both quotes hold. SPAdes v4.3.0 was published 2026-06-14 and v4.0.0 2024-06-04. MEGAHIT v1.2.9 (2019-10-15) is the newest of 34 GitHub releases and the newest tag; v1.0.3 was published 2015-10-11. Zhou et al. 2022 give 'MEGAHIT v1.0.3' for the IMG assembly and 'Tadpole error correction in BBTools and the SPAdes assembler' for the MAG re-assembly, with no SPAdes version and no --meta. Correction: BinSPreader is not a non-MAG pipeline. The SPAdes 4.0.0 notes call it a 'metagenomic binning refiner', and its preview release says it refines MAGs and propagates bins from longer to shorter contigs through the assembly graph. That makes it directly relevant to bins limited to contigs of 2.5 kb or more. hpcSPAdes (4.2.0) is a way of running SPAdes on clusters, not a separate pipeline. The notes also list assembly-algorithm changes the claim leaves out: 3.15.0 'Multiple performance improvements in simplification and repeat resolving procedures'; 4.0.0 'Parallel & improved GapCloser algorithm' and 'Faster graph simplification'. None comes with a published contiguity or MAG benchmark, so 'no published gain' is a negative claim that nothing contradicts, not one that has been demonstrated. CAMI II Supplementary Table 3 backs 'similar across versions': marine genome fraction was 41.1% (MEGAHIT v1.1.2), 44.1% (v1.1.4-2) and 42.4% (v1.2.7); metaSPAdes 3.13.0 gave 36.7% and 3.13.1 gave 36.7% or 34.2%.",
+        "source_url": "https://github.com/ablab/spades/releases (GitHub API release JSON: v4.3.0, v4.2.0, v4.0.0, v3.15.0, binspreader-recombseq) ; https://github.com/voutcn/megahit/releases (GitHub API releases and tags) ; https://pmc.ncbi.nlm.nih.gov/articles/PMC9007738/ ; https://static-content.springer.com/esm/art%3A10.1038%2Fs41592-022-01431-4/MediaObjects/41592_2022_1431_MOESM3_ESM.xlsx (CAMI II Supplementary Table 3) ; https://pmc.ncbi.nlm.nih.gov/articles/PMC8692437/ (Zhou et al. 2022)",
+        "quote": "SPAdes v4.0.0 notes: 'SPAdes 4.0 will most likely be the last major release introducing new features and significant changes. No further development is currently planned.' / 'BinSPreader (metagenomic binning refiner) is also released inside SPAdes package' / 'Parallel & improved GapCloser algorithm; Faster graph simplification'. binspreader-recombseq release: 'BinSPreader is a novel tool that attempts to refine metagenome-assembled genomes (MAGs) obtained from existing tools.' v4.2.0: 'New hpcSPAdes for high-performance computational clusters'. CAMI II Discussion: 'In addition, genome coverage, parameter settings and data preprocessing impacted assembly quality, while performances were similar across software versions.' Zhou 2022 Methods: 'The shotgun metagenomic reads were pre-processed using BBTools (filtering and trimming) and assembled using MEGAHIT v1.0.3.' / 'Each metagenome was re-assembled (de novo) using Tadpole error correction in BBTools and the SPAdes assembler to generate longer contigs for high-quality bins'. GitHub API published_at: spades v4.3.0 2026-06-14T10:06:02Z, v4.0.0 2024-06-04T04:16:54Z; megahit v1.2.9 2019-10-15T02:53:17Z (newest release and newest tag), v1.0.3 2015-10-11T07:19:52Z. Supp Table 3 marine genome fraction: Megahit_v1.1.2_short 0.4110, Megahit_v1.1.4-2_short 0.4411, Megahit_V1.2.7-short 0.4244, metaSPAdes_v3.13.0_short 0.3671, metaSPAdes_v3.13.1_short 0.3672."
+      },
+      {
+        "claim": "2. CAMI II submissions (2019-2020: MetaHipMer/HipMer, GATB, MEGAHIT, SPAdes, ABySS, A-STAR, OPERA-MS) vs CAMI 1-era assemblers (Ray Meta, MEGAHIT, metaSPAdes; challenge run 2015-2017). The best short-read genome fraction was 41.1% on marine and 10.4% on strain-madness, both from MEGAHIT, and the gold-standard assemblies reached 90.8% and 76.9%. SPAdes assembled low-coverage marine genomes best (from 9.2x; MEGAHIT needed 10x). The 'assembler performances rose by up to 30%' headline refers to examples such as HipMer making 30% fewer mismatches than Ray Meta.",
+        "verdict": "corrected",
+        "corrected_claim": "Most numbers hold. MEGAHIT's short-read genome fraction was 'up to' 41.1% on marine and 10.4% on strain-madness. SPAdes recovered marine genomes from 9.2x and MEGAHIT from 10x. HipMer made 67 mismatches per 100 kb, 30% fewer than Ray Meta (Supp Table 3: 67.46 vs 95.14). The Discussion says performance 'rose by up to 30%'. CAMI II ran 16 Jan to 25 Oct 2019, plus a plant-associated round, CAMI II b, from 14 Feb 2020 (assembly closed 29 Sep 2020). Three fixes. (a) The gold-standard values are paired the wrong way round: the marine GSA reached 76.9% and the strain-madness GSA 90.8% (the text says 'respectively'; Supp Table 3 row marmgCAMI2_short_read_pooled_gsa gives 0.7691 marine and 0.9085 strain madness). (b) metaSPAdes was not a CAMI 1 assembler: CAMI II says 'SPAdes, which was not assessed in the first challenge'. CAMI 1 assessed Megahit v0.2.2, Minia, Meraga (Meraculous + Megahit), A*, Ray Meta v2.3.2 and Velour. (c) The CAMI 1 challenge ran 27 Mar to 18 Jul 2015 (assembly submissions closed 20 May 2015); 2017 is only the publication year. Context, not a correction: Supp Table 3 also lists a short-read MEGAHIT v1.1.4-2 submission at 44.1% marine and 10.7% strain-madness. The text's 41.1% and 10.4% come from the MEGAHIT v1.1.2 submission chosen as representative by overall rank.",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9007738/ ; https://static-content.springer.com/esm/art%3A10.1038%2Fs41592-022-01431-4/MediaObjects/41592_2022_1431_MOESM3_ESM.xlsx (Supplementary Table 3) ; https://pmc.ncbi.nlm.nih.gov/articles/PMC5903868/ (CAMI 1, Sczyrba et al. 2017)",
+        "quote": "CAMI II: 'Short-read assemblers achieved genome fractions of up to 10.4% on strain-madness and 41.1% on marine data, both by MEGAHIT' ... 'The gold standard reported 90.8 and 76.9%, respectively (Fig. 1a and Supplementary Table 3).' / 'SPAdes best assembled low coverage marine genomes, starting at 9.2×.' / 'HipMer introduced the fewest mismatches (67 mismatches per 100 kb) on the marine data. This was 30% less than Ray Meta, the best performing method also participating in CAMI 1.' / 'SPAdes, which was not assessed in the first challenge, was among the top submissions for most metrics.' / 'In comparison to software assessed in the first challenges, assembler performances rose by up to 30%.' Supp Table 3 genome fraction (marine, strain madness): marmgCAMI2_short_read_pooled_gsa 0.7691306057, 0.9084871324; Megahit_v1.1.2_short 0.4110398713, 0.1037698284; Megahit_v1.1.4-2_short 0.4411038996, 0.1070665931. CAMI 1 Methods: 'The CAMI challenge started on 03/27/2015.' / 'Submissions of assembly results were accepted until 05/20/2015.' / 'Developers could submit their binning and profiling results until 07/18/2015.'"
+      },
+      {
+        "claim": "3. Per-sample assembly plus multi-sample binning (with targeted co-assembly for low-coverage genomes) vs per-sample SPAdes assembly of each of the 39 metagenomes. CAMI II: co-assembly helps short-read assemblers on low-coverage genomes without cross-sample strain diversity, and single-sample assembly is preferable when coverage is sufficient and related strains are expected. Han 2025: short-read co-assembly binning recovered the fewest MQ, NC and HQ MAGs. Vosloo 2021 (low-diversity drinking-water time series, metaSPAdes 3.13.1): co-assembling all samples gave the highest read mapping (90.61 +/- 3.28% vs 85.47 +/- 4.45%) and the most medium-quality MAGs with MetaBAT2.",
+        "verdict": "corrected",
+        "corrected_claim": "The numbers hold. Han 2025: across 5 real datasets, short-read co-assembly binning recovered the fewest MQ, NC and HQ MAGs. Vosloo 2021 (metaSPAdes v3.13.1 and MEGAHIT v1.2.9): co-assembly of all samples gave the highest read mapping, 90.61 +/- 3.28%, ahead of time-discrete (88.45 +/- 3.64%), MASH-based (86.91 +/- 3.39%) and individual assembly (85.47 +/- 4.45%), and 'metaSPAdes coassembly and MetaBAT2 retained the highest number of medium-quality MAGs'. Two attribution fixes. (1) The CAMI II single-sample sentence is about HipMer only and is hedged: 'For HipMer, single-sample assembly might be preferable if coverage is sufficient and closely related strains are expected.' CAMI II says only that co-assembly 'could generally improve' assembly for OPERA-MS and for short-read assemblers on low-coverage genomes without expected cross-sample strain diversity; it does not recommend single-sample assembly in general. (2) 'Low-diversity' is the claim author's label, not Vosloo's: the paper says drinking-water systems 'consist of diverse and complex indigenous microbial communities' (at low cell density, 10^3 to 10^5 cells/ml). The figure of 39 metagenomes matches the local index: the 310 dereplicated MAGs in MAG_contigs/index.tsv come from 39 distinct samples.",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9007738/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC11933696/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC8567270/",
+        "quote": "CAMI II: 'Thus, coassembly could generally improve assembly for OPERA-MS and for short-read assemblers on low coverage genomes without expected strain diversity across samples. For HipMer, single-sample assembly might be preferable if coverage is sufficient and closely related strains are expected.' Han 2025: 'For short-read data, co-assembly binning recovered the fewest number of MQ, NC, and HQ MAGs across five datasets (Fig. 1 and Supplementary Fig. 2).' Vosloo 2021: 'Among the metaSPAdes assemblies, coassembly of all samples had the highest mapping rate (90.61 ± 3.28%), followed by time-discrete assembly (88.45 ± 3.64%), MASH distance-based assembly (86.91 ± 3.39%), and individual assembly (85.47 ± 4.45%).' / 'metaSPAdes coassembly and MetaBAT2 retained the highest number of medium-quality MAGs' / 'assembled using metaSPAdes v3.13.1 and MEGAHIT v1.2.9' / 'Drinking water systems (DWS) consist of diverse and complex indigenous microbial communities'"
+      },
+      {
+        "claim": "4. Minimum contig length for binning. Binning contigs of 1 kb or more is now the norm: COMEBin defaults to 1000 bp; MetaBAT2 recruits 1-2.5 kb contigs by abundance correlation once there are enough samples; SemiBin drops to 1 kb automatically only if 1-2.5 kb contigs hold <5% of bp. This compares with a 2,500 bp floor here: all 145,616 contigs in the 450 MAGs are 2,500 bp or longer, matching MetaBAT's default --minContig 2500. CAMI II marine MEGAHIT assembly (MA): mean completeness 21.2 +/- 1.6% vs 36.9 +/- 4.0% on the gold-standard assembly at similar purity, attributed to unbinned 1.5-2 kb contigs; strain-madness MA 5.2 +/- 0.6%. Note: 'enough samples' means three or more (MetaBAT 2 paper). The README's metabat2 help shows only --noAdd for this step; its minSamples=10 option appears under metabat1.",
+        "verdict": "verified",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9007738/ ; https://bitbucket.org/berkeleylab/metabat/raw/master/README.md ; https://raw.githubusercontent.com/ziyewang/COMEBin/master/README.md ; https://pmc.ncbi.nlm.nih.gov/articles/PMC9051138/ (SemiBin) ; https://pmc.ncbi.nlm.nih.gov/articles/PMC6662567/ (MetaBAT 2) ; local: /home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_contigs/*.fna",
+        "quote": "CAMI II: 'For the marine GSA, average bin purity was 81.3 ± 2.3% and genome completeness was 36.9 ± 4.0%' / 'For the marine MA, average bin purity (78.3 ± 2.6%) was similar, while average completeness was only 21.2 ± 1.6% (Fig. 2a,c and Supplementary Table 10), due to many short contigs with 1.5–2 kb, which most binners did not bin (Supplementary Fig. 6).' / 'the average completeness dropped further to 5.2 ± 0.6%, again due to a larger fraction of unbinned short contigs' (MA defined as 'the strain-madness MEGAHIT assembly (MA)'). COMEBin README: '-l INT minimum contig length to the bin (default=1000bp).' MetaBAT README (metabat2 -h): '-m [ --minContig ] arg (=2500) Minimum size of a contig for binning (should be >=1500).' MetaBAT 2 paper: 'As many metagenome assemblies contain smaller contigs, MetaBAT 2 includes an additional step to include small contigs (between 1 and 2.5 kb), as well as the contigs from small bins (<200 kb) if there are three or more samples in the dataset.' SemiBin: 'If the contigs in the range 1000–2500 bp represent <5% of the total number of basepairs (this parameter can be changed by the user), then the threshold is reduced to 1000 bp.' Local command: ~/Documents/py_venv/bin/python -I /tmp/claude-1000/-home-freiburger-Documents-MicrobiomeNotebooks-salterns/a24fbb2e-9d33-5e05-aeea-a07d777ccde7/scratchpad/rebinning/vfyclaims_ckR5rJ/scripts/contig_lengths.py /home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_contigs -> 'files 450 / contigs 145616 / min_seq_len 2500 max_seq_len 683239 / header_vs_seq_length_mismatches 0 / seq_len<2500 0 header_len<2500 0'; the num_contigs column of MAG_contigs/index.tsv also sums to 145616."
+      },
+      {
+        "claim": "5. Multi-coverage binning (map every sample's reads to every per-sample assembly) vs binning each individual assembly; Zhou et al. say reads were 'mapped to all contigs ... to get read depths across samples', so whether cross-sample coverage was used is unclear. Mattock & Watson 2023: 42 rumen samples, MEGAHIT 1.1.3 + MetaBAT2 2.15, all else identical. Multi-coverage gave 1,660 vs 931 bins at >=80% complete / <=10% contaminated (+78%). Bins with CheckM contamination >=5% fell from 22.5% to 3.5%. By a coverage-correlation test, 46% of single-coverage vs 10.6% of multi-coverage filtered bins carried >10% contaminant contigs. Note: the 22.5% and 3.5% are shares of all bins (1273/5658 and 293/8420), not of the filtered bins; MetaBAT2 was run with --minContig 1500.",
+        "verdict": "verified",
+        "source_url": "https://www.pure.ed.ac.uk/ws/files/353027783/57714_3_art_18_5917_v2.pdf (accepted manuscript, Nat Methods 20:1170-1173) ; https://pubmed.ncbi.nlm.nih.gov/37386187/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC8692437/ (Zhou et al. 2022)",
+        "quote": "Mattock & Watson: 'Forty-two rumen microbiome samples were assembled and binned using two strategies, single-coverage and multi-coverage binning. All other parameters remained the same.' / '22.5% (1273/5658) of the single coverage bins have a contamination score of 5 or greater versus 3.5% (293/8420) of the multi-coverage bins.' / 'Using these cut-offs, the single coverage approach produced 931 filtered bins, compared to 1660 produced by the multi-coverage approach, an increase of 78%.' / 'we predict that 428 of the 931 single coverage bins (46%) contain more than 10% contamination in terms of the number of contigs' / '177 out of 1660 multi-coverage bins (10.6%) contain more than 10% contamination by contig' / Methods: 'single-sample assembled with MEGAHIT (v1.1.3)' and 'the jgi_summariza_bam_contig_depths script from Metabat2 (v2.15)'. Zhou 2022: 'Metagenomic reads from each sample were mapped to all contigs using BBTools (https://sourceforge.net/projects/bbmap/) default parameters to get read depths across samples and binning was performed on each individual assembly with three different tools (CONCOCT, MaxBin, and MetaBat)'"
+      },
+      {
+        "claim": "6. Han et al. 2025, independent real-data benchmark of 13 binners: multi-sample vs single-sample binning on the same per-sample MEGAHIT 1.2.9 assemblies (contigs >1 kb, CheckM2). Marine, 30 short-read samples: +100% MQ (1101 vs 550), +194% NC (306 vs 104), +82% HQ (62 vs 34). Human gut II, 30 samples: +44% MQ, +82% NC, +233% HQ. Human gut I, 3 samples: +22% MQ, comparable NC/HQ. Marine NC species after dereplication: +41% (135 vs 96). Note: the claim's last sentence ('the gain scales with the number of samples that share taxa') is an inference; Han 2025 does not test whether samples share taxa.",
+        "verdict": "verified",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11933696/",
+        "quote": "'In the marine dataset (30 mNGS samples), multi-sample binning substantially outperformed single-sample binning, retrieving 100% (1101 versus 550) more MQ MAGs, 194% (306 versus 104) more NC MAGs, and 82% (62 versus 34) more HQ MAGs.' / 'In the human gut II dataset (30 mNGS samples), multi-sample binning surpassed single-sample binning by recovering 44% (1908 versus 1328) more MQ MAGs, 82% (968 versus 531) more NC MAGs, and 233% (100 versus 30) more HQ MAGs.' / 'In the human gut I dataset (three mNGS samples), multi-sample binning recovered 22% (181 versus 148) more MQ MAGs and retrieved comparable numbers of NC and HQ MAGs compared to single-sample binning.' / 'Compared to short-read single-sample binning, short-read multi-sample binning demonstrated a 41% increase in the number of species (135 versus 96) for NC MAGs' (Fig. 4, marine dataset) / 'The short-read co-assembly and single-sample assembly were performed using MEGAHIT (version 1.2.9)' / 'Contigs longer than 1kb were selected for subsequent binning.' / 'both single-sample and multi-sample binning involve independent assembly for each sequencing sample.' Closest text to the scaling inference: 'The results demonstrated that multi-sample binning of long-read data required a larger number of samples than short-read data to demonstrate substantial improvements.'"
+      },
+      {
+        "claim": "7. MetaBAT 2.18 (2025-01-24; earlier tags 2.15 2020-01-04, 2.16 2023-04-11, 2.17 2023-09-12) vs MetaBAT as run by Zhou et al., who cite the 2015 MetaBAT 1 paper and do not report the version. MetaBAT 2 (2019) recovered 333 of 753 CAMI-1 high-complexity genomes (44.2%) at 90% completeness / 95% precision, vs 195 (25.9%) for MaxBin2. The post-2020 releases are bug-fix and maintenance releases with no new accuracy benchmark. Han 2025 lists MetaBAT2 as 'efficient', not top-ranked, and its MAGScoT-refined top binners gave 59%, 54%, 166%, 99% and 34% more NC MAGs than MetaBAT2. Note: v2.18 is a lightweight tag (its date is the commit date and it has no tag message), so the bug-fix reading of 2.17 and 2.18 rests on commit messages.",
+        "verdict": "verified",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6662567/ ; https://api.bitbucket.org/2.0/repositories/berkeleylab/metabat/refs/tags (tags of https://bitbucket.org/berkeleylab/metabat) ; https://pmc.ncbi.nlm.nih.gov/articles/PMC11933696/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC8692437/",
+        "quote": "MetaBAT 2 paper: 'For example, at 90% completeness and 95% precision levels MetaBAT 2 recovers 333 out of 753 genomes (44.2%) from the CAMI High Complexity dataset, while the next best software, MaxBin2, only recovers 195 genomes (25.9%).' Bitbucket tags API: v2.18 commit date 2025-01-24T07:29:51+00:00, no tag message, commit 'Merged in FixForNoQueryInSAM (pull request #43)'; v2.17 tag 2023-09-12T01:03:05, commit 'Fixed issue #164 where segfault was happening in conjunction with the --noIntraDepthVariance'; v2.16 tag 2023-04-11T22:40:21, message 'minor bugfixes / major change to jgi_summarize - added --checkpoint option and greatly reduced peak memory and time when parsing a large number of large bams'; v2.15 tag 2020-01-04T20:15:28, message 'Performance of the binning is validated back to the published standards in the wiki'. Han 2025: 'MetaBAT 2, VAMB, and MetaDecoder are highlighted as efficient binners due to their excellent scalability' / 'MAGScoT exhibited an average improvement of 59%, 54%, 166%, 99%, 34% more NC MAG on marine, cheese, human gut I, human gut II and activated sludge datasets, respectively, compared to MetaBAT 2.' (MetaBAT 2 is in none of the Table 2 top-three lists.) Zhou 2022 reference 38: 'Kang DD, Froula J, Egan R, Wang Z. MetaBAT, an efficient tool for accurately reconstructing single genomes from complex microbial communities. PeerJ 2015;3:e1165' (no MetaBAT 2 reference; no version given in Methods)."
+      },
+      {
+        "claim": "8. VAMB (2021; current v5.0.4, 2025) with its 'multisplit' per-sample-assembly workflow vs MetaBAT/CONCOCT/MaxBin + DAS Tool. VAMB recovered 29-98% more NC genomes than existing binners on simulated data and 45% more on real data, and separates strains up to 99.5% ANI. The README says its binners 'perform excellently with multiple samples, and pretty good on single-sample data'. Note: the 29-98% range spans five CAMI2 synthetic datasets plus one semisynthetic MetaHIT dataset (vs Canopy, MetaBAT2 and MaxBin2), not CAMI2 alone. The 45% is 5,036 vs 3,480 NC bins compared with Almeida et al.'s single-sample MetaBAT2 bins from 1,000 gut samples. In single-sample mode VAMB's lead over MetaBAT2 and MaxBin2 was not significant.",
+        "verdict": "verified",
+        "source_url": "https://www.nature.com/articles/s41587-020-00777-4 ; https://pubmed.ncbi.nlm.nih.gov/33398153/ ; https://github.com/RasmussenLab/vamb (README.md; GitHub API releases)",
+        "quote": "Abstract: 'VAMB outperforms existing state-of-the-art binners, reconstructing 29–98% and 45% more near-complete (NC) genomes on simulated and real data, respectively. Furthermore, VAMB is able to separate closely related strains up to 99.5% average nucleotide identity (ANI)' / Results: 'VAMB reconstructed 29–98% more NC genomes at strain level compared to any of the other three binners' / 'Using VAMB with default parameters, we obtained 5,036 NC bins compared to 3,480 for MetaBAT2, an increase of 1,556 NC bins (45%).' / 'When applying this approach, which we term ‘multisplit’, each cluster should correspond to an organism and each bin in a cluster to a per-sample representation of the genome of that organism.' / 'While VAMB reconstructed most genomes on average, the differences were not significant (Wilcoxon rank-sum tests, two-tailed, P > 0.05)'. README: 'Its binners perform excellently with multiple samples, and pretty good on single-sample data.' GitHub API: v5.0.4 published_at 2025-04-29T13:02:59Z (newest release)."
+      },
+      {
+        "claim": "9. AVAMB (2023), which the VAMB README now calls obsolete, recommending TaxVamb instead. AVAMB gave +20% NC genomes vs VAMB on simulated CAMI2 data and +29% on real data. On the 1,000-sample Almeida gut set and on HMP2 it gave 5,733 and 3,569 NC bins (+24% and +34%). In the same paper, SemiBin, SemiBin2 and MetaDecoder recovered 15-36%, 15-45% and 1-28% more NC genomes than AVAMB on CAMI. Note: with SemiBin2's single-copy-gene reclustering added, AVAMB outperformed SemiBin2 on 4 of 5 and MetaDecoder on 5 of 5 CAMI2 datasets.",
+        "verdict": "verified",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10590447/ ; https://github.com/RasmussenLab/vamb (README.md)",
+        "quote": "'Finally, we implemented a pipeline Integrating VAMB and AAMB that enabled improved binning, recovering 20% and 29% more simulated and real NC genomes, respectively, compared to VAMB, with moderate additional runtime.' / 'Similarly, AVAMB did even better, yielding a total of 5733 and 3569 NC bins, which corresponded to an increase of 1103 (24%) and 914 (34%) NC bins compared to VAMB.' / 'found that they reconstructed 15-36%, 15-45% and 1%–28% more NC genomes compared to AVAMB on the CAMI data sets respectively (Supplementary Table 9).' / 'when the single-copy genes-based re-clustering from SemiBin2 was applied to the AVAMB workflow, AVAMB outperformed SemiBin2 and MetaDecoder on 4/5 and 5/5 CAMI2 datasets respectively'. README: 'Avamb: An obsolete ensemble model based on Vamb and adversarial autoencoders.' / 'We don't recommend running Avamb: If you have the compute to run it, you should instead run TaxVamb'"
+      },
+      {
+        "claim": "10. TaxVAMB (part of Vamb 5.x; needs a contig taxonomy run such as mmseqs taxonomy; Nat Biotechnol online 2026-04-27, preprint 2024). It returned +29% HQ assemblies vs the next-best binner on the CAMI2 human short-read datasets, but was only 'on par with the best binners on short-read datasets'. It gave +83% HQ bins vs VAMB in single-sample mode and +300% HQ bins of incomplete genomes vs the next best. The 2024 preprint reported 40% and 255% instead of 29% and 300%. Note: 'on par' refers to nine real short-read datasets: TaxVAMB was best on the three human-gut sets (6-11% more HQ bins) and no single method dominated the other six. The preprint's 40% counted near-complete assemblies, not high-quality ones.",
+        "verdict": "verified",
+        "source_url": "https://www.nature.com/articles/s41587-026-03098-0 (open access) ; https://pubmed.ncbi.nlm.nih.gov/42045408/ ; https://api.biorxiv.org/details/biorxiv/10.1101/2024.10.25.620172 (preprint v1, posted 2024-10-29) ; https://github.com/RasmussenLab/vamb (README.md)",
+        "quote": "Published abstract: 'TaxVAMB outperformed all other binners on CAMI2 human microbiome datasets, returning on average 29% more high-quality assemblies than the next best binner, and performed on par with the best binners on short-read datasets.' / 'In a typical single-sample setup, TaxVAMB on average returns 83% more high-quality bins compared to VAMB. Lastly, TaxVAMB binned incomplete genomes better than any other tool, returning on average 300% more high-quality bins of incomplete genomes than the next best binner.' Main text: 'we benchmarked TaxVAMB against six other binners on the synthetic CAMI2 toy human microbiome short-read datasets' / 'To evaluate performance using real-world short-read data, we benchmarked binning methods across seven diverse environments represented by nine datasets' / 'Compared to the next best binner, TaxVAMB produced 6–11% and 10–18% more HQ and MQ bins, respectively. For the remaining six datasets from less-well-studied environments, no single method dominated.' Preprint v1 abstract: 'TaxVAMB outperforms all other binners on CAMI2 human microbiome datasets, returning on average 40% more near-complete assemblies than the next best binner.' / 'returning 255% more high quality bins of incomplete genomes than the next best binner.' PubMed ArticleDate 2026-04-27. README: 'TaxVamb: A semi-supervised binner that uses taxonomy information from e.g. `mmseqs taxonomy`.'"
+      },
+      {
+        "claim": "1. SemiBin (2022), single-sample vs MetaBAT2 on real data, HQ = CheckM >90%/<5% plus a GUNC pass: +41.2% (human gut, 1497 HQ), +72.0% (dog gut), +48.7% (ocean), +61.0% (soil: 95 vs 59 HQ bins from 101 samples). Multi-sample vs VAMB: +17.5%, +11.0%, +30.7%, +171.4%.",
+        "verdict": "verified",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9051138/",
+        "quote": "[PMC9051138, Results] \"In the human gut, dog gut, ocean, and soil datasets, SemiBin reconstructed 1497, 2415, 446, and 95 high-quality bins with single-sample binning, significantly outperforming Metabat2 with an increase of 437 (41.2%), 1011 (72.0%), 146 (48.7%), and 36 (61.0%), respectively. For multi-sample binning, SemiBin could reconstruct 17.5%, 11.0%, 30.7%, and 171.4% more high-quality bins than VAMB.\" [Methods] \"We defined high-quality bins as those with completeness >90%, contamination <5% and also passing the chimeric detection implemented in GUNC (version 0.1.1, with default parameters).\" \"...a soil dataset with 101 samples...\" || NOTES: The paper never prints 59; it is 95 - 36. The VAMB percentages are listed in the paragraph's dataset order but not labelled one by one. These numbers are for SemiBin trained on each sample (the paper's original SemiBin), not SemiBin(pretrain). The pretrained variant did better: \"When compared to Metabat2, SemiBin(pretrain) could reconstruct 640 (60.4%), 1393 (99.2%), 144 (48.0%) and 44 (74.6%) more high-quality bins.\" Real-data CheckM was 1.1.3 lineage_wf."
+      },
+      {
+        "claim": "2. SemiBin2 (v2.6.0, 2026-10-13; 2023 paper), multi-sample binning of real short-read data: 1678, 3776, 631 and 254 HQ bins (human gut, dog gut, ocean, soil); +27.3%, +21.5%, +44.7%, +229.9% vs VAMB; +8.3-21.5% vs SemiBin1 at ~25% of SemiBin1's running time and 11% of its peak memory; pretrained models for 12 environments, none hypersaline; otherwise SemiBin2 trains on the user's own samples.",
+        "verdict": "corrected",
+        "corrected_claim": "SemiBin2 (v2.6.0, released 2026-10-13) vs VAMB / SemiBin1, multi-sample binning of real short-read data: 1678, 3776, 631 and 254 HQ bins (human gut, dog gut, ocean, soil). That is +27.3%, +21.5%, +44.7% and +229.9% vs VAMB, and +8.3%, +9.5%, +10.7% and +21.5% vs SemiBin1. SemiBin2 needs ~25% of SemiBin1's running time on a GPU (close to 50% on a CPU) and 11% of its peak memory on either. The README lists 12 pretrained options (11 named environments plus a generic 'global' model), none hypersaline; without --environment, SemiBin2 trains a new model on the user's own sample(s).",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10311329/ ; https://github.com/BigDataBiology/SemiBin (README: https://raw.githubusercontent.com/BigDataBiology/SemiBin/main/README.md) ; https://github.com/BigDataBiology/SemiBin/releases ; https://pypi.org/pypi/SemiBin/json",
+        "quote": "[PMC10311329, Abstract] \"Compared to SemiBin1, SemiBin2 can reconstruct 8.3–21.5% more high-quality bins and requires only 25% of the running time and 11% of peak memory usage in real short-read sequencing samples.\" [Results] \"In the four environments, SemiBin2 reconstructed 1678, 3776, 631, and 254 high-quality bins (see Fig. 5). Compared to VAMB, SemiBin2 generated 27.3% (360), 21.5% (669), 44.7% (195), and 229.9% (177) more high-quality bins. Compared to SemiBin1, SemiBin2 reconstructed 8.3% (129), 9.5% (328), 10.7% (61), and 21.5% (45) more high-quality bins.\" \"Taking advantage of self-supervised learning, SemiBin2 needs only circa 25% running time on a GPU (the gain when using a CPU is smaller, but still close to 50%; see Supplementary Table S4). More importantly, using either a CPU or a GPU, SemiBin2 requires only 11% of the peak memory usage of the SemiBin1\" [SemiBin README, lines 164-189] \"Alternatively, you can train a new model for that sample, by not passing in the `--environment` flag\"; \"The following environments are supported:\" human_gut, dog_gut, ocean, soil, cat_gut, human_oral, mouse_gut, pig_gut, built_environment, wastewater, chicken_caecum, global; \"The `global` environment can be used if none of the others is appropriate.\" [Version] PyPI SemiBin 2.6.0 uploaded 2026-10-13T22:36:07Z; GitHub release v2.6.0 datetime 2026-10-13T22:37:49Z. || NOTES: All bin counts and percentages match. The only correction is the CPU/GPU qualifier: the abstract's unqualified 25% is the GPU figure."
+      },
+      {
+        "claim": "3. COMEBin (2024; v1.1.0, 2026-08-16) vs the best other binner per dataset: on average +9.3% NC bins on simulated datasets (incl. CAMI II) and +22.4% on real datasets; CAMI II marine gold-standard assembly 285 -> 337 NC bins; real data +33.2% NC genomes single-sample and +28.0% multi-sample; Han et al. 2025 ranked COMEBin first for short-read single-sample and short-read multi-sample binning.",
+        "verdict": "verified",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10794208/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC11933696/ (Table 2) ; https://github.com/ziyewang/COMEBin/releases",
+        "quote": "[PMC10794208] \"Compared with the best of other methods (the best results of other binners for all datasets come from different binning methods), COMEBin has an average improvement of 9.3% and 22.4% on the simulated datasets and the real datasets, respectively. In the evaluation conducted on the three datasets in both single- and multi-sample binning, COMEBin has an average improvement of 33.2% and 28.0%, respectively, compared with the best of other methods.\" \"Especially on the Marine GSA dataset, COMEBin increases the number of recovered near-complete bins from 285 to 337 compared with the second-best method.\" [PMC11933696, Table 2, top three high-performance binners] \"Short_multi | COMEBin | Binny | MetaBinner\"; \"Short_single | COMEBin | MetaDecoder | SemiBin 2\" (also \"Short_co | Binny | SemiBin 2 | MetaBinner\"). [Version] GitHub release COMEBin 1.1.0 datetime 2026-08-16T15:08:38Z (bioconda upload 2026-08-19). || NOTES: The 9.3% and 22.4% are from co-assembly binning on 16 datasets (10 simulated, 6 real). The 33.2% and 28.0% are from 3 real datasets (MetaHIT 10-sample, Water Group2, Water Group3). Comparators were CONCOCT, MetaBAT2, MaxBin2, VAMB, CLMB, SemiBin1, SemiBin2 and MetaDecoder. NC = >90% completeness, <5% contamination. For short-read co-assembly, Han 2025 ranked Binny first, not COMEBin."
+      },
+      {
+        "claim": "4. MetaBinner vs DAS Tool (CONCOCT+MaxBin+MetaBAT inputs), NC (>90%/<5%) bins: CAMI Airways 129 vs 71 (+82%), CAMI GI tract 147 vs 111 (+32%), CAMI mouse gut 409 vs 357 (+15%), real STEC MEGAHIT assembly 38 vs 26 (+46%). MetaDecoder on 145 T2D stool samples: 2014 HQ clusters vs 1302 for MetaBAT2 (+55%) and 1802 for DAS Tool on CONCOCT+MetaBAT2 (+12%).",
+        "verdict": "corrected",
+        "corrected_claim": "MetaBinner vs DAS Tool (inputs from CONCOCT, MaxBin and MetaBAT), NC (>90%/<5%) bins: CAMI Airways 129 vs 71 (+82%), CAMI GI tract 147 vs 111 (+32%) and CAMI mouse gut 409 vs 357 (+15%), scored against the gold standard with AMBER. On the real STEC MEGAHIT co-assembly it was 38 vs 26 (+46%), scored with CheckM. MetaDecoder was run on 145 stool samples from a Swedish type-2-diabetes cohort (53 of the 145 from T2D patients). It produced 2014 HQ clusters (>=90% completeness, <=5% contamination) vs 1302 for MetaBAT2 (+55%), 1802 for DAS Tool on CONCOCT+MetaBAT2 (+12%) and 1865 for DAS Tool on MetaDecoder+MetaBAT2 (+8%).",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9817263/ (Tables 1-2) ; https://pmc.ncbi.nlm.nih.gov/articles/PMC8908641/",
+        "quote": "[PMC9817263, Table 1, simulated, AMBER, column '#bins (>90% comp <5% cont)'] CAMI Airways: DAS Tool 71, MetaBinner 129; CAMI Gastrointestinal tract: DAS Tool 111, MetaBinner 147; CAMI mouse gut: DAS Tool 357, MetaBinner 409. [Table 2, real, CheckM] STEC (MEGAHIT assembly): DAS Tool 26, MetaBinner 38. Footnote to both tables: \"The input binning results of MetaWRAP and DAS Tool are generated by CONCOCT, MaxBin, and MetaBAT.\" [PMC8908641, MetaDecoder] \"We carried out MetaDecoder and all other programs on a cohort of type 2 diabetes (T2D) study containing stool samples from 145 Swedish women, 53 of which were T2D samples [26].\" \"We obtained a total of 2014 high-quality clusters (contamination ≤ 0.05 and completeness ≥ 0.90), compared to MetaBAT2 (1302), DASTool_MM (1865) and DASTool_CM (1802).\" \"DASTool was run with two combinations: (1) DASTool_MM for MetaDecoder and MetaBAT2; (2) DASTool_CM for CONCOCT and MetaBAT2.\" || NOTES: All counts and percentages check out: 129/71 = +82%, 147/111 = +32%, 409/357 = +15%, 38/26 = +46%, 2014/1302 = +55%, 2014/1802 = +12%. The only error is the sample description: the 145 samples are a T2D cohort, and only 53 are T2D samples."
+      },
+      {
+        "claim": "5. GraphMB (2022): on average +17.5% HQ bins vs state-of-the-art binners (+13.7% when aggregated with the others), benchmarked on long-read assemblies; MetaCoAG (2021 preprint, short-read assembly graphs): 'more high-quality bins than the second-best tool', average median F1 88.40%; BinSPreader (2022; bundled in SPAdes 4) propagates bins to shorter contigs through the assembly graph; no numeric gain was extracted (magnitude unverified).",
+        "verdict": "corrected",
+        "corrected_claim": "GraphMB (2022): on average +17.5% HQ bins vs state-of-the-art binners (+13.7% when its results are aggregated with the others). It was developed and benchmarked on long-read (metaFlye) assemblies; on the one short-read dataset tested (simHC+) its F1 was below VAMB's but above MetaBAT's. MetaCoAG (2021 preprint; metaSPAdes short-read assembly graphs): 'more high-quality bins than the second-best tool', average median F1 88.40%. BinSPreader (2022; shipped inside SPAdes since 4.0.0, June 2024) uses the assembly graph to spread bin labels to unbinned, shorter contigs. On simulated short-read simHC+, refining VAMB bins raised HQ MAGs from 56 to 61 (+9%) and F1 from 91.7% to 94.1%. On magsim-MGE it cut unbinned contigs and raised mean completeness at a cost of at most 1% in mean purity. Refining a poor MetaBAT2 binning on simHC+ caused a major purity drop.",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9525014/ ; https://doi.org/10.1101/2021.09.10.459728 (abstract via Europe PMC PPR393418 and https://api.biorxiv.org/details/biorxiv/10.1101/2021.09.10.459728) ; https://pmc.ncbi.nlm.nih.gov/articles/PMC9386100/ ; https://raw.githubusercontent.com/ablab/spades/main/changelog.md",
+        "quote": "[PMC9525014, GraphMB abstract] \"We test GraphMB on long-read datasets of different complexities, and compare the performance with other binners in terms of the number of High Quality (HQ) genome bins obtained.\" \"In particular, we obtained on average 17.5% more HQ bins when compared with state-of-the-art binners and 13.7% when aggregating the results of our binner with the others.\" [GraphMB Results] \"Although GraphMB has a lower F1 score than VAMB on the short reads dataset, we used the same parameters as for the long-read datasets, and it still outperformed MetaBAT.\" [MetaCoAG preprint abstract, raw text from Europe PMC PPR393418 and api.biorxiv.org] \"Experimental results on simulated and real datasets demonstrate that MetaCoAG significantly outperforms state-of-the-art binning tools, producing more high-quality bins than the second-best tool, with an average median F1-score of 88.40%.\" [PMC9386100, BinSPreader, simHC+] \"Refined with BinSPreader VAMB bins showed an increase of the F1 score value to 94.1% and the number of high-quality MAGs increased from 56 to 61.\" \"Refining of MetaBAT2 with BinSPreader overall increased bin completeness to 88.4% and F1 score to 76.3% but caused a major drop in average purity of bins.\" [magsim-MGE] \"Although refining of initial bins with METAMVGL and BinSPreader led to a minor decrease in average bin purity (no more than 3% for METAMVGL and 1% for BinSPreader across all bins), it significantly reduced the number of unbinned contigs and increased average bin completeness.\" [SPAdes changelog, 'SPAdes 4.0.0, 3 June 2024'] \"BinSPreader (metagenomic binning refiner) is also released inside SPAdes package\". || NOTES: The GraphMB and MetaCoAG numbers are verified as stated. The correction adds a BinSPreader magnitude and GraphMB's short-read result. The MetaCoAG 'metaSPAdes 3.15.2, short-read graphs' detail is second-hand: it came from WebFetch's summary of the bioRxiv full text (\"We used the popular metagenomic assembler metaSPAdes (from SPAdes version 3.15.2) to assemble reads into contigs and obtain the assembly graphs.\"). Raw bioRxiv HTML/XML was blocked (Cloudflare error 1015)."
+      },
+      {
+        "claim": "6. MAGScoT vs DAS Tool on identical inputs: >90%/<5% MAGs 416 vs 398 (CAMI2 marine) and 251 vs 224 (HMP2 gut); >50%/<10% 614 vs 559 and 420 vs 333; ~15x faster than DAS Tool on the marine data. Han 2025: MetaWRAP best for MQ, MAGScoT best for NC, no refiner with a clear HQ advantage. Binette's JOSS paper reports no quantitative benchmark. Versions: MAGScoT 2022 (v1.1 2024), Binette 2024 (v1.2.1 2025, CheckM2-based), DAS Tool 2018 (1.1.7, 2024-01-08).",
+        "verdict": "corrected",
+        "corrected_claim": "MAGScoT vs DAS Tool on identical inputs (MaxBin2, MetaBAT2, CONCOCT and VAMB bins): >90%/<5% MAGs 416 vs 398 (CAMI2 marine) and 251 vs 224 (HMP2 gut); >50%/<10% MAGs 614 vs 559 and 420 vs 333. MAGScoT was ~15x faster than DAS Tool for the matching steps (HMM annotation + scoring: 55.9 vs 790.9 min on marine). End to end, including the shared Prodigal step, it was 135 vs 870 min (~6.4x) on marine and 101 vs 140 min (~1.4x) on HMP2. In the same table metaWRAP beat both at >50%/<10% (663 marine, 458 HMP2). Han 2025: MetaWRAP was best for MQ and MAGScoT for NC, and no refiner had a clear HQ advantage. Binette's JOSS paper has no quantitative benchmark, so its gains are unverified. Versions: MAGScoT v1.1 (2024-10-10), Binette v1.2.1 (2025-11-07, CheckM2-based scoring), DAS Tool 1.1.7 (2024-01-08).",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9750101/ (Table 1) ; https://pmc.ncbi.nlm.nih.gov/articles/PMC11933696/ ; https://joss.theoj.org/papers/10.21105/joss.06782 (PDF https://www.theoj.org/joss-papers/joss.06782/10.21105.joss.06782.pdf) ; https://github.com/ikmb/MAGScoT/releases ; https://github.com/genotoul-bioinfo/Binette/releases ; https://github.com/cmks/DAS_Tool/releases",
+        "quote": "[PMC9750101, MAGScoT Table 1; columns Gold standard | MAGScoT | MAGScoT (no merge) | DASTool | metaWRAP, marine then HMP2] \">90% | <5% | 464 | 416 | 413 | 398 | 413 | | 251 | 246 | 224 | 242\"; >50% / \"<10% | 697 | 614 | 621 | 559 | 663 | | 420 | 423 | 333 | 458\"; \"Runtime (min) | Total | | 135 | 106 | 870 | 4144 | | 101 | 82 | 140 | 5952\"; \"Annotate and score | | 55.9 | 26.9 | 790.9 | 4144 | | 44.5 | 25.5 | 83.5 | 5952\". Text: \"All three bin-refinement softwares were run on the same input data derived from four binning algorithms: MaxBin2, MetaBAT2, CONCOCT and VAMB\"; \"Especially in the highly complex and fragmented synthetic ‘marine’ dataset, HMM-based annotation and the main MAGScoT algorithm were approx. 15-fold faster than DASTool for the equivalent steps, with both programs using the same predicted amino acid sequences as input (Table 1).\" [PMC11933696, Han 2025] \"MetaWRAP consistently outperformed both DAS Tool and MAGScoT in the number of MQ MAGs recovered across different datasets (Fig. 3a, d, g, j, and m). Additionally, MAGScoT exhibited the best overall performance in recovering NC MAGs (Fig. 3b, e, h, k, and n). However, none of the three methods showed a remarkable advantage in recovering HQ MAGs.\" [Binette JOSS PDF, 4 pages] no numbers; only the qualitative \"...which addresses the limitations of the latter and ensures better results.\" and \"Bin completeness and contamination are assessed using CheckM2\". [Versions, GitHub releases pages] MAGScoT v1.1 2024-10-10T12:19:13Z; Binette v1.2.1 2025-11-07T10:29:37Z (PyPI 2025-11-07); DAS Tool 1.1.7 2024-01-08T23:22:12Z (bioconda 2024-01-09). || NOTES: All MAG counts, the Han 2025 statements and the version dates are verified. Only the ~15x speed figure needed its 'equivalent steps' qualifier."
+      },
+      {
+        "claim": "7. BASALT (2024), CAMI-high OPERA-MS hybrid assembly: 54.8%, 52.8% and 26.1% more MAGs than VAMB, DAS Tool (MaxBin2+CONCOCT+MetaBAT2) and metaWRAP; +259% quality>=90 genomes vs DAS Tool; MAGs recruited 77.6% vs 49.6% of reads for DAS Tool. Aiding Lake sediment, short reads only, vs metaWRAP: 557 vs 392 nonredundant MAGs (+42%) and 155 vs 79 HQ MAGs (+96%). Includes gap-filling; not a DAS Tool head-to-head on short reads.",
+        "verdict": "corrected",
+        "corrected_claim": "BASALT (2024), CAMI-high OPERA-MS hybrid assembly (not short reads only): 54.8%, 52.8% and 26.1% more MAGs (quality >=50, scored against the gold standard) than VAMB, DAS Tool (MaxBin2+CONCOCT+MetaBAT2) and metaWRAP, and +259% genomes of quality >=90 vs DAS Tool. Its MAGs recruited 77.6% of reads after Gap Filling (64.9% after Bin Selection alone) vs 49.6% for DAS Tool. Aiding Lake (inland saline lake) sediment, short reads only, vs metaWRAP: 557 vs 392 nonredundant MAGs and 155 vs 79 HQ MAGs (the paper's own figure: 96% more HQ MAGs). The counts imply +42% MAGs, but the paper's introduction says '~30% more MAGs than metaWRAP', so cite the raw counts, not a percentage. These numbers include BASALT's gap-filling reassembly and are not a short-read head-to-head with DAS Tool.",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10928208/",
+        "quote": "[PMC10928208] \"In addition, BASALT analyses produced 54.8%, 52.8%, and 26.1% more MAGs than VAMB, DASTool, and metaWRAP, respectively (Fig. 3d and Supplementary Data 2), due in large part to the emphasis on bin refinement in BASALT. Notably, this refinement feature not only led to the recovery of more total MAGs but also more high-quality MAGs, with BASALT yielding 128%, 259%, and 102% more genomes with quality scores ≥90 than VAMB, DASTool, and metaWRAP, respectively (Fig. 3d).\" Fig. 3 caption: \"Comparison of BASALT with other binning tools for processing the CAMI-high dataset... d Number of MAGs recovered from CAMI-high dataset using DASTool (MaxBin2, CONCOCT, and MetaBAT2, MCM), VAMB, metaWRAP (MCM), or BASALT.\" \"Using OPERA-MS to generate hybrid assemblies from the CAMI dataset (CAMI-high, 596 genomes)...\" \"BASALT MAGs mapped 64.9%, 72.2%, and 77.6% of raw sequencing reads when finishing Bin Selection, Refinement, and Gap Filling modules, respectively, whereas VAMB, DASTool, and metaWRAP generated MAGs mapped 61.8%, 49.6%, and 69.0% of raw sequencing reads, respectively\". \"Using SRS assemblies, BASALT produced 557 nonredundant MAGs (completeness = 80.8% ± 12.57%, contamination = 1.45% ± 1.44%, quality = 73.2 ± 12.38) from Aiding Lake sediment samples, including 155 high-quality MAGs (completeness ≥90%, contamination ≤5%), checked using CheckM.\" \"We found that processing with metaWRAP yielded 392 nonredundant MAGs (completeness = 71% ± 13.2%, contamination = 2.4% ± 1.4%, quality = 58.9 ± 12.4), including 79 high-quality MAGs.\" \"BASALT obtained 96% more high-quality MAGs than metaWRAP\". The conflicting sentence in the same paper (Introduction): \"Subsequent analysis of short-read metagenomic sequencing data from sediment samples of Aiding Lake, a previously uncharacterized inland saline lake in the northwest of Xinjiang Province, China, recovers ~30% more MAGs than metaWRAP (Supplementary Fig. 1).\" || NOTES: All CAMI-high and Aiding Lake counts verified. The +42% is our arithmetic (557/392 = 1.42) and disagrees with the paper's own '~30%'. CAMI 'MAGs' are quality >=50 (completeness - 5 x contamination), scored with BASALT's in-house ANI script against the gold-standard genomes."
+      },
+      {
+        "claim": "8. CheckM2 (1.1.0, 2025-02-20) vs CheckM 1.0.x lineage_wf (the 2020 table is reproduced exactly by KBase CheckM 1.0.18, reduced tree): completeness MAE on simulated RefSeq202 genomes 2.1% vs 2.0% (high quality), 2.9% vs 4.7% (medium/low), phylum-weighted 2.5% vs 5.7%; sparse phyla (Nanohaloarchaeota, Patescibacteria, Iainarchaeota) high-quality MAE 3.6% vs 26.3%; on GTDB r202 MAGs 91% of completeness calls within 5% of CheckM1; 1.56 vs 0.57 genomes per minute per thread.",
+        "verdict": "verified",
+        "source_url": "https://par.nsf.gov/servlets/purl/10509877 ; https://pubmed.ncbi.nlm.nih.gov/37500759/ ; https://github.com/chklovski/CheckM2/releases ; local: /home/freiburger/Documents/MicrobiomeNotebooks/salterns/MAG_QC/compare_vs_2020.py (line 4) and MAG_QC/comparison_vs_2020.csv",
+        "quote": "[CheckM2 published PDF (NSF PAR), Nat Methods, doi 10.1038/s41592-023-01940-w] \"Overall, there was similar performance between CheckM2 and CheckM1 on high-quality genomes (CheckM2 MAE 2.1 ± 2.9%, CheckM1 MAE 2.0 ± 3.2%) with BUSCO being less accurate (BUSCO MAE 4.4 ± 6.8%). CheckM2 was far more accurate for medium, low-quality and highly contaminated genomes then both other tools (Fig. 3a; CheckM2 MAE 2.9 ± 2.9%, CheckM1 MAE 4.7 ± 5.4%, BUSCO MAE 6.4 ± 7.0%).\" \"...for high-quality genomes (CheckM2 PW-MAE 2.5 ± 2.2%, CheckM1 PW-MAE 5.7 ± 2.9%, BUSCO PW-MAE 10.2 ± 4.5%) as well as medium and low-quality genomes (CheckM2 PW-MAE 3.7 ± 3.2%, CheckM1 PW-MAE 7.1 ± 5.7%, BUSCO PW-MAE 10.2 ± 7.3%).\" \"The most significant increase in performance of CheckM2 was seen in predicting completeness of genomes from the phyla with very few high-quality genomic representatives such as Iainarchaeota, Nanohaloarchaeota, Dependentiae, Bipolaricaulota and Patescibacteria (high-quality MAE 3.6 ± 2.9%) when compared to CheckM1 (high-quality MAE 26.3 ± 10.8%)\" \"...with 73% of all completeness predictions being within 1% of each other and 91% being within 5% of each other (Fig. 6a).\" \"...processing an average of 1.56 ± 0.83 genomes per minute per thread on an AMD EPYC 7702 64-Core Processor, relative to CheckM1’s 0.57 ± 0.19 genomes per minute per thread.\" [PubMed 37500759 via Europe PMC] Nat Methods 2023;20:1203-1212. [Version] CheckM2 GitHub release 1.1.0 2025-02-20T08:07:19Z; bioconda 1.1.0 uploaded 2025-02-20. [Local] MAG_QC/compare_vs_2020.py line 4: \"CheckM: MAG_QC/checkm/summary/CheckM_summary_table.tsv (KBase CheckM 1.0.18, reduced tree)\". A python -I command merging cliff_mags/checkm_summary_table.tsv with MAG_QC/checkm/summary/CheckM_summary_table.tsv on MAG key printed: \"2020 rows 310 | 2026 rows 310 | matched 310\", \"Completeness max abs raw diff = 0.0\", \"Contamination max abs raw diff = 0.0\". || NOTES: The 2.5 vs 5.7% phylum-weighted MAE is for high-quality genomes (medium/low: 3.7 vs 7.1%). The GTDB r202 comparison covered 224,101 bacterial and 3,881 archaeal genomes flagged 'incomplete' (not isolates or closed MAGs), so not MAGs alone. 'Reproduced exactly' holds at the tables' stored precision for all 310 MAGs. 'Reduced tree' comes only from the script docstring; I did not check the KBase app parameters."
+      },
+      {
+        "claim": "9. GUNC (2021; v1.1.1, 2026-05-11): 15-30% of pre-filtered 'high-quality' MAGs in recent large studies are flagged as undetected chimeras; CheckM systematically overestimated completeness and underestimated contamination for non-redundant (cross-lineage) contamination; detection degrades for chimeras of entirely novel lineages at low contamination; Mattock & Watson 2023 found contaminated single-coverage bins that both CheckM and GUNC missed.",
+        "verdict": "corrected",
+        "corrected_claim": "GUNC (2021; v1.1.1, 2026-05-11) conservatively estimates that 15-30% of pre-filtered 'high-quality' MAGs in recent studies are undetected chimeras. In its simulations, CheckM systematically overestimated completeness and underestimated contamination for non-redundant (cross-lineage) contamination. Limitation: when one source lineage was entirely novel, GUNC detected chimeras reliably at >=10% contamination (phylum to family level), but worse at lower contamination and lower divergence (Orakov et al. 2021, Genome Biol 22:178). Separately, Mattock & Watson (2023, Nat Methods 20:1170-1173, doi:10.1038/s41592-023-01934-8) found single-coverage bins with hidden contamination that both CheckM and GUNC missed. In one, ~30% of the sequence (949 kb of 3.12 Mb) was contaminant, yet CheckM scored it 93.04% complete / 8.06% contaminated and GUNC found no chimerism (clade separation score 0.16).",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8201837/ ; https://doi.org/10.1038/s41592-023-01934-8 (accepted manuscript: https://www.pure.ed.ac.uk/ws/files/353027783/57714_3_art_18_5917_v2.pdf) ; https://pypi.org/pypi/gunc/json ; https://github.com/grp-bork/gunc/releases",
+        "quote": "[PMC8201837, GUNC abstract] \"GUNC complements existing approaches by targeting previously underdetected types of contamination: we conservatively estimate that 5.7% of genomes in GenBank, 5.2% in RefSeq, and 15–30% of pre-filtered “high-quality” metagenome-assembled genomes in recent studies are undetected chimeras.\" [Results] \"We observed that CheckM systematically overestimated completeness and underestimated contamination for genomes with simulated non-redundant contamination (Fig. 2b), largely independent of the taxonomic level of source genome divergence.\" \"We next simulated even more challenging scenarios in which one (“type 5a”) or both (“type 5b”) source lineages were not represented even at the level of divergence, corresponding to chimeras of entirely novel lineages. GUNC accurately detected “type 5a” at contaminations ≥ 10% at a phylum to family level (Fig. 2g), though performance deteriorated towards lower contamination portions and lower taxonomic divergence levels.\" [Mattock & Watson 2023, accepted manuscript] \"Using this approach, 303 of the 529 contigs (57%) in single_ERR2027909.44 represent contamination, the equivalent of 949kb of contaminant sequence from a total of 3.12Mb (30%).\" \"However, CheckM estimates this bin to be 93.04% complete, with just 8.06% contamination. A taxonomic method for identifying chimeric bins, GUNC, does not detect any chimerism in this bin, estimating a clade separation score of just 0.16.\" \"...both single-copy-core-gene and taxonomic methods miss hidden contamination that statistical methods do not.\" [Version] GUNC PyPI 1.1.1 uploaded 2026-05-11T08:49Z; GitHub release v1.1.1 2026-05-11T08:46:53Z. || NOTES: Every statement drawn from the GUNC paper is verified. The Mattock & Watson finding is also accurate, but it is not in the cited 2021 GUNC paper, which predates it. The correction adds its citation; no numbers changed."
+      },
+      {
+        "claim": "10. dRep v4.0.3 (2026-10-09; skani by default), galah 0.6.3 (2026-11-02), skani 0.4.0 vs dRep (2017) with gANI >96.5% and 60% minimum overlap (Zhou et al. 2022): sketch-based ANI is biased low for incomplete MAGs (Mash up to 4% low at 50% completeness); FastANI is sensitive to fragmentation (original study required N50 >=10 kb); skani is robust to incompleteness and >20x faster than FastANI; dRep v4 replaced Mash + fastANI with skani for both stages; in AVAMB's CAMI2 tests, CheckM2-guided de-replication lost 28 NC bins vs 40 with dRep.",
+        "verdict": "verified",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10630134/ ; https://github.com/MrOlm/drep (README: https://raw.githubusercontent.com/MrOlm/drep/master/README.md) ; https://github.com/wwood/galah (https://raw.githubusercontent.com/wwood/galah/main/src/lib.rs) ; https://pmc.ncbi.nlm.nih.gov/articles/PMC10590447/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC8692437/ (Zhou et al. 2022)",
+        "quote": "[PMC10630134, skani] \"In a synthetic test, fragmented, incomplete yet identical genomes had ANI estimates that were systematically lower than 100% for all methods but ANIm, a slow but accurate method. Mash was the most affected, with up to a difference of 4% ANI at 50% completeness, which can cause two very similar genomes of up to 99% ANI to be classified as different species when subject to the standard 95% ANI species threshold.\" \"FastANI was sensitive to fragmentation (low N50), which is why a minimum N50 of 10,000 is used in the original study, but that N50 requirement is not met in many real experiments.\" \"skani outperforms FastANI in accuracy and speed (>20× faster) for fragmented, incomplete MAGs.\" [dRep README line 19] \"dRep v4 uses skani for both primary and secondary genome comparisons by default, replacing v3's default of MASH (primary) + fastANI (secondary).\" [PMC10590447, AVAMB] \"When comparing this de-replication method to a popular alternative MAG de-replication tool dRep, our method preserved more genomes, only losing 28 NC bins in the de-replication process across all the CAMI2 datasets, compared to 40 when using dRep (Supplementary Table 3).\" \"We note that evaluating AAMB using CheckM2 was not entirely unbiased, since AAMB de-replicate similar bins using CheckM2 scores.\" \"De-replicating multiple binnings of the same contig set is not straightforward, but is simpler than dRep’s goal of de-replicating arbitrary genomes...\" [galah src/lib.rs lines 185-192, main branch] DEFAULT_ANI \"95\"; DEFAULT_PRECLUSTER_METHOD \"skani\"; DEFAULT_CLUSTER_METHOD \"skani\"; DEFAULT_QUALITY_METHOD \"checkm2\". [PMC8692437, Zhou et al. 2022, Methods] \"Finally, we applied dRep to remove redundant genome bins with high average nucleotide identity (gANI > 96.5% and minimum overlap 60%) across different metagenomes\". From the same paragraph: \"Each metagenome was re-assembled (de novo) using Tadpole error correction in BBTools and the SPAdes assembler to generate longer contigs for high-quality bins\". [Versions] dRep GitHub v4.0.3 2026-10-09T19:44:43Z (PyPI 2026-10-09); galah GitHub v0.6.3 2026-11-02T02:05:22Z (crates.io 2026-11-02); skani GitHub v0.4.0 2026-10-11T02:35:03Z (crates.io 2026-10-11). || NOTES: All verified. Caveat: AVAMB's 28 vs 40 comes from merging several binnings of the same contig set. It does not test cross-sample species dereplication like the salterns 450 -> 310 step. The Zhou 2022 re-assembly sentence (Tadpole + SPAdes) explains the SPAdes-style NODE_ contig headers, which conflict with the manuscript's 'assembled with MEGAHIT'."
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Research"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Verify"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "research:provenance",
+      "phaseIndex": 1,
+      "phaseTitle": "Research",
+      "agentId": "ac837ad089fdd14d2",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1793846934899,
+      "queuedAt": 1793846934822,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "The cores were sampled in July 2014 (R1, R2 and R2A on 2014…",
+      "promptPreview": "Context: the \"salterns\" study (South San Francisco Bay salt ponds; unrestored salterns R1 and R2, restored SF2, reference wetland R2A; sediment cores taken July 2014, depths D1 0-5 cm and D2 5-15 cm, plus water (H2O) samples). Its 450 MAGs (310 dereplicated + 140 not retained) were binned per sample with MetaBAT, CONCOCT and MaxBin and refined with DAS Tool (MAG names like Salt_Pond_MetaG_R1_A_D1_…",
+      "promptFramed": true,
+      "lastProgressAt": 1793849401694,
+      "tokens": 358731,
+      "toolCalls": 94,
+      "durationMs": 2466794,
+      "resultPreview": "{\"summary\":\"The cores were sampled in July 2014 (R1, R2 and R2A on 2014-07-11; SF2 on 2014-07-17); the three R2_restored samples were collected on 2015-03-10. JGI sequenced all 39 libraries under proposal 1890 (approved 2015-03-02, PI Tringe) on two Illumina HiSeq 2500 runs: run 10057 (18 libraries, Dec 2015) and run 10092 (21 libraries, Jan 2016). Each library is one 2x151 bp run. The raw reads a…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "research:advances",
+      "phaseIndex": 1,
+      "phaseTitle": "Research",
+      "agentId": "a3d0e24b7a4b6b328",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1793846934899,
+      "queuedAt": 1793846934823,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "WHEN (verified from Zhou et al. 2022 Methods, PMC8692437, p…",
+      "promptPreview": "Context: the \"salterns\" study (South San Francisco Bay salt ponds; unrestored salterns R1 and R2, restored SF2, reference wetland R2A; sediment cores taken July 2014, depths D1 0-5 cm and D2 5-15 cm, plus water (H2O) samples). Its 450 MAGs (310 dereplicated + 140 not retained) were binned per sample with MetaBAT, CONCOCT and MaxBin and refined with DAS Tool (MAG names like Salt_Pond_MetaG_R1_A_D1_…",
+      "promptFramed": true,
+      "lastProgressAt": 1793849004063,
+      "tokens": 345948,
+      "toolCalls": 104,
+      "durationMs": 2069161,
+      "resultPreview": "{\"summary\":\"WHEN (verified from Zhou et al. 2022 Methods, PMC8692437, plus release dates): the JGI/IMG assemblies were made with MEGAHIT v1.0.3 (a 2015-10-11 release). The MAGs come from a separate per-sample re-assembly ('Tadpole error correction in BBTools and the SPAdes assembler'; SPAdes version and whether --meta was used are not reported). Each assembly was binned with CONCOCT, MaxBin and Me…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "research:feasibility",
+      "phaseIndex": 1,
+      "phaseTitle": "Research",
+      "agentId": "a8297d58ba606527b",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1793846934899,
+      "queuedAt": 1793846934823,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Your two questions, answered first. (1) WHEN WERE THE MAGs …",
+      "promptPreview": "Context: the \"salterns\" study (South San Francisco Bay salt ponds; unrestored salterns R1 and R2, restored SF2, reference wetland R2A; sediment cores taken July 2014, depths D1 0-5 cm and D2 5-15 cm, plus water (H2O) samples). Its 450 MAGs (310 dereplicated + 140 not retained) were binned per sample with MetaBAT, CONCOCT and MaxBin and refined with DAS Tool (MAG names like Salt_Pond_MetaG_R1_A_D1_…",
+      "promptFramed": true,
+      "lastProgressAt": 1793849343589,
+      "tokens": 325892,
+      "toolCalls": 93,
+      "durationMs": 2408685,
+      "resultPreview": "{\"summary\":\"Your two questions, answered first.\\n\\n(1) WHEN WERE THE MAGs MADE? Roughly between April 2018 and November 2020. Zhou et al. built them, but not from the IMG assemblies the manuscript describes.\\n- Sampling: cores were taken in July 2014. Zhou et al., ISME J 16:284, https://pmc.ncbi.nlm.nih.gov/articles/PMC8692437/ : 'Soil core samples were collected from each sampling site in July 20…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "verify:claims-1",
+      "phaseIndex": 2,
+      "phaseTitle": "Verify",
+      "agentId": "a4ea55272a1559804",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1793849401744,
+      "queuedAt": 1793849401709,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "Context: the \"salterns\" study (South San Francisco Bay salt ponds; unrestored salterns R1 and R2, restored SF2, reference wetland R2A; sediment cores taken July 2014, depths D1 0-5 cm and D2 5-15 cm, plus water (H2O) samples). Its 450 MAGs (310 dereplicated + 140 not retained) were binned per sample with MetaBAT, CONCOCT and MaxBin and refined with DAS Tool (MAG names like Salt_Pond_MetaG_R1_A_D1_…",
+      "promptFramed": true,
+      "lastProgressAt": 1793853284925,
+      "tokens": 274849,
+      "toolCalls": 79,
+      "durationMs": 3883180,
+      "resultPreview": "{\"checks\":[{\"claim\":\"1. Assembler versions: SPAdes 4.3.0 (2026-06-14; 4.0.0 2024-06-04); MEGAHIT 1.2.9 (2019-10-15, still the latest) vs the IMG assembly with MEGAHIT v1.0.3 (released 2015-10-11) and the MAG assembly with per-sample SPAdes after BBTools Tadpole (version and --meta not reported). Version upgrades bring no published gain in contiguity or genome fraction. CAMI II: 'performances were …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "verify:claims-2",
+      "phaseIndex": 2,
+      "phaseTitle": "Verify",
+      "agentId": "a28f952ec597a7972",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1793849401744,
+      "queuedAt": 1793849401710,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "Context: the \"salterns\" study (South San Francisco Bay salt ponds; unrestored salterns R1 and R2, restored SF2, reference wetland R2A; sediment cores taken July 2014, depths D1 0-5 cm and D2 5-15 cm, plus water (H2O) samples). Its 450 MAGs (310 dereplicated + 140 not retained) were binned per sample with MetaBAT, CONCOCT and MaxBin and refined with DAS Tool (MAG names like Salt_Pond_MetaG_R1_A_D1_…",
+      "promptFramed": true,
+      "lastProgressAt": 1793852857929,
+      "tokens": 210454,
+      "toolCalls": 88,
+      "durationMs": 3453667,
+      "resultPreview": "{\"checks\":[{\"claim\":\"1. SemiBin (2022), single-sample vs MetaBAT2 on real data, HQ = CheckM >90%/<5% plus a GUNC pass: +41.2% (human gut, 1497 HQ), +72.0% (dog gut), +48.7% (ocean), +61.0% (soil: 95 vs 59 HQ bins from 101 samples). Multi-sample vs VAMB: +17.5%, +11.0%, +30.7%, +171.4%.\",\"verdict\":\"verified\",\"source_url\":\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9051138/\",\"quote\":\"[PMC9051138, Resu…"
+    }
+  ],
+  "totalTokens": 1515874,
+  "totalToolCalls": 458
+}
