@@ -1,0 +1,10 @@
+{
+  "_comment": "GET /objects/{genome_object_id}/content -> CanonicalGenome JSON; assert these on non_coding_provenance (values recorded for Bakta builds in bk-live-acceptance-2.md; driver sha256 re-checked on poplar 2026-11-15)",
+  "source": "called",
+  "callers": {"bakta": "1.11.4"},
+  "gene_caller": "bakta",
+  "bakta_db": "6.0-full",
+  "bakta_image": "sha256:6718c6d0a9412eb4bbf345c7512141722464f7d6acdb9639de18c19188837dff",
+  "bakta_driver_sha256": "593cb586ff92797e141b662258edc866f0210af267ad4b21689c4d1cc918063b",
+  "cds_dropped_count_basis": "cds-only"
+}

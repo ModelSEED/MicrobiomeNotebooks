@@ -1,0 +1,26 @@
+mag	why	domain	size_bp	contigs	r220_species_ani	novel_all_reps_species_ani
+bin.013.fasta__SRR23247753	archaeon, r220 species hit	Archaea	1312968	79	99.56	
+bin.006.fasta__SRR23247666	archaeon, r220 species hit	Archaea	1611377	77	99.13	
+bin.015.fasta__SRR10489833	bacterium, r220 species hit	Bacteria	3575382	518	99.01	
+bin.002.fasta__SRR12613919	bacterium, r220 species hit	Bacteria	2281283	568	98.22	
+bin.003.fasta__SRR10489820	bacterium, r220 species hit	Bacteria	4617074	622	99.2	
+bin.058.fasta__SRR13021960	novel_all_representatives-only species hit	Bacteria	1865048	154		99.85
+bin.005.fasta__SRR11837213	novel_all_representatives-only species hit	Bacteria	2910346	577		97.86
+bin.024.fasta__SRR11577070	archaeon, no r220 hit	Archaea	1953593	138		
+bin.064.fasta__SRR5198901	archaeon, no r220 hit	Archaea	981826	218		
+bin.003.fasta__SRR13343992	smallest MAG	Bacteria	31579	5	99.93	96.48
+bin.015.fasta__SRR8554046	largest MAG (32.7 Mb, flagged chimera)	Bacteria	32669774	4660		
+bin.028.fasta__SRR5829543	2nd most contigs	Bacteria	8868360	2304		
+bin.004.fasta__SRR18686410	contig-count quantile 0.1	Bacteria	4141943	61		
+bin.008.fasta__SRR11599182	contig-count quantile 0.25	Bacteria	2804569	126		
+bin.003.fasta__SRR11578404	contig-count quantile 0.5	Bacteria	1702469	260	98.83	
+bin.025.fasta__SRR8557488	contig-count quantile 0.75	Bacteria	2988119	432		
+bin.007.fasta__SRR15532679	contig-count quantile 0.9	Bacteria	3439793	620		97.02
+bin.008.fasta__SRR5246785	contig-count quantile 0.95	Bacteria	4125402	763		95.19
+bin.009.fasta__SRR16547334	contig-count quantile 0.99	Bacteria	4158224	1095		
+bin.008.fasta__SRR8557364	size quantile 0.1	Bacteria	1183930	161		
+bin.019.fasta__SRR11593349	size quantile 0.5	Bacteria	2929898	40	99.93	
+bin.008.fasta__SRR10260007	size quantile 0.9	Bacteria	5218990	862		
+bin.021.fasta__SRR13201920	size quantile 0.99	Bacteria	8121527	677		99.59
+bin.002.fasta__SRR20218964	random	Bacteria	894370	249		95.32
+bin.023.fasta__SRR11578828	random	Bacteria	3036093	71	99.96	
