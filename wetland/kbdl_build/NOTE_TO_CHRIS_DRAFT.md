@@ -36,6 +36,11 @@ assert references.set_metadata_object_id(s, DB, oid)
 print("skani db", DB, "companion", oid)
 PY
 ```
+I tested both files with your skani 0.3.1 binary (/scratch1/chenry/opt/skani/0.3.1/skani): companion_key(Ref_file) of
+the top hit resolves in the companion, and the lineage equals our GTDB-Tk 2.8.0 R232 call. For example, the canary
+archaeon bin.013.fasta__SRR23247753 is Methanoflorens stordalenmirensis in R232, while r220 registered it as
+"Bog-38 sp003139855" (bsp1).
+
 Then send me the two ids. My build driver is paused until then.
 
 Also: the 2-MAG canary and the 23-MAG pilot were built on 2026-11-15 against gtdb_r220_consolidated (genome ids vpa1, bsp1, …),
@@ -46,7 +51,9 @@ me the supported way to do it? Content-hash dedup means a rebuild will not chang
 - I'm building all 12,859 MAGs with KBDLBuildGenome:
   - gene_caller="bakta", call_non_coding=true, bakta_db 6.0-full, skani_db = the R232 SKANIDB;
   - private GenomeArchives of 25 MAGs each.
-- I'm keeping at most 3 of the 4 build slots, so other builds can interleave. Expect roughly 8–14 days.
+- I'm keeping at most 3 of the 4 build slots, so other builds can interleave. The 23-MAG pilot measured about
+  100 s of Bakta build time per Mb on today's load (2 h 57 min for 106 Mb, including the 32.7 Mb chimera at 45 min),
+  so the remaining 12,834 MAGs (40.1 Gb) need about 17 days at 3 slots (about 13 at 4).
 - My driver has been through an adversarial review and failure simulations. It never cancels or blindly resubmits, and
   it verifies every genome (content hash, Bakta provenance, CDS, called RNA).
 - Things on your side:
