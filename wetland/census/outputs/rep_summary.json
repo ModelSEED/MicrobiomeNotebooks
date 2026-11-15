@@ -1,0 +1,39 @@
+{
+ "max_reps_per_cluster": 10,
+ "clusters": 6064,
+ "clusters_with_reps": 4996,
+ "clusters_relaxed": 902,
+ "clusters_census_only": 1068,
+ "worklist_mags": 5356,
+ "worklist_relaxed_mags": 902,
+ "worklist_by_source": {
+  "R232": 2033,
+  "de_novo": 3323
+ },
+ "worklist_by_domain": {
+  "d__Bacteria": 4919,
+  "d__Archaea": 437
+ },
+ "worklist_quality_source": {
+  "checkm2": 5356
+ },
+ "worklist_mimag_hq_by_completeness_contamination": 2161,
+ "excluded_multihit_mags": 405,
+ "reps_per_cluster_distribution": {
+  "0": 1068,
+  "1": 4756,
+  "2": 172,
+  "3": 44,
+  "4": 12,
+  "5": 7,
+  "6": 1,
+  "7": 1,
+  "9": 2,
+  "10": 1
+ },
+ "worklist_r232_adjacent": {
+  "none": 5331,
+  "below_radius": 18,
+  "low_af": 7
+ }
+}
