@@ -7,22 +7,33 @@ Runs ON POPLAR against the KBDL job service at http://localhost:8791 (Chris Henr
 Per job: KBDLBuildGenome {archive, gene_caller='bakta', call_non_coding=true, skani_db=GTDB r220 ref, bakta_db=6.0-full}.
 These are permanent: KBDL dedups builds by content hash across owners, so the first build fixes caller and taxonomy.
 
-Safety (from the 2026-11-15 contract review, ~/gtdbtk_kbase/next_kbdl-build-contract.md):
-  * every payload is asserted (key set, gene_caller, call_non_coding, refs) right before POST /jobs;
-  * POST /jobs is never blindly retried: an intent row is written first; a lost response is reconciled from GET /jobs;
-  * uploads: deterministic .tar.xz, GET /objects/{sha} first (idempotent), 202 is not "stored": upload job result ==
-    local sha256, GET /objects/{id} (GenomeArchive, private), /files names+sizes == members;
+v2 (2026-11-15) applies the 22 confirmed findings of an adversarial review (wf_8d5f3d4a-1f3). Safety:
+  * one driver per ledger (flock); every payload is asserted right before POST /jobs;
+  * POST /jobs is never blindly retried: an intent row is written first; any unresolved intent (lost response, crash,
+    5xx) parks its archive as 'lost' and is reconciled against GET /jobs by submit time (adopt / never_created after
+    a grace period); nothing new is submitted while an intent is unresolved;
+  * failed jobs are always marked harvested; worker_lost/internal_error/store_contention retry the archive (max 3
+    attempts), anything else marks the archive 'failed' and halts;
+  * skani-failure members are queued as a subset retry and submitted by the main loop under the in-flight cap;
+  * uploads: deterministic .tar.xz, GET /objects/{sha} first; 202 is not "stored": upload job result == local sha256,
+    GET /objects/{id} (GenomeArchive, private), /files names+sizes == members; max 2 re-uploads, then halt;
   * per member: in genomes xor errors; fasta_object_id == predicted hash; gene_caller == bakta; non_coding_source ==
-    called; tRNA > 0 (flag); Genome JSON content: >= 1 CDS (flag < 500/Mb), contigs/bp match, non-coding count matches,
-    provenance matches 09_expected_genome_provenance.json;
-  * circuit breaker (stop submitting, keep polling) on any 'Bakta:' error, caller/hash/provenance mismatch, a whole-job
-    invalid_input / dependency_unavailable / tool_failure;
-  * watchdog: a job running > 3x its predicted time + 30 min raises an ALERT only (never cancel: KBDL keeps building).
-Stages: canary -> pilot -> bulk; the driver stops after --through (default: canary) so results can be inspected.
+    called; Genome JSON: genome_id == hash[:16], contigs re-rendered hash == predicted hash, >= 1 CDS, contigs/bp,
+    non-coding count, provenance (09_expected_genome_provenance.json incl. cds_overlap_rule/fraction), cds_discarded;
+    a temporarily unreadable Genome JSON is re-checked later, not failed;
+  * circuit breaker (stop submitting/uploading, keep polling + harvesting) on any 'Bakta:' error, caller/hash/content/
+    provenance mismatch, failed archive, 4xx on submit, or a per-job quality breaker (> half of the >= 1 Mb members
+    without tRNA, or > 2 members below 500 CDS/Mb);
+  * watchdog ALERTs only (never cancel: KBDL keeps building after a cancel): running > 3x predicted + 30 min, queued
+    > 12 h, no harvest for 6 h while jobs are in flight;
+  * phases canary -> pilot -> bulk; a phase with failed/partial archives blocks the next one explicitly (STOPPED with
+    a GATE message) unless the operator sets kv accept_phase:<phase>=1.
+Operator: after a poplar reboot or crash just restart the same command (the ledger resumes; running builds that the
+reboot killed come back as worker_lost and are retried). To clear a halt: fix the cause, DELETE FROM kv WHERE k='halted'.
 Ledger: SQLite on local disk (WORK, never NFS). Token: read from stdin, then the process detaches; never written to disk.
 Usage (poplar): python3 -I kbdl_build_driver.py --through canary|pilot|bulk [--max-in-flight 3] [--dry-run] < token
 """
-import argparse, calendar, hashlib, io, json, lzma, os, sqlite3, sys, tarfile, time
+import argparse, calendar, fcntl, hashlib, io, json, lzma, os, sqlite3, sys, tarfile, time
 import requests
 
 BASE = "http://localhost:8791"
@@ -34,6 +45,10 @@ BAKTA_DB = "ref:2fdfb17daa745a4fe41065a38a9a1d367469fe85fcb7a1b1023f8142d586f577
 PHASES = ["canary", "pilot", "bulk"]
 ALLOWED_KEYS = {"archive", "gene_caller", "call_non_coding", "skani_db", "bakta_db"}
 TERMINAL = {"completed", "failed"}
+RETRYABLE = {"worker_lost", "internal_error", "store_contention"}
+MAX_ATTEMPTS = 3
+RECONCILE_GRACE = 900          # s before an intent with no visible job is declared never_created
+RECHECK_EVERY = 1800           # s between re-checks of members whose Genome JSON was temporarily unreadable
 
 p = argparse.ArgumentParser()
 p.add_argument("--through", choices=PHASES, default="canary")
@@ -53,10 +68,23 @@ if not a.foreground and not a.dry_run:
     os.setsid()
     log_fh = open(os.path.join(WORK, "driver.log"), "a", buffering=1)
     sys.stdout = sys.stderr = log_fh
+if not a.dry_run:                                     # single instance per ledger
+    LOCK = open(os.path.join(WORK, "driver.lock"), "a+")
+    try:
+        fcntl.flock(LOCK, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError:
+        LOCK.seek(0)
+        print(f"another driver holds {WORK}/driver.lock (pid {LOCK.read().strip()}); exiting", flush=True)
+        sys.exit(1)
+    LOCK.seek(0)
+    LOCK.truncate()
+    LOCK.write(str(os.getpid()))
+    LOCK.flush()
 S = requests.Session()
 S.headers["Authorization"] = "Bearer " + TOKEN
 EXPECT_PROV = {k: v for k, v in json.load(open(os.path.join(HERE, "09_expected_genome_provenance.json"))).items()
                if not k.startswith("_")}
+assert EXPECT_PROV.get("cds_overlap_rule") == "applied" and EXPECT_PROV.get("cds_overlap_drop_fraction") == 0.5
 
 
 def ev(msg):
@@ -98,6 +126,23 @@ def kv_set(k, v):
     db.commit()
 
 
+def kv_del(k):
+    db.execute("DELETE FROM kv WHERE k=?", (k,))
+    db.commit()
+
+
+def halted():
+    return kv_get("halted") == "1"
+
+
+def halt(msg):
+    if not halted():
+        ev(f"HALT {msg}")
+    kv_set("halted", "1")
+    kv_set("halt_reason", msg)
+    return None
+
+
 plan = [l.rstrip("\n").split("\t") for l in open(os.path.join(HERE, "archive_plan.tsv"))][1:]
 if not db.execute("SELECT count(*) FROM archives").fetchone()[0]:
     order = {}
@@ -116,12 +161,18 @@ n_m = db.execute("SELECT count(*), count(DISTINCT mag) FROM members").fetchone()
 assert n_m == (12859, 12859), n_m
 
 
-# ---------------- HTTP helpers ----------------
+def members_of(name):
+    return [r[0] for r in db.execute("SELECT mag FROM members WHERE archive=? ORDER BY mag", (name,))]
+
+
+# ---------------- HTTP ----------------
 def http(method, path, retry=None, **kw):
+    """retry: GETs (and read-only POST /jobs/status) retry on connection errors and 5xx; other POSTs never do."""
     retry = (method == "GET") if retry is None else retry
+    timeout = kw.pop("timeout", 120)
     for i in range(8):
         try:
-            r = S.request(method, BASE + path, timeout=kw.pop("timeout", 120), **kw)
+            r = S.request(method, BASE + path, timeout=timeout, **kw)
         except requests.RequestException as e:
             if not retry:
                 raise
@@ -129,20 +180,22 @@ def http(method, path, retry=None, **kw):
             time.sleep(min(300, 15 * 2 ** i))
             continue
         if r.status_code == 401:
+            if not retry:
+                return r
             ev("ALERT 401 from KBDL (token?); pausing 30 min")
             time.sleep(1800)
             continue
-        if r.status_code == 503 and retry:
+        if r.status_code in (500, 502, 503, 504) and retry:
             time.sleep(min(300, 15 * 2 ** i))
             continue
         return r
     raise RuntimeError(f"{method} {path}: giving up")
 
 
-# ---------------- archives ----------------
+# ---------------- archives / uploads ----------------
 def build_archive(name):
     path = os.path.join(WORK, "archives", name + ".tar.xz")
-    mems = [r[0] for r in db.execute("SELECT mag FROM members WHERE archive=? ORDER BY mag", (name,))]
+    mems = members_of(name)
     raw = io.BytesIO()
     with tarfile.open(fileobj=raw, mode="w", format=tarfile.GNU_FORMAT) as tf:
         for m in mems:
@@ -158,10 +211,10 @@ def build_archive(name):
     sha = hashlib.sha256(xz).hexdigest()
     db.execute("UPDATE archives SET path=?, sha256=?, state='built', updated=? WHERE name=?", (path, sha, now(), name))
     db.commit()
-    return path, sha, mems
+    return path, sha
 
 
-def verify_object(name, oid, mems):
+def verify_object(oid, mems):
     r = http("GET", f"/objects/{oid}")
     if r.status_code != 200:
         return f"GET /objects -> {r.status_code}"
@@ -179,14 +232,16 @@ def verify_object(name, oid, mems):
 
 
 def ensure_uploaded(name):
-    """Upload (idempotently) + verify one archive. Returns object_id or None (and halts on mismatch)."""
-    row = db.execute("SELECT state, path, sha256, upload_job FROM archives WHERE name=?", (name,)).fetchone()
-    state, path, sha, ujob = row
-    mems = [r[0] for r in db.execute("SELECT mag FROM members WHERE archive=? ORDER BY mag", (name,))]
+    """Upload (idempotently) + verify one archive. Returns object_id when verified, else None."""
+    state, path, sha, ujob = db.execute("SELECT state, path, sha256, upload_job FROM archives WHERE name=?",
+                                        (name,)).fetchone()
+    mems = members_of(name)
     if state == "verified":
         return sha
+    if state not in ("planned", "built", "uploading"):
+        return None
     if state == "planned" or not path or not os.path.exists(path):
-        path, sha, mems = build_archive(name)
+        path, sha = build_archive(name)
     if a.dry_run:
         ev(f"[dry run] archive {name}: {len(mems)} members, sha256 {sha[:16]}…, {os.path.getsize(path)/1e6:.1f} MB")
         return sha
@@ -194,33 +249,41 @@ def ensure_uploaded(name):
         r = http("GET", f"/objects/{sha}")
         if r.status_code != 200:
             with open(path, "rb") as fh:
-                r = http("POST", "/objects", files={"file": (name + ".tar.xz", fh)},
-                         data={"object_type": "GenomeArchive", "name": name, "visibility": "private", "transform": "none"},
-                         timeout=1800)
-            if r.status_code == 201:
-                pass
-            elif r.status_code == 202:
+                try:
+                    r = http("POST", "/objects", files={"file": (name + ".tar.xz", fh)}, timeout=1800,
+                             data={"object_type": "GenomeArchive", "name": name, "visibility": "private",
+                                   "transform": "none"})
+                except requests.RequestException as e:
+                    ev(f"WARN upload POST {name}: {e!s:.150}; will retry (GET /objects/{{sha}} makes it idempotent)")
+                    return None
+            if r.status_code == 202:
                 j = r.json()
                 if j.get("expected_object_id") != sha:
                     return halt(f"upload {name}: expected_object_id {j.get('expected_object_id')} != local {sha}")
                 ujob = j["job_id"]
                 db.execute("UPDATE archives SET upload_job=?, state='uploading', updated=? WHERE name=?", (ujob, now(), name))
                 db.commit()
-            else:
+            elif r.status_code != 201:
                 return halt(f"upload {name}: HTTP {r.status_code} {r.text[:200]}")
     if ujob:
         st = http("GET", f"/jobs/{ujob}").json()
         if st["state"] not in TERMINAL:
             return None
         if st["state"] == "failed":
-            db.execute("UPDATE archives SET upload_job=NULL, state='built' WHERE name=?", (name,))
+            fail = st.get("failure") or {}
+            n = int(kv_get(f"upload_fail:{name}", 0)) + 1
+            kv_set(f"upload_fail:{name}", n)
+            db.execute("UPDATE archives SET upload_job=NULL, state='built', updated=? WHERE name=?", (now(), name))
             db.commit()
-            ev(f"WARN upload job {ujob} for {name} failed: {st.get('failure')}; will re-upload")
+            if fail.get("code") in ("invalid_input", "validation_failed", "cancelled") or n > 2:
+                return halt(f"upload job {ujob} for {name} failed (attempt {n}): {fail}; inspect, then clear kv "
+                            f"'halted' (and 'upload_fail:{name}' to allow more re-uploads) and restart")
+            ev(f"WARN upload job {ujob} for {name} failed (attempt {n}): {fail}; will re-upload")
             return None
         res = http("GET", f"/jobs/{ujob}/result").json()
         if res.get("object_id") != sha:
             return halt(f"upload {name}: result object_id {res.get('object_id')} != {sha}")
-    err = verify_object(name, sha, mems)
+    err = verify_object(sha, mems)
     if err:
         return halt(f"upload {name}: {err}")
     db.execute("UPDATE archives SET object_id=?, state='verified', updated=? WHERE name=?", (sha, now(), name))
@@ -229,15 +292,7 @@ def ensure_uploaded(name):
     return sha
 
 
-# ---------------- jobs ----------------
-def halt(msg):
-    if kv_get("halted") != "1":
-        ev(f"HALT {msg}")
-    kv_set("halted", "1")
-    kv_set("halt_reason", msg)
-    return None
-
-
+# ---------------- submission ----------------
 def payload_for(oid, genome_ids=None):
     arch = {"object_id": oid}
     if genome_ids:
@@ -248,71 +303,131 @@ def payload_for(oid, genome_ids=None):
     pr = pl["params"]
     assert set(pr) <= ALLOWED_KEYS and pr["gene_caller"] == "bakta" and pr["call_non_coding"] is True
     assert pr["skani_db"] == {"object_id": GTDB_R220} and pr["bakta_db"] == {"object_id": BAKTA_DB}
-    assert set(arch) <= {"object_id", "genome_ids"}
+    assert set(arch) <= {"object_id", "genome_ids"} and len(oid) == 64
     return pl
 
 
-def submit(name, oid, genome_ids=None, attempt=1):
+def submit(name, oid, genome_ids=None):
+    """POST one build job. Returns job_id, or None (dry run, lost -> archive parked as 'lost', or halted)."""
     pl = payload_for(oid, genome_ids)
     if a.dry_run:
         ev(f"[dry run] would POST /jobs {json.dumps(pl)}")
         return None
+    attempt = 1 + db.execute("SELECT count(*) FROM jobs WHERE archive=? AND genome_ids IS NULL", (name,)).fetchone()[0] \
+        if not genome_ids else 2
     cur = db.execute("INSERT INTO intents(archive, payload, created) VALUES(?,?,?)", (name, json.dumps(pl), time.time()))
     iid = cur.lastrowid
+    db.execute("UPDATE archives SET state='lost', updated=? WHERE name=?", (now(), name))   # until the job is recorded
     db.commit()
     try:
-        r = S.post(BASE + "/jobs", json=pl, timeout=120)
+        r = http("POST", "/jobs", json=pl, retry=False)
     except requests.RequestException as e:
         db.execute("UPDATE intents SET outcome='unknown' WHERE id=?", (iid,))
         db.commit()
         ev(f"WARN POST /jobs for {name} lost ({e!s:.120}); will reconcile")
         return None
+    if r.status_code >= 500:
+        db.execute("UPDATE intents SET outcome='unknown' WHERE id=?", (iid,))
+        db.commit()
+        ev(f"WARN POST /jobs for {name} -> {r.status_code}; will reconcile")
+        return None
     if r.status_code != 202:
         db.execute("UPDATE intents SET outcome='rejected' WHERE id=?", (iid,))
+        db.execute("UPDATE archives SET state='failed' WHERE name=?", (name,))
         db.commit()
         return halt(f"POST /jobs {name} -> {r.status_code} {r.text[:300]}")
-    jid = r.json()["job_id"]
-    db.execute("UPDATE intents SET posted=?, job_id=?, outcome='ok' WHERE id=?", (time.time(), jid, iid))
-    db.execute("INSERT INTO jobs(job_id, archive, genome_ids, submitted, state, attempt) VALUES(?,?,?,?,?,?)",
-               (jid, name, json.dumps(genome_ids) if genome_ids else None, time.time(), "queued", attempt))
-    db.execute("UPDATE archives SET state='submitted', updated=? WHERE name=?", (now(), name))
-    db.commit()
-    ev(f"SUBMIT {name} -> job {jid}" + (f" (subset {len(genome_ids)}, attempt {attempt})" if genome_ids else ""))
+    try:
+        jid = r.json()["job_id"]
+        db.execute("UPDATE intents SET posted=?, job_id=?, outcome='ok' WHERE id=?", (time.time(), jid, iid))
+        db.execute("INSERT INTO jobs(job_id, archive, genome_ids, submitted, state, attempt) VALUES(?,?,?,?,?,?)",
+                   (jid, name, json.dumps(genome_ids) if genome_ids else None, time.time(), "queued", attempt))
+        db.execute("UPDATE archives SET state='submitted', updated=? WHERE name=?", (now(), name))
+        if genome_ids:
+            db.execute("DELETE FROM kv WHERE k=?", (f"subset_pending:{name}",))
+        db.commit()
+    except Exception:
+        db.rollback()
+        db.execute("UPDATE intents SET outcome='unknown' WHERE id=?", (iid,))
+        db.commit()
+        raise
+    ev(f"SUBMIT {name} -> job {jid}" + (f" (subset of {len(genome_ids)})" if genome_ids else f" (attempt {attempt})"))
     return jid
 
 
 def reconcile_intents():
-    pend = db.execute("SELECT id, archive, created FROM intents WHERE outcome='unknown'").fetchall()
+    """Resolve intents whose POST outcome is unknown (lost response, crash between POST and commit, 5xx)."""
+    pend = db.execute("SELECT id, archive, created, payload FROM intents WHERE outcome='unknown' "
+                      "OR (outcome IS NULL AND job_id IS NULL) ORDER BY created").fetchall()
     if not pend:
-        return
+        return 0
     lst = http("GET", "/jobs").json()
     known = {r[0] for r in db.execute("SELECT job_id FROM jobs")}
-    orphans = [j for j in lst if j.get("job_type") == "KBDLBuildGenome" and j["job_id"] not in known]
-    for iid, name, created in pend:
-        if len(orphans) == 1 and len(pend) == 1:
-            jid = orphans[0]["job_id"]
+    t0 = pend[0][2] - 5
+
+    def ts(j):
+        try:
+            return calendar.timegm(time.strptime(j["submitted_at"][:19], "%Y-%m-%dT%H:%M:%S"))
+        except Exception:
+            return 0
+    orphans = sorted((j for j in lst if j.get("job_type") == "KBDLBuildGenome" and j["job_id"] not in known
+                      and ts(j) >= t0), key=ts)
+    if orphans and len(orphans) != len(pend):
+        halt(f"RECONCILE ambiguous: orphan jobs {[j['job_id'] for j in orphans]} vs intents {[x[0] for x in pend]}. "
+             "Resolve by hand: INSERT each job into jobs(job_id, archive, genome_ids, attempt), set intents.outcome="
+             "'adopted', set archives.state='submitted', then clear kv halted")
+        return len(pend)
+    unresolved = 0
+    for i, (iid, name, created, payload) in enumerate(pend):
+        gids = json.loads(payload)["params"]["archive"].get("genome_ids")
+        if orphans:
+            jid = orphans[i]["job_id"]
+            att = 2 if gids else 1 + db.execute("SELECT count(*) FROM jobs WHERE archive=? AND genome_ids IS NULL",
+                                                (name,)).fetchone()[0]
             db.execute("UPDATE intents SET job_id=?, outcome='adopted' WHERE id=?", (jid, iid))
-            db.execute("INSERT INTO jobs(job_id, archive, submitted, state) VALUES(?,?,?,?)", (jid, name, created, "queued"))
+            db.execute("INSERT INTO jobs(job_id, archive, genome_ids, submitted, state, attempt) VALUES(?,?,?,?,?,?)",
+                       (jid, name, json.dumps(gids) if gids else None, created, "queued", att))
             db.execute("UPDATE archives SET state='submitted' WHERE name=?", (name,))
-            ev(f"RECONCILE adopted orphan job {jid} for {name}")
-        elif not orphans:
+            if gids:
+                db.execute("DELETE FROM kv WHERE k=?", (f"subset_pending:{name}",))
+            ev(f"RECONCILE adopted orphan job {jid} for {name}" + (f" (subset of {len(gids)})" if gids else ""))
+        elif time.time() - created >= RECONCILE_GRACE:
             db.execute("UPDATE intents SET outcome='never_created' WHERE id=?", (iid,))
-            ev(f"RECONCILE intent {iid} for {name}: no job was created; archive will be resubmitted")
+            db.execute("UPDATE archives SET state=? WHERE name=?", ("partial" if gids else "verified", name))
+            ev(f"RECONCILE intent {iid} for {name}: no job was created; " +
+               ("subset retry stays pending" if gids else "archive will be resubmitted"))
         else:
-            halt(f"RECONCILE ambiguous: {len(orphans)} orphan build jobs for {len(pend)} lost intents")
+            unresolved += 1
     db.commit()
+    return unresolved
+
+
+# ---------------- verification ----------------
+def rehash_contigs(contigs):
+    lines = []
+    for c in contigs:
+        lines.append(">" + str(c.get("source_id")))
+        s = str(c.get("sequence") or "").upper()
+        lines += [s[i:i + 60] for i in range(0, len(s), 60)]
+    return hashlib.sha256(("\n".join(lines) + "\n").encode()).hexdigest() if lines else ""
 
 
 def check_genome(mag, e):
-    """Fetch the Genome JSON and verify CDS / contigs / non-coding / provenance. Returns (cds, n_nc, flags, problems)."""
-    r = http("GET", f"/objects/{e['genome_object_id']}/content", timeout=600)
+    """Verify the stored Genome JSON. Returns (cds, n_nc, flags, problems); problems == None means 'unreadable now'."""
+    try:
+        r = http("GET", f"/objects/{e['genome_object_id']}/content", timeout=600)
+    except RuntimeError:
+        return None, None, [], None
     if r.status_code != 200:
-        return None, None, [], [f"genome content HTTP {r.status_code}"]
+        return None, None, [], None if r.status_code >= 500 else [f"genome content HTTP {r.status_code}"]
     g = r.json()
-    bp, nc_ = db.execute("SELECT bp, n_contigs FROM members WHERE mag=?", (mag,)).fetchone()
+    bp, nc_, pred = db.execute("SELECT bp, n_contigs, predicted_hash FROM members WHERE mag=?", (mag,)).fetchone()
     feats, ncf, prov = g.get("features") or [], g.get("non_coding_features") or [], g.get("non_coding_provenance") or {}
     contigs = g.get("contigs") or []
     problems, flags = [], []
+    if g.get("genome_id") != pred[:16]:
+        problems.append(f"Genome JSON genome_id {g.get('genome_id')} != hash[:16]")
+    if rehash_contigs(contigs) != pred:
+        problems.append("Genome JSON contigs do not re-hash to the MAG's content hash")
     if not feats:
         problems.append("0 CDS (gene-free build)")
     elif len(feats) / max(bp / 1e6, 1e-9) < 500:
@@ -324,32 +439,66 @@ def check_genome(mag, e):
     for k, v in EXPECT_PROV.items():
         if prov.get(k) != v:
             problems.append(f"provenance {k}={prov.get(k)!r} expected {v!r}")
+    cd = prov.get("cds_discarded")
+    if not (isinstance(cd, dict) and set(cd) <= {"overlap", "spurious", "length"}
+            and all(isinstance(x, int) and x >= 0 for x in cd.values())):
+        problems.append(f"provenance cds_discarded {cd!r}")
+    ko = prov.get("cds_kept_overlapping_rna")
+    if not (ko is None or (isinstance(ko, int) and ko >= 0)):
+        problems.append(f"provenance cds_kept_overlapping_rna {ko!r}")
     return len(feats), len(ncf), flags, problems
+
+
+def record_member(mag, jid, e, cds, nnc, flags, problems):
+    tax = e.get("taxonomy") or {}
+    unreadable = problems is None
+    db.execute("""UPDATE members SET job_id=?, genome_id=?, genome_object_id=?, fasta_object_id=?, prefix=?,
+                  gene_caller=?, non_coding_source=?, counts_json=?, taxonomy_json=?, cds=?, n_noncoding=?,
+                  flags=?, verified=?, error_code=?, error_msg=?, updated=? WHERE mag=?""",
+               (jid, e.get("genome_id"), e.get("genome_object_id"), e.get("fasta_object_id"), e.get("prefix"),
+                e.get("gene_caller"), e.get("non_coding_source"), json.dumps(e.get("non_coding_counts")),
+                json.dumps(tax), cds, nnc, ";".join(flags) or None, 0 if (unreadable or problems) else 1,
+                "content_unavailable" if unreadable else None,
+                None if unreadable else ("; ".join(problems)[:500] or None), now(), mag))
 
 
 def harvest(jid, name, state, failure, genome_ids):
     if state == "failed":
         code = (failure or {}).get("code")
-        ev(f"JOBFAIL {name} job {jid}: {failure}")
         att = db.execute("SELECT attempt FROM jobs WHERE job_id=?", (jid,)).fetchone()[0]
-        if code in ("worker_lost", "internal_error", "store_contention") and att < 3:
-            db.execute("UPDATE archives SET state='retry' WHERE name=?", (name,))
+        db.execute("UPDATE jobs SET harvested=1, failure=? WHERE job_id=?", (json.dumps(failure), jid))
+        ev(f"JOBFAIL {name} job {jid} (attempt {att}): {failure}")
+        if code in RETRYABLE and att < MAX_ATTEMPTS:
+            if genome_ids:
+                kv_set(f"subset_pending:{name}", genome_ids)
+                db.execute("UPDATE archives SET state='partial' WHERE name=?", (name,))
+            else:
+                db.execute("UPDATE archives SET state='verified' WHERE name=?", (name,))   # resubmit whole archive
         else:
+            db.execute("UPDATE archives SET state='failed' WHERE name=?", (name,))
             halt(f"job {jid} ({name}) failed: {failure}")
+        db.commit()
         return
-    res = http("GET", f"/jobs/{jid}/result", timeout=600).json()
+    r = http("GET", f"/jobs/{jid}/result", timeout=600)
+    if r.status_code != 200:
+        ev(f"WARN GET /jobs/{jid}/result -> {r.status_code}; will re-poll")
+        return
+    res = r.json()
     with open(os.path.join(WORK, "results", f"{jid}.json"), "w") as fh:
         json.dump(res, fh)
-    want = json.loads(genome_ids) if genome_ids else \
-        [r[0] for r in db.execute("SELECT mag FROM members WHERE archive=? ORDER BY mag", (name,))]
+    want = json.loads(genome_ids) if genome_ids else members_of(name)
     gen, errs = res.get("genomes") or {}, res.get("errors") or {}
     if set(gen) | set(errs) != set(want) or set(gen) & set(errs):
+        db.execute("UPDATE jobs SET harvested=1 WHERE job_id=?", (jid,))
+        db.execute("UPDATE archives SET state='failed' WHERE name=?", (name,))
+        db.commit()
         return halt(f"job {jid}: result keys do not partition the submitted members")
-    retry_subset = []
+    retry_subset, flag_count, no_trna_big, low_cds = [], 0, 0, 0
+    n_big = 0
     for mag in want:
         if mag in errs:
             msg = str(errs[mag].get("message"))
-            db.execute("UPDATE members SET job_id=?, error_code=?, error_msg=?, updated=? WHERE mag=?",
+            db.execute("UPDATE members SET job_id=?, error_code=?, error_msg=?, verified=0, updated=? WHERE mag=?",
                        (jid, errs[mag].get("code"), msg[:500], now(), mag))
             if msg.startswith("Bakta:"):
                 halt(f"Bakta error for {mag}: {msg[:200]}")
@@ -359,126 +508,202 @@ def harvest(jid, name, state, failure, genome_ids):
             continue
         e = gen[mag]
         pred = db.execute("SELECT predicted_hash FROM members WHERE mag=?", (mag,)).fetchone()[0]
-        problems = []
+        pre = []
         if e.get("fasta_object_id") != pred:
-            problems.append(f"fasta_object_id {e.get('fasta_object_id')} != predicted {pred}")
+            pre.append(f"fasta_object_id {e.get('fasta_object_id')} != predicted {pred}")
         if e.get("gene_caller") != "bakta":
-            problems.append(f"gene_caller {e.get('gene_caller')}")
+            pre.append(f"gene_caller {e.get('gene_caller')}")
         if e.get("non_coding_source") != "called":
-            problems.append(f"non_coding_source {e.get('non_coding_source')}")
+            pre.append(f"non_coding_source {e.get('non_coding_source')}")
         tax = e.get("taxonomy") or {}
         if tax.get("ani") is not None and tax.get("source_database") != GTDB_R220:
-            problems.append(f"taxonomy source_database {tax.get('source_database')}")
-        cds, nnc, flags, p2 = check_genome(mag, e)
-        problems += p2
+            pre.append(f"taxonomy source_database {tax.get('source_database')}")
+        cds, nnc, flags, problems = check_genome(mag, e)
+        if problems is not None:
+            problems = pre + problems
+        elif pre:
+            problems = pre
+        bp = db.execute("SELECT bp FROM members WHERE mag=?", (mag,)).fetchone()[0]
         if int((e.get("non_coding_counts") or {}).get("tRNA") or 0) == 0:
             flags.append("no tRNA")
-        db.execute("""UPDATE members SET job_id=?, genome_id=?, genome_object_id=?, fasta_object_id=?, prefix=?,
-                      gene_caller=?, non_coding_source=?, counts_json=?, taxonomy_json=?, cds=?, n_noncoding=?,
-                      flags=?, verified=?, error_code=NULL, error_msg=?, updated=? WHERE mag=?""",
-                   (jid, e.get("genome_id"), e.get("genome_object_id"), e.get("fasta_object_id"), e.get("prefix"),
-                    e.get("gene_caller"), e.get("non_coding_source"), json.dumps(e.get("non_coding_counts")),
-                    json.dumps(tax), cds, nnc, ";".join(flags) or None, 0 if problems else 1,
-                    "; ".join(problems)[:500] or None, now(), mag))
+            if bp >= 1e6:
+                no_trna_big += 1
+        if bp >= 1e6:
+            n_big += 1
+        if any(f.startswith("low CDS density") for f in flags):
+            low_cds += 1
+        flag_count += bool(flags)
+        record_member(mag, jid, e, cds, nnc, flags, problems)
         if problems:
             halt(f"verification failed for {mag}: {'; '.join(problems)[:300]}")
     db.execute("UPDATE jobs SET harvested=1 WHERE job_id=?", (jid,))
     nver = db.execute("SELECT count(*) FROM members WHERE archive=? AND verified=1", (name,)).fetchone()[0]
     ntot = db.execute("SELECT count(*) FROM members WHERE archive=?", (name,)).fetchone()[0]
+    if retry_subset:
+        if genome_ids:          # a subset retry failed skani again: give up on those members
+            ev(f"WARN {name}: skani failed again for {len(retry_subset)} member(s) after the subset retry: {retry_subset}")
+        else:
+            kv_set(f"subset_pending:{name}", json.dumps(retry_subset))
     db.execute("UPDATE archives SET state=? WHERE name=?", ("done" if nver == ntot else "partial", name))
     db.commit()
-    ev(f"HARVEST {name} job {jid}: {len(gen)} built, {len(errs)} errors, {nver}/{ntot} verified")
-    if retry_subset and kv_get("halted") != "1":
-        att = db.execute("SELECT attempt FROM jobs WHERE job_id=?", (jid,)).fetchone()[0]
-        if att < 2:
-            submit(name, db.execute("SELECT object_id FROM archives WHERE name=?", (name,)).fetchone()[0],
-                   retry_subset, attempt=att + 1)
+    ev(f"HARVEST {name} job {jid}: {len(gen)} built, {len(errs)} errors, {nver}/{ntot} verified"
+       + (f"; flags on {flag_count} (no tRNA in {no_trna_big} of {n_big} MAGs >= 1 Mb, low CDS density {low_cds})"
+          if flag_count else ""))
+    if (n_big and no_trna_big > n_big / 2) or low_cds > 2:
+        halt(f"quality breaker on {name}: no tRNA in {no_trna_big}/{n_big} MAGs >= 1 Mb, {low_cds} below 500 CDS/Mb")
+
+
+def recheck_unreadable():
+    if time.time() - float(kv_get("last_recheck", 0)) < RECHECK_EVERY:
+        return
+    kv_set("last_recheck", time.time())
+    for mag, jid, goid, name in db.execute("SELECT m.mag, m.job_id, m.genome_object_id, m.archive FROM members m "
+                                           "WHERE m.error_code='content_unavailable'").fetchall():
+        res = json.load(open(os.path.join(WORK, "results", f"{jid}.json")))
+        e = res["genomes"][mag]
+        cds, nnc, flags, problems = check_genome(mag, e)
+        if problems is None:
+            continue
+        record_member(mag, jid, e, cds, nnc, flags, problems)
+        if problems:
+            halt(f"verification failed for {mag} on re-check: {'; '.join(problems)[:300]}")
+        nver = db.execute("SELECT count(*) FROM members WHERE archive=? AND verified=1", (name,)).fetchone()[0]
+        ntot = db.execute("SELECT count(*) FROM members WHERE archive=?", (name,)).fetchone()[0]
+        if nver == ntot:
+            db.execute("UPDATE archives SET state='done' WHERE name=?", (name,))
+        db.commit()
+        ev(f"RECHECK {mag}: {'verified' if not problems else 'FAILED'}")
 
 
 def poll():
     act = db.execute("SELECT job_id, archive, genome_ids, submitted, alerted FROM jobs WHERE harvested=0").fetchall()
-    if not act:
-        return 0
-    r = http("POST", "/jobs/status", json={"job_ids": [x[0] for x in act]}, retry=True)
-    st = r.json().get("jobs", {})
-    inflight = 0
-    for jid, name, gids, sub, alerted in act:
-        s = st.get(jid)
-        if not s:
-            continue
-        state = s.get("state")
-        db.execute("UPDATE jobs SET state=? WHERE job_id=?", (state, jid))
-        if state in TERMINAL:
+    if act:
+        r = http("POST", "/jobs/status", json={"job_ids": [x[0] for x in act]}, retry=True)
+        st = r.json().get("jobs", {})
+        for jid, name, gids, sub, alerted in act:
+            s = st.get(jid)
+            if not s:
+                continue
+            state = s.get("state")
+            db.execute("UPDATE jobs SET state=? WHERE job_id=?", (state, jid))
             db.commit()
-            harvest(jid, name, state, s.get("failure"), gids)
-            continue
-        inflight += 1
-        if state == "running" and not alerted:
+            if state in TERMINAL:
+                harvest(jid, name, state, s.get("failure"), gids)
+                continue
+            if alerted:
+                continue
             pred = db.execute("SELECT pred_s FROM archives WHERE name=?", (name,)).fetchone()[0] or 0
             started = s.get("started_at")
-            try:
-                t0 = calendar.timegm(time.strptime(started[:19], "%Y-%m-%dT%H:%M:%S")) if started else sub
-            except Exception:
-                t0 = sub
-            if time.time() - t0 > 3 * pred * 1.11 + 1800 + 600:
-                ev(f"ALERT job {jid} ({name}) running {(time.time()-t0)/3600:.1f} h vs predicted {pred/3600:.2f} h: "
-                   f"ask Chris to inspect the Bakta container (do NOT cancel)")
+            if state == "running" and started:
+                try:
+                    t0 = calendar.timegm(time.strptime(started[:19], "%Y-%m-%dT%H:%M:%S"))
+                except Exception:
+                    t0 = sub
+                if time.time() - t0 > 3 * pred * 1.11 + 1800 + 600:
+                    ev(f"ALERT job {jid} ({name}) running {(time.time()-t0)/3600:.1f} h vs predicted {pred/3600:.2f} h: "
+                       f"ask Chris to inspect the Bakta container (do NOT cancel)")
+                    db.execute("UPDATE jobs SET alerted=1 WHERE job_id=?", (jid,))
+            elif state == "queued" and time.time() - sub > 12 * 3600:
+                ev(f"ALERT job {jid} ({name}) queued for {(time.time()-sub)/3600:.1f} h")
                 db.execute("UPDATE jobs SET alerted=1 WHERE job_id=?", (jid,))
-    db.commit()
+        db.commit()
+    inflight = db.execute("SELECT count(*) FROM jobs WHERE harvested=0 AND state NOT IN ('completed','failed')").fetchone()[0]
+    if inflight:
+        last = float(kv_get("last_harvest", time.time()))
+        if time.time() - last > 6 * 3600 and time.time() - float(kv_get("last_progress_alert", 0)) > 6 * 3600:
+            ev(f"ALERT no harvest for {(time.time()-last)/3600:.1f} h with {inflight} job(s) in flight")
+            kv_set("last_progress_alert", time.time())
     return inflight
 
 
-def phase_done(ph):
-    return not db.execute("SELECT count(*) FROM archives WHERE phase=? AND state NOT IN ('done')", (ph,)).fetchone()[0]
+def phase_status(ph):
+    rows = dict(db.execute("SELECT state, count(*) FROM archives WHERE phase=? GROUP BY state", (ph,)).fetchall())
+    return rows
 
 
-def next_archives(limit):
-    allowed = PHASES[:PHASES.index(a.through) + 1]
+def gate_open(ph):
+    """True if phase ph may start: every archive of the previous phase is done (or the operator accepted it)."""
+    i = PHASES.index(ph)
+    if i == 0:
+        return True
+    prev = PHASES[i - 1]
+    st = phase_status(prev)
+    if set(st) <= {"done"} or kv_get(f"accept_phase:{prev}") == "1":
+        return True
+    return False
+
+
+def work_items(limit):
+    """Next archives to upload/submit within --through, respecting phase gates."""
     out = []
-    for ph in allowed:
-        if PHASES.index(ph) > 0 and not phase_done(PHASES[PHASES.index(ph) - 1]):
+    for ph in PHASES[:PHASES.index(a.through) + 1]:
+        if not gate_open(ph):
             break
-        rows = db.execute("SELECT name, state FROM archives WHERE phase=? AND state IN ('planned','built','uploading',"
-                          "'verified','retry') ORDER BY name", (ph,)).fetchall()
-        out += rows
+        out += db.execute("SELECT name FROM archives WHERE phase=? AND state IN ('planned','built','uploading',"
+                          "'verified') ORDER BY name", (ph,)).fetchall()
         if len(out) >= limit:
             break
-    return out[:limit]
+    return [r[0] for r in out[:limit]]
 
 
 # ---------------- main loop ----------------
-ev(f"START driver pid {os.getpid()} through={a.through} max_in_flight={a.max_in_flight} dry_run={a.dry_run}")
+ev(f"START driver v2 pid {os.getpid()} through={a.through} max_in_flight={a.max_in_flight} dry_run={a.dry_run}")
 if a.dry_run:
-    for name, _ in next_archives(3):
+    for name in work_items(3):
         oid = ensure_uploaded(name)
-        submit(name, oid)
+        if oid:
+            submit(name, oid)
     sys.exit(0)
+if not db.execute("SELECT 1 FROM kv WHERE k='last_harvest'").fetchone():
+    kv_set("last_harvest", time.time())
 while True:
     try:
-        reconcile_intents()
+        unresolved = reconcile_intents()
+        n_before = db.execute("SELECT count(*) FROM jobs WHERE harvested=1").fetchone()[0]
         inflight = poll()
-        halted = kv_get("halted") == "1"
-        cands = next_archives(a.prefetch + a.max_in_flight)
-        for name, state in cands:                     # keep a few archives uploaded ahead
-            if halted:
+        if db.execute("SELECT count(*) FROM jobs WHERE harvested=1").fetchone()[0] > n_before:
+            kv_set("last_harvest", time.time())
+        recheck_unreadable()
+        inflight += unresolved
+        # 1. pending subset retries first (under the in-flight cap)
+        for k, gids in db.execute("SELECT k, v FROM kv WHERE k LIKE 'subset_pending:%'").fetchall():
+            if halted() or unresolved or inflight >= a.max_in_flight:
+                break
+            name = k.split(":", 1)[1]
+            oid = db.execute("SELECT object_id FROM archives WHERE name=?", (name,)).fetchone()[0]
+            if submit(name, oid, json.loads(gids)):
+                inflight += 1
+        # 2. keep a few archives uploaded ahead
+        for name in work_items(a.prefetch + a.max_in_flight):
+            if halted():
                 break
             ensure_uploaded(name)
-        for name, state in next_archives(a.max_in_flight * 2):
-            if halted or inflight >= a.max_in_flight:
+        # 3. submit verified archives
+        for name in work_items(a.max_in_flight * 2):
+            if halted() or unresolved or inflight >= a.max_in_flight:
                 break
-            st = db.execute("SELECT state, object_id FROM archives WHERE name=?", (name,)).fetchone()
-            if st[0] in ("verified", "retry") and st[1]:
-                att = 1 + db.execute("SELECT count(*) FROM jobs WHERE archive=?", (name,)).fetchone()[0]
-                if submit(name, st[1], attempt=att):
+            st, oid = db.execute("SELECT state, object_id FROM archives WHERE name=?", (name,)).fetchone()
+            if st == "verified" and oid:
+                if submit(name, oid):
                     inflight += 1
-                halted = kv_get("halted") == "1"
-        if not db.execute("SELECT count(*) FROM jobs WHERE harvested=0").fetchone()[0]:
-            if halted:
-                ev(f"STOPPED (halted: {kv_get('halt_reason')}); fix, clear kv 'halted', restart")
+        # 4. exit conditions
+        active = db.execute("SELECT count(*) FROM jobs WHERE harvested=0").fetchone()[0]
+        pending = db.execute("SELECT count(*) FROM kv WHERE k LIKE 'subset_pending:%'").fetchone()[0]
+        open_intents = db.execute("SELECT count(*) FROM intents WHERE outcome='unknown' "
+                                  "OR (outcome IS NULL AND job_id IS NULL)").fetchone()[0]
+        if not active and not open_intents and not pending:
+            if halted():
+                ev(f"STOPPED (halted: {kv_get('halt_reason')}); fix the cause, DELETE FROM kv WHERE k='halted', restart")
                 break
-            if not next_archives(1):
-                ev(f"DONE through={a.through}: " + json.dumps(dict(db.execute(
-                    "SELECT state, count(*) FROM archives GROUP BY state").fetchall())))
+            if not work_items(1):
+                blocked = [ph for ph in PHASES[1:PHASES.index(a.through) + 1] if not gate_open(ph)]
+                if blocked:
+                    prev = PHASES[PHASES.index(blocked[0]) - 1]
+                    ev(f"STOPPED GATE: phase '{blocked[0]}' blocked because '{prev}' is not all done "
+                       f"({phase_status(prev)}); inspect the errors, then set kv accept_phase:{prev}=1 to proceed")
+                else:
+                    ev(f"DONE through={a.through}: " + json.dumps(dict(db.execute(
+                        "SELECT state, count(*) FROM archives GROUP BY state").fetchall())))
                 break
     except Exception as e:
         ev(f"WARN loop error: {e!r:.300}")
