@@ -6,6 +6,10 @@ This covers handoff Phases 3–5 as revised in `HANDOFF_REVIEW.md`:
 - **Taxonomy:** GTDB-Tk 2.8.0 / GTDB R232.
 - **Clustering:** skani 0.3.1, ANI ≥ 95% and max alignment fraction ≥ 50% for species, ≥ 99% for strains.
 
+MAG iterativeIDs (`iterative_ids.py`, the EmilyKin MAG rule on R232: `{genus}.{N}_m`, or the deepest named rank when the
+genus is a numbered placeholder; N by CheckM2 quality within each root; frozen once assigned) are in
+`mag_iterativeIDs.tsv` and as a column of the per-MAG tables. Scope and the 619 runs that were never imported: `DATA_SCOPE.md`.
+
 Outputs are in `~/gtdbtk_kbase/census_final/`, with a copy in `census/outputs/` in this repo:
 - `mag_census.tsv`: one row per MAG, with all three quality estimates, R232 fields, cluster ids, novel-DB / r220 hits and R232-adjacency labels;
 - `clusters.tsv`, `strain_edges.tsv`, `qc_known_novel_edges.tsv`;

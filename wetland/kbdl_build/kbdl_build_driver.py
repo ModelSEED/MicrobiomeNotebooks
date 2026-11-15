@@ -4,7 +4,9 @@
 Runs ON POPLAR against the KBDL job service at http://localhost:8791 (Chris Henry's service). Inputs:
   archive_plan.tsv  517 archives (canary 2 MAGs, pilot 23, giant 1, bulk 25 each) with each MAG's predicted KBDL content
                     hash (= fasta_object_id); MAG FASTAs in MAGS_DIR/<MAG>.fna.
-Per job: KBDLBuildGenome {archive, gene_caller='bakta', call_non_coding=true, skani_db=GTDB r220 ref, bakta_db=6.0-full}.
+Per job: KBDLBuildGenome {archive, gene_caller='bakta', call_non_coding=true, skani_db=--skani-db, bakta_db=6.0-full}.
+--skani-db must be the GTDB R232 SKANIDB object id (per Andrew 2026-11-15: R232, not r220); the canary and pilot ran on
+r220 (ref:cee67d7f…) before that decision. Each job's result is checked against the skani db in its own payload.
 These are permanent: KBDL dedups builds by content hash across owners, so the first build fixes caller and taxonomy.
 
 v2 (2026-11-15) applies the 22 confirmed findings of an adversarial review (wf_8d5f3d4a-1f3). Safety:
@@ -56,6 +58,7 @@ p.add_argument("--max-in-flight", type=int, default=3)
 p.add_argument("--prefetch", type=int, default=6, help="archives uploaded+verified ahead of submission")
 p.add_argument("--dry-run", action="store_true", help="build archives + hashes, print payloads, no HTTP writes")
 p.add_argument("--foreground", action="store_true")
+p.add_argument("--skani-db", default=None, help="SKANIDB object id for new submissions (the GTDB R232 ref)")
 a = p.parse_args()
 
 TOKEN = sys.stdin.read().strip()
@@ -159,6 +162,13 @@ if not db.execute("SELECT count(*) FROM archives").fetchone()[0]:
     db.commit()
 n_m = db.execute("SELECT count(*), count(DISTINCT mag) FROM members").fetchone()
 assert n_m == (12859, 12859), n_m
+SKANI_DB = a.skani_db or kv_get("skani_db")
+if SKANI_DB and kv_get("skani_db") and kv_get("skani_db") != SKANI_DB:
+    sys.exit(f"--skani-db {SKANI_DB} differs from the one this run was started with ({kv_get('skani_db')}); refusing")
+if SKANI_DB == GTDB_R220:
+    sys.exit("refusing --skani-db r220: new builds must use the GTDB R232 SKANIDB (per Andrew 2026-11-15)")
+if SKANI_DB and not a.dry_run:
+    kv_set("skani_db", SKANI_DB)
 
 
 def members_of(name):
@@ -294,15 +304,17 @@ def ensure_uploaded(name):
 
 # ---------------- submission ----------------
 def payload_for(oid, genome_ids=None):
+    if not SKANI_DB or not SKANI_DB.startswith("ref:") and len(SKANI_DB) != 64:
+        raise SystemExit("no valid --skani-db (GTDB R232 SKANIDB object id) configured; not submitting")
     arch = {"object_id": oid}
     if genome_ids:
         arch["genome_ids"] = list(genome_ids)
     pl = {"schema_version": "1", "job_type": "KBDLBuildGenome",
           "params": {"archive": arch, "gene_caller": "bakta", "call_non_coding": True,
-                     "skani_db": {"object_id": GTDB_R220}, "bakta_db": {"object_id": BAKTA_DB}}}
+                     "skani_db": {"object_id": SKANI_DB}, "bakta_db": {"object_id": BAKTA_DB}}}
     pr = pl["params"]
     assert set(pr) <= ALLOWED_KEYS and pr["gene_caller"] == "bakta" and pr["call_non_coding"] is True
-    assert pr["skani_db"] == {"object_id": GTDB_R220} and pr["bakta_db"] == {"object_id": BAKTA_DB}
+    assert pr["skani_db"] == {"object_id": SKANI_DB} and SKANI_DB != GTDB_R220 and pr["bakta_db"] == {"object_id": BAKTA_DB}
     assert set(arch) <= {"object_id", "genome_ids"} and len(oid) == 64
     return pl
 
@@ -493,6 +505,8 @@ def harvest(jid, name, state, failure, genome_ids):
         db.execute("UPDATE archives SET state='failed' WHERE name=?", (name,))
         db.commit()
         return halt(f"job {jid}: result keys do not partition the submitted members")
+    pl = db.execute("SELECT payload FROM intents WHERE job_id=?", (jid,)).fetchone()
+    job_db = json.loads(pl[0])["params"]["skani_db"]["object_id"] if pl else GTDB_R220
     retry_subset, flag_count, no_trna_big, low_cds = [], 0, 0, 0
     n_big = 0
     for mag in want:
@@ -516,7 +530,7 @@ def harvest(jid, name, state, failure, genome_ids):
         if e.get("non_coding_source") != "called":
             pre.append(f"non_coding_source {e.get('non_coding_source')}")
         tax = e.get("taxonomy") or {}
-        if tax.get("ani") is not None and tax.get("source_database") != GTDB_R220:
+        if tax.get("ani") is not None and tax.get("source_database") != job_db:
             pre.append(f"taxonomy source_database {tax.get('source_database')}")
         cds, nnc, flags, problems = check_genome(mag, e)
         if problems is not None:
