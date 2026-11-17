@@ -231,3 +231,6 @@ salterns/reads/**/*.bam.index
 # macOS AppleDouble files and LibreOffice lock files
 ._*
 .~lock.*#
+
+# DRAM2 merged annotations (203 MB gz, over the GitHub 100 MB file limit; kept local; source poplar:/scratch1/afreiburger/wetland_dram2/merged/)
+wetland/dram2/results/raw-annotations.all.tsv.gz

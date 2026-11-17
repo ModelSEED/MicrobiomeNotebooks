@@ -1,0 +1,134 @@
+{
+ "SRR11837711": {
+  "MetaBAT2": [
+   "6afcd3faeacecf21bd99b8d4"
+  ],
+  "MaxBin2": [
+   "6afcd3fb226bede4ba89a088"
+  ],
+  "CONCOCT": [
+   "6afcd3fbb3a2d40340bd922e"
+  ],
+  "DASTool": []
+ },
+ "SRR12172649": {
+  "MetaBAT2": [
+   "6afcd3fb4694a2f6923c84fe"
+  ],
+  "MaxBin2": [
+   "6afcd3fceacecf21bd99b8d5"
+  ],
+  "CONCOCT": [
+   "6afcd3fceacecf21bd99b8d6"
+  ],
+  "DASTool": []
+ },
+ "SRR12951270": {
+  "MetaBAT2": [
+   "6afcd3fcb3a2d40340bd922f"
+  ],
+  "MaxBin2": [
+   "6afcd3fc4694a2f6923c84ff"
+  ],
+  "CONCOCT": [
+   "6afcd3fdb3a2d40340bd9230"
+  ],
+  "DASTool": []
+ },
+ "SRR13021855": {
+  "MetaBAT2": [
+   "6afcd3fdeacecf21bd99b8d7"
+  ],
+  "MaxBin2": [
+   "6afcd3fdeacecf21bd99b8d8"
+  ],
+  "CONCOCT": [
+   "6afcd3feeacecf21bd99b8d9"
+  ],
+  "DASTool": []
+ },
+ "SRR4242551": {
+  "MetaBAT2": [
+   "6afcd3fed5afcc4c33884f21"
+  ],
+  "MaxBin2": [
+   "6afcd3feeacecf21bd99b8da"
+  ],
+  "CONCOCT": [
+   "6afcd3feeacecf21bd99b8db"
+  ],
+  "DASTool": []
+ },
+ "SRR5817588": {
+  "MetaBAT2": [
+   "6afcd3ffeacecf21bd99b8dc"
+  ],
+  "MaxBin2": [
+   "6afcd3ffeacecf21bd99b8dd"
+  ],
+  "CONCOCT": [
+   "6afcd3ffd5afcc4c33884f22"
+  ],
+  "DASTool": []
+ },
+ "SRR5817589": {
+  "MetaBAT2": [
+   "6afcd3ffd5afcc4c33884f23"
+  ],
+  "MaxBin2": [
+   "6afcd400eacecf21bd99b8de"
+  ],
+  "CONCOCT": [
+   "6afcd400df018b49cdedc68d"
+  ],
+  "DASTool": []
+ },
+ "SRR5817590": {
+  "MetaBAT2": [
+   "6afcd400b3a2d40340bd9231"
+  ],
+  "MaxBin2": [
+   "6afcd400d5afcc4c33884f24"
+  ],
+  "CONCOCT": [
+   "6afcd4014694a2f6923c8500"
+  ],
+  "DASTool": []
+ },
+ "SRR6193119": {
+  "MetaBAT2": [
+   "6afcd4014694a2f6923c8501"
+  ],
+  "MaxBin2": [
+   "6afcd401eacecf21bd99b8df"
+  ],
+  "CONCOCT": [
+   "6afcd4014694a2f6923c8502"
+  ],
+  "DASTool": []
+ },
+ "SRR6307338": {
+  "MetaBAT2": [
+   "6afcd402eacecf21bd99b8e0"
+  ],
+  "MaxBin2": [
+   "6afcd402eacecf21bd99b8e1"
+  ],
+  "CONCOCT": [
+   "6afcd402ba42583b786ffdfe"
+  ],
+  "DASTool": []
+ },
+ "SRR8554905": {
+  "MetaBAT2": [
+   "6afcd403d5afcc4c33884f25"
+  ],
+  "MaxBin2": [
+   "6afcd403eacecf21bd99b8e2"
+  ],
+  "CONCOCT": [
+   "6afcd403d5afcc4c33884f26"
+  ],
+  "DASTool": []
+ }
+}

@@ -1,0 +1,37 @@
+[2026-11-17 16:23:48] START binning_driver apply=False watch=False
+[2026-11-17 16:23:48] STATUS {"SRR11837711": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}, "SRR12172649": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}, "SRR12951270": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}, "SRR13021855": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}, "SRR4242551": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}, "SRR5817588": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}, "SRR5817589": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}, "SRR5817590": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}, "SRR6193119": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}, "SRR6307338": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}, "SRR8554905": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}}
+[2026-11-17 16:23:54] START binning_driver apply=True watch=True
+[2026-11-17 16:23:54] SUBMIT SRR11837711 MetaBAT2 attempt 1 -> 6afcd3faeacecf21bd99b8d4
+[2026-11-17 16:23:55] SUBMIT SRR11837711 MaxBin2 attempt 1 -> 6afcd3fb226bede4ba89a088
+[2026-11-17 16:23:55] SUBMIT SRR11837711 CONCOCT attempt 1 -> 6afcd3fbb3a2d40340bd922e
+[2026-11-17 16:23:55] SUBMIT SRR12172649 MetaBAT2 attempt 1 -> 6afcd3fb4694a2f6923c84fe
+[2026-11-17 16:23:56] SUBMIT SRR12172649 MaxBin2 attempt 1 -> 6afcd3fceacecf21bd99b8d5
+[2026-11-17 16:23:56] SUBMIT SRR12172649 CONCOCT attempt 1 -> 6afcd3fceacecf21bd99b8d6
+[2026-11-17 16:23:56] SUBMIT SRR12951270 MetaBAT2 attempt 1 -> 6afcd3fcb3a2d40340bd922f
+[2026-11-17 16:23:56] SUBMIT SRR12951270 MaxBin2 attempt 1 -> 6afcd3fc4694a2f6923c84ff
+[2026-11-17 16:23:57] SUBMIT SRR12951270 CONCOCT attempt 1 -> 6afcd3fdb3a2d40340bd9230
+[2026-11-17 16:23:57] SUBMIT SRR13021855 MetaBAT2 attempt 1 -> 6afcd3fdeacecf21bd99b8d7
+[2026-11-17 16:23:57] SUBMIT SRR13021855 MaxBin2 attempt 1 -> 6afcd3fdeacecf21bd99b8d8
+[2026-11-17 16:23:58] SUBMIT SRR13021855 CONCOCT attempt 1 -> 6afcd3feeacecf21bd99b8d9
+[2026-11-17 16:23:58] SUBMIT SRR4242551 MetaBAT2 attempt 1 -> 6afcd3fed5afcc4c33884f21
+[2026-11-17 16:23:58] SUBMIT SRR4242551 MaxBin2 attempt 1 -> 6afcd3feeacecf21bd99b8da
+[2026-11-17 16:23:58] SUBMIT SRR4242551 CONCOCT attempt 1 -> 6afcd3feeacecf21bd99b8db
+[2026-11-17 16:23:59] SUBMIT SRR5817588 MetaBAT2 attempt 1 -> 6afcd3ffeacecf21bd99b8dc
+[2026-11-17 16:23:59] SUBMIT SRR5817588 MaxBin2 attempt 1 -> 6afcd3ffeacecf21bd99b8dd
+[2026-11-17 16:23:59] SUBMIT SRR5817588 CONCOCT attempt 1 -> 6afcd3ffd5afcc4c33884f22
+[2026-11-17 16:23:59] SUBMIT SRR5817589 MetaBAT2 attempt 1 -> 6afcd3ffd5afcc4c33884f23
+[2026-11-17 16:24:00] SUBMIT SRR5817589 MaxBin2 attempt 1 -> 6afcd400eacecf21bd99b8de
+[2026-11-17 16:24:00] SUBMIT SRR5817589 CONCOCT attempt 1 -> 6afcd400df018b49cdedc68d
+[2026-11-17 16:24:00] SUBMIT SRR5817590 MetaBAT2 attempt 1 -> 6afcd400b3a2d40340bd9231
+[2026-11-17 16:24:00] SUBMIT SRR5817590 MaxBin2 attempt 1 -> 6afcd400d5afcc4c33884f24
+[2026-11-17 16:24:01] SUBMIT SRR5817590 CONCOCT attempt 1 -> 6afcd4014694a2f6923c8500
+[2026-11-17 16:24:01] SUBMIT SRR6193119 MetaBAT2 attempt 1 -> 6afcd4014694a2f6923c8501
+[2026-11-17 16:24:01] SUBMIT SRR6193119 MaxBin2 attempt 1 -> 6afcd401eacecf21bd99b8df
+[2026-11-17 16:24:02] SUBMIT SRR6193119 CONCOCT attempt 1 -> 6afcd4014694a2f6923c8502
+[2026-11-17 16:24:02] SUBMIT SRR6307338 MetaBAT2 attempt 1 -> 6afcd402eacecf21bd99b8e0
+[2026-11-17 16:24:02] SUBMIT SRR6307338 MaxBin2 attempt 1 -> 6afcd402eacecf21bd99b8e1
+[2026-11-17 16:24:02] SUBMIT SRR6307338 CONCOCT attempt 1 -> 6afcd402ba42583b786ffdfe
+[2026-11-17 16:24:03] SUBMIT SRR8554905 MetaBAT2 attempt 1 -> 6afcd403d5afcc4c33884f25
+[2026-11-17 16:24:03] SUBMIT SRR8554905 MaxBin2 attempt 1 -> 6afcd403eacecf21bd99b8e2
+[2026-11-17 16:24:03] SUBMIT SRR8554905 CONCOCT attempt 1 -> 6afcd403d5afcc4c33884f26
+[2026-11-17 16:24:03] STATUS {"SRR11837711": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}, "SRR12172649": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}, "SRR12951270": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}, "SRR13021855": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}, "SRR4242551": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}, "SRR5817588": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}, "SRR5817589": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}, "SRR5817590": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}, "SRR6193119": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}, "SRR6307338": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}, "SRR8554905": {"MetaBAT2": null, "MaxBin2": null, "CONCOCT": null, "DASTool": null}}
