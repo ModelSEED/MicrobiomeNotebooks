@@ -238,3 +238,6 @@ wetland/dram2/results/raw-annotations.all.tsv.gz
 wetland/dram2/results/dram2_genes_coding_noncoding.tsv.gz
 # DRAM2 residual-output tarballs (~10+ GB; listed with sha256 in wetland/dram2/results/RESIDUAL_MANIFEST.tsv)
 wetland/dram2/results/residual/
+# Bakta (wetland/bakta): residual-output tarballs + per-MAG tables pulled for the merge (listed in RESIDUAL_MANIFEST.tsv)
+wetland/bakta/results/residual/
+wetland/bakta/results/runs_tsv/
