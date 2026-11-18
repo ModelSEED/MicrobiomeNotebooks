@@ -51,9 +51,19 @@ me the supported way to do it? Content-hash dedup means a rebuild will not chang
 - I'm building all 12,859 MAGs with KBDLBuildGenome:
   - gene_caller="bakta", call_non_coding=true, bakta_db 6.0-full, skani_db = the R232 SKANIDB;
   - private GenomeArchives of 25 MAGs each.
-- I'm keeping at most 3 of the 4 build slots, so other builds can interleave. The 23-MAG pilot measured about
-  100 s of Bakta build time per Mb on today's load (2 h 57 min for 106 Mb, including the 32.7 Mb chimera at 45 min),
-  so the remaining 12,834 MAGs (40.1 Gb) need about 17 days at 3 slots (about 13 at 4).
+- **The build is running, and since 2026-11-18 it uses all 4 KBDLBuildGenome slots.** At 3 slots it built about
+  42 MAGs an hour, so the remaining ~11,900 MAGs need about 9 days at 4.
+- **Request: could you raise the KBDLBuildGenome cap?** It is the only real limit on this run. The settings are
+  `KBDL_JOB_CONCURRENCY=KBDLBuildGenome=16` (or whatever you're comfortable with) on the workers, which needs a
+  worker restart.
+  - **Footprint, measured 2026-11-18:** each build runs Bakta as about 4 single-CPU hmmsearch processes, with under
+    1 GB RSS per container.
+  - **Headroom:** poplar showed about 30–37% CPU idle (100+ cores) and about 1.8 TB of RAM available.
+  - **Effect:** at 16 slots the remaining build drops from about 9 days to 2–3. Raising `KBDL_BAKTA_CALL_THREADS`
+    instead helps less, because the hmmsearch steps run single-threaded.
+- **Searches:** I'm also running up to 16 of the 40 KBDLSKANI slots for a few hours. Every wetland archive is now
+  uploaded ahead of the build, so the R232 and novel_all_representatives searches can finish now instead of
+  trailing the build for two weeks.
 - My driver has been through an adversarial review and failure simulations. It never cancels or blindly resubmits, and
   it verifies every genome (content hash, Bakta provenance, CDS, called RNA).
 - Things on your side:

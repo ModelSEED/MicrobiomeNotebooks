@@ -37,7 +37,14 @@ v2 (2026-11-15) applies the 22 confirmed findings of an adversarial review (wf_8
 Operator: after a poplar reboot or crash just restart the same command (the ledger resumes; running builds that the
 reboot killed come back as worker_lost and are retried). To clear a halt: fix the cause, DELETE FROM kv WHERE k='halted'.
 Ledger: SQLite on local disk (WORK, never NFS). Token: read from stdin, then the process detaches; never written to disk.
-Usage (poplar): python3 -I kbdl_build_driver.py --through canary|pilot|bulk [--max-in-flight 3] [--dry-run] < token
+Usage (poplar): python3 -I kbdl_build_driver.py --through canary|pilot|bulk|giant [--max-in-flight 3] [--dry-run] < token
+Pre-upload (2026-11-18, so the KBDLSKANI sweep need not wait for the build): a SECOND process
+  python3 -I kbdl_build_driver.py --upload-only [--upload-slots 6] < token
+uploads + verifies (the same ensure_uploaded) every bulk/giant archive from the BACK of the queue, never touching the
+first UPLOAD_MARGIN queued archives (the main driver's window is prefetch + max_in_flight <= 10), with its own lock
+(uploader.lock); it never submits builds or harvests, and stops when the ledger is halted or nothing is left.
+Phase 'giant' (1 MAG, 25.9 Mb, its own archive) comes after bulk; reaching it needs kv accept_phase:bulk=1 because bulk
+has partial archives (Bakta edge-interval failures).
 """
 import argparse, calendar, fcntl, hashlib, io, json, lzma, os, sqlite3, sys, tarfile, time
 import requests
@@ -48,7 +55,8 @@ WORK = "/scratch/afreiburger/wetland_kbdl_build"
 MAGS_DIR = "/scratch1/afreiburger/wetland_coverm_pilot/all_mags"
 GTDB_R220 = "ref:cee67d7f33f57c07d569f9fb0a0537a0263094f380fa0b10faa56aafdfcc56ae"
 BAKTA_DB = "ref:2fdfb17daa745a4fe41065a38a9a1d367469fe85fcb7a1b1023f8142d586f577"
-PHASES = ["canary", "pilot", "bulk"]
+PHASES = ["canary", "pilot", "bulk", "giant"]
+UPLOAD_MARGIN = 20             # queued archives left to the main driver by --upload-only
 ALLOWED_KEYS = {"archive", "gene_caller", "call_non_coding", "skani_db", "bakta_db"}
 TERMINAL = {"completed", "failed"}
 RETRYABLE = {"worker_lost", "internal_error", "store_contention"}
@@ -66,6 +74,9 @@ p.add_argument("--prefetch", type=int, default=6, help="archives uploaded+verifi
 p.add_argument("--dry-run", action="store_true", help="build archives + hashes, print payloads, no HTTP writes")
 p.add_argument("--foreground", action="store_true")
 p.add_argument("--skani-db", default=None, help="SKANIDB object id for new submissions (the GTDB R232 ref)")
+p.add_argument("--upload-only", action="store_true", help="pre-upload archives from the back of the queue; no builds")
+p.add_argument("--upload-slots", type=int, default=6, help="--upload-only: upload jobs in flight (KBDL cap is 8)")
+p.add_argument("--pack-procs", type=int, default=24, help="--upload-only: processes packing archives in parallel")
 a = p.parse_args()
 
 TOKEN = sys.stdin.read().strip()
@@ -76,10 +87,10 @@ if not a.foreground and not a.dry_run:
     if os.fork():
         sys.exit(0)
     os.setsid()
-    log_fh = open(os.path.join(WORK, "driver.log"), "a", buffering=1)
+    log_fh = open(os.path.join(WORK, "uploader.log" if a.upload_only else "driver.log"), "a", buffering=1)
     sys.stdout = sys.stderr = log_fh
 if not a.dry_run:                                     # single instance per ledger
-    LOCK = open(os.path.join(WORK, "driver.lock"), "a+")
+    LOCK = open(os.path.join(WORK, "uploader.lock" if a.upload_only else "driver.lock"), "a+")
     try:
         fcntl.flock(LOCK, fcntl.LOCK_EX | fcntl.LOCK_NB)
     except BlockingIOError:
@@ -210,9 +221,11 @@ def http(method, path, retry=None, **kw):
 
 
 # ---------------- archives / uploads ----------------
-def build_archive(name):
+def pack_archive(job):
+    """(name, members) -> (name, path, sha256): the deterministic .tar.xz, written atomically. Pure (no ledger/HTTP),
+    so --upload-only can run it in a process pool; build_archive uses it too, so the bytes are identical."""
+    name, mems = job
     path = os.path.join(WORK, "archives", name + ".tar.xz")
-    mems = members_of(name)
     raw = io.BytesIO()
     with tarfile.open(fileobj=raw, mode="w", format=tarfile.GNU_FORMAT) as tf:
         for m in mems:
@@ -225,7 +238,11 @@ def build_archive(name):
     with open(tmp, "wb") as fh:
         fh.write(xz)
     os.replace(tmp, path)
-    sha = hashlib.sha256(xz).hexdigest()
+    return name, path, hashlib.sha256(xz).hexdigest()
+
+
+def build_archive(name):
+    _, path, sha = pack_archive((name, members_of(name)))
     db.execute("UPDATE archives SET path=?, sha256=?, state='built', updated=? WHERE name=?", (path, sha, now(), name))
     db.commit()
     return path, sha
@@ -675,6 +692,53 @@ def work_items(limit):
         if len(out) >= limit:
             break
     return [r[0] for r in out[:limit]]
+
+
+# ---------------- pre-upload mode ----------------
+if a.upload_only:
+    assert not a.dry_run
+    ev(f"START uploader pid {os.getpid()} slots={a.upload_slots} margin={UPLOAD_MARGIN} pack_procs={a.pack_procs}")
+    import multiprocessing
+    queue = [r[0] for r in db.execute("SELECT name FROM archives WHERE phase IN ('bulk','giant') AND state='planned' "
+                                      "ORDER BY phase, name")]
+    queue_all = [r[0] for r in db.execute("SELECT name FROM archives WHERE phase IN ('bulk','giant') AND state IN "
+                                          "('planned','built','uploading','verified') ORDER BY phase, name")]
+    todo = [n for n in queue_all[UPLOAD_MARGIN:] if n in set(queue)]
+    t0, npk = time.time(), 0
+    with multiprocessing.get_context("fork").Pool(a.pack_procs) as pool:
+        for name, path, sha in pool.imap_unordered(pack_archive, [(n, members_of(n)) for n in todo]):
+            cur = db.execute("UPDATE archives SET path=?, sha256=?, state='built', updated=? WHERE name=? AND "
+                             "state='planned'", (path, sha, now(), name))
+            db.commit()
+            npk += cur.rowcount
+    ev(f"UPLOADER packed {npk} of {len(todo)} archives in {time.time() - t0:.0f} s with {a.pack_procs} processes")
+    while True:
+        try:
+            if halted():
+                ev("UPLOADER stopped: the ledger is halted")
+                break
+            queue = [r[0] for r in db.execute("SELECT name FROM archives WHERE phase IN ('bulk','giant') AND state IN "
+                                              "('planned','built','uploading','verified') ORDER BY phase, name")]
+            mine = queue[UPLOAD_MARGIN:]
+            st = dict(db.execute("SELECT name, state FROM archives").fetchall())
+            pending = [n for n in mine if st[n] != "verified"]
+            if not pending:
+                ev(f"UPLOADER DONE: every queued archive beyond the first {UPLOAD_MARGIN} is uploaded and verified")
+                break
+            busy = sum(st[n] == "uploading" for n in pending)
+            for name in reversed(pending):
+                if halted():
+                    break
+                if st[name] == "uploading":
+                    ensure_uploaded(name)
+                elif busy < a.upload_slots:
+                    ensure_uploaded(name)
+                    if db.execute("SELECT state FROM archives WHERE name=?", (name,)).fetchone()[0] == "uploading":
+                        busy += 1
+        except Exception as e:
+            ev(f"WARN uploader loop error: {e!r:.300}")
+        time.sleep(30)
+    sys.exit(0)
 
 
 # ---------------- main loop ----------------
