@@ -17,12 +17,11 @@
   "gtdb_r232_consolidated": 151,
   "novel_all_representatives": 215
  },
- "novel_vs_census": {
-  "both_have_hit": 235,
-  "best_ani_equal_within_1e-4": 235,
-  "kbdl_higher": 0,
-  "census_higher": 0,
-  "kbdl_hit_census_none": 0,
-  "census_hit_kbdl_none": 0
+ "novel_pairs_vs_bruteforce_census": {
+  "kbdl_pairs": 757,
+  "census_pairs": 757,
+  "only_kbdl": 0,
+  "only_census": 0,
+  "max_abs_ani_diff": 1.1102230246251565e-16
  }
 }

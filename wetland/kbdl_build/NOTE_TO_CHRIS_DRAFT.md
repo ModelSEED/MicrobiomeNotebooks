@@ -93,9 +93,16 @@ me the supported way to do it? Content-hash dedup means a rebuild will not chang
       files"), and that index loses hits.
     - Measured on novel_all_representatives, with the same 50 MAGs: 131 hits brute-force vs 124 indexed (101
       queries).
-    - At 12,859 queries in one call, a 3.2 Mb MAG lost its only hits (90.75%, AF 42%).
-    - Your R232 load batches 5 archives per job, so if those archives hold more than 100 genomes in total, its hits
-      are incomplete. Passing `--no-marker-index`, or capping each call at 100 queries, avoids it.
+    - At 101 queries, all 7 lost hits came from one 31.6 kb MAG. At 125 queries, 375 normal-size MAGs lost nothing
+      against either R232 or novel_all_representatives: their pairs were identical to brute force.
+    - Larger calls lose more, including normal-size genomes:
+      - at 2,000 queries, 2,476 rows (top 5 per MAG) vs 2,372 for the same MAGs inside one 12,859-query call;
+      - in that 12,859-query call, a 3.2 Mb MAG lost its only hits (90.75%, AF 42%);
+      - re-running our census searches brute-force gave 68 of 12,859 MAGs a novel-DB hit they had lost, all at
+        82–91% ANI. No species-level hit changed.
+    - Your R232 load batches 5 archives per job. If a job holds several hundred genomes or more, some hits are likely
+      missing, mostly for small genomes and at lower ANI. Passing `--no-marker-index`, or capping each call at
+      100 queries, avoids it at little cost: my 100-MAG jobs take the same ~10 min as 125-MAG ones.
     - I cap my jobs at 100 MAGs.
   - **Question:** should skani_distances carry AF? If so, could KBDLSKANI return Align_fraction_ref/query (skani
     already reports them)? Until then I'll treat KBDL's ANI as a distance only, and keep species calls on our census
