@@ -61,6 +61,20 @@ the authoritative quality source; CheckM v1 and DAS Tool SCG are kept as columns
 - **Novel-genome references, used as labels:**
   - `novel_all_representatives` (78,132 genomes: 74,005 SPIRE/MGnify MAGs, about 95%, plus 4,127 AllTheBacteria/BV-BRC isolates): 2,707 MAGs have a species-level hit, and it contains 506 of the 4,171 new clusters, so about 12% are already known from other metagenome studies.
   - The handoff's `novel_hq_v2` (isolates): only 4 MAGs hit it, and it contains none of the new clusters.
+  - **Correction (2026-11-17): the reference searches were re-run brute-force.** The species-level numbers in this
+    report did not change.
+    - **What was wrong:** the first searches against the three reference DBs were single 12,859-query
+      `skani search` calls. With more than 100 query files, skani 0.3.1 switches to an approximate marker-hash index,
+      which loses low-similarity hits, so 68 MAGs had no novel-DB hit recorded.
+    - **What was re-run:** `run_census_rescan.sh` repeated all three searches with `--no-marker-index` and no `-n` cap.
+      On the 50 test MAGs, it reproduces a 50-query brute-force run exactly (131 hits).
+    - **What changed:** only the best-hit columns of `mag_census.tsv`, which `apply_rescan.py` checks. 68 MAGs gained
+      a `novel_all_representatives` best hit (82–91% ANI), 18 gained a r220 best hit (85–94%), and 13 MAGs changed
+      only their best-hit AF, a tie between references at the same ANI.
+    - **What did not change:** every species-level hit (ANI ≥ 95 and AF ≥ 50), every cluster label, and
+      `headline.json`.
+    - **Triangle unaffected:** the skani triangle behind the clusters doesn't use the index. A 300-MAG subset gave
+      the same 684 edges with identical ANI.
 - **The handoff's GTDB r220 route vs R232:** r220 puts 3,141 MAGs in a species, against 6,497 under R232. 3,089 are in
   both, 3,408 are known only to R232 and 52 only to r220. An r220-based census would have reported about 61% (1,156 of 1,893)
   of the known species as novel, and 52.5% of the known-species MAGs.

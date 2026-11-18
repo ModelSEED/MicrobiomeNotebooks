@@ -69,11 +69,14 @@ me the supported way to do it? Content-hash dedup means a rebuild will not chang
     `Bakta: bakta 1.11.4 returned an out-of-range interval on contig 'pending.c779' (length 6085): begin=5721 end=6086`.
     The feature ends 1 bp past the contig end, and `_check_called_interval` in genome_normalize.py rejects the whole
     genome by design.
+  - **A second case** has the same shape: `bin.001.fasta__SRR11847932`, contig 'pending.c182' (length 11451),
+    begin=10879 end=11452. Both times the end is the contig length + 1. That's about 1% of MAGs so far, so expect
+    about 100 of the 12,859 to fail this way.
   - **Why it matters:** the failure is deterministic, so a retry won't help.
   - **Suggestion:** clamp a feature that runs over the contig end by 1 bp and mark it partial, or drop that one
     feature and record it in `cds_discarded`. Either way the genome builds.
-  - **On my side:** my driver now records these failures (kv `bakta_edge_mags`) and keeps going, with a cap of 2 per
-    job and 60 in all. I'll rebuild the listed MAGs once there's a fix.
+  - **On my side:** my driver now records these failures (kv `bakta_edge_mags`) and keeps going, unless there are more
+    than 2 in a job or they exceed 3% of harvested MAGs. I'll rebuild the listed MAGs once there's a fix.
 
 ## 3. Landing in kbaseincubator.genome_clearhouse.skani_distances (planned as a separate final step; my account gets 403)
 - C1. Is this table still the target?

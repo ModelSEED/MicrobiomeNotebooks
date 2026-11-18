@@ -25,7 +25,8 @@ v2 (2026-11-15) applies the 22 confirmed findings of an adversarial review (wf_8
     a temporarily unreadable Genome JSON is re-checked later, not failed;
   * Bakta edge-interval failures (KBDL's strict linear-interval check rejects a Bakta feature ending past a contig end,
     a deterministic per-MAG outcome; first seen 2026-11-17 on bin.001.fasta__SRR11599182) are recorded as member errors
-    and listed in kv bakta_edge_mags; halt only when > BAKTA_EDGE_PER_JOB in one job or > BAKTA_EDGE_TOTAL overall;
+    and listed in kv bakta_edge_mags; halt only when > BAKTA_EDGE_PER_JOB in one job or more than BAKTA_EDGE_RATE of the
+    harvested MAGs (floor BAKTA_EDGE_FLOOR); observed ~1% (2 of ~250 by 2026-11-17 21:11);
   * circuit breaker (stop submitting/uploading, keep polling + harvesting) on any other 'Bakta:' error, caller/hash/content/
     provenance mismatch, failed archive, 4xx on submit, or a per-job quality breaker (> half of the >= 1 Mb members
     without tRNA, or > 2 members below 500 CDS/Mb);
@@ -54,7 +55,8 @@ RETRYABLE = {"worker_lost", "internal_error", "store_contention"}
 MAX_ATTEMPTS = 3
 RECONCILE_GRACE = 900          # s before an intent with no visible job is declared never_created
 BAKTA_EDGE_PER_JOB = 2         # Bakta edge-interval member failures tolerated per job ...
-BAKTA_EDGE_TOTAL = 60          # ... and in all (about 0.5% of 12,859); more means something systematic: halt
+BAKTA_EDGE_RATE = 0.03         # ... and in all as a share of harvested MAGs (observed ~1%); above it: systematic, halt
+BAKTA_EDGE_FLOOR = 10          # never halt on the total below this many
 RECHECK_EVERY = 1800           # s between re-checks of members whose Genome JSON was temporarily unreadable
 
 p = argparse.ArgumentParser()
@@ -526,8 +528,9 @@ def harvest(jid, name, state, failure, genome_ids):
                     kv_set("bakta_edge_mags", json.dumps(edge))
                 edge_job += 1
                 ev(f"BAKTA-EDGE {mag} ({len(edge)} in all): {msg[:160]}")
-                if edge_job > BAKTA_EDGE_PER_JOB or len(edge) > BAKTA_EDGE_TOTAL:
-                    halt(f"Bakta edge-interval failures: {edge_job} in job {jid}, {len(edge)} in all")
+                nharv = db.execute("SELECT count(*) FROM members WHERE job_id IS NOT NULL").fetchone()[0]
+                if edge_job > BAKTA_EDGE_PER_JOB or len(edge) > max(BAKTA_EDGE_FLOOR, BAKTA_EDGE_RATE * nharv):
+                    halt(f"Bakta edge-interval failures: {edge_job} in job {jid}, {len(edge)} of {nharv} harvested")
             elif msg.startswith("Bakta:"):
                 halt(f"Bakta error for {mag}: {msg[:200]}")
             elif "skani failed" in msg:
