@@ -9,6 +9,23 @@ DRAM2 v2.0.0-beta17 was run natively on poplar (setup and scripts in `../`).
 Files here:
 - `DISTILL/distillate.xlsx`: DRAM2 distill (topics default, camper; ecosystems eng_sys, ag).
 - `PRODUCT/product.tsv`: DRAM2 product (module/function completeness per MAG).
+- **Coding and non-coding genes** (added 2026-11-18). DRAM2 writes them separately: coding genes in the raw
+  annotations, non-coding genes in its tRNA/rRNA scans.
+  - `noncoding/`: DRAM2's non-coding calls, namely `combined_trna_scan.tsv.gz` (tRNAscan-SE, per tRNA),
+    `combined_rrna_scan.tsv` (barrnap 5S/16S/23S), and the per-MAG count matrices `collected_{t,r}rnas.tsv`.
+  - `dram2_per_mag_genes.tsv`: per MAG counts of CDS, CDS with any DB hit, with a KO, with a threshold-passing KO,
+    tRNA, distinct tRNA amino acids, and 5S/16S/23S rRNA.
+  - **Totals (1,184 MAGs):**
+    - 3,935,612 CDS, of which 2,946,753 have a DB hit;
+    - 53,420 tRNA, present in every MAG (median 19 amino acids per MAG);
+    - 925 5S, 748 16S and 525 23S rRNA.
+  - DRAM2 calls no other non-coding RNA (no tmRNA, Rfam ncRNA or CRISPR). The KBDL Bakta builds carry those.
+  - `dram2_genes_coding_noncoding.tsv.gz` (103 MB, local only): one row per gene with gene_type CDS/tRNA/rRNA,
+    location and product. Built by `../merge_coding_noncoding.py`.
+- **Residual outputs** (local only, `residual/`; listed in `RESIDUAL_MANIFEST.tsv` with sha256): everything else
+  DRAM2 wrote, i.e. Prodigal gene calls (faa/fna/gff), per-database HMM and MMseqs2 hits, raw KOfam hits (for exact
+  re-thresholding), per-chunk raw annotations, QUAST, processed inputs, run logs and configs. Bundled on poplar by
+  `../bin/bundle_dram2_residual.sh` and pulled by `kbdl_build/auto_collect.sh`.
 
 Full outputs on poplar, `/scratch1/afreiburger/wetland_dram2/`:
 - `merged/raw-annotations.all.tsv` (1 GB; `mag` column = original MAG name);
