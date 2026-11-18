@@ -28,8 +28,9 @@ Per job this driver asserts databases_queried == both DBs (else halt). MAGs with
 with an archive:: error) are left out of that batch's hits and retried once as a genome_ids subset batch; a MAG that
 fails again is recorded in table failed_mags. A failed job is retried once; a batch that fails twice is recorded the
 same way. Halt only above MAX_FAILED_MAGS failed MAGs or MAX_FAILED_BATCHES failed batches (something systematic).
-The tail (< --batch archives) is flushed once every canary/pilot/bulk archive is finished in the build ledger; the
-'giant' phase (1 MAG, not in the build driver's PHASES yet) is swept whenever it is uploaded, by re-running this.
+The tail (the last group of < MAX_QUERIES MAGs) is flushed, and the sweep ends, once EVERY archive in the build
+ledger (all phases, giant included) is uploaded (object_id set): the sweep needs uploads, not builds, and since
+2026-11-18 a separate --upload-only process uploads all archives ahead of the build.
 
 CAVEAT for any downstream use: KBDLSKANI hits carry no alignment fraction. ANI >= 0.95 here is NOT a species match by
 the census rule (ANI >= 95 and AF >= 0.5): e.g. bin.009.fasta__SRR16547334 has a 0.9912 R232 hit at AF 0.484, which
@@ -118,15 +119,14 @@ def halt(msg):
 
 
 def build_view():
-    """({archive: object_id} for uploaded archives, {archive: [mag]}, has the build driver finished every archive?)"""
+    """({archive: object_id} for uploaded archives, {archive: [mag]}, is every archive uploaded?)"""
     b = sqlite3.connect(f"file:{BUILD_LEDGER}?mode=ro", uri=True, timeout=60)
     try:
         arch = dict(b.execute("SELECT name, object_id FROM archives WHERE object_id IS NOT NULL").fetchall())
         mem = {}
         for mag, name in b.execute("SELECT mag, archive FROM members"):
             mem.setdefault(name, []).append(mag)
-        left = b.execute("SELECT count(*) FROM archives WHERE phase IN (?,?,?) AND state NOT IN "
-                         "('done','partial','failed')", BUILD_PHASES).fetchone()[0]
+        left = b.execute("SELECT count(*) FROM archives WHERE object_id IS NULL").fetchone()[0]
     finally:
         b.close()
     if ONLY:

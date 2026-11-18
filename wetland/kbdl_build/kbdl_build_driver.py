@@ -77,6 +77,9 @@ p.add_argument("--skani-db", default=None, help="SKANIDB object id for new submi
 p.add_argument("--upload-only", action="store_true", help="pre-upload archives from the back of the queue; no builds")
 p.add_argument("--upload-slots", type=int, default=6, help="--upload-only: upload jobs in flight (KBDL cap is 8)")
 p.add_argument("--pack-procs", type=int, default=24, help="--upload-only: processes packing archives in parallel")
+p.add_argument("--upload-margin", type=int, default=UPLOAD_MARGIN,
+               help="--upload-only: queued archives left to the main driver (>= its prefetch + max_in_flight = 10)")
+p.add_argument("--upload-poll", type=int, default=30, help="--upload-only: seconds between passes")
 a = p.parse_args()
 
 TOKEN = sys.stdin.read().strip()
@@ -697,7 +700,10 @@ def work_items(limit):
 # ---------------- pre-upload mode ----------------
 if a.upload_only:
     assert not a.dry_run
-    ev(f"START uploader pid {os.getpid()} slots={a.upload_slots} margin={UPLOAD_MARGIN} pack_procs={a.pack_procs}")
+    assert a.upload_margin >= 10, "the main driver's upload window is prefetch 6 + max_in_flight 4 = 10 archives"
+    UPLOAD_MARGIN = a.upload_margin
+    ev(f"START uploader pid {os.getpid()} slots={a.upload_slots} margin={UPLOAD_MARGIN} pack_procs={a.pack_procs} "
+       f"poll={a.upload_poll}s")
     import multiprocessing
     queue = [r[0] for r in db.execute("SELECT name FROM archives WHERE phase IN ('bulk','giant') AND state='planned' "
                                       "ORDER BY phase, name")]
@@ -737,7 +743,7 @@ if a.upload_only:
                         busy += 1
         except Exception as e:
             ev(f"WARN uploader loop error: {e!r:.300}")
-        time.sleep(30)
+        time.sleep(a.upload_poll)
     sys.exit(0)
 
 

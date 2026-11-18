@@ -234,3 +234,7 @@ salterns/reads/**/*.bam.index
 
 # DRAM2 merged annotations (203 MB gz, over the GitHub 100 MB file limit; kept local; source poplar:/scratch1/afreiburger/wetland_dram2/merged/)
 wetland/dram2/results/raw-annotations.all.tsv.gz
+# DRAM2 coding + non-coding gene table (103 MB gz; built locally by wetland/dram2/merge_coding_noncoding.py)
+wetland/dram2/results/dram2_genes_coding_noncoding.tsv.gz
+# DRAM2 residual-output tarballs (~10+ GB; listed with sha256 in wetland/dram2/results/RESIDUAL_MANIFEST.tsv)
+wetland/dram2/results/residual/
