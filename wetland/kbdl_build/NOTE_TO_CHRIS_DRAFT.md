@@ -63,6 +63,17 @@ me the supported way to do it? Content-hash dedup means a rebuild will not chang
      I've verified a result?
 - The archives are private. KBDL has no per-user grant, so I can't share them with you through the API; as operator you
   can read them. Say if you'd rather they were public.
+- **Bug report (2026-11-17), KBDLBuildGenome + Bakta:**
+  - **What happened:** `bin.001.fasta__SRR11599182` (6.0 Mb, 971 contigs; archive wetland_mags_A0008, job
+    93f3c7e0…) failed as a member `tool_failure`:
+    `Bakta: bakta 1.11.4 returned an out-of-range interval on contig 'pending.c779' (length 6085): begin=5721 end=6086`.
+    The feature ends 1 bp past the contig end, and `_check_called_interval` in genome_normalize.py rejects the whole
+    genome by design.
+  - **Why it matters:** the failure is deterministic, so a retry won't help.
+  - **Suggestion:** clamp a feature that runs over the contig end by 1 bp and mark it partial, or drop that one
+    feature and record it in `cds_discarded`. Either way the genome builds.
+  - **On my side:** my driver now records these failures (kv `bakta_edge_mags`) and keeps going, with a cap of 2 per
+    job and 60 in all. I'll rebuild the listed MAGs once there's a fix.
 
 ## 3. Landing in kbaseincubator.genome_clearhouse.skani_distances (planned as a separate final step; my account gets 403)
 - C1. Is this table still the target?

@@ -23,7 +23,10 @@ v2 (2026-11-15) applies the 22 confirmed findings of an adversarial review (wf_8
     called; Genome JSON: genome_id == hash[:16], contigs re-rendered hash == predicted hash, >= 1 CDS, contigs/bp,
     non-coding count, provenance (09_expected_genome_provenance.json incl. cds_overlap_rule/fraction), cds_discarded;
     a temporarily unreadable Genome JSON is re-checked later, not failed;
-  * circuit breaker (stop submitting/uploading, keep polling + harvesting) on any 'Bakta:' error, caller/hash/content/
+  * Bakta edge-interval failures (KBDL's strict linear-interval check rejects a Bakta feature ending past a contig end,
+    a deterministic per-MAG outcome; first seen 2026-11-17 on bin.001.fasta__SRR11599182) are recorded as member errors
+    and listed in kv bakta_edge_mags; halt only when > BAKTA_EDGE_PER_JOB in one job or > BAKTA_EDGE_TOTAL overall;
+  * circuit breaker (stop submitting/uploading, keep polling + harvesting) on any other 'Bakta:' error, caller/hash/content/
     provenance mismatch, failed archive, 4xx on submit, or a per-job quality breaker (> half of the >= 1 Mb members
     without tRNA, or > 2 members below 500 CDS/Mb);
   * watchdog ALERTs only (never cancel: KBDL keeps building after a cancel): running > 3x predicted + 30 min, queued
@@ -50,6 +53,8 @@ TERMINAL = {"completed", "failed"}
 RETRYABLE = {"worker_lost", "internal_error", "store_contention"}
 MAX_ATTEMPTS = 3
 RECONCILE_GRACE = 900          # s before an intent with no visible job is declared never_created
+BAKTA_EDGE_PER_JOB = 2         # Bakta edge-interval member failures tolerated per job ...
+BAKTA_EDGE_TOTAL = 60          # ... and in all (about 0.5% of 12,859); more means something systematic: halt
 RECHECK_EVERY = 1800           # s between re-checks of members whose Genome JSON was temporarily unreadable
 
 p = argparse.ArgumentParser()
@@ -507,14 +512,23 @@ def harvest(jid, name, state, failure, genome_ids):
         return halt(f"job {jid}: result keys do not partition the submitted members")
     pl = db.execute("SELECT payload FROM intents WHERE job_id=?", (jid,)).fetchone()
     job_db = json.loads(pl[0])["params"]["skani_db"]["object_id"] if pl else GTDB_R220
-    retry_subset, flag_count, no_trna_big, low_cds = [], 0, 0, 0
+    retry_subset, flag_count, no_trna_big, low_cds, edge_job = [], 0, 0, 0, 0
     n_big = 0
     for mag in want:
         if mag in errs:
             msg = str(errs[mag].get("message"))
             db.execute("UPDATE members SET job_id=?, error_code=?, error_msg=?, verified=0, updated=? WHERE mag=?",
                        (jid, errs[mag].get("code"), msg[:500], now(), mag))
-            if msg.startswith("Bakta:"):
+            if msg.startswith("Bakta:") and "returned an out-of-range interval" in msg:
+                edge = json.loads(kv_get("bakta_edge_mags", "[]"))
+                if mag not in edge:
+                    edge.append(mag)
+                    kv_set("bakta_edge_mags", json.dumps(edge))
+                edge_job += 1
+                ev(f"BAKTA-EDGE {mag} ({len(edge)} in all): {msg[:160]}")
+                if edge_job > BAKTA_EDGE_PER_JOB or len(edge) > BAKTA_EDGE_TOTAL:
+                    halt(f"Bakta edge-interval failures: {edge_job} in job {jid}, {len(edge)} in all")
+            elif msg.startswith("Bakta:"):
                 halt(f"Bakta error for {mag}: {msg[:200]}")
             elif "skani failed" in msg:
                 retry_subset.append(mag)
