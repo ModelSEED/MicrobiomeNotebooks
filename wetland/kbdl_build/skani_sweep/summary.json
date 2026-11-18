@@ -1,27 +1,26 @@
 {
- "batch_files": 5,
+ "batch_files": 12,
  "batches_by_state": {
-  "done": 5,
-  "running": 1,
+  "done": 12,
   "superseded": 3
  },
- "mags_swept": 450,
+ "mags_swept": 1150,
  "of_census_mags": 12859,
  "failed_mags": 0,
- "rows": 3200,
+ "rows": 7507,
  "mags_with_hit": {
-  "gtdb_r232_consolidated": 299,
-  "novel_all_representatives": 235
+  "gtdb_r232_consolidated": 807,
+  "novel_all_representatives": 621
  },
  "mags_without_hit": {
-  "gtdb_r232_consolidated": 151,
-  "novel_all_representatives": 215
+  "gtdb_r232_consolidated": 343,
+  "novel_all_representatives": 529
  },
  "novel_pairs_vs_bruteforce_census": {
-  "kbdl_pairs": 757,
-  "census_pairs": 757,
+  "kbdl_pairs": 1899,
+  "census_pairs": 1902,
   "only_kbdl": 0,
-  "only_census": 0,
+  "only_census": 3,
   "max_abs_ani_diff": 1.1102230246251565e-16
  }
 }
