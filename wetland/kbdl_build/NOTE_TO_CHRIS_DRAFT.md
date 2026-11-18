@@ -84,6 +84,16 @@ me the supported way to do it? Content-hash dedup means a rebuild will not chang
     gtdb_r232_consolidated and novel_all_representatives, the same pattern as your R232 load.
   - **But KBDLSKANI drops the alignment fraction.** Its hits carry only distance = 1 − ANI. For example,
     bin.009.fasta__SRR16547334 has a 99.12% R232 hit at AF 0.484, which GTDB-Tk rejects as a species match.
+  - **Heads-up: KBDLSKANI results depend on how many genomes are in one job.**
+    - KBUtilLib passes every query of a job to a single `skani search` call. With more than 100 query files, skani
+      0.3.1 switches to its marker-hash index (`--no-marker-index` says "default: load index if > 100 query
+      files"), and that index loses hits.
+    - Measured on novel_all_representatives, with the same 50 MAGs: 131 hits brute-force vs 124 indexed (101
+      queries).
+    - At 12,859 queries in one call, a 3.2 Mb MAG lost its only hits (90.75%, AF 42%).
+    - Your R232 load batches 5 archives per job, so if those archives hold more than 100 genomes in total, its hits
+      are incomplete. Passing `--no-marker-index`, or capping each call at 100 queries, avoids it.
+    - I cap my jobs at 100 MAGs.
   - **Question:** should skani_distances carry AF? If so, could KBDLSKANI return Align_fraction_ref/query (skani
     already reports them)? Until then I'll treat KBDL's ANI as a distance only, and keep species calls on our census
     rule (ANI ≥ 95 and AF ≥ 0.5).

@@ -2,6 +2,15 @@
 """skani every wetland MAG against GTDB R232 AND the novel-genome representatives DB in KBDL (per Andrew, 2026-11-17:
 "ensure that the novel representatives DB is also run, in addition to R232").
 
+BATCH SIZE MATTERS: at most 100 MAGs per job. skani search builds an approximate marker-hash index when it is given
+> 100 query files ("--no-marker-index ... default: load index if > 100 query files"), and that index LOSES hits, more
+so the more queries a call has (KBUtilLib passes every query of a job to one skani call). Measured 2026-11-17 on
+novel_all_representatives: same 50 MAGs, 131 hits brute-force (50 queries) vs 124 indexed (101 queries; all 7 lost
+hits from the 31.6 kb canary MAG); 2,000 queries indexed: 2,476 rows (-n 5) vs 2,372 for the same MAGs inside the
+census's 12,859-query run, which also missed bin.001.fasta__SRR10968274's only hits. So archives are grouped up to
+MAX_QUERIES = 100 MAGs (4 bulk archives), which keeps every job brute-force. Batches 2-4 of the first launch had 125
+MAGs (indexed); they were superseded and re-run.
+
 Why separate KBDLSKANI jobs: KBDLBuildGenome takes one skani DB for the taxonomy it attaches (R232 here) and does not
 expose its raw hits. As in Chris Henry's own R232 load (KBDLSKANI over batches of 5 GenomeArchives), the hits for the
 clearinghouse landing come from KBDLSKANI jobs with skani_dbs = [gtdb_r232_consolidated, novel_all_representatives].
@@ -31,7 +40,7 @@ columns mag, archive, db, ref_genome, ani: every hit, plus one row with empty re
 without a hit (so every MAG has >= 1 row per DB); skani_events.log.
 Runs ON POPLAR against http://localhost:8791. Token from stdin; the process then detaches (unless --foreground); the
 token is never written to disk.
-Usage: python3 -I kbdl_skani_sweep.py [--max-in-flight 4] [--batch 5] [--only A,B,...] [--foreground] < token
+Usage: python3 -I kbdl_skani_sweep.py [--max-in-flight 4] [--only A,B,...] [--foreground] < token
   --only restricts the sweep to the named archives and lets their last batch be partial (for a test run).
 """
 import argparse, calendar, fcntl, json, os, sqlite3, sys, time
@@ -45,13 +54,13 @@ NOVEL = "ref:1be8415b2a773d2632949cc46f1b68d3956c4ce67eab4088a9446fadf5157404"
 DBS = [R232, NOVEL]
 DBNAME = {R232: "gtdb_r232_consolidated", NOVEL: "novel_all_representatives"}
 POLL_S = 120
+MAX_QUERIES = 100          # MAGs per KBDLSKANI job: > 100 query files switches skani to its lossy marker index
 MAX_FAILED_MAGS = 50
 MAX_FAILED_BATCHES = 3
 BUILD_PHASES = ("canary", "pilot", "bulk")
 
 p = argparse.ArgumentParser()
 p.add_argument("--max-in-flight", type=int, default=4)
-p.add_argument("--batch", type=int, default=5)
 p.add_argument("--only", default="")
 p.add_argument("--foreground", action="store_true")
 a = p.parse_args()
@@ -137,7 +146,8 @@ def submit(bid, names, oids, attempt, subset=None):
           "params": {"skani_dbs": [{"object_id": d} for d in DBS],
                      "archives": [{"object_id": o, **({"genome_ids": subset[n]} if subset else {})}
                                   for n, o in zip(names, oids)]}}
-    assert len(oids) == len(names) <= a.batch and all(oids)
+    assert len(oids) == len(names) and all(oids)
+    assert sum(len(subset[n]) for n in names) <= MAX_QUERIES if subset else True
     db.execute("UPDATE batches SET state='unknown', created=?, attempt=? WHERE id=?", (time.time(), attempt, bid))
     db.commit()
     try:
@@ -213,6 +223,8 @@ def harvest(bid, jid, names, mem, subset):
     if queried != sorted(DBS):
         return halt(f"batch {bid} job {jid}: databases_queried {queried} != both DBs")
     owner = {m: n for n in names for m in (subset[n] if subset else mem[n])}
+    if len(owner) > MAX_QUERIES:
+        return halt(f"batch {bid} has {len(owner)} MAGs > {MAX_QUERIES} (indexed skani); not harvesting it")
     results = res.get("results") or {}
     errs = res.get("errors") or {}
     stray = set(results) - set(owner)
@@ -269,7 +281,7 @@ def harvest(bid, jid, names, mem, subset):
        + f"; queries absent from results: {len(set(owner) - set(results))}" + (f"; held out {len(bad)}" if bad else ""))
 
 
-ev(f"START skani sweep pid {os.getpid()} dbs={[DBNAME[d] for d in DBS]} batch={a.batch} "
+ev(f"START skani sweep pid {os.getpid()} dbs={[DBNAME[d] for d in DBS]} max_queries={MAX_QUERIES} "
    f"max_in_flight={a.max_in_flight} only={sorted(ONLY) or 'all'}")
 while True:
     try:
@@ -300,10 +312,21 @@ while True:
                 elif s in ("queued", "running"):
                     db.execute("UPDATE batches SET state=? WHERE id=?", (s, bid))
             db.commit()
-        # new batches from fresh archives: full batches, or the remainder once the build (or the --only set) is complete
+        # new batches from fresh archives, up to MAX_QUERIES MAGs each: a group is closed when it is full or the next
+        # archive would overflow it; the last open group goes out once the build (or the --only set) is complete
         fresh = [r[0] for r in db.execute("SELECT name FROM archives WHERE state='new' ORDER BY name")]
-        while fresh and (len(fresh) >= a.batch or build_finished):
-            take, fresh = fresh[:a.batch], fresh[a.batch:]
+        groups, cur_g, nq = [], [], 0
+        for n in fresh:
+            k = len(mem[n])
+            assert 0 < k <= MAX_QUERIES, (n, k)
+            if nq + k > MAX_QUERIES:
+                groups.append(cur_g); cur_g, nq = [], 0
+            cur_g.append(n); nq += k
+            if nq == MAX_QUERIES:
+                groups.append(cur_g); cur_g, nq = [], 0
+        if cur_g and build_finished:
+            groups.append(cur_g)
+        for take in groups:
             cur = db.execute("INSERT INTO batches(archives, state, created) VALUES(?,?,?)",
                              (json.dumps(take), "pending", time.time()))
             for n in take:
