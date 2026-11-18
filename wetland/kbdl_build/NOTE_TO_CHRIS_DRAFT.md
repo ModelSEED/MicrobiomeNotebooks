@@ -80,6 +80,13 @@ me the supported way to do it? Content-hash dedup means a rebuild will not chang
 - C2. source_catalog: "WEISENHORN" or "Weisenhorn Wetland Study"?
 - C3. The dedup key: (source_catalog, genome_id, db_object_id)? Does a MAG with no hits get a row? Is top_ani a fraction
   or a percent? (land.py / SCRIPTS.md would answer all of this.)
+  - **Hits come from KBDLSKANI.** I'm running KBDLSKANI over every wetland archive against both
+    gtdb_r232_consolidated and novel_all_representatives, the same pattern as your R232 load.
+  - **But KBDLSKANI drops the alignment fraction.** Its hits carry only distance = 1 − ANI. For example,
+    bin.009.fasta__SRR16547334 has a 99.12% R232 hit at AF 0.484, which GTDB-Tk rejects as a species match.
+  - **Question:** should skani_distances carry AF? If so, could KBDLSKANI return Align_fraction_ref/query (skani
+    already reports them)? Until then I'll treat KBDL's ANI as a distance only, and keep species calls on our census
+    rule (ANI ≥ 95 and AF ≥ 0.5).
 - C4. genome_id: I plan to use the MAG iterativeIDs (e.g. `Nitrosomonas.1_m`, the GTDB-R232-based scheme from our other
   projects), with a mapping to the KBase object names.
 - C5. Will you grant me kbaseincubator read-write, or would you rather land a parquet yourself? I'd also like to land

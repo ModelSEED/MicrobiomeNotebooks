@@ -15,8 +15,16 @@ KBDLSKANI facts this relies on (KBDLJobRunningPrototype src/kbdl_service/job_typ
   errors: {"<query>::<db object_id>": {...}} per failed entry, "archive::<oid>" for archive problems.
   databases_queried: the requested DBs (a DB that failed wholesale fails the job).  Query stem = archive member
   "<mag>.fna" minus ".fna" = the MAG name.
-Per job this driver asserts databases_queried == both DBs and that no member has an error; a batch with errors or a
-failed job is retried once, then the sweep halts (circuit breaker, like the build driver).
+Per job this driver asserts databases_queried == both DBs (else halt). MAGs with a per-entry error (or in an archive
+with an archive:: error) are left out of that batch's hits and retried once as a genome_ids subset batch; a MAG that
+fails again is recorded in table failed_mags. A failed job is retried once; a batch that fails twice is recorded the
+same way. Halt only above MAX_FAILED_MAGS failed MAGs or MAX_FAILED_BATCHES failed batches (something systematic).
+The tail (< --batch archives) is flushed once every canary/pilot/bulk archive is finished in the build ledger; the
+'giant' phase (1 MAG, not in the build driver's PHASES yet) is swept whenever it is uploaded, by re-running this.
+
+CAVEAT for any downstream use: KBDLSKANI hits carry no alignment fraction. ANI >= 0.95 here is NOT a species match by
+the census rule (ANI >= 95 and AF >= 0.5): e.g. bin.009.fasta__SRR16547334 has a 0.9912 R232 hit at AF 0.484, which
+GTDB-Tk rejected. Species calls stay with the census; these hits are for the clearinghouse distance table.
 
 Outputs on poplar (WORK): skani_ledger.sqlite; skani_results/<job>.json (raw result); skani_hits/batch_<id>.tsv with
 columns mag, archive, db, ref_genome, ani: every hit, plus one row with empty ref_genome/ani for each MAG x DB pair
@@ -37,6 +45,9 @@ NOVEL = "ref:1be8415b2a773d2632949cc46f1b68d3956c4ce67eab4088a9446fadf5157404"
 DBS = [R232, NOVEL]
 DBNAME = {R232: "gtdb_r232_consolidated", NOVEL: "novel_all_representatives"}
 POLL_S = 120
+MAX_FAILED_MAGS = 50
+MAX_FAILED_BATCHES = 3
+BUILD_PHASES = ("canary", "pilot", "bulk")
 
 p = argparse.ArgumentParser()
 p.add_argument("--max-in-flight", type=int, default=4)
@@ -77,7 +88,11 @@ CREATE TABLE IF NOT EXISTS batches(id INTEGER PRIMARY KEY AUTOINCREMENT, archive
   created REAL, attempt INT DEFAULT 0, note TEXT);
 CREATE TABLE IF NOT EXISTS archives(name TEXT PRIMARY KEY, object_id TEXT, batch_id INT, state TEXT);
 CREATE TABLE IF NOT EXISTS kv(k TEXT PRIMARY KEY, v TEXT);
+CREATE TABLE IF NOT EXISTS failed_mags(mag TEXT PRIMARY KEY, archive TEXT, batch_id INT, reason TEXT);
 """)
+if "subset" not in [r[1] for r in db.execute("PRAGMA table_info(batches)")]:
+    db.execute("ALTER TABLE batches ADD COLUMN subset TEXT")   # {archive: [mag]} for a retry of errored MAGs
+    db.commit()
 
 
 def halted():
@@ -101,7 +116,8 @@ def build_view():
         mem = {}
         for mag, name in b.execute("SELECT mag, archive FROM members"):
             mem.setdefault(name, []).append(mag)
-        left = b.execute("SELECT count(*) FROM archives WHERE state NOT IN ('done','partial','failed')").fetchone()[0]
+        left = b.execute("SELECT count(*) FROM archives WHERE phase IN (?,?,?) AND state NOT IN "
+                         "('done','partial','failed')", BUILD_PHASES).fetchone()[0]
     finally:
         b.close()
     if ONLY:
@@ -116,9 +132,11 @@ def dbid(x):
     return x.get("object_id") if isinstance(x, dict) else x
 
 
-def submit(bid, names, oids, attempt):
+def submit(bid, names, oids, attempt, subset=None):
     pl = {"schema_version": "1", "job_type": "KBDLSKANI",
-          "params": {"skani_dbs": [{"object_id": d} for d in DBS], "archives": [{"object_id": o} for o in oids]}}
+          "params": {"skani_dbs": [{"object_id": d} for d in DBS],
+                     "archives": [{"object_id": o, **({"genome_ids": subset[n]} if subset else {})}
+                                  for n, o in zip(names, oids)]}}
     assert len(oids) == len(names) <= a.batch and all(oids)
     db.execute("UPDATE batches SET state='unknown', created=?, attempt=? WHERE id=?", (time.time(), attempt, bid))
     db.commit()
@@ -137,7 +155,19 @@ def submit(bid, names, oids, attempt):
     jid = r.json()["job_id"]
     db.execute("UPDATE batches SET job_id=?, state='queued' WHERE id=?", (jid, bid))
     db.commit()
-    ev(f"SUBMIT batch {bid} ({len(names)} archives: {names[0]} .. {names[-1]}) -> {jid} (attempt {attempt})")
+    ev(f"SUBMIT batch {bid} ({len(names)} archives: {names[0]} .. {names[-1]}"
+       + (f"; subset of {sum(map(len, subset.values()))} MAGs" if subset else "") + f") -> {jid} (attempt {attempt})")
+
+
+def record_failed(mags_by_archive, bid, reason):
+    for n, mags in mags_by_archive.items():
+        for m in mags:
+            db.execute("INSERT OR REPLACE INTO failed_mags VALUES(?,?,?,?)", (m, n, bid, reason[:500]))
+    db.commit()
+    nf = db.execute("SELECT count(*) FROM failed_mags").fetchone()[0]
+    ev(f"FAILED-MAGS batch {bid}: {sum(map(len, mags_by_archive.values()))} recorded ({nf} in all): {reason[:200]}")
+    if nf > MAX_FAILED_MAGS:
+        halt(f"{nf} MAGs failed (> {MAX_FAILED_MAGS})")
 
 
 def reconcile():
@@ -171,7 +201,7 @@ def reconcile():
     return unresolved
 
 
-def harvest(bid, jid, names, mem):
+def harvest(bid, jid, names, mem, subset):
     r = S.get(f"{BASE}/jobs/{jid}/result", timeout=600)
     if r.status_code != 200:
         ev(f"WARN result {jid} -> {r.status_code}; re-poll")
@@ -182,21 +212,37 @@ def harvest(bid, jid, names, mem):
     queried = sorted(dbid(x) for x in (res.get("databases_queried") or []))
     if queried != sorted(DBS):
         return halt(f"batch {bid} job {jid}: databases_queried {queried} != both DBs")
-    owner = {m: n for n in names for m in mem[n]}
+    owner = {m: n for n in names for m in (subset[n] if subset else mem[n])}
     results = res.get("results") or {}
     errs = res.get("errors") or {}
     stray = set(results) - set(owner)
     bad_db = {h.get("database") for hs in results.values() for h in hs} - set(DBS)
     if stray or bad_db:
         return halt(f"batch {bid} job {jid}: unexpected query keys {sorted(stray)[:3]} / databases {bad_db}")
+    oid2name = {db.execute("SELECT object_id FROM archives WHERE name=?", (n,)).fetchone()[0]: n for n in names}
+    bad = set()
+    for k in errs:
+        if k.startswith("archive::"):
+            bad |= {m for m, n in owner.items() if n == oid2name.get(k.split("::", 1)[1])}
+        else:
+            bad.add(k.rsplit("::", 1)[0])
+    unknown = bad - set(owner)
+    if unknown:
+        return halt(f"batch {bid} job {jid}: error keys name non-members {sorted(unknown)[:3]}")
     if errs:
-        att = db.execute("SELECT attempt FROM batches WHERE id=?", (bid,)).fetchone()[0]
-        ev(f"BATCH-ERRORS batch {bid} job {jid}: {len(errs)} error entries, e.g. {dict(list(errs.items())[:2])}"[:600])
-        db.execute("UPDATE batches SET state=? WHERE id=?", ("retry" if att < 2 else "done_with_errors", bid))
-        db.commit()
-        if att >= 2:
-            halt(f"batch {bid} still has per-entry errors after a retry")
-        return
+        ev(f"BATCH-ERRORS batch {bid} job {jid}: {len(errs)} error entries on {len(bad)} MAGs, "
+           f"e.g. {json.dumps(dict(list(errs.items())[:2]))[:400]}")
+        by_arch = {}
+        for m in sorted(bad):
+            by_arch.setdefault(owner[m], []).append(m)
+        if subset:      # already a retry: final
+            record_failed(by_arch, bid, "per-entry errors on the subset retry: " + json.dumps(dict(list(errs.items())[:1])))
+        else:
+            cur = db.execute("INSERT INTO batches(archives, state, created, subset, note) VALUES(?,?,?,?,?)",
+                             (json.dumps(sorted(by_arch)), "pending", time.time(), json.dumps(by_arch),
+                              f"retry of errored MAGs from batch {bid}"))
+            ev(f"RETRY-SUBSET batch {cur.lastrowid} for {len(bad)} MAGs of batch {bid}")
+    owner = {m: n for m, n in owner.items() if m not in bad}
     rows, nohit = [], {d: 0 for d in DBS}
     for mag in sorted(owner):
         hits = results.get(mag) or []
@@ -213,13 +259,14 @@ def harvest(bid, jid, names, mem):
         fh.writelines(rows)
     os.replace(tmp, os.path.join(WORK, "skani_hits", f"batch_{bid}.tsv"))
     db.execute("UPDATE batches SET state='done' WHERE id=?", (bid,))
-    for n in names:
-        db.execute("UPDATE archives SET state='done' WHERE name=?", (n,))
+    if not subset:
+        for n in names:
+            db.execute("UPDATE archives SET state='done' WHERE name=?", (n,))
     db.commit()
     nh = sum(len(results.get(m) or []) for m in owner)
     ev(f"HARVEST batch {bid} job {jid}: {len(owner)} MAGs, {nh} hits; no hit: "
        + ", ".join(f"{DBNAME[d]} {nohit[d]}" for d in DBS)
-       + f"; queries absent from results: {len(set(owner) - set(results))}")
+       + f"; queries absent from results: {len(set(owner) - set(results))}" + (f"; held out {len(bad)}" if bad else ""))
 
 
 ev(f"START skani sweep pid {os.getpid()} dbs={[DBNAME[d] for d in DBS]} batch={a.batch} "
@@ -231,20 +278,25 @@ while True:
         for n, o in arch.items():
             db.execute("INSERT OR IGNORE INTO archives(name, object_id, state) VALUES(?,?,'new')", (n, o))
         db.commit()
-        act = db.execute("SELECT id, job_id, archives FROM batches WHERE state IN ('queued','running')").fetchall()
+        act = db.execute("SELECT id, job_id, archives, subset FROM batches WHERE state IN ('queued','running')").fetchall()
         if act:
             st = S.post(BASE + "/jobs/status", json={"job_ids": [x[1] for x in act]}, timeout=120).json().get("jobs", {})
-            for bid, jid, names in act:
+            for bid, jid, names, sub in act:
                 s = (st.get(jid) or {}).get("state")
+                names, sub = json.loads(names), (json.loads(sub) if sub else None)
                 if s == "completed":
-                    harvest(bid, jid, json.loads(names), mem)
+                    harvest(bid, jid, names, mem, sub)
                 elif s in ("failed", "cancelled"):
                     att = db.execute("SELECT attempt FROM batches WHERE id=?", (bid,)).fetchone()[0]
-                    ev(f"JOBFAIL batch {bid} job {jid} ({s}): {json.dumps((st.get(jid) or {}).get('failure'))[:300]}")
+                    fail = json.dumps((st.get(jid) or {}).get("failure"))[:300]
+                    ev(f"JOBFAIL batch {bid} job {jid} ({s}, attempt {att}): {fail}")
                     db.execute("UPDATE batches SET state=? WHERE id=?", ("retry" if att < 2 else "failed", bid))
                     db.commit()
                     if att >= 2:
-                        halt(f"batch {bid} failed twice")
+                        record_failed(sub or {n: mem[n] for n in names}, bid, f"job failed twice: {fail}")
+                        nb = db.execute("SELECT count(*) FROM batches WHERE state='failed'").fetchone()[0]
+                        if nb >= MAX_FAILED_BATCHES:
+                            halt(f"{nb} batches failed twice")
                 elif s in ("queued", "running"):
                     db.execute("UPDATE batches SET state=? WHERE id=?", (s, bid))
             db.commit()
@@ -258,15 +310,15 @@ while True:
                 db.execute("UPDATE archives SET state='batched', batch_id=? WHERE name=?", (cur.lastrowid, n))
             db.commit()
         inflight = unresolved + db.execute("SELECT count(*) FROM batches WHERE state IN ('queued','running')").fetchone()[0]
-        for bid, names, att, state in db.execute("SELECT id, archives, attempt, state FROM batches WHERE state IN "
-                                                 "('pending','retry','retry_same') ORDER BY id").fetchall():
+        for bid, names, att, state, sub in db.execute("SELECT id, archives, attempt, state, subset FROM batches WHERE "
+                                                      "state IN ('pending','retry','retry_same') ORDER BY id").fetchall():
             if halted() or unresolved or inflight >= a.max_in_flight:
                 break
             names = json.loads(names)
             if ONLY and not set(names) <= ONLY:
                 continue
             oids = [db.execute("SELECT object_id FROM archives WHERE name=?", (n,)).fetchone()[0] for n in names]
-            submit(bid, names, oids, att if state == "retry_same" else att + 1)
+            submit(bid, names, oids, att if state == "retry_same" else att + 1, json.loads(sub) if sub else None)
             inflight += 1
         open_jobs = db.execute("SELECT count(*) FROM batches WHERE state IN ('queued','running','unknown')").fetchone()[0]
         todo = [json.loads(r[0]) for r in
