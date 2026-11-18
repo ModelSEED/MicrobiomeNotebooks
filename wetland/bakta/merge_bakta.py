@@ -8,11 +8,15 @@ Outputs (results/):
   bakta_genes_all.tsv.gz      every feature of every MAG, coding and non-coding (cds, sorf, tRNA, tmRNA, rRNA, ncRNA,
                               ncRNA-region, crispr, oriC/oriV/oriT, gap) + parsed KO / EC / GO / COG columns (local
                               only if > 95 MB)
-  bakta_per_mag.tsv           per MAG feature counts: CDS (hypothetical / with KO / EC / GO / COG), pseudogenes, sORF,
+  bakta_per_mag.tsv           per MAG feature counts: CDS (hypothetical / with KO / EC / GO / COG / Pfam / UniRef90 hit /
+                              UniRef50 hit only), pseudogenes, sORF,
                               tRNA, tmRNA, rRNA 5S/16S/23S, ncRNA, ncRNA-region, CRISPR, oriC
   bakta_vs_dram2_per_mag.tsv  per MAG: Bakta vs DRAM2 CDS, tRNA, rRNA by kind, KO-annotated CDS (DRAM2: KOfam hit
                               passing the KO threshold)
   summary.json                totals and medians
+Note: Bakta attaches KEGG/EC/GO/COG xrefs at the UniRef90 (PSC) level only; a CDS whose best hit is a UniRef50
+cluster (PSCC) gets a product name (and Pfam domains) but no KO. Divergent environmental MAGs therefore show low KO
+coverage here; DRAM2's KOfam HMMs are the better KO source for them.
 Usage: ~/Documents/py_venv/bin/python -I merge_bakta.py <runs dir>
 """
 import glob, json, os, sys
@@ -44,6 +48,8 @@ def pick(prefix):
 
 g["KO"], g["EC"], g["GO"] = pick("KEGG:"), pick("EC:"), pick("GO:")
 g["COG"] = x.map(lambda v: ",".join(sorted({t[4:] for t in v if t.startswith("COG:COG")})))
+g["PFAM"] = x.map(lambda v: ",".join(sorted({t[5:] for t in v if t.startswith("PFAM:")})))
+g["UniRef"] = x.map(lambda v: ",".join(sorted({t[7:] for t in v if t.startswith("UniRef:")})))
 g["pseudo"] = g["product"].str.contains(r"\(pseudo\)", regex=True) | g["product"].str.startswith("(pseudo)")
 out_all = os.path.join(OUT, "bakta_genes_all.tsv.gz")
 g.to_csv(out_all, sep="\t", index=False, compression="gzip")
@@ -53,7 +59,10 @@ by = lambda df: df.groupby("mag").size()
 per = pd.DataFrame({
     "CDS": by(cds), "CDS_hypothetical": by(cds[cds["product"].str.contains("hypothetical protein", case=False)]),
     "CDS_with_KO": by(cds[cds.KO != ""]), "CDS_with_EC": by(cds[cds.EC != ""]), "CDS_with_GO": by(cds[cds.GO != ""]),
-    "CDS_with_COG": by(cds[cds.COG != ""]), "pseudogenes": by(cds[cds.pseudo]),
+    "CDS_with_COG": by(cds[cds.COG != ""]), "CDS_with_PFAM": by(cds[cds.PFAM != ""]),
+    "CDS_with_UniRef90": by(cds[cds.UniRef.str.contains("UniRef90_")]),
+    "CDS_with_UniRef50_only": by(cds[cds.UniRef.str.contains("UniRef50_") & ~cds.UniRef.str.contains("UniRef90_")]),
+    "pseudogenes": by(cds[cds.pseudo]),
     "sORF": by(g[g.type == "sorf"]), "tRNA": by(g[g.type == "tRNA"]), "tmRNA": by(g[g.type == "tmRNA"]),
     "ncRNA": by(g[g.type == "ncRNA"]), "ncRNA_region": by(g[g.type == "ncRNA-region"]),
     "CRISPR": by(g[g.type == "crispr"]), "oriC": by(g[g.type == "oriC"]),
