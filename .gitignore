@@ -241,3 +241,6 @@ wetland/dram2/results/residual/
 # Bakta (wetland/bakta): residual-output tarballs + per-MAG tables pulled for the merge (listed in RESIDUAL_MANIFEST.tsv)
 wetland/bakta/results/residual/
 wetland/bakta/results/runs_tsv/
+# Bakta coding + non-coding gene table of the 1,184 reps (122 MB gz; built by wetland/bakta/merge_bakta.py) and its log
+wetland/bakta/results/bakta_genes_all.tsv.gz
+wetland/bakta/results/merge.log

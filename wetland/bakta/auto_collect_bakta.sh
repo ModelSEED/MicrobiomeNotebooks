@@ -49,11 +49,11 @@ while :; do
 done
 
 # 2. bundle on poplar
-rsh "mkdir -p $BUN && cd $P/runs && ls -d */ | sed 's#/##' | sort > $BUN/mags.txt && split -l 100 -d -a 2 $BUN/mags.txt $BUN/grp_ && \
+timeout 14400 ssh -o BatchMode=yes poplar "mkdir -p $BUN && cd $P/runs && ls -d */ | sed 's#/##' | sort > $BUN/mags.txt && split -l 100 -d -a 2 $BUN/mags.txt $BUN/grp_ && \
      for g in $BUN/grp_*; do b=bakta_runs_\$(basename \$g | sed 's/grp_//'); [ -s $BUN/\$b.tar.gz ] || \
        { tar -cf - -T \$g | pigz -p 32 > $BUN/\$b.tar.gz.tmp && mv $BUN/\$b.tar.gz.tmp $BUN/\$b.tar.gz; }; done && \
      (cd $P && tar -cf - logs bakta.events run_bakta_reps.sh launch_after_db_copy.sh copy_db_parallel.sh reps.txt | pigz -p 8 > $BUN/bakta_logs_scripts.tar.gz) && \
-     cd $BUN && sha256sum *.tar.gz > SHA256SUMS" || { log "FAIL bundling"; exit 1; }
+     cd $BUN && sha256sum *.tar.gz > SHA256SUMS" < /dev/null || { log "FAIL bundling"; exit 1; }   # (bundling ~50 GB takes ~50 min: own 4 h timeout)
 log "bundled: $(rsh "ls $BUN/*.tar.gz | wc -l; du -sh $BUN | cut -f1" | tr '\n' ' ')"
 # 3. pull + verify; per-MAG tables for the merge
 D=$H/results/residual; mkdir -p "$D" "$H/results/runs_tsv"
