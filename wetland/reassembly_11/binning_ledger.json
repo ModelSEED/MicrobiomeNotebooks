@@ -9,7 +9,9 @@
   "CONCOCT": [
    "6afcd3fbb3a2d40340bd922e"
   ],
-  "DASTool": []
+  "DASTool": [
+   "6afdd831b3a2d40340bd9290"
+  ]
  },
  "SRR12172649": {
   "MetaBAT2": [
@@ -21,7 +23,9 @@
   "CONCOCT": [
    "6afcd3fceacecf21bd99b8d6"
   ],
-  "DASTool": []
+  "DASTool": [
+   "6afe258bb3a2d40340bd9307"
+  ]
  },
  "SRR12951270": {
   "MetaBAT2": [
@@ -33,7 +37,9 @@
   "CONCOCT": [
    "6afcd3fdb3a2d40340bd9230"
   ],
-  "DASTool": []
+  "DASTool": [
+   "6afe258beacecf21bd99bc47"
+  ]
  },
  "SRR13021855": {
   "MetaBAT2": [
@@ -45,7 +51,9 @@
   "CONCOCT": [
    "6afcd3feeacecf21bd99b8d9"
   ],
-  "DASTool": []
+  "DASTool": [
+   "6afe56c7d5afcc4c3388520c"
+  ]
  },
  "SRR4242551": {
   "MetaBAT2": [
@@ -57,7 +65,9 @@
   "CONCOCT": [
    "6afcd3feeacecf21bd99b8db"
   ],
-  "DASTool": []
+  "DASTool": [
+   "6afe3aa44694a2f6923c86e1"
+  ]
  },
  "SRR5817588": {
   "MetaBAT2": [
@@ -69,7 +79,9 @@
   "CONCOCT": [
    "6afcd3ffd5afcc4c33884f22"
   ],
-  "DASTool": []
+  "DASTool": [
+   "6afe3aa5d5afcc4c338851d8"
+  ]
  },
  "SRR5817589": {
   "MetaBAT2": [
@@ -81,7 +93,9 @@
   "CONCOCT": [
    "6afcd400df018b49cdedc68d"
   ],
-  "DASTool": []
+  "DASTool": [
+   "6afe4fbed5afcc4c338851ff"
+  ]
  },
  "SRR5817590": {
   "MetaBAT2": [
@@ -93,7 +107,9 @@
   "CONCOCT": [
    "6afcd4014694a2f6923c8500"
   ],
-  "DASTool": []
+  "DASTool": [
+   "6afe4fbeeacecf21bd99bca7"
+  ]
  },
  "SRR6193119": {
   "MetaBAT2": [
@@ -105,7 +121,9 @@
   "CONCOCT": [
    "6afcd4014694a2f6923c8502"
   ],
-  "DASTool": []
+  "DASTool": [
+   "6afe96114694a2f6923c8720"
+  ]
  },
  "SRR6307338": {
   "MetaBAT2": [
@@ -117,7 +135,9 @@
   "CONCOCT": [
    "6afcd402ba42583b786ffdfe"
   ],
-  "DASTool": []
+  "DASTool": [
+   "6afec74beacecf21bd99bdd8"
+  ]
  },
  "SRR8554905": {
   "MetaBAT2": [
@@ -129,6 +149,8 @@
   "CONCOCT": [
    "6afcd403d5afcc4c33884f26"
   ],
-  "DASTool": []
+  "DASTool": [
+   "6afe9612eacecf21bd99bd54"
+  ]
  }
 }
