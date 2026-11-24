@@ -19,7 +19,7 @@ import pandas as pd
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "skani_sweep")
 CEN = os.path.join(HERE, "..", "census", "outputs")
-RESCAN_NOVEL = os.path.expanduser("~/gtdbtk_kbase/census_rescan_noindex/skani_vs_novel_all_representatives.tsv")
+RESCAN_NOVEL = os.path.expanduser("~/gtdbtk_kbase/census_compute_run4/skani_vs_novel_all_representatives.tsv")   # brute-force, all 13,164
 REMOTE = "poplar:/scratch/afreiburger/wetland_kbdl_build"
 os.makedirs(OUT, exist_ok=True)
 stage = tempfile.mkdtemp(prefix="skani_sweep_")
