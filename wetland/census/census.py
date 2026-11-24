@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Weisenhorn wetland MAG census (handoff Phase 3, as revised after verification on 2026-11-13).
 
-Population: the 12,859 MAGs of KBase narrative 272312 (DAS Tool SCG >= 50% complete / < 10% contaminated, extracted by
-MetagenomeUtils; FASTAs = ~/gtdbtk_kbase/genomes, manifest all_manifest_run3_merged.tsv).
+Population: the 13,164 MAGs of KBase narrative 272312 (DAS Tool SCG >= 50% complete / < 10% contaminated, extracted by
+MetagenomeUtils; FASTAs = ~/gtdbtk_kbase/genomes, manifest all_manifest_run4_merged.tsv). Run 4 (2026-11-24) added 305
+MAGs from the 11 libraries re-assembled on 2026-11-15/16; the census of 2026-11-13 covered the first 12,859 (run 3 paths).
 
 Species rule (GTDB's, as applied by GTDB-Tk): ANI >= the reference's radius (95.0 here) AND max(AF_ref, AF_query) >= 50%.
   1. GTDB side: local GTDB-Tk 2.8.0 / GTDB R232 (classify summaries). A MAG with an R232 species belongs to that cluster.
@@ -31,9 +32,9 @@ import pandas as pd
 CD, OUT = sys.argv[1], sys.argv[2]
 os.makedirs(OUT, exist_ok=True)
 H = "/home/freiburger/gtdbtk_kbase/"
-SUMM = [H + "merged_run3/gtdbtk_run3/classify/gtdbtk.bac120.summary.tsv",
-        H + "merged_run3/gtdbtk_run3/classify/gtdbtk.ar53.summary.tsv"]
-MANIFEST = H + "all_manifest_run3_merged.tsv"
+SUMM = [H + "merged_run4/gtdbtk_run4/classify/gtdbtk.bac120.summary.tsv",
+        H + "merged_run4/gtdbtk_run4/classify/gtdbtk.ar53.summary.tsv"]
+MANIFEST = H + "all_manifest_run4_merged.tsv"
 CHECKM1 = H + "narrative_run/checkm_all_MAGs.tsv"
 POOL = H + "narrative_run/mag_annotation_pool.json"
 META = "/home/freiburger/Documents/MicrobiomeNotebooks/wetland/Sample_metadata_wetland_only.csv"

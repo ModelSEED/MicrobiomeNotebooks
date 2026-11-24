@@ -181,8 +181,31 @@ if not db.execute("SELECT count(*) FROM archives").fetchone()[0]:
         db.execute("INSERT INTO archives(name, phase, n, pred_s, state, updated) VALUES(?,?,?,?,'planned',?)",
                    (name, ph, n, ps, now()))
     db.commit()
+else:   # append-only plan extension (2026-11-24: the 305 MAGs of run 4 -> archives A0517-A0529)
+    have = {m: (a_, h_) for m, a_, h_ in db.execute("SELECT mag, archive, predicted_hash FROM members")}
+    known_arch = {r[0] for r in db.execute("SELECT name FROM archives")}
+    add, add_arch = [], {}
+    for name, phase, mag, member, h, bp, nc, pred in plan:
+        if mag in have:
+            if have[mag] != (name, h):
+                sys.exit(f"plan changed an existing member: {mag} {have[mag]} -> {(name, h)}; refusing")
+            continue
+        if name in known_arch:
+            sys.exit(f"plan adds member {mag} to an archive already in the ledger ({name}); refusing")
+        add.append((mag, name, h, int(bp), int(nc)))
+        ph = phase if phase in ("canary", "pilot") else "bulk"
+        add_arch.setdefault(name, [ph, 0, 0.0])
+        add_arch[name][1] += 1
+        add_arch[name][2] += float(pred)
+    if add:
+        db.executemany("INSERT INTO members(mag, archive, predicted_hash, bp, n_contigs) VALUES(?,?,?,?,?)", add)
+        for name, (ph, n, ps) in add_arch.items():
+            db.execute("INSERT INTO archives(name, phase, n, pred_s, state, updated) VALUES(?,?,?,?,'planned',?)",
+                       (name, ph, n, ps, now()))
+        db.commit()
+        print(f"plan extension: {len(add)} members in {len(add_arch)} new archives", flush=True)
 n_m = db.execute("SELECT count(*), count(DISTINCT mag) FROM members").fetchone()
-assert n_m == (12859, 12859), n_m
+assert n_m == (len(plan), len(plan)), (n_m, len(plan))
 SKANI_DB = a.skani_db or kv_get("skani_db")
 if SKANI_DB and kv_get("skani_db") and kv_get("skani_db") != SKANI_DB:
     sys.exit(f"--skani-db {SKANI_DB} differs from the one this run was started with ({kv_get('skani_db')}); refusing")
