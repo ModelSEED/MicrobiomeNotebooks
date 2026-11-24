@@ -1,0 +1,91 @@
+{
+ "yields_mmol_CH4_per_g": {
+  "MePn ratio 0.07 (median)": 0.04324100380500995,
+  "MePn ratio 0.33 (median)": 0.16399998328195237,
+  "MePn only P source (median)": 0.6609696295908863,
+  "Betaine TMA per g (range)": [
+   48.048525682078775,
+   191.80058346393383
+  ],
+  "Methanogen methylamines": 126.47214780294321,
+  "methanogen_k_source": "curated model (MMA, DMA and TMA give the same k)"
+ },
+ "ranking_spearman_exact": {
+  "MePn, ratio 0.07": [
+   0.028571428571428574,
+   1.0
+  ],
+  "MePn, ratio 0.33": [
+   0.028571428571428574,
+   1.0
+  ],
+  "MePn, only P source": [
+   0.028571428571428574,
+   1.0
+  ],
+  "Betaine, 0.06 CH4 per TMA": [
+   -0.2571428571428572,
+   0.6583333333333333
+  ],
+  "Betaine, 2.25 CH4 per TMA": [
+   -0.2571428571428572,
+   0.6583333333333333
+  ],
+  "Methanogen, methylamines": [
+   -0.4285714285714286,
+   0.41944444444444445
+  ]
+ },
+ "doubling_time_h_range": {
+  "Betaine, 0.06 CH4 per TMA": {
+   "min": 0.999,
+   "max": 34.756
+  },
+  "Betaine, 2.25 CH4 per TMA": {
+   "min": 37.471,
+   "max": 1303.369
+  },
+  "MePn, only P source": {
+   "min": 0.513,
+   "max": 3.784
+  },
+  "MePn, ratio 0.07": {
+   "min": 0.034,
+   "max": 0.248
+  },
+  "MePn, ratio 0.33": {
+   "min": 0.127,
+   "max": 0.939
+  },
+  "Methanogen, methylamines": {
+   "min": 0.883,
+   "max": 37.85
+  }
+ },
+ "mu_required_range": {
+  "Betaine, 0.06 CH4 per TMA": {
+   "min": 0.0199,
+   "max": 0.6937
+  },
+  "Betaine, 2.25 CH4 per TMA": {
+   "min": 0.0005,
+   "max": 0.0185
+  },
+  "MePn, only P source": {
+   "min": 0.1832,
+   "max": 1.3506
+  },
+  "MePn, ratio 0.07": {
+   "min": 2.8004,
+   "max": 20.6444
+  },
+  "MePn, ratio 0.33": {
+   "min": 0.7384,
+   "max": 5.4432
+  },
+  "Methanogen, methylamines": {
+   "min": 0.0183,
+   "max": 0.7848
+  }
+ }
+}

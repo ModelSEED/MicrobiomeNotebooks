@@ -1,0 +1,13 @@
+{
+ "MMA": 126.47214780294321,
+ "DMA": 126.47214780294318,
+ "TMA": 126.47214780294318,
+ "methylamines": 126.47214780294321,
+ "coupling_range": [
+  119.54514025329289,
+  159.06583954516807
+ ],
+ "methanol": null,
+ "source": "models/reports/methanogen/R1_A_D1__concoct.bin.007__curated.validation.json (curate_methanogen.py)",
+ "note": "no MtaB/MtaC in the genome: the curated model cannot use methanol"
+}

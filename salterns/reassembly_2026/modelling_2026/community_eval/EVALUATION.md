@@ -180,3 +180,27 @@ This removes the hidden 1 h⁻¹. On that framing:
 - methylotrophic methanogenesis by the detected *Methanolobus* can, at moderate activity, from the standing methylated-substrate pools.
 
 This bears directly on the manuscript's central claim and is for the authors to decide.
+
+### Correction (2026-11-24, later): curated methanogen model
+
+The methanogen numbers above came from the KOfam-arm builds growing on methanol. That growth is an artefact:
+- it rests on a lumped methanol:CoM reaction added on the MtaA KO alone;
+- CH4 is made by running a gene-less F420-reducing hydrogenase (Frh) backwards.
+
+The *Methanolobus* genome has no MtaB or MtaC, so it cannot use methanol.
+
+**The curated model** (`models/methanogen/CURATION.md`) is methanogenic on mono-, di- and trimethylamine at k = 126.5 mmol CH4 per g biomass formed (119.5–159.1 across published ion couplings). With it, and the measured biomass (`methanogen_test_curated.tsv`; `simulations/specific_rates.tsv`):
+
+| Core | *Methanolobus* doubling time needed (h) | Methylamine-pool turnover needed (d) |
+|---|---|---|
+| R1_A | 38 | 2.9 |
+| R1_B | 4.2 | 1.2 |
+| R1_C | 11 | 3.4 |
+| R2_A | 0.9 | 0.9 |
+| R2_B | 1.0 | 1.5 |
+| R2_C | 1.5 | 3.1 |
+
+- **Ranking:** methanogen biomass × methylamine CH4 potential vs measured CH4 gives ρ = −0.31 (p = 0.56).
+- **Model yield:** the model's 7.9 g mol⁻¹ is at the efficient end of published yields (1.8–7.3 g mol⁻¹). Published yields would lower the required growth rates up to fourfold.
+- **Biomass:** these figures still rest on the single *Methanolobus* MAG species. The read-based *mcrA* survey (`../read_markers/`, running) will show whether other methanogens add biomass.
+

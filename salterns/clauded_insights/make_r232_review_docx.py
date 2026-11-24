@@ -21,9 +21,10 @@ The 2026-10-26 revision adds the tracked edits listed in r232_review_edits_2026-
 - the R232 reclassification of the two Halomonas isolates (../MAG_QC/gtdbtk_isolates_r232/);
 - smaller corrections.
 
-It also replaces Figure 7 with figure7_r232.png (figure7_r232.py); since 2026-11-23 with figure7_final.png
-(reassembly_2026/modelling_2026/simulations/figure7_final.py), from the 2026 guild models of the final MAG set, and the
-modelling text comes from r232_review_edits_2026-11-23.json (make_modelling_edits_2026-11-23.py).
+It also replaces Figure 7 with figure7_r232.png (figure7_r232.py); since 2026-11-24 with figure7_pergram.png
+(reassembly_2026/modelling_2026/simulations/figure7_pergram.py), the per-gram framing of the 2026 guild models, and the
+modelling text comes from r232_review_edits_2026-11-24.json (make_modelling_edits_2026-11-24.py, layered on the frozen
+r232_review_edits_2026-11-23.json).
 """
 import copy
 import json
@@ -44,14 +45,14 @@ S = HERE.parent
 R = S / "correlational" / "r232"            # the 310 original MAGs, GTDB R232 labels
 RF = S / "correlational" / "final585"       # the re-assembled MAG set (585 species): abundance, guilds, co-occurrence
 DATE_FINAL585 = "2026-11-20T00:00:00Z"      # correlational analyses moved to the re-assembled MAG set
-DATE_MODELS = "2026-11-23T00:00:00Z"        # modelling text, equations and Figure 7 from the 2026 guild models
+DATE_MODELS = "2026-11-24T00:00:00Z"        # per-gram modelling text, equation deletions and Figure 7 (2026 guild models)
 SIMF = S / "reassembly_2026" / "modelling_2026" / "simulations"
 OUT = S / "Metabolic Manuscript - R232 review (tracked changes).docx"
 AUTHOR, INITIALS, DATE = "Claude (R232 review)", "CR", "2026-10-26T00:00:00Z"
 DATE_MEPN_REPAIR = "2026-11-08T00:00:00Z"
 DATE_REASSEMBLY = "2026-11-19T00:00:00Z"   # re-assembly / re-binning / annotation additions (reassembly_2026/)   # edits revised for the MePn-obligate model repair (mepn_obligacy_check/)
 EDITS = HERE / "r232_review_edits_2026-10-26.json"
-EDITS_1117 = HERE / "r232_review_edits_2026-11-23.json"   # for the 2026-11-17 mirror (Abstract split; see that file's note)
+EDITS_1117 = HERE / "r232_review_edits_2026-11-24.json"   # for the 2026-11-17 mirror (Abstract split; see that file's note)
 _ids = iter(range(7000, 999999))
 CONTENT = {qn(t) for t in ("w:t", "w:tab", "w:br", "w:drawing", "w:pict", "w:sym", "w:footnoteReference")}
 MARKUP = re.compile(r"(\*[^*]+\*|\^[^^]+\^|~[^~]+~)")
@@ -1053,7 +1054,8 @@ def main(merged):
          f"with a RAST *grdH* call among the original MAGs are in this guild; *grdH* counted after reading through the "
          f"selenocysteine codon; all {MODN['bet']} modeled"],
         ["Methanogens", "*mcrA*", f"{nsp['methanogen']} ({nmg['methanogen']})", compress(guild["methanogen"]) + " (sp020055655)",
-         "Also carries the methylamine methyltransferases (*mttB*, *mtbB*, *mtmB*)"],
+         "Also carries the methylamine methyltransferases (*mttB*, *mtbB*, *mtmB*); no *mtaB*/*mtaC* (methanol). "
+         "Modeled after curation (methanogenic on methylamines)"],
         ["TMA-route candidates", "*cutC* or *cntA* without its partner subunit", f"{nsp['tma_candidate_one_sided']} "
          f"({nmg['tma_candidate_one_sided']})", compress(guild["tma_candidate_one_sided"]),
          "No MAG carries *cutC* with *cutD* or *cntA* with *cntB*; not modeled"],
@@ -1084,7 +1086,7 @@ def main(merged):
     # ---- Figure 8 (replaced), Figure 9 (new), Figure S8 (replaced) ----------------------------------------------------------
     # Figure 7: single panel on the areal basis, betaine = nine grdH carriers (caption P129 in the edits JSON)
     delete_paragraph(P[128]._p)
-    picture_after(doc, P[128]._p, SIMF / "figure7_final.png", 5.6, img_pPr)
+    picture_after(doc, P[128]._p, SIMF / "figure7_pergram.png", 6.5, img_pPr)
     # Figure S10: core gap-filling of the 2026 drafts (reassembly_2026/modelling_2026/figureS10/figureS10_final.py);
     # its caption (P157) is rewritten by the edits JSON
     delete_paragraph(P[156]._p)
@@ -1176,18 +1178,17 @@ def main(merged):
 
     # ---- 2026-10-26 edits: modelling text and numbers, betaine set, Halomonas isolates, smaller corrections ------------------
     apply_edits(P, pending_comments, EDITS_1117 if P.shift else EDITS)
-    # fitted-line equations (Office Math): consistent areal-basis fits (modelling_consistent_basis_r232.json), units without 1/DNA
-    # MePn fits (P70, P72): the three MePn-obligate models repaired (MePn_*_20_repaired), dated with that revision
+    # equations (Office Math): the unit conversion (P39) and the three regression fits (P70, P72, P75) are tracked
+    # deletions (per-gram framing, 2026-11-24; see the P73 comment in r232_review_edits_2026-11-24.json)
     global DATE
-    CBF = json.load(open(SIMF / "consistent_basis_final.json"))["areal"]
-    newq = lambda k: (f"={num(CBF[k]['slope'], '.2f')}*methan", f"+{CBF[k]['intercept']:.0f} [")
-    assert all(CBF[k]["intercept"] > 0 for k in ("MePn_0.07_38", "MePn_0.33_38", "betaine_18"))
-    for i, slope, icpt, date in ((70, ("=0.51*methan", newq("MePn_0.07_38")[0]), ("+138 [", newq("MePn_0.07_38")[1]), DATE_MODELS),
-                                 (72, ("=0.95*methan", newq("MePn_0.33_38")[0]), ("+224 [", newq("MePn_0.33_38")[1]), DATE_MODELS),
-                                 (75, ("=0.24*methan", newq("betaine_18")[0]), ("+4632 [", newq("betaine_18")[1]), DATE_MODELS)):
-        DATE, keep = date, DATE
-        tracked_math_swap(P[i]._p, dict([slope, icpt, ("*day*", "*day")]), drop_fraction=("ug DNA", "g soil"))
-        DATE = keep
+    DATE, keep = DATE_MODELS, DATE
+    for i in (39, 70, 72, 75):
+        maths = P[i]._p.findall(".//" + M_NS + "oMath")
+        assert maths, f"no equation in P{i}"
+        for m in maths:
+            d = stamp(el("w:del")); m.addprevious(d); d.append(m)
+        delete_paragraph(P[i]._p)
+    DATE = keep
 
     # ---- 2026-11-16: re-assembly, re-binning and annotation of the metagenomes (reassembly_2026/) ---------------------------
     DATE, keep_date = DATE_REASSEMBLY, DATE
@@ -1214,7 +1215,10 @@ def main(merged):
         "MPn-consumer and betaine-reducer species of that set (curated ModelSEED templates, RAST annotation chosen by a "
         "pre-registered comparison); Figure 7, the modeling Methods and Results, and the modeling sentences of the Abstract, "
         "Discussion and Conclusions describe them, and the earlier repair of three MPn-obligate models no longer applies "
-        "(no new model needs MPn). Items flagged but not changed are in these comments; see the accompanying review notes."))
+        "(no new model needs MPn). The 2026-11-24 revision replaces the model-vs-measured comparison, which needed an assumed "
+        "growth rate (in effect 1 h⁻¹), with methane per gram of biomass formed and the growth each guild would need "
+        "(Figure 7), adds the curated Methanolobus model, and removes the regression equations. Items flagged but not "
+        "changed are in these comments; see the accompanying review notes."))
     for para, run_el, text in pending_comments:
         comment(doc, para, run_el, text)
     doc.save(OUT)

@@ -25831,10 +25831,11 @@
 "cpd01024_c0":-1
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"NODE_1821_length_19323_cov_3.402949_4 and NODE_1821_length_19323_cov_3.402949_3 and (NODE_1821_length_19323_cov_3.402949_2 or NODE_10142_length_4991_cov_3.597656_5)",
 "notes":{
-"modelseed_complex":"tcpx00404"
+"modelseed_complex":"tcpx00404",
+"salterns_2026_block":"closed 2026-11-24: gene is propane 2-monooxygenase (PrmA), not methane monooxygenase"
 },
 "annotation":{
 "sbo":"SBO:0000176",

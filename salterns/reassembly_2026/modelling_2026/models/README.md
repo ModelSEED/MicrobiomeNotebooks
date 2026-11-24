@@ -281,3 +281,26 @@ Pyr.SO3 failures come from a gap-filled assimilatory sulfite reductase used as a
 | mepn | `R2A_sediment__concoct.bin.189_sub` | (none) | Pseudomonadota | GramNeg V7 | 1051 | 180 | 0.020 | 2.17 / 2.00 | no | 0.0132 | 0 | 2/2 | 2/3 C–P lyase | yes |
 | mepn | `R2_restored_D_shore__concoct.bin.011_sub` | JASFMS01 | Pseudomonadota | GramNeg V7 | 1266 | 152 | 0.000 | 0.00 / 0.00 | no | 0.0000 | 0 | 4/4 | 3/3 C–P lyase | **dropped** |
 | methanogen | `R1_A_D1__concoct.bin.007` | Methanolobus | Halobacteriota | Archaea V6 | 718 | 104 | 0.418 | – | – | CH4 0.00 | 0 | 5/5 | 9/11 core | yes |
+
+## 2026-11-24 updates
+
+**Methanogen curated** (`methanogen/R1_A_D1__concoct.bin.007__curated.json`; `methanogen/CURATION.md`; `../pipeline/curate_methanogen.py`).
+- **Why the arm-A build makes no CH4.** No route reduces methanophenazine:
+  - Fpo was reverse-only, on the wrong F420 pool and moved no protons;
+  - hdrDE was unmapped;
+  - ATP correction had filtered the forward direction of Rnf.
+
+  So heterodisulfide was never recycled and Mcr carried no flux. The build instead grew as an acetogen (CODH/ACS plus AcdAB).
+- **The repair:** 19 gene-justified changes.
+- **Validation:**
+  - it is methanogenic on MMA, DMA and TMA, with textbook CH4/CO2/NH3 stoichiometry and no acetate;
+  - it makes no free ATP.
+- **Yield:** k = 126.5 mmol CH4 per g biomass formed, which is 7.9 g biomass per mol CH4. Published yields are 1.8–7.3, so the model sits at the efficient end. Across published ion couplings k ranges 119.5–159.1.
+- **Methanol:** the genome has no MtaB or MtaC (confirmed by a six-assembly HMM search), so the model cannot use methanol. The methanol growth of the KOfam-arm builds (annotation_comparison runs B–D) is an artefact.
+- **Yield file:** `methanogen/curation_k.json`.
+
+**PrmA block** (`../pipeline/apply_prma_block.py`).
+- **Change:** rxn00844 is closed in both *Roseovarius* models that carry the RAST "methane monooxygenase" gene (`R2_restored_C_black__metabat2.bin.011_sub`, `R2_B_D2__metabat2.bin.006_sub`).
+- **Evidence:** the gene is propane 2-monooxygenase (PrmA). Its KOfam PrmA score is 1016 against 744 for MmoX. It shares 65 % identity with PrmA and 32–34 % with MmoX, and sits in a prmABCD operon. Details: CURATION.md.
+- **Effect:** *Roseovarius*.2 now releases its MePn-derived methane.
+- **MANIFEST.md5 is stale** for these two files; their new md5s are printed by the script.
