@@ -123,6 +123,9 @@ The Google Doc changed on 2026-11-16 and 2026-11-17 (Drive modifiedTime 2026-11-
 - **Figures 7, 8, 9, S8 and S11:** each embedded image is byte-identical to the current PNG. Figure S11 was regenerated and came out byte-identical, because its guilds input had been rewritten after it with the same content.
 - **Figure S10 is regenerated** (`reassembly_2026/modelling_2026/figureS10/`): the core gap-filling per ATP test medium of the 2026 drafts. Its caption is rewritten.
 - **P37 claim corrected:** aerobic L-lactate is the cheapest medium for the MePn consumers but ranks 16th of 22 for the betaine reducers. A comment notes that the betaine models are aerobic although the organisms are anaerobic fermenters.
+- **Google Doc suggestion test (2026-11-24):** one test suggestion was made through the Docs API with `writeMode: SUGGEST` from Andrew's commenter-only account. It changes Methods P37 "(see Figure **S9**)" to "**S10**": the 9 is a suggested deletion and "10" a suggested insertion, both bold, id `suggest.hzsyv3lhfhtb`. It was verified in a fresh `read_doc`, so suggestions work.
+  - The Doc changed again on 2026-11-23 at 22:40Z (4:40 PM CST): Andrew rewrote Introduction P24 and added "in triplicate" to the Methods field-sites paragraph (P27). The mirror must be re-synced before the batch.
+  - The batch is held until the modelling magnitudes are reframed with an explicit growth rate (`community_eval/EVALUATION.md` §5).
 - **Community-modelling evaluation** (`reassembly_2026/modelling_2026/community_eval/EVALUATION.md`): porting the EmilyKin or codiffusion_bioreactor pipelines is not recommended.
   - No measured input ranks the six cores' methane.
   - Two DNA depths read 0.16 µg g⁻¹ and need checking.
