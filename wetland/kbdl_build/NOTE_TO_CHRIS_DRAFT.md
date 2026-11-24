@@ -1,4 +1,4 @@
-Draft note to Chris Henry: Weisenhorn wetland MAG integration (from Andrew; edit before sending)
+Note to Chris Henry: Weisenhorn wetland MAG integration (from Andrew). SENT by Andrew on the evening of 2026-11-23; this is the draft as committed, and the sent text may differ if edited before sending.
 
 Hi Chris. I've taken over the wetland MAG integration from your 2026-11-11 handoff. One request is blocking, and there are
 a few questions.
