@@ -27,7 +27,7 @@ os.makedirs(OUT, exist_ok=True)
 q = pd.read_csv(QR, sep="\t")
 ids = pd.read_csv(os.path.join(CD, "mag_iterativeIDs.tsv"), sep="\t").set_index("mag")
 cen = pd.read_csv(os.path.join(CD, "mag_census.tsv"), sep="\t").set_index("mag")
-assert len(q) == 12859 and set(q.Name) == set(ids.index), "CheckM2 table must cover exactly the 12,859 MAGs"
+assert len(q) == len(ids) and set(q.Name) == set(ids.index), "CheckM2 table must cover exactly the census MAGs"
 need = {"Completeness_General", "Completeness_Specific", "Completeness_Model_Used", "Contamination"}
 assert need <= set(q.columns), f"not an --allmodels report: missing {need - set(q.columns)}"
 q.insert(1, "iterativeID", q.Name.map(ids.iterativeID))
