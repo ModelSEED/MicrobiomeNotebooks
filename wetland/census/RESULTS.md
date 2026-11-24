@@ -1,5 +1,32 @@
 # Weisenhorn wetland MAG census: results (2026-11-13)
 
+> **Update, 2026-11-24 (run 4).** The 11 libraries that were re-assembled on 2026-11-15/16 added **305 MAGs**, so
+> `outputs/` now covers **13,164 MAGs from 713 assemblies**. The numbers in the prose below are the 12,859-MAG
+> census of 2026-11-13. The current numbers are in `outputs/headline.json`, built by `census_run4.py` with the same
+> rules and tools. Its checks are in `~/gtdbtk_kbase/census_run4_out/run4_vs_run3.json`.
+>
+> **What changed:**
+> - **The 305 new MAGs:**
+>   - 161 are in an R232 species and 144 are de novo;
+>   - 158 joined existing species clusters and 147 founded new ones;
+>   - each has CheckM2 1.1.0 (`--allmodels`) and brute-force reference searches.
+> - **Totals:**
+>   - species clusters 6,064 → 6,198 (R232 1,893 → 1,908; de novo 4,171 → 4,290);
+>   - strain clusters 6,889 → 7,046;
+>   - MAGs in an R232 species 6,497 → 6,658 (50.5% → 50.6%);
+>   - sites 83 → 85;
+>   - MAGs with a novel_all_representatives species-level hit 2,707 → 2,837.
+> - **Stability for the original 12,859:**
+>   - the skani triangle over all 13,164 reproduces their part exactly;
+>   - every iterativeID is unchanged (the 305 got the next free numbers);
+>   - 14 changed species-cluster label, of which only 4 changed cluster membership (the rest are de novo cluster IDs
+>     re-derived from a new, alphabetically first member);
+>   - 34 changed strain label.
+> - **Representative worklist:** 5,356 → 5,465.
+>   - 139 added; 30 dropped, each replaced by a higher-scoring run-4 MAG in the same cluster.
+>   - 12 of the 30 dropped are in the 1,184-MAG set that DRAM2 and Bakta annotated (`dram2_hq_multisample.tsv`).
+>   - That set is kept as annotated; it is not re-derived from the run-4 worklist.
+
 This covers handoff Phases 3–5 as revised in `HANDOFF_REVIEW.md`:
 - **Population:** the 12,859 MAGs of KBase narrative 272312, from 702 of the 770 metagenome assemblies.
 - **Quality:** CheckM2 1.1.0 for every MAG.
