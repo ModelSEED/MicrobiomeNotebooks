@@ -1,0 +1,948 @@
+{
+ "tag": "R2_sediment__metabat2.bin.154__mepn_consumer__A",
+ "mag_id": "R2_sediment__metabat2.bin.154",
+ "guild": "mepn_consumer",
+ "arm": "A",
+ "arm_sources": [],
+ "status": "error",
+ "solver": "gurobi",
+ "versions": {
+  "cobra": "0.29.1",
+  "modelseedpy": "0.4.3",
+  "modelseedpy_file": "/home/andrew/venvs/salterns_modelling/lib/python3.12/site-packages/modelseedpy/__init__.py",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]"
+ },
+ "domain": "Bacteria",
+ "phylum": "Pseudomonadota",
+ "family": "Inquilinaceae",
+ "genus": "JAAAOG01",
+ "template_file": "GramNegModelTemplateV7.json",
+ "template_rule": "Bacteria, other phylum (Pseudomonadota) -> GramNegModelTemplateV7",
+ "template_md5": "358a9119d63430c21e7be32a0040bbe5",
+ "core_template_md5": "7ab51b2bc12136c066349c92c0e0bb07",
+ "msdb": "/home/andrew/tf_runs/salterns_modelling/src/ModelSEEDDatabase",
+ "draft": {
+  "n_reactions": 920,
+  "n_metabolites": 977,
+  "n_genes": 691,
+  "n_gene_associated": 822,
+  "n_rast_supported": 822,
+  "n_extra_supported": 0,
+  "n_extra_only": 0,
+  "n_template_rxns_with_extra_evidence": 0,
+  "n_bakta_extra_genes_used": 0
+ },
+ "guild_pathway": {
+  "reactions": {
+   "rxn26456_c0": "PhnGHIL",
+   "rxn26457_c0": "PhnM",
+   "rxn26459_c0": "PhnJ C-P lyase"
+  },
+  "gene_supported": {
+   "rxn26456_c0": true,
+   "rxn26457_c0": true,
+   "rxn26459_c0": true
+  },
+  "fraction": 1.0,
+  "evidence": {
+   "rxn26456_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn26457_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn26459_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   }
+  }
+ },
+ "protocol": {
+  "cell5_disabled": [
+   "rxn23850_c0"
+  ],
+  "cell5_lb0": [
+   "rxn09188_c0",
+   "rxn00929_c0",
+   "rxn00499_c0",
+   "rxn08934_c0",
+   "rxn08941_c0",
+   "rxn08935_c0",
+   "rxn08942_c0",
+   "rxn14415_c0"
+  ],
+  "cell5_H_fixed": [],
+  "rxs43120_c_balance": {},
+  "rxs00001_c_balance": {},
+  "rxn26447_c_balance_before": {},
+  "rxn26447_c_H_fix": null,
+  "template_removed": [
+   "rxn23850_c",
+   "rxn09193_c",
+   "rxn05315_c",
+   "rxn05206_c"
+  ],
+  "template_lb0": [
+   "rxn09188_c",
+   "rxn00929_c",
+   "rxn00145_c",
+   "rxn00499_c",
+   "rxn00146_c",
+   "rxn08934_c",
+   "rxn08941_c",
+   "rxn08935_c",
+   "rxn08942_c",
+   "rxn11942_c",
+   "rxn11941_c",
+   "rxn11940_c",
+   "rxn04159_c",
+   "rxn04705_c",
+   "rxn14415_c",
+   "sul00003_c",
+   "rxn48579_c"
+  ],
+  "mepn_hand_added": [
+   "rxn05602_c0",
+   "rxs00001_c0",
+   "rxs43120_c0",
+   "rxn26447_c0",
+   "rxn04651_c0"
+  ],
+  "phn_transport_genes": {
+   "PhnC": 1,
+   "PhnD": 1,
+   "PhnE": 1
+  },
+  "rxs00001_gpr": "k127_3126987_3 and k127_3487477_2 and k127_3487477_3",
+  "rxs43120_gpr": "k127_3145438_4"
+ },
+ "draft_free_atp_before_atp_correction": {
+  "water_H": 0.0,
+  "salts_O2": 0.0,
+  "salts_NO3": 0.0
+ },
+ "atp_correction": {
+  "selected_media": [
+   "Etho.O2",
+   "LLac.O2"
+  ],
+  "n_tests": 3,
+  "tests": [
+   {
+    "media": "empty",
+    "threshold": 1e-05
+   },
+   {
+    "media": "Etho.O2",
+    "threshold": 6.8999999999999995
+   },
+   {
+    "media": "LLac.O2",
+    "threshold": 2.85
+   }
+  ],
+  "core_gapfilling": [],
+  "expansion_filtered": [
+   [
+    "rxn00691_c0: cpd00001_c0 + cpd00201_c0 --> cpd00047_c0 + cpd00067_c0 + cpd00087_c0",
+    ">"
+   ],
+   [
+    "rxn00154_c0: cpd00003_c0 + cpd00010_c0 + cpd00020_c0 <-- cpd00004_c0 + cpd00011_c0 + cpd00022_c0",
+    ">"
+   ]
+  ],
+  "reactions_added": [],
+  "reactions_removed": [
+   "rxn00691_c0"
+  ],
+  "free_atp_after": {
+   "water_H": 0.0,
+   "salts_O2": 0.0,
+   "salts_NO3": 0.0
+  }
+ },
+ "gapfill_1": {
+  "medium": "lactate_Pi_noMePn",
+  "target": "bio1",
+  "minimum_obj": null,
+  "solution_found": true,
+  "gfmodel_solver_status_if_failed": null,
+  "solution": {
+   "new": {
+    "EX_cpd00305_e0": "<",
+    "EX_cpd00048_e0": "<",
+    "EX_cpd00063_e0": "<",
+    "rxn08230_c0": ">",
+    "rxn00877_c0": "<",
+    "rxn12008_c0": "<",
+    "rxn04681_c0": ">",
+    "rxn08333_c0": ">",
+    "rxn00738_c0": "<",
+    "rxn02898_c0": ">",
+    "rxn10336_c0": ">",
+    "rxn02504_c0": ">",
+    "rxn05040_c0": ">",
+    "rxn08223_c0": ">",
+    "rxn05235_c0": ">",
+    "rxn01331_c0": ">",
+    "rxn01203_c0": "<",
+    "rxn00953_c0": ">",
+    "rxn05459_c0": ">",
+    "rxn00128_c0": "<",
+    "rxn01048_c0": ">",
+    "rxn06493_c0": ">",
+    "rxn00152_c0": ">",
+    "rxn00867_c0": ">",
+    "rxn09209_c0": ">",
+    "rxn00902_c0": "<",
+    "rxn01640_c0": ">",
+    "rxn00068_c0": "<",
+    "rxn00762_c0": "<",
+    "rxn02264_c0": ">",
+    "rxn09135_c0": "<",
+    "rxn05514_c0": "<",
+    "rxn09138_c0": ">",
+    "rxn09888_c0": ">",
+    "rxn00300_c0": ">",
+    "rxn00433_c0": ">",
+    "rxn10213_c0": ">",
+    "rxn05229_c0": ">",
+    "rxn11934_c0": "<",
+    "rxn02404_c0": ">",
+    "rxn05039_c0": ">",
+    "rxn09180_c0": ">",
+    "rxn03891_c0": ">",
+    "rxn10204_c0": ">",
+    "rxn01643_c0": "<",
+    "rxn00830_c0": ">",
+    "rxn02175_c0": ">",
+    "rxn02774_c0": ">",
+    "rxn01454_c0": "<",
+    "rxn01868_c0": ">",
+    "rxn07964_c0": ">",
+    "rxn01501_c0": "<",
+    "rxn03080_c0": ">",
+    "rxn00737_c0": ">",
+    "rxn01256_c0": ">",
+    "rxn03040_c0": ">",
+    "rxn01444_c0": ">",
+    "rxn01146_c0": "<",
+    "rxn01642_c0": ">",
+    "rxn01478_c0": ">",
+    "rxn09163_c0": ">",
+    "rxn02366_c0": ">",
+    "rxn01000_c0": ">",
+    "rxn03397_c0": ">",
+    "rxn00979_c0": ">",
+    "rxn03055_c0": ">",
+    "rxn09155_c0": ">",
+    "rxn00966_c0": "<",
+    "rxn08528_c0": ">",
+    "rxn09201_c0": ">",
+    "rxn09106_c0": ">",
+    "rxn02028_c0": ">",
+    "rxn00829_c0": ">",
+    "rxn00868_c0": "<",
+    "rxn09113_c0": ">",
+    "rxn10626_c0": ">",
+    "rxn01607_c0": ">",
+    "rxn00137_c0": ">",
+    "rxn06023_c0": ">",
+    "rxn03643_c0": ">",
+    "rxn10094_c0": ">",
+    "rxn04139_c0": ">",
+    "rxn01508_c0": ">",
+    "rxn02939_c0": ">",
+    "rxn00048_c0": ">",
+    "rxn01025_c0": ">",
+    "rxn09102_c0": ">",
+    "rxn02475_c0": ">",
+    "rxn00440_c0": ">",
+    "rxn01986_c0": "<",
+    "rxn03150_c0": ">",
+    "rxn00784_c0": "<",
+    "rxn02285_c0": "<",
+    "rxn03087_c0": "<",
+    "rxn01213_c0": ">",
+    "rxn02085_c0": "<",
+    "rxn05153_c0": ">",
+    "rxn04684_c0": ">",
+    "rxn01143_c0": ">",
+    "rxn00899_c0": "<",
+    "rxn00502_c0": "<",
+    "rxn04706_c0": ">",
+    "rxn03841_c0": ">",
+    "rxn01257_c0": ">",
+    "rxn03393_c0": ">",
+    "rxn02322_c0": ">",
+    "rxn01332_c0": ">",
+    "rxn01859_c0": "<",
+    "rxn01790_c0": "<",
+    "rxn00077_c0": ">",
+    "rxn01541_c0": ">",
+    "rxn01446_c0": "<",
+    "rxn02056_c0": "<",
+    "rxn00134_c0": ">",
+    "rxn00851_c0": ">",
+    "rxn09109_c0": ">",
+    "rxn00288_c0": "<",
+    "rxn03394_c0": ">",
+    "rxn00338_c0": ">",
+    "rxn01071_c0": ">",
+    "rxn00744_c0": ">",
+    "rxn02008_c0": ">",
+    "rxn03904_c0": ">",
+    "rxn02287_c0": ">",
+    "rxn02831_c0": ">",
+    "rxn01258_c0": ">",
+    "rxn03041_c0": ">",
+    "rxn02832_c0": "<",
+    "rxn00193_c0": ">",
+    "rxn00033_c0": ">",
+    "rxn04682_c0": ">",
+    "rxn03644_c0": ">",
+    "rxn01141_c0": ">",
+    "rxn09072_c0": ">",
+    "rxn05177_c0": ">",
+    "rxn02474_c0": "<",
+    "rxn02929_c0": "<",
+    "rxn13477_c0": ">",
+    "rxn01226_c0": ">"
+   },
+   "reversed": {}
+  },
+  "integrated": {
+   "new": {
+    "EX_cpd00305_e0": "<",
+    "EX_cpd00048_e0": "<",
+    "EX_cpd00063_e0": "<",
+    "rxn08230_c0": ">",
+    "rxn00877_c0": "<",
+    "rxn12008_c0": "<",
+    "rxn04681_c0": ">",
+    "rxn08333_c0": ">",
+    "rxn00738_c0": "<",
+    "rxn02898_c0": ">",
+    "rxn10336_c0": ">",
+    "rxn02504_c0": ">",
+    "rxn05040_c0": ">",
+    "rxn08223_c0": ">",
+    "rxn05235_c0": ">",
+    "rxn01203_c0": "<",
+    "rxn00953_c0": ">",
+    "rxn05459_c0": ">",
+    "rxn00128_c0": "<",
+    "rxn01048_c0": ">",
+    "rxn00152_c0": ">",
+    "rxn00867_c0": ">",
+    "rxn09209_c0": ">",
+    "rxn00902_c0": "<",
+    "rxn01640_c0": ">",
+    "rxn00068_c0": "<",
+    "rxn02264_c0": ">",
+    "rxn09135_c0": "<",
+    "rxn05514_c0": "<",
+    "rxn09888_c0": ">",
+    "rxn00300_c0": ">",
+    "rxn00433_c0": ">",
+    "rxn10213_c0": ">",
+    "rxn05229_c0": ">",
+    "rxn02404_c0": ">",
+    "rxn05039_c0": ">",
+    "rxn09180_c0": ">",
+    "rxn03891_c0": ">",
+    "rxn01643_c0": "<",
+    "rxn00830_c0": ">",
+    "rxn02175_c0": ">",
+    "rxn02774_c0": ">",
+    "rxn01454_c0": "<",
+    "rxn01868_c0": ">",
+    "rxn07964_c0": ">",
+    "rxn01501_c0": "<",
+    "rxn03080_c0": ">",
+    "rxn01256_c0": ">",
+    "rxn03040_c0": ">",
+    "rxn01146_c0": "<",
+    "rxn01642_c0": ">",
+    "rxn01478_c0": ">",
+    "rxn09163_c0": ">",
+    "rxn02366_c0": ">",
+    "rxn01000_c0": ">",
+    "rxn03397_c0": ">",
+    "rxn00979_c0": ">",
+    "rxn03055_c0": ">",
+    "rxn09155_c0": ">",
+    "rxn00966_c0": "<",
+    "rxn08528_c0": ">",
+    "rxn09201_c0": ">",
+    "rxn09106_c0": ">",
+    "rxn02028_c0": ">",
+    "rxn00829_c0": ">",
+    "rxn00868_c0": "<",
+    "rxn09113_c0": ">",
+    "rxn10626_c0": ">",
+    "rxn01607_c0": ">",
+    "rxn00137_c0": ">",
+    "rxn06023_c0": ">",
+    "rxn03643_c0": ">",
+    "rxn10094_c0": ">",
+    "rxn04139_c0": ">",
+    "rxn01508_c0": ">",
+    "rxn00048_c0": ">",
+    "rxn01025_c0": ">",
+    "rxn02475_c0": ">",
+    "rxn00440_c0": ">",
+    "rxn01986_c0": "<",
+    "rxn03150_c0": ">",
+    "rxn00784_c0": "<",
+    "rxn02285_c0": "<",
+    "rxn03087_c0": "<",
+    "rxn01213_c0": ">",
+    "rxn02085_c0": "<",
+    "rxn05153_c0": ">",
+    "rxn04684_c0": ">",
+    "rxn01143_c0": ">",
+    "rxn00899_c0": "<",
+    "rxn00502_c0": "<",
+    "rxn04706_c0": ">",
+    "rxn03841_c0": ">",
+    "rxn01257_c0": ">",
+    "rxn03393_c0": ">",
+    "rxn02322_c0": ">",
+    "rxn01332_c0": ">",
+    "rxn01859_c0": "<",
+    "rxn01790_c0": "<",
+    "rxn00077_c0": ">",
+    "rxn01541_c0": ">",
+    "rxn02056_c0": "<",
+    "rxn00134_c0": ">",
+    "rxn00851_c0": ">",
+    "rxn03394_c0": ">",
+    "rxn00338_c0": ">",
+    "rxn01071_c0": ">",
+    "rxn00744_c0": ">",
+    "rxn02008_c0": ">",
+    "rxn03904_c0": ">",
+    "rxn02287_c0": ">",
+    "rxn02831_c0": ">",
+    "rxn01258_c0": ">",
+    "rxn03041_c0": ">",
+    "rxn02832_c0": "<",
+    "rxn00193_c0": ">",
+    "rxn00033_c0": ">",
+    "rxn04682_c0": ">",
+    "rxn03644_c0": ">",
+    "rxn01141_c0": ">",
+    "rxn05177_c0": ">",
+    "rxn02474_c0": "<",
+    "rxn02929_c0": "<",
+    "rxn13477_c0": ">"
+   },
+   "reversed": {},
+   "growth": 1.4009973827590356
+  },
+  "added_reactions": {
+   "rxn00033_c0": [
+    0,
+    100
+   ],
+   "rxn00048_c0": [
+    0,
+    100
+   ],
+   "rxn00068_c0": [
+    -100,
+    0
+   ],
+   "rxn00077_c0": [
+    0,
+    100
+   ],
+   "rxn00128_c0": [
+    -100,
+    0
+   ],
+   "rxn00134_c0": [
+    0,
+    100
+   ],
+   "rxn00137_c0": [
+    0,
+    100
+   ],
+   "rxn00152_c0": [
+    0,
+    100
+   ],
+   "rxn00193_c0": [
+    0,
+    100
+   ],
+   "rxn00300_c0": [
+    0,
+    100
+   ],
+   "rxn00338_c0": [
+    0,
+    100
+   ],
+   "rxn00433_c0": [
+    0,
+    100
+   ],
+   "rxn00440_c0": [
+    0,
+    100
+   ],
+   "rxn00502_c0": [
+    -100,
+    0
+   ],
+   "rxn00738_c0": [
+    -100,
+    0
+   ],
+   "rxn00744_c0": [
+    0,
+    100
+   ],
+   "rxn00784_c0": [
+    -100,
+    0
+   ],
+   "rxn00829_c0": [
+    0,
+    100
+   ],
+   "rxn00830_c0": [
+    0,
+    100
+   ],
+   "rxn00851_c0": [
+    0,
+    100
+   ],
+   "rxn00867_c0": [
+    0,
+    100
+   ],
+   "rxn00868_c0": [
+    -100,
+    0
+   ],
+   "rxn00877_c0": [
+    -100,
+    0
+   ],
+   "rxn00899_c0": [
+    -100,
+    0
+   ],
+   "rxn00902_c0": [
+    -100,
+    0
+   ],
+   "rxn00953_c0": [
+    0,
+    100
+   ],
+   "rxn00966_c0": [
+    -100,
+    0
+   ],
+   "rxn00979_c0": [
+    0,
+    100
+   ],
+   "rxn01000_c0": [
+    0,
+    100
+   ],
+   "rxn01025_c0": [
+    0,
+    100
+   ],
+   "rxn01048_c0": [
+    0,
+    100
+   ],
+   "rxn01071_c0": [
+    0,
+    100
+   ],
+   "rxn01141_c0": [
+    0,
+    100
+   ],
+   "rxn01143_c0": [
+    0,
+    100
+   ],
+   "rxn01146_c0": [
+    -100,
+    0
+   ],
+   "rxn01203_c0": [
+    -100,
+    0
+   ],
+   "rxn01213_c0": [
+    0,
+    100
+   ],
+   "rxn01256_c0": [
+    0,
+    100
+   ],
+   "rxn01257_c0": [
+    0,
+    100
+   ],
+   "rxn01258_c0": [
+    0,
+    100
+   ],
+   "rxn01332_c0": [
+    0,
+    100
+   ],
+   "rxn01454_c0": [
+    -100,
+    0
+   ],
+   "rxn01478_c0": [
+    0,
+    100
+   ],
+   "rxn01501_c0": [
+    -100,
+    0
+   ],
+   "rxn01508_c0": [
+    0,
+    100
+   ],
+   "rxn01541_c0": [
+    0,
+    100
+   ],
+   "rxn01607_c0": [
+    0,
+    100
+   ],
+   "rxn01640_c0": [
+    0,
+    100
+   ],
+   "rxn01642_c0": [
+    0,
+    100
+   ],
+   "rxn01643_c0": [
+    -100,
+    0
+   ],
+   "rxn01790_c0": [
+    -100,
+    0
+   ],
+   "rxn01859_c0": [
+    -100,
+    0
+   ],
+   "rxn01868_c0": [
+    0,
+    100
+   ],
+   "rxn01986_c0": [
+    -100,
+    0
+   ],
+   "rxn02008_c0": [
+    0,
+    100
+   ],
+   "rxn02028_c0": [
+    0,
+    100
+   ],
+   "rxn02056_c0": [
+    -100,
+    0
+   ],
+   "rxn02085_c0": [
+    -100,
+    0
+   ],
+   "rxn02175_c0": [
+    0,
+    100
+   ],
+   "rxn02264_c0": [
+    0,
+    100
+   ],
+   "rxn02285_c0": [
+    -100,
+    0
+   ],
+   "rxn02287_c0": [
+    0,
+    100
+   ],
+   "rxn02322_c0": [
+    0,
+    100
+   ],
+   "rxn02366_c0": [
+    0,
+    100
+   ],
+   "rxn02404_c0": [
+    0,
+    100
+   ],
+   "rxn02474_c0": [
+    -100,
+    0
+   ],
+   "rxn02475_c0": [
+    0,
+    100
+   ],
+   "rxn02504_c0": [
+    0,
+    100
+   ],
+   "rxn02774_c0": [
+    0,
+    100
+   ],
+   "rxn02831_c0": [
+    0,
+    100
+   ],
+   "rxn02832_c0": [
+    -100,
+    0
+   ],
+   "rxn02898_c0": [
+    0,
+    100
+   ],
+   "rxn02929_c0": [
+    -100,
+    0
+   ],
+   "rxn03040_c0": [
+    0,
+    100
+   ],
+   "rxn03041_c0": [
+    0,
+    100
+   ],
+   "rxn03055_c0": [
+    0,
+    100
+   ],
+   "rxn03080_c0": [
+    0,
+    100
+   ],
+   "rxn03087_c0": [
+    -100,
+    0
+   ],
+   "rxn03150_c0": [
+    0,
+    100
+   ],
+   "rxn03393_c0": [
+    0,
+    100
+   ],
+   "rxn03394_c0": [
+    0,
+    100
+   ],
+   "rxn03397_c0": [
+    0,
+    100
+   ],
+   "rxn03643_c0": [
+    0,
+    100
+   ],
+   "rxn03644_c0": [
+    0,
+    100
+   ],
+   "rxn03841_c0": [
+    0,
+    100
+   ],
+   "rxn03891_c0": [
+    0,
+    100
+   ],
+   "rxn03904_c0": [
+    0,
+    100
+   ],
+   "rxn04139_c0": [
+    0,
+    100
+   ],
+   "rxn04681_c0": [
+    0,
+    100
+   ],
+   "rxn04682_c0": [
+    0,
+    100
+   ],
+   "rxn04684_c0": [
+    0,
+    100
+   ],
+   "rxn04706_c0": [
+    0,
+    100
+   ],
+   "rxn05039_c0": [
+    0,
+    100
+   ],
+   "rxn05040_c0": [
+    0,
+    100
+   ],
+   "rxn05153_c0": [
+    0,
+    100
+   ],
+   "rxn05177_c0": [
+    0,
+    100
+   ],
+   "rxn05229_c0": [
+    0,
+    100
+   ],
+   "rxn05235_c0": [
+    0,
+    100
+   ],
+   "rxn05459_c0": [
+    0,
+    100
+   ],
+   "rxn05514_c0": [
+    -100,
+    0
+   ],
+   "rxn06023_c0": [
+    0,
+    100
+   ],
+   "rxn07964_c0": [
+    0,
+    100
+   ],
+   "rxn08223_c0": [
+    0,
+    100
+   ],
+   "rxn08230_c0": [
+    0,
+    100
+   ],
+   "rxn08333_c0": [
+    0,
+    100
+   ],
+   "rxn08528_c0": [
+    0,
+    100
+   ],
+   "rxn09106_c0": [
+    0,
+    100
+   ],
+   "rxn09113_c0": [
+    0,
+    100
+   ],
+   "rxn09135_c0": [
+    -100,
+    0
+   ],
+   "rxn09155_c0": [
+    0,
+    100
+   ],
+   "rxn09163_c0": [
+    0,
+    100
+   ],
+   "rxn09180_c0": [
+    0,
+    100
+   ],
+   "rxn09201_c0": [
+    0,
+    100
+   ],
+   "rxn09209_c0": [
+    0,
+    100
+   ],
+   "rxn09888_c0": [
+    0,
+    100
+   ],
+   "rxn10094_c0": [
+    0,
+    100
+   ],
+   "rxn10213_c0": [
+    0,
+    100
+   ],
+   "rxn10336_c0": [
+    0,
+    100
+   ],
+   "rxn10626_c0": [
+    0,
+    100
+   ],
+   "rxn12008_c0": [
+    -100,
+    0
+   ],
+   "rxn13477_c0": [
+    0,
+    100
+   ]
+  },
+  "reversed_reactions": {}
+ },
+ "error": "ValueError: gapfilling test conditions fail even with every gapfilling candidate blocked: the model itself violates them (e.g. makes ATP on the empty medium) -- check its draft reactions before gapfilling with tests",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/andrew/tf_runs/salterns_modelling/code/build_model.py\", line 657, in main\n    ad, rv = gapfill_stage(model, gs_t, tests, med, mid, \"bio1\", mo, lab, rep, T)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/andrew/tf_runs/salterns_modelling/code/build_model.py\", line 478, in gapfill_stage\n    sol = gf.run_gapfilling(media=to_msmedia(medium, mid), target=target, minimum_obj=min_obj,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/andrew/venvs/salterns_modelling/lib/python3.12/site-packages/modelseedpy/core/msgapfill.py\", line 304, in run_gapfilling\n    self.prefilter(\n  File \"/home/andrew/venvs/salterns_modelling/lib/python3.12/site-packages/modelseedpy/core/msgapfill.py\", line 253, in prefilter\n    self.gfpkgmgr.getpkg(\"GapfillingPkg\").filter_database_based_on_tests(\n  File \"/home/andrew/venvs/salterns_modelling/lib/python3.12/site-packages/modelseedpy/fbapkg/gapfillingpkg.py\", line 908, in filter_database_based_on_tests\n    raise ValueError(\nValueError: gapfilling test conditions fail even with every gapfilling candidate blocked: the model itself violates them (e.g. makes ATP on the empty medium) -- check its draft reactions before gapfilling with tests\n",
+ "times_s": {
+  "load_biochem": 14.63,
+  "load_templates": 0.44,
+  "draft": 0.42,
+  "atp_correction": 18.75,
+  "gapfill_1": 145.58,
+  "gapfill_2": 67.0
+ }
+}

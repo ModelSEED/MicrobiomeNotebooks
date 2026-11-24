@@ -1,0 +1,69 @@
+{
+ "root": "/scratch1/afreiburger/salterns_2026/binning_test/smoke",
+ "thread_cap": 48,
+ "kind_limits": {
+  "dl": 1,
+  "reads": 2
+ },
+ "min_free_gb": 400,
+ "background_prio": 60,
+ "background_cap": 32,
+ "sf2_deadline_utc": "2026-11-13T07:15:16Z",
+ "tools": {
+  "py": "/scratch1/afreiburger/salterns_2026/envs/bt_map/bin/python",
+  "sra": "/scratch1/afreiburger/metag-hybrid/env/miniforge/envs/sra/bin",
+  "bbtools": "/scratch1/afreiburger/emilykin/processed/reanalysis_norm/env_bbtools/bin",
+  "map": "/scratch1/afreiburger/salterns_2026/envs/bt_map/bin",
+  "metabat2": "/scratch1/afreiburger/salterns_2026/envs/bt_metabat2/bin",
+  "maxbin2": "/scratch1/afreiburger/salterns_2026/envs/bt_maxbin2/bin",
+  "concoct": "/scratch1/afreiburger/salterns_2026/envs/bt_concoct/bin",
+  "dastool": "/scratch1/afreiburger/salterns_2026/envs/bt_dastool/bin",
+  "gunc": "/scratch1/afreiburger/salterns_2026/envs/bt_gunc/bin",
+  "qcenv": "/scratch1/afreiburger/emilykin/processed/.snakemake_envs/8c703f8abdc13cdc1ef374a2bcf37f14_/bin",
+  "checkm2_db": "/scratch1/afreiburger/emilykin/processed/refdata/checkm2/CheckM2_database/uniref100.KO.1.dmnd",
+  "checkm1": "/scratch1/afreiburger/salterns_2026/envs/bt_checkm1/bin",
+  "checkm1_env_ok": "/scratch1/afreiburger/salterns_2026/envs/.bt_setup/checkm1.ok",
+  "checkm1_data": "/scratch1/afreiburger/salterns_2026/binning_test/refdata/checkm1",
+  "gunc_db_dir": "/scratch1/afreiburger/salterns_2026/binning_test/refdata/gunc"
+ },
+ "libraries": {
+  "SMK1": {
+   "srr": "-",
+   "spots": 0,
+   "bases": 0,
+   "site": "SMK",
+   "pilot_qc": "/scratch1/afreiburger/salterns_2026/binning_test/smoke/input/pilotlike/SMK1"
+  },
+  "SMK2": {
+   "srr": "-",
+   "spots": 0,
+   "bases": 0,
+   "site": "SMK",
+   "pilot_qc": "/scratch1/afreiburger/salterns_2026/binning_test/smoke/input/pilotlike/SMK2"
+  }
+ },
+ "samples": {
+  "SMOKE_A": {
+   "role": "primary",
+   "site": "SMK",
+   "libs": [
+    "SMK1",
+    "SMK2"
+   ],
+   "asm_fasta": "/scratch1/afreiburger/salterns_2026/binning_test/smoke/input/smoke_asm.fa",
+   "asm_marker": "/scratch1/afreiburger/salterns_2026/binning_test/smoke/input/asm.done",
+   "asm_pids": []
+  },
+  "SMOKE_B": {
+   "role": "secondary",
+   "site": "SMK",
+   "libs": [
+    "SMK1",
+    "SMK2"
+   ],
+   "asm_fasta": "/scratch1/afreiburger/salterns_2026/binning_test/smoke/input/never.fa",
+   "asm_marker": "/scratch1/afreiburger/salterns_2026/binning_test/smoke/input/never.done",
+   "asm_pids": []
+  }
+ }
+}

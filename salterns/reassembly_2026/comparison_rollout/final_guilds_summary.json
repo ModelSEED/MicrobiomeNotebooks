@@ -1,0 +1,84 @@
+{
+ "n_mags": 1455,
+ "n_mags_with_calls": 1455,
+ "n_mags_missing_calls": 0,
+ "kofam_sources": {
+  "kofam_rollout": 935,
+  "kofam (first pass)": 482,
+  "kofam_coasm38": 38
+ },
+ "n_species": 585,
+ "guilds": {
+  "methanogen": {
+   "mags": 4,
+   "species": 1
+  },
+  "mepn_consumer": {
+   "mags": 109,
+   "species": 39
+  },
+  "betaine_reducer": {
+   "mags": 53,
+   "species": 18
+  },
+  "methylamine_user": {
+   "mags": 4,
+   "species": 1
+  },
+  "tma_producer": {
+   "mags": 0,
+   "species": 0
+  }
+ },
+ "mepn_species_rhodobacteraceae": 19,
+ "mepn_species_haloarchaea": 6,
+ "mepn_species_by_phylum": {
+  "Pseudomonadota": 27,
+  "Halobacteriota": 6,
+  "Desulfobacterota": 3,
+  "Acidobacteriota": 1,
+  "Actinomycetota": 1,
+  "Bacillota": 1
+ },
+ "betaine_species_by_phylum": {
+  "Bacillota": 17,
+  "Cloacimonadota": 1
+ },
+ "grdH_genes_prodigal_only": 10,
+ "grdH_genes_after_rescue": 58,
+ "methanogen_genera": {
+  "Methanolobus": 4
+ },
+ "tma_cutC_without_cutD_mags": 13,
+ "tma_cntA_without_cntB_mags": 70,
+ "mttB_family_without_mcrA_mags": 355,
+ "rhodobacteraceae_mags": 139,
+ "rhodobacteraceae_with_mttB_family": 138,
+ "rast_mepn": {
+  "rast_mags": 22,
+  "rast_species": 21,
+  "recovered_with_call": 15,
+  "rast_species_absent_from_final": 4,
+  "rast_species_present_without_call": 2,
+  "further_final_species_without_original": 20,
+  "further_final_species_with_original_not_rast": 4
+ },
+ "rast_betaine": {
+  "rast_mags": 9,
+  "rast_species": 8,
+  "recovered_with_call": 7,
+  "rast_species_absent_from_final": 0,
+  "rast_species_present_without_call": 1,
+  "further_final_species_without_original": 11,
+  "further_final_species_with_original_not_rast": 0
+ },
+ "albimonas": {
+  "mags": 6,
+  "mags_with_calls": 6,
+  "mepn_mags": 0
+ },
+ "bm714_4_cluster": {
+  "in_final": true,
+  "betaine_call": false
+ }
+}

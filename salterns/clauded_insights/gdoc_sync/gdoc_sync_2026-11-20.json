@@ -1,0 +1,664 @@
+{
+ "source": "Google Doc 'Metabolic Manuscript' (1idf01km9tbuGXXXMU4Hw7BvU0UGpdX2BgShv7BVHcTw), revision AHj4eMRJZUVK… (Drive modifiedTime 2026-11-20T13:56:07Z), read via the Google Docs API on 2026-11-20. Changes since the 2026-11-17 spec: A. Freiburger's direct edits of 2026-11-20 to July P21, P23 and P24 (Introduction); no suggestion or comment changes in the API read.",
+ "base": "Metabolic Manuscript.docx (Google Doc export of 2026-07-02), after merge_runs.py",
+ "accept_revisions": {
+  "note": "Susannah Tringe's suggestions that A. Freiburger accepted in the Google Doc on 2026-08-27 (still tracked changes in the 2026-07-02 export)",
+  "paragraph_ids": {
+   "20": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "21": [
+    "6"
+   ],
+   "23": [
+    "7"
+   ]
+  }
+ },
+ "accept_all_revisions": {
+  "note": "Susannah Tringe's suggestions of 2026-05-07 in these paragraphs (tracked changes in the 2026-07-02 export) were all accepted by A. Freiburger on 2026-11-17 (24 Google suggestion ids, below). The only comment inside them (Word id 8, on the deleted 'minerals') loses its anchor; see remove_comments.",
+  "paragraphs": {
+   "23": {
+    "author": "Susannah Tringe",
+    "elements": 23
+   },
+   "24": {
+    "author": "Susannah Tringe",
+    "elements": 12
+   }
+  },
+  "suggestion_ids": [
+   "suggest.h61t15g217q5",
+   "suggest.9bfb3ahikf2m",
+   "suggest.h1e0om5l46m5",
+   "suggest.fjnmu89awsau",
+   "suggest.50412fdzcn4n",
+   "suggest.i0ugkacc87ya",
+   "suggest.1j3nqri4m76k",
+   "suggest.q70zgnlnqvbb",
+   "suggest.pv7qmpyqe1wz",
+   "suggest.1nefknp2byag",
+   "suggest.dz362mq6mbfm",
+   "suggest.e6gmaq8fuhms",
+   "suggest.nkramn86chki",
+   "suggest.rrqb27u47br5",
+   "suggest.o1lkvctbw9jf",
+   "suggest.lo4gg2882sqb",
+   "suggest.3tw7nlldn3pn",
+   "suggest.1sgmzl9o8cc4",
+   "suggest.5l20hh3bvjua",
+   "suggest.n09vpoejguhm",
+   "suggest.yzc3hb6t8w1d",
+   "suggest.i6rs7n7dyfq",
+   "suggest.vw4cjtrrmkgn",
+   "suggest.71kp8wx47m6a"
+  ]
+ },
+ "suggestions": {
+  "author": "Susannah Tringe",
+  "date": "2026-11-03T01:22:00Z",
+  "edits": [
+   {
+    "p": 32,
+    "kind": "replace",
+    "old": "Soils",
+    "new": "Sediment samples"
+   },
+   {
+    "p": 32,
+    "kind": "replace",
+    "old": "analyses. Nuclear",
+    "new": "analyses, using nuclear"
+   },
+   {
+    "p": 32,
+    "kind": "replace",
+    "old": "was performed on",
+    "new": "of extracted"
+   },
+   {
+    "p": 32,
+    "kind": "replace",
+    "old": "parameters,",
+    "new": "parameters:"
+   },
+   {
+    "p": 32,
+    "kind": "replace",
+    "old": "only 1 restored saltern sample was",
+    "new": "only 1 of 6 restored saltern samples was"
+   },
+   {
+    "p": 32,
+    "kind": "superscript",
+    "old": "1H-13C HSQC, 1H TOCSY",
+    "spans": [
+     [
+      0,
+      1
+     ],
+     [
+      3,
+      5
+     ],
+     [
+      13,
+      14
+     ]
+    ]
+   },
+   {
+    "p": 35,
+    "kind": "replace",
+    "old": "(2021)",
+    "new": "(2022)"
+   },
+   {
+    "p": 37,
+    "kind": "replace",
+    "old": "Measuring ",
+    "new": "The presence of"
+   },
+   {
+    "p": 42,
+    "kind": "insert_before",
+    "old": " as measured with a YSI probe",
+    "new": ","
+   },
+   {
+    "p": 42,
+    "kind": "insert_before",
+    "old": " was 8.5%",
+    "new": ","
+   },
+   {
+    "p": 43,
+    "kind": "replace",
+    "old": "the glass bottles",
+    "new": "each glass bottle"
+   },
+   {
+    "p": 44,
+    "kind": "replace",
+    "old": "Culturing",
+    "new": "Microbial culturing"
+   },
+   {
+    "p": 45,
+    "kind": "replace",
+    "old": "1 mL were transferred",
+    "new": "1 mL of slurry was transferred"
+   },
+   {
+    "p": 45,
+    "kind": "replace",
+    "old": "aerobic microcosm was",
+    "new": "aerobic microcosms was"
+   },
+   {
+    "p": 49,
+    "kind": "replace",
+    "old": "Analyses",
+    "new": "Omics data analyses and statistical methods"
+   },
+   {
+    "p": 50,
+    "kind": "replace",
+    "old": "Metabolites were uploaded",
+    "new": "Identified metabolites were uploaded"
+   },
+   {
+    "p": 51,
+    "kind": "replace",
+    "old": "test for the effect",
+    "new": "test for the effects"
+   },
+   {
+    "p": 57,
+    "kind": "replace",
+    "old": "39 of the 60 selected KOs involved in methylated compound cycling were present",
+    "new": "Metagenomes from these sites were searched for 60 selected KOs involved in methylated compound cycling, of which 39 were present"
+   },
+   {
+    "p": 57,
+    "kind": "replace",
+    "old": "DMS, DMSP, TMA, DMA, MMA cycling",
+    "new": "dimethyl sulfide (DMS), dimethylsulfoniopropionate (DMSP), TMA, DMA, and monomethylamine (MMA) cycling"
+   }
+  ],
+  "note": "Susannah Tringe's suggestions of 2026-11-03 that are still open on 2026-11-17 (19 of the 22 edits; the other 3 were accepted, see accepted_suggestions)"
+ },
+ "accepted_suggestions": {
+  "note": "3 of Susannah Tringe's 2026-11-03 suggestions, accepted by A. Freiburger; applied as plain (untracked) text",
+  "edits": [
+   {
+    "p": 8,
+    "kind": "insert_before",
+    "old": "Wyatt H. Hartman",
+    "new": "Kyle Hartman^1^, ",
+    "suggestion_id": "suggest.xu2p6datvpgo",
+    "accepted": "2026-11-16T19:03:54Z"
+   },
+   {
+    "p": 23,
+    "kind": "insert_before",
+    "old": "generally follow a log-linear",
+    "new": "in marine-influenced systems ",
+    "suggestion_id": "suggest.1yr1msb8n3kp",
+    "accepted": "2026-11-16T19:04:02Z"
+   },
+   {
+    "p": 24,
+    "kind": "replace",
+    "old": "which would be used for",
+    "new": "enabling",
+    "suggestion_id": "suggest.f3bf6e9xl761",
+    "accepted": "2026-11-17T23:04:00Z"
+   }
+  ]
+ },
+ "remove_comments": {
+  "note": "Word ids 4, 5: thread resolved by A. Freiburger on 2026-08-27 ('does this mean a line on log-scale axes?' + Clifton's reply). Word ids 2, 3: trehalose thread (AAAB2s-yGXQ) resolved by A. Freiburger on 2026-11-17. Word id 6: 'Need to confirm that this reference supports my statement about sulfate' (AAAB50XBNtM, on '15') resolved by A. Freiburger on 2026-11-17. Word id 8: 'Methylphosphonates are also organic molecules, not minerals' (AAAB50XBNuI) is still open but its anchor 'minerals' was deleted when the suggestion was accepted on 2026-11-17, so Google's exports drop it (12 open threads are now unanchored). 2026-11-20: resolved by A. Freiburger (Docs API commentAction RESOLVE): Word id 7, 'Although \"methanogen\" technically just means...' (AAAB50XBNtQ, 03:55Z); Word id 9, 'Most abundant genes in this environment overall?...' (AAAB50XBNug, 03:55Z); Word ids 10, 11, 84, 'what was the evidence for betaine being the methanogenic substrate?' with Clifton's and Susannah's replies (AAAB4LFmYcE, 13:54Z; its anchor sentence was deleted in the P24 rewrite).",
+  "word_ids": [
+   "4",
+   "5",
+   "2",
+   "3",
+   "6",
+   "8",
+   "7",
+   "9",
+   "10",
+   "11"
+  ]
+ },
+ "add_comments": [
+  {
+   "id": "doco.Q5glmYM28Ltcwzia3kcC4Q",
+   "anchor": "hypersaline",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:42:23Z",
+   "text": "halophilic?",
+   "p": 37,
+   "context": "This enzymatic capacity is prevalent in hypersaline archaea"
+  },
+  {
+   "id": "doco.GsqwLrI4dirK4qsZzjITLw",
+   "anchor": "trimethylamine, methylamine, methanol, glycine betaine, dimethylsulfide, methylthiopropanoate, and dimethylsulfoniopropionate.",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T01:22:16Z",
+   "text": "We might want to introduce the abbreviations for these compounds here."
+  },
+  {
+   "id": "doco.K8LIzLESwARLVSiBsjLS-g",
+   "anchor": "10 ml of sample",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:34:59Z",
+   "text": "Porewater?"
+  },
+  {
+   "id": "doco.AonefDpjJBF3AJPo2RR-Og",
+   "anchor": "subset of 1-4  samples",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:32:25Z",
+   "text": "Do we not know how many? Or 1-4 samples per sample type?"
+  },
+  {
+   "id": "doco.H5X4VRKCxDRRUpQRU6Z2mQ",
+   "anchor": "biomass compound",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:40:56Z",
+   "text": "What does this mean?"
+  },
+  {
+   "id": "doco.kxcDgxdALE8qV1eD83jRXA",
+   "anchor": "minimized to the consumption of lactate",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:41:24Z",
+   "text": "Not sure what this means?"
+  },
+  {
+   "id": "doco.2VAHCWYea53YzP00D-TOrA",
+   "anchor": "The soil density was estimated from other studies of this same region to be 0.7",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:44:31Z",
+   "text": "Is this a reference for this or is this based on our own previous observations? Also should this say \"sediment density\" rather than \"soil density\"?"
+  },
+  {
+   "id": "doco.Mxwr6dpmhTUJKlZ6k_WAeQ",
+   "anchor": "10 mL of substrate and 10 mL of sediment slurry were added to sterile 75 mL glass bottles.",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:54:13Z",
+   "text": "Is this describing the aerobic and anaerobic incubations that are described in more detail in the next paragraph? From this sentence here it sounds like they were combined immediately after collection - is there any need to keep this here since it's repeated later?"
+  },
+  {
+   "id": "doco.9p0lNBPPXmgNdy9i6cqr9Q",
+   "anchor": "A subset of sediment slurry was left to sit at room temperature with aerobic atmospheric conditions",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:55:46Z",
+   "text": "Was this also in a glass bottle? And it contained all the sediment slurry for all the aerobic experiments, which was then transferred to each substrate-containing glass bottle in 10 mL aliquots after equilibration? Was this done with a pipette?"
+  },
+  {
+   "id": "doco.ohNuipJ3wSoWB9acw56bwA",
+   "anchor": "another subset",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:56:06Z",
+   "text": "For all the anaerobic incubations?"
+  },
+  {
+   "id": "doco.mdUG7i0s5yFEgyHNIkU1yQ",
+   "anchor": "Glass bottles containing substrates",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T00:56:51Z",
+   "text": "Individual glass bottles, each containing 10 mL of substrate solution?"
+  },
+  {
+   "id": "doco.9v_VOZW_DpJYroVzkGFK2w",
+   "anchor": "septum bottles containing MM/W medium",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T01:00:16Z",
+   "text": "What size bottles? How much medium?"
+  },
+  {
+   "id": "doco.fvdLhSJGFHsPdGVCdUT8vg",
+   "anchor": "Bet. = glycine betaine",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-03T01:20:05Z",
+   "text": "This is abbreviated as GB in Figure 1."
+  },
+  {
+   "id": "doco.Yamf8sZPkLlv4i6HGbb69w",
+   "anchor": "type of process the gene is involved in",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-05T03:26:52Z",
+   "text": "I know they're unlikely to be confused, but is it possible to use different colors for type of process (biosynthesis / degradation / photosynthesis) and restoration status (reference / restored / unrestored)?",
+   "p": 115,
+   "context": "Rows are annotated by the compound ID, the type of process the gene is involved in, and whether"
+  },
+  {
+   "id": "doco.LGgYEUw7vYerHXqa2-IrQg",
+   "anchor": "betaine",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-05T03:35:59Z",
+   "text": "Same as glycine betaine or GB, correct? We should try to be consistent with terminology.",
+   "p": 36,
+   "context": "The betaine-utilizing organisms were simulated",
+   "locate_by_context": true
+  },
+  {
+   "id": "doco.RSW1ApWbfcYM7KjNZGzrZA",
+   "anchor": "betaine",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-05T03:37:38Z",
+   "text": "glycine betaine / GB?",
+   "p": 59,
+   "context": "acetate, glucose, betaine, fructose",
+   "locate_by_context": true
+  },
+  {
+   "id": "doco.NJ96fD8jOH8QYEZ_vAGerg",
+   "anchor": "z-score transformed µM",
+   "author": "Susannah Tringe",
+   "initials": "ST",
+   "date": "2026-11-05T03:43:14Z",
+   "text": "Is that what the blue-red scale indicates? It needs some kind of label and scale.\nHow can you tell if a compound was detected or not in a sample? The text says only 7 metabolites were present in all 19 samples but that's hard to see here.",
+   "p": 117,
+   "context": "Concentrations of metabolites (z-score transformed µM) as measured by NMR"
+  }
+ ],
+ "add_replies": [],
+ "direct_edits": {
+  "note": "Direct edits in the Google Doc on 2026-11-16/17 (A. Freiburger's session; the Docs API keeps no suggestion record for them, except his own abstract suggestions suggest.f6bovdvlwphd and suggest.99o1bf1fjf34, accepted 2026-11-16, and suggest.gkv4ukhhru9, rejected). Paragraph indices are those of the July export. Each rewrite replaces the paragraph's runs with the Docs API runs (italic, sub/superscript, Zotero citation links); 'insert_after' and 'move_before' run last, after all index-based steps. 2026-11-20: P21 gains the citation (38) after 'hydrogenotrophic methanogenesis'; P23's last three sentences are rewritten (the '(38)' citation moves to P21); P24's first two sentences are rewritten.",
+  "author": "A. Freiburger",
+  "dates": [
+   "2026-11-16",
+   "2026-11-17",
+   "2026-11-20"
+  ],
+  "edits": [
+   {
+    "p": 18,
+    "kind": "rewrite",
+    "what": "Abstract, first part (ends at '...underlying biogeochemistry.')",
+    "segments": [
+     "Hypersaline environments, such as unrestored saltern complexes, are inhabited by microorganisms that are uniquely adapted to high salinity and govern the unique biogeochemical cycles of this habitat. Hypersaline former salterns in the San Francisco Bay were previously demonstrated to exhibit elevated methane emissions compared to nearby restored salterns or undisturbed salt marshes. Restoring these wetlands can therefore reduce greenhouse gas (GHG) emissions and maintain sequestered carbon, but ensuring successful remediation requires understanding the underlying biogeochemistry."
+    ]
+   },
+   {
+    "p": 24,
+    "kind": "rewrite",
+    "what": "Knowledge-gap paragraph ('Which of these hypothesized sources...'), rewritten 2026-11-20 (its second sentence is unfinished in the Google Doc: '...such as TMA were .')",
+    "segments": [
+     "Which of these hypothesized sources of methane explains the observed methane emission in hypersaline wetlands remains unknown. Our previous work found that the ",
+     {
+      "t": "phnGHILMJ",
+      "i": true
+     },
+     " genes for methylphosphonate degradation via the carbon-phosphorus lyase pathway were highly abundant in hypersaline environments ",
+     {
+      "t": "(34, 44)",
+      "link": "https://www.zotero.org/google-docs/?2MX4jX"
+     },
+     ", although other methylated substrates such as TMA were . Determining the methanogenic mechanism(s) would facilitate GHG mitigation via restoration efforts and expand basic understanding of these hypersaline microbiomes. Here, we build on previous work ",
+     {
+      "t": "(34)",
+      "link": "https://www.zotero.org/google-docs/?WUMkxf"
+     },
+     " by combining metagenomics, metabolomics, and laboratory microcosms with genome-scale metabolic modeling to identify critical differences across four adjacent yet distinct wetlands. We use metabolic modeling and substrate addition experiments in both microcosms and pure cultures to identify methanogenic substrate potential and whether the hypothesized methanogenic substrates could recreate the experimentally measured methane flux. Through this comprehensive study, the evidence suggests that methylphosphonate is the primary methanogenic substrate, revealing that restoration efforts should …"
+    ],
+    "reanchor_comments": [
+     {
+      "word_ids": [
+       "12",
+       "13"
+      ],
+      "thread": "AAAB4LFmYcs",
+      "anchor": "revealing that restoration efforts should",
+      "context": "substrate, revealing that restoration efforts should"
+     }
+    ]
+   },
+   {
+    "p": 18,
+    "kind": "insert_after",
+    "what": "Abstract, second part (new paragraph, same paragraph format)",
+    "segments": [
+     "Here we explore several mechanistic hypotheses of methane production through metabolic modeling, using metagenomics and metabolomics measurements for two unrestored hypersaline salterns, an adjacent reference wetland, and a restored saltern. We focused the measurements and modeling on pathways of methylated compound cycling, centered around archaeal methylotrophic methanogenesis and bacterial degradation of methylphosphonate, which differed significantly among the three sites in terms of gene relative abundances. In addition to experimentally revealing salinity-dependent metabolic changes, a key ",
+     {
+      "t": "in vitro",
+      "i": true
+     },
+     " finding is that methylphosphonic acid increases methane production while dimethylamine increases N",
+     {
+      "t": "2",
+      "sub": true
+     },
+     "O production, which supports the role of methylphosphonate being a primary methanogenic substrate in these environments. This was corroborated by metabolic modeling, where trace consumption of methylphosphonic acid was sufficient to reproduce the experimental methane emissions. Our work elucidates an environmental biogeochemical cycle that can inform future remediation efforts, and more broadly demonstrates the valuable synergy of experimental inspection and metabolic modeling for mechanistically elucidating ecological biogeochemistry."
+    ]
+   },
+   {
+    "p": 20,
+    "kind": "rewrite",
+    "what": "Introduction paragraph 1 (salt habitats, salt-in/salt-out; absorbs '> 7% salt (15)' and the compatible-solute list)",
+    "segments": [
+     "\tEarth contains a wide variety of natural and artificial ecosystems that contain high concentrations of salt:  e.g. hot and cold springs, coastal lagoons, lakes of varying pH (acidic, neutral, alkaline), deep sea brines, arid soils, wetlands, and industrial salterns ",
+     {
+      "t": "(1–4)",
+      "link": "https://www.zotero.org/google-docs/?tUMSbN"
+     },
+     ". The high salinity of these environments challenges the survival of most organisms by disrupting osmotic regulation and ion-based cellular machinery ",
+     {
+      "t": "(2, 5)",
+      "link": "https://www.zotero.org/google-docs/?3NEhpJ"
+     },
+     ", and is a key contributor to habitability limits for life ",
+     {
+      "t": "(6)",
+      "link": "https://www.zotero.org/google-docs/?RgL9se"
+     },
+     ". However, salt-tolerant (“halotolerant”) and salt-loving (“halophilic”) microorganisms have evolved strategies that allow them to thrive in moderate saline-hypersaline (i.e., > 7% salt) ",
+     {
+      "t": "(15)",
+      "link": "https://www.zotero.org/google-docs/?xNYUBs"
+     },
+     " environments ",
+     {
+      "t": "(7, 8)",
+      "link": "https://www.zotero.org/google-docs/?a4fYok"
+     },
+     ". Only halophiles such as aerobic archaeal order Halobacteriales, the anaerobic bacterial order Haloanaerobiales, and certain methanogens use the “salt-in” strategy (acidic proteomes that resist the effects of high salinity) ",
+     {
+      "t": "(11)",
+      "link": "https://www.zotero.org/google-docs/?H2UhjV"
+     },
+     " while halophilic bacteria, and some archaea, use the the “salt-out” strategy (excluding salt via compatible (osmolytic) solutes ",
+     {
+      "t": "(16)",
+      "link": "https://www.zotero.org/google-docs/?lcFj4L"
+     },
+     " such as choline, ectoine, hydroxyectoine, glutamate, glutamine, glycine betaine, and trehalose ",
+     {
+      "t": "(12–14)",
+      "link": "https://www.zotero.org/google-docs/?GeVd5L"
+     },
+     ") ",
+     {
+      "t": "(9, 10)",
+      "link": "https://www.zotero.org/google-docs/?yr5b7w"
+     },
+     "."
+    ]
+   },
+   {
+    "p": 22,
+    "kind": "rewrite",
+    "what": "Compatible solutes (GB, trehalose); now the 2nd Introduction paragraph",
+    "segments": [
+     "Compatible solutes and osmoprotectant sugars can further become sources of carbon, nitrogen, and sulfur ",
+     {
+      "t": "(29, 30)",
+      "link": "https://www.zotero.org/google-docs/?JNbsKL"
+     },
+     " during times of lower salinity when they are less needed for their primary function as osmoprotectants ",
+     {
+      "t": "(16)",
+      "link": "https://www.zotero.org/google-docs/?x65h0X"
+     },
+     ". For this study, there are two notable compatible solutes.  Firstly, glycine betaine (GB) is abundantly produced in hypersaline environments by plants, archaea, and cyanobacteria ",
+     {
+      "t": "(22)",
+      "link": "https://www.zotero.org/google-docs/?EmwJEl"
+     },
+     " and can be degraded into methane ",
+     {
+      "t": "(23, 24)",
+      "link": "https://www.zotero.org/google-docs/?Voh6RO"
+     },
+     ", ",
+     {
+      "t": "N,N-",
+      "i": true
+     },
+     "dimethylglycine, sarcosine, L-serine, and pyruvate ",
+     {
+      "t": "(25)",
+      "link": "https://www.zotero.org/google-docs/?hDbg3S"
+     },
+     ", and, in the ruminant gut, trimethylamine, dimethylglycine, and methionine ",
+     {
+      "t": "(26)",
+      "link": "https://www.zotero.org/google-docs/?ozdzat"
+     },
+     ".  Secondly, the multifunctional disaccharide trehalose, which can act as a cryoprotectant or energy storage compound that converts into glycogen or glucose ",
+     {
+      "t": "(27, 28)",
+      "link": "https://www.zotero.org/google-docs/?Wm1oum"
+     },
+     "."
+    ]
+   },
+   {
+    "p": 21,
+    "kind": "rewrite",
+    "what": "'The biogeochemistry metabolism of organisms...' (shortened); now the 3rd Introduction paragraph; rewritten again 2026-11-20",
+    "segments": [
+     "\tThe biogeochemistry metabolism of organisms in these hypersaline environments ",
+     {
+      "t": "(16)",
+      "link": "https://www.zotero.org/google-docs/?GwDRau"
+     },
+     " is notably different in pathways such as acetoclastic or hydrogenotrophic methanogenesis ",
+     {
+      "t": "(38)",
+      "link": "https://www.zotero.org/google-docs/?VwJpjj"
+     },
+     ", autotrophic nitrite oxidation, and acetate-oxidizing dissimilatory sulfate reduction do not generate enough energy to sustain osmoregulation ",
+     {
+      "t": "(17)",
+      "link": "https://www.zotero.org/google-docs/?ijSxPy"
+     },
+     ". Microbial growth in these environments can be nitrogen limited ",
+     {
+      "t": "(18)",
+      "link": "https://www.zotero.org/google-docs/?UTZazU"
+     },
+     " but is more commonly phosphorus limited ",
+     {
+      "t": "(19)",
+      "link": "https://www.zotero.org/google-docs/?yGsaX5"
+     },
+     " ",
+     {
+      "t": "(20)",
+      "link": "https://www.zotero.org/google-docs/?k4kEFY"
+     },
+     " ",
+     {
+      "t": "(21)",
+      "link": "https://www.zotero.org/google-docs/?jyqJaV"
+     },
+     "."
+    ]
+   },
+   {
+    "p": 22,
+    "kind": "move_before",
+    "before": 21,
+    "what": "the compatible-solute paragraph moves ahead of the biogeochemistry paragraph"
+   },
+   {
+    "p": 23,
+    "kind": "rewrite",
+    "what": "Methane-salinity paragraph: Susannah's suggestions accepted, then its first two sentences rewritten; rewritten again 2026-11-20",
+    "segments": [
+     "Previous studies ",
+     {
+      "t": "(31–33)",
+      "link": "https://www.zotero.org/google-docs/?8gpqxy"
+     },
+     ", including ours of hypersaline unrestored salterns ",
+     {
+      "t": "(34)",
+      "link": "https://www.zotero.org/google-docs/?ARTUOn"
+     },
+     ", showed that methane emissions from marine-influenced environments are inversely related to salinity in a log-linear relationship. This log-linear decline is attributed to the sulfate in seawater which enables sulfate reducers to outcompete methanogens for acetate and hydrogen.  At salinities beyond seawater, however, halophilic or halotolerant methanogenic taxa adapted for these resource conditions thrive, even in the presence of high sulfate ",
+     {
+      "t": "(15)",
+      "link": "https://www.zotero.org/google-docs/?axUCpt"
+     },
+     ". These salt-adapted methanogens are archaeal methylotrophs ",
+     {
+      "t": "(11, 15, 35, 36)",
+      "link": "https://www.zotero.org/google-docs/?QM9vrJ"
+     },
+     " that cleave methyl groups from compounds such as methylated amines (di-/tri-methylamine, DMA and TMA, respectively) and glycine betaine (GB) ",
+     {
+      "t": "(37)",
+      "link": "https://www.zotero.org/google-docs/?TYOp94"
+     },
+     " to generate methane.  Hypersaline habitats also often harbor aerobic methanogenic bacteria that liberate methane as the byproduct of phosphate scavenging from methylphosphonates ",
+     {
+      "t": "(39–42)",
+      "link": "https://www.zotero.org/google-docs/?LA3I4p"
+     },
+     " generated by marine taxa such as ",
+     {
+      "t": "Nitrosopumilus",
+      "i": true
+     },
+     " ",
+     {
+      "t": "(43)",
+      "link": "https://www.zotero.org/google-docs/?B70Xwd"
+     },
+     "."
+    ]
+   }
+  ]
+ },
+ "expected_views": {
+  "paragraphs": 492,
+  "note": "unchanged from 2026-11-17"
+ }
+}

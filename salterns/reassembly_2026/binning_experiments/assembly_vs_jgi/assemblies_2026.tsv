@@ -1,0 +1,44 @@
+unit	ref	assembler	num_contigs	dna_size	n_bases_N	node_rank_check
+R1_A_D1	275645/238/1	metaSPAdes 3.15.3	164365	354077876	18590	164365 NODE ids; max n 164365; rank-order violations 0; name length == length: True
+R1_A_D2	275645/240/1	metaSPAdes 3.15.3	145479	324990021	17320	145479 NODE ids; max n 145479; rank-order violations 0; name length == length: True
+R1_A_H2O	275645/334/1	metaSPAdes 3.15.3	73024	120074423	4770	73024 NODE ids; max n 73024; rank-order violations 0; name length == length: True
+R1_B_D1	275645/264/1	metaSPAdes 3.15.3	180768	377825149	19370	180768 NODE ids; max n 180768; rank-order violations 0; name length == length: True
+R1_B_D2	275645/260/1	metaSPAdes 3.15.3	153314	342089758	17840	153314 NODE ids; max n 153314; rank-order violations 0; name length == length: True
+R1_B_H2O	275645/340/1	metaSPAdes 3.15.3	56714	124110969	5270	56714 NODE ids; max n 56714; rank-order violations 0; name length == length: True
+R1_C_D1	275645/250/1	metaSPAdes 3.15.3	126316	264391843	10310	126316 NODE ids; max n 126316; rank-order violations 0; name length == length: True
+R1_C_D2	275645/252/1	metaSPAdes 3.15.3	127184	265131201	9750	127184 NODE ids; max n 127184; rank-order violations 0; name length == length: True
+R1_C_H2O	275645/346/1	metaSPAdes 3.15.3	77621	156828145	7770	77621 NODE ids; max n 77621; rank-order violations 0; name length == length: True
+R1_sediment	275645/317/1	MEGAHIT 1.2.9	711784	1839401295	0	n/a (MEGAHIT ids)
+R2A_A_D1	275645/301/1	metaSPAdes 3.15.3	102338	188232243	8850	102338 NODE ids; max n 102338; rank-order violations 0; name length == length: True
+R2A_A_D2	275645/289/1	metaSPAdes 3.15.3	98924	175705691	7860	98924 NODE ids; max n 98924; rank-order violations 0; name length == length: True
+R2A_A_H2O	275645/392/1	metaSPAdes 3.15.3	88872	185004572	9090	88872 NODE ids; max n 88872; rank-order violations 0; name length == length: True
+R2A_B_D1	275645/293/1	metaSPAdes 3.15.3	54731	86274732	4080	54731 NODE ids; max n 54731; rank-order violations 0; name length == length: True
+R2A_B_D2	275645/336/1	metaSPAdes 3.15.3	72730	138012431	8330	72730 NODE ids; max n 72730; rank-order violations 0; name length == length: True
+R2A_B_H2O	275645/396/1	metaSPAdes 3.15.3	76718	161703125	8090	76718 NODE ids; max n 76718; rank-order violations 0; name length == length: True
+R2A_C_D1	275645/313/1	metaSPAdes 3.15.3	87863	174579411	6310	87863 NODE ids; max n 87863; rank-order violations 0; name length == length: True
+R2A_C_D2	275645/344/1	metaSPAdes 3.15.3	174691	375338026	18420	174691 NODE ids; max n 174691; rank-order violations 0; name length == length: True
+R2A_C_H2O	275645/394/1	metaSPAdes 3.15.3	72864	140061220	7160	72864 NODE ids; max n 72864; rank-order violations 0; name length == length: True
+R2A_sediment	275645/376/1	MEGAHIT 1.2.9	948558	2042278853	0	n/a (MEGAHIT ids)
+R2_A_D1	275645/236/1	metaSPAdes 3.15.3	189763	422417523	16220	189763 NODE ids; max n 189763; rank-order violations 0; name length == length: True
+R2_A_D2	275645/232/1	metaSPAdes 3.15.3	106309	211570195	14630	106309 NODE ids; max n 106309; rank-order violations 0; name length == length: True
+R2_A_H2O	275645/352/1	metaSPAdes 3.15.3	93498	202149957	14290	93498 NODE ids; max n 93498; rank-order violations 0; name length == length: True
+R2_B_D1	275645/234/1	metaSPAdes 3.15.3	135923	262586748	7130	135923 NODE ids; max n 135923; rank-order violations 0; name length == length: True
+R2_B_D2	275645/242/1	metaSPAdes 3.15.3	245647	527349244	16430	245647 NODE ids; max n 245647; rank-order violations 0; name length == length: True
+R2_B_H2O	275645/348/1	metaSPAdes 3.15.3	79583	169494507	11940	79583 NODE ids; max n 79583; rank-order violations 0; name length == length: True
+R2_C_D1	275645/277/1	metaSPAdes 3.15.3	161862	354511052	18050	161862 NODE ids; max n 161862; rank-order violations 0; name length == length: True
+R2_C_D2	275645/268/1	metaSPAdes 3.15.3	111777	231665913	6730	111777 NODE ids; max n 111777; rank-order violations 0; name length == length: True
+R2_C_H2O	275645/368/1	metaSPAdes 3.15.3	89030	192567546	18270	89030 NODE ids; max n 89030; rank-order violations 0; name length == length: True
+R2_restored_C_black	275645/266/1	metaSPAdes 3.15.3	153571	333677110	15240	153571 NODE ids; max n 153571; rank-order violations 0; name length == length: True
+R2_restored_D_shore	275645/262/1	metaSPAdes 3.15.3	113372	277138483	18820	113372 NODE ids; max n 113372; rank-order violations 0; name length == length: True
+R2_restored_H2O	275645/350/1	metaSPAdes 3.15.3	39261	98124641	9750	39261 NODE ids; max n 39261; rank-order violations 0; name length == length: True
+R2_sediment	275645/356/1	MEGAHIT 1.2.9	889721	2242992563	0	n/a (MEGAHIT ids)
+SF2_A_D1	275645/275/1	metaSPAdes 3.15.3	51763	89252063	3830	51763 NODE ids; max n 51763; rank-order violations 0; name length == length: True
+SF2_A_D2	275645/279/1	metaSPAdes 3.15.3	87191	163557144	6720	87191 NODE ids; max n 87191; rank-order violations 0; name length == length: True
+SF2_A_H2O	275645/372/1	metaSPAdes 3.15.3	106401	195196739	7610	106401 NODE ids; max n 106401; rank-order violations 0; name length == length: True
+SF2_B_D1	275645/281/1	metaSPAdes 3.15.3	80099	133996734	6000	80099 NODE ids; max n 80099; rank-order violations 0; name length == length: True
+SF2_B_D2	275645/270/1	metaSPAdes 3.15.3	70933	122013585	4630	70933 NODE ids; max n 70933; rank-order violations 0; name length == length: True
+SF2_B_H2O	275645/374/1	metaSPAdes 3.15.3	115988	227376973	9680	115988 NODE ids; max n 115988; rank-order violations 0; name length == length: True
+SF2_C_D1	275645/283/1	metaSPAdes 3.15.3	46758	76947750	2190	46758 NODE ids; max n 46758; rank-order violations 0; name length == length: True
+SF2_C_D2	275645/272/1	metaSPAdes 3.15.3	72679	159217530	4010	72679 NODE ids; max n 72679; rank-order violations 0; name length == length: True
+SF2_C_H2O	275645/410/1	metaSPAdes 3.15.3	140187	284032486	12970	140187 NODE ids; max n 140187; rank-order violations 0; name length == length: True
+SF2_sediment	275645/378/1	MEGAHIT 1.2.9	814508	1655433541	0	n/a (MEGAHIT ids)

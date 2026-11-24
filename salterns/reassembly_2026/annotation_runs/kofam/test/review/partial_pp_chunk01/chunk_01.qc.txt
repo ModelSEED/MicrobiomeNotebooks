@@ -1,0 +1,10 @@
+chunk	01
+mags	34
+genes	100239	searched_representatives	74966	copied_to_identical_members	25273
+domtblout_rows	82106
+gene_ko_pairs_domtblout	77524
+gene_ko_pairs_tblout	83750
+tblout_pairs_without_domtblout_row	6226	passing_pairs_without_domtblout_row	0
+genes_with_ko	4530	fraction	0.0452
+marker_hit_rows	584
+no_threshold_hits_e1e-5	32

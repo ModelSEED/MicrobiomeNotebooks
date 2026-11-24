@@ -1,0 +1,1 @@
+mags 935 contigs_in 326815 contigs_used 326815 genes 2732576 mags_with_dropped_contigs 0

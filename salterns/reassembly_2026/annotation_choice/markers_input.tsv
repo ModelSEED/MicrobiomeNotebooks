@@ -1,0 +1,69 @@
+ko	gene	group	role
+K02041	phnC	MePn C-P lyase	phosphonate ABC transporter ATP-binding
+K02044	phnD	MePn C-P lyase	phosphonate ABC transporter substrate-binding
+K02042	phnE	MePn C-P lyase	phosphonate ABC transporter permease
+K02043	phnF	MePn C-P lyase	phn operon regulator (GntR)
+K06166	phnG	MePn C-P lyase	C-P lyase core PhnG
+K06165	phnH	MePn C-P lyase	C-P lyase core PhnH
+K06164	phnI	MePn C-P lyase	C-P lyase core PhnI
+K06163	phnJ	MePn C-P lyase	C-P lyase PhnJ (the C-P bond-cleaving step; guild rule)
+K05781	phnK	MePn C-P lyase	C-P lyase complex PhnK
+K05780	phnL	MePn C-P lyase	C-P lyase complex PhnL
+K06162	phnM	MePn C-P lyase	RPnTP diphosphatase PhnM
+K05774	phnN	MePn C-P lyase	ribose 1,5-bisphosphokinase PhnN
+K09994	phnO	MePn C-P lyase	aminoalkylphosphonate N-acetyltransferase
+K06167	phnP	MePn C-P lyase	phosphoribosyl cyclic phosphate phosphodiesterase
+K05306	phnX	other phosphonate catabolism	phosphonoacetaldehyde hydrolase (2-AEP route)
+K03430	phnW	other phosphonate catabolism	2-AEP:pyruvate transaminase
+K21195	phnY	other phosphonate catabolism	2-AEP dioxygenase
+K21196	phnZ	other phosphonate catabolism	2-amino-1-hydroxyethylphosphonate dioxygenase
+K23996	phnY*	other phosphonate catabolism	methylphosphonate hydroxylase (oxidative MePn route)
+K05915	phnZ1	other phosphonate catabolism	hydroxymethylphosphonate dioxygenase
+K18049	mpnS	MePn synthesis	methylphosphonate synthase
+K21578	grdI	betaine reductase	betaine reductase protein B alpha (guild rule, RAST 'component B')
+K21579	grdH	betaine reductase	betaine reductase protein B beta, selenocysteine (guild rule)
+K10670	grdA	betaine reductase	Gly/Sar/betaine reductase protein A, selenocysteine
+K21576	grdD	betaine reductase	Gly/Sar/betaine reductase protein C alpha
+K21577	grdC	betaine reductase	Gly/Sar/betaine reductase protein C beta
+K10672	grdB	glycine reductase (paralog control)	glycine reductase protein B gamma, selenocysteine
+K10671	grdE	glycine reductase (paralog control)	glycine reductase protein B alpha/beta
+K21584	grdF	sarcosine reductase (paralog control)	sarcosine reductase protein B beta
+K21583	grdG	sarcosine reductase (paralog control)	sarcosine reductase protein B alpha
+K25220	mtgB	betaine demethylation	glycine betaine:corrinoid methyltransferase (non-Pyl MttB family)
+K25221	mtgA	betaine demethylation	methylcorrinoid:THF methyltransferase (betaine-specific)
+K02000	proV	betaine transport	glycine betaine/proline ABC ATP-binding
+K02001	proW	betaine transport	glycine betaine/proline ABC permease
+K02002	proX	betaine transport	glycine betaine/proline ABC substrate-binding
+K05847	opuA	betaine transport	osmoprotectant ABC ATP-binding
+K05846	opuBD	betaine transport	osmoprotectant ABC permease
+K05845	opuC	betaine transport	osmoprotectant ABC substrate-binding
+K02168	betT	betaine transport	choline/glycine/proline betaine BCCT transporter
+K05020	opuD	betaine transport	glycine betaine BCCT transporter
+K03451	BCCT	betaine transport	betaine/carnitine/choline BCCT family
+K20038	cutC	TMA production	choline TMA-lyase (glycyl radical)
+K20037	cutD	TMA production	CutC activating enzyme
+K22443	cntA/yeaW	TMA production	carnitine (or choline/betaine) monooxygenase oxygenase; yeaW = same KO
+K22444	cntB/yeaX	TMA production	carnitine monooxygenase reductase; yeaX = same KO
+K07811	torA	TMA production	TMAO reductase TorA
+K07812	torZ	TMA production	TMAO reductase TorZ
+K07306	dmsA	TMA production	DMSO reductase A (some reduce TMAO)
+K18277	tmm	TMA consumption	TMA monooxygenase
+K00317	dmd-tmd	TMA consumption	DMA/TMA dehydrogenase
+K28979	tdm	TMA consumption	TMAO demethylase/aldolase
+K00399	mcrA	methanogenesis	methyl-CoM reductase alpha (guild rule)
+K00401	mcrB	methanogenesis	methyl-CoM reductase beta
+K00402	mcrG	methanogenesis	methyl-CoM reductase gamma
+K14083	mttB	methylamine methanogenesis	TMA methyltransferase (pyrrolysine)
+K14084	mttC	methylamine methanogenesis	TMA corrinoid protein
+K16178	mtbB	methylamine methanogenesis	DMA methyltransferase (pyrrolysine; guild rule)
+K16179	mtbC	methylamine methanogenesis	DMA corrinoid protein
+K16176	mtmB	methylamine methanogenesis	MMA methyltransferase (pyrrolysine; guild rule)
+K16177	mtmC	methylamine methanogenesis	MMA corrinoid protein
+K14082	mtbA	methylamine methanogenesis	methylcobamide:CoM methyltransferase
+K04480	mtaB	methanol methanogenesis	methanol:corrinoid methyltransferase
+K14081	mtaC	methanol methanogenesis	methanol corrinoid protein
+K14080	mtaA	methanol methanogenesis	methylcobamide:CoM methyltransferase (methanol/betaine)
+K16180	pylB	pyrrolysine	methylornithine synthase
+K16181	pylC	pyrrolysine	pyrrolysine synthetase
+K16182	pylD	pyrrolysine	pyrrolysine synthase
+K11627	pylS	pyrrolysine	pyrrolysyl-tRNA synthetase

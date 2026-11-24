@@ -1,0 +1,641 @@
+{
+ "host": "frankensteinsmonster",
+ "cores": 64,
+ "cap_max": 48,
+ "cap_min": 48,
+ "headroom": 16,
+ "mem_floor_gb": 40,
+ "settle_s": 120,
+ "poll_s": 20,
+ "sched_s": 120,
+ "retry_wait_s": 300,
+ "min_free_scratch_gb": 300,
+ "max_rollout_gb": 1000,
+ "tmp_min_free_gb": 10,
+ "kind_limits": {
+  "dl": 1,
+  "reads": 4,
+  "asm": 2,
+  "checkm2": 2,
+  "checkm1": 1,
+  "import": 2,
+  "push": 1
+ },
+ "group_limits": {
+  "prep": {
+   "kinds": [
+    "merge",
+    "tadpole",
+    "qtrimasm"
+   ],
+   "max": 1
+  },
+  "qc": {
+   "kinds": [
+    "checkm2",
+    "gunc",
+    "checkm1"
+   ],
+   "max": 3
+  }
+ },
+ "prep_buffer": 9,
+ "asm_lane_threads": 16,
+ "protect_lanes": 2,
+ "background_cap": 16,
+ "asm_after_all_prep": true,
+ "scope_mem_gb": 210,
+ "skip_gtdbtk": true,
+ "skip_old_qc": true,
+ "attempts": {
+  "default": 2,
+  "dl": 3,
+  "asm": 4,
+  "push": 4
+ },
+ "spades": {
+  "klist": "33,55,77,99,127",
+  "mem_gb": [
+   120,
+   160
+  ],
+  "reserve_gb": [
+   60,
+   160
+  ]
+ },
+ "heap": {
+  "xms": "8g",
+  "le9": "150g",
+  "gt9": "200g",
+  "oom": "150g",
+  "small": "16g",
+  "split_bases": 9000000000
+ },
+ "tools": {
+  "py": "/home/freiburger/Documents/py_venv/bin/python",
+  "sra": "/nonexistent/sra-tools-not-installed-here (reads copied from poplar)",
+  "bbtools": "/home/freiburger/Documents/salterns_rollout_local/envs/bbtools/bin",
+  "spades": "/home/freiburger/Documents/salterns_rollout_local/envs/spades3153/bin",
+  "map": "/home/freiburger/Documents/salterns_rollout_local/envs/bt_map/bin",
+  "metabat2": "/home/freiburger/Documents/salterns_rollout_local/envs/bt_metabat2/bin",
+  "maxbin2": "/home/freiburger/Documents/salterns_rollout_local/envs/bt_maxbin2/bin",
+  "concoct": "/home/freiburger/Documents/salterns_rollout_local/envs/bt_concoct/bin",
+  "dastool": "/home/freiburger/Documents/dastool_env/env/bin",
+  "gunc": "/home/freiburger/Documents/salterns_rollout_local/envs/bt_gunc/bin",
+  "qcenv": "/home/freiburger/Documents/salterns_rollout_local/envs/checkm2/bin",
+  "checkm2_db": "/home/freiburger/Documents/salterns_rollout_local/refdata/checkm2/CheckM2_database/uniref100.KO.1.dmnd",
+  "checkm1": "/home/freiburger/Documents/salterns_rollout_local/envs/bt_checkm1/bin",
+  "checkm1_env_ok": "/home/freiburger/Documents/salterns_rollout_local/envs/.setup/bt_checkm1.ok",
+  "checkm1_data": "/home/freiburger/Documents/salterns_rollout_local/refdata/checkm1",
+  "gunc_db_dir": "/home/freiburger/Documents/salterns_rollout_local/refdata/gunc"
+ },
+ "binning_test_root": "/nonexistent/binning_test (not used on this host)",
+ "old_table": "",
+ "root": "/home/freiburger/Documents/salterns_rollout_local/rollout",
+ "name": "rollout_r2a_local",
+ "threads": {
+  "dl": 6,
+  "reads": 16,
+  "merge": 16,
+  "tadpole": 16,
+  "qtrimasm": 16,
+  "asm": 16,
+  "contigs": 1,
+  "idx": 16,
+  "map": 15,
+  "metabat2": 16,
+  "maxbin2": 16,
+  "concoct": 16,
+  "dastool": 16,
+  "checkm2": 16,
+  "gunc": 16,
+  "checkm1": 16,
+  "keep": 1,
+  "import": 2,
+  "push": 1,
+  "report": 1
+ },
+ "reserve_gb": {
+  "dl": 4,
+  "reads": 20,
+  "merge": 150,
+  "tadpole": 150,
+  "qtrimasm": 20,
+  "asm": 60,
+  "contigs": 2,
+  "idx": 10,
+  "map": 10,
+  "depth": 10,
+  "metabat2": 5,
+  "maxbin2": 5,
+  "concoct": 10,
+  "dastool": 5,
+  "checkm2": 20,
+  "gunc": 15,
+  "checkm1": 80,
+  "keep": 2,
+  "import": 4,
+  "push": 2,
+  "report": 4
+ },
+ "libraries": {
+  "R2A_A_D1": {
+   "srr": "SRR5210214",
+   "spots": 28333786,
+   "bases": 8556803372,
+   "group": "R2A"
+  },
+  "R2A_A_D2": {
+   "srr": "SRR5468417",
+   "spots": 29137322,
+   "bases": 8799471244,
+   "group": "R2A"
+  },
+  "R2A_B_D1": {
+   "srr": "SRR5468418",
+   "spots": 22035020,
+   "bases": 6654576040,
+   "group": "R2A"
+  },
+  "R2A_B_D2": {
+   "srr": "SRR5210212",
+   "spots": 23572093,
+   "bases": 7118772086,
+   "group": "R2A"
+  },
+  "R2A_C_D1": {
+   "srr": "SRR5210316",
+   "spots": 23001024,
+   "bases": 6946309248,
+   "group": "R2A"
+  },
+  "R2A_C_D2": {
+   "srr": "SRR5210470",
+   "spots": 27587761,
+   "bases": 8331503822,
+   "group": "R2A"
+  },
+  "R2A_A_H2O": {
+   "srr": "SRR5210215",
+   "spots": 31949632,
+   "bases": 9648788864,
+   "group": "R2A"
+  },
+  "R2A_B_H2O": {
+   "srr": "SRR5210211",
+   "spots": 27822027,
+   "bases": 8402252154,
+   "group": "R2A"
+  },
+  "R2A_C_H2O": {
+   "srr": "SRR5210467",
+   "spots": 33788532,
+   "bases": 10204136664,
+   "group": "R2A"
+  },
+  "R2_A_D1": {
+   "srr": "SRR5468419",
+   "spots": 33473782,
+   "bases": 10109082164,
+   "group": "R2"
+  },
+  "R2_A_D2": {
+   "srr": "SRR14626312",
+   "spots": 28594005,
+   "bases": 8635389510,
+   "group": "R2"
+  },
+  "R2_B_D1": {
+   "srr": "SRR5209945",
+   "spots": 25008374,
+   "bases": 7552528948,
+   "group": "R2"
+  },
+  "R2_B_D2": {
+   "srr": "SRR6056297",
+   "spots": 41193859,
+   "bases": 12440545418,
+   "group": "R2"
+  },
+  "R2_C_D1": {
+   "srr": "SRR5210208",
+   "spots": 27605335,
+   "bases": 8336811170,
+   "group": "R2"
+  },
+  "R2_C_D2": {
+   "srr": "SRR10375808",
+   "spots": 21225786,
+   "bases": 6410187372,
+   "group": "R2"
+  },
+  "R2_restored_C_black": {
+   "srr": "SRR5210210",
+   "spots": 28396869,
+   "bases": 8575854438,
+   "group": "R2"
+  },
+  "R2_restored_D_shore": {
+   "srr": "SRR5210213",
+   "spots": 22672420,
+   "bases": 6847070840,
+   "group": "R2"
+  },
+  "R2_A_H2O": {
+   "srr": "SRR14626314",
+   "spots": 27587359,
+   "bases": 8331382418,
+   "group": "R2"
+  },
+  "R2_B_H2O": {
+   "srr": "SRR5209948",
+   "spots": 20319661,
+   "bases": 6136537622,
+   "group": "R2"
+  },
+  "R2_C_H2O": {
+   "srr": "SRR5210216",
+   "spots": 25501724,
+   "bases": 7701520648,
+   "group": "R2"
+  },
+  "R2_restored_H2O": {
+   "srr": "SRR5210209",
+   "spots": 27957805,
+   "bases": 8443257110,
+   "group": "R2"
+  }
+ },
+ "samples": {
+  "R2A_A_D1": {
+   "lib": "R2A_A_D1",
+   "group": [
+    "R2A_A_D1",
+    "R2A_A_D2",
+    "R2A_A_H2O",
+    "R2A_B_D1",
+    "R2A_B_D2",
+    "R2A_B_H2O",
+    "R2A_C_D1",
+    "R2A_C_D2",
+    "R2A_C_H2O"
+   ],
+   "group_name": "R2A",
+   "order": 0,
+   "bases": 8556803372,
+   "unit": "R2A_A_D1",
+   "push_to": {
+    "host": "poplar",
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2A_A_D1",
+    "marker": "READY"
+   }
+  },
+  "R2A_A_D2": {
+   "lib": "R2A_A_D2",
+   "group": [
+    "R2A_A_D1",
+    "R2A_A_D2",
+    "R2A_A_H2O",
+    "R2A_B_D1",
+    "R2A_B_D2",
+    "R2A_B_H2O",
+    "R2A_C_D1",
+    "R2A_C_D2",
+    "R2A_C_H2O"
+   ],
+   "group_name": "R2A",
+   "order": 1,
+   "bases": 8799471244,
+   "unit": "R2A_A_D2",
+   "push_to": {
+    "host": "poplar",
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2A_A_D2",
+    "marker": "READY"
+   }
+  },
+  "R2A_B_D1": {
+   "lib": "R2A_B_D1",
+   "group": [
+    "R2A_A_D1",
+    "R2A_A_D2",
+    "R2A_A_H2O",
+    "R2A_B_D1",
+    "R2A_B_D2",
+    "R2A_B_H2O",
+    "R2A_C_D1",
+    "R2A_C_D2",
+    "R2A_C_H2O"
+   ],
+   "group_name": "R2A",
+   "order": 2,
+   "bases": 6654576040,
+   "unit": "R2A_B_D1",
+   "push_to": {
+    "host": "poplar",
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2A_B_D1",
+    "marker": "READY"
+   }
+  },
+  "R2A_B_D2": {
+   "lib": "R2A_B_D2",
+   "group": [
+    "R2A_A_D1",
+    "R2A_A_D2",
+    "R2A_A_H2O",
+    "R2A_B_D1",
+    "R2A_B_D2",
+    "R2A_B_H2O",
+    "R2A_C_D1",
+    "R2A_C_D2",
+    "R2A_C_H2O"
+   ],
+   "group_name": "R2A",
+   "order": 3,
+   "bases": 7118772086,
+   "unit": "R2A_B_D2",
+   "push_to": {
+    "host": "poplar",
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2A_B_D2",
+    "marker": "READY"
+   }
+  },
+  "R2A_C_D1": {
+   "lib": "R2A_C_D1",
+   "group": [
+    "R2A_A_D1",
+    "R2A_A_D2",
+    "R2A_A_H2O",
+    "R2A_B_D1",
+    "R2A_B_D2",
+    "R2A_B_H2O",
+    "R2A_C_D1",
+    "R2A_C_D2",
+    "R2A_C_H2O"
+   ],
+   "group_name": "R2A",
+   "order": 4,
+   "bases": 6946309248,
+   "unit": "R2A_C_D1",
+   "push_to": {
+    "host": "poplar",
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2A_C_D1",
+    "marker": "READY"
+   }
+  },
+  "R2A_C_D2": {
+   "lib": "R2A_C_D2",
+   "group": [
+    "R2A_A_D1",
+    "R2A_A_D2",
+    "R2A_A_H2O",
+    "R2A_B_D1",
+    "R2A_B_D2",
+    "R2A_B_H2O",
+    "R2A_C_D1",
+    "R2A_C_D2",
+    "R2A_C_H2O"
+   ],
+   "group_name": "R2A",
+   "order": 5,
+   "bases": 8331503822,
+   "unit": "R2A_C_D2",
+   "push_to": {
+    "host": "poplar",
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2A_C_D2",
+    "marker": "READY"
+   }
+  },
+  "R2A_B_H2O": {
+   "lib": "R2A_B_H2O",
+   "group": [
+    "R2A_A_D1",
+    "R2A_A_D2",
+    "R2A_A_H2O",
+    "R2A_B_D1",
+    "R2A_B_D2",
+    "R2A_B_H2O",
+    "R2A_C_D1",
+    "R2A_C_D2",
+    "R2A_C_H2O"
+   ],
+   "group_name": "R2A",
+   "order": 6,
+   "bases": 8402252154,
+   "unit": "R2A_B_H2O",
+   "push_to": {
+    "host": "poplar",
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2A_B_H2O",
+    "marker": "READY"
+   }
+  },
+  "R2_B_D1": {
+   "lib": "R2_B_D1",
+   "group": [
+    "R2_A_D1",
+    "R2_A_D2",
+    "R2_A_H2O",
+    "R2_B_D1",
+    "R2_B_D2",
+    "R2_B_H2O",
+    "R2_C_D1",
+    "R2_C_D2",
+    "R2_C_H2O",
+    "R2_restored_C_black",
+    "R2_restored_D_shore",
+    "R2_restored_H2O"
+   ],
+   "group_name": "R2",
+   "order": 7,
+   "bases": 7552528948,
+   "unit": "R2_B_D1",
+   "push_to": {
+    "host": "poplar",
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2_B_D1",
+    "marker": "READY"
+   }
+  },
+  "R2_C_D1": {
+   "lib": "R2_C_D1",
+   "group": [
+    "R2_A_D1",
+    "R2_A_D2",
+    "R2_A_H2O",
+    "R2_B_D1",
+    "R2_B_D2",
+    "R2_B_H2O",
+    "R2_C_D1",
+    "R2_C_D2",
+    "R2_C_H2O",
+    "R2_restored_C_black",
+    "R2_restored_D_shore",
+    "R2_restored_H2O"
+   ],
+   "group_name": "R2",
+   "order": 8,
+   "bases": 8336811170,
+   "unit": "R2_C_D1",
+   "push_to": {
+    "host": "poplar",
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2_C_D1",
+    "marker": "READY"
+   }
+  },
+  "R2_C_D2": {
+   "lib": "R2_C_D2",
+   "group": [
+    "R2_A_D1",
+    "R2_A_D2",
+    "R2_A_H2O",
+    "R2_B_D1",
+    "R2_B_D2",
+    "R2_B_H2O",
+    "R2_C_D1",
+    "R2_C_D2",
+    "R2_C_H2O",
+    "R2_restored_C_black",
+    "R2_restored_D_shore",
+    "R2_restored_H2O"
+   ],
+   "group_name": "R2",
+   "order": 9,
+   "bases": 6410187372,
+   "unit": "R2_C_D2",
+   "push_to": {
+    "host": "poplar",
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2_C_D2",
+    "marker": "READY"
+   }
+  },
+  "R2_restored_C_black": {
+   "lib": "R2_restored_C_black",
+   "group": [
+    "R2_A_D1",
+    "R2_A_D2",
+    "R2_A_H2O",
+    "R2_B_D1",
+    "R2_B_D2",
+    "R2_B_H2O",
+    "R2_C_D1",
+    "R2_C_D2",
+    "R2_C_H2O",
+    "R2_restored_C_black",
+    "R2_restored_D_shore",
+    "R2_restored_H2O"
+   ],
+   "group_name": "R2",
+   "order": 10,
+   "bases": 8575854438,
+   "unit": "R2_restored_C_black",
+   "push_to": {
+    "host": "poplar",
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2_restored_C_black",
+    "marker": "READY"
+   }
+  },
+  "R2_A_H2O": {
+   "lib": "R2_A_H2O",
+   "group": [
+    "R2_A_D1",
+    "R2_A_D2",
+    "R2_A_H2O",
+    "R2_B_D1",
+    "R2_B_D2",
+    "R2_B_H2O",
+    "R2_C_D1",
+    "R2_C_D2",
+    "R2_C_H2O",
+    "R2_restored_C_black",
+    "R2_restored_D_shore",
+    "R2_restored_H2O"
+   ],
+   "group_name": "R2",
+   "order": 11,
+   "bases": 8331382418,
+   "unit": "R2_A_H2O",
+   "push_to": {
+    "host": "poplar",
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2_A_H2O",
+    "marker": "READY"
+   }
+  },
+  "R2_B_H2O": {
+   "lib": "R2_B_H2O",
+   "group": [
+    "R2_A_D1",
+    "R2_A_D2",
+    "R2_A_H2O",
+    "R2_B_D1",
+    "R2_B_D2",
+    "R2_B_H2O",
+    "R2_C_D1",
+    "R2_C_D2",
+    "R2_C_H2O",
+    "R2_restored_C_black",
+    "R2_restored_D_shore",
+    "R2_restored_H2O"
+   ],
+   "group_name": "R2",
+   "order": 12,
+   "bases": 6136537622,
+   "unit": "R2_B_H2O",
+   "push_to": {
+    "host": "poplar",
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2_B_H2O",
+    "marker": "READY"
+   }
+  },
+  "R2_C_H2O": {
+   "lib": "R2_C_H2O",
+   "group": [
+    "R2_A_D1",
+    "R2_A_D2",
+    "R2_A_H2O",
+    "R2_B_D1",
+    "R2_B_D2",
+    "R2_B_H2O",
+    "R2_C_D1",
+    "R2_C_D2",
+    "R2_C_H2O",
+    "R2_restored_C_black",
+    "R2_restored_D_shore",
+    "R2_restored_H2O"
+   ],
+   "group_name": "R2",
+   "order": 13,
+   "bases": 7701520648,
+   "unit": "R2_C_H2O",
+   "push_to": {
+    "host": "poplar",
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2_C_H2O",
+    "marker": "READY"
+   }
+  },
+  "R2_restored_H2O": {
+   "lib": "R2_restored_H2O",
+   "group": [
+    "R2_A_D1",
+    "R2_A_D2",
+    "R2_A_H2O",
+    "R2_B_D1",
+    "R2_B_D2",
+    "R2_B_H2O",
+    "R2_C_D1",
+    "R2_C_D2",
+    "R2_C_H2O",
+    "R2_restored_C_black",
+    "R2_restored_D_shore",
+    "R2_restored_H2O"
+   ],
+   "group_name": "R2",
+   "order": 14,
+   "bases": 8443257110,
+   "unit": "R2_restored_H2O",
+   "push_to": {
+    "host": "poplar",
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2_restored_H2O",
+    "marker": "READY"
+   }
+  }
+ }
+}

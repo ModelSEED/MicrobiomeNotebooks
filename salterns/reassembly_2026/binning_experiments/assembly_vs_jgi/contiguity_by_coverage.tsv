@@ -1,0 +1,16 @@
+source	kmer_cov_class_2026_scale	contigs	Mbp	N50	Mbp_ge20kb	pct_in_ge20kb
+2026 assembly, all contigs	0-1.0	342523	1258.0	3544	0.8	0.1
+2026 assembly, all contigs	1.0-1.5	187771	997.0	5719	55.9	5.6
+2026 assembly, all contigs	1.5-2.5	124492	809.8	7668	149.8	18.5
+2026 assembly, all contigs	2.5-5.0	64680	398.9	6880	80.9	20.3
+2026 assembly, all contigs	>=5.0	36435	227.3	7062	44.5	19.6
+2026 MAG contigs	0-1.0	78157	320.2	4090	0.5	0.2
+2026 MAG contigs	1.0-1.5	81964	495.5	6860	39.6	8.0
+2026 MAG contigs	1.5-2.5	59619	442.4	9234	96.8	21.9
+2026 MAG contigs	2.5-5.0	35619	236.8	7672	54.5	23.0
+2026 MAG contigs	>=5.0	22566	152.3	7958	32.7	21.5
+original (iii) MAG contigs, cov/2.9	0-1.0	92393	600.9	7719	71.2	11.8
+original (iii) MAG contigs, cov/2.9	1.0-1.5	23862	318.3	19618	156.6	49.2
+original (iii) MAG contigs, cov/2.9	1.5-2.5	14854	300.4	35621	210.8	70.2
+original (iii) MAG contigs, cov/2.9	2.5-5.0	8474	180.2	44944	128.7	71.4
+original (iii) MAG contigs, cov/2.9	>=5.0	6033	93.6	27386	56.3	60.2

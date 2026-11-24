@@ -1,0 +1,24 @@
+mags	38
+proteins	111172
+residues	31663451
+unique_protein_sequences_global	109571	fraction_duplicate	0.0144
+searched_proteins_within_chunk_dedup	111078	fraction_saved	0.0008
+searched_residues	31647489	fraction_saved	0.0005
+chunks	16	dedup_cluster_residues_min	1863091	max	2155635
+control_clusters_in_chunk_01	0
+chunk_01	mags	2	clusters	2	proteins	7310	searched	7309	residues_searched	2006861
+chunk_02	mags	3	clusters	3	proteins	6440	searched	6433	residues_searched	1954144
+chunk_03	mags	3	clusters	3	proteins	6771	searched	6771	residues_searched	1956343
+chunk_04	mags	2	clusters	2	proteins	6483	searched	6479	residues_searched	1902378
+chunk_05	mags	3	clusters	3	proteins	7730	searched	7727	residues_searched	1950882
+chunk_06	mags	3	clusters	3	proteins	7885	searched	7885	residues_searched	1970110
+chunk_07	mags	3	clusters	3	proteins	7498	searched	7498	residues_searched	2155635
+chunk_08	mags	3	clusters	3	proteins	7680	searched	7680	residues_searched	2011706
+chunk_09	mags	2	clusters	2	proteins	6558	searched	6557	residues_searched	1863091
+chunk_10	mags	2	clusters	2	proteins	7007	searched	7007	residues_searched	1913907
+chunk_11	mags	2	clusters	2	proteins	6725	searched	6717	residues_searched	1963620
+chunk_12	mags	2	clusters	2	proteins	6307	searched	6305	residues_searched	1984794
+chunk_13	mags	2	clusters	2	proteins	6823	searched	6821	residues_searched	1993189
+chunk_14	mags	2	clusters	2	proteins	6728	searched	6726	residues_searched	2007658
+chunk_15	mags	2	clusters	2	proteins	6659	searched	6657	residues_searched	2017637
+chunk_16	mags	2	clusters	2	proteins	6568	searched	6506	residues_searched	1995534

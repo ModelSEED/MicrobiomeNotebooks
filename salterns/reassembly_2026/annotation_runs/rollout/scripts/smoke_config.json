@@ -1,0 +1,206 @@
+{
+ "cores": 336,
+ "cap_max": 256,
+ "cap_min": 64,
+ "headroom": 16,
+ "mem_floor_gb": 400,
+ "settle_s": 60,
+ "poll_s": 20,
+ "sched_s": 20,
+ "retry_wait_s": 20,
+ "min_free_scratch_gb": 1000,
+ "max_rollout_gb": 2600,
+ "tmp_min_free_gb": 10,
+ "kind_limits": {
+  "dl": 4,
+  "reads": 4,
+  "asm": 6,
+  "checkm2": 3,
+  "checkm1": 3,
+  "gtdbtk": 1,
+  "import": 2
+ },
+ "group_limits": {
+  "prep": {
+   "kinds": [
+    "merge",
+    "tadpole",
+    "qtrimasm"
+   ],
+   "max": 3
+  },
+  "qc": {
+   "kinds": [
+    "checkm2",
+    "gunc",
+    "checkm1"
+   ],
+   "max": 6
+  }
+ },
+ "prep_buffer": 2,
+ "asm_lane_threads": 40,
+ "background_cap": 16,
+ "attempts": {
+  "default": 2,
+  "dl": 3,
+  "asm": 4
+ },
+ "spades": {
+  "klist": "33,55,77,99,127",
+  "mem_gb": [
+   32,
+   48
+  ],
+  "reserve_gb": [
+   8,
+   16
+  ]
+ },
+ "heap": {
+  "xms": "1g",
+  "le9": "8g",
+  "gt9": "8g",
+  "oom": "12g",
+  "small": "4g",
+  "split_bases": 9000000000
+ },
+ "tools": {
+  "py": "/scratch1/afreiburger/salterns_2026/envs/bt_map/bin/python",
+  "sra": "/scratch1/afreiburger/metag-hybrid/env/miniforge/envs/sra/bin",
+  "bbtools": "/scratch1/afreiburger/emilykin/processed/reanalysis_norm/env_bbtools/bin",
+  "spades": "/scratch1/afreiburger/salterns_2026/envs/spades3153/bin",
+  "map": "/scratch1/afreiburger/salterns_2026/envs/bt_map/bin",
+  "metabat2": "/scratch1/afreiburger/salterns_2026/envs/bt_metabat2/bin",
+  "maxbin2": "/scratch1/afreiburger/salterns_2026/envs/bt_maxbin2/bin",
+  "concoct": "/scratch1/afreiburger/salterns_2026/envs/bt_concoct/bin",
+  "dastool": "/scratch1/afreiburger/salterns_2026/envs/bt_dastool/bin",
+  "gunc": "/scratch1/afreiburger/salterns_2026/envs/bt_gunc/bin",
+  "qcenv": "/scratch1/afreiburger/emilykin/processed/.snakemake_envs/8c703f8abdc13cdc1ef374a2bcf37f14_/bin",
+  "checkm2_db": "/scratch1/afreiburger/emilykin/processed/refdata/checkm2/CheckM2_database/uniref100.KO.1.dmnd",
+  "checkm1": "/scratch1/afreiburger/salterns_2026/envs/bt_checkm1/bin",
+  "checkm1_env_ok": "/scratch1/afreiburger/salterns_2026/envs/.bt_setup/checkm1.ok",
+  "checkm1_data": "/scratch1/afreiburger/salterns_2026/binning_test/refdata/checkm1",
+  "gunc_db_dir": "/scratch1/afreiburger/salterns_2026/binning_test/refdata/gunc"
+ },
+ "binning_test_root": "/scratch1/afreiburger/salterns_2026/binning_test",
+ "root": "/scratch1/afreiburger/salterns_2026/rollout/smoke",
+ "name": "smoke",
+ "threads": {
+  "dl": 6,
+  "reads": 8,
+  "merge": 8,
+  "tadpole": 8,
+  "qtrimasm": 8,
+  "asm": 8,
+  "contigs": 1,
+  "idx": 8,
+  "map": 8,
+  "metabat2": 8,
+  "maxbin2": 8,
+  "concoct": 8,
+  "dastool": 8,
+  "checkm2": 8,
+  "gunc": 8,
+  "checkm1": 8,
+  "keep": 1,
+  "import": 2,
+  "gtdbtk": 8,
+  "report": 1
+ },
+ "reserve_gb": {
+  "dl": 4,
+  "reads": 16,
+  "merge": 16,
+  "tadpole": 16,
+  "qtrimasm": 16,
+  "asm": 16,
+  "contigs": 2,
+  "idx": 10,
+  "map": 10,
+  "depth": 10,
+  "metabat2": 10,
+  "maxbin2": 15,
+  "concoct": 16,
+  "dastool": 16,
+  "checkm2": 16,
+  "gunc": 16,
+  "checkm1": 16,
+  "keep": 2,
+  "import": 4,
+  "gtdbtk": 170,
+  "report": 4
+ },
+ "old_table": "/scratch1/afreiburger/salterns_2026/rollout/inputs/mags_old_vs_new.tsv",
+ "gtdbtk": {
+  "env_bin": "/scratch1/afreiburger/salterns_2026/envs/gtdbtk280/bin",
+  "env_ok": "/scratch1/afreiburger/salterns_2026/envs/.ro_setup/gtdbtk280.ok",
+  "data_ok": "/scratch1/afreiburger/salterns_2026/refdata/gtdbtk_r232/.ok",
+  "fail_markers": [
+   "/scratch1/afreiburger/salterns_2026/envs/.ro_setup/gtdbtk280.FAIL",
+   "/scratch1/afreiburger/salterns_2026/refdata/gtdbtk_r232/.FAIL"
+  ],
+  "cpus": 8,
+  "pplacer_cpus": 2,
+  "min_perc_aa": 10
+ },
+ "libraries": {
+  "SMK_DL": {
+   "srr": "SRR5209948",
+   "spots": 20319661,
+   "bases": 6136537622,
+   "group": "SMK",
+   "subsample_pairs": 300000
+  },
+  "SMK_RU": {
+   "srr": "-",
+   "spots": 0,
+   "bases": 0,
+   "group": "SMK",
+   "reuse": "/scratch1/afreiburger/salterns_2026/binning_test/reads/R1_B_D1",
+   "reuse_lib": "R1_B_D1",
+   "subsample_pairs": 300000
+  }
+ },
+ "samples": {
+  "SMK_A": {
+   "lib": "SMK_DL",
+   "group": [
+    "SMK_DL",
+    "SMK_RU"
+   ],
+   "group_name": "SMK",
+   "order": 0,
+   "bases": 6136537622,
+   "unit": "R2_B_H2O",
+   "spades_mem_gb": [
+    1,
+    32
+   ]
+  },
+  "SMK_B": {
+   "lib": "SMK_DL",
+   "group": [
+    "SMK_DL",
+    "SMK_RU"
+   ],
+   "group_name": "SMK",
+   "order": 1,
+   "bases": 6136537622,
+   "unit": "R2_B_H2O",
+   "spades_force_fail_default": true
+  },
+  "SMK_I": {
+   "lib": "SMK_RU",
+   "group": [],
+   "group_name": "SMK",
+   "order": 2,
+   "bases": 0,
+   "unit": "SF2_C_D1",
+   "import_from": {
+    "bt_sample": "SF2_C_D1",
+    "pilot_dir": "/scratch1/afreiburger/salterns_2026/tadpole_pilot/SF2_C_D1"
+   }
+  }
+ }
+}

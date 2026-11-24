@@ -1,0 +1,516 @@
+label	contig	start	stop	strand	locus	aa	kofam_call	best_marker	bakta_gene	bakta_product	bakta_KEGG	src
+Albimonas_cc058	k127_1013	28050	28859	+	FAPEIP_00046	269	-	phnC:250/274	yhdZ	Uncharacterized amino-acid ABC transporter ATP-binding protein YhdZ		PSCC
+Albimonas_cc058	k127_1017289	8443	10179	+	FAPEIP_00062	578	-	opuA:134/367		ABC-type protease/lipase transport system, ATPase and permease component		PSCC
+Albimonas_cc058	k127_1046515	5286	6425	-	FAPEIP_02063	379	-	tdm:124/1048		aminomethyltransferase		PSCC
+Albimonas_cc058	k127_1046515	60101	61204	+	FAPEIP_02114	367	-	opuA:284/367		ABC transporter related		PSCC
+Albimonas_cc058	k127_1089677	6277	8307	+	FAPEIP_03520	676	-	phnK:198/256		Glutathione import ATP-binding protein		PSCC
+Albimonas_cc058	k127_1132629	5470	6546	-	FAPEIP_01699	358	-	opuA:197/367	ugpC	sn-glycerol-3-phosphate import ATP-binding protein UgpC		PSCC
+Albimonas_cc058	k127_1132629	6561	7649	-	FAPEIP_01700	362	-	opuA:180/367		ABC transporter ATP-binding protein		PSCC
+Albimonas_cc058	k127_1148374	8267	10690	-	FAPEIP_02708	807	-	tdm:158/1048		Aminomethyltransferase		PSCC
+Albimonas_cc058	k127_1148374	15325	16902	-	FAPEIP_02714	525	mttB	mttB:669/219		Methyltransferase		PSCC
+Albimonas_cc058	k127_1148931	4759	5607	+	FAPEIP_02767	282	-	phnF:155/221		Regulatory protein GntR, HTH:UbiC transcription regulator-associated		PSCC
+Albimonas_cc058	k127_1216110	5828	6538	+	FAPEIP_01252	236	-	mtbC:224/276		Dimethylamine corrinoid protein		PSCC
+Albimonas_cc058	k127_1216110	19529	20290	+	FAPEIP_01267	253	-	phnC:189/274		ABC transporter domain-containing protein		PSCC
+Albimonas_cc058	k127_1216110	20287	21063	+	FAPEIP_01268	258	-	phnC:126/274		ABC transporter domain-containing protein		PSCC
+Albimonas_cc058	k127_1256895	4455	6302	+	FAPEIP_03055	615	-	phnC:152/274		Putative multidrug export ATP-binding/permease protein		PSCC
+Albimonas_cc058	k127_128912	1510	2721	+	FAPEIP_02498	403	opuC	opuC:204/107		hypothetical protein		none
+Albimonas_cc058	k127_1327374	6111	7211	+	FAPEIP_02459	366	-	opuA:284/367	ugpC	sn-glycerol-3-phosphate import ATP-binding protein UgpC		PSCC
+Albimonas_cc058	k127_1360754	19170	20774	-	FAPEIP_03467	534	-	phnK:202/256	nikD	Nickel import system ATP-binding protein NikD		PSCC
+Albimonas_cc058	k127_1404763	9496	10665	+	FAPEIP_01426	389	-	cntA/yeaW:167/313		Anthranilate 1,2-dioxygenase large subunit		PSCC
+Albimonas_cc058	k127_1489782	2080	3138	+	FAPEIP_00885	352	-	phnK:156/256	nikD	Nickel import system ATP-binding protein NikD		PSCC
+Albimonas_cc058	k127_1489782	3135	4157	+	FAPEIP_00886	340	-	phnK:200/256		hypothetical protein		none
+Albimonas_cc058	k127_1592263	5435	6217	+	FAPEIP_01543	260	-	phnC:153/274	cysA	Sulfate/thiosulfate import ATP-binding protein CysA		PSCC
+Albimonas_cc058	k127_1592263	6223	6927	+	FAPEIP_01544	234	-	phnC:162/274		Leucine/isoleucine/valine transporter ATP-binding subunit		PSCC
+Albimonas_cc058	k127_1940932	10018	10764	+	FAPEIP_00120	248	-	phnC:153/274		ABC transporter ATP-binding protein		PSCC
+Albimonas_cc058	k127_1940932	10766	11446	+	FAPEIP_00121	226	-	opuA:124/367	livF	High-affinity branched-chain amino acid transport ATP-binding protein LivF		PSCC
+Albimonas_cc058	k127_2133798	373	2658	-	FAPEIP_00699	761	-	dmd-tmd:147/703		Anthraniloyl-CoA monooxygenase		PSCC
+Albimonas_cc058	k127_2144003	3218	3913	+	FAPEIP_01499	231	-	opuA:165/367	thiQ	Thiamine import ATP-binding protein ThiQ		PSCC
+Albimonas_cc058	k127_2163212	2738	4471	-	FAPEIP_02699	577	opuC	opuC:227/107		ABC-type glycine betaine transport system substrate-binding domain-containing protein		PSCC
+Albimonas_cc058	k127_2200871	14257	16776	-	FAPEIP_03688	839	-	tdm:146/1048		Aminomethyltransferase		PSCC
+Albimonas_cc058	k127_2706688	10788	12290	+	FAPEIP_01962	500	-	phnC:157/274	rbsA	Ribose import ATP-binding protein RbsA		PSCC
+Albimonas_cc058	k127_2802979	9334	10482	-	FAPEIP_02216	382	-	opuA:256/367	fbpC	Fe(3+) ions import ATP-binding protein FbpC 2		PSCC
+Albimonas_cc058	k127_301594	2763	5177	-	FAPEIP_01656	804	-	phnC:146/274		Indoleacetamide hydrolase		PSCC
+Albimonas_cc058	k127_301594	5188	5922	-	FAPEIP_01657	244	-	phnC:124/274		ABC transporter ATP-binding protein		PSCC
+Albimonas_cc058	k127_301594	14180	15211	+	FAPEIP_01666	343	-	opuA:201/367		Oligopeptide/dipeptide ABC transporter		PSCC
+Albimonas_cc058	k127_301594	19057	20049	-	FAPEIP_01670	330	-	phnK:188/256		hypothetical protein		none
+Albimonas_cc058	k127_301594	43600	44340	+	FAPEIP_01691	246	-	phnC:159/274	urtD	Urea ABC transporter ATP-binding protein UrtD		PSCC
+Albimonas_cc058	k127_301594	44344	45039	+	FAPEIP_01692	231	-	opuA:149/367		Putative branched-chain amino acid ABC transporter (ATP-binding protein)		PSCC
+Albimonas_cc058	k127_3048610	7403	8116	-	FAPEIP_00070	237	-	phnC:199/274	macB	Macrolide export ATP-binding/permease protein MacB		PSCC
+Albimonas_cc058	k127_317312	28809	29576	+	FAPEIP_02601	255	-	proV:207/419	cmpD	Bicarbonate transport ATP-binding protein CmpD		PSCC
+Albimonas_cc058	k127_3198460	15266	15970	-	FAPEIP_03174	234	-	phnC:191/274	lolD	Lipoprotein-releasing system ATP-binding protein LolD		PSCC
+Albimonas_cc058	k127_3364841	29658	30704	-	FAPEIP_02757	348	-	proV:283/419	potA	Putrescine transport ATP-binding protein PotA		PSCC
+Albimonas_cc058	k127_3432876	2491	3207	-	FAPEIP_01313	238	-	phnC:137/274	livF	High-affinity branched-chain amino acid transport ATP-binding protein LivF		PSCC
+Albimonas_cc058	k127_3432876	3200	3934	-	FAPEIP_01314	244	-	phnC:193/274		ABC transporter ATP-binding protein		PSCC
+Albimonas_cc058	k127_3440567	3689	5806	-	FAPEIP_01806	705	-	dmsA:368/744		4Fe-4S Mo/W bis-MGD-type domain-containing protein		PSCC
+Albimonas_cc058	k127_3440567	22474	23226	-	FAPEIP_01825	250	-	phnF:120/221	gntR	GntR family transcriptional regulator		PSCC
+Albimonas_cc058	k127_3551079	86	2092	+	FAPEIP_02819	668	-	phnK:173/256	nikD	Nickel import system ATP-binding protein NikD		PSCC
+Albimonas_cc058	k127_3551079	11849	12652	-	FAPEIP_02828	267	-	opuA:178/367		Putative ABC transporter ATP-binding protein		PSCC
+Albimonas_cc058	k127_380161	17737	19737	-	FAPEIP_00751	666	-	phnC:160/274	msbA	Lipid A export ATP-binding/permease protein MsbA		PSCC
+Albimonas_cc058	k127_380161	19734	21620	-	FAPEIP_00752	628	-	phnC:164/274		ATP-binding cassette subfamily B multidrug efflux pump		PSCC
+Albimonas_cc058	k127_380161	59032	59787	-	FAPEIP_00787	251	-	phnC:134/274	livF	High-affinity branched-chain amino acid transport ATP-binding protein LivF		PSCC
+Albimonas_cc058	k127_380161	59784	60551	-	FAPEIP_00788	255	-	opuA:150/367		Choline transport ATP-binding protein OpuBA		PSCC
+Albimonas_cc058	k127_380161	68690	69463	-	FAPEIP_00797	257	-	opuA:238/367		ABC transporter domain-containing protein		PSCC
+Albimonas_cc058	k127_3843693	33001	33735	+	FAPEIP_03085	244	-	phnC:150/274		hypothetical protein		none
+Albimonas_cc058	k127_3984441	9239	10948	+	FAPEIP_01063	569	-	phnK:210/256		ABC-type dipeptide transporter		PSCC
+Albimonas_cc058	k127_3996382	20566	21342	-	FAPEIP_01759	258	-	opuA:174/367		putative ABC transporter ATP-binding protein AZC_3926		PSCC
+Albimonas_cc058	k127_4264040	5023	5820	-	FAPEIP_01290	265	-	opuA:191/367	pstB	Phosphate import ATP-binding protein PstB 1		PSCC
+Albimonas_cc058	k127_4278474	46405	47151	-	FAPEIP_02033	248	-	phnC:157/274		ABC transporter domain-containing protein		PSCC
+Albimonas_cc058	k127_4278474	50317	51072	-	FAPEIP_02037	251	-	phnC:123/274		Leucine/isoleucine/valine transporter ATP-binding subunit		PSCC
+Albimonas_cc058	k127_4278474	58206	59279	-	FAPEIP_02045	357	-	cntB/yeaX:101/425	paaK	Phenylacetate-CoA oxygenase/reductase subunit PaaK		PSCC
+Albimonas_cc058	k127_4301114	2782	4326	+	FAPEIP_03011	514	-	betT:662/712		BCCT family transporter		PSCC
+Albimonas_cc058	k127_4354582	18789	20324	+	FAPEIP_01177	511	-	phnC:126/274	lsrA	Autoinducer 2 import ATP-binding protein LsrA		PSCC
+Albimonas_cc058	k127_4354582	34998	35663	+	FAPEIP_01193	221	-	phnC:110/274		hypothetical protein		none
+Albimonas_cc058	k127_4426326	3923	5431	-	FAPEIP_03773	502	-	phnC:152/274	mglA	Galactose/methyl galactoside import ATP-binding protein MglA		PSCC
+Albimonas_cc058	k127_4426326	28128	28850	+	FAPEIP_03796	240	-	phnC:125/274	lptB	Lipopolysaccharide export system ATP-binding protein LptB		PSCC
+Albimonas_cc058	k127_4426326	28840	29553	+	FAPEIP_03797	237	-	phnC:155/274	livF	High-affinity branched-chain amino acid transport ATP-binding protein LivF		PSCC
+Albimonas_cc058	k127_4550632	32396	33463	-	FAPEIP_01887	355	proV	proV:502/419		Quaternary amine transport ATP-binding protein		PSCC
+Albimonas_cc058	k127_4550632	33477	34517	-	FAPEIP_01888	346	proW	proW:353/307		Glycine betaine transport system permease protein OpuAB		PSCC
+Albimonas_cc058	k127_4550632	34619	35584	-	FAPEIP_01889	321	proX	proX:183/98		ABC-type glycine betaine transport system substrate-binding domain-containing protein		PSCC
+Albimonas_cc058	k127_4550632	40133	41227	-	FAPEIP_01894	364	-	opuA:156/367		Molybdate ABC transporter, ATP-binding protein		PSCC
+Albimonas_cc058	k127_460587	1819	3417	-	FAPEIP_03909	532	-	phnK:165/256	gsiA	Glutathione import ATP-binding protein GsiA		PSCC
+Albimonas_cc058	k127_4659051	15231	16211	-	FAPEIP_02784	326	-	phnK:189/256		ABC transporter ATP-binding protein		PSCC
+Albimonas_cc058	k127_4659051	16303	17292	-	FAPEIP_02785	329	-	phnK:204/256		ABC-type dipeptide transporter		PSCC
+Albimonas_cc058	k127_4659051	32314	33138	-	FAPEIP_02799	274	-	phnC:184/274	mntB	Manganese transport system ATP-binding protein MntB		PSCC
+Albimonas_cc058	k127_4659051	41635	42363	-	FAPEIP_02807	242	-	opuA:142/367		ABC transporter domain-containing protein		PSCC
+Albimonas_cc058	k127_4728977	39786	41381	-	FAPEIP_01415	531	mttB	mttB:677/219		Methyltransferase		PSCC
+Albimonas_cc058	k127_4735111	5756	6556	+	FAPEIP_01853	266	phnP	phnP:300/145		Phosphoribosyl 1,2-cyclic phosphodiesterase		PSCC
+Albimonas_cc058	k127_4743210	6839	8683	-	FAPEIP_02418	614	-	opuA:168/367	msbA	Lipid A export ATP-binding/permease protein MsbA		PSCC
+Albimonas_cc058	k127_4743210	16496	17701	+	FAPEIP_02425	401	-	tdm:202/1048		Aminomethyltransferase		PSCC
+Albimonas_cc058	k127_4743210	19897	20643	+	FAPEIP_02428	248	-	opuA:140/367		ABC transporter domain-containing protein		PSCC
+Albimonas_cc058	k127_475424	984	1715	-	FAPEIP_01135	243	-	phnC:198/274		ABC transporter ATP-binding protein		PSCC
+Albimonas_cc058	k127_475424	12281	12964	+	FAPEIP_01145	227	-	phnC:108/274		ABC transporter domain-containing protein		PSCC
+Albimonas_cc058	k127_4810938	4666	5376	-	FAPEIP_00578	236	-	opuA:149/367		Branched-chain amino acid ABC transporter, ATP-binding protein LivF-1		PSCC
+Albimonas_cc058	k127_4810938	5373	6164	-	FAPEIP_00579	263	-	phnC:138/274		ABC transporter ATP-binding protein		PSCC
+Albimonas_cc058	k127_4839995	5326	5982	-	FAPEIP_02553	218	-	phnC:201/274		ABC transporter ATP-binding protein		PSCC
+Albimonas_cc058	k127_4839995	7571	8722	+	FAPEIP_02556	383	-	cntA/yeaW:178/313		Anthranilate 1,2-dioxygenase large subunit		PSCC
+Albimonas_cc058	k127_4839995	9059	11476	+	FAPEIP_02558	805	-	tdm:151/1048		Aminomethyltransferase		PSCC
+Albimonas_cc058	k127_4839995	13539	14732	+	FAPEIP_02561	397	-	phnW:151/328		Serine-glyoxylate aminotransferase apoenzyme		PSCC
+Albimonas_cc058	k127_4840729	7588	8580	-	FAPEIP_02693	330	-	phnC:159/274	drrA	Daunorubicin/doxorubicin resistance ATP-binding protein DrrA		PSCC
+Albimonas_cc058	k127_4861955	5361	6218	+	FAPEIP_03344	285	-	phnC:165/274		hypothetical protein		none
+Albimonas_cc058	k127_4861955	9799	10656	+	FAPEIP_03348	285	-	phnC:138/274		Branched-chain amino acid ABC transporter, ATP-binding protein		PSCC
+Albimonas_cc058	k127_4876751	9916	12891	+	FAPEIP_03568	991	-	tdm:154/1048		Sarcosine oxidase subunit alpha		PSCC
+Albimonas_cc058	k127_4876751	48598	49755	-	FAPEIP_03607	385	-	dmd-tmd:131/703		NADPH dehydrogenase		PSCC
+Albimonas_cc058	k127_4876751	58432	59145	-	FAPEIP_03614	237	-	phnC:140/274		ABC transporter domain-containing protein		PSCC
+Albimonas_cc058	k127_4876751	59142	59951	-	FAPEIP_03615	269	-	phnC:159/274		ABC transporter domain-containing protein		PSCC
+Albimonas_cc058	k127_4939275	1754	3418	+	FAPEIP_02940	554	BCCT	BCCT:774/674		BCCT transporter		PSCC
+Albimonas_cc058	k127_5077528	1424	2605	+	FAPEIP_03863	393	phnM	phnM:419/143	phnM	Phosphonate metabolism protein PhnM		PSCC
+Albimonas_cc058	k127_5077528	25154	26191	-	FAPEIP_03885	345	proV	proV:477/419		Quaternary amine transport ATP-binding protein		PSCC
+Albimonas_cc058	k127_5077528	26188	27021	-	FAPEIP_03886	277	proW	proW:414/307		Glycine/betaine/proline transporter, membrane component of ABC transporter		PSCC
+Albimonas_cc058	k127_5077528	27071	28000	-	FAPEIP_03887	309	proX	proX:305/98		Uncharacterized protein ORF1		PSCC
+Albimonas_cc058	k127_5101619	14013	16790	+	FAPEIP_01640	925	-	dmsA:317/744		NADH-quinone oxidoreductase subunit G		PSCC
+Albimonas_cc058	k127_5130621	7944	8687	-	FAPEIP_03008	247	-	phnK:132/256	oppF	Oligopeptide transport ATP-binding protein OppF		PSCC
+Albimonas_cc058	k127_518680	9516	10178	-	FAPEIP_03152	220	-	phnC:108/274		ABC-type branched-chain amino acid transport system, ATPase component		PSCC
+Albimonas_cc058	k127_518680	10175	10927	-	FAPEIP_03153	250	-	phnC:141/274		ABC transporter domain-containing protein		PSCC
+Albimonas_cc058	k127_5191513	6615	8417	+	FAPEIP_01558	600	-	phnK:169/256	gsiA	Glutathione import ATP-binding protein GsiA		PSCC
+Albimonas_cc058	k127_5226066	7829	8629	-	FAPEIP_03099	266	-	opuA:158/367		hypothetical protein		none
+Albimonas_cc058	k127_5226066	14567	15631	-	FAPEIP_03104	354	-	phnK:207/256	gsiA	Glutathione import ATP-binding protein GsiA		PSCC
+Albimonas_cc058	k127_5226066	15624	16664	-	FAPEIP_03105	346	-	phnK:191/256	nikD	Nickel import system ATP-binding protein NikD		PSCC
+Albimonas_cc058	k127_5275585	73	1323	-	FAPEIP_00999	416	-	phnW:138/328		Serine-pyruvate aminotransferase/aspartate aminotransferase		PSCC
+Albimonas_cc058	k127_5275585	1507	3309	+	FAPEIP_01000	600	-	phnC:166/274	msbA	ATP-binding cassette, subfamily B, MsbA		PSCC
+Albimonas_cc058	k127_5365342	13357	15591	+	FAPEIP_00604	744	-	torZ:810/1166		Anaerobic dimethyl sulfoxide reductase chain A		PSCC
+Albimonas_cc058	k127_5365342	58273	58965	+	FAPEIP_00643	230	-	phnC:203/274		ABC transporter domain-containing protein		PSCC
+Albimonas_cc058	k127_5365342	77612	78700	+	FAPEIP_00661	362	-	opuA:323/367	potA	Spermidine/putrescine import ATP-binding protein PotA		PSCC
+Albimonas_cc058	k127_5367439	24219	25028	-	FAPEIP_00939	269	-	phnC:149/274		ABC transporter domain-containing protein		PSCC
+Albimonas_cc058	k127_5367439	25025	25804	-	FAPEIP_00940	259	-	phnC:174/274	lptB	Lipopolysaccharide export system ATP-binding protein LptB		PSCC
+Albimonas_cc058	k127_5367439	43242	44000	-	FAPEIP_00957	252	-	phnC:139/274	znuC	Zinc import ATP-binding protein ZnuC		PSCC
+Albimonas_cc058	k127_5367439	45304	47967	-	FAPEIP_00959	887	-	mttC:153/282		hypothetical protein		none
+Albimonas_cc058	k127_5367439	52181	52996	-	FAPEIP_00963	271	-	phnC:178/274	btuD	Vitamin B12 ABC transporter, ATPase component BtuD		PSCC
+Albimonas_cc058	k127_5367439	65911	66990	-	FAPEIP_00975	359	-	dmd-tmd:112/703		NADH-flavin oxidoreductase/NADH oxidase		PSCC
+Albimonas_cc058	k127_5470255	12725	13423	+	FAPEIP_01598	232	-	phnC:192/274		ABC transporter domain-containing protein		PSCC
+Albimonas_cc058	k127_5548942	4143	5213	+	FAPEIP_00557	356	-	opuA:324/367		ABC transporter ATP-binding protein		PSCC
+Albimonas_cc058	k127_5599919	32638	33273	+	FAPEIP_03258	211	-	opuA:163/367	thiQ	Thiamine import ATP-binding protein ThiQ		PSCC
+Albimonas_cc058	k127_5635849	815	1846	-	FAPEIP_00202	343	-	phnK:194/256	gsiA	Glutathione import ATP-binding protein GsiA		PSCC
+Albimonas_cc058	k127_5635849	1843	2823	-	FAPEIP_00203	326	-	phnK:206/256		ABC-type dipeptide transporter		PSCC
+Albimonas_cc058	k127_5730352	33914	34210	+	FAPEIP_00305	98	phnG	phnG:133/56	phnG	Alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG		PSCC
+Albimonas_cc058	k127_5730352	34215	35699	+	FAPEIP_00306	494	phnI	phnI:300/170		hypothetical protein		none
+Albimonas_cc058	k127_5730352	36804	37622	+	FAPEIP_00308	272	phnK	phnK:305/256	phnK	Phosphonate C-P lyase system protein PhnK		PSCC
+Albimonas_cc058	k127_5730352	38581	39279	+	FAPEIP_00310	232	phnL	phnL:228/216	phnL	Phosphonate C-P lyase system protein PhnL		PSCC
+Albimonas_cc058	k127_5730352	39276	39851	+	FAPEIP_00311	191	phnN	phnN:218/114	phnN	Ribose 1,5-bisphosphate phosphokinase PhnN		PSCC
+Albimonas_cc058	k127_5730352	39848	40834	+	FAPEIP_00312	328	phnM	phnM:378/143		Alpha-D-ribose 1-methylphosphonate 5-triphosphate diphosphatase		PSCC
+Albimonas_cc058	k127_5730352	42849	45701	+	FAPEIP_00317	950	-	dmsA:232/744		Tetrathionate reductase subunit A		PSCC
+Albimonas_cc058	k127_5736075	659	1528	+	FAPEIP_00833	289	-	opuA:237/367		ABC transporter domain-containing protein		PSCC
+Albimonas_cc058	k127_714649	33727	35640	-	FAPEIP_03416	637	-	phnK:196/256		ABC-type dipeptide transporter		PSCC
+Albimonas_cc058	k127_726105	15291	16937	+	FAPEIP_03670	548	-	phnK:214/256		Nickel-transporting ATPase, Fe(3+)-transporting ATPase		PSCC
+Albimonas_cc058	k127_877562	3511	5145	-	FAPEIP_02954	544	-	phnK:182/256		ABC-type dipeptide transporter		PSCC
+Albimonas_cc058	k127_930519	23992	25047	-	FAPEIP_00362	351	-	opuA:289/367	potA	Spermidine/putrescine import ATP-binding protein PotA		PSCC
+Albimonas_cc058	k127_9523	1035	1781	-	FAPEIP_00565	248	-	opuA:174/367		ABC transporter domain-containing protein		PSCC
+Albimonas_cc058	k127_9523	1778	2737	-	FAPEIP_00566	319	-	phnK:152/256	nikD	Nickel import system ATP-binding protein NikD		PSCC
+Desulfo_M55B175_mb289	k127_1045640	5457	7601	+	MIFCCI_01098	714	-	dmsA:373/744		Twin-arginine translocation signal domain-containing protein		PSCC
+Desulfo_M55B175_mb289	k127_1134776	21539	24223	-	MIFCCI_01006	894	-	dmsA:193/744		4Fe-4S dicluster domain-containing protein		PSCC
+Desulfo_M55B175_mb289	k127_1327035	1311	3080	+	MIFCCI_01437	589	-	opuA:158/367		Sulfate-transporting ATPase, Polyamine-transporting ATPase		PSCC
+Desulfo_M55B175_mb289	k127_1327035	18840	19928	-	MIFCCI_01449	362	proX	proX:186/98	proX	Proline/glycine betaine ABC transporter substrate-binding protein ProX		PSCC
+Desulfo_M55B175_mb289	k127_1564304	6155	8158	-	MIFCCI_02862	667	-	dmd-tmd:267/703	fadH	NADH:flavin oxidoreductase/NADH oxidase FadH		PSCC
+Desulfo_M55B175_mb289	k127_1807787	728	1834	+	MIFCCI_02127	368	-	dmd-tmd:156/703		NADH:flavin oxidoreductase/NADH oxidase N-terminal domain-containing protein		PSCC
+Desulfo_M55B175_mb289	k127_2111791	18018	19310	+	MIFCCI_02715	430	-	tdm:152/1048		Aminomethyltransferase		PSCC
+Desulfo_M55B175_mb289	k127_2152382	5434	6357	-	MIFCCI_01091	307	proX	proX:286/98		Substrate-binding region of ABC-type glycine betaine transport system		PSCC
+Desulfo_M55B175_mb289	k127_2152382	6388	7167	-	MIFCCI_01092	259	-	betT:352/712		hypothetical protein		none
+Desulfo_M55B175_mb289	k127_2268452	2417	4624	-	MIFCCI_02153	735	-	dmsA:403/744		4Fe-4S Mo/W bis-MGD-type domain-containing protein		PSCC
+Desulfo_M55B175_mb289	k127_2440894	37775	38518	-	MIFCCI_01691	247	-	phnC:143/274		High-affinity branched-chain amino acid transport ATP-binding protein		PSCC
+Desulfo_M55B175_mb289	k127_2440894	38518	39336	-	MIFCCI_01692	272	-	phnC:176/274		hypothetical protein		none
+Desulfo_M55B175_mb289	k127_2448412	29867	32293	+	MIFCCI_02018	808	-	dmsA:166/744		Molybdopterin oxidoreductase domain-containing protein		PSCC
+Desulfo_M55B175_mb289	k127_2495493	621	1505	-	MIFCCI_00046	294	-	phnC:140/274	lptB	Lipopolysaccharide export system ATP-binding protein LptB		PSCC
+Desulfo_M55B175_mb289	k127_2703031	15278	16393	-	MIFCCI_00896	371	-	dmd-tmd:184/703		NADH:flavin oxidoreductase/NADH oxidase N-terminal domain-containing protein		PSCC
+Desulfo_M55B175_mb289	k127_2703031	18424	19893	-	MIFCCI_00899	489	mttB	mtgB:432/536		Trimethylamine--corrinoid protein Co-methyltransferase		PSCC
+Desulfo_M55B175_mb289	k127_2703031	19908	21422	-	MIFCCI_00900	504	mttB	mtgB:373/536		Trimethylamine--corrinoid protein Co-methyltransferase		PSCC
+Desulfo_M55B175_mb289	k127_2703031	22699	23556	-	MIFCCI_00902	285	proX	proX:302/98		Glycine betaine/proline transport system substrate-binding protein		PSCC
+Desulfo_M55B175_mb289	k127_2786267	5303	7393	-	MIFCCI_00415	696	-	dmsA:403/744	phsA	Thiosulfate reductase PhsA		PSCC
+Desulfo_M55B175_mb289	k127_2820344	3960	4907	-	MIFCCI_02088	315	phnD	phnD:142/114		Phosphonate transport system substrate-binding protein		PSCC
+Desulfo_M55B175_mb289	k127_2895319	1226	3031	+	MIFCCI_01290	601	-	opuA:155/367		Sulfate-transporting ATPase, Polyamine-transporting ATPase		PSCC
+Desulfo_M55B175_mb289	k127_2982041	46427	48160	+	MIFCCI_01050	577	-	opuA:180/367		MdlA: multidrug resistance ABC transporter, ATP-binding/permease protein		PSCC
+Desulfo_M55B175_mb289	k127_2982041	48169	50142	+	MIFCCI_01051	657	-	opuA:141/367		ABC transporter ATP-binding protein		PSCC
+Desulfo_M55B175_mb289	k127_3002197	15875	16636	-	MIFCCI_01997	253	-	opuA:202/367	pstB	Phosphate import ATP-binding protein PstB 1		PSCC
+Desulfo_M55B175_mb289	k127_301948	48011	48733	+	MIFCCI_00872	240	-	opuA:169/367	lptB	Lipopolysaccharide export system ATP-binding protein LptB		PSCC
+Desulfo_M55B175_mb289	k127_3064053	103861	104583	-	MIFCCI_00633	240	-	phnC:209/274	ftsE	Cell division ATP-binding protein FtsE		PSCC
+Desulfo_M55B175_mb289	k127_3224451	10872	11645	+	MIFCCI_02800	257	-	proV:214/419		ATP-binding cassette domain-containing protein		PSCC
+Desulfo_M55B175_mb289	k127_3273563	23209	24795	+	MIFCCI_01778	528	-	dmsA:280/744		hypothetical protein		none
+Desulfo_M55B175_mb289	k127_3445970	4623	5357	+	MIFCCI_01157	244	-	phnC:214/274		ABC transporter domain-containing protein		PSCC
+Desulfo_M55B175_mb289	k127_3445970	13578	15365	+	MIFCCI_01166	595	-	opuA:160/367	msbA1	MsbA1		PSCC
+Desulfo_M55B175_mb289	k127_3445970	63282	63920	+	MIFCCI_01206	212	-	mtbC:243/276		B12-binding domain-containing protein		PSCC
+Desulfo_M55B175_mb289	k127_3445970	64102	65556	+	MIFCCI_01207	484	mtgB	mtgB:539/536		Trimethylamine methyltransferase		PSCC
+Desulfo_M55B175_mb289	k127_3445970	65622	67094	+	MIFCCI_01208	490	mttB	mtgB:483/536		Trimethylamine--corrinoid protein Co-methyltransferase		PSCC
+Desulfo_M55B175_mb289	k127_3447864	5753	6703	+	MIFCCI_01321	316	-	opuA:178/367		ABC transporter domain-containing protein		PSCC
+Desulfo_M55B175_mb289	k127_3447864	20233	21177	-	MIFCCI_01334	314	-	cutD:274/391		Glycyl-radical enzyme activating protein		PSCC
+Desulfo_M55B175_mb289	k127_3447864	21679	24159	-	MIFCCI_01336	826	-	cutC:595/989		Formate C-acetyltransferase/glycerol dehydratase family glycyl radical enzyme		PSCC
+Desulfo_M55B175_mb289	k127_3841130	49818	50549	-	MIFCCI_02210	243	-	phnC:160/274	ecfA2	Energy-coupling factor transporter ATP-binding protein EcfA2		PSCC
+Desulfo_M55B175_mb289	k127_3885135	25740	28025	+	MIFCCI_00220	761	-	dmsA:332/744		Twin-arginine translocation signal domain-containing protein		PSCC
+Desulfo_M55B175_mb289	k127_4176490	8106	9152	+	MIFCCI_00790	348	-	opuA:255/367		ABC transporter domain-containing protein		PSCC
+Desulfo_M55B175_mb289	k127_4227763	20872	21654	+	MIFCCI_02623	260	-	phnC:171/274	lptB	Lipopolysaccharide export system ATP-binding protein LptB		PSCC
+Desulfo_M55B175_mb289	k127_4227763	21691	22428	+	MIFCCI_02624	245	-	phnC:144/274		Branched-chain amino acid ABC transporter ATP-binding protein		PSCC
+Desulfo_M55B175_mb289	k127_4294147	5974	7017	-	MIFCCI_01920	347	proX	proX:200/98	proX	Proline/glycine betaine ABC transporter substrate-binding protein ProX		PSCC
+Desulfo_M55B175_mb289	k127_4294147	7073	7915	-	MIFCCI_01921	280	proW	proW:447/307		ABC transmembrane type-1 domain-containing protein		PSCC
+Desulfo_M55B175_mb289	k127_4294147	7916	9235	-	MIFCCI_01922	439	proV	proV:596/419		Quaternary amine transport ATP-binding protein		PSCC
+Desulfo_M55B175_mb289	k127_4374426	2574	3590	-	MIFCCI_01393	338	-	cutD:287/391		Glycyl-radical enzyme activating protein		PSCC
+Desulfo_M55B175_mb289	k127_437471	4437	5219	-	MIFCCI_02559	260	-	phnC:186/274		ABC transporter ATP-binding protein		PSCC
+Desulfo_M55B175_mb289	k127_4569196	3270	4187	+	MIFCCI_01858	305	proX	proX:310/98		glycine betaine ABC transporter substrate-binding protein		PSCC
+Desulfo_M55B175_mb289	k127_462573	55	1161	+	MIFCCI_00012	368	-	dmsA:112/744		molybdopterin oxidoreductase family protein		PSCC
+Desulfo_M55B175_mb289	k127_4658920	3408	4217	+	MIFCCI_01789	269	-	phnC:187/274		Iron complex transport system ATP-binding protein		PSCC
+Desulfo_M55B175_mb289	k127_4725482	13334	14371	-	MIFCCI_00435	345	grdB	grdB:391/278		hypothetical protein		none
+Desulfo_M55B175_mb289	k127_4725482	14368	15708	-	MIFCCI_00436	446	-	grdE:350/542		hypothetical protein		none
+Desulfo_M55B175_mb289	k127_4725482	15727	16047	-	MIFCCI_00437	106	grdA	grdA:102/55		Glycine/sarcosine/betaine reductase complex protein A		PSCC
+Desulfo_M55B175_mb289	k127_4725482	16187	17653	-	MIFCCI_00439	488	-	grdC:496/601		Glycine/sarcosine/betaine reductase complex component C subunit beta		PSCC
+Desulfo_M55B175_mb289	k127_4881570	4821	6929	-	MIFCCI_02778	702	-	dmsA:419/744		hypothetical protein		none
+Desulfo_M55B175_mb289	k127_4936603	3486	4283	+	MIFCCI_01808	265	-	phnC:124/274		ABC transporter domain-containing protein		PSCC
+Desulfo_M55B175_mb289	k127_4979596	737	1444	-	MIFCCI_02850	235	-	phnC:131/274		ABC transporter ATP-binding protein		PSCC
+Desulfo_M55B175_mb289	k127_4979596	1431	2186	-	MIFCCI_02851	251	-	phnC:142/274	lptB	Lipopolysaccharide export system ATP-binding protein LptB		PSCC
+Desulfo_M55B175_mb289	k127_5347385	2027	2791	+	MIFCCI_02828	254	-	opuA:175/367	ecfA	Energy-coupling factor transporter ATP-binding protein EcfA		PSCC
+Desulfo_M55B175_mb289	k127_5376871	6075	8009	+	MIFCCI_00812	644	-	dmd-tmd:311/703		FAD-dependent oxidoreductase		PSCC
+Desulfo_M55B175_mb289	k127_590611	1770	3365	-	MIFCCI_01462	531	-	phnC:154/274		ABC transporter ATP-binding protein		PSCC
+Desulfo_M55B175_mb289	k127_799842	12958	13950	+	MIFCCI_02373	330	-	phnK:174/256		ABC transporter ATP-binding protein		PSCC
+Desulfo_M55B175_mb289	k127_799842	13967	14980	+	MIFCCI_02374	337	-	phnK:181/256		ATP-binding cassette domain-containing protein		PSCC
+Desulfo_M55B175_mb289	k127_799842	21295	22056	-	MIFCCI_02382	253	-	phnC:183/274		ABC transporter domain-containing protein		PSCC
+Desulfo_M55B175_mb289	k127_811076	9202	10317	+	MIFCCI_02594	371	-	mtbC:102/276	mtbC1	Methanogenic corrinoid protein MtbC1		PSCC
+Desulfo_M55B175_mb289	k127_861280	3456	4406	+	MIFCCI_01121	316	-	opuA:167/367		ABC transporter domain-containing protein		PSCC
+Halanaerobium_mb206	k127_1056367	1781	3313	-	LECAAC_01231	510	-	phnC:142/274		D-xylose ABC transporter ATP-binding protein		PSCC
+Halanaerobium_mb206	k127_1221434	29522	30280	+	LECAAC_01855	252	-	opuA:225/367		ABC transporter related protein		PSCC
+Halanaerobium_mb206	k127_1357283	7075	7839	-	LECAAC_01541	254	-	opuA:218/367		Putative taurine transport system ATP-binding protein		PSCC
+Halanaerobium_mb206	k127_1357283	65237	66100	-	LECAAC_01595	287	-	opuA:182/367		Alkanesulfonates ABC transporter ATP-binding protein		PSCC
+Halanaerobium_mb206	k127_1937382	38900	39634	-	LECAAC_01647	244	-	phnF:102/221	gntR	putative transcriptional regulator of N-Acetylglucosamine utilization, GntR family		PSCC
+Halanaerobium_mb206	k127_1937382	71311	72843	-	LECAAC_01675	510	-	phnC:152/274	rbsA	Ribose import ATP-binding protein RbsA		PSCC
+Halanaerobium_mb206	k127_2141046	5482	6258	-	LECAAC_01255	258	-	phnC:194/274		ABC transporter related protein		PSCC
+Halanaerobium_mb206	k127_2141046	16920	17693	-	LECAAC_01266	257	-	phnC:177/274	mntB	ABC-type Mn/Zn transport systems, ATPase component MntB		PSCC
+Halanaerobium_mb206	k127_2155682	289	1212	-	LECAAC_01685	307	-	opuA:175/367		Antibiotic transport system ATP-binding protein		PSCC
+Halanaerobium_mb206	k127_2246320	743	2470	-	LECAAC_00218	575	-	phnC:144/274	msbA	Lipid A export ATP-binding/permease protein MsbA		PSCC
+Halanaerobium_mb206	k127_2246320	3402	4163	-	LECAAC_00220	253	-	opuA:219/367	pstB	Phosphate import ATP-binding protein PstB 1		PSCC
+Halanaerobium_mb206	k127_2246320	27083	28105	-	LECAAC_00242	340	-	proV:277/419	metN	Methionine import ATP-binding protein MetN 1		PSCC
+Halanaerobium_mb206	k127_2379957	6486	7229	+	LECAAC_01890	247	-	phnC:221/274		ABC transporter domain-containing protein		PSCC
+Halanaerobium_mb206	k127_2380659	8365	9186	+	LECAAC_01920	273	-	opuA:186/367		ABC transporter ATP-binding protein		PSCC
+Halanaerobium_mb206	k127_2380659	9180	10028	+	LECAAC_01921	282	-	opuA:220/367	ecfA2	Energy-coupling factor transporter ATP-binding protein EcfA2		PSCC
+Halanaerobium_mb206	k127_2388563	21333	22790	+	LECAAC_00053	485	-	pylB:107/404	hydG	Iron-only hydrogenase maturation protein HydG		PSCC
+Halanaerobium_mb206	k127_2388563	22876	23979	+	LECAAC_00054	367	-	pylB:184/404	hydE	[FeFe] hydrogenase maturase subunit HydE		PSCC
+Halanaerobium_mb206	k127_2388563	41284	42264	+	LECAAC_00072	326	-	phnK:207/256		ABC-type dipeptide transporter		PSCC
+Halanaerobium_mb206	k127_2388563	42257	43267	+	LECAAC_00073	336	-	opuA:206/367	gsiA	Glutathione import ATP-binding protein GsiA		PSCC
+Halanaerobium_mb206	k127_2447456	5807	7579	+	LECAAC_01728	590	-	opuA:139/367		ABC transporter related protein		PSCC
+Halanaerobium_mb206	k127_2456093	15546	17405	-	LECAAC_02045	619	phnD	phnD:192/114		Methyl-accepting chemotaxis protein		PSCC
+Halanaerobium_mb206	k127_2596548	63526	64221	+	LECAAC_02003	231	-	phnF:122/221		Transcriptional regulator in cluster with Zn-dependent hydrolase		PSCC
+Halanaerobium_mb206	k127_264266	23594	24352	+	LECAAC_01317	252	-	phnC:154/274		ABC transporter ATP-binding protein		PSCC
+Halanaerobium_mb206	k127_2660826	1595	2314	+	LECAAC_01679	239	-	opuA:203/367	lptB	Lipopolysaccharide export system ATP-binding protein LptB		PSCC
+Halanaerobium_mb206	k127_2702737	1026	1955	-	LECAAC_00818	309	-	opuA:153/367		ABC transporter related protein		PSCC
+Halanaerobium_mb206	k127_2819950	2246	4639	+	LECAAC_00004	797	-	mtbC:205/276		Methionine synthase		PSCC
+Halanaerobium_mb206	k127_2865798	18372	19328	+	LECAAC_01336	318	phnD	phnD:225/114		Solute-binding protein family 3/N-terminal domain-containing protein		PSCC
+Halanaerobium_mb206	k127_2865798	19539	20393	+	LECAAC_01337	284	phnC	phnC:370/274	phnC	Phosphonates import ATP-binding protein PhnC 1		PSCC
+Halanaerobium_mb206	k127_2865798	20335	21141	+	LECAAC_01338	268	phnE	phnE:287/102	phnE	Phosphonate ABC transporter, permease protein PhnE		PSCC
+Halanaerobium_mb206	k127_2865798	21347	22147	+	LECAAC_01339	266	phnE	phnE:286/102		Phosphonate ABC transporter, permease protein		PSCC
+Halanaerobium_mb206	k127_2922877	36295	36423	+	LECAAC_00954	42	grdA	grdA:64/55		Glycine/sarcosine/betaine reductase complex component A2		PSCC
+Halanaerobium_mb206	k127_2922877	36439	36765	+	LECAAC_00955	108	grdA	grdA:175/55	grdA	glycine/sarcosine/betaine reductase complex selenoprotein A	K10670	PSC
+Halanaerobium_mb206	k127_2922877	36821	38146	+	LECAAC_00956	441	grdI	grdI:836/506		Betaine reductase component B alpha subunit		PSC
+Halanaerobium_mb206	k127_2922877	38164	39483	+	LECAAC_00957	439	grdH	grdH:809/624		Betaine reductase complex component B subunit beta		PSCC
+Halanaerobium_mb206	k127_2922877	39585	41183	+	LECAAC_00958	532	opuD	opuD:698/676		Transporter, betaine/carnitine/choline family		PSCC
+Halanaerobium_mb206	k127_3025880	7570	8334	+	LECAAC_01747	254	-	phnC:220/274		ABC transporter related protein		PSCC
+Halanaerobium_mb206	k127_3025880	16230	16961	+	LECAAC_01755	243	-	phnC:147/274		Tungstate transport system ATP-binding protein		PSCC
+Halanaerobium_mb206	k127_3055758	3691	4830	-	LECAAC_00533	379	grdD	grdD:563/406		Glycine/sarcosine/betaine reductase complex component C subunit alpha		PSCC
+Halanaerobium_mb206	k127_3055758	4841	6382	-	LECAAC_00534	513	grdC	grdC:844/601		Glycine/sarcosine/betaine reductase complex component C subunit beta		PSCC
+Halanaerobium_mb206	k127_3346563	13036	14124	-	LECAAC_00603	362	-	tdm:259/1048		Aminomethyltransferase		PSCC
+Halanaerobium_mb206	k127_3480459	11461	12087	-	LECAAC_00377	208	-	phnC:147/274		DL-methionine transporter ATP-binding subunit		PSCC
+Halanaerobium_mb206	k127_3480459	21646	22755	-	LECAAC_00387	369	-	opuA:292/367	msmX	Oligosaccharides import ATP-binding protein MsmX		PSCC
+Halanaerobium_mb206	k127_3480459	25264	26553	-	LECAAC_00391	429	-	phnC:212/274		ABC transporter related		PSCC
+Halanaerobium_mb206	k127_3480459	31215	32285	-	LECAAC_00395	356	-	phnW:198/328		hypothetical protein		none
+Halanaerobium_mb206	k127_3625151	1756	2553	-	LECAAC_00361	265	-	phnC:154/274		ABC transporter related protein		PSC
+Halanaerobium_mb206	k127_3631957	6779	7753	-	LECAAC_00497	324	-	opuA:228/367	dppD	Dipeptide ABC transporter ATP-binding protein		PSC
+Halanaerobium_mb206	k127_3631957	7753	8784	-	LECAAC_00498	343	-	phnK:222/256		Oligopeptide/dipeptide ABC transporter, ATPase subunit		PSC
+Halanaerobium_mb206	k127_3712858	14408	15406	+	LECAAC_00750	332	-	phnK:157/256		Oligopeptide ABC transporter, ATP-binding protein		PSCC
+Halanaerobium_mb206	k127_3712858	15399	16316	+	LECAAC_00751	305	-	opuA:144/367		Mannoside ABC transport system, ATP-binding protein 2		PSCC
+Halanaerobium_mb206	k127_371778	14611	15402	+	LECAAC_00334	263	-	opuA:241/367	tauB	Taurine import ATP-binding protein TauB		PSCC
+Halanaerobium_mb206	k127_3883704	7312	8070	+	LECAAC_01398	252	phnP	phnP:332/145	phnP	Metal-dependent hydrolases of the beta-lactamase superfamily I PhnP protein		PSCC
+Halanaerobium_mb206	k127_4085900	5590	7116	+	LECAAC_01015	508	-	phnC:171/274		Nucleoside ABC transporter ATP-binding protein		PSCC
+Halanaerobium_mb206	k127_4306826	108	1202	-	LECAAC_01179	364	-	opuA:324/367	potA	Spermidine/putrescine import ATP-binding protein PotA		PSCC
+Halanaerobium_mb206	k127_4370879	9240	10298	-	LECAAC_00975	352	-	opuA:324/367		ABC-type spermidine/putrescine transport system, ATPase component		PSCC
+Halanaerobium_mb206	k127_4539285	2033	2734	-	LECAAC_01508	233	-	phnC:126/274		ABC transporter domain-containing protein		PSCC
+Halanaerobium_mb206	k127_604978	19024	20265	-	LECAAC_00676	413	-	opuA:146/367	mdlB	ABC transporter related protein		none
+Halanaerobium_mb206	k127_604978	24666	25472	-	LECAAC_00682	268	-	opuA:167/367		ABC transporter related protein		PSCC
+Halanaerobium_mb206	k127_604978	28171	28920	-	LECAAC_00686	249	-	phnC:100/274		hypothetical protein		none
+Halanaerobium_mb206	k127_693567	5707	6813	+	LECAAC_01188	368	opuA	opuA:511/367		Quaternary amine transport ATP-binding protein		PSCC
+Halanaerobium_mb206	k127_693567	6819	7481	+	LECAAC_01189	220	opuBD	opuBD:239/178		Binding-protein-dependent transport systems inner membrane component		PSCC
+Halanaerobium_mb206	k127_693567	7503	8141	+	LECAAC_01190	212	opuBD	opuBD:260/178		ABC transmembrane type-1 domain-containing protein		PSCC
+Halanaerobium_mb206	k127_693567	8178	9125	+	LECAAC_01191	315	opuC	opuC:144/107		Glycine betaine ABC transporter substrate-binding protein		PSCC
+Halanaerobium_mb206	k127_706657	11401	12090	-	LECAAC_01431	229	-	phnC:231/274		ABC transporter domain-containing protein		PSCC
+Halanaerobium_mb206	k127_804356	764	1534	-	LECAAC_00309	256	-	phnC:182/274	mntB	ABC-type Mn/Zn transport systems, ATPase component MntB		PSCC
+Halanaerobium_mb206	k127_818745	8827	9867	-	LECAAC_00639	346	-	opuA:284/367		hypothetical protein		none
+Halanaerobium_mb206	k127_886304	2872	3636	-	LECAAC_00512	254	-	phnC:195/274		ABC transporter domain-containing protein		PSCC
+Halanaerobium_mb206	k127_886304	8480	9238	-	LECAAC_00517	252	-	opuA:233/367		hypothetical protein		none
+Halomonas_mb336	k127_1031844	13	1101	+	IFNOHN_01533	362	-	opuA:261/367		Iron(III) transport system ATP-binding protein		PSC
+Halomonas_mb336	k127_1084668	652	1458	-	IFNOHN_00021	268	-	opuA:171/367		ABC transporter ATP-binding protein		PSC
+Halomonas_mb336	k127_1090865	13771	14538	+	IFNOHN_00541	255	-	phnC:170/274	hmuV	Hemin import ATP-binding protein HmuV		PSC
+Halomonas_mb336	k127_1090865	18691	19494	+	IFNOHN_00547	267	-	phnC:176/274	znuC	High-affinity zinc uptake system ATP-binding protein ZnuC		PSC
+Halomonas_mb336	k127_1230249	1890	2855	+	IFNOHN_00100	321	proX	proX:318/98		Glycine betaine/proline transport system substrate-binding protein		PSC
+Halomonas_mb336	k127_1269961	25	876	+	IFNOHN_02209	283	-	phnC:125/274		ABC transporter domain-containing protein		PSC
+Halomonas_mb336	k127_1272339	4586	7636	-	IFNOHN_02242	1016	-	tdm:198/1048		Aminomethyltransferase	K00302	PSC
+Halomonas_mb336	k127_1301233	79	813	-	IFNOHN_00003	244	-	phnC:147/274	hmuV	Hemin import ATP-binding protein HmuV		PSC
+Halomonas_mb336	k127_1305762	4925	6070	+	IFNOHN_00379	381	-	opuA:290/367		Multiple sugar transport system ATP-binding protein		PSC
+Halomonas_mb336	k127_1452583	4581	5216	+	IFNOHN_00571	211	-	opuA:140/367		Putative thiamine transport system ATP-binding protein		PSC
+Halomonas_mb336	k127_1472585	3531	4619	+	IFNOHN_01866	362	-	opuA:173/367		Carbohydrate ABC transporter ATP-binding protein (CUT1 family)	K17324	PSC
+Halomonas_mb336	k127_1565450	7069	7785	-	IFNOHN_02339	238	-	phnC:190/274		Putative ABC transport system ATP-binding protein		PSC
+Halomonas_mb336	k127_1616705	96	722	+	IFNOHN_01829	208	-	phnK:144/256		ABC transporter ATP-binding protein		PSCC
+Halomonas_mb336	k127_1626895	945	2468	-	IFNOHN_02047	507	phnE	phnE:273/102	phnE	Phosphate-import permease protein PhnE	K02042	PSC
+Halomonas_mb336	k127_1626895	2465	3226	-	IFNOHN_02048	253	-	phnC:194/274		Phosphonate transport system ATP-binding protein		PSC
+Halomonas_mb336	k127_1635541	640	1365	-	IFNOHN_02263	241	-	proV:140/419		Tungstate transport system ATP-binding protein		PSC
+Halomonas_mb336	k127_1665366	798	4580	+	IFNOHN_00250	1260	-	dmsA:356/744		nitrate reductase subunit alpha	K00370	PSC
+Halomonas_mb336	k127_1744645	5810	7609	-	IFNOHN_00814	599	-	phnC:160/274		ATP-binding cassette subfamily B protein		PSC
+Halomonas_mb336	k127_1810124	3897	6383	+	IFNOHN_00219	828	torZ	torA:1021/1314	torA	trimethylamine-N-oxide reductase TorA	K08351	PSC
+Halomonas_mb336	k127_1833338	613	2685	+	IFNOHN_01763	690	-	dmd-tmd:351/703	dgcA	dimethylglycine demethylation protein DgcA	K21833	PSC
+Halomonas_mb336	k127_1881282	7227	8036	-	IFNOHN_00153	269	phnE	phnE:284/102	phnE	phosphonate ABC transporter, permease protein PhnE	K02042	PSC
+Halomonas_mb336	k127_1881282	8033	8857	-	IFNOHN_00154	274	phnC	phnC:373/274	phnC	phosphonate ABC transporter ATP-binding protein		PSC
+Halomonas_mb336	k127_1881282	8934	9902	-	IFNOHN_00155	322	phnD	phnD:220/114		Phosphate/phosphite/phosphonate ABC transporter substrate-binding protein	K02044	PSC
+Halomonas_mb336	k127_1916286	12630	14975	+	IFNOHN_02092	781	-	cntB/yeaX:300/425		Cytochrome P450/ferredoxin-NADP reductase	K03863	PSC
+Halomonas_mb336	k127_2094422	2328	3824	-	IFNOHN_02658	498	-	betT:700/712		Choline/glycine/proline betaine transport protein		PSC
+Halomonas_mb336	k127_2179177	253	981	+	IFNOHN_00879	242	opuBD	opuBD:254/178	yehW	Osmoprotectant uptake system permease protein YehW		PSC
+Halomonas_mb336	k127_2181271	267	932	-	IFNOHN_01087	221	opuBD	opuBD:291/178		ABC transporter permease		PSC
+Halomonas_mb336	k127_218946	2101	3144	-	IFNOHN_00179	347	-	cntB/yeaX:104/425	benC	benzoate 1,2-dioxygenase electron transfer component BenC	K05784	PSC
+Halomonas_mb336	k127_218946	3701	4861	-	IFNOHN_00181	386	-	cntA/yeaW:115/313		Benzoate/toluate 1,2-dioxygenase alpha subunit	K05549	PSC
+Halomonas_mb336	k127_2314121	25	1959	+	IFNOHN_00043	644	-	dmd-tmd:204/703		2,4-dienoyl-CoA reductase (NADPH2)	K00219	PSC
+Halomonas_mb336	k127_2318465	874	2493	-	IFNOHN_00460	539	betT	betT:727/712		Choline/glycine/proline betaine transport protein	K02168	PSC
+Halomonas_mb336	k127_2340444	2173	2970	-	IFNOHN_01841	265	-	phnC:224/274		Histidine/lysine/arginine/ornithine ABC transporter ATP-binding protein		PSC
+Halomonas_mb336	k127_2340444	4932	5870	-	IFNOHN_01844	312	proX	proX:274/98		ABC transporter substrate-binding protein		PSC
+Halomonas_mb336	k127_2360250	5023	6129	-	IFNOHN_02296	368	-	opuA:288/367	malK	Maltose/maltodextrin import ATP-binding protein MalK		PSC
+Halomonas_mb336	k127_2509002	4251	5021	+	IFNOHN_02396	256	-	phnC:224/274		Amino acid ABC transporter ATP-binding protein (PAAT family)		PSC
+Halomonas_mb336	k127_2537787	4214	4897	-	IFNOHN_00643	227	-	phnC:189/274		Putative ABC transport system ATP-binding protein		PSC
+Halomonas_mb336	k127_2610461	7381	8121	-	IFNOHN_00693	246	-	opuA:254/367	glnQ	Glutamine transport ATP-binding protein GlnQ		PSC
+Halomonas_mb336	k127_2732493	7853	8728	-	IFNOHN_02513	291	phnD	phnD:133/114		PhnD/SsuA/transferrin family substrate-binding protein		PSCC
+Halomonas_mb336	k127_2986431	13606	14385	+	IFNOHN_01683	259	-	opuA:229/367		Arginine ABC transporter ATP-binding protein		PSC
+Halomonas_mb336	k127_306100	2792	3868	-	IFNOHN_01397	358	-	opuA:197/367		Peptide/nickel transport system ATP-binding protein		PSC
+Halomonas_mb336	k127_3189252	3999	4763	+	IFNOHN_00683	254	-	phnC:264/274		General L-amino acid transport system ATP-binding protein		PSC
+Halomonas_mb336	k127_3389742	87	797	+	IFNOHN_02594	236	-	phnC:158/274		ABC transporter domain-containing protein		PSCC
+Halomonas_mb336	k127_3646759	145	1878	-	IFNOHN_01960	577	-	phnC:123/274	cydC	thiol reductant ABC exporter subunit CydC		PSC
+Halomonas_mb336	k127_3646759	1865	3565	-	IFNOHN_01961	566	-	phnC:110/274	cydD	thiol reductant ABC exporter subunit CydD		PSC
+Halomonas_mb336	k127_377517	7002	7748	+	IFNOHN_01292	248	-	opuA:113/367	livF	Branched-chain amino acid transport ATP-binding protein LivF		PSC
+Halomonas_mb336	k127_3866027	4265	7120	+	IFNOHN_01998	951	-	dmsA:355/744		Formate dehydrogenase, nitrate-inducible, major subunit		PSC
+Halomonas_mb336	k127_387338	1893	2645	-	IFNOHN_01766	250	-	opuA:125/367		hypothetical protein		none
+Halomonas_mb336	k127_3986386	844	2433	+	IFNOHN_00920	529	-	opuD:512/676		BCCT transporter		PSC
+Halomonas_mb336	k127_4052970	3394	4680	+	IFNOHN_00404	428	-	cntA/yeaW:229/313		aromatic ring-hydroxylating dioxygenase subunit alpha		PSC
+Halomonas_mb336	k127_4203969	22123	23232	-	IFNOHN_01084	369	-	tdm:132/1048	gcvT	glycine cleavage system aminomethyltransferase GcvT		PSC
+Halomonas_mb336	k127_4370145	82	1755	+	IFNOHN_01975	557	BCCT	BCCT:753/674		BCCT family transporter		PSC
+Halomonas_mb336	k127_4373048	11045	11854	-	IFNOHN_02033	269	phnE	phnE:299/102	phnE	phosphonate ABC transporter, permease protein PhnE	K02042	PSC
+Halomonas_mb336	k127_4373048	11848	12663	-	IFNOHN_02034	271	phnE	phnE:296/102	phnE	phosphonate ABC transporter, permease protein PhnE	K02042	PSC
+Halomonas_mb336	k127_4373048	12650	13465	-	IFNOHN_02035	271	phnC	phnC:355/274	phnC	phosphonate ABC transporter ATP-binding protein		PSC
+Halomonas_mb336	k127_4380869	42	1073	+	IFNOHN_02243	343	-	opuA:241/367		Molybdate transport system ATP-binding protein		PSC
+Halomonas_mb336	k127_4424462	213	3926	-	IFNOHN_01304	1237	-	mtbC:149/276	metH	methionine synthase		PSC
+Halomonas_mb336	k127_4491807	837	1763	+	IFNOHN_00903	308	opuC	opuC:315/107		Osmoprotectant transport system substrate-binding protein		PSC
+Halomonas_mb336	k127_4491807	1771	2931	+	IFNOHN_00904	386	opuBD	opuBD:288/178		Osmoprotectant transport system permease protein		PSC
+Halomonas_mb336	k127_4504529	8024	8836	-	IFNOHN_01713	270	-	opuA:210/367	mlaF	Phospholipid ABC transporter ATP-binding protein MlaF		PSC
+Halomonas_mb336	k127_678873	1741	2910	+	IFNOHN_01854	389	-	cntB/yeaX:105/425	hmpA	NO-inducible flavohemoprotein	K05916	PSC
+Halomonas_mb336	k127_711262	1354	2298	-	IFNOHN_02498	314	-	phnC:147/274	yxlF	Putative ABC transporter ATP-binding protein YxlF		PSC
+Halomonas_mb336	k127_85022	4223	5962	-	IFNOHN_01014	579	-	phnC:154/274	msbA	lipid A export permease/ATP-binding protein MsbA		PSC
+Halomonas_mb336	k127_888629	786	1661	-	IFNOHN_01596	291	proX	proX:366/98		Glycine betaine/proline transport system substrate-binding protein		PSC
+Halomonas_mb336	k127_964709	97	798	+	IFNOHN_01767	233	-	opuA:194/367	pstB	phosphate ABC transporter ATP-binding protein PstB		PSC
+Halomonas_mb336	k127_968566	6329	7096	+	IFNOHN_01891	255	-	phnC:146/274	lptB	Lipopolysaccharide export system ATP-binding protein LptB		PSC
+Methanolobus_cc101	k127_1117003	61327	63231	+	KGNBLM_01426	634	-	mttC:242/282		hypothetical protein		none
+Methanolobus_cc101	k127_1148235	34377	35186	+	KGNBLM_02173	269	-	phnC:133/274		hypothetical protein		none
+Methanolobus_cc101	k127_1148235	49770	50519	-	KGNBLM_02189	249	-	phnC:180/274		hypothetical protein		none
+Methanolobus_cc101	k127_1148235	68379	69137	-	KGNBLM_02211	252	-	opuA:254/367	cmpD	Bicarbonate transport ATP-binding protein CmpD		PSCC
+Methanolobus_cc101	k127_1203011	7957	8727	+	KGNBLM_01610	256	-	opuA:207/367	pstB	Phosphate import ATP-binding protein PstB 1		PSCC
+Methanolobus_cc101	k127_1258657	17844	18806	+	KGNBLM_01241	320	-	opuA:163/367		hypothetical protein		none
+Methanolobus_cc101	k127_1283062	18817	19704	-	KGNBLM_01955	295	proX	proX:298/98		hypothetical protein		none
+Methanolobus_cc101	k127_1283062	19838	20689	-	KGNBLM_01956	283	proX	proX:358/98	gbuC	Glycine betaine/carnitine transport binding protein GbuC		PSCC
+Methanolobus_cc101	k127_1283062	20803	21633	-	KGNBLM_01957	276	proW	proW:451/307		ABC transmembrane type-1 domain-containing protein		PSCC
+Methanolobus_cc101	k127_1283062	21636	22823	-	KGNBLM_01958	395	proV	proV:631/419		Quaternary amine transport ATP-binding protein		PSCC
+Methanolobus_cc101	k127_1283062	23084	24055	+	KGNBLM_01959	323	mtaA	mtaA:403/383		hypothetical protein		none
+Methanolobus_cc101	k127_1305539	2098	3027	-	KGNBLM_00255	309	-	phnC:165/274		ABC transporter ATP-binding protein		PSCC
+Methanolobus_cc101	k127_1347239	2709	4325	-	KGNBLM_01622	538	-	phnC:134/274		hypothetical protein		none
+Methanolobus_cc101	k127_1391267	2501	3229	+	KGNBLM_00666	242	-	phnC:239/274	yknY	Uncharacterized ABC transporter ATP-binding protein YknY		PSCC
+Methanolobus_cc101	k127_2542819	8878	9624	+	KGNBLM_00595	248	-	opuA:172/367		hypothetical protein		none
+Methanolobus_cc101	k127_2542819	11196	12290	+	KGNBLM_00598	364	-	dmd-tmd:141/703		NADH:flavin oxidoreductase		PSCC
+Methanolobus_cc101	k127_2561673	611	1735	-	KGNBLM_01321	374	-	opuA:279/367		hypothetical protein		none
+Methanolobus_cc101	k127_2581669	412	1053	+	KGNBLM_01905	213	-	mtmC:122/334		hypothetical protein		none
+Methanolobus_cc101	k127_2581669	1050	2081	+	KGNBLM_01906	343	-	mtaA:162/383		hypothetical protein		none
+Methanolobus_cc101	k127_2775821	5734	6738	+	KGNBLM_01217	334	-	opuA:193/367		hypothetical protein		none
+Methanolobus_cc101	k127_2841865	13964	15682	-	KGNBLM_01058	572	mcrA	mcrA:983/741		hypothetical protein		none
+Methanolobus_cc101	k127_2841865	15693	16442	-	KGNBLM_01059	249	mcrG	mcrG:424/359		hypothetical protein		none
+Methanolobus_cc101	k127_2841865	17590	18894	-	KGNBLM_01062	434	mcrB	mcrB:747/507		hypothetical protein		none
+Methanolobus_cc101	k127_3051215	11406	12422	-	KGNBLM_00642	338	mtbA	mtbA:454/432		hypothetical protein		none
+Methanolobus_cc101	k127_3051215	12733	13392	-	KGNBLM_00643	219	-	mttC:252/282		hypothetical protein		none
+Methanolobus_cc101	k127_3051215	13875	16055	-	KGNBLM_00644	726	-	dmd-tmd:173/703		FAD-dependent oxidoreductase		PSCC
+Methanolobus_cc101	k127_3051215	16213	17232	-	KGNBLM_00645	339	mtaA	mtaA:414/383		hypothetical protein		none
+Methanolobus_cc101	k127_3130653	75454	76110	-	KGNBLM_00931	218	-	phnC:106/274		hypothetical protein		none
+Methanolobus_cc101	k127_3430782	53241	54392	+	KGNBLM_01478	383	-	phnW:240/328		hypothetical protein		none
+Methanolobus_cc101	k127_3430782	61887	62615	-	KGNBLM_01489	242	-	opuA:252/367		Glutamine transport ATP-binding protein		PSCC
+Methanolobus_cc101	k127_3447778	25185	26228	+	KGNBLM_01896	347	-	opuA:246/367		hypothetical protein		none
+Methanolobus_cc101	k127_3830647	4578	5492	+	KGNBLM_00007	304	-	phnC:167/274		hypothetical protein		none
+Methanolobus_cc101	k127_3830647	7282	8022	-	KGNBLM_00010	246	phnP	phnP:229/145		hypothetical protein		none
+Methanolobus_cc101	k127_3852543	3586	4407	-	KGNBLM_00834	273	-	phnC:179/274		hypothetical protein		none
+Methanolobus_cc101	k127_4171698	9756	10631	+	KGNBLM_01919	291	proX	proX:368/98	gbuC	Glycine betaine/carnitine transport binding protein GbuC		PSCC
+Methanolobus_cc101	k127_4171698	11325	12233	+	KGNBLM_01921	302	phnD	phnD:118/114		hypothetical protein		none
+Methanolobus_cc101	k127_4171698	18952	20844	+	KGNBLM_01928	630	-	mttC:245/282		hypothetical protein		none
+Methanolobus_cc101	k127_4196059	11421	12464	+	KGNBLM_00225	347	mtaA	mtaA:463/383		hypothetical protein		none
+Methanolobus_cc101	k127_4239703	28227	29183	-	KGNBLM_01832	318	-	mtgA:227/462		hypothetical protein		none
+Methanolobus_cc101	k127_4366212	18862	20193	-	KGNBLM_01182	443	-	phnC:191/274		hypothetical protein		none
+Methanolobus_cc101	k127_4366212	37793	38623	-	KGNBLM_01199	276	-	phnC:138/274		hypothetical protein		none
+Methanolobus_cc101	k127_4366212	38599	39420	-	KGNBLM_01200	273	-	phnC:175/274		ABC transporter ATP-binding protein		PSCC
+Methanolobus_cc101	k127_4366212	45795	46547	+	KGNBLM_01207	250	-	opuA:239/367		hypothetical protein		none
+Methanolobus_cc101	k127_4410449	7672	8673	+	KGNBLM_00074	333	mttB	mttB:305/219		Trimethylamine methyltransferase		PSCC
+Methanolobus_cc101	k127_4410449	8788	9162	+	KGNBLM_00075	124	-	mttB:116/219		hypothetical protein		none
+Methanolobus_cc101	k127_4410449	9182	9829	+	KGNBLM_00076	215	mttC	mttC:316/282		hypothetical protein		none
+Methanolobus_cc101	k127_4410449	12056	12700	+	KGNBLM_00080	214	mtbC	mtbC:332/276		hypothetical protein		none
+Methanolobus_cc101	k127_4410449	12711	13775	+	KGNBLM_00081	354	mtbB	mtbB:667/497		hypothetical protein		none
+Methanolobus_cc101	k127_4410449	13794	14111	+	KGNBLM_00082	105	-	mtbB:181/497		hypothetical protein		none
+Methanolobus_cc101	k127_4410452	30216	31001	-	KGNBLM_00110	261	pylD	pylD:324/198		hypothetical protein		none
+Methanolobus_cc101	k127_4410452	30998	32098	-	KGNBLM_00111	366	pylC	pylC:483/323		hypothetical protein		none
+Methanolobus_cc101	k127_4410452	32086	33153	-	KGNBLM_00112	355	pylB	pylB:546/404		hypothetical protein		none
+Methanolobus_cc101	k127_4410452	33163	34479	-	KGNBLM_00113	438	pylS	pylS:718/652		hypothetical protein		none
+Methanolobus_cc101	k127_460008	1647	2402	-	KGNBLM_01138	251	-	phnC:206/274		hypothetical protein		none
+Methanolobus_cc101	k127_460008	8606	9244	+	KGNBLM_01143	212	-	mtmC:122/334		hypothetical protein		none
+Methanolobus_cc101	k127_460008	9246	10292	+	KGNBLM_01144	348	-	mtaA:176/383		hypothetical protein		none
+Methanolobus_cc101	k127_466065	15531	16439	+	KGNBLM_01352	302	opuC	opuC:310/107		hypothetical protein		none
+Methanolobus_cc101	k127_466065	16483	17610	+	KGNBLM_01353	375	opuA	opuA:466/367		Quaternary amine transport ATP-binding protein		PSCC
+Methanolobus_cc101	k127_466065	17621	18262	+	KGNBLM_01354	213	opuBD	opuBD:212/178		hypothetical protein		none
+Methanolobus_cc101	k127_466065	18256	18870	+	KGNBLM_01355	204	opuBD	opuBD:232/178		hypothetical protein		none
+Methanolobus_cc101	k127_466065	18910	20007	-	KGNBLM_01356	365	-	mtaA:167/383		hypothetical protein		none
+Methanolobus_cc101	k127_466065	24315	25334	-	KGNBLM_01360	339	mtbA	mtbA:497/432		hypothetical protein		none
+Methanolobus_cc101	k127_466065	26048	27421	+	KGNBLM_01361	457	mtmB	mtmB:568/260		hypothetical protein		none
+Methanolobus_cc101	k127_658015	3338	4414	+	KGNBLM_00389	358	-	mtaA:178/383		hypothetical protein		none
+Methanolobus_cc101	k127_743450	7712	8827	-	KGNBLM_00825	371	-	mtaA:181/383		hypothetical protein		none
+Methanolobus_cc101	k127_83847	7043	8659	-	KGNBLM_00533	538	betT	betT:768/712		Choline/glycine/proline betaine transport protein		PSCC
+Methanolobus_cc101	k127_878479	1491	2192	-	KGNBLM_00473	233	-	phnC:236/274		hypothetical protein		none
+Methanolobus_cc101	k127_878479	4320	5006	+	KGNBLM_00476	228	-	phnC:220/274	lolD	Lipoprotein-releasing system ATP-binding protein LolD		PSCC
+Methanolobus_cc101	k127_878479	16348	17034	-	KGNBLM_00490	228	-	phnC:233/274	lolD	Lipoprotein-releasing system ATP-binding protein LolD		PSCC
+Roseovarius_mb121	k127_1196428	16756	19200	-	HLHNMG_02276	814	-	tdm:160/1048		FAD-dependent oxidoreductase		PSC
+Roseovarius_mb121	k127_1349080	15198	16742	-	HLHNMG_02470	514	mttB	mttB:720/219		Methyltransferase	K14083	PSC
+Roseovarius_mb121	k127_1374273	19644	20795	+	HLHNMG_00057	383	-	tdm:164/1048		dimethylsulfoniopropionate demethylase	K17486	PSC
+Roseovarius_mb121	k127_1417108	2293	4254	-	HLHNMG_02356	653	-	dmd-tmd:328/703		Oxidoreductase		PSC
+Roseovarius_mb121	k127_1417108	4470	7055	-	HLHNMG_02358	861	dmd-tmd	dmd-tmd:1080/703		NADH:flavin oxidoreductase	K00317	PSC
+Roseovarius_mb121	k127_1417108	7073	9124	-	HLHNMG_02359	683	dmd-tmd	dmd-tmd:1082/703		NADH:flavin oxidoreductase	K00317	PSC
+Roseovarius_mb121	k127_1417108	9121	11211	-	HLHNMG_02360	696	dmd-tmd	dmd-tmd:1094/703		NADH:flavin oxidoreductase	K00317	PSC
+Roseovarius_mb121	k127_1417108	11924	13021	-	HLHNMG_02362	365	-	opuA:307/367	potA	Spermidine/putrescine import ATP-binding protein PotA		PSC
+Roseovarius_mb121	k127_1538242	18491	19738	+	HLHNMG_01595	415	proV	proV:602/419		Quaternary amine transport ATP-binding protein		PSC
+Roseovarius_mb121	k127_1538242	19752	20669	+	HLHNMG_01596	305	proW	proW:460/307		Proline/glycine betaine ABC transporter permease	K02001	PSC
+Roseovarius_mb121	k127_1538242	20793	21842	+	HLHNMG_01597	349	proX	proX:203/98	proX	glycine betaine/L-proline ABC transporter substrate-binding protein ProX		PSC
+Roseovarius_mb121	k127_1538242	26011	27519	+	HLHNMG_01601	502	-	phnC:157/274	mglA	Galactose/methyl galactoside import ATP-binding protein MglA		PSCC
+Roseovarius_mb121	k127_1538242	33635	35689	+	HLHNMG_01607	684	-	phnK:181/256	nikE	nickel import ATP-binding protein NikE		PSC
+Roseovarius_mb121	k127_1651283	12711	13535	+	HLHNMG_02725	274	phnC	phnC:366/274	phnC	phosphonate ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_1771099	2217	3308	-	HLHNMG_02193	363	-	opuA:281/367		Fe3+/spermidine/putrescine ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_17801	30190	31386	+	HLHNMG_01437	398	-	phnW:116/328		Aminotransferase		PSC
+Roseovarius_mb121	k127_17801	53528	55561	-	HLHNMG_01459	677	-	dmd-tmd:291/703		N-methylproline demethylase		PSC
+Roseovarius_mb121	k127_1886095	7157	7969	-	HLHNMG_00568	270	-	opuA:208/367		Phosphate ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_1886095	11100	12029	-	HLHNMG_00572	309	-	opuA:163/367		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_1886095	23124	23873	+	HLHNMG_00585	249	-	phnC:157/274		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_1886095	23870	24559	+	HLHNMG_00586	229	-	phnC:125/274		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_2039845	4364	5440	+	HLHNMG_01205	358	-	opuA:331/367	potA	Spermidine/putrescine import ATP-binding protein PotA		PSC
+Roseovarius_mb121	k127_2097288	5165	6121	-	HLHNMG_00077	318	-	opuA:224/367		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_2097288	6118	8004	-	HLHNMG_00078	628	-	phnK:199/256		Peptide ABC transporter permease		PSC
+Roseovarius_mb121	k127_212678	18	923	+	HLHNMG_02995	301	phnD	phnD:223/114	phnD	phosphonate ABC transporter substrate-binding protein	K02044	PSC
+Roseovarius_mb121	k127_212678	990	1862	+	HLHNMG_02996	290	phnE	phnE:299/102	phnE	phosphonate ABC transporter, permease protein PhnE	K02042	PSC
+Roseovarius_mb121	k127_212678	1867	3216	+	HLHNMG_02997	449	phnE	phnE:300/102	phnE	phosphonate ABC transporter, permease protein PhnE	K02042	PSC
+Roseovarius_mb121	k127_212678	4189	5361	-	HLHNMG_02999	390	phnM	phnM:370/143		Alkylphosphonate utilization protein		PSC
+Roseovarius_mb121	k127_212678	5444	6166	-	HLHNMG_03000	240	phnF	phnF:324/221	phnF	phosphonate metabolism transcriptional regulator PhnF	K02043	PSC
+Roseovarius_mb121	k127_212678	6259	6702	+	HLHNMG_03001	147	phnG	phnG:215/56	phnG	phosphonate C-P lyase system protein PhnG	K06166	PSC
+Roseovarius_mb121	k127_212678	6702	7265	+	HLHNMG_03002	187	phnH	phnH:180/137	phnH	phosphonate C-P lyase system protein PhnH	K06165	PSC
+Roseovarius_mb121	k127_212678	7270	8355	+	HLHNMG_03003	361	phnI	phnI:596/170	phnI	Carbon-phosphorus lyase complex subunit PhnI	K06164	PSC
+Roseovarius_mb121	k127_212678	8560	9474	+	HLHNMG_03005	304	phnJ	phnJ:535/195		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase	K06163	PSC
+Roseovarius_mb121	k127_212678	9471	10241	+	HLHNMG_03006	256	phnK	phnK:439/256	phnK	phosphonate C-P lyase system protein PhnK		PSC
+Roseovarius_mb121	k127_212678	10245	10928	+	HLHNMG_03007	227	phnL	phnL:367/216	phnL	phosphonate C-P lyase system protein PhnL		PSC
+Roseovarius_mb121	k127_212678	10985	11473	+	HLHNMG_03008	162	phnN	phnN:182/114	phnN	phosphonate metabolism protein/1,5-bisphosphokinase (PRPP-forming) PhnN		PSC
+Roseovarius_mb121	k127_212678	12192	13334	+	HLHNMG_03010	380	phnM	phnM:484/143		alpha-D-ribose 1-methylphosphonate 5-triphosphate diphosphatase		PSC
+Roseovarius_mb121	k127_2157240	4765	5733	-	HLHNMG_02736	322	-	phnK:184/256		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_2157240	5730	6695	-	HLHNMG_02737	321	-	phnK:183/256		Methionine ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_2157240	39964	40743	-	HLHNMG_02777	259	-	phnC:132/274	livF	ABC transporter		PSC
+Roseovarius_mb121	k127_2157240	40809	41564	-	HLHNMG_02778	251	-	phnC:166/274		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_2219570	2048	3589	+	HLHNMG_02499	513	mttB	mttB:590/219		Methyltransferase	K14083	PSC
+Roseovarius_mb121	k127_2219570	51769	53454	-	HLHNMG_02555	561	-	phnK:180/256	nikE	nickel import ATP-binding protein NikE		PSC
+Roseovarius_mb121	k127_225488	9117	10205	+	HLHNMG_00673	362	-	opuA:186/367		ABC transporter ATP-binding protein	K17324	PSC
+Roseovarius_mb121	k127_225488	10220	11317	+	HLHNMG_00674	365	-	opuA:192/367		ABC transporter ATP-binding protein	K17325	PSC
+Roseovarius_mb121	k127_226394	6547	8976	-	HLHNMG_00828	809	-	tdm:133/1048		Dehydrogenase	K00315	PSC
+Roseovarius_mb121	k127_226394	19518	20642	-	HLHNMG_00840	374	-	opuA:289/367		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_2264214	17758	18462	-	HLHNMG_01819	234	-	phnF:111/221	gntR	GntR family transcriptional regulator	K05836	PSC
+Roseovarius_mb121	k127_2272720	13102	14259	-	HLHNMG_02096	385	phnM	phnM:397/143		Alpha-D-ribose 1-methylphosphonate 5-triphosphate diphosphatase		PSC
+Roseovarius_mb121	k127_2334566	3196	3891	-	HLHNMG_01682	231	-	phnC:138/274		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_2474487	10187	11095	+	HLHNMG_01150	302	-	phnC:149/274		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_2479554	14401	15126	+	HLHNMG_01637	241	-	opuA:169/367		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_2479554	16223	17785	-	HLHNMG_01639	520	mttB	mttB:641/219		Methyltransferase	K14083	PSC
+Roseovarius_mb121	k127_2618536	8272	9267	-	HLHNMG_01108	331	-	opuA:226/367		MalK_3 protein		PSCC
+Roseovarius_mb121	k127_2618536	9260	10357	-	HLHNMG_01109	365	-	opuA:270/367		Sn-glycerol-3-phosphate import ATP-binding protein		PSCC
+Roseovarius_mb121	k127_293537	13353	15134	+	HLHNMG_00249	593	-	phnK:188/256	nikD	nickel import ATP-binding protein NikD		PSC
+Roseovarius_mb121	k127_3276094	13117	14706	+	HLHNMG_01799	529	-	phnK:184/256	nikD	nickel import ATP-binding protein NikD		PSC
+Roseovarius_mb121	k127_3322602	2148	2819	-	HLHNMG_03050	223	-	opuA:147/367		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_3322602	7410	8066	+	HLHNMG_03054	218	-	phnC:192/274		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_3322602	19757	20551	-	HLHNMG_03064	264	-	phnC:136/274		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_3322602	25686	26483	-	HLHNMG_03069	265	-	phnC:147/274		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_3332954	7340	8857	-	HLHNMG_00663	505	-	phnC:162/274		ABC transporter ATP-binding protein	K23537	PSC
+Roseovarius_mb121	k127_33597	26026	26703	+	HLHNMG_02123	225	-	phnC:172/274	ftsE	Cell division protein FtsE		PSC
+Roseovarius_mb121	k127_3486894	24271	25200	-	HLHNMG_01380	309	-	phnC:175/274		Multidrug ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_3486894	32565	34361	-	HLHNMG_01391	598	-	phnC:155/274		ABC transporter		PSC
+Roseovarius_mb121	k127_3559157	5731	8679	-	HLHNMG_01232	982	-	tdm:135/1048		Sarcosine oxidase subunit alpha	K22086	PSC
+Roseovarius_mb121	k127_3559157	30531	32591	-	HLHNMG_01252	686	-	phnK:192/256	nikD	nickel import ATP-binding protein NikD		PSC
+Roseovarius_mb121	k127_3559157	135003	136142	+	HLHNMG_01348	379	-	tdm:216/1048		Glycine cleavage system protein T		PSC
+Roseovarius_mb121	k127_3626047	1242	2582	+	HLHNMG_00906	446	-	tdm:168/1048		Aminomethyl transferase family protein		PSC
+Roseovarius_mb121	k127_3659289	15365	16162	+	HLHNMG_02383	265	-	opuA:193/367	pstB	phosphate ABC transporter ATP-binding protein PstB		PSC
+Roseovarius_mb121	k127_3774557	4061	5818	-	HLHNMG_01100	585	-	opuA:132/367	arpD	Type I secretion system permease/ATPase		PSC
+Roseovarius_mb121	k127_3816447	10727	11308	-	HLHNMG_02624	193	-	BCCT:301/674		hypothetical protein		none
+Roseovarius_mb121	k127_3918833	5435	6232	+	HLHNMG_01073	265	phnP	phnP:302/145		MBL fold metallo-hydrolase	K06167	PSC
+Roseovarius_mb121	k127_3918833	17442	20453	+	HLHNMG_01086	1003	-	tdm:170/1048		Sarcosine oxidase subunit alpha family protein	K00302	PSC
+Roseovarius_mb121	k127_3982943	3942	6722	+	HLHNMG_00599	926	-	dmsA:334/744	fdhF	formate dehydrogenase subunit alpha		PSC
+Roseovarius_mb121	k127_3982943	8387	10414	+	HLHNMG_00601	675	-	dmd-tmd:236/703		NADPH-dependent 2,4-dienoyl-CoA reductase	K00219	PSC
+Roseovarius_mb121	k127_3982943	42871	45711	-	HLHNMG_00633	946	-	dmsA:259/744		Formate dehydrogenase		PSC
+Roseovarius_mb121	k127_4123047	8651	9406	-	HLHNMG_00109	251	-	opuA:186/367	lptB	LPS export ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_4198143	50	2551	+	HLHNMG_00407	833	-	tdm:132/1048		Diguanylate cyclase	K00315	PSC
+Roseovarius_mb121	k127_4198143	4749	7154	+	HLHNMG_00409	801	-	tdm:140/1048		Glycine cleavage system protein T	K00315	PSC
+Roseovarius_mb121	k127_4198143	7151	8701	+	HLHNMG_00410	516	mttB	mttB:592/219		Methyltransferase	K14083	PSC
+Roseovarius_mb121	k127_4198143	24048	24731	+	HLHNMG_00425	227	-	phnC:206/274		ABC transporter		PSC
+Roseovarius_mb121	k127_4273593	44512	45693	-	HLHNMG_00727	393	-	phnW:128/328		Serine--glyoxylate aminotransferase		PSC
+Roseovarius_mb121	k127_4273593	84930	86033	+	HLHNMG_00767	367	-	phnC:157/274	modC	molybdenum ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_4273593	103414	104439	-	HLHNMG_00781	341	proV	proV:13/419	choV	choline ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_4273593	104432	105271	-	HLHNMG_00782	279	proW	proW:430/307	choW	choline ABC transporter permease subunit	K02001	PSC
+Roseovarius_mb121	k127_4273593	105384	106310	-	HLHNMG_00783	308	proX	proX:306/98		Glycine/betaine ABC transporter substrate-binding protein		PSC
+Roseovarius_mb121	k127_4273593	128319	129032	+	HLHNMG_00802	237	-	phnC:140/274		Sulfate ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_4335209	30604	33534	-	HLHNMG_03104	976	-	tdm:129/1048		Sarcosine oxidase subunit alpha	K22086	PSC
+Roseovarius_mb121	k127_4346478	10357	11484	+	HLHNMG_00858	375	-	opuA:306/367	potA	Spermidine/putrescine import ATP-binding protein PotA		PSC
+Roseovarius_mb121	k127_4351407	3184	4287	+	HLHNMG_01022	367	-	opuA:314/367		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_4351407	30315	32780	-	HLHNMG_01053	821	-	tdm:140/1048		Glycine cleavage system protein T	K00315	PSC
+Roseovarius_mb121	k127_4412138	8994	11411	-	HLHNMG_00119	805	-	tdm:144/1048		Glycine cleavage system protein T	K00315	PSC
+Roseovarius_mb121	k127_4446086	7492	8616	+	HLHNMG_02250	374	-	tdm:130/1048	gcvT	glycine cleavage system aminomethyltransferase GcvT		PSC
+Roseovarius_mb121	k127_4446086	14539	15216	-	HLHNMG_02254	225	-	phnC:207/274		ABC transporter		PSC
+Roseovarius_mb121	k127_4504637	810	2588	-	HLHNMG_01776	592	-	phnK:211/256	nikE	nickel import ATP-binding protein NikE		PSC
+Roseovarius_mb121	k127_4524238	11969	12787	+	HLHNMG_02318	272	-	phnC:156/274	livG	Sulfate/thiosulfate import ATP-binding protein CysA		PSC
+Roseovarius_mb121	k127_4544252	14733	15479	+	HLHNMG_02797	248	-	opuA:202/367		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_4544252	46816	47976	+	HLHNMG_02826	386	-	cntA/yeaW:208/313		Aromatic ring-hydroxylating dioxygenase subunit alpha		PSC
+Roseovarius_mb121	k127_4544252	52134	53225	-	HLHNMG_02833	363	-	opuA:279/367		Fe3+/spermidine/putrescine ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_494847	34536	35252	-	HLHNMG_02897	238	-	phnC:143/274		Branched-chain amino acid ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_494847	35249	35977	-	HLHNMG_02898	242	-	phnC:158/274		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_494847	61707	62465	+	HLHNMG_02922	252	-	phnC:154/274		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_494847	62452	63171	+	HLHNMG_02923	239	-	phnC:152/274		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_510065	62851	64635	-	HLHNMG_00216	594	-	opuA:151/367		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_525797	10229	12043	-	HLHNMG_01563	604	-	opuA:157/367		Metal ABC transporter permease		PSC
+Roseovarius_mb121	k127_583798	1675	3219	+	HLHNMG_00333	514	mttB	mttB:572/219		Methyltransferase		PSCC
+Roseovarius_mb121	k127_583798	5075	7165	-	HLHNMG_00335	696	-	phnK:176/256	oppF	murein tripeptide/oligopeptide ABC transporter ATP binding protein OppF		PSC
+Roseovarius_mb121	k127_675700	16919	17728	+	HLHNMG_01855	269	-	opuA:247/367	tauB	Taurine import ATP-binding protein TauB		PSC
+Roseovarius_mb121	k127_675700	46929	49499	-	HLHNMG_01884	856	-	dmsA:201/744		nitrate reductase (quinone)		PSCC
+Roseovarius_mb121	k127_720826	14567	15352	-	HLHNMG_03037	261	-	opuA:258/367		ABC transporter ATP-binding protein		PSC
+Roseovarius_mb121	k127_866955	51768	53342	+	HLHNMG_03264	524	-	phnK:156/256	nikD	nickel import ATP-binding protein NikD		PSC
+Roseovarius_mb121	k127_871765	22789	24342	-	HLHNMG_00325	517	mttB	mttB:620/219		Methyltransferase	K14083	PSC

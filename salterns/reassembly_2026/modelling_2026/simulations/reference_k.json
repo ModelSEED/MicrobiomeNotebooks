@@ -1,0 +1,886 @@
+{
+ "reference_biomass": 0.001,
+ "solver": "glpk",
+ "mepn": {
+  "R1_A_D2__metabat2.bin.053": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.324100380501612e-05,
+    "lactate": -0.018739419700462643,
+    "phosphate": -0.0006177286257859447,
+    "MePn": -4.3241003805016125e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00016399998328193882,
+    "lactate": -0.01911114734163496,
+    "phosphate": -0.0004969696463089461,
+    "MePn": -0.0001639999832819468,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R1_B_D1__maxbin2.Bin.073": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 5.013551407138974e-05,
+    "lactate": -0.03233642638411818,
+    "phosphate": -0.0007162216295912829,
+    "MePn": -5.0135514071389813e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00019014876496893337,
+    "lactate": -0.03346702960731004,
+    "phosphate": -0.0005762083786937379,
+    "MePn": -0.0001901487649689335,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R1_B_D1__metabat2.bin.017_sub": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.3241003805005534e-05,
+    "lactate": -0.01876337501988349,
+    "phosphate": -0.0006177286257857933,
+    "MePn": -4.324100380500554e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00016399998328190212,
+    "lactate": -0.01917220541996739,
+    "phosphate": -0.0004969696463088011,
+    "MePn": -0.00016399998328190432,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R1_B_D1__metabat2.bin.040": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.324100380500638e-05,
+    "lactate": -0.018853582578671105,
+    "phosphate": -0.0006177286257859301,
+    "MePn": -4.3241003805006374e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00016399998328193774,
+    "lactate": -0.019225310219843427,
+    "phosphate": -0.0004969696463089023,
+    "MePn": -0.00016399998328193782,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R1_B_D2__metabat2.bin.065": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.324100380500991e-05,
+    "lactate": -0.01874032547372725,
+    "phosphate": -0.0006177286257858561,
+    "MePn": -4.324100380500993e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.0001639999832819405,
+    "lactate": -0.019112053114899764,
+    "phosphate": -0.0004969696463089108,
+    "MePn": -0.00016399998328194053,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R1_B_H2O__concoct.bin.053": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.324100380500341e-05,
+    "lactate": -0.018730547180360303,
+    "phosphate": -0.0006177286257857627,
+    "MePn": -4.324100380500342e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.0001639999832819198,
+    "lactate": -0.019100174665367918,
+    "phosphate": -0.0004969696463088479,
+    "MePn": -0.0001639999832819198,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R1_C_D2__metabat2.bin.048": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.3241003805018104e-05,
+    "lactate": -0.019230263631492477,
+    "phosphate": -0.000617728625785973,
+    "MePn": -4.324100380501812e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00016399998328196368,
+    "lactate": -0.019498383568534044,
+    "phosphate": -0.000496969646308981,
+    "MePn": -0.00016399998328196373,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R1_sediment__concoct.bin.036": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.3241003805011836e-05,
+    "lactate": -0.018653933773780065,
+    "phosphate": -0.0006177286257858833,
+    "MePn": -4.324100380501183e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00016399998328192535,
+    "lactate": -0.01906276417386406,
+    "phosphate": -0.0004969696463088647,
+    "MePn": -0.00016399998328192532,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R1_sediment__concoct.bin.104": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.324100380501045e-05,
+    "lactate": -0.021523561466140123,
+    "phosphate": -0.0006177286257858638,
+    "MePn": -4.324100380501047e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00016399998328194872,
+    "lactate": -0.021958044804670594,
+    "phosphate": -0.0004969696463089363,
+    "MePn": -0.00016399998328194899,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R1_sediment__maxbin2.Bin.094_sub": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.3241003805009694e-05,
+    "lactate": -0.03317734886460124,
+    "phosphate": -0.0006177286257858527,
+    "MePn": -4.3241003805009694e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.0001639999832819451,
+    "lactate": -0.03444283680021592,
+    "phosphate": -0.0004969696463089246,
+    "MePn": -0.0001639999832819451,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R1_sediment__metabat2.bin.121_sub": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.324100380501005e-05,
+    "lactate": -0.01880973765912422,
+    "phosphate": -0.0006177286257858579,
+    "MePn": -4.324100380501006e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00016399998328195842,
+    "lactate": -0.019161513816730927,
+    "phosphate": -0.0004969696463089651,
+    "MePn": -0.00016399998328195847,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R1_sediment__metabat2.bin.142_sub": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.324100380500985e-05,
+    "lactate": -0.03427807797840338,
+    "phosphate": -0.0006177286257858598,
+    "MePn": -4.324100380500984e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00016399998328196061,
+    "lactate": -0.035101965854512196,
+    "phosphate": -0.0004969696463089214,
+    "MePn": -0.00016399998328196061,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R1_sediment__metabat2.bin.258": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.3241003805011375e-05,
+    "lactate": -0.01872678076340431,
+    "phosphate": -0.0006177286257858766,
+    "MePn": -4.324100380501137e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00016399998328197016,
+    "lactate": -0.019133511007323797,
+    "phosphate": -0.0004969696463089719,
+    "MePn": -0.0001639999832819701,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2A_sediment__concoct.bin.151": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.324100380500783e-05,
+    "lactate": -0.02052678426266346,
+    "phosphate": -0.0006177286257858262,
+    "MePn": -4.324100380500784e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00016399998328193736,
+    "lactate": -0.020963816759818055,
+    "phosphate": -0.0004969696463089011,
+    "MePn": -0.00016399998328193739,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2A_sediment__concoct.bin.189_sub": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.324100380496555e-05,
+    "lactate": -0.046383084484909666,
+    "phosphate": -0.0006177286257851511,
+    "MePn": -4.324100380496554e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00016399998328207652,
+    "lactate": -0.047044496981219645,
+    "phosphate": -0.0004969696463093411,
+    "MePn": -0.00016399998328208007,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2A_sediment__metabat2.bin.132": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.324100380500843e-05,
+    "lactate": -0.035138852783819126,
+    "phosphate": -0.0006177286257858347,
+    "MePn": -4.324100380500844e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00016399998328193874,
+    "lactate": -0.036753347835521595,
+    "phosphate": -0.0004969696463089071,
+    "MePn": -0.00016399998328193934,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2_A_D1__concoct.bin.120": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.324100380500429e-05,
+    "lactate": -0.018677657247022292,
+    "phosphate": -0.0006177286257857756,
+    "MePn": -4.3241003805004294e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.0001639999832819468,
+    "lactate": -0.019093838193683602,
+    "phosphate": -0.0004969696463089299,
+    "MePn": -0.00016399998328194684,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2_A_D2__metabat2.bin.055": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.977673298124437e-05,
+    "lactate": -0.04148304481945274,
+    "phosphate": -0.0007110961854463479,
+    "MePn": -4.977673298124436e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00018878801735421456,
+    "lactate": -0.042450975243975626,
+    "phosphate": -0.0005720849010733774,
+    "MePn": -0.00018878801735421454,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2_A_H2O__metabat2.bin.026": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.977673298124266e-05,
+    "lactate": -0.03204182428040623,
+    "phosphate": -0.0007110961854463251,
+    "MePn": -4.9776732981242636e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00018878801735422863,
+    "lactate": -0.033214884416957365,
+    "phosphate": -0.0005720849010734211,
+    "MePn": -0.00018878801735422923,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2_B_D2__maxbin2.Bin.065": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.3241003805005784e-05,
+    "lactate": -0.018732888985925625,
+    "phosphate": -0.0006177286257858109,
+    "MePn": -4.324100380500579e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00016399998328195606,
+    "lactate": -0.019141719386010045,
+    "phosphate": -0.0004969696463089336,
+    "MePn": -0.00016399998328194804,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2_B_D2__metabat2.bin.006_sub": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.324100380500648e-05,
+    "lactate": -0.01876247761381034,
+    "phosphate": -0.0006177286257858072,
+    "MePn": -4.3241003805006496e-05,
+    "bio1": 0.001,
+    "mmo": 0.0
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.000163999983281931,
+    "lactate": -0.019134205254982828,
+    "phosphate": -0.000496969646308882,
+    "MePn": -0.00016399998328193102,
+    "bio1": 0.001,
+    "mmo": 0.0
+   },
+   "mmo_blocked": {
+    "0.07": {
+     "status": "optimal",
+     "abundance": 0.001,
+     "methane": 4.324100380499194e-05,
+     "lactate": -0.01876247761381011,
+     "phosphate": -0.0006177286257855993,
+     "MePn": -4.324100380499196e-05,
+     "bio1": 0.001,
+     "mmo": 0.0
+    },
+    "0.33": {
+     "status": "optimal",
+     "abundance": 0.001,
+     "methane": 0.000163999983281875,
+     "lactate": -0.019134205254982425,
+     "phosphate": -0.0004969696463087122,
+     "MePn": -0.000163999983281875,
+     "bio1": 0.001,
+     "mmo": 0.0
+    }
+   }
+  },
+  "R2_B_H2O__metabat2.bin.051": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.9776732981249155e-05,
+    "lactate": -0.028961545844013975,
+    "phosphate": -0.000711096185446417,
+    "MePn": -4.977673298124919e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.0001887880173542328,
+    "lactate": -0.029943690787953527,
+    "phosphate": -0.0005720849010734334,
+    "MePn": -0.00018878801735423308,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2_C_D1__metabat2.bin.057_sub": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.345035491971393e-05,
+    "lactate": -0.036251373561235437,
+    "phosphate": -0.0006207193559959132,
+    "MePn": -4.345035491971393e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.0001647939884226797,
+    "lactate": -0.03691937639213537,
+    "phosphate": -0.0004993757224929673,
+    "MePn": -0.00016479398842267955,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2_C_D2__concoct.bin.063": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.324100380500638e-05,
+    "lactate": -0.01888424598249775,
+    "phosphate": -0.0006177286257858052,
+    "MePn": -4.324100380500637e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.0001639999832819466,
+    "lactate": -0.01925597362367028,
+    "phosphate": -0.000496969646308929,
+    "MePn": -0.00016399998328194655,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2_C_D2__concoct.bin.072": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.324100380500631e-05,
+    "lactate": -0.018763621825910234,
+    "phosphate": -0.0006177286257858047,
+    "MePn": -4.3241003805006326e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00016399998328193028,
+    "lactate": -0.019172452225994424,
+    "phosphate": -0.0004969696463088799,
+    "MePn": -0.00016399998328193034,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2_C_H2O__metabat2.bin.005": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.977673298124631e-05,
+    "lactate": -0.04378716306242697,
+    "phosphate": -0.0007110961854464844,
+    "MePn": -4.97767329812463e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00018878801735352897,
+    "lactate": -0.04483669825943212,
+    "phosphate": -0.0005720849010712973,
+    "MePn": -0.00018878801735351558,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2_C_H2O__metabat2.bin.008": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.9776732981247515e-05,
+    "lactate": -0.04173205371365579,
+    "phosphate": -0.0007110961854463928,
+    "MePn": -4.97767329812475e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00018878801735422676,
+    "lactate": -0.043214840746967575,
+    "phosphate": -0.0005720849010734145,
+    "MePn": -0.0001887880173542268,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2_restored_C_black__maxbin2.Bin.042": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.3241003805012215e-05,
+    "lactate": -0.022983546586937124,
+    "phosphate": -0.0006177286257858886,
+    "MePn": -4.3241003805012215e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.000163999983281993,
+    "lactate": -0.02352897464424163,
+    "phosphate": -0.0004969696463090696,
+    "MePn": -0.00016399998328199298,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2_restored_C_black__metabat2.bin.011_sub": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.0,
+    "lactate": -0.01952468051834885,
+    "phosphate": -0.000617728625785724,
+    "MePn": -4.324100380500068e-05,
+    "bio1": 0.001,
+    "mmo": 4.3241003805000675e-05
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 2.9449726712172977e-05,
+    "lactate": -0.01986264193851726,
+    "phosphate": -0.0004969696463088289,
+    "MePn": -0.00016399998328191353,
+    "bio1": 0.001,
+    "mmo": 0.00013455025656974054
+   },
+   "mmo_blocked": {
+    "0.07": {
+     "status": "optimal",
+     "abundance": 0.001,
+     "methane": 4.3241003805004666e-05,
+     "lactate": -0.01954144743819219,
+     "phosphate": -0.0006177286257857811,
+     "MePn": -4.324100380500468e-05,
+     "bio1": 0.001,
+     "mmo": 0.0
+    },
+    "0.33": {
+     "status": "optimal",
+     "abundance": 0.001,
+     "methane": 0.00016399998328192413,
+     "lactate": -0.01991481448698309,
+     "phosphate": -0.0004969696463088611,
+     "MePn": -0.00016399998328192416,
+     "bio1": 0.001,
+     "mmo": 0.0
+    }
+   }
+  },
+  "R2_sediment__concoct.bin.036_sub": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.3241003805007675e-05,
+    "lactate": -0.04064394990124933,
+    "phosphate": -0.0006177286257858241,
+    "MePn": -4.324100380500769e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00016399998328192768,
+    "lactate": -0.042369078179490774,
+    "phosphate": -0.0004969696463088719,
+    "MePn": -0.00016399998328192774,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2_sediment__concoct.bin.112": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.324100380500392e-05,
+    "lactate": -0.01882927987256855,
+    "phosphate": -0.0006177286257857824,
+    "MePn": -4.3241003805004775e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00016399998328192435,
+    "lactate": -0.01923811027265271,
+    "phosphate": -0.0004969696463088617,
+    "MePn": -0.00016399998328192432,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2_sediment__concoct.bin.183_sub": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.324100380501276e-05,
+    "lactate": -0.018664473641024894,
+    "phosphate": -0.0006177286257858965,
+    "MePn": -4.3241003805012764e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00016399998328196894,
+    "lactate": -0.019062803260285175,
+    "phosphate": -0.0004969696463089968,
+    "MePn": -0.0001639999832819689,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2_sediment__metabat2.bin.112_sub": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.3241003804981945e-05,
+    "lactate": -0.0383097293445039,
+    "phosphate": -0.0006177286257855007,
+    "MePn": -4.3241003804981945e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00016399998328190586,
+    "lactate": -0.04015924845122714,
+    "phosphate": -0.0004969696463088059,
+    "MePn": -0.00016399998328190594,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2_sediment__metabat2.bin.128": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 7.650464017546483e-05,
+    "lactate": -0.020274879817600674,
+    "phosphate": -0.0010929234310780823,
+    "MePn": -7.650464017546578e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.0002901588447471186,
+    "lactate": -0.02110646232134284,
+    "phosphate": -0.0008792692265064032,
+    "MePn": -0.0002901588447471131,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2_sediment__metabat2.bin.154": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.324100380501736e-05,
+    "lactate": -0.044188907357636066,
+    "phosphate": -0.0006177286257859621,
+    "MePn": -4.324100380501736e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.0001639999832819658,
+    "lactate": -0.04521992068908118,
+    "phosphate": -0.0004969696463089871,
+    "MePn": -0.00016399998328196574,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2_sediment__metabat2.bin.405": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.324100380500664e-05,
+    "lactate": -0.023082893647361078,
+    "phosphate": -0.000617728625785809,
+    "MePn": -4.3241003805006645e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.0001639999832819339,
+    "lactate": -0.023523663922451896,
+    "phosphate": -0.0004969696463088907,
+    "MePn": -0.00016399998328193392,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2_sediment__metabat2.bin.414_sub": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 4.3241003805012764e-05,
+    "lactate": -0.01879809027536541,
+    "phosphate": -0.0006177286257858967,
+    "MePn": -4.3241003805012784e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.0001639999832819631,
+    "lactate": -0.019167717760373175,
+    "phosphate": -0.0004969696463089792,
+    "MePn": -0.00016399998328196313,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  },
+  "R2_sediment__metabat2.bin.434_sub": {
+   "0.07": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 7.650464017554942e-05,
+    "lactate": -0.03578994970663473,
+    "phosphate": -0.0010929234310782159,
+    "MePn": -7.650464017554942e-05,
+    "bio1": 0.001,
+    "mmo": null
+   },
+   "0.33": {
+    "status": "optimal",
+    "abundance": 0.001,
+    "methane": 0.00029015884474707177,
+    "lactate": -0.037331312182471585,
+    "phosphate": -0.0008792692265062807,
+    "MePn": -0.00029015884474707177,
+    "bio1": 0.001,
+    "mmo": null
+   }
+  }
+ }
+}

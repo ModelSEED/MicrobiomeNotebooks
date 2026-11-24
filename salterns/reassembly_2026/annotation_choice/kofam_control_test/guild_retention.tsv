@@ -1,0 +1,39 @@
+mag	genus	domain	rast_mepn_consumer(phnJ)	kofam_phnJ	kofam_phnGHIJKLM	rast_betaine_reducer(grdH)	kofam_grdH	kofam_grdI	kofam_grdB_or_E	rast_methanogen(mcrA)	kofam_mcrA	rast_tma_producer	kofam_cutC	kofam_cntA	kofam_cntB	kofam_mttB_K14083	kofam_mtgB_K25220
+Halomonas.1	Halomonas	Bacteria	False	False		False	False	False	False	False	False	False	False	False	False	False	False
+Methanolobus.1	Methanolobus	Archaea	False	False		False	False	False	False	True	True	False	False	False	False	True	False
+DATFJG01.1	DATFJG01	Bacteria	False	False		True	True	True	True	False	False	False	False	False	False	False	False
+Halanaerobium.1	Halanaerobium	Bacteria	False	False		True	False	True	True	False	False	False	False	False	False	False	False
+BM714.2	BM714	Bacteria	False	False		True	True	True	True	False	False	False	False	False	False	False	False
+Halanaerobium.2	Halanaerobium	Bacteria	False	False		True	True	True	True	False	False	False	False	False	False	False	False
+Roseovarius.1	Roseovarius	Bacteria	True	True	GHIJKLM	False	False	False	False	False	False	False	False	False	False	True	False
+Roseovarius.2	Roseovarius	Bacteria	True	True	GHIJKLM	False	False	False	False	False	False	False	False	True	False	True	False
+Halanaerobium.3	Halanaerobium	Bacteria	False	False		True	False	False	False	False	False	False	False	False	False	False	False
+Marivita.2	Marivita	Bacteria	True	True	GIJKLM	False	False	False	False	False	False	False	False	False	False	True	False
+BM714.4	BM714	Bacteria	False	False		True	False	False	True	False	False	False	False	False	False	False	False
+Natrinema.1	Natrinema	Archaea	True	True	GHIJKLM	False	False	False	False	False	False	False	False	False	False	False	False
+UBA8670.2	UBA8670	Bacteria	False	False		True	False	True	True	False	False	False	False	False	False	True	True
+M55B127.1	M55B127	Bacteria	False	False		True	False	True	True	False	False	False	False	False	False	False	True
+Roseovarius.4	Roseovarius	Bacteria	True	True	GHIJKLM	False	False	False	False	False	False	False	False	False	False	True	False
+UBA11579.1	UBA11579	Bacteria	False	False		False	False	False	False	False	False	True	False	False	False	True	False
+J153.1		Bacteria	False	False		False	False	False	False	False	False	True	False	True	False	True	False
+Saliniramus.1	Saliniramus	Bacteria	True	True	GHIJKLM	False	False	False	False	False	False	False	False	False	False	False	False
+Roseovarius.5	Roseovarius	Bacteria	True	True	GHIJKLM	False	False	False	False	False	False	False	False	True	False	True	False
+CAZFJG01.2	CAZFJG01	Bacteria	False	False		False	False	False	True	False	False	True	False	False	False	False	False
+Haloquadratum.4	Haloquadratum	Archaea	True	True	GIJKLM	False	False	False	False	False	False	False	False	False	False	False	False
+Roseovarius.6	Roseovarius	Bacteria	True	True	GHIJKLM	False	False	False	False	False	False	False	False	False	False	True	False
+Marivita.3	Marivita	Bacteria	True	True	GHIJKLM	False	False	False	False	False	False	False	False	False	False	True	False
+Roseovarius.7	Roseovarius	Bacteria	True	True	GHIJKLM	False	False	False	False	False	False	False	False	True	False	True	False
+Roseibacterium.1	Roseibacterium	Bacteria	True	True	GHIJKLM	False	False	False	False	False	False	False	False	False	False	True	False
+Roseovarius.8	Roseovarius	Bacteria	True	True	GHIJKLM	False	False	False	False	False	False	False	False	True	False	True	False
+T1Sed10-7.1	T1Sed10-7	Bacteria	False	False		False	False	False	False	False	False	True	False	False	False	False	False
+M55B127.2	M55B127	Bacteria	False	False		True	False	True	True	False	False	False	False	False	False	True	True
+Roseovarius.9	Roseovarius	Bacteria	True	True	GHIJKLM	False	False	False	False	False	False	False	False	False	False	True	False
+Phaeodactylibacter.1	Phaeodactylibacter	Bacteria	True	True	J	False	False	False	False	False	False	False	False	False	False	False	False
+Desulfotignum.1	Desulfotignum	Bacteria	True	True	GHIJKLM	False	False	False	False	False	False	False	True	False	False	True	True
+Roseovarius.10	Roseovarius	Bacteria	True	True	GHIJKLM	False	False	False	False	False	False	False	False	True	False	True	False
+JAVJPJ01.1	JAVJPJ01	Bacteria	True	True	GHIJKLM	False	False	False	False	False	False	False	False	False	False	True	False
+Roseovarius.11	Roseovarius	Bacteria	True	True	GHIJKLM	False	False	False	False	False	False	False	False	True	False	True	False
+Roseovarius.12	Roseovarius	Bacteria	True	True	GHIJKLM	False	False	False	False	False	False	False	False	False	False	True	False
+Desulfotignum.2	Desulfotignum	Bacteria	True	True	GHIJKLM	False	False	False	False	False	False	False	False	False	False	True	True
+Desulfobacter.2	Desulfobacter	Bacteria	False	False		False	False	False	False	False	False	False	False	False	False	True	False
+Albimonas.1	Albimonas	Bacteria	True	False	GLM	False	False	False	False	False	False	False	False	False	False	True	False

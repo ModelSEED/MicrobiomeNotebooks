@@ -1,0 +1,192 @@
+{
+ "root": "/scratch1/afreiburger/salterns_2026/binning_test",
+ "thread_cap": 96,
+ "kind_limits": {
+  "dl": 4,
+  "reads": 6
+ },
+ "min_free_gb": 400,
+ "background_prio": 60,
+ "background_cap": 32,
+ "sf2_deadline_utc": "2026-11-14T06:18:00Z",
+ "tools": {
+  "py": "/scratch1/afreiburger/salterns_2026/envs/bt_map/bin/python",
+  "sra": "/scratch1/afreiburger/metag-hybrid/env/miniforge/envs/sra/bin",
+  "bbtools": "/scratch1/afreiburger/emilykin/processed/reanalysis_norm/env_bbtools/bin",
+  "map": "/scratch1/afreiburger/salterns_2026/envs/bt_map/bin",
+  "metabat2": "/scratch1/afreiburger/salterns_2026/envs/bt_metabat2/bin",
+  "maxbin2": "/scratch1/afreiburger/salterns_2026/envs/bt_maxbin2/bin",
+  "concoct": "/scratch1/afreiburger/salterns_2026/envs/bt_concoct/bin",
+  "dastool": "/scratch1/afreiburger/salterns_2026/envs/bt_dastool/bin",
+  "gunc": "/scratch1/afreiburger/salterns_2026/envs/bt_gunc/bin",
+  "qcenv": "/scratch1/afreiburger/emilykin/processed/.snakemake_envs/8c703f8abdc13cdc1ef374a2bcf37f14_/bin",
+  "checkm2_db": "/scratch1/afreiburger/emilykin/processed/refdata/checkm2/CheckM2_database/uniref100.KO.1.dmnd",
+  "checkm1": "/scratch1/afreiburger/salterns_2026/envs/bt_checkm1/bin",
+  "checkm1_env_ok": "/scratch1/afreiburger/salterns_2026/envs/.bt_setup/checkm1.ok",
+  "checkm1_data": "/scratch1/afreiburger/salterns_2026/binning_test/refdata/checkm1",
+  "gunc_db_dir": "/scratch1/afreiburger/salterns_2026/binning_test/refdata/gunc"
+ },
+ "libraries": {
+  "R1_A_D1": {
+   "srr": "SRR5209943",
+   "spots": 29912586,
+   "bases": 9033600972,
+   "site": "R1",
+   "pilot_qc": "/scratch1/afreiburger/salterns_2026/tadpole_pilot/R1_A_D1"
+  },
+  "R1_A_D2": {
+   "srr": "SRR5209944",
+   "spots": 29528975,
+   "bases": 8917750450,
+   "site": "R1"
+  },
+  "R1_B_D1": {
+   "srr": "SRR5209942",
+   "spots": 31561567,
+   "bases": 9531593234,
+   "site": "R1"
+  },
+  "R1_B_D2": {
+   "srr": "SRR5209946",
+   "spots": 29962930,
+   "bases": 9048804860,
+   "site": "R1"
+  },
+  "R1_C_D1": {
+   "srr": "SRR14626311",
+   "spots": 24762359,
+   "bases": 7478232418,
+   "site": "R1"
+  },
+  "R1_C_D2": {
+   "srr": "SRR5468416",
+   "spots": 24475611,
+   "bases": 7391634522,
+   "site": "R1"
+  },
+  "SF2_A_D1": {
+   "srr": "SRR14626156",
+   "spots": 31299322,
+   "bases": 9452395244,
+   "site": "SF2"
+  },
+  "SF2_A_D2": {
+   "srr": "SRR5210466",
+   "spots": 32301253,
+   "bases": 9754978406,
+   "site": "SF2"
+  },
+  "SF2_B_D1": {
+   "srr": "SRR6056278",
+   "spots": 29705253,
+   "bases": 8970986406,
+   "site": "SF2"
+  },
+  "SF2_B_D2": {
+   "srr": "SRR5210469",
+   "spots": 30443313,
+   "bases": 9193880526,
+   "site": "SF2"
+  },
+  "SF2_C_D1": {
+   "srr": "SRR5210468",
+   "spots": 30085210,
+   "bases": 9085733420,
+   "site": "SF2",
+   "pilot_qc": "/scratch1/afreiburger/salterns_2026/tadpole_pilot/SF2_C_D1"
+  },
+  "SF2_C_D2": {
+   "srr": "SRR6056298",
+   "spots": 32685977,
+   "bases": 9871165054,
+   "site": "SF2"
+  },
+  "R1_A_H2O": {
+   "srr": "SRR5209947",
+   "spots": 27174849,
+   "bases": 8206804398,
+   "site": "R1"
+  },
+  "R1_B_H2O": {
+   "srr": "SRR6056296",
+   "spots": 33290113,
+   "bases": 10053614126,
+   "site": "R1"
+  },
+  "R1_C_H2O": {
+   "srr": "SRR14626313",
+   "spots": 31833869,
+   "bases": 9613828438,
+   "site": "R1"
+  },
+  "SF2_A_H2O": {
+   "srr": "SRR5210317",
+   "spots": 40179851,
+   "bases": 12134315002,
+   "site": "SF2"
+  },
+  "SF2_B_H2O": {
+   "srr": "SRR6056300",
+   "spots": 39550538,
+   "bases": 11944262476,
+   "site": "SF2"
+  },
+  "SF2_C_H2O": {
+   "srr": "SRR6056279",
+   "spots": 33870765,
+   "bases": 10228971030,
+   "site": "SF2"
+  }
+ },
+ "samples": {
+  "R1_A_D1": {
+   "role": "primary",
+   "site": "R1",
+   "libs": [
+    "R1_A_D1",
+    "R1_A_D2",
+    "R1_A_H2O",
+    "R1_B_D1",
+    "R1_B_D2",
+    "R1_B_H2O",
+    "R1_C_D1",
+    "R1_C_D2",
+    "R1_C_H2O"
+   ],
+   "asm_fasta": "/scratch1/afreiburger/salterns_2026/tadpole_pilot/R1_A_D1/armC/spades/scaffolds.fasta",
+   "asm_marker": "/scratch1/afreiburger/salterns_2026/tadpole_pilot/R1_A_D1/.done/C1_spades_default",
+   "asm_pids": []
+  },
+  "SF2_C_D1": {
+   "role": "secondary",
+   "site": "SF2",
+   "libs": [
+    "SF2_A_D1",
+    "SF2_A_D2",
+    "SF2_A_H2O",
+    "SF2_B_D1",
+    "SF2_B_D2",
+    "SF2_B_H2O",
+    "SF2_C_D1",
+    "SF2_C_D2",
+    "SF2_C_H2O"
+   ],
+   "asm_fasta": "/scratch1/afreiburger/salterns_2026/tadpole_pilot/SF2_C_D1/armC/spades/scaffolds.fasta",
+   "asm_marker": "/scratch1/afreiburger/salterns_2026/tadpole_pilot/SF2_C_D1/.done/C1_spades_default",
+   "asm_pids": [
+    {
+     "pid": 3634657,
+     "needle": "spades"
+    },
+    {
+     "pid": 3634245,
+     "needle": "run_sample.sh"
+    },
+    {
+     "pid": 3634387,
+     "needle": "run_sample.sh"
+    }
+   ]
+  }
+ }
+}

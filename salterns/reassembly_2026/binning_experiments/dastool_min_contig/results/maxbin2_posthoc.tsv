@@ -1,0 +1,9 @@
+unit	maxbin2_bins	maxbin2_contigs	maxbin2_mbp	frac_contigs_lt2500	frac_bp_lt2500	frac_binned_scg_hits_on_lt2500	median_per_bin_frac_bp_removed	bins_left_empty_by_filter	bins_after_filter	median_scg_copies_ge1000	median_scg_copies_ge2500	assembly_frac_bp_lt2500
+R1_A_D1	130	124638	280.0	0.773	0.51	0.417	0.544	0	130	92	49	0.54
+R2_B_D2	180	191325	427.6	0.781	0.515	0.446	0.58	0	180	124	67	0.544
+R2A_C_D1	53	67849	143.9	0.821	0.556	0.526	0.71	0	53	43	17	0.604
+SF2_A_D1	24	40827	72.4	0.877	0.692	0.673	0.769	0	24	20	6	0.716
+R1_B_H2O	48	46922	106.7	0.784	0.507	0.455	0.528	0	48	23	12	0.531
+SF2_B_H2O	110	76312	151.0	0.829	0.607	0.489	0.568	0	110	79	38	0.614
+R2_restored_D_shore	75	75120	183.1	0.769	0.466	0.42	0.54	0	75	57	32	0.468
+SF2_sediment	354	244194	569.2	0.797	0.493	0.444	0.717	0	354	362	161	0.587

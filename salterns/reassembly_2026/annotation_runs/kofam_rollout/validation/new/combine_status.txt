@@ -1,0 +1,2 @@
+chunks_combined	1	01
+mags_covered	8

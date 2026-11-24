@@ -1,0 +1,17 @@
+{
+ "bins": 203,
+ "kept": 138,
+ "kept_HQ": 64,
+ "kept_MQ": 74,
+ "dropped": 65,
+ "drop_reasons": {
+  "contamination>=10": 28,
+  "gunc_fail": 38,
+  "completeness<50": 12
+ },
+ "dropped_only_gunc": 25,
+ "kept_median_n50": 13091.0,
+ "kept_Mbp": 386.72,
+ "kept_median_completeness": 90.495,
+ "kept_median_contamination": 2.43
+}

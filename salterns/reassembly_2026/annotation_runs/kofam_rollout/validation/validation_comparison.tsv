@@ -1,0 +1,9 @@
+table	rows_compared	columns_compared	cells_compared	cells_differing	note
+mag_markers_guilds (all)	8	91	728	0	every column except 'chunk'
+  of which n_<marker>	8	68	544	0	68 marker best-KO counts (the 544 cells of kofam/test/control_comparison.tsv)
+control_comparison.tsv	8	68	544	0	kofam test (KOfam 2026-10) vs this run
+marker_hits (gene x KO)	5348	19	101612	0	all columns except full_evalue
+  full_evalue	5348	1	5348	5348	differ as expected; new/old / (Z_new/Z_old): median 1.0004, range 0.950-1.073; zero in both 0, zero in one only 0
+genes_ko (gene)	150	11	1650	0	all columns except best_full_evalue
+  best_full_evalue	150	1	150	150	differ as expected; new/old / (Z_new/Z_old): median 1.0019, range 0.954-1.055; zero in both 0, zero in one only 0
+per_mag tables (gene)	27413	15	411195	0	all columns except kofam_full_evalue (150 E-values differ)

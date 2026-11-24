@@ -1,0 +1,7 @@
+1.5.0
+pandas 1.5.3 sqlalchemy 1.4.54 numpy 1.26.4 scikit-bio 0.5.8 setuptools 80.10.2
+Prodigal V2.6.3: February, 2016
+18.8cc5c
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+tRNAscan-SE 2.0.13 (Jul 2026)
+barrnap 1.10.5

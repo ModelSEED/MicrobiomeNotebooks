@@ -1,0 +1,136 @@
+{
+  "module_1": {
+    "size": 16,
+    "type": "louvain",
+    "members": [
+      "CAYPLZ01",
+      "CAZEPC01",
+      "CAZUKV01",
+      "DATFIX01",
+      "DATFJM01",
+      "Desulfosudaceae",
+      "EX4572-165",
+      "Haloarcula",
+      "Halonatronomonas",
+      "Halonotius",
+      "Haloplanus",
+      "Halorubrum",
+      "JABMRF01",
+      "JAGXLC01",
+      "JAIPHI01",
+      "Minisyncoccales"
+    ]
+  },
+  "module_2": {
+    "size": 12,
+    "type": "louvain",
+    "members": [
+      "BM714",
+      "CAWANI01",
+      "DASQZJ01",
+      "DATFML01",
+      "GW2011-AR1",
+      "JAKDMP01",
+      "JASBRS01",
+      "JAZFUB01",
+      "JBAUSV01",
+      "PWMO01",
+      "QPJE01",
+      "SM23-33"
+    ]
+  },
+  "module_3": {
+    "size": 11,
+    "type": "louvain",
+    "members": [
+      "BM002",
+      "BM003",
+      "BM004",
+      "DATFJG01",
+      "Gracilimonas",
+      "Haloquadratum",
+      "JABURQ01",
+      "JAFDBW01",
+      "JAHEIW01",
+      "JARRJC01",
+      "UBA12075"
+    ]
+  },
+  "module_4": {
+    "size": 9,
+    "type": "louvain",
+    "members": [
+      "CAZWDL01",
+      "DATFKA01",
+      "DT-110",
+      "JAHEKD01",
+      "JAHQVV01",
+      "JBCCBI01",
+      "Phaeodactylibacter",
+      "Psychroflexus",
+      "Roseimarinus"
+    ]
+  },
+  "module_5": {
+    "size": 5,
+    "type": "louvain",
+    "members": [
+      "GCA-2746365",
+      "Maribacter",
+      "Methyloceanibacter",
+      "S36-B12",
+      "UBA11579"
+    ]
+  },
+  "module_6": {
+    "size": 2,
+    "type": "louvain",
+    "members": [
+      "Hujiaoplasma",
+      "JALOAF01"
+    ]
+  },
+  "module_7": {
+    "size": 2,
+    "type": "louvain",
+    "members": [
+      "Caribbeanibacter",
+      "Salinibacter"
+    ]
+  },
+  "singleton_1": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "JAACPR01"
+    ]
+  },
+  "singleton_2": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "UBA9300"
+    ]
+  },
+  "singleton_3": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "Tichowtungia"
+    ]
+  },
+  "singleton_4": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "CAZCJJ01"
+    ]
+  },
+  "singleton_5": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "DATFJZ01"
+    ]
+  }
+}

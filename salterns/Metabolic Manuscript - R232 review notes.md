@@ -1,7 +1,7 @@
-# R232 review of the saltern manuscript (2026-10-21, revised 2026-10-26, rebased 2026-11-04, revised 2026-11-08)
+# R232 review of the saltern manuscript (2026-10-21, revised 2026-10-26, rebased 2026-11-04, revised 2026-11-08, 2026-11-16, rebased and revised 2026-11-19 and 2026-11-20, revised 2026-11-23)
 
 **File:** `Metabolic Manuscript - R232 review (tracked changes).docx`.
-- **Base:** since 2026-11-04 it is built on the Google Doc as of 3 November 2026, through the verified local mirror `Metabolic Manuscript - Google Doc mirror (2026-11-03).docx`.
+- **Base:** since 2026-11-20 it is built on the Google Doc as of 20 November 2026, through the verified local mirror `Metabolic Manuscript - Google Doc mirror (2026-11-20).docx` (2026-11-19: the 2026-11-17 mirror; 2026-11-04 to 2026-11-18: the 2026-11-03 mirror).
 - **Tracked changes:** every edit of this review is a Word tracked change by "Claude (R232 review)". Susannah Tringe's open suggestions appear as her own tracked changes.
 - **Undoing the review:** reject only the "Claude (R232 review)" changes (Word: Show Markup > Specific People, then Reject All Changes Shown). That restores the Google Doc text, tables and figures.
 
@@ -11,6 +11,7 @@
 1. **The mirror:** `make_gdoc_mirror_docx.py <merged.docx>`, where `<merged.docx>` is the 2 July export `Metabolic Manuscript.docx` after the docx skill's `merge_runs.py`.
    - The Google Doc changes are specified in `gdoc_sync/gdoc_sync_2026-11-03.json`.
    - The script checks every paragraph against `gdoc_sync/gdoc_views_2026-11-03.json`, the Docs API text with suggestions rejected and accepted.
+   - `--date 2026-11-17` builds the newer mirror from `gdoc_sync/gdoc_{sync,views}_2026-11-17.json` (see "Google Doc sync 2026-11-17" below); without it the 11-03 mirror is rebuilt byte-identically.
 2. **The review:** `make_r232_review_docx.py "../Metabolic Manuscript - Google Doc mirror (2026-11-03).docx"`. Its inputs are:
    - `correlational/r232/` and `data/`;
    - `r232_review_edits_2026-10-26.json`, with 41 tracked edits and comments, each with its rationale and source (edits revised on 2026-11-08 carry that date, which their tracked changes show);
@@ -27,6 +28,283 @@ Paragraph numbers (P…) in these notes are those of the July export, which the 
 > With the suggestions rejected, and again with them accepted, all 491 paragraphs match the Google Doc. The 20 figures are identical. The review of the 70 open comment threads is in `Google Doc comments - review (2026-11-04).md`.
 
 > **Author fixes (2026-10-21).** The author reports fixing the three draft errors (Table 3, P69, P35) in their own copy. That copy is neither the local .docx nor the Google Doc, which still has the original text on 3 November. The tracked edits at P35 and P69 now duplicate those fixes. The R232 Table 3 replacement is a separate update. A hand fix of the old Table 3 also needs new Unrestored values, because that column pooled the R2A cores (see the Table 3 row below).
+
+## Google Doc sync 2026-11-17
+
+The Google Doc changed on 2026-11-16 and 2026-11-17 (Drive modifiedTime 2026-11-17T23:20:24Z; read through the Docs and Drive APIs on 2026-11-19). The Docs API attributes every change to A. Freiburger. All changes are in the title block, the Abstract and the first five Introduction paragraphs. From P25 ("Methods") on, all 466 paragraphs are unchanged.
+- **Suggestions accepted (27 of Susannah's):**
+  - P8: Kyle Hartman added to the author list (her 11-03 suggestion).
+  - P23–P24: all 24 of her 2026-05-07 suggestions, plus her 11-03 "in marine-influenced systems" (P23) and "enabling" (P24).
+  - P24 now reads exactly as her suggested text. The 19 other 11-03 edits (Methods P32–P57) are still open.
+- **Abstract (P18) rewritten and split** into two paragraphs, at "Here we explore…". This includes his own suggestions of 11-16 (2 accepted, 1 rejected).
+  - The methanogenesis/MePn mechanism clause moves from the first part into "centered around …".
+  - "increase carbon sequestration" → "maintain sequestered carbon".
+  - "Key experimental findings include: site-specific metabolomes reflect adaptations to salinity, and…" → "In addition to experimentally revealing salinity-dependent metabolic changes, a key *in vitro* finding is that…".
+  - The "primary methanogenic substrate" claim now follows the in vitro result ("…increases N₂O production, which supports the role of methylphosphonate being a primary methanogenic substrate in these environments").
+  - "These findings were corroborated by metabolic modeling, whereby the trace consumption of methylphosphonic acid reproduced the experimentally measured methane emissions, providing further evidence for…" → "This was corroborated by metabolic modeling, where trace consumption of methylphosphonic acid was sufficient to reproduce the experimental methane emissions."
+- **Introduction P20–P22 restructured** by direct edits:
+  - P20 absorbs "(i.e., > 7% salt) (15)" and the compatible-solute list, as parentheticals on salt-in/salt-out. It contains a typo in the Google Doc: "use the the".
+  - The compatible-solute paragraph (P22) now opens with its former last sentence. It then reads "For this study, there are two notable compatible solutes. Firstly, glycine betaine (GB)… Secondly, the multifunctional disaccharide trehalose…", and it moves ahead of P21.
+  - P21 is cut to "The biogeochemistry metabolism of organisms in these hypersaline environments (16) is notably different in pathways such as … do not generate enough energy …". As written in the Google Doc, this sentence is ungrammatical.
+- **P23 opening rewritten** after the acceptances: "Previous studies (31–33), including our own of hypersaline unrestored salterns (34), showing that methane emissions from marine-influenced environments are inversely related to salinity in a log-linear relationship. This log-linear decline is attributed to the sulfate in seawater which enables sulfate reducers…".
+  - The first sentence has no main verb.
+  - The earlier contrast, "we've previously observed elevated methane emissions in hypersaline unrestored salterns (34)", is gone. (34) is now cited for the log-linear decline.
+- **Comments:** now 242 threads: 72 open (60 anchored, 12 orphaned) and 170 resolved. Drive's lastCommentedTime (11-05) does not reflect these changes.
+  - Resolved on 11-17: the trehalose thread (Word ids 2, 3) and "Need to confirm that this reference supports my statement about sulfate" on "15" (id 6).
+  - Orphaned: "Methylphosphonates are also organic molecules, not minerals" (id 8) is still open, but its anchor was deleted by the accepted suggestion.
+  - Opened and resolved on 11-16: "This sounds tangential … can it be safely removed from the abstract", on the metabolome clause, which is now gone.
+  - The mirror goes from 83 to 79 comments. The "methanogens" thread is re-anchored in the rewritten P23.
+  - Checked against the export's markers: the 66 comments on plain text match exactly. The other 13 (on images, equations or ranges across paragraphs) could not be compared automatically; they are unchanged from the 11-03 mirror.
+- **New files:**
+  - `clauded_insights/gdoc_sync/gdoc_views_2026-11-17.json` (492 paragraphs);
+  - `clauded_insights/gdoc_sync/gdoc_sync_2026-11-17.json`, the 11-03 spec plus `accept_all_revisions`, `accepted_suggestions` and `direct_edits` (rewrites carry the Docs API runs, including italics, sub/superscripts and Zotero citation links);
+  - `Metabolic Manuscript - Google Doc mirror (2026-11-17).docx`, built with `make_gdoc_mirror_docx.py <merged.docx> --date 2026-11-17`.
+- **Validation:** all 492 paragraphs match the Google Doc with suggestions rejected and with them accepted. The rewritten paragraphs' formatting matches the API. Outside P8 and P18–P24, the document XML, the 3 tables and the 20 figures are identical to the 11-03 mirror. The docx validator reports no new errors. The 11-03 mirror still rebuilds byte-identically.
+- **Anchor check for `make_r232_review_docx.py`** (as found by the sync; resolved 2026-11-19, see the next section):
+  - **Indices shift.** The Abstract split adds a paragraph, so every paragraph from P19 on moves down by one: P[29]→30, P[30]→31, P[35]→36 … P[175]→176, including the equations P[70]/[72]/[75]→71/73/76, P[128]→129, P[162]→163, and every `paragraph` index in `r232_review_edits_2026-10-26.json` except 18. The paragraphs themselves are unchanged.
+  - **Unaffected:** `tables[2]`, `first_par` and P[18]'s position.
+  - **Run unchanged on the new mirror,** the script picks its style templates from the wrong paragraphs and inserts the Methods heading in the wrong place. It then stops at the first `tracked_replace` (P[35], "anchor occurs 0x").
+  - **Tracked-replace check:** of the 44 `old` strings (5 in `main()`, 39 in the edits JSON), 43 still match once the index is shifted. One is broken: the edits-JSON replace at P18, "These findings were corroborated by metabolic modeling, whereby…". That sentence no longer exists. Its rewritten form is in the new P19, and the "primary methanogenic substrate" claim it softened now sits on the in vitro sentence.
+  - **P18 review comment:** it still anchors, but it discusses that modeling clause, which has moved to P19.
+  - **Other review edits:** none touch P19–P24. Paragraph numbers in these notes stay July-export numbers, so add 1 from P19 on when reading the 11-17 mirror.
+
+## 2026-11-23: modelling text and Figure 7 from the 2026 guild models
+
+**Models:** `reassembly_2026/modelling_2026/models/README.md`.
+- One model per MPn-consumer and betaine-reducer species of the final set, from the curated templates and ModelSEEDpy.
+- RAST alone, chosen by the pre-registered comparison of RAST, +KOfam, +eggNOG and +Bakta.
+- Kept: 38 MePn and 18 betaine models. JASFMS01.1 is dropped.
+- No MePn model needs MePn to grow.
+- The *Methanolobus* model is not methanogenic as built and is not simulated.
+
+**Simulations:** `reassembly_2026/modelling_2026/simulations/README.md` (original cell-27 and betaine protocols, run on TF).
+
+**Edits:** `clauded_insights/r232_review_edits_2026-11-23.json`, generated by `make_modelling_edits_2026-11-23.py` from the simulation outputs, with the wording's preconditions asserted. It replaces all 21 modelling entries of the 11-19 file and adds:
+- the P35 Methods rewrite (model building; the KBase MS2 and methanogen-medium sentences go);
+- a P37 comment that Figure S10 comes from the 2020 models;
+- a P73 comment recommending deletion of the *Albimonas* sentence (no *Albimonas* *phnJ* in the final set). It is not deleted, because it ends inside an existing comment range and a citation link.
+
+**Builder (`make_r232_review_docx.py`):**
+- Figure 7 is `simulations/figure7_final.png`.
+- The P70, P72 and P75 equations are swapped to the new fits, read from `consistent_basis_final.json`:
+  - MePn 0.07: −0.02x + 198;
+  - MePn 0.33: −0.09x + 764;
+  - betaine: 0.58x + 2347.
+- The interim P35 comment and the "310 dereplicated MAGs" P35 replace are removed.
+- The originals paragraph no longer mentions the 2020 curated modelling sets.
+- Table 4 notes give the modelled counts.
+- The overview and re-assembly comments are updated.
+- `delete_contents` now also track-deletes the runs of other authors' open insertions (nested `w:del` in `w:ins`). Before, Susannah's "(2022)" suggestion in P35 survived the paragraph rewrite.
+
+**Numbers that change** (consistent areal basis, six unrestored cores):
+
+| | Old models | New models |
+|---|---|---|
+| MePn, ratio 0.07 | 19 % of measured | **14 %** (5–33 % among cores; ρ = 0.03) |
+| MePn, ratio 0.33 | 72 % | **55 %** (18–126 %) |
+| Betaine | 9 *grdH* models; below measured in one core; "follows DNA (R² = 0.97)" | 18 models; **2.6× measured, above it in all six cores** (1.6–5.5×); ρ = 0.60, exact p = 0.24; DNA R² = 0.15, so the DNA argument is withdrawn |
+
+- **New MePn statements:**
+  - Methane per unit biomass is set by the ratio and the template biomass P content: 0.043–0.077 mmol g⁻¹ at 0.07.
+  - Rhodobacteraceae give 75 % of the simulated methane, *Roseovarius* 49 %.
+- **Abstract:** "about one seventh to one half".
+
+**Decisions for Andrew** (also in the P36 comment):
+1. ***Roseovarius*.2:** its annotated methane monooxygenase oxidises its MePn methane. It is kept as built; closing it gives 15 % instead of 14 %.
+2. **JASFMS01.1** is dropped. rxn01345 would rescue it but fails two ATP tests.
+3. **The methanogen model** is acetogenic as built and was not simulated.
+4. **Template curation queue:** betaine and glycine reductase directions, Fpo, N-cycle reversibility, and the missing betaine reductase complex.
+5. **Figure S10** (2020 models) is not regenerated.
+6. **The *Albimonas* sentence** and ref 78.
+
+**Build:** `make_r232_review_docx.py "../Metabolic Manuscript - Google Doc mirror (2026-11-20).docx"`. Validation: "All validations PASSED" (492 → 1,075 paragraphs). The Google Doc is unchanged since 2026-11-20T13:56Z (checked 2026-11-23).
+
+**Figure audit (2026-11-23, later).** Every MAG- or model-dependent figure is now from the final MAG set or the 2026 models.
+- **Figures 7, 8, 9, S8 and S11:** each embedded image is byte-identical to the current PNG. Figure S11 was regenerated and came out byte-identical, because its guilds input had been rewritten after it with the same content.
+- **Figure S10 is regenerated** (`reassembly_2026/modelling_2026/figureS10/`): the core gap-filling per ATP test medium of the 2026 drafts. Its caption is rewritten.
+- **P37 claim corrected:** aerobic L-lactate is the cheapest medium for the MePn consumers but ranks 16th of 22 for the betaine reducers. A comment notes that the betaine models are aerobic although the organisms are anaerobic fermenters.
+- **Community-modelling evaluation** (`reassembly_2026/modelling_2026/community_eval/EVALUATION.md`): porting the EmilyKin or codiffusion_bioreactor pipelines is not recommended.
+  - No measured input ranks the six cores' methane.
+  - Two DNA depths read 0.16 µg g⁻¹ and need checking.
+  - No manuscript text was added from this evaluation.
+- **Not MAG-dependent:**
+  - Figures 1 and S4 (IMG KO counts);
+  - Figures 2, 3, S2 and S3 (NMR);
+  - Figures 4, S5 and S9 (microcosm gases);
+  - Figures 5 and 6 (isolates; Figure 5's caption has R232 edits);
+  - Figure S6 (16S and IMG read mapping);
+  - Figure S7 (DNA vs CH4);
+  - Figure S1 (photo).
+
+
+## 2026-11-20: the abundance, guild and co-occurrence analyses use the final MAG set; Google Doc sync 2026-11-20
+
+**Google Doc sync 2026-11-20.** The Doc changed on 2026-11-20 (Drive modifiedTime 13:56:07Z, 7:56 AM CST); it was read through the Docs and Drive APIs the same day.
+- **Text:** A. Freiburger rewrote three Introduction paragraphs directly:
+  - P21 gains the citation (38);
+  - the last three sentences of P23 are rewritten (the "(38)" moves to P21);
+  - the first two sentences of P24 are rewritten. The second is unfinished in the Doc: "…although other methylated substrates such as TMA were ."
+- **Unchanged:** the other 489 paragraphs and the paragraph count (492). No review edit touches P19–P24.
+- **Comments:** Andrew resolved three threads:
+  - "methanogen" (Word id 7);
+  - "Most abundant genes…" (id 9);
+  - "what was the evidence for betaine…", with Clifton's and Susannah's replies (ids 10, 11, 84). Its anchor sentence was deleted.
+
+  The open "restoration efforts" thread (ids 12, 13) is re-anchored on its unchanged text. The mirror has 74 comments, down from 79.
+- **New files:**
+  - `clauded_insights/gdoc_sync/gdoc_{sync,views}_2026-11-20.json`, built by `gdoc_sync/tools/make_spec_1120.py` from the 11-17 spec plus the API read;
+  - `Metabolic Manuscript - Google Doc mirror (2026-11-20).docx`, built with `make_gdoc_mirror_docx.py <merged.docx> --date 2026-11-20`.
+- **Validation:**
+  - All 492 paragraphs match the Doc with suggestions rejected and with them accepted.
+  - `check_comments.py`: 61 comments match the export anchors exactly. The other 13 sit on images, equations or cross-paragraph ranges, the same as on 11-17. All 57 open anchored threads are present.
+  - The 11-17 mirror still rebuilds byte-identically.
+
+**The final MAG set becomes the primary set** (`correlational/final585/`, README there). The analyses of `correlational/r232/` were rerun with the same statistics on the 585 species of the re-assembled set:
+- **Abundance:** CoverM read counts (`reassembly_2026/abundance_final/`).
+- **Guilds:** KOfam; a species is in a guild when any of its MAGs carries the marker.
+- **Labels:** a species keeps the R232 label of its original MAG (260 species).
+
+The review now takes these from the final set:
+- **Tables:** 3, 4 (rebuilt: species and MAG counts, members, notes on originals and RAST calls), 5 (guild rows: MPn, betaine, methanogen, TMA candidates, archaea) and S6.
+- **Figures:** 8, 9, S8 and S11 (`*_final585.png`).
+- **Methods:**
+  - the correlation and co-occurrence paragraphs (species instead of MAGs);
+  - a new abundance and labelling paragraph in the re-assembly Methods (CoverM v0.7.0, minimap2 v2.30, ≥ 95 % identity, ≥ 75 % aligned);
+  - CoverM and minimap2 added to the citation comment.
+- **Results:**
+  - the guild–methane paragraph, the methanogen paragraph and the co-occurrence paragraph;
+  - the re-assembly Results moved to directly after the MAG-quality Results, ahead of the analyses that use the set;
+  - the originals paragraph now cites Table S5 and says the analyses below use the final set.
+- **Discussion:**
+  - the *Methanolobus* sentence (species, four MAGs);
+  - *Nitrosopumilus*: two species, four MAGs, reference wetland only, about 0.07 % of reads each. No MAG has a KOfam hit to *mpnS* (K18049, E ≤ 10^-5^; KOfam has no threshold for it);
+  - the P95 and P99 guild sentences;
+  - the P96 unbinned shares (89 / 85 / 60 / 51 % for SF2 / R2A / R2 / R1);
+  - the data-availability folders.
+- **Comments:** the Abstract comment, the overview comment and the Table 3, Figure 8 and S11 comments updated. A new interim comment on P35 says the models are being rebuilt.
+- **Table S8:** each MAG gets its species label; representatives get mean abundance by site type and ρ/q with CH₄. The caption says so.
+
+**Claims that changed (not just numbers):**
+- **Guild specificity is gone.** No guild beats the random-species null on either basis:
+  - areal: 27–48 % of random sets ≥ ρ;
+  - DNA-normalised: MPn ρ = 0.78 (9 %) and betaine ρ = 0.76 (14 %).
+
+  The earlier "MPn consumers stood out on the DNA-normalized basis (higher than 99 % of random 22-MAG sets)" is withdrawn in the P78, P95 and P99 text, the S8 caption and the Abstract comment.
+- **New nominal result within the six unrestored cores:** the DNA-normalised MPn sum is nominally correlated (ρ = 0.83, p = 0.042, n = 6; 19 % of random sets do as well). The text reports it as nominal.
+- **Archaea in the network:** eight of the ten archaeal taxa in the network fall in one module, which also holds eight bacterial taxa (16 in all). In the R232 network, all nine archaeal taxa formed one purely haloarchaeal module.
+- **Permutation null:** shuffled residuals give denser networks (236–617 edges against 194), not networks "of similar size". Modularity is within the null, and only the same-phylum excess (21 % against at most 13 %) exceeds it.
+- **Methanogen:** one species (four MAGs), still detected only in the six unrestored cores.
+
+**Safeguards:** the builder asserts the conditions this wording depends on. These are the null fractions, the p values within the unrestored cores, *Methanolobus* detection, the no-edge guild taxa, the prefilter result and *Nitrosopumilus* detection. A refresh that changes them fails instead of writing stale text.
+
+**Interim (models):** the metabolic models are being rebuilt for the final set's 57 MPn, betaine and methanogen species. Until then, the modelling Methods and Results (P35–P40, P69–P77), Figure 7, and the modelling sentences of the Abstract, Discussion (P95) and Conclusions (P99) still describe the original models.
+
+**Build:** `make_r232_review_docx.py "../Metabolic Manuscript - Google Doc mirror (2026-11-20).docx"`. Validation: "All validations PASSED" (492 → 1,075 paragraphs).
+
+**To do when the models are rebuilt:**
+- Rewrite the modelling edits in `r232_review_edits_2026-11-19.json` (P18/19, P36–P40, P69–P77, P95, P99, P100, P129) for the new models.
+- Remove the dangling cross-references to the old sets: P36 and P74 cite "the nine MAGs carrying *grdH*; Table 4", but Table 4 now lists the 18 betaine species.
+- Replace Figure 7 and the fitted-line equations (`tracked_math_swap` at P70/P72/P75).
+- Remove the interim P35 comment.
+- Check the CoverM denominator for every sample: for R1_A_D1 (2026-11-20), the CoverM total of 57,655,962 reads equals `qc_read_totals.tsv`.
+
+## 2026-11-19 (late): the re-assembly section describes the final MAG set
+
+At Andrew's request, the re-assembly section now covers the **final MAG set**: the 935 second-pass MAGs plus the 520 MAGs of the four first-pass site co-assemblies that pass the same CheckM2 + GUNC criteria. All 718 co-assembly bins were re-scored with the rollout's QC (`reassembly_2026/annotation_runs/rollout/scripts/coasm_qc.sh`; `coasm_final/`). Every number in the text comes from these generated files:
+- `reassembly_2026/comparison_rollout/summary.json`, written by `compare_rollout.py` (four sets, joint skani clustering);
+- `final_guilds_summary.json`, written by `final_set_guilds.py`.
+
+**KOfam calls for all 1,455 MAGs** (2026-10-26 release, DRAM rule, Sec rescue):
+- 935 from `annotation_runs/kofam_rollout`;
+- 482 co-assembly MAGs from the first-pass `kofam` track;
+- 38 co-assembly MAGs from `annotation_runs/kofam_coasm38`. Its validation found 0 differing calls.
+
+**Changes in `add_reassembly_2026()`:**
+- **Methods, second pass:** one added sentence. The 718 co-assembly bins were assessed and classified in the same way, and the 520 that met the criteria form, with the second-pass MAGs, the final MAG set (Table S8).
+- **Methods, annotation:** genes of the 1,324 first-pass, 935 second-pass and 38 co-assembly-only MAGs were annotated. DRAM is stated as run on the first-pass species representatives (558), which is where it was run.
+- **Results, new paragraph:** 1,455 MAGs in 585 species clusters, 275 with an HQ representative and 57 archaeal.
+  - 212 species come only from the co-assemblies and 148 only from the second pass.
+  - The set contains 504 of the 557 first-pass species.
+  - It recovers 268 of the 310 originals (any sample), including 16 of the lost 30.
+- **Results, guild paragraph:** now the final set. If `final_guilds_summary.json` is missing, the script falls back to the first-pass text.
+
+  | Guild | MAGs | Species |
+  |---|---|---|
+  | *phnJ* (MePn consumers) | 109 | 39: 19 Rhodobacteraceae, 6 haloarchaea |
+  | betaine reductase | 53 | 18: 17 Bacillota, 1 Cloacimonadota |
+  | *mcrA* | 4 *Methanolobus* | 1 |
+  | TMA producer | 0 | 0 |
+
+  - Sec read-through takes *grdH* genes from 10 to 58.
+  - One-sided TMA genes: *cutC* without *cutD* in 13 MAGs, *cntA* without *cntB* in 70.
+  - MttB family without *mcrA*: 355 MAGs, including 138 of the 139 Rhodobacteraceae.
+  - RAST MePn consumers: 22 MAGs in 21 species; 15 of those species are recovered with *phnJ*, and 20 further species have no original MAG.
+  - The *Albimonas*.1 and BM714.4 statements still hold: the 6 *Albimonas* MAGs have no *phnJ*, and the BM714.4 cluster has no betaine call.
+- **Table S8:** a new caption after Table S7, for a separate file like Table S5: `Table S8 - re-assembled MAG set taxonomy, quality and guilds (GTDB R232).xlsx`, built by `reassembly_2026/make_table_s8.py`. It has one row per MAG (1,455) with source, sample or co-assembly, site, GTDB R232, CheckM2/CheckM/GUNC, quality, size/contigs/N50, species cluster and its representative, overlap with an original species, and guild calls.
+- **Comment on the rollout paragraph:** now names these sources. It notes that the main analyses (Tables 3–5, Figures 7–8, metabolic models) still use the 310 original MAGs.
+
+**Refresh order:**
+1. `compare_rollout.py`
+2. `final_set_guilds.py`
+3. `make_table_s8.py`
+4. `make_r232_review_docx.py "../Metabolic Manuscript - Google Doc mirror (2026-11-17).docx"`, then validate.
+
+Validation: "All validations PASSED" (492 → 1,081 paragraphs). The previous build is in the session scratchpad as `review_before_finalset.docx`.
+
+## 2026-11-19: rebased on the 2026-11-17 Google Doc; re-assembly section made final
+
+**Rebase.** `make_r232_review_docx.py "../Metabolic Manuscript - Google Doc mirror (2026-11-17).docx"` now builds the review on the 2026-11-17 mirror.
+- **Index shift:** `main()` wraps `doc.paragraphs` in `Paras`. It keeps July-export indices and adds 1 from P19 on when the input has the split Abstract (asserted: 282 paragraphs, and P19 starts "Here we explore"). On the 11-03 mirror it changes nothing; that build still passes validation.
+- **Edits file:** with the 11-17 mirror the script reads `clauded_insights/r232_review_edits_2026-11-19.json`, a copy of the 10-26 file with two changes (the 10-26 file is untouched):
+  - **Abstract modeling replace, retargeted** (`mirror_index` 19) to Andrew's rewritten sentence, which still claims full reproduction: "This was corroborated by metabolic modeling, where trace consumption of methylphosphonic acid was sufficient to reproduce the experimental methane emissions." It now reads "Metabolic modeling partly corroborated this: … could supply about one fifth to three quarters of the measured methane emissions, depending on the assumed share of methylphosphonate in phosphate uptake, although the simulated emissions did not track the differences among cores."
+  - **New comment** on "a primary methanogenic substrate", the claim the Doc moved onto the in vitro sentence: the modeling supports methylphosphonate as a source, not as the primary substrate.
+- **Abstract comment:** "The modeling clause is now qualified" follows the clause to P19. Its wording now matches the repaired-model edit.
+- **Check:** apart from the Abstract and the five Introduction paragraphs Andrew edited (P20–P24), every body element of the new build equals the 11-03 build's element one position earlier, including all tracked changes. Validation: "All validations PASSED" (492 → 1,079 paragraphs).
+- **Previous build:** kept in the session scratchpad as `review_before_20261119.docx`.
+
+**Re-assembly section made final.** The rollout finished 2026-11-19 12:27 UTC with 39/39 samples. The section is built by `add_reassembly_2026()`; its tracked insertions are now dated 2026-11-19.
+- **Methods:**
+  - The second-pass paragraph now states the outcome of the two-sample comparison: R1_A_D1 met every criterion and SF2_C_D1 exceeded the contamination criterion, so the second pass was applied to all 39 samples with the CheckM2 + GUNC filter.
+  - It also states the GTDB-Tk R232 classification and the joint three-set species clustering.
+- **Results:**
+  - **Rollout paragraph:** switches to final wording automatically once `n_complete == n_samples`. Kept MAGs (HQ; median N50): 935 (473; 18.0 kb), against 603 (145; 5.4 kb) for the first pass and 345 (174; 17.2 kb) for the originals. 334 of the 450 originals are recovered in the same sample, including 14 of the 37 species-lost originals.
+  - **New paragraph** from `reassembly_2026/comparison_rollout/summary.json` (made by `compare_rollout.py`):
+    - 373 species, 45 of them archaeal;
+    - set-wide recovery of 263/310 originals, against 256 for the first pass, including 16 of the 30 lost;
+    - best-MAG quality and N50 against the originals and against the first pass;
+    - the first pass's extra species: 212 of its 230 species not shared with the rollout come only from co-assemblies.
+- **Comment:** a "final numbers" comment replaces the PRELIMINARY one. It names the sources and lists what is pending:
+  - KOfam/guild calls for the second-pass MAGs (running), so the guild paragraph still describes the first-pass MAGs;
+  - the co-assembly MAGs, which are being re-scored with the rollout's QC at Andrew's request.
+- **Table S7:** the caption now covers all 39 samples.
+- **Refresh:**
+  1. `bash /scratch1/afreiburger/salterns_2026/vs2020/skani_completed.sh` (poplar).
+  2. `manuscript_numbers.py`.
+  3. `compare_rollout.py` (needs `comparison_rollout/three_way_skani_edges.tsv` from poplar).
+  4. `make_r232_review_docx.py "../Metabolic Manuscript - Google Doc mirror (2026-11-17).docx"`, then validate with `--original` set to the same mirror.
+
+## 2026-11-16 addition: re-assembly, re-binning and annotation of the metagenomes (preliminary)
+
+Tracked insertions dated 2026-11-16, built by `add_reassembly_2026()` in `make_r232_review_docx.py`:
+- **Methods:** a new subsection, "Re-assembly, re-binning, and functional annotation of the metagenomes", placed after the MAG-quality methods. It has three paragraphs:
+  - the first pass (KBase: Trimmomatic → metaSPAdes, site co-assembly with MEGAHIT, three binners with site multi-sample coverage, DAS Tool 1.1.7, CheckM, GTDB-Tk 2.8.0/R232);
+  - the second pass (poplar: BBDuk → BBMerge with extension → Tadpole → standard-mode SPAdes 3.15.3, the same binners and DAS Tool, then CheckM2 + GUNC keep filter, with the two-sample pre-registered comparison);
+  - annotation (Prodigal + KOfam 2026-10-26 with the DRAM rule, the selenocysteine read-through for Grd genes, DRAM 1.5 on the 558 best-per-species MAGs, and the revised guild rules).
+  - A comment lists the citations to add.
+- **Results:** a new subsection, "Re-assembly and re-binning of the saltern metagenomes", placed after Co-occurrence. Its four paragraphs cover:
+  - the first-pass outcome (1,324 MAGs, 558 species vs 296, fragmentation, and the reconstruction of the original assemblies);
+  - the pilot and binning test (R1_A_D1 and SF2_C_D1);
+  - the second-pass partial rollout, with numbers taken from the latest `reassembly_2026/manuscript_numbers_<date>.json`. A "PRELIMINARY" comment gives the snapshot date and how to regenerate it;
+  - the KOfam/DRAM guild calls for the first-pass MAGs.
+- **Table S7:** per completed sample, the second pass vs the first pass vs the original MAGs (kept, HQ, N50), plus the originals recovered. All three sets are scored with the same CheckM2 1.1.0 + GUNC 1.1.1.
+- **To refresh as the rollout progresses:**
+  1. On poplar, run `bash /scratch1/afreiburger/salterns_2026/vs2020/skani_completed.sh`.
+  2. Run `~/Documents/py_venv/bin/python reassembly_2026/manuscript_numbers.py`.
+  3. Run `make_r232_review_docx.py <mirror>`, then validate.
+- **Sources:**
+  - `reassembly_2026/comparison/README.md`
+  - `binning_experiments/assembly_vs_jgi/README.md`
+  - `annotation_runs/{tadpole,binning_test,kofam,dram,rollout}/` (RESULTS.md / REPORT.md)
 
 ## 2026-11-08 revision: the three MePn-obligate models repaired
 

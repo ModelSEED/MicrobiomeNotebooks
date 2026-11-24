@@ -1,0 +1,1 @@
+contigs 326815 min_len 1000 lt1000 0

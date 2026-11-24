@@ -1,0 +1,151 @@
+{
+ "observed": {
+  "glasso_edges": 194,
+  "edges_gt0.05": 117,
+  "same_phylum_edges": 24,
+  "same_phylum_frac": 0.20512820512820512,
+  "arch_arch_edges": 10,
+  "louvain_nodes": 62,
+  "louvain_modules": 7,
+  "louvain_Q": 0.7410264218640521
+ },
+ "null": {
+  "n": 20,
+  "edges_min": 236,
+  "edges_max": 617,
+  "edges_median": 405.0,
+  "edges_gt005_min": 146,
+  "edges_gt005_max": 383,
+  "same_phylum_frac_median": 0.08597368680398147,
+  "same_phylum_frac_max": 0.12585034013605442,
+  "arch_arch_max": 8,
+  "Q_min": 0.6851739658937755,
+  "Q_max": 0.7565204310208605,
+  "Q_median": 0.718036021153156,
+  "frac_edges_ge_obs": 1.0,
+  "frac_Q_ge_obs": 0.1
+ },
+ "null_standardised": {
+  "n": 20,
+  "edges_min": 1283,
+  "edges_max": 1585,
+  "edges_median": 1340.5,
+  "edges_gt005_min": 706,
+  "edges_gt005_max": 853,
+  "same_phylum_frac_median": 0.12142105607991707,
+  "same_phylum_frac_max": 0.14147018030513175,
+  "arch_arch_max": 18,
+  "Q_min": 0.691111283004522,
+  "Q_max": 0.7594452735642332,
+  "Q_median": 0.7347148687957603,
+  "frac_edges_ge_obs": 1.0,
+  "frac_Q_ge_obs": 0.25
+ },
+ "variance": {
+  "spearman_resid_var_vs_degree": 0.7964230277919042,
+  "p": 2.4084900767491397e-45,
+  "standardised_alpha": 0.5911603030299353,
+  "standardised_edges": 1609,
+  "standardised_edges_gt005": 758,
+  "standardised_louvain": {
+   "nodes": 201,
+   "modules": 11,
+   "Q": 0.7506687966831569
+  },
+  "standardised_coherence": {
+   "edges_gt0.05": 758,
+   "same_phylum_edges": 126,
+   "same_phylum_frac": 0.1662269129287599,
+   "arch_arch_edges": 18
+  },
+  "key_taxa_in_panel_without_edges": [
+   "Albimonas",
+   "CAJQQK01",
+   "CAYRVO01",
+   "CAZRZN01",
+   "DAINOF01",
+   "DAOWES01",
+   "DATHSN01",
+   "Desulfotignum",
+   "Halanaerobium",
+   "Halomonas",
+   "JAAAOG01",
+   "JACKII01",
+   "JAWLGC01",
+   "JBKDZR01",
+   "Lentibacter",
+   "M55B127",
+   "Marivita",
+   "Methanolobus",
+   "Natrinema",
+   "PWPR01",
+   "RI-231",
+   "Roseibacterium",
+   "Roseovarius",
+   "Saliniramus",
+   "Thermohalobaculum",
+   "UBA8670",
+   "Vreelandella"
+  ],
+  "their_standardised_degree": {
+   "Albimonas": 5,
+   "CAJQQK01": 10,
+   "CAYRVO01": 7,
+   "CAZRZN01": 8,
+   "DAINOF01": 9,
+   "DAOWES01": 7,
+   "DATHSN01": 10,
+   "Desulfotignum": 6,
+   "Halanaerobium": 7,
+   "Halomonas": 10,
+   "JAAAOG01": 8,
+   "JACKII01": 8,
+   "JAWLGC01": 9,
+   "JBKDZR01": 8,
+   "Lentibacter": 10,
+   "M55B127": 9,
+   "Marivita": 8,
+   "Methanolobus": 3,
+   "Natrinema": 9,
+   "PWPR01": 7,
+   "RI-231": 8,
+   "Roseibacterium": 7,
+   "Roseovarius": 4,
+   "Saliniramus": 8,
+   "Thermohalobaculum": 7,
+   "UBA8670": 6,
+   "Vreelandella": 7
+  }
+ },
+ "prefilter": {
+  "min1": {
+   "taxa": 392,
+   "alpha": 1.360157390607396,
+   "edges": 561,
+   "edges_gt005": 285,
+   "key_taxa_gaining_edges": {
+    "Natronomonas": 1,
+    "UBA8366": 1,
+    "WSZY01": 17
+   },
+   "new_edges_gt005": 284,
+   "louvain_nodes": 138,
+   "louvain_modules": 11,
+   "louvain_Q": 0.6443120610052754
+  },
+  "min0": {
+   "taxa": 422,
+   "alpha": 1.367340912023478,
+   "edges": 585,
+   "edges_gt005": 303,
+   "key_taxa_gaining_edges": {
+    "Natronomonas": 1,
+    "WSZY01": 18
+   },
+   "new_edges_gt005": 302,
+   "louvain_nodes": 144,
+   "louvain_modules": 9,
+   "louvain_Q": 0.6436156554141083
+  }
+ }
+}

@@ -1,0 +1,586 @@
+species_cluster	methanogen	mepn_consumer	betaine_reducer	methylamine_user	tma_producer	tma_candidate_one_sided	mttB_family_without_mcrA	phylum	class	family	genus
+coassembly|R1_sediment__concoct.bin.002	False	False	False	False	False	False	True	Bacteroidota	Bacteroidia	UBA12077	CAYVSF01
+coassembly|R1_sediment__concoct.bin.036	False	True	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	CAZRZN01
+coassembly|R1_sediment__concoct.bin.100_sub	False	False	False	False	False	False	False	Desulfobacterota	Desulfuromonadia	Geopsychrobacteraceae	G963676795
+coassembly|R1_sediment__concoct.bin.104	False	True	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Roseovarius
+coassembly|R1_sediment__concoct.bin.111_sub	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Halobacteriaceae	Halanaeroarchaeum
+coassembly|R1_sediment__concoct.bin.119_sub	False	False	False	False	False	False	False	Planctomycetota	Phycisphaerae	Anaerohalosphaeraceae	VRUI01
+coassembly|R1_sediment__concoct.bin.134	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Prolixibacteraceae	Mariniphaga
+coassembly|R1_sediment__concoct.bin.135	False	False	False	False	False	False	False	Bacteroidota	Ignavibacteria	UBA2268	
+coassembly|R1_sediment__concoct.bin.186	False	False	False	False	False	False	False	Desulfobacterota	Desulfuromonadia		
+coassembly|R1_sediment__concoct.bin.190_sub	False	False	False	False	False	False	False	Planctomycetota	Planctomycetia	Pirellulaceae	Rubripirellula
+coassembly|R1_sediment__concoct.bin.206	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Saprospiraceae	DATFJT01
+coassembly|R1_sediment__concoct.bin.234	False	False	False	False	False	False	False	Gemmatimonadota	Gemmatimonadetes	Gaopeijiaceae	Gaopeijia
+coassembly|R1_sediment__concoct.bin.276	False	False	False	False	False	False	False	Gemmatimonadota	Gemmatimonadetes	Palauibacteraceae	Caribbeanibacter
+coassembly|R1_sediment__maxbin2.Bin.094_sub	False	True	False	False	False	False	True	Desulfobacterota	Desulfovibrionia	Desulfomicrobiaceae	JAWLGC01
+coassembly|R1_sediment__maxbin2.Bin.133	False	False	False	False	False	False	True	Desulfobacterota	Desulfobacteria	Desulfosalsimonadaceae	M55B175
+coassembly|R1_sediment__maxbin2.Bin.192	False	False	False	False	False	False	False	Nanobdellota	Nanobdellia	UBA525	CAZDJS01
+coassembly|R1_sediment__metabat2.bin.013	False	False	False	False	False	False	False	Babelota	Babeliae	Vermiphilaceae	
+coassembly|R1_sediment__metabat2.bin.021	False	False	False	False	False	False	False	Desulfobacterota	Desulfuromonadia	JAWOCM01	JAWOCM01
+coassembly|R1_sediment__metabat2.bin.026	False	False	False	False	False	False	False	Spirochaetota	Spirochaetia	Alkalispirochaetaceae	Alkalispirochaeta
+coassembly|R1_sediment__metabat2.bin.063_sub	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Azotimanducaceae	SLTB01
+coassembly|R1_sediment__metabat2.bin.082	False	False	False	False	False	False	False	Patescibacteriota	Patescibacteriia	UBA12075	
+coassembly|R1_sediment__metabat2.bin.094	False	False	False	False	False	False	False	Patescibacteriota	Minisyncoccia	JAACPR01	
+coassembly|R1_sediment__metabat2.bin.112_sub	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Marivita
+coassembly|R1_sediment__metabat2.bin.122	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Salinivirgaceae	Salinivirga
+coassembly|R1_sediment__metabat2.bin.142_sub	False	True	False	False	False	False	False	Acidobacteriota	Terriglobia	UBA6623	RI-231
+coassembly|R1_sediment__metabat2.bin.160_sub	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Chromatiaceae	CAVQCX01
+coassembly|R1_sediment__metabat2.bin.180_sub	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Prolixibacteraceae	Tangfeifania
+coassembly|R1_sediment__metabat2.bin.183	False	False	False	False	False	False	False	Patescibacteriota	Patescibacteriia	WJLG01	WJLG01
+coassembly|R1_sediment__metabat2.bin.186	False	False	True	False	False	False	False	Cloacimonadota	Cloacimonadia	TCS61	DAOWES01
+coassembly|R1_sediment__metabat2.bin.196_sub	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Shimia
+coassembly|R1_sediment__metabat2.bin.198	False	False	False	False	False	False	False	Patescibacteriota	Patescibacteriia	UBA6264	DATFJC01
+coassembly|R1_sediment__metabat2.bin.206	False	False	True	False	False	False	False	Bacillota	Halanaerobiia	Halanaerobiaceae	Halanaerobium
+coassembly|R1_sediment__metabat2.bin.221	False	False	False	False	False	False	False	Patescibacteriota	Patescibacteriia	UBA6264	JAIPGN01
+coassembly|R1_sediment__metabat2.bin.258	False	True	False	False	False	False	False	Pseudomonadota	Alphaproteobacteria	Bin95	JACKII01
+coassembly|R1_sediment__metabat2.bin.265_sub	False	False	False	False	False	False	False	Verrucomicrobiota	Kiritimatiellia	Tichowtungiaceae	Tichowtungia
+coassembly|R1_sediment__metabat2.bin.269	False	False	False	False	False	False	False	Patescibacteriota	Minisyncoccia	UBA918	OLB19
+coassembly|R1_sediment__metabat2.bin.270_sub	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Natrialbaceae	Haloarchaeobius
+coassembly|R1_sediment__metabat2.bin.284	False	False	False	False	False	False	False	Patescibacteriota	Minisyncoccia	UBA918	OLB19
+coassembly|R1_sediment__metabat2.bin.292	False	False	False	False	False	False	False	Patescibacteriota	Minisyncoccia	UBA918	OLB19
+coassembly|R1_sediment__metabat2.bin.295	False	False	False	False	False	False	False	Patescibacteriota	Patescibacteriia	UBA12465	JAIPJO01
+coassembly|R1_sediment__metabat2.bin.298	False	False	False	False	False	False	False	Desulfobacterota	Desulfuromonadia	UBA2294	BM707
+coassembly|R1_sediment__metabat2.bin.337	False	False	False	False	False	False	False	Patescibacteriota	Minisyncoccia	UBA918	OLB19
+coassembly|R1_sediment__metabat2.bin.342	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloarculaceae	Halorhabdus
+coassembly|R1_sediment__metabat2.bin.372	False	False	False	False	False	False	False	Patescibacteriota	Minisyncoccia	UBA918	OLB19
+coassembly|R2A_sediment__concoct.bin.026_sub	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	SZUA-36	
+coassembly|R2A_sediment__concoct.bin.061	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Eutrophobiaceae	
+coassembly|R2A_sediment__concoct.bin.063_sub	False	False	False	False	False	False	False	Acidobacteriota	Polarisedimenticolia	Polarisedimenticolaceae	
+coassembly|R2A_sediment__concoct.bin.091	False	False	False	False	False	False	True	Desulfobacterota	Desulfobulbia	JAGXFP01	JAGXFP01
+coassembly|R2A_sediment__concoct.bin.122	False	False	False	False	False	True	False	Calditrichota	Calditrichia	J004	CAVRRG01
+coassembly|R2A_sediment__concoct.bin.127	False	False	False	False	False	False	True	Actinomycetota	Acidimicrobiia	ZC4RG35	
+coassembly|R2A_sediment__concoct.bin.142	False	False	False	False	False	False	True	Pseudomonadota	Gammaproteobacteria	SZUA-36	
+coassembly|R2A_sediment__concoct.bin.143_sub	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Nitrosomonadaceae	Nitrosomonas
+coassembly|R2A_sediment__concoct.bin.186	False	False	False	False	False	False	False	Myxococcota_A	UBA9160	UBA4427	UBA4427
+coassembly|R2A_sediment__concoct.bin.189_sub	False	True	False	False	False	False	False	Pseudomonadota	Alphaproteobacteria	UBA8366	
+coassembly|R2A_sediment__concoct.bin.192	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	SZUA-36	JABDJL01
+coassembly|R2A_sediment__concoct.bin.194_sub	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	JAJDOD01
+coassembly|R2A_sediment__concoct.bin.199	False	False	False	False	False	False	True	Desulfobacterota	Desulfobacteria	UBA11574	UBA11574
+coassembly|R2A_sediment__concoct.bin.207	False	False	False	False	False	False	False	Bacteroidota	Ignavibacteria	Ignavibacteriaceae	FEN-1297
+coassembly|R2A_sediment__concoct.bin.225_sub	False	False	False	False	False	False	False	Acidobacteriota	Polarisedimenticolia	Polarisedimenticolaceae	
+coassembly|R2A_sediment__concoct.bin.246_sub	False	False	False	False	False	False	True	Actinomycetota	Actinomycetes	Dermatophilaceae	Fodinibacter
+coassembly|R2A_sediment__concoct.bin.249	False	False	False	False	False	False	False	ARS69	ARS69	ARS69	BQJX01
+coassembly|R2A_sediment__concoct.bin.251	False	False	False	False	False	False	False	Desulfobacterota	Desulfobulbia	Desulfobulbaceae	UBA10518
+coassembly|R2A_sediment__concoct.bin.267	False	False	False	False	False	True	False	Bacteroidota	Rhodothermia	JAHQVL01	
+coassembly|R2A_sediment__concoct.bin.275	False	False	False	False	False	False	False	Krumholzibacteriota	Krumholzibacteriia	JAJRXK01	JAOZPE01
+coassembly|R2A_sediment__concoct.bin.284	False	False	False	False	False	False	False	Actinomycetota	Acidimicrobiia	DASPTH01	DASUAS01
+coassembly|R2A_sediment__maxbin2.Bin.010	False	False	False	False	False	False	True	Pseudomonadota	Gammaproteobacteria	Woeseiaceae	UBA1847
+coassembly|R2A_sediment__maxbin2.Bin.033	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	SZUA-229	GCA-2746365
+coassembly|R2A_sediment__maxbin2.Bin.039_sub	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Afifellaceae	CAMYKZ01
+coassembly|R2A_sediment__maxbin2.Bin.133	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Rariloculaceae	JAHEEO01
+coassembly|R2A_sediment__maxbin2.Bin.142	False	False	False	False	False	False	False	Chloroflexota	Anaerolineae	Phototrophicaceae	JAUZRW01
+coassembly|R2A_sediment__maxbin2.Bin.163_sub	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Flavobacteriaceae	Flagellimonas
+coassembly|R2A_sediment__maxbin2.Bin.233	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	CBDCFL01
+coassembly|R2A_sediment__maxbin2.Bin.248	False	False	False	False	False	False	False	Myxococcota_A	UBA9160	SMWR01	JAFDEI01
+coassembly|R2A_sediment__maxbin2.Bin.268	False	False	False	False	False	False	False	Actinomycetota	Acidimicrobiia	UBA5794	UBA5794
+coassembly|R2A_sediment__maxbin2.Bin.288	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	JADFVY01	JBFHDX01
+coassembly|R2A_sediment__maxbin2.Bin.332_sub	False	False	False	False	False	False	False	Pseudomonadota	Alphaproteobacteria	Rhodomicrobiaceae	JAHQVI01
+coassembly|R2A_sediment__maxbin2.Bin.439_sub	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	GCA-2748055	GCA-2748055
+coassembly|R2A_sediment__maxbin2.Bin.457_sub	False	False	False	False	False	False	False	Gemmatimonadota	Gemmatimonadetes	GWC2-71-9	Palsa-1233
+coassembly|R2A_sediment__maxbin2.Bin.516	False	False	False	False	False	False	False	Gemmatimonadota	Gemmatimonadetes	GWC2-71-9	SHZU01
+coassembly|R2A_sediment__maxbin2.Bin.535	False	False	False	False	False	False	False	Zixibacteria	MSB-5A5	FEB-12	CAVQCT01
+coassembly|R2A_sediment__metabat2.bin.004_sub	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Cyclobacteriaceae	Agaribacillus
+coassembly|R2A_sediment__metabat2.bin.008	False	False	False	False	False	False	False	Acidobacteriota	Thermoanaerobaculia	JBJKRB01	JBJKRB01
+coassembly|R2A_sediment__metabat2.bin.009_sub	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	CAWJPQ01	CAWJPQ01
+coassembly|R2A_sediment__metabat2.bin.011_sub	False	False	False	False	False	False	False	Gemmatimonadota	Gemmatimonadetes	Gaopeijiaceae	UBA2589
+coassembly|R2A_sediment__metabat2.bin.040	False	False	False	False	False	False	False	Nitrospinota	Nitrospinia	Nitrospinaceae	SZUA-226
+coassembly|R2A_sediment__metabat2.bin.041	False	False	False	False	False	False	True	Desulfobacterota	Desulfobulbia	Desulfocapsaceae	Desulfopila_A
+coassembly|R2A_sediment__metabat2.bin.045_sub	False	False	False	False	False	False	False	Acidobacteriota	UBA890	UBA890	JASFRZ01
+coassembly|R2A_sediment__metabat2.bin.048_sub	False	False	False	False	False	False	False	Acidobacteriota	Terriglobia	UBA7540	SCRD01
+coassembly|R2A_sediment__metabat2.bin.050	False	False	False	False	False	True	True	Pseudomonadota	Alphaproteobacteria	Kiloniellaceae	
+coassembly|R2A_sediment__metabat2.bin.074_sub	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Azotimanducaceae	UBA4421
+coassembly|R2A_sediment__metabat2.bin.085	False	False	False	False	False	False	False	Thermoproteota	Nitrososphaeria	Nitrosopumilaceae	HKST03
+coassembly|R2A_sediment__metabat2.bin.098	False	False	False	False	False	False	False	Actinomycetota	Actinomycetes	Dermatophilaceae	Ornithinicoccus
+coassembly|R2A_sediment__metabat2.bin.106	False	False	False	False	False	False	False	Myxococcota_A	UBA9160	JAFDDA01	JAFDDA01
+coassembly|R2A_sediment__metabat2.bin.132	False	True	False	False	False	False	False	Pseudomonadota	Alphaproteobacteria	Kaistiaceae	CAMCWB01
+coassembly|R2A_sediment__metabat2.bin.149	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Flavobacteriaceae	JAFMPW01
+coassembly|R2A_sediment__metabat2.bin.153	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Kangsaoukella
+coassembly|R2A_sediment__metabat2.bin.201_sub	False	False	False	False	False	False	False	Desulfobacterota	Binatia	SPBQ01	JAJCZM01
+coassembly|R2A_sediment__metabat2.bin.206	False	False	False	False	False	False	False	Chloroflexota	Anaerolineae	UBA11579	SCUK01
+coassembly|R2A_sediment__metabat2.bin.227	False	False	False	False	False	True	True	Pseudomonadota	Alphaproteobacteria	CECT-8803	JARRJC01
+coassembly|R2A_sediment__metabat2.bin.234	False	False	False	False	False	False	True	Pseudomonadota	Gammaproteobacteria	SZUA-36	
+coassembly|R2A_sediment__metabat2.bin.242	False	False	False	False	False	False	True	Pseudomonadota	Gammaproteobacteria	Woeseiaceae	Woeseia
+coassembly|R2A_sediment__metabat2.bin.257_sub	False	False	False	False	False	False	True	Pseudomonadota	Gammaproteobacteria		
+coassembly|R2A_sediment__metabat2.bin.264	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	REEB76	DASSKW01
+coassembly|R2A_sediment__metabat2.bin.289	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Halovulum
+coassembly|R2A_sediment__metabat2.bin.294	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Rhodanobacteraceae	Rudaea
+coassembly|R2A_sediment__metabat2.bin.302	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	J153	
+coassembly|R2A_sediment__metabat2.bin.320	False	False	False	False	False	False	False	Desulfobacterota_D	UBA1144		
+coassembly|R2_sediment__concoct.bin.011	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Halieaceae	Marimicrobium
+coassembly|R2_sediment__concoct.bin.027_sub	False	False	False	False	False	False	False	Fidelibacterota	UBA2242	JAFGTP01	JAFGTP01
+coassembly|R2_sediment__concoct.bin.031	False	False	False	False	False	False	False	Fermentibacterota	Fermentibacteria	JCC-6	JAWLEP01
+coassembly|R2_sediment__concoct.bin.063_sub	False	False	False	False	False	False	True	Macinerneyibacteriota	Macinerneyibacteria	Macinerneyibacteriaceae	Macinerneyibacterium
+coassembly|R2_sediment__concoct.bin.070	False	False	False	False	False	False	False	Verrucomicrobiota	Verrucomicrobiia	Oceanipulchritudinaceae	Oceanipulchritudo
+coassembly|R2_sediment__concoct.bin.088_sub	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Cryomorphaceae	JAKVAV01
+coassembly|R2_sediment__concoct.bin.096	False	False	False	False	False	False	False	Zhuqueibacterota	Zhuqueibacteria	Krinioviventaceae	CAYPZM01
+coassembly|R2_sediment__concoct.bin.112	False	True	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Hyphomicrobiaceae	CAJQQK01
+coassembly|R2_sediment__concoct.bin.164_sub	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Halothiobacillaceae	Guyparkeria
+coassembly|R2_sediment__concoct.bin.178_sub	False	False	False	False	False	False	False	Patescibacteriota	Patescibacteriia	JAGXOH01	JAIOTG01
+coassembly|R2_sediment__concoct.bin.228_sub	False	False	False	False	False	False	False	Planctomycetota	Planctomycetia	Planctomycetaceae	JABURQ01
+coassembly|R2_sediment__concoct.bin.259	False	False	False	False	False	False	False	Fidelibacterota	UBA2242	JAFGTP01	
+coassembly|R2_sediment__concoct.bin.282_sub	False	False	False	False	False	False	False	Bacteroidota	Rhodothermia	Balneolaceae	Fodinibius
+coassembly|R2_sediment__maxbin2.Bin.016	False	False	False	False	False	False	False	Thermoplasmatota	E2	DHVEG-1	EX4572-165
+coassembly|R2_sediment__maxbin2.Bin.088	False	False	False	False	False	False	False	Patescibacteriota	Patescibacteriia	JABHMO01	JABMRF01
+coassembly|R2_sediment__maxbin2.Bin.185_sub	False	False	False	False	False	False	False	Oederibacteriota	PGYV01	CAYTNY01	CAZHOD01
+coassembly|R2_sediment__maxbin2.Bin.207	False	False	False	False	False	False	False	Patescibacteriota	Minisyncoccia	JAZKSW01	JAZKSW01
+coassembly|R2_sediment__maxbin2.Bin.234	False	False	False	False	False	False	False	Nanobdellota	Nanobdellia	WJKR01	WJKR01
+coassembly|R2_sediment__maxbin2.Bin.253	False	False	False	False	False	False	False	Myxococcota_A	UBA9160	UBA4427	UBA4427
+coassembly|R2_sediment__maxbin2.Bin.405_sub	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	UBA12077	CAYVSF01
+coassembly|R2_sediment__maxbin2.Bin.406	False	False	False	False	False	False	True	Bacteroidota	Bacteroidia	UBA12077	JAGXLC01
+coassembly|R2_sediment__maxbin2.Bin.581_sub	False	False	False	False	False	False	False	Spirochaetota	Spirochaetia	Alkalispirochaetaceae	CAYZHV01
+coassembly|R2_sediment__metabat2.bin.004	False	False	False	False	False	False	False	Krumholzibacteriota	Krumholzibacteriia	LZORAL124-64-63	Glo-17
+coassembly|R2_sediment__metabat2.bin.025	False	False	False	False	False	False	False	Actinomycetota	Nitriliruptoria	Nitriliruptoraceae	T1Sed10-7
+coassembly|R2_sediment__metabat2.bin.030	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	HLUCCA09
+coassembly|R2_sediment__metabat2.bin.033	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	JAABTG01	JAABTG01
+coassembly|R2_sediment__metabat2.bin.068	False	False	False	False	False	False	False	Patescibacteriota	Patescibacteriia	JAGXOH01	CAZNAQ01
+coassembly|R2_sediment__metabat2.bin.090	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Saprospiraceae	DT-110
+coassembly|R2_sediment__metabat2.bin.096	False	False	False	False	False	False	False	Patescibacteriota	Minisyncoccia	JAZKSW01	JAZKSW01
+coassembly|R2_sediment__metabat2.bin.112_sub	False	True	False	False	False	True	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Lentibacter
+coassembly|R2_sediment__metabat2.bin.115	False	False	False	False	False	False	False	Patescibacteriota	Patescibacteriia	JAXHNJ01	JAXHNJ01
+coassembly|R2_sediment__metabat2.bin.126	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	UBA7960	SKVR01
+coassembly|R2_sediment__metabat2.bin.128	False	True	False	False	False	False	False	Actinomycetota	Acidimicrobiia	SKKL01	DATHSN01
+coassembly|R2_sediment__metabat2.bin.148	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	GCA-2748055	M55B112
+coassembly|R2_sediment__metabat2.bin.154	False	True	False	False	False	False	False	Pseudomonadota	Alphaproteobacteria	Inquilinaceae	JAAAOG01
+coassembly|R2_sediment__metabat2.bin.156	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Cryomorphaceae	JAKVAV01
+coassembly|R2_sediment__metabat2.bin.162	False	False	True	False	False	False	True	Bacillota	Halanaerobiia	M55B127	M55B127
+coassembly|R2_sediment__metabat2.bin.175	False	False	False	False	False	False	False	Bacteroidota	Rhodothermia	Salinibacteraceae	CAKZLV01
+coassembly|R2_sediment__metabat2.bin.176_sub	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Salinigranum
+coassembly|R2_sediment__metabat2.bin.190	False	False	False	False	False	False	False	Verrucomicrobiota	Verrucomicrobiia	Puniceicoccaceae	CAJXLM01
+coassembly|R2_sediment__metabat2.bin.203	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	GCA-2748055	M55B112
+coassembly|R2_sediment__metabat2.bin.224_sub	False	False	False	False	False	False	False	Patescibacteriota	Minisyncoccia	GWB1-50-10	DATGCT01
+coassembly|R2_sediment__metabat2.bin.260	False	False	False	False	False	False	False	Patescibacteriota	Minisyncoccia	JAXHMZ01	
+coassembly|R2_sediment__metabat2.bin.279	False	False	False	False	False	False	False	Nanobdellota	Nanobdellia	GW2011-AR1	GW2011-AR1
+coassembly|R2_sediment__metabat2.bin.289	False	False	False	False	False	False	True	Desulfobacterota	Desulfobacteria	Desulfosalsimonadaceae	M55B175
+coassembly|R2_sediment__metabat2.bin.299	False	False	False	False	False	False	False	Nanobdellota	Nanobdellia	SKGA01	JAQUYS01
+coassembly|R2_sediment__metabat2.bin.356	False	False	False	False	False	False	False	Patescibacteriota	Minisyncoccia	JANBVM01	CAYSZX01
+coassembly|R2_sediment__metabat2.bin.361	False	False	False	False	False	False	False	Patescibacteriota	Patescibacteriia	BM507	
+coassembly|R2_sediment__metabat2.bin.371	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Wenzhouxiangellaceae	GCA-2722315
+coassembly|R2_sediment__metabat2.bin.372	False	False	False	False	False	False	False	Patescibacteriota	Minisyncoccia	CAYPLZ01	CAYPLZ01
+coassembly|R2_sediment__metabat2.bin.385	False	False	False	False	False	False	False	Gemmatimonadota	Gemmatimonadetes	Gaopeijiaceae	Gaopeijia
+coassembly|R2_sediment__metabat2.bin.405	False	True	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Thermohalobaculum
+coassembly|R2_sediment__metabat2.bin.414_sub	False	True	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	DAINOF01
+coassembly|R2_sediment__metabat2.bin.435	False	False	True	False	False	False	True	Bacillota	Halanaerobiia	Halarsenatibacteraceae	Halonatronomonas
+coassembly|R2_sediment__metabat2.bin.438	False	False	False	False	False	False	False	Patescibacteriota	Minisyncoccia	JAZKSW01	JAZKSW01
+coassembly|R2_sediment__metabat2.bin.460_sub	False	False	False	False	False	False	False	Patescibacteriota	Patescibacteriia	UBA6264	DATFJC01
+coassembly|SF2_sediment__concoct.bin.008	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	XN24	JAHEFR01
+coassembly|SF2_sediment__concoct.bin.023	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Azotimanducaceae	UBA7803
+coassembly|SF2_sediment__concoct.bin.024	False	False	False	False	False	False	False	Desulfobacterota	Desulfuromonadia	CAWANI01	CAWANI01
+coassembly|SF2_sediment__concoct.bin.026	False	False	False	False	False	False	False	Joyebacterota	Joyebacteria	Joyebacteraceae	JALGZG01
+coassembly|SF2_sediment__concoct.bin.064	False	False	False	False	False	False	True	Chloroflexota	Anaerolineae	Anaerolineaceae	Pelolinea
+coassembly|SF2_sediment__concoct.bin.073	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Flavobacteriaceae	JANQOS01
+coassembly|SF2_sediment__concoct.bin.080	False	False	False	False	False	False	True	Pseudomonadota	Gammaproteobacteria	BM003	CAKZML01
+coassembly|SF2_sediment__concoct.bin.089	False	False	False	False	False	False	False	Fidelibacterota	Marinisomatia	JAHJCW01	JAHJCW01
+coassembly|SF2_sediment__concoct.bin.107	False	False	False	False	False	False	False	Desulfobacterota	WTBG01	WTBG01	CALJBY01
+coassembly|SF2_sediment__concoct.bin.112	False	False	False	False	False	False	False	Campylobacterota	Campylobacteria	Sulfurimonadaceae	Sulfonitrofixus
+coassembly|SF2_sediment__concoct.bin.124	False	False	False	False	False	False	True	Pseudomonadota	Gammaproteobacteria	SZUA-36	SZUA-36
+coassembly|SF2_sediment__concoct.bin.132	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Flavobacteriaceae	Lutimonas
+coassembly|SF2_sediment__concoct.bin.136	False	False	False	False	False	False	True	Zixibacteria	MSB-5A5	PGXB01	JAAERC01
+coassembly|SF2_sediment__concoct.bin.137	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Halobacteriaceae	CAZYYH01
+coassembly|SF2_sediment__concoct.bin.146_sub	False	False	False	False	False	False	False	Bacteroidota	Rhodothermia	Balneolaceae	
+coassembly|SF2_sediment__concoct.bin.150	False	False	False	False	False	False	True	Desulfobacterota	Desulfobulbia	VMSU01	
+coassembly|SF2_sediment__concoct.bin.154	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Flavobacteriaceae	Lutimonas
+coassembly|SF2_sediment__concoct.bin.161	False	False	False	False	False	False	False	Planctomycetota	Phycisphaerae	Anaerobacaceae	Anaerobaca
+coassembly|SF2_sediment__concoct.bin.174	False	False	False	False	False	False	False	Bacteroidota	Rhodothermia	Balneolaceae	Fodinibius
+coassembly|SF2_sediment__concoct.bin.200_sub	False	False	False	False	False	False	True	Chloroflexota	Anaerolineae	UBA11858	UBA11858
+coassembly|SF2_sediment__concoct.bin.201	False	False	False	False	False	False	True	Chloroflexota	Anaerolineae	JAAYZQ01	JBFFCR01
+coassembly|SF2_sediment__concoct.bin.206_sub	False	False	False	False	False	False	True	Zixibacteria	MSB-5A5	WJJR01	JBFMFQ01
+coassembly|SF2_sediment__concoct.bin.217_sub	False	False	False	False	False	True	False	Pseudomonadota	Gammaproteobacteria	JAKDMP01	
+coassembly|SF2_sediment__maxbin2.Bin.058	False	False	False	False	False	False	True	Acidobacteriota	Thermoanaerobaculia	Sulfomarinibacteraceae	Sulfomarinibacter
+coassembly|SF2_sediment__maxbin2.Bin.069	False	False	False	False	False	False	False	Pseudomonadota	Alphaproteobacteria	Methyloligellaceae	Methyloceanibacter
+coassembly|SF2_sediment__maxbin2.Bin.112	False	False	False	False	False	False	False	Gemmatimonadota	Gemmatimonadetes	Palauibacteraceae	Carthagonibacter
+coassembly|SF2_sediment__maxbin2.Bin.122	False	False	False	False	False	False	True	Bacteroidota	Bacteroidia	GCA-2748055	GCA-2748055
+coassembly|SF2_sediment__maxbin2.Bin.249	False	False	False	False	False	False	False	Bacteroidota	Rhodothermia	DATFMH01	DATFMH01
+coassembly|SF2_sediment__maxbin2.Bin.269	False	False	False	False	False	False	True	Abyssobacteria	SURF-5	SURF-5	SURF-5
+coassembly|SF2_sediment__maxbin2.Bin.277	False	False	False	False	False	False	False	Verrucomicrobiota	Verrucomicrobiia	Akkermansiaceae	Luteolibacter
+coassembly|SF2_sediment__maxbin2.Bin.283_sub	False	False	False	False	False	True	False	Bacteroidota	Rhodothermia	Balneolaceae	Fodinibius
+coassembly|SF2_sediment__maxbin2.Bin.348	False	False	False	False	False	False	True	Planctomycetota	Phycisphaerae	SM23-33	JAGXKT01
+coassembly|SF2_sediment__metabat2.bin.059_sub	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Roseobacter
+coassembly|SF2_sediment__metabat2.bin.088	False	False	False	False	False	False	True	Bacteroidota	Bacteroidia	Flavobacteriaceae	Robiginitalea
+coassembly|SF2_sediment__metabat2.bin.153	False	False	False	False	False	False	False	Bacteroidota	Ignavibacteria	Melioribacteraceae	
+coassembly|SF2_sediment__metabat2.bin.164	False	False	False	False	False	False	False	Planctomycetota	Phycisphaerae	SM23-33	
+first_pass|concoct.bin.010_sub.fasta__R2_sediment	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Halieaceae	Pseudohaliea
+first_pass|concoct.bin.015.fasta__R1_C_H2O	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Flavobacteriaceae	Psychroflexus
+first_pass|concoct.bin.015_sub.fasta__R1_sediment	False	False	False	False	False	False	False	Planctomycetota	Phycisphaerae	UBA1924	UBA1924
+first_pass|concoct.bin.016.fasta__R2A_sediment	False	False	False	False	False	False	False	ARS69	ARS69	ARS69	JBQTGV01
+first_pass|concoct.bin.017_sub.fasta__R2_sediment	False	False	False	False	False	False	False	Asgardarchaeota	Lokiarchaeia	Promethearchaeaceae	CAZEPC01
+first_pass|concoct.bin.025_sub.fasta__SF2_sediment	False	False	False	False	False	False	False	Planctomycetota	Phycisphaerae	Anaerobacaceae	JBDREF01
+first_pass|concoct.bin.028.fasta__R2_sediment	False	False	False	False	False	False	False	Planctomycetota	Planctomycetia	Pirellulaceae	Crateriforma
+first_pass|concoct.bin.032_sub.fasta__R2_sediment	False	False	False	False	False	False	False	Planctomycetota	Planctomycetia	Pirellulaceae	CAYNVI01
+first_pass|concoct.bin.036_sub.fasta__R2_sediment	False	True	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Roseovarius
+first_pass|concoct.bin.045.fasta__R1_sediment	False	False	False	False	False	False	False	Bacteroidota	Rhodothermia	Salinibacteraceae	Salinibacter
+first_pass|concoct.bin.048_sub.fasta__R2A_sediment	False	False	False	False	False	False	False	Fidelibacterota	JAANXI01		
+first_pass|concoct.bin.052_sub.fasta__R1_sediment	False	False	True	False	False	False	True	Bacillota	Halanaerobiia	JADQBU01	CAYRVO01
+first_pass|concoct.bin.056.fasta__R1_sediment	False	False	False	False	False	False	True	Asgardarchaeota	Lokiarchaeia	Promethearchaeaceae	CAZEPC01
+first_pass|concoct.bin.072.fasta__R2A_C_D2	False	False	False	False	False	False	False	Bacteroidota	Rhodothermia	DATFMH01	DATFNI01
+first_pass|concoct.bin.083.fasta__SF2_sediment	False	False	False	False	False	True	False	Desulfobacterota	Desulfobulbia	Desulfocapsaceae	JABDQA01
+first_pass|concoct.bin.089_sub.fasta__R2A_sediment	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	JAPULJ01	DATKZM01
+first_pass|concoct.bin.090_sub.fasta__R2A_C_D2	False	False	False	False	False	False	False	Gemmatimonadota	Gemmatimonadetes	Gaopeijiaceae	SZUA-318
+first_pass|concoct.bin.101_sub.fasta__R2A_sediment	False	False	False	False	False	False	False	Pseudomonadota	Alphaproteobacteria	Xanthobacteraceae	Pseudolabrys
+first_pass|concoct.bin.102_sub.fasta__R1_sediment	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	HLUCCA09
+first_pass|concoct.bin.108_sub.fasta__R2_sediment	False	False	False	False	False	False	True	Desulfobacterota	Desulfobacteria	Desulfosudaceae	
+first_pass|concoct.bin.114.fasta__R2_B_D2	False	False	False	False	False	False	False	Patescibacteriota	Minisyncoccia	CAYPLZ01	CAYPLZ01
+first_pass|concoct.bin.120_sub.fasta__R1_sediment	False	False	False	False	False	True	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Roseovarius
+first_pass|concoct.bin.121.fasta__SF2_sediment	False	False	False	False	False	False	True	Desulfobacterota	Desulfobacteria	JAFDCJ01	JAFDCJ01
+first_pass|concoct.bin.135.fasta__SF2_sediment	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	B18-G4	B18-G4
+first_pass|concoct.bin.137_sub.fasta__R2_sediment	False	False	False	False	False	False	False	Planctomycetota	Phycisphaerae	Phycisphaeraceae	JAHQVV01
+first_pass|concoct.bin.140.fasta__R2A_sediment	False	False	False	False	False	False	False	Gemmatimonadota	Gemmatimonadetes	Gaopeijiaceae	Gaopeijia
+first_pass|concoct.bin.147_sub.fasta__R2_sediment	False	False	False	False	False	False	False	Deinococcota	Deinococci	Trueperaceae	SLSQ01
+first_pass|concoct.bin.151.fasta__R2A_sediment	False	True	False	False	False	False	False	Pseudomonadota	Zetaproteobacteria	Mariprofundaceae	WSZY01
+first_pass|concoct.bin.152.fasta__R1_sediment	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Cryomorphaceae	JAIVHP01
+first_pass|concoct.bin.167_sub.fasta__R1_sediment	False	False	False	False	False	False	True	Desulfobacterota	Desulfobacteria	Desulfobacteraceae	DATFJZ01
+first_pass|concoct.bin.170.fasta__R2A_sediment	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Flavobacteriaceae	Zeaxanthinibacter
+first_pass|concoct.bin.176.fasta__SF2_sediment	False	False	False	False	False	False	False	Planctomycetota	Planctomycetia	Thermoguttaceae	JAZFUB01
+first_pass|concoct.bin.183_sub.fasta__R2_sediment	False	True	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	JBKDZR01
+first_pass|concoct.bin.203.fasta__R2A_sediment	False	False	False	False	False	False	False	Actinomycetota	Thermoleophilia	70-9	VRUE01
+first_pass|concoct.bin.209_sub.fasta__R2A_sediment	False	False	False	False	False	False	False	Gemmatimonadota	Gemmatimonadetes	Gaopeijiaceae	UBA2982
+first_pass|concoct.bin.218_sub.fasta__R2_sediment	False	False	False	False	False	False	False	Bacteroidota	Rhodothermia	JANQRZ01	JBBSMX01
+first_pass|concoct.bin.220_sub.fasta__R2A_sediment	False	False	False	False	False	False	True	Desulfobacterota	DSM-4660	Desulfatiglandaceae	NaphS2
+first_pass|concoct.bin.227.fasta__R1_sediment	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Wenzhouxiangellaceae	Wenzhouxiangella
+first_pass|concoct.bin.228_sub.fasta__R2A_sediment	False	False	False	False	False	False	False	Pseudomonadota	Alphaproteobacteria		
+first_pass|concoct.bin.232.fasta__R2A_sediment	False	False	False	False	False	False	True	Actinomycetota	Thermoleophilia	Gaiellaceae	Palsa-739
+first_pass|concoct.bin.248_sub.fasta__R2_sediment	False	False	False	False	False	False	True	Desulfobacterota	Desulfobacteria	Desulfosalsimonadaceae	M55B175
+first_pass|concoct.bin.254_sub.fasta__R2_sediment	False	False	False	False	False	False	False	Spirochaetota	Spirochaetia	Sediminispirochaetaceae	DSBN01
+first_pass|concoct.bin.256_sub.fasta__R1_sediment	False	False	False	False	False	False	False	Pseudomonadota	Alphaproteobacteria	Sphingomonadaceae	Erythrobacter
+first_pass|concoct.bin.283_sub.fasta__R2A_sediment	False	False	False	False	False	False	False	Planctomycetota	Planctomycetia	JADFKK01	
+first_pass|concoct.bin.288.fasta__R2_sediment	False	False	False	False	False	False	False	Planctomycetota	Planctomycetia	Pirellulaceae	Laterigemmans
+first_pass|maxbin2.Bin.001.fasta__R2A_A_D1	False	False	False	False	False	False	False	Actinomycetota	Thermoleophilia	70-9	VAYN01
+first_pass|maxbin2.Bin.002.fasta__R1_C_D2	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Saprospiraceae	JAWLFI01
+first_pass|maxbin2.Bin.009.fasta__SF2_A_D2	False	False	False	False	False	False	True	Desulfobacterota	Desulfobacteria	UBA11574	UBA11574
+first_pass|maxbin2.Bin.012.fasta__R2A_B_H2O	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Balneatricaceae	Marinobacterium_E
+first_pass|maxbin2.Bin.020.fasta__R1_A_H2O	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Haloquadratum
+first_pass|maxbin2.Bin.020.fasta__R2_C_D1	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Wenzhouxiangellaceae	GCA-2722315
+first_pass|maxbin2.Bin.023_sub.fasta__R2_sediment	False	False	True	False	False	False	True	Bacillota	Halanaerobiia	M55B127	M55B127
+first_pass|maxbin2.Bin.030.fasta__R2A_sediment	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Saprospiraceae	B8-G4
+first_pass|maxbin2.Bin.032.fasta__R1_sediment	False	False	False	False	False	True	False	Bacillota	Clostridia	BM714	BM714
+first_pass|maxbin2.Bin.046.fasta__R2_sediment	False	False	False	False	False	False	True	Actinomycetota	Actinomycetes	S36-B12	S36-B12
+first_pass|maxbin2.Bin.068_sub.fasta__SF2_B_H2O	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Flavobacteriaceae	MS024-2A
+first_pass|maxbin2.Bin.075.fasta__R2_sediment	False	False	False	False	False	False	False	Thermotogota	Thermotogae	MWEM01	CAZVWW01
+first_pass|maxbin2.Bin.080.fasta__R2A_sediment	False	False	False	False	False	True	True	Pseudomonadota	Gammaproteobacteria	JAHEKD01	JAHEKD01
+first_pass|maxbin2.Bin.095_sub.fasta__R2_A_D1	False	False	False	False	False	False	True	Bipolaricaulota	Bipolaricaulia	M55B111	JAGXLP01
+first_pass|maxbin2.Bin.097.fasta__R2A_C_D2	False	False	False	False	False	False	False	Verrucomicrobiota	Verrucomicrobiia	DSYF01	
+first_pass|maxbin2.Bin.103.fasta__R1_sediment	False	False	False	False	False	False	True	Bacteroidota	Bacteroidia	JAIPAH01	JAIPAH01
+first_pass|maxbin2.Bin.108.fasta__R2A_sediment	False	False	False	False	False	False	True	Chloroflexota	Anaerolineae	J027	DAOTVD01
+first_pass|maxbin2.Bin.176.fasta__R2_sediment	False	False	False	False	False	False	True	Chloroflexota	Anaerolineae	UBA11858	B10-G9
+first_pass|maxbin2.Bin.179.fasta__R1_sediment	False	False	False	False	False	False	False	Spirochaetota	Spirochaetia	Sediminispirochaetaceae	DSBN01
+first_pass|maxbin2.Bin.265_sub.fasta__R2_sediment	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	XN24	XN24
+first_pass|maxbin2.Bin.279.fasta__SF2_sediment	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	DATFLG01	DATFML01
+first_pass|maxbin2.Bin.308.fasta__R2A_sediment	False	False	False	False	False	False	False	Chloroflexota	Anaerolineae	Villigracilaceae	Defluviilinea
+first_pass|maxbin2.Bin.397_sub.fasta__R2A_sediment	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Flavobacteriaceae	Geojedonia
+first_pass|maxbin2.Bin.449.fasta__R2A_sediment	False	False	False	False	False	False	False	Planctomycetota	UBA1135	GCA-002686595	DATKBQ01
+first_pass|maxbin2.Bin.519_sub.fasta__R1_sediment	False	False	False	False	False	False	False	Deinococcota	Deinococci	Trueperaceae	JBCCBI01
+first_pass|maxbin2.Bin.584.fasta__R2_sediment	False	False	False	False	False	False	False	Verrucomicrobiota	Verrucomicrobiia	DEV007	Arctic95D-9
+first_pass|maxbin2.Bin.616.fasta__R2_sediment	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Prolixibacteraceae	Roseimarinus
+first_pass|metabat2.bin.011.fasta__R2A_B_D2	False	False	False	False	False	False	False	Gemmatimonadota	Gemmatimonadetes	RSA9	JARRJS01
+first_pass|metabat2.bin.024.fasta__R2_restored_D_shore	False	False	False	False	False	False	False	Fidelibacterota	JAANXI01	JAANXI01	
+first_pass|metabat2.bin.025.fasta__R2A_A_H2O	False	False	False	False	False	False	False	Verrucomicrobiota	Verrucomicrobiia	Coraliomargaritaceae	Coraliomargarita_B
+first_pass|metabat2.bin.032.fasta__R2_sediment	False	False	False	False	False	False	False	Planctomycetota	Phycisphaerae	SM1A02	CAYLNM01
+first_pass|metabat2.bin.033.fasta__SF2_sediment	False	False	False	False	False	False	False	Spirochaetota	Spirochaetia	PWMO01	
+first_pass|metabat2.bin.033_sub.fasta__R2A_sediment	False	False	False	False	False	False	False	Desulfobacterota	Desulfobulbia	JAGXFP01	JAGVGT01
+first_pass|metabat2.bin.043.fasta__R2A_sediment	False	False	False	False	False	False	False	Pseudomonadota	Alphaproteobacteria	JAJFIK01	JBKHIN01
+first_pass|metabat2.bin.043_sub.fasta__R2_B_D2	False	False	False	False	False	False	False	Patescibacteriota	Patescibacteriia	JAGXOH01	JAIOTG01
+first_pass|metabat2.bin.055_sub.fasta__R2A_sediment	False	False	False	False	False	False	False	Pseudomonadota	Zetaproteobacteria	Mariprofundaceae	JAJRVH01
+first_pass|metabat2.bin.066.fasta__R2_sediment	False	False	False	False	False	False	False	Planctomycetota	Planctomycetia	Pirellulaceae	Stieleria
+first_pass|metabat2.bin.074.fasta__R2_restored_C_black	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Saprospiraceae	CAZWDL01
+first_pass|metabat2.bin.077.fasta__R1_sediment	False	False	False	False	False	False	False	Bacillota	Clostridia	Dethiosulfatibacteraceae	UBA8670
+first_pass|metabat2.bin.079_sub.fasta__SF2_sediment	False	False	False	False	False	False	False	Deinococcota	Deinococci	Trueperaceae	JASBRS01
+first_pass|metabat2.bin.080.fasta__R2A_sediment	False	False	False	False	False	True	False	Chloroflexota	Limnocylindria	QHBO01	CAWINH01
+first_pass|metabat2.bin.086.fasta__R2A_sediment	False	False	False	False	False	False	False	Chloroflexota	Dehalococcoidia	Lucifugimonadaceae	UBA1151
+first_pass|metabat2.bin.092.fasta__R2A_sediment	False	False	False	False	False	False	False	Desulfobacterota	Desulfuromonadia	UBA2294	BM707
+first_pass|metabat2.bin.100.fasta__R2_sediment	False	False	False	False	False	False	False	Spirochaetota	UBA4802	UB4802	M55B154
+first_pass|metabat2.bin.110.fasta__R2_sediment	False	False	False	False	False	False	False	Spirochaetota	Spirochaetia	Sediminispirochaetaceae	DSBN01
+first_pass|metabat2.bin.115.fasta__SF2_sediment	False	False	False	False	False	False	True	Fibrobacterota	Chitinivibrionia	WJKA01	
+first_pass|metabat2.bin.118_sub.fasta__R1_sediment	False	False	False	False	False	False	False	Caldisericota	Caldisericia	UBA6126	JAGLCW01
+first_pass|metabat2.bin.119_sub.fasta__R2_sediment	False	False	False	False	False	False	True	Desulfobacterota	Desulfovibrionia	Desulfothermaceae	CAYUNZ01
+first_pass|metabat2.bin.121_sub.fasta__R1_sediment	False	True	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Roseovarius
+first_pass|metabat2.bin.133.fasta__R1_sediment	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Natrialbaceae	DATFIX01
+first_pass|metabat2.bin.141.fasta__R2_sediment	False	False	True	False	False	False	False	Bacillota	UBA994	PWPR01	PWPR01
+first_pass|metabat2.bin.148.fasta__R2A_sediment	False	False	False	False	False	False	False	Thermoplasmatota	Thermoplasmata	Thermoplasmataceae	GCA-965745
+first_pass|metabat2.bin.166.fasta__R2_sediment	False	False	False	False	False	False	False	Desulfobacterota	Desulfuromonadia	Geopsychrobacteraceae	Pelovirga
+first_pass|metabat2.bin.171.fasta__R2A_sediment	False	False	False	False	False	False	True	Actinomycetota	Acidimicrobiia	Ilumatobacteraceae	Ilumatobacter
+first_pass|metabat2.bin.175.fasta__R1_sediment	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	GCA-2748055	CAYZMH01
+first_pass|metabat2.bin.179.fasta__R2_sediment	False	False	False	False	False	False	True	Bacillota	Clostridia	Dethiosulfatibacteraceae	UBA8670
+first_pass|metabat2.bin.191.fasta__R2A_sediment	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	J153	JAJFGI01
+first_pass|metabat2.bin.200.fasta__R2_sediment	False	False	False	False	False	False	False	Desulfobacterota	Desulfovibrionia	Desulfonatronovibrionaceae	CAYNNQ01
+first_pass|metabat2.bin.226.fasta__R2_sediment	False	False	False	False	False	False	True	Planctomycetota	Phycisphaerae	SM23-33	
+first_pass|metabat2.bin.241.fasta__R1_sediment	False	False	False	False	False	False	False	Fidelibacterota	Fidelibacteria	Fidelibacteraceae	
+first_pass|metabat2.bin.247.fasta__R1_sediment	False	False	False	False	False	False	False	Spirochaetota	Spirochaetia	Sphaerochaetaceae	Pleomorphochaeta
+first_pass|metabat2.bin.253.fasta__R2A_sediment	False	False	False	False	False	False	False	Myxococcota_A	UBA9160	SMWR01	JAFDEI01
+first_pass|metabat2.bin.259.fasta__R1_sediment	False	False	False	False	False	False	False	Bacillota_I	Bacilli_A	Hujiaoplasmataceae	Hujiaoplasma
+first_pass|metabat2.bin.268.fasta__R2A_sediment	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Gallionellaceae	RI-121
+first_pass|metabat2.bin.271.fasta__R1_sediment	False	False	False	False	False	False	True	Bacillota	Halanaerobiia	CAZOON01	CAZOON01
+first_pass|metabat2.bin.299.fasta__R2A_sediment	False	False	False	False	False	False	False	Acidobacteriota	Terriglobia	Acidobacteriaceae	Telmatobacter
+first_pass|metabat2.bin.314_sub.fasta__R2_sediment	False	False	False	False	False	False	True	Desulfobacterota	Desulfobulbia	Desulfocapsaceae	Desulfopila_A
+first_pass|metabat2.bin.325.fasta__R2_sediment	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	ML635J-15	JAQIBY01
+first_pass|metabat2.bin.356.fasta__R1_sediment	False	False	True	False	False	False	False	Bacillota	Halanaerobiia	Halanaerobiaceae	QPJE01
+first_pass|metabat2.bin.362_sub.fasta__R2_sediment	False	False	True	False	False	False	True	Bacillota	Halanaerobiia	M55B127	M55B127
+first_pass|metabat2.bin.367.fasta__R1_sediment	False	False	False	False	False	False	False	Desulfobacterota	Desulfovibrionia	Desulfonatronovibrionaceae	CAYNNQ01
+first_pass|metabat2.bin.370_sub.fasta__R2_sediment	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	SKUL01	SKUL01
+first_pass|metabat2.bin.388.fasta__R2_sediment	False	False	False	False	False	False	False	Planctomycetota	Planctomycetia	Pirellulaceae	JAWLFY01
+first_pass|metabat2.bin.416.fasta__R2_sediment	False	False	False	False	False	False	False	Spirochaetota	Spirochaetia	Alkalispirochaetaceae	Alkalispirochaeta
+first_pass|metabat2.bin.419_sub.fasta__R2_sediment	False	False	False	False	False	False	False	Planctomycetota	Planctomycetia	Pirellulaceae	Roseimaritima
+first_pass|metabat2.bin.424.fasta__R2_sediment	False	False	False	False	False	False	True	Krumholzibacteriota	Krumholzibacteriia	WJIX01	JAGHBT01
+first_pass|metabat2.bin.434_sub.fasta__R2_sediment	False	True	True	False	False	False	True	Bacillota	Clostridia	Dethiosulfatibacteraceae	UBA8670
+first_pass|metabat2.bin.470.fasta__R2_sediment	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Halohasta
+first_pass|metabat2.bin.472.fasta__R2_sediment	False	False	False	False	False	False	False	Synergistota	Synergistia	JAFGMB01	CAZFJG01
+original|Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_concoct_out.23.contigs__	False	False	False	False	False	False	False	Desulfobacterota	Desulfuromonadia	BM103	JAFDBW01
+original|Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_concoct_out.33.contigs__	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	UBA955	VMCP01
+original|Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.19.contigs__	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Planktomarina
+original|Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.25.contigs__	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Schleiferiaceae	UBA10364
+original|Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.8.contigs__	False	False	False	False	False	True	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	HIMB11
+original|Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.42.contigs__	False	False	False	False	False	False	False	Desulfobacterota	Desulfuromonadia	DDH964	
+original|Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.8.contigs__	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	SLRW01	DASQZJ01
+original|Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_metabat.11.contigs__	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	SLRW01	DASQZJ01
+original|Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.26.contigs__	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Halomonadaceae	Halomonas
+original|Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.45.contigs__	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Thiohalospiraceae	Thiohalospira
+original|Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.109.contigs__	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Prolixibacteraceae	Tangfeifania
+original|Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.53.contigs__	False	False	False	False	False	False	False	Bacteroidota	Rhodothermia	Balneolaceae	Gracilimonas
+original|Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.41.contigs__	False	False	False	False	False	False	False	Deinococcota	Deinococci	Trueperaceae	SLSQ01
+original|Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.51.contigs__	False	True	False	False	False	True	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Roseovarius
+original|Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.30.contigs__	False	False	False	False	False	False	False	Desulfobacterota	Desulfuromonadia	BM103	JAQYVZ01
+original|Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_concoct_out.22.contigs__	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Halothiobacillaceae	Guyparkeria
+original|Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.7.contigs__	False	False	False	False	False	False	True	Pseudomonadota	Gammaproteobacteria	Thiotrichaceae	Thiolinea
+original|Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs__	False	False	True	False	False	False	True	Bacillota	Clostridia	Dethiosulfatibacteraceae	UBA8670
+original|Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.16.contigs__	False	False	False	False	False	False	False	Macinerneyibacteriota	Macinerneyibacteria	Macinerneyibacteriaceae	CAZUKV01
+original|Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.51.contigs__	False	False	False	False	False	False	False	Desulfobacterota	Desulfuromonadia	Geopsychrobacteraceae	BM509
+original|Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_metabat.14.contigs__	False	False	False	False	False	False	True	Chloroflexota	Anaerolineae	UBA11579	UBA11579
+original|Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_concoct_out.10.contigs__	False	False	False	False	False	False	False	Acidobacteriota	Thermoanaerobaculia	JBCCEF01	CAZLBJ01
+original|Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_concoct_out.51.contigs__	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	SZUA-36	
+original|Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_metabat.49.contigs__	False	False	False	False	False	False	False	Actinomycetota	Acidimicrobiia	Actinomarinaceae	Actinomarina
+original|Salt_Pond_MetaG_R2A_B_D1_MG_DASTool_bins_concoct_out.4.contigs__	False	False	False	False	False	False	False	Acidobacteriota	Thermoanaerobaculia	JBCCEF01	CAZLBJ01
+original|Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.54.contigs__	False	False	False	False	False	True	False	Pseudomonadota	Gammaproteobacteria	JAKDMP01	JBAUSV01
+original|Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_concoct_out.10.contigs__	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	SZUA-140	CAZYTT01
+original|Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_concoct_out.8.contigs__	False	False	False	False	False	False	False	Gemmatimonadota	Gemmatimonadetes	Palauibacteraceae	Humimonas
+original|Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_maxbin.009.contigs__	False	False	False	False	False	False	False	Acidobacteriota	Thermoanaerobaculia		
+original|Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.34.contigs__	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Prolixibacteraceae	Sunxiuqinia
+original|Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.61.contigs__	False	False	False	False	False	False	True	Bipolaricaulota	Bipolaricaulia	M55B111	M55B111
+original|Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_concoct_out.29.contigs__	False	True	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Haloplanus
+original|Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_concoct_out.45.contigs__	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloarculaceae	Haloarcula
+original|Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_metabat.10.contigs__	False	False	False	False	False	False	False	Bacteroidota	Rhodothermia	Balneolaceae	SW132
+original|Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_metabat.13.contigs__	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	JASJAR01
+original|Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.44.contigs__	False	False	False	False	False	False	True	Desulfobacterota	Desulfobacteria	Desulfosalsimonadaceae	M55B175
+original|Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.50.contigs__	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	XN24	XN24
+original|Salt_Pond_MetaG_R2_B_H2O_MG_DASTool_bins_metabat.17.contigs__	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloarculaceae	Natronomonas
+original|Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.71.contigs__	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Saprospiraceae	DATFKA01
+original|Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.18.contigs__	False	True	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	JAVJPJ01
+original|Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.12.contigs__	False	False	False	False	False	False	False	Verrucomicrobiota	Verrucomicrobiia	CAZCJJ01	
+original|Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.17.contigs__	False	True	False	False	False	False	True	Desulfobacterota	Desulfobacteria	Desulfobacteraceae	Desulfotignum
+original|Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.51.contigs__	False	False	False	False	False	False	False	Bacteroidota	Rhodothermia	Balneolaceae	Rhodohalobacter
+original|Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.2.contigs__	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	DATFLG01	DATFLG01
+original|Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.37.contigs__	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Hikarchaeaceae	
+original|Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.40.contigs__	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Hikarchaeaceae	
+original|Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.68.contigs__	False	False	False	False	False	False	False	Gemmatimonadota	Gemmatimonadetes	Palauibacteraceae	Humimonas
+original|Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.15.contigs__	False	False	False	False	False	False	False	Fidelibacterota	JAANXI01	JAANXI01	
+original|Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.25.contigs__	False	False	False	False	False	False	False	Pseudomonadota	Alphaproteobacteria	CAVTAV01	CAVTAV01
+original|Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.27.contigs__	False	False	False	False	False	False	True	Acidobacteriota	Aminicenantia	Aminicenantaceae	WJMT01
+original|Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.8.contigs__	False	False	False	False	False	False	False	Bacteroidota	Rhodothermia	Balneolaceae	
+original|Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_concoct_out.34.contigs__	False	False	False	False	False	False	False	Actinomycetota	Actinomycetes	Microbacteriaceae	Pontimonas
+rollout|R1_A_D1__concoct.bin.007	True	False	False	True	False	False	False	Halobacteriota	Methanosarcinia	Methanosarcinaceae	Methanolobus
+rollout|R1_A_D1__concoct.bin.034	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Flavobacteriaceae	Salegentibacter
+rollout|R1_A_D1__maxbin2.Bin.044	False	False	False	False	False	False	False	Bacteroidota	Rhodothermia	Balneolaceae	SW132
+rollout|R1_A_D1__metabat2.bin.042	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	VadinHA17	UBA9300
+rollout|R1_A_D1__metabat2.bin.047	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	UBA12077	UBA12077
+rollout|R1_A_D1__metabat2.bin.076_sub	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Thiohalorhabdaceae	Thiohalorhabdus
+rollout|R1_A_D2__concoct.bin.073	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Halieaceae	Chromatocurvus
+rollout|R1_A_D2__maxbin2.Bin.123_sub	False	False	True	False	False	False	False	Bacillota	Clostridia	BM714	BM714
+rollout|R1_A_D2__metabat2.bin.020	False	False	True	False	False	False	False	Bacillota	Clostridia	Acidaminobacteraceae	DATFJG01
+rollout|R1_A_D2__metabat2.bin.053	False	True	False	False	False	True	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Roseovarius
+rollout|R1_A_D2__metabat2.bin.063	False	False	False	False	False	True	False	Bacteroidota	Rhodothermia	Balneolaceae	Halalkalibaculum
+rollout|R1_A_D2__metabat2.bin.064	False	False	False	False	False	False	False	Patescibacteriota	Gracilibacteria	Absconditicoccaceae	JALOAF01
+rollout|R1_A_D2__metabat2.bin.070	False	False	False	False	False	True	False	Bacillota	Clostridia	BM714	BM714
+rollout|R1_A_D2__metabat2.bin.091_sub	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Wenzhouxiangellaceae	GCA-2722315
+rollout|R1_A_D2__metabat2.bin.092_sub	False	False	False	False	False	False	False	Bacteroidota	Rhodothermia	Balneolaceae	Rhodohalobacter
+rollout|R1_A_D2__metabat2.bin.098	False	False	False	False	False	False	False	Desulfobacterota	Desulfobacteria	Desulfobacteraceae	Desulfobacter
+rollout|R1_A_H2O__metabat2.bin.021_sub	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Haloquadratum
+rollout|R1_B_D1__concoct.bin.000_sub	False	False	False	False	False	False	False	Patescibacteriota	Patescibacteriia	UBA12465	JAIPJO01
+rollout|R1_B_D1__concoct.bin.030	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Flavobacteriaceae	Psychroflexus
+rollout|R1_B_D1__concoct.bin.076_sub	False	False	False	False	False	False	False	Bacteroidota	Rhodothermia	Salinibacteraceae	Salinibacter
+rollout|R1_B_D1__maxbin2.Bin.029	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	UBA12077	UBA12077
+rollout|R1_B_D1__maxbin2.Bin.073	False	True	False	False	False	False	False	Halobacteriota	Halobacteria	Natrialbaceae	Natrinema
+rollout|R1_B_D1__maxbin2.Bin.115	False	False	False	False	False	False	True	Desulfobacterota	Desulfobacteria	Desulfobacteraceae	DATFJZ01
+rollout|R1_B_D1__metabat2.bin.017_sub	False	True	False	False	False	True	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Roseovarius
+rollout|R1_B_D1__metabat2.bin.032_sub	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Wenzhouxiangellaceae	GCA-2722315
+rollout|R1_B_D1__metabat2.bin.040	False	True	False	False	False	True	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Roseovarius
+rollout|R1_B_D1__metabat2.bin.044	False	False	False	False	False	False	True	Bacillota	Clostridia	Anaerovoracaceae	JAAYHV01
+rollout|R1_B_D2__concoct.bin.019_sub	False	False	False	False	False	False	False	Synergistota	Synergistia	JAFGMB01	CAZFJG01
+rollout|R1_B_D2__concoct.bin.055_sub	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Woeseiaceae	Lentisalinibacter
+rollout|R1_B_D2__concoct.bin.109	False	False	False	False	False	False	False	Bacteroidota	Rhodothermia	Balneolaceae	CAYVBJ01
+rollout|R1_B_D2__concoct.bin.112_sub	False	False	True	False	False	False	False	Bacillota	Halanaerobiia	Halanaerobiaceae	Halanaerobium
+rollout|R1_B_D2__maxbin2.Bin.085	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Flavobacteriaceae	Flagellimonas
+rollout|R1_B_D2__metabat2.bin.021_sub	False	False	False	False	False	False	True	Bacillota	Halanaerobiia	JADQBU01	CAYRVO01
+rollout|R1_B_D2__metabat2.bin.039	False	False	False	False	False	False	True	Bacillota	Halanaerobiia	DATFIM01	DATFIM01
+rollout|R1_B_D2__metabat2.bin.043	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	DAINOF01
+rollout|R1_B_D2__metabat2.bin.065	False	True	False	False	False	True	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Roseovarius
+rollout|R1_B_D2__metabat2.bin.078_sub	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Roseovarius
+rollout|R1_B_H2O__concoct.bin.022	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Flavobacteriaceae	Psychroflexus
+rollout|R1_B_H2O__concoct.bin.024	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Schleiferiaceae	CAJXMS01
+rollout|R1_B_H2O__concoct.bin.040	False	False	False	False	False	False	True	Pseudomonadota	Gammaproteobacteria	Halomonadaceae	Vreelandella
+rollout|R1_B_H2O__concoct.bin.053	False	True	False	False	False	True	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Roseovarius
+rollout|R1_B_H2O__maxbin2.Bin.051	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Nitrococcaceae	Spiribacter
+rollout|R1_B_H2O__metabat2.bin.040	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Halorubrum
+rollout|R1_B_H2O__metabat2.bin.048	False	False	False	False	False	False	False	Actinomycetota	Actinomycetes	Microbacteriaceae	CAJXVY01
+rollout|R1_C_D1__concoct.bin.033	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Woeseiaceae	Lentisalinibacter
+rollout|R1_C_D1__maxbin2.Bin.003_sub	False	False	True	False	False	False	True	Bacillota	Halanaerobiia	M55B127	M55B127
+rollout|R1_C_D2__concoct.bin.007_sub	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Natronoarchaeaceae	Natronoarchaeum
+rollout|R1_C_D2__maxbin2.Bin.099_sub	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Halohasta
+rollout|R1_C_D2__metabat2.bin.048	False	True	False	False	False	True	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Marivita
+rollout|R1_C_H2O__maxbin2.Bin.065	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Nitrococcaceae	Spiribacter
+rollout|R1_C_H2O__maxbin2.Bin.066_sub	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Nitrococcaceae	Spiribacter
+rollout|R1_C_H2O__metabat2.bin.043	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Nitrococcaceae	Spiribacter
+rollout|R2A_A_D1__concoct.bin.053_sub	False	False	False	False	False	False	False	Actinomycetota	Thermoleophilia	70-9	CAXMST01
+rollout|R2A_A_D1__maxbin2.Bin.016	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Flavobacteriaceae	Lutibacter
+rollout|R2A_A_D1__maxbin2.Bin.026	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Prolixibacteraceae	CAVYUC01
+rollout|R2A_A_D1__metabat2.bin.016	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	SZUA-36	JAUIBE01
+rollout|R2A_A_D1__metabat2.bin.017	False	False	False	False	False	False	True	Actinomycetota	Nitriliruptoria	Nitriliruptoraceae	Salsipaludibacter
+rollout|R2A_A_D1__metabat2.bin.039	False	False	False	False	False	False	True	Chloroflexota	Anaerolineae	Villigracilaceae	Defluviilinea
+rollout|R2A_A_D2__concoct.bin.010	False	False	False	False	False	False	False	Thermoproteota	Nitrososphaeria	Nitrosopumilaceae	Nitrosomaritimum
+rollout|R2A_A_D2__concoct.bin.012	False	False	False	False	False	False	False	Thermoproteota	Nitrososphaeria	Nitrosopumilaceae	Nitrosopumilus
+rollout|R2A_A_D2__concoct.bin.032	False	False	False	False	False	False	False	Bacteroidota	Rhodothermia	DATGCC01	DATGCC01
+rollout|R2A_A_D2__concoct.bin.037	False	False	False	False	False	True	False	Chloroflexota	Anaerolineae	Villigracilaceae	Defluviilinea
+rollout|R2A_A_D2__metabat2.bin.007_sub	False	False	False	False	False	False	False	Thermoproteota	Nitrososphaeria	Nitrosopumilaceae	Nitrosomaritimum
+rollout|R2A_A_D2__metabat2.bin.038	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Flavobacteriaceae	Gilvirhabdus
+rollout|R2A_A_H2O__maxbin2.Bin.007	False	False	False	False	False	False	False	Deinococcota	Deinococci	Trueperaceae	JBCCBI01
+rollout|R2A_A_H2O__maxbin2.Bin.038	False	False	False	False	False	False	False	Verrucomicrobiota	Verrucomicrobiia	Coraliomargaritaceae	Thalassobacterium
+rollout|R2A_A_H2O__metabat2.bin.014	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	D2472	D2472
+rollout|R2A_A_H2O__metabat2.bin.030	False	False	False	False	False	False	False	Pseudomonadota	Alphaproteobacteria	Pelagibacteraceae	Pelagibacter
+rollout|R2A_A_H2O__metabat2.bin.044_sub	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Schleiferiaceae	UBA10364
+rollout|R2A_B_D2__metabat2.bin.003	False	False	False	False	False	False	False	Bacteroidota	Ignavibacteria	Ignavibacteriaceae	JAKAGZ01
+rollout|R2A_B_D2__metabat2.bin.010_sub	False	False	False	False	False	False	False	Desulfobacterota	Desulfuromonadia		
+rollout|R2A_B_D2__metabat2.bin.015	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	VadinHA17	LD21
+rollout|R2A_B_H2O__concoct.bin.090	False	False	False	False	False	False	True	Pseudomonadota	Gammaproteobacteria	JAHEIH01	JAHEIH01
+rollout|R2A_B_H2O__maxbin2.Bin.027	False	False	False	False	False	False	False	Campylobacterota	Campylobacteria	Arcobacteraceae	JALRJW01
+rollout|R2A_B_H2O__maxbin2.Bin.036	False	False	False	False	False	True	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	CAJXSD01
+rollout|R2A_C_D1__concoct.bin.040	False	False	False	False	False	False	False	Thermoproteota	Nitrososphaeria	Nitrosopumilaceae	Nitrosopumilus
+rollout|R2A_C_D1__metabat2.bin.011_sub	False	False	False	False	False	False	False	Pseudomonadota	Alphaproteobacteria	JAPULJ01	DATKZM01
+rollout|R2A_C_D1__metabat2.bin.020	False	False	False	False	False	True	True	Pseudomonadota	Gammaproteobacteria	GCA-001735895	GCA-001735895
+rollout|R2A_C_D2__concoct.bin.008	False	False	False	False	False	False	True	Desulfobacterota	Desulfobulbia	VMSU01	JADGBM01
+rollout|R2A_C_D2__concoct.bin.034	False	False	False	False	False	False	False	Actinomycetota	Thermoleophilia	70-9	VRUE01
+rollout|R2A_C_D2__concoct.bin.040_sub	False	False	False	False	False	False	False	Pseudomonadota	Zetaproteobacteria	Mariprofundaceae	JAJRVH01
+rollout|R2A_C_D2__concoct.bin.048_sub	False	False	False	False	False	True	False	Pseudomonadota	Gammaproteobacteria	JAKDMP01	JBAUSV01
+rollout|R2A_C_D2__concoct.bin.064	False	False	False	False	False	False	False	Deinococcota	Deinococci	Trueperaceae	JASBRS01
+rollout|R2A_C_D2__concoct.bin.091	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	SG8-39	DAHVFK01
+rollout|R2A_C_D2__concoct.bin.101	False	False	False	False	False	False	False	Desulfobacterota	Desulfuromonadia	ATBO01	
+rollout|R2A_C_D2__maxbin2.Bin.018	False	False	False	False	False	False	False	Myxococcota_A	UBA9160	JAFDDA01	
+rollout|R2A_C_D2__maxbin2.Bin.108	False	False	False	False	False	False	False	SAR324	SAR324	JACQKK01	DATFMP01
+rollout|R2A_C_D2__metabat2.bin.019	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Flavobacteriaceae	Zeaxanthinibacter
+rollout|R2A_C_D2__metabat2.bin.025	False	False	False	False	False	False	False	Pseudomonadota	Zetaproteobacteria	Mariprofundaceae	UBA1543
+rollout|R2A_C_D2__metabat2.bin.027	False	False	False	False	False	False	False	Pseudomonadota	Zetaproteobacteria	Mariprofundaceae	UBA1543
+rollout|R2A_C_D2__metabat2.bin.029	False	False	False	False	False	True	True	Pseudomonadota	Alphaproteobacteria	J153	
+rollout|R2A_C_D2__metabat2.bin.033	False	False	False	False	False	True	False	Gemmatimonadota	Gemmatimonadetes	GWC2-71-9	DATFMZ01
+rollout|R2A_C_D2__metabat2.bin.036	False	False	False	False	False	False	False	Desulfobacterota	Desulfuromonadia	Geothermobacteraceae	DATFMT01
+rollout|R2A_C_D2__metabat2.bin.037	False	False	False	False	False	False	False	Acidobacteriota	Terriglobia	UBA7540	SCRD01
+rollout|R2A_C_D2__metabat2.bin.052_sub	False	False	False	False	False	False	False	Pseudomonadota	Zetaproteobacteria	Mariprofundaceae	JAJRVH01
+rollout|R2A_C_D2__metabat2.bin.067	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Azotimanducaceae	JANQJA01
+rollout|R2A_C_D2__metabat2.bin.069	False	False	False	False	False	False	False	Deinococcota	Deinococci	Trueperaceae	JASBRS01
+rollout|R2A_C_D2__metabat2.bin.077_sub	False	False	False	False	False	False	True	Pseudomonadota	Gammaproteobacteria	JAANXG01	JAANXG01
+rollout|R2A_C_H2O__maxbin2.Bin.044	False	False	False	False	False	False	False	Bacillota_I	Bacilli_A	Hepatoplasmataceae	
+rollout|R2A_C_H2O__metabat2.bin.012_sub	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Halieaceae	Halioglobus
+rollout|R2A_C_H2O__metabat2.bin.037	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Alteromonadaceae	Opacimonas
+rollout|R2_A_D1__concoct.bin.027_sub	False	False	False	False	False	False	False	Fidelibacterota	UBA2242	JAFGTP01	JAIPHI01
+rollout|R2_A_D1__concoct.bin.120	False	True	False	False	False	False	False	Pseudomonadota	Alphaproteobacteria	Beijerinckiaceae	Saliniramus
+rollout|R2_A_D1__maxbin2.Bin.007	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Wenzhouxiangellaceae	GCA-2722315
+rollout|R2_A_D1__maxbin2.Bin.068	False	False	False	False	False	False	True	Spirochaetota	UBA12135	CAZFAK01	CAZFAK01
+rollout|R2_A_D1__metabat2.bin.093	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Wenzhouxiangellaceae	Wenzhouxiangella
+rollout|R2_A_D1__metabat2.bin.120	False	False	False	False	False	False	True	Bacteroidota	Bacteroidia	UBA12077	JAGXLC01
+rollout|R2_A_D2__metabat2.bin.012	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Haloquadratum
+rollout|R2_A_D2__metabat2.bin.013_sub	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloarculaceae	Natronomonas
+rollout|R2_A_D2__metabat2.bin.039	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Halohasta
+rollout|R2_A_D2__metabat2.bin.056	False	False	False	False	False	False	False	Nanohalarchaeota	Nanosalinia	Nanosalinaceae	Nanosalina
+rollout|R2_A_D2__metabat2.bin.057	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Halorubrum
+rollout|R2_A_D2__metabat2.bin.059	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Haloplanus
+rollout|R2_A_H2O__concoct.bin.024	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Haloquadratum
+rollout|R2_A_H2O__concoct.bin.044	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Halorubrum
+rollout|R2_A_H2O__concoct.bin.062	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Halorubrum
+rollout|R2_A_H2O__concoct.bin.072	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloarculaceae	Halosegnis
+rollout|R2_A_H2O__maxbin2.Bin.017_sub	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloarculaceae	Haloarcula
+rollout|R2_A_H2O__metabat2.bin.026	False	True	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Halorubrum
+rollout|R2_B_D1__concoct.bin.056	False	False	False	False	False	False	False	Nanobdellota	Nanobdellia	GW2011-AR1	DATFJM01
+rollout|R2_B_D1__metabat2.bin.031	False	False	False	False	False	False	True	Bacteroidota	Bacteroidia	Saprospiraceae	JAWLFI01
+rollout|R2_B_D1__metabat2.bin.066	False	False	False	False	False	False	False	Actinomycetota	Acidimicrobiia	Ilumatobacteraceae	Sva-07
+rollout|R2_B_D2__concoct.bin.019	False	False	False	False	False	False	False	Patescibacteriota	Minisyncoccia	UBA918	OLB19
+rollout|R2_B_D2__concoct.bin.026	False	False	False	False	False	False	True	Bacteroidota	Bacteroidia	UBA12077	JAGXLC01
+rollout|R2_B_D2__maxbin2.Bin.022	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Woeseiaceae	Lentisalinibacter
+rollout|R2_B_D2__maxbin2.Bin.028_sub	False	False	False	False	False	False	False	Spirochaetota	Spirochaetia	Sediminispirochaetaceae	DSBN01
+rollout|R2_B_D2__maxbin2.Bin.037	False	False	False	False	False	False	False	Patescibacteriota	Minisyncoccia		
+rollout|R2_B_D2__maxbin2.Bin.065	False	True	False	False	False	True	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Roseovarius
+rollout|R2_B_D2__metabat2.bin.006_sub	False	True	False	False	False	True	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Roseovarius
+rollout|R2_B_D2__metabat2.bin.022	False	False	False	False	False	False	False	Actinomycetota	Nitriliruptoria	Nitriliruptoraceae	T1Sed10-7
+rollout|R2_B_D2__metabat2.bin.056	False	False	True	False	False	False	True	Bacillota	Halanaerobiia	M55B127	M55B127
+rollout|R2_B_D2__metabat2.bin.063	False	False	True	False	False	False	True	Bacillota	Halanaerobiia	M55B127	M55B127
+rollout|R2_B_D2__metabat2.bin.095_sub	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Wenzhouxiangellaceae	GCA-2722315
+rollout|R2_B_H2O__concoct.bin.033_sub	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Halorubrum
+rollout|R2_B_H2O__concoct.bin.036_sub	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Halonotius
+rollout|R2_B_H2O__maxbin2.Bin.035_sub	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Halonotius
+rollout|R2_B_H2O__maxbin2.Bin.052_sub	False	False	False	False	False	False	False	Nanohalarchaeota	Nanosalinia	Nanosalinaceae	JBDGSM01
+rollout|R2_B_H2O__metabat2.bin.003_sub	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Halonotius
+rollout|R2_B_H2O__metabat2.bin.045	False	False	False	False	False	False	False	Nanohalarchaeota	Nanosalinia	Nanosalinaceae	B1-Br10-U2g21
+rollout|R2_B_H2O__metabat2.bin.048	False	False	False	False	False	False	False	Nanohalarchaeota	Nanosalinia	Nanosalinaceae	Nanohalovita
+rollout|R2_B_H2O__metabat2.bin.051	False	True	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Haloquadratum
+rollout|R2_C_D1__concoct.bin.003	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Wenzhouxiangellaceae	GCA-2722315
+rollout|R2_C_D1__concoct.bin.049	False	False	False	False	False	False	False	Krumholzibacteriota	Krumholzibacteriia	JAJRXK01	JAJRXK01
+rollout|R2_C_D1__maxbin2.Bin.110_sub	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Saprospiraceae	Phaeodactylibacter
+rollout|R2_C_D1__metabat2.bin.014	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Salibaculum
+rollout|R2_C_D1__metabat2.bin.021	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Prolixibacteraceae	Tangfeifania
+rollout|R2_C_D1__metabat2.bin.034	False	False	False	False	False	False	True	Desulfobacterota	Desulfobacteria	Desulfobacteraceae	DATFJZ01
+rollout|R2_C_D1__metabat2.bin.054	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Oleiphilaceae	Marinobacter
+rollout|R2_C_D1__metabat2.bin.057_sub	False	True	False	False	False	True	True	Desulfobacterota	Desulfobacteria	Desulfobacteraceae	Desulfotignum
+rollout|R2_C_D1__metabat2.bin.079	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Oleiphilaceae	Marinobacter
+rollout|R2_C_D2__concoct.bin.063	False	True	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Roseibacterium
+rollout|R2_C_D2__maxbin2.Bin.046	False	False	False	False	False	False	True	Actinomycetota	Actinomycetes	S36-B12	S36-B12
+rollout|R2_C_D2__metabat2.bin.011	False	False	False	False	False	False	False	Spirochaetota	Spirochaetia	SLST01	SLST01
+rollout|R2_C_D2__metabat2.bin.037	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Flavobacteriaceae	Maribacter
+rollout|R2_C_D2__metabat2.bin.065	False	False	True	False	False	False	False	Bacillota	Halanaerobiia	Halanaerobiaceae	Halanaerobium
+rollout|R2_C_H2O__metabat2.bin.005	False	True	False	False	False	False	False	Halobacteriota	Halobacteria	Haloarculaceae	Natronomonas
+rollout|R2_C_H2O__metabat2.bin.008	False	True	False	False	False	False	False	Halobacteriota	Halobacteria	Haloferacaceae	Halonotius
+rollout|R2_restored_C_black__concoct.bin.024	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	UBA12077	UBA12077
+rollout|R2_restored_C_black__concoct.bin.031_sub	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	XN24	XN24
+rollout|R2_restored_C_black__concoct.bin.063	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Rhodobacteraceae	Albimonas
+rollout|R2_restored_C_black__maxbin2.Bin.108	False	False	False	False	False	False	True	Desulfobacterota	Desulfobacteria	Desulfobacteraceae	Desulfobacter
+rollout|R2_restored_C_black__metabat2.bin.057	False	False	False	False	False	False	True	Desulfobacterota	Desulfobulbia	Desulfocapsaceae	Desulfopila_A
+rollout|R2_restored_D_shore__concoct.bin.011_sub	False	True	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Nitrococcaceae	JASFMS01
+rollout|R2_restored_D_shore__maxbin2.Bin.021	False	False	False	False	False	False	False	Patescibacteriota	Minisyncoccia	UBA2143	CAYXST01
+rollout|R2_restored_D_shore__maxbin2.Bin.031	False	False	False	False	False	False	False	Bacteroidota	Rhodothermia	Balneolaceae	Fodinibius
+rollout|R2_restored_D_shore__maxbin2.Bin.044_sub	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	DATFLL01	DATFLL01
+rollout|R2_restored_D_shore__maxbin2.Bin.045	False	False	False	False	False	False	False	Desulfobacterota	GWC2-55-46	JBHHVK01	
+rollout|R2_restored_D_shore__maxbin2.Bin.051	False	False	False	False	False	False	True	Pseudomonadota	Gammaproteobacteria	Halofilaceae	Halofilum
+rollout|R2_restored_D_shore__maxbin2.Bin.062	False	False	False	False	False	False	False	SAR324	SAR324	JACQKK01	
+rollout|R2_restored_D_shore__metabat2.bin.015	False	False	False	False	False	False	False	Pseudomonadota	Zetaproteobacteria	Mariprofundaceae	DATFLK01
+rollout|R2_restored_D_shore__metabat2.bin.017_sub	False	False	False	False	False	False	False	Gemmatimonadota	Gemmatimonadetes	Palauibacteraceae	Humimonas
+rollout|R2_restored_D_shore__metabat2.bin.022	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Thiohalorhabdaceae	Thiohalorhabdus
+rollout|R2_restored_D_shore__metabat2.bin.036	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	DATFLL01	DATFLL01
+rollout|R2_restored_D_shore__metabat2.bin.049	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria		
+rollout|R2_restored_D_shore__metabat2.bin.054_sub	False	False	False	False	False	False	False	Gemmatimonadota	Gemmatimonadetes	Palauibacteraceae	Humimonas
+rollout|R2_restored_H2O__metabat2.bin.031	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Burkholderiaceae_B	Algicoccus
+rollout|SF2_A_D2__concoct.bin.009	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Halieaceae	JAACFI01
+rollout|SF2_A_D2__concoct.bin.042	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	BM003	BM003
+rollout|SF2_A_D2__concoct.bin.058	False	False	False	False	False	True	True	Desulfobacterota	Desulfobacteria	JAHEIW01	JAHEIW01
+rollout|SF2_A_D2__maxbin2.Bin.001	False	False	False	False	False	False	False	Desulfobacterota	Desulfuromonadia	BM103	M0040
+rollout|SF2_A_D2__metabat2.bin.022	False	False	False	False	False	False	False	Desulfobacterota	Desulfobulbia	BM004	BM004
+rollout|SF2_A_H2O__metabat2.bin.033	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Methylophilaceae	BACL14
+rollout|SF2_B_D1__concoct.bin.040	False	False	False	False	False	False	True	Desulfobacterota	Desulfobacteria	UBA11574	JAAXQD01
+rollout|SF2_B_D1__maxbin2.Bin.005_sub	False	False	False	False	False	False	True	Desulfobacterota	Syntrophobacteria	BM002	BM002
+rollout|SF2_B_D1__metabat2.bin.020_sub	False	False	False	False	False	False	True	Desulfobacterota	Desulfobacteria	B30-G6	B30-G6
+rollout|SF2_B_D2__concoct.bin.025	False	False	False	False	False	False	False	Halobacteriota	Halobacteria	Hikarchaeaceae	
+rollout|SF2_B_H2O__maxbin2.Bin.006	False	False	False	False	False	False	False	Cyanobacteriota	Cyanobacteriia		
+rollout|SF2_B_H2O__maxbin2.Bin.053	False	False	False	False	False	False	False	Pseudomonadota	Alphaproteobacteria	Pelagibacteraceae	Pelagibacter
+rollout|SF2_B_H2O__maxbin2.Bin.076	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Litorivicinaceae	HIMB30
+rollout|SF2_B_H2O__maxbin2.Bin.094_sub	False	False	False	False	False	False	True	Actinomycetota	Acidimicrobiia	Ilumatobacteraceae	Casp-actino5
+rollout|SF2_B_H2O__maxbin2.Bin.109	False	False	False	False	False	False	False	Thermoplasmatota	Poseidoniia	Poseidoniaceae	Poseidonia
+rollout|SF2_B_H2O__metabat2.bin.009	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	D2472	D2472
+rollout|SF2_B_H2O__metabat2.bin.019	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Pseudohongiellaceae	Eutrophocola
+rollout|SF2_C_D2__concoct.bin.004	False	False	False	False	False	True	True	Pseudomonadota	Gammaproteobacteria	CAZYIP01	
+rollout|SF2_C_D2__concoct.bin.006	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	DASQZP01	DASQZP01
+rollout|SF2_C_D2__concoct.bin.010_sub	False	False	False	False	False	False	False	Bacteroidota	Rhodothermia	DATFMH01	DATFMH01
+rollout|SF2_C_D2__concoct.bin.042_sub	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	GCA-2748055	DASQZK01
+rollout|SF2_C_D2__concoct.bin.047	False	False	False	False	False	True	False	Pseudomonadota	Gammaproteobacteria	JAKDMP01	JBAUSV01
+rollout|SF2_C_D2__maxbin2.Bin.013	False	False	False	False	False	True	False	Pseudomonadota	Gammaproteobacteria	JAKDMP01	
+rollout|SF2_C_D2__metabat2.bin.012	False	False	False	False	False	False	True	Desulfobacterota	Desulfobacteria	UBA11574	UBA11574
+rollout|SF2_C_D2__metabat2.bin.029	False	False	False	False	False	False	False	Deinococcota	Deinococci	Trueperaceae	JASBRS01
+rollout|SF2_C_H2O__concoct.bin.006	False	False	False	False	False	False	True	Pseudomonadota	Alphaproteobacteria	Puniceispirillaceae	UBA3439
+rollout|SF2_C_H2O__maxbin2.Bin.093	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Azotimanducaceae	Salivita
+rollout|SF2_C_H2O__metabat2.bin.005	False	False	False	False	False	False	False	Pseudomonadota	Alphaproteobacteria	Marisalimonadaceae	Marisalimonas
+rollout|SF2_C_H2O__metabat2.bin.030	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Flavobacteriaceae	MS024-2A
+rollout|SF2_C_H2O__metabat2.bin.035	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Chromatiaceae	VMDJ01
+rollout|SF2_C_H2O__metabat2.bin.044	False	False	False	False	False	False	False	Pseudomonadota	Gammaproteobacteria	Pseudohongiellaceae	UBA9145
+rollout|SF2_C_H2O__metabat2.bin.046	False	False	False	False	False	False	False	Verrucomicrobiota	Verrucomicrobiia	Seribacteraceae	Chordibacter
+rollout|SF2_C_H2O__metabat2.bin.049_sub	False	False	False	False	False	False	False	Bacteroidota	Bacteroidia	Flavobacteriaceae	MAG-120531
+rollout|SF2_C_H2O__metabat2.bin.058	False	False	False	False	False	False	False	Cyanobacteriota	Cyanobacteriia		

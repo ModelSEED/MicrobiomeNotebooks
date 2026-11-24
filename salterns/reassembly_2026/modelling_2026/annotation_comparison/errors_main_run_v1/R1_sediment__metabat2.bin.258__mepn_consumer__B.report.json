@@ -1,0 +1,530 @@
+{
+ "tag": "R1_sediment__metabat2.bin.258__mepn_consumer__B",
+ "mag_id": "R1_sediment__metabat2.bin.258",
+ "guild": "mepn_consumer",
+ "arm": "B",
+ "arm_sources": [
+  "kofam"
+ ],
+ "status": "error",
+ "solver": "gurobi",
+ "versions": {
+  "cobra": "0.29.1",
+  "modelseedpy": "0.4.3",
+  "modelseedpy_file": "/home/andrew/venvs/salterns_modelling/lib/python3.12/site-packages/modelseedpy/__init__.py",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]"
+ },
+ "domain": "Bacteria",
+ "phylum": "Pseudomonadota",
+ "family": "Bin95",
+ "genus": "JACKII01",
+ "template_file": "GramNegModelTemplateV7.json",
+ "template_rule": "Bacteria, other phylum (Pseudomonadota) -> GramNegModelTemplateV7",
+ "template_md5": "358a9119d63430c21e7be32a0040bbe5",
+ "core_template_md5": "7ab51b2bc12136c066349c92c0e0bb07",
+ "msdb": "/home/andrew/tf_runs/salterns_modelling/src/ModelSEEDDatabase",
+ "draft": {
+  "n_reactions": 1391,
+  "n_metabolites": 1390,
+  "n_genes": 1163,
+  "n_gene_associated": 1292,
+  "n_rast_supported": 968,
+  "n_extra_supported": 872,
+  "n_extra_only": 324,
+  "n_template_rxns_with_extra_evidence": 872,
+  "n_bakta_extra_genes_used": 0
+ },
+ "guild_pathway": {
+  "reactions": {
+   "rxn26456_c0": "PhnGHIL",
+   "rxn26457_c0": "PhnM",
+   "rxn26459_c0": "PhnJ C-P lyase"
+  },
+  "gene_supported": {
+   "rxn26456_c0": true,
+   "rxn26457_c0": true,
+   "rxn26459_c0": true
+  },
+  "fraction": 1.0,
+  "evidence": {
+   "rxn26456_c0": {
+    "rast": true,
+    "extra": {
+     "k127_1086107_58": [
+      "kofam:KO"
+     ],
+     "k127_1086107_61": [
+      "kofam:KO"
+     ],
+     "k127_1086107_62": [
+      "kofam:KO"
+     ],
+     "k127_1086107_63": [
+      "kofam:KO"
+     ]
+    },
+    "template_type": "conditional"
+   },
+   "rxn26457_c0": {
+    "rast": true,
+    "extra": {
+     "k127_1086107_56": [
+      "kofam:KO"
+     ],
+     "k127_1086107_57": [
+      "kofam:KO"
+     ]
+    },
+    "template_type": "conditional"
+   },
+   "rxn26459_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   }
+  }
+ },
+ "protocol": {
+  "cell5_disabled": [
+   "rxn23850_c0"
+  ],
+  "cell5_lb0": [
+   "rxn09188_c0",
+   "rxn00929_c0",
+   "rxn00145_c0",
+   "rxn00499_c0",
+   "rxn00146_c0",
+   "rxn14415_c0"
+  ],
+  "cell5_H_fixed": [],
+  "rxs43120_c_balance": {},
+  "rxs00001_c_balance": {},
+  "rxn26447_c_balance_before": {},
+  "rxn26447_c_H_fix": null,
+  "template_removed": [
+   "rxn23850_c",
+   "rxn09193_c",
+   "rxn05315_c",
+   "rxn05206_c"
+  ],
+  "template_lb0": [
+   "rxn09188_c",
+   "rxn00929_c",
+   "rxn00145_c",
+   "rxn00499_c",
+   "rxn00146_c",
+   "rxn08934_c",
+   "rxn08941_c",
+   "rxn08935_c",
+   "rxn08942_c",
+   "rxn11942_c",
+   "rxn11941_c",
+   "rxn11940_c",
+   "rxn04159_c",
+   "rxn04705_c",
+   "rxn14415_c",
+   "sul00003_c",
+   "rxn48579_c"
+  ],
+  "mepn_hand_added": [
+   "rxs00001_c0",
+   "rxs43120_c0",
+   "rxn26447_c0"
+  ],
+  "phn_transport_genes": {
+   "PhnC": 2,
+   "PhnD": 2,
+   "PhnE": 3
+  },
+  "rxs00001_gpr": "(k127_4187808_2 or k127_762263_16) and (k127_1093855_10 or k127_762263_17) and (k127_1093855_8 or k127_1093855_9 or k127_762263_18)",
+  "rxs43120_gpr": "k127_1086107_60"
+ },
+ "draft_free_atp_before_atp_correction": {
+  "water_H": 1000.0,
+  "salts_O2": 1000.0,
+  "salts_NO3": 1000.0
+ },
+ "atp_correction": {
+  "selected_media": [
+   "Ac.O2",
+   "Etho.O2",
+   "Pyr.O2",
+   "LLac.O2",
+   "Dlac.O2",
+   "Pyr",
+   "Pyr.DMSO",
+   "Pyr.TMAO",
+   "Pyr.SO3"
+  ],
+  "n_tests": 10,
+  "tests": [
+   {
+    "media": "empty",
+    "threshold": 1e-05
+   },
+   {
+    "media": "Ac.O2",
+    "threshold": 10.350000000000023
+   },
+   {
+    "media": "Etho.O2",
+    "threshold": 17.250000000000053
+   },
+   {
+    "media": "Pyr.O2",
+    "threshold": 14.400000000000041
+   },
+   {
+    "media": "LLac.O2",
+    "threshold": 17.250000000000053
+   },
+   {
+    "media": "Dlac.O2",
+    "threshold": 17.250000000000053
+   },
+   {
+    "media": "Pyr",
+    "threshold": 1.0
+   },
+   {
+    "media": "Pyr.DMSO",
+    "threshold": 1.2000000000000017
+   },
+   {
+    "media": "Pyr.TMAO",
+    "threshold": 0.5999999999999659
+   },
+   {
+    "media": "Pyr.SO3",
+    "threshold": 0.6
+   }
+  ],
+  "core_gapfilling": [],
+  "expansion_filtered": [
+   [
+    "rxn02154_c0: cpd00001_c0 + cpd00638_c0 --> cpd00018_c0 + 2 cpd00067_c0 + cpd00873_c0",
+    "<"
+   ]
+  ],
+  "reactions_added": [],
+  "reactions_removed": [],
+  "free_atp_after": {
+   "water_H": 0.0,
+   "salts_O2": 0.0,
+   "salts_NO3": 0.0
+  }
+ },
+ "gapfill_1": {
+  "medium": "lactate_Pi_noMePn",
+  "target": "bio1",
+  "minimum_obj": null,
+  "solution_found": true,
+  "gfmodel_solver_status_if_failed": null,
+  "solution": {
+   "new": {
+    "EX_cpd00305_e0": "<",
+    "EX_cpd00149_e0": "<",
+    "EX_cpd00254_e0": "<",
+    "rxn12225_c0": ">",
+    "rxn08333_c0": ">",
+    "rxn10336_c0": ">",
+    "rxn02504_c0": ">",
+    "rxn09209_c0": ">",
+    "rxn13395_c0": ">",
+    "rxn00068_c0": "<",
+    "rxn05104_c0": ">",
+    "rxn09135_c0": "<",
+    "rxn09134_c0": ">",
+    "rxn02404_c0": ">",
+    "rxn05039_c0": ">",
+    "rxn09128_c0": "<",
+    "rxn09042_c0": ">",
+    "rxn03536_c0": ">",
+    "rxn11208_c0": ">",
+    "rxn08348_c0": ">",
+    "rxn00979_c0": ">",
+    "rxn03537_c0": ">",
+    "rxn00966_c0": "<",
+    "rxn09201_c0": ">",
+    "rxn09106_c0": ">",
+    "rxn04675_c0": ">",
+    "rxn10094_c0": ">",
+    "rxn09657_c0": ">",
+    "rxn00440_c0": ">",
+    "rxn03150_c0": ">",
+    "rxn03538_c0": ">",
+    "rxn02304_c0": ">",
+    "rxn05902_c0": "<",
+    "rxn05166_c0": ">",
+    "rxn00502_c0": "<",
+    "rxn03841_c0": ">",
+    "rxn01257_c0": ">",
+    "rxn10667_c0": ">",
+    "rxn09040_c0": ">",
+    "rxn05024_c0": ">",
+    "rxn05616_c0": "<",
+    "rxn02897_c0": ">",
+    "rxn02056_c0": "<",
+    "rxn09148_c0": "<",
+    "rxn05144_c0": ">",
+    "rxn02287_c0": ">",
+    "rxn02831_c0": ">",
+    "rxn01258_c0": ">",
+    "rxn02832_c0": "<"
+   },
+   "reversed": {}
+  },
+  "integrated": {
+   "new": {
+    "EX_cpd00305_e0": "<",
+    "EX_cpd00149_e0": "<",
+    "EX_cpd00254_e0": "<",
+    "rxn12225_c0": ">",
+    "rxn08333_c0": ">",
+    "rxn10336_c0": ">",
+    "rxn02504_c0": ">",
+    "rxn09209_c0": ">",
+    "rxn13395_c0": ">",
+    "rxn00068_c0": "<",
+    "rxn05104_c0": ">",
+    "rxn09135_c0": "<",
+    "rxn09134_c0": ">",
+    "rxn02404_c0": ">",
+    "rxn05039_c0": ">",
+    "rxn09128_c0": "<",
+    "rxn09042_c0": ">",
+    "rxn03536_c0": ">",
+    "rxn11208_c0": ">",
+    "rxn08348_c0": ">",
+    "rxn00979_c0": ">",
+    "rxn03537_c0": ">",
+    "rxn00966_c0": "<",
+    "rxn09201_c0": ">",
+    "rxn09106_c0": ">",
+    "rxn04675_c0": ">",
+    "rxn10094_c0": ">",
+    "rxn09657_c0": ">",
+    "rxn00440_c0": ">",
+    "rxn03150_c0": ">",
+    "rxn03538_c0": ">",
+    "rxn02304_c0": ">",
+    "rxn05902_c0": "<",
+    "rxn05166_c0": ">",
+    "rxn00502_c0": "<",
+    "rxn03841_c0": ">",
+    "rxn01257_c0": ">",
+    "rxn10667_c0": ">",
+    "rxn09040_c0": ">",
+    "rxn05024_c0": ">",
+    "rxn05616_c0": "<",
+    "rxn02897_c0": ">",
+    "rxn02056_c0": "<",
+    "rxn09148_c0": "<",
+    "rxn05144_c0": ">",
+    "rxn02287_c0": ">",
+    "rxn02831_c0": ">",
+    "rxn01258_c0": ">",
+    "rxn02832_c0": "<"
+   },
+   "reversed": {},
+   "growth": 5.085355232195233
+  },
+  "added_reactions": {
+   "rxn00068_c0": [
+    -100,
+    0
+   ],
+   "rxn00440_c0": [
+    0,
+    100
+   ],
+   "rxn00502_c0": [
+    -100,
+    0
+   ],
+   "rxn00966_c0": [
+    -100,
+    0
+   ],
+   "rxn00979_c0": [
+    0,
+    100
+   ],
+   "rxn01257_c0": [
+    0,
+    100
+   ],
+   "rxn01258_c0": [
+    0,
+    100
+   ],
+   "rxn02056_c0": [
+    -100,
+    0
+   ],
+   "rxn02287_c0": [
+    0,
+    100
+   ],
+   "rxn02304_c0": [
+    0,
+    100
+   ],
+   "rxn02404_c0": [
+    0,
+    100
+   ],
+   "rxn02504_c0": [
+    0,
+    100
+   ],
+   "rxn02831_c0": [
+    0,
+    100
+   ],
+   "rxn02832_c0": [
+    -100,
+    0
+   ],
+   "rxn02897_c0": [
+    0,
+    100
+   ],
+   "rxn03150_c0": [
+    0,
+    100
+   ],
+   "rxn03536_c0": [
+    0,
+    100
+   ],
+   "rxn03537_c0": [
+    0,
+    100
+   ],
+   "rxn03538_c0": [
+    0,
+    100
+   ],
+   "rxn03841_c0": [
+    0,
+    100
+   ],
+   "rxn04675_c0": [
+    0,
+    100
+   ],
+   "rxn05024_c0": [
+    0,
+    100
+   ],
+   "rxn05039_c0": [
+    0,
+    100
+   ],
+   "rxn05104_c0": [
+    0,
+    100
+   ],
+   "rxn05144_c0": [
+    0,
+    100
+   ],
+   "rxn05166_c0": [
+    0,
+    100
+   ],
+   "rxn05616_c0": [
+    -100,
+    0
+   ],
+   "rxn05902_c0": [
+    -100,
+    0
+   ],
+   "rxn08333_c0": [
+    0,
+    100
+   ],
+   "rxn08348_c0": [
+    0,
+    100
+   ],
+   "rxn09040_c0": [
+    0,
+    100
+   ],
+   "rxn09042_c0": [
+    0,
+    100
+   ],
+   "rxn09106_c0": [
+    0,
+    100
+   ],
+   "rxn09128_c0": [
+    -100,
+    0
+   ],
+   "rxn09134_c0": [
+    0,
+    100
+   ],
+   "rxn09135_c0": [
+    -100,
+    0
+   ],
+   "rxn09148_c0": [
+    -100,
+    0
+   ],
+   "rxn09201_c0": [
+    0,
+    100
+   ],
+   "rxn09209_c0": [
+    0,
+    100
+   ],
+   "rxn09657_c0": [
+    0,
+    100
+   ],
+   "rxn10094_c0": [
+    0,
+    100
+   ],
+   "rxn10336_c0": [
+    0,
+    100
+   ],
+   "rxn10667_c0": [
+    0,
+    100
+   ],
+   "rxn11208_c0": [
+    0,
+    100
+   ],
+   "rxn12225_c0": [
+    0,
+    100
+   ],
+   "rxn13395_c0": [
+    0,
+    100
+   ]
+  },
+  "reversed_reactions": {}
+ },
+ "error": "ValueError: gapfilling test conditions fail even with every gapfilling candidate blocked: the model itself violates them (e.g. makes ATP on the empty medium) -- check its draft reactions before gapfilling with tests",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/andrew/tf_runs/salterns_modelling/code/build_model.py\", line 657, in main\n    ad, rv = gapfill_stage(model, gs_t, tests, med, mid, \"bio1\", mo, lab, rep, T)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/andrew/tf_runs/salterns_modelling/code/build_model.py\", line 478, in gapfill_stage\n    sol = gf.run_gapfilling(media=to_msmedia(medium, mid), target=target, minimum_obj=min_obj,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/andrew/venvs/salterns_modelling/lib/python3.12/site-packages/modelseedpy/core/msgapfill.py\", line 304, in run_gapfilling\n    self.prefilter(\n  File \"/home/andrew/venvs/salterns_modelling/lib/python3.12/site-packages/modelseedpy/core/msgapfill.py\", line 253, in prefilter\n    self.gfpkgmgr.getpkg(\"GapfillingPkg\").filter_database_based_on_tests(\n  File \"/home/andrew/venvs/salterns_modelling/lib/python3.12/site-packages/modelseedpy/fbapkg/gapfillingpkg.py\", line 908, in filter_database_based_on_tests\n    raise ValueError(\nValueError: gapfilling test conditions fail even with every gapfilling candidate blocked: the model itself violates them (e.g. makes ATP on the empty medium) -- check its draft reactions before gapfilling with tests\n",
+ "times_s": {
+  "load_biochem": 12.29,
+  "load_templates": 0.49,
+  "draft": 0.71,
+  "atp_correction": 25.98,
+  "gapfill_1": 157.85,
+  "gapfill_2": 130.6
+ }
+}

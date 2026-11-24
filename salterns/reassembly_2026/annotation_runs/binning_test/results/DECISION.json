@@ -1,0 +1,638 @@
+{
+ "decision": "NO_GO",
+ "generated_utc": "2026-11-13T14:04:09Z",
+ "sf2_deadline_utc": "2026-11-14T06:18:00Z",
+ "rule": "(fixed before any result was seen; implemented literally):\nPer sample S in {R1_A_D1, SF2_C_D1}, compare NEW (Arm C assembly binned like 2026) vs OLD (the 2026 pipeline's DAS Tool\noutput for the same unit: all its DAS Tool bins), both scored here with the same tools: CheckM2 (primary), CheckM1\nlineage_wf --reduced_tree (secondary), GUNC.\n a) MQ+ MAGs (CheckM2 completeness >= 50, contamination < 10): NEW >= 1.2 x OLD\n b) HQ MAGs (>= 90, < 5): NEW >= 1.2 x OLD or NEW >= OLD + 5\n c) median N50 of MQ+ MAGs: NEW >= 1.5 x OLD\n d) median CheckM2 contamination of MQ+ MAGs: NEW <= OLD + 1.0 point; and GUNC pass fraction of MQ+ MAGs:\n    NEW >= OLD - 0.05\n e) original species recovered (skani ANI >= 95 and max AF >= 50 between an MQ+ MAG and an original MAG of sample S;\n    originals = derep310 MAGs whose sample is S): NEW >= OLD\n S passes if a, b, c, d and e all pass. CheckM1-based a/b are reported (informational).\n GO for the full salterns rollout only if BOTH samples pass. If only R1_A_D1 passes: NO_GO (the SF2-type decision\n needs Andrew). If SF2_C_D1's Arm C assembly fails or never finishes within 24 h: decide on R1_A_D1 alone and mark\n the decision R1_ONLY_PASS (if R1_A_D1 passes) rather than GO.",
+ "conventions": "(not part of the rule text, stated in DECISION.json):\n - A median or fraction over an empty MQ+ set is undefined. Undefined OLD with defined NEW -> the criterion passes;\n   undefined NEW -> it fails.\n - GUNC pass = pass.GUNC == True in GUNC.<db>.maxCSS_level.tsv; a genome missing from GUNC's output counts as not\n   passing.\n - A genome missing from the CheckM2 report is not MQ+.\n - A sample whose processing failed (a required step failed after retries) is INCOMPLETE; the overall decision is then\n   INCOMPLETE (needs Andrew), except that a failed/timed-out SF2 assembly gives R1_ONLY_PASS / NO_GO as the rule says.\n - (review, 2026-11-13) Every threshold is evaluated in exact rational arithmetic on the values as printed (CheckM2\n   completeness/contamination as decimal strings, GUNC pass fractions as ratios, N50 medians), so a value exactly at a\n   threshold gets the inclusive inequality the rule states (floats made e.g. 1.36 <= 0.36 + 1.0 and 0.15 >= 0.2 - 0.05\n   false). Reported numbers are floats of the exact values.\n - (review, 2026-11-13) GUNC 1.1.1 names a genome basename.split(file_suffix)[0], i.e. it cuts the file name at its\n   first '.fa'; GUNC rows are joined to genomes on that key (it changes only originals named '*.fa_assembly'). Two\n   genomes of one set with the same key would get no GUNC value (not passing) and are listed in qc_status.",
+ "notes": [
+  "only R1_A_D1 passes: NO_GO; the SF2-type decision needs Andrew"
+ ],
+ "samples": {
+  "R1_A_D1": {
+   "state": "complete",
+   "state_info": {
+    "optional_failed": []
+   },
+   "pass": true,
+   "criteria": {
+    "a": {
+     "metric": "MQ+ MAGs (CheckM2 completeness >= 50, contamination < 10)",
+     "new": 62,
+     "old": 47,
+     "threshold": "NEW >= 1.2 x OLD = 56.40",
+     "pass": true
+    },
+    "b": {
+     "metric": "HQ MAGs (CheckM2 >= 90, < 5)",
+     "new": 27,
+     "old": 11,
+     "threshold": "NEW >= 1.2 x OLD = 13.20 or NEW >= OLD + 5 = 16",
+     "pass": true
+    },
+    "c": {
+     "metric": "median N50 of MQ+ MAGs (bp)",
+     "new": 15416.5,
+     "old": 4656.0,
+     "threshold": "NEW >= 1.5 x OLD = 6984.0",
+     "pass": true,
+     "note": ""
+    },
+    "d": {
+     "metric": "median CheckM2 contamination of MQ+ MAGs (%) AND GUNC pass fraction of MQ+ MAGs",
+     "d1_contamination": {
+      "new": 3.34,
+      "old": 3.48,
+      "threshold": "NEW <= OLD + 1.0 = 4.48",
+      "pass": true,
+      "note": ""
+     },
+     "d2_gunc_pass_fraction": {
+      "new": 0.8709677419354839,
+      "old": 0.7872340425531915,
+      "threshold": "NEW >= OLD - 0.05 = 0.737",
+      "pass": true,
+      "note": ""
+     },
+     "pass": true
+    },
+    "e": {
+     "metric": "originals (derep310 of R1_A_D1, n=11) recovered by an MQ+ MAG at skani ANI >= 95 and max AF >= 50",
+     "new": 10,
+     "old": 8,
+     "threshold": "NEW >= OLD",
+     "pass": true
+    }
+   },
+   "metrics": {
+    "new": {
+     "n_bins": 71,
+     "mq": 62,
+     "hq": 27,
+     "median_n50_mq": 15416.5,
+     "median_contamination_mq": 3.34,
+     "gunc_pass_fraction_mq": 0.8709677419354839,
+     "gunc_missing_mq": 0,
+     "originals_recovered": 10,
+     "originals_recovered_names": [
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.44.contigs__",
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.5.contigs__",
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.54.contigs__",
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs__",
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.15.contigs__",
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.18.contigs__",
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.26.contigs__",
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.45.contigs__",
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs__",
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs__"
+     ],
+     "mq_checkm1": 60,
+     "hq_checkm1": 29,
+     "mbp_in_mq": 173.67,
+     "median_completeness_mq": 93.61500000000001,
+     "median_size_mb_mq": 3.0167025,
+     "median_contigs_mq": 269.0
+    },
+    "old": {
+     "n_bins": 60,
+     "mq": 47,
+     "hq": 11,
+     "median_n50_mq": 4656.0,
+     "median_contamination_mq": 3.48,
+     "gunc_pass_fraction_mq": 0.7872340425531915,
+     "gunc_missing_mq": 0,
+     "originals_recovered": 8,
+     "originals_recovered_names": [
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.44.contigs__",
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.5.contigs__",
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.54.contigs__",
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs__",
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.26.contigs__",
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.45.contigs__",
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs__",
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs__"
+     ],
+     "mq_checkm1": 45,
+     "hq_checkm1": 10,
+     "mbp_in_mq": 121.36,
+     "median_completeness_mq": 81.55,
+     "median_size_mb_mq": 2.805176,
+     "median_contigs_mq": 514
+    }
+   },
+   "informational": {
+    "checkm1_a": {
+     "new": 60,
+     "old": 45,
+     "threshold": "NEW >= 1.2 x OLD = 54.00",
+     "pass": true
+    },
+    "checkm1_b": {
+     "new": 29,
+     "old": 10,
+     "threshold": "NEW >= 1.2 x OLD = 12.00 or NEW >= OLD + 5",
+     "pass": true
+    },
+    "kbase_checkm_old": {
+     "status": "ok",
+     "bins_matched": 60,
+     "bins_in_kbase_table": 60,
+     "kbase_mq": 45,
+     "kbase_hq": 10,
+     "checkm1_here_mq": 45,
+     "checkm2_here_mq": 47,
+     "median_abs_diff_completeness_kbase_vs_checkm1": 0.0026473709239098753,
+     "median_abs_diff_contamination_kbase_vs_checkm1": 0.002351103003277011
+    },
+    "originals_qc": {
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.3.contigs.fa_assembly": {
+      "checkm2_completeness": 99.89,
+      "checkm2_contamination": 0.82,
+      "checkm1_completeness": 98.02,
+      "checkm1_contamination": 1.43,
+      "gunc_pass": true,
+      "n50": 35039,
+      "n_contigs": 140,
+      "size_bp": 3105577,
+      "population": "nonderep140"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.36.contigs.fa_assembly": {
+      "checkm2_completeness": 76.17,
+      "checkm2_contamination": 3.78,
+      "checkm1_completeness": 76.86,
+      "checkm1_contamination": 8.0,
+      "gunc_pass": true,
+      "n50": 5857,
+      "n_contigs": 585,
+      "size_bp": 3162671,
+      "population": "nonderep140"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.44.contigs__": {
+      "checkm2_completeness": 88.2,
+      "checkm2_contamination": 1.65,
+      "checkm1_completeness": 80.96,
+      "checkm1_contamination": 2.94,
+      "gunc_pass": true,
+      "n50": 6218,
+      "n_contigs": 385,
+      "size_bp": 2172664,
+      "population": "derep310"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.5.contigs__": {
+      "checkm2_completeness": 99.91,
+      "checkm2_contamination": 5.35,
+      "checkm1_completeness": 92.6,
+      "checkm1_contamination": 4.13,
+      "gunc_pass": true,
+      "n50": 29905,
+      "n_contigs": 185,
+      "size_bp": 3428800,
+      "population": "derep310"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.54.contigs__": {
+      "checkm2_completeness": 89.14,
+      "checkm2_contamination": 8.64,
+      "checkm1_completeness": 90.7,
+      "checkm1_contamination": 12.75,
+      "gunc_pass": true,
+      "n50": 5881,
+      "n_contigs": 458,
+      "size_bp": 2482535,
+      "population": "derep310"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.59.contigs.fa_assembly": {
+      "checkm2_completeness": 92.92,
+      "checkm2_contamination": 2.62,
+      "checkm1_completeness": 94.81,
+      "checkm1_contamination": 4.14,
+      "gunc_pass": true,
+      "n50": 19618,
+      "n_contigs": 217,
+      "size_bp": 3113987,
+      "population": "nonderep140"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.64.contigs.fa_assembly": {
+      "checkm2_completeness": 92.26,
+      "checkm2_contamination": 6.97,
+      "checkm1_completeness": 92.43,
+      "checkm1_contamination": 5.03,
+      "gunc_pass": true,
+      "n50": 8186,
+      "n_contigs": 434,
+      "size_bp": 2998258,
+      "population": "nonderep140"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.65.contigs.fa_assembly": {
+      "checkm2_completeness": 81.63,
+      "checkm2_contamination": 3.38,
+      "checkm1_completeness": 85.68,
+      "checkm1_contamination": 4.75,
+      "gunc_pass": true,
+      "n50": 7718,
+      "n_contigs": 462,
+      "size_bp": 3056574,
+      "population": "nonderep140"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.69.contigs.fa_assembly": {
+      "checkm2_completeness": 93.79,
+      "checkm2_contamination": 12.16,
+      "checkm1_completeness": 98.31,
+      "checkm1_contamination": 2.54,
+      "gunc_pass": false,
+      "n50": 7018,
+      "n_contigs": 416,
+      "size_bp": 2500340,
+      "population": "nonderep140"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs__": {
+      "checkm2_completeness": 83.57,
+      "checkm2_contamination": 5.01,
+      "checkm1_completeness": 80.86,
+      "checkm1_contamination": 2.89,
+      "gunc_pass": true,
+      "n50": 6146,
+      "n_contigs": 376,
+      "size_bp": 2057886,
+      "population": "derep310"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.maxbin.055.contigs.fa_assembly": {
+      "checkm2_completeness": 74.02,
+      "checkm2_contamination": 0.73,
+      "checkm1_completeness": 81.52,
+      "checkm1_contamination": 3.32,
+      "gunc_pass": false,
+      "n50": 6634,
+      "n_contigs": 426,
+      "size_bp": 2527610,
+      "population": "nonderep140"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.10.contigs.fa_assembly": {
+      "checkm2_completeness": 93.02,
+      "checkm2_contamination": 4.32,
+      "checkm1_completeness": 93.33,
+      "checkm1_contamination": 3.22,
+      "gunc_pass": true,
+      "n50": 17160,
+      "n_contigs": 381,
+      "size_bp": 4427181,
+      "population": "nonderep140"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.15.contigs__": {
+      "checkm2_completeness": 90.95,
+      "checkm2_contamination": 8.13,
+      "checkm1_completeness": 84.57,
+      "checkm1_contamination": 11.21,
+      "gunc_pass": true,
+      "n50": 7547,
+      "n_contigs": 579,
+      "size_bp": 3596877,
+      "population": "derep310"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.18.contigs__": {
+      "checkm2_completeness": 96.59,
+      "checkm2_contamination": 0.62,
+      "checkm1_completeness": 96.72,
+      "checkm1_contamination": 1.37,
+      "gunc_pass": true,
+      "n50": 31530,
+      "n_contigs": 219,
+      "size_bp": 3895884,
+      "population": "derep310"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.24.contigs.fa_assembly": {
+      "checkm2_completeness": 99.42,
+      "checkm2_contamination": 4.57,
+      "checkm1_completeness": 99.72,
+      "checkm1_contamination": 6.99,
+      "gunc_pass": true,
+      "n50": 17536,
+      "n_contigs": 303,
+      "size_bp": 3555814,
+      "population": "nonderep140"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.26.contigs__": {
+      "checkm2_completeness": 95.64,
+      "checkm2_contamination": 3.92,
+      "checkm1_completeness": 97.0,
+      "checkm1_contamination": 5.21,
+      "gunc_pass": true,
+      "n50": 12797,
+      "n_contigs": 382,
+      "size_bp": 3485261,
+      "population": "derep310"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.33.contigs.fa_assembly": {
+      "checkm2_completeness": 87.63,
+      "checkm2_contamination": 1.09,
+      "checkm1_completeness": 94.95,
+      "checkm1_contamination": 0.65,
+      "gunc_pass": true,
+      "n50": 10429,
+      "n_contigs": 417,
+      "size_bp": 3313783,
+      "population": "nonderep140"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.44.contigs.fa_assembly": {
+      "checkm2_completeness": 82.36,
+      "checkm2_contamination": 2.47,
+      "checkm1_completeness": 83.14,
+      "checkm1_contamination": 6.66,
+      "gunc_pass": true,
+      "n50": 10805,
+      "n_contigs": 325,
+      "size_bp": 2655566,
+      "population": "nonderep140"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.45.contigs__": {
+      "checkm2_completeness": 100.0,
+      "checkm2_contamination": 0.19,
+      "checkm1_completeness": 98.15,
+      "checkm1_contamination": 0.82,
+      "gunc_pass": true,
+      "n50": 41695,
+      "n_contigs": 160,
+      "size_bp": 2748072,
+      "population": "derep310"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs__": {
+      "checkm2_completeness": 98.6,
+      "checkm2_contamination": 0.51,
+      "checkm1_completeness": 98.68,
+      "checkm1_contamination": 0.44,
+      "gunc_pass": true,
+      "n50": 29598,
+      "n_contigs": 141,
+      "size_bp": 2600506,
+      "population": "derep310"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs__": {
+      "checkm2_completeness": 99.55,
+      "checkm2_contamination": 2.69,
+      "checkm1_completeness": 100.0,
+      "checkm1_contamination": 1.06,
+      "gunc_pass": true,
+      "n50": 75174,
+      "n_contigs": 64,
+      "size_bp": 2343144,
+      "population": "derep310"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.6.contigs__": {
+      "checkm2_completeness": 81.68,
+      "checkm2_contamination": 14.81,
+      "checkm1_completeness": 83.5,
+      "checkm1_contamination": 12.26,
+      "gunc_pass": false,
+      "n50": 5939,
+      "n_contigs": 951,
+      "size_bp": 5114281,
+      "population": "derep310"
+     },
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.8.contigs.fa_assembly": {
+      "checkm2_completeness": 95.45,
+      "checkm2_contamination": 11.07,
+      "checkm1_completeness": 95.91,
+      "checkm1_contamination": 10.41,
+      "gunc_pass": false,
+      "n50": 12442,
+      "n_contigs": 491,
+      "size_bp": 4711511,
+      "population": "nonderep140"
+     }
+    },
+    "qc_status": {
+     "new": {
+      "checkm2": "ok",
+      "checkm1": "ok",
+      "gunc": "ok",
+      "gunc_name_collisions": []
+     },
+     "old": {
+      "checkm2": "ok",
+      "checkm1": "ok",
+      "gunc": "ok",
+      "gunc_name_collisions": []
+     },
+     "orig": {
+      "checkm2": "ok",
+      "checkm1": "ok",
+      "gunc": "ok",
+      "gunc_name_collisions": []
+     }
+    },
+    "skani_status": "ok",
+    "skani_edges_among_sets": 138,
+    "derep310_originals": [
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.44.contigs__",
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.5.contigs__",
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.54.contigs__",
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs__",
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.15.contigs__",
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.18.contigs__",
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.26.contigs__",
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.45.contigs__",
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs__",
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs__",
+     "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.6.contigs__"
+    ]
+   }
+  },
+  "SF2_C_D1": {
+   "state": "complete",
+   "state_info": {
+    "optional_failed": []
+   },
+   "pass": false,
+   "criteria": {
+    "a": {
+     "metric": "MQ+ MAGs (CheckM2 completeness >= 50, contamination < 10)",
+     "new": 7,
+     "old": 4,
+     "threshold": "NEW >= 1.2 x OLD = 4.80",
+     "pass": true
+    },
+    "b": {
+     "metric": "HQ MAGs (CheckM2 >= 90, < 5)",
+     "new": 2,
+     "old": 0,
+     "threshold": "NEW >= 1.2 x OLD = 0.00 or NEW >= OLD + 5 = 5",
+     "pass": true
+    },
+    "c": {
+     "metric": "median N50 of MQ+ MAGs (bp)",
+     "new": 9133.0,
+     "old": 4851.5,
+     "threshold": "NEW >= 1.5 x OLD = 7277.2",
+     "pass": true,
+     "note": ""
+    },
+    "d": {
+     "metric": "median CheckM2 contamination of MQ+ MAGs (%) AND GUNC pass fraction of MQ+ MAGs",
+     "d1_contamination": {
+      "new": 4.67,
+      "old": 1.7,
+      "threshold": "NEW <= OLD + 1.0 = 2.70",
+      "pass": false,
+      "note": ""
+     },
+     "d2_gunc_pass_fraction": {
+      "new": 0.8571428571428571,
+      "old": 1.0,
+      "threshold": "NEW >= OLD - 0.05 = 0.950",
+      "pass": false,
+      "note": ""
+     },
+     "pass": false
+    },
+    "e": {
+     "metric": "originals (derep310 of SF2_C_D1, n=1) recovered by an MQ+ MAG at skani ANI >= 95 and max AF >= 50",
+     "new": 0,
+     "old": 0,
+     "threshold": "NEW >= OLD",
+     "pass": true
+    }
+   },
+   "metrics": {
+    "new": {
+     "n_bins": 11,
+     "mq": 7,
+     "hq": 2,
+     "median_n50_mq": 9133.0,
+     "median_contamination_mq": 4.67,
+     "gunc_pass_fraction_mq": 0.8571428571428571,
+     "gunc_missing_mq": 0,
+     "originals_recovered": 0,
+     "originals_recovered_names": [],
+     "mq_checkm1": 7,
+     "hq_checkm1": 2,
+     "mbp_in_mq": 23.83,
+     "median_completeness_mq": 88.21,
+     "median_size_mb_mq": 3.843938,
+     "median_contigs_mq": 425
+    },
+    "old": {
+     "n_bins": 6,
+     "mq": 4,
+     "hq": 0,
+     "median_n50_mq": 4851.5,
+     "median_contamination_mq": 1.7,
+     "gunc_pass_fraction_mq": 1.0,
+     "gunc_missing_mq": 0,
+     "originals_recovered": 0,
+     "originals_recovered_names": [],
+     "mq_checkm1": 4,
+     "hq_checkm1": 0,
+     "mbp_in_mq": 11.32,
+     "median_completeness_mq": 64.035,
+     "median_size_mb_mq": 2.5305435000000003,
+     "median_contigs_mq": 583.0
+    }
+   },
+   "informational": {
+    "checkm1_a": {
+     "new": 7,
+     "old": 4,
+     "threshold": "NEW >= 1.2 x OLD = 4.80",
+     "pass": true
+    },
+    "checkm1_b": {
+     "new": 2,
+     "old": 0,
+     "threshold": "NEW >= 1.2 x OLD = 0.00 or NEW >= OLD + 5",
+     "pass": true
+    },
+    "kbase_checkm_old": {
+     "status": "ok",
+     "bins_matched": 6,
+     "bins_in_kbase_table": 6,
+     "kbase_mq": 4,
+     "kbase_hq": 0,
+     "checkm1_here_mq": 4,
+     "checkm2_here_mq": 4,
+     "median_abs_diff_completeness_kbase_vs_checkm1": 0.002646820441174924,
+     "median_abs_diff_contamination_kbase_vs_checkm1": 0.0025811243363423886
+    },
+    "originals_qc": {
+     "Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_concoct_out.13.contigs__": {
+      "checkm2_completeness": 92.32,
+      "checkm2_contamination": 10.74,
+      "checkm1_completeness": 95.61,
+      "checkm1_contamination": 15.1,
+      "gunc_pass": false,
+      "n50": 6868,
+      "n_contigs": 402,
+      "size_bp": 2373324,
+      "population": "derep310"
+     },
+     "Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_concoct_out.21.contigs.fa_assembly": {
+      "checkm2_completeness": 94.78,
+      "checkm2_contamination": 2.2,
+      "checkm1_completeness": 96.13,
+      "checkm1_contamination": 5.16,
+      "gunc_pass": true,
+      "n50": 15518,
+      "n_contigs": 371,
+      "size_bp": 4173000,
+      "population": "nonderep140"
+     },
+     "Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_concoct_out.23.contigs.fa_assembly": {
+      "checkm2_completeness": 100.0,
+      "checkm2_contamination": 7.21,
+      "checkm1_completeness": 93.87,
+      "checkm1_contamination": 13.6,
+      "gunc_pass": true,
+      "n50": 9518,
+      "n_contigs": 605,
+      "size_bp": 4708085,
+      "population": "nonderep140"
+     },
+     "Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_metabat.11.contigs.fa_assembly": {
+      "checkm2_completeness": 82.2,
+      "checkm2_contamination": 2.92,
+      "checkm1_completeness": 76.11,
+      "checkm1_contamination": 1.69,
+      "gunc_pass": true,
+      "n50": 20283,
+      "n_contigs": 197,
+      "size_bp": 2477372,
+      "population": "nonderep140"
+     },
+     "Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_metabat.6.contigs.fa_assembly": {
+      "checkm2_completeness": 100.0,
+      "checkm2_contamination": 17.7,
+      "checkm1_completeness": 97.42,
+      "checkm1_contamination": 21.97,
+      "gunc_pass": true,
+      "n50": 14363,
+      "n_contigs": 380,
+      "size_bp": 3966841,
+      "population": "nonderep140"
+     }
+    },
+    "qc_status": {
+     "new": {
+      "checkm2": "ok",
+      "checkm1": "ok",
+      "gunc": "ok",
+      "gunc_name_collisions": []
+     },
+     "old": {
+      "checkm2": "ok",
+      "checkm1": "ok",
+      "gunc": "ok",
+      "gunc_name_collisions": []
+     },
+     "orig": {
+      "checkm2": "ok",
+      "checkm1": "ok",
+      "gunc": "ok",
+      "gunc_name_collisions": []
+     }
+    },
+    "skani_status": "ok",
+    "skani_edges_among_sets": 15,
+    "derep310_originals": [
+     "Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_concoct_out.13.contigs__"
+    ]
+   }
+  }
+ }
+}

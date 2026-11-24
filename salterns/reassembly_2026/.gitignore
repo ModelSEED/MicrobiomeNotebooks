@@ -5,3 +5,13 @@ ledger.json.lock
 ledger.v1_backup.json
 watch.log
 __pycache__/
+# bulky raw / intermediate outputs (regenerable; see each folder's README)
+modelling_2026/annotations/
+modelling_2026/annotation_comparison/runs/
+modelling_2026/models/_repair_runs/
+modelling_2026/rast_service/faa_src/
+modelling_2026/templates/*.json
+modelling_2026/pipeline/kegg_cache/
+annotation_runs/*/chunks/
+annotation_runs/*/db/
+binning_experiments/*/runs/

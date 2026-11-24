@@ -1,0 +1,10 @@
+label	bin	sample	taxon	why
+Roseovarius_mb121	metabat2.bin.121_sub.fasta__R1_sediment	R1_sediment	Roseovarius sp003298505	best-quality new Roseovarius (96.1/2.8, N50 51 kb)
+Albimonas_cc058	concoct.bin.058_sub.fasta__R2_sediment	R2_sediment	Albimonas sp035268645	Albimonas.1 cluster; phn locus without callable phnJ
+Methanolobus_cc101	concoct.bin.101.fasta__R1_sediment	R1_sediment	Methanolobus sp020055655	best HQ new Methanolobus; Pyl mttB/mtbB/mtmB, mcr; archaeon
+Halomonas_mb336	metabat2.bin.336.fasta__R1_sediment	R1_sediment	Halomonas fontilapidosi	best new Halomonas (Halomonas.1 cluster)
+Marivita_cc101	concoct.bin.101_sub.fasta__R2_restored_C_black	R2_restored_C_black	Marivita sp020055675	best new Marivita (Marivita.2 cluster)
+Haloquadratum_mx640	maxbin2.Bin.640_sub.fasta__R2_sediment	R2_sediment	Haloquadratum (Haloquadratum.4 cluster)	haloarchaeon; archaeal C-P lyase
+Halanaerobium_mb206	metabat2.bin.206.fasta__R1_sediment	R1_sediment	Halanaerobium (Halanaerobiaceae)	Sec grdH: Prodigal 350 aa stops at TGA (88-codon read-through), K21579 623.6 vs 624.03; grdI 835.5 passes
+Desulfo_M55B175_mb289	metabat2.bin.289.fasta__R2_sediment	R2_sediment	M55B175 (Desulfosalsimonadaceae, Desulfobacterota)	no Desulfobacterota bin has grdH/grdI (pre-scan); this one has grdA + Sec grdB-like + 4 MttB-family genes, one passing mtgB (539.1 vs 536)
+M55B127_mb089	metabat2.bin.089.fasta__R2_sediment	R2_sediment	M55B127 (Bacillota) (M55B127.1 cluster)	extra (README s7 'add M55B127.1'): Sec grdH 599.3 + 6 mtgB
