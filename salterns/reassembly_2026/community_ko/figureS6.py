@@ -83,6 +83,25 @@ def read_row(path):
     return pd.DataFrame(rows)
 
 
+def read_sensitivity(path):
+    """Per genus: share of its marker reads whose best hit is >= 95% identical, and the KW/Dunn result when only those
+    reads are counted (denominator: all marker reads of the sample)."""
+    t = pd.read_csv(path, sep="\t")
+    t = t[t["sample"].isin(SED)]
+    t["fig"] = t.genus_harmonized.map(genus_group)
+    tot = t.groupby("sample").marker_reads.sum().reindex(SED)
+    rows = []
+    for g in GENERA:
+        d = t[t.fig == g]
+        v = (d.groupby("sample").reads_best_hit_ge95.sum().reindex(SED, fill_value=0) / tot * 100)
+        r = SL.kw_dunn(v.values, [SL.site_of(s) for s in SED])
+        rows.append(dict(genus=g, marker_reads=int(d.marker_reads.sum()),
+                         frac_best_hit_ge95=float(d.reads_best_hit_ge95.sum() / max(d.marker_reads.sum(), 1)),
+                         gtdb_genera=";".join(sorted(d.genus_harmonized.unique())), H_ge95=r["H"], p_ge95=r["p"],
+                         **{f"letter_ge95_{s}": r["letters"][s] for s in SITES}))
+    return pd.DataFrame(rows)
+
+
 def stats_for(df):
     out = []
     for (r, g), d in df.groupby(["row", "genus"], sort=False):
@@ -169,6 +188,9 @@ def main():
     have_reads = os.path.exists(rp)
     if have_reads:
         parts.insert(0, read_row(rp))
+        sens = read_sensitivity(rp)
+        sens.to_csv(os.path.join(OUT_DIR, "figureS6_read_sensitivity.tsv"), sep="\t", index=False)
+        print(sens.round(4).to_string())
     df = pd.concat(parts, ignore_index=True)
     st = stats_for(df)
     df.to_csv(os.path.join(OUT_DIR, "figureS6_values.tsv"), sep="\t", index=False)

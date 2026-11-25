@@ -1,0 +1,241 @@
+row	genus	sample	site	pct	n_species	members
+Metagenome (reads)	Halomonas	R1_A_D1	R1	0.6025432		
+Metagenome (reads)	Halomonas	R1_A_D2	R1	0.36899200000000004		
+Metagenome (reads)	Halomonas	R1_B_D1	R1	0.264372		
+Metagenome (reads)	Halomonas	R1_B_D2	R1	0.1564462		
+Metagenome (reads)	Halomonas	R1_C_D1	R1	0.24697840000000001		
+Metagenome (reads)	Halomonas	R1_C_D2	R1	0.32717850000000004		
+Metagenome (reads)	Halomonas	R2_A_D1	R2	0.07135559999999999		
+Metagenome (reads)	Halomonas	R2_A_D2	R2	0.0352195		
+Metagenome (reads)	Halomonas	R2_B_D1	R2	0.1407973		
+Metagenome (reads)	Halomonas	R2_B_D2	R2	0.1365333		
+Metagenome (reads)	Halomonas	R2_C_D1	R2	0.22821460000000002		
+Metagenome (reads)	Halomonas	R2_C_D2	R2	0.0980283		
+Metagenome (reads)	Halomonas	SF2_A_D1	SF2	0.1407206		
+Metagenome (reads)	Halomonas	SF2_A_D2	SF2	0.07939832999999999		
+Metagenome (reads)	Halomonas	SF2_B_D1	SF2	0.042035409999999995		
+Metagenome (reads)	Halomonas	SF2_B_D2	SF2	0.06350789999999999		
+Metagenome (reads)	Halomonas	SF2_C_D1	SF2	0.1952731		
+Metagenome (reads)	Halomonas	SF2_C_D2	SF2	0.0426667		
+Metagenome (reads)	Halomonas	R2A_A_D1	R2A	0.080979		
+Metagenome (reads)	Halomonas	R2A_A_D2	R2A	0.055017399999999994		
+Metagenome (reads)	Halomonas	R2A_B_D1	R2A	0.0897091		
+Metagenome (reads)	Halomonas	R2A_B_D2	R2A	0.05214480000000001		
+Metagenome (reads)	Halomonas	R2A_C_D1	R2A	0.038807999999999995		
+Metagenome (reads)	Halomonas	R2A_C_D2	R2A	0.0291886		
+Metagenome (reads)	Idiomarina	R1_A_D1	R1	0.012685100000000001		
+Metagenome (reads)	Idiomarina	R1_A_D2	R1	0.0114289		
+Metagenome (reads)	Idiomarina	R1_B_D1	R1	0.00480677		
+Metagenome (reads)	Idiomarina	R1_B_D2	R1	0.0		
+Metagenome (reads)	Idiomarina	R1_C_D1	R1	0.0087426		
+Metagenome (reads)	Idiomarina	R1_C_D2	R1	0.0		
+Metagenome (reads)	Idiomarina	R2_A_D1	R2	0.0		
+Metagenome (reads)	Idiomarina	R2_A_D2	R2	0.0		
+Metagenome (reads)	Idiomarina	R2_B_D1	R2	0.006399859999999999		
+Metagenome (reads)	Idiomarina	R2_B_D2	R2	0.00365715		
+Metagenome (reads)	Idiomarina	R2_C_D1	R2	0.00767106		
+Metagenome (reads)	Idiomarina	R2_C_D2	R2	0.00280081		
+Metagenome (reads)	Idiomarina	SF2_A_D1	SF2	0.00275923		
+Metagenome (reads)	Idiomarina	SF2_A_D2	SF2	0.008822040000000001		
+Metagenome (reads)	Idiomarina	SF2_B_D1	SF2	0.0023353000000000002		
+Metagenome (reads)	Idiomarina	SF2_B_D2	SF2	0.0		
+Metagenome (reads)	Idiomarina	SF2_C_D1	SF2	0.0		
+Metagenome (reads)	Idiomarina	SF2_C_D2	SF2	0.00266667		
+Metagenome (reads)	Idiomarina	R2A_A_D1	R2A	0.00224942		
+Metagenome (reads)	Idiomarina	R2A_A_D2	R2A	0.007176179999999999		
+Metagenome (reads)	Idiomarina	R2A_B_D1	R2A	0.00640779		
+Metagenome (reads)	Idiomarina	R2A_B_D2	R2A	0.00274446		
+Metagenome (reads)	Idiomarina	R2A_C_D1	R2A	0.00831601		
+Metagenome (reads)	Idiomarina	R2A_C_D2	R2A	0.00416979		
+Metagenome (reads)	Salegentibacter	R1_A_D1	R1	0.510576		
+Metagenome (reads)	Salegentibacter	R1_A_D2	R1	0.831048		
+Metagenome (reads)	Salegentibacter	R1_B_D1	R1	0.246747		
+Metagenome (reads)	Salegentibacter	R1_B_D2	R1	0.24999200000000002		
+Metagenome (reads)	Salegentibacter	R1_C_D1	R1	0.203265		
+Metagenome (reads)	Salegentibacter	R1_C_D2	R1	0.47513900000000003		
+Metagenome (reads)	Salegentibacter	R2_A_D1	R2	0.0517678		
+Metagenome (reads)	Salegentibacter	R2_A_D2	R2	0.029349600000000003		
+Metagenome (reads)	Salegentibacter	R2_B_D1	R2	0.170663		
+Metagenome (reads)	Salegentibacter	R2_B_D2	R2	0.149943		
+Metagenome (reads)	Salegentibacter	R2_C_D1	R2	0.08438169999999999		
+Metagenome (reads)	Salegentibacter	R2_C_D2	R2	0.131638		
+Metagenome (reads)	Salegentibacter	SF2_A_D1	SF2	0.03587		
+Metagenome (reads)	Salegentibacter	SF2_A_D2	SF2	0.0242606		
+Metagenome (reads)	Salegentibacter	SF2_B_D1	SF2	0.0280236		
+Metagenome (reads)	Salegentibacter	SF2_B_D2	SF2	0.011340699999999999		
+Metagenome (reads)	Salegentibacter	SF2_C_D1	SF2	0.0329681		
+Metagenome (reads)	Salegentibacter	SF2_C_D2	SF2	0.0293333		
+Metagenome (reads)	Salegentibacter	R2A_A_D1	R2A	0.184452		
+Metagenome (reads)	Salegentibacter	R2A_A_D2	R2A	0.0334888		
+Metagenome (reads)	Salegentibacter	R2A_B_D1	R2A	0.0448545		
+Metagenome (reads)	Salegentibacter	R2A_B_D2	R2A	0.010977899999999999		
+Metagenome (reads)	Salegentibacter	R2A_C_D1	R2A	0.01386		
+Metagenome (reads)	Salegentibacter	R2A_C_D2	R2A	0.020849		
+Metagenome (reads)	Clostridium	R1_A_D1	R1	0.01109948		
+Metagenome (reads)	Clostridium	R1_A_D2	R1	0.024490619999999998		
+Metagenome (reads)	Clostridium	R1_B_D1	R1	0.02403384		
+Metagenome (reads)	Clostridium	R1_B_D2	R1	0.01774136		
+Metagenome (reads)	Clostridium	R1_C_D1	R1	0.01092825		
+Metagenome (reads)	Clostridium	R1_C_D2	R1	0.020839399999999998		
+Metagenome (reads)	Clostridium	R2_A_D1	R2	0.033579120000000004		
+Metagenome (reads)	Clostridium	R2_A_D2	R2	0.01027236		
+Metagenome (reads)	Clostridium	R2_B_D1	R2	0.027732769999999997		
+Metagenome (reads)	Clostridium	R2_B_D2	R2	0.043885810000000004		
+Metagenome (reads)	Clostridium	R2_C_D1	R2	0.0287665		
+Metagenome (reads)	Clostridium	R2_C_D2	R2	0.04201207		
+Metagenome (reads)	Clostridium	SF2_A_D1	SF2	0.08829527000000001		
+Metagenome (reads)	Clostridium	SF2_A_D2	SF2	0.10145341999999999		
+Metagenome (reads)	Clostridium	SF2_B_D1	SF2	0.08173554		
+Metagenome (reads)	Clostridium	SF2_B_D2	SF2	0.12474762		
+Metagenome (reads)	Clostridium	SF2_C_D1	SF2	0.13187272		
+Metagenome (reads)	Clostridium	SF2_C_D2	SF2	0.14666664999999998		
+Metagenome (reads)	Clostridium	R2A_A_D1	R2A	0.026993040000000003		
+Metagenome (reads)	Clostridium	R2A_A_D2	R2A	0.055017369999999996		
+Metagenome (reads)	Clostridium	R2A_B_D1	R2A	0.05767018		
+Metagenome (reads)	Clostridium	R2A_B_D2	R2A	0.09331174		
+Metagenome (reads)	Clostridium	R2A_C_D1	R2A	0.05821201		
+Metagenome (reads)	Clostridium	R2A_C_D2	R2A	0.07297145		
+Metagenome (reads)	Marinilabilia	R1_A_D1	R1	0.0301272		
+Metagenome (reads)	Marinilabilia	R1_A_D2	R1	0.0212252		
+Metagenome (reads)	Marinilabilia	R1_B_D1	R1	0.0721015		
+Metagenome (reads)	Marinilabilia	R1_B_D2	R1	0.0177414		
+Metagenome (reads)	Marinilabilia	R1_C_D1	R1	0.0502699		
+Metagenome (reads)	Marinilabilia	R1_C_D2	R1	0.035427		
+Metagenome (reads)	Marinilabilia	R2_A_D1	R2	0.026583500000000003		
+Metagenome (reads)	Marinilabilia	R2_A_D2	R2	0.00293496		
+Metagenome (reads)	Marinilabilia	R2_B_D1	R2	0.104531		
+Metagenome (reads)	Marinilabilia	R2_B_D2	R2	0.023162000000000002		
+Metagenome (reads)	Marinilabilia	R2_C_D1	R2	0.210954		
+Metagenome (reads)	Marinilabilia	R2_C_D2	R2	0.109231		
+Metagenome (reads)	Marinilabilia	SF2_A_D1	SF2	0.00827769		
+Metagenome (reads)	Marinilabilia	SF2_A_D2	SF2	0.0022055100000000004		
+Metagenome (reads)	Marinilabilia	SF2_B_D1	SF2	0.00700591		
+Metagenome (reads)	Marinilabilia	SF2_B_D2	SF2	0.00226814		
+Metagenome (reads)	Marinilabilia	SF2_C_D1	SF2	0.0177521		
+Metagenome (reads)	Marinilabilia	SF2_C_D2	SF2	0.0106667		
+Metagenome (reads)	Marinilabilia	R2A_A_D1	R2A	0.0112471		
+Metagenome (reads)	Marinilabilia	R2A_A_D2	R2A	0.00478412		
+Metagenome (reads)	Marinilabilia	R2A_B_D1	R2A	0.0032039000000000004		
+Metagenome (reads)	Marinilabilia	R2A_B_D2	R2A	0.00823339		
+Metagenome (reads)	Marinilabilia	R2A_C_D1	R2A	0.0		
+Metagenome (reads)	Marinilabilia	R2A_C_D2	R2A	0.0020848999999999998		
+MAGs	Halomonas	R1_A_D1	R1	0.30311349240863683	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	R1_A_D2	R1	0.1841145203041416	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	R1_B_D1	R1	0.10184684233376	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	R1_B_D2	R1	0.07373320514235138	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	R1_C_D1	R1	0.12844566185743794	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	R1_C_D2	R1	0.14568482624720536	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	R2_A_D1	R2	0.03103085467459707	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	R2_A_D2	R2	0.014286853075364309	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	R2_B_D1	R2	0.08319930327901075	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	R2_B_D2	R2	0.03597834934026355	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	R2_C_D1	R2	0.08908165792988754	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	R2_C_D2	R2	0.0301279417096456	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	SF2_A_D1	SF2	0.001664361009494192	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	SF2_A_D2	SF2	0.0008414559774347504	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	SF2_B_D1	SF2	0.0012291337723377336	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	SF2_B_D2	SF2	0.0020788478288572515	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	SF2_C_D1	SF2	0.0034132606161204216	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	SF2_C_D2	SF2	0.0021703464811879945	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	R2A_A_D1	R2A	0.0012946215013815278	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	R2A_A_D2	R2A	0.0002727956972480264	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	R2A_B_D1	R2A	0.0005731232589633681	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	R2A_B_D2	R2A	0.00010115372419425561	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	R2A_C_D1	R2A	0.00019801308272437567	2.0	Halomonas.1;Vreelandella.1
+MAGs	Halomonas	R2A_C_D2	R2A	6.380863056019023e-05	2.0	Halomonas.1;Vreelandella.1
+MAGs	Idiomarina	R1_A_D1	R1	0.0	0.0	
+MAGs	Idiomarina	R1_A_D2	R1	0.0	0.0	
+MAGs	Idiomarina	R1_B_D1	R1	0.0	0.0	
+MAGs	Idiomarina	R1_B_D2	R1	0.0	0.0	
+MAGs	Idiomarina	R1_C_D1	R1	0.0	0.0	
+MAGs	Idiomarina	R1_C_D2	R1	0.0	0.0	
+MAGs	Idiomarina	R2_A_D1	R2	0.0	0.0	
+MAGs	Idiomarina	R2_A_D2	R2	0.0	0.0	
+MAGs	Idiomarina	R2_B_D1	R2	0.0	0.0	
+MAGs	Idiomarina	R2_B_D2	R2	0.0	0.0	
+MAGs	Idiomarina	R2_C_D1	R2	0.0	0.0	
+MAGs	Idiomarina	R2_C_D2	R2	0.0	0.0	
+MAGs	Idiomarina	SF2_A_D1	SF2	0.0	0.0	
+MAGs	Idiomarina	SF2_A_D2	SF2	0.0	0.0	
+MAGs	Idiomarina	SF2_B_D1	SF2	0.0	0.0	
+MAGs	Idiomarina	SF2_B_D2	SF2	0.0	0.0	
+MAGs	Idiomarina	SF2_C_D1	SF2	0.0	0.0	
+MAGs	Idiomarina	SF2_C_D2	SF2	0.0	0.0	
+MAGs	Idiomarina	R2A_A_D1	R2A	0.0	0.0	
+MAGs	Idiomarina	R2A_A_D2	R2A	0.0	0.0	
+MAGs	Idiomarina	R2A_B_D1	R2A	0.0	0.0	
+MAGs	Idiomarina	R2A_B_D2	R2A	0.0	0.0	
+MAGs	Idiomarina	R2A_C_D1	R2A	0.0	0.0	
+MAGs	Idiomarina	R2A_C_D2	R2A	0.0	0.0	
+MAGs	Salegentibacter	R1_A_D1	R1	0.39995343413053996	1.0	Salegentibacter.1
+MAGs	Salegentibacter	R1_A_D2	R1	0.48663890657393	1.0	Salegentibacter.1
+MAGs	Salegentibacter	R1_B_D1	R1	0.09579534448785999	1.0	Salegentibacter.1
+MAGs	Salegentibacter	R1_B_D2	R1	0.19414993206636	1.0	Salegentibacter.1
+MAGs	Salegentibacter	R1_C_D1	R1	0.10042683370835	1.0	Salegentibacter.1
+MAGs	Salegentibacter	R1_C_D2	R1	0.38974851927079	1.0	Salegentibacter.1
+MAGs	Salegentibacter	R2_A_D1	R2	0.06066473552042	1.0	Salegentibacter.1
+MAGs	Salegentibacter	R2_A_D2	R2	0.006394102945244984	1.0	Salegentibacter.1
+MAGs	Salegentibacter	R2_B_D1	R2	0.09728529805521	1.0	Salegentibacter.1
+MAGs	Salegentibacter	R2_B_D2	R2	0.09086817968683	1.0	Salegentibacter.1
+MAGs	Salegentibacter	R2_C_D1	R2	0.01894639497389	1.0	Salegentibacter.1
+MAGs	Salegentibacter	R2_C_D2	R2	0.07118177245996	1.0	Salegentibacter.1
+MAGs	Salegentibacter	SF2_A_D1	SF2	0.0003445589983335434	1.0	Salegentibacter.1
+MAGs	Salegentibacter	SF2_A_D2	SF2	0.0002514106274042852	1.0	Salegentibacter.1
+MAGs	Salegentibacter	SF2_B_D1	SF2	0.0005254728701266346	1.0	Salegentibacter.1
+MAGs	Salegentibacter	SF2_B_D2	SF2	0.00048685394389087896	1.0	Salegentibacter.1
+MAGs	Salegentibacter	SF2_C_D1	SF2	0.0005376127202727916	1.0	Salegentibacter.1
+MAGs	Salegentibacter	SF2_C_D2	SF2	0.0005284124661617583	1.0	Salegentibacter.1
+MAGs	Salegentibacter	R2A_A_D1	R2A	0.0035634136374659876	1.0	Salegentibacter.1
+MAGs	Salegentibacter	R2A_A_D2	R2A	0.0005755109225813204	1.0	Salegentibacter.1
+MAGs	Salegentibacter	R2A_B_D1	R2A	0.0013396173735932388	1.0	Salegentibacter.1
+MAGs	Salegentibacter	R2A_B_D2	R2A	0.00032105312461655044	1.0	Salegentibacter.1
+MAGs	Salegentibacter	R2A_C_D1	R2A	0.000895559169594335	1.0	Salegentibacter.1
+MAGs	Salegentibacter	R2A_C_D2	R2A	0.0002890155619490969	1.0	Salegentibacter.1
+MAGs	Clostridium	R1_A_D1	R1	0.0	0.0	
+MAGs	Clostridium	R1_A_D2	R1	0.0	0.0	
+MAGs	Clostridium	R1_B_D1	R1	0.0	0.0	
+MAGs	Clostridium	R1_B_D2	R1	0.0	0.0	
+MAGs	Clostridium	R1_C_D1	R1	0.0	0.0	
+MAGs	Clostridium	R1_C_D2	R1	0.0	0.0	
+MAGs	Clostridium	R2_A_D1	R2	0.0	0.0	
+MAGs	Clostridium	R2_A_D2	R2	0.0	0.0	
+MAGs	Clostridium	R2_B_D1	R2	0.0	0.0	
+MAGs	Clostridium	R2_B_D2	R2	0.0	0.0	
+MAGs	Clostridium	R2_C_D1	R2	0.0	0.0	
+MAGs	Clostridium	R2_C_D2	R2	0.0	0.0	
+MAGs	Clostridium	SF2_A_D1	SF2	0.0	0.0	
+MAGs	Clostridium	SF2_A_D2	SF2	0.0	0.0	
+MAGs	Clostridium	SF2_B_D1	SF2	0.0	0.0	
+MAGs	Clostridium	SF2_B_D2	SF2	0.0	0.0	
+MAGs	Clostridium	SF2_C_D1	SF2	0.0	0.0	
+MAGs	Clostridium	SF2_C_D2	SF2	0.0	0.0	
+MAGs	Clostridium	R2A_A_D1	R2A	0.0	0.0	
+MAGs	Clostridium	R2A_A_D2	R2A	0.0	0.0	
+MAGs	Clostridium	R2A_B_D1	R2A	0.0	0.0	
+MAGs	Clostridium	R2A_B_D2	R2A	0.0	0.0	
+MAGs	Clostridium	R2A_C_D1	R2A	0.0	0.0	
+MAGs	Clostridium	R2A_C_D2	R2A	0.0	0.0	
+MAGs	Marinilabilia	R1_A_D1	R1	0.0	0.0	
+MAGs	Marinilabilia	R1_A_D2	R1	0.0	0.0	
+MAGs	Marinilabilia	R1_B_D1	R1	0.0	0.0	
+MAGs	Marinilabilia	R1_B_D2	R1	0.0	0.0	
+MAGs	Marinilabilia	R1_C_D1	R1	0.0	0.0	
+MAGs	Marinilabilia	R1_C_D2	R1	0.0	0.0	
+MAGs	Marinilabilia	R2_A_D1	R2	0.0	0.0	
+MAGs	Marinilabilia	R2_A_D2	R2	0.0	0.0	
+MAGs	Marinilabilia	R2_B_D1	R2	0.0	0.0	
+MAGs	Marinilabilia	R2_B_D2	R2	0.0	0.0	
+MAGs	Marinilabilia	R2_C_D1	R2	0.0	0.0	
+MAGs	Marinilabilia	R2_C_D2	R2	0.0	0.0	
+MAGs	Marinilabilia	SF2_A_D1	SF2	0.0	0.0	
+MAGs	Marinilabilia	SF2_A_D2	SF2	0.0	0.0	
+MAGs	Marinilabilia	SF2_B_D1	SF2	0.0	0.0	
+MAGs	Marinilabilia	SF2_B_D2	SF2	0.0	0.0	
+MAGs	Marinilabilia	SF2_C_D1	SF2	0.0	0.0	
+MAGs	Marinilabilia	SF2_C_D2	SF2	0.0	0.0	
+MAGs	Marinilabilia	R2A_A_D1	R2A	0.0	0.0	
+MAGs	Marinilabilia	R2A_A_D2	R2A	0.0	0.0	
+MAGs	Marinilabilia	R2A_B_D1	R2A	0.0	0.0	
+MAGs	Marinilabilia	R2A_B_D2	R2A	0.0	0.0	
+MAGs	Marinilabilia	R2A_C_D1	R2A	0.0	0.0	
+MAGs	Marinilabilia	R2A_C_D2	R2A	0.0	0.0	
