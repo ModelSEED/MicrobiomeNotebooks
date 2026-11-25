@@ -191,7 +191,10 @@ def verify(read_p, sha, only=None):
     ok = True
     for f in [f for f in IMAGES if only is None or f in only]:
         ci = caption_index(paras, f)
-        span = paras[max(0, ci - 3):ci + 1]
+        j = ci - 1                                     # the image-only paragraphs right above the caption, and the caption
+        while j >= 0 and image_only(paras[j]):
+            j -= 1
+        span = paras[j + 1:ci + 1]
         objs = [x for p in span for x in images_in(p)]
         new = [x for x in objs if io[x["inlineObjectElement"]["inlineObjectId"]]["inlineObjectProperties"]
                ["embeddedObject"].get("imageProperties", {}).get("sourceUri") == url(f, sha)]

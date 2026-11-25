@@ -1,0 +1,412 @@
+{
+ "document": "1idf01km9tbuGXXXMU4Hw7BvU0UGpdX2BgShv7BVHcTw",
+ "date": "2026-11-25",
+ "account": "A. Freiburger (suggestions)",
+ "images_commit": "d24477cc0989dd51d0cc566ae371cf877523d36a",
+ "batches": [
+  {
+   "what": "Figure S11 (test)",
+   "requiredRevisionId": "AHj4eMQh1YiCa29AMyyNilrPzbjICM5lmvyXUQNr8X0069keuTBmRh6CFosQoqP5Bq7pNbD_T3SKv5PExOBLOQ",
+   "requests": [
+    {
+     "insertInlineImage": {
+      "uri": "https://raw.githubusercontent.com/ModelSEED/MicrobiomeNotebooks/d24477cc0989dd51d0cc566ae371cf877523d36a/salterns/clauded_insights/gdoc_sync/doc_images/FigureS11_figureS11_final585.png",
+      "location": {
+       "index": 123853
+      },
+      "objectSize": {
+       "width": {
+        "magnitude": 468.0,
+        "unit": "PT"
+       },
+       "height": {
+        "magnitude": 475.6,
+        "unit": "PT"
+       }
+      }
+     }
+    },
+    {
+     "deleteContentRange": {
+      "range": {
+       "startIndex": 123854,
+       "endIndex": 123855
+      }
+     }
+    }
+   ]
+  },
+  {
+   "what": "Figures 7, 8, 9, 10, S6, S8, S10 and the Figure S6 caption",
+   "requiredRevisionId": "AHj4eMT5CoUs88oyE7CtIx1gSDAjWWT61QKzrh94dI_dWkid3Lfl5EXj9C-MLbPWuvRHI8wHEmfDxRyHkITwjg",
+   "requests": [
+    {
+     "insertInlineImage": {
+      "uri": "https://raw.githubusercontent.com/ModelSEED/MicrobiomeNotebooks/d24477cc0989dd51d0cc566ae371cf877523d36a/salterns/reassembly_2026/modelling_2026/figureS10/figureS10_final.png",
+      "location": {
+       "index": 122545
+      },
+      "objectSize": {
+       "width": {
+        "magnitude": 397.4,
+        "unit": "PT"
+       },
+       "height": {
+        "magnitude": 600.0,
+        "unit": "PT"
+       }
+      }
+     }
+    },
+    {
+     "deleteContentRange": {
+      "range": {
+       "startIndex": 122546,
+       "endIndex": 122547
+      }
+     }
+    },
+    {
+     "insertInlineImage": {
+      "uri": "https://raw.githubusercontent.com/ModelSEED/MicrobiomeNotebooks/d24477cc0989dd51d0cc566ae371cf877523d36a/salterns/correlational/final585/guild_methane_dnanorm_final585.png",
+      "location": {
+       "index": 121670
+      },
+      "objectSize": {
+       "width": {
+        "magnitude": 468.0,
+        "unit": "PT"
+       },
+       "height": {
+        "magnitude": 296.7,
+        "unit": "PT"
+       }
+      }
+     }
+    },
+    {
+     "deleteContentRange": {
+      "range": {
+       "startIndex": 121671,
+       "endIndex": 121672
+      }
+     }
+    },
+    {
+     "insertText": {
+      "text": " Metagenomic abundance is the percentage of the reads of eight single-copy ribosomal-protein genes whose best DIAMOND hit is a reference genome of the genus (GTDB R232); Halomonas includes Vreelandella, which GTDB separates from it, and Clostridium includes the GTDB genera with Clostridium suffixes (e.g. Clostridium_B). Only 8% of the reads assigned to Clostridium had a best hit at least 95% identical, so that assignment is uncertain. MAG abundance is the percentage of all reads that mapped to the genus’s species in the re-assembled MAG set; no species of Idiomarina, Clostridium or Marinilabilia was recovered. In the metagenomic and MAG rows, letters show Dunn’s tests (Holm-adjusted) after a significant Kruskal–Wallis test across the four sites (p < 0.05); sites sharing a letter do not differ.",
+      "location": {
+       "index": 120979
+      }
+     }
+    },
+    {
+     "updateTextStyle": {
+      "range": {
+       "startIndex": 120979,
+       "endIndex": 121783
+      },
+      "textStyle": {
+       "weightedFontFamily": {
+        "fontFamily": "Times New Roman",
+        "weight": 400
+       },
+       "fontSize": {
+        "magnitude": 12,
+        "unit": "PT"
+       },
+       "foregroundColor": {
+        "color": {
+         "rgbColor": {}
+        }
+       },
+       "italic": false,
+       "bold": false,
+       "baselineOffset": "NONE"
+      },
+      "fields": "weightedFontFamily,fontSize,foregroundColor,italic,bold,baselineOffset"
+     }
+    },
+    {
+     "updateTextStyle": {
+      "range": {
+       "startIndex": 121149,
+       "endIndex": 121158
+      },
+      "textStyle": {
+       "italic": true
+      },
+      "fields": "italic"
+     }
+    },
+    {
+     "updateTextStyle": {
+      "range": {
+       "startIndex": 121168,
+       "endIndex": 121180
+      },
+      "textStyle": {
+       "italic": true
+      },
+      "fields": "italic"
+     }
+    },
+    {
+     "updateTextStyle": {
+      "range": {
+       "startIndex": 121216,
+       "endIndex": 121227
+      },
+      "textStyle": {
+       "italic": true
+      },
+      "fields": "italic"
+     }
+    },
+    {
+     "updateTextStyle": {
+      "range": {
+       "startIndex": 121258,
+       "endIndex": 121269
+      },
+      "textStyle": {
+       "italic": true
+      },
+      "fields": "italic"
+     }
+    },
+    {
+     "updateTextStyle": {
+      "range": {
+       "startIndex": 121334,
+       "endIndex": 121345
+      },
+      "textStyle": {
+       "italic": true
+      },
+      "fields": "italic"
+     }
+    },
+    {
+     "updateTextStyle": {
+      "range": {
+       "startIndex": 121553,
+       "endIndex": 121564
+      },
+      "textStyle": {
+       "italic": true
+      },
+      "fields": "italic"
+     }
+    },
+    {
+     "updateTextStyle": {
+      "range": {
+       "startIndex": 121541,
+       "endIndex": 121551
+      },
+      "textStyle": {
+       "italic": true
+      },
+      "fields": "italic"
+     }
+    },
+    {
+     "updateTextStyle": {
+      "range": {
+       "startIndex": 121568,
+       "endIndex": 121581
+      },
+      "textStyle": {
+       "italic": true
+      },
+      "fields": "italic"
+     }
+    },
+    {
+     "deleteContentRange": {
+      "range": {
+       "startIndex": 120728,
+       "endIndex": 120849
+      }
+     }
+    },
+    {
+     "insertText": {
+      "text": ", metagenomic reads (middle row) and metagenome-assembled genomes (MAGs; bottom row) of the 24 sediment samples",
+      "location": {
+       "index": 120726
+      }
+     }
+    },
+    {
+     "updateTextStyle": {
+      "range": {
+       "startIndex": 120726,
+       "endIndex": 120837
+      },
+      "textStyle": {
+       "weightedFontFamily": {
+        "fontFamily": "Times New Roman",
+        "weight": 400
+       },
+       "fontSize": {
+        "magnitude": 12,
+        "unit": "PT"
+       },
+       "foregroundColor": {
+        "color": {
+         "rgbColor": {}
+        }
+       },
+       "italic": false,
+       "bold": false,
+       "baselineOffset": "NONE"
+      },
+      "fields": "weightedFontFamily,fontSize,foregroundColor,italic,bold,baselineOffset"
+     }
+    },
+    {
+     "deleteContentRange": {
+      "range": {
+       "startIndex": 120692,
+       "endIndex": 120726
+      }
+     }
+    },
+    {
+     "insertInlineImage": {
+      "uri": "https://raw.githubusercontent.com/ModelSEED/MicrobiomeNotebooks/d24477cc0989dd51d0cc566ae371cf877523d36a/salterns/reassembly_2026/community_ko/figures/figureS6_2026.png",
+      "location": {
+       "index": 120606
+      },
+      "objectSize": {
+       "width": {
+        "magnitude": 468.0,
+        "unit": "PT"
+       },
+       "height": {
+        "magnitude": 370.0,
+        "unit": "PT"
+       }
+      }
+     }
+    },
+    {
+     "deleteContentRange": {
+      "range": {
+       "startIndex": 120607,
+       "endIndex": 120608
+      }
+     }
+    },
+    {
+     "insertText": {
+      "text": "\n",
+      "location": {
+       "index": 117431
+      }
+     }
+    },
+    {
+     "insertInlineImage": {
+      "uri": "https://raw.githubusercontent.com/ModelSEED/MicrobiomeNotebooks/d24477cc0989dd51d0cc566ae371cf877523d36a/salterns/reassembly_2026/modelling_2026/synthesis/figure10_pathways.png",
+      "location": {
+       "index": 117431
+      },
+      "objectSize": {
+       "width": {
+        "magnitude": 468.0,
+        "unit": "PT"
+       },
+       "height": {
+        "magnitude": 245.5,
+        "unit": "PT"
+       }
+      }
+     }
+    },
+    {
+     "insertText": {
+      "text": "\n",
+      "location": {
+       "index": 116569
+      }
+     }
+    },
+    {
+     "insertInlineImage": {
+      "uri": "https://raw.githubusercontent.com/ModelSEED/MicrobiomeNotebooks/d24477cc0989dd51d0cc566ae371cf877523d36a/salterns/correlational/final585/guild_methane_raw_final585.png",
+      "location": {
+       "index": 116569
+      },
+      "objectSize": {
+       "width": {
+        "magnitude": 468.0,
+        "unit": "PT"
+       },
+       "height": {
+        "magnitude": 296.6,
+        "unit": "PT"
+       }
+      }
+     }
+    },
+    {
+     "insertInlineImage": {
+      "uri": "https://raw.githubusercontent.com/ModelSEED/MicrobiomeNotebooks/d24477cc0989dd51d0cc566ae371cf877523d36a/salterns/clauded_insights/gdoc_sync/doc_images/Figure8_within_condition_louvain_network_final585.png",
+      "location": {
+       "index": 113032
+      },
+      "objectSize": {
+       "width": {
+        "magnitude": 468.0,
+        "unit": "PT"
+       },
+       "height": {
+        "magnitude": 407.5,
+        "unit": "PT"
+       }
+      }
+     }
+    },
+    {
+     "deleteContentRange": {
+      "range": {
+       "startIndex": 113033,
+       "endIndex": 113036
+      }
+     }
+    },
+    {
+     "insertInlineImage": {
+      "uri": "https://raw.githubusercontent.com/ModelSEED/MicrobiomeNotebooks/d24477cc0989dd51d0cc566ae371cf877523d36a/salterns/reassembly_2026/modelling_2026/simulations/figure7_pergram.png",
+      "location": {
+       "index": 110652
+      },
+      "objectSize": {
+       "width": {
+        "magnitude": 468.0,
+        "unit": "PT"
+       },
+       "height": {
+        "magnitude": 245.7,
+        "unit": "PT"
+       }
+      }
+     }
+    },
+    {
+     "deleteContentRange": {
+      "range": {
+       "startIndex": 110653,
+       "endIndex": 110654
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "revision_after": "AHj4eMQSPqX7HM-lZTKaheomnUzhjp_f0sz2EYQnjdcg9NaXm-0Q5T5ngPwtu1ER29DcOIByv7nq7dHs9L0BVA",
+ "verified": "figure_swap.py verify (each new image a suggested insertion, old images suggested deletions) and batch_driver.py verify (base and proposed text views and italics equal the plan)"
+}

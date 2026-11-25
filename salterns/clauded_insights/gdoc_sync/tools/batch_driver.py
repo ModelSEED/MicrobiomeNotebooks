@@ -83,6 +83,12 @@ def apply(chars, reqs):
             for c in chars[pos:]:
                 c[0] += len(t)
             chars[pos:pos] = [[at + n, ch, "ins", {}] for n, ch in enumerate(t)]
+        elif "insertInlineImage" in rq:                    # an image takes one index; views skip it ("\x00")
+            at = rq["insertInlineImage"]["location"]["index"]
+            pos = next(n for n, c in enumerate(chars) if c[0] >= at)
+            for c in chars[pos:]:
+                c[0] += 1
+            chars[pos:pos] = [[at, "\x00", "ins", {}]]
         elif "updateTextStyle" in rq:
             r = rq["updateTextStyle"]["range"]; ts = rq["updateTextStyle"]["textStyle"]
             for c in chars:
