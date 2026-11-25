@@ -1,0 +1,63 @@
+ko	gene	role	group	kegg_cap	note
+K00399	mcrA	target	methanogenesis	0	methyl-CoM reductase alpha; also alkyl-CoM reductases (Acr) of ANME/alkanotrophs fall in this KO
+K00401	mcrB	target	methanogenesis	0	
+K00402	mcrG	target	methanogenesis	0	
+K04480	mtaB	target	methylotrophic_MT	0	methanol:corrinoid MT
+K14080	mtaA	target	methylotrophic_MT	0	methylcobamide:CoM MT (methanol/betaine)
+K16178	mtbB	target	methylotrophic_MT	0	DMA MT (Pyl)
+K16176	mtmB	target	methylotrophic_MT	0	MMA MT (Pyl)
+K14082	mtbA	target	methylotrophic_MT	0	methylcobamide:CoM MT (methylamines)
+K14083	mttB	target	mttB_family	0	TMA MT; KO includes the Pyl-free MttB superfamily of bacteria; reported separately, never called methanogenesis
+K25220	mtgB	target	mttB_family	0	glycine betaine:corrinoid MT, a characterised Pyl-free MttB-family member
+K06166	phnG	target	CP_lyase	0	
+K06165	phnH	target	CP_lyase	0	
+K06164	phnI	target	CP_lyase	0	
+K06163	phnJ	target	CP_lyase	0	C-P bond cleavage; guild marker
+K05781	phnK	target	CP_lyase	0	ABC-ATPase-like
+K05780	phnL	target	CP_lyase	0	ABC-ATPase-like
+K06162	phnM	target	CP_lyase	0	amidohydrolase-like
+K21579	grdH	target	betaine_reductase	0	betaine reductase B beta (Sec); guild marker
+K21578	grdI	target	betaine_reductase	0	betaine reductase B alpha
+K10672	grdB	decoy_reported	glycine_reductase	0	glycine reductase B gamma (Sec): paralog of grdH, reported as a decoy class
+K10671	grdE	decoy	glycine_reductase	0	paralog of grdI
+K21584	grdF	decoy	sarcosine_reductase	0	paralog of grdH
+K21583	grdG	decoy	sarcosine_reductase	0	paralog of grdI
+K20038	cutC	target	TMA_production	0	choline TMA-lyase (glycyl radical enzyme)
+K20037	cutD	target	TMA_production	0	CutC activase (radical SAM)
+K22443	cntA	target	TMA_production	0	carnitine monooxygenase oxygenase (Rieske); yeaW same KO
+K22444	cntB	target	TMA_production	0	carnitine monooxygenase reductase; yeaX same KO
+K18049	mpnS	target	MePn_synthesis	0	methylphosphonate synthase; KOfam threshold '-'
+K10944	pmoA	target	methanotrophy	0	KO lumps pmoA with amoA; split by reference taxonomy into pmoA vs amoA (amoA = decoy for pmoA)
+K16157	mmoX	target	methanotrophy	0	sMMO hydroxylase alpha
+K12905	hepD	decoy	MePn_synthesis_decoy	0	HEPD, closest paralog of MpnS; KOfam threshold '-'
+K00656	pflB	decoy	GRE_decoy	3000	pyruvate formate-lyase (GRE) vs CutC
+K18427	hpdB	decoy	GRE_decoy	0	4-hydroxyphenylacetate decarboxylase (GRE)
+K07540	bssA	decoy	GRE_decoy	0	benzylsuccinate synthase (GRE)
+K06866	grcA	decoy	GRE_decoy	0	autonomous glycyl radical cofactor
+K04069	pflA	decoy	GRE_activase_decoy	3000	PFL activase vs CutD
+K04070	pflX	decoy	GRE_activase_decoy	0	putative PFL activase vs CutD
+K00499	cmo	decoy	Rieske_decoy	0	choline monooxygenase (Rieske) vs CntA
+K03862	vanA	decoy	Rieske_decoy	0	vanillate monooxygenase (Rieske) vs CntA
+K00479	gbcA	decoy	Rieske_decoy	0	glycine betaine monooxygenase A (Rieske) vs CntA
+K03863	vanB	decoy	reductase_decoy	0	vanillate MO reductase vs CntB
+K21832	gbcB	decoy	reductase_decoy	0	glycine betaine MO reductase vs CntB
+K18223	prmA	decoy	SDIMO_decoy	0	propane monooxygenase alpha vs MmoX
+K15760	tmoA	decoy	SDIMO_decoy	0	toluene monooxygenase alpha vs MmoX
+K22353	amoC_alkene	decoy	SDIMO_decoy	0	alkene monooxygenase alpha vs MmoX
+K21317	bmoX	decoy	SDIMO_decoy	0	butane monooxygenase alpha vs MmoX
+K01599	hemE	decoy	UROD_decoy	3000	uroporphyrinogen decarboxylase (MtaA/MtbA family) 
+K02041	phnC	decoy	ABC_decoy	0	phosphonate ABC ATPase vs PhnK/PhnL
+K02031	ddpD	decoy	ABC_decoy	3000	peptide ABC ATPase vs PhnK/PhnL
+K02032	ddpF	decoy	ABC_decoy	3000	peptide ABC ATPase vs PhnK/PhnL
+K02003	ABC.CD.A	decoy	ABC_decoy	3000	ABC ATPase vs PhnK/PhnL
+K01990	ABC-2.A	decoy	ABC_decoy	3000	ABC-2 ATPase vs PhnK/PhnL
+K02886	uL2	marker	SCG	3000	rplB; bacteria + archaea, one KO
+K02867	uL11	marker	SCG	3000	rplK
+K02982	uS3	marker	SCG	3000	rpsC
+K02948	uS11	marker	SCG	3000	rpsK
+K02950	uS12	marker	SCG	3000	rpsL
+K02996	uS9	marker	SCG	3000	rpsI
+K02926	uL4	marker	SCG	3000	rplD (bacterial KO of uL4)
+K02930	uL4	marker	SCG	3000	archaeal KO of uL4 (KEGG 'L4e'); merged with K02926
+K02878	uL16	marker	SCG	3000	rplP (bacterial KO of uL16)
+K02866	uL16	marker	SCG	3000	archaeal KO of uL16 (KEGG 'L10e'); merged with K02878

@@ -202,5 +202,8 @@ The *Methanolobus* genome has no MtaB or MtaC, so it cannot use methanol.
 
 - **Ranking:** methanogen biomass × methylamine CH4 potential vs measured CH4 gives ρ = −0.31 (p = 0.56).
 - **Model yield:** the model's 7.9 g mol⁻¹ is at the efficient end of published yields (1.8–7.3 g mol⁻¹). Published yields would lower the required growth rates up to fourfold.
-- **Biomass:** these figures still rest on the single *Methanolobus* MAG species. The read-based *mcrA* survey (`../read_markers/`, running) will show whether other methanogens add biomass.
+- **Biomass:** these figures rest on the single *Methanolobus* MAG species. The read-based *mcrA* survey (`../../read_markers/README.md`, done 2026-11-24) answers this.
+  - **What it found:** total *mcrA* is 1.7× the MAG pooled over the 12 unrestored-core samples, and 42 % of *mcrA* reads come from other methanogens (*Methanohalophilus*, *Methanogenium*, *Methanococcoides*; 93 % unassembled).
+  - **Effect on the required rates:** scaling the methanogen biomass per sample by the *mcrA* fold (`simulations/specific_rates.py`, "(read-based abundance)") lowers the required activity to 1.3–9.3 mmol g⁻¹ h⁻¹ in R1 and 18.5–44 in R2 (doubling 9.4–69 h and 2.0–4.7 h). It does not change the ranking (ρ = −0.66, p = 0.17).
+  - **Conclusion:** unbinned methanogens lower the R2 requirement about two- to fivefold but do not close it.
 

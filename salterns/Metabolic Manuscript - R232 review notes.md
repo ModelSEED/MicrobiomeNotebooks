@@ -116,12 +116,48 @@ The Google Doc changed on 2026-11-16 and 2026-11-17 (Drive modifiedTime 2026-11-
 - **The KOfam-arm methanol growth was an artefact.**
 - **PrmA:** rxn00844 closed in both *Roseovarius* models. The gene is propane 2-monooxygenase.
 
+**Read-based guild abundance** (added later on 2026-11-24; `reassembly_2026/read_markers/README.md`).
+- **The survey:** DIAMOND blastx of all 2.08 billion QC reads against KEGG GENES and UniProt Pfam references plus the salterns proteins, with decoy paralogs. Counts are copies per genome equivalent (mean depth of eight universal ribosomal proteins). Cut-offs come from hold-out validation: *mcrA*, *phnJ* and *grdI* have recall ≥ 0.99 and precision ≥ 0.93.
+- **Read / MAG abundance in the 12 unrestored-core samples:**
+
+| Gene (guild) | Read / MAG |
+|---|---|
+| *phnJ* (MPn consumers) | 1.7–2.4× |
+| *grdI* (betaine reducers) | 1.3–2.4× |
+| *mcrA* (methanogens) | 1.7× pooled (0.9–14.6× per sample) |
+
+  - The large *mcrA* folds appear only where the *Methanolobus* MAG is scarce: R2_A_D1, R2_A_D2 and R2_C_D2, with 16–66 *mcrA* reads each.
+- ***mcrA* taxonomy** (830 reads): *Methanolobus* 58 %, *Methanohalophilus* 17 %, *Methanogenium* 6.5 %, *Methanococcoides* 5.9 %. 93 % of the non-*Methanolobus* reads are unassembled.
+- ***phnJ* taxonomy:** 87 % bacterial (*Roseovarius* 37 %, *Marivita* 14 %) and 13 % haloarchaeal.
+- **TMA producers:** no MAG is two-sided, but *cutC* + *cntA* reads amount to 1.7–9.5 copies per 100 genome equivalents.
+- **Unassembled share:** in the sediments, reads of the universal markers lie in no contig ≥ 1 kb for 39 % (R1), 46 % (R2), 76 % (R2A) and 80 % (SF2). So the large unbinned fraction is an assembly (depth/diversity) limit, not a binning one. (The denominators differ from CoverM's unbinned fraction; the two are parallel observations.)
+- **Per-gram effect:** `specific_rates.py` adds "(read-based abundance)" scenarios, which scale each guild's biomass per sample by the read/MAG fold.
+
+| Guild | Read-based doubling time needed |
+|---|---|
+| MPn consumers, ratio 0.07 | 4–28 min |
+| MPn consumers, ratio 0.33 | 16 min–1.8 h |
+| MPn consumers, MPn the only P source | 1.1–7.1 h |
+| Betaine reducers (0.06) | 2.3–55 h |
+| Methanogens | R1 9.4–69 h (1.3–9.3 mmol g⁻¹ h⁻¹); R2 2.0–4.7 h (18.5–44 mmol g⁻¹ h⁻¹) |
+
+  - The methanogen doubling times assume that every *mcrA* carrier has *Methanolobus*'s yield; the q values do not depend on yield.
+  - Ranking stays null: methanogen ρ = −0.66 (p = 0.17), MPn −0.09, betaine −0.26.
+- **Text:**
+  - P40: the read-based scaling.
+  - P71: MPn read-based doubling times.
+  - P76: the methanogen chain now reports the *mcrA* survey and the read-based requirements; "unless methanogens not recovered as MAGs" is now tested, leaving non-growth methanogenesis and DNA content open.
+  - P95 and the P100 comment: "one to five hours in the R2 cores".
+  - P96 (Discussion, unbinned): the unassembled share and the folds, as a tracked insertion.
+  - Figure 7 caption: the open symbols.
+  - Builder: a new Methods paragraph (read survey, with a comment listing citations to add: DIAMOND, KEGG, UniProt, MMseqs2) and a new Results paragraph after the guild paragraph.
+- **Figure 7b:** open symbols joined to the filled ones show the read-based doubling times.
+
 **Still open:**
-- the read-based gene survey (`reassembly_2026/read_markers/`, running): whether unbinned methanogens raise the methanogen biomass, especially in R2;
 - the Google Doc re-sync (the Doc changed 2026-11-23);
 - the suggestion batch.
 
-**Build:** "All validations PASSED" (492 → 1,076 paragraphs).
+**Build:** "All validations PASSED" (492 → 1,078 paragraphs).
 
 ## 2026-11-23: modelling text and Figure 7 from the 2026 guild models
 

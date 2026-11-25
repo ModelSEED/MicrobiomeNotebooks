@@ -9,7 +9,11 @@ at 1 h-1). For each guild and each unrestored core:
                    biomass would supply the measured flux by growth-coupled production; doubling time = ln 2 / mu.
 Scenarios: MePn consumers at phosphate-source ratios 0.07 and 0.33 and with MePn as the only P source; betaine
 reducers with TMA at the protocol optimum, methane = 0.06 x TMA (the manuscript's community conversion) or 2.25 x TMA
-(complete methylotrophic conversion); the methanogen (Methanolobus.1) on methanol and on TMA.
+(complete methylotrophic conversion); the methanogen (Methanolobus.1, curated model) on methylamines.
+Each scenario is repeated as "<name> (read-based abundance)": the guild's biomass in each sample is multiplied by the
+read/MAG fold of its marker gene (mcrA, phnJ, grdI copies per genome equivalent in all reads / the guild MAGs' genomes
+per genome equivalent; ../../read_markers/results/key_unrestored_cores.tsv), to count members not recovered as MAGs.
+For the methanogen this assumes every mcrA carrier has Methanolobus's k (the required activity CH4 / B does not).
 Ranking is unaffected by mu: Spearman of measured CH4 with each guild's k x B (exact permutation p, n = 6).
 Run after per_gram_yields.py: ~/Documents/py_venv/bin/python specific_rates.py -> specific_rates.tsv, specific_rates.json
 """
@@ -37,8 +41,16 @@ YM = Y0[Y0.guild == "mepn_consumer"].set_index("mag_id")      # UBA8670 has a mo
 YB = Y0[Y0.guild == "betaine_reducer"].set_index("mag_id")
 
 
-def biomass(mag, core):                                    # g dry biomass m-2
-    return sum(rel.loc[mag, f"{core}_{d}"] * dna[f"{core}_{d}"] * cm * 0.7 * 1e4 / 0.1 / 1e6 for d, cm in LAYER.items())
+def biomass(mag, core, fold=None):                         # g dry biomass m-2; fold: per-sample read/MAG multiplier
+    return sum(rel.loc[mag, f"{core}_{d}"] * dna[f"{core}_{d}"] * cm * 0.7 * 1e4 / 0.1 / 1e6
+               * (fold[f"{core}_{d}"] if fold is not None else 1.0) for d, cm in LAYER.items())
+
+
+# read-based abundance (../../read_markers/results/key_unrestored_cores.tsv): per sample, the guild's marker-gene copies
+# per genome equivalent in all reads / its MAG genomes per genome equivalent (mcrA, phnJ, grdI)
+RM = pd.read_csv(S / "reassembly_2026/read_markers/results/key_unrestored_cores.tsv", sep="\t")
+FOLD = {gname: RM[RM.guild == gname].set_index("sample").fold_read_vs_MAG.astype(float).to_dict()
+        for gname in ("methanogen", "mepn_consumer", "betaine_reducer")}
 
 
 def methanogen_k():
@@ -70,12 +82,16 @@ def main():
         "Betaine, 2.25 CH4 per TMA": {m: 2.25 * YB.loc[m, "k_TMA_unbounded_min"] for m in bet},
         **{f"Methanogen, {s}": {mm: v for mm in meth} for s, v in km.items()},
     }
+    fold_of = {"MePn": "mepn_consumer", "Betaine": "betaine_reducer", "Methanogen": "methanogen"}
+    for name in list(scen):
+        scen[name + " (read-based abundance)"] = scen[name]
     rows, ranks = [], {}
     for name, kk in scen.items():
-        cap = pd.Series({c: sum(k * biomass(m, c) for m, k in kk.items()) for c in CORES})   # mmol CH4 m-2 per unit mu (h)
+        fold = FOLD[fold_of[name.split(",")[0]]] if name.endswith("(read-based abundance)") else None
+        cap = pd.Series({c: sum(k * biomass(m, c, fold) for m, k in kk.items()) for c in CORES})   # mmol CH4 m-2 per unit mu (h)
         mu = ch4 / 1000 / 24 / cap                                                            # h-1
         for c in CORES:
-            rows.append({"scenario": name, "core": c, "CH4_measured_umol_m2_d": ch4[c], "k_x_B_mmol_per_m2": cap[c],
+            rows.append({"scenario": name, "core": c, "biomass_g_m2": sum(biomass(m, c, fold) for m in kk), "CH4_measured_umol_m2_d": ch4[c], "k_x_B_mmol_per_m2": cap[c],
                          "mu_required_h": mu[c], "doubling_time_h": math.log(2) / mu[c]})
         ranks[name] = exact(cap[CORES], ch4[CORES])
     t = pd.DataFrame(rows)

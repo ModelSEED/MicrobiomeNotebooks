@@ -8,6 +8,8 @@ guild's measured biomass would need to supply the measured emissions. Sources (r
   simulations/per_gram_yields.tsv, specific_rates.tsv/.json (per_gram_yields.py, specific_rates.py; PrmA blocked)
   models/methanogen/curation_k.json, CURATION.md (curated Methanolobus model)
   community_eval/methanogen_test_by_core.tsv, methanogen_test_curated.tsv (specific activity, methylamine pools)
+  ../read_markers/results/ (read-based guild abundance: key_unrestored_cores.tsv, mcrA_taxonomy_unrestored_pooled.tsv,
+  binned_unbinned_split.tsv); specific_rates.py's "(read-based abundance)" scenarios scale each guild's biomass by it
 The wording's preconditions are asserted. Run: ~/Documents/py_venv/bin/python make_modelling_edits_2026-11-24.py
 """
 import copy
@@ -25,7 +27,8 @@ CE = M / "community_eval"
 DATE = "2026-11-24T00:00:00Z"
 CORES = ["R1_A", "R1_B", "R1_C", "R2_A", "R2_B", "R2_C"]
 SRC = ("reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, "
-       "specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv")
+       "specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; "
+       "reassembly_2026/read_markers/README.md (read-based guild abundance)")
 
 base = json.load(open(HERE / "r232_review_edits_2026-11-23.json"))
 Y = pd.read_csv(SIM / "per_gram_yields.tsv", sep="\t")
@@ -39,6 +42,10 @@ IDS = json.load(open(S / "correlational/final585/iterativeIDs_final585.json"))
 G = pd.read_csv(S / "correlational/final585/guilds_final585.csv").set_index("mag")
 rel = pd.read_csv(S / "reassembly_2026/abundance_final/final585_relabund_24sediment.tsv", sep="\t", index_col=0)
 dna = pd.read_csv(S / "data/SaltPondsDNA.csv").set_index("Sample")["DNA conc (µg/g soil)"]
+RMK = S / "reassembly_2026/read_markers/results"
+RM = pd.read_csv(RMK / "key_unrestored_cores.tsv", sep="\t")
+MTAX = pd.read_csv(RMK / "mcrA_taxonomy_unrestored_pooled.tsv", sep="\t")
+SPLIT = pd.read_csv(RMK / "binned_unbinned_split.tsv", sep="\t")
 
 
 def dt(name):
@@ -80,9 +87,39 @@ q = MT["methanogen_q_required_mmol_g_h"]
 turn = MT["methylamine_turnover_days_required"]
 R1, R2 = ["R1_A", "R1_B", "R1_C"], ["R2_A", "R2_B", "R2_C"]
 assert dm[R2].max() < 2 and dm[R1].min() > 3, "methanogen R1/R2 contrast changed"
-rho = SRJ["ranking_spearman_exact"]
+RB = " (read-based abundance)"
+rho_all = SRJ["ranking_spearman_exact"]
+rho = {k: v for k, v in rho_all.items() if not k.endswith(RB)}              # MAG-based abundance (primary)
+rho_rb = {k[:-len(RB)]: v for k, v in rho_all.items() if k.endswith(RB)}     # read-based abundance (sensitivity)
 assert abs(rho["MePn, ratio 0.07"][0] - rho["MePn, only P source"][0]) < 1e-9 and abs(rho["MePn, ratio 0.07"][0]) < 0.3
-assert all(rho[k][1] > 0.2 for k in rho), "a guild now ranks the cores"
+assert all(rho[k][1] > 0.2 for k in rho), "a guild now ranks the cores (MAG-based)"
+assert all(v[1] > 0.15 and v[0] < 0.3 for v in rho_rb.values()), "a guild now ranks the cores (read-based)"
+# ---- read-based guild abundance (../read_markers): per sample, marker copies per genome equivalent (GE) in all reads /
+# the guild MAGs' genomes per GE; the methanogen doubling times assume every mcrA-carrying organism has Methanolobus's k
+FOLD = {gname: RM[RM.guild == gname].set_index("sample").fold_read_vs_MAG.astype(float)
+        for gname in ("methanogen", "mepn_consumer", "betaine_reducer")}
+rmm = RM[RM.guild == "methanogen"]
+mcrA_pooled = float(rmm.mcrA_copies_per_GE.sum() / rmm.mag_genomes_per_GE.sum())
+big = rmm[rmm.fold_read_vs_MAG > 3]
+assert set(big["sample"]) == {"R2_A_D1", "R2_A_D2", "R2_C_D2"}, "the samples with a several-fold mcrA excess changed"
+mcrA_big_reads = [int(big.mcrA_reads.min()), int(big.mcrA_reads.max())]
+other = MTAX[MTAX.genus != "Methanolobus"]
+other_share = float(other.reads.sum() / MTAX.reads.sum())
+other_unasm = float(other.unassembled.sum() / other.reads.sum())
+top_other = other.groupby("genus").reads.sum().sort_values(ascending=False)
+assert list(top_other.index[:3]) == ["Methanohalophilus", "Methanogenium", "Methanococcoides"], top_other.head()
+dm_rb, d07_rb, dP_rb = dt("Methanogen, methylamines" + RB), dt("MePn, ratio 0.07" + RB), dt("MePn, only P source" + RB)
+d33_rb, db06_rb = dt("MePn, ratio 0.33" + RB), dt("Betaine, 0.06 CH4 per TMA" + RB)
+q_rb = SR[SR.scenario == "Methanogen, methylamines" + RB].set_index("core").mu_required_h * km
+assert dm_rb[R2].max() < 6 and dm_rb[R2].min() > 1.5 and q_rb[R2].min() > 10, "read-based R2 methanogen wording"
+assert (dm_rb >= dm - 1e-9).all() and (d07_rb >= d07 - 1e-9).all(), "read-based abundance should only lengthen doubling"
+fmep, fbet = FOLD["mepn_consumer"], FOLD["betaine_reducer"]
+mk = SPLIT[SPLIT.label.isin(["uL11", "uL16", "uL2", "uL4", "uS11", "uS12", "uS3", "uS9"])
+           & SPLIT["sample"].str.contains("_D[12]$")].copy()
+mk["site"] = mk["sample"].str.split("_").str[0]
+mks = mk.groupby("site")[["reads", "unassembled"]].sum()
+unasm = (mks.unassembled / mks.reads * 100).round(0)
+assert unasm[["R2A", "SF2"]].min() > 70 and unasm[["R1", "R2"]].max() < 50, "unassembled marker shares changed"
 DNA3 = 0.10 / 0.03                                            # biomass multiplier if DNA were 3 % of dry biomass
 n_mep = int(((MS.guild == "mepn_consumer") & (MS.kept == True)).sum())
 n_bet = int(((MS.guild == "betaine_reducer") & (MS.kept == True)).sum())
@@ -103,7 +140,15 @@ FACTS = dict(k07=k07, k33=k33, kP=kP, k_meth=km, k_meth_range=KM["coupling_range
              betaine_chain_doubling_h=[dch.min(), dch.max()], methanogen_doubling_h=dm.round(2).to_dict(),
              methanogen_q_required=q.round(2).to_dict(), methylamine_turnover_d=turn.round(2).to_dict(),
              rho={k: v[0] for k, v in rho.items()}, rhodobacteraceae_share=float(fam.get("Rhodobacteraceae", 0)),
-             roseovarius_share=float(gen.get("Roseovarius", 0)))
+             roseovarius_share=float(gen.get("Roseovarius", 0)),
+             read_based=dict(rho={k: v for k, v in rho_rb.items()}, mcrA_fold_pooled=mcrA_pooled,
+                             fold_range={g_: [float(v.min()), float(v.max())] for g_, v in FOLD.items()},
+                             mcrA_other_methanogens_share=other_share, mcrA_other_unassembled=other_unasm,
+                             methanogen_q_required=q_rb.round(2).to_dict(), methanogen_doubling_h=dm_rb.round(2).to_dict(),
+                             mepn_doubling_h={"0.07": [d07_rb.min(), d07_rb.max()], "0.33": [d33_rb.min(), d33_rb.max()],
+                                              "only_P": [dP_rb.min(), dP_rb.max()]},
+                             betaine_doubling_h_006=[db06_rb.min(), db06_rb.max()],
+                             marker_reads_unassembled_pct_by_site=unasm.to_dict()))
 
 NEW = {}
 
@@ -174,7 +219,12 @@ put("p40", 40, "replace_paragraph", "for direct comparison and consistent flux i
     f"were 3% of dry biomass, every biomass would be {DNA3:.1f} times larger and every required rate {DNA3:.1f} times "
     "smaller. Spearman rank correlations (exact permutation p values) between each guild’s methane per unit of growth "
     "and the measured emissions of the six unrestored cores test whether the models follow the differences among "
-    "cores.", "explicit-rate comparison; the 10 % DNA constant and its sensitivity are stated")
+    "cores. To include guild members not recovered as MAGs, each guild’s biomass was also scaled, in each sample, by "
+    "the copies of its marker gene per genome equivalent in all sequenced reads (*mcrA* for methanogens, *phnJ* for MPn "
+    "consumers, *grdI* for betaine reducers; see Metagenomics) divided by its MAGs’ genomes per genome equivalent. The "
+    "required specific methanogenic activity does not depend on the methane yield; the doubling times computed from "
+    "the read-based methanogen biomass assume that every *mcrA*-carrying organism has the yield of the *Methanolobus* "
+    "model.", "explicit-rate comparison; the 10 % DNA constant and its sensitivity are stated; read-based scaling")
 put("p69_dna", 69, "replace",
     "Soil DNA density was significantly positively correlated with methane flux (Figure S7), therefore, we only used methane emissions and fluxes that were normalized by DNA density for all modeling efforts.",
     "Soil DNA concentration was weakly and not significantly correlated with methane flux (Figure S7; R^2^ = 0.22, "
@@ -192,7 +242,11 @@ put("p71", 71, "replace_paragraph", "reveals that generally the models predict h
     f"At a ratio of 0.33 (at least 0.33 mol of methylphosphonate per mol of inorganic phosphate, about 25% of the "
     f"phosphate taken up) the yield rose to {k33:.3f} mmol g⁻¹, and the required doubling times to "
     f"{rng_t('MePn, ratio 0.33')}; even with methylphosphonate as the only phosphorus source the yield reached only "
-    f"{kP:.2f} mmol g⁻¹, and the doubling times {rng_t('MePn, only P source')}. Such rates are implausibly fast for "
+    f"{kP:.2f} mmol g⁻¹, and the doubling times {rng_t('MePn, only P source')}. C–P lyase (*phnJ*) genes were "
+    f"{fmep.min():.1f}–{fmep.max():.1f} times as abundant in all sequenced reads as in the MPn-consumer MAGs, so "
+    f"counting MPn consumers not recovered as MAGs lengthens these doubling times only to {rng_t('MePn, ratio 0.07' + RB)} "
+    f"at a ratio of 0.07 and {rng_t('MePn, only P source' + RB)} with methylphosphonate as the only phosphorus source "
+    "(Figure 7b, open symbols). Such rates are implausibly fast for "
     "sediment microorganisms, so assimilation of methylphosphonate by the modeled consumers cannot supply the measured "
     "emissions unless methylphosphonate is degraded well beyond the phosphorus they assimilate (for example, with the "
     "phosphate excreted or stored as polyphosphate), which the models do not represent.",
@@ -235,22 +289,35 @@ put("p76", 76, "replace_paragraph", "requiring substantially more adjustments in
     "spends methane on maintenance, its required specific methanogenic activity is the more direct measure: given its "
     f"measured biomass, the measured emissions require {q[R1].min():.0f}–{q[R1].max():.0f} mmol g⁻¹ h⁻¹ in the R1 cores "
     f"and {q[R2].min():.0f}–{q[R2].max():.0f} mmol g⁻¹ h⁻¹ in the R2 cores, equivalent to growth-coupled doubling "
-    f"times of {rng_t('Methanogen, methylamines', R1)} and {rng_t('Methanogen, methylamines', R2)}. Doubling about "
-    "every hour, as in the R2 cores, seems unlikely for sediment methanogens unless methanogens not recovered as MAGs, "
-    "non-growth methanogenesis, or a lower DNA content of biomass add to the methane. The standing porewater pools of mono-, di- and trimethylamine could supply the measured "
+    f"times of {rng_t('Methanogen, methylamines', R1)} and {rng_t('Methanogen, methylamines', R2)}. Methanogens not "
+    "recovered as MAGs lower these requirements but do not remove them. In all sequenced reads of the six cores, *mcrA* "
+    f"was {mcrA_pooled:.1f} times as abundant as the *Methanolobus* MAG (several-fold only in three R2 samples where the "
+    f"MAG was scarce and *mcrA* reads few, {mcrA_big_reads[0]}–{mcrA_big_reads[1]} per sample), and "
+    f"{other_share * 100:.0f}% of the *mcrA* reads came from other methanogens, mostly *Methanohalophilus*, "
+    f"*Methanogenium* and *Methanococcoides*, {other_unasm * 100:.0f}% of them in no assembled contig. With the "
+    "methanogens’ biomass scaled to the *mcrA* reads, the measured emissions require "
+    f"{q_rb[R1].min():.0f}–{q_rb[R1].max():.0f} mmol g⁻¹ h⁻¹ in the R1 cores and {q_rb[R2].min():.0f}–{q_rb[R2].max():.0f} "
+    f"mmol g⁻¹ h⁻¹ in the R2 cores (doubling times of {rng_t('Methanogen, methylamines' + RB, R1)} and "
+    f"{rng_t('Methanogen, methylamines' + RB, R2)}). Doubling every few hours, as in the R2 cores, still seems unlikely "
+    "for sediment methanogens unless non-growth methanogenesis or a lower DNA content of biomass add to the methane. The "
+    "standing porewater pools of mono-, di- and trimethylamine could supply the measured "
     f"emissions if turned over every {turn.min():.1f}–{turn.max():.1f} days, and supplying the TMA for complete "
     f"conversion would need the betaine reducers to double only every {rng_t('Betaine, 2.25 CH4 per TMA')}. Neither "
-    f"the methanogen’s biomass (Spearman ρ = {num(rho['Methanogen, methylamines'][0], '.2f')}) nor that of any other guild "
-    "followed the differences in emissions among the six cores.",
-    "betaine -> TMA -> methanogen chain; required specific activity first; R1/R2 contrast")
+    f"the methanogens’ biomass (Spearman ρ = {num(rho['Methanogen, methylamines'][0], '.2f')} for the MAG and "
+    f"{num(rho_rb['Methanogen, methylamines'][0], '.2f')} counting all *mcrA* reads, p ≥ "
+    f"{min(rho['Methanogen, methylamines'][1], rho_rb['Methanogen, methylamines'][1]):.2f}) nor that of any other "
+    "guild followed the differences in emissions among the six cores.",
+    "betaine -> TMA -> methanogen chain; required specific activity first; R1/R2 contrast; methanogens in the reads")
+assert dm[R2].min() > 0.75 and max(dm[R2].max(), dm_rb[R2].max()) < 5.5, "'one to five hours' in the R2 cores"
 put("p95_models", 95, "replace",
     "This was mechanistically corroborated by metabolic models that reproduced the experimental methane emissions with high accuracy (R2 = 0.978), and demonstrate that methane is generated stoichiometrically from methylphosphonate.",
     "Metabolic models show why: a C–P lyase releases one methane per methylphosphonate cleaved for phosphorus, so the "
     f"modeled MPn consumers released only {k07:.2f}–{kP:.2f} mmol of methane per gram of biomass formed, about "
     f"{fold:,.0f} times less than the methylotrophic methanogen, for which methane is the product of its energy "
     "metabolism. Their measured biomass could supply the measured emissions only at doubling times of minutes to "
-    "hours, whereas the methanogen’s would need doubling times of hours to days in the R1 cores and about an hour in "
-    "the R2 cores; neither guild’s biomass followed the differences in emissions among the six cores.",
+    "hours, whereas the methanogens’ would need doubling times of hours to days in the R1 cores and one to five hours "
+    "in the R2 cores, also when the methanogens found only in the reads are counted; neither guild’s biomass followed "
+    "the differences in emissions among the six cores.",
     "per-gram Discussion")
 put("p95_param", 95, "replace",
     "The metabolic models only parameterized the relative abundances of each member and trace consumption of methylphosphonate, which encourages that these are natural outcomes of the metabolism and not forced behaviors during optimization.",
@@ -268,8 +335,9 @@ put("p99", 99, "replace",
 put("p100_comment", 100, "comment", "We therefore propose methylphosphonate as the primary source of methane",
     "Consider revising this conclusion. Per gram of biomass formed, methylphosphonate assimilation releases about "
     f"{fold:,.0f}-fold less methane than methylotrophic methanogenesis, and the measured emissions would require the MPn "
-    "consumers to double every minutes to hours; the detected Methanolobus would need doubling times of hours to days "
-    "in the R1 cores and about an hour in the R2 cores (Figure 7). In the re-assembled MAG set no guild's abundance tracks "
+    "consumers to double every minutes to hours; the methanogens would need doubling times of hours to days in the R1 "
+    "cores and one to five hours in the R2 cores, counting the Methanolobus MAG alone or all mcrA reads (Figure 7). In the "
+    "re-assembled MAG set no guild's abundance tracks "
     "methane more closely than random sets of species (Table 5). The support for methylphosphonate rests on the "
     "substrate-addition (Figure 4) and culturing (Figure 6) results; the models fit methylphosphonate only if it is "
     "degraded far beyond assimilatory phosphorus demand. For example: 'We propose that methylphosphonate degradation "
@@ -283,12 +351,25 @@ put("fig7", 129, "replace_paragraph", "Figure 7. Assessing methylphosphonate and
     f"*Methanolobus* model on methylamines (green; bar, {KM['coupling_range'][0]:.0f}–{KM['coupling_range'][1]:.0f} "
     "mmol g⁻¹ across published ion couplings); black lines are medians. (b) Doubling time (ln 2 / µ) at which each "
     "guild’s measured biomass in each core (relative abundance × soil DNA × layer thickness, DNA taken as 10% of dry "
-    "biomass) would supply the measured emission by growth-coupled methane release; dotted lines mark 10 min, 1 h, "
+    "biomass) would supply the measured emission by growth-coupled methane release (filled symbols); open symbols "
+    "scale each guild’s biomass by its marker gene’s abundance in all sequenced reads relative to its MAGs (*phnJ*, "
+    "*grdI*, *mcrA*); dotted lines mark 10 min, 1 h, "
     f"1 day and 1 week. {drop_id} did not grow and is not modeled. No guild’s yield × biomass is correlated with the "
     f"measured emissions across the six cores (Spearman ρ from {num(min(v[0] for v in rho.values()), '.2f')} to "
-    f"{num(max(v[0] for v in rho.values()), '.2f')}).",
+    f"{num(max(v[0] for v in rho.values()), '.2f')}; read-based, {num(min(v[0] for v in rho_rb.values()), '.2f')} to "
+    f"{num(max(v[0] for v in rho_rb.values()), '.2f')}).",
     "Figure 7 replaced by figure7_pergram.png")
 
+put("p96_unassembled", 96, "insert_before", "The unrestored systems are relatively well defined",
+    "Much of this fraction was never assembled: of the reads of eight universal single-copy ribosomal-protein genes, "
+    f"{unasm['R1']:.0f}% (R1), {unasm['R2']:.0f}% (R2), {unasm['R2A']:.0f}% (R2A) and {unasm['SF2']:.0f}% (SF2) lay in "
+    "no contig of at least 1 kb, so the unbinned fraction mainly reflects organisms too rare or too diverse to assemble "
+    "at this sequencing depth rather than contigs left out of bins. Counted in all reads, the guilds’ marker genes were "
+    f"{fmep.min():.1f}–{fmep.max():.1f} (*phnJ*), {fbet.min():.1f}–{fbet.max():.1f} (*grdI*) and, pooled, "
+    f"{mcrA_pooled:.1f} (*mcrA*) times as abundant as the guilds’ MAGs in the unrestored cores, which lengthens the "
+    "doubling times required of each guild by about these factors but does not change the conclusions of the models "
+    "(Figure 7b). ",
+    "why the unbinned fraction is large (assembly-limited), and the read-based guild abundance")
 put("p36_comment", 36, "comment", "The MAG-derived models were subjected",
     "2026 models (reassembly_2026/modelling_2026/models/README.md). Built with ModelSEEDpy (fork sync-cshenry-main "
     "311f720) on the curated templates of modelling_2026/templates/; RAST (arm A) won the pre-registered annotation "

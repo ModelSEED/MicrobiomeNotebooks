@@ -436,6 +436,39 @@ def table3():
 
 
 REASM = S / "reassembly_2026"
+RMK = REASM / "read_markers" / "results"
+
+
+def read_survey_facts():
+    """Read-based guild abundance in the 12 samples of the six unrestored cores (reassembly_2026/read_markers/README.md)."""
+    if not (RMK / "key_unrestored_cores.tsv").exists():
+        return None
+    km = pd.read_csv(RMK / "key_unrestored_cores.tsv", sep="\t")
+    fold = {g: km[km.guild == g].fold_read_vs_MAG.astype(float) for g in ("mepn_consumer", "betaine_reducer", "methanogen")}
+    mm = km[km.guild == "methanogen"]
+    mt = pd.read_csv(RMK / "mcrA_taxonomy_unrestored_pooled.tsv", sep="\t")
+    gen = mt.groupby("genus").reads.sum().sort_values(ascending=False) / mt.reads.sum()
+    oth = mt[mt.genus != "Methanolobus"]
+    pj = pd.read_csv(RMK / "CP_lyase_taxonomy_unrestored_pooled_phnJ.tsv", sep="\t")
+    pjg = pj.groupby("genus").reads.sum() / pj.reads.sum()
+    arch = pj[pj.phylum.isin(["Halobacteriota", "Methanobacteriota", "Thermoplasmatota", "Euryarchaeota"])].reads.sum() / pj.reads.sum()
+    tma = km[km.guild == "tma_producer"].read_based_copies_per_GE.astype(float)
+    sp = pd.read_csv(RMK / "split_per_gene_by_habitat.tsv", sep="\t")
+    sp = sp[sp.group == "unrestored_cores_12"].set_index("label").frac_unassembled
+    mk = ["uL11", "uL16", "uL2", "uL4", "uS11", "uS12", "uS3", "uS9"]
+    bs = pd.read_csv(RMK / "binned_unbinned_split.tsv", sep="\t")
+    bs = bs[bs.label.isin(mk) & bs["sample"].isin(km["sample"].unique())]
+    f = dict(mepn=[fold["mepn_consumer"].min(), fold["mepn_consumer"].max()],
+             bet=[fold["betaine_reducer"].min(), fold["betaine_reducer"].max()],
+             mcrA_pooled=mm.mcrA_copies_per_GE.sum() / mm.mag_genomes_per_GE.sum(),
+             mcrA_range=[fold["methanogen"].min(), fold["methanogen"].max()],
+             mcrA_reads=int(mt.reads.sum()), gen=gen.to_dict(), other_unasm=oth.unassembled.sum() / oth.reads.sum(),
+             phnJ_reads=int(pj.reads.sum()), roseovarius=pjg.get("Roseovarius", 0), marivita=pjg.get("Marivita", 0),
+             phnJ_archaeal=arch, tma=[tma.min(), tma.max()],
+             guild_unasm=[sp[["mcrA", "phnJ", "grdI"]].min(), sp[["mcrA", "phnJ", "grdI"]].max()],
+             marker_unasm=bs.unassembled.sum() / bs.reads.sum())
+    assert list(gen.index[:4]) == ["Methanolobus", "Methanohalophilus", "Methanogenium", "Methanococcoides"], gen.head()
+    return f
 
 
 def latest_numbers():
@@ -515,7 +548,7 @@ def add_reassembly_2026(mq_meth, res_anchor, t6, pending_comments, h3_pPr, h3_rp
         "*grdI*; methanogens carry *mcrA*; methylamine users carry *mttB*, *mtbB* or *mtmB* together with *mcrA*; and TMA "
         "producers carry *cutC* with *cutD*, or *cntA* with *cntB*.", body_rpr, lead_tab=True)
     if FS:
-        new_par_after(m3, body_pPr,
+        m5, _ = new_par_after(m3, body_pPr,
             f"The relative abundance of each of the {F['species']} species of the final set in each metagenome was estimated "
             "by mapping the BBDuk-trimmed read pairs to the species representatives with CoverM v0.7.0 (genome mode; "
             "minimap2 v2.30; reads aligned with ≥ 95% identity over ≥ 75% of their length) and dividing each species’ read "
@@ -524,6 +557,30 @@ def add_reassembly_2026(mq_meth, res_anchor, t6, pending_comments, h3_pPr, h3_rp
             "representative was labeled like the original MAGs (deepest named GTDB rank down to genus, numbered within that "
             "taxon), and a species that contains an original MAG keeps that MAG’s label. A species was assigned to a guild "
             "when any of its MAGs carried the marker gene.", body_rpr, lead_tab=True)
+    RS = read_survey_facts() if FS else None
+    if RS:
+        m6, w_m6 = new_par_after(m5, body_pPr,
+            "To count the guild genes independently of assembly and binning, every quality-filtered read of the 39 "
+            "metagenomes (2.08 billion reads, each mate a separate query) was compared with DIAMOND v2.2.8 (blastx, "
+            "--mid-sensitive) against reference proteins of the guild genes and of their closest paralogs. References were "
+            "the KEGG GENES members of each KEGG ortholog, UniProtKB members of the corresponding Pfam families labeled "
+            "with KOfam, and the KOfam-labeled proteins of the salterns assemblies, clustered at 99% identity. Paralogs "
+            "that are not guild genes (for example glycine reductase GrdB, other glycyl-radical enzymes, Rieske oxygenases "
+            "and soluble di-iron monooxygenases) were included as decoys, and reads whose best hit was a decoy were not "
+            "counted. Each read took the label of its best hit (E ≤ 10⁻⁵, at least 30 aligned amino acids; reads with an "
+            "equally good hit of another label were not counted), with minimum identities of 50% for the ribosomal-protein "
+            "markers and 60% for *cutC* and *cntA*. These cut-offs were chosen with simulated reads from reference "
+            "clusters withheld from the database, on which the guild markers *mcrA*, *phnJ* and *grdI* had a recall of at "
+            "least 0.99 and a precision of at least 0.93. Read counts were converted to gene copies per genome equivalent "
+            "by dividing each gene’s read depth by the mean depth of eight universal single-copy ribosomal-protein genes, "
+            "and compared with the guild MAGs’ genomes per genome equivalent from the CoverM read counts. The classified "
+            "reads were mapped back to the contigs of their own sample with Bowtie2 to place them on kept-MAG, other-bin "
+            "or unbinned contigs, or as unassembled.", body_rpr, lead_tab=True)
+        pending_comments.append((wrap(m6), w_m6.find(qn("w:r")),
+            "Added 2026-11-24 (read survey). Details, validation per gene and the placement check against two full "
+            "self-mapping BAMs (99.0 and 99.6% agreement): reassembly_2026/read_markers/README.md. Citations to add: "
+            "DIAMOND (Buchfink et al. 2021), KEGG (Kanehisa et al. 2025), UniProt (UniProt Consortium 2025), MMseqs2 "
+            "(Steinegger and Söding 2017). The cntA ortholog also holds YeaW-type choline/betaine monooxygenases."))
     pending_comments.append((wrap(m1), w_m1.find(qn("w:r")),
         "Added 2026-11-16 (re-assembly). Citations to add to the reference list: Trimmomatic (Bolger et al. 2014), SPAdes "
         "and metaSPAdes (Bankevich et al. 2012; Nurk et al. 2017), MEGAHIT (Li et al. 2015), MetaBAT2 (Kang et al. 2019), "
@@ -640,7 +697,7 @@ def add_reassembly_2026(mq_meth, res_anchor, t6, pending_comments, h3_pPr, h3_rp
                   f"annotation of the original MAG BM714.4{bm4_txt} was not supported: KOfam assigned its genes to the "
                   "glycine reductase subunits GrdE and GrdB." if FG["albimonas"]["mepn_mags"] == 0 and
                   FG["bm714_4_cluster"]["betaine_call"] is False else "")
-        new_par_after(r_last, body_pPr,
+        r_guild, _ = new_par_after(r_last, body_pPr,
             f"In the final MAG set (Table 4), KOfam assigned *phnJ* to {g['mepn_consumer']['mags']} MAGs in "
             f"{g['mepn_consumer']['species']} species, {nw(FG['mepn_species_rhodobacteraceae'])} of them Rhodobacteraceae "
             f"and {nw(FG['mepn_species_haloarchaea'])} haloarchaea. Betaine reductase (*grdH* or *grdI*) was found in "
@@ -655,6 +712,27 @@ def add_reassembly_2026(mq_meth, res_anchor, t6, pending_comments, h3_pPr, h3_rp
             f"identified by RAST among the original MAGs ({rm['rast_species']} species), the species of "
             f"{rm['recovered_with_call']} were recovered with *phnJ*, and {rm['further_final_species_without_original']} "
             f"further MPn-consumer species without an original MAG were found.{alb_bm}", body_rpr, lead_tab=True)
+        if RS:
+            G_ = RS["gen"]
+            new_par_after(r_guild, body_pPr,
+                "Counting the guild genes in all reads, rather than in the MAGs, showed how much of each guild the MAGs "
+                "captured in the six unrestored cores (12 samples). Per genome equivalent, *phnJ* copies were "
+                f"{RS['mepn'][0]:.1f}–{RS['mepn'][1]:.1f} times the MPn-consumer MAGs’ genomes, *grdI* copies "
+                f"{RS['bet'][0]:.1f}–{RS['bet'][1]:.1f} times the betaine reducers’, and *mcrA* copies {RS['mcrA_pooled']:.1f} "
+                f"times the *Methanolobus* MAG’s (pooled; {RS['mcrA_range'][0]:.1f}–{RS['mcrA_range'][1]:.1f} per sample, "
+                f"several-fold only where the MAG was scarce). Of the {RS['mcrA_reads']} *mcrA* reads, "
+                f"{G_['Methanolobus'] * 100:.0f}% came from *Methanolobus* and the rest from other methanogens, mostly "
+                f"*Methanohalophilus* ({G_['Methanohalophilus'] * 100:.0f}%), *Methanogenium* "
+                f"({G_['Methanogenium'] * 100:.1f}%) and *Methanococcoides* ({G_['Methanococcoides'] * 100:.1f}%); "
+                f"{RS['other_unasm'] * 100:.0f}% of these other methanogens’ reads lay in no assembled contig. The C–P "
+                "lyase reads were "
+                f"{(1 - RS['phnJ_archaeal']) * 100:.0f}% bacterial, led by *Roseovarius* ({RS['roseovarius'] * 100:.0f}%) and "
+                f"*Marivita* ({RS['marivita'] * 100:.0f}%), and {RS['phnJ_archaeal'] * 100:.0f}% haloarchaeal. Although no "
+                "MAG carried a complete TMA-producing gene pair, *cutC* and *cntA* reads together amounted to "
+                f"{RS['tma'][0] * 100:.1f}–{RS['tma'][1] * 100:.1f} copies per 100 genome equivalents, almost all bacterial. "
+                f"Between {RS['guild_unasm'][0] * 100:.0f}% and {RS['guild_unasm'][1] * 100:.0f}% of the *mcrA*, *phnJ* and "
+                "*grdI* reads lay in no contig of at least 1 kb, as did "
+                f"{RS['marker_unasm'] * 100:.0f}% of the reads of the universal markers.", body_rpr, lead_tab=True)
     else:
       new_par_after(r_last, body_pPr,
         "In the 1,324 first-pass MAGs, KOfam assigned *phnJ* to 87 MAGs in 35 species, 19 of them Rhodobacteraceae and "

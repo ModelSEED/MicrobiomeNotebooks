@@ -117,7 +117,7 @@
    "old": "This was corroborated by metabolic modeling, where trace consumption of methylphosphonic acid was sufficient to reproduce the experimental methane emissions.",
    "new": "In metabolic models, methylphosphonate-consuming bacteria released 0.04–0.66 mmol of methane per gram of biomass formed, set by the phosphorus they assimilate, whereas the methylotrophic methanogen detected in the same sediments released 126 mmol; to supply the measured emissions, the methylphosphonate consumers would have to double every 2 min to 3.8 h, and the methanogen would need a specific methanogenic activity of 2–99 mmol g⁻¹ h⁻¹.",
    "rationale": "per-gram framing; the Abstract states yields and required rates, the inference is in the P18 and P100 comments",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z",
    "mirror_index": 19
@@ -138,7 +138,7 @@
    "old": "to create a realistic consumption and excretion profile.",
    "new": "to create a realistic consumption and excretion profile. The ratio constraint bound in every model. A C–P lyase releases one methane per methylphosphonate it cleaves, and the models cleave methylphosphonate only for the phosphorus they assimilate, so each MPn-consumer model released a fixed amount of methane per gram of biomass formed (0.043–0.077 mmol g⁻¹ at a ratio of 0.07, depending on the template’s biomass), and at most the phosphorus content of biomass (about 0.66 mmol g⁻¹) if all phosphorus came from methylphosphonate.",
    "rationale": "ratio binds in all models; biochemistry of the yield",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -167,7 +167,7 @@
    "old": "Soil DNA density was significantly positively correlated with methane flux (Figure S7), therefore, we only used methane emissions and fluxes that were normalized by DNA density for all modeling efforts.",
    "new": "Soil DNA concentration was weakly and not significantly correlated with methane flux (Figure S7; R^2^ = 0.22, Spearman ρ = 0.52, p = 0.08, n = 12 cores).",
    "rationale": "DNA sentence; no DNA normalization in the per-gram comparison",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -177,7 +177,7 @@
    "old": "The simulated methane production of the MPn-consuming community members correlated remarkably well (R2 = 0.966) with the experimental methane emissions (Figure S8), and was most correlated when the phosphate source ratio was 0.07 (at least 1/14 of the total phosphate consumed in methylphosphonate versus inorganic phosphate).",
    "new": "At a phosphate source ratio of 0.07 (at least 0.07 mol of methylphosphonate per mol of inorganic phosphate, about 6.5% of the phosphate taken up), the 38 MPn-consumer models released 0.043 mmol of methane per gram of biomass formed (median; Figure 7a). Given their measured biomass, supplying the measured emissions of the six unrestored cores would require these organisms to double every 2 min to 15 min (Figure 7b).",
    "rationale": "per-gram MPn result",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -187,7 +187,7 @@
    "old": "and yield an almost identical fit to the best fitting regression (R2 = 0.968).",
    "new": "",
    "rationale": "regression removed",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -197,7 +197,7 @@
    "old": "It is worth noting that unconstraining the phosphate source ratio produced almost an identical fit (R2 = 0.970) and still resulted in methylphosphonate consumption by several marine organisms in the Rhodobacteraceae family: two species in the Roseovarius genera and one species in the Albimonas genera.",
    "new": "None of the 38 models needed methylphosphonate to grow: each also grew with inorganic phosphate, or with methylphosphonate, as its only phosphorus source, so the methylphosphonate taken up, and with it the methane, was set by the assumed ratio. Their methane per unit of growth did not follow the differences in emissions among the six cores (Spearman ρ = 0.03, n = 6), because it is proportional to their biomass, and most of it came from the Rhodobacteraceae family.",
    "rationale": "obligacy, ranking, family",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -207,7 +207,7 @@
    "old": "which supports that this taxa is uniquely responsible for the methane emissions.",
    "new": "which is consistent with this family contributing to the methane emissions (Rhodobacteraceae accounted for 76% of the MPn consumers’ methane per unit of growth, *Roseovarius* alone 52%).",
    "rationale": "family shares from yield x measured biomass (PrmA blocked)",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -217,7 +217,7 @@
    "old": "The simulated methane production of the betaine-consuming community members correlated slightly less well (R2 = 0.862) with the experimental methane emissions (Figure 7),",
    "new": "The 18 betaine-reducer models excreted 48–192 mmol of TMA per gram of biomass formed; at the assumed 0.06 methane per TMA (Methods), their measured biomass would supply the measured emissions at doubling times of 1.0 h to 35 h, and their methane per unit of growth was not correlated with the emissions either (Spearman ρ = −0.26, n = 6; Figure 7).",
    "rationale": "per-gram betaine result",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -225,9 +225,9 @@
    "paragraph": 76,
    "kind": "replace_paragraph",
    "old": "requiring substantially more adjustments in the slope and th",
-   "new": "Methane from betaine depends on a second organism that converts the TMA, and only one species among the MAGs carries *mcrA*: *Methanolobus*.1, whose curated model released 126 mmol of methane per gram of biomass formed on methylamines (120–159 mmol g⁻¹ across published ion couplings), about 2,900 times the MPn consumers’ yield at a ratio of 0.07. Because a methanogen also spends methane on maintenance, its required specific methanogenic activity is the more direct measure: given its measured biomass, the measured emissions require 2–21 mmol g⁻¹ h⁻¹ in the R1 cores and 60–99 mmol g⁻¹ h⁻¹ in the R2 cores, equivalent to growth-coupled doubling times of 4.2 h to 38 h and 53 min to 1.5 h. Doubling about every hour, as in the R2 cores, seems unlikely for sediment methanogens unless methanogens not recovered as MAGs, non-growth methanogenesis, or a lower DNA content of biomass add to the methane. The standing porewater pools of mono-, di- and trimethylamine could supply the measured emissions if turned over every 0.9–3.4 days, and supplying the TMA for complete conversion would need the betaine reducers to double only every 37 h to 54 d. Neither the methanogen’s biomass (Spearman ρ = −0.43) nor that of any other guild followed the differences in emissions among the six cores.",
-   "rationale": "betaine -> TMA -> methanogen chain; required specific activity first; R1/R2 contrast",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "new": "Methane from betaine depends on a second organism that converts the TMA, and only one species among the MAGs carries *mcrA*: *Methanolobus*.1, whose curated model released 126 mmol of methane per gram of biomass formed on methylamines (120–159 mmol g⁻¹ across published ion couplings), about 2,900 times the MPn consumers’ yield at a ratio of 0.07. Because a methanogen also spends methane on maintenance, its required specific methanogenic activity is the more direct measure: given its measured biomass, the measured emissions require 2–21 mmol g⁻¹ h⁻¹ in the R1 cores and 60–99 mmol g⁻¹ h⁻¹ in the R2 cores, equivalent to growth-coupled doubling times of 4.2 h to 38 h and 53 min to 1.5 h. Methanogens not recovered as MAGs lower these requirements but do not remove them. In all sequenced reads of the six cores, *mcrA* was 1.7 times as abundant as the *Methanolobus* MAG (several-fold only in three R2 samples where the MAG was scarce and *mcrA* reads few, 16–66 per sample), and 42% of the *mcrA* reads came from other methanogens, mostly *Methanohalophilus*, *Methanogenium* and *Methanococcoides*, 93% of them in no assembled contig. With the methanogens’ biomass scaled to the *mcrA* reads, the measured emissions require 1–9 mmol g⁻¹ h⁻¹ in the R1 cores and 19–44 mmol g⁻¹ h⁻¹ in the R2 cores (doubling times of 9.4 h to 3 d and 2.0 h to 4.7 h). Doubling every few hours, as in the R2 cores, still seems unlikely for sediment methanogens unless non-growth methanogenesis or a lower DNA content of biomass add to the methane. The standing porewater pools of mono-, di- and trimethylamine could supply the measured emissions if turned over every 0.9–3.4 days, and supplying the TMA for complete conversion would need the betaine reducers to double only every 37 h to 54 d. Neither the methanogens’ biomass (Spearman ρ = −0.43 for the MAG and −0.66 counting all *mcrA* reads, p ≥ 0.17) nor that of any other guild followed the differences in emissions among the six cores.",
+   "rationale": "betaine -> TMA -> methanogen chain; required specific activity first; R1/R2 contrast; methanogens in the reads",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -244,9 +244,9 @@
    "paragraph": 95,
    "kind": "replace",
    "old": "This was mechanistically corroborated by metabolic models that reproduced the experimental methane emissions with high accuracy (R2 = 0.978), and demonstrate that methane is generated stoichiometrically from methylphosphonate.",
-   "new": "Metabolic models show why: a C–P lyase releases one methane per methylphosphonate cleaved for phosphorus, so the modeled MPn consumers released only 0.04–0.66 mmol of methane per gram of biomass formed, about 2,900 times less than the methylotrophic methanogen, for which methane is the product of its energy metabolism. Their measured biomass could supply the measured emissions only at doubling times of minutes to hours, whereas the methanogen’s would need doubling times of hours to days in the R1 cores and about an hour in the R2 cores; neither guild’s biomass followed the differences in emissions among the six cores.",
+   "new": "Metabolic models show why: a C–P lyase releases one methane per methylphosphonate cleaved for phosphorus, so the modeled MPn consumers released only 0.04–0.66 mmol of methane per gram of biomass formed, about 2,900 times less than the methylotrophic methanogen, for which methane is the product of its energy metabolism. Their measured biomass could supply the measured emissions only at doubling times of minutes to hours, whereas the methanogens’ would need doubling times of hours to days in the R1 cores and one to five hours in the R2 cores, also when the methanogens found only in the reads are counted; neither guild’s biomass followed the differences in emissions among the six cores.",
    "rationale": "per-gram Discussion",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -265,7 +265,7 @@
    "old": "The metabolic models only parameterized the relative abundances of each member and trace consumption of methylphosphonate, which encourages that these are natural outcomes of the metabolism and not forced behaviors during optimization.",
    "new": "The MPn-consumer models only parameterized a minimum ratio of methylphosphonate to inorganic phosphate uptake: every model released a fixed amount of methane per gram of biomass formed, set by the ratio and the phosphorus content of its biomass, so the models translate MPn-consumer biomass and the assumed ratio into methane rather than testing differences in their metabolism.",
    "rationale": "parameterization",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -275,7 +275,7 @@
    "old": "Thirdly, metabolic models reproduced methane emissions from trace amounts of methylphosphonate in near stoichiometric equivalence, supporting the experimental findings. The metabolic models systematically underestimated the quantity of methane emitted, which suggests",
    "new": "Thirdly, metabolic models showed that assimilating methylphosphonate releases only 0.04–0.66 mmol of methane per gram of biomass formed, so the measured emissions would require the MPn consumers to double every minutes to hours, whereas methylotrophic methanogenesis releases about 2,900 times more methane per gram. That the MPn models cannot reach the measured emissions at plausible growth suggests",
    "rationale": "per-gram Conclusions",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -283,9 +283,9 @@
    "paragraph": 100,
    "kind": "comment",
    "old": "We therefore propose methylphosphonate as the primary source of methane",
-   "new": "Consider revising this conclusion. Per gram of biomass formed, methylphosphonate assimilation releases about 2,900-fold less methane than methylotrophic methanogenesis, and the measured emissions would require the MPn consumers to double every minutes to hours; the detected Methanolobus would need doubling times of hours to days in the R1 cores and about an hour in the R2 cores (Figure 7). In the re-assembled MAG set no guild's abundance tracks methane more closely than random sets of species (Table 5). The support for methylphosphonate rests on the substrate-addition (Figure 4) and culturing (Figure 6) results; the models fit methylphosphonate only if it is degraded far beyond assimilatory phosphorus demand. For example: 'We propose that methylphosphonate degradation contributes to the methane …, alongside methylotrophic methanogenesis'.",
+   "new": "Consider revising this conclusion. Per gram of biomass formed, methylphosphonate assimilation releases about 2,900-fold less methane than methylotrophic methanogenesis, and the measured emissions would require the MPn consumers to double every minutes to hours; the methanogens would need doubling times of hours to days in the R1 cores and one to five hours in the R2 cores, counting the Methanolobus MAG alone or all mcrA reads (Figure 7). In the re-assembled MAG set no guild's abundance tracks methane more closely than random sets of species (Table 5). The support for methylphosphonate rests on the substrate-addition (Figure 4) and culturing (Figure 6) results; the models fit methylphosphonate only if it is degraded far beyond assimilatory phosphorus demand. For example: 'We propose that methylphosphonate degradation contributes to the methane …, alongside methylotrophic methanogenesis'.",
    "rationale": "hedge",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -293,9 +293,9 @@
    "paragraph": 129,
    "kind": "replace_paragraph",
    "old": "Figure 7. Assessing methylphosphonate and betaine metabolism",
-   "new": "Figure 7. Methane released per gram of biomass formed by the metabolic models (a), and the growth each guild’s measured biomass would need to supply the measured methane emissions of the six unrestored cores (b). (a) Each point is a model: the 38 methylphosphonate (MPn)-consuming models at an MPn:phosphate uptake ratio of 0.07 and 0.33 and with MPn as the only phosphorus source (blue, light to dark), the 18 betaine-reducing models with methane assumed to be 0.06 of the TMA excreted (orange), and the curated *Methanolobus* model on methylamines (green; bar, 120–159 mmol g⁻¹ across published ion couplings); black lines are medians. (b) Doubling time (ln 2 / µ) at which each guild’s measured biomass in each core (relative abundance × soil DNA × layer thickness, DNA taken as 10% of dry biomass) would supply the measured emission by growth-coupled methane release; dotted lines mark 10 min, 1 h, 1 day and 1 week. JASFMS01.1 did not grow and is not modeled. No guild’s yield × biomass is correlated with the measured emissions across the six cores (Spearman ρ from −0.43 to 0.03).",
+   "new": "Figure 7. Methane released per gram of biomass formed by the metabolic models (a), and the growth each guild’s measured biomass would need to supply the measured methane emissions of the six unrestored cores (b). (a) Each point is a model: the 38 methylphosphonate (MPn)-consuming models at an MPn:phosphate uptake ratio of 0.07 and 0.33 and with MPn as the only phosphorus source (blue, light to dark), the 18 betaine-reducing models with methane assumed to be 0.06 of the TMA excreted (orange), and the curated *Methanolobus* model on methylamines (green; bar, 120–159 mmol g⁻¹ across published ion couplings); black lines are medians. (b) Doubling time (ln 2 / µ) at which each guild’s measured biomass in each core (relative abundance × soil DNA × layer thickness, DNA taken as 10% of dry biomass) would supply the measured emission by growth-coupled methane release (filled symbols); open symbols scale each guild’s biomass by its marker gene’s abundance in all sequenced reads relative to its MAGs (*phnJ*, *grdI*, *mcrA*); dotted lines mark 10 min, 1 h, 1 day and 1 week. JASFMS01.1 did not grow and is not modeled. No guild’s yield × biomass is correlated with the measured emissions across the six cores (Spearman ρ from −0.43 to 0.03; read-based, −0.66 to −0.09).",
    "rationale": "Figure 7 replaced by figure7_pergram.png",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -305,7 +305,7 @@
    "old": "The MAG-derived models were subjected",
    "new": "2026 models (reassembly_2026/modelling_2026/models/README.md). Built with ModelSEEDpy (fork sync-cshenry-main 311f720) on the curated templates of modelling_2026/templates/; RAST (arm A) won the pre-registered annotation comparison. JASFMS01.1 was dropped (cannot make ribose-5-phosphate; sedoheptulose-1,7-bisphosphatase, rxn01345, rescues it but fails two ATP tests). The Methanolobus model was curated by hand (models/methanogen/CURATION.md: 19 gene-justified changes to Fpo, HdrDE, Rnf, Mcr and related reactions); its genome lacks mtaB/mtaC, so it cannot use methanol, and it has no betaine methyltransferase (mtgB). The Roseovarius 'methane monooxygenase' is PrmA (KOfam PrmA 1016 vs MmoX 228) and was disabled. Template curation queue: betaine and glycine reductase directions (rxn11678, rxn11676), Fpo (rxn24614) and Rnf, reversible N-cycle reactions, and the missing betaine reductase complex.",
    "rationale": "model decisions and caveats",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -315,7 +315,7 @@
    "old": "a primary methanogenic substrate",
    "new": "Review (2026-11-24): per gram of biomass formed, methylphosphonate assimilation releases about 2,900-fold less methane than methylotrophic methanogenesis (Figure 7), and the measured emissions would need the MPn consumers to double every minutes to hours. The models therefore do not support methylphosphonate as the primary substrate unless MPn is degraded well beyond assimilatory phosphorus demand, which they do not represent. Consider 'a' instead of 'a primary' unless the in vitro data alone carry 'primary'.",
    "rationale": "Abstract claim",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z",
    "mirror_index": 19
@@ -326,7 +326,7 @@
    "old": "Metabolic models were developed using dereplicated medium and high quality",
    "new": "Metabolic models were built for the representative MAG of each MPn-consumer and betaine-reducer species of the re-assembled MAG set (39 and 18 species; Table 4), one model per species and guild. Prodigal genes were annotated with the RAST service (53), and draft models were built with ModelSEEDpy, which implements the KBase modeling pipeline (52), from the current ModelSEED templates with our curations (Gram-negative v7, Gram-positive v7 and Archaea v6 templates for 31, 19 and 6 models, respectively). RAST alone was chosen over drafts that also used KOfam, eggNOG-mapper v2.1.13 and Bakta v1.12.0 annotations by criteria fixed in advance (gene-associated and gapfilled reactions, guild-pathway support, ATP production without a carbon source, and the fraction of blocked reactions): the added annotations raised the number of gene-associated reactions, but they also raised the fraction of blocked reactions by 2.7–6.5 percentage points, beyond the pre-set limit of 2, and the two that included eggNOG-mapper let one model make ATP from ammonia and oxygen. ATP production was corrected on 54 test media, and the models were gapfilled as in the original protocol: MPn consumers first on aerobic lactate with phosphate and then on lactate with MPn as the only phosphorus source, after a C–P lyase pathway and an MPn transporter were added where absent; betaine reducers on aerobic lactate, after which betaine reductase, glycine reductase and TMA export were added. Reactions that let a model oxidize ammonia (reversed nitrite and hydroxylamine reductases) or consume methane without annotation support were restricted to their reductive or methane-producing directions, and models that lost growth were gapfilled again. One MPn-consumer model (JASFMS01.1) could not grow and was excluded, leaving 38 MPn-consumer and 18 betaine-reducer models; none of the MPn-consumer models required MPn to grow. The model of the only *mcrA*-carrying species among the MAGs (*Methanolobus*.1) grew by converting methyl groups to acetate instead of methane, because it could not reduce methanophenazine; its F420H2 dehydrogenase (Fpo), membrane-bound heterodisulfide reductase (HdrDE), Rnf complex and methyl-coenzyme M reductase were corrected to the gene-supported forms, after which it grew by methylotrophic methanogenesis on mono-, di- and trimethylamine, with the textbook methane yields, but not on methanol (its genome lacks *mtaB* and *mtaC*). A gene annotated by RAST as methane monooxygenase in two *Roseovarius* models is a propane 2-monooxygenase (*prmA*), and its reaction was disabled.",
    "rationale": "curated methanogen (models/methanogen/CURATION.md) and PrmA block (pipeline/apply_prma_block.py)",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -386,7 +386,7 @@
    "old": "constrained to its relative abundance in each simulated sample (based on read mapping), which scales the member’s metabolism to match its contribution in the sample’s consortium and specifically allows the simulated methane emission to quantitatively approximate the organism’s in situ production",
    "new": "fixed, and the methane (or trimethylamine, TMA) each model released was expressed per gram of biomass formed; in these models this yield does not depend on the growth rate imposed, and it was combined with each member’s measured biomass in each core (see below)",
    "rationale": "per-gram framing replaces 'biomass = relative abundance / DNA'",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -396,7 +396,7 @@
    "old": "One TMA was excreted for each consumed betaine",
    "new": "For the per-gram comparison the uptake bound was lifted, and the least TMA excreted per gram of biomass formed at the optimum was used (more TMA was possible without changing the optimum). ",
    "rationale": "betaine per-gram yield",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -406,7 +406,7 @@
    "old": "The metabolic models were finally minimized",
    "new": "The methanogen model was simulated on methylamines without an external electron acceptor, minimizing methylamine uptake; methane is the end product of its energy metabolism, so its yield per gram of biomass formed is set by the ATP the cell needs to grow. ",
    "rationale": "methanogen protocol",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -416,7 +416,7 @@
    "old": "Linear regression between the experimental and simulated",
    "new": "The modeled yields were compared with the measured emissions through the measured biomass of each member in each core.",
    "rationale": "the regression and the unit conversion of the original comparison are replaced (P39, P40)",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -424,9 +424,9 @@
    "paragraph": 40,
    "kind": "replace_paragraph",
    "old": "for direct comparison and consistent flux interpretation",
-   "new": "The biomass of each member in each core was its relative abundance times the soil DNA concentration of each depth, summed over the two layers (0–5 and 5–15 cm) with a soil bulk density of 0.7 g cm⁻³ estimated from other studies of this region, and with DNA taken as 10% of dry biomass. The product of a guild’s methane yield and its biomass is the methane it produces per unit of growth; dividing the measured emission by this product gives the specific growth rate µ at which the guild’s measured biomass would supply the measured emission (doubling time ln 2 / µ), and, for the methanogen, dividing by its biomass alone gives the specific methanogenic activity required. If DNA were 3% of dry biomass, every biomass would be 3.3 times larger and every required rate 3.3 times smaller. Spearman rank correlations (exact permutation p values) between each guild’s methane per unit of growth and the measured emissions of the six unrestored cores test whether the models follow the differences among cores.",
-   "rationale": "explicit-rate comparison; the 10 % DNA constant and its sensitivity are stated",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "new": "The biomass of each member in each core was its relative abundance times the soil DNA concentration of each depth, summed over the two layers (0–5 and 5–15 cm) with a soil bulk density of 0.7 g cm⁻³ estimated from other studies of this region, and with DNA taken as 10% of dry biomass. The product of a guild’s methane yield and its biomass is the methane it produces per unit of growth; dividing the measured emission by this product gives the specific growth rate µ at which the guild’s measured biomass would supply the measured emission (doubling time ln 2 / µ), and, for the methanogen, dividing by its biomass alone gives the specific methanogenic activity required. If DNA were 3% of dry biomass, every biomass would be 3.3 times larger and every required rate 3.3 times smaller. Spearman rank correlations (exact permutation p values) between each guild’s methane per unit of growth and the measured emissions of the six unrestored cores test whether the models follow the differences among cores. To include guild members not recovered as MAGs, each guild’s biomass was also scaled, in each sample, by the copies of its marker gene per genome equivalent in all sequenced reads (*mcrA* for methanogens, *phnJ* for MPn consumers, *grdI* for betaine reducers; see Metagenomics) divided by its MAGs’ genomes per genome equivalent. The required specific methanogenic activity does not depend on the methane yield; the doubling times computed from the read-based methanogen biomass assume that every *mcrA*-carrying organism has the yield of the *Methanolobus* model.",
+   "rationale": "explicit-rate comparison; the 10 % DNA constant and its sensitivity are stated; read-based scaling",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -436,7 +436,7 @@
    "old": "The line-of-best-fit equation from this regression",
    "new": "",
    "rationale": "the regression equation (P70) is removed",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -444,9 +444,9 @@
    "paragraph": 71,
    "kind": "replace_paragraph",
    "old": "reveals that generally the models predict half",
-   "new": "At a ratio of 0.33 (at least 0.33 mol of methylphosphonate per mol of inorganic phosphate, about 25% of the phosphate taken up) the yield rose to 0.164 mmol g⁻¹, and the required doubling times to 8 min to 56 min; even with methylphosphonate as the only phosphorus source the yield reached only 0.66 mmol g⁻¹, and the doubling times 31 min to 3.8 h. Such rates are implausibly fast for sediment microorganisms, so assimilation of methylphosphonate by the modeled consumers cannot supply the measured emissions unless methylphosphonate is degraded well beyond the phosphorus they assimilate (for example, with the phosphate excreted or stored as polyphosphate), which the models do not represent.",
+   "new": "At a ratio of 0.33 (at least 0.33 mol of methylphosphonate per mol of inorganic phosphate, about 25% of the phosphate taken up) the yield rose to 0.164 mmol g⁻¹, and the required doubling times to 8 min to 56 min; even with methylphosphonate as the only phosphorus source the yield reached only 0.66 mmol g⁻¹, and the doubling times 31 min to 3.8 h. C–P lyase (*phnJ*) genes were 1.7–2.4 times as abundant in all sequenced reads as in the MPn-consumer MAGs, so counting MPn consumers not recovered as MAGs lengthens these doubling times only to 4 min to 28 min at a ratio of 0.07 and 1.1 h to 7.1 h with methylphosphonate as the only phosphorus source (Figure 7b, open symbols). Such rates are implausibly fast for sediment microorganisms, so assimilation of methylphosphonate by the modeled consumers cannot supply the measured emissions unless methylphosphonate is degraded well beyond the phosphorus they assimilate (for example, with the phosphate excreted or stored as polyphosphate), which the models do not represent.",
    "rationale": "per-gram MPn result at 0.33 and with MPn the only P source; the loophole the models cannot close",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -456,7 +456,7 @@
    "old": "This family is by far the most abundant",
    "new": "Review (2026-11-24): the regression equations (P70, P72, P75), the unit-conversion equation (P39) and their lead-ins are tracked deletions. Simulated areal emissions need an assumed growth rate: the original pipeline set each member's growth to its relative abundance divided by DNA, and the 2026-10-26 to 11-23 revisions in effect multiplied the methane per gram of biomass formed by the standing biomass per hour (every member growing at 1 h⁻¹); any fit only rescales with that choice. The model output is now the methane per gram of biomass formed, and the comparison is the growth each guild would need (Figure 7). For the implausibility of minute-to-hour doubling times in sediments, consider citing Hoehler and Jørgensen 2013 (Nat Rev Microbiol 11:83–94). LibreOffice ignores revisions on equations and still shows them.",
    "rationale": "equation removal",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   },
@@ -466,7 +466,17 @@
    "old": "with the line-of-best-fit",
    "new": "",
    "rationale": "the regression equation (P75) is removed",
-   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 96,
+   "kind": "insert_before",
+   "old": "The unrestored systems are relatively well defined",
+   "new": "Much of this fraction was never assembled: of the reads of eight universal single-copy ribosomal-protein genes, 39% (R1), 46% (R2), 76% (R2A) and 80% (SF2) lay in no contig of at least 1 kb, so the unbinned fraction mainly reflects organisms too rare or too diverse to assemble at this sequencing depth rather than contigs left out of bins. Counted in all reads, the guilds’ marker genes were 1.7–2.4 (*phnJ*), 1.3–2.4 (*grdI*) and, pooled, 1.7 (*mcrA*) times as abundant as the guilds’ MAGs in the unrestored cores, which lengthens the doubling times required of each guild by about these factors but does not change the conclusions of the models (Figure 7b). ",
+   "rationale": "why the unbinned fraction is large (assembly-limited), and the read-based guild abundance",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
   }
@@ -559,6 +569,91 @@
    "Methanogen, methylamines": -0.4285714285714286
   },
   "rhodobacteraceae_share": 0.7617436301437603,
-  "roseovarius_share": 0.518111250683209
+  "roseovarius_share": 0.518111250683209,
+  "read_based": {
+   "rho": {
+    "MePn, ratio 0.07": [
+     -0.08571428571428573,
+     0.9194444444444444
+    ],
+    "MePn, ratio 0.33": [
+     -0.08571428571428573,
+     0.9194444444444444
+    ],
+    "MePn, only P source": [
+     -0.08571428571428573,
+     0.9194444444444444
+    ],
+    "Betaine, 0.06 CH4 per TMA": [
+     -0.2571428571428572,
+     0.6583333333333333
+    ],
+    "Betaine, 2.25 CH4 per TMA": [
+     -0.2571428571428572,
+     0.6583333333333333
+    ],
+    "Methanogen, methylamines": [
+     -0.6571428571428573,
+     0.175
+    ]
+   },
+   "mcrA_fold_pooled": 1.7388037201973205,
+   "fold_range": {
+    "methanogen": [
+     0.92242,
+     14.6
+    ],
+    "mepn_consumer": [
+     1.7256,
+     2.3883
+    ],
+    "betaine_reducer": [
+     1.347,
+     2.4171
+    ]
+   },
+   "mcrA_other_methanogens_share": 0.42289156626506025,
+   "mcrA_other_unassembled": 0.9287749287749287,
+   "methanogen_q_required": {
+    "R1_A": 1.26,
+    "R1_B": 9.28,
+    "R1_C": 6.48,
+    "R2_A": 18.51,
+    "R2_B": 42.42,
+    "R2_C": 44.0
+   },
+   "methanogen_doubling_h": {
+    "R1_A": 69.31,
+    "R1_B": 9.44,
+    "R1_C": 13.53,
+    "R2_A": 4.74,
+    "R2_B": 2.07,
+    "R2_C": 1.99
+   },
+   "mepn_doubling_h": {
+    "0.07": [
+     0.0702531879184254,
+     0.4653709731960578
+    ],
+    "0.33": [
+     0.2664489866164956,
+     1.7650106405531645
+    ],
+    "only_P": [
+     1.073870158181659,
+     7.11352773313909
+    ]
+   },
+   "betaine_doubling_h_006": [
+    2.308883697991728,
+    55.153358017384825
+   ],
+   "marker_reads_unassembled_pct_by_site": {
+    "R1": 39.0,
+    "R2": 46.0,
+    "R2A": 76.0,
+    "SF2": 80.0
+   }
+  }
  }
 }

@@ -1,0 +1,6 @@
+label	median_aa	why
+mpnS	457	N. maritimus MpnS (KEGG nmr:Nmar_0155; UniProt A9A1T2); the name-query set mixes in longer actinomycete cupins
+hepD	443	median of the 7 UniProt HEPD references that pass the K12905 rule (438-464 aa)
+amoA	250	CuMMO subunit A: the UniProt amoA set is mostly PCR-amplicon fragments; the pmoA KEGG median is used
+cuMMO_other	250	same as amoA
+mttB_family_other	514	MttB family: the PF06253 'other' members include fragments; the mttB KEGG median is used

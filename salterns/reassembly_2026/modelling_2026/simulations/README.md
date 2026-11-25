@@ -2,6 +2,18 @@
 
 Run 2026-11-23. Models: `../models/` (38 MePn consumers, 18 betaine reducers; see its README).
 
+## Current framing (2026-11-24): methane per gram of biomass formed
+
+The areal comparison below (`consistent_basis_final.py`, `figure7_final.py`) multiplied CH4 per g of biomass formed by standing biomass per hour, which assumes every member grows at 1 h⁻¹. It is superseded by these scripts:
+
+| Script | What |
+|---|---|
+| `per_gram_yields.py` → `per_gram_yields.tsv` | k = CH4 (or TMA) per g of biomass formed. Covers each MePn model at MPn:Pi 0.07 and 0.33 and with MPn as the only P source, and each betaine model (TMA at the optimum, uptake unbounded). The PrmA block is applied. |
+| `specific_rates.py` → `specific_rates.tsv/.json` | For each guild and core, the specific growth rate (doubling time) at which the measured biomass would supply the measured CH4. The methanogen uses the curated *Methanolobus* model's k (`../models/methanogen/curation_k.json`). Every scenario is repeated as "(read-based abundance)", with each guild's biomass scaled per sample by its marker gene's read/MAG fold (`../../read_markers/`). Spearman ρ is computed against measured CH4 (exact p). |
+| `figure7_pergram.py` → `figure7_pergram.png/.svg` | Manuscript Figure 7: (a) yields; (b) doubling times needed. Filled symbols are MAG-based abundance; open symbols are read-based. |
+
+Results are in `../../../Metabolic Manuscript - R232 review notes.md` (section 2026-11-24) and `../community_eval/EVALUATION.md`.
+
 ## Scripts
 
 | Script | Where | What |
