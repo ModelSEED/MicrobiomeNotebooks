@@ -93,7 +93,7 @@ At Andrew's request, three additions:
 
 **Build:** on the 11-24 mirror; "All validations PASSED" with the author check (492 → 1,083 paragraphs).
 
-**Google Doc suggestion batch (2026-11-25, about 1:00–2:15 AM CST).** At Andrew's go-ahead, the review's text went into Susannah's Google Doc as suggestions from his account (Docs API `update_doc`, `writeMode: SUGGEST`).
+**Google Doc suggestion batch (2026-11-25, 7:07–7:21 AM CST, from the times of the Doc reads before the first and after the last chunk).** At Andrew's go-ahead, the review's text went into Susannah's Google Doc as suggestions from his account (Docs API `update_doc`, `writeMode: SUGGEST`).
 - **Tools** (`clauded_insights/gdoc_sync/tools/`):
   - `review_to_suggestions.py` maps every Claude change in the review onto Doc indices. It requires each paragraph's original text to equal the Doc's base text, character for character.
   - `simulate_suggestions.py` is a dry run.
