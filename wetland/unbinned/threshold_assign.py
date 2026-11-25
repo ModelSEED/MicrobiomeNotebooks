@@ -33,6 +33,7 @@ Outputs: unbinned/threshold/assign_<tag>_{gt,real}_contigs.tsv.gz, _selection.ts
 Work files (large) in ~/gtdbtk_kbase/mm2/: all_mags.fna (prefixed `<mag>|<contig>`, reusable for the unbinned
 pipeline), idx_<tag>.fna, hits_<tag>.paf.gz.
 Usage: ~/Documents/py_venv/bin/python -I threshold_assign.py [--threads 16]   (resumable: finished steps are kept)
+       ~/Documents/py_venv/bin/python -I threshold_assign.py --tag reasm --runs SRR... (after compare_reassembly.py)
 """
 import argparse, glob, gzip, json, os, random, re, subprocess, sys, time
 from collections import defaultdict
@@ -47,6 +48,7 @@ TEST_ASM = ["SRR7963043", "SRR10127268"]
 N_ASM, GT_MAGS, GT_PER_BAND, SEED = 20, 300, 10, 20261125
 ID_MIN, AF_MIN, AF_STRICT, TIE = 0.95, 0.5, 0.8, 0.01
 ap = argparse.ArgumentParser(); ap.add_argument("--threads", type=int, default=16); ap.add_argument("--tag", default="kbase")
+ap.add_argument("--runs", nargs="*", default=[], help="with --tag reasm: the re-assembled samples")
 a = ap.parse_args(); T = a.tag
 log = lambda m: print(f"[{time.strftime('%F %T')}] {m}", flush=True)
 
@@ -86,6 +88,32 @@ if not os.path.exists(allm):
 
 # 2. selection, real contigs and ground-truth fragments -> idx.fna
 idx = f"{W}/idx_{T}.fna"; sel_tsv = f"{OUT}/assign_{T}_selection.tsv"
+if T != "kbase" and not os.path.exists(idx):
+    # Second pass (--tag reasm --runs ...): for each re-assembled sample, its unbinned KBase contigs (2.0-2.5 and
+    # >= 2.5 kb) and the re-assembly's new 1-2 kb contigs (not contained in a KBase contig; compare_reassembly.py), so
+    # the three bands are compared within the same samples. No ground truth (pass 1 has it).
+    RE = os.path.expanduser("~/gtdbtk_kbase/reasm"); meta = []
+    with open(idx + ".tmp", "w") as fo:
+        for run in a.runs:
+            mine = set()
+            for f in glob.glob(f"{MAGS}/*__{run}.fna"):
+                mine |= {l[1:].split()[0] for l in open(f) if l[0] == ">"}
+            for name, sq in fasta(glob.glob(f"{ASM}/{run}_*.fna")[0]):
+                cid = name.split()[0]
+                if cid in mine: continue
+                m = re.search(r"multi=([\d.]+)", name)
+                fo.write(f">R|{run}|{cid}\n{sq}\n"); meta.append((f"R|{run}|{cid}", run, cid, band_of(len(sq)), len(sq), float(m.group(1)) if m else 0.0))
+            rc = pd.read_csv(f"{RE}/{run}.classes.tsv.gz", sep="\t", keep_default_na=False)
+            new12 = set(rc[(rc.length < 2000) & (rc.match == "")].contig)
+            for name, sq in fasta(f"{RE}/{run}.1to2kb.fa"):
+                cid = name.split()[0]
+                if cid not in new12: continue
+                m = re.search(r"multi=([\d.]+)", name)
+                fo.write(f">R|{run}|r:{cid}\n{sq}\n"); meta.append((f"R|{run}|r:{cid}", run, "r:" + cid, "1.0-2.0", len(sq), float(m.group(1)) if m else 0.0))
+    pd.DataFrame(meta, columns=["id", "run", "contig", "band", "length", "multi"]).to_csv(f"{W}/idx_{T}_meta.tsv.gz", sep="\t", index=False)
+    pd.DataFrame({"run": a.runs, "habitat": [hab.get(r, "unknown") for r in a.runs]}).to_csv(sel_tsv, sep="\t", index=False)
+    os.rename(idx + ".tmp", idx); log(f"idx_{T}.fna: {len(a.runs)} samples, {len(meta)} contigs")
+
 if not os.path.exists(idx):
     rnd = random.Random(SEED)
     binned = defaultdict(set)
