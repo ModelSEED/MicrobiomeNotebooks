@@ -9,6 +9,10 @@ create a synthetic genome and prGEM for it.
   non-coding) on poplar. This is the same caller as the MAGs (Andrew's choice).
 - **Unbinned contigs:** per assembly, the contigs of at least 2,500 bp (the binning minimum) that are in none of that
   assembly's admitted MAGs. Contig membership comes from the extracted MAG FASTAs (`<bin>__<run>.fna`).
+- **Contig floor (checked 2026-11-25):** the KBase MEGAHIT app ran with `min_contig_length = 2000` (provenance), so
+  the assemblies hold no contig under 2 kb; every MAG contig is >= 2,500 bp. Contigs of 2.0-2.5 kb are in the
+  assemblies but never binnable. Contigs of 1-2 kb exist only in re-assemblies with a 1 kb floor. The threshold
+  sensitivity test (`threshold_*.py`, `reassembly/`) decides whether the pipeline should use them.
 - **Reference framework:** the 13,164 MAGs, their census species clusters and the 1,206 annotated representatives.
 
 ## Identification (Andrew's choice: match to our MAGs first)

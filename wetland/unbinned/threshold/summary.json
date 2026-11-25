@@ -1,0 +1,74 @@
+{
+ "assemblies_of_781": 230,
+ "with_mags": {
+  "assemblies": 205,
+  "bp": 55064353229,
+  "contigs": 12435574,
+  "binned_contigs_pct_pooled": 8.88,
+  "binned_bp_pct_pooled": 18.44,
+  "binned_abund_pct_bpweighted": 30.06,
+  "binned_contigs_pct_median_iqr": [
+   7.24,
+   9.75,
+   13.69
+  ],
+  "binned_bp_pct_median_iqr": [
+   13.97,
+   19.9,
+   26.67
+  ],
+  "binned_abund_pct_median_iqr": [
+   18.89,
+   30.07,
+   41.28
+  ],
+  "unb_2.5_contigs_pct_pooled": 56.28,
+  "unb_2.5_bp_pct_pooled": 64.08,
+  "unb_2.5_abund_pct_bpweighted": 59.52,
+  "unb_2.5_contigs_pct_median_iqr": [
+   49.96,
+   55.34,
+   58.63
+  ],
+  "unb_2.5_bp_pct_median_iqr": [
+   56.62,
+   62.3,
+   66.87
+  ],
+  "unb_2.5_abund_pct_median_iqr": [
+   48.8,
+   59.35,
+   66.66
+  ],
+  "unb_1.0_contigs_pct_pooled": 34.84,
+  "unb_1.0_bp_pct_pooled": 17.48,
+  "unb_1.0_abund_pct_bpweighted": 10.41,
+  "unb_1.0_contigs_pct_median_iqr": [
+   30.62,
+   35.26,
+   38.98
+  ],
+  "unb_1.0_bp_pct_median_iqr": [
+   13.06,
+   18.9,
+   23.0
+  ],
+  "unb_1.0_abund_pct_median_iqr": [
+   6.29,
+   11.56,
+   16.35
+  ],
+  "cov_ratio_1to2.5_vs_long_median_iqr": [
+   0.455,
+   0.57,
+   0.653
+  ],
+  "cov_ratio_1to2.5_vs_long_bpweighted": 0.518,
+  "len_median_1to2.5_median": 2208.0
+ },
+ "without_mags": {
+  "assemblies": 25,
+  "bp": 170337382,
+  "unb_1.0_bp_pct_pooled": 24.29
+ }
+}
