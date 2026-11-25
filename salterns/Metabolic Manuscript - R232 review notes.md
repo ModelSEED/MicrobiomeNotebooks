@@ -153,11 +153,24 @@ The Google Doc changed on 2026-11-16 and 2026-11-17 (Drive modifiedTime 2026-11-
   - Builder: a new Methods paragraph (read survey, with a comment listing citations to add: DIAMOND, KEGG, UniProt, MMseqs2) and a new Results paragraph after the guild paragraph.
 - **Figure 7b:** open symbols joined to the filled ones show the read-based doubling times.
 
-**Still open:**
-- the Google Doc re-sync (the Doc changed 2026-11-23);
-- the suggestion batch.
+**Google Doc sync 2026-11-24.** The Doc's Drive modifiedTime was 2026-11-24T16:18:05Z (10:18 AM CST). It was read through the Docs API, with comments, at about 6:05 PM CST.
+- **Changes since the 11-20 mirror:**
+  - A. Freiburger's direct edits of 2026-11-23 (4:40 PM CST): Introduction P24 rewritten again (its last sentence ends unfinished: "…revealing that restoration efforts should"), and " in triplicate" added to the field-sites paragraph P27.
+  - His comment of 2026-11-23 (2:51 PM CST) on Methods P30: "This whole processing section needs to be rewritten given the new snakemake pipeline, with versions of each given too."
+  - The suggestion test of 2026-11-24 (P37 Figure S9 → S10).
+  - Nothing else: the other comment-thread differences are only Google redirect-URL timestamps.
+- **Mirror:** `Metabolic Manuscript - Google Doc mirror (2026-11-24).docx`, from `gdoc_sync/tools/make_spec_1124.py` and `make_gdoc_mirror_docx.py --date 2026-11-24`. All 492 paragraphs match the Doc, with suggestions rejected and with them accepted; 75 comments.
+  - `make_gdoc_mirror_docx.py` now takes a per-suggestion author and date, and direct edits of kind replace / insert_before. The 11-20 mirror rebuilds with identical parts.
+- **Review:** now built on the 11-24 mirror.
+  - Its own P37 "Figure S9 → S10" edit is marked `in_doc_since` and skipped, because the Doc already holds it as the test suggestion.
+  - A new comment on Andrew's P24 sentence "converged on methylphosphonate being the primary methanogenic substrate" mirrors the P18 and P100 comments; it is marked `min_mirror` 2026-11-24.
+  - Validation, with `--author "Claude (R232 review)"`: "All validations PASSED" (492 → 1,078 paragraphs, 98 comments).
+- **Suggestion batch (not submitted; waiting for Andrew's go-ahead):**
+  - Text suggestions: 25 existing paragraphs with tracked text edits, plus 31 new paragraphs (re-assembly, the read survey and captions).
+  - Placed by hand from a list: the new tables (Tables 3–5, S7), 12 figure paragraphs, 9 equation paragraphs and the review's comments. Google comments can't be anchored through the API.
+  - The P37 Figure S9 → S10 edit must not be resubmitted.
 
-**Build:** "All validations PASSED" (492 → 1,078 paragraphs).
+**Still open:** the suggestion batch.
 
 ## 2026-11-23: modelling text and Figure 7 from the 2026 guild models
 

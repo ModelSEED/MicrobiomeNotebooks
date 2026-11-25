@@ -370,6 +370,14 @@ put("p96_unassembled", 96, "insert_before", "The unrestored systems are relative
     "doubling times required of each guild by about these factors but does not change the conclusions of the models "
     "(Figure 7b). ",
     "why the unbinned fraction is large (assembly-limited), and the read-based guild abundance")
+put("p24_comment", 24, "comment", "converged on methylphosphonate being the primary methanogenic substrate",
+    "Review (2026-11-24): as for the Abstract (P18) and the Conclusions (P100), the models do not support 'primary'. Per "
+    f"gram of biomass formed, methylphosphonate assimilation releases about {fold:,.0f}-fold less methane than "
+    "methylotrophic methanogenesis (Figure 7), and the reads carry mcrA of several methylotrophic methanogens besides "
+    "Methanolobus. Consider 'converged on methylphosphonate as a methanogenic substrate, alongside methylotrophic "
+    "methanogenesis'. The paragraph's last sentence is unfinished ('...revealing that restoration efforts should').",
+    "Introduction claim (Andrew's 2026-11-23 rewrite of P24)")
+NEW["p24_comment"]["min_mirror"] = "2026-11-24"                  # the anchor exists only from the 11-23 rewrite on
 put("p36_comment", 36, "comment", "The MAG-derived models were subjected",
     "2026 models (reassembly_2026/modelling_2026/models/README.md). Built with ModelSEEDpy (fork sync-cshenry-main "
     "311f720) on the curated templates of modelling_2026/templates/; RAST (arm A) won the pre-registered annotation "
@@ -407,6 +415,12 @@ for e in base["edits"]:
     edits.append(NEW[key])
 assert used == set(REPL.values()), set(REPL.values()) - used
 edits += [NEW[k] for k in NEW if k not in used]
+# the P37 Figure S9 -> S10 edit was submitted to the Google Doc as the Docs API suggestion test (suggest.hzsyv3lhfhtb,
+# 2026-11-24); the builder skips it on mirrors from that date on, and the suggestion batch must not resubmit it
+s9 = [e for e in edits if e["paragraph"] == 37 and e["kind"] == "replace" and e["old"] == "(see Figure S9)"]
+assert len(s9) == 1 and s9[0]["new"] == "(see Figure S10)"
+s9[0]["in_doc_since"] = "2026-11-24"
+s9[0]["google_suggestion_id"] = "suggest.hzsyv3lhfhtb"
 out["edits"] = edits
 out["note"] = ("r232_review_edits_2026-11-23.json with the modelling text rewritten in the per-gram framing by "
                "make_modelling_edits_2026-11-24.py (dated 2026-11-24).")

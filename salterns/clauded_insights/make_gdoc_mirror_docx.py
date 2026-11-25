@@ -282,6 +282,8 @@ def apply_direct_edits(doc, P, edits):
             src.addnext(q)
         elif e["kind"] == "move_before":
             P[e["before"]]._p.addprevious(P[e["p"]]._p)
+        elif e["kind"] in ("replace", "insert_before"):       # a small direct edit inside an unchanged paragraph
+            plain_edit(P[e["p"]]._p, e)
         else:
             assert e["kind"] == "rewrite", e["kind"]
 
@@ -315,14 +317,17 @@ def main(merged, date=DEFAULT_DATE, out=None):
     accept_all_revisions(P, SPEC.get("accept_all_revisions", {}).get("paragraphs", {}), removed)
     mr.AUTHOR, mr.DATE = SPEC["suggestions"]["author"], SPEC["suggestions"]["date"]
     mr._ids = iter(range(5000, 6999))
+    default_author = (mr.AUTHOR, mr.DATE)
     for e in SPEC["suggestions"]["edits"]:
         p = P[e["p"]]._p
+        mr.AUTHOR, mr.DATE = e.get("author", default_author[0]), e.get("date", default_author[1])   # 2026-11-24: per-edit
         if e["kind"] == "replace":
             mr.tracked_replace(p, e["old"], e["new"])
         elif e["kind"] == "insert_before":
             mr.tracked_insert_before(p, e["old"], e["new"])
         elif e["kind"] == "superscript":
             tracked_superscript(p, e["old"], e["spans"])
+    mr.AUTHOR, mr.DATE = default_author
     for e in SPEC.get("accepted_suggestions", {}).get("edits", []):
         plain_edit(P[e["p"]]._p, e)
     remove_comments(doc, removed)

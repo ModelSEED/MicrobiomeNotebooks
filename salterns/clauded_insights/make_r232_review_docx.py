@@ -363,6 +363,11 @@ def apply_edits(P, pending_comments, path):
     global DATE
     default = DATE
     for e in sorted(json.load(open(path))["edits"], key=lambda e: e["kind"] == "comment"):
+        if e.get("min_mirror") and MIRROR_DATE < e["min_mirror"]:        # anchor text not yet in this mirror
+            continue
+        if e.get("in_doc_since") and MIRROR_DATE >= e["in_doc_since"]:   # already a suggestion in the Google Doc
+            print(f"skipped (in the Google Doc since {e['in_doc_since']}): P{e['paragraph']} {e['old'][:40]!r}")
+            continue
         DATE = e.get("date", default)                    # tracked changes carry the edit's own date when it has one
         p = P.raw(e["mirror_index"]) if "mirror_index" in e and P.shift else P[e["paragraph"]]
         if e["kind"] == "replace":
@@ -887,7 +892,13 @@ class Paras:
         return len(self.ps)
 
 
+MIRROR_DATE = "0000-00-00"                 # set from the mirror's file name in main()
+
+
 def main(merged):
+    global MIRROR_DATE
+    m = re.search(r"\((\d{4}-\d{2}-\d{2})\)", Path(merged).name)
+    MIRROR_DATE = m.group(1) if m else MIRROR_DATE
     doc = Document(merged)
     P = Paras(doc.paragraphs)
     body_pPr, body_rpr = P[30]._p.find(qn("w:pPr")), first_rpr(P[30]._p)

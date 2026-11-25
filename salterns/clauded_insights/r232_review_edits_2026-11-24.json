@@ -159,7 +159,9 @@
    "new": "(see Figure S10)",
    "rationale": "Figure S9 is the microcosm comparison; the gap-filling figure is Figure S10 (pre-existing citation error).",
    "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
-   "origin": "modelling"
+   "origin": "modelling",
+   "in_doc_since": "2026-11-24",
+   "google_suggestion_id": "suggest.hzsyv3lhfhtb"
   },
   {
    "paragraph": 69,
@@ -479,6 +481,17 @@
    "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
    "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 24,
+   "kind": "comment",
+   "old": "converged on methylphosphonate being the primary methanogenic substrate",
+   "new": "Review (2026-11-24): as for the Abstract (P18) and the Conclusions (P100), the models do not support 'primary'. Per gram of biomass formed, methylphosphonate assimilation releases about 2,900-fold less methane than methylotrophic methanogenesis (Figure 7), and the reads carry mcrA of several methylotrophic methanogens besides Methanolobus. Consider 'converged on methylphosphonate as a methanogenic substrate, alongside methylotrophic methanogenesis'. The paragraph's last sentence is unfinished ('...revealing that restoration efforts should').",
+   "rationale": "Introduction claim (Andrew's 2026-11-23 rewrite of P24)",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z",
+   "min_mirror": "2026-11-24"
   }
  ],
  "facts": {
