@@ -93,6 +93,29 @@ At Andrew's request, three additions:
 
 **Build:** on the 11-24 mirror; "All validations PASSED" with the author check (492 → 1,083 paragraphs).
 
+**Google Doc suggestion batch (2026-11-25, about 1:00–2:15 AM CST).** At Andrew's go-ahead, the review's text went into Susannah's Google Doc as suggestions from his account (Docs API `update_doc`, `writeMode: SUGGEST`).
+- **Tools** (`clauded_insights/gdoc_sync/tools/`):
+  - `review_to_suggestions.py` maps every Claude change in the review onto Doc indices. It requires each paragraph's original text to equal the Doc's base text, character for character.
+  - `simulate_suggestions.py` is a dry run.
+  - `batch_driver.py` makes the chunks, pre-checks that the Doc below each chunk is unchanged, and verifies each chunk after it lands.
+- **Sent:** 13 chunks (388 requests, 52,358 characters) plus a style repair of the Figure 9 and 10 captions, from the end of the Doc backward, each guarded by `requiredRevisionId`. After every chunk the Doc equals the plan in both the base and the proposed view.
+- **Final check:** the Doc's suggestions-accepted text equals the review's accepted text, except:
+  - the tables (by hand);
+  - Susannah's "(2022)" inside replaced text;
+  - one whitespace-only suggestion of hers.
+- **Lessons:**
+  - In SUGGEST mode, style changes on suggested text become suggested style changes.
+  - Applying a named paragraph style resets run styles, so it must come before the text styles; the Figure 9 caption lost its italics this way and was repaired.
+  - Captions carry explicit Times New Roman 12 pt over HEADING_5.
+  - A new paragraph after a table must go in front of the next paragraph, not into the last cell (caught before sending).
+- **Hand list:** `clauded_insights/gdoc_sync/hand_list_2026-11-25.md`:
+  - 7 figure images (Figures 7, 8, 9 new, 10 new, S8, S10, S11);
+  - Table 3 replaced, and Tables 4, 5, S6 and S7 new;
+  - four inline equations in replaced passages;
+  - Susannah's "(2022)";
+  - the review's 23 comments with their anchors (`review_comments_2026-11-25.json`).
+- **Doc after the batch:** saved read in the session scratchpad only (large). The Doc's revision after the last chunk was AHj4eMT3jhBD….
+
 ## 2026-11-24: per-gram framing of the models; curated methanogen; PrmA block
 
 **Why the framing changed.** The model-vs-measured comparison multiplied CH4 per g of biomass formed by standing biomass and by 24 h d⁻¹. That assumes every member grows at 1 h⁻¹.
