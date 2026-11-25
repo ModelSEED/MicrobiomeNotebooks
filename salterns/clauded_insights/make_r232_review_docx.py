@@ -52,7 +52,7 @@ AUTHOR, INITIALS, DATE = "Claude (R232 review)", "CR", "2026-10-26T00:00:00Z"
 DATE_MEPN_REPAIR = "2026-11-08T00:00:00Z"
 DATE_REASSEMBLY = "2026-11-19T00:00:00Z"   # re-assembly / re-binning / annotation additions (reassembly_2026/)   # edits revised for the MePn-obligate model repair (mepn_obligacy_check/)
 EDITS = HERE / "r232_review_edits_2026-10-26.json"
-EDITS_1117 = HERE / "r232_review_edits_2026-11-24.json"   # for the 2026-11-17 mirror (Abstract split; see that file's note)
+EDITS_1117 = HERE / "r232_review_edits_2026-11-25.json"   # for the 2026-11-17 mirror (Abstract split; see that file's note)
 _ids = iter(range(7000, 999999))
 CONTENT = {qn(t) for t in ("w:t", "w:tab", "w:br", "w:drawing", "w:pict", "w:sym", "w:footnoteReference")}
 MARKUP = re.compile(r"(\*[^*]+\*|\^[^^]+\^|~[^~]+~)")
@@ -376,6 +376,8 @@ def apply_edits(P, pending_comments, path):
             tracked_insert_before(p._p, e["old"], e["new"])
         elif e["kind"] == "replace_paragraph":
             replace_paragraph(p._p, e["new"], lead_tab=p.text.startswith("\t"))
+        elif e["kind"] == "new_paragraph_after":           # a new body paragraph, formatted like its anchor
+            new_par_after(p._p, p._p.find(qn("w:pPr")), e["new"], first_rpr(p._p), lead_tab=p.text.startswith("\t"))
         else:
             _, start = _locate(p._p, e["old"])
             pending_comments.append((p, _cut_at(p._p, start), e["new"]))
@@ -1205,7 +1207,7 @@ def main(merged):
         "statistics as correlational/r232/rerun_correlational_r232.py, applied to the re-assembled MAG set); permutation, "
         "variance and prefilter checks: correlational/final585/network_sensitivity_final585.py."))
     p9 = picture_after(doc, p[134]._p, RF / "guild_methane_raw_final585.png", 6.5, img_pPr)
-    new_par_after(p9, cap_pPr,
+    c9, _ = new_par_after(p9, cap_pPr,
         "Figure 9. Guild abundance versus methane flux across the 12 cores for the species of the re-assembled MAG set, "
         "with guilds assigned from KOfam annotations (a species is in a guild when any of its MAGs carries the marker): MPn "
         "consumers (*phnJ*), betaine reducers (*grdH* or *grdI*), the single methanogen species (*mcrA*, *Methanolobus* "
@@ -1214,6 +1216,10 @@ def main(merged):
         "symmetric-log axis because the reference wetland (R2A) showed net uptake. Each panel gives Spearman’s ρ for all "
         "12 cores and for the six unrestored cores, and the fraction of 4,000 random sets of the same number of species with "
         "an equal or higher 12-core ρ. Hollow markers are below detection (relative abundance ≤ 10^-5^).", cap_rpr)
+    F10 = json.load(open(EDITS_1117)).get("figure10") if P.shift else None
+    if F10:                                               # Figure 10 (2026-11-25): the methane-source synthesis
+        p10 = picture_after(doc, c9, S / F10["image"], 6.5, img_pPr)
+        new_par_after(p10, cap_pPr, F10["caption"], cap_rpr)
     delete_paragraph(p[148]._p)
     picture_after(doc, p[148]._p, RF / "guild_methane_dnanorm_final585.png", 6.5, img_pPr)
     replace_paragraph(p[149]._p,

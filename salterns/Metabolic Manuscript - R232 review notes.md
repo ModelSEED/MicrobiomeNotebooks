@@ -68,6 +68,31 @@ The Google Doc changed on 2026-11-16 and 2026-11-17 (Drive modifiedTime 2026-11-
   - **P18 review comment:** it still anchors, but it discusses that modeling clause, which has moved to P19.
   - **Other review edits:** none touch P19–P24. Paragraph numbers in these notes stay July-export numbers, so add 1 from P19 on when reading the 11-17 mirror.
 
+## 2026-11-25: synthesis of the methane sources (Figure 10, Conclusions)
+
+At Andrew's request, three additions:
+- a figure of all hypothesized pathways with their read and MAG abundances, top organisms and the turnover each would need;
+- a Conclusions paragraph attributing the measured methane among the hypotheses;
+- the Google Doc suggestions.
+
+**Code:** `reassembly_2026/modelling_2026/synthesis/` (`pathway_summary.py`, `figure10_pathways.py`, README). The *mtaB* taxonomy comes from new step `read_markers/scripts/10d_methanol_taxonomy.py`.
+
+**Results:**
+- **Read abundance** (copies per 100 genome equivalents): *phnJ* 9–18 (MAGs 5–9), *grdI* 1–12, *cutC* + *cntA* 2–9, *mcrA* 0.1–0.8.
+- ***mcrA* groups:** methylotrophic 91 %, hydrogenotrophic 9 % (*Methanogenium*), acetoclastic 3 reads.
+- **Methanol:** only 21 % of *mtaB* reads are archaeal (*Methanohalophilus*, *Methanococcoides*). No MAG carries methanol-, H2- or acetate-based methanogenesis.
+- **Substrate pool turnover needed:** methylamines 0.9–3.4 d, methanol 0.6–3.0 d, formate 4–12 h, acetate 8–335 d, betaine 61–168 d.
+- **Attribution at equal growth rates:** MPn 1–8 % at ratio 0.07 (3–24 % at 0.33; 9–55 % if MPn is the only P source; 6–45 % at ratio 0.07 if the MPn consumers grow 10× faster). Methylotrophic methanogenesis 84–90 % and hydrogenotrophic about 8 % at ratio 0.07.
+- **R2 cores:** at a one-day doubling time, growth-coupled methanogenesis supplies only 8–19 %.
+
+**Text** (`r232_review_edits_2026-11-25.json`, from `make_synthesis_edits_2026-11-25.py` layered on the 11-24 JSON; the builder now reads it):
+- **New paragraphs:** a Methods paragraph after P40, a Results paragraph after P78 (presenting Figure 10), and a Conclusions synthesis after P99. They use the new edit kind `new_paragraph_after`.
+- **Rewritten:** P98 ("…although methylphosphonate degradation … appears to be the most corroborated conclusion" → combined evidence attributes most methane to methylotrophic methanogenesis, MPn secondary) and P100 ("We therefore propose methylphosphonate as the primary source…" → mainly methylotrophic methanogens using methylated amines from compatible solutes, secondarily C–P lyase).
+- **Comments:** the 11-24 P100 "Consider revising" comment is replaced by a rationale comment, and the P18 and P24 comments point to the synthesis.
+- **Figure 10:** picture and caption after Figure 9. Methylphosphonic acid was detected by GC-MS but not quantified, so it has no pool turnover.
+
+**Build:** on the 11-24 mirror; "All validations PASSED" with the author check (492 → 1,083 paragraphs).
+
 ## 2026-11-24: per-gram framing of the models; curated methanogen; PrmA block
 
 **Why the framing changed.** The model-vs-measured comparison multiplied CH4 per g of biomass formed by standing biomass and by 24 h d⁻¹. That assumes every member grows at 1 h⁻¹.
