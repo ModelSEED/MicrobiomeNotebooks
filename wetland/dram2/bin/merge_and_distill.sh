@@ -18,8 +18,11 @@ PY=$B/conda_cache/dram2_beta17_distill/bin/python
 [ -e runs/ALL_CHUNKS_DONE ] || [ "${FORCE:-0}" = 1 ] || { echo "runs/ALL_CHUNKS_DONE missing (FORCE=1 to override)"; exit 1; }
 
 echo "[$(date -Is)] merging"
-"$PY" -I bin/merge_dram2.py ${MERGE_ARGS:-} || { echo "merge failed"; exit 1; }
-ANN=$B/merged/raw-annotations.all.tsv
+if [ "${SKIP_MERGE:-0}" != 1 ]; then
+  "$PY" -I bin/merge_dram2.py ${MERGE_ARGS:-} || { echo "merge failed"; exit 1; }
+fi
+ANN=${ANN:-$B/merged/raw-annotations.all.tsv}   # ANN/RRNAS/TRNAS + SKIP_MERGE=1: distill a subset (bin/subset_merged.py)
+RRNAS=${RRNAS:-$B/merged/rrnas}; TRNAS=${TRNAS:-$B/merged/trnas}
 
 L=$B/launch/$RUN; R=$B/runs/$RUN; O=$R/out; W=$WORK_ROOT/$RUN; G=$B/logs/$RUN
 mkdir -p "$L" "$O" "$W" "$G"; ln -sfn "$D/databases" "$L/databases"; rm -f "$R/DONE" "$R/FAILED"
@@ -27,7 +30,7 @@ cmd=( nextflow-classic -log "$G/nextflow.log" run "$PIPELINE"
       -profile conda -c "$B/launch/wetland_dram2.config"
       -work-dir "$W" -resume -ansi-log false
       --annotations "$ANN"
-      --rrnas "$B/merged/rrnas" --trnas "$B/merged/trnas"
+      --rrnas "$RRNAS" --trnas "$TRNAS"
       --distill_topic "$DISTILL_TOPIC" --distill_ecosystem "$DISTILL_ECOSYSTEM"
       --product
       --outdir "$O" --threads 2

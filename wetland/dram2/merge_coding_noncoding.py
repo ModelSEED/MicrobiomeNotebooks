@@ -30,7 +30,8 @@ cds = pd.read_csv(os.path.join(R, "raw-annotations.all.tsv.gz"), sep="\t", low_m
                   usecols=["query_id", "input_fasta", "mag", "start_position", "stop_position", "strandedness",
                            "kofam_passes_ko_threshold"] + sorted(set(HIT_COLS + DESC)))
 f2m = cds.drop_duplicates("input_fasta").set_index("input_fasta").mag
-assert f2m.is_unique and len(f2m) == 1184, len(f2m)
+SET = pd.read_csv(os.path.join(R, "..", "..", "census", "outputs", "dram2_hq_multisample_run4.tsv"), sep="\t").mag
+assert f2m.is_unique and set(f2m) == set(SET), (len(f2m), len(SET))   # exactly the representative set (1,206 since run 4)
 prod = cds[DESC[0]].copy()
 for c in DESC[1:]:
     prod = prod.fillna(cds[c])

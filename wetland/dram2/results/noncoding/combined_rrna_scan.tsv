@@ -5,6 +5,8 @@ bin-013-fasta__SRR11578511	bin-013-fasta__SRR11578511_k141_222362	rRNA	20236	214
 bin-016-fasta__SRR13781415	bin-016-fasta__SRR13781415_k141_414697	rRNA	16041	16150	3e-15	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-016-fasta__SRR13781415	bin-016-fasta__SRR13781415_k141_414697	rRNA	16225	19213	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
 bin-016-fasta__SRR13781415	bin-016-fasta__SRR13781415_k141_414697	rRNA	19787	21347	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-045-fasta__SRR12951270	bin-045-fasta__SRR12951270_k141_356707	rRNA	3	423	5.6e-87	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 26 percent of the 16S ribosomal RNA
+bin-045-fasta__SRR12951270	bin-045-fasta__SRR12951270_k141_522271	rRNA	1	1852	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 57 percent of the 23S ribosomal RNA
 bin-018-fasta__SRR15677231	bin-018-fasta__SRR15677231_k141_1533947	rRNA	71619	71725	4.6e-08	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-018-fasta__SRR15677231	bin-018-fasta__SRR15677231_k141_1910436	rRNA	26	454	4.9e-45	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 27 percent of the 16S ribosomal RNA
 bin-018-fasta__SRR15677231	bin-018-fasta__SRR15677231_k141_905233	rRNA	17930	18009	8.5e-07	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 67 percent of the 5S ribosomal RNA
@@ -38,8 +40,6 @@ bin-011-fasta__SRR23247786	bin-011-fasta__SRR23247786_k141_450025	rRNA	10199	113
 bin-011-fasta__SRR23247786	bin-011-fasta__SRR23247786_k141_450025	rRNA	11598	11660	9.7e-08	+	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 52 percent of the 5S ribosomal RNA
 bin-067-fasta__SRR13201612	bin-067-fasta__SRR13201612_k141_1170796	rRNA	16922	17032	2.1e-12	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-067-fasta__SRR13201612	bin-067-fasta__SRR13201612_k141_77290	rRNA	24	134	2.1e-12	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-027-fasta__SRR12951266	bin-027-fasta__SRR12951266_k141_273900	rRNA	653	761	6e-12	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-027-fasta__SRR12951266	bin-027-fasta__SRR12951266_k141_485516	rRNA	13457	13873	2.5999999999999996e-90	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 26 percent of the 16S ribosomal RNA
 bin-018-fasta__SRR9710561	bin-018-fasta__SRR9710561_k141_18895	rRNA	511	622	3.9e-13	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-018-fasta__SRR9710561	bin-018-fasta__SRR9710561_k141_848643	rRNA	50778	52205	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
 bin-028-fasta__SRR13021941	bin-028-fasta__SRR13021941_k141_147757	rRNA	93568	95131	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
@@ -194,6 +194,8 @@ bin-001-fasta__SRR21120500	bin-001-fasta__SRR21120500_k141_107927	rRNA	36627	381
 bin-001-fasta__SRR21120500	bin-001-fasta__SRR21120500_k141_107927	rRNA	38814	41795	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
 bin-001-fasta__SRR21120500	bin-001-fasta__SRR21120500_k141_107927	rRNA	42021	42132	7.6e-10	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-003-fasta__SRR11580890	bin-003-fasta__SRR11580890_k141_248382	rRNA	587	696	1e-13	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-067-fasta__SRR12951270	bin-067-fasta__SRR12951270_k141_517846	rRNA	401	480	9.2e-09	+	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 67 percent of the 5S ribosomal RNA
+bin-067-fasta__SRR12951270	bin-067-fasta__SRR12951270_k141_792943	rRNA	55683	57241	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
 bin-016-fasta__SRR13201822	bin-016-fasta__SRR13201822_k141_256322	rRNA	1	1230	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 77 percent of the 16S ribosomal RNA
 bin-016-fasta__SRR13201822	bin-016-fasta__SRR13201822_k141_363701	rRNA	50786	50895	3.1e-17	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-016-fasta__SRR13201822	bin-016-fasta__SRR13201822_k141_94221	rRNA	2	2876	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
@@ -202,6 +204,9 @@ bin-019-fasta__SRR11241203	bin-019-fasta__SRR11241203_k141_1589662	rRNA	41087	41
 bin-048-fasta__SRR18649605	bin-048-fasta__SRR18649605_k141_1466042	rRNA	14690	17482	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
 bin-048-fasta__SRR18649605	bin-048-fasta__SRR18649605_k141_560188	rRNA	6963	8462	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
 bin-048-fasta__SRR18649605	bin-048-fasta__SRR18649605_k141_815787	rRNA	47816	47925	5.7e-10	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-006-fasta__SRR12951270	bin-006-fasta__SRR12951270_k141_702773	rRNA	449627	451180	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-006-fasta__SRR12951270	bin-006-fasta__SRR12951270_k141_702773	rRNA	513252	516185	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
+bin-006-fasta__SRR12951270	bin-006-fasta__SRR12951270_k141_702773	rRNA	516318	516408	6.9e-09	+	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 76 percent of the 5S ribosomal RNA
 bin-011-fasta__SRR14454010	bin-011-fasta__SRR14454010_k141_1656146	rRNA	3431	3538	1.5e-09	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-011-fasta__SRR14454010	bin-011-fasta__SRR14454010_k141_1656146	rRNA	3607	4926	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 40 percent of the 23S ribosomal RNA
 bin-011-fasta__SRR14454010	bin-011-fasta__SRR14454010_k141_986077	rRNA	111659	113214	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
@@ -237,10 +242,13 @@ bin-006-fasta__SRR11829268	bin-006-fasta__SRR11829268_k141_363198	rRNA	1	459	1.1
 bin-006-fasta__SRR11829268	bin-006-fasta__SRR11829268_k141_363198	rRNA	800	3739	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
 bin-006-fasta__SRR11829268	bin-006-fasta__SRR11829268_k141_363198	rRNA	3908	4016	7.4e-14	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-097-fasta__SRR15532677	bin-097-fasta__SRR15532677_k141_3414635	rRNA	9851	9960	4.5e-09	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-011-fasta__SRR11837711	bin-011-fasta__SRR11837711_k141_1270469	rRNA	6777	6888	1.7e-13	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-011-fasta__SRR11837711	bin-011-fasta__SRR11837711_k141_1884932	rRNA	10590	10701	1.6e-12	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-024-fasta__SRR12354358	bin-024-fasta__SRR12354358_k141_445200	rRNA	646	755	1.8e-15	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-011-fasta__SRR13206469	bin-011-fasta__SRR13206469_k141_195336	rRNA	263	373	1.2e-15	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-011-fasta__SRR13206469	bin-011-fasta__SRR13206469_k141_566242	rRNA	7701	9227	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
 bin-011-fasta__SRR13206469	bin-011-fasta__SRR13206469_k141_566242	rRNA	9811	12736	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
+bin-005-fasta__SRR8554905	bin-005-fasta__SRR8554905_k141_21374	rRNA	438	531	6e-09	+	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 78 percent of the 5S ribosomal RNA
 bin-013-fasta__SRR8556701	bin-013-fasta__SRR8556701_k141_205669	rRNA	4657	6099	1.7000000000000002e-224	+	Name=16S_rRNA;product=16S ribosomal RNA
 bin-010-fasta__SRR9705733	bin-010-fasta__SRR9705733_k141_528516	rRNA	30802	32296	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
 bin-010-fasta__SRR9705733	bin-010-fasta__SRR9705733_k141_528516	rRNA	34163	36831	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
@@ -328,6 +336,7 @@ bin-009-fasta__SRR13201821	bin-009-fasta__SRR13201821_k141_173446	rRNA	732	841	1
 bin-015-fasta__SRR23247752	bin-015-fasta__SRR23247752_k141_301984	rRNA	110062	110168	1.9e-13	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-015-fasta__SRR23247752	bin-015-fasta__SRR23247752_k141_301984	rRNA	110278	113297	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
 bin-015-fasta__SRR23247752	bin-015-fasta__SRR23247752_k141_301984	rRNA	113849	115382	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-030-fasta__SRR6193119	bin-030-fasta__SRR6193119_k141_1849830	rRNA	57283	58236	1.8e-254	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 60 percent of the 16S ribosomal RNA
 bin-010-fasta__SRR11534413	bin-010-fasta__SRR11534413_k141_489534	rRNA	1	84	1.5e-08	+	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 70 percent of the 5S ribosomal RNA
 bin-010-fasta__SRR11534413	bin-010-fasta__SRR11534413_k141_931997	rRNA	15716	15799	1.5e-08	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 70 percent of the 5S ribosomal RNA
 bin-035-fasta__SRR12354358	bin-035-fasta__SRR12354358_k141_728107	rRNA	29004	29113	2.8e-08	-	Name=5S_rRNA;product=5S ribosomal RNA
@@ -340,6 +349,9 @@ bin-015-fasta__SRR11577220	bin-015-fasta__SRR11577220_k141_252472	rRNA	69375	722
 bin-015-fasta__SRR11577220	bin-015-fasta__SRR11577220_k141_252472	rRNA	72423	72499	5.1e-08	+	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 64 percent of the 5S ribosomal RNA
 bin-016-fasta__SRR15677234	bin-016-fasta__SRR15677234_k141_1117266	rRNA	3956	4064	5e-13	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-016-fasta__SRR15677234	bin-016-fasta__SRR15677234_k141_84474	rRNA	7807	8264	1.2e-97	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 28 percent of the 16S ribosomal RNA
+bin-013-fasta__SRR12951270	bin-013-fasta__SRR12951270_k141_143772	rRNA	26735	26846	4.4e-12	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-013-fasta__SRR12951270	bin-013-fasta__SRR12951270_k141_143772	rRNA	27052	30042	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
+bin-013-fasta__SRR12951270	bin-013-fasta__SRR12951270_k141_143772	rRNA	30752	32266	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
 bin-017-fasta__SRR8557488	bin-017-fasta__SRR8557488_k141_659573	rRNA	7760	7839	6.9e-10	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 67 percent of the 5S ribosomal RNA
 bin-017-fasta__SRR8557488	bin-017-fasta__SRR8557488_k141_659573	rRNA	7919	11022	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
 bin-017-fasta__SRR8557488	bin-017-fasta__SRR8557488_k141_659573	rRNA	11305	12832	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
@@ -485,6 +497,7 @@ bin-020-fasta__SRR9707467	bin-020-fasta__SRR9707467_k141_611630	rRNA	3775	3880	4
 bin-014-fasta__SRR11581882	bin-014-fasta__SRR11581882_k141_35086	rRNA	112569	112678	6.3e-12	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-014-fasta__SRR11581882	bin-014-fasta__SRR11581882_k141_35086	rRNA	112756	113740	1.3e-290	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 30 percent of the 23S ribosomal RNA
 bin-015-fasta__SRR13557796	bin-015-fasta__SRR13557796_k141_1673930	rRNA	10866	11404	2.6e-107	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 34 percent of the 16S ribosomal RNA
+bin-001-fasta__SRR13021855	bin-001-fasta__SRR13021855_k141_721018	rRNA	20574	21274	4.5000000000000005e-182	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 44 percent of the 16S ribosomal RNA
 bin-019-fasta__SRR11578468	bin-019-fasta__SRR11578468_k141_106600	rRNA	48846	48956	5.7e-10	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-001-fasta__SRR18686408	bin-001-fasta__SRR18686408_k141_527910	rRNA	639	748	2.1e-08	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-067-fasta__SRR14699987	bin-067-fasta__SRR14699987_k141_88893	rRNA	69426	69536	8.4e-15	-	Name=5S_rRNA;product=5S ribosomal RNA
@@ -504,10 +517,10 @@ bin-011-fasta__SRR18693124	bin-011-fasta__SRR18693124_k141_1982272	rRNA	208102	2
 bin-011-fasta__SRR18693124	bin-011-fasta__SRR18693124_k141_759659	rRNA	883	993	4.6e-15	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-016-fasta__SRR11668400	bin-016-fasta__SRR11668400_k141_575693	rRNA	10064	10643	3.7999999999999997e-135	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 36 percent of the 16S ribosomal RNA
 bin-016-fasta__SRR11668400	bin-016-fasta__SRR11668400_k141_793686	rRNA	3040	3146	1.5e-07	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-006-fasta__SRR12354359	bin-006-fasta__SRR12354359_k141_178466	rRNA	24252	24362	4.3e-13	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-009-fasta__SRR5198901	bin-009-fasta__SRR5198901_k141_11506710	rRNA	22276	22367	3.6e-10	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 77 percent of the 5S ribosomal RNA
 bin-009-fasta__SRR5198901	bin-009-fasta__SRR5198901_k141_9753436	rRNA	3171	3250	1.3e-08	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 67 percent of the 5S ribosomal RNA
 bin-009-fasta__SRR5198901	bin-009-fasta__SRR5198901_k141_9755350	rRNA	22787	22866	1.3e-08	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 67 percent of the 5S ribosomal RNA
-bin-006-fasta__SRR12354359	bin-006-fasta__SRR12354359_k141_178466	rRNA	24252	24362	4.3e-13	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-037-fasta__SRR8557363	bin-037-fasta__SRR8557363_k141_86189	rRNA	40988	41729	3.4e-168	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 46 percent of the 16S ribosomal RNA
 bin-014-fasta__SRR11668400	bin-014-fasta__SRR11668400_k141_575780	rRNA	1	420	1.5e-86	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 26 percent of the 16S ribosomal RNA
 bin-023-fasta__SRR23247690	bin-023-fasta__SRR23247690_k141_361682	rRNA	48521	48629	4.8e-15	-	Name=5S_rRNA;product=5S ribosomal RNA
@@ -548,6 +561,8 @@ bin-009-fasta__SRR11534415	bin-009-fasta__SRR11534415_k141_187416	rRNA	287	392	9
 bin-009-fasta__SRR11534415	bin-009-fasta__SRR11534415_k141_451993	rRNA	284	388	1.3e-09	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-009-fasta__SRR11534415	bin-009-fasta__SRR11534415_k141_462265	rRNA	16130	16212	6.4e-08	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 69 percent of the 5S ribosomal RNA
 bin-009-fasta__SRR11534415	bin-009-fasta__SRR11534415_k141_465523	rRNA	9002	9084	6.4e-08	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 69 percent of the 5S ribosomal RNA
+bin-003-fasta__SRR8555691	bin-003-fasta__SRR8555691_k141_1875155	rRNA	136146	136235	2.9e-09	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 75 percent of the 5S ribosomal RNA
+bin-003-fasta__SRR8555691	bin-003-fasta__SRR8555691_k141_685679	rRNA	301666	302212	1.3e-130	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 34 percent of the 16S ribosomal RNA
 bin-006-fasta__SRR11577220	bin-006-fasta__SRR11577220_k141_110283	rRNA	128032	128142	6.6e-10	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-132-fasta__SRR11241202	bin-132-fasta__SRR11241202_k141_3845529	rRNA	2	433	3.2e-98	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 27 percent of the 16S ribosomal RNA
 bin-132-fasta__SRR11241202	bin-132-fasta__SRR11241202_k141_7882637	rRNA	323	433	1.6e-11	+	Name=5S_rRNA;product=5S ribosomal RNA
@@ -570,9 +585,7 @@ bin-027-fasta__SRR12354223	bin-027-fasta__SRR12354223_k141_191569	rRNA	7405	7480
 bin-027-fasta__SRR12354223	bin-027-fasta__SRR12354223_k141_191569	rRNA	8302	8387	4.2e-08	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 72 percent of the 5S ribosomal RNA
 bin-027-fasta__SRR12354223	bin-027-fasta__SRR12354223_k141_241383	rRNA	61272	61357	4.2e-08	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 72 percent of the 5S ribosomal RNA
 bin-026-fasta__SRR8556706	bin-026-fasta__SRR8556706_k141_448419	rRNA	527	627	1.4e-09	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-032-fasta__SRR13021852	bin-032-fasta__SRR13021852_k141_357992	rRNA	34073	34149	3e-08	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 64 percent of the 5S ribosomal RNA
-bin-032-fasta__SRR13021852	bin-032-fasta__SRR13021852_k141_357992	rRNA	34274	37252	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
-bin-032-fasta__SRR13021852	bin-032-fasta__SRR13021852_k141_357992	rRNA	37452	38995	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-049-fasta__SRR13021960	bin-049-fasta__SRR13021960_k141_728965	rRNA	10482	10591	1.9e-15	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-007-fasta__SRR21679862	bin-007-fasta__SRR21679862_k141_603913	rRNA	18379	18487	4.2e-12	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-003-fasta__SRR8557365	bin-003-fasta__SRR8557365_k141_362495	rRNA	467	4781	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
 bin-003-fasta__SRR8557365	bin-003-fasta__SRR8557365_k141_652126	rRNA	374	1547	6.6e-94	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 36 percent of the 23S ribosomal RNA
@@ -728,6 +741,8 @@ bin-009-fasta__SRR10489817	bin-009-fasta__SRR10489817_k141_1032380	rRNA	350	456	
 bin-070-fasta__SRR13201612	bin-070-fasta__SRR13201612_k141_1355503	rRNA	807	916	5.9e-07	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-070-fasta__SRR13201612	bin-070-fasta__SRR13201612_k141_1819200	rRNA	408937	410404	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
 bin-070-fasta__SRR13201612	bin-070-fasta__SRR13201612_k141_1819200	rRNA	416695	419337	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
+bin-036-fasta__SRR6193119	bin-036-fasta__SRR6193119_k141_120201	rRNA	16	1059	2.4e-240	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 65 percent of the 16S ribosomal RNA
+bin-036-fasta__SRR6193119	bin-036-fasta__SRR6193119_k141_457463	rRNA	678	789	4e-07	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-024-fasta__SRR12354356	bin-024-fasta__SRR12354356_k141_209042	rRNA	72	1579	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
 bin-024-fasta__SRR12354356	bin-024-fasta__SRR12354356_k141_251073	rRNA	1	2679	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
 bin-024-fasta__SRR12354356	bin-024-fasta__SRR12354356_k141_251073	rRNA	2792	4336	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
@@ -760,11 +775,11 @@ bin-020-fasta__SRR11577034	bin-020-fasta__SRR11577034_k141_227514	rRNA	10993	111
 bin-020-fasta__SRR11577034	bin-020-fasta__SRR11577034_k141_419639	rRNA	2	941	1.2000000000000002e-246	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 59 percent of the 16S ribosomal RNA
 bin-023-fasta__SRR12354357	bin-023-fasta__SRR12354357_k141_487712	rRNA	1	2446	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 75 percent of the 23S ribosomal RNA
 bin-023-fasta__SRR12354357	bin-023-fasta__SRR12354357_k141_487712	rRNA	2947	4483	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-012-fasta__SRR13021852	bin-012-fasta__SRR13021852_k141_330849	rRNA	100543	100653	2.8e-07	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-012-fasta__SRR13021852	bin-012-fasta__SRR13021852_k141_330849	rRNA	100862	101816	1.5e-234	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 29 percent of the 23S ribosomal RNA
-bin-012-fasta__SRR13021852	bin-012-fasta__SRR13021852_k141_378317	rRNA	14710	16173	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
 bin-007-fasta__SRR10907121	bin-007-fasta__SRR10907121_k141_6488	rRNA	26013	26119	8.1e-07	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-007-fasta__SRR10907121	bin-007-fasta__SRR10907121_k141_6494	rRNA	22	128	8.1e-07	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-021-fasta__SRR12172649	bin-021-fasta__SRR12172649_k141_287259	rRNA	2909	3019	2e-15	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-021-fasta__SRR12172649	bin-021-fasta__SRR12172649_k141_741405	rRNA	1472	2388	1.1e-71	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 57 percent of the 16S ribosomal RNA
+bin-021-fasta__SRR12172649	bin-021-fasta__SRR12172649_k141_741405	rRNA	3576	6792	1.2e-136	+	Name=23S_rRNA;product=23S ribosomal RNA
 bin-022-fasta__SRR11579229	bin-022-fasta__SRR11579229_k141_489977	rRNA	63278	63388	3.9e-09	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-022-fasta__SRR11579229	bin-022-fasta__SRR11579229_k141_496467	rRNA	1	3617	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
 bin-022-fasta__SRR11579229	bin-022-fasta__SRR11579229_k141_496467	rRNA	3913	5443	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
@@ -800,7 +815,6 @@ bin-005-fasta__SRR13202123	bin-005-fasta__SRR13202123_k141_711293	rRNA	11634	144
 bin-014-fasta__SRR15532678	bin-014-fasta__SRR15532678_k141_2979373	rRNA	3	108	1.3e-11	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-014-fasta__SRR15532678	bin-014-fasta__SRR15532678_k141_4224866	rRNA	3	108	1.3e-11	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-017-fasta__SRR11576861	bin-017-fasta__SRR11576861_k141_405215	rRNA	4	1469	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-007-fasta__SRR6195975	bin-007-fasta__SRR6195975_k141_238438	rRNA	15050	15956	3.9e-242	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 57 percent of the 16S ribosomal RNA
 bin-050-fasta__SRR12951266	bin-050-fasta__SRR12951266_k141_586863	rRNA	22693	24250	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
 bin-050-fasta__SRR12951266	bin-050-fasta__SRR12951266_k141_586863	rRNA	24477	28053	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
 bin-014-fasta__SRR13201824	bin-014-fasta__SRR13201824_k141_100552	rRNA	8499	10004	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
@@ -830,10 +844,6 @@ bin-027-fasta__SRR16547337	bin-027-fasta__SRR16547337_k141_84581	rRNA	240	1760	0
 bin-027-fasta__SRR16547337	bin-027-fasta__SRR16547337_k141_96866	rRNA	1732	2665	2.2e-83	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 58 percent of the 16S ribosomal RNA
 bin-027-fasta__SRR16547337	bin-027-fasta__SRR16547337_k141_96866	rRNA	3282	6404	1.9e-205	+	Name=23S_rRNA;product=23S ribosomal RNA
 bin-015-fasta__SRR6152564	bin-015-fasta__SRR6152564_k119_552195	rRNA	513	621	6.9e-09	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-049-fasta__SRR13021904	bin-049-fasta__SRR13021904_k141_327771	rRNA	126977	128251	1.3e-190	+	Name=16S_rRNA;product=16S ribosomal RNA
-bin-049-fasta__SRR13021904	bin-049-fasta__SRR13021904_k141_412442	rRNA	2	1266	2.9e-210	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 79 percent of the 16S ribosomal RNA
-bin-049-fasta__SRR13021904	bin-049-fasta__SRR13021904_k141_412442	rRNA	1521	4410	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
-bin-049-fasta__SRR13021904	bin-049-fasta__SRR13021904_k141_412442	rRNA	4712	4828	1.5e-12	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-005-fasta__SRR10489813	bin-005-fasta__SRR10489813_k141_901171	rRNA	21	131	2.5e-15	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-010-fasta__SRR11577221	bin-010-fasta__SRR11577221_k141_1075605	rRNA	3	420	3.3e-93	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 26 percent of the 16S ribosomal RNA
 bin-010-fasta__SRR11577221	bin-010-fasta__SRR11577221_k141_1094396	rRNA	90500	91351	3.6e-169	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 26 percent of the 23S ribosomal RNA
@@ -861,6 +871,8 @@ bin-003-fasta__SRR13768069	bin-003-fasta__SRR13768069_k141_16129	rRNA	3409	4332	
 bin-003-fasta__SRR13768069	bin-003-fasta__SRR13768069_k141_76301	rRNA	2	921	8.4e-170	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 28 percent of the 23S ribosomal RNA
 bin-002-fasta__SRR13021941	bin-002-fasta__SRR13021941_k141_587111	rRNA	1	2455	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 75 percent of the 23S ribosomal RNA
 bin-002-fasta__SRR13021941	bin-002-fasta__SRR13021941_k141_587111	rRNA	2815	4372	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-022-fasta__SRR8555691	bin-022-fasta__SRR8555691_k141_1492263	rRNA	29155	29241	4.4e-09	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 73 percent of the 5S ribosomal RNA
+bin-022-fasta__SRR8555691	bin-022-fasta__SRR8555691_k141_1984751	rRNA	74008	74115	2.5e-11	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-045-fasta__SRR21120498	bin-045-fasta__SRR21120498_k141_42152	rRNA	79916	81435	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
 bin-045-fasta__SRR21120498	bin-045-fasta__SRR21120498_k141_42152	rRNA	81785	85552	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
 bin-045-fasta__SRR21120498	bin-045-fasta__SRR21120498_k141_42152	rRNA	85634	85744	7.3e-17	+	Name=5S_rRNA;product=5S ribosomal RNA
@@ -872,8 +884,122 @@ bin-027-fasta__SRR21120500	bin-027-fasta__SRR21120500_k141_117313	rRNA	11158	120
 bin-027-fasta__SRR21120500	bin-027-fasta__SRR21120500_k141_54226	rRNA	1	1059	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 32 percent of the 23S ribosomal RNA
 bin-027-fasta__SRR21120500	bin-027-fasta__SRR21120500_k141_54226	rRNA	1193	1303	8.1e-12	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-013-fasta__SRR11576585	bin-013-fasta__SRR11576585_k141_108295	rRNA	124937	125046	2.9e-12	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-002-fasta__SRR6152564	bin-002-fasta__SRR6152564_k119_554187	rRNA	31	119	6.5e-08	+	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 74 percent of the 5S ribosomal RNA
 bin-003-fasta__SRR15532678	bin-003-fasta__SRR15532678_k141_5409873	rRNA	2898	6236	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
 bin-003-fasta__SRR15532678	bin-003-fasta__SRR15532678_k141_5409873	rRNA	6380	6469	9.7e-08	+	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 75 percent of the 5S ribosomal RNA
+bin-001-fasta__SRR13201618	bin-001-fasta__SRR13201618_k141_305929	rRNA	53139	55758	1.1e-285	-	Name=23S_rRNA;product=23S ribosomal RNA
+bin-001-fasta__SRR13201618	bin-001-fasta__SRR13201618_k141_305929	rRNA	55964	57489	4e-215	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-070-fasta__SRR12951266	bin-070-fasta__SRR12951266_k141_28111	rRNA	24552	26050	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
+bin-070-fasta__SRR12951266	bin-070-fasta__SRR12951266_k141_28111	rRNA	26697	29637	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
+bin-070-fasta__SRR12951266	bin-070-fasta__SRR12951266_k141_28111	rRNA	29714	29825	2.9e-15	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-070-fasta__SRR12951266	bin-070-fasta__SRR12951266_k141_523267	rRNA	651	2151	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-007-fasta__SRR18077950	bin-007-fasta__SRR18077950_k141_1250069	rRNA	52	592	1.4e-40	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 34 percent of the 16S ribosomal RNA
+bin-007-fasta__SRR18077950	bin-007-fasta__SRR18077950_k141_1250069	rRNA	1314	3630	1.8e-129	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 71 percent of the 23S ribosomal RNA
+bin-007-fasta__SRR18077950	bin-007-fasta__SRR18077950_k141_1315458	rRNA	403418	404912	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
+bin-007-fasta__SRR18077950	bin-007-fasta__SRR18077950_k141_1315458	rRNA	405593	408536	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
+bin-007-fasta__SRR18077950	bin-007-fasta__SRR18077950_k141_1315458	rRNA	408619	408730	4.5e-14	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-006-fasta__SRR13206475	bin-006-fasta__SRR13206475_k141_172504	rRNA	709	3707	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
+bin-006-fasta__SRR13206475	bin-006-fasta__SRR13206475_k141_172504	rRNA	3805	3916	2.7e-09	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-011-fasta__SRR15532678	bin-011-fasta__SRR15532678_k141_451868	rRNA	2557	2667	1.1e-09	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-011-fasta__SRR15532678	bin-011-fasta__SRR15532678_k141_451868	rRNA	2746	5659	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
+bin-011-fasta__SRR15532678	bin-011-fasta__SRR15532678_k141_451868	rRNA	6511	8107	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-022-fasta__SRR11593439	bin-022-fasta__SRR11593439_k141_484280	rRNA	7475	7585	2.7e-14	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-022-fasta__SRR11593439	bin-022-fasta__SRR11593439_k141_484280	rRNA	7725	10985	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
+bin-022-fasta__SRR11593439	bin-022-fasta__SRR11593439_k141_484280	rRNA	11797	13301	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-106-fasta__SRR16963053	bin-106-fasta__SRR16963053_k141_1037621	rRNA	121721	124632	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
+bin-106-fasta__SRR16963053	bin-106-fasta__SRR16963053_k141_1659173	rRNA	195492	195607	2.3e-12	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-106-fasta__SRR16963053	bin-106-fasta__SRR16963053_k141_2664861	rRNA	195024	196485	2.4e-202	+	Name=16S_rRNA;product=16S ribosomal RNA
+bin-033-fasta__SRR21120500	bin-033-fasta__SRR21120500_k141_206364	rRNA	1	1179	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 74 percent of the 16S ribosomal RNA
+bin-033-fasta__SRR21120500	bin-033-fasta__SRR21120500_k141_78727	rRNA	4761	4855	7.3e-13	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-020-fasta__SRR8555691	bin-020-fasta__SRR8555691_k141_192963	rRNA	3822	3897	3.5e-08	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 63 percent of the 5S ribosomal RNA
+bin-002-fasta__SRR14454019	bin-002-fasta__SRR14454019_k141_764973	rRNA	22	132	5e-12	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-017-fasta__SRR5246790	bin-017-fasta__SRR5246790_k141_1398461	rRNA	469	573	9.7e-14	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-017-fasta__SRR5246790	bin-017-fasta__SRR5246790_k141_1398461	rRNA	639	3535	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
+bin-017-fasta__SRR5246790	bin-017-fasta__SRR5246790_k141_1398461	rRNA	3882	5344	3.3e-225	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-051-fasta__SRR9710522	bin-051-fasta__SRR9710522_k141_587753	rRNA	15134	16589	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
+bin-051-fasta__SRR9710522	bin-051-fasta__SRR9710522_k141_587753	rRNA	19498	22381	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
+bin-099-fasta__SRR16963053	bin-099-fasta__SRR16963053_k141_1628168	rRNA	5788	5897	5.7e-10	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-099-fasta__SRR16963053	bin-099-fasta__SRR16963053_k141_2691346	rRNA	10196	11528	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
+bin-009-fasta__SRR14699987	bin-009-fasta__SRR14699987_k141_4863020	rRNA	12418	12528	1.4e-10	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-008-fasta__SRR13206475	bin-008-fasta__SRR13206475_k141_591796	rRNA	460	570	6.1e-16	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-004-fasta__SRR6152564	bin-004-fasta__SRR6152564_k119_433118	rRNA	1	412	1.3e-84	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 25 percent of the 16S ribosomal RNA
+bin-004-fasta__SRR6152564	bin-004-fasta__SRR6152564_k119_573035	rRNA	14161	14263	7.7e-13	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-024-fasta__SRR8556254	bin-024-fasta__SRR8556254_k141_439781	rRNA	35037	36602	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
+bin-024-fasta__SRR8556254	bin-024-fasta__SRR8556254_k141_439781	rRNA	37189	38340	1.1999999999999996e-242	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 35 percent of the 23S ribosomal RNA
+bin-019-fasta__SRR11597346	bin-019-fasta__SRR11597346_k141_36354	rRNA	194	303	4.4e-15	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-044-fasta__SRR9700623	bin-044-fasta__SRR9700623_k141_451279	rRNA	6254	6365	3.8e-09	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-044-fasta__SRR9700623	bin-044-fasta__SRR9700623_k141_508555	rRNA	7231	7342	3.8e-09	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-042-fasta__SRR9709000	bin-042-fasta__SRR9709000_k141_492856	rRNA	38449	38559	6.4e-14	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-042-fasta__SRR9709000	bin-042-fasta__SRR9709000_k141_492856	rRNA	38680	41574	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
+bin-042-fasta__SRR9709000	bin-042-fasta__SRR9709000_k141_492856	rRNA	42330	43860	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-039-fasta__SRR21120496	bin-039-fasta__SRR21120496_k141_209564	rRNA	33058	33167	4.7e-07	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-011-fasta__SRR12354357	bin-011-fasta__SRR12354357_k141_332085	rRNA	3	778	6.5e-198	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 48 percent of the 16S ribosomal RNA
+bin-029-fasta__SRR8556254	bin-029-fasta__SRR8556254_k141_143674	rRNA	20042	20150	4.4e-13	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-029-fasta__SRR8556254	bin-029-fasta__SRR8556254_k141_75948	rRNA	80336	81242	1.1e-222	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 57 percent of the 16S ribosomal RNA
+bin-041-fasta__SRR9700626	bin-041-fasta__SRR9700626_k141_416156	rRNA	17846	19411	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
+bin-041-fasta__SRR9700626	bin-041-fasta__SRR9700626_k141_416156	rRNA	19822	22841	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
+bin-041-fasta__SRR9700626	bin-041-fasta__SRR9700626_k141_416156	rRNA	22914	23023	5.7e-16	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-080-fasta__SRR15532675	bin-080-fasta__SRR15532675_k141_12176950	rRNA	13608	14548	3.1e-235	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 59 percent of the 16S ribosomal RNA
+bin-080-fasta__SRR15532675	bin-080-fasta__SRR15532675_k141_12836683	rRNA	474	583	5.5e-13	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-013-fasta__SRR23247727	bin-013-fasta__SRR23247727_k141_118693	rRNA	127396	127812	1.1e-97	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 26 percent of the 16S ribosomal RNA
+bin-013-fasta__SRR23247727	bin-013-fasta__SRR23247727_k141_94953	rRNA	345	453	4.2e-14	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-030-fasta__SRR9700626	bin-030-fasta__SRR9700626_k141_472533	rRNA	35093	35195	1.9e-11	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-019-fasta__SRR21120500	bin-019-fasta__SRR21120500_k141_445395	rRNA	45422	46955	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
+bin-019-fasta__SRR21120500	bin-019-fasta__SRR21120500_k141_445395	rRNA	47384	50297	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
+bin-019-fasta__SRR21120500	bin-019-fasta__SRR21120500_k141_445395	rRNA	50382	50489	5.9e-09	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-027-fasta__SRR12354356	bin-027-fasta__SRR12354356_k141_540059	rRNA	245043	245558	3.7e-125	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 32 percent of the 16S ribosomal RNA
+bin-015-fasta__SRR15677227	bin-015-fasta__SRR15677227_k141_99078	rRNA	542	652	3.4e-14	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-026-fasta__SRR8556257	bin-026-fasta__SRR8556257_k141_18610	rRNA	803	911	2.3e-12	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-026-fasta__SRR8556257	bin-026-fasta__SRR8556257_k141_189352	rRNA	43635	44362	1.9e-172	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 45 percent of the 16S ribosomal RNA
+bin-011-fasta__SRR5829543	bin-011-fasta__SRR5829543_k141_127805	rRNA	2	419	2.7e-94	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 26 percent of the 16S ribosomal RNA
+bin-004-fasta__SRR13021854	bin-004-fasta__SRR13021854_k141_313534	rRNA	101084	101192	2.4e-09	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-004-fasta__SRR13021854	bin-004-fasta__SRR13021854_k141_504486	rRNA	2	992	6.8e-196	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 30 percent of the 23S ribosomal RNA
+bin-004-fasta__SRR13021854	bin-004-fasta__SRR13021854_k141_504486	rRNA	1456	2953	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-011-fasta__SRR21120499	bin-011-fasta__SRR21120499_k141_125061	rRNA	43102	44644	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
+bin-011-fasta__SRR21120499	bin-011-fasta__SRR21120499_k141_125061	rRNA	45278	46213	9.600000000000001e-195	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 28 percent of the 23S ribosomal RNA
+bin-011-fasta__SRR21120499	bin-011-fasta__SRR21120499_k141_80159	rRNA	106037	106145	1.8e-12	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-011-fasta__SRR21120499	bin-011-fasta__SRR21120499_k141_80159	rRNA	106282	108449	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 67 percent of the 23S ribosomal RNA
+bin-002-fasta__SRR21120503	bin-002-fasta__SRR21120503_k141_145251	rRNA	36371	36481	3.4e-15	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-007-fasta__SRR9700687	bin-007-fasta__SRR9700687_k141_611716	rRNA	50225	50334	2.4e-14	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-007-fasta__SRR9700687	bin-007-fasta__SRR9700687_k141_611716	rRNA	50419	54505	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
+bin-007-fasta__SRR9700687	bin-007-fasta__SRR9700687_k141_611716	rRNA	54923	56437	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-069-fasta__SRR14699986	bin-069-fasta__SRR14699986_k141_2768584	rRNA	28109	29655	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
+bin-069-fasta__SRR14699986	bin-069-fasta__SRR14699986_k141_2768584	rRNA	30126	32843	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
+bin-069-fasta__SRR14699986	bin-069-fasta__SRR14699986_k141_8271239	rRNA	14792	14901	3.9e-12	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-008-fasta__SRR13021855	bin-008-fasta__SRR13021855_k141_439893	rRNA	34007	34116	4.2e-16	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-008-fasta__SRR13021855	bin-008-fasta__SRR13021855_k141_507457	rRNA	2	1306	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
+bin-016-fasta__SRR12354356	bin-016-fasta__SRR12354356_k141_659328	rRNA	1	1158	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 35 percent of the 23S ribosomal RNA
+bin-016-fasta__SRR12354356	bin-016-fasta__SRR12354356_k141_659328	rRNA	1256	1367	1.1e-09	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-032-fasta__SRR9700529	bin-032-fasta__SRR9700529_k141_74007	rRNA	1	79	3e-09	+	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 66 percent of the 5S ribosomal RNA
+bin-042-fasta__SRR9705675	bin-042-fasta__SRR9705675_k141_217092	rRNA	10276	11708	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
+bin-023-fasta__SRR5829545	bin-023-fasta__SRR5829545_k141_1275823	rRNA	293565	294561	9.1e-142	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 30 percent of the 23S ribosomal RNA
+bin-023-fasta__SRR5829545	bin-023-fasta__SRR5829545_k141_26073	rRNA	60874	60990	9.8e-13	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-023-fasta__SRR5829545	bin-023-fasta__SRR5829545_k141_866001	rRNA	2	2007	7.9e-230	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 62 percent of the 23S ribosomal RNA
+bin-044-fasta__SRR9648400	bin-044-fasta__SRR9648400_k141_3507643	rRNA	86542	86652	7.2e-15	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-044-fasta__SRR9648400	bin-044-fasta__SRR9648400_k141_3507643	rRNA	86722	89741	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
+bin-044-fasta__SRR9648400	bin-044-fasta__SRR9648400_k141_3507643	rRNA	90230	91778	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-013-fasta__SRR23247747	bin-013-fasta__SRR23247747_k141_434986	rRNA	82354	82464	5.6e-11	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-013-fasta__SRR23247747	bin-013-fasta__SRR23247747_k141_434986	rRNA	82561	85558	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
+bin-013-fasta__SRR23247747	bin-013-fasta__SRR23247747_k141_434986	rRNA	86029	87559	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-035-fasta__SRR9700627	bin-035-fasta__SRR9700627_k141_1156098	rRNA	1447	2976	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-035-fasta__SRR9700627	bin-035-fasta__SRR9700627_k141_1329532	rRNA	664	774	4.8e-15	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-007-fasta__SRR13780020	bin-007-fasta__SRR13780020_k141_755661	rRNA	28366	28477	4.1e-07	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-007-fasta__SRR13780020	bin-007-fasta__SRR13780020_k141_932626	rRNA	49314	49780	4.6e-96	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 29 percent of the 16S ribosomal RNA
+bin-004-fasta__SRR11837467	bin-004-fasta__SRR11837467_k141_1112831	rRNA	10903	12423	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
+bin-004-fasta__SRR11837467	bin-004-fasta__SRR11837467_k141_1130066	rRNA	1	874	1.4e-143	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 27 percent of the 23S ribosomal RNA
+bin-004-fasta__SRR11837467	bin-004-fasta__SRR11837467_k141_1550099	rRNA	3	110	9.1e-10	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-004-fasta__SRR11837467	bin-004-fasta__SRR11837467_k141_910622	rRNA	3	110	9.1e-10	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-005-fasta__SRR11593347	bin-005-fasta__SRR11593347_k141_223638	rRNA	557	668	3.8e-07	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-005-fasta__SRR11593347	bin-005-fasta__SRR11593347_k141_307487	rRNA	2	835	7.699999999999999e-189	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 52 percent of the 16S ribosomal RNA
+bin-060-fasta__SRR14699986	bin-060-fasta__SRR14699986_k141_428162	rRNA	55602	56527	8.900000000000001e-130	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 58 percent of the 16S ribosomal RNA
+bin-060-fasta__SRR14699986	bin-060-fasta__SRR14699986_k141_8379488	rRNA	2342	3868	1.2e-227	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-006-fasta__SRR11579640	bin-006-fasta__SRR11579640_k141_204614	rRNA	3	110	7.2e-15	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-022-fasta__SRR15532678	bin-022-fasta__SRR15532678_k141_4537945	rRNA	23376	23451	3.2e-07	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 63 percent of the 5S ribosomal RNA
+bin-022-fasta__SRR15532678	bin-022-fasta__SRR15532678_k141_4537945	rRNA	23603	24620	3.1e-278	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 31 percent of the 23S ribosomal RNA
+bin-038-fasta__SRR8556427	bin-038-fasta__SRR8556427_k141_419526	rRNA	106092	106201	2.8e-15	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-038-fasta__SRR8556427	bin-038-fasta__SRR8556427_k141_419526	rRNA	106270	110049	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
+bin-038-fasta__SRR8556427	bin-038-fasta__SRR8556427_k141_419526	rRNA	110243	111769	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-010-fasta__SRR18679922	bin-010-fasta__SRR18679922_k141_602628	rRNA	1151	1262	1.4e-12	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-015-fasta__SRR23247736	bin-015-fasta__SRR23247736_k141_1230	rRNA	228	336	2.1e-15	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-015-fasta__SRR23247736	bin-015-fasta__SRR23247736_k141_220412	rRNA	1	935	8.999999999999999e-244	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 28 percent of the 23S ribosomal RNA
 bin-015-fasta__SRR23247736	bin-015-fasta__SRR23247736_k141_220412	rRNA	1122	1231	7.7e-12	+	Name=5S_rRNA;product=5S ribosomal RNA
@@ -929,7 +1055,6 @@ bin-001-fasta__SRR5246791	bin-001-fasta__SRR5246791_k141_266110	rRNA	27682	29247
 bin-029-fasta__SRR21120498	bin-029-fasta__SRR21120498_k141_41301	rRNA	91991	92100	2.6e-11	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-029-fasta__SRR21120498	bin-029-fasta__SRR21120498_k141_41301	rRNA	92323	95987	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
 bin-029-fasta__SRR21120498	bin-029-fasta__SRR21120498_k141_41301	rRNA	96690	98233	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-071-fasta__SRR12951266	bin-071-fasta__SRR12951266_k141_307409	rRNA	3	462	1.7e-95	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 29 percent of the 16S ribosomal RNA
 bin-019-fasta__SRR14454019	bin-019-fasta__SRR14454019_k141_1404960	rRNA	4658	4768	2e-14	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-019-fasta__SRR14454019	bin-019-fasta__SRR14454019_k141_999843	rRNA	5	471	5.7e-104	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 29 percent of the 16S ribosomal RNA
 bin-039-fasta__SRR13021904	bin-039-fasta__SRR13021904_k141_413658	rRNA	105852	107349	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
@@ -947,6 +1072,9 @@ bin-103-fasta__SRR16963053	bin-103-fasta__SRR16963053_k141_480320	rRNA	11352	128
 bin-022-fasta__SRR11578959	bin-022-fasta__SRR11578959_k141_1002302	rRNA	2	1024	9.6e-293	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 31 percent of the 23S ribosomal RNA
 bin-022-fasta__SRR11578959	bin-022-fasta__SRR11578959_k141_1002302	rRNA	1085	1197	4.9e-18	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-022-fasta__SRR11578959	bin-022-fasta__SRR11578959_k141_855557	rRNA	14574	15570	1.2e-254	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 62 percent of the 16S ribosomal RNA
+bin-039-fasta__SRR6193119	bin-039-fasta__SRR6193119_k141_943872	rRNA	35889	36003	5.4e-14	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-039-fasta__SRR6193119	bin-039-fasta__SRR6193119_k141_943872	rRNA	36223	39112	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
+bin-039-fasta__SRR6193119	bin-039-fasta__SRR6193119_k141_943872	rRNA	39412	40156	7.8e-130	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 47 percent of the 16S ribosomal RNA
 bin-047-fasta__SRR21120500	bin-047-fasta__SRR21120500_k141_346230	rRNA	12184	13731	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
 bin-047-fasta__SRR21120500	bin-047-fasta__SRR21120500_k141_346230	rRNA	14215	17220	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
 bin-047-fasta__SRR21120500	bin-047-fasta__SRR21120500_k141_346230	rRNA	17385	17494	1.5e-16	+	Name=5S_rRNA;product=5S ribosomal RNA
@@ -997,114 +1125,6 @@ bin-034-fasta__SRR13021904	bin-034-fasta__SRR13021904_k141_523507	rRNA	240	309	3
 bin-034-fasta__SRR13021904	bin-034-fasta__SRR13021904_k141_538869	rRNA	13897	15455	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
 bin-016-fasta__SRR11593346	bin-016-fasta__SRR11593346_k141_115968	rRNA	21279	22799	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
 bin-016-fasta__SRR11593346	bin-016-fasta__SRR11593346_k141_115968	rRNA	23178	25278	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 65 percent of the 23S ribosomal RNA
-bin-001-fasta__SRR13201618	bin-001-fasta__SRR13201618_k141_305929	rRNA	53139	55758	1.1e-285	-	Name=23S_rRNA;product=23S ribosomal RNA
-bin-001-fasta__SRR13201618	bin-001-fasta__SRR13201618_k141_305929	rRNA	55964	57489	4e-215	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-070-fasta__SRR12951266	bin-070-fasta__SRR12951266_k141_28111	rRNA	24552	26050	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
-bin-070-fasta__SRR12951266	bin-070-fasta__SRR12951266_k141_28111	rRNA	26697	29637	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
-bin-070-fasta__SRR12951266	bin-070-fasta__SRR12951266_k141_28111	rRNA	29714	29825	2.9e-15	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-070-fasta__SRR12951266	bin-070-fasta__SRR12951266_k141_523267	rRNA	651	2151	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-007-fasta__SRR18077950	bin-007-fasta__SRR18077950_k141_1250069	rRNA	52	592	1.4e-40	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 34 percent of the 16S ribosomal RNA
-bin-007-fasta__SRR18077950	bin-007-fasta__SRR18077950_k141_1250069	rRNA	1314	3630	1.8e-129	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 71 percent of the 23S ribosomal RNA
-bin-007-fasta__SRR18077950	bin-007-fasta__SRR18077950_k141_1315458	rRNA	403418	404912	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
-bin-007-fasta__SRR18077950	bin-007-fasta__SRR18077950_k141_1315458	rRNA	405593	408536	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
-bin-007-fasta__SRR18077950	bin-007-fasta__SRR18077950_k141_1315458	rRNA	408619	408730	4.5e-14	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-006-fasta__SRR13206475	bin-006-fasta__SRR13206475_k141_172504	rRNA	709	3707	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
-bin-006-fasta__SRR13206475	bin-006-fasta__SRR13206475_k141_172504	rRNA	3805	3916	2.7e-09	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-011-fasta__SRR15532678	bin-011-fasta__SRR15532678_k141_451868	rRNA	2557	2667	1.1e-09	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-011-fasta__SRR15532678	bin-011-fasta__SRR15532678_k141_451868	rRNA	2746	5659	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
-bin-011-fasta__SRR15532678	bin-011-fasta__SRR15532678_k141_451868	rRNA	6511	8107	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-022-fasta__SRR11593439	bin-022-fasta__SRR11593439_k141_484280	rRNA	7475	7585	2.7e-14	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-022-fasta__SRR11593439	bin-022-fasta__SRR11593439_k141_484280	rRNA	7725	10985	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
-bin-022-fasta__SRR11593439	bin-022-fasta__SRR11593439_k141_484280	rRNA	11797	13301	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-106-fasta__SRR16963053	bin-106-fasta__SRR16963053_k141_1037621	rRNA	121721	124632	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
-bin-106-fasta__SRR16963053	bin-106-fasta__SRR16963053_k141_1659173	rRNA	195492	195607	2.3e-12	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-106-fasta__SRR16963053	bin-106-fasta__SRR16963053_k141_2664861	rRNA	195024	196485	2.4e-202	+	Name=16S_rRNA;product=16S ribosomal RNA
-bin-033-fasta__SRR21120500	bin-033-fasta__SRR21120500_k141_206364	rRNA	1	1179	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 74 percent of the 16S ribosomal RNA
-bin-033-fasta__SRR21120500	bin-033-fasta__SRR21120500_k141_78727	rRNA	4761	4855	7.3e-13	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-002-fasta__SRR14454019	bin-002-fasta__SRR14454019_k141_764973	rRNA	22	132	5e-12	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-017-fasta__SRR5246790	bin-017-fasta__SRR5246790_k141_1398461	rRNA	469	573	9.7e-14	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-017-fasta__SRR5246790	bin-017-fasta__SRR5246790_k141_1398461	rRNA	639	3535	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
-bin-017-fasta__SRR5246790	bin-017-fasta__SRR5246790_k141_1398461	rRNA	3882	5344	3.3e-225	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-051-fasta__SRR9710522	bin-051-fasta__SRR9710522_k141_587753	rRNA	15134	16589	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
-bin-051-fasta__SRR9710522	bin-051-fasta__SRR9710522_k141_587753	rRNA	19498	22381	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
-bin-099-fasta__SRR16963053	bin-099-fasta__SRR16963053_k141_1628168	rRNA	5788	5897	5.7e-10	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-099-fasta__SRR16963053	bin-099-fasta__SRR16963053_k141_2691346	rRNA	10196	11528	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
-bin-009-fasta__SRR14699987	bin-009-fasta__SRR14699987_k141_4863020	rRNA	12418	12528	1.4e-10	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-008-fasta__SRR13206475	bin-008-fasta__SRR13206475_k141_591796	rRNA	460	570	6.1e-16	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-004-fasta__SRR6152564	bin-004-fasta__SRR6152564_k119_433118	rRNA	1	412	1.3e-84	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 25 percent of the 16S ribosomal RNA
-bin-004-fasta__SRR6152564	bin-004-fasta__SRR6152564_k119_573035	rRNA	14161	14263	7.7e-13	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-024-fasta__SRR8556254	bin-024-fasta__SRR8556254_k141_439781	rRNA	35037	36602	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
-bin-024-fasta__SRR8556254	bin-024-fasta__SRR8556254_k141_439781	rRNA	37189	38340	1.1999999999999996e-242	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 35 percent of the 23S ribosomal RNA
-bin-019-fasta__SRR11597346	bin-019-fasta__SRR11597346_k141_36354	rRNA	194	303	4.4e-15	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-044-fasta__SRR9700623	bin-044-fasta__SRR9700623_k141_451279	rRNA	6254	6365	3.8e-09	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-044-fasta__SRR9700623	bin-044-fasta__SRR9700623_k141_508555	rRNA	7231	7342	3.8e-09	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-042-fasta__SRR9709000	bin-042-fasta__SRR9709000_k141_492856	rRNA	38449	38559	6.4e-14	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-042-fasta__SRR9709000	bin-042-fasta__SRR9709000_k141_492856	rRNA	38680	41574	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
-bin-042-fasta__SRR9709000	bin-042-fasta__SRR9709000_k141_492856	rRNA	42330	43860	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-039-fasta__SRR21120496	bin-039-fasta__SRR21120496_k141_209564	rRNA	33058	33167	4.7e-07	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-011-fasta__SRR12354357	bin-011-fasta__SRR12354357_k141_332085	rRNA	3	778	6.5e-198	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 48 percent of the 16S ribosomal RNA
-bin-029-fasta__SRR8556254	bin-029-fasta__SRR8556254_k141_143674	rRNA	20042	20150	4.4e-13	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-029-fasta__SRR8556254	bin-029-fasta__SRR8556254_k141_75948	rRNA	80336	81242	1.1e-222	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 57 percent of the 16S ribosomal RNA
-bin-041-fasta__SRR9700626	bin-041-fasta__SRR9700626_k141_416156	rRNA	17846	19411	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
-bin-041-fasta__SRR9700626	bin-041-fasta__SRR9700626_k141_416156	rRNA	19822	22841	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
-bin-041-fasta__SRR9700626	bin-041-fasta__SRR9700626_k141_416156	rRNA	22914	23023	5.7e-16	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-080-fasta__SRR15532675	bin-080-fasta__SRR15532675_k141_12176950	rRNA	13608	14548	3.1e-235	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 59 percent of the 16S ribosomal RNA
-bin-080-fasta__SRR15532675	bin-080-fasta__SRR15532675_k141_12836683	rRNA	474	583	5.5e-13	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-013-fasta__SRR23247727	bin-013-fasta__SRR23247727_k141_118693	rRNA	127396	127812	1.1e-97	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 26 percent of the 16S ribosomal RNA
-bin-013-fasta__SRR23247727	bin-013-fasta__SRR23247727_k141_94953	rRNA	345	453	4.2e-14	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-030-fasta__SRR9700626	bin-030-fasta__SRR9700626_k141_472533	rRNA	35093	35195	1.9e-11	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-019-fasta__SRR21120500	bin-019-fasta__SRR21120500_k141_445395	rRNA	45422	46955	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
-bin-019-fasta__SRR21120500	bin-019-fasta__SRR21120500_k141_445395	rRNA	47384	50297	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
-bin-019-fasta__SRR21120500	bin-019-fasta__SRR21120500_k141_445395	rRNA	50382	50489	5.9e-09	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-027-fasta__SRR12354356	bin-027-fasta__SRR12354356_k141_540059	rRNA	245043	245558	3.7e-125	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 32 percent of the 16S ribosomal RNA
-bin-015-fasta__SRR15677227	bin-015-fasta__SRR15677227_k141_99078	rRNA	542	652	3.4e-14	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-026-fasta__SRR8556257	bin-026-fasta__SRR8556257_k141_18610	rRNA	803	911	2.3e-12	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-026-fasta__SRR8556257	bin-026-fasta__SRR8556257_k141_189352	rRNA	43635	44362	1.9e-172	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 45 percent of the 16S ribosomal RNA
-bin-011-fasta__SRR5829543	bin-011-fasta__SRR5829543_k141_127805	rRNA	2	419	2.7e-94	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 26 percent of the 16S ribosomal RNA
-bin-004-fasta__SRR13021854	bin-004-fasta__SRR13021854_k141_313534	rRNA	101084	101192	2.4e-09	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-004-fasta__SRR13021854	bin-004-fasta__SRR13021854_k141_504486	rRNA	2	992	6.8e-196	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 30 percent of the 23S ribosomal RNA
-bin-004-fasta__SRR13021854	bin-004-fasta__SRR13021854_k141_504486	rRNA	1456	2953	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-011-fasta__SRR21120499	bin-011-fasta__SRR21120499_k141_125061	rRNA	43102	44644	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
-bin-011-fasta__SRR21120499	bin-011-fasta__SRR21120499_k141_125061	rRNA	45278	46213	9.600000000000001e-195	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 28 percent of the 23S ribosomal RNA
-bin-011-fasta__SRR21120499	bin-011-fasta__SRR21120499_k141_80159	rRNA	106037	106145	1.8e-12	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-011-fasta__SRR21120499	bin-011-fasta__SRR21120499_k141_80159	rRNA	106282	108449	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 67 percent of the 23S ribosomal RNA
-bin-002-fasta__SRR21120503	bin-002-fasta__SRR21120503_k141_145251	rRNA	36371	36481	3.4e-15	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-007-fasta__SRR9700687	bin-007-fasta__SRR9700687_k141_611716	rRNA	50225	50334	2.4e-14	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-007-fasta__SRR9700687	bin-007-fasta__SRR9700687_k141_611716	rRNA	50419	54505	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
-bin-007-fasta__SRR9700687	bin-007-fasta__SRR9700687_k141_611716	rRNA	54923	56437	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-069-fasta__SRR14699986	bin-069-fasta__SRR14699986_k141_2768584	rRNA	28109	29655	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
-bin-069-fasta__SRR14699986	bin-069-fasta__SRR14699986_k141_2768584	rRNA	30126	32843	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
-bin-069-fasta__SRR14699986	bin-069-fasta__SRR14699986_k141_8271239	rRNA	14792	14901	3.9e-12	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-016-fasta__SRR12354356	bin-016-fasta__SRR12354356_k141_659328	rRNA	1	1158	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 35 percent of the 23S ribosomal RNA
-bin-016-fasta__SRR12354356	bin-016-fasta__SRR12354356_k141_659328	rRNA	1256	1367	1.1e-09	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-032-fasta__SRR9700529	bin-032-fasta__SRR9700529_k141_74007	rRNA	1	79	3e-09	+	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 66 percent of the 5S ribosomal RNA
-bin-042-fasta__SRR9705675	bin-042-fasta__SRR9705675_k141_217092	rRNA	10276	11708	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
-bin-023-fasta__SRR5829545	bin-023-fasta__SRR5829545_k141_1275823	rRNA	293565	294561	9.1e-142	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 30 percent of the 23S ribosomal RNA
-bin-023-fasta__SRR5829545	bin-023-fasta__SRR5829545_k141_26073	rRNA	60874	60990	9.8e-13	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-023-fasta__SRR5829545	bin-023-fasta__SRR5829545_k141_866001	rRNA	2	2007	7.9e-230	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 62 percent of the 23S ribosomal RNA
-bin-044-fasta__SRR9648400	bin-044-fasta__SRR9648400_k141_3507643	rRNA	86542	86652	7.2e-15	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-044-fasta__SRR9648400	bin-044-fasta__SRR9648400_k141_3507643	rRNA	86722	89741	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
-bin-044-fasta__SRR9648400	bin-044-fasta__SRR9648400_k141_3507643	rRNA	90230	91778	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-013-fasta__SRR23247747	bin-013-fasta__SRR23247747_k141_434986	rRNA	82354	82464	5.6e-11	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-013-fasta__SRR23247747	bin-013-fasta__SRR23247747_k141_434986	rRNA	82561	85558	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
-bin-013-fasta__SRR23247747	bin-013-fasta__SRR23247747_k141_434986	rRNA	86029	87559	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-035-fasta__SRR9700627	bin-035-fasta__SRR9700627_k141_1156098	rRNA	1447	2976	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-035-fasta__SRR9700627	bin-035-fasta__SRR9700627_k141_1329532	rRNA	664	774	4.8e-15	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-007-fasta__SRR13780020	bin-007-fasta__SRR13780020_k141_755661	rRNA	28366	28477	4.1e-07	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-007-fasta__SRR13780020	bin-007-fasta__SRR13780020_k141_932626	rRNA	49314	49780	4.6e-96	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 29 percent of the 16S ribosomal RNA
-bin-005-fasta__SRR11593347	bin-005-fasta__SRR11593347_k141_223638	rRNA	557	668	3.8e-07	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-005-fasta__SRR11593347	bin-005-fasta__SRR11593347_k141_307487	rRNA	2	835	7.699999999999999e-189	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 52 percent of the 16S ribosomal RNA
-bin-060-fasta__SRR14699986	bin-060-fasta__SRR14699986_k141_428162	rRNA	55602	56527	8.900000000000001e-130	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 58 percent of the 16S ribosomal RNA
-bin-060-fasta__SRR14699986	bin-060-fasta__SRR14699986_k141_8379488	rRNA	2342	3868	1.2e-227	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-006-fasta__SRR11579640	bin-006-fasta__SRR11579640_k141_204614	rRNA	3	110	7.2e-15	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-022-fasta__SRR15532678	bin-022-fasta__SRR15532678_k141_4537945	rRNA	23376	23451	3.2e-07	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 63 percent of the 5S ribosomal RNA
-bin-022-fasta__SRR15532678	bin-022-fasta__SRR15532678_k141_4537945	rRNA	23603	24620	3.1e-278	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 31 percent of the 23S ribosomal RNA
-bin-020-fasta__SRR12951266	bin-020-fasta__SRR12951266_k141_389805	rRNA	1	1292	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-020-fasta__SRR12951266	bin-020-fasta__SRR12951266_k141_575612	rRNA	616	727	4e-12	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-038-fasta__SRR8556427	bin-038-fasta__SRR8556427_k141_419526	rRNA	106092	106201	2.8e-15	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-038-fasta__SRR8556427	bin-038-fasta__SRR8556427_k141_419526	rRNA	106270	110049	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
-bin-038-fasta__SRR8556427	bin-038-fasta__SRR8556427_k141_419526	rRNA	110243	111769	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-010-fasta__SRR18679922	bin-010-fasta__SRR18679922_k141_602628	rRNA	1151	1262	1.4e-12	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-005-fasta__SRR5829544	bin-005-fasta__SRR5829544_k141_301166	rRNA	105201	105600	1.4e-87	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 25 percent of the 16S ribosomal RNA
 bin-005-fasta__SRR5829544	bin-005-fasta__SRR5829544_k141_600608	rRNA	48308	48417	6.9e-12	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-013-fasta__SRR21120495	bin-013-fasta__SRR21120495_k141_243197	rRNA	55611	57160	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
@@ -1125,6 +1145,7 @@ bin-002-fasta__SRR12689505	bin-002-fasta__SRR12689505_k141_495817	rRNA	86793	869
 bin-002-fasta__SRR12689505	bin-002-fasta__SRR12689505_k141_495817	rRNA	87084	88758	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 51 percent of the 23S ribosomal RNA
 bin-071-fasta__SRR14699986	bin-071-fasta__SRR14699986_k141_2018455	rRNA	1	436	2.4e-97	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 27 percent of the 16S ribosomal RNA
 bin-071-fasta__SRR14699986	bin-071-fasta__SRR14699986_k141_4452631	rRNA	9145	9255	3.3e-15	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-002-fasta__SRR11837711	bin-002-fasta__SRR11837711_k141_129608	rRNA	132104	132213	4.1e-11	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-021-fasta__SRR15677228	bin-021-fasta__SRR15677228_k141_1197373	rRNA	10805	10916	1.2e-13	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-003-fasta__SRR11596274	bin-003-fasta__SRR11596274_k141_64563	rRNA	64724	64833	1.1e-11	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-003-fasta__SRR11596274	bin-003-fasta__SRR11596274_k141_64563	rRNA	65952	67030	7.1e-234	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 33 percent of the 23S ribosomal RNA
@@ -1306,6 +1327,9 @@ bin-008-fasta__SRR18686432	bin-008-fasta__SRR18686432_k141_1038058	rRNA	1016	394
 bin-008-fasta__SRR18686432	bin-008-fasta__SRR18686432_k141_1038058	rRNA	4043	4152	4.3e-11	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-004-fasta__SRR11829268	bin-004-fasta__SRR11829268_k141_92721	rRNA	35284	36817	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
 bin-004-fasta__SRR11829268	bin-004-fasta__SRR11829268_k141_92721	rRNA	37217	39148	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 59 percent of the 23S ribosomal RNA
+bin-021-fasta__SRR13021960	bin-021-fasta__SRR13021960_k141_1000177	rRNA	35708	35823	1.5e-15	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-021-fasta__SRR13021960	bin-021-fasta__SRR13021960_k141_1083669	rRNA	6710	8151	7.700000000000001e-216	+	Name=16S_rRNA;product=16S ribosomal RNA
+bin-021-fasta__SRR13021960	bin-021-fasta__SRR13021960_k141_699988	rRNA	7580	10471	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
 bin-009-fasta__SRR13780019	bin-009-fasta__SRR13780019_k141_374818	rRNA	7058	7168	4.8e-15	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-009-fasta__SRR13780019	bin-009-fasta__SRR13780019_k141_374818	rRNA	7295	10336	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
 bin-009-fasta__SRR13780019	bin-009-fasta__SRR13780019_k141_374818	rRNA	10980	12537	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
@@ -1363,6 +1387,9 @@ bin-030-fasta__SRR8556428	bin-030-fasta__SRR8556428_k141_401276	rRNA	2942	4470	0
 bin-008-fasta__SRR12354223	bin-008-fasta__SRR12354223_k141_316234	rRNA	18126	19582	2.6e-226	+	Name=16S_rRNA;product=16S ribosomal RNA
 bin-008-fasta__SRR12354223	bin-008-fasta__SRR12354223_k141_409416	rRNA	21731	21838	3.3e-08	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-008-fasta__SRR12354223	bin-008-fasta__SRR12354223_k141_55933	rRNA	18644	21601	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
+bin-014-fasta__SRR12951270	bin-014-fasta__SRR12951270_k141_178284	rRNA	34073	34149	3e-08	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 64 percent of the 5S ribosomal RNA
+bin-014-fasta__SRR12951270	bin-014-fasta__SRR12951270_k141_178284	rRNA	34274	37252	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
+bin-014-fasta__SRR12951270	bin-014-fasta__SRR12951270_k141_178284	rRNA	37452	38995	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
 bin-003-fasta__SRR23247712	bin-003-fasta__SRR23247712_k141_195240	rRNA	6	2346	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 72 percent of the 23S ribosomal RNA
 bin-010-fasta__SRR11576590	bin-010-fasta__SRR11576590_k141_240262	rRNA	12323	13139	5.2e-183	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 51 percent of the 16S ribosomal RNA
 bin-021-fasta__SRR8556611	bin-021-fasta__SRR8556611_k141_127516	rRNA	38264	38374	3.6e-13	+	Name=5S_rRNA;product=5S ribosomal RNA
@@ -1403,6 +1430,7 @@ bin-038-fasta__SRR11578404	bin-038-fasta__SRR11578404_k141_507264	rRNA	6	503	2.9
 bin-038-fasta__SRR11578404	bin-038-fasta__SRR11578404_k141_507264	rRNA	970	3689	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
 bin-038-fasta__SRR11578404	bin-038-fasta__SRR11578404_k141_507264	rRNA	4524	4632	2.6e-09	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-022-fasta__SRR8556427	bin-022-fasta__SRR8556427_k141_171184	rRNA	28332	29901	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-002-fasta__SRR8554905	bin-002-fasta__SRR8554905_k141_805583	rRNA	604	712	2.2e-11	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-025-fasta__SRR13201962	bin-025-fasta__SRR13201962_k141_161658	rRNA	55590	57088	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
 bin-025-fasta__SRR13201962	bin-025-fasta__SRR13201962_k141_473600	rRNA	76673	76774	2.4e-08	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-025-fasta__SRR13201962	bin-025-fasta__SRR13201962_k141_473600	rRNA	76958	78573	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 50 percent of the 23S ribosomal RNA
@@ -1564,6 +1592,8 @@ bin-019-fasta__SRR12951266	bin-019-fasta__SRR12951266_k141_506788	rRNA	2	955	4.1
 bin-007-fasta__SRR23247686	bin-007-fasta__SRR23247686_k141_111666	rRNA	21362	21761	9.2e-88	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 25 percent of the 16S ribosomal RNA
 bin-011-fasta__SRR11593349	bin-011-fasta__SRR11593349_k141_291105	rRNA	72103	72213	2.6e-14	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-011-fasta__SRR11593349	bin-011-fasta__SRR11593349_k141_436918	rRNA	37105	37729	1.4e-144	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 39 percent of the 16S ribosomal RNA
+bin-021-fasta__SRR6193119	bin-021-fasta__SRR6193119_k141_652606	rRNA	1	1789	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 55 percent of the 23S ribosomal RNA
+bin-021-fasta__SRR6193119	bin-021-fasta__SRR6193119_k141_652606	rRNA	1941	2050	3.7e-10	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-007-fasta__SRR11593519	bin-007-fasta__SRR11593519_k141_487618	rRNA	131	240	2.5e-16	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-007-fasta__SRR11593519	bin-007-fasta__SRR11593519_k141_619679	rRNA	1	973	1.9e-252	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 61 percent of the 16S ribosomal RNA
 bin-002-fasta__SRR12659820	bin-002-fasta__SRR12659820_k141_888937	rRNA	1	1044	3.2e-301	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 32 percent of the 23S ribosomal RNA
@@ -1583,6 +1613,7 @@ bin-016-fasta__SRR13201604	bin-016-fasta__SRR13201604_k141_1437047	rRNA	52467	52
 bin-016-fasta__SRR13201604	bin-016-fasta__SRR13201604_k141_1460469	rRNA	25911	26597	2.4e-187	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 43 percent of the 16S ribosomal RNA
 bin-016-fasta__SRR13201604	bin-016-fasta__SRR13201604_k141_688690	rRNA	1	981	2.1e-244	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 61 percent of the 16S ribosomal RNA
 bin-016-fasta__SRR13201604	bin-016-fasta__SRR13201604_k141_71905	rRNA	87834	88801	1.8e-198	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 29 percent of the 23S ribosomal RNA
+bin-036-fasta__SRR12951270	bin-036-fasta__SRR12951270_k141_714022	rRNA	26017	26472	9.5e-95	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 28 percent of the 16S ribosomal RNA
 bin-020-fasta__SRR8556611	bin-020-fasta__SRR8556611_k141_337363	rRNA	12	1493	4.1e-259	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 45 percent of the 23S ribosomal RNA
 bin-020-fasta__SRR8556611	bin-020-fasta__SRR8556611_k141_409918	rRNA	13076	14556	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
 bin-063-fasta__SRR15532676	bin-063-fasta__SRR15532676_k141_3721779	rRNA	4405	5287	1e-211	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 55 percent of the 16S ribosomal RNA
@@ -1700,37 +1731,6 @@ bin-012-fasta__SRR23247747	bin-012-fasta__SRR23247747_k141_124567	rRNA	1085	2645
 bin-012-fasta__SRR23247747	bin-012-fasta__SRR23247747_k141_53795	rRNA	203486	206465	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
 bin-012-fasta__SRR23247747	bin-012-fasta__SRR23247747_k141_53795	rRNA	206652	206719	1.1e-07	+	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 57 percent of the 5S ribosomal RNA
 bin-019-fasta__SRR11576985	bin-019-fasta__SRR11576985_k141_456689	rRNA	36556	37756	2.3000000000000003e-303	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 75 percent of the 16S ribosomal RNA
-bin-074-fasta__SRR14699986	bin-074-fasta__SRR14699986_k141_2859888	rRNA	162	270	1.1e-07	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-070-fasta__SRR9700688	bin-070-fasta__SRR9700688_k141_200841	rRNA	13822	13924	5e-11	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-070-fasta__SRR9700688	bin-070-fasta__SRR9700688_k141_990193	rRNA	1	2542	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 78 percent of the 23S ribosomal RNA
-bin-070-fasta__SRR9700688	bin-070-fasta__SRR9700688_k141_990193	rRNA	3065	4582	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-012-fasta__SRR5440529	bin-012-fasta__SRR5440529_k141_85369	rRNA	71642	74593	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
-bin-012-fasta__SRR5440529	bin-012-fasta__SRR5440529_k141_89392	rRNA	23600	25065	2.1e-229	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-012-fasta__SRR5440529	bin-012-fasta__SRR5440529_k141_96823	rRNA	2799	2910	1.9e-08	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-002-fasta__SRR11596694	bin-002-fasta__SRR11596694_k141_104215	rRNA	1	1167	2.4e-297	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 73 percent of the 16S ribosomal RNA
-bin-002-fasta__SRR11596694	bin-002-fasta__SRR11596694_k141_281668	rRNA	45218	45328	1.2e-11	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-016-fasta__SRR5829542	bin-016-fasta__SRR5829542_k141_694340	rRNA	381	1888	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
-bin-016-fasta__SRR5829542	bin-016-fasta__SRR5829542_k141_694340	rRNA	2586	5682	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
-bin-016-fasta__SRR5829542	bin-016-fasta__SRR5829542_k141_694340	rRNA	7095	7205	2.1e-15	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-013-fasta__SRR23247734	bin-013-fasta__SRR23247734_k141_25760	rRNA	105432	105511	2.4e-10	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 67 percent of the 5S ribosomal RNA
-bin-013-fasta__SRR23247734	bin-013-fasta__SRR23247734_k141_25760	rRNA	106319	108937	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
-bin-013-fasta__SRR23247734	bin-013-fasta__SRR23247734_k141_25760	rRNA	109410	110908	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-032-fasta__SRR15532677	bin-032-fasta__SRR15532677_k141_6010391	rRNA	2826	2935	7.5e-12	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-014-fasta__SRR11578511	bin-014-fasta__SRR11578511_k141_102101	rRNA	17846	17956	2e-09	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-014-fasta__SRR11578511	bin-014-fasta__SRR11578511_k141_643588	rRNA	36346	37837	2.7e-224	+	Name=16S_rRNA;product=16S ribosomal RNA
-bin-014-fasta__SRR11578511	bin-014-fasta__SRR11578511_k141_643588	rRNA	38073	41046	4.3e-279	+	Name=23S_rRNA;product=23S ribosomal RNA
-bin-014-fasta__SRR13021940	bin-014-fasta__SRR13021940_k141_409253	rRNA	172322	173733	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
-bin-014-fasta__SRR13021940	bin-014-fasta__SRR13021940_k141_583177	rRNA	60848	60957	2.3e-19	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-014-fasta__SRR13021940	bin-014-fasta__SRR13021940_k141_583177	rRNA	61078	62236	1.1e-107	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 35 percent of the 23S ribosomal RNA
-bin-011-fasta__SRR18649382	bin-011-fasta__SRR18649382_k141_619314	rRNA	646	757	1e-12	+	Name=5S_rRNA;product=5S ribosomal RNA
-bin-009-fasta__SRR16547335	bin-009-fasta__SRR16547335_k141_336458	rRNA	11115	11223	1.6e-12	-	Name=5S_rRNA;product=5S ribosomal RNA
-bin-009-fasta__SRR16547335	bin-009-fasta__SRR16547335_k141_336458	rRNA	11340	15110	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
-bin-009-fasta__SRR16547335	bin-009-fasta__SRR16547335_k141_336458	rRNA	15452	16973	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-004-fasta__SRR13600619	bin-004-fasta__SRR13600619_k141_706906	rRNA	2	408	1.9e-82	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 25 percent of the 16S ribosomal RNA
-bin-023-fasta__SRR12354358	bin-023-fasta__SRR12354358_k141_471982	rRNA	1	938	6.7e-236	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 59 percent of the 16S ribosomal RNA
-bin-001-fasta__SRR8556705	bin-001-fasta__SRR8556705_k141_518891	rRNA	34879	34961	1e-09	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 69 percent of the 5S ribosomal RNA
-bin-001-fasta__SRR8556705	bin-001-fasta__SRR8556705_k141_518891	rRNA	35103	36813	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 52 percent of the 23S ribosomal RNA
-bin-001-fasta__SRR8556705	bin-001-fasta__SRR8556705_k141_85913	rRNA	83831	85193	5.600000000000001e-274	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 42 percent of the 23S ribosomal RNA
 bin-045-fasta__SRR9700627	bin-045-fasta__SRR9700627_k141_778693	rRNA	1	1096	6.6e-267	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 69 percent of the 16S ribosomal RNA
 bin-072-fasta__SRR9700688	bin-072-fasta__SRR9700688_k141_491718	rRNA	1751	3096	7.8e-118	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 41 percent of the 23S ribosomal RNA
 bin-072-fasta__SRR9700688	bin-072-fasta__SRR9700688_k141_584316	rRNA	2	669	7.9e-164	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 42 percent of the 16S ribosomal RNA
@@ -1839,6 +1839,39 @@ bin-030-fasta__SRR13201962	bin-030-fasta__SRR13201962_k141_528897	rRNA	74158	742
 bin-037-fasta__SRR8556427	bin-037-fasta__SRR8556427_k141_355421	rRNA	30397	30959	8.699999999999999e-139	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 35 percent of the 16S ribosomal RNA
 bin-037-fasta__SRR8556427	bin-037-fasta__SRR8556427_k141_708190	rRNA	37458	37568	2.9e-14	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-037-fasta__SRR8556427	bin-037-fasta__SRR8556427_k141_708190	rRNA	37647	38779	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 35 percent of the 23S ribosomal RNA
+bin-074-fasta__SRR14699986	bin-074-fasta__SRR14699986_k141_2859888	rRNA	162	270	1.1e-07	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-070-fasta__SRR9700688	bin-070-fasta__SRR9700688_k141_200841	rRNA	13822	13924	5e-11	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-070-fasta__SRR9700688	bin-070-fasta__SRR9700688_k141_990193	rRNA	1	2542	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 78 percent of the 23S ribosomal RNA
+bin-070-fasta__SRR9700688	bin-070-fasta__SRR9700688_k141_990193	rRNA	3065	4582	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-012-fasta__SRR5440529	bin-012-fasta__SRR5440529_k141_85369	rRNA	71642	74593	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
+bin-012-fasta__SRR5440529	bin-012-fasta__SRR5440529_k141_89392	rRNA	23600	25065	2.1e-229	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-012-fasta__SRR5440529	bin-012-fasta__SRR5440529_k141_96823	rRNA	2799	2910	1.9e-08	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-002-fasta__SRR11596694	bin-002-fasta__SRR11596694_k141_104215	rRNA	1	1167	2.4e-297	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 73 percent of the 16S ribosomal RNA
+bin-002-fasta__SRR11596694	bin-002-fasta__SRR11596694_k141_281668	rRNA	45218	45328	1.2e-11	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-016-fasta__SRR5829542	bin-016-fasta__SRR5829542_k141_694340	rRNA	381	1888	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
+bin-016-fasta__SRR5829542	bin-016-fasta__SRR5829542_k141_694340	rRNA	2586	5682	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
+bin-016-fasta__SRR5829542	bin-016-fasta__SRR5829542_k141_694340	rRNA	7095	7205	2.1e-15	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-013-fasta__SRR23247734	bin-013-fasta__SRR23247734_k141_25760	rRNA	105432	105511	2.4e-10	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 67 percent of the 5S ribosomal RNA
+bin-013-fasta__SRR23247734	bin-013-fasta__SRR23247734_k141_25760	rRNA	106319	108937	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
+bin-013-fasta__SRR23247734	bin-013-fasta__SRR23247734_k141_25760	rRNA	109410	110908	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-032-fasta__SRR15532677	bin-032-fasta__SRR15532677_k141_6010391	rRNA	2826	2935	7.5e-12	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-014-fasta__SRR11578511	bin-014-fasta__SRR11578511_k141_102101	rRNA	17846	17956	2e-09	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-014-fasta__SRR11578511	bin-014-fasta__SRR11578511_k141_643588	rRNA	36346	37837	2.7e-224	+	Name=16S_rRNA;product=16S ribosomal RNA
+bin-014-fasta__SRR11578511	bin-014-fasta__SRR11578511_k141_643588	rRNA	38073	41046	4.3e-279	+	Name=23S_rRNA;product=23S ribosomal RNA
+bin-063-fasta__SRR12951270	bin-063-fasta__SRR12951270_k141_1032	rRNA	2	891	4.6e-204	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 56 percent of the 16S ribosomal RNA
+bin-063-fasta__SRR12951270	bin-063-fasta__SRR12951270_k141_458257	rRNA	557	667	2.6e-07	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-014-fasta__SRR13021940	bin-014-fasta__SRR13021940_k141_409253	rRNA	172322	173733	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
+bin-014-fasta__SRR13021940	bin-014-fasta__SRR13021940_k141_583177	rRNA	60848	60957	2.3e-19	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-014-fasta__SRR13021940	bin-014-fasta__SRR13021940_k141_583177	rRNA	61078	62236	1.1e-107	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 35 percent of the 23S ribosomal RNA
+bin-011-fasta__SRR18649382	bin-011-fasta__SRR18649382_k141_619314	rRNA	646	757	1e-12	+	Name=5S_rRNA;product=5S ribosomal RNA
+bin-009-fasta__SRR16547335	bin-009-fasta__SRR16547335_k141_336458	rRNA	11115	11223	1.6e-12	-	Name=5S_rRNA;product=5S ribosomal RNA
+bin-009-fasta__SRR16547335	bin-009-fasta__SRR16547335_k141_336458	rRNA	11340	15110	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
+bin-009-fasta__SRR16547335	bin-009-fasta__SRR16547335_k141_336458	rRNA	15452	16973	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
+bin-004-fasta__SRR13600619	bin-004-fasta__SRR13600619_k141_706906	rRNA	2	408	1.9e-82	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 25 percent of the 16S ribosomal RNA
+bin-023-fasta__SRR12354358	bin-023-fasta__SRR12354358_k141_471982	rRNA	1	938	6.7e-236	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 59 percent of the 16S ribosomal RNA
+bin-001-fasta__SRR8556705	bin-001-fasta__SRR8556705_k141_518891	rRNA	34879	34961	1e-09	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 69 percent of the 5S ribosomal RNA
+bin-001-fasta__SRR8556705	bin-001-fasta__SRR8556705_k141_518891	rRNA	35103	36813	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 52 percent of the 23S ribosomal RNA
+bin-001-fasta__SRR8556705	bin-001-fasta__SRR8556705_k141_85913	rRNA	83831	85193	5.600000000000001e-274	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 42 percent of the 23S ribosomal RNA
 bin-004-fasta__SRR9710561	bin-004-fasta__SRR9710561_k141_719560	rRNA	18318	18429	1.4e-12	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-004-fasta__SRR9710561	bin-004-fasta__SRR9710561_k141_719560	rRNA	18684	21746	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
 bin-004-fasta__SRR9710561	bin-004-fasta__SRR9710561_k141_719560	rRNA	22519	24013	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
@@ -1987,6 +2020,8 @@ bin-035-fasta__SRR9700626	bin-035-fasta__SRR9700626_k141_226931	rRNA	66677	66786
 bin-035-fasta__SRR9700626	bin-035-fasta__SRR9700626_k141_226931	rRNA	66919	69983	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
 bin-035-fasta__SRR9700626	bin-035-fasta__SRR9700626_k141_226931	rRNA	70450	71733	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
 bin-035-fasta__SRR9700626	bin-035-fasta__SRR9700626_k141_972345	rRNA	16482	17787	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
+bin-064-fasta__SRR13021855	bin-064-fasta__SRR13021855_k141_361135	rRNA	32316	36205	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
+bin-064-fasta__SRR13021855	bin-064-fasta__SRR13021855_k141_62664	rRNA	7555	9024	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
 bin-005-fasta__SRR18077961	bin-005-fasta__SRR18077961_k141_1441366	rRNA	12232	12339	1.9e-12	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-005-fasta__SRR18077961	bin-005-fasta__SRR18077961_k141_1441366	rRNA	12507	13810	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 40 percent of the 23S ribosomal RNA
 bin-005-fasta__SRR18077961	bin-005-fasta__SRR18077961_k141_1507425	rRNA	12114	14190	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 64 percent of the 23S ribosomal RNA
@@ -2083,6 +2118,7 @@ bin-031-fasta__SRR11241202	bin-031-fasta__SRR11241202_k141_1832108	rRNA	1	398	1.
 bin-024-fasta__SRR10968168	bin-024-fasta__SRR10968168_k141_482820	rRNA	378	480	1.5e-11	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-024-fasta__SRR10968168	bin-024-fasta__SRR10968168_k141_877730	rRNA	607	2729	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 65 percent of the 23S ribosomal RNA
 bin-024-fasta__SRR10968168	bin-024-fasta__SRR10968168_k141_924761	rRNA	2	639	4.2e-139	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 40 percent of the 16S ribosomal RNA
+bin-005-fasta__SRR18693123	bin-005-fasta__SRR18693123_k141_1279682	rRNA	211	318	5.3e-08	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-027-fasta__SRR11596274	bin-027-fasta__SRR11596274_k141_69211	rRNA	61207	61315	9.4e-14	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-036-fasta__SRR9700626	bin-036-fasta__SRR9700626_k141_136919	rRNA	117613	117716	1.7e-10	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-036-fasta__SRR9700626	bin-036-fasta__SRR9700626_k141_822344	rRNA	2	818	1.7e-189	-	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 51 percent of the 16S ribosomal RNA
@@ -2104,6 +2140,9 @@ bin-022-fasta__SRR13201919	bin-022-fasta__SRR13201919_k141_332518	rRNA	119115	12
 bin-022-fasta__SRR13201919	bin-022-fasta__SRR13201919_k141_332518	rRNA	122353	123843	1.7e-230	-	Name=16S_rRNA;product=16S ribosomal RNA
 bin-026-fasta__SRR10489815	bin-026-fasta__SRR10489815_k141_855276	rRNA	6010	6115	1e-09	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-026-fasta__SRR10489815	bin-026-fasta__SRR10489815_k141_855276	rRNA	6222	7146	2e-250	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 28 percent of the 23S ribosomal RNA
+bin-055-fasta__SRR13021855	bin-055-fasta__SRR13021855_k141_701720	rRNA	488890	490351	4.9e-232	+	Name=16S_rRNA;product=16S ribosomal RNA
+bin-055-fasta__SRR13021855	bin-055-fasta__SRR13021855_k141_701720	rRNA	490606	493495	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
+bin-055-fasta__SRR13021855	bin-055-fasta__SRR13021855_k141_701720	rRNA	493797	493913	1.5e-12	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-111-fasta__SRR14699987	bin-111-fasta__SRR14699987_k141_1850686	rRNA	4169	4278	2.6e-12	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-012-fasta__SRR10489811	bin-012-fasta__SRR10489811_k141_986475	rRNA	4201	4312	1.4e-15	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-031-fasta__SRR11579640	bin-031-fasta__SRR11579640_k141_298158	rRNA	165486	165884	1.5e-88	+	Name=16S_rRNA;product=16S ribosomal RNA (partial);note=aligned only 25 percent of the 16S ribosomal RNA
@@ -2134,11 +2173,6 @@ bin-002-fasta__SRR12354358	bin-002-fasta__SRR12354358_k141_234543	rRNA	11776	118
 bin-002-fasta__SRR12354358	bin-002-fasta__SRR12354358_k141_560620	rRNA	47	157	7.1e-11	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-002-fasta__SRR12354358	bin-002-fasta__SRR12354358_k141_560620	rRNA	399	3300	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
 bin-002-fasta__SRR12354358	bin-002-fasta__SRR12354358_k141_560620	rRNA	3754	5290	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
-bin-017-fasta__SRR13201919	bin-017-fasta__SRR13201919_k141_119036	rRNA	1	2089	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 64 percent of the 23S ribosomal RNA
-bin-017-fasta__SRR13201919	bin-017-fasta__SRR13201919_k141_119036	rRNA	2227	2317	7.1e-09	+	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 76 percent of the 5S ribosomal RNA
-bin-017-fasta__SRR13201919	bin-017-fasta__SRR13201919_k141_125666	rRNA	33091	33170	7.9e-09	-	Name=5S_rRNA;product=5S ribosomal RNA (partial);note=aligned only 67 percent of the 5S ribosomal RNA
-bin-017-fasta__SRR13201919	bin-017-fasta__SRR13201919_k141_125666	rRNA	33344	36384	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
-bin-017-fasta__SRR13201919	bin-017-fasta__SRR13201919_k141_125666	rRNA	98456	100009	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
 bin-005-fasta__SRR23247719	bin-005-fasta__SRR23247719_k141_260671	rRNA	36163	36269	9.3e-12	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-005-fasta__SRR23247719	bin-005-fasta__SRR23247719_k141_260671	rRNA	36380	39403	0.0	-	Name=23S_rRNA;product=23S ribosomal RNA
 bin-005-fasta__SRR23247719	bin-005-fasta__SRR23247719_k141_260671	rRNA	39954	41487	0.0	-	Name=16S_rRNA;product=16S ribosomal RNA
@@ -2185,8 +2219,6 @@ bin-032-fasta__SRR15677228	bin-032-fasta__SRR15677228_k141_1636300	rRNA	11994	12
 bin-032-fasta__SRR15677228	bin-032-fasta__SRR15677228_k141_319942	rRNA	34710	34822	1e-14	-	Name=5S_rRNA;product=5S ribosomal RNA
 bin-032-fasta__SRR15677228	bin-032-fasta__SRR15677228_k141_319942	rRNA	34926	35933	2.2e-289	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 31 percent of the 23S ribosomal RNA
 bin-034-fasta__SRR11241202	bin-034-fasta__SRR11241202_k141_2076702	rRNA	25207	26766	0.0	+	Name=16S_rRNA;product=16S ribosomal RNA
-bin-043-fasta__SRR6195974	bin-043-fasta__SRR6195974_k141_195799	rRNA	6	3480	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
-bin-043-fasta__SRR6195974	bin-043-fasta__SRR6195974_k141_195799	rRNA	3632	3741	3.7e-10	+	Name=5S_rRNA;product=5S ribosomal RNA
 bin-028-fasta__SRR9710542	bin-028-fasta__SRR9710542_k141_719742	rRNA	2	1380	6.800000000000001e-277	-	Name=23S_rRNA;product=23S ribosomal RNA (partial);note=aligned only 42 percent of the 23S ribosomal RNA
 bin-028-fasta__SRR9710542	bin-028-fasta__SRR9710542_k141_752550	rRNA	17	2662	0.0	+	Name=23S_rRNA;product=23S ribosomal RNA
 bin-028-fasta__SRR9710542	bin-028-fasta__SRR9710542_k141_752550	rRNA	2778	2887	1.6e-14	+	Name=5S_rRNA;product=5S ribosomal RNA

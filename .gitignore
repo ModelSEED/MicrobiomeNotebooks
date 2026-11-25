@@ -244,3 +244,6 @@ wetland/bakta/results/runs_tsv/
 # Bakta coding + non-coding gene table of the 1,184 reps (122 MB gz; built by wetland/bakta/merge_bakta.py) and its log
 wetland/bakta/results/bakta_genes_all.tsv.gz
 wetland/bakta/results/merge.log
+# DRAM2 v1 (1,184-MAG set) large tables, kept locally beside the run-4 (1,206) results
+wetland/dram2/results/v1_1184/raw-annotations.all.tsv.gz
+wetland/dram2/results/v1_1184/dram2_genes_coding_noncoding.tsv.gz

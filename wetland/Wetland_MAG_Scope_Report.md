@@ -35,7 +35,7 @@ Every MAG went through the same pipeline: assembly and binning in KBase, then ta
 *processing pipeline · 6 stages, 2 annotation routes*
 
 - **Where each step runs:** steps 1–4 run as KBase apps. GTDB-Tk runs on the local workstation and CheckM2, the census searches, DRAM2 and Bakta run on poplar; results are written back to KBase or KBDL.
-- **Two annotation routes:** DRAM2 and Bakta annotate the coding and non-coding genes of the 1,206 representatives. KBDL builds every MAG with Bakta gene calls but stores no CDS functions yet.
+- **Two annotation routes:** DRAM2 and Bakta annotate the coding and non-coding genes of the 1,206 representatives. KBDL built 13,115 of the 13,164 MAGs with Bakta gene calls; 49 wait on a fix for a Bakta edge case. KBDL stores no CDS functions yet.
 - **Run 4:** the 11 libraries whose first assembly failed were re-assembled and pushed through every step. That added 305 MAGs on 2026-11-24.
 
 ## Quality
@@ -48,7 +48,7 @@ CheckM2 puts **4,304 MAGs (32.7%) in the high tier** and 11,315 (86.0%) at mediu
 | CheckM v1 (KBase kb\_Msuite) | 3,920 | 7,003 | 2,241 |
 | DAS Tool single-copy genes (the admission filter) | 4,329 | 8,835 | 0 |
 
-- **Tiers** are completeness / contamination thresholds in the MIMAG style. rRNA and tRNA are not yet required: Bakta and DRAM2 have called them for 1,184 of the 1,206 representatives (the other 34 are running), and the KBDL builds call them for every MAG.
+- **Tiers** are completeness / contamination thresholds in the MIMAG style. rRNA and tRNA are not yet required: Bakta and DRAM2 have called them for all 1,206 representatives, and KBDL for 13,115 of the 13,164 MAGs.
 - **CheckM2 is the census estimate.** It used its specific (neural network) model for 2,244 MAGs and the general model for 10,920.
 - **CheckM v1 under-rates reduced genomes.** Of 489 CPR (Patescibacteriota) MAGs, 18.2% pass >70% / <10% under CheckM v1 against 78.5% under CheckM2. For 149 DPANN archaea the figures are 42.3% and 68.5%.
 - **Typical MAG:** 2.9 Mb in 259 contigs (medians).
