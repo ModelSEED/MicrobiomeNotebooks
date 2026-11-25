@@ -1,0 +1,40 @@
+ko	label_in_figure1	category_in_figure1	kofam_definition	in_new_panel
+K18277	tmm	TMA degradation	trimethylamine monooxygenase [EC:1.14.13.148]	True
+K07811	torA	TMA degradation	trimethylamine-N-oxide reductase (cytochrome c) [EC:1.7.2.3]	True
+K00317	tmd	TMA degradation	dimethylamine/trimethylamine dehydrogenase [EC:1.5.8.1 1.5.8.2]	True
+K15228	mauA	TMA degradation	methylamine dehydrogenase light chain [EC:1.4.9.1]	True
+K15229	mauB	TMA degradation	methylamine dehydrogenase heavy chain [EC:1.4.9.1]	True
+K10713	fae	MMA degradation	5,6,7,8-tetrahydromethanopterin hydro-lyase [EC:4.2.1.147]	True
+K01491	folD	MMA degradation	methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9]	True
+K01433	purU	MMA degradation	formyltetrahydrofolate deformylase [EC:3.5.1.10]	True
+K01938	fhs (ftfL)	MMA degradation	formate--tetrahydrofolate ligase [EC:6.3.4.3]	True
+K03396	gfa	MMA degradation	S-(hydroxymethyl)glutathione synthase [EC:4.4.1.22]	True
+K02400	adhI (flhA)	MMA degradation	flagellar biosynthesis protein FlhA	False
+K01070	fghA	MMA degradation	S-formylglutathione hydrolase [EC:3.1.2.12]	True
+K00122	fdh	MMA degradation	formate dehydrogenase [EC:1.17.1.9]	True
+K03320	amtB	MMA degradation	ammonium transporter, Amt family	True
+K16259	mxaI	Methanol degradation	mxaL protein	False
+K00093	mdh	Methanol degradation	methanol dehydrogenase [EC:1.1.1.244]	True
+K17067	mdo	Methanol degradation	formaldehyde dismutase / methanol dehydrogenase [EC:1.2.98.1 1.1.99.37]	True
+K03781	CTA1	Methanol degradation	catalase [EC:1.11.1.6]	False
+K00219	fadH	Methanol degradation	2,4-dienoyl-CoA reductase (NADPH2) [EC:1.3.1.34]	False
+K00544	Bhmt	GB degradation	betaine-homocysteine S-methyltransferase [EC:2.1.1.5]	True
+K00315	Dmgdh	GB degradation	dimethylglycine dehydrogenase [EC:1.5.8.4]	True
+K00303	soxB	GB degradation	sarcosine oxidase, subunit beta [EC:1.5.3.24 1.5.3.1]	True
+K00304	soxD	GB degradation	sarcosine oxidase, subunit delta [EC:1.5.3.24 1.5.3.1]	True
+K01752	sdaA	GB degradation	L-serine dehydratase [EC:4.3.1.17]	True
+K00314	SARDH	GB degradation	sarcosine dehydrogenase [EC:1.5.8.3]	True
+K00600	SHMT1	GB degradation	glycine hydroxymethyltransferase [EC:2.1.2.1]	True
+K00108	betA	GB biosynthesis	choline dehydrogenase [EC:1.1.99.1]	True
+K00130	betB	GB biosynthesis	betaine-aldehyde dehydrogenase [EC:1.2.1.8]	True
+K11440	gbsB	GB biosynthesis	choline dehydrogenase [EC:1.1.1.1]	True
+K00499	CMO	GB biosynthesis	choline monooxygenase [EC:1.14.15.7]	True
+K16967	dmoA	DMS degradation	dimethyl-sulfide monooxygenase [EC:1.14.13.131]	True
+K17228	sfnG	DMS degradation	dimethylsulfone monooxygenase [EC:1.14.14.35]	True
+K04091	msuD	DMS degradation	alkanesulfonate monooxygenase [EC:1.14.14.5 1.14.14.34]	True
+K16964	ddhA	DMS photosynthesis	dimethylsulfide dehydrogenase subunit alpha [EC:1.8.2.4]	True
+K16965	ddhB	DMS photosynthesis	dimethylsulfide dehydrogenase subunit beta	True
+K16966	ddhC	DMS photosynthesis	dimethylsulfide dehydrogenase subunit gamma	True
+K08967	mtnD	MMPA biosynthesis	1,2-dihydroxy-3-keto-5-methylthiopentene dioxygenase [EC:1.13.11.53 1.13.11.54]	False
+K16953	dddL	DMSP degradation	dimethylpropiothetin dethiomethylase [EC:4.4.1.3]	True
+K17486	dmdA	DMSP degradation	dimethylsulfoniopropionate demethylase [EC:2.1.1.269]	True

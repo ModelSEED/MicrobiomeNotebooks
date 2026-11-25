@@ -41,7 +41,7 @@ import pandas as pd
 HERE = Path(__file__).resolve().parent
 M = HERE.parent
 S = HERE.parents[2]
-RMK = S / "reassembly_2026/read_markers/results"
+RMK = S / "reassembly_2026" / json.load(open(S / "reassembly_2026/read_survey_current.json"))["results"]
 CORES = ["R1_A", "R1_B", "R1_C", "R2_A", "R2_B", "R2_C"]
 SAMPLES = [f"{c}_{d}" for c in CORES for d in ("D1", "D2")]
 LAYER = {"D1": 5, "D2": 10}

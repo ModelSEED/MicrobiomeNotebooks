@@ -48,7 +48,8 @@ def biomass(mag, core, fold=None):                         # g dry biomass m-2; 
 
 # read-based abundance (../../read_markers/results/key_unrestored_cores.tsv): per sample, the guild's marker-gene copies
 # per genome equivalent in all reads / its MAG genomes per genome equivalent (mcrA, phnJ, grdI)
-RM = pd.read_csv(S / "reassembly_2026/read_markers/results/key_unrestored_cores.tsv", sep="\t")
+RM = pd.read_csv(S / "reassembly_2026" / json.load(open(S / "reassembly_2026/read_survey_current.json"))["results"]
+                 / "key_unrestored_cores.tsv", sep="\t")
 FOLD = {gname: RM[RM.guild == gname].set_index("sample").fold_read_vs_MAG.astype(float).to_dict()
         for gname in ("methanogen", "mepn_consumer", "betaine_reducer")}
 

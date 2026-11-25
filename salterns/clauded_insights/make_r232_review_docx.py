@@ -443,7 +443,7 @@ def table3():
 
 
 REASM = S / "reassembly_2026"
-RMK = REASM / "read_markers" / "results"
+RMK = REASM / json.load(open(REASM / "read_survey_current.json"))["results"]
 
 
 def read_survey_facts():

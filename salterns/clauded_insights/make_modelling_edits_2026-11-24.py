@@ -42,7 +42,7 @@ IDS = json.load(open(S / "correlational/final585/iterativeIDs_final585.json"))
 G = pd.read_csv(S / "correlational/final585/guilds_final585.csv").set_index("mag")
 rel = pd.read_csv(S / "reassembly_2026/abundance_final/final585_relabund_24sediment.tsv", sep="\t", index_col=0)
 dna = pd.read_csv(S / "data/SaltPondsDNA.csv").set_index("Sample")["DNA conc (µg/g soil)"]
-RMK = S / "reassembly_2026/read_markers/results"
+RMK = S / "reassembly_2026" / json.load(open(S / "reassembly_2026/read_survey_current.json"))["results"]
 RM = pd.read_csv(RMK / "key_unrestored_cores.tsv", sep="\t")
 MTAX = pd.read_csv(RMK / "mcrA_taxonomy_unrestored_pooled.tsv", sep="\t")
 SPLIT = pd.read_csv(RMK / "binned_unbinned_split.tsv", sep="\t")

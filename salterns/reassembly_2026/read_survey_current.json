@@ -1,0 +1,6 @@
+{
+ "note": "Which read-survey version every downstream script reads (pathway_summary.py, specific_rates.py, make_modelling_edits_2026-11-24.py, make_r232_review_docx.py, community_ko/*). Paths are relative to reassembly_2026/.",
+ "version": "v1",
+ "results": "read_markers/results",
+ "readme": "read_markers/README.md"
+}
