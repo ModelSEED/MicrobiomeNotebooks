@@ -86,16 +86,16 @@
     "size": 2,
     "type": "louvain",
     "members": [
-      "Hujiaoplasma",
-      "JALOAF01"
+      "Caribbeanibacter",
+      "Salinibacter"
     ]
   },
   "module_7": {
     "size": 2,
     "type": "louvain",
     "members": [
-      "Caribbeanibacter",
-      "Salinibacter"
+      "Hujiaoplasma",
+      "JALOAF01"
     ]
   },
   "singleton_1": {

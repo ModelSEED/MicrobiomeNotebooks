@@ -109,13 +109,16 @@ pos_sub = G.edge_subgraph(
 layout_comms = list(nx.community.louvain_communities(
     pos_sub, weight="weight",
     resolution=LOUVAIN_RESOLUTION, seed=LOUVAIN_SEED))
+# canonical module order (size, then members): Louvain returns sets, whose order follows Python's per-process string
+# hashing, and that order decides each module's place on the ring, so without this the layout differs between runs
+layout_comms = [sorted(c) for c in sorted(layout_comms, key=lambda c: (-len(c), sorted(c)))]
 
 # nodes only connected by negative edges become singleton modules
 node_module = {n: i for i, c in enumerate(layout_comms) for n in c}
 isolates = [n for n in G.nodes() if n not in node_module]
 for iso in isolates:
     node_module[iso] = len(layout_comms)
-    layout_comms.append({iso})
+    layout_comms.append([iso])
 
 multi_comms = [c for c in layout_comms if len(c) >= 2]
 singleton_comms = [c for c in layout_comms if len(c) == 1]
@@ -148,7 +151,12 @@ module_layouts = {}
 for mi, comm in enumerate(layout_comms):
     if len(comm) < 2:
         continue
-    sub = G.subgraph(comm).copy()
+    # built in G's node order: G.subgraph() iterates a small community in the order of an internal set (string
+    # hashing), which changes spring_layout's starting positions from run to run
+    members_ = set(comm)
+    sub = nx.Graph()
+    sub.add_nodes_from(n for n in G.nodes() if n in members_)
+    sub.add_edges_from((u, v, d) for u, v, d in G.edges(data=True) if u in members_ and v in members_)
     module_scale = math.sqrt(len(comm)) * scale_factor
     if sub.number_of_edges() == 0:
         module_layouts[mi] = {n: np.random.normal(0, module_scale * 0.3, 2) for n in comm}
