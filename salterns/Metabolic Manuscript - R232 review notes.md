@@ -98,7 +98,7 @@ At Andrew's request, three additions:
   - `review_to_suggestions.py` maps every Claude change in the review onto Doc indices. It requires each paragraph's original text to equal the Doc's base text, character for character.
   - `simulate_suggestions.py` is a dry run.
   - `batch_driver.py` makes the chunks, pre-checks that the Doc below each chunk is unchanged, and verifies each chunk after it lands.
-- **Sent:** 13 chunks (388 requests, 52,358 characters) plus a style repair of the Figure 9 and 10 captions, from the end of the Doc backward, each guarded by `requiredRevisionId`. After every chunk the Doc equals the plan in both the base and the proposed view.
+- **Sent:** 13 chunks plus a style repair of the Figure 9 and 10 captions (453 requests in all; 52,358 inserted characters), from the end of the Doc backward, each guarded by `requiredRevisionId`. After every chunk the Doc equals the plan in both the base and the proposed view.
 - **Final check:** the Doc's suggestions-accepted text equals the review's accepted text, except:
   - the tables (by hand);
   - Susannah's "(2022)" inside replaced text;
