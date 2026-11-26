@@ -85,6 +85,14 @@ mtx = ["mtbB", "mtmB", "mtaB"]
 res_lo, res_hi = sh.loc[mtx, "restored"].min(), sh.loc[mtx, "restored"].max()
 unr_lo, unr_hi = sh.loc[mtx, "unrestored"].min(), sh.loc[mtx, "unrestored"].max()
 assert res_hi < 0.10 and unr_lo > 0.2, (res_lo, res_hi, unr_lo, unr_hi)
+# phyla of the restored saltern's methyltransferase reads (read_taxonomy, SF2 sediment samples)
+rt = pd.read_csv(S / "reassembly_2026/read_markers_v2/results/read_taxonomy.tsv.gz", sep="\t",
+                 usecols=["label", "phylum", "sample", "reads"])
+rt = rt[rt.label.isin(["mtbB", "mtmB"]) & rt["sample"].str.match(r"SF2_[ABC]_D[12]$")]
+ph = rt.groupby(["label", "phylum"]).reads.sum() / rt.groupby("label").reads.sum()
+srb_mtbB = ph["mtbB"].get("Desulfobacterota", 0) + ph["mtbB"].get("Thermodesulfobacteriota", 0)
+mix_mtmB = sum(ph["mtmB"].get(x, 0) for x in ("Desulfobacterota", "Chloroflexota", "Bacillota"))
+assert srb_mtbB > 0.8 and mix_mtmB > 0.6, (srb_mtbB, mix_mtmB)
 # Figure S4
 def sig(gene, sign):
     d = rho[(rho.gene == gene) & (rho.q < 0.05)]
@@ -113,6 +121,10 @@ for gen in ("Halomonas", "Salegentibacter"):
         r, l = L6(row, gen)
         assert r.p < 0.05 and set(l[0]) & set(l[1]) and not (set(l[0]) & set(l[2])) and not (set(l[0]) & set(l[3])), (gen, row, l)
 r, l = L6("Metagenome (reads)", "Idiomarina"); assert r.p > 0.05
+# 16S letters of the original Figure S6 (R1, R2, SF2, R2A): R1 differs from SF2 and R2A for both genera, R2 does not
+S16 = {"Halomonas": ("a", "ab", "bc", "c"), "Salegentibacter": ("a", "ab", "b", "b")}
+for gen, l in S16.items():
+    assert not set(l[0]) & set(l[2]) and not set(l[0]) & set(l[3]) and set(l[1]) & set(l[2]), gen
 r, l = L6("Metagenome (reads)", "Marinilabilia"); assert r.p < 0.05 and l == ("a", "a", "a", "b"), l
 r, l = L6("Metagenome (reads)", "Clostridium"); assert r.p < 0.05 and l[0] == l[1] == "b" and l[2] == l[3] == "a", l
 assert s6s.loc["Clostridium", "frac_best_hit_ge95"] < 0.1
@@ -194,7 +206,8 @@ put("p57_figure1", 57, "replace_paragraph", "",
     f"{f(m('mtbB', 'restored'))}, against {f(m('mtbB', 'unrestored'))} and {f(m('mtbB', 'reference'))}). These "
     "methyltransferases occur in methylotrophic methanogens and in bacteria: only "
     f"{pct(res_lo)}–{pct(res_hi)}% of the *mtbB*, *mtmB* and *mtaB* reads of the restored saltern came from methanogens "
-    "(most of its *mtbB* and *mtmB* reads were of Desulfobacterota and Chloroflexota), against "
+    f"({pct(srb_mtbB)}% of its *mtbB* reads were of the sulfate-reducing Desulfobacterota and Thermodesulfobacteriota, "
+    "and most of its *mtmB* reads of Desulfobacterota, Chloroflexota and Bacillota), against "
     f"{pct(unr_lo)}–{pct(unr_hi)}% in the unrestored salterns, where *Methanolobus* carried the largest share of the "
     "*mtmB* reads. In sum, the microbiomes at each site differed in their capacity to metabolize each of these "
     "substrates, both in terms of gene relative abundances and pathways utilized.",
@@ -218,8 +231,8 @@ put("p67_figS6", 67, "replace",
     "All of these isolated genera were significantly more abundant in unrestored salterns than the restored saltern and "
     "reference wetland, demonstrating a preference for high salt concentrations (Figure S6).",
     "*Halomonas* and *Salegentibacter* were significantly more abundant in the unrestored salterns than in the restored "
-    "saltern and the reference wetland, in the 16S rRNA gene data, the metagenomic reads and the MAGs, consistent with a "
-    "preference for high salt concentrations, whereas *Idiomarina* was rare at all sites and differed among them only in "
+    "saltern and the reference wetland in the metagenomic reads and the MAGs, and for R1 also in the 16S rRNA gene data, "
+    "consistent with a preference for high salt concentrations, whereas *Idiomarina* was rare at all sites and differed among them only in "
     "the 16S rRNA gene data (Figure S6).", "Figure S6 with the read and MAG rows")
 
 # ---- Discussion --------------------------------------------------------------------------------------------------------

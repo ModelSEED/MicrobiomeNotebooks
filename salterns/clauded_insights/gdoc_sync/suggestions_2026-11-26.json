@@ -5,7 +5,8 @@
  "times_CST": {
   "test edit (P96 80% -> 79%)": "about 2:33 AM",
   "text batch, five chunks": "about 2:35-2:47 AM",
-  "image batch": "about 2:51 AM"
+  "image batch": "about 2:51 AM",
+  "correction batch (4 edits inside own suggestions)": "about 2:56 AM"
  },
  "ops": [
   {
@@ -338,12 +339,42 @@
    }
   ]
  },
- "revision_after": "AHj4eMRT_CW2Fqim6KPYTsl8Kp6E26B9ZXoC_m3GisHFN6F8wz-pnGiTvyhnJodZeOvucl5sPea2T9ukI3Dszg",
+ "revision_after": "AHj4eMSEnLb9mGVml2g3beoRqHSNjw255TsO2ZJSQ_B6pYmKNuvrSxApOopyEyP33h_V8vR4ugEcYlfGQJIVHA",
  "verified": [
   "text_delta.py verify: all 26 ops present",
   "the only paragraphs whose proposed text changed are the 26 targets (+1 new paragraph); each equals the review's paragraph, except P57, which keeps another author's open suggestions (see hand_list)",
   "figure_swap.py verify: Figures 1, S4, 7, 10",
   "the image batch changed no text"
  ],
- "behaviour_learned": "In SUGGEST mode, deleting text or an image that is this account's own suggested insertion removes it (the suggestion is edited); deleting base text leaves a suggested deletion."
+ "behaviour_learned": "In SUGGEST mode, deleting text or an image that is this account's own suggested insertion removes it (the suggestion is edited); deleting base text leaves a suggested deletion.",
+ "correction_ops": [
+  {
+   "key": "p57_phyla",
+   "anchor": "Of the 108 methylated-compound KOs in the panel",
+   "kind": "replace",
+   "old": "(most of its mtbB and mtmB reads were of Desulfobacterota and Chloroflexota)",
+   "new": "(92% of its *mtbB* reads were of the sulfate-reducing Desulfobacterota and Thermodesulfobacteriota, and most of its *mtmB* reads of Desulfobacterota, Chloroflexota and Bacillota)"
+  },
+  {
+   "key": "p67_16S",
+   "anchor": "were significantly more abundant in the unrestored salterns than in the restored saltern and the reference wetland, in the 16S",
+   "kind": "replace",
+   "old": "wetland, in the 16S rRNA gene data, the metagenomic reads and the MAGs, consistent",
+   "new": "wetland in the metagenomic reads and the MAGs, and for R1 also in the 16S rRNA gene data, consistent"
+  },
+  {
+   "key": "m6_caps",
+   "anchor": "To count the methylated-compound and guild genes",
+   "kind": "replace",
+   "old": "(every archaeal gene and up to 1,500 bacterial genes per KO)",
+   "new": "(for large KOs, every archaeal gene and a random subset of 1,500–3,000 bacterial genes)"
+  },
+  {
+   "key": "m7_fraction",
+   "anchor": "The panel was also counted in the assembled genes",
+   "kind": "replace",
+   "old": "held only 0.3–0.5 of the copies",
+   "new": "held only 0.3–0.6 of the copies"
+  }
+ ]
 }

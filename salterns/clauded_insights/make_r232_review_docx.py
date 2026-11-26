@@ -574,7 +574,8 @@ def add_reassembly_2026(mq_meth, res_anchor, t6, pending_comments, h3_pPr, h3_rp
             "quality-filtered read of the 39 metagenomes (2.08 billion reads, each mate a separate query) was compared with "
             "DIAMOND v2.2.8 (blastx, --mid-sensitive) against reference proteins of the 138 KOs of the panel (Table S1), "
             "eight universal single-copy ribosomal-protein genes, and their closest paralogs. References were the KEGG "
-            "GENES members of each KEGG ortholog (every archaeal gene and up to 1,500 bacterial genes per KO), UniProtKB "
+            "GENES members of each KEGG ortholog (for large KOs, every archaeal gene and a random subset of 1,500–3,000 "
+            "bacterial genes), UniProtKB "
             "members of the corresponding Pfam families labeled with KOfam, and the KOfam-labeled proteins of the "
             "salterns assemblies, clustered at 99% identity (338,105 representatives). Paralogs that are not panel genes "
             "(for example glycine reductase GrdB, other glycyl-radical enzymes, Rieske oxygenases, soluble di-iron "
@@ -611,7 +612,7 @@ def add_reassembly_2026(mq_meth, res_anchor, t6, pending_comments, h3_pPr, h3_rp
             "profiles at once, the assignments were identical). Five panel KOs without a KOfam threshold were assigned at "
             "E ≤ 10⁻³⁰ with at least half of the profile aligned. The copies per genome equivalent of each KO were the "
             "summed read depths of its genes’ contigs divided by the mean summed depth of the eight assembled "
-            "ribosomal-protein genes. Because the assembled genes of the unrestored cores held only 0.3–0.5 of the copies "
+            "ribosomal-protein genes. Because the assembled genes of the unrestored cores held only 0.3–0.6 of the copies "
             "found in all reads for the guild genes and almost none of the methanol methyltransferase genes, and less in "
             "the restored and reference sediments, Figure 1 and the statistics use the read-based abundances; the "
             "assembly-based values are given in Table S1 for comparison.", body_rpr, lead_tab=True)
