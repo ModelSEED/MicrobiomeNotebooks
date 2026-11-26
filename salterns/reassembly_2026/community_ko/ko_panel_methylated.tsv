@@ -90,11 +90,11 @@ K20034	dmdB	MMPA	MMPA-CoA ligase	S1-replaced	specific	replaces K08967 (methionin
 K20035	dmdC	MMPA	MMPA-CoA dehydrogenase	new	specific		3-(methylsulfanyl)propanoyl-CoA dehydrogenase [EC:1.3.99.41]	MMPA
 K20036	dmdD	MMPA	methylthioacryloyl-CoA hydratase	new	specific		(methylthio)acryloyl-CoA hydratase [EC:4.2.1.155]	MMPA
 K16953	dddL	DMSP	DMSP lyase	S1	specific	KEGG 'dimethylpropiothetin dethiomethylase'	dimethylpropiothetin dethiomethylase [EC:4.4.1.3]	DMSP
-K28067	ddd (K28067)	DMSP	DMSP lyase	new	specific	gene symbol to confirm from KEGG	dimethylpropiothetin dethiomethylase [EC:4.4.1.3]	DMSP
-K28068	ddd (K28068)	DMSP	DMSP lyase	new	specific	gene symbol to confirm from KEGG	dimethylpropiothetin dethiomethylase [EC:4.4.1.3]	DMSP
-K28069	ddd (K28069)	DMSP	DMSP lyase	new	specific	gene symbol to confirm from KEGG	dimethylpropiothetin dethiomethylase [EC:4.4.1.3]	DMSP
-K28072	ddd (K28072)	DMSP	DMSP lyase	new	specific	gene symbol to confirm from KEGG	DMSP lyase	DMSP
-K28073	ddd (K28073)	DMSP	DMSP lyase	new	specific	gene symbol to confirm from KEGG	DMSP lyase	DMSP
+K28067	dddP	DMSP	DMSP lyase	new	specific	symbol from KEGG (was 'ddd (K28067)' in the 2026-11-25 draft panel)	dimethylpropiothetin dethiomethylase [EC:4.4.1.3]	DMSP
+K28068	dddW	DMSP	DMSP lyase	new	specific	symbol from KEGG (was 'ddd (K28068)' in the 2026-11-25 draft panel)	dimethylpropiothetin dethiomethylase [EC:4.4.1.3]	DMSP
+K28069	dddY	DMSP	DMSP lyase	new	specific	symbol from KEGG (was 'ddd (K28069)' in the 2026-11-25 draft panel)	dimethylpropiothetin dethiomethylase [EC:4.4.1.3]	DMSP
+K28072	dddX	DMSP	DMSP lyase	new	specific	symbol from KEGG (was 'ddd (K28072)' in the 2026-11-25 draft panel)	DMSP lyase	DMSP
+K28073	dddD	DMSP	DMSP lyase	new	specific	symbol from KEGG (was 'ddd (K28073)' in the 2026-11-25 draft panel)	DMSP lyase	DMSP
 K06166	phnG	MPn	C-P lyase complex	new	specific		alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	MPn
 K06165	phnH	MPn	C-P lyase complex	new	specific		alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH [EC:2.7.8.37]	MPn
 K06164	phnI	MPn	C-P lyase complex	new	specific		alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	MPn
@@ -103,7 +103,7 @@ K05781	phnK	MPn	C-P lyase complex	new	specific		putative phosphonate transport s
 K05780	phnL	MPn	C-P lyase complex	new	specific		alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnL [EC:2.7.8.37]	MPn
 K06162	phnM	MPn	C-P lyase complex	new	specific		alpha-D-ribose 1-methylphosphonate 5-triphosphate diphosphatase [EC:3.6.1.63]	MPn
 K02044	phnD	phosphonates	phosphonate ABC transporter, binding protein	new	specific		phosphonate transport system substrate-binding protein	phosphonates
-K23996	mpnH/phnY*	MPn	methylphosphonate hydroxylase (oxidative MPn pathway)	new	specific		methylphosphonate hydroxylase [EC:1.14.11.71]	MPn
+K23996	phnY	MPn	methylphosphonate hydroxylase (oxidative MPn pathway)	new	specific	symbol from KEGG (was 'mpnH/phnY*' in the 2026-11-25 draft panel)	methylphosphonate hydroxylase [EC:1.14.11.71]	MPn
 K05915	phnZ	MPn	hydroxymethylphosphonate dioxygenase (oxidative MPn pathway)	new	specific		(hydroxymethyl)phosphonate/2-amino-1-hydroxyethylphosphonate dioxygenase [EC:1.13.11.89 1.13.11.78]	MPn
 K18049	mpnS	MPn	methylphosphonate synthase (MPn production)	new	specific		methylphosphonate synthase [EC:1.13.11.73]	MPn
 K12905	hepD	phosphonates	2-hydroxyethylphosphonate dioxygenase	new	specific		2-hydroxyethylphosphonate dioxygenase [EC:1.13.11.72]	phosphonates

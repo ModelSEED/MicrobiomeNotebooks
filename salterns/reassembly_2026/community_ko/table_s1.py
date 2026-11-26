@@ -40,22 +40,6 @@ def letters(r):
     return "/".join(str(r[f"letter_{t}"]) for t, _ in TYPES)
 
 
-def read_validation():
-    cur = json.load(open(os.path.join(R26, "read_survey_current.json")))
-    root = os.path.join(R26, os.path.dirname(cur["results"].rstrip("/")))
-    vf = os.path.join(root, "validation", "validation_per_label_final.tsv")
-    if not os.path.exists(vf):
-        return None, {}, cur
-    v = pd.read_csv(vf, sep="\t").set_index("label")
-    merged = {}
-    mf = os.path.join(root, "validation", "validation_merged_classes_v2.tsv")
-    if os.path.exists(mf):
-        for _, r in pd.read_csv(mf, sep="\t").iterrows():
-            for m in str(r["members"]).split(";"):
-                merged.setdefault(m, []).append(r["label"])
-    return v, merged, cur
-
-
 def main():
     P = PR.panel().set_index("ko")
     T = pd.DataFrame(index=P.index)
@@ -76,7 +60,8 @@ def main():
 
     # ---- read survey
     rs = os.path.join(HERE, "results", "panel_stats_read.tsv")
-    val, merged, cur = read_validation()
+    val, merged = PR.read_validation()
+    cur = json.load(open(os.path.join(R26, "read_survey_current.json")))
     if os.path.exists(rs):
         r = pd.read_csv(rs, sep="\t").set_index("ko")
         T["Reads: reads (24 sediment)"] = r.n_24
@@ -92,14 +77,10 @@ def main():
             notes = []
             for k in P.index:
                 l = P.loc[k, "label"]
-                n = []
-                if l not in val.index or pd.isna(val.recall.get(l)) or val.n_reads.get(l, 0) == 0:
-                    n.append("not testable (no held-out reference)")
-                else:
-                    if val.n_reads[l] >= 50 and (val.recall[l] < 0.80 or val.precision[l] < 0.90):
-                        n.append("flagged (recall < 0.80 or precision < 0.90)")
+                st = PR.validation_status(l, val, merged)
+                n = [st] if st != "validated" else []
                 if l in merged:
-                    n.append("reported with " + ", ".join(merged[l]))
+                    n.append("also reported as " + ", ".join(merged[l]))
                 notes.append("; ".join(n))
             T["Reads: validation note"] = notes
         T.attrs["read_version"] = cur.get("version")

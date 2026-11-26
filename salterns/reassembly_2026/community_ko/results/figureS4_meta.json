@@ -1,0 +1,180 @@
+{
+ "survey": "/home/freiburger/Documents/MicrobiomeNotebooks/salterns/reassembly_2026/read_markers_v2/results",
+ "methanogen_lineage_only": true,
+ "n_samples": 19,
+ "samples": [
+  "R2A_A_D1",
+  "R2A_A_D2",
+  "R2A_B_D1",
+  "R2A_B_D2",
+  "R2A_C_D1",
+  "R2A_C_D2",
+  "SF2_A_D1",
+  "R1_A_D1",
+  "R1_A_D2",
+  "R1_B_D1",
+  "R1_B_D2",
+  "R1_C_D1",
+  "R1_C_D2",
+  "R2_A_D1",
+  "R2_A_D2",
+  "R2_B_D1",
+  "R2_B_D2",
+  "R2_C_D1",
+  "R2_C_D2"
+ ],
+ "n_metabolites": 40,
+ "n_genes": 49,
+ "missing_genes": [
+  "pta_K13788 (no counted reads)",
+  "pta (K15024) (no counted reads)",
+  "eutD (no counted reads)"
+ ],
+ "n_tests": 1960,
+ "n_q05": 238,
+ "metabolite_order": [
+  "2-Oxoisocaproate",
+  "Fructose",
+  "Dimethylamine",
+  "Sucrose",
+  "Glucose",
+  "Proline",
+  "Methylguanidine",
+  "3-Hydroxyisovalerate",
+  "Formate",
+  "Alanine",
+  "Isoleucine",
+  "Leucine",
+  "Valine",
+  "Benzoate",
+  "3-Methyl-2-oxovalerate",
+  "3-Hydroxybutyrate",
+  "Pyroglutamate",
+  "Uracil",
+  "2'-Deoxyuridine",
+  "2-Oxoglutarate",
+  "Trehalose",
+  "Trimethylamine",
+  "Acetate",
+  "Methylamine",
+  "Betaine",
+  "Propionate",
+  "Uridine",
+  "Tyrosine",
+  "Lactate",
+  "Phenylalanine",
+  "Acetone",
+  "Ethanol",
+  "Glycerol",
+  "Propylene glycol",
+  "Isopropanol",
+  "Isobutyrate",
+  "Phenylacetate",
+  "Succinate",
+  "Methanol",
+  "N,N-Dimethylglycine"
+ ],
+ "mcrA_pos_q05": [
+  [
+   "Methylamine",
+   0.806787330316742,
+   0.006933653596303705
+  ],
+  [
+   "Acetate",
+   0.7778228174320504,
+   0.00950765223101928
+  ],
+  [
+   "Trimethylamine",
+   0.6924512283818294,
+   0.015883036991102897
+  ]
+ ],
+ "mcrA_neg_q05": [
+  [
+   "Fructose",
+   -0.800214116282711,
+   0.006933653596303705
+  ],
+  [
+   "Proline",
+   -0.7246203401156533,
+   0.01142172285506726
+  ],
+  [
+   "2-Oxoisocaproate",
+   -0.7097583935702714,
+   0.013559863819712527
+  ],
+  [
+   "Sucrose",
+   -0.6596923037672666,
+   0.024981715281413342
+  ]
+ ],
+ "mcrA_top_pos": [
+  [
+   "Methylamine",
+   0.806787330316742,
+   0.006933653596303705
+  ],
+  [
+   "Acetate",
+   0.7778228174320504,
+   0.00950765223101928
+  ],
+  [
+   "Trimethylamine",
+   0.6924512283818294,
+   0.015883036991102897
+  ],
+  [
+   "Trehalose",
+   0.5232329678537554,
+   0.12292145311947535
+  ],
+  [
+   "Propionate",
+   0.4705561446539368,
+   0.18934941420987364
+  ],
+  [
+   "Ethanol",
+   0.4096644824164407,
+   0.26820233390214854
+  ]
+ ],
+ "mcrA_top_neg": [
+  [
+   "Fructose",
+   -0.800214116282711,
+   0.006933653596303705
+  ],
+  [
+   "Proline",
+   -0.7246203401156533,
+   0.01142172285506726
+  ],
+  [
+   "2-Oxoisocaproate",
+   -0.7097583935702714,
+   0.013559863819712527
+  ],
+  [
+   "Sucrose",
+   -0.6596923037672666,
+   0.024981715281413342
+  ],
+  [
+   "Glucose",
+   -0.5884236061303597,
+   0.0607032791240044
+  ],
+  [
+   "Dimethylamine",
+   -0.5610117759668047,
+   0.0830326226078627
+  ]
+ ]
+}

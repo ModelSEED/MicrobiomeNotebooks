@@ -6,9 +6,10 @@ Metabolites: the 40 of the 50 NMR metabolites present in at least three of the 1
 Genes (rows, grouped by pathway as in the original figure): acetate activation and CODH/ACS, the H2/CO2 (C1) pathway,
 the methyl-H4MPT:CoM methyltransferase, the methylamine, methanol, glycine betaine and methylthiol methyltransferases,
 methyl-CoM reductase, and C-P lyase. Abundance: copies per genome equivalent in all reads (read survey named in
-../read_survey_current.json). For the archaeal pathways, only reads whose best hit is archaeal are counted when the
-survey reports them (copies_per_GE_archaeal), so that bacterial homologs (acetate kinase, Pta, CODH, the MttB
-superfamily, ...) do not stand in for methanogens; C-P lyase counts all reads (mostly bacterial).
+../read_survey_current.json). For the methanogenesis pathways only reads whose best hit is a methanogen lineage
+(copies_per_GE_methanogen_lineage: Archaea of orders, families or genera named Methano*, ANME excluded) are counted, so
+that bacterial and haloarchaeal homologs (acetate kinase, Pta, CODH, Mch, Mer, the MttB superfamily, ...) do not stand in
+for methanogens; C-P lyase counts all reads (mostly bacterial).
 Correlation: Spearman rho per gene × metabolite; Benjamini-Hochberg FDR over all tests; cells with q < 0.05 are marked.
 Columns are clustered as pheatmap does by default (complete linkage, Euclidean distance between metabolite columns).
 Writes figures/figureS4_2026.png, results/figureS4_rho.tsv (long: gene, metabolite, rho, p, q), results/figureS4_meta.json.
@@ -51,6 +52,7 @@ PATH_COL = {"Acetate": "#a6cee3", "Hydrogen/CO2": "#1f78b4", "Trimethylamine": "
             "Methylthiols": "#ffff99", "Methyl-CoM reduction": "#ff7f00", "C-P lyase": "#cab2d6"}
 PROC_COL = {"Methyl-CoM formation": "#440154", "Methanogenesis": "#21918c", "Methylphosphonate": "#fde725"}
 DOM_COL = {"Archaeal": "#bebebe", "Bacterial": "#000000"}
+DOM_LABEL = {"Archaeal": "Methanogen lineages", "Bacterial": "All reads"}
 
 
 def main():
@@ -62,9 +64,9 @@ def main():
     samples = list(X.index)
     P = PR.panel().set_index("label")
     t = PR.read_profile(a.results)
-    have_arch = "copies_per_GE_archaeal" in t.columns
+    have_arch = "copies_per_GE_methanogen_lineage" in t.columns
     W = PR.wide(t, "copies_per_GE", samples)
-    WA = PR.wide(t, "copies_per_GE_archaeal", samples) if have_arch else None
+    WA = PR.wide(t, "copies_per_GE_methanogen_lineage", samples) if have_arch else None
     rows, ann, missing = [], [], []
     for pw, genes, proc, dom in PATHWAYS:
         for g in genes:
@@ -72,6 +74,8 @@ def main():
             src = WA if (dom == "Archaeal" and have_arch) else W
             if ko not in src.index or src.loc[ko].isna().any():
                 missing.append(g); continue
+            if float(src.loc[ko].astype(float).sum()) == 0:           # e.g. no methanogen-lineage reads at all
+                missing.append(g + " (no counted reads)"); continue
             rows.append((g, ko, src.loc[ko].astype(float)))
             ann.append((pw, proc, dom))
     recs = []
@@ -83,7 +87,7 @@ def main():
             rho, p = spearmanr(v.values, X[m].values)
             R[i, j] = rho
             recs.append(dict(gene=g, ko=ko, metabolite=m, rho=rho, p=p, pathway=ann[i][0], domain=ann[i][2],
-                             archaeal_only=bool(ann[i][2] == "Archaeal" and have_arch)))
+                             methanogen_lineage_only=bool(ann[i][2] == "Archaeal" and have_arch)))
     L = pd.DataFrame(recs)
     L["q"] = SL.bh(L.p.values)
     os.makedirs(os.path.join(HERE, "results"), exist_ok=True)
@@ -94,7 +98,7 @@ def main():
     mets = [X.columns[j] for j in order]
     Q = L.pivot(index="gene", columns="metabolite", values="q")
     mc = L[L.gene == "mcrA"].sort_values("rho")
-    meta = dict(survey=PR.survey_dir(a.results), archaeal_only=have_arch, n_samples=len(samples), samples=samples,
+    meta = dict(survey=PR.survey_dir(a.results), methanogen_lineage_only=have_arch, n_samples=len(samples), samples=samples,
                 n_metabolites=X.shape[1], n_genes=len(rows), missing_genes=missing, n_tests=int(len(L)),
                 n_q05=int((L.q < 0.05).sum()), metabolite_order=mets,
                 mcrA_pos_q05=mc[(mc.q < 0.05) & (mc.rho > 0)].sort_values("rho", ascending=False)[["metabolite", "rho", "q"]].values.tolist(),
@@ -102,7 +106,7 @@ def main():
                 mcrA_top_pos=mc.tail(6)[::-1][["metabolite", "rho", "q"]].values.tolist(),
                 mcrA_top_neg=mc.head(6)[["metabolite", "rho", "q"]].values.tolist())
     json.dump(meta, open(os.path.join(HERE, "results", "figureS4_meta.json"), "w"), indent=1, default=float)
-    print(f"{len(rows)} genes x {X.shape[1]} metabolites, {len(samples)} samples; archaeal-only: {have_arch}; "
+    print(f"{len(rows)} genes x {X.shape[1]} metabolites, {len(samples)} samples; methanogen lineages: {have_arch}; "
           f"q < 0.05: {meta['n_q05']} of {meta['n_tests']}; missing: {missing}")
     print("mcrA +:", [(m, round(r, 2)) for m, r, q in meta["mcrA_top_pos"]])
     print("mcrA -:", [(m, round(r, 2)) for m, r, q in meta["mcrA_top_neg"]])
@@ -127,7 +131,7 @@ def main():
     yy, xx = np.where(Qm < 0.05)
     ah.scatter(xx, yy, s=3.5, color="#000000", marker="o", lw=0)
     H.blank(ah)
-    for j, (nm, cols) in enumerate([("Domain", [DOM_COL[x[2]] for x in ann]), ("Process", [PROC_COL[x[1]] for x in ann]),
+    for j, (nm, cols) in enumerate([("Reads", [DOM_COL[x[2]] for x in ann]), ("Process", [PROC_COL[x[1]] for x in ann]),
                                     ("Pathway", [PATH_COL[x[0]] for x in ann])]):
         ax_ = c.ax(x0 + j * (ann_w + 0.03), top, ann_w, rh * n)
         H.color_bar(ax_, cols, vertical=True)
@@ -144,7 +148,7 @@ def main():
     y = H.colorbar(c, lx, 0.25, 1.6, H.BWR, -0.8, 0.8, [-0.5, 0, 0.5], title="Spearman ρ")
     c.fig.text(lx / W_in, 1 - (y - 0.05) / H_in, "•  FDR < 0.05", fontsize=8.5, va="top")
     y += 0.3
-    y = H.legend_block(c, lx, y, "Domain", list(DOM_COL.items()))
+    y = H.legend_block(c, lx, y, "Reads counted", [(DOM_LABEL[k], v) for k, v in DOM_COL.items()])
     y = H.legend_block(c, lx, y, "Process", list(PROC_COL.items()))
     y = H.legend_block(c, lx, y, "Pathway", [(k, v) for k, v in PATH_COL.items() if k in {x[0] for x in ann}])
     c.fig.savefig(a.out, dpi=300, facecolor="white")

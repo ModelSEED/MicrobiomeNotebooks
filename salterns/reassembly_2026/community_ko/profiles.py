@@ -32,8 +32,8 @@ CLASS = [
     ("Acetate", ["acetate", "acetyl-CoA"]),
     ("H2/CO2", ["CO2/H2", "methyl-H4MPT"]),
 ]
-METHANOGENESIS = {"mttB", "mttC", "mtbB", "mtbC", "mtmB", "mtmC", "mtbA", "mtaB", "mtaC", "mtaA", "mtgB", "mtsA",
-                  "mcrA", "mcrB", "mcrG"}
+METHYL_TRANSFER = {"mttB", "mttC", "mtbB", "mtbC", "mtmB", "mtmC", "mtbA", "mtaB", "mtaC", "mtaA", "mtgB", "mtsA"}
+MCR = {"mcrA", "mcrB", "mcrG"}
 TMA_PRODUCTION = {"cutC", "cutD", "cntA", "cntB", "grdI", "grdH", "torA", "torZ"}
 SYNTHESIS = {"betA", "betB", "gbsB", "CMO", "gsdmt", "sdmt", "mpnS", "dmsA", "mddA"}
 TRANSPORT = {"amtB", "phnD"}
@@ -49,8 +49,10 @@ def panel():
         if r.status == "FigS4":
             return "methanogenesis (C1 core)" if r.compound_class == "H2/CO2" else "acetate / CODH"
         g = r.gene
-        if g in METHANOGENESIS:
-            return "methanogenesis"
+        if g in MCR:
+            return "methanogenesis (Mcr)"
+        if g in METHYL_TRANSFER:                  # methanogens and bacteria (most reads are non-methanogenic)
+            return "methyl transfer (corrinoid)"
         if g in TMA_PRODUCTION:
             return "TMA production"
         if g in SYNTHESIS:
@@ -122,3 +124,33 @@ def assembly_long():
 
 def profile(source="read", results=None):
     return assembly_long() if source == "assembly" else read_profile(results)
+
+
+def read_validation():
+    """The read survey's validation (validation_per_label_final.tsv) and merged classes: (per-label table indexed by
+    label or None, {member label: [merged class, ...]})."""
+    cur = json.load(open(os.path.join(R26, "read_survey_current.json")))
+    root = os.path.join(R26, os.path.dirname(cur["results"].rstrip("/")))
+    vf = os.path.join(root, "validation", "validation_per_label_final.tsv")
+    if not os.path.exists(vf):
+        return None, {}
+    v = pd.read_csv(vf, sep="\t").set_index("label")
+    merged = {}
+    mf = os.path.join(root, "validation", "validation_merged_classes_v2.tsv")
+    if os.path.exists(mf):
+        for _, r in pd.read_csv(mf, sep="\t").iterrows():
+            for m in str(r["members"]).split(";"):
+                merged.setdefault(m, []).append(r["label"])
+    return v, merged
+
+
+def validation_status(label, v, merged):
+    """'validated', 'flagged' (recall < 0.80 or precision < 0.90, or reported in a merged class) or 'not testable' (no
+    held-out reference, or fewer than 50 simulated reads)."""
+    if v is None:
+        return ""
+    if label not in v.index or v.n_reads.get(label, 0) < 50 or pd.isna(v.recall.get(label)):
+        return "not testable"                      # no held-out reference, or fewer than 50 simulated reads
+    bad = v.recall[label] < 0.80 or v.precision[label] < 0.90
+    return "flagged" if bad or label in merged else "validated"
+

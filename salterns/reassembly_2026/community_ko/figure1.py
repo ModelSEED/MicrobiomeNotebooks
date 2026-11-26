@@ -33,29 +33,12 @@ CLASS_COL = {"TMA and TMAO": "#E69F00", "DMA": "#56B4E9", "MMA": "#009E73", "Cho
              "DMS and sulfonates": "#9e9e9e", "DMSP and MMPA": "#8C564B", "Phosphonates": "#17BECF",
              "Methane": "#1a1a1a", "Acetate": "#a6cee3", "H2/CO2": "#1f78b4"}
 TYPE_COL = {"degradation": "#d9d9d9", "TMA production": "#e7298a", "biosynthesis / production": "#7570b3",
-            "transport": "#66a61e", "methanogenesis": "#1b9e77", "acetate / CODH": "#a6cee3",
+            "transport": "#66a61e", "methyl transfer (corrinoid)": "#1b9e77", "methanogenesis (Mcr)": "#1a1a1a",
+            "acetate / CODH": "#a6cee3",
             "methanogenesis (C1 core)": "#1f78b4"}
 # the two side-by-side blocks (by compound class) used when there are too many rows for one column
 BLOCK_A = ["TMA and TMAO", "DMA", "MMA", "Choline and carnitine", "GB, DMG and sarcosine", "Methane"]
-
-
-def stats_table(W, kos, P):
-    types = [SL.site_type(s) for s in W.columns]
-    rows = []
-    for k in kos:
-        v = W.loc[k].values.astype(float)
-        r = SL.kw_dunn(v, types)
-        mr = pd.Series(v).rank().groupby(pd.Series(types)).mean()
-        rows.append(dict(ko=k, H=r["H"], p=r["p"], **{f"median_{t}": r["medians"][t] for t in TYPES},
-                         **{f"mean_{t}": float(np.mean(v[[x == t for x in types]])) for t in TYPES},
-                         **{f"letter_{t}": r["letters"][t] for t in TYPES},
-                         **{f"dunn_p_{a}_vs_{b}": r["padj"].get((a, b), r["padj"].get((b, a), np.nan))
-                            for a, b in (("unrestored", "restored"), ("unrestored", "reference"),
-                                         ("restored", "reference"))},
-                         highest=mr.idxmax(), lowest=mr.idxmin()))
-    st = pd.DataFrame(rows)
-    st["q"] = SL.bh(st.p.values)
-    return st.set_index("ko")
+VAL_COL = {"validated": "#ffffff", "flagged": "#e08214", "not testable": "#bababa"}
 
 
 def main():
@@ -93,6 +76,9 @@ def main():
     st = PS.compute(a.source, a.results).loc[kos]
     os.makedirs(os.path.join(HERE, "results"), exist_ok=True)
     out = P1.loc[kos, ["compound_class", "ptype"]].join(st)
+    if a.source == "read":
+        v_, m_ = PR.read_validation()
+        out["read_validation"] = [PR.validation_status(P1.loc[k, "label"], v_, m_) for k in kos]
     out["reads_24"] = R.loc[kos].sum(axis=1).astype(int)
     out["n_samples_detected"] = (R.loc[kos] > 0).sum(axis=1).astype(int)
     out.to_csv(os.path.join(HERE, "results", f"figure1{tag}_stats.tsv"), sep="\t")
@@ -118,20 +104,23 @@ def main():
     cw = 0.155                                     # column width
     nmax = max(len(b) for b in blocks)
     ann_w, gap_ann, lab_w, blk_gap = 0.13, 0.05, 1.05, 0.25
+    vdat = PR.read_validation() if a.source == "read" else (None, {})
+    vstat = {k: PR.validation_status(P1.loc[k, "label"], *vdat) for k in kos}
+    n_ann = 5 if a.source == "read" else 4
     left0 = 0.45
-    blk_w = 4 * (ann_w + 0.02) + gap_ann + cw * 24 + lab_w
+    blk_w = n_ann * (ann_w + 0.02) + gap_ann + cw * 24 + lab_w
     dend_h, bar_h = 0.9, 0.16
     top = 0.15 + dend_h + 0.05 + bar_h + 0.08
     hm_h = rh * nmax
     W_in = left0 + len(blocks) * blk_w + (len(blocks) - 1) * blk_gap + 2.3
     n_types = len(set(P1.loc[kos, "ptype"]))
-    leg_h = 0.25 + 0.24 + 1.3 + 0.3 + sum(0.24 + n * 0.19 + 0.12 for n in (3, 2, len(classes), n_types))
+    leg_h = 0.25 + 0.24 + 1.3 + 0.3 + sum(0.24 + n * 0.19 + 0.12 for n in (3, 2, len(classes), n_types, 3))
     H_in = max(top + hm_h + 1.0, leg_h + 0.3)
     c = H.Canvas(W_in, H_in)
     vmin, vmax = -4, 4
     for bi, rows in enumerate(blocks):
         x0 = left0 + bi * (blk_w + blk_gap)
-        hx = x0 + 4 * (ann_w + 0.02) + gap_ann
+        hx = x0 + n_ann * (ann_w + 0.02) + gap_ann
         ad = c.ax(hx, 0.15, cw * 24, dend_h)
         H.draw_dendro(ad, Zl, 24)
         ab = c.ax(hx, 0.15 + dend_h + 0.05, cw * 24, bar_h)
@@ -143,14 +132,16 @@ def main():
         ah = c.ax(hx, top, cw * 24, rh * len(rows))
         ah.imshow(M, aspect="auto", cmap=H.BWR, vmin=vmin, vmax=vmax, interpolation="nearest")
         H.blank(ah)
-        for j, (nm, colf) in enumerate([("KW", lambda k: "#000000" if st.loc[k, "q"] < 0.05 else "#bebebe"),
-                                        ("Highest", lambda k: REST_COL[st.loc[k, "highest"]] if st.loc[k, "q"] < 0.05
-                                         else "#ffffff"),
-                                        ("Compound", lambda k: CLASS_COL[P1.loc[k, "compound_class"]]),
-                                        ("Type", lambda k: TYPE_COL[P1.loc[k, "ptype"]])]):
+        anns = [("KW", lambda k: "#000000" if st.loc[k, "q"] < 0.05 else "#bebebe"),
+                ("Highest", lambda k: REST_COL[st.loc[k, "highest"]] if st.loc[k, "q"] < 0.05 else "#ffffff"),
+                ("Compound", lambda k: CLASS_COL[P1.loc[k, "compound_class"]]),
+                ("Type", lambda k: TYPE_COL[P1.loc[k, "ptype"]])]
+        if n_ann == 5:
+            anns.append(("Validation", lambda k: VAL_COL[vstat[k]]))
+        for j, (nm, colf) in enumerate(anns):
             ax_ = c.ax(x0 + j * (ann_w + 0.02), top, ann_w, rh * len(rows))
             H.color_bar(ax_, [colf(k) for k in rows], vertical=True)
-            if nm == "Highest":
+            if nm in ("Highest", "Validation"):
                 ax_.add_patch(H.Rectangle((0, 0), 1, len(rows), facecolor="none", edgecolor="#bebebe", lw=0.4))
             c.fig.text((x0 + j * (ann_w + 0.02) + ann_w / 2) / W_in, 1 - (top + rh * len(rows) + 0.06) / H_in, nm,
                        rotation=55, ha="right", va="top", fontsize=8.5, weight="bold", rotation_mode="anchor")
@@ -169,6 +160,9 @@ def main():
     y = H.legend_block(c, lx, y, "Compound", [(k, CLASS_COL[k]) for k in classes])
     y = H.legend_block(c, lx, y, "Type", [(k, TYPE_COL[k]) for k in TYPE_COL
                                           if k in set(P1.loc[kos, "ptype"])])
+    if n_ann == 5:
+        y = H.legend_block(c, lx, y, "Validation", [("validated", "#ffffff"), ("flagged or merged", VAL_COL["flagged"]),
+                                                     ("not testable", VAL_COL["not testable"])])
     c.fig.savefig(a.out, dpi=300, facecolor="white")
     print("wrote", a.out, f"{W_in:.1f} x {H_in:.1f} in")
 
