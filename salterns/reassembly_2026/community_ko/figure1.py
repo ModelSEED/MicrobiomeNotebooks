@@ -6,8 +6,9 @@ when detected (>= 1 read) in at least one of the 24 sediment metagenomes, as in 
 Abundance: gene copies per genome equivalent (GE) in all reads (read survey named in ../read_survey_current.json, or
 --results DIR), z-scored per gene across the 24 samples (clipped at ±4).
 Columns: Ward clustering (Ward.D2 criterion, Euclidean distance on the z-scores). Rows: grouped by compound.
-Statistics (stats_lib): Kruskal-Wallis across the three restoration types (unrestored R1 + R2, n = 12; restored SF2,
-n = 6; reference R2A, n = 6), Benjamini-Hochberg FDR over the plotted genes, Dunn's test with Holm adjustment.
+Statistics (panel_stats.py): Kruskal-Wallis across the three restoration types (unrestored R1 + R2, n = 12; restored
+SF2, n = 6; reference R2A, n = 6), Benjamini-Hochberg FDR over all detected panel KOs (shared with Table S1), Dunn's
+test with Holm adjustment.
 Writes figures/figure1_2026.png, results/figure1_stats.tsv, results/figure1_meta.json.
 """
 import argparse
@@ -60,11 +61,16 @@ def stats_table(W, kos, P):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--results", default=None)
-    ap.add_argument("--out", default=os.path.join(HERE, "figures", "figure1_2026.png"))
+    ap.add_argument("--source", choices=["read", "assembly"], default="read",
+                    help="read: copies per GE in all reads (Figure 1); assembly: KOfam on the assembled genes, depth-"
+                         "weighted (concordance check, Table S1)")
+    ap.add_argument("--out", default=None)
     a = ap.parse_args()
+    tag = "" if a.source == "read" else "_assembly"
+    a.out = a.out or os.path.join(HERE, "figures", f"figure1_2026{tag}.png")
     P = PR.panel()
     P1 = P[P.status != "FigS4"].set_index("ko")
-    t = PR.read_profile(a.results)
+    t = PR.profile(a.source, a.results)
     W = PR.wide(t, "copies_per_GE", PR.SED, kos=list(P1.index))
     R = PR.wide(t, "reads", PR.SED, kos=list(P1.index))
     surveyed = W.notna().all(axis=1)
@@ -83,18 +89,19 @@ def main():
     ct = pd.crosstab(lab, typ)
     purity = float(ct.max(axis=1).sum() / ct.values.sum())
     exact = bool((ct > 0).sum(axis=1).eq(1).all() and (ct > 0).sum(axis=0).eq(1).all())
-    st = stats_table(Wd, kos, P1)
+    import panel_stats as PS                   # one FDR family over all detected panel KOs (shared with Table S1)
+    st = PS.compute(a.source, a.results).loc[kos]
     os.makedirs(os.path.join(HERE, "results"), exist_ok=True)
-    out = P1.loc[kos, ["gene", "compound_class", "ptype"]].join(st)
+    out = P1.loc[kos, ["compound_class", "ptype"]].join(st)
     out["reads_24"] = R.loc[kos].sum(axis=1).astype(int)
     out["n_samples_detected"] = (R.loc[kos] > 0).sum(axis=1).astype(int)
-    out.to_csv(os.path.join(HERE, "results", "figure1_stats.tsv"), sep="\t")
-    meta = dict(survey=PR.survey_dir(a.results), n_panel=len(P1), n_surveyed=int(surveyed.sum()),
+    out.to_csv(os.path.join(HERE, "results", f"figure1{tag}_stats.tsv"), sep="\t")
+    meta = dict(source=a.source, survey=PR.survey_dir(a.results) if a.source == "read" else "assembly_based", n_panel=len(P1), n_surveyed=int(surveyed.sum()),
                 n_detected=len(kos), not_detected=[k for k in P1.index if surveyed[k] and not detected[k]],
                 not_surveyed=[k for k in P1.index if not surveyed[k]],
                 n_q05=int((st.q < 0.05).sum()), ward_k3_crosstab=ct.to_dict(), ward_k3_purity=purity,
                 ward_k3_matches_restoration=exact, column_order=cols)
-    json.dump(meta, open(os.path.join(HERE, "results", "figure1_meta.json"), "w"), indent=1, default=str)
+    json.dump(meta, open(os.path.join(HERE, "results", f"figure1{tag}_meta.json"), "w"), indent=1, default=str)
     print(f"{len(kos)} genes plotted ({meta['n_surveyed']} surveyed); KW q < 0.05: {meta['n_q05']}; "
           f"Ward k=3 purity {purity:.2f}, exact {exact}")
     print(ct)

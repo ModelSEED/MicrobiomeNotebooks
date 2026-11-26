@@ -86,7 +86,9 @@ def read_profile(results=None):
         sym.update({g: k for g, k in zip(p.gene, p.ko) if g not in sym})
         t = t[t.label.isin(sym)].copy()
         t["ko"] = t.label.map(sym)
-    keep = ["ko", "sample", "reads", "copies_per_GE"] + [c for c in ("reads_archaeal", "copies_per_GE_archaeal")
+    keep = ["ko", "sample", "reads", "copies_per_GE"] + [c for c in ("reads_archaeal", "copies_per_GE_archaeal",
+                                                                     "reads_methanogen_lineage",
+                                                                     "copies_per_GE_methanogen_lineage")
                                                            if c in t.columns]
     t = t[keep].groupby(["ko", "sample"], as_index=False).sum()
     return t
@@ -105,3 +107,18 @@ def assembly_profile():
         if os.path.exists(f):
             return pd.read_csv(f, sep="\t")
     return None
+
+
+def assembly_long():
+    """The assembly-based profile in read_profile()'s long format: reads = number of genes, copies_per_GE = summed
+    contig depth of the KO's genes / the sample's assembly genome-equivalent depth."""
+    a = assembly_profile()
+    assert a is not None, "assembly_based/results/ko_by_sample.tsv.gz not found"
+    p = panel()
+    a = a[a["ko"].isin(p.ko)]
+    return a.rename(columns={"n_genes": "reads", "copies_per_GE_assembly": "copies_per_GE"})[
+        ["ko", "sample", "reads", "copies_per_GE"]].copy()
+
+
+def profile(source="read", results=None):
+    return assembly_long() if source == "assembly" else read_profile(results)
