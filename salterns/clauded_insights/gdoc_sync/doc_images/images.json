@@ -1,4 +1,9 @@
 {
+ "Figure 1": {
+  "path": "reassembly_2026/community_ko/figures/figure1_2026.png",
+  "width_px": 4241,
+  "height_px": 2684
+ },
  "Figure 7": {
   "path": "reassembly_2026/modelling_2026/simulations/figure7_pergram.png",
   "width_px": 3084,
@@ -18,6 +23,11 @@
   "path": "reassembly_2026/modelling_2026/synthesis/figure10_pathways.png",
   "width_px": 4323,
   "height_px": 2268
+ },
+ "Figure S4": {
+  "path": "reassembly_2026/community_ko/figures/figureS4_2026.png",
+  "width_px": 3903,
+  "height_px": 3475
  },
  "Figure S6": {
   "path": "reassembly_2026/community_ko/figures/figureS6_2026.png",

@@ -15,6 +15,9 @@
       600 pt. Requests are ordered from the end of the Doc backward, so each one's indices are still valid when it runs.
       Prints {"requests": [...], "revisionId": ...} for update_doc with writeControl {writeMode: SUGGEST,
       requiredRevisionId}.
+  figure_swap.py plan <read_doc.json> <commit sha> --reswap "Figure 7,Figure 10" --old-sha <sha>
+      Replaces this account's own earlier suggested image (fetched at --old-sha) with the current one (2026-11-26:
+      Figures 7 and 10 redrawn on read survey v2).
   figure_swap.py verify <read_doc.json> <commit sha> [--only ...]
       Checks that each figure now has the new image as a suggested insertion (by sourceUri) and its old image(s) as
       suggested deletions.
@@ -128,6 +131,20 @@ def figure_ops(paras, fig, sha):
     return [(s, [image_request(fig, sha, s), {"deleteContentRange": {"range": {"startIndex": s + 1, "endIndex": e + 1}}}])]
 
 
+def reswap_ops(doc, paras, fig, sha, old_sha):
+    """Replace this account's own earlier suggested image (fetched at old_sha) with the image at sha. Deleting one's
+    own suggested insertion removes it outright, so only the new image remains as the suggestion."""
+    io = doc["tabs"][0]["documentTab"]["inlineObjects"]
+    ci = caption_index(paras, fig)
+    span = paras[max(0, ci - 3):ci + 1]
+    mine = [x for p in span for x in images_in(p)
+            if io[x["inlineObjectElement"]["inlineObjectId"]]["inlineObjectProperties"]["embeddedObject"]
+            .get("imageProperties", {}).get("sourceUri") == url(fig, old_sha)]
+    assert len(mine) == 1 and mine[0]["inlineObjectElement"].get("suggestedInsertionIds"), (fig, len(mine))
+    s = mine[0]["startIndex"]
+    return [(s, [image_request(fig, sha, s), {"deleteContentRange": {"range": {"startIndex": s + 1, "endIndex": s + 2}}}])]
+
+
 def s6_caption_ops(paras):
     cap = paras[caption_index(paras, "Figure S6")]
     runs = [x for x in cap["paragraph"]["elements"] if "textRun" in x]
@@ -169,14 +186,16 @@ def s6_caption_ops(paras):
     return ops
 
 
-def plan(read_p, sha, only=None):
+def plan(read_p, sha, only=None, reswap=None, old_sha=None):
     doc = load(read_p)
     paras = body_paragraphs(doc)
-    figs = [f for f in IMAGES if only is None or f in only]
+    figs = [f for f in IMAGES if only is not None and f in only]
     ops = []
     for f in figs:
         ops += figure_ops(paras, f, sha)
-    if only is None or "Figure S6 caption" in only:
+    for f in reswap or []:
+        ops += reswap_ops(doc, paras, f, sha, old_sha)
+    if only is not None and "Figure S6 caption" in only:
         ops += s6_caption_ops(paras)
     starts = sorted(a for a, _ in ops)
     assert len(starts) == len(set(starts)), "two operations at one index"
@@ -213,7 +232,9 @@ if __name__ == "__main__":
     only = None
     if "--only" in sys.argv:
         only = [x.strip() for x in sys.argv[sys.argv.index("--only") + 1].split(",")]
+    reswap = sys.argv[sys.argv.index("--reswap") + 1].split(",") if "--reswap" in sys.argv else None
+    old_sha = sys.argv[sys.argv.index("--old-sha") + 1] if "--old-sha" in sys.argv else None
     if cmd == "plan":
-        json.dump(plan(rp, sha, only), sys.stdout, ensure_ascii=False)
+        json.dump(plan(rp, sha, only, reswap, old_sha), sys.stdout, ensure_ascii=False)
     else:
         verify(rp, sha, only)

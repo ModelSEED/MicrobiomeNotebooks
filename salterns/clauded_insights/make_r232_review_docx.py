@@ -52,7 +52,7 @@ AUTHOR, INITIALS, DATE = "Claude (R232 review)", "CR", "2026-10-26T00:00:00Z"
 DATE_MEPN_REPAIR = "2026-11-08T00:00:00Z"
 DATE_REASSEMBLY = "2026-11-19T00:00:00Z"   # re-assembly / re-binning / annotation additions (reassembly_2026/)   # edits revised for the MePn-obligate model repair (mepn_obligacy_check/)
 EDITS = HERE / "r232_review_edits_2026-10-26.json"
-EDITS_1117 = HERE / "r232_review_edits_2026-11-25.json"   # for the 2026-11-17 mirror (Abstract split; see that file's note)
+EDITS_1117 = HERE / "r232_review_edits_2026-11-26.json"   # for the 2026-11-17 mirror (Abstract split; see that file's note)
 _ids = iter(range(7000, 999999))
 CONTENT = {qn(t) for t in ("w:t", "w:tab", "w:br", "w:drawing", "w:pict", "w:sym", "w:footnoteReference")}
 MARKUP = re.compile(r"(\*[^*]+\*|\^[^^]+\^|~[^~]+~)")
@@ -376,6 +376,9 @@ def apply_edits(P, pending_comments, path):
             tracked_insert_before(p._p, e["old"], e["new"])
         elif e["kind"] == "replace_paragraph":
             replace_paragraph(p._p, e["new"], lead_tab=p.text.startswith("\t"))
+        elif e["kind"] == "append":                         # after the last visible text run (before a trailing break)
+            last = [r for r in _text_runs(p._p) if (r.find(qn("w:t")).text or "")][-1]
+            last.addnext(ins(runs_from(e["new"], first_rpr(p._p))))
         elif e["kind"] == "new_paragraph_after":           # a new body paragraph, formatted like its anchor
             new_par_after(p._p, p._p.find(qn("w:pPr")), e["new"], first_rpr(p._p), lead_tab=p.text.startswith("\t"))
         else:
@@ -567,27 +570,54 @@ def add_reassembly_2026(mq_meth, res_anchor, t6, pending_comments, h3_pPr, h3_rp
     RS = read_survey_facts() if FS else None
     if RS:
         m6, w_m6 = new_par_after(m5, body_pPr,
-            "To count the guild genes independently of assembly and binning, every quality-filtered read of the 39 "
-            "metagenomes (2.08 billion reads, each mate a separate query) was compared with DIAMOND v2.2.8 (blastx, "
-            "--mid-sensitive) against reference proteins of the guild genes and of their closest paralogs. References were "
-            "the KEGG GENES members of each KEGG ortholog, UniProtKB members of the corresponding Pfam families labeled "
-            "with KOfam, and the KOfam-labeled proteins of the salterns assemblies, clustered at 99% identity. Paralogs "
-            "that are not guild genes (for example glycine reductase GrdB, other glycyl-radical enzymes, Rieske oxygenases "
-            "and soluble di-iron monooxygenases) were included as decoys, and reads whose best hit was a decoy were not "
-            "counted. Each read took the label of its best hit (E ≤ 10⁻⁵, at least 30 aligned amino acids; reads with an "
-            "equally good hit of another label were not counted), with minimum identities of 50% for the ribosomal-protein "
-            "markers and 60% for *cutC* and *cntA*. These cut-offs were chosen with simulated reads from reference "
-            "clusters withheld from the database, on which the guild markers *mcrA*, *phnJ* and *grdI* had a recall of at "
-            "least 0.99 and a precision of at least 0.93. Read counts were converted to gene copies per genome equivalent "
-            "by dividing each gene’s read depth by the mean depth of eight universal single-copy ribosomal-protein genes, "
-            "and compared with the guild MAGs’ genomes per genome equivalent from the CoverM read counts. The classified "
+            "To count the methylated-compound and guild genes independently of assembly and binning, every "
+            "quality-filtered read of the 39 metagenomes (2.08 billion reads, each mate a separate query) was compared with "
+            "DIAMOND v2.2.8 (blastx, --mid-sensitive) against reference proteins of the 138 KOs of the panel (Table S1), "
+            "eight universal single-copy ribosomal-protein genes, and their closest paralogs. References were the KEGG "
+            "GENES members of each KEGG ortholog (every archaeal gene and up to 1,500 bacterial genes per KO), UniProtKB "
+            "members of the corresponding Pfam families labeled with KOfam, and the KOfam-labeled proteins of the "
+            "salterns assemblies, clustered at 99% identity (338,105 representatives). Paralogs that are not panel genes "
+            "(for example glycine reductase GrdB, other glycyl-radical enzymes, Rieske oxygenases, soluble di-iron "
+            "monooxygenases and 114 further KOs related to the panel genes), eukaryotic homologs, and other members of the "
+            "families of generic genes were included as decoys, and reads whose best hit was a decoy were not counted. "
+            "Each read took the label of its best hit (E ≤ 10⁻⁵, at least 30 aligned amino acids; reads with an equally "
+            "good hit of another label were not counted), with minimum identities of 50% for the ribosomal-protein markers "
+            "and *sdaA*, 60% for *cutC*, *cntA*, *cntB*, *mpnS*, *mtbA*, *amtB* and *glyA*, and 70% for *mtmC*. These "
+            "cut-offs were chosen with simulated reads from 14,205 reference genes withheld from the database: across the "
+            "128 panel genes with enough test reads, the median recall was 0.97 and the median precision 0.99, and the "
+            "guild markers *mcrA*, *phnJ* and *grdI* had recalls of 0.95–1.00 and precisions of 0.92–1.00. Genes that the "
+            "test could not separate in short reads (the methylamine corrinoid proteins *mtbC*, *mtmC* and *mttC*; *gsdmt* "
+            "and *sdmt*; *dmgdh* and *sardh*; the phosphotransacetylases; *mtaA* and *mtsA*; *cntB* and *dmmB*; *mttB* "
+            "and *mtgB*; *grdH* and *grdB*) are flagged in Table S1 and also reported as merged classes. Read counts were "
+            "converted to gene copies per genome equivalent by dividing each gene’s read depth by the mean depth of the "
+            "eight ribosomal-protein genes, and compared with the guild MAGs’ genomes per genome equivalent from the "
+            "CoverM read counts. Reads whose best hit was an archaeon of an order, family or genus named Methano- "
+            "(excluding anaerobic methanotrophs) were counted as reads of methanogens. The classified "
             "reads were mapped back to the contigs of their own sample with Bowtie2 to place them on kept-MAG, other-bin "
             "or unbinned contigs, or as unassembled.", body_rpr, lead_tab=True)
         pending_comments.append((wrap(m6), w_m6.find(qn("w:r")),
-            "Added 2026-11-24 (read survey). Details, validation per gene and the placement check against two full "
-            "self-mapping BAMs (99.0 and 99.6% agreement): reassembly_2026/read_markers/README.md. Citations to add: "
+            "Added 2026-11-24 (read survey); extended 2026-11-26 to the 138-KO panel (survey v2, which replaces v1 as "
+            "the source of every read-based number; median change in copies per genome equivalent 0.36%). Details, "
+            "validation per gene and the placement check against two full self-mapping BAMs (99.0 and 99.6% agreement): "
+            "reassembly_2026/read_markers_v2/README.md and read_markers/README.md. Citations to add: "
             "DIAMOND (Buchfink et al. 2021), KEGG (Kanehisa et al. 2025), UniProt (UniProt Consortium 2025), MMseqs2 "
             "(Steinegger and Söding 2017). The cntA ortholog also holds YeaW-type choline/betaine monooxygenases."))
+        m7, w_m7 = new_par_after(m6, body_pPr,
+            "The panel was also counted in the assembled genes. The 12.06 million genes predicted with Prodigal v2.6.3 on "
+            "the contigs (≥ 1 kb) of the 39 per-sample assemblies of the second pass were searched with hmmsearch (HMMER "
+            "v3.4) against the KOfam profiles of the 138 panel KOs and of the eight ribosomal-protein genes; the 142,487 "
+            "genes that scored at least half of a threshold were then searched against all 27,981 KOfam profiles and "
+            "assigned the best-scoring KO above its threshold, as DRAM does (for 87,728 proteins searched against all "
+            "profiles at once, the assignments were identical). Five panel KOs without a KOfam threshold were assigned at "
+            "E ≤ 10⁻³⁰ with at least half of the profile aligned. The copies per genome equivalent of each KO were the "
+            "summed read depths of its genes’ contigs divided by the mean summed depth of the eight assembled "
+            "ribosomal-protein genes. Because the assembled genes of the unrestored cores held only 0.3–0.5 of the copies "
+            "found in all reads for the guild genes and almost none of the methanol methyltransferase genes, and less in "
+            "the restored and reference sediments, Figure 1 and the statistics use the read-based abundances; the "
+            "assembly-based values are given in Table S1 for comparison.", body_rpr, lead_tab=True)
+        pending_comments.append((wrap(m7), w_m7.find(qn("w:r")),
+            "Added 2026-11-26 (assembly-based KOfam profile of the panel): reassembly_2026/community_ko/assembly_based/"
+            "README.md. Citation to add: HMMER (Eddy 2011)."))
     pending_comments.append((wrap(m1), w_m1.find(qn("w:r")),
         "Added 2026-11-16 (re-assembly). Citations to add to the reference list: Trimmomatic (Bolger et al. 2014), SPAdes "
         "and metaSPAdes (Bankevich et al. 2012; Nurk et al. 2017), MEGAHIT (Li et al. 2015), MetaBAT2 (Kang et al. 2019), "
@@ -935,8 +965,8 @@ def main(merged):
     # ---- Methods ---------------------------------------------------------------------------------------------------
     h, _ = new_par_after(p[30]._p, h3_pPr, "*MAG quality, taxonomy, and functional guilds*", h3_rpr)
     mq_meth, _ = new_par_after(h, body_pPr,
-        "The 310 dereplicated MAGs from Zhou et al. (2022) were re-assessed for comparison with the re-assembled MAG set "
-        "described below. Completeness and "
+        "The metagenomic data that was processed into 310 dereplicated MAGs in Zhou et al. (2022) were re-assembled "
+        "and re-annotated via an updated pipeline to glean more information. Completeness and "
         "contamination were estimated with CheckM v1.0.18 (67) (lineage workflow, reduced reference tree) in KBase (51), "
         "and the MAGs were classified with GTDB-Tk v2.8.0 (68) against GTDB release R232 (Table S5). Each MAG was "
         "labeled with its deepest named GTDB rank down to genus and numbered within that taxon (e.g., *Roseovarius*.3). "
@@ -1081,7 +1111,10 @@ def main(merged):
     p[102]._p.append(ins(runs_from(
         "MAG quality assessments, GTDB R232 classifications, guild assignments, and the correlation and co-occurrence "
         "analyses are in the MicrobiomeNotebooks repository (https://github.com/ModelSEED/MicrobiomeNotebooks; folders "
-        "salterns/MAG_QC, salterns/reassembly_2026, salterns/correlational/r232 and salterns/correlational/final585).",
+        "salterns/MAG_QC, salterns/reassembly_2026, salterns/correlational/r232 and salterns/correlational/final585); "
+        "the read survey and the gene panel are in salterns/reassembly_2026/read_markers_v2 and "
+        "salterns/reassembly_2026/community_ko, the re-assemblies and bins in KBase narrative 275645, and salterns/"
+        "FIGURES.md lists the script behind each figure and table.",
         first_rpr(p[102]._p))))
     unb_site = FN["unbinned_by_site"]
     tracked_replace(p[96]._p, "88% in SF2, 89% in R2A, 58% in R2, and 47% in R1",
@@ -1255,6 +1288,16 @@ def main(merged):
         "absent (CLR of below-detection values). The old caption's ρ = 0.7 equation object is a tracked deletion; "
         "LibreOffice ignores revisions on equations and still shows it."))
 
+    # ---- Figures 1 and S4 (images inline in their captions) and S6, 2026-11-26 (captions in the edits JSON) -----------------
+    F26 = json.load(open(EDITS_1117)).get("figures_2026_11_26") if P.shift else None
+    if F26:
+        for spec in F26.values():
+            if spec.get("image_inline_in_caption"):          # the caption's replace_paragraph deletes the old drawing
+                picture_after(doc, P[spec["caption_paragraph"] - 1]._p, S / spec["image"], 6.5, img_pPr)
+            else:
+                delete_paragraph(P[spec["image_paragraph"]]._p)
+                picture_after(doc, P[spec["image_paragraph"]]._p, S / spec["image"], 6.5, img_pPr)
+
     # ---- Tables S5 (external) and S6 -----------------------------------------------------------------------------------------
     s5, _ = new_par_after(p[175]._p, scap_pPr,
         "Table S5. The 310 original dereplicated MAGs (Zhou et al. 2022): GTDB R232 classification, CheckM completeness and "
@@ -1273,6 +1316,14 @@ def main(merged):
 
     # ---- 2026-10-26 edits: modelling text and numbers, betaine set, Halomonas isolates, smaller corrections ------------------
     apply_edits(P, pending_comments, EDITS_1117 if P.shift else EDITS)
+    if F26:                       # P57 (Figure 1 Results) is replaced as a whole; it holds other authors' open suggestions
+        ins57 = [c for c in P[57]._p if c.tag == qn("w:ins")][-1]
+        pending_comments.append((P[57], ins57[0],
+            "Review (2026-11-26): this paragraph is rewritten for Figure 1 on the 2026 data (read survey of the 138-KO "
+            "panel; Table S1). It replaces the earlier text as a whole, so the open suggestions in the earlier text "
+            "(‘Metagenomes from these sites were searched for’, ‘, of which 39’, and the spelled-out compound names) "
+            "should be rejected when this replacement is accepted. Statistics per gene: Table S1; code: "
+            "reassembly_2026/community_ko/ (panel_stats.py, figure1.py)."))
     # equations (Office Math): the unit conversion (P39) and the three regression fits (P70, P72, P75) are tracked
     # deletions (per-gram framing, 2026-11-24; see the P73 comment in r232_review_edits_2026-11-24.json)
     global DATE
