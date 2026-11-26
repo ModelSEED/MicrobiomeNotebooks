@@ -1,0 +1,30 @@
+{
+ "SRR19116067": {
+  "kbase_contigs": 24781,
+  "kbase_bp": 106332244,
+  "reasm_contigs": 84850,
+  "reasm_bp": 187121210,
+  "reasm_ge2kb_contigs": 24781,
+  "reasm_ge2kb_bp": 106332244,
+  "reasm_ge2kb_identical_pct_bp": 99.91,
+  "reasm_ge2kb_identical_or_contained_pct_bp": 99.91,
+  "kbase_bp_with_identical_reasm_contig_pct": 99.91,
+  "reasm_1to2kb_contigs": 60069,
+  "reasm_1to2kb_bp": 80788966,
+  "reasm_1to2kb_contained_in_kbase_pct_bp": 0.0,
+  "binned_contigs_pct": 8.42,
+  "binned_bp_pct": 24.82,
+  "binned_abund_pct": 49.92,
+  "unb_2.5_contigs_pct": 11.13,
+  "unb_2.5_bp_pct": 22.28,
+  "unb_2.5_abund_pct": 21.4,
+  "unb_2.0_contigs_pct": 9.65,
+  "unb_2.0_bp_pct": 9.73,
+  "unb_2.0_abund_pct": 6.52,
+  "unb_1.0_contigs_pct": 70.79,
+  "unb_1.0_bp_pct": 43.17,
+  "unb_1.0_abund_pct": 22.16,
+  "cov_ratio_1to2_vs_ge2.5": 0.339,
+  "len_median_1to2": 1281
+ }
+}

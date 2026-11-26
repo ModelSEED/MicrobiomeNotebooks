@@ -1,0 +1,17 @@
+{
+ "SRR19116067": {
+  "reads_total": 42000834,
+  "reads_mapped_pct": 41.37,
+  "binned_reads_pct": 17.23,
+  "binned_depth_rel_binned": 1.0,
+  "unb_2.5_reads_pct": 8.73,
+  "unb_2.5_depth_rel_binned": 0.564,
+  "unb_2.0_reads_pct": 3.18,
+  "unb_2.0_depth_rel_binned": 0.471,
+  "unb_1.0_reads_pct": 12.23,
+  "unb_1.0_depth_rel_binned": 0.408,
+  "unmapped_pct": 58.63,
+  "kbase_2kb_floor_reads_pct": 29.14,
+  "gain_from_1kb_floor_reads_pct": 12.23
+ }
+}
