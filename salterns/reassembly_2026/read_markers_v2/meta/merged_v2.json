@@ -1,0 +1,6 @@
+{"Methylamine_corrinoid_proteins(mtbC+mtmC+mttC)": ["mtbC", "mtmC", "mttC"],
+ "GB_methylation(gsdmt+sdmt)": ["gsdmt", "sdmt"],
+ "DMGDH_SARDH(dmgdh+sardh)": ["dmgdh", "sardh"],
+ "Pta_family(pta+pta_K13788+pta (K15024)+eutD)": ["pta", "pta_K13788", "pta (K15024)", "eutD"],
+ "MtaA_MtsA(mtaA+mtsA)": ["mtaA", "mtsA"],
+ "CntB_DmmB_reductases(cntB+dmmB)": ["cntB", "dmmB"]}

@@ -1,0 +1,10 @@
+label	role	n_reads	recall	precision	members
+Methylamine_corrinoid_proteins(mtbC+mtmC+mttC)	merged	1518	0.9236	0.9777	mtbC;mtmC;mttC
+GB_methylation(gsdmt+sdmt)	merged	1849	0.8729	0.9517	gsdmt;sdmt
+DMGDH_SARDH(dmgdh+sardh)	merged	4679	0.9818	0.9511	dmgdh;sardh
+Pta_family(pta+pta_K13788+pta (K15024)+eutD)	merged	7325	0.976	0.9797	pta;pta_K13788;pta (K15024);eutD
+MtaA_MtsA(mtaA+mtsA)	merged	1014	0.9053	0.9643	mtaA;mtsA
+CntB_DmmB_reductases(cntB+dmmB)	merged	2071	0.9676	0.9872	cntB;dmmB
+MttB_superfamily(mttB+mtgB+other)	merged	2785	0.9512	0.9567	mttB;mtgB;mttB_family_other
+GrdB_family(grdH+grdB)	merged	1345	0.913	0.8624	grdH;grdB
+CuMMO_all(pmoA+amoA+other)	merged	127	0.8583	1	pmoA;amoA;cuMMO_other

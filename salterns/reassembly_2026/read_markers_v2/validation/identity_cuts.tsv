@@ -1,0 +1,103 @@
+label	PMIN	n_true	recall	precision	fp	uh_assigned	fp_from
+cntB	0	473	0.9366	0.8635	70	7	dmmB:61;vanB:6;dmmB_like:3
+cntB	50	473	0.9302	0.8696	66	5	dmmB:61;vanB:5
+cntB	60	473	0.8668	0.8836	54	0	dmmB:52;vanB:2
+cntB	70	473	0.7442	0.8911	43	0	dmmB:41;vanB:2
+cntB	75	473	0.6702	0.8980	36	0	dmmB:36
+cntB	80	473	0.5053	0.8819	32	0	dmmB:32
+mtbB	0	357	0.9580	0.8529	59	288	mtbB_like:32;none:27
+mtbB	50	357	0.9580	0.8529	59	287	mtbB_like:32;none:27
+mtbB	60	357	0.9524	0.8564	57	274	mtbB_like:32;none:25
+mtbB	70	357	0.8655	0.8680	47	193	mtbB_like:32;none:15
+mtbB	75	357	0.8095	0.8601	47	155	mtbB_like:32;none:15
+mtbB	80	357	0.7171	0.8449	47	110	mtbB_like:32;none:15
+mttC	0	641	0.8190	0.8360	103	353	mtbC:80;mttC_like:17;mtmC_like:3
+mttC	50	641	0.8034	0.8429	96	318	mtbC:73;mttC_like:17;mtmC_like:3
+mttC	60	641	0.7629	0.8989	55	186	mtbC:47;mttC_like:5;mtmC_like:3
+mttC	70	641	0.6225	0.9194	35	33	mtbC:35
+mttC	75	641	0.5460	0.9211	30	4	mtbC:30
+mttC	80	641	0.4181	0.9147	25	0	mtbC:25
+mtmC	0	109	1.0000	0.7622	34	32	mttC:27;mtbC:7
+mtmC	50	109	1.0000	0.8450	20	13	mttC:20
+mtmC	60	109	1.0000	0.9316	8	2	mttC:8
+mtmC	70	109	0.9908	0.9818	2	0	mttC:2
+mtmC	75	109	0.9450	1.0000	0	0	
+mtmC	80	109	0.7798	1.0000	0	0	
+sdmt	0	1147	0.9085	0.8808	141	44	gsdmt:87;none:25;gsmt:17
+sdmt	50	1147	0.8963	0.8794	141	32	gsdmt:87;none:25;gsmt:17
+sdmt	60	1147	0.8370	0.8743	138	7	gsdmt:87;none:25;gsmt:15
+sdmt	70	1147	0.6704	0.8699	115	0	gsdmt:75;none:25;gsdmt_like:10
+sdmt	75	1147	0.5623	0.8693	97	0	gsdmt:60;none:25;gsdmt_like:10
+sdmt	80	1147	0.3793	0.8546	74	0	gsdmt:40;none:24;gsdmt_like:10
+gsdmt	0	702	0.6282	0.8596	72	0	sdmt:44;gsmt:23;none:5
+gsdmt	50	702	0.6282	0.8596	72	0	sdmt:44;gsmt:23;none:5
+gsdmt	60	702	0.6197	0.8614	70	0	sdmt:43;gsmt:23;none:4
+gsdmt	70	702	0.5726	0.8855	52	0	sdmt:25;gsmt:23;none:4
+gsdmt	75	702	0.5271	0.9181	33	0	gsmt:21;sdmt:10;none:2
+gsdmt	80	702	0.3875	0.9477	15	0	gsmt:13;sdmt:2
+mtbA	0	256	0.6875	0.8980	20	90	mtbA_like:10;mtaA_like:5;mtaA:5
+mtbA	50	256	0.6758	0.9251	14	80	mtbA_like:9;mtaA_like:3;mtaA:2
+mtbA	60	256	0.6641	0.9884	2	57	mtbA_like:2
+mtbA	70	256	0.5430	1.0000	0	27	
+mtbA	75	256	0.4766	1.0000	0	16	
+mtbA	80	256	0.3711	1.0000	0	4	
+mtsA	0	72	0.5972	0.9773	1	0	mtaA:1
+mtsA	50	72	0.5972	1.0000	0	0	
+mtsA	60	72	0.5278	1.0000	0	0	
+mtsA	70	72	0.4722	1.0000	0	0	
+mtsA	75	72	0.4583	1.0000	0	0	
+mtsA	80	72	0.4167	1.0000	0	0	
+eutD	0	355	0.7211	0.9922	2	238	pta:2
+eutD	50	355	0.7014	0.9920	2	223	pta:2
+eutD	60	355	0.6282	1.0000	0	193	
+eutD	70	355	0.4648	1.0000	0	103	
+eutD	75	355	0.3606	1.0000	0	71	
+eutD	80	355	0.2338	1.0000	0	30	
+gfa_euk	0	134	0.9478	0.8467	23	0	gfa:23
+gfa_euk	50	134	0.9478	0.8467	23	0	gfa:23
+gfa_euk	60	134	0.9478	0.8467	23	0	gfa:23
+gfa_euk	70	134	0.9328	0.8503	22	0	gfa:22
+gfa_euk	75	134	0.9030	0.8705	18	0	gfa:18
+gfa_euk	80	134	0.7090	0.9223	8	0	gfa:8
+CMO	0	0		0.0000	5	4	gbcA_like:3;cntA:2
+CMO	50	0		0.0000	4	0	gbcA_like:2;cntA:2
+CMO	60	0		0.0000	2	0	cntA:2
+CMO	70	0			0	0	
+CMO	75	0			0	0	
+CMO	80	0			0	0	
+amtB	0	1598	0.9606	0.9088	154	194	none:91;amtB_like:18;amtB_euk:18
+amtB	50	1598	0.9574	0.9211	131	188	none:74;amtB_like:17;amtB_euk:16
+amtB	60	1598	0.9243	0.9635	56	173	none:31;amtB_like:15;amtB_euk:6
+amtB	70	1598	0.8436	0.9854	20	140	amtB_like:12;none:7;cutD_like:1
+amtB	75	1598	0.7797	0.9905	12	101	amtB_like:12
+amtB	80	1598	0.6546	0.9896	11	46	amtB_like:11
+glyA	0	1645	0.9812	0.9500	85	20	none:41;glyA_euk:24;tdm_like:19
+glyA	50	1645	0.9787	0.9578	71	20	none:36;glyA_euk:19;tdm_like:16
+glyA	60	1645	0.9629	0.9772	37	18	glyA_euk:15;tdm_like:12;none:10
+glyA	70	1645	0.9289	0.9884	18	10	tdm_like:7;none:6;glyA_euk:5
+glyA	75	1645	0.8954	0.9913	13	9	none:6;tdm_like:5;glyA_euk:2
+glyA	80	1645	0.8249	0.9934	9	9	none:6;tdm_like:3
+sdaA	0	1566	0.9725	0.9763	37	13	none:37
+sdaA	50	1566	0.9515	0.9854	22	13	none:22
+sdaA	60	1566	0.8863	0.9957	6	13	none:6
+sdaA	70	1566	0.7656	0.9950	6	13	none:6
+sdaA	75	1566	0.6992	0.9946	6	13	none:6
+sdaA	80	1566	0.5894	0.9935	6	13	none:6
+fhs	0	3224	0.9919	0.9558	148	992	fhs_like:80;fhs_euk:38;none:30
+fhs	50	3224	0.9873	0.9593	135	976	fhs_like:76;fhs_euk:37;none:22
+fhs	60	3224	0.9563	0.9643	114	922	fhs_like:71;fhs_euk:25;none:18
+fhs	70	3224	0.8663	0.9648	102	798	fhs_like:70;none:18;fhs_euk:14
+fhs	75	3224	0.7900	0.9648	93	747	fhs_like:68;none:18;fhs_euk:7
+fhs	80	3224	0.6467	0.9599	87	592	fhs_like:64;none:17;fhs_euk:6
+mgsC	0	2332	0.9580	0.9625	87	322	none:47;mgsC_like:32;cntA_like:6
+mgsC	50	2332	0.9460	0.9654	79	312	none:47;mgsC_like:32
+mgsC	60	2332	0.8889	0.9664	72	265	none:40;mgsC_like:32
+mgsC	70	2332	0.8015	0.9694	59	216	none:31;mgsC_like:28
+mgsC	75	2332	0.7367	0.9690	55	176	none:29;mgsC_like:26
+mgsC	80	2332	0.6231	0.9706	44	121	none:27;mgsC_like:17
+dmgo_euk	0	555	0.8955	0.9669	17	7	none:12;dmgo:4;soxB_like:1
+dmgo_euk	50	555	0.8955	0.9726	14	7	none:9;dmgo:4;soxB_like:1
+dmgo_euk	60	555	0.8955	0.9920	4	6	dmgo:4
+dmgo_euk	70	555	0.8144	0.9934	3	0	dmgo:3
+dmgo_euk	75	555	0.7171	0.9950	2	0	dmgo:2
+dmgo_euk	80	555	0.5297	0.9966	1	0	dmgo:1

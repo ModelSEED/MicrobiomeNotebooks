@@ -476,7 +476,7 @@
    "paragraph": 96,
    "kind": "insert_before",
    "old": "The unrestored systems are relatively well defined",
-   "new": "Much of this fraction was never assembled: of the reads of eight universal single-copy ribosomal-protein genes, 39% (R1), 46% (R2), 76% (R2A) and 80% (SF2) lay in no contig of at least 1 kb, so the unbinned fraction mainly reflects organisms too rare or too diverse to assemble at this sequencing depth rather than contigs left out of bins. Counted in all reads, the guilds’ marker genes were 1.7–2.4 (*phnJ*), 1.3–2.4 (*grdI*) and, pooled, 1.7 (*mcrA*) times as abundant as the guilds’ MAGs in the unrestored cores, which lengthens the doubling times required of each guild by about these factors but does not change the conclusions of the models (Figure 7b). ",
+   "new": "Much of this fraction was never assembled: of the reads of eight universal single-copy ribosomal-protein genes, 39% (R1), 46% (R2), 76% (R2A) and 79% (SF2) lay in no contig of at least 1 kb, so the unbinned fraction mainly reflects organisms too rare or too diverse to assemble at this sequencing depth rather than contigs left out of bins. Counted in all reads, the guilds’ marker genes were 1.7–2.4 (*phnJ*), 1.3–2.4 (*grdI*) and, pooled, 1.7 (*mcrA*) times as abundant as the guilds’ MAGs in the unrestored cores, which lengthens the doubling times required of each guild by about these factors but does not change the conclusions of the models (Figure 7b). ",
    "rationale": "why the unbinned fraction is large (assembly-limited), and the read-based guild abundance",
    "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
@@ -610,15 +610,15 @@
      0.175
     ]
    },
-   "mcrA_fold_pooled": 1.7388037201973205,
+   "mcrA_fold_pooled": 1.7388990755606226,
    "fold_range": {
     "methanogen": [
      0.92242,
      14.6
     ],
     "mepn_consumer": [
-     1.7256,
-     2.3883
+     1.7246,
+     2.3786
     ],
     "betaine_reducer": [
      1.347,
@@ -645,27 +645,27 @@
    },
    "mepn_doubling_h": {
     "0.07": [
-     0.0702531879184254,
-     0.4653709731960578
+     0.0700732046428944,
+     0.4645060739903396
     ],
     "0.33": [
-     0.2664489866164956,
-     1.7650106405531645
+     0.2657663647626825,
+     1.7617303407729374
     ],
     "only_P": [
-     1.073870158181659,
-     7.11352773313909
+     1.0711189852556844,
+     7.100307130994539
     ]
    },
    "betaine_doubling_h_006": [
-    2.308883697991728,
+    2.308500038607632,
     55.153358017384825
    ],
    "marker_reads_unassembled_pct_by_site": {
     "R1": 39.0,
     "R2": 46.0,
     "R2A": 76.0,
-    "SF2": 80.0
+    "SF2": 79.0
    }
   }
  }

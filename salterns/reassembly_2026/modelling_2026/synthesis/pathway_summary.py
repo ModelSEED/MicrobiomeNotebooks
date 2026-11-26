@@ -54,7 +54,7 @@ ko = pd.read_csv(RMK / "per_sample_KO.tsv", sep="\t")
 ko = ko[ko["sample"].isin(SAMPLES)].pivot(index="sample", columns="label", values="copies_per_GE")
 key = pd.read_csv(RMK / "key_unrestored_cores.tsv", sep="\t").pivot(index="sample", columns="guild",
                                                                        values="mag_genomes_per_GE")
-rtax = pd.read_csv(RMK / "read_taxonomy.tsv", sep="\t")
+rtax = pd.read_csv(RMK / "read_taxonomy.tsv" if (RMK / "read_taxonomy.tsv").exists() else RMK / "read_taxonomy.tsv.gz", sep="\t")
 rtax = rtax[rtax["sample"].isin(SAMPLES)]
 mtax = pd.read_csv(RMK / "mcrA_taxonomy_by_sample.tsv", sep="\t")
 mtax = mtax[mtax["sample"].isin(SAMPLES)]

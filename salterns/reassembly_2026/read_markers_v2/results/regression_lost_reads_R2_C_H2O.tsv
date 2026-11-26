@@ -1,0 +1,21 @@
+label_v1	v2_decision	reads
+cntB	dmmB	1
+mpnS	no_hit_passing	6
+mtbA	low_identity(best=mtbA)	2
+mtbA	no_hit_passing	1
+mtgB	no_hit_passing	1
+mtmB	dgcA	1
+mtmB	no_hit_passing	19
+mtmB	soxA (monomeric)_like	13
+mttB	no_hit_passing	1
+phnG	no_hit_passing	1
+phnH	no_hit_passing	3
+phnI	no_hit_passing	9
+phnJ	no_hit_passing	1
+phnL	dmdB_like	1
+phnL	no_hit_passing	65
+phnM	no_hit_passing	29
+uL2	no_hit_passing	21
+uS3	ambiguous(best=uS3)	10
+uS3	no_hit_passing	99
+uS3	xoxF_like	237

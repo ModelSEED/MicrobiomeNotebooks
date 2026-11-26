@@ -1,0 +1,173 @@
+label	role	n_heldout_genes	n_reads	tp	recall	ambiguous	low_identity	to_other_label	fp_holdout	fp_background	precision	fp_per_M_background	uh_assigned	median_divergence_identity	ko	in_v1	reads_lost_to	false_positives_from	flag
+AOX_euk	decoy_reported	37	2238	2220	0.992	0	0	0	1	0	0.9995	0	0	75.2		False		AOX_like 1	
+CMO	target	0	0	0				0	5	0	0	0	4		K00499	False		gbcA_like 3; cntA 2	not validated (<50 reads) 
+CMO_euk	decoy_reported	29	1153	1093	0.948	0	0	0	1	0	0.9991	0	3	82.5		False		gbcA_like 1	
+MTO	target	48	2263	2203	0.9735	0.001326	0	15	22	0	0.9901	0	137	86.45	K17285	False		MTO_euk 9; MTO_like 9; none 4	
+MTO_euk	decoy_reported	36	1664	1643	0.9874	0	0	9	11	0	0.9933	0	3	83.3		False		MTO 11	
+ackA	target	40	1608	1549	0.9633	0	0	10	44	0	0.9724	0	26	79.55	K00925	False		tdcD 32; none 12	
+ackA_euk	decoy_reported	20	809	775	0.958	0	0	0	0	0	1	0	0	77.7		False			
+acs	target	53	3184	3089	0.9702	0.002827	0	50	195	0	0.9406	0	73	82.3	K01895	False		acs_euk 109; acs_like 52; prpE 27	
+acs_euk	decoy_reported	41	2795	2566	0.9181	0.005367	0	110	4	0	0.9984	0	2	84.7		False	acs 4%	acs 2; none 2	
+amoA	decoy_reported	0	0	0				0	6	0	0	0	17			True		pmoA 6	not validated (<50 reads) 
+amtB	target	34	1598	1477	0.9243	0.001252	0.0363	4	34	22	0.9635	164.9	173	83.85	K03320	False	low_identity 4%	amtB_like 15; none 9; amtB_euk 6	
+amtB_euk	decoy_reported	56	2724	2529	0.9284	0.001468	0.004405	6	4	0	0.9984	0	0	81.65		False		amtB 4	
+betA	target	58	3272	3163	0.9667	0.004584	0	70	240	0	0.9295	0	511	83.1	K00108	False		betA_euk 123; betA_like 101; none 16	
+betA_euk	decoy_reported	32	2091	1824	0.8723	0.006217	0	129	88	0	0.954	0	49	82.9		False	betA 6%	betA 70; betA_like 17; none 1	
+betB	target	60	2959	2675	0.904	0.004055	0	211	89	0	0.9678	0	49	81.85	K00130	False	ALDH 4%	feaB 22; ALDH 21; betB_euk 18	
+betB_euk	decoy_reported	28	1402	1355	0.9665	0.001427	0	27	7	0	0.9949	0	2	83.85		False		betB 6; betB_like 1	
+bhmt	target	19	679	669	0.9853	0	0	10	3	0	0.9955	0	0	85.3	K00544	False		bhmt_euk 3	
+bhmt_euk	decoy_reported	27	1034	1015	0.9816	0.0009671	0	3	10	0	0.9902	0	0	81.7		False		bhmt 10	
+cdhA	target	15	1145	1131	0.9878	0	0	0	2	0	0.9982	0	0	74.9	K00192	False		none 2	
+cdhB	target	17	284	280	0.9859	0	0	0	2	0	0.9929	0	0	79	K00195	False		none 2	
+cdhC	target	16	782	703	0.899	0	0	0	59	0	0.9226	0	0	82.25	K00193	False		acsB 54; cdhC_like 3; none 2	
+cdhD	target	39	1502	1292	0.8602	0	0	29	59	0	0.9563	0	0	82.6	K00194	False		acsB 55; none 4	
+cdhE	target	42	1905	1874	0.9837	0	0	0	18	0	0.9905	0	0	78.8	K00197	False		cdhE_like 11; acsE 4; none 3	
+cntA	target	23	858	838	0.9767	0	0.01748	2	15	0	0.9824	0	75	87.5	K22443	True		cntA_like 12; none 3	
+cntB	target	15	473	410	0.8668	0.002114	0.06977	22	54	0	0.8836	0	0	83	K22444	True	low_identity 7%; dmmB 4%	dmmB 52; vanB 2	precision<0.90 
+cuMMO_other	decoy_reported	3	74	52	0.7027	0.1216	0	13	6	0	0.8966	0	81	78.2		True	pmoA 18%; ambiguous 12%	pmoA 6	precision<0.90 recall<0.80 
+cutC	target	25	2043	1978	0.9682	0	0.02301	0	5	0	0.9975	0	17	84.3	K20038	True		cutC_like 5	
+cutD	target	25	764	620	0.8115	0	0	122	1	0	0.9984	0	0	77.7	K20037	True	pflA 15%	rnfB 1	
+dddD	target	10	837	797	0.9522	0.001195	0	8	1	0	0.9987	0	0	81.2	K28073	False		dddD_like 1	
+dddL	target	26	559	528	0.9445	0	0	0	4	0	0.9925	0	129	79.9	K16953	False		none 4	
+dddP	target	13	582	582	1	0	0	0	19	0	0.9684	0	56	84.9	K28067	False		dddP_like 15; none 4	
+dddW	target	3	43	37	0.8605	0	0	0	2	0	0.9487	0	77	60	K28068	False		dddW_like 2	not validated (<50 reads) 
+dddY	target	4	165	143	0.8667	0	0	0	0	0	1	0	0	80.8	K28069	False			
+ddhA	target	1	92	92	1	0	0	0	1	0	0.9892	0	0	71.6	K16964	False		none 1	
+ddhB	target	1	37	21	0.5676	0.08108	0	13	0	0	1	0	0	88.7	K16965	False	narH 35%; ambiguous 8%		not validated (<50 reads) 
+ddhC	target	1	26	25	0.9615	0	0	0	0	0	1	0	116	54.8	K16966	False			not validated (<50 reads) 
+dgcA	target	14	974	952	0.9774	0.00924	0	1	5	0	0.9948	0	173	85.75	K21833	False		dgcA_like 5	
+dmdA	target	23	883	856	0.9694	0.006795	0	2	2	0	0.9977	0	594	85.5	K17486	False		none 2	
+dmdB	target	60	3308	3255	0.984	0	0	21	51	0	0.9846	0	36	79	K20034	False		dmdB_like 39; acs_like 6; none 6	
+dmdC	target	46	2731	2659	0.9736	0.002563	0	27	1	0	0.9996	0	0	83.6	K20035	False		none 1	
+dmdD	target	59	1533	1516	0.9889	0	0	5	2	0	0.9987	0	0	83.1	K20036	False		none 2	
+dmgdh	target	56	4598	4547	0.9889	0.008264	0	2	282	2	0.9412	14.99	36	85.5	K00315	False		dmgdh_like 141; sardh 47; dmgo_like 37	
+dmgdh_euk	decoy_reported	21	1699	1654	0.9735	0.001177	0	3	1	1	0.9988	7.495	4	89.4		False		dmgdh_like 1	
+dmgo	target	50	4140	4065	0.9819	0.0002415	0	31	86	0	0.9793	0	341	81.45	K00309	False		dmgo_euk 42; dmgo_like 33; dmgdh_like 6	
+dmgo_euk	decoy_reported	7	555	497	0.8955	0.02883	0	42	4	0	0.992	0	6	79.4		False	dmgo 8%	dmgo 4	
+dmmA	target	49	1659	1651	0.9952	0	0	0	5	0	0.997	0	143	80.4	K22342	False		dmmA_like 4; none 1	
+dmmB	target	51	1598	1524	0.9537	0.0006258	0.005632	60	42	0	0.9732	0	23	78.8	K22343	False	cntB 3%	cntB 18; vanB 16; none 6	
+dmmC	target	53	947	826	0.8722	0	0	0	1	0	0.9988	0	0	73.5	K22344	False		none 1	
+dmsA	target	60	4755	4366	0.9182	0.005047	0	60	143	0	0.9683	0	38	80.3	K07306	False		ynfE 109; dmsA_like 15; none 13	
+eutD	target	11	355	256	0.7211	0.005634	0	78	2	0	0.9922	0	238	66.2	K04020	False	pta 21%	pta 2	recall<0.80 
+fae	target	59	1034	1030	0.9961	0	0	0	0	0	1	0	35	85.9	K10713	False			
+fdh	target	33	1264	1262	0.9984	0	0	0	8	0	0.9937	0	1	85.9	K00122	False		fdh_euk 4; fdh_like 4	
+fdhA	target	60	2318	2311	0.997	0.0008628	0	0	7	0	0.997	0	23	86.1	K00148	False		fdhA_like 4; none 3	
+fdh_euk	decoy_reported	27	1038	993	0.9566	0	0	4	1	0	0.999	0	2	86.2		False		fdh_like 1	
+fghA	target	57	1587	1577	0.9937	0	0	6	28	0	0.9826	0	0	81	K01070	False		fghA_euk 25; none 2; fghA_like 1	
+fghA_euk	decoy_reported	34	969	915	0.9443	0.004128	0	25	2	0	0.9978	0	0	79.35		False		fghA 2	
+fhs	target	58	3224	3198	0.9919	0.003412	0	1	139	9	0.9558	67.46	992	82.1	K01938	False		fhs_like 80; fhs_euk 38; none 21	
+fhs_euk	decoy_reported	11	681	621	0.9119	0.002937	0	42	0	0	1	0	11	88.8		False	fhs 6%		
+folD	target	52	1526	1484	0.9725	0.001966	0	7	84	0	0.9464	0	509	81.2	K01491	False		folD_euk 51; folD_like 26; none 7	
+folD_euk	decoy_reported	36	1236	1140	0.9223	0	0	51	6	0	0.9948	0	3	85.45		False	folD 4%	fhs_euk 4; folD 2	
+frmA	target	60	2201	2160	0.9814	0	0	20	107	0	0.9528	0	119	85.95	K00121	False		frmA_euk 60; frmA_like 22; none 18	
+frmA_euk	decoy_reported	40	1497	1422	0.9499	0.004008	0	60	2	0	0.9986	0	0	81.65		False	frmA 4%	frmA 1; frmA_like 1	
+ftr	target	59	1783	1756	0.9849	0	0	0	16	0	0.991	0	139	81.2	K00672	False		none 16	
+fwdA	target	53	2919	2867	0.9822	0	0	0	6	0	0.9979	0	4	83.6	K00200	False		none 5; fwdA_like 1	
+fwdB	target	55	2284	2117	0.9269	0	0	14	14	0	0.9934	0	194	77.3	K00201	False		none 14	
+fwdC	target	60	1637	1000	0.6109	0	0	0	10	0	0.9901	0	0	76.95	K00202	False		none 10	recall<0.80 
+fwdD	target	32	429	423	0.986	0	0	0	4	0	0.9906	0	336	75.95	K00203	False		fwdB 3; none 1	
+fwdE	target	50	1178	1105	0.938	0	0	0	3	0	0.9973	0	283	72.65	K11261	False		none 3	
+fwdF	target	30	1078	850	0.7885	0	0	30	6	0	0.993	0	0	78.3	K00205	False		fwdG 2; none 2; fwdH_like 1	recall<0.80 
+fwdG	target	19	177	153	0.8644	0.00565	0	5	2	0	0.9871	0	0	79.7	K11260	False		cdhE_like 2	
+fwdH	target	8	120	118	0.9833	0	0	1	2	0	0.9833	0	0	86	K00204	False		rnfB 2	
+gbcA	target	31	1280	1271	0.993	0	0	0	30	0	0.9769	0	344	87	K00479	False		gbcA_like 24; cntA_like 5; none 1	
+gbcB	target	60	2302	2195	0.9535	0.0004344	0	17	10	0	0.9955	0	7	82.45	K21832	False		gbcB_like 9; none 1	
+gbsB	target	6	239	217	0.9079	0.004184	0	5	23	0	0.9042	0	55	82.85	K11440	False		dhaT 16; gbsB_like 7	
+gfa	target	41	819	776	0.9475	0.002442	0	23	8	0	0.9898	0	0	81.7	K03396	False		gfa_euk 7; none 1	
+gfa_euk	decoy_reported	7	134	127	0.9478	0	0	7	23	0	0.8467	0	0	83.2		False	gfa 5%	gfa 23	precision<0.90 
+glyA	target	38	1645	1584	0.9629	0.0006079	0.01824	6	34	3	0.9772	22.49	18	85.85	K00600	False		glyA_euk 15; tdm_like 12; none 7	
+glyA_euk	decoy_reported	40	2026	1828	0.9023	0.001481	0.004442	15	8	0	0.9956	0	0	81.2		False		glyA 6; none 2	
+gmaS	target	6	260	233	0.8962	0.01538	0	22	5	0	0.979	0	0	83.55	K01949	False	glnA 8%	glnA 5	
+grdB	decoy_reported	31	920	855	0.9293	0.01087	0	51	342	0	0.7143	0	0	84.2		True	grdF 4%	grdH 164; grdF 70; grdH_like 63	precision<0.90 
+grdH	target	10	425	206	0.4847	0.07059	0	186	21	0	0.9075	0	0	84.55	K21579	True	grdB 39%; ambiguous 7%; grdH_like 5%	grdH_like 10; none 8; grdB 3	recall<0.80 
+grdI	target	13	577	547	0.948	0.001733	0	28	8	0	0.9856	0	0	80.3	K21578	True	grdE 5%	none 5; grdE 3	
+gsdmt	target	13	702	441	0.6282	0.04558	0	226	72	0	0.8596	0	0	79.6	K24071	False	gsmt 20%; sdmt 12%; ambiguous 5%	sdmt 44; gsmt 23; none 5	precision<0.90 recall<0.80 
+mauA	target	29	541	515	0.9519	0	0	0	0	0	1	0	13	77.6	K15228	False			
+mauB	target	32	1246	1189	0.9543	0	0	0	0	0	1	0	0	74.3	K15229	False			
+mch	target	55	1823	1801	0.9879	0	0	0	6	0	0.9967	0	79	81.8	K01499	False		none 6	
+mcrA	target	14	783	781	0.9974	0	0	0	0	0	1	0	0	89.15	K00399	True			
+mcrB	target	19	828	826	0.9976	0	0	0	0	0	1	0	0	85.6	K00401	True			
+mcrG	target	16	405	402	0.9926	0	0	0	0	0	1	0	0	88.35	K00402	True			
+mddA	target	52	1362	1327	0.9743	0	0	0	1	0	0.9992	0	177	77.7	K21310	False		mddA_like 1	
+mdh	target	0	0	0				0	0	0		0	3		K00093	False			not validated (<50 reads) 
+mdo	target	7	298	289	0.9698	0	0	3	1	0	0.9966	0	24	82.7	K17067	False		gbsB 1	
+mer	target	54	1839	1758	0.956	0	0	12	44	4	0.9734	29.98	193	79.45	K00320	False		mer_like 43; none 1	
+mgdA	target	53	2200	2080	0.9455	0.005	0	104	46	0	0.9784	0	54	84.9	K22084	False	soxB 3%	soxB 30; none 16	
+mgdB	target	60	574	551	0.9599	0	0	17	33	0	0.9435	0	327	83.15	K22085	False		none 33	
+mgdC	target	60	5794	5508	0.9506	0.001726	0	183	186	0	0.9673	0	108	79.6	K22086	False		soxA 140; none 36; mgdC_like 9	
+mgdD	target	59	1104	965	0.8741	0.004529	0	19	41	0	0.9592	0	345	75.4	K22087	False		none 20; mgdD_like 18; mgdC 3	
+mgsA	target	57	1705	1642	0.963	0	0	0	16	0	0.9903	0	11	81.2	K22081	False		none 12; mgsB 4	
+mgsB	target	55	1304	1176	0.9018	0	0	4	42	0	0.9655	0	40	81.2	K22082	False		none 33; mgsB_like 9	
+mgsC	target	47	2332	2234	0.958	0.001715	0	0	74	13	0.9625	97.44	322	84	K22083	False		none 34; mgsC_like 32; cntA_like 6	
+mmoX	target	1	52	52	1	0	0	0	0	0	1	0	0	89	K16157	True			
+mpnS	target	1	47	2	0.04255	0	0.06383	0	0	0	1	0	0	45.3	K18049	True	low_identity 6%		not validated (<50 reads) 
+msmA	target	5	205	202	0.9854	0	0	0	5	0	0.9758	0	9	85.7	K16968	False		msmA_like 3; none 2	
+msmB	target	5	81	52	0.642	0	0	0	0	0	1	0	1	47.4	K16969	False			recall<0.80 
+mtaA	target	28	942	851	0.9034	0.003185	0.005308	27	57	0	0.9372	0	185	65.65	K14080	True		mtaA_like 25; mtsA 23; mtbA_like 4	
+mtaB	target	21	965	961	0.9959	0	0	0	0	0	1	0	183	85.2	K04480	True			
+mtaC	target	14	364	358	0.9835	0	0	0	1	0	0.9972	0	8	73.45	K14081	False		mtbC 1	
+mtbA	target	7	256	170	0.6641	0.007812	0.02344	48	2	0	0.9884	0	57	73.2	K14082	True	hemE 13%; mtbA_like 5%	mtbA_like 2	recall<0.80 
+mtbB	target	9	357	342	0.958	0	0	13	59	0	0.8529	0	288	86.2	K16178	True	mtbB_like 4%	mtbB_like 32; none 27	precision<0.90 
+mtbC	target	37	768	641	0.8346	0.005208	0.009115	100	55	0	0.921	0	139	72.9	K16179	False	mttC 10%	mttC 46; mtbC_like 5; mttC_like 4	
+mtgB	target	32	1529	50	0.0327	0.05167	0	1389	89	0	0.3597	0	2	56.95	K25220	True	mttB 90%; ambiguous 5%	mttB 86; mtgB_like 3	precision<0.90 recall<0.80 
+mtmB	target	18	740	690	0.9324	0	0	2	10	0	0.9857	0	40	82.3	K16176	True		none 10	
+mtmC	target	5	109	108	0.9908	0	0.009174	0	2	0	0.9818	0	0	88.5	K16177	False		mttC 2	
+mtrA	target	40	905	815	0.9006	0	0	1	4	0	0.9951	0	41	77.1	K00577	False		none 4	
+mtrB	target	16	163	152	0.9325	0	0	0	0	0	1	0	0	74.3	K00578	False			
+mtrC	target	18	487	476	0.9774	0	0	0	1	0	0.9979	0	0	77.3	K00579	False		none 1	
+mtrD	target	14	347	342	0.9856	0	0	0	0	0	1	0	0	84.35	K00580	False			
+mtrE	target	13	385	378	0.9818	0	0	0	0	0	1	0	0	80.9	K00581	False			
+mtrF	target	13	92	91	0.9891	0	0	0	0	0	1	0	8	71.7	K00582	False			
+mtrG	target	12	89	82	0.9213	0	0	0	1	0	0.988	0	4	82	K00583	False		none 1	
+mtrH	target	20	624	552	0.8846	0.01122	0	39	15	0	0.9735	0	475	78	K00584	False	mtoA 6%	mtrH_like 7; none 4; mtgA 3	
+mtsA	target	2	72	43	0.5972	0	0	23	1	0	0.9773	0	0	61.55	K16954	False	mtaA 32%	mtaA 1	recall<0.80 
+mttB	target	25	1256	1135	0.9037	0.01354	0	87	1493	0	0.4319	0	194	87.5	K14083	True	mtgB 7%	mtgB 1377; mtgB_like 60; none 29	precision<0.90 
+mttB_family_other	target	0	0	0				0	2	0	0	0	3			True		mtgB_like 1; mttB 1	not validated (<50 reads) 
+mttC	target	30	641	525	0.819	0.00468	0.039	62	103	0	0.836	0	353	73.3	K14084	False	mtbC 7%; low_identity 4%	mtbC 80; mttC_like 17; mtmC_like 3	precision<0.90 
+mxaF	target	11	679	679	1	0	0	0	9	0	0.9869	0	0	86.9	K14028	False		xoxF 9	
+mxaI	target	16	149	149	1	0	0	0	0	0	1	0	0	79	K14029	False			
+phnD	target	53	1747	1473	0.8432	0	0.008014	18	22	2	0.984	14.99	21	73.6	K02044	False		none 11; phnD_like 11	
+phnG	target	60	919	891	0.9695	0	0	2	10	0	0.9889	0	60	80.1	K06166	True		none 9; phnH 1	
+phnH	target	59	1152	1037	0.9002	0	0	1	20	0	0.9811	0	365	72.1	K06165	True		none 18; phnG 2	
+phnI	target	50	1847	1810	0.98	0	0	0	7	0	0.9961	0	260	86.1	K06164	True		none 7	
+phnJ	target	20	589	586	0.9949	0	0	0	49	0	0.9228	0	39	87.2	K06163	True		phnK 36; none 13	
+phnK	target	59	1604	1553	0.9682	0	0	45	13	0	0.9917	0	14	85.7	K05781	True		none 13	
+phnL	target	60	1413	1394	0.9866	0	0	2	21	0	0.9852	0	0	81.6	K05780	True		none 18; phnL_like 2; phnK 1	
+phnM	target	49	1895	1853	0.9778	0	0	1	14	1	0.992	7.495	43	79.2	K06162	True		none 14	
+phnZ	target	1	23	11	0.4783	0.04348	0	6	0	0	1	0	92	55.4	K05915	False	tmpB 26%; ambiguous 4%		not validated (<50 reads) 
+pmoA	target	2	53	32	0.6038	0.1132	0	12	13	0	0.7111	0	0	78.7	K10944	True	ambiguous 11%; amoA 11%; cuMMO_other 11%	cuMMO_other 13	precision<0.90 recall<0.80 
+pta	target	60	2119	2018	0.9523	0.001416	0	69	176	1	0.9194	7.495	958	78.35	K00625	False		eutD 74; ptb 60; pta_like 26	
+pta (K15024)	target	59	1230	1213	0.9862	0	0	0	16	1	0.9862	7.495	401	79.2	K15024	False		ackA 10; pta (K15024)_like 6	
+pta_K13788	target	54	3621	3571	0.9862	0.0002762	0	0	45	0	0.9876	0	13	80.65	K13788	False		pta_K13788_like 21; pta 11; none 9	
+purU	target	55	1630	1596	0.9791	0.0006135	0	2	5	0	0.9969	0	4	80.4	K01433	False		none 4; purU_like 1	
+purU_euk	decoy_reported	31	947	917	0.9683	0	0	0	2	0	0.9978	0	0	87.1		False		purU 2	
+sardh	target	1	81	0	0	0.3457	0	53	1	0	0	0	0	61.3	K00314	False	dmgdh 58%; ambiguous 35%; dmgo_like 5%	none 1	precision<0.90 recall<0.80 
+sardh_euk	decoy_reported	29	2537	2513	0.9905	0	0	0	4	0	0.9984	0	21	81.8		False		sardh 2; dmgdh_like 1; dmgo_like 1	
+sdaA	target	43	1566	1490	0.9515	0	0.02107	0	6	16	0.9854	119.9	13	82.3	K01752	False		none 6	
+sdmt	target	39	1147	1042	0.9085	0.007847	0	60	141	0	0.8808	0	44	74.9	K18897	False	gsdmt 4%	gsdmt 87; none 25; gsmt 17	precision<0.90 
+sfnG	target	59	2117	2111	0.9972	0	0	0	1	0	0.9995	0	39	86.7	K17228	False		mer_like 1	
+soxA	target	59	5649	5368	0.9503	0.002124	0	140	181	0	0.9674	0	137	78.9	K00302	False		mgdC 148; none 12; soxG 11	
+soxA (monomeric)	target	59	2236	2092	0.9356	0	0	3	4	0	0.9981	0	33	73.6	K00301	False		soxB_like 3; dadA 1	
+soxB	target	60	2474	2431	0.9826	0.00485	0	31	78	0	0.9689	0	169	86.45	K00303	False		mgdA 72; none 6	
+soxD	target	60	610	595	0.9754	0	0	2	32	0	0.949	0	261	82.75	K00304	False		mgdB 17; none 15	
+soxG	target	59	1149	1087	0.946	0	0	11	24	0	0.9784	0	393	74.4	K00305	False		mgdD 19; none 5	
+ssuD/msuD	target	60	2202	2101	0.9541	0.0004541	0	3	3	1	0.9981	7.495	617	79.35	K04091	False		none 3	
+tdm	target	33	2548	2439	0.9572	0	0	1	5	0	0.998	0	0	83.8	K28979	False		gcvT 4; tdm_like 1	
+tmd	target	43	3017	2957	0.9801	0.0009944	0	23	10	0	0.9966	0	6	78.3	K00317	False		none 8; dgcA_like 1; tmd_like 1	
+tmm	target	47	2138	2135	0.9986	0	0	0	1	0	0.9995	0	0	85.1	K18277	False		none 1	
+torA	target	19	1572	1492	0.9491	0	0	80	17	0	0.9887	0	8	86.8	K07811	False	torZ 5%	torZ 16; bisC 1	
+torZ	target	51	4124	3986	0.9665	0.001697	0	78	124	0	0.9698	0	285	81	K07812	False		torA 80; bisC 40; fdhA_NADP 3	
+uL11	marker	46	701	675	0.9629	0	0	0	0	0	1	0	0	86	K02867	True			
+uL16	marker	43	644	633	0.9829	0	0.001553	0	21	4	0.962	29.98	0	86.8	K02878,K02866	True		none 21	
+uL2	marker	45	1228	1210	0.9853	0	0.0057	0	5	2	0.9942	14.99	0	86.5	K02886	True		none 5	
+uL4	marker	50	1104	1073	0.9719	0	0.008152	2	10	0	0.9908	0	0	83.4	K02926,K02930	True		euk_marker 10	
+uS11	marker	48	703	664	0.9445	0	0.001422	0	20	1	0.9693	7.495	0	88	K02948	True		none 20	
+uS12	marker	52	727	716	0.9849	0	0	0	18	0	0.9755	0	0	87.65	K02950	True		none 11; euk_marker 7	
+uS3	marker	38	955	883	0.9246	0.006283	0.001047	17	28	0	0.9693	0	0	86.2	K02982	True		none 28	
+uS9	marker	53	786	746	0.9491	0	0.007634	0	3	7	0.9868	52.47	0	85.4	K02996	True		none 3	
+xoxF	target	59	3591	3529	0.9827	0.0008354	0	16	7	0	0.998	0	0	84.8	K23995	False		xoxF_like 4; exaA 3	
+AOX	target														K17066				not validated (no held-out gene)
+dddX	target														K28072				not validated (no held-out gene)
+dmoA	target														K16967				not validated (no held-out gene)
+hepD	target														K12905				not validated (no held-out gene)
+phnY	target														K23996				not validated (no held-out gene)

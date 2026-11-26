@@ -466,7 +466,7 @@
    "paragraph": 96,
    "kind": "insert_before",
    "old": "The unrestored systems are relatively well defined",
-   "new": "Much of this fraction was never assembled: of the reads of eight universal single-copy ribosomal-protein genes, 39% (R1), 46% (R2), 76% (R2A) and 80% (SF2) lay in no contig of at least 1 kb, so the unbinned fraction mainly reflects organisms too rare or too diverse to assemble at this sequencing depth rather than contigs left out of bins. Counted in all reads, the guilds’ marker genes were 1.7–2.4 (*phnJ*), 1.3–2.4 (*grdI*) and, pooled, 1.7 (*mcrA*) times as abundant as the guilds’ MAGs in the unrestored cores, which lengthens the doubling times required of each guild by about these factors but does not change the conclusions of the models (Figure 7b). ",
+   "new": "Much of this fraction was never assembled: of the reads of eight universal single-copy ribosomal-protein genes, 39% (R1), 46% (R2), 76% (R2A) and 79% (SF2) lay in no contig of at least 1 kb, so the unbinned fraction mainly reflects organisms too rare or too diverse to assemble at this sequencing depth rather than contigs left out of bins. Counted in all reads, the guilds’ marker genes were 1.7–2.4 (*phnJ*), 1.3–2.4 (*grdI*) and, pooled, 1.7 (*mcrA*) times as abundant as the guilds’ MAGs in the unrestored cores, which lengthens the doubling times required of each guild by about these factors but does not change the conclusions of the models (Figure 7b). ",
    "rationale": "why the unbinned fraction is large (assembly-limited), and the read-based guild abundance",
    "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
    "origin": "modelling_2026_per_gram",
@@ -497,7 +497,7 @@
    "paragraph": 78,
    "kind": "new_paragraph_after",
    "old": "",
-   "new": "Figure 10 sets the hypothesized methane sources side by side. Among the pathway genes in all reads, C–P lyase (*phnJ*) was the most abundant (9–18 copies per 100 genome equivalents; 5–9 genomes per 100 in the MAGs), mostly of *Roseovarius* and *Marivita*, followed by the TMA-producing betaine reductase (*grdI*; 1–12; mostly M55B127, UBA8670 and *Halanaerobium*) and choline and carnitine genes (*cutC* + *cntA*; 2–9), whereas methanogens were rare (*mcrA* 0.1–0.8). Of the *mcrA* reads, 91% belonged to methylotrophic methanogens (*Methanolobus*, *Methanohalophilus*, *Methanococcoides*, and hydrogen-dependent Methanomassiliicoccales), 9% to hydrogenotrophic methanogens, mostly *Methanogenium*, and 3 reads to the acetoclastic *Methanothrix* and *Methanocrinis*. Only 21% of the reads of the methanol methyltransferase gene *mtaB* were archaeal (mostly *Methanohalophilus* and *Methanococcoides*), and no MAG carried methanol-, hydrogen- or acetate-based methanogenesis. The measured porewater pools would supply the measured emissions if turned over every 0.9–3.4 days (mono-, di- and trimethylamine), 0.6–3.0 days (methanol), 4–12 hours (formate), 8–335 days (acetate) and 61–168 days (glycine betaine, if fully converted through TMA). The betaine reducers could supply the TMA for complete conversion at doubling times of 37 hours or longer, whereas the acetoclastic methanogens, at their read-based abundance, would need doubling times of minutes.",
+   "new": "Figure 10 sets the hypothesized methane sources side by side. Among the pathway genes in all reads, C–P lyase (*phnJ*) was the most abundant (9–18 copies per 100 genome equivalents; 5–9 genomes per 100 in the MAGs), mostly of *Roseovarius* and *Marivita*, followed by the TMA-producing betaine reductase (*grdI*; 1–12; mostly M55B127, UBA8670 and DATFJG01) and choline and carnitine genes (*cutC* + *cntA*; 2–10), whereas methanogens were rare (*mcrA* 0.1–0.8). Of the *mcrA* reads, 91% belonged to methylotrophic methanogens (*Methanolobus*, *Methanohalophilus*, *Methanococcoides*, and hydrogen-dependent Methanomassiliicoccales), 9% to hydrogenotrophic methanogens, mostly *Methanogenium*, and 3 reads to the acetoclastic *Methanothrix* and *Methanocrinis*. Only 21% of the reads of the methanol methyltransferase gene *mtaB* were archaeal (mostly *Methanohalophilus* and *Methanococcoides*), and no MAG carried methanol-, hydrogen- or acetate-based methanogenesis. The measured porewater pools would supply the measured emissions if turned over every 0.9–3.4 days (mono-, di- and trimethylamine), 0.6–3.0 days (methanol), 4–12 hours (formate), 8–335 days (acetate) and 61–168 days (glycine betaine, if fully converted through TMA). The betaine reducers could supply the TMA for complete conversion at doubling times of 37 hours or longer, whereas the acetoclastic methanogens, at their read-based abundance, would need doubling times of minutes.",
    "rationale": "Results for Figure 10",
    "sources": "reassembly_2026/modelling_2026/synthesis/pathway_summary.{py,json}, figure10_pathways.py; reassembly_2026/read_markers/README.md",
    "origin": "synthesis_2026_11_25",
@@ -517,7 +517,7 @@
    "paragraph": 99,
    "kind": "new_paragraph_after",
    "old": "",
-   "new": "Taken together, these results attribute most of the measured methane to methylotrophic methanogenesis (Figure 10). Methanogens that use methyl groups carry 91% of the methanogen *mcrA* reads, hydrogenotrophic methanogens 9%, and acetoclastic methanogens fewer than 1%, although acetate was abundant. Their substrates are mainly methylated amines (the dominant *Methanolobus* cannot use methanol, which only the less abundant *Methanohalophilus* and *Methanococcoides* may use): the porewater mono-, di- and trimethylamine would supply the measured emissions if turned over every 0.9–3.4 days, and the large glycine betaine pool (enough for 61–168 days of emissions if fully converted through TMA), degraded by abundant betaine-reducing Bacillota, together with choline and carnitine degradation, can resupply TMA without fast growth. Methylphosphonate degradation by C–P lyase bacteria (mostly *Roseovarius* and *Marivita* in situ, and *Halomonas* in culture) does contribute, but it is limited by their phosphorus demand: at equal specific growth rates the MPn consumers would supply 1–8% of the methane at an MPn:Pi uptake ratio of 0.07, 3–24% at 0.33, and 9–55% only if methylphosphonate were their sole phosphorus source; even growing ten times faster than the methanogens, they would supply 6–45% at a ratio of 0.07. Growth-coupled production does not close the budget of the R2 cores: at a doubling time of one day, the methanogens there would supply only 8–19% of the measured methane, so their methane must come largely from activity beyond growth (19–45 mmol CH₄ per gram of methanogen biomass per hour) or from more methanogen biomass than the DNA suggests. In the microcosms, only the TMA addition produced as much methane as the controls under anoxic conditions (Figure 4b), and methylphosphonic acid did not raise methane significantly above the controls under oxic conditions (Figure 4a). We therefore attribute the measured methane mainly to methylotrophic methanogenesis fed by the turnover of compatible solutes, with methylphosphonate degradation as a secondary, phosphorus-limited source and hydrogenotrophic methanogenesis as a minor one.",
+   "new": "Taken together, these results attribute most of the measured methane to methylotrophic methanogenesis (Figure 10). Methanogens that use methyl groups carry 91% of the methanogen *mcrA* reads, hydrogenotrophic methanogens 9%, and acetoclastic methanogens fewer than 1%, although acetate was abundant. Their substrates are mainly methylated amines (the dominant *Methanolobus* cannot use methanol, which only the less abundant *Methanohalophilus* and *Methanococcoides* may use): the porewater mono-, di- and trimethylamine would supply the measured emissions if turned over every 0.9–3.4 days, and the large glycine betaine pool (enough for 61–168 days of emissions if fully converted through TMA), degraded by abundant betaine-reducing Bacillota, together with choline and carnitine degradation, can resupply TMA without fast growth. Methylphosphonate degradation by C–P lyase bacteria (mostly *Roseovarius* and *Marivita* in situ, and *Halomonas* in culture) does contribute, but it is limited by their phosphorus demand: at equal specific growth rates the MPn consumers would supply 1–7% of the methane at an MPn:Pi uptake ratio of 0.07, 3–24% at 0.33, and 9–55% only if methylphosphonate were their sole phosphorus source; even growing ten times faster than the methanogens, they would supply 6–45% at a ratio of 0.07. Growth-coupled production does not close the budget of the R2 cores: at a doubling time of one day, the methanogens there would supply only 8–19% of the measured methane, so their methane must come largely from activity beyond growth (19–45 mmol CH₄ per gram of methanogen biomass per hour) or from more methanogen biomass than the DNA suggests. In the microcosms, only the TMA addition produced as much methane as the controls under anoxic conditions (Figure 4b), and methylphosphonic acid did not raise methane significantly above the controls under oxic conditions (Figure 4a). We therefore attribute the measured methane mainly to methylotrophic methanogenesis fed by the turnover of compatible solutes, with methylphosphonate degradation as a secondary, phosphorus-limited source and hydrogenotrophic methanogenesis as a minor one.",
    "rationale": "the synthesis paragraph the user asked for (attribution among the hypotheses)",
    "sources": "reassembly_2026/modelling_2026/synthesis/pathway_summary.{py,json}, figure10_pathways.py; reassembly_2026/read_markers/README.md",
    "origin": "synthesis_2026_11_25",
@@ -660,15 +660,15 @@
      0.175
     ]
    },
-   "mcrA_fold_pooled": 1.7388037201973205,
+   "mcrA_fold_pooled": 1.7388990755606226,
    "fold_range": {
     "methanogen": [
      0.92242,
      14.6
     ],
     "mepn_consumer": [
-     1.7256,
-     2.3883
+     1.7246,
+     2.3786
     ],
     "betaine_reducer": [
      1.347,
@@ -695,27 +695,27 @@
    },
    "mepn_doubling_h": {
     "0.07": [
-     0.0702531879184254,
-     0.4653709731960578
+     0.0700732046428944,
+     0.4645060739903396
     ],
     "0.33": [
-     0.2664489866164956,
-     1.7650106405531645
+     0.2657663647626825,
+     1.7617303407729374
     ],
     "only_P": [
-     1.073870158181659,
-     7.11352773313909
+     1.0711189852556844,
+     7.100307130994539
     ]
    },
    "betaine_doubling_h_006": [
-    2.308883697991728,
+    2.308500038607632,
     55.153358017384825
    ],
    "marker_reads_unassembled_pct_by_site": {
     "R1": 39.0,
     "R2": 46.0,
     "R2A": 76.0,
-    "SF2": 80.0
+    "SF2": 79.0
    }
   }
  },
@@ -737,7 +737,7 @@
    "methylotrophic": 718,
    "unassigned": 25
   },
-  "mtaB_archaeal": 0.21101992966002345,
+  "mtaB_archaeal": 0.21386138613861386,
   "pool_turnover_d": {
    "betaine": [
     60.52882164396235,
@@ -763,92 +763,92 @@
   "attribution": {
    "mpn_0.07 x1": {
     "MPn": [
-     0.0067754082611982715,
-     0.07513943223682719
+     0.00676290121917851,
+     0.07494911389217124
     ],
     "methylotrophic": [
-     0.8384468278459067,
-     0.900423304126843
+     0.8386193639209862,
+     0.9004346425816034
     ],
     "hydrogenotrophic": [
-     0.08291048019089049,
-     0.08903907324931176
+     0.08292754155764627,
+     0.08904019446141202
     ],
     "acetoclastic": [
-     0.003503259726375655,
-     0.0037622143626469765
+     0.003503980629196321,
+     0.0037622617378061424
     ]
    },
    "mpn_0.33 x1": {
     "MPn": [
-     0.02521986243094385,
-     0.23555234626363233
+     0.02517417087494116,
+     0.23505898789472202
     ],
     "methylotrophic": [
-     0.6930219891195859,
-     0.8837021954224524
+     0.6934692508732193,
+     0.8837436178179195
     ],
     "hydrogenotrophic": [
-     0.06853002956475013,
-     0.08738559314066033
+     0.06857425739832669,
+     0.08738968922712018
     ],
     "acetoclastic": [
-     0.002895635052031696,
-     0.0036923490059433944
+     0.0028975038337321142,
+     0.0036925220800191625
     ]
    },
    "mpn_onlyP x1": {
     "MPn": [
-     0.0944272001109695,
-     0.5539445156586825
+     0.09426824924007014,
+     0.5532669342448111
     ],
     "methylotrophic": [
-     0.4043785830265984,
-     0.8209611998993989
+     0.40499285506594146,
+     0.8211052993000374
     ],
     "hydrogenotrophic": [
-     0.03998729720736558,
-     0.08118139999005197
+     0.04004803998562931,
+     0.08119564937368058
     ],
     "acetoclastic": [
-     0.0016896041073534754,
-     0.003430199999579661
+     0.0016921707036181399,
+     0.0034308020862118555
     ]
    },
    "mpn_0.07 x10": {
     "MPn": [
-     0.06385998536063094,
-     0.4482577958709793
+     0.06374886660276341,
+     0.4475797726894853
     ],
     "methylotrophic": [
-     0.5001905335412082,
-     0.8486723870089229
+     0.500805206071906,
+     0.8487731234586059
     ],
     "hydrogenotrophic": [
-     0.049461737996414734,
-     0.08392164272650908
+     0.04952252037758402,
+     0.08393160413030781
     ],
     "acetoclastic": [
-     0.002089932591397806,
-     0.003545984903937004
+     0.002092500861024677,
+     0.0035464058083228655
     ]
    },
    "mpn_onlyP x10": {
     "MPn": [
-     0.510460121086853,
-     0.9254773307864604
+     0.5099952545208668,
+     0.9252880078547141
     ],
     "methylotrophic": [
-     0.06755969254459782,
-     0.4438000417419691
+     0.06773132621251936,
+     0.4442214738055779
     ],
     "hydrogenotrophic": [
-     0.006680693831011761,
-     0.043885519448022006
+     0.006697665962519322,
+     0.043927193092195026
     ],
     "acetoclastic": [
-     0.0002822828379300744,
-     0.0018543177231558597
+     0.00028299997024729535,
+     0.0018560785813603535
     ]
    }
   },
@@ -865,22 +865,22 @@
    },
    "mpn_0.07": {
     "R1": [
-     0.012017856013998017,
-     0.019390457216502406
+     0.012003123548869033,
+     0.019354419749597482
     ],
     "R2": [
-     0.0029272161632677247,
-     0.0068857466954746855
+     0.0029197168601206,
+     0.0068668929273581454
     ]
    },
    "mpn_onlyP": {
     "R1": [
-     0.18370151335682094,
-     0.2963969888807954
+     0.18347631710413503,
+     0.2958461304581058
     ],
     "R2": [
-     0.04474458992423579,
-     0.10525355663082828
+     0.04462995771898685,
+     0.10496536331818972
     ]
    }
   },

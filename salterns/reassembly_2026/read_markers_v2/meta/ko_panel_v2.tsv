@@ -1,0 +1,287 @@
+ko	gene	label_safe	role	group	kegg_cap	euk_cap	source	note
+K00399	mcrA	mcrA	target	methanogenesis	0	300	v1	methyl-CoM reductase alpha; also alkyl-CoM reductases (Acr) of ANME/alkanotrophs fall in this KO
+K00401	mcrB	mcrB	target	methanogenesis	0	300	v1	
+K00402	mcrG	mcrG	target	methanogenesis	0	300	v1	
+K04480	mtaB	mtaB	target	methylotrophic_MT	0	300	v1	methanol:corrinoid MT
+K14080	mtaA	mtaA	target	methylotrophic_MT	0	300	v1	methylcobamide:CoM MT (methanol/betaine)
+K16178	mtbB	mtbB	target	methylotrophic_MT	0	300	v1	DMA MT (Pyl)
+K16176	mtmB	mtmB	target	methylotrophic_MT	0	300	v1	MMA MT (Pyl)
+K14082	mtbA	mtbA	target	methylotrophic_MT	0	300	v1	methylcobamide:CoM MT (methylamines)
+K14083	mttB	mttB	target	mttB_family	0	300	v1	TMA MT; KO includes the Pyl-free MttB superfamily of bacteria; reported separately, never called methanogenesis
+K25220	mtgB	mtgB	target	mttB_family	0	300	v1	glycine betaine:corrinoid MT, a characterised Pyl-free MttB-family member
+K06166	phnG	phnG	target	CP_lyase	0	300	v1	
+K06165	phnH	phnH	target	CP_lyase	0	300	v1	
+K06164	phnI	phnI	target	CP_lyase	0	300	v1	
+K06163	phnJ	phnJ	target	CP_lyase	0	300	v1	C-P bond cleavage; guild marker
+K05781	phnK	phnK	target	CP_lyase	0	300	v1	ABC-ATPase-like
+K05780	phnL	phnL	target	CP_lyase	0	300	v1	ABC-ATPase-like
+K06162	phnM	phnM	target	CP_lyase	0	300	v1	amidohydrolase-like
+K21579	grdH	grdH	target	betaine_reductase	0	300	v1	betaine reductase B beta (Sec); guild marker
+K21578	grdI	grdI	target	betaine_reductase	0	300	v1	betaine reductase B alpha
+K10672	grdB	grdB	decoy_reported	glycine_reductase	0	0	v1	glycine reductase B gamma (Sec): paralog of grdH, reported as a decoy class
+K10671	grdE	grdE	decoy	glycine_reductase	0	0	v1	paralog of grdI
+K21584	grdF	grdF	decoy	sarcosine_reductase	0	0	v1	paralog of grdH
+K21583	grdG	grdG	decoy	sarcosine_reductase	0	0	v1	paralog of grdI
+K20038	cutC	cutC	target	TMA_production	0	300	v1	choline TMA-lyase (glycyl radical enzyme)
+K20037	cutD	cutD	target	TMA_production	0	300	v1	CutC activase (radical SAM)
+K22443	cntA	cntA	target	TMA_production	0	300	v1	carnitine monooxygenase oxygenase (Rieske); yeaW same KO
+K22444	cntB	cntB	target	TMA_production	0	300	v1	carnitine monooxygenase reductase; yeaX same KO
+K18049	mpnS	mpnS	target	MePn_synthesis	0	300	v1	methylphosphonate synthase; KOfam threshold '-'
+K10944	pmoA	pmoA	target	methanotrophy	0	300	v1	KO lumps pmoA with amoA; split by reference taxonomy into pmoA vs amoA (amoA = decoy for pmoA)
+K16157	mmoX	mmoX	target	methanotrophy	0	300	v1	sMMO hydroxylase alpha
+K12905	hepD	hepD	target	MePn_synthesis_decoy	0	300	v1	HEPD, closest paralog of MpnS; KOfam threshold '-'; v2: counted target (was a v1 decoy)
+K00656	pflB	pflB	decoy	GRE_decoy	3000	0	v1	pyruvate formate-lyase (GRE) vs CutC
+K18427	hpdB	hpdB	decoy	GRE_decoy	0	0	v1	4-hydroxyphenylacetate decarboxylase (GRE)
+K07540	bssA	bssA	decoy	GRE_decoy	0	0	v1	benzylsuccinate synthase (GRE)
+K06866	grcA	grcA	decoy	GRE_decoy	0	0	v1	autonomous glycyl radical cofactor
+K04069	pflA	pflA	decoy	GRE_activase_decoy	3000	0	v1	PFL activase vs CutD
+K04070	pflX	pflX	decoy	GRE_activase_decoy	0	0	v1	putative PFL activase vs CutD
+K00499	CMO	CMO	target	Rieske_decoy	0	300	v1	choline monooxygenase (Rieske) vs CntA; v2: counted target (was a v1 decoy)
+K03862	vanA	vanA	decoy	Rieske_decoy	0	0	v1	vanillate monooxygenase (Rieske) vs CntA
+K00479	gbcA	gbcA	target	Rieske_decoy	0	300	v1	glycine betaine monooxygenase A (Rieske) vs CntA; v2: counted target (was a v1 decoy)
+K03863	vanB	vanB	decoy	reductase_decoy	0	0	v1	vanillate MO reductase vs CntB
+K21832	gbcB	gbcB	target	reductase_decoy	0	300	v1	glycine betaine MO reductase vs CntB; v2: counted target (was a v1 decoy)
+K18223	prmA	prmA	decoy	SDIMO_decoy	0	0	v1	propane monooxygenase alpha vs MmoX
+K15760	tmoA	tmoA	decoy	SDIMO_decoy	0	0	v1	toluene monooxygenase alpha vs MmoX
+K22353	amoC_alkene	amoC_alkene	decoy	SDIMO_decoy	0	0	v1	alkene monooxygenase alpha vs MmoX
+K21317	bmoX	bmoX	decoy	SDIMO_decoy	0	0	v1	butane monooxygenase alpha vs MmoX
+K01599	hemE	hemE	decoy	UROD_decoy	3000	0	v1	uroporphyrinogen decarboxylase (MtaA/MtbA family) 
+K02041	phnC	phnC	decoy	ABC_decoy	0	0	v1	phosphonate ABC ATPase vs PhnK/PhnL
+K02031	ddpD	ddpD	decoy	ABC_decoy	3000	0	v1	peptide ABC ATPase vs PhnK/PhnL
+K02032	ddpF	ddpF	decoy	ABC_decoy	3000	0	v1	peptide ABC ATPase vs PhnK/PhnL
+K02003	ABC.CD.A	ABC.CD.A	decoy	ABC_decoy	3000	0	v1	ABC ATPase vs PhnK/PhnL
+K01990	ABC-2.A	ABC-2.A	decoy	ABC_decoy	3000	0	v1	ABC-2 ATPase vs PhnK/PhnL
+K02886	uL2	uL2	marker	SCG	3000	0	v1	rplB; bacteria + archaea, one KO
+K02867	uL11	uL11	marker	SCG	3000	0	v1	rplK
+K02982	uS3	uS3	marker	SCG	3000	0	v1	rpsC
+K02948	uS11	uS11	marker	SCG	3000	0	v1	rpsK
+K02950	uS12	uS12	marker	SCG	3000	0	v1	rpsL
+K02996	uS9	uS9	marker	SCG	3000	0	v1	rpsI
+K02926	uL4	uL4	marker	SCG	3000	0	v1	rplD (bacterial KO of uL4)
+K02930	uL4	uL4	marker	SCG	3000	0	v1	archaeal KO of uL4 (KEGG 'L4e'); merged with K02926
+K02878	uL16	uL16	marker	SCG	3000	0	v1	rplP (bacterial KO of uL16)
+K02866	uL16	uL16	marker	SCG	3000	0	v1	archaeal KO of uL16 (KEGG 'L10e'); merged with K02878
+K18277	tmm	tmm	target	TMA|TMA oxidation to TMAO	1500	300	v2_panel	S1; specific
+K28979	tdm	tdm	target	TMAO|TMAO demethylation (to DMA + formaldehyde)	1500	300	v2_panel	new; specific
+K07811	torA	torA	target	TMAO|TMAO reduction to TMA	1500	300	v2_panel	S1-relabel; specific; original label 'TMA degradation'; TorA produces TMA
+K07812	torZ	torZ	target	TMAO|TMAO reduction to TMA	1500	300	v2_panel	new; specific
+K00317	tmd	tmd	target	TMA/DMA|TMA and DMA dehydrogenation	1500	300	v2_panel	S1; specific
+K22342	dmmA	dmmA	target	DMA|DMA monooxygenase	1500	300	v2_panel	new; specific
+K22343	dmmB	dmmB	target	DMA|DMA monooxygenase	1500	300	v2_panel	new; specific
+K22344	dmmC	dmmC	target	DMA|DMA monooxygenase	1500	300	v2_panel	new; specific
+K15228	mauA	mauA	target	MMA|MMA dehydrogenase (light chain)	1500	300	v2_panel	S1-relabel; specific; original compound 'TMA'
+K15229	mauB	mauB	target	MMA|MMA dehydrogenase (heavy chain)	1500	300	v2_panel	S1-relabel; specific; original compound 'TMA'
+K01949	gmaS	gmaS	target	MMA|N-methylglutamate pathway: glutamate-methylamine ligase	1500	300	v2_panel	new; specific
+K22081	mgsA	mgsA	target	MMA|N-methylglutamate pathway: methylamine-glutamate N-methyltransferase	1500	300	v2_panel	new; specific
+K22082	mgsB	mgsB	target	MMA|N-methylglutamate pathway	1500	300	v2_panel	new; specific
+K22083	mgsC	mgsC	target	MMA|N-methylglutamate pathway	1500	300	v2_panel	new; specific
+K22084	mgdA	mgdA	target	MMA|N-methylglutamate dehydrogenase	1500	300	v2_panel	new; specific
+K22085	mgdB	mgdB	target	MMA|N-methylglutamate dehydrogenase	1500	300	v2_panel	new; specific
+K22086	mgdC	mgdC	target	MMA|N-methylglutamate dehydrogenase	1500	300	v2_panel	new; specific
+K22087	mgdD	mgdD	target	MMA|N-methylglutamate dehydrogenase	1500	300	v2_panel	new; specific
+K03320	amtB	amtB	target	MMA|ammonium/methylammonium transport	1500	300	v2_panel	S1; generic; Amt transporters also carry MMA; not MMA-specific
+K14084	mttC	mttC	target	TMA|TMA corrinoid protein	1500	300	v2_panel	new; specific
+K16179	mtbC	mtbC	target	DMA|DMA corrinoid protein	1500	300	v2_panel	new; specific
+K16177	mtmC	mtmC	target	MMA|MMA corrinoid protein	1500	300	v2_panel	new; specific
+K14081	mtaC	mtaC	target	methanol|methanol corrinoid protein	1500	300	v2_panel	new; specific
+K16954	mtsA	mtsA	target	DMS/methanethiol|methylthiol:CoM methyltransferase	1500	300	v2_panel	new; specific
+K14028	mxaF	mxaF	target	methanol|methanol dehydrogenase (PQQ, large subunit)	1500	300	v2_panel	S1-replaced; specific; replaces K16259 (mxaL, labelled 'mxaI')
+K14029	mxaI	mxaI	target	methanol|methanol dehydrogenase (PQQ, small subunit)	1500	300	v2_panel	S1-replaced; specific; replaces K16259 (mxaL, labelled 'mxaI')
+K23995	xoxF	xoxF	target	methanol|lanthanide-dependent methanol dehydrogenase	1500	300	v2_panel	new; specific
+K00093	mdh	mdh	target	methanol|methanol dehydrogenase (NAD)	1500	300	v2_panel	S1; specific
+K17067	mdo	mdo	target	methanol|formaldehyde dismutase / methanol dehydrogenase	1500	300	v2_panel	S1; specific
+K17066	AOX	AOX	target	methanol|alcohol (methanol) oxidase	1500	300	v2_panel	S1-replaced; specific; replaces K03781 (catalase, labelled 'CTA1')
+K00121	frmA	frmA	target	formaldehyde|S-(hydroxymethyl)glutathione dehydrogenase	1500	300	v2_panel	S1-replaced; generic; replaces K02400 (flagellar FlhA, labelled 'adhI (flhA)')
+K03396	gfa	gfa	target	formaldehyde|S-(hydroxymethyl)glutathione synthase	1500	300	v2_panel	S1; specific
+K01070	fghA	fghA	target	formaldehyde|S-formylglutathione hydrolase	1500	300	v2_panel	S1; generic
+K10713	fae	fae	target	formaldehyde|formaldehyde-activating enzyme (H4MPT pathway)	1500	300	v2_panel	S1; specific
+K00148	fdhA	fdhA	target	formaldehyde|glutathione-independent formaldehyde dehydrogenase	1500	300	v2_panel	S1-replaced; specific; replaces K00219 (2,4-dienoyl-CoA reductase, labelled 'fadH')
+K00122	fdh	fdh	target	formate|formate dehydrogenase	1500	300	v2_panel	S1; generic
+K01491	folD	folD	target	C1 (H4F)|methylene-H4F dehydrogenase/cyclohydrolase	1500	300	v2_panel	S1; generic; core C1 metabolism
+K01433	purU	purU	target	C1 (H4F)|formyl-H4F deformylase	1500	300	v2_panel	S1; generic; core C1 metabolism
+K01938	fhs	fhs	target	C1 (H4F)|formate-H4F ligase	1500	300	v2_panel	S1; generic; core C1 metabolism
+K00544	bhmt	bhmt	target	glycine betaine|betaine-homocysteine methyltransferase	1500	300	v2_panel	S1; specific
+K00315	dmgdh	dmgdh	target	dimethylglycine|dimethylglycine dehydrogenase	1500	300	v2_panel	S1; specific
+K00309	dmgo	dmgo	target	dimethylglycine|dimethylglycine oxidase	1500	300	v2_panel	new; specific
+K21833	dgcA	dgcA	target	dimethylglycine|N,N-dimethylglycine/sarcosine dehydrogenase	1500	300	v2_panel	new; specific
+K00314	sardh	sardh	target	sarcosine|sarcosine dehydrogenase	1500	300	v2_panel	S1; specific
+K00301	soxA (monomeric)	soxA_monomeric	target	sarcosine|sarcosine oxidase (monomeric)	1500	300	v2_panel	new; specific
+K00302	soxA	soxA	target	sarcosine|sarcosine oxidase alpha	1500	300	v2_panel	new; specific
+K00303	soxB	soxB	target	sarcosine|sarcosine oxidase beta	1500	300	v2_panel	S1; specific
+K00304	soxD	soxD	target	sarcosine|sarcosine oxidase delta	1500	300	v2_panel	S1; specific
+K00305	soxG	soxG	target	sarcosine|sarcosine oxidase gamma	1500	300	v2_panel	new; specific
+K00600	glyA	glyA	target	glycine|serine hydroxymethyltransferase	1500	300	v2_panel	S1; generic; core metabolism (labelled 'SHMT1')
+K01752	sdaA	sdaA	target	serine|L-serine dehydratase	1500	300	v2_panel	S1; generic; core metabolism
+K00108	betA	betA	target	choline|choline dehydrogenase (GB biosynthesis)	1500	300	v2_panel	S1; specific
+K00130	betB	betB	target	betaine aldehyde|betaine-aldehyde dehydrogenase (GB biosynthesis)	1500	300	v2_panel	S1; specific
+K11440	gbsB	gbsB	target	choline|choline dehydrogenase (GB biosynthesis)	1500	300	v2_panel	S1; specific
+K24071	gsdmt	gsdmt	target	glycine|glycine/sarcosine/DMG N-methyltransferase (GB biosynthesis)	1500	300	v2_panel	new; specific
+K18897	sdmt	sdmt	target	sarcosine|sarcosine/DMG N-methyltransferase (GB biosynthesis)	1500	300	v2_panel	new; specific
+K16967	dmoA	dmoA	target	DMS|DMS monooxygenase	1500	300	v2_panel	S1; specific
+K16964	ddhA	ddhA	target	DMS|DMS dehydrogenase alpha	1500	300	v2_panel	S1-relabel; specific; original type 'photosynthesis'
+K16965	ddhB	ddhB	target	DMS|DMS dehydrogenase beta	1500	300	v2_panel	S1-relabel; specific; original type 'photosynthesis'
+K16966	ddhC	ddhC	target	DMS|DMS dehydrogenase gamma	1500	300	v2_panel	S1-relabel; specific; original type 'photosynthesis'
+K07306	dmsA	dmsA	target	DMSO|DMSO reductase (DMS production)	1500	300	v2_panel	new; specific
+K21310	mddA	mddA	target	methanethiol|methanethiol S-methyltransferase (DMS production)	1500	300	v2_panel	new; specific
+K17285	MTO	MTO	target	methanethiol|methanethiol oxidase	1500	300	v2_panel	new; specific
+K17228	sfnG	sfnG	target	DMSO2|dimethylsulfone monooxygenase	1500	300	v2_panel	S1; specific
+K04091	ssuD/msuD	ssuD_msuD	target	methanesulfonate|alkanesulfonate monooxygenase	1500	300	v2_panel	S1; generic
+K16968	msmA	msmA	target	methanesulfonate|methanesulfonate monooxygenase alpha	1500	300	v2_panel	new; specific
+K16969	msmB	msmB	target	methanesulfonate|methanesulfonate monooxygenase beta	1500	300	v2_panel	new; specific
+K17486	dmdA	dmdA	target	DMSP|DMSP demethylase	1500	300	v2_panel	S1; specific
+K20034	dmdB	dmdB	target	MMPA|MMPA-CoA ligase	1500	300	v2_panel	S1-replaced; specific; replaces K08967 (methionine salvage MtnD, labelled 'MMPA biosynthesis')
+K20035	dmdC	dmdC	target	MMPA|MMPA-CoA dehydrogenase	1500	300	v2_panel	new; specific
+K20036	dmdD	dmdD	target	MMPA|methylthioacryloyl-CoA hydratase	1500	300	v2_panel	new; specific
+K16953	dddL	dddL	target	DMSP|DMSP lyase	1500	300	v2_panel	S1; specific; KEGG 'dimethylpropiothetin dethiomethylase'
+K28067	dddP	dddP	target	DMSP|DMSP lyase	1500	300	v2_panel	new; specific; gene symbol to confirm from KEGG
+K28068	dddW	dddW	target	DMSP|DMSP lyase	1500	300	v2_panel	new; specific; gene symbol to confirm from KEGG
+K28069	dddY	dddY	target	DMSP|DMSP lyase	1500	300	v2_panel	new; specific; gene symbol to confirm from KEGG
+K28072	dddX	dddX	target	DMSP|DMSP lyase	1500	300	v2_panel	new; specific; gene symbol to confirm from KEGG
+K28073	dddD	dddD	target	DMSP|DMSP lyase	1500	300	v2_panel	new; specific; gene symbol to confirm from KEGG
+K02044	phnD	phnD	target	phosphonates|phosphonate ABC transporter, binding protein	1500	300	v2_panel	new; specific
+K23996	phnY	phnY	target	MPn|methylphosphonate hydroxylase (oxidative MPn pathway)	1500	300	v2_panel	new; specific
+K05915	phnZ	phnZ	target	MPn|hydroxymethylphosphonate dioxygenase (oxidative MPn pathway)	1500	300	v2_panel	new; specific
+K00925	ackA	ackA	target	acetate|acetate activation (acetoclastic methanogenesis; also bacterial)	1500	300	v2_panel	FigS4; generic; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00625	pta	pta	target	acetate|phosphate acetyltransferase (acetoclastic; also bacterial)	1500	300	v2_panel	FigS4; generic; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K13788	pta_K13788	pta_K13788	target	acetate|phosphate acetyltransferase (acetoclastic; also bacterial)	1500	300	v2_panel	FigS4; generic; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K15024	pta (K15024)	pta_K15024	target	acetate|putative phosphotransacetylase	1500	300	v2_panel	FigS4; generic; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K04020	eutD	eutD	target	acetate|phosphotransacetylase (ethanolamine utilization)	1500	300	v2_panel	FigS4; generic; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K01895	acs	acs	target	acetate|acetyl-CoA synthetase (acetoclastic Methanothrix; also bacterial)	1500	300	v2_panel	FigS4; generic; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00192	cdhA	cdhA	target	acetyl-CoA|CODH/ACS alpha (acetoclastic/methyl branch; also acetogens)	1500	300	v2_panel	FigS4; generic; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00195	cdhB	cdhB	target	acetyl-CoA|CODH/ACS epsilon	1500	300	v2_panel	FigS4; generic; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00193	cdhC	cdhC	target	acetyl-CoA|CODH/ACS beta	1500	300	v2_panel	FigS4; generic; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00194	cdhD	cdhD	target	acetyl-CoA|CODH/ACS delta	1500	300	v2_panel	FigS4; generic; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00197	cdhE	cdhE	target	acetyl-CoA|CODH/ACS gamma	1500	300	v2_panel	FigS4; generic; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00200	fwdA	fwdA	target	CO2/H2|formylmethanofuran dehydrogenase A	1500	300	v2_panel	FigS4; specific; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00201	fwdB	fwdB	target	CO2/H2|formylmethanofuran dehydrogenase B	1500	300	v2_panel	FigS4; specific; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00202	fwdC	fwdC	target	CO2/H2|formylmethanofuran dehydrogenase C	1500	300	v2_panel	FigS4; specific; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00203	fwdD	fwdD	target	CO2/H2|formylmethanofuran dehydrogenase D	1500	300	v2_panel	FigS4; specific; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00204	fwdH	fwdH	target	CO2/H2|formylmethanofuran dehydrogenase H	1500	300	v2_panel	FigS4; specific; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00205	fwdF	fwdF	target	CO2/H2|formylmethanofuran dehydrogenase F	1500	300	v2_panel	FigS4; specific; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K11260	fwdG	fwdG	target	CO2/H2|formylmethanofuran dehydrogenase G	1500	300	v2_panel	FigS4; specific; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K11261	fwdE	fwdE	target	CO2/H2|formylmethanofuran dehydrogenase E	1500	300	v2_panel	FigS4; specific; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00672	ftr	ftr	target	CO2/H2|formylmethanofuran:H4MPT formyltransferase	1500	300	v2_panel	FigS4; specific; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K01499	mch	mch	target	CO2/H2|methenyl-H4MPT cyclohydrolase	1500	300	v2_panel	FigS4; specific; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00320	mer	mer	target	CO2/H2|F420-dependent methylene-H4MPT reductase	1500	300	v2_panel	FigS4; specific; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00577	mtrA	mtrA	target	methyl-H4MPT|methyl-H4MPT:CoM methyltransferase A	1500	300	v2_panel	FigS4; specific; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00578	mtrB	mtrB	target	methyl-H4MPT|methyl-H4MPT:CoM methyltransferase B	1500	300	v2_panel	FigS4; specific; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00579	mtrC	mtrC	target	methyl-H4MPT|methyl-H4MPT:CoM methyltransferase C	1500	300	v2_panel	FigS4; specific; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00580	mtrD	mtrD	target	methyl-H4MPT|methyl-H4MPT:CoM methyltransferase D	1500	300	v2_panel	FigS4; specific; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00581	mtrE	mtrE	target	methyl-H4MPT|methyl-H4MPT:CoM methyltransferase E	1500	300	v2_panel	FigS4; specific; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00582	mtrF	mtrF	target	methyl-H4MPT|methyl-H4MPT:CoM methyltransferase F	1500	300	v2_panel	FigS4; specific; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00583	mtrG	mtrG	target	methyl-H4MPT|methyl-H4MPT:CoM methyltransferase G	1500	300	v2_panel	FigS4; specific; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K00584	mtrH	mtrH	target	methyl-H4MPT|methyl-H4MPT:CoM methyltransferase H	1500	300	v2_panel	FigS4; specific; Figure S4 methanogenesis-pathway gene (Zhou et al. set)
+K02567	napA	napA	decoy	MoBisPGD_decoy	1000	0	v2_decoy	v2 decoy vs torA/torZ/dmsA/ddhA/fwdB
+K00370	narG	narG	decoy	MoBisPGD_decoy	1000	0	v2_decoy	v2 decoy
+K22015	fdhF	fdhF	decoy	MoBisPGD_decoy	1000	0	v2_decoy	v2 decoy
+K00123	fdoG	fdoG	decoy	MoBisPGD_decoy	1000	0	v2_decoy	v2 decoy
+K08351	bisC	bisC	decoy	MoBisPGD_decoy	1000	0	v2_decoy	v2 decoy
+K08352	phsA	phsA	decoy	MoBisPGD_decoy	1000	0	v2_decoy	v2 decoy
+K07309	ynfE	ynfE	decoy	MoBisPGD_decoy	1000	0	v2_decoy	v2 decoy
+K08348	fdnG	fdnG	decoy	MoBisPGD_decoy	1000	0	v2_decoy	v2 decoy
+K22516	fdhA_F420	fdhA_F420	decoy	MoBisPGD_decoy	1000	0	v2_decoy	v2 decoy
+K05299	fdhA_NADP	fdhA_NADP	decoy	MoBisPGD_decoy	1000	0	v2_decoy	v2 decoy
+K07307	dmsB	dmsB	decoy	FeS_subunit_decoy	1000	0	v2_decoy	v2 decoy vs ddhB
+K00371	narH	narH	decoy	FeS_subunit_decoy	1000	0	v2_decoy	v2 decoy
+K00124	fdoH	fdoH	decoy	FeS_subunit_decoy	1000	0	v2_decoy	v2 decoy
+K00374	narI	narI	decoy	cytb_decoy	1000	0	v2_decoy	v2 decoy vs ddhC
+K00001	ADH	ADH	decoy	MDR_decoy	1000	0	v2_decoy	v2 decoy vs frmA/fdhA/mdo
+K13953	adhP	adhP	decoy	MDR_decoy	1000	0	v2_decoy	v2 decoy
+K17068	fdm	fdm	decoy	MDR_decoy	1000	0	v2_decoy	v2 decoy vs mdo
+K00086	dhaT	dhaT	decoy	FeADH_decoy	1000	0	v2_decoy	v2 decoy vs mdh/gbsB
+K08325	yqhD	yqhD	decoy	FeADH_decoy	1000	0	v2_decoy	v2 decoy
+K04072	adhE	adhE	decoy	FeADH_decoy	1000	0	v2_decoy	v2 decoy
+K00048	fucO	fucO	decoy	FeADH_decoy	1000	0	v2_decoy	v2 decoy
+K13921	pduQ	pduQ	decoy	FeADH_decoy	1000	0	v2_decoy	v2 decoy
+K17755	codA	codA	decoy	GMC_decoy	1000	0	v2_decoy	v2 decoy vs AOX/betA
+K00128	ALDH	ALDH	decoy	ALDH_decoy	1000	0	v2_decoy	v2 decoy vs betB
+K00135	gabD	gabD	decoy	ALDH_decoy	1000	0	v2_decoy	v2 decoy
+K00140	mmsA	mmsA	decoy	ALDH_decoy	1000	0	v2_decoy	v2 decoy
+K00146	feaB	feaB	decoy	ALDH_decoy	1000	0	v2_decoy	v2 decoy
+K00138	aldB	aldB	decoy	ALDH_decoy	1000	0	v2_decoy	v2 decoy
+K14519	aldH	aldH	decoy	ALDH_decoy	1000	0	v2_decoy	v2 decoy
+K00285	dadA	dadA	decoy	DAAO_decoy	1000	0	v2_decoy	v2 decoy vs soxB/dmgo/soxA_mono
+K03153	thiO	thiO	decoy	DAAO_decoy	1000	0	v2_decoy	v2 decoy
+K00111	glpA	glpA	decoy	DAAO_decoy	1000	0	v2_decoy	v2 decoy
+K15736	lhgO	lhgO	decoy	DAAO_decoy	1000	0	v2_decoy	v2 decoy
+K09471	puuB	puuB	decoy	DAAO_decoy	1000	0	v2_decoy	v2 decoy
+K00306	PIPOX	PIPOX	decoy	DAAO_decoy	1000	0	v2_decoy	v2 decoy vs soxA_mono
+K19191	mabO	mabO	decoy	DAAO_decoy	1000	0	v2_decoy	v2 decoy
+K00605	gcvT	gcvT	decoy	GcvT_decoy	1000	0	v2_decoy	v2 decoy vs dmdA/tdm/dmgdh/sardh/soxA
+K06980	ygfZ	ygfZ	decoy	GcvT_decoy	1000	0	v2_decoy	v2 decoy
+K20155	mao	mao	decoy	GcvT_decoy	1000	0	v2_decoy	v2 decoy
+K01915	glnA	glnA	decoy	GS_decoy	1000	0	v2_decoy	v2 decoy vs gmaS
+K00265	gltB	gltB	decoy	GltB_decoy	1000	0	v2_decoy	v2 decoy vs mgsABC/fwdC
+K00266	gltD	gltD	decoy	GltB_decoy	1000	0	v2_decoy	v2 decoy
+K00284	gltS	gltS	decoy	GltB_decoy	1000	0	v2_decoy	v2 decoy
+K00548	metH	metH	decoy	B12_MT_decoy	1000	0	v2_decoy	v2 decoy vs corrinoid proteins/bhmt
+K16955	mtsB	mtsB	decoy	B12_MT_decoy	1000	0	v2_decoy	v2 decoy vs corrinoid proteins
+K25221	mtgA	mtgA	decoy	UROD_MT_decoy	1000	0	v2_decoy	v2 decoy vs mtaA/mtbA/mtsA
+K26930	mtqA	mtqA	decoy	UROD_MT_decoy	1000	0	v2_decoy	v2 decoy
+K25915	mtvA	mtvA	decoy	UROD_MT_decoy	1000	0	v2_decoy	v2 decoy
+K25917	mtoA	mtoA	decoy	UROD_MT_decoy	1000	0	v2_decoy	v2 decoy
+K15023	acsE	acsE	decoy	MeTr_decoy	1000	0	v2_decoy	v2 decoy vs mtrH
+K00485	FMO	FMO	decoy	FMO_decoy	1000	0	v2_decoy	v2 decoy vs tmm
+K03379	chnB	chnB	decoy	FMO_decoy	1000	0	v2_decoy	v2 decoy
+K00219	fadH	fadH	decoy	OYE_decoy	1000	0	v2_decoy	v2 decoy vs tmd
+K10680	nemA	nemA	decoy	OYE_decoy	1000	0	v2_decoy	v2 decoy
+K00354	OYE	OYE	decoy	OYE_decoy	1000	0	v2_decoy	v2 decoy
+K01897	fadD	fadD	decoy	AMPbinding_decoy	1000	0	v2_decoy	v2 decoy vs acs/dmdB
+K01908	prpE	prpE	decoy	AMPbinding_decoy	1000	0	v2_decoy	v2 decoy
+K02182	caiC	caiC	decoy	AMPbinding_decoy	1000	0	v2_decoy	v2 decoy
+K01907	AACS	AACS	decoy	AMPbinding_decoy	1000	0	v2_decoy	v2 decoy
+K00249	acd	acd	decoy	ACAD_decoy	1000	0	v2_decoy	v2 decoy vs dmdC
+K06445	fadE	fadE	decoy	ACAD_decoy	1000	0	v2_decoy	v2 decoy
+K00248	bcd	bcd	decoy	ACAD_decoy	1000	0	v2_decoy	v2 decoy
+K00253	ivd	ivd	decoy	ACAD_decoy	1000	0	v2_decoy	v2 decoy
+K01692	paaF	paaF	decoy	crotonase_decoy	1000	0	v2_decoy	v2 decoy vs dmdD
+K01715	crt	crt	decoy	crotonase_decoy	1000	0	v2_decoy	v2 decoy
+K13766	liuC	liuC	decoy	crotonase_decoy	1000	0	v2_decoy	v2 decoy
+K15866	paaG	paaG	decoy	crotonase_decoy	1000	0	v2_decoy	v2 decoy
+K00929	buk	buk	decoy	ASKHA_decoy	1000	0	v2_decoy	v2 decoy vs ackA
+K00932	tdcD	tdcD	decoy	ASKHA_decoy	1000	0	v2_decoy	v2 decoy
+K00634	ptb	ptb	decoy	PTA_PTB_decoy	1000	0	v2_decoy	v2 decoy vs pta/eutD
+K00198	cooS	cooS	decoy	CODH_decoy	1000	0	v2_decoy	v2 decoy vs cdhA
+K14138	acsB	acsB	decoy	ACS_decoy	1000	0	v2_decoy	v2 decoy vs cdhC
+K00058	serA	serA	decoy	2HADH_decoy	1000	0	v2_decoy	v2 decoy vs fdh
+K00090	ghrB	ghrB	decoy	2HADH_decoy	1000	0	v2_decoy	v2 decoy
+K12972	ghrA	ghrA	decoy	2HADH_decoy	1000	0	v2_decoy	v2 decoy
+K03778	ldhA	ldhA	decoy	2HADH_decoy	1000	0	v2_decoy	v2 decoy
+K03473	pdxB	pdxB	decoy	2HADH_decoy	1000	0	v2_decoy	v2 decoy
+K11175	purN	purN	decoy	formyltransferase_decoy	1000	0	v2_decoy	v2 decoy vs purU
+K00604	fmt	fmt	decoy	formyltransferase_decoy	1000	0	v2_decoy	v2 decoy
+K00547	mmuM	mmuM	decoy	HMT_decoy	1000	0	v2_decoy	v2 decoy vs bhmt
+K00114	exaA	exaA	decoy	PQQ_ADH_decoy	1000	0	v2_decoy	v2 decoy vs mxaF/xoxF
+K17760	qheDH	qheDH	decoy	PQQ_ADH_decoy	1000	0	v2_decoy	v2 decoy
+K01262	pepP	pepP	decoy	M24_decoy	1000	0	v2_decoy	v2 decoy vs dddP
+K01271	pepQ	pepQ	decoy	M24_decoy	1000	0	v2_decoy	v2 decoy
+K01265	map	map	decoy	M24_decoy	1000	0	v2_decoy	v2 decoy
+K01905	acdA	acdA	decoy	AcdA_decoy	1000	0	v2_decoy	v2 decoy vs dddX
+K22224	acdB	acdB	decoy	AcdA_decoy	1000	0	v2_decoy	v2 decoy
+K24012	acdAB	acdAB	decoy	AcdA_decoy	1000	0	v2_decoy	v2 decoy
+K18593	hbcl_ADP	hbcl_ADP	decoy	AcdA_decoy	1000	0	v2_decoy	v2 decoy
+K18594	hpcs_ADP	hpcs_ADP	decoy	AcdA_decoy	1000	0	v2_decoy	v2 decoy
+K08298	caiB	caiB	decoy	CoAT3_decoy	1000	0	v2_decoy	v2 decoy vs dddD
+K07749	frc	frc	decoy	CoAT3_decoy	1000	0	v2_decoy	v2 decoy
+K15871	baiF	baiF	decoy	CoAT3_decoy	1000	0	v2_decoy	v2 decoy
+K18702	uctC	uctC	decoy	CoAT3_decoy	1000	0	v2_decoy	v2 decoy
+K13607	fldA	fldA	decoy	CoAT3_decoy	1000	0	v2_decoy	v2 decoy
+K20882	hadA	hadA	decoy	CoAT3_decoy	1000	0	v2_decoy	v2 decoy
+K18896	gsmt	gsmt	decoy	GB_MT_decoy	1000	0	v2_decoy	v2 decoy vs gsdmt/sdmt
+K13042	bsmB	bsmB	decoy	GB_MT_decoy	1000	0	v2_decoy	v2 decoy
+K21195	phnY_AEP	phnY_AEP	decoy	Pn_dioxygenase_decoy	1000	0	v2_decoy	v2 decoy vs phnY/phnZ
+K21196	phnZ_AHEP	phnZ_AHEP	decoy	Pn_dioxygenase_decoy	1000	0	v2_decoy	v2 decoy
+K24290	tmpB	tmpB	decoy	Pn_dioxygenase_decoy	1000	0	v2_decoy	v2 decoy
+K24291	tmpA	tmpA	decoy	Pn_dioxygenase_decoy	1000	0	v2_decoy	v2 decoy
+K13812	fae_hps	fae_hps	decoy	fae_decoy	1000	0	v2_decoy	v2 decoy vs fae
+K00494	luxA	luxA	decoy	LLM_decoy	1000	0	v2_decoy	v2 decoy vs dmoA/ssuD/sfnG/mer
+K20938	ladA	ladA	decoy	LLM_decoy	1000	0	v2_decoy	v2 decoy
+K15510	fgd1	fgd1	decoy	LLM_decoy	1000	0	v2_decoy	v2 decoy
+K05337	fer	fer	decoy	ferredoxin_decoy	1000	0	v2_decoy	v2 decoy vs fwdH/fwdF/fwdG
+K03616	rnfB	rnfB	decoy	ferredoxin_decoy	1000	0	v2_decoy	v2 decoy
+K00176	korD	korD	decoy	ferredoxin_decoy	1000	0	v2_decoy	v2 decoy
+K14127	mvhD	mvhD	decoy	ferredoxin_decoy	1000	0	v2_decoy	v2 decoy
+K03855	fixX	fixX	decoy	ferredoxin_decoy	1000	0	v2_decoy	v2 decoy
+K00196	cooF	cooF	decoy	ferredoxin_decoy	1000	0	v2_decoy	v2 decoy
+K02040	pstS	pstS	decoy	SBP_decoy	1000	0	v2_decoy	v2 decoy vs phnD
+K11081	phnS	phnS	decoy	SBP_decoy	1000	0	v2_decoy	v2 decoy

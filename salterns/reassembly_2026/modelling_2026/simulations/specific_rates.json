@@ -74,7 +74,7 @@
    "max": 1303.369
   },
   "Betaine, 2.25 CH4 per TMA (read-based abundance)": {
-   "min": 86.583,
+   "min": 86.569,
    "max": 2068.251
   },
   "MePn, only P source": {
@@ -82,8 +82,8 @@
    "max": 3.784
   },
   "MePn, only P source (read-based abundance)": {
-   "min": 1.074,
-   "max": 7.114
+   "min": 1.071,
+   "max": 7.1
   },
   "MePn, ratio 0.07": {
    "min": 0.034,
@@ -99,7 +99,7 @@
   },
   "MePn, ratio 0.33 (read-based abundance)": {
    "min": 0.266,
-   "max": 1.765
+   "max": 1.762
   },
   "Methanogen, methylamines": {
    "min": 0.883,
@@ -117,7 +117,7 @@
   },
   "Betaine, 0.06 CH4 per TMA (read-based abundance)": {
    "min": 0.0126,
-   "max": 0.3002
+   "max": 0.3003
   },
   "Betaine, 2.25 CH4 per TMA": {
    "min": 0.0005,
@@ -132,24 +132,24 @@
    "max": 1.3506
   },
   "MePn, only P source (read-based abundance)": {
-   "min": 0.0974,
-   "max": 0.6455
+   "min": 0.0976,
+   "max": 0.6471
   },
   "MePn, ratio 0.07": {
    "min": 2.8004,
    "max": 20.6444
   },
   "MePn, ratio 0.07 (read-based abundance)": {
-   "min": 1.4895,
-   "max": 9.8664
+   "min": 1.4922,
+   "max": 9.8918
   },
   "MePn, ratio 0.33": {
    "min": 0.7384,
    "max": 5.4432
   },
   "MePn, ratio 0.33 (read-based abundance)": {
-   "min": 0.3927,
-   "max": 2.6014
+   "min": 0.3934,
+   "max": 2.6081
   },
   "Methanogen, methylamines": {
    "min": 0.0183,

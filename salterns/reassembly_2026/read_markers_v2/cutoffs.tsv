@@ -1,0 +1,23 @@
+param	value	why
+EMAX	1e-5	DIAMOND E-value of the best hit
+LMIN	30	aligned length (aa) of the hit; 30 aa = 90 nt of a 148-nt read
+MARGIN	0	a read is ambiguous only if another label scores at least as high (margins of 2-5 bits lowered recall without raising precision)
+PMIN_DEFAULT	0	no global identity cut: in the hold-out test it lowered recall without raising precision for most labels
+PMIN:uL2	50	markers: background reads hit marker references at 40-74 % identity
+PMIN:uL11	50	
+PMIN:uS3	50	
+PMIN:uS11	50	
+PMIN:uS12	50	
+PMIN:uS9	50	
+PMIN:uL4	50	
+PMIN:uL16	50	
+PMIN:cutC	60	reads of KOfam-unassigned glycyl-radical enzymes (0.5-1 x the CutC threshold) were assigned to cutC below 60 %
+PMIN:cntA	60	same for Rieske oxygenases vs CntA
+PMIN:cntB	60	same for reductases vs CntB
+PMIN:mpnS	60	no KOfam threshold and no hold-out data (too few references): conservative identity cut
+PMIN:mtmC	70	v2: reads of the trimethylamine corrinoid protein (mttC) hit mtmC references below 70 % (hold-out: precision 0.762 -> 0.982, recall 1.000 -> 0.991)
+PMIN:mtbA	60	v2: reads of below-threshold UROD-family homologs (mtbA_like, mtaA_like) hit mtbA below 60 % (precision 0.898 -> 0.988, recall 0.688 -> 0.664)
+PMIN:amtB	60	v2: reads of genes without any panel-HMM hit (and of amtB_like / amtB_euk) hit amtB at 50-60 % (precision 0.909 -> 0.963, recall 0.961 -> 0.924)
+PMIN:glyA	60	v2: background-gene, glyA_euk and tdm_like reads at < 60 % (precision 0.950 -> 0.977, recall 0.981 -> 0.963)
+PMIN:sdaA	50	v2: background-gene reads at < 50 % (false positives 37 -> 22, recall 0.973 -> 0.951)
+PMIN:dmgo_euk	60	v2: background-gene reads at < 60 % (false positives 17 -> 4, recall unchanged 0.895)
