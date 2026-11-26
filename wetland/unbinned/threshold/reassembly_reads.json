@@ -13,5 +13,20 @@
   "unmapped_pct": 58.63,
   "kbase_2kb_floor_reads_pct": 29.14,
   "gain_from_1kb_floor_reads_pct": 12.23
+ },
+ "SRR14626311": {
+  "reads_total": 49524718,
+  "reads_mapped_pct": 58.56,
+  "binned_reads_pct": 11.98,
+  "binned_depth_rel_binned": 1.0,
+  "unb_2.5_reads_pct": 23.21,
+  "unb_2.5_depth_rel_binned": 0.976,
+  "unb_2.0_reads_pct": 3.09,
+  "unb_2.0_depth_rel_binned": 0.586,
+  "unb_1.0_reads_pct": 20.28,
+  "unb_1.0_depth_rel_binned": 0.871,
+  "unmapped_pct": 41.44,
+  "kbase_2kb_floor_reads_pct": 38.28,
+  "gain_from_1kb_floor_reads_pct": 20.28
  }
 }

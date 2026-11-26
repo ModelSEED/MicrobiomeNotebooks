@@ -26,5 +26,33 @@
   "unb_1.0_abund_pct": 22.16,
   "cov_ratio_1to2_vs_ge2.5": 0.339,
   "len_median_1to2": 1281
+ },
+ "SRR14626311": {
+  "kbase_contigs": 36832,
+  "kbase_bp": 185136093,
+  "reasm_contigs": 115042,
+  "reasm_bp": 290217288,
+  "reasm_ge2kb_contigs": 36832,
+  "reasm_ge2kb_bp": 185136093,
+  "reasm_ge2kb_identical_pct_bp": 99.98,
+  "reasm_ge2kb_identical_or_contained_pct_bp": 99.98,
+  "kbase_bp_with_identical_reasm_contig_pct": 99.98,
+  "reasm_1to2kb_contigs": 78210,
+  "reasm_1to2kb_bp": 105081195,
+  "reasm_1to2kb_contained_in_kbase_pct_bp": 0.0,
+  "binned_contigs_pct": 5.92,
+  "binned_bp_pct": 18.63,
+  "binned_abund_pct": 27.14,
+  "unb_2.5_contigs_pct": 16.8,
+  "unb_2.5_bp_pct": 36.96,
+  "unb_2.5_abund_pct": 49.19,
+  "unb_2.0_contigs_pct": 9.3,
+  "unb_2.0_bp_pct": 8.2,
+  "unb_2.0_abund_pct": 5.47,
+  "unb_1.0_contigs_pct": 67.98,
+  "unb_1.0_bp_pct": 36.21,
+  "unb_1.0_abund_pct": 18.2,
+  "cov_ratio_1to2_vs_ge2.5": 0.366,
+  "len_median_1to2": 1276
  }
 }
