@@ -1,0 +1,25 @@
+iterativeID            rxn01300 rxn00691 rxn00688 rxn00336 rxn01014 rxn02283 rxn12217 rxn00905 rxn00770 rxn09221 rxn00771  (D=draft, G=gapfilled, .=absent)
+DAINOF01.1             D    .    .    D    .    .    .    .    D    .    .
+Roseovarius.1          .    .    .    .    .    .    .    .    D    .    .
+Roseovarius.2          .    .    .    G    .    .    .    .    D    .    .
+Gaopeijia.1            D    .    .    G    .    .    .    .    D    .    .
+Marivita.2             .    .    .    .    .    .    .    .    D    .    .
+Thiolinea.1            D    .    .    D    .    .    .    .    D    .    .
+Roseovarius.4          .    .    .    G    .    .    .    .    D    .    .
+Saliniramus.1          D    D    .    D    .    .    .    .    D    .    .
+Roseovarius.5          .    .    .    .    .    .    .    .    D    .    .
+Roseovarius.6          .    .    .    .    .    .    .    .    D    .    .
+CAZRZN01.1             .    G    .    .    .    .    .    .    D    .    .
+Marivita.3             .    .    .    .    .    .    .    .    D    .    .
+Roseovarius.7          .    G    .    .    .    .    .    .    D    .    .
+Roseibacterium.1       .    .    .    .    .    .    .    .    D    .    .
+Roseovarius.8          .    .    .    .    .    .    .    .    D    .    .
+Roseovarius.9          .    .    .    .    .    .    .    .    D    .    .
+Phaeodactylibacter.1   D    .    .    D    .    .    .    .    G    .    .
+Desulfotignum.1        D    .    .    .    .    .    .    .    D    .    .
+Roseovarius.10         G    .    .    G    .    .    .    .    D    .    .
+JAVJPJ01.1             .    .    .    D    .    .    .    .    D    .    .
+Roseovarius.11         G    .    .    .    .    .    .    .    .    .    .
+Roseovarius.12         .    G    .    .    .    .    .    .    D    .    .
+Desulfotignum.2        .    .    .    .    .    .    .    .    D    .    .
+Albimonas.1            .    .    .    .    .    .    .    .    D    .    .

@@ -1,0 +1,8 @@
+gene	mag	binner	contig	contig_len	best_ko	sym
+R1_sediment__metabat2.bin.091_sub|k127_2938829_2	R1_sediment__metabat2.bin.091_sub	metabat2	k127_2938829	4667	K10670	grdA
+R1_sediment__metabat2.bin.091_sub|k127_2938829_3	R1_sediment__metabat2.bin.091_sub	metabat2	k127_2938829	4667	K10670	grdA
+R1_sediment__metabat2.bin.091_sub|k127_2938829_5	R1_sediment__metabat2.bin.091_sub	metabat2	k127_2938829	4667	K10672	grdB
+R1_sediment__metabat2.bin.091_sub|k127_2938829_6	R1_sediment__metabat2.bin.091_sub	metabat2	k127_2938829	4667	K10670	grdA
+R1_sediment__metabat2.bin.091_sub|k127_2938829_7	R1_sediment__metabat2.bin.091_sub	metabat2	k127_2938829	4667	K10670	grdA
+R2_sediment__maxbin2.Bin.036_sub|k127_2338155_2	R2_sediment__maxbin2.Bin.036_sub	maxbin2	k127_2338155	1517	K10672	grdB
+R2_sediment__maxbin2.Bin.036_sub|k127_422757_5	R2_sediment__maxbin2.Bin.036_sub	maxbin2	k127_422757	5179	K10670	grdA

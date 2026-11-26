@@ -1,0 +1,68 @@
+{
+ "SRR13021855_reads.MEGAHIT.assembly": {
+  "job_id": "6af9d6c6eacecf21bd99b307",
+  "read_library_ref": "261700/624/1",
+  "submitted": "2026-11-15 09:59:03",
+  "previous_job": "6a5a9e707662238c12e46f44"
+ },
+ "SRR11837711_reads.MEGAHIT.assembly": {
+  "job_id": "6af9d6c7d5afcc4c33884aff",
+  "read_library_ref": "261700/516/1",
+  "submitted": "2026-11-15 09:59:03",
+  "previous_job": "6a5a9e701c6b2638b1d8ad96"
+ },
+ "SRR12172649_reads.MEGAHIT.assembly": {
+  "job_id": "6af9d6c7569b63f90566065e",
+  "read_library_ref": "261700/560/1",
+  "submitted": "2026-11-15 09:59:03",
+  "previous_job": "6a5a9e7318fb5e2b773a34fb"
+ },
+ "SRR12951270_reads.MEGAHIT.assembly": {
+  "job_id": "6af9d6c8eacecf21bd99b308",
+  "read_library_ref": "261700/619/1",
+  "submitted": "2026-11-15 09:59:04",
+  "previous_job": "6a5a9e742ec2f2e7dd4ac806"
+ },
+ "SRR4242551_reads.MEGAHIT.assembly": {
+  "job_id": "6af9d6c8d5afcc4c33884b00",
+  "read_library_ref": "261700/1308/1",
+  "submitted": "2026-11-15 09:59:04",
+  "previous_job": "6a5a9e742dd4414948d1abb5"
+ },
+ "SRR5817588_reads.MEGAHIT.assembly": {
+  "job_id": "6af9d6c8d5afcc4c33884b01",
+  "read_library_ref": "261700/1336/1",
+  "submitted": "2026-11-15 09:59:04",
+  "previous_job": "6a5a9e757662238c12e46f46"
+ },
+ "SRR5817589_reads.MEGAHIT.assembly": {
+  "job_id": "6af9d6c9eacecf21bd99b309",
+  "read_library_ref": "261700/1327/1",
+  "submitted": "2026-11-15 09:59:05",
+  "previous_job": "6a5a9e7218fb5e2b773a34fa"
+ },
+ "SRR5817590_reads.MEGAHIT.assembly": {
+  "job_id": "6af9d6c9b3a2d40340bd905b",
+  "read_library_ref": "261700/1340/1",
+  "submitted": "2026-11-15 09:59:05",
+  "previous_job": "6a5a9e732f71c771f65d18bb"
+ },
+ "SRR6193119_reads.MEGAHIT.assembly": {
+  "job_id": "6af9d6caeacecf21bd99b30a",
+  "read_library_ref": "261700/1402/1",
+  "submitted": "2026-11-15 09:59:06",
+  "previous_job": "6a5a9e72cf0aa852a1c35b13"
+ },
+ "SRR6307338_reads.MEGAHIT.assembly": {
+  "job_id": "6af9d6caeacecf21bd99b30b",
+  "read_library_ref": "261700/1413/1",
+  "submitted": "2026-11-15 09:59:06",
+  "previous_job": "6a5a9e751c6b2638b1d8ad97"
+ },
+ "SRR8554905_reads.MEGAHIT.assembly": {
+  "job_id": "6af9d6ca569b63f90566065f",
+  "read_library_ref": "261700/1437/1",
+  "submitted": "2026-11-15 09:59:07",
+  "previous_job": "6a5a9e727662238c12e46f45"
+ }
+}

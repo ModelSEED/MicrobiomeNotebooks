@@ -1,0 +1,180 @@
+{
+ "host": "frankensteinsmonster",
+ "cores": 64,
+ "cap_max": 48,
+ "cap_min": 48,
+ "headroom": 16,
+ "mem_floor_gb": 40,
+ "settle_s": 60,
+ "poll_s": 20,
+ "sched_s": 20,
+ "retry_wait_s": 20,
+ "min_free_scratch_gb": 300,
+ "max_rollout_gb": 1000,
+ "tmp_min_free_gb": 10,
+ "kind_limits": {
+  "dl": 1,
+  "reads": 4,
+  "asm": 2,
+  "checkm2": 2,
+  "checkm1": 1,
+  "import": 2,
+  "push": 1
+ },
+ "group_limits": {
+  "prep": {
+   "kinds": [
+    "merge",
+    "tadpole",
+    "qtrimasm"
+   ],
+   "max": 1
+  },
+  "qc": {
+   "kinds": [
+    "checkm2",
+    "gunc",
+    "checkm1"
+   ],
+   "max": 3
+  }
+ },
+ "prep_buffer": 9,
+ "asm_lane_threads": 16,
+ "protect_lanes": 2,
+ "background_cap": 16,
+ "asm_after_all_prep": true,
+ "scope_mem_gb": 56,
+ "skip_gtdbtk": true,
+ "skip_old_qc": true,
+ "attempts": {
+  "default": 2,
+  "dl": 3,
+  "asm": 4,
+  "push": 4
+ },
+ "spades": {
+  "klist": "33,55,77,99,127",
+  "mem_gb": [
+   32,
+   48
+  ],
+  "reserve_gb": [
+   8,
+   16
+  ]
+ },
+ "heap": {
+  "xms": "1g",
+  "le9": "8g",
+  "gt9": "8g",
+  "oom": "12g",
+  "small": "4g",
+  "split_bases": 9000000000
+ },
+ "tools": {
+  "py": "/home/freiburger/Documents/py_venv/bin/python",
+  "sra": "/nonexistent/sra-tools-not-installed-here (reads copied from poplar)",
+  "bbtools": "/home/freiburger/Documents/salterns_rollout_local/envs/bbtools/bin",
+  "spades": "/home/freiburger/Documents/salterns_rollout_local/envs/spades3153/bin",
+  "map": "/home/freiburger/Documents/salterns_rollout_local/envs/bt_map/bin",
+  "metabat2": "/home/freiburger/Documents/salterns_rollout_local/envs/bt_metabat2/bin",
+  "maxbin2": "/home/freiburger/Documents/salterns_rollout_local/envs/bt_maxbin2/bin",
+  "concoct": "/home/freiburger/Documents/salterns_rollout_local/envs/bt_concoct/bin",
+  "dastool": "/home/freiburger/Documents/dastool_env/env/bin",
+  "gunc": "/home/freiburger/Documents/salterns_rollout_local/envs/bt_gunc/bin",
+  "qcenv": "/home/freiburger/Documents/salterns_rollout_local/envs/checkm2/bin",
+  "checkm2_db": "/home/freiburger/Documents/salterns_rollout_local/refdata/checkm2/CheckM2_database/uniref100.KO.1.dmnd",
+  "checkm1": "/home/freiburger/Documents/salterns_rollout_local/envs/bt_checkm1/bin",
+  "checkm1_env_ok": "/home/freiburger/Documents/salterns_rollout_local/envs/.setup/bt_checkm1.ok",
+  "checkm1_data": "/home/freiburger/Documents/salterns_rollout_local/refdata/checkm1",
+  "gunc_db_dir": "/home/freiburger/Documents/salterns_rollout_local/refdata/gunc"
+ },
+ "binning_test_root": "/home/freiburger/Documents/salterns_rollout_local/rollout",
+ "old_table": "",
+ "root": "/home/freiburger/Documents/salterns_rollout_local/smoke",
+ "name": "smoke_r2a_local",
+ "threads": {
+  "dl": 6,
+  "reads": 8,
+  "merge": 8,
+  "tadpole": 8,
+  "qtrimasm": 8,
+  "asm": 8,
+  "contigs": 1,
+  "idx": 8,
+  "map": 8,
+  "metabat2": 8,
+  "maxbin2": 8,
+  "concoct": 8,
+  "dastool": 8,
+  "checkm2": 8,
+  "gunc": 8,
+  "checkm1": 8,
+  "keep": 1,
+  "import": 2,
+  "push": 1,
+  "report": 1
+ },
+ "reserve_gb": {
+  "dl": 4,
+  "reads": 16,
+  "merge": 16,
+  "tadpole": 16,
+  "qtrimasm": 16,
+  "asm": 16,
+  "contigs": 2,
+  "idx": 10,
+  "map": 10,
+  "depth": 10,
+  "metabat2": 5,
+  "maxbin2": 5,
+  "concoct": 10,
+  "dastool": 5,
+  "checkm2": 16,
+  "gunc": 15,
+  "checkm1": 16,
+  "keep": 2,
+  "import": 4,
+  "push": 2,
+  "report": 4
+ },
+ "libraries": {
+  "SMK_1": {
+   "srr": "-",
+   "spots": 0,
+   "bases": 0,
+   "group": "SMK",
+   "reuse": "/home/freiburger/Documents/salterns_rollout_local/rollout/reads/R2A_B_H2O",
+   "reuse_lib": "R2A_B_H2O",
+   "subsample_pairs": 1000000
+  },
+  "SMK_2": {
+   "srr": "-",
+   "spots": 0,
+   "bases": 0,
+   "group": "SMK",
+   "reuse": "/home/freiburger/Documents/salterns_rollout_local/rollout/reads/R2A_C_H2O",
+   "reuse_lib": "R2A_C_H2O",
+   "subsample_pairs": 1000000
+  }
+ },
+ "samples": {
+  "SMK_L": {
+   "lib": "SMK_1",
+   "group": [
+    "SMK_1",
+    "SMK_2"
+   ],
+   "group_name": "SMK",
+   "order": 0,
+   "bases": 8402252154,
+   "unit": "R2A_B_H2O",
+   "push_to": {
+    "host": "poplar",
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/smoke_import/imports/SMK_L",
+    "marker": "READY"
+   }
+  }
+ }
+}

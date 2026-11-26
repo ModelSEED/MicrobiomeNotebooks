@@ -1,0 +1,25 @@
+sample	step	start	end	wall_h	peak_mem_kind	java_xmx	peak_mem_GB
+R1_A_D1	fix_plus_SRR5209943	2026-11-11 10:58:37	2026-11-11 11:04:20	0.1	Java heap used (max reported)		
+R1_A_D1	bbduk_adapt	2026-11-11 11:04:20	2026-11-11 11:11:16	0.12	Java heap used (max reported)	16g	0.1
+R1_A_D1	bbduk_filter	2026-11-11 11:11:16	2026-11-11 11:17:26	0.1	Java heap used (max reported)	16g	0.5
+R1_A_D1	A1_bbmerge	2026-11-11 11:17:26	2026-11-11 11:52:59	0.59	Java heap used (max reported)	200g	68.4
+R1_A_D1	A2a_tadpole_pairs	2026-11-11 11:52:59	2026-11-11 12:22:27	0.49	Java heap used (max reported)	200g	95.9
+R1_A_D1	A2b_tadpole_merged	2026-11-11 12:22:27	2026-11-11 12:58:54	0.61	Java heap used (max reported)	200g	107.1
+R1_A_D1	A3_qtrim	2026-11-11 12:58:54	2026-11-11 13:00:11	0.02	Java heap used (max reported)	16g	0.1
+R1_A_D1	B1_tadpole	2026-11-11 13:00:11	2026-11-11 13:39:25	0.65	Java heap used (max reported)	200g	146.7
+R1_A_D1	A4_metaspades	2026-11-11 13:00:11	2026-11-11 23:34:25	10.57	SPAdes peak RSS		26.0
+R1_A_D1	B2_qtrim	2026-11-11 13:39:25	2026-11-11 13:41:49	0.04	Java heap used (max reported)	16g	0.1
+R1_A_D1	B3_metaspades	2026-11-11 13:41:49	2026-11-12 00:21:31	10.66	SPAdes peak RSS		36.0
+R1_A_D1	C1_spades_default	2026-11-11 23:34:25	2026-11-12 08:46:16	9.2	SPAdes peak RSS		37.0
+SF2_C_D1	fix_plus_SRR5210468	2026-11-11 11:05:37	2026-11-11 11:11:45	0.1	Java heap used (max reported)		
+SF2_C_D1	bbduk_adapt	2026-11-11 11:11:45	2026-11-11 11:18:10	0.11	Java heap used (max reported)	16g	0.1
+SF2_C_D1	bbduk_filter	2026-11-11 11:18:10	2026-11-11 11:22:39	0.07	Java heap used (max reported)	16g	0.5
+SF2_C_D1	A1_bbmerge	2026-11-11 11:22:39	2026-11-11 11:48:16	0.43	Java heap used (max reported)	200g	53.4
+SF2_C_D1	A2a_tadpole_pairs	2026-11-11 11:48:16	2026-11-11 12:17:09	0.48	Java heap used (max reported)	200g	91.1
+SF2_C_D1	A2b_tadpole_merged	2026-11-11 12:17:09	2026-11-11 12:45:40	0.48	Java heap used (max reported)	200g	106.1
+SF2_C_D1	A3_qtrim	2026-11-11 12:45:40	2026-11-11 12:46:44	0.02	Java heap used (max reported)	16g	0.1
+SF2_C_D1	B1_tadpole	2026-11-11 12:46:44	2026-11-11 13:29:48	0.72	Java heap used (max reported)	200g	143.6
+SF2_C_D1	A4_metaspades	2026-11-11 12:46:44	2026-11-12 03:04:52 (.done mtime)	14.3	SPAdes peak RSS		53.0
+SF2_C_D1	B2_qtrim	2026-11-11 13:29:48	2026-11-11 13:32:29	0.04	Java heap used (max reported)	16g	0.1
+SF2_C_D1	B3_metaspades	2026-11-11 13:32:29	2026-11-12 04:20:42	14.8	SPAdes peak RSS		55.0
+SF2_C_D1	C1_spades_default	2026-11-12 17:33:52	running		SPAdes peak RSS		7.3

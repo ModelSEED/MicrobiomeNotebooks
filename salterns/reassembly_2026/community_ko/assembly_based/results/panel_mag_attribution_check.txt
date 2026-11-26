@@ -1,0 +1,4 @@
+final585 MAGs (rollout + coassembly)	1455
+with KOfam calls	1455
+missing	0	
+mean read fraction: computed here = simple mean of the 12 unrestored-core samples (R1/R2 A-C D1+D2) of final585_relabund_24sediment.tsv; guilds_final585.csv 'mean_rel_abund_12cores' = mean over all 12 cores (D1/D2 merged DNA-weighted, all four sites), kept for reference

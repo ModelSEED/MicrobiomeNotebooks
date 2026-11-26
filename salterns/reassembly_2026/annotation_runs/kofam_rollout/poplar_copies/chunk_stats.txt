@@ -1,0 +1,48 @@
+mags	935
+proteins	2732576
+residues	814431445
+unique_protein_sequences_global	1829039	fraction_duplicate	0.3307
+searched_proteins_within_chunk_dedup	1848636	fraction_saved	0.3235
+searched_residues	561075163	fraction_saved	0.3111
+chunks	40	dedup_cluster_residues_min	13932949	max	14255034
+control_clusters_in_chunk_01	0
+chunk_01	mags	23	clusters	9	proteins	66419	searched	43868	residues_searched	14045063
+chunk_02	mags	18	clusters	8	proteins	64440	searched	49993	residues_searched	13968277
+chunk_03	mags	25	clusters	9	proteins	67167	searched	46064	residues_searched	14020837
+chunk_04	mags	19	clusters	9	proteins	55889	searched	43197	residues_searched	14022226
+chunk_05	mags	18	clusters	9	proteins	57013	searched	47681	residues_searched	13952071
+chunk_06	mags	28	clusters	9	proteins	83788	searched	46157	residues_searched	13939262
+chunk_07	mags	25	clusters	9	proteins	74933	searched	44543	residues_searched	13938785
+chunk_08	mags	23	clusters	10	proteins	59257	searched	45192	residues_searched	14253568
+chunk_09	mags	25	clusters	10	proteins	71617	searched	48865	residues_searched	14208949
+chunk_10	mags	27	clusters	10	proteins	76557	searched	45611	residues_searched	14125741
+chunk_11	mags	25	clusters	10	proteins	67400	searched	48854	residues_searched	14140575
+chunk_12	mags	31	clusters	10	proteins	87398	searched	45272	residues_searched	14060992
+chunk_13	mags	24	clusters	10	proteins	63175	searched	44708	residues_searched	14166498
+chunk_14	mags	22	clusters	10	proteins	72917	searched	45558	residues_searched	14208742
+chunk_15	mags	18	clusters	9	proteins	58241	searched	45561	residues_searched	13966331
+chunk_16	mags	28	clusters	9	proteins	78223	searched	43842	residues_searched	13965566
+chunk_17	mags	20	clusters	9	proteins	55435	searched	48086	residues_searched	13943947
+chunk_18	mags	17	clusters	9	proteins	58455	searched	46633	residues_searched	13944343
+chunk_19	mags	23	clusters	9	proteins	77413	searched	45456	residues_searched	13946629
+chunk_20	mags	23	clusters	9	proteins	66838	searched	45298	residues_searched	13964343
+chunk_21	mags	22	clusters	10	proteins	62591	searched	48222	residues_searched	14059894
+chunk_22	mags	18	clusters	10	proteins	55329	searched	47341	residues_searched	14181848
+chunk_23	mags	25	clusters	10	proteins	70194	searched	48939	residues_searched	14174783
+chunk_24	mags	31	clusters	9	proteins	80774	searched	48623	residues_searched	13947147
+chunk_25	mags	18	clusters	9	proteins	59172	searched	47923	residues_searched	13976527
+chunk_26	mags	21	clusters	9	proteins	71463	searched	45981	residues_searched	13962355
+chunk_27	mags	18	clusters	9	proteins	56334	searched	46184	residues_searched	13945995
+chunk_28	mags	25	clusters	9	proteins	73324	searched	45140	residues_searched	13980779
+chunk_29	mags	30	clusters	10	proteins	79194	searched	47737	residues_searched	14084359
+chunk_30	mags	21	clusters	9	proteins	62772	searched	45993	residues_searched	13944551
+chunk_31	mags	19	clusters	9	proteins	58297	searched	48492	residues_searched	13973790
+chunk_32	mags	19	clusters	9	proteins	59371	searched	43372	residues_searched	13966374
+chunk_33	mags	23	clusters	9	proteins	60741	searched	47074	residues_searched	13962947
+chunk_34	mags	26	clusters	10	proteins	72927	searched	46247	residues_searched	14054111
+chunk_35	mags	31	clusters	9	proteins	97944	searched	43134	residues_searched	13929964
+chunk_36	mags	25	clusters	9	proteins	75713	searched	43922	residues_searched	13932949
+chunk_37	mags	28	clusters	9	proteins	71142	searched	47110	residues_searched	13946755
+chunk_38	mags	29	clusters	10	proteins	71007	searched	47790	residues_searched	14255034
+chunk_39	mags	19	clusters	9	proteins	60087	searched	44116	residues_searched	13946947
+chunk_40	mags	25	clusters	10	proteins	71625	searched	44857	residues_searched	14065309

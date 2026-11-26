@@ -1,0 +1,391 @@
+ko	gene	variant	sample	sample_group	n_genes	sum_depth	copies_per_GE_readGE	copies_per_GE_assembly	share_kept_mag	share_other_bin	share_unbinned
+K16967	dmoA	rule_E1e-30_cov0.5	R1_A_D1	unrestored_core	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	R1_A_D2	unrestored_core	1	4.25204	0.00180875	0.00292967	0	0	1
+K16967	dmoA	rule_E1e-30_cov0.5	R1_A_H2O	water	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	R1_B_D1	unrestored_core	8	33.8262	0.0141041	0.0275171	0.301722	0.164939	0.533339
+K16967	dmoA	rule_E1e-30_cov0.5	R1_B_D2	unrestored_core	3	16.6201	0.00698596	0.0114154	0	0.496773	0.503227
+K16967	dmoA	rule_E1e-30_cov0.5	R1_B_H2O	water	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	R1_C_D1	unrestored_core	2	8.256	0.00471287	0.00946746	0	0	1
+K16967	dmoA	rule_E1e-30_cov0.5	R1_C_D2	unrestored_core	6	24.3962	0.01324	0.0275927	0	0	1
+K16967	dmoA	rule_E1e-30_cov0.5	R1_C_H2O	water	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	R2A_A_D1	other_sediment_core	2	7.17031	0.0042086	0.0172011	0	0	1
+K16967	dmoA	rule_E1e-30_cov0.5	R2A_A_D2	other_sediment_core	3	13.2707	0.00825498	0.0447462	0	0	1
+K16967	dmoA	rule_E1e-30_cov0.5	R2A_A_H2O	water	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	R2A_B_D1	other_sediment_core	1	4.4406	0.0037001	0.0325662	0	0	1
+K16967	dmoA	rule_E1e-30_cov0.5	R2A_B_D2	other_sediment_core	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	R2A_B_H2O	water	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	R2A_C_D1	other_sediment_core	4	11.8754	0.00859123	0.0326896	0	0	1
+K16967	dmoA	rule_E1e-30_cov0.5	R2A_C_D2	other_sediment_core	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	R2A_C_H2O	water	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	R2_A_D1	unrestored_core	2	6.34851	0.00230501	0.00436336	0	0	1
+K16967	dmoA	rule_E1e-30_cov0.5	R2_A_D2	unrestored_core	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	R2_A_H2O	water	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	R2_B_D1	unrestored_core	2	8.26003	0.00461119	0.012072	0	0	1
+K16967	dmoA	rule_E1e-30_cov0.5	R2_B_D2	unrestored_core	5	23.2367	0.00734997	0.014065	0.447667	0	0.552333
+K16967	dmoA	rule_E1e-30_cov0.5	R2_B_H2O	water	1	24.5954	0.0132287	0.0225671	0	0	1
+K16967	dmoA	rule_E1e-30_cov0.5	R2_C_D1	unrestored_core	5	25.3116	0.0126335	0.025956	0.667525	0	0.332475
+K16967	dmoA	rule_E1e-30_cov0.5	R2_C_D2	unrestored_core	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	R2_C_H2O	water	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	R2_restored_C_black	R2_restored_other	3	13.1129	0.00653075	0.0127827	0	0	1
+K16967	dmoA	rule_E1e-30_cov0.5	R2_restored_D_shore	R2_restored_other	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	R2_restored_H2O	water	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	SF2_A_D1	other_sediment_core	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	SF2_A_D2	other_sediment_core	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	SF2_A_H2O	water	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	SF2_B_D1	other_sediment_core	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	SF2_B_D2	other_sediment_core	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	SF2_B_H2O	water	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	SF2_C_D1	other_sediment_core	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	SF2_C_D2	other_sediment_core	0	0	0	0			
+K16967	dmoA	rule_E1e-30_cov0.5	SF2_C_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R1_A_D1	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R1_A_D2	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R1_A_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R1_B_D1	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R1_B_D2	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R1_B_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R1_C_D1	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R1_C_D2	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R1_C_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2A_A_D1	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2A_A_D2	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2A_A_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2A_B_D1	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2A_B_D2	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2A_B_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2A_C_D1	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2A_C_D2	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2A_C_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2_A_D1	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2_A_D2	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2_A_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2_B_D1	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2_B_D2	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2_B_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2_C_D1	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2_C_D2	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2_C_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2_restored_C_black	R2_restored_other	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2_restored_D_shore	R2_restored_other	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	R2_restored_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	SF2_A_D1	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	SF2_A_D2	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	SF2_A_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	SF2_B_D1	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	SF2_B_D2	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	SF2_B_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	SF2_C_D1	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	SF2_C_D2	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_E1e-30_cov0.5	SF2_C_H2O	water	0	0	0	0			
+K05915	phnZ	rule_E1e-30_cov0.5	R1_A_D1	unrestored_core	1	4.12701	0.00170432	0.00275479	1	0	0
+K05915	phnZ	rule_E1e-30_cov0.5	R1_A_D2	unrestored_core	0	0	0	0			
+K05915	phnZ	rule_E1e-30_cov0.5	R1_A_H2O	water	0	0	0	0			
+K05915	phnZ	rule_E1e-30_cov0.5	R1_B_D1	unrestored_core	2	14.723	0.00613888	0.0119769	1	0	0
+K05915	phnZ	rule_E1e-30_cov0.5	R1_B_D2	unrestored_core	1	2.49943	0.00105059	0.00171671	0	0	1
+K05915	phnZ	rule_E1e-30_cov0.5	R1_B_H2O	water	0	0	0	0			
+K05915	phnZ	rule_E1e-30_cov0.5	R1_C_D1	unrestored_core	1	5.81146	0.00331742	0.00666421	0	1	0
+K05915	phnZ	rule_E1e-30_cov0.5	R1_C_D2	unrestored_core	2	10.7948	0.00585839	0.0122092	0.434929	0	0.565071
+K05915	phnZ	rule_E1e-30_cov0.5	R1_C_H2O	water	0	0	0	0			
+K05915	phnZ	rule_E1e-30_cov0.5	R2A_A_D1	other_sediment_core	1	6.33971	0.00372108	0.0152085	0	0	1
+K05915	phnZ	rule_E1e-30_cov0.5	R2A_A_D2	other_sediment_core	2	5.34898	0.00332731	0.0180357	0	0	1
+K05915	phnZ	rule_E1e-30_cov0.5	R2A_A_H2O	water	1	10.0549	0.00336351	0.00562232	0	0	1
+K05915	phnZ	rule_E1e-30_cov0.5	R2A_B_D1	other_sediment_core	0	0	0	0			
+K05915	phnZ	rule_E1e-30_cov0.5	R2A_B_D2	other_sediment_core	0	0	0	0			
+K05915	phnZ	rule_E1e-30_cov0.5	R2A_B_H2O	water	2	17.2704	0.00655498	0.0112393	0	0	1
+K05915	phnZ	rule_E1e-30_cov0.5	R2A_C_D1	other_sediment_core	3	28.752	0.0208006	0.079146	0.588272	0	0.411728
+K05915	phnZ	rule_E1e-30_cov0.5	R2A_C_D2	other_sediment_core	1	18.8444	0.0101986	0.0229459	1	0	0
+K05915	phnZ	rule_E1e-30_cov0.5	R2A_C_H2O	water	1	6.12951	0.00251981	0.0065136	0	0	1
+K05915	phnZ	rule_E1e-30_cov0.5	R2_A_D1	unrestored_core	1	3.77987	0.00137239	0.00259792	0	0	1
+K05915	phnZ	rule_E1e-30_cov0.5	R2_A_D2	unrestored_core	0	0	0	0			
+K05915	phnZ	rule_E1e-30_cov0.5	R2_A_H2O	water	0	0	0	0			
+K05915	phnZ	rule_E1e-30_cov0.5	R2_B_D1	unrestored_core	1	10.0977	0.00563708	0.0147578	1	0	0
+K05915	phnZ	rule_E1e-30_cov0.5	R2_B_D2	unrestored_core	8	38.7683	0.0122627	0.0234662	0.31055	0	0.68945
+K05915	phnZ	rule_E1e-30_cov0.5	R2_B_H2O	water	0	0	0	0			
+K05915	phnZ	rule_E1e-30_cov0.5	R2_C_D1	unrestored_core	2	11.5182	0.00574895	0.0118114	1	0	0
+K05915	phnZ	rule_E1e-30_cov0.5	R2_C_D2	unrestored_core	1	4.68244	0.00341144	0.00789744	0	1	0
+K05915	phnZ	rule_E1e-30_cov0.5	R2_C_H2O	water	0	0	0	0			
+K05915	phnZ	rule_E1e-30_cov0.5	R2_restored_C_black	R2_restored_other	1	5.71479	0.0028462	0.00557089	0	0	1
+K05915	phnZ	rule_E1e-30_cov0.5	R2_restored_D_shore	R2_restored_other	1	4.51823	0.0028537	0.00552208	0	1	0
+K05915	phnZ	rule_E1e-30_cov0.5	R2_restored_H2O	water	0	0	0	0			
+K05915	phnZ	rule_E1e-30_cov0.5	SF2_A_D1	other_sediment_core	1	3.4101	0.00244855	0.0173845	0	0	1
+K05915	phnZ	rule_E1e-30_cov0.5	SF2_A_D2	other_sediment_core	0	0	0	0			
+K05915	phnZ	rule_E1e-30_cov0.5	SF2_A_H2O	water	3	20.5416	0.00761723	0.0171807	0	0	1
+K05915	phnZ	rule_E1e-30_cov0.5	SF2_B_D1	other_sediment_core	0	0	0	0			
+K05915	phnZ	rule_E1e-30_cov0.5	SF2_B_D2	other_sediment_core	0	0	0	0			
+K05915	phnZ	rule_E1e-30_cov0.5	SF2_B_H2O	water	4	30.5638	0.0112069	0.0179617	0	0	1
+K05915	phnZ	rule_E1e-30_cov0.5	SF2_C_D1	other_sediment_core	0	0	0	0			
+K05915	phnZ	rule_E1e-30_cov0.5	SF2_C_D2	other_sediment_core	1	11.4431	0.00793481	0.0255173	1	0	0
+K05915	phnZ	rule_E1e-30_cov0.5	SF2_C_H2O	water	4	23.5591	0.00746737	0.0109931	0	0	1
+K18049	mpnS	rule_E1e-30_cov0.5	R1_A_D1	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R1_A_D2	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R1_A_H2O	water	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R1_B_D1	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R1_B_D2	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R1_B_H2O	water	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R1_C_D1	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R1_C_D2	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R1_C_H2O	water	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2A_A_D1	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2A_A_D2	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2A_A_H2O	water	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2A_B_D1	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2A_B_D2	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2A_B_H2O	water	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2A_C_D1	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2A_C_D2	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2A_C_H2O	water	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2_A_D1	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2_A_D2	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2_A_H2O	water	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2_B_D1	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2_B_D2	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2_B_H2O	water	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2_C_D1	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2_C_D2	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2_C_H2O	water	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2_restored_C_black	R2_restored_other	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2_restored_D_shore	R2_restored_other	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	R2_restored_H2O	water	1	9.57657	0.00347074	0.00426076	0	0	1
+K18049	mpnS	rule_E1e-30_cov0.5	SF2_A_D1	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	SF2_A_D2	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	SF2_A_H2O	water	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	SF2_B_D1	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	SF2_B_D2	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	SF2_B_H2O	water	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	SF2_C_D1	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	SF2_C_D2	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_E1e-30_cov0.5	SF2_C_H2O	water	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R1_A_D1	unrestored_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R1_A_D2	unrestored_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R1_A_H2O	water	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R1_B_D1	unrestored_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R1_B_D2	unrestored_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R1_B_H2O	water	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R1_C_D1	unrestored_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R1_C_D2	unrestored_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R1_C_H2O	water	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2A_A_D1	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2A_A_D2	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2A_A_H2O	water	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2A_B_D1	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2A_B_D2	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2A_B_H2O	water	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2A_C_D1	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2A_C_D2	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2A_C_H2O	water	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2_A_D1	unrestored_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2_A_D2	unrestored_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2_A_H2O	water	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2_B_D1	unrestored_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2_B_D2	unrestored_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2_B_H2O	water	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2_C_D1	unrestored_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2_C_D2	unrestored_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2_C_H2O	water	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2_restored_C_black	R2_restored_other	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2_restored_D_shore	R2_restored_other	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	R2_restored_H2O	water	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	SF2_A_D1	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	SF2_A_D2	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	SF2_A_H2O	water	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	SF2_B_D1	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	SF2_B_D2	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	SF2_B_H2O	water	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	SF2_C_D1	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	SF2_C_D2	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_E1e-30_cov0.5	SF2_C_H2O	water	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R1_A_D1	unrestored_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R1_A_D2	unrestored_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R1_A_H2O	water	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R1_B_D1	unrestored_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R1_B_D2	unrestored_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R1_B_H2O	water	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R1_C_D1	unrestored_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R1_C_D2	unrestored_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R1_C_H2O	water	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2A_A_D1	other_sediment_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2A_A_D2	other_sediment_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2A_A_H2O	water	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2A_B_D1	other_sediment_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2A_B_D2	other_sediment_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2A_B_H2O	water	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2A_C_D1	other_sediment_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2A_C_D2	other_sediment_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2A_C_H2O	water	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2_A_D1	unrestored_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2_A_D2	unrestored_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2_A_H2O	water	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2_B_D1	unrestored_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2_B_D2	unrestored_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2_B_H2O	water	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2_C_D1	unrestored_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2_C_D2	unrestored_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2_C_H2O	water	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2_restored_C_black	R2_restored_other	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2_restored_D_shore	R2_restored_other	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	R2_restored_H2O	water	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	SF2_A_D1	other_sediment_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	SF2_A_D2	other_sediment_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	SF2_A_H2O	water	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	SF2_B_D1	other_sediment_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	SF2_B_D2	other_sediment_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	SF2_B_H2O	water	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	SF2_C_D1	other_sediment_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	SF2_C_D2	other_sediment_core	0	0	0	0			
+K16967	dmoA	rule_plus_top_scoring_v1	SF2_C_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R1_A_D1	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R1_A_D2	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R1_A_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R1_B_D1	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R1_B_D2	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R1_B_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R1_C_D1	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R1_C_D2	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R1_C_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2A_A_D1	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2A_A_D2	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2A_A_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2A_B_D1	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2A_B_D2	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2A_B_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2A_C_D1	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2A_C_D2	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2A_C_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2_A_D1	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2_A_D2	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2_A_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2_B_D1	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2_B_D2	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2_B_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2_C_D1	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2_C_D2	unrestored_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2_C_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2_restored_C_black	R2_restored_other	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2_restored_D_shore	R2_restored_other	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	R2_restored_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	SF2_A_D1	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	SF2_A_D2	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	SF2_A_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	SF2_B_D1	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	SF2_B_D2	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	SF2_B_H2O	water	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	SF2_C_D1	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	SF2_C_D2	other_sediment_core	0	0	0	0			
+K23996	mpnH/phnY*	rule_plus_top_scoring_v1	SF2_C_H2O	water	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R1_A_D1	unrestored_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R1_A_D2	unrestored_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R1_A_H2O	water	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R1_B_D1	unrestored_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R1_B_D2	unrestored_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R1_B_H2O	water	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R1_C_D1	unrestored_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R1_C_D2	unrestored_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R1_C_H2O	water	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2A_A_D1	other_sediment_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2A_A_D2	other_sediment_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2A_A_H2O	water	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2A_B_D1	other_sediment_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2A_B_D2	other_sediment_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2A_B_H2O	water	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2A_C_D1	other_sediment_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2A_C_D2	other_sediment_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2A_C_H2O	water	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2_A_D1	unrestored_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2_A_D2	unrestored_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2_A_H2O	water	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2_B_D1	unrestored_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2_B_D2	unrestored_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2_B_H2O	water	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2_C_D1	unrestored_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2_C_D2	unrestored_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2_C_H2O	water	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2_restored_C_black	R2_restored_other	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2_restored_D_shore	R2_restored_other	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	R2_restored_H2O	water	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	SF2_A_D1	other_sediment_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	SF2_A_D2	other_sediment_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	SF2_A_H2O	water	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	SF2_B_D1	other_sediment_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	SF2_B_D2	other_sediment_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	SF2_B_H2O	water	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	SF2_C_D1	other_sediment_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	SF2_C_D2	other_sediment_core	0	0	0	0			
+K05915	phnZ	rule_plus_top_scoring_v1	SF2_C_H2O	water	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R1_A_D1	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R1_A_D2	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R1_A_H2O	water	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R1_B_D1	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R1_B_D2	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R1_B_H2O	water	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R1_C_D1	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R1_C_D2	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R1_C_H2O	water	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2A_A_D1	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2A_A_D2	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2A_A_H2O	water	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2A_B_D1	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2A_B_D2	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2A_B_H2O	water	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2A_C_D1	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2A_C_D2	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2A_C_H2O	water	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2_A_D1	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2_A_D2	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2_A_H2O	water	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2_B_D1	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2_B_D2	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2_B_H2O	water	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2_C_D1	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2_C_D2	unrestored_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2_C_H2O	water	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2_restored_C_black	R2_restored_other	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2_restored_D_shore	R2_restored_other	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	R2_restored_H2O	water	1	9.57657	0.00347074	0.00426076	0	0	1
+K18049	mpnS	rule_plus_top_scoring_v1	SF2_A_D1	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	SF2_A_D2	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	SF2_A_H2O	water	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	SF2_B_D1	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	SF2_B_D2	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	SF2_B_H2O	water	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	SF2_C_D1	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	SF2_C_D2	other_sediment_core	0	0	0	0			
+K18049	mpnS	rule_plus_top_scoring_v1	SF2_C_H2O	water	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R1_A_D1	unrestored_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R1_A_D2	unrestored_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R1_A_H2O	water	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R1_B_D1	unrestored_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R1_B_D2	unrestored_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R1_B_H2O	water	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R1_C_D1	unrestored_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R1_C_D2	unrestored_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R1_C_H2O	water	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2A_A_D1	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2A_A_D2	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2A_A_H2O	water	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2A_B_D1	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2A_B_D2	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2A_B_H2O	water	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2A_C_D1	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2A_C_D2	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2A_C_H2O	water	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2_A_D1	unrestored_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2_A_D2	unrestored_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2_A_H2O	water	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2_B_D1	unrestored_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2_B_D2	unrestored_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2_B_H2O	water	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2_C_D1	unrestored_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2_C_D2	unrestored_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2_C_H2O	water	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2_restored_C_black	R2_restored_other	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2_restored_D_shore	R2_restored_other	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	R2_restored_H2O	water	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	SF2_A_D1	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	SF2_A_D2	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	SF2_A_H2O	water	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	SF2_B_D1	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	SF2_B_D2	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	SF2_B_H2O	water	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	SF2_C_D1	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	SF2_C_D2	other_sediment_core	0	0	0	0			
+K12905	hepD	rule_plus_top_scoring_v1	SF2_C_H2O	water	0	0	0	0			

@@ -1,0 +1,74 @@
+{
+ "population_mags": 13164,
+ "assemblies_with_mags": 713,
+ "quality_source_counts": {
+  "checkm2": 13164
+ },
+ "mags_with_r232_species": 6658,
+ "mags_de_novo_r232_adjacent": {
+  "low_af": 41,
+  "below_radius": 69,
+  "no_gtdbtk_value": 12
+ },
+ "clusters_de_novo_all_members_low_af_adjacent": 36,
+ "clusters_de_novo_excluding_low_af_fragment_clusters": 4254,
+ "qc_known_novel_edges": {
+  "species_level": 514,
+  "strain_level": 131
+ },
+ "mags_de_novo": 6506,
+ "species_clusters_total": 6198,
+ "clusters_r232": 1908,
+ "clusters_de_novo": 4290,
+ "clusters_with_a_mag_gt70_lt10": 4240,
+ "clusters_r232_with_a_mag_gt70_lt10": 1604,
+ "strain_clusters_total": 7046,
+ "mag_share_known_species_pct": 50.6,
+ "cluster_share_known_pct": 30.8,
+ "cluster_share_known_quality_clusters_pct": 37.8,
+ "novelty_depth_of_de_novo_mags": {
+  "s": 5648,
+  "g": 755,
+  "f": 67,
+  "c": 7,
+  "o": 23,
+  "p": 6
+ },
+ "novelty_depth_of_de_novo_clusters": {
+  "s": 3706,
+  "g": 506,
+  "o": 17,
+  "f": 50,
+  "c": 5,
+  "p": 6
+ },
+ "domains": {
+  "Bacteria": 12082,
+  "Archaea": 1082
+ },
+ "by_habitat_pct_known_species": {
+  "Peatlands": 56.5,
+  "Permafrost regions": 59.2,
+  "Wetlands": 42.1
+ },
+ "sites": 85,
+ "thresholds": {
+  "ani_species": 95.0,
+  "max_af_min_pct": 50.0,
+  "ani_strain": 99.0,
+  "site_km": 2.0,
+  "skani": "skani 0.3.1"
+ },
+ "novel_all_representatives_mags_with_species_level_hit": 2837,
+ "novel_all_representatives_de_novo_clusters_seen": 515,
+ "novel_hq_v2_mags_with_species_level_hit": 4,
+ "novel_hq_v2_de_novo_clusters_seen": 0,
+ "gtdb_r220_consolidated_mags_with_species_level_hit": 3168,
+ "r220_vs_r232": {
+  "r220_species_hits": 3168,
+  "r232_species": 6658,
+  "both": 3115,
+  "r232_only": 3543,
+  "r220_only": 53
+ }
+}

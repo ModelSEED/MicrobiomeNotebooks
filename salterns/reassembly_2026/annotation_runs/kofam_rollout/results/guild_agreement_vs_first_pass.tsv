@@ -1,0 +1,6 @@
+guild	first-pass MAGs	first-pass species	rollout MAGs	rollout species	shared: both	shared: first pass only	shared: rollout only
+methanogen	3	1	2	1	1	0	0
+mepn_consumer	87	35	78	23	16	1	2
+betaine_reducer	53	16	32	9	7	0	0
+methylamine_user	3	1	2	1	1	0	0
+tma_producer	0	0	0	0	0	0	0

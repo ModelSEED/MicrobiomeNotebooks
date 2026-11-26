@@ -1,0 +1,980 @@
+kegg_link	K00399	all=196	prok=196	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K00401	all=195	prok=195	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K00402	all=195	prok=195	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K04480	all=181	prok=181	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K14080	all=238	prok=237	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K16178	all=91	prok=90	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K16176	all=141	prok=141	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K14082	all=69	prok=69	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K14083	all=1489	prok=1488	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K25220	all=127	prok=126	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06166	all=1466	prok=1466	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06165	all=1504	prok=1504	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06164	all=1500	prok=1500	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06163	all=1490	prok=1490	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K05781	all=1494	prok=1494	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K05780	all=1484	prok=1484	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06162	all=2132	prok=2132	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21579	all=77	prok=77	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21578	all=79	prok=79	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K10672	all=317	prok=316	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K10671	all=238	prok=237	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21584	all=20	prok=20	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21583	all=26	prok=26	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K20038	all=288	prok=288	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K20037	all=253	prok=253	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K22443	all=432	prok=432	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K22444	all=298	prok=298	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K18049	all=1	prok=1	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K10944	all=124	prok=124	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K16157	all=26	prok=26	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K00399	all=196	prok=196	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K00401	all=195	prok=195	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K00402	all=195	prok=195	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K04480	all=181	prok=181	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K14080	all=238	prok=237	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K16178	all=91	prok=90	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K16176	all=141	prok=141	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K14082	all=69	prok=69	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K14083	all=1489	prok=1488	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K25220	all=127	prok=126	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06166	all=1466	prok=1466	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06165	all=1504	prok=1504	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06164	all=1500	prok=1500	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06163	all=1490	prok=1490	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K05781	all=1494	prok=1494	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K05780	all=1484	prok=1484	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06162	all=2132	prok=2132	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21579	all=77	prok=77	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21578	all=79	prok=79	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K10672	all=317	prok=316	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K10671	all=238	prok=237	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21584	all=20	prok=20	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21583	all=26	prok=26	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K20038	all=288	prok=288	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K20037	all=253	prok=253	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K22443	all=432	prok=432	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K22444	all=298	prok=298	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K18049	all=1	prok=1	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K10944	all=124	prok=124	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K16157	all=26	prok=26	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K12905	all=1	prok=0	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K00656	all=3399	prok=3399	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K18427	all=37	prok=36	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K07540	all=18	prok=17	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06866	all=1115	prok=890	euk=0	unknown_org=225	selected_prok=v1_copy	selected_euk=0
+kegg_link	K04069	all=7323	prok=7318	euk=5	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K04070	all=863	prok=782	euk=81	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K00499	all=239	prok=0	euk=238	unknown_org=1	selected_prok=v1_copy	selected_euk=238
+kegg_link	K03862	all=654	prok=652	euk=0	unknown_org=2	selected_prok=v1_copy	selected_euk=0
+kegg_link	K00479	all=1133	prok=1133	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K03863	all=823	prok=821	euk=0	unknown_org=2	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21832	all=1012	prok=1012	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K18223	all=189	prok=189	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K15760	all=136	prok=135	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K22353	all=7	prok=7	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21317	all=7	prok=6	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K01599	all=10173	prok=8548	euk=1625	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02041	all=4500	prok=4500	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02031	all=29081	prok=29081	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02032	all=26212	prok=26212	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02003	all=35345	prok=35294	euk=51	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K01990	all=58262	prok=58262	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02886	all=11996	prok=10538	euk=1458	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02867	all=12115	prok=10574	euk=1541	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02982	all=10836	prok=10514	euk=322	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02948	all=12000	prok=10507	euk=1493	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02950	all=12084	prok=10502	euk=1582	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02996	all=12124	prok=10543	euk=1581	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02926	all=11572	prok=10075	euk=1497	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02930	all=2340	prok=467	euk=1873	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02878	all=11202	prok=10082	euk=1120	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02866	all=2871	prok=470	euk=2401	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K18277	all=440	prok=440	euk=0	unknown_org=0	selected_prok=440	selected_euk=0
+kegg_link	K28979	all=247	prok=247	euk=0	unknown_org=0	selected_prok=247	selected_euk=0
+kegg_link	K07811	all=433	prok=432	euk=0	unknown_org=1	selected_prok=432	selected_euk=0
+kegg_link	K07812	all=686	prok=686	euk=0	unknown_org=0	selected_prok=686	selected_euk=0
+kegg_link	K00317	all=275	prok=275	euk=0	unknown_org=0	selected_prok=275	selected_euk=0
+kegg_link	K22342	all=498	prok=498	euk=0	unknown_org=0	selected_prok=498	selected_euk=0
+kegg_link	K22343	all=421	prok=421	euk=0	unknown_org=0	selected_prok=421	selected_euk=0
+kegg_link	K22344	all=429	prok=429	euk=0	unknown_org=0	selected_prok=429	selected_euk=0
+kegg_link	K15228	all=301	prok=301	euk=0	unknown_org=0	selected_prok=301	selected_euk=0
+kegg_link	K15229	all=250	prok=250	euk=0	unknown_org=0	selected_prok=250	selected_euk=0
+kegg_link	K01949	all=55	prok=55	euk=0	unknown_org=0	selected_prok=55	selected_euk=0
+kegg_link	K22081	all=704	prok=704	euk=0	unknown_org=0	selected_prok=704	selected_euk=0
+kegg_link	K22082	all=717	prok=717	euk=0	unknown_org=0	selected_prok=717	selected_euk=0
+kegg_link	K22083	all=1135	prok=1135	euk=0	unknown_org=0	selected_prok=1135	selected_euk=0
+kegg_link	K22084	all=542	prok=542	euk=0	unknown_org=0	selected_prok=542	selected_euk=0
+kegg_link	K22085	all=545	prok=545	euk=0	unknown_org=0	selected_prok=545	selected_euk=0
+kegg_link	K22086	all=531	prok=531	euk=0	unknown_org=0	selected_prok=531	selected_euk=0
+kegg_link	K22087	all=495	prok=495	euk=0	unknown_org=0	selected_prok=495	selected_euk=0
+kegg_link	K03320	all=15585	prok=12067	euk=3518	unknown_org=0	selected_prok=3489	selected_euk=300
+kegg_link	K14084	all=225	prok=225	euk=0	unknown_org=0	selected_prok=225	selected_euk=0
+kegg_link	K16179	all=320	prok=320	euk=0	unknown_org=0	selected_prok=320	selected_euk=0
+kegg_link	K16177	all=95	prok=95	euk=0	unknown_org=0	selected_prok=95	selected_euk=0
+kegg_link	K14081	all=163	prok=163	euk=0	unknown_org=0	selected_prok=163	selected_euk=0
+kegg_link	K16954	all=22	prok=22	euk=0	unknown_org=0	selected_prok=22	selected_euk=0
+kegg_link	K14028	all=129	prok=129	euk=0	unknown_org=0	selected_prok=129	selected_euk=0
+kegg_link	K14029	all=127	prok=127	euk=0	unknown_org=0	selected_prok=127	selected_euk=0
+kegg_link	K23995	all=669	prok=669	euk=0	unknown_org=0	selected_prok=669	selected_euk=0
+kegg_link	K00093	all=3	prok=2	euk=0	unknown_org=1	selected_prok=2	selected_euk=0
+kegg_link	K17067	all=180	prok=179	euk=0	unknown_org=1	selected_prok=179	selected_euk=0
+kegg_link	K17066	all=259	prok=0	euk=259	unknown_org=0	selected_prok=0	selected_euk=259
+kegg_link	K00121	all=9530	prok=6501	euk=3026	unknown_org=3	selected_prok=3003	selected_euk=300
+kegg_link	K03396	all=475	prok=418	euk=57	unknown_org=0	selected_prok=418	selected_euk=57
+kegg_link	K01070	all=5178	prok=3790	euk=1388	unknown_org=0	selected_prok=3000	selected_euk=300
+kegg_link	K10713	all=844	prok=844	euk=0	unknown_org=0	selected_prok=844	selected_euk=0
+kegg_link	K00148	all=1765	prok=1765	euk=0	unknown_org=0	selected_prok=1765	selected_euk=0
+kegg_link	K00122	all=983	prok=446	euk=537	unknown_org=0	selected_prok=446	selected_euk=300
+kegg_link	K01491	all=11914	prok=11215	euk=699	unknown_org=0	selected_prok=3270	selected_euk=300
+kegg_link	K01433	all=7924	prok=7543	euk=381	unknown_org=0	selected_prok=3131	selected_euk=300
+kegg_link	K01938	all=4202	prok=3941	euk=261	unknown_org=0	selected_prok=3067	selected_euk=261
+kegg_link	K00544	all=1407	prok=94	euk=1313	unknown_org=0	selected_prok=94	selected_euk=300
+kegg_link	K00315	all=1649	prok=1027	euk=622	unknown_org=0	selected_prok=1027	selected_euk=300
+kegg_link	K00309	all=469	prok=412	euk=56	unknown_org=1	selected_prok=412	selected_euk=56
+kegg_link	K21833	all=586	prok=586	euk=0	unknown_org=0	selected_prok=586	selected_euk=0
+kegg_link	K00314	all=843	prok=0	euk=843	unknown_org=0	selected_prok=0	selected_euk=300
+kegg_link	K00301	all=1222	prok=1221	euk=0	unknown_org=1	selected_prok=1221	selected_euk=0
+kegg_link	K00302	all=1666	prok=1665	euk=0	unknown_org=1	selected_prok=1665	selected_euk=0
+kegg_link	K00303	all=1660	prok=1659	euk=0	unknown_org=1	selected_prok=1659	selected_euk=0
+kegg_link	K00304	all=1623	prok=1622	euk=0	unknown_org=1	selected_prok=1622	selected_euk=0
+kegg_link	K00305	all=1617	prok=1616	euk=0	unknown_org=1	selected_prok=1616	selected_euk=0
+kegg_link	K00600	all=16511	prok=12963	euk=3544	unknown_org=4	selected_prok=3493	selected_euk=300
+kegg_link	K01752	all=10922	prok=10922	euk=0	unknown_org=0	selected_prok=3013	selected_euk=0
+kegg_link	K00108	all=3185	prok=2476	euk=709	unknown_org=0	selected_prok=2476	selected_euk=300
+kegg_link	K00130	all=5963	prok=5508	euk=455	unknown_org=0	selected_prok=3045	selected_euk=300
+kegg_link	K11440	all=115	prok=115	euk=0	unknown_org=0	selected_prok=115	selected_euk=0
+kegg_link	K24071	all=68	prok=67	euk=0	unknown_org=1	selected_prok=67	selected_euk=0
+kegg_link	K18897	all=138	prok=136	euk=0	unknown_org=2	selected_prok=136	selected_euk=0
+kegg_link	K16967	all=1	prok=0	euk=0	unknown_org=1	selected_prok=0	selected_euk=0
+kegg_link	K16964	all=7	prok=6	euk=0	unknown_org=1	selected_prok=6	selected_euk=0
+kegg_link	K16965	all=7	prok=6	euk=0	unknown_org=1	selected_prok=6	selected_euk=0
+kegg_link	K16966	all=4	prok=3	euk=0	unknown_org=1	selected_prok=3	selected_euk=0
+kegg_link	K07306	all=977	prok=976	euk=0	unknown_org=1	selected_prok=976	selected_euk=0
+kegg_link	K21310	all=566	prok=565	euk=0	unknown_org=1	selected_prok=565	selected_euk=0
+kegg_link	K17285	all=2176	prok=588	euk=1588	unknown_org=0	selected_prok=588	selected_euk=300
+kegg_link	K17228	all=1225	prok=1225	euk=0	unknown_org=0	selected_prok=1225	selected_euk=0
+kegg_link	K04091	all=4919	prok=4919	euk=0	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K16968	all=28	prok=26	euk=0	unknown_org=2	selected_prok=26	selected_euk=0
+kegg_link	K16969	all=26	prok=25	euk=0	unknown_org=1	selected_prok=25	selected_euk=0
+kegg_link	K17486	all=89	prok=89	euk=0	unknown_org=0	selected_prok=89	selected_euk=0
+kegg_link	K20034	all=2878	prok=2878	euk=0	unknown_org=0	selected_prok=2878	selected_euk=0
+kegg_link	K20035	all=5584	prok=5584	euk=0	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K20036	all=489	prok=489	euk=0	unknown_org=0	selected_prok=489	selected_euk=0
+kegg_link	K16953	all=114	prok=113	euk=0	unknown_org=1	selected_prok=113	selected_euk=0
+kegg_link	K28067	all=76	prok=75	euk=0	unknown_org=1	selected_prok=75	selected_euk=0
+kegg_link	K28068	all=12	prok=12	euk=0	unknown_org=0	selected_prok=12	selected_euk=0
+kegg_link	K28069	all=37	prok=36	euk=0	unknown_org=1	selected_prok=36	selected_euk=0
+kegg_link	K28072	all=3	prok=3	euk=0	unknown_org=0	selected_prok=3	selected_euk=0
+kegg_link	K28073	all=63	prok=62	euk=0	unknown_org=1	selected_prok=62	selected_euk=0
+kegg_link	K02044	all=4871	prok=4871	euk=0	unknown_org=0	selected_prok=3139	selected_euk=0
+kegg_link	K23996	all=2	prok=2	euk=0	unknown_org=0	selected_prok=2	selected_euk=0
+kegg_link	K05915	all=2	prok=2	euk=0	unknown_org=0	selected_prok=2	selected_euk=0
+kegg_link	K00925	all=8889	prok=8746	euk=142	unknown_org=1	selected_prok=3030	selected_euk=142
+kegg_link	K00625	all=3519	prok=3519	euk=0	unknown_org=0	selected_prok=3031	selected_euk=0
+kegg_link	K13788	all=3760	prok=3760	euk=0	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K15024	all=960	prok=960	euk=0	unknown_org=0	selected_prok=960	selected_euk=0
+kegg_link	K04020	all=259	prok=259	euk=0	unknown_org=0	selected_prok=259	selected_euk=0
+kegg_link	K01895	all=16848	prok=14196	euk=2652	unknown_org=0	selected_prok=4228	selected_euk=300
+kegg_link	K00192	all=154	prok=153	euk=0	unknown_org=1	selected_prok=153	selected_euk=0
+kegg_link	K00195	all=151	prok=150	euk=0	unknown_org=1	selected_prok=150	selected_euk=0
+kegg_link	K00193	all=158	prok=157	euk=0	unknown_org=1	selected_prok=157	selected_euk=0
+kegg_link	K00194	all=307	prok=306	euk=0	unknown_org=1	selected_prok=306	selected_euk=0
+kegg_link	K00197	all=330	prok=329	euk=0	unknown_org=1	selected_prok=329	selected_euk=0
+kegg_link	K00200	all=568	prok=568	euk=0	unknown_org=0	selected_prok=568	selected_euk=0
+kegg_link	K00201	all=626	prok=626	euk=0	unknown_org=0	selected_prok=626	selected_euk=0
+kegg_link	K00202	all=546	prok=546	euk=0	unknown_org=0	selected_prok=546	selected_euk=0
+kegg_link	K00203	all=289	prok=289	euk=0	unknown_org=0	selected_prok=289	selected_euk=0
+kegg_link	K00204	all=64	prok=64	euk=0	unknown_org=0	selected_prok=64	selected_euk=0
+kegg_link	K00205	all=252	prok=252	euk=0	unknown_org=0	selected_prok=252	selected_euk=0
+kegg_link	K11260	all=187	prok=187	euk=0	unknown_org=0	selected_prok=187	selected_euk=0
+kegg_link	K11261	all=562	prok=562	euk=0	unknown_org=0	selected_prok=562	selected_euk=0
+kegg_link	K00672	all=541	prok=541	euk=0	unknown_org=0	selected_prok=541	selected_euk=0
+kegg_link	K01499	all=591	prok=591	euk=0	unknown_org=0	selected_prok=591	selected_euk=0
+kegg_link	K00320	all=759	prok=759	euk=0	unknown_org=0	selected_prok=759	selected_euk=0
+kegg_link	K00577	all=303	prok=303	euk=0	unknown_org=0	selected_prok=303	selected_euk=0
+kegg_link	K00578	all=140	prok=140	euk=0	unknown_org=0	selected_prok=140	selected_euk=0
+kegg_link	K00579	all=141	prok=141	euk=0	unknown_org=0	selected_prok=141	selected_euk=0
+kegg_link	K00580	all=140	prok=140	euk=0	unknown_org=0	selected_prok=140	selected_euk=0
+kegg_link	K00581	all=140	prok=140	euk=0	unknown_org=0	selected_prok=140	selected_euk=0
+kegg_link	K00582	all=114	prok=114	euk=0	unknown_org=0	selected_prok=114	selected_euk=0
+kegg_link	K00583	all=115	prok=115	euk=0	unknown_org=0	selected_prok=115	selected_euk=0
+kegg_link	K00584	all=215	prok=215	euk=0	unknown_org=0	selected_prok=215	selected_euk=0
+kegg_link	K02567	all=1564	prok=1564	euk=0	unknown_org=0	selected_prok=1564	selected_euk=0
+kegg_link	K00370	all=3110	prok=3109	euk=0	unknown_org=1	selected_prok=3000	selected_euk=0
+kegg_link	K22015	all=1097	prok=1097	euk=0	unknown_org=0	selected_prok=1097	selected_euk=0
+kegg_link	K00123	all=7002	prok=7002	euk=0	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K08351	all=1256	prok=1256	euk=0	unknown_org=0	selected_prok=1256	selected_euk=0
+kegg_link	K08352	all=578	prok=578	euk=0	unknown_org=0	selected_prok=578	selected_euk=0
+kegg_link	K07309	all=300	prok=300	euk=0	unknown_org=0	selected_prok=300	selected_euk=0
+kegg_link	K08348	all=658	prok=658	euk=0	unknown_org=0	selected_prok=658	selected_euk=0
+kegg_link	K22516	all=353	prok=353	euk=0	unknown_org=0	selected_prok=353	selected_euk=0
+kegg_link	K05299	all=157	prok=157	euk=0	unknown_org=0	selected_prok=157	selected_euk=0
+kegg_link	K07307	all=1082	prok=1081	euk=0	unknown_org=1	selected_prok=1081	selected_euk=0
+kegg_link	K00371	all=3115	prok=3114	euk=0	unknown_org=1	selected_prok=3000	selected_euk=0
+kegg_link	K00124	all=4589	prok=4589	euk=0	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K00374	all=3021	prok=3021	euk=0	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K00001	all=97	prok=0	euk=97	unknown_org=0	selected_prok=0	selected_euk=0
+kegg_link	K13953	all=7436	prok=6629	euk=807	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K17068	all=2	prok=1	euk=0	unknown_org=1	selected_prok=1	selected_euk=0
+kegg_link	K00086	all=190	prok=190	euk=0	unknown_org=0	selected_prok=190	selected_euk=0
+kegg_link	K08325	all=1815	prok=1815	euk=0	unknown_org=0	selected_prok=1815	selected_euk=0
+kegg_link	K04072	all=2699	prok=2688	euk=11	unknown_org=0	selected_prok=2688	selected_euk=0
+kegg_link	K00048	all=648	prok=648	euk=0	unknown_org=0	selected_prok=648	selected_euk=0
+kegg_link	K13921	all=258	prok=258	euk=0	unknown_org=0	selected_prok=258	selected_euk=0
+kegg_link	K17755	all=306	prok=305	euk=0	unknown_org=1	selected_prok=305	selected_euk=0
+kegg_link	K00128	all=19585	prok=13444	euk=6141	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K00135	all=14889	prok=14512	euk=377	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K00140	all=9355	prok=7719	euk=1634	unknown_org=2	selected_prok=3000	selected_euk=0
+kegg_link	K00146	all=1689	prok=1689	euk=0	unknown_org=0	selected_prok=1689	selected_euk=0
+kegg_link	K00138	all=4633	prok=4633	euk=0	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K14519	all=584	prok=584	euk=0	unknown_org=0	selected_prok=584	selected_euk=0
+kegg_link	K00285	all=5601	prok=5600	euk=0	unknown_org=1	selected_prok=3000	selected_euk=0
+kegg_link	K03153	all=4395	prok=4395	euk=0	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K00111	all=11942	prok=10386	euk=1556	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K15736	all=1855	prok=1855	euk=0	unknown_org=0	selected_prok=1855	selected_euk=0
+kegg_link	K09471	all=4066	prok=4066	euk=0	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K00306	all=1693	prok=0	euk=1693	unknown_org=0	selected_prok=0	selected_euk=0
+kegg_link	K19191	all=2	prok=1	euk=0	unknown_org=1	selected_prok=1	selected_euk=0
+kegg_link	K00605	all=9667	prok=8277	euk=1390	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K06980	all=5863	prok=5861	euk=2	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K20155	all=14	prok=13	euk=0	unknown_org=1	selected_prok=13	selected_euk=0
+kegg_link	K01915	all=25047	prok=21542	euk=3502	unknown_org=3	selected_prok=3000	selected_euk=0
+kegg_link	K00265	all=7178	prok=7177	euk=0	unknown_org=1	selected_prok=3000	selected_euk=0
+kegg_link	K00266	all=8813	prok=8797	euk=15	unknown_org=1	selected_prok=3000	selected_euk=0
+kegg_link	K00284	all=925	prok=673	euk=252	unknown_org=0	selected_prok=673	selected_euk=0
+kegg_link	K00548	all=9402	prok=8711	euk=691	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K16955	all=19	prok=19	euk=0	unknown_org=0	selected_prok=19	selected_euk=0
+kegg_link	K25221	all=17	prok=17	euk=0	unknown_org=0	selected_prok=17	selected_euk=0
+kegg_link	K26930	all=27	prok=27	euk=0	unknown_org=0	selected_prok=27	selected_euk=0
+kegg_link	K25915	all=13	prok=13	euk=0	unknown_org=0	selected_prok=13	selected_euk=0
+kegg_link	K25917	all=7	prok=7	euk=0	unknown_org=0	selected_prok=7	selected_euk=0
+kegg_link	K15023	all=408	prok=408	euk=0	unknown_org=0	selected_prok=408	selected_euk=0
+kegg_link	K00485	all=4749	prok=0	euk=4749	unknown_org=0	selected_prok=0	selected_euk=0
+kegg_link	K03379	all=321	prok=264	euk=56	unknown_org=1	selected_prok=264	selected_euk=0
+kegg_link	K00219	all=3377	prok=3364	euk=13	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K10680	all=6251	prok=6251	euk=0	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K00354	all=1657	prok=1056	euk=601	unknown_org=0	selected_prok=1056	selected_euk=0
+kegg_link	K01897	all=30270	prok=22700	euk=7570	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K01908	all=3600	prok=2623	euk=977	unknown_org=0	selected_prok=2623	selected_euk=0
+kegg_link	K02182	all=1391	prok=1391	euk=0	unknown_org=0	selected_prok=1391	selected_euk=0
+kegg_link	K01907	all=3458	prok=2448	euk=1010	unknown_org=0	selected_prok=2448	selected_euk=0
+kegg_link	K00249	all=15150	prok=13570	euk=1580	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K06445	all=2786	prok=2786	euk=0	unknown_org=0	selected_prok=2786	selected_euk=0
+kegg_link	K00248	all=3229	prok=2241	euk=988	unknown_org=0	selected_prok=2241	selected_euk=0
+kegg_link	K00253	all=4036	prok=2696	euk=1340	unknown_org=0	selected_prok=2696	selected_euk=0
+kegg_link	K01692	all=5041	prok=4819	euk=222	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K01715	all=4290	prok=4290	euk=0	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K13766	all=2428	prok=2427	euk=1	unknown_org=0	selected_prok=2427	selected_euk=0
+kegg_link	K15866	all=5440	prok=5440	euk=0	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K00929	all=1277	prok=1277	euk=0	unknown_org=0	selected_prok=1277	selected_euk=0
+kegg_link	K00932	all=335	prok=335	euk=0	unknown_org=0	selected_prok=335	selected_euk=0
+kegg_link	K00634	all=1069	prok=1069	euk=0	unknown_org=0	selected_prok=1069	selected_euk=0
+kegg_link	K00198	all=739	prok=739	euk=0	unknown_org=0	selected_prok=739	selected_euk=0
+kegg_link	K14138	all=201	prok=201	euk=0	unknown_org=0	selected_prok=201	selected_euk=0
+kegg_link	K00058	all=15981	prok=14078	euk=1903	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K00090	all=1958	prok=1953	euk=5	unknown_org=0	selected_prok=1953	selected_euk=0
+kegg_link	K12972	all=2927	prok=2927	euk=0	unknown_org=0	selected_prok=2927	selected_euk=0
+kegg_link	K03778	all=3561	prok=3471	euk=90	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K03473	all=1805	prok=1805	euk=0	unknown_org=0	selected_prok=1805	selected_euk=0
+kegg_link	K11175	all=9198	prok=9195	euk=0	unknown_org=3	selected_prok=3000	selected_euk=0
+kegg_link	K00604	all=12794	prok=11500	euk=1293	unknown_org=1	selected_prok=3000	selected_euk=0
+kegg_link	K00547	all=3092	prok=1398	euk=1692	unknown_org=2	selected_prok=1398	selected_euk=0
+kegg_link	K00114	all=1126	prok=1125	euk=0	unknown_org=1	selected_prok=1125	selected_euk=0
+kegg_link	K17760	all=518	prok=516	euk=0	unknown_org=2	selected_prok=516	selected_euk=0
+kegg_link	K01262	all=14387	prok=11121	euk=3266	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K01271	all=1199	prok=1199	euk=0	unknown_org=0	selected_prok=1199	selected_euk=0
+kegg_link	K01265	all=21019	prok=16346	euk=4673	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K01905	all=338	prok=338	euk=0	unknown_org=0	selected_prok=338	selected_euk=0
+kegg_link	K22224	all=248	prok=248	euk=0	unknown_org=0	selected_prok=248	selected_euk=0
+kegg_link	K24012	all=1523	prok=1521	euk=2	unknown_org=0	selected_prok=1521	selected_euk=0
+kegg_link	K18593	all=22	prok=22	euk=0	unknown_org=0	selected_prok=22	selected_euk=0
+kegg_link	K18594	all=24	prok=24	euk=0	unknown_org=0	selected_prok=24	selected_euk=0
+kegg_link	K08298	all=279	prok=278	euk=0	unknown_org=1	selected_prok=278	selected_euk=0
+kegg_link	K07749	all=884	prok=883	euk=0	unknown_org=1	selected_prok=883	selected_euk=0
+kegg_link	K15871	all=6	prok=2	euk=0	unknown_org=4	selected_prok=2	selected_euk=0
+kegg_link	K18702	all=851	prok=850	euk=0	unknown_org=1	selected_prok=850	selected_euk=0
+kegg_link	K13607	all=28	prok=27	euk=0	unknown_org=1	selected_prok=27	selected_euk=0
+kegg_link	K20882	all=28	prok=28	euk=0	unknown_org=0	selected_prok=28	selected_euk=0
+kegg_link	K18896	all=138	prok=136	euk=0	unknown_org=2	selected_prok=136	selected_euk=0
+kegg_link	K13042	all=10	prok=10	euk=0	unknown_org=0	selected_prok=10	selected_euk=0
+kegg_link	K21195	all=150	prok=101	euk=48	unknown_org=1	selected_prok=101	selected_euk=0
+kegg_link	K21196	all=201	prok=197	euk=0	unknown_org=4	selected_prok=197	selected_euk=0
+kegg_link	K24290	all=92	prok=91	euk=0	unknown_org=1	selected_prok=91	selected_euk=0
+kegg_link	K24291	all=120	prok=119	euk=0	unknown_org=1	selected_prok=119	selected_euk=0
+kegg_link	K13812	all=152	prok=152	euk=0	unknown_org=0	selected_prok=152	selected_euk=0
+kegg_link	K00494	all=20	prok=19	euk=0	unknown_org=1	selected_prok=19	selected_euk=0
+kegg_link	K20938	all=2532	prok=2532	euk=0	unknown_org=0	selected_prok=2532	selected_euk=0
+kegg_link	K15510	all=766	prok=766	euk=0	unknown_org=0	selected_prok=766	selected_euk=0
+kegg_link	K05337	all=6443	prok=6442	euk=0	unknown_org=1	selected_prok=3000	selected_euk=0
+kegg_link	K03616	all=3829	prok=3829	euk=0	unknown_org=0	selected_prok=3000	selected_euk=0
+kegg_link	K00176	all=1476	prok=1476	euk=0	unknown_org=0	selected_prok=1476	selected_euk=0
+kegg_link	K14127	all=659	prok=659	euk=0	unknown_org=0	selected_prok=659	selected_euk=0
+kegg_link	K03855	all=1291	prok=1291	euk=0	unknown_org=0	selected_prok=1291	selected_euk=0
+kegg_link	K00196	all=672	prok=672	euk=0	unknown_org=0	selected_prok=672	selected_euk=0
+kegg_link	K02040	all=13862	prok=13842	euk=0	unknown_org=20	selected_prok=3000	selected_euk=0
+kegg_link	K11081	all=505	prok=505	euk=0	unknown_org=0	selected_prok=505	selected_euk=0
+kegg_aaseq	K18277	requested=440	received=440
+kegg_aaseq	K28979	requested=247	received=247
+kegg_aaseq	K07811	requested=432	received=432
+kegg_aaseq	K07812	requested=686	received=686
+kegg_aaseq	K00317	requested=275	received=275
+kegg_aaseq	K22342	requested=498	received=498
+=== restart with caps 1500/1000 Wed Nov 25 03:26:02 PM CST 2026
+kegg_link	K00399	all=196	prok=196	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K00401	all=195	prok=195	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K00402	all=195	prok=195	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K04480	all=181	prok=181	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K14080	all=238	prok=237	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K16178	all=91	prok=90	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K16176	all=141	prok=141	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K14082	all=69	prok=69	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K14083	all=1489	prok=1488	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K25220	all=127	prok=126	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06166	all=1466	prok=1466	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06165	all=1504	prok=1504	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06164	all=1500	prok=1500	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06163	all=1490	prok=1490	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K05781	all=1494	prok=1494	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K05780	all=1484	prok=1484	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06162	all=2132	prok=2132	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21579	all=77	prok=77	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21578	all=79	prok=79	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K10672	all=317	prok=316	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K10671	all=238	prok=237	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21584	all=20	prok=20	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21583	all=26	prok=26	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K20038	all=288	prok=288	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K20037	all=253	prok=253	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K22443	all=432	prok=432	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K22444	all=298	prok=298	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K18049	all=1	prok=1	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K10944	all=124	prok=124	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K16157	all=26	prok=26	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K12905	all=1	prok=0	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K00656	all=3399	prok=3399	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K18427	all=37	prok=36	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K07540	all=18	prok=17	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06866	all=1115	prok=890	euk=0	unknown_org=225	selected_prok=v1_copy	selected_euk=0
+kegg_link	K04069	all=7323	prok=7318	euk=5	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K04070	all=863	prok=782	euk=81	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K00499	all=239	prok=0	euk=238	unknown_org=1	selected_prok=v1_copy	selected_euk=238
+kegg_link	K03862	all=654	prok=652	euk=0	unknown_org=2	selected_prok=v1_copy	selected_euk=0
+kegg_link	K00479	all=1133	prok=1133	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K03863	all=823	prok=821	euk=0	unknown_org=2	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21832	all=1012	prok=1012	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K18223	all=189	prok=189	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K15760	all=136	prok=135	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K22353	all=7	prok=7	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21317	all=7	prok=6	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K01599	all=10173	prok=8548	euk=1625	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02041	all=4500	prok=4500	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02031	all=29081	prok=29081	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02032	all=26212	prok=26212	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02003	all=35345	prok=35294	euk=51	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K01990	all=58262	prok=58262	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02886	all=11996	prok=10538	euk=1458	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02867	all=12115	prok=10574	euk=1541	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02982	all=10836	prok=10514	euk=322	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02948	all=12000	prok=10507	euk=1493	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02950	all=12084	prok=10502	euk=1582	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02996	all=12124	prok=10543	euk=1581	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02926	all=11572	prok=10075	euk=1497	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02930	all=2340	prok=467	euk=1873	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02878	all=11202	prok=10082	euk=1120	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02866	all=2871	prok=470	euk=2401	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K18277	all=440	prok=440	euk=0	unknown_org=0	selected_prok=440	selected_euk=0
+kegg_link	K28979	all=247	prok=247	euk=0	unknown_org=0	selected_prok=247	selected_euk=0
+kegg_link	K07811	all=433	prok=432	euk=0	unknown_org=1	selected_prok=432	selected_euk=0
+kegg_link	K07812	all=686	prok=686	euk=0	unknown_org=0	selected_prok=686	selected_euk=0
+kegg_link	K00317	all=275	prok=275	euk=0	unknown_org=0	selected_prok=275	selected_euk=0
+kegg_link	K22342	all=498	prok=498	euk=0	unknown_org=0	selected_prok=498	selected_euk=0
+kegg_link	K22343	all=421	prok=421	euk=0	unknown_org=0	selected_prok=421	selected_euk=0
+kegg_link	K22344	all=429	prok=429	euk=0	unknown_org=0	selected_prok=429	selected_euk=0
+kegg_link	K15228	all=301	prok=301	euk=0	unknown_org=0	selected_prok=301	selected_euk=0
+kegg_link	K15229	all=250	prok=250	euk=0	unknown_org=0	selected_prok=250	selected_euk=0
+kegg_link	K01949	all=55	prok=55	euk=0	unknown_org=0	selected_prok=55	selected_euk=0
+kegg_link	K22081	all=704	prok=704	euk=0	unknown_org=0	selected_prok=704	selected_euk=0
+kegg_link	K22082	all=717	prok=717	euk=0	unknown_org=0	selected_prok=717	selected_euk=0
+kegg_link	K22083	all=1135	prok=1135	euk=0	unknown_org=0	selected_prok=1135	selected_euk=0
+kegg_link	K22084	all=542	prok=542	euk=0	unknown_org=0	selected_prok=542	selected_euk=0
+kegg_link	K22085	all=545	prok=545	euk=0	unknown_org=0	selected_prok=545	selected_euk=0
+kegg_link	K22086	all=531	prok=531	euk=0	unknown_org=0	selected_prok=531	selected_euk=0
+kegg_link	K22087	all=495	prok=495	euk=0	unknown_org=0	selected_prok=495	selected_euk=0
+kegg_link	K03320	all=15585	prok=12067	euk=3518	unknown_org=0	selected_prok=1989	selected_euk=300
+kegg_link	K14084	all=225	prok=225	euk=0	unknown_org=0	selected_prok=225	selected_euk=0
+kegg_link	K16179	all=320	prok=320	euk=0	unknown_org=0	selected_prok=320	selected_euk=0
+kegg_link	K16177	all=95	prok=95	euk=0	unknown_org=0	selected_prok=95	selected_euk=0
+kegg_link	K14081	all=163	prok=163	euk=0	unknown_org=0	selected_prok=163	selected_euk=0
+kegg_link	K16954	all=22	prok=22	euk=0	unknown_org=0	selected_prok=22	selected_euk=0
+kegg_link	K14028	all=129	prok=129	euk=0	unknown_org=0	selected_prok=129	selected_euk=0
+kegg_link	K14029	all=127	prok=127	euk=0	unknown_org=0	selected_prok=127	selected_euk=0
+kegg_link	K23995	all=669	prok=669	euk=0	unknown_org=0	selected_prok=669	selected_euk=0
+kegg_link	K00093	all=3	prok=2	euk=0	unknown_org=1	selected_prok=2	selected_euk=0
+kegg_link	K17067	all=180	prok=179	euk=0	unknown_org=1	selected_prok=179	selected_euk=0
+kegg_link	K17066	all=259	prok=0	euk=259	unknown_org=0	selected_prok=0	selected_euk=259
+kegg_link	K00121	all=9530	prok=6501	euk=3026	unknown_org=3	selected_prok=1503	selected_euk=300
+kegg_link	K03396	all=475	prok=418	euk=57	unknown_org=0	selected_prok=418	selected_euk=57
+kegg_link	K01070	all=5178	prok=3790	euk=1388	unknown_org=0	selected_prok=1500	selected_euk=300
+kegg_link	K10713	all=844	prok=844	euk=0	unknown_org=0	selected_prok=844	selected_euk=0
+kegg_link	K00148	all=1765	prok=1765	euk=0	unknown_org=0	selected_prok=1559	selected_euk=0
+kegg_link	K00122	all=983	prok=446	euk=537	unknown_org=0	selected_prok=446	selected_euk=300
+kegg_link	K01491	all=11914	prok=11215	euk=699	unknown_org=0	selected_prok=1770	selected_euk=300
+kegg_link	K01433	all=7924	prok=7543	euk=381	unknown_org=0	selected_prok=1631	selected_euk=300
+kegg_link	K01938	all=4202	prok=3941	euk=261	unknown_org=0	selected_prok=1567	selected_euk=261
+kegg_link	K00544	all=1407	prok=94	euk=1313	unknown_org=0	selected_prok=94	selected_euk=300
+kegg_link	K00315	all=1649	prok=1027	euk=622	unknown_org=0	selected_prok=1027	selected_euk=300
+kegg_link	K00309	all=469	prok=412	euk=56	unknown_org=1	selected_prok=412	selected_euk=56
+kegg_link	K21833	all=586	prok=586	euk=0	unknown_org=0	selected_prok=586	selected_euk=0
+kegg_link	K00314	all=843	prok=0	euk=843	unknown_org=0	selected_prok=0	selected_euk=300
+kegg_link	K00301	all=1222	prok=1221	euk=0	unknown_org=1	selected_prok=1221	selected_euk=0
+kegg_link	K00302	all=1666	prok=1665	euk=0	unknown_org=1	selected_prok=1500	selected_euk=0
+kegg_link	K00303	all=1660	prok=1659	euk=0	unknown_org=1	selected_prok=1500	selected_euk=0
+kegg_link	K00304	all=1623	prok=1622	euk=0	unknown_org=1	selected_prok=1500	selected_euk=0
+kegg_link	K00305	all=1617	prok=1616	euk=0	unknown_org=1	selected_prok=1500	selected_euk=0
+kegg_link	K00600	all=16511	prok=12963	euk=3544	unknown_org=4	selected_prok=1993	selected_euk=300
+kegg_link	K01752	all=10922	prok=10922	euk=0	unknown_org=0	selected_prok=1513	selected_euk=0
+kegg_link	K00108	all=3185	prok=2476	euk=709	unknown_org=0	selected_prok=1500	selected_euk=300
+kegg_link	K00130	all=5963	prok=5508	euk=455	unknown_org=0	selected_prok=1545	selected_euk=300
+kegg_link	K11440	all=115	prok=115	euk=0	unknown_org=0	selected_prok=115	selected_euk=0
+kegg_link	K24071	all=68	prok=67	euk=0	unknown_org=1	selected_prok=67	selected_euk=0
+kegg_link	K18897	all=138	prok=136	euk=0	unknown_org=2	selected_prok=136	selected_euk=0
+kegg_link	K16967	all=1	prok=0	euk=0	unknown_org=1	selected_prok=0	selected_euk=0
+kegg_link	K16964	all=7	prok=6	euk=0	unknown_org=1	selected_prok=6	selected_euk=0
+kegg_link	K16965	all=7	prok=6	euk=0	unknown_org=1	selected_prok=6	selected_euk=0
+kegg_link	K16966	all=4	prok=3	euk=0	unknown_org=1	selected_prok=3	selected_euk=0
+kegg_link	K07306	all=977	prok=976	euk=0	unknown_org=1	selected_prok=976	selected_euk=0
+kegg_link	K21310	all=566	prok=565	euk=0	unknown_org=1	selected_prok=565	selected_euk=0
+kegg_link	K17285	all=2176	prok=588	euk=1588	unknown_org=0	selected_prok=588	selected_euk=300
+kegg_link	K17228	all=1225	prok=1225	euk=0	unknown_org=0	selected_prok=1225	selected_euk=0
+kegg_link	K04091	all=4919	prok=4919	euk=0	unknown_org=0	selected_prok=1500	selected_euk=0
+kegg_link	K16968	all=28	prok=26	euk=0	unknown_org=2	selected_prok=26	selected_euk=0
+kegg_link	K16969	all=26	prok=25	euk=0	unknown_org=1	selected_prok=25	selected_euk=0
+kegg_link	K17486	all=89	prok=89	euk=0	unknown_org=0	selected_prok=89	selected_euk=0
+kegg_link	K20034	all=2878	prok=2878	euk=0	unknown_org=0	selected_prok=1500	selected_euk=0
+kegg_link	K20035	all=5584	prok=5584	euk=0	unknown_org=0	selected_prok=1500	selected_euk=0
+kegg_link	K20036	all=489	prok=489	euk=0	unknown_org=0	selected_prok=489	selected_euk=0
+kegg_link	K16953	all=114	prok=113	euk=0	unknown_org=1	selected_prok=113	selected_euk=0
+kegg_link	K28067	all=76	prok=75	euk=0	unknown_org=1	selected_prok=75	selected_euk=0
+kegg_link	K28068	all=12	prok=12	euk=0	unknown_org=0	selected_prok=12	selected_euk=0
+kegg_link	K28069	all=37	prok=36	euk=0	unknown_org=1	selected_prok=36	selected_euk=0
+kegg_link	K28072	all=3	prok=3	euk=0	unknown_org=0	selected_prok=3	selected_euk=0
+kegg_link	K28073	all=63	prok=62	euk=0	unknown_org=1	selected_prok=62	selected_euk=0
+kegg_link	K02044	all=4871	prok=4871	euk=0	unknown_org=0	selected_prok=1639	selected_euk=0
+kegg_link	K23996	all=2	prok=2	euk=0	unknown_org=0	selected_prok=2	selected_euk=0
+kegg_link	K05915	all=2	prok=2	euk=0	unknown_org=0	selected_prok=2	selected_euk=0
+kegg_link	K00925	all=8889	prok=8746	euk=142	unknown_org=1	selected_prok=1530	selected_euk=142
+kegg_link	K00625	all=3519	prok=3519	euk=0	unknown_org=0	selected_prok=1531	selected_euk=0
+kegg_link	K13788	all=3760	prok=3760	euk=0	unknown_org=0	selected_prok=1500	selected_euk=0
+kegg_link	K15024	all=960	prok=960	euk=0	unknown_org=0	selected_prok=960	selected_euk=0
+kegg_link	K04020	all=259	prok=259	euk=0	unknown_org=0	selected_prok=259	selected_euk=0
+kegg_link	K01895	all=16848	prok=14196	euk=2652	unknown_org=0	selected_prok=2728	selected_euk=300
+kegg_link	K00192	all=154	prok=153	euk=0	unknown_org=1	selected_prok=153	selected_euk=0
+kegg_link	K00195	all=151	prok=150	euk=0	unknown_org=1	selected_prok=150	selected_euk=0
+kegg_link	K00193	all=158	prok=157	euk=0	unknown_org=1	selected_prok=157	selected_euk=0
+kegg_link	K00194	all=307	prok=306	euk=0	unknown_org=1	selected_prok=306	selected_euk=0
+kegg_link	K00197	all=330	prok=329	euk=0	unknown_org=1	selected_prok=329	selected_euk=0
+kegg_link	K00200	all=568	prok=568	euk=0	unknown_org=0	selected_prok=568	selected_euk=0
+kegg_link	K00201	all=626	prok=626	euk=0	unknown_org=0	selected_prok=626	selected_euk=0
+kegg_link	K00202	all=546	prok=546	euk=0	unknown_org=0	selected_prok=546	selected_euk=0
+kegg_link	K00203	all=289	prok=289	euk=0	unknown_org=0	selected_prok=289	selected_euk=0
+kegg_link	K00204	all=64	prok=64	euk=0	unknown_org=0	selected_prok=64	selected_euk=0
+kegg_link	K00205	all=252	prok=252	euk=0	unknown_org=0	selected_prok=252	selected_euk=0
+kegg_link	K11260	all=187	prok=187	euk=0	unknown_org=0	selected_prok=187	selected_euk=0
+kegg_link	K11261	all=562	prok=562	euk=0	unknown_org=0	selected_prok=562	selected_euk=0
+kegg_link	K00672	all=541	prok=541	euk=0	unknown_org=0	selected_prok=541	selected_euk=0
+kegg_link	K01499	all=591	prok=591	euk=0	unknown_org=0	selected_prok=591	selected_euk=0
+kegg_link	K00320	all=759	prok=759	euk=0	unknown_org=0	selected_prok=759	selected_euk=0
+kegg_link	K00577	all=303	prok=303	euk=0	unknown_org=0	selected_prok=303	selected_euk=0
+kegg_link	K00578	all=140	prok=140	euk=0	unknown_org=0	selected_prok=140	selected_euk=0
+kegg_link	K00579	all=141	prok=141	euk=0	unknown_org=0	selected_prok=141	selected_euk=0
+kegg_link	K00580	all=140	prok=140	euk=0	unknown_org=0	selected_prok=140	selected_euk=0
+kegg_link	K00581	all=140	prok=140	euk=0	unknown_org=0	selected_prok=140	selected_euk=0
+kegg_link	K00582	all=114	prok=114	euk=0	unknown_org=0	selected_prok=114	selected_euk=0
+kegg_link	K00583	all=115	prok=115	euk=0	unknown_org=0	selected_prok=115	selected_euk=0
+kegg_link	K00584	all=215	prok=215	euk=0	unknown_org=0	selected_prok=215	selected_euk=0
+kegg_link	K02567	all=1564	prok=1564	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00370	all=3110	prok=3109	euk=0	unknown_org=1	selected_prok=1000	selected_euk=0
+kegg_link	K22015	all=1097	prok=1097	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00123	all=7002	prok=7002	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K08351	all=1256	prok=1256	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K08352	all=578	prok=578	euk=0	unknown_org=0	selected_prok=578	selected_euk=0
+kegg_link	K07309	all=300	prok=300	euk=0	unknown_org=0	selected_prok=300	selected_euk=0
+kegg_link	K08348	all=658	prok=658	euk=0	unknown_org=0	selected_prok=658	selected_euk=0
+kegg_link	K22516	all=353	prok=353	euk=0	unknown_org=0	selected_prok=353	selected_euk=0
+kegg_link	K05299	all=157	prok=157	euk=0	unknown_org=0	selected_prok=157	selected_euk=0
+kegg_link	K07307	all=1082	prok=1081	euk=0	unknown_org=1	selected_prok=1000	selected_euk=0
+kegg_link	K00371	all=3115	prok=3114	euk=0	unknown_org=1	selected_prok=1000	selected_euk=0
+kegg_link	K00124	all=4589	prok=4589	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00374	all=3021	prok=3021	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00001	all=97	prok=0	euk=97	unknown_org=0	selected_prok=0	selected_euk=0
+kegg_link	K13953	all=7436	prok=6629	euk=807	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K17068	all=2	prok=1	euk=0	unknown_org=1	selected_prok=1	selected_euk=0
+kegg_link	K00086	all=190	prok=190	euk=0	unknown_org=0	selected_prok=190	selected_euk=0
+kegg_link	K08325	all=1815	prok=1815	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K04072	all=2699	prok=2688	euk=11	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00048	all=648	prok=648	euk=0	unknown_org=0	selected_prok=648	selected_euk=0
+kegg_link	K13921	all=258	prok=258	euk=0	unknown_org=0	selected_prok=258	selected_euk=0
+kegg_link	K17755	all=306	prok=305	euk=0	unknown_org=1	selected_prok=305	selected_euk=0
+kegg_link	K00128	all=19585	prok=13444	euk=6141	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00135	all=14889	prok=14512	euk=377	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00140	all=9355	prok=7719	euk=1634	unknown_org=2	selected_prok=1000	selected_euk=0
+kegg_link	K00146	all=1689	prok=1689	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00138	all=4633	prok=4633	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K14519	all=584	prok=584	euk=0	unknown_org=0	selected_prok=584	selected_euk=0
+kegg_link	K00285	all=5601	prok=5600	euk=0	unknown_org=1	selected_prok=1000	selected_euk=0
+kegg_link	K03153	all=4395	prok=4395	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00111	all=11942	prok=10386	euk=1556	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K15736	all=1855	prok=1855	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K09471	all=4066	prok=4066	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00306	all=1693	prok=0	euk=1693	unknown_org=0	selected_prok=0	selected_euk=0
+kegg_link	K19191	all=2	prok=1	euk=0	unknown_org=1	selected_prok=1	selected_euk=0
+kegg_link	K00605	all=9667	prok=8277	euk=1390	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K06980	all=5863	prok=5861	euk=2	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K20155	all=14	prok=13	euk=0	unknown_org=1	selected_prok=13	selected_euk=0
+kegg_link	K01915	all=25047	prok=21542	euk=3502	unknown_org=3	selected_prok=1000	selected_euk=0
+kegg_link	K00265	all=7178	prok=7177	euk=0	unknown_org=1	selected_prok=1000	selected_euk=0
+kegg_link	K00266	all=8813	prok=8797	euk=15	unknown_org=1	selected_prok=1000	selected_euk=0
+kegg_link	K00284	all=925	prok=673	euk=252	unknown_org=0	selected_prok=673	selected_euk=0
+kegg_link	K00548	all=9402	prok=8711	euk=691	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K16955	all=19	prok=19	euk=0	unknown_org=0	selected_prok=19	selected_euk=0
+kegg_link	K25221	all=17	prok=17	euk=0	unknown_org=0	selected_prok=17	selected_euk=0
+kegg_link	K26930	all=27	prok=27	euk=0	unknown_org=0	selected_prok=27	selected_euk=0
+kegg_link	K25915	all=13	prok=13	euk=0	unknown_org=0	selected_prok=13	selected_euk=0
+kegg_link	K25917	all=7	prok=7	euk=0	unknown_org=0	selected_prok=7	selected_euk=0
+kegg_link	K15023	all=408	prok=408	euk=0	unknown_org=0	selected_prok=408	selected_euk=0
+kegg_link	K00485	all=4749	prok=0	euk=4749	unknown_org=0	selected_prok=0	selected_euk=0
+kegg_link	K03379	all=321	prok=264	euk=56	unknown_org=1	selected_prok=264	selected_euk=0
+kegg_link	K00219	all=3377	prok=3364	euk=13	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K10680	all=6251	prok=6251	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00354	all=1657	prok=1056	euk=601	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K01897	all=30270	prok=22700	euk=7570	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K01908	all=3600	prok=2623	euk=977	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K02182	all=1391	prok=1391	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K01907	all=3458	prok=2448	euk=1010	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00249	all=15150	prok=13570	euk=1580	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K06445	all=2786	prok=2786	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00248	all=3229	prok=2241	euk=988	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00253	all=4036	prok=2696	euk=1340	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K01692	all=5041	prok=4819	euk=222	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K01715	all=4290	prok=4290	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K13766	all=2428	prok=2427	euk=1	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K15866	all=5440	prok=5440	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00929	all=1277	prok=1277	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00932	all=335	prok=335	euk=0	unknown_org=0	selected_prok=335	selected_euk=0
+kegg_link	K00634	all=1069	prok=1069	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00198	all=739	prok=739	euk=0	unknown_org=0	selected_prok=739	selected_euk=0
+kegg_link	K14138	all=201	prok=201	euk=0	unknown_org=0	selected_prok=201	selected_euk=0
+kegg_link	K00058	all=15981	prok=14078	euk=1903	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00090	all=1958	prok=1953	euk=5	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K12972	all=2927	prok=2927	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K03778	all=3561	prok=3471	euk=90	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K03473	all=1805	prok=1805	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K11175	all=9198	prok=9195	euk=0	unknown_org=3	selected_prok=1000	selected_euk=0
+kegg_link	K00604	all=12794	prok=11500	euk=1293	unknown_org=1	selected_prok=1000	selected_euk=0
+kegg_link	K00547	all=3092	prok=1398	euk=1692	unknown_org=2	selected_prok=1000	selected_euk=0
+kegg_link	K00114	all=1126	prok=1125	euk=0	unknown_org=1	selected_prok=1000	selected_euk=0
+kegg_link	K17760	all=518	prok=516	euk=0	unknown_org=2	selected_prok=516	selected_euk=0
+kegg_link	K01262	all=14387	prok=11121	euk=3266	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K01271	all=1199	prok=1199	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K01265	all=21019	prok=16346	euk=4673	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K01905	all=338	prok=338	euk=0	unknown_org=0	selected_prok=338	selected_euk=0
+kegg_link	K22224	all=248	prok=248	euk=0	unknown_org=0	selected_prok=248	selected_euk=0
+kegg_link	K24012	all=1523	prok=1521	euk=2	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K18593	all=22	prok=22	euk=0	unknown_org=0	selected_prok=22	selected_euk=0
+kegg_link	K18594	all=24	prok=24	euk=0	unknown_org=0	selected_prok=24	selected_euk=0
+kegg_link	K08298	all=279	prok=278	euk=0	unknown_org=1	selected_prok=278	selected_euk=0
+kegg_link	K07749	all=884	prok=883	euk=0	unknown_org=1	selected_prok=883	selected_euk=0
+kegg_link	K15871	all=6	prok=2	euk=0	unknown_org=4	selected_prok=2	selected_euk=0
+kegg_link	K18702	all=851	prok=850	euk=0	unknown_org=1	selected_prok=850	selected_euk=0
+kegg_link	K13607	all=28	prok=27	euk=0	unknown_org=1	selected_prok=27	selected_euk=0
+kegg_link	K20882	all=28	prok=28	euk=0	unknown_org=0	selected_prok=28	selected_euk=0
+kegg_link	K18896	all=138	prok=136	euk=0	unknown_org=2	selected_prok=136	selected_euk=0
+kegg_link	K13042	all=10	prok=10	euk=0	unknown_org=0	selected_prok=10	selected_euk=0
+kegg_link	K21195	all=150	prok=101	euk=48	unknown_org=1	selected_prok=101	selected_euk=0
+kegg_link	K21196	all=201	prok=197	euk=0	unknown_org=4	selected_prok=197	selected_euk=0
+kegg_link	K24290	all=92	prok=91	euk=0	unknown_org=1	selected_prok=91	selected_euk=0
+kegg_link	K24291	all=120	prok=119	euk=0	unknown_org=1	selected_prok=119	selected_euk=0
+kegg_link	K13812	all=152	prok=152	euk=0	unknown_org=0	selected_prok=152	selected_euk=0
+kegg_link	K00494	all=20	prok=19	euk=0	unknown_org=1	selected_prok=19	selected_euk=0
+kegg_link	K20938	all=2532	prok=2532	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K15510	all=766	prok=766	euk=0	unknown_org=0	selected_prok=766	selected_euk=0
+kegg_link	K05337	all=6443	prok=6442	euk=0	unknown_org=1	selected_prok=1000	selected_euk=0
+kegg_link	K03616	all=3829	prok=3829	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00176	all=1476	prok=1476	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K14127	all=659	prok=659	euk=0	unknown_org=0	selected_prok=659	selected_euk=0
+kegg_link	K03855	all=1291	prok=1291	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00196	all=672	prok=672	euk=0	unknown_org=0	selected_prok=672	selected_euk=0
+kegg_link	K02040	all=13862	prok=13842	euk=0	unknown_org=20	selected_prok=1000	selected_euk=0
+kegg_link	K11081	all=505	prok=505	euk=0	unknown_org=0	selected_prok=505	selected_euk=0
+kegg_aaseq	K22343	requested=421	received=421
+kegg_aaseq	K22344	requested=429	received=429
+kegg_aaseq	K15228	requested=301	received=301
+kegg_aaseq	K15229	requested=250	received=250
+kegg_aaseq	K01949	requested=55	received=55
+kegg_aaseq	K22081	requested=704	received=704
+kegg_aaseq	K22082	requested=717	received=717
+kegg_aaseq	K22083	requested=1135	received=1135
+kegg_aaseq	K22084	requested=542	received=542
+kegg_aaseq	K22085	requested=545	received=545
+kegg_aaseq	K22086	requested=531	received=531
+kegg_aaseq	K22087	requested=495	received=495
+kegg_aaseq	K03320	requested=1989	received=1989
+kegg_aaseq	K14084	requested=225	received=225
+kegg_aaseq	K16179	requested=320	received=320
+kegg_aaseq	K16177	requested=95	received=95
+kegg_aaseq	K14081	requested=163	received=163
+kegg_aaseq	K16954	requested=22	received=22
+kegg_aaseq	K14028	requested=129	received=129
+kegg_aaseq	K14029	requested=127	received=127
+kegg_aaseq	K23995	requested=669	received=669
+kegg_aaseq	K00093	requested=2	received=2
+kegg_aaseq	K17067	requested=179	received=179
+kegg_aaseq	K17066	requested=0	received=0
+kegg_aaseq	K00121	requested=1503	received=1503
+kegg_aaseq	K03396	requested=418	received=418
+kegg_aaseq	K01070	requested=1500	received=1500
+kegg_aaseq	K10713	requested=844	received=844
+kegg_aaseq	K00148	requested=1559	received=1559
+kegg_aaseq	K00122	requested=446	received=446
+kegg_aaseq	K01491	requested=1770	received=1770
+kegg_aaseq	K01433	requested=1631	received=1631
+kegg_link	K00399	all=196	prok=196	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K00401	all=195	prok=195	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K00402	all=195	prok=195	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K04480	all=181	prok=181	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K14080	all=238	prok=237	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K16178	all=91	prok=90	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K16176	all=141	prok=141	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K14082	all=69	prok=69	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K14083	all=1489	prok=1488	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K25220	all=127	prok=126	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06166	all=1466	prok=1466	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06165	all=1504	prok=1504	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06164	all=1500	prok=1500	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06163	all=1490	prok=1490	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K05781	all=1494	prok=1494	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K05780	all=1484	prok=1484	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06162	all=2132	prok=2132	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21579	all=77	prok=77	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21578	all=79	prok=79	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K10672	all=317	prok=316	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K10671	all=238	prok=237	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21584	all=20	prok=20	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21583	all=26	prok=26	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K20038	all=288	prok=288	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K20037	all=253	prok=253	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K22443	all=432	prok=432	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K22444	all=298	prok=298	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K18049	all=1	prok=1	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K10944	all=124	prok=124	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K16157	all=26	prok=26	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K12905	all=1	prok=0	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K00656	all=3399	prok=3399	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K18427	all=37	prok=36	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K07540	all=18	prok=17	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K06866	all=1115	prok=890	euk=0	unknown_org=225	selected_prok=v1_copy	selected_euk=0
+kegg_link	K04069	all=7323	prok=7318	euk=5	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K04070	all=863	prok=782	euk=81	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K00499	all=239	prok=0	euk=238	unknown_org=1	selected_prok=v1_copy	selected_euk=238
+kegg_link	K03862	all=654	prok=652	euk=0	unknown_org=2	selected_prok=v1_copy	selected_euk=0
+kegg_link	K00479	all=1133	prok=1133	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K03863	all=823	prok=821	euk=0	unknown_org=2	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21832	all=1012	prok=1012	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K18223	all=189	prok=189	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K15760	all=136	prok=135	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K22353	all=7	prok=7	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K21317	all=7	prok=6	euk=0	unknown_org=1	selected_prok=v1_copy	selected_euk=0
+kegg_link	K01599	all=10173	prok=8548	euk=1625	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02041	all=4500	prok=4500	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02031	all=29081	prok=29081	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02032	all=26212	prok=26212	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02003	all=35345	prok=35294	euk=51	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K01990	all=58262	prok=58262	euk=0	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02886	all=11996	prok=10538	euk=1458	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02867	all=12115	prok=10574	euk=1541	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02982	all=10836	prok=10514	euk=322	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02948	all=12000	prok=10507	euk=1493	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02950	all=12084	prok=10502	euk=1582	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02996	all=12124	prok=10543	euk=1581	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02926	all=11572	prok=10075	euk=1497	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02930	all=2340	prok=467	euk=1873	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02878	all=11202	prok=10082	euk=1120	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K02866	all=2871	prok=470	euk=2401	unknown_org=0	selected_prok=v1_copy	selected_euk=0
+kegg_link	K18277	all=440	prok=440	euk=0	unknown_org=0	selected_prok=440	selected_euk=0
+kegg_link	K28979	all=247	prok=247	euk=0	unknown_org=0	selected_prok=247	selected_euk=0
+kegg_link	K07811	all=433	prok=432	euk=0	unknown_org=1	selected_prok=432	selected_euk=0
+kegg_link	K07812	all=686	prok=686	euk=0	unknown_org=0	selected_prok=686	selected_euk=0
+kegg_link	K00317	all=275	prok=275	euk=0	unknown_org=0	selected_prok=275	selected_euk=0
+kegg_link	K22342	all=498	prok=498	euk=0	unknown_org=0	selected_prok=498	selected_euk=0
+kegg_link	K22343	all=421	prok=421	euk=0	unknown_org=0	selected_prok=421	selected_euk=0
+kegg_link	K22344	all=429	prok=429	euk=0	unknown_org=0	selected_prok=429	selected_euk=0
+kegg_link	K15228	all=301	prok=301	euk=0	unknown_org=0	selected_prok=301	selected_euk=0
+kegg_link	K15229	all=250	prok=250	euk=0	unknown_org=0	selected_prok=250	selected_euk=0
+kegg_link	K01949	all=55	prok=55	euk=0	unknown_org=0	selected_prok=55	selected_euk=0
+kegg_link	K22081	all=704	prok=704	euk=0	unknown_org=0	selected_prok=704	selected_euk=0
+kegg_link	K22082	all=717	prok=717	euk=0	unknown_org=0	selected_prok=717	selected_euk=0
+kegg_link	K22083	all=1135	prok=1135	euk=0	unknown_org=0	selected_prok=1135	selected_euk=0
+kegg_link	K22084	all=542	prok=542	euk=0	unknown_org=0	selected_prok=542	selected_euk=0
+kegg_link	K22085	all=545	prok=545	euk=0	unknown_org=0	selected_prok=545	selected_euk=0
+kegg_link	K22086	all=531	prok=531	euk=0	unknown_org=0	selected_prok=531	selected_euk=0
+kegg_link	K22087	all=495	prok=495	euk=0	unknown_org=0	selected_prok=495	selected_euk=0
+kegg_link	K03320	all=15585	prok=12067	euk=3518	unknown_org=0	selected_prok=1989	selected_euk=300
+kegg_link	K14084	all=225	prok=225	euk=0	unknown_org=0	selected_prok=225	selected_euk=0
+kegg_link	K16179	all=320	prok=320	euk=0	unknown_org=0	selected_prok=320	selected_euk=0
+kegg_link	K16177	all=95	prok=95	euk=0	unknown_org=0	selected_prok=95	selected_euk=0
+kegg_link	K14081	all=163	prok=163	euk=0	unknown_org=0	selected_prok=163	selected_euk=0
+kegg_link	K16954	all=22	prok=22	euk=0	unknown_org=0	selected_prok=22	selected_euk=0
+kegg_link	K14028	all=129	prok=129	euk=0	unknown_org=0	selected_prok=129	selected_euk=0
+kegg_link	K14029	all=127	prok=127	euk=0	unknown_org=0	selected_prok=127	selected_euk=0
+kegg_link	K23995	all=669	prok=669	euk=0	unknown_org=0	selected_prok=669	selected_euk=0
+kegg_link	K00093	all=3	prok=2	euk=0	unknown_org=1	selected_prok=2	selected_euk=0
+kegg_link	K17067	all=180	prok=179	euk=0	unknown_org=1	selected_prok=179	selected_euk=0
+kegg_link	K17066	all=259	prok=0	euk=259	unknown_org=0	selected_prok=0	selected_euk=259
+kegg_link	K00121	all=9530	prok=6501	euk=3026	unknown_org=3	selected_prok=1503	selected_euk=300
+kegg_link	K03396	all=475	prok=418	euk=57	unknown_org=0	selected_prok=418	selected_euk=57
+kegg_link	K01070	all=5178	prok=3790	euk=1388	unknown_org=0	selected_prok=1500	selected_euk=300
+kegg_link	K10713	all=844	prok=844	euk=0	unknown_org=0	selected_prok=844	selected_euk=0
+kegg_link	K00148	all=1765	prok=1765	euk=0	unknown_org=0	selected_prok=1559	selected_euk=0
+kegg_link	K00122	all=983	prok=446	euk=537	unknown_org=0	selected_prok=446	selected_euk=300
+kegg_link	K01491	all=11914	prok=11215	euk=699	unknown_org=0	selected_prok=1770	selected_euk=300
+kegg_link	K01433	all=7924	prok=7543	euk=381	unknown_org=0	selected_prok=1631	selected_euk=300
+kegg_link	K01938	all=4202	prok=3941	euk=261	unknown_org=0	selected_prok=1567	selected_euk=261
+kegg_link	K00544	all=1407	prok=94	euk=1313	unknown_org=0	selected_prok=94	selected_euk=300
+kegg_link	K00315	all=1649	prok=1027	euk=622	unknown_org=0	selected_prok=1027	selected_euk=300
+kegg_link	K00309	all=469	prok=412	euk=56	unknown_org=1	selected_prok=412	selected_euk=56
+kegg_link	K21833	all=586	prok=586	euk=0	unknown_org=0	selected_prok=586	selected_euk=0
+kegg_link	K00314	all=843	prok=0	euk=843	unknown_org=0	selected_prok=0	selected_euk=300
+kegg_link	K00301	all=1222	prok=1221	euk=0	unknown_org=1	selected_prok=1221	selected_euk=0
+kegg_link	K00302	all=1666	prok=1665	euk=0	unknown_org=1	selected_prok=1500	selected_euk=0
+kegg_link	K00303	all=1660	prok=1659	euk=0	unknown_org=1	selected_prok=1500	selected_euk=0
+kegg_link	K00304	all=1623	prok=1622	euk=0	unknown_org=1	selected_prok=1500	selected_euk=0
+kegg_link	K00305	all=1617	prok=1616	euk=0	unknown_org=1	selected_prok=1500	selected_euk=0
+kegg_link	K00600	all=16511	prok=12963	euk=3544	unknown_org=4	selected_prok=1993	selected_euk=300
+kegg_link	K01752	all=10922	prok=10922	euk=0	unknown_org=0	selected_prok=1513	selected_euk=0
+kegg_link	K00108	all=3185	prok=2476	euk=709	unknown_org=0	selected_prok=1500	selected_euk=300
+kegg_link	K00130	all=5963	prok=5508	euk=455	unknown_org=0	selected_prok=1545	selected_euk=300
+kegg_link	K11440	all=115	prok=115	euk=0	unknown_org=0	selected_prok=115	selected_euk=0
+kegg_link	K24071	all=68	prok=67	euk=0	unknown_org=1	selected_prok=67	selected_euk=0
+kegg_link	K18897	all=138	prok=136	euk=0	unknown_org=2	selected_prok=136	selected_euk=0
+kegg_link	K16967	all=1	prok=0	euk=0	unknown_org=1	selected_prok=0	selected_euk=0
+kegg_link	K16964	all=7	prok=6	euk=0	unknown_org=1	selected_prok=6	selected_euk=0
+kegg_link	K16965	all=7	prok=6	euk=0	unknown_org=1	selected_prok=6	selected_euk=0
+kegg_link	K16966	all=4	prok=3	euk=0	unknown_org=1	selected_prok=3	selected_euk=0
+kegg_link	K07306	all=977	prok=976	euk=0	unknown_org=1	selected_prok=976	selected_euk=0
+kegg_link	K21310	all=566	prok=565	euk=0	unknown_org=1	selected_prok=565	selected_euk=0
+kegg_link	K17285	all=2176	prok=588	euk=1588	unknown_org=0	selected_prok=588	selected_euk=300
+kegg_link	K17228	all=1225	prok=1225	euk=0	unknown_org=0	selected_prok=1225	selected_euk=0
+kegg_link	K04091	all=4919	prok=4919	euk=0	unknown_org=0	selected_prok=1500	selected_euk=0
+kegg_link	K16968	all=28	prok=26	euk=0	unknown_org=2	selected_prok=26	selected_euk=0
+kegg_link	K16969	all=26	prok=25	euk=0	unknown_org=1	selected_prok=25	selected_euk=0
+kegg_link	K17486	all=89	prok=89	euk=0	unknown_org=0	selected_prok=89	selected_euk=0
+kegg_link	K20034	all=2878	prok=2878	euk=0	unknown_org=0	selected_prok=1500	selected_euk=0
+kegg_link	K20035	all=5584	prok=5584	euk=0	unknown_org=0	selected_prok=1500	selected_euk=0
+kegg_link	K20036	all=489	prok=489	euk=0	unknown_org=0	selected_prok=489	selected_euk=0
+kegg_link	K16953	all=114	prok=113	euk=0	unknown_org=1	selected_prok=113	selected_euk=0
+kegg_link	K28067	all=76	prok=75	euk=0	unknown_org=1	selected_prok=75	selected_euk=0
+kegg_link	K28068	all=12	prok=12	euk=0	unknown_org=0	selected_prok=12	selected_euk=0
+kegg_link	K28069	all=37	prok=36	euk=0	unknown_org=1	selected_prok=36	selected_euk=0
+kegg_link	K28072	all=3	prok=3	euk=0	unknown_org=0	selected_prok=3	selected_euk=0
+kegg_link	K28073	all=63	prok=62	euk=0	unknown_org=1	selected_prok=62	selected_euk=0
+kegg_link	K02044	all=4871	prok=4871	euk=0	unknown_org=0	selected_prok=1639	selected_euk=0
+kegg_link	K23996	all=2	prok=2	euk=0	unknown_org=0	selected_prok=2	selected_euk=0
+kegg_link	K05915	all=2	prok=2	euk=0	unknown_org=0	selected_prok=2	selected_euk=0
+kegg_link	K00925	all=8889	prok=8746	euk=142	unknown_org=1	selected_prok=1530	selected_euk=142
+kegg_link	K00625	all=3519	prok=3519	euk=0	unknown_org=0	selected_prok=1531	selected_euk=0
+kegg_link	K13788	all=3760	prok=3760	euk=0	unknown_org=0	selected_prok=1500	selected_euk=0
+kegg_link	K15024	all=960	prok=960	euk=0	unknown_org=0	selected_prok=960	selected_euk=0
+kegg_link	K04020	all=259	prok=259	euk=0	unknown_org=0	selected_prok=259	selected_euk=0
+kegg_link	K01895	all=16848	prok=14196	euk=2652	unknown_org=0	selected_prok=2728	selected_euk=300
+kegg_link	K00192	all=154	prok=153	euk=0	unknown_org=1	selected_prok=153	selected_euk=0
+kegg_link	K00195	all=151	prok=150	euk=0	unknown_org=1	selected_prok=150	selected_euk=0
+kegg_link	K00193	all=158	prok=157	euk=0	unknown_org=1	selected_prok=157	selected_euk=0
+kegg_link	K00194	all=307	prok=306	euk=0	unknown_org=1	selected_prok=306	selected_euk=0
+kegg_link	K00197	all=330	prok=329	euk=0	unknown_org=1	selected_prok=329	selected_euk=0
+kegg_link	K00200	all=568	prok=568	euk=0	unknown_org=0	selected_prok=568	selected_euk=0
+kegg_link	K00201	all=626	prok=626	euk=0	unknown_org=0	selected_prok=626	selected_euk=0
+kegg_link	K00202	all=546	prok=546	euk=0	unknown_org=0	selected_prok=546	selected_euk=0
+kegg_link	K00203	all=289	prok=289	euk=0	unknown_org=0	selected_prok=289	selected_euk=0
+kegg_link	K00204	all=64	prok=64	euk=0	unknown_org=0	selected_prok=64	selected_euk=0
+kegg_link	K00205	all=252	prok=252	euk=0	unknown_org=0	selected_prok=252	selected_euk=0
+kegg_link	K11260	all=187	prok=187	euk=0	unknown_org=0	selected_prok=187	selected_euk=0
+kegg_link	K11261	all=562	prok=562	euk=0	unknown_org=0	selected_prok=562	selected_euk=0
+kegg_link	K00672	all=541	prok=541	euk=0	unknown_org=0	selected_prok=541	selected_euk=0
+kegg_link	K01499	all=591	prok=591	euk=0	unknown_org=0	selected_prok=591	selected_euk=0
+kegg_link	K00320	all=759	prok=759	euk=0	unknown_org=0	selected_prok=759	selected_euk=0
+kegg_link	K00577	all=303	prok=303	euk=0	unknown_org=0	selected_prok=303	selected_euk=0
+kegg_link	K00578	all=140	prok=140	euk=0	unknown_org=0	selected_prok=140	selected_euk=0
+kegg_link	K00579	all=141	prok=141	euk=0	unknown_org=0	selected_prok=141	selected_euk=0
+kegg_link	K00580	all=140	prok=140	euk=0	unknown_org=0	selected_prok=140	selected_euk=0
+kegg_link	K00581	all=140	prok=140	euk=0	unknown_org=0	selected_prok=140	selected_euk=0
+kegg_link	K00582	all=114	prok=114	euk=0	unknown_org=0	selected_prok=114	selected_euk=0
+kegg_link	K00583	all=115	prok=115	euk=0	unknown_org=0	selected_prok=115	selected_euk=0
+kegg_link	K00584	all=215	prok=215	euk=0	unknown_org=0	selected_prok=215	selected_euk=0
+kegg_aaseq	K01938	requested=1567	received=1567
+kegg_aaseq	K00544	requested=94	received=94
+kegg_aaseq	K00315	requested=1027	received=1027
+kegg_aaseq	K00309	requested=412	received=412
+kegg_aaseq	K21833	requested=586	received=586
+kegg_aaseq	K00314	requested=0	received=0
+kegg_aaseq	K00301	requested=1221	received=1221
+kegg_aaseq	K00302	requested=1500	received=1500
+kegg_aaseq	K00303	requested=1500	received=1500
+kegg_aaseq	K00304	requested=1500	received=1500
+kegg_aaseq	K00305	requested=1500	received=1500
+kegg_aaseq	K00600	requested=1993	received=1993
+kegg_aaseq	K01752	requested=1513	received=1513
+kegg_aaseq	K00108	requested=1500	received=1500
+kegg_aaseq	K00130	requested=1545	received=1545
+kegg_aaseq	K11440	requested=115	received=115
+kegg_aaseq	K24071	requested=67	received=67
+kegg_aaseq	K18897	requested=136	received=136
+kegg_aaseq	K16967	requested=0	received=0
+kegg_aaseq	K16964	requested=6	received=6
+kegg_aaseq	K16965	requested=6	received=6
+kegg_aaseq	K16966	requested=3	received=3
+kegg_aaseq	K07306	requested=976	received=976
+kegg_aaseq	K21310	requested=565	received=565
+kegg_aaseq	K17285	requested=588	received=588
+kegg_aaseq	K17228	requested=1225	received=1225
+kegg_aaseq	K04091	requested=1500	received=1500
+kegg_aaseq	K16968	requested=26	received=26
+kegg_aaseq	K16969	requested=25	received=25
+kegg_aaseq	K17486	requested=89	received=89
+kegg_aaseq	K20034	requested=1500	received=1500
+kegg_aaseq	K20035	requested=1500	received=1500
+kegg_aaseq	K20036	requested=489	received=489
+kegg_aaseq	K16953	requested=113	received=113
+kegg_aaseq	K28067	requested=75	received=75
+kegg_aaseq	K28068	requested=12	received=12
+kegg_aaseq	K28069	requested=36	received=36
+kegg_aaseq	K28072	requested=3	received=3
+kegg_aaseq	K28073	requested=62	received=62
+kegg_aaseq	K02044	requested=1639	received=1639
+kegg_aaseq	K23996	requested=2	received=2
+kegg_aaseq	K05915	requested=2	received=2
+kegg_aaseq	K00925	requested=1530	received=1530
+kegg_aaseq	K00625	requested=1531	received=1531
+kegg_aaseq	K13788	requested=1500	received=1500
+kegg_aaseq	K15024	requested=960	received=960
+kegg_aaseq	K04020	requested=259	received=259
+kegg_aaseq	K01895	requested=2728	received=2728
+kegg_aaseq	K00192	requested=153	received=153
+kegg_aaseq	K00195	requested=150	received=150
+kegg_aaseq	K00193	requested=157	received=157
+kegg_aaseq	K00194	requested=306	received=306
+kegg_aaseq	K00197	requested=329	received=329
+kegg_aaseq	K00200	requested=568	received=568
+kegg_aaseq	K00201	requested=626	received=626
+kegg_aaseq	K00202	requested=546	received=546
+kegg_aaseq	K00203	requested=289	received=289
+kegg_aaseq	K00204	requested=64	received=64
+kegg_aaseq	K00205	requested=252	received=252
+kegg_aaseq	K11260	requested=187	received=187
+kegg_aaseq	K11261	requested=562	received=562
+kegg_aaseq	K00672	requested=541	received=541
+kegg_aaseq	K01499	requested=591	received=591
+kegg_aaseq	K00320	requested=759	received=759
+kegg_aaseq	K00577	requested=303	received=303
+kegg_aaseq	K00578	requested=140	received=140
+kegg_aaseq	K00579	requested=141	received=141
+kegg_aaseq	K00580	requested=140	received=140
+kegg_aaseq	K00581	requested=140	received=140
+kegg_aaseq	K00582	requested=114	received=114
+kegg_aaseq	K00583	requested=115	received=115
+kegg_aaseq	K00584	requested=215	received=215
+kegg_aaseq_euk	K00499	requested=238	received=238
+kegg_aaseq_euk	K03320	requested=300	received=300
+kegg_aaseq_euk	K17066	requested=259	received=259
+kegg_aaseq_euk	K00121	requested=300	received=300
+kegg_aaseq_euk	K03396	requested=57	received=57
+kegg_aaseq_euk	K01070	requested=300	received=300
+kegg_aaseq_euk	K00122	requested=300	received=300
+kegg_aaseq_euk	K01491	requested=300	received=300
+kegg_aaseq_euk	K01433	requested=300	received=300
+kegg_aaseq_euk	K01938	requested=261	received=261
+kegg_aaseq_euk	K00544	requested=300	received=300
+kegg_aaseq_euk	K00315	requested=300	received=300
+kegg_aaseq_euk	K00309	requested=56	received=56
+kegg_aaseq_euk	K00314	requested=300	received=300
+kegg_aaseq_euk	K00600	requested=300	received=300
+kegg_aaseq_euk	K00108	requested=300	received=300
+kegg_aaseq_euk	K00130	requested=300	received=300
+kegg_aaseq_euk	K17285	requested=300	received=300
+kegg_aaseq_euk	K00925	requested=142	received=142
+kegg_aaseq_euk	K01895	requested=300	received=300
+uniprot	rev_PF00763	(xref:pfam-PF00763) AND (reviewed:true) AND ((taxonomy_id:2) OR (taxonomy_id:2157))	rows=799
+uniprot	rev_PF02882	(xref:pfam-PF02882) AND (reviewed:true) AND ((taxonomy_id:2) OR (taxonomy_id:2157))	rows=799
+uniprot	rev_PF00551	(xref:pfam-PF00551) AND (reviewed:true) AND ((taxonomy_id:2) OR (taxonomy_id:2157))	rows=781
+uniprot	rev_PF01268	(xref:pfam-PF01268) AND (reviewed:true) AND ((taxonomy_id:2) OR (taxonomy_id:2157))	rows=298
+uniprot	rev_PF00464	(xref:pfam-PF00464) AND (reviewed:true) AND ((taxonomy_id:2) OR (taxonomy_id:2157))	rows=806
+uniprot	rev_PF03313	(xref:pfam-PF03313) AND (reviewed:true) AND ((taxonomy_id:2) OR (taxonomy_id:2157))	rows=142
+uniprot	rev_PF03315	(xref:pfam-PF03315) AND (reviewed:true) AND ((taxonomy_id:2) OR (taxonomy_id:2157))	rows=12
+uniprot	rev_PF00389	(xref:pfam-PF00389) AND (reviewed:true) AND ((taxonomy_id:2) OR (taxonomy_id:2157))	rows=275
+uniprot	rev_PF02826	(xref:pfam-PF02826) AND (reviewed:true) AND ((taxonomy_id:2) OR (taxonomy_id:2157))	rows=346
+uniprot	rev_PF00909	(xref:pfam-PF00909) AND (reviewed:true) AND ((taxonomy_id:2) OR (taxonomy_id:2157))	rows=20
+uniprot	rev_PF00756	(xref:pfam-PF00756) AND (reviewed:true) AND ((taxonomy_id:2) OR (taxonomy_id:2157))	rows=80
+uniprot	rev_PF08240	(xref:pfam-PF08240) AND (reviewed:true) AND ((taxonomy_id:2) OR (taxonomy_id:2157))	rows=369
+uniprot	rev_PF00107	(xref:pfam-PF00107) AND (reviewed:true) AND ((taxonomy_id:2) OR (taxonomy_id:2157))	rows=330
+uniprot	rev_PF00296	(xref:pfam-PF00296) AND (reviewed:true) AND ((taxonomy_id:2) OR (taxonomy_id:2157))	rows=250
+uniprot	rev_PF00871	(xref:pfam-PF00871) AND (reviewed:true) AND ((taxonomy_id:2) OR (taxonomy_id:2157))	rows=410
+uniprot	rev_PF01515	(xref:pfam-PF01515) AND (reviewed:true) AND ((taxonomy_id:2) OR (taxonomy_id:2157))	rows=58
+uniprot	rev_PF00501	(xref:pfam-PF00501) AND (reviewed:true) AND ((taxonomy_id:2) OR (taxonomy_id:2157))	rows=619
+kegg_link	K01905	all=338	prok=338	euk=0	unknown_org=0	selected_prok=338	selected_euk=0
+kegg_link	K22224	all=248	prok=248	euk=0	unknown_org=0	selected_prok=248	selected_euk=0
+kegg_link	K24012	all=1523	prok=1521	euk=2	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K18593	all=22	prok=22	euk=0	unknown_org=0	selected_prok=22	selected_euk=0
+kegg_link	K18594	all=24	prok=24	euk=0	unknown_org=0	selected_prok=24	selected_euk=0
+kegg_link	K08298	all=279	prok=278	euk=0	unknown_org=1	selected_prok=278	selected_euk=0
+kegg_link	K07749	all=884	prok=883	euk=0	unknown_org=1	selected_prok=883	selected_euk=0
+kegg_link	K15871	all=6	prok=2	euk=0	unknown_org=4	selected_prok=2	selected_euk=0
+kegg_link	K18702	all=851	prok=850	euk=0	unknown_org=1	selected_prok=850	selected_euk=0
+kegg_link	K13607	all=28	prok=27	euk=0	unknown_org=1	selected_prok=27	selected_euk=0
+kegg_link	K20882	all=28	prok=28	euk=0	unknown_org=0	selected_prok=28	selected_euk=0
+kegg_link	K18896	all=138	prok=136	euk=0	unknown_org=2	selected_prok=136	selected_euk=0
+kegg_link	K13042	all=10	prok=10	euk=0	unknown_org=0	selected_prok=10	selected_euk=0
+kegg_link	K21195	all=150	prok=101	euk=48	unknown_org=1	selected_prok=101	selected_euk=0
+kegg_link	K21196	all=201	prok=197	euk=0	unknown_org=4	selected_prok=197	selected_euk=0
+kegg_link	K24290	all=92	prok=91	euk=0	unknown_org=1	selected_prok=91	selected_euk=0
+kegg_link	K24291	all=120	prok=119	euk=0	unknown_org=1	selected_prok=119	selected_euk=0
+kegg_link	K13812	all=152	prok=152	euk=0	unknown_org=0	selected_prok=152	selected_euk=0
+kegg_link	K00494	all=20	prok=19	euk=0	unknown_org=1	selected_prok=19	selected_euk=0
+kegg_link	K20938	all=2532	prok=2532	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K15510	all=766	prok=766	euk=0	unknown_org=0	selected_prok=766	selected_euk=0
+kegg_link	K05337	all=6443	prok=6442	euk=0	unknown_org=1	selected_prok=1000	selected_euk=0
+kegg_link	K03616	all=3829	prok=3829	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00176	all=1476	prok=1476	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K14127	all=659	prok=659	euk=0	unknown_org=0	selected_prok=659	selected_euk=0
+kegg_link	K03855	all=1291	prok=1291	euk=0	unknown_org=0	selected_prok=1000	selected_euk=0
+kegg_link	K00196	all=672	prok=672	euk=0	unknown_org=0	selected_prok=672	selected_euk=0
+kegg_link	K02040	all=13862	prok=13842	euk=0	unknown_org=20	selected_prok=1000	selected_euk=0
+kegg_link	K11081	all=505	prok=505	euk=0	unknown_org=0	selected_prok=505	selected_euk=0
+kegg_aaseq	K01905	requested=338	received=338
+kegg_aaseq	K22224	requested=248	received=248
+kegg_aaseq	K24012	requested=1000	received=1000
+kegg_aaseq	K18593	requested=22	received=22
+kegg_aaseq	K18594	requested=24	received=24
+kegg_aaseq	K08298	requested=278	received=278
+kegg_aaseq	K07749	requested=883	received=883
+kegg_aaseq	K15871	requested=2	received=2
+kegg_aaseq	K18702	requested=850	received=850
+kegg_aaseq	K13607	requested=27	received=27
+kegg_aaseq	K20882	requested=28	received=28
+kegg_aaseq	K18896	requested=136	received=136
+kegg_aaseq	K13042	requested=10	received=10
+kegg_aaseq	K21195	requested=101	received=101
+kegg_aaseq	K21196	requested=197	received=197
+kegg_aaseq	K24290	requested=91	received=91
+kegg_aaseq	K24291	requested=119	received=119
+kegg_aaseq	K13812	requested=152	received=152
+kegg_aaseq	K00494	requested=19	received=19
+kegg_aaseq	K20938	requested=1000	received=1000
+kegg_aaseq	K15510	requested=766	received=766
+kegg_aaseq	K05337	requested=1000	received=1000
+kegg_aaseq	K03616	requested=1000	received=1000
+kegg_aaseq	K00176	requested=1000	received=1000
+kegg_aaseq	K14127	requested=659	received=659
+kegg_aaseq	K03855	requested=1000	received=1000
+kegg_aaseq	K00196	requested=672	received=672
+kegg_aaseq	K02040	requested=1000	received=1000
+kegg_aaseq	K11081	requested=505	received=505

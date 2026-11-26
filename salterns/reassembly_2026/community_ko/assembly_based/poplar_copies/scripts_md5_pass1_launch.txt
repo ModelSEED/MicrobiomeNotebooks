@@ -1,0 +1,13 @@
+8257be6da988f3eef6ca48c3cc8c0118  scripts/00_smoke_compare.py
+24e595e0fa01abb3947dca75f605e910  scripts/01_make_chunks.py
+aebf6cc604247836b68b41b9d2010c06  scripts/02_postprocess_chunk.py
+c1a8f8e98ede07eb773abf81477c8b26  scripts/03_aggregate.py
+033b55d83a1016b96767d549560a05dc  scripts/04_validate_vs_rollout.py
+359c572c8df847ade326f27aaee7d532  scripts/05_panel_tables.py
+6a7c08b46a747e161ecf4a0d29cb010e  scripts/06_validate_vs_reads.py
+42730dd91c8a944fc67f8dad4ad04911  scripts/07_nothreshold_panel.py
+085f392467070cfd1a1673b557f179f2  scripts/08_select_candidates.py
+e8a0b6fff4d20e38cf29c20cb2a038cc  scripts/p1_run_chunk.sh
+cbf4cf45f12eae8470fe58f39a290de9  scripts/run_all.sh
+bec8e42076c0e244848da37df7fd78e4  scripts/run_chunk.sh
+e7e8c2f2ef3bf2bdfff73d0e83950838  scripts/run_pass1.sh

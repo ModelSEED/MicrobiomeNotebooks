@@ -1,0 +1,58 @@
+mag_id	set	kofam_source	poplar_faa
+R1_sediment__concoct.bin.036	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/concoct.bin.036.fasta__R1_sediment.faa
+R1_sediment__concoct.bin.104	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/concoct.bin.104.fasta__R1_sediment.faa
+R1_sediment__maxbin2.Bin.094_sub	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/maxbin2.Bin.094_sub.fasta__R1_sediment.faa
+R1_sediment__metabat2.bin.142_sub	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/metabat2.bin.142_sub.fasta__R1_sediment.faa
+R1_sediment__metabat2.bin.186	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/metabat2.bin.186.fasta__R1_sediment.faa
+R1_sediment__metabat2.bin.206	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/metabat2.bin.206.fasta__R1_sediment.faa
+R1_sediment__metabat2.bin.258	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/metabat2.bin.258.fasta__R1_sediment.faa
+R2A_sediment__concoct.bin.189_sub	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/concoct.bin.189_sub.fasta__R2A_sediment.faa
+R2A_sediment__metabat2.bin.132	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/metabat2.bin.132.fasta__R2A_sediment.faa
+R2_sediment__concoct.bin.112	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/concoct.bin.112.fasta__R2_sediment.faa
+R2_sediment__metabat2.bin.112_sub	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/metabat2.bin.112_sub.fasta__R2_sediment.faa
+R2_sediment__metabat2.bin.128	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/metabat2.bin.128.fasta__R2_sediment.faa
+R2_sediment__metabat2.bin.154	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/metabat2.bin.154.fasta__R2_sediment.faa
+R2_sediment__metabat2.bin.162	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/metabat2.bin.162.fasta__R2_sediment.faa
+R2_sediment__metabat2.bin.405	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/metabat2.bin.405.fasta__R2_sediment.faa
+R2_sediment__metabat2.bin.414_sub	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/metabat2.bin.414_sub.fasta__R2_sediment.faa
+R2_sediment__metabat2.bin.435	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/metabat2.bin.435.fasta__R2_sediment.faa
+R2_sediment__concoct.bin.036_sub	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/concoct.bin.036_sub.fasta__R2_sediment.faa
+R1_sediment__concoct.bin.052_sub	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/concoct.bin.052_sub.fasta__R1_sediment.faa
+R2A_sediment__concoct.bin.151	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/concoct.bin.151.fasta__R2A_sediment.faa
+R2_sediment__concoct.bin.183_sub	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/concoct.bin.183_sub.fasta__R2_sediment.faa
+R2_A_D1__maxbin2.Bin.018_sub	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R2_A_D1__maxbin2.Bin.018_sub.faa
+R1_sediment__metabat2.bin.121_sub	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/metabat2.bin.121_sub.fasta__R1_sediment.faa
+R2_sediment__metabat2.bin.141	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/metabat2.bin.141.fasta__R2_sediment.faa
+R1_sediment__metabat2.bin.356	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/metabat2.bin.356.fasta__R1_sediment.faa
+R2_sediment__metabat2.bin.362_sub	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/metabat2.bin.362_sub.fasta__R2_sediment.faa
+R2_sediment__metabat2.bin.434_sub	coassembly	kofam (first pass)	/scratch1/afreiburger/salterns_2026/kofam/genes/metabat2.bin.434_sub.fasta__R2_sediment.faa
+R2_restored_C_black__metabat2.bin.011_sub	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R2_restored_C_black__metabat2.bin.011_sub.faa
+R1_C_D1__concoct.bin.031	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R1_C_D1__concoct.bin.031.faa
+R2_A_D2__metabat2.bin.055	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R2_A_D2__metabat2.bin.055.faa
+R2_C_D2__concoct.bin.072	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R2_C_D2__concoct.bin.072.faa
+R2_restored_C_black__maxbin2.Bin.042	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R2_restored_C_black__maxbin2.Bin.042.faa
+R1_A_D1__concoct.bin.007	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R1_A_D1__concoct.bin.007.faa
+R1_A_D2__maxbin2.Bin.123_sub	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R1_A_D2__maxbin2.Bin.123_sub.faa
+R1_A_D2__metabat2.bin.020	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R1_A_D2__metabat2.bin.020.faa
+R1_A_D2__metabat2.bin.053	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R1_A_D2__metabat2.bin.053.faa
+R1_B_D1__maxbin2.Bin.073	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R1_B_D1__maxbin2.Bin.073.faa
+R1_B_D1__metabat2.bin.017_sub	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R1_B_D1__metabat2.bin.017_sub.faa
+R1_B_D1__metabat2.bin.040	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R1_B_D1__metabat2.bin.040.faa
+R1_B_D2__concoct.bin.112_sub	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R1_B_D2__concoct.bin.112_sub.faa
+R1_B_D2__metabat2.bin.065	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R1_B_D2__metabat2.bin.065.faa
+R1_B_H2O__concoct.bin.053	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R1_B_H2O__concoct.bin.053.faa
+R1_C_D1__maxbin2.Bin.003_sub	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R1_C_D1__maxbin2.Bin.003_sub.faa
+R1_C_D2__metabat2.bin.048	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R1_C_D2__metabat2.bin.048.faa
+R2_A_D1__concoct.bin.120	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R2_A_D1__concoct.bin.120.faa
+R2_A_H2O__metabat2.bin.026	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R2_A_H2O__metabat2.bin.026.faa
+R2_B_D2__maxbin2.Bin.065	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R2_B_D2__maxbin2.Bin.065.faa
+R2_B_D2__metabat2.bin.006_sub	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R2_B_D2__metabat2.bin.006_sub.faa
+R2_B_D2__metabat2.bin.056	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R2_B_D2__metabat2.bin.056.faa
+R2_B_D2__metabat2.bin.063	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R2_B_D2__metabat2.bin.063.faa
+R2_B_H2O__metabat2.bin.051	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R2_B_H2O__metabat2.bin.051.faa
+R2_C_D1__metabat2.bin.057_sub	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R2_C_D1__metabat2.bin.057_sub.faa
+R2_C_D2__concoct.bin.063	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R2_C_D2__concoct.bin.063.faa
+R2_C_D2__metabat2.bin.065	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R2_C_D2__metabat2.bin.065.faa
+R2_C_H2O__metabat2.bin.005	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R2_C_H2O__metabat2.bin.005.faa
+R2_C_H2O__metabat2.bin.008	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R2_C_H2O__metabat2.bin.008.faa
+R2_restored_D_shore__concoct.bin.011_sub	rollout	kofam_rollout	/scratch1/afreiburger/salterns_2026/kofam_rollout/genes/R2_restored_D_shore__concoct.bin.011_sub.faa

@@ -1,0 +1,5 @@
+32c133eedd441f9c38bb690074a10422  db/survey.faa
+485107c3df317a969f7eebadb65e62a9  db/survey.dmnd
+219ffc3ee39767891aefa4f0351cdd27  db/panel.hmm
+f723d344dab37c7444e3c667b753bb5d  refs/labeled.faa
+bd650fe457ae55f133f286eff3a21374  refs/ext.faa

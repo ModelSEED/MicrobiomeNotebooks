@@ -1,0 +1,86 @@
+marker calls Prodigal/Bakta-CDS (68 marker profiles; Bakta = proteins sent to PSC search, i.e. without the UPS exact-match CDS)
+label   Albimonas_cc058 Desulfo_M55B175_mb289 Halanaerobium_mb206 Halomonas_mb336 Methanolobus_cc101 Roseovarius_mb121
+mk                                                                                                                    
+BCCT                1/1                   0/0                 0/0             1/1                0/0               0/0
+betT                0/0                   0/0                 0/0             2/1                1/1               0/0
+dmd-tmd             0/0                   0/0                 0/0             0/0                0/0               3/3
+grdA                0/0                   1/1                 2/2             0/0                0/0               0/0
+grdB                0/0                   1/1                 1/0             0/0                0/0               0/0
+grdC                0/0                   0/0                 1/1             0/0                0/0               0/0
+grdD                0/0                   0/0                 1/1             0/0                0/0               0/0
+grdH                0/0                   0/0                 0/1             0/0                0/0               0/0
+grdI                0/0                   0/0                 1/1             0/0                0/0               0/0
+mcrA                0/0                   0/0                 0/0             0/0                1/1               0/0
+mcrB                0/0                   0/0                 0/0             0/0                1/1               0/0
+mcrG                0/0                   0/0                 0/0             0/0                1/1               0/0
+mtaA                0/0                   0/0                 0/0             0/0                3/3               0/0
+mtbA                0/0                   0/0                 0/0             0/0                2/2               0/0
+mtbB                0/0                   0/0                 0/0             0/0                1/1               0/0
+mtbC                0/0                   0/0                 0/0             0/0                1/1               0/0
+mtgB                0/0                   1/1                 0/0             0/0                0/0               0/0
+mtmB                0/0                   0/0                 0/0             0/0                1/1               0/0
+mttB                2/2                   3/3                 0/0             0/0                1/1               6/6
+mttC                0/0                   0/0                 0/0             0/0                1/1               0/0
+opuA                0/0                   0/0                 1/1             0/0                1/1               0/0
+opuBD               0/0                   0/0                 2/2             3/3                2/2               0/0
+opuC                2/2                   0/0                 1/1             1/1                1/1               0/0
+opuD                0/0                   0/0                 1/1             0/0                0/0               0/0
+phnC                0/0                   0/0                 1/1             2/2                0/0               1/1
+phnD                0/0                   1/1                 2/2             4/2                1/1               1/1
+phnE                0/0                   0/0                 2/2             5/4                0/0               2/2
+phnF                0/0                   0/0                 0/0             0/0                0/0               1/1
+phnG                1/1                   0/0                 0/0             0/0                0/0               1/1
+phnH                0/0                   0/0                 0/0             0/0                0/0               1/1
+phnI                1/1                   0/0                 0/0             0/0                0/0               1/1
+phnJ                0/0                   0/0                 0/0             0/0                0/0               1/1
+phnK                1/1                   0/0                 0/0             0/0                0/0               1/1
+phnL                1/1                   0/0                 0/0             0/0                0/0               1/1
+phnM                2/2                   0/0                 0/0             0/0                0/0               3/3
+phnN                1/1                   0/0                 0/0             0/0                0/0               1/1
+phnP                1/1                   0/0                 1/1             0/0                1/1               1/1
+proV                2/2                   1/1                 0/0             0/0                1/1               2/2
+proW                2/2                   1/1                 0/0             1/0                1/1               2/2
+proX                2/2                   5/5                 0/0             4/3                3/3               2/2
+pylB                0/0                   0/0                 0/0             0/0                1/1               0/0
+pylC                0/0                   0/0                 0/0             0/0                1/1               0/0
+pylD                0/0                   0/0                 0/0             0/0                1/1               0/0
+pylS                0/0                   0/0                 0/0             0/0                1/1               0/0
+torZ                0/0                   0/0                 0/0             1/1                0/0               0/0
+
+rows that differ:
+label Albimonas_cc058 Desulfo_M55B175_mb289 Halanaerobium_mb206 Halomonas_mb336 Methanolobus_cc101 Roseovarius_mb121
+mk                                                                                                                  
+betT              0/0                   0/0                 0/0             2/1                1/1               0/0
+grdB              0/0                   1/1                 1/0             0/0                0/0               0/0
+grdH              0/0                   0/0                 0/1             0/0                0/0               0/0
+phnD              0/0                   1/1                 2/2             4/2                1/1               1/1
+phnE              0/0                   0/0                 2/2             5/4                0/0               2/2
+proW              2/2                   1/1                 0/0             1/0                1/1               2/2
+proX              2/2                   5/5                 0/0             4/3                3/3               2/2
+
+=== grd genes (K21579/K21578/K10672/K10670) best hit per gene, both methods ===
+                label   method                 gene_id  glen     ko  score    thr  cov call
+Desulfo_M55B175_mb289    bakta  contig_35:13334-14371:   345 K10672  390.8 277.97 0.80 grdB
+Desulfo_M55B175_mb289    bakta  contig_35:13334-14371:   345 K21579  311.6 624.03 0.80 grdB
+Desulfo_M55B175_mb289    bakta  contig_35:14368-15708:   446 K21578  239.0 505.90 0.88    -
+Desulfo_M55B175_mb289    bakta  contig_35:15727-16047:   106 K10670  101.8  54.70 0.65 grdA
+Desulfo_M55B175_mb289 prodigal         k127_4725482_10   345 K10672  390.8 277.97 0.80 grdB
+Desulfo_M55B175_mb289 prodigal         k127_4725482_10   345 K21579  311.6 624.03 0.80 grdB
+Desulfo_M55B175_mb289 prodigal         k127_4725482_11   446 K21578  239.0 505.90 0.88    -
+Desulfo_M55B175_mb289 prodigal         k127_4725482_12   106 K10670  101.8  54.70 0.65 grdA
+  Halanaerobium_mb206    bakta contig_72:36439-36765:+   108 K10670  175.2  54.70 0.68 grdA
+  Halanaerobium_mb206    bakta contig_72:36821-38146:+   441 K21578  835.5 505.90 1.00 grdI
+  Halanaerobium_mb206    bakta contig_72:38164-39483:+   439 K10672  623.3 277.97 0.99 grdH
+  Halanaerobium_mb206    bakta contig_72:38164-39483:+   439 K21579  808.9 624.03 1.00 grdH
+  Halanaerobium_mb206 prodigal         k127_2922877_41   108 K10670  175.2  54.70 0.68 grdA
+  Halanaerobium_mb206 prodigal         k127_2922877_42   441 K21578  835.5 505.90 1.00 grdI
+  Halanaerobium_mb206 prodigal         k127_2922877_43   350 K10672  471.4 277.97 0.80 grdB
+  Halanaerobium_mb206 prodigal         k127_2922877_43   350 K21579  623.6 624.03 0.80 grdB
+  Halanaerobium_mb206 prodigal         k127_2922877_44    79 K10672  100.6 277.97 0.17    -
+  Halanaerobium_mb206 prodigal         k127_2922877_44    79 K21579  135.3 624.03 0.18    -
+
+U-containing Bakta protein: bakta|Halanaerobium_mb206|contig_72:38164-39483:+ 439 aa; U at 351
+    ko  score    thr  cov   sig
+K10672  623.3 277.97 0.99  True
+K21579  808.9 624.03 1.00  True
+K21584  586.1 794.63 0.99 False

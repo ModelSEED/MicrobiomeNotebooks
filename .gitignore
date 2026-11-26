@@ -205,3 +205,45 @@ data/feature_probabilities.json
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# KBase assembly downloads from narrative 261700 (large sequence files — never tracked)
+wetland/kbase_assemblies_261700/
+
+# KBase MAG downloads from narrative 155805 (genome JSON + FASTA; manifest/summary kept)
+salterns/BERDL_MAGs/genomes/
+salterns/BERDL_MAGs/proteins/
+salterns/BERDL_MAGs/contigs/
+
+# Contig FASTA for all 450 salterns MAGs (download_mag_contigs.py; index.tsv kept)
+salterns/MAG_contigs/*.fna
+salterns/MAG_contigs/*.fna.gz
+salterns/MAG_contigs/*.part
+
+# KBase QC report downloads (queue_mag_qc_jobs.py --collect; zips/HTML are ~1 GB, tables kept)
+salterns/MAG_QC/**/*.zip
+salterns/MAG_QC/**/*.html
+salterns/MAG_QC/gtdbtk_local_r232/align/
+
+# CoverM read mapping (salterns/reads): BAMs + their indexes are ~524 GB; tables, logs and scripts kept
+salterns/reads/**/*.bam
+salterns/reads/**/*.bam.index
+
+# macOS AppleDouble files and LibreOffice lock files
+._*
+.~lock.*#
+
+# DRAM2 merged annotations (203 MB gz, over the GitHub 100 MB file limit; kept local; source poplar:/scratch1/afreiburger/wetland_dram2/merged/)
+wetland/dram2/results/raw-annotations.all.tsv.gz
+# DRAM2 coding + non-coding gene table (103 MB gz; built locally by wetland/dram2/merge_coding_noncoding.py)
+wetland/dram2/results/dram2_genes_coding_noncoding.tsv.gz
+# DRAM2 residual-output tarballs (~10+ GB; listed with sha256 in wetland/dram2/results/RESIDUAL_MANIFEST.tsv)
+wetland/dram2/results/residual/
+# Bakta (wetland/bakta): residual-output tarballs + per-MAG tables pulled for the merge (listed in RESIDUAL_MANIFEST.tsv)
+wetland/bakta/results/residual/
+wetland/bakta/results/runs_tsv/
+# Bakta coding + non-coding gene table of the 1,184 reps (122 MB gz; built by wetland/bakta/merge_bakta.py) and its log
+wetland/bakta/results/bakta_genes_all.tsv.gz
+wetland/bakta/results/merge.log
+# DRAM2 v1 (1,184-MAG set) large tables, kept locally beside the run-4 (1,206) results
+wetland/dram2/results/v1_1184/raw-annotations.all.tsv.gz
+wetland/dram2/results/v1_1184/dram2_genes_coding_noncoding.tsv.gz

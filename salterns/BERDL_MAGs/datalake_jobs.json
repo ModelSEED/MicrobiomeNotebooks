@@ -1,0 +1,2317 @@
+{
+  "app_id": "KBDatalakeApps/build_genome_datalake_tables",
+  "tag": "beta",
+  "suffix": ".dlt",
+  "jobs": [
+    {
+      "job_id": "6a6940596756400f4e6711e7",
+      "genomes": [
+        "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.8.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.20.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.46.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.21.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_metabat.31.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_concoct_out.29.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.50.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.18.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.32.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.15.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.88.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.10.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_B_D1_MG_DASTool_bins_concoct_out.44.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_C_H2O_MG_DASTool_bins_metabat.16.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.18.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_metabat.10.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.25.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.86.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.25.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.2.contigs__.RAST"
+      ],
+      "genome_refs": [
+        "155805/3/1",
+        "155805/4/1",
+        "155805/6/1",
+        "155805/7/1",
+        "155805/8/1",
+        "155805/9/1",
+        "155805/10/1",
+        "155805/11/1",
+        "155805/12/1",
+        "155805/13/1",
+        "155805/14/1",
+        "155805/16/1",
+        "155805/17/1",
+        "155805/20/1",
+        "155805/21/1",
+        "155805/22/1",
+        "155805/23/1",
+        "155805/24/1",
+        "155805/26/1",
+        "155805/28/1"
+      ],
+      "output": "BERDL_unprocessed_batch01.dlt",
+      "n_genomes": 20,
+      "submitted_utc": "2026-07-28T23:50:49.262608+00:00"
+    },
+    {
+      "job_id": "6a69405cc9e2e40ca406078c",
+      "genomes": [
+        "Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_concoct_out.78.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.39.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.23.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_C_H2O_MG_DASTool_bins_metabat.5.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_C_H2O_MG_DASTool_bins_metabat.29.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.53.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_metabat.14.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.65.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.27.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_B_H2O_MG_DASTool_bins_metabat.29.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.11.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.18.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_C_H2O_MG_DASTool_bins_metabat.29.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_concoct_out.59.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.54.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.50.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.37.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.25.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.40.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_metabat.8.contigs__.RAST"
+      ],
+      "genome_refs": [
+        "155805/152/1",
+        "155805/153/1",
+        "155805/155/1",
+        "155805/157/1",
+        "155805/158/1",
+        "155805/161/1",
+        "155805/162/1",
+        "155805/163/1",
+        "155805/164/1",
+        "155805/165/1",
+        "155805/166/1",
+        "155805/167/1",
+        "155805/168/1",
+        "155805/171/1",
+        "155805/174/1",
+        "155805/175/1",
+        "155805/176/1",
+        "155805/177/1",
+        "155805/178/1",
+        "155805/179/1"
+      ],
+      "output": "BERDL_unprocessed_batch06.dlt",
+      "n_genomes": 20,
+      "submitted_utc": "2026-07-28T23:50:52.893104+00:00"
+    },
+    {
+      "job_id": "6a69405ddefcede6f71dd4f7",
+      "genomes": [
+        "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.49.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.20.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.5.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_metabat.25.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_maxbin.005.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.22.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_metabat.22.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.24.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_concoct_out.10.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.109.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_B_H2O_MG_DASTool_bins_metabat.16.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.19.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.30.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_concoct_out.40.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_C_H2O_MG_DASTool_bins_metabat.20.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.118.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.33.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.34.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_B_D2_MG_DASTool_bins_concoct_out.55.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.11.contigs__.RAST"
+      ],
+      "genome_refs": [
+        "155805/180/1",
+        "155805/182/1",
+        "155805/183/1",
+        "155805/184/1",
+        "155805/185/1",
+        "155805/188/1",
+        "155805/191/1",
+        "155805/193/1",
+        "155805/195/1",
+        "155805/198/1",
+        "155805/199/1",
+        "155805/200/1",
+        "155805/201/1",
+        "155805/202/1",
+        "155805/204/1",
+        "155805/208/1",
+        "155805/211/1",
+        "155805/212/1",
+        "155805/213/1",
+        "155805/214/1"
+      ],
+      "output": "BERDL_unprocessed_batch07.dlt",
+      "n_genomes": 20,
+      "submitted_utc": "2026-07-28T23:50:53.530537+00:00"
+    },
+    {
+      "job_id": "6a69405e7662238c12e4763f",
+      "genomes": [
+        "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_metabat.6.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.16.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_maxbin.028.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.13.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.31.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.37.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_C_H2O_MG_DASTool_bins_concoct_out.35.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_metabat.20.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.34.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.3.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_concoct_out.25.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_C_H2O_MG_DASTool_bins_metabat.4.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_metabat.11.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.51.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.32.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.17.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.20.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.55.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_maxbin.035.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.14.contigs__.RAST"
+      ],
+      "genome_refs": [
+        "155805/216/1",
+        "155805/217/1",
+        "155805/218/1",
+        "155805/222/1",
+        "155805/225/1",
+        "155805/226/1",
+        "155805/227/1",
+        "155805/228/1",
+        "155805/229/1",
+        "155805/231/1",
+        "155805/232/1",
+        "155805/235/1",
+        "155805/237/1",
+        "155805/238/1",
+        "155805/239/1",
+        "155805/240/1",
+        "155805/242/1",
+        "155805/243/1",
+        "155805/244/1",
+        "155805/245/1"
+      ],
+      "output": "BERDL_unprocessed_batch08.dlt",
+      "n_genomes": 20,
+      "submitted_utc": "2026-07-28T23:50:54.175760+00:00"
+    },
+    {
+      "job_id": "6a69405e5a42139f6f44417c",
+      "genomes": [
+        "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.29.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.17.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.8.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.79.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.54.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.42.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.5.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_metabat.16.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_concoct_out.2.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.52.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.24.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.124.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_concoct_out.22.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.38.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.6.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_concoct_out.52.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_metabat.7.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_metabat.38.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.28.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.25.contigs__.RAST"
+      ],
+      "genome_refs": [
+        "155805/247/1",
+        "155805/248/1",
+        "155805/249/1",
+        "155805/250/1",
+        "155805/251/1",
+        "155805/253/1",
+        "155805/254/1",
+        "155805/258/1",
+        "155805/259/1",
+        "155805/262/1",
+        "155805/263/1",
+        "155805/264/1",
+        "155805/265/1",
+        "155805/268/1",
+        "155805/269/1",
+        "155805/271/1",
+        "155805/273/1",
+        "155805/275/1",
+        "155805/276/1",
+        "155805/277/1"
+      ],
+      "output": "BERDL_unprocessed_batch09.dlt",
+      "n_genomes": 20,
+      "submitted_utc": "2026-07-28T23:50:54.748134+00:00"
+    },
+    {
+      "job_id": "6a69405f6742627971d2c145",
+      "genomes": [
+        "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_metabat.14.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_maxbin.014.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_concoct_out.110.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.7.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.50.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_metabat.17.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.47.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_B_D2_MG_DASTool_bins_metabat.4.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.55.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.16.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_C_H2O_MG_DASTool_bins_metabat.13.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.18.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.10.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.35.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.40.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.104.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.12.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_concoct_out.15.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_concoct_out.51.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.8.contigs__.RAST"
+      ],
+      "genome_refs": [
+        "155805/279/1",
+        "155805/280/1",
+        "155805/282/1",
+        "155805/283/1",
+        "155805/287/1",
+        "155805/288/1",
+        "155805/290/1",
+        "155805/293/1",
+        "155805/294/1",
+        "155805/297/1",
+        "155805/298/1",
+        "155805/299/1",
+        "155805/300/1",
+        "155805/301/1",
+        "155805/302/1",
+        "155805/305/1",
+        "155805/306/1",
+        "155805/309/1",
+        "155805/311/1",
+        "155805/312/1"
+      ],
+      "output": "BERDL_unprocessed_batch10.dlt",
+      "n_genomes": 20,
+      "submitted_utc": "2026-07-28T23:50:55.486547+00:00"
+    }
+  ],
+  "cancelled": [
+    {
+      "job_id": "6a63dfe41c6b2638b1d8b411",
+      "genome": "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.8.contigs__.RAST",
+      "genome_ref": "155805/3/1",
+      "output": "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.8.contigs__.RAST.dlt",
+      "objid": 3,
+      "submitted_utc": "2026-07-24T21:57:56.841309+00:00",
+      "cancelled_utc": "2026-07-28T23:50:10.891167+00:00"
+    },
+    {
+      "job_id": "6a63fee1cf0aa852a1c35ca4",
+      "genome": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.20.contigs__.RAST",
+      "genome_ref": "155805/4/1",
+      "output": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.20.contigs__.RAST.dlt",
+      "objid": 4,
+      "submitted_utc": "2026-07-25T00:10:09.498731+00:00",
+      "cancelled_utc": "2026-07-28T23:50:11.068785+00:00"
+    },
+    {
+      "job_id": "6a63fee2b02968b3c1d534e2",
+      "genome": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.46.contigs__.RAST",
+      "genome_ref": "155805/6/1",
+      "output": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.46.contigs__.RAST.dlt",
+      "objid": 6,
+      "submitted_utc": "2026-07-25T00:10:10.192492+00:00",
+      "cancelled_utc": "2026-07-28T23:50:11.275341+00:00"
+    },
+    {
+      "job_id": "6a63fee26756400f4e67113f",
+      "genome": "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.21.contigs__.RAST",
+      "genome_ref": "155805/7/1",
+      "output": "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.21.contigs__.RAST.dlt",
+      "objid": 7,
+      "submitted_utc": "2026-07-25T00:10:10.926726+00:00",
+      "cancelled_utc": "2026-07-28T23:50:11.471835+00:00"
+    },
+    {
+      "job_id": "6a63fee31b92ce12e3233a6b",
+      "genome": "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_metabat.31.contigs__.RAST",
+      "genome_ref": "155805/8/1",
+      "output": "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_metabat.31.contigs__.RAST.dlt",
+      "objid": 8,
+      "submitted_utc": "2026-07-25T00:10:11.606665+00:00",
+      "cancelled_utc": "2026-07-28T23:50:11.573100+00:00"
+    },
+    {
+      "job_id": "6a63fee47662238c12e47366",
+      "genome": "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_concoct_out.29.contigs__.RAST",
+      "genome_ref": "155805/9/1",
+      "output": "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_concoct_out.29.contigs__.RAST.dlt",
+      "objid": 9,
+      "submitted_utc": "2026-07-25T00:10:12.260593+00:00",
+      "cancelled_utc": "2026-07-28T23:50:11.768182+00:00"
+    },
+    {
+      "job_id": "6a63fee4c9e2e40ca4060425",
+      "genome": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.50.contigs__.RAST",
+      "genome_ref": "155805/10/1",
+      "output": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.50.contigs__.RAST.dlt",
+      "objid": 10,
+      "submitted_utc": "2026-07-25T00:10:12.985474+00:00",
+      "cancelled_utc": "2026-07-28T23:50:11.852349+00:00"
+    },
+    {
+      "job_id": "6a63fee5551058e5694bcc49",
+      "genome": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.18.contigs__.RAST",
+      "genome_ref": "155805/11/1",
+      "output": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.18.contigs__.RAST.dlt",
+      "objid": 11,
+      "submitted_utc": "2026-07-25T00:10:13.836254+00:00",
+      "cancelled_utc": "2026-07-28T23:50:11.936137+00:00"
+    },
+    {
+      "job_id": "6a63fee61c6b2638b1d8b41d",
+      "genome": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.32.contigs__.RAST",
+      "genome_ref": "155805/12/1",
+      "output": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.32.contigs__.RAST.dlt",
+      "objid": 12,
+      "submitted_utc": "2026-07-25T00:10:14.478016+00:00",
+      "cancelled_utc": "2026-07-28T23:50:12.015699+00:00"
+    },
+    {
+      "job_id": "6a63fee75a42139f6f444049",
+      "genome": "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.15.contigs__.RAST",
+      "genome_ref": "155805/13/1",
+      "output": "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.15.contigs__.RAST.dlt",
+      "objid": 13,
+      "submitted_utc": "2026-07-25T00:10:15.237733+00:00",
+      "cancelled_utc": "2026-07-28T23:50:12.149625+00:00"
+    },
+    {
+      "job_id": "6a63fee7c9e2e40ca4060426",
+      "genome": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.88.contigs__.RAST",
+      "genome_ref": "155805/14/1",
+      "output": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.88.contigs__.RAST.dlt",
+      "objid": 14,
+      "submitted_utc": "2026-07-25T00:10:15.865500+00:00",
+      "cancelled_utc": "2026-07-28T23:50:12.231978+00:00"
+    },
+    {
+      "job_id": "6a63fee8c9e2e40ca4060427",
+      "genome": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.10.contigs__.RAST",
+      "genome_ref": "155805/16/1",
+      "output": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.10.contigs__.RAST.dlt",
+      "objid": 16,
+      "submitted_utc": "2026-07-25T00:10:16.460658+00:00",
+      "cancelled_utc": "2026-07-28T23:50:12.324955+00:00"
+    },
+    {
+      "job_id": "6a63fee9e13eb0e5bc223528",
+      "genome": "Salt_Pond_MetaGSF2_B_D1_MG_DASTool_bins_concoct_out.44.contigs__.RAST",
+      "genome_ref": "155805/17/1",
+      "output": "Salt_Pond_MetaGSF2_B_D1_MG_DASTool_bins_concoct_out.44.contigs__.RAST.dlt",
+      "objid": 17,
+      "submitted_utc": "2026-07-25T00:10:17.158151+00:00",
+      "cancelled_utc": "2026-07-28T23:50:12.509742+00:00"
+    },
+    {
+      "job_id": "6a63fee9c9e2e40ca4060428",
+      "genome": "Salt_Pond_MetaG_R2A_C_H2O_MG_DASTool_bins_metabat.16.contigs__.RAST",
+      "genome_ref": "155805/20/1",
+      "output": "Salt_Pond_MetaG_R2A_C_H2O_MG_DASTool_bins_metabat.16.contigs__.RAST.dlt",
+      "objid": 20,
+      "submitted_utc": "2026-07-25T00:10:17.761073+00:00",
+      "cancelled_utc": "2026-07-28T23:50:12.601201+00:00"
+    },
+    {
+      "job_id": "6a63feea1422d54bc6b932c5",
+      "genome": "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.18.contigs__.RAST",
+      "genome_ref": "155805/21/1",
+      "output": "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.18.contigs__.RAST.dlt",
+      "objid": 21,
+      "submitted_utc": "2026-07-25T00:10:18.457455+00:00",
+      "cancelled_utc": "2026-07-28T23:50:12.681708+00:00"
+    },
+    {
+      "job_id": "6a63feea551058e5694bcc4a",
+      "genome": "Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_metabat.10.contigs__.RAST",
+      "genome_ref": "155805/22/1",
+      "output": "Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_metabat.10.contigs__.RAST.dlt",
+      "objid": 22,
+      "submitted_utc": "2026-07-25T00:10:19.046100+00:00",
+      "cancelled_utc": "2026-07-28T23:50:12.772507+00:00"
+    },
+    {
+      "job_id": "6a63feeb2ec2f2e7dd4ac8b7",
+      "genome": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.25.contigs__.RAST",
+      "genome_ref": "155805/23/1",
+      "output": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.25.contigs__.RAST.dlt",
+      "objid": 23,
+      "submitted_utc": "2026-07-25T00:10:19.784666+00:00",
+      "cancelled_utc": "2026-07-28T23:50:12.860026+00:00"
+    },
+    {
+      "job_id": "6a63feec1c6b2638b1d8b41e",
+      "genome": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.86.contigs__.RAST",
+      "genome_ref": "155805/24/1",
+      "output": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.86.contigs__.RAST.dlt",
+      "objid": 24,
+      "submitted_utc": "2026-07-25T00:10:20.382430+00:00",
+      "cancelled_utc": "2026-07-28T23:50:12.949482+00:00"
+    },
+    {
+      "job_id": "6a63feed2f71c771f65d1b04",
+      "genome": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.25.contigs__.RAST",
+      "genome_ref": "155805/26/1",
+      "output": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.25.contigs__.RAST.dlt",
+      "objid": 26,
+      "submitted_utc": "2026-07-25T00:10:21.130549+00:00",
+      "cancelled_utc": "2026-07-28T23:50:13.029433+00:00"
+    },
+    {
+      "job_id": "6a63feedccb225d176a14977",
+      "genome": "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.2.contigs__.RAST",
+      "genome_ref": "155805/28/1",
+      "output": "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.2.contigs__.RAST.dlt",
+      "objid": 28,
+      "submitted_utc": "2026-07-25T00:10:21.854176+00:00",
+      "cancelled_utc": "2026-07-28T23:50:13.220659+00:00"
+    },
+    {
+      "job_id": "6a63feee2dd4414948d1ac60",
+      "genome": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.29.contigs__.RAST",
+      "genome_ref": "155805/29/1",
+      "output": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.29.contigs__.RAST.dlt",
+      "objid": 29,
+      "submitted_utc": "2026-07-25T00:10:22.557577+00:00",
+      "cancelled_utc": "2026-07-28T23:50:13.316590+00:00"
+    },
+    {
+      "job_id": "6a63feef2ec2f2e7dd4ac8b8",
+      "genome": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.38.contigs__.RAST",
+      "genome_ref": "155805/30/1",
+      "output": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.38.contigs__.RAST.dlt",
+      "objid": 30,
+      "submitted_utc": "2026-07-25T00:10:23.209901+00:00",
+      "cancelled_utc": "2026-07-28T23:50:13.396365+00:00"
+    },
+    {
+      "job_id": "6a63feef74da1bdc01b96f11",
+      "genome": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.80.contigs__.RAST",
+      "genome_ref": "155805/31/1",
+      "output": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.80.contigs__.RAST.dlt",
+      "objid": 31,
+      "submitted_utc": "2026-07-25T00:10:23.927272+00:00",
+      "cancelled_utc": "2026-07-28T23:50:13.525317+00:00"
+    },
+    {
+      "job_id": "6a63fef01c6b2638b1d8b41f",
+      "genome": "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_concoct_out.13.contigs__.RAST",
+      "genome_ref": "155805/32/1",
+      "output": "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_concoct_out.13.contigs__.RAST.dlt",
+      "objid": 32,
+      "submitted_utc": "2026-07-25T00:10:24.609515+00:00",
+      "cancelled_utc": "2026-07-28T23:50:13.605262+00:00"
+    },
+    {
+      "job_id": "6a63fef1d76cb22d1a51554d",
+      "genome": "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.45.contigs__.RAST",
+      "genome_ref": "155805/33/1",
+      "output": "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.45.contigs__.RAST.dlt",
+      "objid": 33,
+      "submitted_utc": "2026-07-25T00:10:25.346907+00:00",
+      "cancelled_utc": "2026-07-28T23:50:13.681626+00:00"
+    },
+    {
+      "job_id": "6a63fef12f71c771f65d1b05",
+      "genome": "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.4.contigs__.RAST",
+      "genome_ref": "155805/35/1",
+      "output": "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.4.contigs__.RAST.dlt",
+      "objid": 35,
+      "submitted_utc": "2026-07-25T00:10:25.943803+00:00",
+      "cancelled_utc": "2026-07-28T23:50:13.814098+00:00"
+    },
+    {
+      "job_id": "6a63fef218fb5e2b773a36a6",
+      "genome": "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.28.contigs__.RAST",
+      "genome_ref": "155805/36/1",
+      "output": "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.28.contigs__.RAST.dlt",
+      "objid": 36,
+      "submitted_utc": "2026-07-25T00:10:26.610770+00:00",
+      "cancelled_utc": "2026-07-28T23:50:13.908546+00:00"
+    },
+    {
+      "job_id": "6a63fef36756400f4e671140",
+      "genome": "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.17.contigs__.RAST",
+      "genome_ref": "155805/40/1",
+      "output": "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.17.contigs__.RAST.dlt",
+      "objid": 40,
+      "submitted_utc": "2026-07-25T00:10:27.245719+00:00",
+      "cancelled_utc": "2026-07-28T23:50:13.987463+00:00"
+    },
+    {
+      "job_id": "6a63fef3d25de51df9f4d30e",
+      "genome": "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_concoct_out.91.contigs__.RAST",
+      "genome_ref": "155805/41/1",
+      "output": "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_concoct_out.91.contigs__.RAST.dlt",
+      "objid": 41,
+      "submitted_utc": "2026-07-25T00:10:27.981800+00:00",
+      "cancelled_utc": "2026-07-28T23:50:14.186329+00:00"
+    },
+    {
+      "job_id": "6a63fef4b02968b3c1d534e3",
+      "genome": "Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_metabat.22.contigs__.RAST",
+      "genome_ref": "155805/42/1",
+      "output": "Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_metabat.22.contigs__.RAST.dlt",
+      "objid": 42,
+      "submitted_utc": "2026-07-25T00:10:29.570306+00:00",
+      "cancelled_utc": "2026-07-28T23:50:14.373168+00:00"
+    },
+    {
+      "job_id": "6a63fef65a42139f6f44404a",
+      "genome": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.34.contigs__.RAST",
+      "genome_ref": "155805/43/1",
+      "output": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.34.contigs__.RAST.dlt",
+      "objid": 43,
+      "submitted_utc": "2026-07-25T00:10:30.204836+00:00",
+      "cancelled_utc": "2026-07-28T23:50:14.448969+00:00"
+    },
+    {
+      "job_id": "6a63fef60b82d7126a9774a8",
+      "genome": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_metabat.19.contigs__.RAST",
+      "genome_ref": "155805/44/1",
+      "output": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_metabat.19.contigs__.RAST.dlt",
+      "objid": 44,
+      "submitted_utc": "2026-07-25T00:10:30.906308+00:00",
+      "cancelled_utc": "2026-07-28T23:50:14.522651+00:00"
+    },
+    {
+      "job_id": "6a63fef72f71c771f65d1b06",
+      "genome": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.37.contigs__.RAST",
+      "genome_ref": "155805/45/1",
+      "output": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.37.contigs__.RAST.dlt",
+      "objid": 45,
+      "submitted_utc": "2026-07-25T00:10:31.498594+00:00",
+      "cancelled_utc": "2026-07-28T23:50:14.597028+00:00"
+    },
+    {
+      "job_id": "6a63fef774da1bdc01b96f12",
+      "genome": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.26.contigs__.RAST",
+      "genome_ref": "155805/51/1",
+      "output": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.26.contigs__.RAST.dlt",
+      "objid": 51,
+      "submitted_utc": "2026-07-25T00:10:32.080089+00:00",
+      "cancelled_utc": "2026-07-28T23:50:14.784812+00:00"
+    },
+    {
+      "job_id": "6a63fef8c9e2e40ca4060429",
+      "genome": "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_concoct_out.45.contigs__.RAST",
+      "genome_ref": "155805/52/1",
+      "output": "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_concoct_out.45.contigs__.RAST.dlt",
+      "objid": 52,
+      "submitted_utc": "2026-07-25T00:10:32.681266+00:00",
+      "cancelled_utc": "2026-07-28T23:50:14.976101+00:00"
+    },
+    {
+      "job_id": "6a63fef918fb5e2b773a36a7",
+      "genome": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.71.contigs__.RAST",
+      "genome_ref": "155805/53/1",
+      "output": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.71.contigs__.RAST.dlt",
+      "objid": 53,
+      "submitted_utc": "2026-07-25T00:10:33.293036+00:00",
+      "cancelled_utc": "2026-07-28T23:50:15.081849+00:00"
+    },
+    {
+      "job_id": "6a63fef9d76cb22d1a51554e",
+      "genome": "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.43.contigs__.RAST",
+      "genome_ref": "155805/54/1",
+      "output": "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.43.contigs__.RAST.dlt",
+      "objid": 54,
+      "submitted_utc": "2026-07-25T00:10:33.958358+00:00",
+      "cancelled_utc": "2026-07-28T23:50:15.287563+00:00"
+    },
+    {
+      "job_id": "6a63fefa551058e5694bcc4c",
+      "genome": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.9.contigs__.RAST",
+      "genome_ref": "155805/56/1",
+      "output": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.9.contigs__.RAST.dlt",
+      "objid": 56,
+      "submitted_utc": "2026-07-25T00:10:34.709867+00:00",
+      "cancelled_utc": "2026-07-28T23:50:15.376778+00:00"
+    },
+    {
+      "job_id": "6a63fefb7662238c12e47367",
+      "genome": "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.45.contigs__.RAST",
+      "genome_ref": "155805/61/1",
+      "output": "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.45.contigs__.RAST.dlt",
+      "objid": 61,
+      "submitted_utc": "2026-07-25T00:10:35.358586+00:00",
+      "cancelled_utc": "2026-07-28T23:50:15.591402+00:00"
+    },
+    {
+      "job_id": "6a63fefbc9e2e40ca406042a",
+      "genome": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.15.contigs__.RAST",
+      "genome_ref": "155805/62/1",
+      "output": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.15.contigs__.RAST.dlt",
+      "objid": 62,
+      "submitted_utc": "2026-07-25T00:10:36.081909+00:00",
+      "cancelled_utc": "2026-07-28T23:50:15.672542+00:00"
+    },
+    {
+      "job_id": "6a63fefc2ec2f2e7dd4ac8b9",
+      "genome": "Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_metabat.14.contigs__.RAST",
+      "genome_ref": "155805/64/1",
+      "output": "Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_metabat.14.contigs__.RAST.dlt",
+      "objid": 64,
+      "submitted_utc": "2026-07-25T00:10:36.728932+00:00",
+      "cancelled_utc": "2026-07-28T23:50:15.783937+00:00"
+    },
+    {
+      "job_id": "6a63fefd0d6d14ce1987d98d",
+      "genome": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.23.contigs__.RAST",
+      "genome_ref": "155805/65/1",
+      "output": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.23.contigs__.RAST.dlt",
+      "objid": 65,
+      "submitted_utc": "2026-07-25T00:10:37.439329+00:00",
+      "cancelled_utc": "2026-07-28T23:50:15.885789+00:00"
+    },
+    {
+      "job_id": "6a63fefe1c6b2638b1d8b420",
+      "genome": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.143.contigs__.RAST",
+      "genome_ref": "155805/68/1",
+      "output": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.143.contigs__.RAST.dlt",
+      "objid": 68,
+      "submitted_utc": "2026-07-25T00:10:38.433492+00:00",
+      "cancelled_utc": "2026-07-28T23:50:15.968185+00:00"
+    },
+    {
+      "job_id": "6a63feff18fb5e2b773a36a8",
+      "genome": "Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.67.contigs__.RAST",
+      "genome_ref": "155805/70/1",
+      "output": "Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.67.contigs__.RAST.dlt",
+      "objid": 70,
+      "submitted_utc": "2026-07-25T00:10:39.110155+00:00",
+      "cancelled_utc": "2026-07-28T23:50:16.043102+00:00"
+    },
+    {
+      "job_id": "6a63feffd25de51df9f4d30f",
+      "genome": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.12.contigs__.RAST",
+      "genome_ref": "155805/71/1",
+      "output": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.12.contigs__.RAST.dlt",
+      "objid": 71,
+      "submitted_utc": "2026-07-25T00:10:39.742414+00:00",
+      "cancelled_utc": "2026-07-28T23:50:16.128326+00:00"
+    },
+    {
+      "job_id": "6a63ff007662238c12e47368",
+      "genome": "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.18.contigs__.RAST",
+      "genome_ref": "155805/72/1",
+      "output": "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.18.contigs__.RAST.dlt",
+      "objid": 72,
+      "submitted_utc": "2026-07-25T00:10:40.343542+00:00",
+      "cancelled_utc": "2026-07-28T23:50:16.215719+00:00"
+    },
+    {
+      "job_id": "6a63ff001c6b2638b1d8b421",
+      "genome": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.40.contigs__.RAST",
+      "genome_ref": "155805/73/1",
+      "output": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.40.contigs__.RAST.dlt",
+      "objid": 73,
+      "submitted_utc": "2026-07-25T00:10:40.909784+00:00",
+      "cancelled_utc": "2026-07-28T23:50:16.294819+00:00"
+    },
+    {
+      "job_id": "6a63ff017662238c12e47369",
+      "genome": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.87.contigs__.RAST",
+      "genome_ref": "155805/74/1",
+      "output": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.87.contigs__.RAST.dlt",
+      "objid": 74,
+      "submitted_utc": "2026-07-25T00:10:41.560226+00:00",
+      "cancelled_utc": "2026-07-28T23:50:16.385297+00:00"
+    },
+    {
+      "job_id": "6a63ff025a42139f6f44404b",
+      "genome": "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_metabat.16.contigs__.RAST",
+      "genome_ref": "155805/75/1",
+      "output": "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_metabat.16.contigs__.RAST.dlt",
+      "objid": 75,
+      "submitted_utc": "2026-07-25T00:10:42.192290+00:00",
+      "cancelled_utc": "2026-07-28T23:50:16.474101+00:00"
+    },
+    {
+      "job_id": "6a63ff021c6b2638b1d8b422",
+      "genome": "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.19.contigs__.RAST",
+      "genome_ref": "155805/76/1",
+      "output": "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.19.contigs__.RAST.dlt",
+      "objid": 76,
+      "submitted_utc": "2026-07-25T00:10:42.828101+00:00",
+      "cancelled_utc": "2026-07-28T23:50:16.558093+00:00"
+    },
+    {
+      "job_id": "6a63ff03551058e5694bcc4d",
+      "genome": "Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_concoct_out.33.contigs__.RAST",
+      "genome_ref": "155805/78/1",
+      "output": "Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_concoct_out.33.contigs__.RAST.dlt",
+      "objid": 78,
+      "submitted_utc": "2026-07-25T00:10:43.497623+00:00",
+      "cancelled_utc": "2026-07-28T23:50:16.643278+00:00"
+    },
+    {
+      "job_id": "6a63ff042f71c771f65d1b07",
+      "genome": "Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_metabat.10.contigs__.RAST",
+      "genome_ref": "155805/79/1",
+      "output": "Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_metabat.10.contigs__.RAST.dlt",
+      "objid": 79,
+      "submitted_utc": "2026-07-25T00:10:44.127896+00:00",
+      "cancelled_utc": "2026-07-28T23:50:16.725236+00:00"
+    },
+    {
+      "job_id": "6a63ff046756400f4e671141",
+      "genome": "Salt_Pond_MetaG_R2_B_H2O_MG_DASTool_bins_metabat.17.contigs__.RAST",
+      "genome_ref": "155805/80/1",
+      "output": "Salt_Pond_MetaG_R2_B_H2O_MG_DASTool_bins_metabat.17.contigs__.RAST.dlt",
+      "objid": 80,
+      "submitted_utc": "2026-07-25T00:10:44.769722+00:00",
+      "cancelled_utc": "2026-07-28T23:50:16.806979+00:00"
+    },
+    {
+      "job_id": "6a63ff057662238c12e4736a",
+      "genome": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.13.contigs__.RAST",
+      "genome_ref": "155805/83/1",
+      "output": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.13.contigs__.RAST.dlt",
+      "objid": 83,
+      "submitted_utc": "2026-07-25T00:10:45.411529+00:00",
+      "cancelled_utc": "2026-07-28T23:50:16.878176+00:00"
+    },
+    {
+      "job_id": "6a63ff066742627971d2c10a",
+      "genome": "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.26.contigs__.RAST",
+      "genome_ref": "155805/85/1",
+      "output": "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.26.contigs__.RAST.dlt",
+      "objid": 85,
+      "submitted_utc": "2026-07-25T00:10:46.120843+00:00",
+      "cancelled_utc": "2026-07-28T23:50:16.945859+00:00"
+    },
+    {
+      "job_id": "6a63ff061c6b2638b1d8b423",
+      "genome": "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_metabat.19.contigs__.RAST",
+      "genome_ref": "155805/87/1",
+      "output": "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_metabat.19.contigs__.RAST.dlt",
+      "objid": 87,
+      "submitted_utc": "2026-07-25T00:10:46.730422+00:00",
+      "cancelled_utc": "2026-07-28T23:50:17.027820+00:00"
+    },
+    {
+      "job_id": "6a63ff07d76cb22d1a51554f",
+      "genome": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.7.contigs__.RAST",
+      "genome_ref": "155805/90/1",
+      "output": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.7.contigs__.RAST.dlt",
+      "objid": 90,
+      "submitted_utc": "2026-07-25T00:10:47.294141+00:00",
+      "cancelled_utc": "2026-07-28T23:50:17.113191+00:00"
+    },
+    {
+      "job_id": "6a63ff077662238c12e4736b",
+      "genome": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.98.contigs__.RAST",
+      "genome_ref": "155805/91/1",
+      "output": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.98.contigs__.RAST.dlt",
+      "objid": 91,
+      "submitted_utc": "2026-07-25T00:10:47.928099+00:00",
+      "cancelled_utc": "2026-07-28T23:50:17.208032+00:00"
+    },
+    {
+      "job_id": "6a63ff080d6d14ce1987d98e",
+      "genome": "Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_concoct_out.59.contigs__.RAST",
+      "genome_ref": "155805/93/1",
+      "output": "Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_concoct_out.59.contigs__.RAST.dlt",
+      "objid": 93,
+      "submitted_utc": "2026-07-25T00:10:48.545859+00:00",
+      "cancelled_utc": "2026-07-28T23:50:17.415680+00:00"
+    },
+    {
+      "job_id": "6a63ff09c9e2e40ca406042b",
+      "genome": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.2.contigs__.RAST",
+      "genome_ref": "155805/94/1",
+      "output": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.2.contigs__.RAST.dlt",
+      "objid": 94,
+      "submitted_utc": "2026-07-25T00:10:49.228185+00:00",
+      "cancelled_utc": "2026-07-28T23:50:17.498696+00:00"
+    },
+    {
+      "job_id": "6a63ff096756400f4e671142",
+      "genome": "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.9.contigs__.RAST",
+      "genome_ref": "155805/97/1",
+      "output": "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.9.contigs__.RAST.dlt",
+      "objid": 97,
+      "submitted_utc": "2026-07-25T00:10:49.850506+00:00",
+      "cancelled_utc": "2026-07-28T23:50:17.578366+00:00"
+    },
+    {
+      "job_id": "6a63ff0a551058e5694bcc4e",
+      "genome": "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.6.contigs__.RAST",
+      "genome_ref": "155805/99/1",
+      "output": "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.6.contigs__.RAST.dlt",
+      "objid": 99,
+      "submitted_utc": "2026-07-25T00:10:50.559988+00:00",
+      "cancelled_utc": "2026-07-28T23:50:17.666068+00:00"
+    },
+    {
+      "job_id": "6a63ff0b551058e5694bcc4f",
+      "genome": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.19.contigs__.RAST",
+      "genome_ref": "155805/101/1",
+      "output": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.19.contigs__.RAST.dlt",
+      "objid": 101,
+      "submitted_utc": "2026-07-25T00:10:51.771619+00:00",
+      "cancelled_utc": "2026-07-28T23:50:17.749150+00:00"
+    },
+    {
+      "job_id": "6a63ff0cd76cb22d1a515550",
+      "genome": "Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_concoct_out.19.contigs__.RAST",
+      "genome_ref": "155805/102/1",
+      "output": "Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_concoct_out.19.contigs__.RAST.dlt",
+      "objid": 102,
+      "submitted_utc": "2026-07-25T00:10:52.346410+00:00",
+      "cancelled_utc": "2026-07-28T23:50:17.823740+00:00"
+    },
+    {
+      "job_id": "6a63ff0c74da1bdc01b96f13",
+      "genome": "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.7.contigs__.RAST",
+      "genome_ref": "155805/103/1",
+      "output": "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.7.contigs__.RAST.dlt",
+      "objid": 103,
+      "submitted_utc": "2026-07-25T00:10:52.948132+00:00",
+      "cancelled_utc": "2026-07-28T23:50:17.902007+00:00"
+    },
+    {
+      "job_id": "6a63ff0d5a42139f6f44404c",
+      "genome": "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_maxbin.022.contigs__.RAST",
+      "genome_ref": "155805/104/1",
+      "output": "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_maxbin.022.contigs__.RAST.dlt",
+      "objid": 104,
+      "submitted_utc": "2026-07-25T00:10:53.568655+00:00",
+      "cancelled_utc": "2026-07-28T23:50:17.972772+00:00"
+    },
+    {
+      "job_id": "6a63ff0ed1b9872481d1aa05",
+      "genome": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.7.contigs__.RAST",
+      "genome_ref": "155805/106/1",
+      "output": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.7.contigs__.RAST.dlt",
+      "objid": 106,
+      "submitted_utc": "2026-07-25T00:10:54.299957+00:00",
+      "cancelled_utc": "2026-07-28T23:50:18.046519+00:00"
+    },
+    {
+      "job_id": "6a63ff0ee13eb0e5bc223529",
+      "genome": "Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_metabat.29.contigs__.RAST",
+      "genome_ref": "155805/107/1",
+      "output": "Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_metabat.29.contigs__.RAST.dlt",
+      "objid": 107,
+      "submitted_utc": "2026-07-25T00:10:54.891835+00:00",
+      "cancelled_utc": "2026-07-28T23:50:18.128011+00:00"
+    },
+    {
+      "job_id": "6a63ff0fc9e2e40ca406042c",
+      "genome": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.32.contigs__.RAST",
+      "genome_ref": "155805/109/1",
+      "output": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.32.contigs__.RAST.dlt",
+      "objid": 109,
+      "submitted_utc": "2026-07-25T00:10:55.801210+00:00",
+      "cancelled_utc": "2026-07-28T23:50:18.204295+00:00"
+    },
+    {
+      "job_id": "6a63ff105a42139f6f44404d",
+      "genome": "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_concoct_out.45.contigs__.RAST",
+      "genome_ref": "155805/110/1",
+      "output": "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_concoct_out.45.contigs__.RAST.dlt",
+      "objid": 110,
+      "submitted_utc": "2026-07-25T00:10:56.425773+00:00",
+      "cancelled_utc": "2026-07-28T23:50:18.292530+00:00"
+    },
+    {
+      "job_id": "6a63ff101b92ce12e3233a6c",
+      "genome": "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.100.contigs__.RAST",
+      "genome_ref": "155805/111/1",
+      "output": "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.100.contigs__.RAST.dlt",
+      "objid": 111,
+      "submitted_utc": "2026-07-25T00:10:57.056055+00:00",
+      "cancelled_utc": "2026-07-28T23:50:18.375509+00:00"
+    },
+    {
+      "job_id": "6a63ff11defcede6f71dd4ac",
+      "genome": "Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_metabat.16.contigs__.RAST",
+      "genome_ref": "155805/112/1",
+      "output": "Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_metabat.16.contigs__.RAST.dlt",
+      "objid": 112,
+      "submitted_utc": "2026-07-25T00:10:57.853553+00:00",
+      "cancelled_utc": "2026-07-28T23:50:18.458227+00:00"
+    },
+    {
+      "job_id": "6a63ff1210529390536bf43a",
+      "genome": "Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_metabat.42.contigs__.RAST",
+      "genome_ref": "155805/113/1",
+      "output": "Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_metabat.42.contigs__.RAST.dlt",
+      "objid": 113,
+      "submitted_utc": "2026-07-25T00:10:58.544216+00:00",
+      "cancelled_utc": "2026-07-28T23:50:18.545088+00:00"
+    },
+    {
+      "job_id": "6a63ff1308b6d4e1253e9c5d",
+      "genome": "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.49.contigs__.RAST",
+      "genome_ref": "155805/114/1",
+      "output": "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.49.contigs__.RAST.dlt",
+      "objid": 114,
+      "submitted_utc": "2026-07-25T00:10:59.275993+00:00",
+      "cancelled_utc": "2026-07-28T23:50:18.639288+00:00"
+    },
+    {
+      "job_id": "6a63ff13d25de51df9f4d310",
+      "genome": "Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.28.contigs__.RAST",
+      "genome_ref": "155805/115/1",
+      "output": "Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.28.contigs__.RAST.dlt",
+      "objid": 115,
+      "submitted_utc": "2026-07-25T00:10:59.921186+00:00",
+      "cancelled_utc": "2026-07-28T23:50:18.725848+00:00"
+    },
+    {
+      "job_id": "6a63ff147662238c12e4736c",
+      "genome": "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.15.contigs__.RAST",
+      "genome_ref": "155805/117/1",
+      "output": "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.15.contigs__.RAST.dlt",
+      "objid": 117,
+      "submitted_utc": "2026-07-25T00:11:00.500606+00:00",
+      "cancelled_utc": "2026-07-28T23:50:18.804890+00:00"
+    },
+    {
+      "job_id": "6a63ff15c9e2e40ca406042d",
+      "genome": "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.11.contigs__.RAST",
+      "genome_ref": "155805/118/1",
+      "output": "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.11.contigs__.RAST.dlt",
+      "objid": 118,
+      "submitted_utc": "2026-07-25T00:11:01.463189+00:00",
+      "cancelled_utc": "2026-07-28T23:50:18.892496+00:00"
+    },
+    {
+      "job_id": "6a63ff15ccb225d176a14978",
+      "genome": "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.26.contigs__.RAST",
+      "genome_ref": "155805/119/1",
+      "output": "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.26.contigs__.RAST.dlt",
+      "objid": 119,
+      "submitted_utc": "2026-07-25T00:11:02.084539+00:00",
+      "cancelled_utc": "2026-07-28T23:50:18.977251+00:00"
+    },
+    {
+      "job_id": "6a63ff162dd4414948d1ac61",
+      "genome": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.89.contigs__.RAST",
+      "genome_ref": "155805/120/1",
+      "output": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.89.contigs__.RAST.dlt",
+      "objid": 120,
+      "submitted_utc": "2026-07-25T00:11:02.733231+00:00",
+      "cancelled_utc": "2026-07-28T23:50:19.056673+00:00"
+    },
+    {
+      "job_id": "6a63ff172f71c771f65d1b08",
+      "genome": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.28.contigs__.RAST",
+      "genome_ref": "155805/121/1",
+      "output": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.28.contigs__.RAST.dlt",
+      "objid": 121,
+      "submitted_utc": "2026-07-25T00:11:03.430657+00:00",
+      "cancelled_utc": "2026-07-28T23:50:19.151382+00:00"
+    },
+    {
+      "job_id": "6a63ff177662238c12e4736d",
+      "genome": "Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_metabat.13.contigs__.RAST",
+      "genome_ref": "155805/122/1",
+      "output": "Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_metabat.13.contigs__.RAST.dlt",
+      "objid": 122,
+      "submitted_utc": "2026-07-25T00:11:04.103452+00:00",
+      "cancelled_utc": "2026-07-28T23:50:19.343123+00:00"
+    },
+    {
+      "job_id": "6a63ff182f71c771f65d1b09",
+      "genome": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.39.contigs__.RAST",
+      "genome_ref": "155805/124/1",
+      "output": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.39.contigs__.RAST.dlt",
+      "objid": 124,
+      "submitted_utc": "2026-07-25T00:11:04.714289+00:00",
+      "cancelled_utc": "2026-07-28T23:50:19.434442+00:00"
+    },
+    {
+      "job_id": "6a63ff19c9e2e40ca406042e",
+      "genome": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.89.contigs__.RAST",
+      "genome_ref": "155805/125/1",
+      "output": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.89.contigs__.RAST.dlt",
+      "objid": 125,
+      "submitted_utc": "2026-07-25T00:11:05.348559+00:00",
+      "cancelled_utc": "2026-07-28T23:50:19.625151+00:00"
+    },
+    {
+      "job_id": "6a63ff19b02968b3c1d534e4",
+      "genome": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.37.contigs__.RAST",
+      "genome_ref": "155805/128/1",
+      "output": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.37.contigs__.RAST.dlt",
+      "objid": 128,
+      "submitted_utc": "2026-07-25T00:11:05.967205+00:00",
+      "cancelled_utc": "2026-07-28T23:50:19.715450+00:00"
+    },
+    {
+      "job_id": "6a63ff1ad1b9872481d1aa06",
+      "genome": "Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_metabat.23.contigs__.RAST",
+      "genome_ref": "155805/129/1",
+      "output": "Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_metabat.23.contigs__.RAST.dlt",
+      "objid": 129,
+      "submitted_utc": "2026-07-25T00:11:06.577454+00:00",
+      "cancelled_utc": "2026-07-28T23:50:19.795757+00:00"
+    },
+    {
+      "job_id": "6a63ff1bc9e2e40ca406042f",
+      "genome": "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.51.contigs__.RAST",
+      "genome_ref": "155805/130/1",
+      "output": "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.51.contigs__.RAST.dlt",
+      "objid": 130,
+      "submitted_utc": "2026-07-25T00:11:07.622159+00:00",
+      "cancelled_utc": "2026-07-28T23:50:19.878223+00:00"
+    },
+    {
+      "job_id": "6a63ff1c2dd4414948d1ac62",
+      "genome": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.95.contigs__.RAST",
+      "genome_ref": "155805/131/1",
+      "output": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.95.contigs__.RAST.dlt",
+      "objid": 131,
+      "submitted_utc": "2026-07-25T00:11:08.251837+00:00",
+      "cancelled_utc": "2026-07-28T23:50:19.943350+00:00"
+    },
+    {
+      "job_id": "6a63ff1cc9e2e40ca4060430",
+      "genome": "Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_concoct_out.80.contigs__.RAST",
+      "genome_ref": "155805/132/1",
+      "output": "Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_concoct_out.80.contigs__.RAST.dlt",
+      "objid": 132,
+      "submitted_utc": "2026-07-25T00:11:08.871936+00:00",
+      "cancelled_utc": "2026-07-28T23:50:20.121707+00:00"
+    },
+    {
+      "job_id": "6a63ff1d1c6b2638b1d8b424",
+      "genome": "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_metabat.10.contigs__.RAST",
+      "genome_ref": "155805/134/1",
+      "output": "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_metabat.10.contigs__.RAST.dlt",
+      "objid": 134,
+      "submitted_utc": "2026-07-25T00:11:09.501429+00:00",
+      "cancelled_utc": "2026-07-28T23:50:20.244597+00:00"
+    },
+    {
+      "job_id": "6a63ff1e5a05a11f6a25c95a",
+      "genome": "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.4.contigs__.RAST",
+      "genome_ref": "155805/138/1",
+      "output": "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.4.contigs__.RAST.dlt",
+      "objid": 138,
+      "submitted_utc": "2026-07-25T00:11:10.166226+00:00",
+      "cancelled_utc": "2026-07-28T23:50:20.336075+00:00"
+    },
+    {
+      "job_id": "6a63ff1ed76cb22d1a515551",
+      "genome": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.38.contigs__.RAST",
+      "genome_ref": "155805/139/1",
+      "output": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.38.contigs__.RAST.dlt",
+      "objid": 139,
+      "submitted_utc": "2026-07-25T00:11:10.786326+00:00",
+      "cancelled_utc": "2026-07-28T23:50:20.424083+00:00"
+    },
+    {
+      "job_id": "6a63ff1f5a05a11f6a25c95b",
+      "genome": "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.36.contigs__.RAST",
+      "genome_ref": "155805/140/1",
+      "output": "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.36.contigs__.RAST.dlt",
+      "objid": 140,
+      "submitted_utc": "2026-07-25T00:11:11.414968+00:00",
+      "cancelled_utc": "2026-07-28T23:50:20.504488+00:00"
+    },
+    {
+      "job_id": "6a63ff207662238c12e4736e",
+      "genome": "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.11.contigs__.RAST",
+      "genome_ref": "155805/142/1",
+      "output": "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.11.contigs__.RAST.dlt",
+      "objid": 142,
+      "submitted_utc": "2026-07-25T00:11:12.142825+00:00",
+      "cancelled_utc": "2026-07-28T23:50:20.589398+00:00"
+    },
+    {
+      "job_id": "6a63ff205a42139f6f44404e",
+      "genome": "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_concoct_out.11.contigs__.RAST",
+      "genome_ref": "155805/143/1",
+      "output": "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_concoct_out.11.contigs__.RAST.dlt",
+      "objid": 143,
+      "submitted_utc": "2026-07-25T00:11:12.707224+00:00",
+      "cancelled_utc": "2026-07-28T23:50:20.676604+00:00"
+    },
+    {
+      "job_id": "6a63ff2118fb5e2b773a36a9",
+      "genome": "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.8.contigs__.RAST",
+      "genome_ref": "155805/144/1",
+      "output": "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.8.contigs__.RAST.dlt",
+      "objid": 144,
+      "submitted_utc": "2026-07-25T00:11:13.294246+00:00",
+      "cancelled_utc": "2026-07-28T23:50:20.757282+00:00"
+    },
+    {
+      "job_id": "6a63ff215a42139f6f44404f",
+      "genome": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.39.contigs__.RAST",
+      "genome_ref": "155805/147/1",
+      "output": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.39.contigs__.RAST.dlt",
+      "objid": 147,
+      "submitted_utc": "2026-07-25T00:11:14.364558+00:00",
+      "cancelled_utc": "2026-07-28T23:50:20.842112+00:00"
+    },
+    {
+      "job_id": "6a63ff226756400f4e671143",
+      "genome": "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.17.contigs__.RAST",
+      "genome_ref": "155805/148/1",
+      "output": "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.17.contigs__.RAST.dlt",
+      "objid": 148,
+      "submitted_utc": "2026-07-25T00:11:14.957831+00:00",
+      "cancelled_utc": "2026-07-28T23:50:20.933038+00:00"
+    },
+    {
+      "job_id": "6a63ff23cf0aa852a1c35ca5",
+      "genome": "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.47.contigs__.RAST",
+      "genome_ref": "155805/149/1",
+      "output": "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.47.contigs__.RAST.dlt",
+      "objid": 149,
+      "submitted_utc": "2026-07-25T00:11:15.592494+00:00",
+      "cancelled_utc": "2026-07-28T23:50:21.012418+00:00"
+    },
+    {
+      "job_id": "6a63ff242f71c771f65d1b0a",
+      "genome": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.21.contigs__.RAST",
+      "genome_ref": "155805/150/1",
+      "output": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.21.contigs__.RAST.dlt",
+      "objid": 150,
+      "submitted_utc": "2026-07-25T00:11:16.345795+00:00",
+      "cancelled_utc": "2026-07-28T23:50:21.096512+00:00"
+    },
+    {
+      "job_id": "6a63ff251c6b2638b1d8b425",
+      "genome": "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.5.contigs__.RAST",
+      "genome_ref": "155805/151/1",
+      "output": "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.5.contigs__.RAST.dlt",
+      "objid": 151,
+      "submitted_utc": "2026-07-25T00:11:17.192652+00:00",
+      "cancelled_utc": "2026-07-28T23:50:22.323601+00:00"
+    },
+    {
+      "job_id": "6a63ff252f71c771f65d1b0b",
+      "genome": "Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_concoct_out.78.contigs__.RAST",
+      "genome_ref": "155805/152/1",
+      "output": "Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_concoct_out.78.contigs__.RAST.dlt",
+      "objid": 152,
+      "submitted_utc": "2026-07-25T00:11:17.842490+00:00",
+      "cancelled_utc": "2026-07-28T23:50:22.471490+00:00"
+    },
+    {
+      "job_id": "6a63ff26551058e5694bcc50",
+      "genome": "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.39.contigs__.RAST",
+      "genome_ref": "155805/153/1",
+      "output": "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.39.contigs__.RAST.dlt",
+      "objid": 153,
+      "submitted_utc": "2026-07-25T00:11:18.507022+00:00",
+      "cancelled_utc": "2026-07-28T23:50:22.558440+00:00"
+    },
+    {
+      "job_id": "6a63ff27551058e5694bcc51",
+      "genome": "Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.23.contigs__.RAST",
+      "genome_ref": "155805/155/1",
+      "output": "Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.23.contigs__.RAST.dlt",
+      "objid": 155,
+      "submitted_utc": "2026-07-25T00:11:19.088575+00:00",
+      "cancelled_utc": "2026-07-28T23:50:22.640530+00:00"
+    },
+    {
+      "job_id": "6a63ff27d25de51df9f4d311",
+      "genome": "Salt_Pond_MetaG_R2A_C_H2O_MG_DASTool_bins_metabat.5.contigs__.RAST",
+      "genome_ref": "155805/157/1",
+      "output": "Salt_Pond_MetaG_R2A_C_H2O_MG_DASTool_bins_metabat.5.contigs__.RAST.dlt",
+      "objid": 157,
+      "submitted_utc": "2026-07-25T00:11:19.700955+00:00",
+      "cancelled_utc": "2026-07-28T23:50:22.729089+00:00"
+    },
+    {
+      "job_id": "6a63ff28551058e5694bcc52",
+      "genome": "Salt_Pond_MetaGSF2_C_H2O_MG_DASTool_bins_metabat.29.contigs__.RAST",
+      "genome_ref": "155805/158/1",
+      "output": "Salt_Pond_MetaGSF2_C_H2O_MG_DASTool_bins_metabat.29.contigs__.RAST.dlt",
+      "objid": 158,
+      "submitted_utc": "2026-07-25T00:11:20.376728+00:00",
+      "cancelled_utc": "2026-07-28T23:50:22.816002+00:00"
+    },
+    {
+      "job_id": "6a63ff287662238c12e4736f",
+      "genome": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.53.contigs__.RAST",
+      "genome_ref": "155805/161/1",
+      "output": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.53.contigs__.RAST.dlt",
+      "objid": 161,
+      "submitted_utc": "2026-07-25T00:11:21.055400+00:00",
+      "cancelled_utc": "2026-07-28T23:50:22.904892+00:00"
+    },
+    {
+      "job_id": "6a63ff291b92ce12e3233a6d",
+      "genome": "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_metabat.14.contigs__.RAST",
+      "genome_ref": "155805/162/1",
+      "output": "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_metabat.14.contigs__.RAST.dlt",
+      "objid": 162,
+      "submitted_utc": "2026-07-25T00:11:21.733044+00:00",
+      "cancelled_utc": "2026-07-28T23:50:22.985936+00:00"
+    },
+    {
+      "job_id": "6a63ff2acf0aa852a1c35ca6",
+      "genome": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.65.contigs__.RAST",
+      "genome_ref": "155805/163/1",
+      "output": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.65.contigs__.RAST.dlt",
+      "objid": 163,
+      "submitted_utc": "2026-07-25T00:11:22.363266+00:00",
+      "cancelled_utc": "2026-07-28T23:50:23.070044+00:00"
+    },
+    {
+      "job_id": "6a63ff2a1c6b2638b1d8b426",
+      "genome": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.27.contigs__.RAST",
+      "genome_ref": "155805/164/1",
+      "output": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.27.contigs__.RAST.dlt",
+      "objid": 164,
+      "submitted_utc": "2026-07-25T00:11:22.971041+00:00",
+      "cancelled_utc": "2026-07-28T23:50:23.149273+00:00"
+    },
+    {
+      "job_id": "6a63ff2b08b6d4e1253e9c5e",
+      "genome": "Salt_Pond_MetaG_R2_B_H2O_MG_DASTool_bins_metabat.29.contigs__.RAST",
+      "genome_ref": "155805/165/1",
+      "output": "Salt_Pond_MetaG_R2_B_H2O_MG_DASTool_bins_metabat.29.contigs__.RAST.dlt",
+      "objid": 165,
+      "submitted_utc": "2026-07-25T00:11:23.695121+00:00",
+      "cancelled_utc": "2026-07-28T23:50:23.235113+00:00"
+    },
+    {
+      "job_id": "6a63ff2c551058e5694bcc53",
+      "genome": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.11.contigs__.RAST",
+      "genome_ref": "155805/166/1",
+      "output": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.11.contigs__.RAST.dlt",
+      "objid": 166,
+      "submitted_utc": "2026-07-25T00:11:24.327818+00:00",
+      "cancelled_utc": "2026-07-28T23:50:23.358466+00:00"
+    },
+    {
+      "job_id": "6a63ff2c1c6b2638b1d8b427",
+      "genome": "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.18.contigs__.RAST",
+      "genome_ref": "155805/167/1",
+      "output": "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.18.contigs__.RAST.dlt",
+      "objid": 167,
+      "submitted_utc": "2026-07-25T00:11:24.933181+00:00",
+      "cancelled_utc": "2026-07-28T23:50:23.530824+00:00"
+    },
+    {
+      "job_id": "6a63ff2d1c6b2638b1d8b428",
+      "genome": "Salt_Pond_MetaG_R2_C_H2O_MG_DASTool_bins_metabat.29.contigs__.RAST",
+      "genome_ref": "155805/168/1",
+      "output": "Salt_Pond_MetaG_R2_C_H2O_MG_DASTool_bins_metabat.29.contigs__.RAST.dlt",
+      "objid": 168,
+      "submitted_utc": "2026-07-25T00:11:25.842055+00:00",
+      "cancelled_utc": "2026-07-28T23:50:23.616832+00:00"
+    },
+    {
+      "job_id": "6a63ff2e2f71c771f65d1b0c",
+      "genome": "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_concoct_out.59.contigs__.RAST",
+      "genome_ref": "155805/171/1",
+      "output": "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_concoct_out.59.contigs__.RAST.dlt",
+      "objid": 171,
+      "submitted_utc": "2026-07-25T00:11:26.429989+00:00",
+      "cancelled_utc": "2026-07-28T23:50:23.719284+00:00"
+    },
+    {
+      "job_id": "6a63ff2ec9e2e40ca4060431",
+      "genome": "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.54.contigs__.RAST",
+      "genome_ref": "155805/174/1",
+      "output": "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.54.contigs__.RAST.dlt",
+      "objid": 174,
+      "submitted_utc": "2026-07-25T00:11:27.005266+00:00",
+      "cancelled_utc": "2026-07-28T23:50:23.888471+00:00"
+    },
+    {
+      "job_id": "6a63ff2f7662238c12e47370",
+      "genome": "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.50.contigs__.RAST",
+      "genome_ref": "155805/175/1",
+      "output": "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.50.contigs__.RAST.dlt",
+      "objid": 175,
+      "submitted_utc": "2026-07-25T00:11:27.607337+00:00",
+      "cancelled_utc": "2026-07-28T23:50:23.983704+00:00"
+    },
+    {
+      "job_id": "6a63ff30b02968b3c1d534e5",
+      "genome": "Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.37.contigs__.RAST",
+      "genome_ref": "155805/176/1",
+      "output": "Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.37.contigs__.RAST.dlt",
+      "objid": 176,
+      "submitted_utc": "2026-07-25T00:11:28.207130+00:00",
+      "cancelled_utc": "2026-07-28T23:50:24.064627+00:00"
+    },
+    {
+      "job_id": "6a63ff30cf0aa852a1c35ca7",
+      "genome": "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.25.contigs__.RAST",
+      "genome_ref": "155805/177/1",
+      "output": "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.25.contigs__.RAST.dlt",
+      "objid": 177,
+      "submitted_utc": "2026-07-25T00:11:28.848483+00:00",
+      "cancelled_utc": "2026-07-28T23:50:24.151230+00:00"
+    },
+    {
+      "job_id": "6a63ff31c9e2e40ca4060432",
+      "genome": "Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.40.contigs__.RAST",
+      "genome_ref": "155805/178/1",
+      "output": "Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.40.contigs__.RAST.dlt",
+      "objid": 178,
+      "submitted_utc": "2026-07-25T00:11:29.448271+00:00",
+      "cancelled_utc": "2026-07-28T23:50:24.245330+00:00"
+    },
+    {
+      "job_id": "6a63ff3118fb5e2b773a36aa",
+      "genome": "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_metabat.8.contigs__.RAST",
+      "genome_ref": "155805/179/1",
+      "output": "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_metabat.8.contigs__.RAST.dlt",
+      "objid": 179,
+      "submitted_utc": "2026-07-25T00:11:30.098993+00:00",
+      "cancelled_utc": "2026-07-28T23:50:24.343983+00:00"
+    },
+    {
+      "job_id": "6a63ff322f71c771f65d1b0d",
+      "genome": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.49.contigs__.RAST",
+      "genome_ref": "155805/180/1",
+      "output": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.49.contigs__.RAST.dlt",
+      "objid": 180,
+      "submitted_utc": "2026-07-25T00:11:30.711345+00:00",
+      "cancelled_utc": "2026-07-28T23:50:24.417162+00:00"
+    },
+    {
+      "job_id": "6a63ff332ec2f2e7dd4ac8ba",
+      "genome": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.20.contigs__.RAST",
+      "genome_ref": "155805/182/1",
+      "output": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.20.contigs__.RAST.dlt",
+      "objid": 182,
+      "submitted_utc": "2026-07-25T00:11:31.376565+00:00",
+      "cancelled_utc": "2026-07-28T23:50:24.499371+00:00"
+    },
+    {
+      "job_id": "6a63ff331c6b2638b1d8b429",
+      "genome": "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.5.contigs__.RAST",
+      "genome_ref": "155805/183/1",
+      "output": "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.5.contigs__.RAST.dlt",
+      "objid": 183,
+      "submitted_utc": "2026-07-25T00:11:31.973086+00:00",
+      "cancelled_utc": "2026-07-28T23:50:24.574262+00:00"
+    },
+    {
+      "job_id": "6a63ff34551058e5694bcc54",
+      "genome": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_metabat.25.contigs__.RAST",
+      "genome_ref": "155805/184/1",
+      "output": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_metabat.25.contigs__.RAST.dlt",
+      "objid": 184,
+      "submitted_utc": "2026-07-25T00:11:32.665410+00:00",
+      "cancelled_utc": "2026-07-28T23:50:24.643011+00:00"
+    },
+    {
+      "job_id": "6a63ff351c6b2638b1d8b42a",
+      "genome": "Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_maxbin.005.contigs__.RAST",
+      "genome_ref": "155805/185/1",
+      "output": "Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_maxbin.005.contigs__.RAST.dlt",
+      "objid": 185,
+      "submitted_utc": "2026-07-25T00:11:33.325313+00:00",
+      "cancelled_utc": "2026-07-28T23:50:24.718401+00:00"
+    },
+    {
+      "job_id": "6a63ff352f71c771f65d1b0e",
+      "genome": "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.22.contigs__.RAST",
+      "genome_ref": "155805/188/1",
+      "output": "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.22.contigs__.RAST.dlt",
+      "objid": 188,
+      "submitted_utc": "2026-07-25T00:11:33.919358+00:00",
+      "cancelled_utc": "2026-07-28T23:50:24.795424+00:00"
+    },
+    {
+      "job_id": "6a63ff3618fb5e2b773a36ab",
+      "genome": "Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_metabat.22.contigs__.RAST",
+      "genome_ref": "155805/191/1",
+      "output": "Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_metabat.22.contigs__.RAST.dlt",
+      "objid": 191,
+      "submitted_utc": "2026-07-25T00:11:34.534672+00:00",
+      "cancelled_utc": "2026-07-28T23:50:24.887651+00:00"
+    },
+    {
+      "job_id": "6a63ff372ec2f2e7dd4ac8bb",
+      "genome": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.24.contigs__.RAST",
+      "genome_ref": "155805/193/1",
+      "output": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.24.contigs__.RAST.dlt",
+      "objid": 193,
+      "submitted_utc": "2026-07-25T00:11:35.194206+00:00",
+      "cancelled_utc": "2026-07-28T23:50:24.963499+00:00"
+    },
+    {
+      "job_id": "6a63ff372f71c771f65d1b0f",
+      "genome": "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_concoct_out.10.contigs__.RAST",
+      "genome_ref": "155805/195/1",
+      "output": "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_concoct_out.10.contigs__.RAST.dlt",
+      "objid": 195,
+      "submitted_utc": "2026-07-25T00:11:36.197517+00:00",
+      "cancelled_utc": "2026-07-28T23:50:25.039955+00:00"
+    },
+    {
+      "job_id": "6a63ff38c9e2e40ca4060433",
+      "genome": "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.109.contigs__.RAST",
+      "genome_ref": "155805/198/1",
+      "output": "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.109.contigs__.RAST.dlt",
+      "objid": 198,
+      "submitted_utc": "2026-07-25T00:11:36.810743+00:00",
+      "cancelled_utc": "2026-07-28T23:50:25.129582+00:00"
+    },
+    {
+      "job_id": "6a63ff39d76cb22d1a515552",
+      "genome": "Salt_Pond_MetaG_R2_B_H2O_MG_DASTool_bins_metabat.16.contigs__.RAST",
+      "genome_ref": "155805/199/1",
+      "output": "Salt_Pond_MetaG_R2_B_H2O_MG_DASTool_bins_metabat.16.contigs__.RAST.dlt",
+      "objid": 199,
+      "submitted_utc": "2026-07-25T00:11:37.463641+00:00",
+      "cancelled_utc": "2026-07-28T23:50:25.197440+00:00"
+    },
+    {
+      "job_id": "6a63ff39d1b9872481d1aa07",
+      "genome": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.19.contigs__.RAST",
+      "genome_ref": "155805/200/1",
+      "output": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.19.contigs__.RAST.dlt",
+      "objid": 200,
+      "submitted_utc": "2026-07-25T00:11:38.089455+00:00",
+      "cancelled_utc": "2026-07-28T23:50:25.276771+00:00"
+    },
+    {
+      "job_id": "6a63ff3ac9e2e40ca4060434",
+      "genome": "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.30.contigs__.RAST",
+      "genome_ref": "155805/201/1",
+      "output": "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.30.contigs__.RAST.dlt",
+      "objid": 201,
+      "submitted_utc": "2026-07-25T00:11:38.759600+00:00",
+      "cancelled_utc": "2026-07-28T23:50:25.350717+00:00"
+    },
+    {
+      "job_id": "6a63ff3bc9e2e40ca4060435",
+      "genome": "Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_concoct_out.40.contigs__.RAST",
+      "genome_ref": "155805/202/1",
+      "output": "Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_concoct_out.40.contigs__.RAST.dlt",
+      "objid": 202,
+      "submitted_utc": "2026-07-25T00:11:39.409465+00:00",
+      "cancelled_utc": "2026-07-28T23:50:25.420102+00:00"
+    },
+    {
+      "job_id": "6a63ff3bd25de51df9f4d312",
+      "genome": "Salt_Pond_MetaG_R2_C_H2O_MG_DASTool_bins_metabat.20.contigs__.RAST",
+      "genome_ref": "155805/204/1",
+      "output": "Salt_Pond_MetaG_R2_C_H2O_MG_DASTool_bins_metabat.20.contigs__.RAST.dlt",
+      "objid": 204,
+      "submitted_utc": "2026-07-25T00:11:40.001952+00:00",
+      "cancelled_utc": "2026-07-28T23:50:25.492470+00:00"
+    },
+    {
+      "job_id": "6a63ff3cc9e2e40ca4060436",
+      "genome": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.118.contigs__.RAST",
+      "genome_ref": "155805/208/1",
+      "output": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.118.contigs__.RAST.dlt",
+      "objid": 208,
+      "submitted_utc": "2026-07-25T00:11:40.606583+00:00",
+      "cancelled_utc": "2026-07-28T23:50:25.575660+00:00"
+    },
+    {
+      "job_id": "6a63ff3dc9e2e40ca4060437",
+      "genome": "Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.33.contigs__.RAST",
+      "genome_ref": "155805/211/1",
+      "output": "Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.33.contigs__.RAST.dlt",
+      "objid": 211,
+      "submitted_utc": "2026-07-25T00:11:41.262676+00:00",
+      "cancelled_utc": "2026-07-28T23:50:25.654933+00:00"
+    },
+    {
+      "job_id": "6a63ff3dcf0aa852a1c35ca8",
+      "genome": "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.34.contigs__.RAST",
+      "genome_ref": "155805/212/1",
+      "output": "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.34.contigs__.RAST.dlt",
+      "objid": 212,
+      "submitted_utc": "2026-07-25T00:11:41.880537+00:00",
+      "cancelled_utc": "2026-07-28T23:50:25.744235+00:00"
+    },
+    {
+      "job_id": "6a63ff3e5a42139f6f444050",
+      "genome": "Salt_Pond_MetaGSF2_B_D2_MG_DASTool_bins_concoct_out.55.contigs__.RAST",
+      "genome_ref": "155805/213/1",
+      "output": "Salt_Pond_MetaGSF2_B_D2_MG_DASTool_bins_concoct_out.55.contigs__.RAST.dlt",
+      "objid": 213,
+      "submitted_utc": "2026-07-25T00:11:42.669481+00:00",
+      "cancelled_utc": "2026-07-28T23:50:25.830591+00:00"
+    },
+    {
+      "job_id": "6a63ff3f18fb5e2b773a36ac",
+      "genome": "Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.11.contigs__.RAST",
+      "genome_ref": "155805/214/1",
+      "output": "Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.11.contigs__.RAST.dlt",
+      "objid": 214,
+      "submitted_utc": "2026-07-25T00:11:43.264346+00:00",
+      "cancelled_utc": "2026-07-28T23:50:25.908453+00:00"
+    },
+    {
+      "job_id": "6a63ff3f1996e959c4635852",
+      "genome": "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_metabat.6.contigs__.RAST",
+      "genome_ref": "155805/216/1",
+      "output": "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_metabat.6.contigs__.RAST.dlt",
+      "objid": 216,
+      "submitted_utc": "2026-07-25T00:11:43.963742+00:00",
+      "cancelled_utc": "2026-07-28T23:50:25.988465+00:00"
+    },
+    {
+      "job_id": "6a63ff407662238c12e47371",
+      "genome": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.16.contigs__.RAST",
+      "genome_ref": "155805/217/1",
+      "output": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.16.contigs__.RAST.dlt",
+      "objid": 217,
+      "submitted_utc": "2026-07-25T00:11:44.515086+00:00",
+      "cancelled_utc": "2026-07-28T23:50:26.066402+00:00"
+    },
+    {
+      "job_id": "6a63ff41743b870fec881f5b",
+      "genome": "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_maxbin.028.contigs__.RAST",
+      "genome_ref": "155805/218/1",
+      "output": "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_maxbin.028.contigs__.RAST.dlt",
+      "objid": 218,
+      "submitted_utc": "2026-07-25T00:11:45.212628+00:00",
+      "cancelled_utc": "2026-07-28T23:50:26.166553+00:00"
+    },
+    {
+      "job_id": "6a63ff416742627971d2c10b",
+      "genome": "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.13.contigs__.RAST",
+      "genome_ref": "155805/222/1",
+      "output": "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.13.contigs__.RAST.dlt",
+      "objid": 222,
+      "submitted_utc": "2026-07-25T00:11:45.821727+00:00",
+      "cancelled_utc": "2026-07-28T23:50:26.257143+00:00"
+    },
+    {
+      "job_id": "6a63ff4218fb5e2b773a36ad",
+      "genome": "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.31.contigs__.RAST",
+      "genome_ref": "155805/225/1",
+      "output": "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.31.contigs__.RAST.dlt",
+      "objid": 225,
+      "submitted_utc": "2026-07-25T00:11:46.470449+00:00",
+      "cancelled_utc": "2026-07-28T23:50:26.342958+00:00"
+    },
+    {
+      "job_id": "6a63ff437662238c12e47372",
+      "genome": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.37.contigs__.RAST",
+      "genome_ref": "155805/226/1",
+      "output": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.37.contigs__.RAST.dlt",
+      "objid": 226,
+      "submitted_utc": "2026-07-25T00:11:47.230024+00:00",
+      "cancelled_utc": "2026-07-28T23:50:26.422393+00:00"
+    },
+    {
+      "job_id": "6a63ff437662238c12e47373",
+      "genome": "Salt_Pond_MetaG_R2_C_H2O_MG_DASTool_bins_concoct_out.35.contigs__.RAST",
+      "genome_ref": "155805/227/1",
+      "output": "Salt_Pond_MetaG_R2_C_H2O_MG_DASTool_bins_concoct_out.35.contigs__.RAST.dlt",
+      "objid": 227,
+      "submitted_utc": "2026-07-25T00:11:48.080002+00:00",
+      "cancelled_utc": "2026-07-28T23:50:26.506217+00:00"
+    },
+    {
+      "job_id": "6a63ff44c9e2e40ca4060438",
+      "genome": "Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_metabat.20.contigs__.RAST",
+      "genome_ref": "155805/228/1",
+      "output": "Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_metabat.20.contigs__.RAST.dlt",
+      "objid": 228,
+      "submitted_utc": "2026-07-25T00:11:48.968392+00:00",
+      "cancelled_utc": "2026-07-28T23:50:26.580318+00:00"
+    },
+    {
+      "job_id": "6a63ff455dafd606280b8ded",
+      "genome": "Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.34.contigs__.RAST",
+      "genome_ref": "155805/229/1",
+      "output": "Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.34.contigs__.RAST.dlt",
+      "objid": 229,
+      "submitted_utc": "2026-07-25T00:11:49.775078+00:00",
+      "cancelled_utc": "2026-07-28T23:50:26.655238+00:00"
+    },
+    {
+      "job_id": "6a63ff46551058e5694bcc55",
+      "genome": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.3.contigs__.RAST",
+      "genome_ref": "155805/231/1",
+      "output": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.3.contigs__.RAST.dlt",
+      "objid": 231,
+      "submitted_utc": "2026-07-25T00:11:50.419927+00:00",
+      "cancelled_utc": "2026-07-28T23:50:26.737718+00:00"
+    },
+    {
+      "job_id": "6a63ff46d25de51df9f4d313",
+      "genome": "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_concoct_out.25.contigs__.RAST",
+      "genome_ref": "155805/232/1",
+      "output": "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_concoct_out.25.contigs__.RAST.dlt",
+      "objid": 232,
+      "submitted_utc": "2026-07-25T00:11:51.054895+00:00",
+      "cancelled_utc": "2026-07-28T23:50:26.906611+00:00"
+    },
+    {
+      "job_id": "6a63ff4718fb5e2b773a36ae",
+      "genome": "Salt_Pond_MetaG_R2A_C_H2O_MG_DASTool_bins_metabat.4.contigs__.RAST",
+      "genome_ref": "155805/235/1",
+      "output": "Salt_Pond_MetaG_R2A_C_H2O_MG_DASTool_bins_metabat.4.contigs__.RAST.dlt",
+      "objid": 235,
+      "submitted_utc": "2026-07-25T00:11:51.734172+00:00",
+      "cancelled_utc": "2026-07-28T23:50:26.988443+00:00"
+    },
+    {
+      "job_id": "6a63ff480d6d14ce1987d98f",
+      "genome": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_metabat.11.contigs__.RAST",
+      "genome_ref": "155805/237/1",
+      "output": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_metabat.11.contigs__.RAST.dlt",
+      "objid": 237,
+      "submitted_utc": "2026-07-25T00:11:52.604738+00:00",
+      "cancelled_utc": "2026-07-28T23:50:27.058860+00:00"
+    },
+    {
+      "job_id": "6a63ff495dafd606280b8dee",
+      "genome": "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.51.contigs__.RAST",
+      "genome_ref": "155805/238/1",
+      "output": "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.51.contigs__.RAST.dlt",
+      "objid": 238,
+      "submitted_utc": "2026-07-25T00:11:53.212868+00:00",
+      "cancelled_utc": "2026-07-28T23:50:27.143223+00:00"
+    },
+    {
+      "job_id": "6a63ff49c9e2e40ca4060439",
+      "genome": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.32.contigs__.RAST",
+      "genome_ref": "155805/239/1",
+      "output": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.32.contigs__.RAST.dlt",
+      "objid": 239,
+      "submitted_utc": "2026-07-25T00:11:53.809950+00:00",
+      "cancelled_utc": "2026-07-28T23:50:27.238291+00:00"
+    },
+    {
+      "job_id": "6a63ff4a18fb5e2b773a36af",
+      "genome": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.17.contigs__.RAST",
+      "genome_ref": "155805/240/1",
+      "output": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.17.contigs__.RAST.dlt",
+      "objid": 240,
+      "submitted_utc": "2026-07-25T00:11:54.409992+00:00",
+      "cancelled_utc": "2026-07-28T23:50:27.320871+00:00"
+    },
+    {
+      "job_id": "6a63ff4a7662238c12e47374",
+      "genome": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.20.contigs__.RAST",
+      "genome_ref": "155805/242/1",
+      "output": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.20.contigs__.RAST.dlt",
+      "objid": 242,
+      "submitted_utc": "2026-07-25T00:11:55.005156+00:00",
+      "cancelled_utc": "2026-07-28T23:50:27.405688+00:00"
+    },
+    {
+      "job_id": "6a63ff4b5a42139f6f444051",
+      "genome": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.55.contigs__.RAST",
+      "genome_ref": "155805/243/1",
+      "output": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.55.contigs__.RAST.dlt",
+      "objid": 243,
+      "submitted_utc": "2026-07-25T00:11:55.593289+00:00",
+      "cancelled_utc": "2026-07-28T23:50:27.481097+00:00"
+    },
+    {
+      "job_id": "6a63ff4c1c6b2638b1d8b42b",
+      "genome": "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_maxbin.035.contigs__.RAST",
+      "genome_ref": "155805/244/1",
+      "output": "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_maxbin.035.contigs__.RAST.dlt",
+      "objid": 244,
+      "submitted_utc": "2026-07-25T00:11:56.215084+00:00",
+      "cancelled_utc": "2026-07-28T23:50:27.562338+00:00"
+    },
+    {
+      "job_id": "6a63ff4cc9e2e40ca406043a",
+      "genome": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.14.contigs__.RAST",
+      "genome_ref": "155805/245/1",
+      "output": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.14.contigs__.RAST.dlt",
+      "objid": 245,
+      "submitted_utc": "2026-07-25T00:11:57.242087+00:00",
+      "cancelled_utc": "2026-07-28T23:50:27.642024+00:00"
+    },
+    {
+      "job_id": "6a63ff4d18fb5e2b773a36b0",
+      "genome": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.29.contigs__.RAST",
+      "genome_ref": "155805/247/1",
+      "output": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.29.contigs__.RAST.dlt",
+      "objid": 247,
+      "submitted_utc": "2026-07-25T00:11:57.864770+00:00",
+      "cancelled_utc": "2026-07-28T23:50:27.717713+00:00"
+    },
+    {
+      "job_id": "6a63ff4eb02968b3c1d534e6",
+      "genome": "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.17.contigs__.RAST",
+      "genome_ref": "155805/248/1",
+      "output": "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.17.contigs__.RAST.dlt",
+      "objid": 248,
+      "submitted_utc": "2026-07-25T00:11:58.447370+00:00",
+      "cancelled_utc": "2026-07-28T23:50:27.790398+00:00"
+    },
+    {
+      "job_id": "6a63ff4e5a42139f6f444052",
+      "genome": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.8.contigs__.RAST",
+      "genome_ref": "155805/249/1",
+      "output": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.8.contigs__.RAST.dlt",
+      "objid": 249,
+      "submitted_utc": "2026-07-25T00:11:59.059879+00:00",
+      "cancelled_utc": "2026-07-28T23:50:27.872655+00:00"
+    },
+    {
+      "job_id": "6a63ff4fe13eb0e5bc22352a",
+      "genome": "Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.79.contigs__.RAST",
+      "genome_ref": "155805/250/1",
+      "output": "Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.79.contigs__.RAST.dlt",
+      "objid": 250,
+      "submitted_utc": "2026-07-25T00:11:59.710848+00:00",
+      "cancelled_utc": "2026-07-28T23:50:27.959310+00:00"
+    },
+    {
+      "job_id": "6a63ff501c6b2638b1d8b42c",
+      "genome": "Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.54.contigs__.RAST",
+      "genome_ref": "155805/251/1",
+      "output": "Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.54.contigs__.RAST.dlt",
+      "objid": 251,
+      "submitted_utc": "2026-07-25T00:12:00.263229+00:00",
+      "cancelled_utc": "2026-07-28T23:50:28.032537+00:00"
+    },
+    {
+      "job_id": "6a63ff51cf0aa852a1c35ca9",
+      "genome": "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.42.contigs__.RAST",
+      "genome_ref": "155805/253/1",
+      "output": "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.42.contigs__.RAST.dlt",
+      "objid": 253,
+      "submitted_utc": "2026-07-25T00:12:01.255578+00:00",
+      "cancelled_utc": "2026-07-28T23:50:28.111774+00:00"
+    },
+    {
+      "job_id": "6a63ff515a42139f6f444053",
+      "genome": "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.5.contigs__.RAST",
+      "genome_ref": "155805/254/1",
+      "output": "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.5.contigs__.RAST.dlt",
+      "objid": 254,
+      "submitted_utc": "2026-07-25T00:12:01.874391+00:00",
+      "cancelled_utc": "2026-07-28T23:50:28.201628+00:00"
+    },
+    {
+      "job_id": "6a63ff521c6b2638b1d8b42d",
+      "genome": "Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_metabat.16.contigs__.RAST",
+      "genome_ref": "155805/258/1",
+      "output": "Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_metabat.16.contigs__.RAST.dlt",
+      "objid": 258,
+      "submitted_utc": "2026-07-25T00:12:02.671897+00:00",
+      "cancelled_utc": "2026-07-28T23:50:28.280112+00:00"
+    },
+    {
+      "job_id": "6a63ff531c6b2638b1d8b42e",
+      "genome": "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_concoct_out.2.contigs__.RAST",
+      "genome_ref": "155805/259/1",
+      "output": "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_concoct_out.2.contigs__.RAST.dlt",
+      "objid": 259,
+      "submitted_utc": "2026-07-25T00:12:03.342411+00:00",
+      "cancelled_utc": "2026-07-28T23:50:28.382405+00:00"
+    },
+    {
+      "job_id": "6a63ff53d76cb22d1a515553",
+      "genome": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.52.contigs__.RAST",
+      "genome_ref": "155805/262/1",
+      "output": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.52.contigs__.RAST.dlt",
+      "objid": 262,
+      "submitted_utc": "2026-07-25T00:12:03.970672+00:00",
+      "cancelled_utc": "2026-07-28T23:50:28.462556+00:00"
+    },
+    {
+      "job_id": "6a63ff54020ec954b33279e3",
+      "genome": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.24.contigs__.RAST",
+      "genome_ref": "155805/263/1",
+      "output": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.24.contigs__.RAST.dlt",
+      "objid": 263,
+      "submitted_utc": "2026-07-25T00:12:04.676985+00:00",
+      "cancelled_utc": "2026-07-28T23:50:28.566983+00:00"
+    },
+    {
+      "job_id": "6a63ff557662238c12e47375",
+      "genome": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.124.contigs__.RAST",
+      "genome_ref": "155805/264/1",
+      "output": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.124.contigs__.RAST.dlt",
+      "objid": 264,
+      "submitted_utc": "2026-07-25T00:12:05.345952+00:00",
+      "cancelled_utc": "2026-07-28T23:50:28.641798+00:00"
+    },
+    {
+      "job_id": "6a63ff552f71c771f65d1b10",
+      "genome": "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_concoct_out.22.contigs__.RAST",
+      "genome_ref": "155805/265/1",
+      "output": "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_concoct_out.22.contigs__.RAST.dlt",
+      "objid": 265,
+      "submitted_utc": "2026-07-25T00:12:06.008500+00:00",
+      "cancelled_utc": "2026-07-28T23:50:28.723193+00:00"
+    },
+    {
+      "job_id": "6a63ff561c6b2638b1d8b42f",
+      "genome": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.38.contigs__.RAST",
+      "genome_ref": "155805/268/1",
+      "output": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.38.contigs__.RAST.dlt",
+      "objid": 268,
+      "submitted_utc": "2026-07-25T00:12:06.636377+00:00",
+      "cancelled_utc": "2026-07-28T23:50:28.795572+00:00"
+    },
+    {
+      "job_id": "6a63ff57cf0aa852a1c35caa",
+      "genome": "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.6.contigs__.RAST",
+      "genome_ref": "155805/269/1",
+      "output": "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.6.contigs__.RAST.dlt",
+      "objid": 269,
+      "submitted_utc": "2026-07-25T00:12:07.328143+00:00",
+      "cancelled_utc": "2026-07-28T23:50:28.869227+00:00"
+    },
+    {
+      "job_id": "6a63ff577662238c12e47376",
+      "genome": "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_concoct_out.52.contigs__.RAST",
+      "genome_ref": "155805/271/1",
+      "output": "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_concoct_out.52.contigs__.RAST.dlt",
+      "objid": 271,
+      "submitted_utc": "2026-07-25T00:12:07.923487+00:00",
+      "cancelled_utc": "2026-07-28T23:50:28.946291+00:00"
+    },
+    {
+      "job_id": "6a63ff58cf0aa852a1c35cab",
+      "genome": "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_metabat.7.contigs__.RAST",
+      "genome_ref": "155805/273/1",
+      "output": "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_metabat.7.contigs__.RAST.dlt",
+      "objid": 273,
+      "submitted_utc": "2026-07-25T00:12:08.534740+00:00",
+      "cancelled_utc": "2026-07-28T23:50:29.020955+00:00"
+    },
+    {
+      "job_id": "6a63ff59551058e5694bcc56",
+      "genome": "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_metabat.38.contigs__.RAST",
+      "genome_ref": "155805/275/1",
+      "output": "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_metabat.38.contigs__.RAST.dlt",
+      "objid": 275,
+      "submitted_utc": "2026-07-25T00:12:09.151855+00:00",
+      "cancelled_utc": "2026-07-28T23:50:29.095730+00:00"
+    },
+    {
+      "job_id": "6a63ff591c6b2638b1d8b430",
+      "genome": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.28.contigs__.RAST",
+      "genome_ref": "155805/276/1",
+      "output": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.28.contigs__.RAST.dlt",
+      "objid": 276,
+      "submitted_utc": "2026-07-25T00:12:09.827378+00:00",
+      "cancelled_utc": "2026-07-28T23:50:29.174013+00:00"
+    },
+    {
+      "job_id": "6a63ff5a2f71c771f65d1b11",
+      "genome": "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.25.contigs__.RAST",
+      "genome_ref": "155805/277/1",
+      "output": "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.25.contigs__.RAST.dlt",
+      "objid": 277,
+      "submitted_utc": "2026-07-25T00:12:10.439856+00:00",
+      "cancelled_utc": "2026-07-28T23:50:29.262576+00:00"
+    },
+    {
+      "job_id": "6a63ff5b1c6b2638b1d8b431",
+      "genome": "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_metabat.14.contigs__.RAST",
+      "genome_ref": "155805/279/1",
+      "output": "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_metabat.14.contigs__.RAST.dlt",
+      "objid": 279,
+      "submitted_utc": "2026-07-25T00:12:11.240556+00:00",
+      "cancelled_utc": "2026-07-28T23:50:29.356336+00:00"
+    },
+    {
+      "job_id": "6a63ff5bc9e2e40ca406043b",
+      "genome": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_maxbin.014.contigs__.RAST",
+      "genome_ref": "155805/280/1",
+      "output": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_maxbin.014.contigs__.RAST.dlt",
+      "objid": 280,
+      "submitted_utc": "2026-07-25T00:12:11.900114+00:00",
+      "cancelled_utc": "2026-07-28T23:50:29.451703+00:00"
+    },
+    {
+      "job_id": "6a63ff5c6756400f4e671144",
+      "genome": "Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_concoct_out.110.contigs__.RAST",
+      "genome_ref": "155805/282/1",
+      "output": "Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_concoct_out.110.contigs__.RAST.dlt",
+      "objid": 282,
+      "submitted_utc": "2026-07-25T00:12:12.584797+00:00",
+      "cancelled_utc": "2026-07-28T23:50:29.624577+00:00"
+    },
+    {
+      "job_id": "6a63ff5dc9e2e40ca406043c",
+      "genome": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.7.contigs__.RAST",
+      "genome_ref": "155805/283/1",
+      "output": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.7.contigs__.RAST.dlt",
+      "objid": 283,
+      "submitted_utc": "2026-07-25T00:12:13.353826+00:00",
+      "cancelled_utc": "2026-07-28T23:50:29.724587+00:00"
+    },
+    {
+      "job_id": "6a63ff5dc9e2e40ca406043d",
+      "genome": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.50.contigs__.RAST",
+      "genome_ref": "155805/287/1",
+      "output": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.50.contigs__.RAST.dlt",
+      "objid": 287,
+      "submitted_utc": "2026-07-25T00:12:14.000553+00:00",
+      "cancelled_utc": "2026-07-28T23:50:29.904603+00:00"
+    },
+    {
+      "job_id": "6a63ff5e18fb5e2b773a36b1",
+      "genome": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_metabat.17.contigs__.RAST",
+      "genome_ref": "155805/288/1",
+      "output": "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_metabat.17.contigs__.RAST.dlt",
+      "objid": 288,
+      "submitted_utc": "2026-07-25T00:12:14.622131+00:00",
+      "cancelled_utc": "2026-07-28T23:50:29.984241+00:00"
+    },
+    {
+      "job_id": "6a63ff5f1c6b2638b1d8b432",
+      "genome": "Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.47.contigs__.RAST",
+      "genome_ref": "155805/290/1",
+      "output": "Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.47.contigs__.RAST.dlt",
+      "objid": 290,
+      "submitted_utc": "2026-07-25T00:12:15.302873+00:00",
+      "cancelled_utc": "2026-07-28T23:50:30.063866+00:00"
+    },
+    {
+      "job_id": "6a63ff5f18fb5e2b773a36b2",
+      "genome": "Salt_Pond_MetaGSF2_B_D2_MG_DASTool_bins_metabat.4.contigs__.RAST",
+      "genome_ref": "155805/293/1",
+      "output": "Salt_Pond_MetaGSF2_B_D2_MG_DASTool_bins_metabat.4.contigs__.RAST.dlt",
+      "objid": 293,
+      "submitted_utc": "2026-07-25T00:12:15.909570+00:00",
+      "cancelled_utc": "2026-07-28T23:50:30.148299+00:00"
+    },
+    {
+      "job_id": "6a63ff605a42139f6f444054",
+      "genome": "Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.55.contigs__.RAST",
+      "genome_ref": "155805/294/1",
+      "output": "Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.55.contigs__.RAST.dlt",
+      "objid": 294,
+      "submitted_utc": "2026-07-25T00:12:16.526620+00:00",
+      "cancelled_utc": "2026-07-28T23:50:30.224074+00:00"
+    },
+    {
+      "job_id": "6a63ff6118fb5e2b773a36b3",
+      "genome": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.16.contigs__.RAST",
+      "genome_ref": "155805/297/1",
+      "output": "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.16.contigs__.RAST.dlt",
+      "objid": 297,
+      "submitted_utc": "2026-07-25T00:12:17.123324+00:00",
+      "cancelled_utc": "2026-07-28T23:50:30.369589+00:00"
+    },
+    {
+      "job_id": "6a63ff61551058e5694bcc57",
+      "genome": "Salt_Pond_MetaGSF2_C_H2O_MG_DASTool_bins_metabat.13.contigs__.RAST",
+      "genome_ref": "155805/298/1",
+      "output": "Salt_Pond_MetaGSF2_C_H2O_MG_DASTool_bins_metabat.13.contigs__.RAST.dlt",
+      "objid": 298,
+      "submitted_utc": "2026-07-25T00:12:18.193487+00:00",
+      "cancelled_utc": "2026-07-28T23:50:30.456540+00:00"
+    },
+    {
+      "job_id": "6a63ff621b92ce12e3233a6e",
+      "genome": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.18.contigs__.RAST",
+      "genome_ref": "155805/299/1",
+      "output": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.18.contigs__.RAST.dlt",
+      "objid": 299,
+      "submitted_utc": "2026-07-25T00:12:18.919545+00:00",
+      "cancelled_utc": "2026-07-28T23:50:30.537590+00:00"
+    },
+    {
+      "job_id": "6a63ff63ccb225d176a14979",
+      "genome": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.10.contigs__.RAST",
+      "genome_ref": "155805/300/1",
+      "output": "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.10.contigs__.RAST.dlt",
+      "objid": 300,
+      "submitted_utc": "2026-07-25T00:12:19.510100+00:00",
+      "cancelled_utc": "2026-07-28T23:50:30.624005+00:00"
+    },
+    {
+      "job_id": "6a63ff64e13eb0e5bc22352b",
+      "genome": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.35.contigs__.RAST",
+      "genome_ref": "155805/301/1",
+      "output": "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.35.contigs__.RAST.dlt",
+      "objid": 301,
+      "submitted_utc": "2026-07-25T00:12:20.124341+00:00",
+      "cancelled_utc": "2026-07-28T23:50:30.728814+00:00"
+    },
+    {
+      "job_id": "6a63ff64b02968b3c1d534e7",
+      "genome": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.40.contigs__.RAST",
+      "genome_ref": "155805/302/1",
+      "output": "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.40.contigs__.RAST.dlt",
+      "objid": 302,
+      "submitted_utc": "2026-07-25T00:12:20.756526+00:00",
+      "cancelled_utc": "2026-07-28T23:50:30.804146+00:00"
+    },
+    {
+      "job_id": "6a63ff652f71c771f65d1b12",
+      "genome": "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.104.contigs__.RAST",
+      "genome_ref": "155805/305/1",
+      "output": "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.104.contigs__.RAST.dlt",
+      "objid": 305,
+      "submitted_utc": "2026-07-25T00:12:21.417169+00:00",
+      "cancelled_utc": "2026-07-28T23:50:30.887974+00:00"
+    },
+    {
+      "job_id": "6a63ff651c6b2638b1d8b433",
+      "genome": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.12.contigs__.RAST",
+      "genome_ref": "155805/306/1",
+      "output": "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.12.contigs__.RAST.dlt",
+      "objid": 306,
+      "submitted_utc": "2026-07-25T00:12:22.075627+00:00",
+      "cancelled_utc": "2026-07-28T23:50:30.967279+00:00"
+    },
+    {
+      "job_id": "6a63ff66d25de51df9f4d314",
+      "genome": "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_concoct_out.15.contigs__.RAST",
+      "genome_ref": "155805/309/1",
+      "output": "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_concoct_out.15.contigs__.RAST.dlt",
+      "objid": 309,
+      "submitted_utc": "2026-07-25T00:12:22.718139+00:00",
+      "cancelled_utc": "2026-07-28T23:50:31.050259+00:00"
+    },
+    {
+      "job_id": "6a63ff677662238c12e47377",
+      "genome": "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_concoct_out.51.contigs__.RAST",
+      "genome_ref": "155805/311/1",
+      "output": "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_concoct_out.51.contigs__.RAST.dlt",
+      "objid": 311,
+      "submitted_utc": "2026-07-25T00:12:23.591939+00:00",
+      "cancelled_utc": "2026-07-28T23:50:31.133663+00:00"
+    },
+    {
+      "job_id": "6a63ff68cf0aa852a1c35cac",
+      "genome": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.8.contigs__.RAST",
+      "genome_ref": "155805/312/1",
+      "output": "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.8.contigs__.RAST.dlt",
+      "objid": 312,
+      "submitted_utc": "2026-07-25T00:12:24.206318+00:00",
+      "cancelled_utc": "2026-07-28T23:50:31.214310+00:00"
+    },
+    {
+      "job_id": "6a6940591c6b2638b1d8b8f9",
+      "genomes": [
+        "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.29.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.38.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.80.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_concoct_out.13.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.45.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.4.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.28.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.17.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_concoct_out.91.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_metabat.22.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.34.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_metabat.19.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.37.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.26.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_concoct_out.45.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.71.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.43.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.9.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.45.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.15.contigs__.RAST"
+      ],
+      "genome_refs": [
+        "155805/29/1",
+        "155805/30/1",
+        "155805/31/1",
+        "155805/32/1",
+        "155805/33/1",
+        "155805/35/1",
+        "155805/36/1",
+        "155805/40/1",
+        "155805/41/1",
+        "155805/42/1",
+        "155805/43/1",
+        "155805/44/1",
+        "155805/45/1",
+        "155805/51/1",
+        "155805/52/1",
+        "155805/53/1",
+        "155805/54/1",
+        "155805/56/1",
+        "155805/61/1",
+        "155805/62/1"
+      ],
+      "output": "BERDL_unprocessed_batch02.dlt",
+      "n_genomes": 20,
+      "submitted_utc": "2026-07-28T23:50:50.357864+00:00",
+      "final_state": "terminated",
+      "archived_utc": "2026-08-14T00:55:47.594076+00:00"
+    },
+    {
+      "job_id": "6a69405ac9e2e40ca406078a",
+      "genomes": [
+        "Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_metabat.14.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.23.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.143.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.67.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.12.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.18.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.40.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.87.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_metabat.16.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.19.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_concoct_out.33.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_metabat.10.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_B_H2O_MG_DASTool_bins_metabat.17.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.13.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.26.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_metabat.19.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.7.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.98.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_concoct_out.59.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.2.contigs__.RAST"
+      ],
+      "genome_refs": [
+        "155805/64/1",
+        "155805/65/1",
+        "155805/68/1",
+        "155805/70/1",
+        "155805/71/1",
+        "155805/72/1",
+        "155805/73/1",
+        "155805/74/1",
+        "155805/75/1",
+        "155805/76/1",
+        "155805/78/1",
+        "155805/79/1",
+        "155805/80/1",
+        "155805/83/1",
+        "155805/85/1",
+        "155805/87/1",
+        "155805/90/1",
+        "155805/91/1",
+        "155805/93/1",
+        "155805/94/1"
+      ],
+      "output": "BERDL_unprocessed_batch03.dlt",
+      "n_genomes": 20,
+      "submitted_utc": "2026-07-28T23:50:50.981645+00:00",
+      "final_state": "terminated",
+      "archived_utc": "2026-08-14T00:55:47.594076+00:00"
+    },
+    {
+      "job_id": "6a69405bdefcede6f71dd4f6",
+      "genomes": [
+        "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.9.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.6.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.19.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_concoct_out.19.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.7.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_maxbin.022.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.7.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_metabat.29.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.32.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_concoct_out.45.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.100.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_metabat.16.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_metabat.42.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.49.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.28.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.15.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.11.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.26.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.89.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.28.contigs__.RAST"
+      ],
+      "genome_refs": [
+        "155805/97/1",
+        "155805/99/1",
+        "155805/101/1",
+        "155805/102/1",
+        "155805/103/1",
+        "155805/104/1",
+        "155805/106/1",
+        "155805/107/1",
+        "155805/109/1",
+        "155805/110/1",
+        "155805/111/1",
+        "155805/112/1",
+        "155805/113/1",
+        "155805/114/1",
+        "155805/115/1",
+        "155805/117/1",
+        "155805/118/1",
+        "155805/119/1",
+        "155805/120/1",
+        "155805/121/1"
+      ],
+      "output": "BERDL_unprocessed_batch04.dlt",
+      "n_genomes": 20,
+      "submitted_utc": "2026-07-28T23:50:51.714921+00:00",
+      "final_state": "terminated",
+      "archived_utc": "2026-08-14T00:55:47.594076+00:00"
+    },
+    {
+      "job_id": "6a69405cc9e2e40ca406078b",
+      "genomes": [
+        "Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_metabat.13.contigs__.RAST",
+        "Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.39.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.89.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.37.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_metabat.23.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.51.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.95.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_concoct_out.80.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_metabat.10.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.4.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.38.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.36.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.11.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_concoct_out.11.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.8.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.39.contigs__.RAST",
+        "Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.17.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.47.contigs__.RAST",
+        "Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.21.contigs__.RAST",
+        "Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.5.contigs__.RAST"
+      ],
+      "genome_refs": [
+        "155805/122/1",
+        "155805/124/1",
+        "155805/125/1",
+        "155805/128/1",
+        "155805/129/1",
+        "155805/130/1",
+        "155805/131/1",
+        "155805/132/1",
+        "155805/134/1",
+        "155805/138/1",
+        "155805/139/1",
+        "155805/140/1",
+        "155805/142/1",
+        "155805/143/1",
+        "155805/144/1",
+        "155805/147/1",
+        "155805/148/1",
+        "155805/149/1",
+        "155805/150/1",
+        "155805/151/1"
+      ],
+      "output": "BERDL_unprocessed_batch05.dlt",
+      "n_genomes": 20,
+      "submitted_utc": "2026-07-28T23:50:52.301116+00:00",
+      "final_state": "error",
+      "archived_utc": "2026-08-14T00:55:47.594076+00:00"
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+ "Roseovarius_R2BD2_mb38__upstream": {
+  "draft_reactions": 1201,
+  "draft_gene_assoc": 1073,
+  "free_atp_draft": {
+   "water_H": 1000.0,
+   "mineral_O2": 1000.0,
+   "mineral_anox": 1000.0
+  },
+  "atp_media_without_gapfill": 18,
+  "media_evaluated": 54,
+  "selected_media": [
+   "Ac.NO2",
+   "Ac.NO3",
+   "Ac.O2",
+   "Etho.O2",
+   "For.NO2",
+   "For.NO3",
+   "For.O2",
+   "Fum",
+   "Fum.O2",
+   "Pyr",
+   "Pyr.DMSO",
+   "Pyr.NO2",
+   "Pyr.NO3",
+   "Pyr.O2",
+   "Pyr.SO3",
+   "Pyr.TMAO"
+  ],
+  "core_gapfilled": 0,
+  "filtered_noncore": 7,
+  "free_atp_after_atp_correction": {
+   "water_H": 0.0,
+   "mineral_O2": 0.0,
+   "mineral_anox": 0.0
+  },
+  "gapfill_status": "ok",
+  "gapfill_new": 47,
+  "gapfill_reversed": 0,
+  "growth_complete": 21.565638,
+  "atp_tests_pass": "17/17",
+  "free_atp_gapfilled": {
+   "water_H": 0.0,
+   "mineral_O2": 0.0,
+   "mineral_anox": 0.0
+  },
+  "final_reactions": 1248,
+  "seconds": 395.0
+ },
+ "Roseovarius_R2BD2_mb38__combined": {
+  "draft_reactions": 1201,
+  "draft_gene_assoc": 1073,
+  "free_atp_draft": {
+   "water_H": 1000.0,
+   "mineral_O2": 1000.0,
+   "mineral_anox": 1000.0
+  },
+  "atp_media_without_gapfill": 18,
+  "media_evaluated": 54,
+  "selected_media": [
+   "Ac.NO2",
+   "Ac.NO3",
+   "Ac.O2",
+   "Etho.O2",
+   "For.NO2",
+   "For.NO3",
+   "For.O2",
+   "Fum",
+   "Fum.O2",
+   "Pyr",
+   "Pyr.DMSO",
+   "Pyr.NO2",
+   "Pyr.NO3",
+   "Pyr.O2",
+   "Pyr.SO3",
+   "Pyr.TMAO"
+  ],
+  "core_gapfilled": 0,
+  "filtered_noncore": 3,
+  "free_atp_after_atp_correction": {
+   "water_H": 0.0,
+   "mineral_O2": 0.0,
+   "mineral_anox": 0.0
+  },
+  "gapfill_status": "ok",
+  "gapfill_new": 47,
+  "gapfill_reversed": 0,
+  "growth_complete": 17.157463,
+  "atp_tests_pass": "17/17",
+  "free_atp_gapfilled": {
+   "water_H": 0.0,
+   "mineral_O2": 0.0,
+   "mineral_anox": 0.0
+  },
+  "final_reactions": 1248,
+  "seconds": 356.7
+ },
+ "BM714_R1AD1_mb51__upstream": {
+  "draft_reactions": 853,
+  "draft_gene_assoc": 750,
+  "free_atp_draft": {
+   "water_H": 0.0,
+   "mineral_O2": 0.0,
+   "mineral_anox": 0.0
+  },
+  "atp_media_without_gapfill": 11,
+  "media_evaluated": 54,
+  "selected_media": [
+   "Fum",
+   "Pyr",
+   "Pyr.DMSO",
+   "Pyr.SO3",
+   "Pyr.TMAO"
+  ],
+  "core_gapfilled": 0,
+  "filtered_noncore": 1,
+  "free_atp_after_atp_correction": {
+   "water_H": 0.0,
+   "mineral_O2": 0.0,
+   "mineral_anox": 0.0
+  },
+  "gapfill_status": "ok",
+  "gapfill_new": 94,
+  "gapfill_reversed": 0,
+  "growth_complete": 8.665729,
+  "atp_tests_pass": "6/6",
+  "free_atp_gapfilled": {
+   "water_H": 0.0,
+   "mineral_O2": 0.0,
+   "mineral_anox": 0.0
+  },
+  "final_reactions": 947,
+  "seconds": 293.8
+ },
+ "BM714_R1AD1_mb51__combined": {
+  "draft_reactions": 853,
+  "draft_gene_assoc": 750,
+  "free_atp_draft": {
+   "water_H": 0.0,
+   "mineral_O2": 0.0,
+   "mineral_anox": 0.0
+  },
+  "atp_media_without_gapfill": 11,
+  "media_evaluated": 54,
+  "selected_media": [
+   "Fum",
+   "Pyr",
+   "Pyr.DMSO",
+   "Pyr.SO3",
+   "Pyr.TMAO"
+  ],
+  "core_gapfilled": 0,
+  "filtered_noncore": 1,
+  "free_atp_after_atp_correction": {
+   "water_H": 0.0,
+   "mineral_O2": 0.0,
+   "mineral_anox": 0.0
+  },
+  "gapfill_status": "ok",
+  "gapfill_new": 92,
+  "gapfill_reversed": 0,
+  "growth_complete": 6.227443,
+  "atp_tests_pass": "6/6",
+  "free_atp_gapfilled": {
+   "water_H": 0.0,
+   "mineral_O2": 0.0,
+   "mineral_anox": 0.0
+  },
+  "final_reactions": 945,
+  "seconds": 273.0
+ },
+ "Methanolobus_R1AD2_cc21__upstream": {
+  "draft_reactions": 645,
+  "draft_gene_assoc": 563,
+  "free_atp_draft": {
+   "water_H": 1000.0,
+   "mineral_O2": 1000.0,
+   "mineral_anox": 1000.0
+  },
+  "atp_media_without_gapfill": 0,
+  "media_evaluated": 54,
+  "selected_media": [
+   "Dimethylamine.H2",
+   "H2.CO2",
+   "Methanamine.H2",
+   "Trimethylamine.H2"
+  ],
+  "core_gapfilled": 8,
+  "filtered_noncore": 3,
+  "free_atp_after_atp_correction": {
+   "water_H": 0.0,
+   "mineral_O2": 0.0,
+   "mineral_anox": 0.0
+  },
+  "gapfill_status": "ok",
+  "gapfill_new": 72,
+  "gapfill_reversed": 0,
+  "growth_complete": 3.964832,
+  "atp_tests_pass": "5/5",
+  "free_atp_gapfilled": {
+   "water_H": 0.0,
+   "mineral_O2": 0.0,
+   "mineral_anox": 0.0
+  },
+  "final_reactions": 725,
+  "seconds": 210.8
+ },
+ "Methanolobus_R1AD2_cc21__combined": {
+  "draft_reactions": 645,
+  "draft_gene_assoc": 563,
+  "free_atp_draft": {
+   "water_H": 0.0,
+   "mineral_O2": 0.0,
+   "mineral_anox": 0.0
+  },
+  "atp_media_without_gapfill": 0,
+  "media_evaluated": 54,
+  "selected_media": [
+   "Dimethylamine.H2",
+   "H2.CO2",
+   "Methanamine.H2",
+   "Trimethylamine.H2"
+  ],
+  "core_gapfilled": 8,
+  "filtered_noncore": 1,
+  "free_atp_after_atp_correction": {
+   "water_H": 0.0,
+   "mineral_O2": 0.0,
+   "mineral_anox": 0.0
+  },
+  "gapfill_status": "ok",
+  "gapfill_new": 74,
+  "gapfill_reversed": 0,
+  "growth_complete": 3.253216,
+  "atp_tests_pass": "5/5",
+  "free_atp_gapfilled": {
+   "water_H": 0.0,
+   "mineral_O2": 0.0,
+   "mineral_anox": 0.0
+  },
+  "final_reactions": 727,
+  "seconds": 196.6
+ },
+ "Roseovarius_R2BD2_mb38__draft_diff": {
+  "only_upstream": [],
+  "only_combined": []
+ },
+ "BM714_R1AD1_mb51__draft_diff": {
+  "only_upstream": [],
+  "only_combined": []
+ },
+ "Methanolobus_R1AD2_cc21__draft_diff": {
+  "only_upstream": [
+   "rxn39860_c0"
+  ],
+  "only_combined": [
+   "rxn42569_c0"
+  ]
+ }
+}

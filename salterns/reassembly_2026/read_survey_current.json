@@ -1,0 +1,6 @@
+{
+ "note": "Which read-survey version every downstream script reads (pathway_summary.py, specific_rates.py, make_modelling_edits_2026-11-24.py, make_r232_review_docx.py, community_ko/*). Paths are relative to reassembly_2026/. v2 (2026-11-26) replaces v1: same marker and v1-target references, the full 138-KO panel added; median change in copies per GE 0.36 % (read_markers_v2/results/regression_v1_v2_summary.tsv).",
+ "version": "v2",
+ "results": "read_markers_v2/results",
+ "readme": "read_markers_v2/README.md"
+}

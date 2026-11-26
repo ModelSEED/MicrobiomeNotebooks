@@ -1,0 +1,197 @@
+guild,variant,n_members,n_members_all,abund_share_kept_pct,basis,cores,spearman_rho,p,null_frac_ge_rho (pool = MAGs passing the same filter),dropped_members,rho_in_guild_methane_correlations_r232.csv,null_in_guild_methane_correlations_r232.csv,null_pool_size
+MePn phnJ,all members (as run),22,22,100.0,raw,12 cores,0.7552447552447553,0.004508435484294223,0.325,,0.7552447552447553,0.3235,
+MePn phnJ,all members (as run),22,22,100.0,raw,6 unrestored,0.48571428571428577,0.3287230320699708,0.15815,,0.4857142857142857,0.15775,
+MePn phnJ,all members (as run),22,22,100.0,DNA-normalised,12 cores,0.9160839160839163,2.8428045348547132e-05,0.0077,,0.9160839160839164,0.00675,
+MePn phnJ,all members (as run),22,22,100.0,DNA-normalised,6 unrestored,0.7714285714285715,0.07239650145772594,0.24775,,0.7714285714285715,0.24725,
+MePn phnJ,a: 2020-defined members,20,22,95.7475987296594,raw,12 cores,0.7272727272727274,0.0073550288578051294,0.40165,Natrinema.1 Haloquadratum.4,,,
+MePn phnJ,a: 2020-defined members,20,22,95.7475987296594,raw,6 unrestored,0.48571428571428577,0.3287230320699708,0.1848,Natrinema.1 Haloquadratum.4,,,
+MePn phnJ,a: 2020-defined members,20,22,95.7475987296594,DNA-normalised,12 cores,0.8811188811188813,0.00015267406467669862,0.0098,Natrinema.1 Haloquadratum.4,,,
+MePn phnJ,a: 2020-defined members,20,22,95.7475987296594,DNA-normalised,6 unrestored,0.7714285714285715,0.07239650145772594,0.1581,Natrinema.1 Haloquadratum.4,,,
+MePn phnJ,b: members >=3 of 4 sites,20,22,98.22911696772927,raw,12 cores,0.7552447552447553,0.004508435484294223,0.5465,Haloquadratum.4 Phaeodactylibacter.1,,,
+MePn phnJ,b: members >=3 of 4 sites,20,22,98.22911696772927,raw,6 unrestored,0.48571428571428577,0.3287230320699708,0.15035,Haloquadratum.4 Phaeodactylibacter.1,,,
+MePn phnJ,b: members >=3 of 4 sites,20,22,98.22911696772927,DNA-normalised,12 cores,0.8951048951048951,8.366586429091718e-05,0.0765,Haloquadratum.4 Phaeodactylibacter.1,,,
+MePn phnJ,b: members >=3 of 4 sites,20,22,98.22911696772927,DNA-normalised,6 unrestored,0.6,0.208,0.57435,Haloquadratum.4 Phaeodactylibacter.1,,,
+MePn phnJ,c: members >=6 of 12 cores,22,22,100.0,raw,12 cores,0.7552447552447553,0.004508435484294223,0.38955,,,,
+MePn phnJ,c: members >=6 of 12 cores,22,22,100.0,raw,6 unrestored,0.48571428571428577,0.3287230320699708,0.1301,,,,
+MePn phnJ,c: members >=6 of 12 cores,22,22,100.0,DNA-normalised,12 cores,0.9160839160839163,2.8428045348547132e-05,0.0137,,,,
+MePn phnJ,c: members >=6 of 12 cores,22,22,100.0,DNA-normalised,6 unrestored,0.7714285714285715,0.07239650145772594,0.2371,,,,
+MePn phnJ,"all members, values <= 1e-5 censored to 0",22,22,100.0,raw,12 cores,0.7552447552447553,0.004508435484294223,0.3329,,,,
+MePn phnJ,"all members, values <= 1e-5 censored to 0",22,22,100.0,raw,6 unrestored,0.48571428571428577,0.3287230320699708,0.156,,,,
+MePn phnJ,"all members, values <= 1e-5 censored to 0",22,22,100.0,DNA-normalised,12 cores,0.9160839160839163,2.8428045348547132e-05,0.0086,,,,
+MePn phnJ,"all members, values <= 1e-5 censored to 0",22,22,100.0,DNA-normalised,6 unrestored,0.7714285714285715,0.07239650145772594,0.2442,,,,
+MePn 2020 set,all members (as run),27,27,100.0,raw,12 cores,0.7272727272727274,0.0073550288578051294,0.4457,,0.7272727272727274,0.451,
+MePn 2020 set,all members (as run),27,27,100.0,raw,6 unrestored,0.48571428571428577,0.3287230320699708,0.1419,,0.4857142857142857,0.14575,
+MePn 2020 set,all members (as run),27,27,100.0,DNA-normalised,12 cores,0.8741258741258742,0.00020071307332423182,0.02735,,0.8741258741258742,0.02525,
+MePn 2020 set,all members (as run),27,27,100.0,DNA-normalised,6 unrestored,0.6,0.208,0.49865,,0.6,0.49925,
+MePn 2020 set,a: 2020-defined members,24,27,94.45329986857367,raw,12 cores,0.7272727272727274,0.0073550288578051294,0.42195,Natrinema.1 Halorubrum.3 Haloquadratum.4,,,
+MePn 2020 set,a: 2020-defined members,24,27,94.45329986857367,raw,6 unrestored,0.48571428571428577,0.3287230320699708,0.1755,Natrinema.1 Halorubrum.3 Haloquadratum.4,,,
+MePn 2020 set,a: 2020-defined members,24,27,94.45329986857367,DNA-normalised,12 cores,0.8811188811188813,0.00015267406467669862,0.0075,Natrinema.1 Halorubrum.3 Haloquadratum.4,,,
+MePn 2020 set,a: 2020-defined members,24,27,94.45329986857367,DNA-normalised,6 unrestored,0.7714285714285715,0.07239650145772594,0.13875,Natrinema.1 Halorubrum.3 Haloquadratum.4,,,
+MePn 2020 set,b: members >=3 of 4 sites,24,27,98.4086161404391,raw,12 cores,0.7272727272727274,0.0073550288578051294,0.6803,Thiolinea.1 Haloquadratum.4 Phaeodactylibacter.1,,,
+MePn 2020 set,b: members >=3 of 4 sites,24,27,98.4086161404391,raw,6 unrestored,0.48571428571428577,0.3287230320699708,0.13915,Thiolinea.1 Haloquadratum.4 Phaeodactylibacter.1,,,
+MePn 2020 set,b: members >=3 of 4 sites,24,27,98.4086161404391,DNA-normalised,12 cores,0.8741258741258742,0.00020071307332423182,0.1254,Thiolinea.1 Haloquadratum.4 Phaeodactylibacter.1,,,
+MePn 2020 set,b: members >=3 of 4 sites,24,27,98.4086161404391,DNA-normalised,6 unrestored,0.6,0.208,0.5882,Thiolinea.1 Haloquadratum.4 Phaeodactylibacter.1,,,
+MePn 2020 set,c: members >=6 of 12 cores,26,27,99.96953130513438,raw,12 cores,0.7272727272727274,0.0073550288578051294,0.51375,Thiolinea.1,,,
+MePn 2020 set,c: members >=6 of 12 cores,26,27,99.96953130513438,raw,6 unrestored,0.48571428571428577,0.3287230320699708,0.12985,Thiolinea.1,,,
+MePn 2020 set,c: members >=6 of 12 cores,26,27,99.96953130513438,DNA-normalised,12 cores,0.8741258741258742,0.00020071307332423182,0.0423,Thiolinea.1,,,
+MePn 2020 set,c: members >=6 of 12 cores,26,27,99.96953130513438,DNA-normalised,6 unrestored,0.6,0.208,0.4968,Thiolinea.1,,,
+MePn 2020 set,"all members, values <= 1e-5 censored to 0",27,27,100.0,raw,12 cores,0.7272727272727274,0.0073550288578051294,0.4406,,,,
+MePn 2020 set,"all members, values <= 1e-5 censored to 0",27,27,100.0,raw,6 unrestored,0.48571428571428577,0.3287230320699708,0.1461,,,,
+MePn 2020 set,"all members, values <= 1e-5 censored to 0",27,27,100.0,DNA-normalised,12 cores,0.8741258741258742,0.00020071307332423182,0.0284,,,,
+MePn 2020 set,"all members, values <= 1e-5 censored to 0",27,27,100.0,DNA-normalised,6 unrestored,0.6,0.208,0.49755,,,,
+betaine grdH,all members (as run),9,9,100.0,raw,12 cores,0.6783216783216784,0.015317329053281715,0.4416,,0.6783216783216784,0.43725,
+betaine grdH,all members (as run),9,9,100.0,raw,6 unrestored,-0.2571428571428572,0.6227871720116619,0.66075,,-0.2571428571428572,0.6615,
+betaine grdH,all members (as run),9,9,100.0,DNA-normalised,12 cores,0.7692307692307694,0.0034464502618274497,0.19285,,0.7692307692307694,0.202,
+betaine grdH,all members (as run),9,9,100.0,DNA-normalised,6 unrestored,0.2,0.7040000000000001,0.7911,,0.2,0.79725,
+betaine grdH,a: 2020-defined members,9,9,100.0,raw,12 cores,0.6783216783216784,0.015317329053281715,0.42535,,,,
+betaine grdH,a: 2020-defined members,9,9,100.0,raw,6 unrestored,-0.2571428571428572,0.6227871720116619,0.6882,,,,
+betaine grdH,a: 2020-defined members,9,9,100.0,DNA-normalised,12 cores,0.7692307692307694,0.0034464502618274497,0.15505,,,,
+betaine grdH,a: 2020-defined members,9,9,100.0,DNA-normalised,6 unrestored,0.2,0.7040000000000001,0.76855,,,,
+betaine grdH,b: members >=3 of 4 sites,1,9,9.43210395135314,raw,12 cores,0.6503496503496504,0.022034190932365316,0.55985,Halanaerobium.1 BM714.2 Halanaerobium.2 Halanaerobium.3 BM714.4 UBA8670.2 M55B127.1 M55B127.2,,,
+betaine grdH,b: members >=3 of 4 sites,1,9,9.43210395135314,raw,6 unrestored,-0.4285714285714286,0.3965014577259473,0.81735,Halanaerobium.1 BM714.2 Halanaerobium.2 Halanaerobium.3 BM714.4 UBA8670.2 M55B127.1 M55B127.2,,,
+betaine grdH,b: members >=3 of 4 sites,1,9,9.43210395135314,DNA-normalised,12 cores,0.8041958041958043,0.001614768986069931,0.4521,Halanaerobium.1 BM714.2 Halanaerobium.2 Halanaerobium.3 BM714.4 UBA8670.2 M55B127.1 M55B127.2,,,
+betaine grdH,b: members >=3 of 4 sites,1,9,9.43210395135314,DNA-normalised,6 unrestored,0.4285714285714286,0.3965014577259473,0.6708,Halanaerobium.1 BM714.2 Halanaerobium.2 Halanaerobium.3 BM714.4 UBA8670.2 M55B127.1 M55B127.2,,,
+betaine grdH,c: members >=6 of 12 cores,8,9,97.52760610543692,raw,12 cores,0.6783216783216784,0.015317329053281715,0.48975,BM714.2,,,
+betaine grdH,c: members >=6 of 12 cores,8,9,97.52760610543692,raw,6 unrestored,-0.2571428571428572,0.6227871720116619,0.65035,BM714.2,,,
+betaine grdH,c: members >=6 of 12 cores,8,9,97.52760610543692,DNA-normalised,12 cores,0.7762237762237763,0.002992863680185982,0.22015,BM714.2,,,
+betaine grdH,c: members >=6 of 12 cores,8,9,97.52760610543692,DNA-normalised,6 unrestored,0.2571428571428572,0.6227871720116619,0.70885,BM714.2,,,
+betaine grdH,"all members, values <= 1e-5 censored to 0",9,9,100.0,raw,12 cores,0.6655858016129904,0.018154826169843707,0.46245,,,,
+betaine grdH,"all members, values <= 1e-5 censored to 0",9,9,100.0,raw,6 unrestored,-0.2571428571428572,0.6227871720116619,0.66235,,,,
+betaine grdH,"all members, values <= 1e-5 censored to 0",9,9,100.0,DNA-normalised,12 cores,0.7225343193980593,0.00794627869866613,0.26205,,,,
+betaine grdH,"all members, values <= 1e-5 censored to 0",9,9,100.0,DNA-normalised,6 unrestored,0.2,0.7040000000000001,0.79225,,,,
+betaine 2020 set,all members (as run),15,15,100.0,raw,12 cores,0.6993006993006995,0.01137419864269093,0.46145,,0.6993006993006995,0.4585,
+betaine 2020 set,all members (as run),15,15,100.0,raw,6 unrestored,-0.08571428571428573,0.8717434402332361,0.5268,,-0.0857142857142857,0.536,
+betaine 2020 set,all members (as run),15,15,100.0,DNA-normalised,12 cores,0.7482517482517484,0.005124081698753054,0.2072,,0.7482517482517484,0.208,
+betaine 2020 set,all members (as run),15,15,100.0,DNA-normalised,6 unrestored,0.028571428571428574,0.9571545189504373,0.94415,,0.0285714285714285,0.94525,
+betaine 2020 set,a: 2020-defined members,15,15,100.0,raw,12 cores,0.6993006993006995,0.01137419864269093,0.4424,,,,
+betaine 2020 set,a: 2020-defined members,15,15,100.0,raw,6 unrestored,-0.08571428571428573,0.8717434402332361,0.56285,,,,
+betaine 2020 set,a: 2020-defined members,15,15,100.0,DNA-normalised,12 cores,0.7482517482517484,0.005124081698753054,0.15445,,,,
+betaine 2020 set,a: 2020-defined members,15,15,100.0,DNA-normalised,6 unrestored,0.028571428571428574,0.9571545189504373,0.93965,,,,
+betaine 2020 set,b: members >=3 of 4 sites,1,15,6.398031465520415,raw,12 cores,0.6503496503496504,0.022034190932365316,0.5663,UBA8670.1 DATFIM01.1 BM714.1 Halanaerobium.1 BM714.2 BM714.3 Halanaerobium.2 CAZFJG01.1 Halanaerobium.3 BM714.4 UBA8670.2 M55B127.1 CAZFJG01.2 M55B127.2,,,
+betaine 2020 set,b: members >=3 of 4 sites,1,15,6.398031465520415,raw,6 unrestored,-0.4285714285714286,0.3965014577259473,0.81805,UBA8670.1 DATFIM01.1 BM714.1 Halanaerobium.1 BM714.2 BM714.3 Halanaerobium.2 CAZFJG01.1 Halanaerobium.3 BM714.4 UBA8670.2 M55B127.1 CAZFJG01.2 M55B127.2,,,
+betaine 2020 set,b: members >=3 of 4 sites,1,15,6.398031465520415,DNA-normalised,12 cores,0.8041958041958043,0.001614768986069931,0.44945,UBA8670.1 DATFIM01.1 BM714.1 Halanaerobium.1 BM714.2 BM714.3 Halanaerobium.2 CAZFJG01.1 Halanaerobium.3 BM714.4 UBA8670.2 M55B127.1 CAZFJG01.2 M55B127.2,,,
+betaine 2020 set,b: members >=3 of 4 sites,1,15,6.398031465520415,DNA-normalised,6 unrestored,0.4285714285714286,0.3965014577259473,0.67155,UBA8670.1 DATFIM01.1 BM714.1 Halanaerobium.1 BM714.2 BM714.3 Halanaerobium.2 CAZFJG01.1 Halanaerobium.3 BM714.4 UBA8670.2 M55B127.1 CAZFJG01.2 M55B127.2,,,
+betaine 2020 set,c: members >=6 of 12 cores,14,15,98.32291352871424,raw,12 cores,0.6993006993006995,0.01137419864269093,0.51905,BM714.2,,,
+betaine 2020 set,c: members >=6 of 12 cores,14,15,98.32291352871424,raw,6 unrestored,-0.08571428571428573,0.8717434402332361,0.5112,BM714.2,,,
+betaine 2020 set,c: members >=6 of 12 cores,14,15,98.32291352871424,DNA-normalised,12 cores,0.7482517482517484,0.005124081698753054,0.26355,BM714.2,,,
+betaine 2020 set,c: members >=6 of 12 cores,14,15,98.32291352871424,DNA-normalised,6 unrestored,0.028571428571428574,0.9571545189504373,0.9547,BM714.2,,,
+betaine 2020 set,"all members, values <= 1e-5 censored to 0",15,15,100.0,raw,12 cores,0.6869414957823913,0.013591908735923457,0.4768,,,,
+betaine 2020 set,"all members, values <= 1e-5 censored to 0",15,15,100.0,raw,6 unrestored,-0.08571428571428573,0.8717434402332361,0.53065,,,,
+betaine 2020 set,"all members, values <= 1e-5 censored to 0",15,15,100.0,DNA-normalised,12 cores,0.7011786252286585,0.011062366361210673,0.28265,,,,
+betaine 2020 set,"all members, values <= 1e-5 censored to 0",15,15,100.0,DNA-normalised,6 unrestored,0.028571428571428574,0.9571545189504373,0.94305,,,,
+TMA-route candidate,all members (as run),4,4,99.99999999999999,raw,12 cores,0.1398601398601399,0.6646331617926677,0.80875,,0.1398601398601399,0.8135,
+TMA-route candidate,all members (as run),4,4,99.99999999999999,raw,6 unrestored,0.14285714285714288,0.7871720116618076,0.45875,,0.1428571428571428,0.45425,
+TMA-route candidate,all members (as run),4,4,99.99999999999999,DNA-normalised,12 cores,0.08391608391608392,0.7954145018538978,0.78615,,0.0839160839160839,0.78225,
+TMA-route candidate,all members (as run),4,4,99.99999999999999,DNA-normalised,6 unrestored,-0.028571428571428574,0.9571545189504373,0.8506,,-0.0285714285714285,0.85575,
+TMA-route candidate,a: 2020-defined members,4,4,99.99999999999999,raw,12 cores,0.1398601398601399,0.6646331617926677,0.8018,,,,
+TMA-route candidate,a: 2020-defined members,4,4,99.99999999999999,raw,6 unrestored,0.14285714285714288,0.7871720116618076,0.48275,,,,
+TMA-route candidate,a: 2020-defined members,4,4,99.99999999999999,DNA-normalised,12 cores,0.08391608391608392,0.7954145018538978,0.7736,,,,
+TMA-route candidate,a: 2020-defined members,4,4,99.99999999999999,DNA-normalised,6 unrestored,-0.028571428571428574,0.9571545189504373,0.85205,,,,
+TMA-route candidate,b: members >=3 of 4 sites,2,4,38.78071675757856,raw,12 cores,0.1328671328671329,0.6805975082860817,0.8545,UBA11579.1 CAZFJG01.2,,,
+TMA-route candidate,b: members >=3 of 4 sites,2,4,38.78071675757856,raw,6 unrestored,0.2571428571428572,0.6227871720116619,0.39615,UBA11579.1 CAZFJG01.2,,,
+TMA-route candidate,b: members >=3 of 4 sites,2,4,38.78071675757856,DNA-normalised,12 cores,-0.034965034965034975,0.9140933424107599,0.8669,UBA11579.1 CAZFJG01.2,,,
+TMA-route candidate,b: members >=3 of 4 sites,2,4,38.78071675757856,DNA-normalised,6 unrestored,0.6571428571428573,0.1561749271137024,0.35145,UBA11579.1 CAZFJG01.2,,,
+TMA-route candidate,c: members >=6 of 12 cores,4,4,99.99999999999999,raw,12 cores,0.1398601398601399,0.6646331617926677,0.8616,,,,
+TMA-route candidate,c: members >=6 of 12 cores,4,4,99.99999999999999,raw,6 unrestored,0.14285714285714288,0.7871720116618076,0.43455,,,,
+TMA-route candidate,c: members >=6 of 12 cores,4,4,99.99999999999999,DNA-normalised,12 cores,0.08391608391608392,0.7954145018538978,0.8378,,,,
+TMA-route candidate,c: members >=6 of 12 cores,4,4,99.99999999999999,DNA-normalised,6 unrestored,-0.028571428571428574,0.9571545189504373,0.86025,,,,
+TMA-route candidate,"all members, values <= 1e-5 censored to 0",4,4,99.99999999999999,raw,12 cores,0.1398601398601399,0.6646331617926677,0.818,,,,
+TMA-route candidate,"all members, values <= 1e-5 censored to 0",4,4,99.99999999999999,raw,6 unrestored,0.14285714285714288,0.7871720116618076,0.4537199618722721,,,,
+TMA-route candidate,"all members, values <= 1e-5 censored to 0",4,4,99.99999999999999,DNA-normalised,12 cores,0.08391608391608392,0.7954145018538978,0.7871393569678484,,,,
+TMA-route candidate,"all members, values <= 1e-5 censored to 0",4,4,99.99999999999999,DNA-normalised,6 unrestored,-0.028571428571428574,0.9571545189504373,0.8530458761594385,,,,
+methanogen mcrA,all members (as run),1,1,100.0,raw,12 cores,0.7762237762237763,0.002992863680185982,0.2459,,0.7762237762237763,0.24025,
+methanogen mcrA,all members (as run),1,1,100.0,raw,6 unrestored,-0.5428571428571429,0.26570262390670546,0.92585,,-0.5428571428571429,0.919,
+methanogen mcrA,all members (as run),1,1,100.0,DNA-normalised,12 cores,0.8041958041958043,0.001614768986069931,0.3885,,0.8041958041958043,0.3795,
+methanogen mcrA,all members (as run),1,1,100.0,DNA-normalised,6 unrestored,-0.4285714285714286,0.3965014577259473,0.9355,,-0.4285714285714286,0.9365,
+methanogen mcrA,a: 2020-defined members,0,1,0.0,raw,12 cores,,,,Methanolobus.1,,,
+methanogen mcrA,a: 2020-defined members,0,1,0.0,raw,6 unrestored,,,,Methanolobus.1,,,
+methanogen mcrA,a: 2020-defined members,0,1,0.0,DNA-normalised,12 cores,,,,Methanolobus.1,,,
+methanogen mcrA,a: 2020-defined members,0,1,0.0,DNA-normalised,6 unrestored,,,,Methanolobus.1,,,
+methanogen mcrA,b: members >=3 of 4 sites,0,1,0.0,raw,12 cores,,,,Methanolobus.1,,,
+methanogen mcrA,b: members >=3 of 4 sites,0,1,0.0,raw,6 unrestored,,,,Methanolobus.1,,,
+methanogen mcrA,b: members >=3 of 4 sites,0,1,0.0,DNA-normalised,12 cores,,,,Methanolobus.1,,,
+methanogen mcrA,b: members >=3 of 4 sites,0,1,0.0,DNA-normalised,6 unrestored,,,,Methanolobus.1,,,
+methanogen mcrA,c: members >=6 of 12 cores,1,1,100.0,raw,12 cores,0.7762237762237763,0.002992863680185982,0.2831,,,,
+methanogen mcrA,c: members >=6 of 12 cores,1,1,100.0,raw,6 unrestored,-0.5428571428571429,0.26570262390670546,0.9038,,,,
+methanogen mcrA,c: members >=6 of 12 cores,1,1,100.0,DNA-normalised,12 cores,0.8041958041958043,0.001614768986069931,0.4527,,,,
+methanogen mcrA,c: members >=6 of 12 cores,1,1,100.0,DNA-normalised,6 unrestored,-0.4285714285714286,0.3965014577259473,0.92195,,,,
+methanogen mcrA,"all members, values <= 1e-5 censored to 0",1,1,100.0,raw,12 cores,0.7352691574164019,0.0064328127389668074,0.3818606673187697,,,,
+methanogen mcrA,"all members, values <= 1e-5 censored to 0",1,1,100.0,raw,6 unrestored,-0.5428571428571429,0.26570262390670546,0.9016781836130306,,,,
+methanogen mcrA,"all members, values <= 1e-5 censored to 0",1,1,100.0,DNA-normalised,12 cores,0.7501984804096283,0.0049466896622232465,0.44071296598195847,,,,
+methanogen mcrA,"all members, values <= 1e-5 censored to 0",1,1,100.0,DNA-normalised,6 unrestored,-0.4285714285714286,0.3965014577259473,0.9051838138058714,,,,
+archaeon,all members (as run),30,30,100.0,raw,12 cores,0.7692307692307694,0.0034464502618274497,0.29895,,0.7692307692307694,0.3155,
+archaeon,all members (as run),30,30,100.0,raw,6 unrestored,-0.3142857142857143,0.5440932944606415,0.6074,,-0.3142857142857143,0.60225,
+archaeon,all members (as run),30,30,100.0,DNA-normalised,12 cores,0.6363636363636365,0.02609689105270314,0.4515,,0.6363636363636365,0.45325,
+archaeon,all members (as run),30,30,100.0,DNA-normalised,6 unrestored,0.3714285714285715,0.4684781341107872,0.71635,,0.3714285714285715,0.71475,
+archaeon,a: 2020-defined members,0,30,0.0,raw,12 cores,,,,Haladaptataceae.1 DATFIX01.1 Methanolobus.1 Haloquadratum.1 Halorubrum.1 Haloquadratum.2 Natrinema.1 Haloquadratum.3 Nitrosopumilus.1 Nitrosopumilus.2 Halonotius.1 Halosegnis.1 Halorubrum.2 Halorubrum.3 Haloquadratum.4 Haloarcula.1 Haloplanus.1 Haloarcula.2 Nanohalovita.1 Halohasta.1 Halonotius.2 Natronomonas.1 B1-Br10-U2g21.1 Halorubrum.4 Haloarcula.3 Natronomonas.2 Nanosalina.1 Kariarchaeum.1 Hikarchaeaceae.1 Hikarchaeaceae.2,,,
+archaeon,a: 2020-defined members,0,30,0.0,raw,6 unrestored,,,,Haladaptataceae.1 DATFIX01.1 Methanolobus.1 Haloquadratum.1 Halorubrum.1 Haloquadratum.2 Natrinema.1 Haloquadratum.3 Nitrosopumilus.1 Nitrosopumilus.2 Halonotius.1 Halosegnis.1 Halorubrum.2 Halorubrum.3 Haloquadratum.4 Haloarcula.1 Haloplanus.1 Haloarcula.2 Nanohalovita.1 Halohasta.1 Halonotius.2 Natronomonas.1 B1-Br10-U2g21.1 Halorubrum.4 Haloarcula.3 Natronomonas.2 Nanosalina.1 Kariarchaeum.1 Hikarchaeaceae.1 Hikarchaeaceae.2,,,
+archaeon,a: 2020-defined members,0,30,0.0,DNA-normalised,12 cores,,,,Haladaptataceae.1 DATFIX01.1 Methanolobus.1 Haloquadratum.1 Halorubrum.1 Haloquadratum.2 Natrinema.1 Haloquadratum.3 Nitrosopumilus.1 Nitrosopumilus.2 Halonotius.1 Halosegnis.1 Halorubrum.2 Halorubrum.3 Haloquadratum.4 Haloarcula.1 Haloplanus.1 Haloarcula.2 Nanohalovita.1 Halohasta.1 Halonotius.2 Natronomonas.1 B1-Br10-U2g21.1 Halorubrum.4 Haloarcula.3 Natronomonas.2 Nanosalina.1 Kariarchaeum.1 Hikarchaeaceae.1 Hikarchaeaceae.2,,,
+archaeon,a: 2020-defined members,0,30,0.0,DNA-normalised,6 unrestored,,,,Haladaptataceae.1 DATFIX01.1 Methanolobus.1 Haloquadratum.1 Halorubrum.1 Haloquadratum.2 Natrinema.1 Haloquadratum.3 Nitrosopumilus.1 Nitrosopumilus.2 Halonotius.1 Halosegnis.1 Halorubrum.2 Halorubrum.3 Haloquadratum.4 Haloarcula.1 Haloplanus.1 Haloarcula.2 Nanohalovita.1 Halohasta.1 Halonotius.2 Natronomonas.1 B1-Br10-U2g21.1 Halorubrum.4 Haloarcula.3 Natronomonas.2 Nanosalina.1 Kariarchaeum.1 Hikarchaeaceae.1 Hikarchaeaceae.2,,,
+archaeon,b: members >=3 of 4 sites,19,30,91.37670189620269,raw,12 cores,0.8531468531468532,0.0004181179404149967,0.14405,Methanolobus.1 Haloquadratum.1 Haloquadratum.2 Haloquadratum.3 Nitrosopumilus.1 Nitrosopumilus.2 Haloquadratum.4 Nanohalovita.1 B1-Br10-U2g21.1 Nanosalina.1 Kariarchaeum.1,,,
+archaeon,b: members >=3 of 4 sites,19,30,91.37670189620269,raw,6 unrestored,-0.14285714285714288,0.7871720116618076,0.552,Methanolobus.1 Haloquadratum.1 Haloquadratum.2 Haloquadratum.3 Nitrosopumilus.1 Nitrosopumilus.2 Haloquadratum.4 Nanohalovita.1 B1-Br10-U2g21.1 Nanosalina.1 Kariarchaeum.1,,,
+archaeon,b: members >=3 of 4 sites,19,30,91.37670189620269,DNA-normalised,12 cores,0.6993006993006995,0.01137419864269093,0.65715,Methanolobus.1 Haloquadratum.1 Haloquadratum.2 Haloquadratum.3 Nitrosopumilus.1 Nitrosopumilus.2 Haloquadratum.4 Nanohalovita.1 B1-Br10-U2g21.1 Nanosalina.1 Kariarchaeum.1,,,
+archaeon,b: members >=3 of 4 sites,19,30,91.37670189620269,DNA-normalised,6 unrestored,0.3714285714285715,0.4684781341107872,0.79665,Methanolobus.1 Haloquadratum.1 Haloquadratum.2 Haloquadratum.3 Nitrosopumilus.1 Nitrosopumilus.2 Haloquadratum.4 Nanohalovita.1 B1-Br10-U2g21.1 Nanosalina.1 Kariarchaeum.1,,,
+archaeon,c: members >=6 of 12 cores,23,30,96.35744481970261,raw,12 cores,0.8321678321678322,0.0007854416778536133,0.133,Haloquadratum.1 Nitrosopumilus.1 Nitrosopumilus.2 Nanohalovita.1 B1-Br10-U2g21.1 Nanosalina.1 Kariarchaeum.1,,,
+archaeon,c: members >=6 of 12 cores,23,30,96.35744481970261,raw,6 unrestored,-0.3142857142857143,0.5440932944606415,0.6075,Haloquadratum.1 Nitrosopumilus.1 Nitrosopumilus.2 Nanohalovita.1 B1-Br10-U2g21.1 Nanosalina.1 Kariarchaeum.1,,,
+archaeon,c: members >=6 of 12 cores,23,30,96.35744481970261,DNA-normalised,12 cores,0.6993006993006995,0.01137419864269093,0.4009,Haloquadratum.1 Nitrosopumilus.1 Nitrosopumilus.2 Nanohalovita.1 B1-Br10-U2g21.1 Nanosalina.1 Kariarchaeum.1,,,
+archaeon,c: members >=6 of 12 cores,23,30,96.35744481970261,DNA-normalised,6 unrestored,0.3714285714285715,0.4684781341107872,0.70875,Haloquadratum.1 Nitrosopumilus.1 Nitrosopumilus.2 Nanohalovita.1 B1-Br10-U2g21.1 Nanosalina.1 Kariarchaeum.1,,,
+archaeon,"all members, values <= 1e-5 censored to 0",30,30,100.0,raw,12 cores,0.7692307692307694,0.0034464502618274497,0.29345,,,,
+archaeon,"all members, values <= 1e-5 censored to 0",30,30,100.0,raw,6 unrestored,-0.3142857142857143,0.5440932944606415,0.61005,,,,
+archaeon,"all members, values <= 1e-5 censored to 0",30,30,100.0,DNA-normalised,12 cores,0.6363636363636365,0.02609689105270314,0.4488,,,,
+archaeon,"all members, values <= 1e-5 censored to 0",30,30,100.0,DNA-normalised,6 unrestored,0.3714285714285715,0.4684781341107872,0.72285,,,,
+MePn phnJ,all members; null pool = all 310 MAGs (as run),22,22,100.0,raw,12 cores,0.7552447552447553,,0.32735,,,,310.0
+MePn phnJ,all members; null pool = all 310 MAGs (as run),22,22,100.0,DNA-normalised,12 cores,0.9160839160839163,,0.0089,,,,310.0
+MePn phnJ,all members; null pool = a: 2020-defined MAGs,22,22,100.0,raw,12 cores,0.7552447552447553,,0.3162,,,,280.0
+MePn phnJ,all members; null pool = a: 2020-defined MAGs,22,22,100.0,DNA-normalised,12 cores,0.9160839160839163,,0.0033,,,,280.0
+MePn phnJ,all members; null pool = b: MAGs >=3 of 4 sites,22,22,100.0,raw,12 cores,0.7552447552447553,,0.5587,,,,164.0
+MePn phnJ,all members; null pool = b: MAGs >=3 of 4 sites,22,22,100.0,DNA-normalised,12 cores,0.9160839160839163,,0.03615,,,,164.0
+MePn phnJ,all members; null pool = c: MAGs >=6 of 12 cores,22,22,100.0,raw,12 cores,0.7552447552447553,,0.38145,,,,245.0
+MePn phnJ,all members; null pool = c: MAGs >=6 of 12 cores,22,22,100.0,DNA-normalised,12 cores,0.9160839160839163,,0.01165,,,,245.0
+MePn 2020 set,all members; null pool = all 310 MAGs (as run),27,27,100.0,raw,12 cores,0.7272727272727274,,0.44105,,,,310.0
+MePn 2020 set,all members; null pool = all 310 MAGs (as run),27,27,100.0,DNA-normalised,12 cores,0.8741258741258742,,0.02745,,,,310.0
+MePn 2020 set,all members; null pool = a: 2020-defined MAGs,27,27,100.0,raw,12 cores,0.7272727272727274,,0.43775,,,,280.0
+MePn 2020 set,all members; null pool = a: 2020-defined MAGs,27,27,100.0,DNA-normalised,12 cores,0.8741258741258742,,0.00795,,,,280.0
+MePn 2020 set,all members; null pool = b: MAGs >=3 of 4 sites,27,27,100.0,raw,12 cores,0.7272727272727274,,0.6861,,,,164.0
+MePn 2020 set,all members; null pool = b: MAGs >=3 of 4 sites,27,27,100.0,DNA-normalised,12 cores,0.8741258741258742,,0.1245,,,,164.0
+MePn 2020 set,all members; null pool = c: MAGs >=6 of 12 cores,27,27,100.0,raw,12 cores,0.7272727272727274,,0.5159,,,,245.0
+MePn 2020 set,all members; null pool = c: MAGs >=6 of 12 cores,27,27,100.0,DNA-normalised,12 cores,0.8741258741258742,,0.0424,,,,245.0
+betaine grdH,all members; null pool = all 310 MAGs (as run),9,9,100.0,raw,12 cores,0.6783216783216784,,0.44115,,,,310.0
+betaine grdH,all members; null pool = all 310 MAGs (as run),9,9,100.0,DNA-normalised,12 cores,0.7692307692307694,,0.19375,,,,310.0
+betaine grdH,all members; null pool = a: 2020-defined MAGs,9,9,100.0,raw,12 cores,0.6783216783216784,,0.42265,,,,280.0
+betaine grdH,all members; null pool = a: 2020-defined MAGs,9,9,100.0,DNA-normalised,12 cores,0.7692307692307694,,0.15465,,,,280.0
+betaine grdH,all members; null pool = b: MAGs >=3 of 4 sites,9,9,100.0,raw,12 cores,0.6783216783216784,,0.70455,,,,164.0
+betaine grdH,all members; null pool = b: MAGs >=3 of 4 sites,9,9,100.0,DNA-normalised,12 cores,0.7692307692307694,,0.39005,,,,164.0
+betaine grdH,all members; null pool = c: MAGs >=6 of 12 cores,9,9,100.0,raw,12 cores,0.6783216783216784,,0.5122,,,,245.0
+betaine grdH,all members; null pool = c: MAGs >=6 of 12 cores,9,9,100.0,DNA-normalised,12 cores,0.7692307692307694,,0.21925,,,,245.0
+betaine 2020 set,all members; null pool = all 310 MAGs (as run),15,15,100.0,raw,12 cores,0.6993006993006995,,0.45815,,,,310.0
+betaine 2020 set,all members; null pool = all 310 MAGs (as run),15,15,100.0,DNA-normalised,12 cores,0.7482517482517484,,0.20965,,,,310.0
+betaine 2020 set,all members; null pool = a: 2020-defined MAGs,15,15,100.0,raw,12 cores,0.6993006993006995,,0.43795,,,,280.0
+betaine 2020 set,all members; null pool = a: 2020-defined MAGs,15,15,100.0,DNA-normalised,12 cores,0.7482517482517484,,0.155,,,,280.0
+betaine 2020 set,all members; null pool = b: MAGs >=3 of 4 sites,15,15,100.0,raw,12 cores,0.6993006993006995,,0.7254,,,,164.0
+betaine 2020 set,all members; null pool = b: MAGs >=3 of 4 sites,15,15,100.0,DNA-normalised,12 cores,0.7482517482517484,,0.4798,,,,164.0
+betaine 2020 set,all members; null pool = c: MAGs >=6 of 12 cores,15,15,100.0,raw,12 cores,0.6993006993006995,,0.54035,,,,245.0
+betaine 2020 set,all members; null pool = c: MAGs >=6 of 12 cores,15,15,100.0,DNA-normalised,12 cores,0.7482517482517484,,0.26845,,,,245.0
+TMA-route candidate,all members; null pool = all 310 MAGs (as run),4,4,100.0,raw,12 cores,0.1398601398601399,,0.8128,,,,310.0
+TMA-route candidate,all members; null pool = all 310 MAGs (as run),4,4,100.0,DNA-normalised,12 cores,0.08391608391608392,,0.7822,,,,310.0
+TMA-route candidate,all members; null pool = a: 2020-defined MAGs,4,4,100.0,raw,12 cores,0.1398601398601399,,0.8005,,,,280.0
+TMA-route candidate,all members; null pool = a: 2020-defined MAGs,4,4,100.0,DNA-normalised,12 cores,0.08391608391608392,,0.77165,,,,280.0
+TMA-route candidate,all members; null pool = b: MAGs >=3 of 4 sites,4,4,100.0,raw,12 cores,0.1398601398601399,,0.92815,,,,164.0
+TMA-route candidate,all members; null pool = b: MAGs >=3 of 4 sites,4,4,100.0,DNA-normalised,12 cores,0.08391608391608392,,0.91175,,,,164.0
+TMA-route candidate,all members; null pool = c: MAGs >=6 of 12 cores,4,4,100.0,raw,12 cores,0.1398601398601399,,0.8584,,,,245.0
+TMA-route candidate,all members; null pool = c: MAGs >=6 of 12 cores,4,4,100.0,DNA-normalised,12 cores,0.08391608391608392,,0.842,,,,245.0
+methanogen mcrA,all members; null pool = all 310 MAGs (as run),1,1,100.0,raw,12 cores,0.7762237762237763,,0.25025,,,,310.0
+methanogen mcrA,all members; null pool = all 310 MAGs (as run),1,1,100.0,DNA-normalised,12 cores,0.8041958041958043,,0.38795,,,,310.0
+methanogen mcrA,all members; null pool = a: 2020-defined MAGs,1,1,100.0,raw,12 cores,0.7762237762237763,,0.19325,,,,280.0
+methanogen mcrA,all members; null pool = a: 2020-defined MAGs,1,1,100.0,DNA-normalised,12 cores,0.8041958041958043,,0.3575,,,,280.0
+methanogen mcrA,all members; null pool = b: MAGs >=3 of 4 sites,1,1,100.0,raw,12 cores,0.7762237762237763,,0.27925,,,,164.0
+methanogen mcrA,all members; null pool = b: MAGs >=3 of 4 sites,1,1,100.0,DNA-normalised,12 cores,0.8041958041958043,,0.45525,,,,164.0
+methanogen mcrA,all members; null pool = c: MAGs >=6 of 12 cores,1,1,100.0,raw,12 cores,0.7762237762237763,,0.27265,,,,245.0
+methanogen mcrA,all members; null pool = c: MAGs >=6 of 12 cores,1,1,100.0,DNA-normalised,12 cores,0.8041958041958043,,0.45035,,,,245.0
+archaeon,all members; null pool = all 310 MAGs (as run),30,30,100.0,raw,12 cores,0.7692307692307694,,0.29485,,,,310.0
+archaeon,all members; null pool = all 310 MAGs (as run),30,30,100.0,DNA-normalised,12 cores,0.6363636363636365,,0.44625,,,,310.0
+archaeon,all members; null pool = a: 2020-defined MAGs,30,30,100.0,raw,12 cores,0.7692307692307694,,0.28835,,,,280.0
+archaeon,all members; null pool = a: 2020-defined MAGs,30,30,100.0,DNA-normalised,12 cores,0.6363636363636365,,0.32325,,,,280.0
+archaeon,all members; null pool = b: MAGs >=3 of 4 sites,30,30,100.0,raw,12 cores,0.7692307692307694,,0.49465,,,,164.0
+archaeon,all members; null pool = b: MAGs >=3 of 4 sites,30,30,100.0,DNA-normalised,12 cores,0.6363636363636365,,0.87205,,,,164.0
+archaeon,all members; null pool = c: MAGs >=6 of 12 cores,30,30,100.0,raw,12 cores,0.7692307692307694,,0.35495,,,,245.0
+archaeon,all members; null pool = c: MAGs >=6 of 12 cores,30,30,100.0,DNA-normalised,12 cores,0.6363636363636365,,0.58305,,,,245.0

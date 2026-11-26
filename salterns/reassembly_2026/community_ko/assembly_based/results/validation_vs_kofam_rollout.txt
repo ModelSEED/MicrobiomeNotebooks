@@ -1,0 +1,15 @@
+rollout_genes	2732576
+found_by_name_in_assembly_genes	2732576
+identical_protein	2732576
+rollout_genes_on_kept_mag_contigs_here	2732576
+kept_mag_genes_here_not_in_rollout	0
+rollout_genes_not_on_kept_mag_contigs_here	0
+same_mag	True
+genes_with_panel_or_marker_ko_rollout	19281	here	19281
+same_panel_marker_label_all_genes	2732576	of	2732576	fraction	1.000000
+rollout_genes_passing_a_148_KO_not_searched_here	0
+genes_searched_full_db	48392
+searched: same_best_ko	48392	fraction	1.000000
+searched: same_best_ko_and_score	48392	fraction	1.000000
+searched: same_all_passing	48392	fraction	1.000000
+genes_differing	0

@@ -1,0 +1,139 @@
+ko	gene	compound	process	status	specificity	note	kofam_definition	group
+K18277	tmm	TMA	TMA oxidation to TMAO	S1	specific		trimethylamine monooxygenase [EC:1.14.13.148]	TMA
+K28979	tdm	TMAO	TMAO demethylation (to DMA + formaldehyde)	new	specific		trimethylamine-oxide aldolase [EC:4.1.2.32]	TMAO
+K07811	torA	TMAO	TMAO reduction to TMA	S1-relabel	specific	original label 'TMA degradation'; TorA produces TMA	trimethylamine-N-oxide reductase (cytochrome c) [EC:1.7.2.3]	TMAO
+K07812	torZ	TMAO	TMAO reduction to TMA	new	specific		trimethylamine-N-oxide reductase (cytochrome c) [EC:1.7.2.3]	TMAO
+K00317	tmd	TMA/DMA	TMA and DMA dehydrogenation	S1	specific		dimethylamine/trimethylamine dehydrogenase [EC:1.5.8.1 1.5.8.2]	TMA/DMA
+K22342	dmmA	DMA	DMA monooxygenase	new	specific		dimethylamine monooxygenase subunit A [EC:1.14.13.238]	DMA
+K22343	dmmB	DMA	DMA monooxygenase	new	specific		dimethylamine monooxygenase subunit B [EC:1.14.13.238]	DMA
+K22344	dmmC	DMA	DMA monooxygenase	new	specific		dimethylamine monooxygenase subunit C [EC:1.14.13.238]	DMA
+K15228	mauA	MMA	MMA dehydrogenase (light chain)	S1-relabel	specific	original compound 'TMA'	methylamine dehydrogenase light chain [EC:1.4.9.1]	MMA
+K15229	mauB	MMA	MMA dehydrogenase (heavy chain)	S1-relabel	specific	original compound 'TMA'	methylamine dehydrogenase heavy chain [EC:1.4.9.1]	MMA
+K01949	gmaS	MMA	N-methylglutamate pathway: glutamate-methylamine ligase	new	specific		glutamate---methylamine ligase [EC:6.3.4.12]	MMA
+K22081	mgsA	MMA	N-methylglutamate pathway: methylamine-glutamate N-methyltransferase	new	specific		methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	MMA
+K22082	mgsB	MMA	N-methylglutamate pathway	new	specific		methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	MMA
+K22083	mgsC	MMA	N-methylglutamate pathway	new	specific		methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	MMA
+K22084	mgdA	MMA	N-methylglutamate dehydrogenase	new	specific		methylglutamate dehydrogenase subunit A [EC:1.5.99.5]	MMA
+K22085	mgdB	MMA	N-methylglutamate dehydrogenase	new	specific		methylglutamate dehydrogenase subunit B [EC:1.5.99.5]	MMA
+K22086	mgdC	MMA	N-methylglutamate dehydrogenase	new	specific		methylglutamate dehydrogenase subunit C [EC:1.5.99.5]	MMA
+K22087	mgdD	MMA	N-methylglutamate dehydrogenase	new	specific		methylglutamate dehydrogenase subunit D [EC:1.5.99.5]	MMA
+K03320	amtB	MMA	ammonium/methylammonium transport	S1	generic	Amt transporters also carry MMA; not MMA-specific	ammonium transporter, Amt family	MMA
+K20038	cutC	choline	choline TMA-lyase (TMA production)	new	specific		choline trimethylamine-lyase [EC:4.3.99.4]	choline
+K20037	cutD	choline	choline TMA-lyase activating enzyme	new	specific		choline trimethylamine-lyase activating enzyme [EC:1.97.1.-]	choline
+K22443	cntA	carnitine	carnitine monooxygenase (TMA production)	new	specific	KO also holds YeaW-type choline/betaine monooxygenases	carnitine monooxygenase subunit [EC:1.14.13.239]	carnitine
+K22444	cntB	carnitine	carnitine monooxygenase reductase	new	specific		carnitine monooxygenase subunit [EC:1.14.13.239]	carnitine
+K21578	grdI	glycine betaine	betaine reductase B (TMA production)	new	specific		betaine reductase complex component B subunit alpha [EC:1.21.4.4]	glycine betaine
+K21579	grdH	glycine betaine	betaine reductase B (TMA production)	new	specific	read-level: not separable from grdB	betaine reductase complex component B subunit beta [EC:1.21.4.4]	glycine betaine
+K14083	mttB	TMA	TMA methyltransferase (methanogenesis; Pyl-free MttB superfamily in bacteria)	new	specific		trimethylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.250]	TMA
+K14084	mttC	TMA	TMA corrinoid protein	new	specific		trimethylamine corrinoid protein	TMA
+K16178	mtbB	DMA	DMA methyltransferase	new	specific		dimethylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.249]	DMA
+K16179	mtbC	DMA	DMA corrinoid protein	new	specific		dimethylamine corrinoid protein	DMA
+K16176	mtmB	MMA	MMA methyltransferase	new	specific		methylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.248]	MMA
+K16177	mtmC	MMA	MMA corrinoid protein	new	specific		monomethylamine corrinoid protein	MMA
+K14082	mtbA	methylamines	methylamine corrinoid:CoM methyltransferase	new	specific		[methyl-Co(III) methylamine-specific corrinoid protein]:coenzyme M methyltransferase [EC:2.1.1.247]	methylamines
+K04480	mtaB	methanol	methanol:corrinoid methyltransferase	new	specific		methanol---5-hydroxybenzimidazolylcobamide Co-methyltransferase [EC:2.1.1.90]	methanol
+K14081	mtaC	methanol	methanol corrinoid protein	new	specific		methanol corrinoid protein	methanol
+K14080	mtaA	methanol	methanol corrinoid:CoM methyltransferase	new	specific		[methyl-Co(III) methanol/glycine betaine-specific corrinoid protein]:coenzyme M methyltransferase [EC:2.1.1.246 2.1.1.377]	methanol
+K25220	mtgB	glycine betaine	glycine betaine:corrinoid methyltransferase	new	specific		glycine betaine---corrinoid protein Co-methyltransferase [EC:2.1.1.376]	glycine betaine
+K16954	mtsA	DMS/methanethiol	methylthiol:CoM methyltransferase	new	specific		methylthiol:coenzyme M methyltransferase [EC:2.1.1.251]	DMS/methanethiol
+K00399	mcrA	methane	methyl-coenzyme M reductase alpha	new	specific		methyl-coenzyme M reductase alpha subunit [EC:2.8.4.1]	methane
+K00401	mcrB	methane	methyl-coenzyme M reductase beta	new	specific		methyl-coenzyme M reductase beta subunit [EC:2.8.4.1]	methane
+K00402	mcrG	methane	methyl-coenzyme M reductase gamma	new	specific		methyl-coenzyme M reductase gamma subunit [EC:2.8.4.1]	methane
+K14028	mxaF	methanol	methanol dehydrogenase (PQQ, large subunit)	S1-replaced	specific	replaces K16259 (mxaL, labelled 'mxaI')	methanol dehydrogenase (cytochrome c) subunit 1 [EC:1.1.2.7]	methanol
+K14029	mxaI	methanol	methanol dehydrogenase (PQQ, small subunit)	S1-replaced	specific	replaces K16259 (mxaL, labelled 'mxaI')	methanol dehydrogenase (cytochrome c) subunit 2 [EC:1.1.2.7]	methanol
+K23995	xoxF	methanol	lanthanide-dependent methanol dehydrogenase	new	specific		lanthanide-dependent methanol dehydrogenase [EC:1.1.2.10]	methanol
+K00093	mdh	methanol	methanol dehydrogenase (NAD)	S1	specific		methanol dehydrogenase [EC:1.1.1.244]	methanol
+K17067	mdo	methanol	formaldehyde dismutase / methanol dehydrogenase	S1	specific		formaldehyde dismutase / methanol dehydrogenase [EC:1.2.98.1 1.1.99.37]	methanol
+K17066	AOX	methanol	alcohol (methanol) oxidase	S1-replaced	specific	replaces K03781 (catalase, labelled 'CTA1')	alcohol oxidase [EC:1.1.3.13]	methanol
+K00121	frmA	formaldehyde	S-(hydroxymethyl)glutathione dehydrogenase	S1-replaced	generic	replaces K02400 (flagellar FlhA, labelled 'adhI (flhA)')	S-(hydroxymethyl)glutathione dehydrogenase / alcohol dehydrogenase [EC:1.1.1.284 1.1.1.1]	formaldehyde
+K03396	gfa	formaldehyde	S-(hydroxymethyl)glutathione synthase	S1	specific		S-(hydroxymethyl)glutathione synthase [EC:4.4.1.22]	formaldehyde
+K01070	fghA	formaldehyde	S-formylglutathione hydrolase	S1	generic		S-formylglutathione hydrolase [EC:3.1.2.12]	formaldehyde
+K10713	fae	formaldehyde	formaldehyde-activating enzyme (H4MPT pathway)	S1	specific		5,6,7,8-tetrahydromethanopterin hydro-lyase [EC:4.2.1.147]	formaldehyde
+K00148	fdhA	formaldehyde	glutathione-independent formaldehyde dehydrogenase	S1-replaced	specific	replaces K00219 (2,4-dienoyl-CoA reductase, labelled 'fadH')	glutathione-independent formaldehyde dehydrogenase [EC:1.2.1.46]	formaldehyde
+K00122	fdh	formate	formate dehydrogenase	S1	generic		formate dehydrogenase [EC:1.17.1.9]	formate
+K01491	folD	C1 (H4F)	methylene-H4F dehydrogenase/cyclohydrolase	S1	generic	core C1 metabolism	methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9]	C1 (H4F)
+K01433	purU	C1 (H4F)	formyl-H4F deformylase	S1	generic	core C1 metabolism	formyltetrahydrofolate deformylase [EC:3.5.1.10]	C1 (H4F)
+K01938	fhs	C1 (H4F)	formate-H4F ligase	S1	generic	core C1 metabolism	formate--tetrahydrofolate ligase [EC:6.3.4.3]	C1 (H4F)
+K00544	bhmt	glycine betaine	betaine-homocysteine methyltransferase	S1	specific		betaine-homocysteine S-methyltransferase [EC:2.1.1.5]	glycine betaine
+K00479	gbcA	glycine betaine	glycine betaine monooxygenase A	new	specific		glycine betaine monooxygenase A [EC:1.14.13.251]	glycine betaine
+K21832	gbcB	glycine betaine	glycine betaine monooxygenase B	new	specific		glycine betaine monooxygenase B [EC:1.14.13.251]	glycine betaine
+K00315	dmgdh	dimethylglycine	dimethylglycine dehydrogenase	S1	specific		dimethylglycine dehydrogenase [EC:1.5.8.4]	dimethylglycine
+K00309	dmgo	dimethylglycine	dimethylglycine oxidase	new	specific		dimethylglycine oxidase [EC:1.5.3.10]	dimethylglycine
+K21833	dgcA	dimethylglycine	N,N-dimethylglycine/sarcosine dehydrogenase	new	specific		N,N-dimethylglycine/sarcosine dehydrogenase [EC:1.5.7.3]	dimethylglycine
+K00314	sardh	sarcosine	sarcosine dehydrogenase	S1	specific		sarcosine dehydrogenase [EC:1.5.8.3]	sarcosine
+K00301	soxA (monomeric)	sarcosine	sarcosine oxidase (monomeric)	new	specific		sarcosine oxidase [EC:1.5.3.1]	sarcosine
+K00302	soxA	sarcosine	sarcosine oxidase alpha	new	specific		sarcosine oxidase, subunit alpha [EC:1.5.3.24 1.5.3.1]	sarcosine
+K00303	soxB	sarcosine	sarcosine oxidase beta	S1	specific		sarcosine oxidase, subunit beta [EC:1.5.3.24 1.5.3.1]	sarcosine
+K00304	soxD	sarcosine	sarcosine oxidase delta	S1	specific		sarcosine oxidase, subunit delta [EC:1.5.3.24 1.5.3.1]	sarcosine
+K00305	soxG	sarcosine	sarcosine oxidase gamma	new	specific		sarcosine oxidase, subunit gamma [EC:1.5.3.24 1.5.3.1]	sarcosine
+K00600	glyA	glycine	serine hydroxymethyltransferase	S1	generic	core metabolism (labelled 'SHMT1')	glycine hydroxymethyltransferase [EC:2.1.2.1]	glycine
+K01752	sdaA	serine	L-serine dehydratase	S1	generic	core metabolism	L-serine dehydratase [EC:4.3.1.17]	serine
+K00108	betA	choline	choline dehydrogenase (GB biosynthesis)	S1	specific		choline dehydrogenase [EC:1.1.99.1]	choline
+K00130	betB	betaine aldehyde	betaine-aldehyde dehydrogenase (GB biosynthesis)	S1	specific		betaine-aldehyde dehydrogenase [EC:1.2.1.8]	betaine aldehyde
+K11440	gbsB	choline	choline dehydrogenase (GB biosynthesis)	S1	specific		choline dehydrogenase [EC:1.1.1.1]	choline
+K00499	CMO	choline	choline monooxygenase (GB biosynthesis)	S1	specific		choline monooxygenase [EC:1.14.15.7]	choline
+K24071	gsdmt	glycine	glycine/sarcosine/DMG N-methyltransferase (GB biosynthesis)	new	specific		glycine/sarcosine/dimethylglycine N-methyltransferase [EC:2.1.1.156 2.1.1.157]	glycine
+K18897	sdmt	sarcosine	sarcosine/DMG N-methyltransferase (GB biosynthesis)	new	specific		sarcosine/dimethylglycine N-methyltransferase [EC:2.1.1.157]	sarcosine
+K16967	dmoA	DMS	DMS monooxygenase	S1	specific		dimethyl-sulfide monooxygenase [EC:1.14.13.131]	DMS
+K16964	ddhA	DMS	DMS dehydrogenase alpha	S1-relabel	specific	original type 'photosynthesis'	dimethylsulfide dehydrogenase subunit alpha [EC:1.8.2.4]	DMS
+K16965	ddhB	DMS	DMS dehydrogenase beta	S1-relabel	specific	original type 'photosynthesis'	dimethylsulfide dehydrogenase subunit beta	DMS
+K16966	ddhC	DMS	DMS dehydrogenase gamma	S1-relabel	specific	original type 'photosynthesis'	dimethylsulfide dehydrogenase subunit gamma	DMS
+K07306	dmsA	DMSO	DMSO reductase (DMS production)	new	specific		anaerobic dimethyl sulfoxide reductase subunit A [EC:1.8.5.3]	DMSO
+K21310	mddA	methanethiol	methanethiol S-methyltransferase (DMS production)	new	specific		methanethiol S-methyltransferase [EC:2.1.1.334]	methanethiol
+K17285	MTO	methanethiol	methanethiol oxidase	new	specific		methanethiol oxidase [EC:1.8.3.4]	methanethiol
+K17228	sfnG	DMSO2	dimethylsulfone monooxygenase	S1	specific		dimethylsulfone monooxygenase [EC:1.14.14.35]	DMSO2
+K04091	ssuD/msuD	methanesulfonate	alkanesulfonate monooxygenase	S1	generic		alkanesulfonate monooxygenase [EC:1.14.14.5 1.14.14.34]	methanesulfonate
+K16968	msmA	methanesulfonate	methanesulfonate monooxygenase alpha	new	specific		methanesulfonate monooxygenase subunit alpha [EC:1.14.13.111]	methanesulfonate
+K16969	msmB	methanesulfonate	methanesulfonate monooxygenase beta	new	specific		methanesulfonate monooxygenase subunit beta [EC:1.14.13.111]	methanesulfonate
+K17486	dmdA	DMSP	DMSP demethylase	S1	specific		dimethylsulfoniopropionate demethylase [EC:2.1.1.269]	DMSP
+K20034	dmdB	MMPA	MMPA-CoA ligase	S1-replaced	specific	replaces K08967 (methionine salvage MtnD, labelled 'MMPA biosynthesis')	3-(methylthio)propionyl---CoA ligase [EC:6.2.1.44]	MMPA
+K20035	dmdC	MMPA	MMPA-CoA dehydrogenase	new	specific		3-(methylsulfanyl)propanoyl-CoA dehydrogenase [EC:1.3.99.41]	MMPA
+K20036	dmdD	MMPA	methylthioacryloyl-CoA hydratase	new	specific		(methylthio)acryloyl-CoA hydratase [EC:4.2.1.155]	MMPA
+K16953	dddL	DMSP	DMSP lyase	S1	specific	KEGG 'dimethylpropiothetin dethiomethylase'	dimethylpropiothetin dethiomethylase [EC:4.4.1.3]	DMSP
+K28067	dddP	DMSP	DMSP lyase	new	specific	symbol from KEGG (was 'ddd (K28067)' in the 2026-11-25 draft panel)	dimethylpropiothetin dethiomethylase [EC:4.4.1.3]	DMSP
+K28068	dddW	DMSP	DMSP lyase	new	specific	symbol from KEGG (was 'ddd (K28068)' in the 2026-11-25 draft panel)	dimethylpropiothetin dethiomethylase [EC:4.4.1.3]	DMSP
+K28069	dddY	DMSP	DMSP lyase	new	specific	symbol from KEGG (was 'ddd (K28069)' in the 2026-11-25 draft panel)	dimethylpropiothetin dethiomethylase [EC:4.4.1.3]	DMSP
+K28072	dddX	DMSP	DMSP lyase	new	specific	symbol from KEGG (was 'ddd (K28072)' in the 2026-11-25 draft panel)	DMSP lyase	DMSP
+K28073	dddD	DMSP	DMSP lyase	new	specific	symbol from KEGG (was 'ddd (K28073)' in the 2026-11-25 draft panel)	DMSP lyase	DMSP
+K06166	phnG	MPn	C-P lyase complex	new	specific		alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37]	MPn
+K06165	phnH	MPn	C-P lyase complex	new	specific		alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnH [EC:2.7.8.37]	MPn
+K06164	phnI	MPn	C-P lyase complex	new	specific		alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnI [EC:2.7.8.37]	MPn
+K06163	phnJ	MPn	C-P lyase (catalytic)	new	specific		alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase [EC:4.7.1.1]	MPn
+K05781	phnK	MPn	C-P lyase complex	new	specific		putative phosphonate transport system ATP-binding protein	MPn
+K05780	phnL	MPn	C-P lyase complex	new	specific		alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnL [EC:2.7.8.37]	MPn
+K06162	phnM	MPn	C-P lyase complex	new	specific		alpha-D-ribose 1-methylphosphonate 5-triphosphate diphosphatase [EC:3.6.1.63]	MPn
+K02044	phnD	phosphonates	phosphonate ABC transporter, binding protein	new	specific		phosphonate transport system substrate-binding protein	phosphonates
+K23996	phnY	MPn	methylphosphonate hydroxylase (oxidative MPn pathway)	new	specific	symbol from KEGG (was 'mpnH/phnY*' in the 2026-11-25 draft panel)	methylphosphonate hydroxylase [EC:1.14.11.71]	MPn
+K05915	phnZ	MPn	hydroxymethylphosphonate dioxygenase (oxidative MPn pathway)	new	specific		(hydroxymethyl)phosphonate/2-amino-1-hydroxyethylphosphonate dioxygenase [EC:1.13.11.89 1.13.11.78]	MPn
+K18049	mpnS	MPn	methylphosphonate synthase (MPn production)	new	specific		methylphosphonate synthase [EC:1.13.11.73]	MPn
+K12905	hepD	phosphonates	2-hydroxyethylphosphonate dioxygenase	new	specific		2-hydroxyethylphosphonate dioxygenase [EC:1.13.11.72]	phosphonates
+K00925	ackA	acetate	acetate activation (acetoclastic methanogenesis; also bacterial)	FigS4	generic	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	acetate kinase [EC:2.7.2.1]	acetate
+K00625	pta	acetate	phosphate acetyltransferase (acetoclastic; also bacterial)	FigS4	generic	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	phosphate acetyltransferase [EC:2.3.1.8]	acetate
+K13788	pta	acetate	phosphate acetyltransferase (acetoclastic; also bacterial)	FigS4	generic	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	phosphate acetyltransferase [EC:2.3.1.8]	acetate
+K15024	pta (K15024)	acetate	putative phosphotransacetylase	FigS4	generic	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	putative phosphotransacetylase [EC:2.3.1.8]	acetate
+K04020	eutD	acetate	phosphotransacetylase (ethanolamine utilization)	FigS4	generic	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	phosphotransacetylase	acetate
+K01895	acs	acetate	acetyl-CoA synthetase (acetoclastic Methanothrix; also bacterial)	FigS4	generic	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	acetyl-CoA synthetase [EC:6.2.1.1]	acetate
+K00192	cdhA	acetyl-CoA	CODH/ACS alpha (acetoclastic/methyl branch; also acetogens)	FigS4	generic	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	anaerobic carbon-monoxide dehydrogenase, CODH/ACS complex subunit alpha [EC:1.2.7.4]	acetyl-CoA
+K00195	cdhB	acetyl-CoA	CODH/ACS epsilon	FigS4	generic	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	anaerobic carbon-monoxide dehydrogenase, CODH/ACS complex subunit epsilon	acetyl-CoA
+K00193	cdhC	acetyl-CoA	CODH/ACS beta	FigS4	generic	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit beta [EC:2.3.1.169]	acetyl-CoA
+K00194	cdhD	acetyl-CoA	CODH/ACS delta	FigS4	generic	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit delta [EC:2.1.1.245]	acetyl-CoA
+K00197	cdhE	acetyl-CoA	CODH/ACS gamma	FigS4	generic	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit gamma [EC:2.1.1.245]	acetyl-CoA
+K00200	fwdA	CO2/H2	formylmethanofuran dehydrogenase A	FigS4	specific	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	formylmethanofuran dehydrogenase subunit A [EC:1.2.7.12]	CO2/H2
+K00201	fwdB	CO2/H2	formylmethanofuran dehydrogenase B	FigS4	specific	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	formylmethanofuran dehydrogenase subunit B [EC:1.2.7.12]	CO2/H2
+K00202	fwdC	CO2/H2	formylmethanofuran dehydrogenase C	FigS4	specific	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	formylmethanofuran dehydrogenase subunit C [EC:1.2.7.12]	CO2/H2
+K00203	fwdD	CO2/H2	formylmethanofuran dehydrogenase D	FigS4	specific	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	formylmethanofuran dehydrogenase subunit D [EC:1.2.7.12]	CO2/H2
+K00204	fwdH	CO2/H2	formylmethanofuran dehydrogenase H	FigS4	specific	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	4Fe-4S ferredoxin	CO2/H2
+K00205	fwdF	CO2/H2	formylmethanofuran dehydrogenase F	FigS4	specific	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	4Fe-4S ferredoxin	CO2/H2
+K11260	fwdG	CO2/H2	formylmethanofuran dehydrogenase G	FigS4	specific	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	4Fe-4S ferredoxin	CO2/H2
+K11261	fwdE	CO2/H2	formylmethanofuran dehydrogenase E	FigS4	specific	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	formylmethanofuran dehydrogenase subunit E [EC:1.2.7.12]	CO2/H2
+K00672	ftr	CO2/H2	formylmethanofuran:H4MPT formyltransferase	FigS4	specific	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	formylmethanofuran--tetrahydromethanopterin N-formyltransferase [EC:2.3.1.101]	CO2/H2
+K01499	mch	CO2/H2	methenyl-H4MPT cyclohydrolase	FigS4	specific	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	methenyltetrahydromethanopterin cyclohydrolase [EC:3.5.4.27]	CO2/H2
+K00320	mer	CO2/H2	F420-dependent methylene-H4MPT reductase	FigS4	specific	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	5,10-methylenetetrahydromethanopterin reductase [EC:1.5.98.2]	CO2/H2
+K00577	mtrA	methyl-H4MPT	methyl-H4MPT:CoM methyltransferase A	FigS4	specific	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	tetrahydromethanopterin S-methyltransferase subunit A [EC:7.2.1.4]	methyl-H4MPT
+K00578	mtrB	methyl-H4MPT	methyl-H4MPT:CoM methyltransferase B	FigS4	specific	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	tetrahydromethanopterin S-methyltransferase subunit B [EC:7.2.1.4]	methyl-H4MPT
+K00579	mtrC	methyl-H4MPT	methyl-H4MPT:CoM methyltransferase C	FigS4	specific	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	tetrahydromethanopterin S-methyltransferase subunit C [EC:7.2.1.4]	methyl-H4MPT
+K00580	mtrD	methyl-H4MPT	methyl-H4MPT:CoM methyltransferase D	FigS4	specific	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	tetrahydromethanopterin S-methyltransferase subunit D [EC:7.2.1.4]	methyl-H4MPT
+K00581	mtrE	methyl-H4MPT	methyl-H4MPT:CoM methyltransferase E	FigS4	specific	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	tetrahydromethanopterin S-methyltransferase subunit E [EC:7.2.1.4]	methyl-H4MPT
+K00582	mtrF	methyl-H4MPT	methyl-H4MPT:CoM methyltransferase F	FigS4	specific	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	tetrahydromethanopterin S-methyltransferase subunit F [EC:7.2.1.4]	methyl-H4MPT
+K00583	mtrG	methyl-H4MPT	methyl-H4MPT:CoM methyltransferase G	FigS4	specific	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	tetrahydromethanopterin S-methyltransferase subunit G [EC:7.2.1.4]	methyl-H4MPT
+K00584	mtrH	methyl-H4MPT	methyl-H4MPT:CoM methyltransferase H	FigS4	specific	Figure S4 methanogenesis-pathway gene (Zhou et al. set)	tetrahydromethanopterin S-methyltransferase subunit H [EC:7.2.1.4]	methyl-H4MPT

@@ -1,0 +1,77 @@
+pr	reaction	name	in_template	template_dir	complexes	template_matches	template_balance	db_corrected_balance_under_template_labels
+#324	rxn00082	N-(omega)-Hydroxyarginine,NADPH:oxygen oxidoreductase	yes	>/>	1	db_before_except_H+	imbalanced {} charge +4	imbalanced {'H': -1.0} charge -1
+#324	rxn00431	Methylamine:(acceptor) oxidoreductase (deaminating)	yes	>/=	2	db_before	imbalanced {} charge +2	imbalanced {} charge +2; missing ['cpd27740_c', 'cpd28064_c']
+#324	rxn00689	Tetrahydrofolate:L-glutamate gamma-ligase (ADP-forming)	yes	>/>	2	db_before	balanced	imbalanced {'C': -24.0, 'H': -27.0, 'N': -8.0, 'O': -9.0} charge +3; missing ['cpd19097_c']
+#324	rxn01992	ATP:acylglycerol 3-phosphotransferase	yes	>/>	0	db_before	imbalanced {} charge -1	imbalanced {'C': -4.0, 'H': -6.0, 'O': -7.0, 'P': -1.0, 'R': -1.0} charge +2; missing ['cpd22235_c']
+#324	rxn03121	peptide-D-galactosyl-N-acetyl-alpha-D-galactosaminyl-L-serin	yes	=/=	0	db_before	balanced	imbalanced {'C': 1.0, 'N': 1.0, 'R': 2.0} charge +1
+#324	rxn03396	R04989	yes	>/=	1	db_before_except_H+	imbalanced {} charge +2	imbalanced {'H': -1.0} charge -1
+#324	rxn04046	Cobalt-precorrin-2 C(20)-methyltransferase	yes	=/=	1	db_before_except_H+	imbalanced {} charge -2	balanced
+#324	rxn04158	R06271	yes	=/=	1	db_after_except_H+	balanced	imbalanced {'H': -1.0} charge -1
+#324	rxn04160	ATP-dependent ferredoxin:protochlorophyllide-a 7,8-oxidoredu	yes	>/>	1	neither	balanced	imbalanced {} charge -1
+#324	rxn04219	R06346	yes	=/=	0	db_before	imbalanced {} charge +2	balanced
+#324	rxn04656	rxn04656	yes	>/=	1	db_before	imbalanced {'C': 2, 'H': 1, 'O': 1} charge -1	imbalanced {'H': 1.0} charge +1
+#324	rxn04673	R06858	yes	>/>	1	db_before_except_H+	imbalanced {} charge +2	imbalanced {'H': -47.0, 'C': -30.0, 'O': -2.0} charge -1; missing ['cpd23602_c']
+#324	rxn05266	AMMQT7	yes	=/=	0	db_before_except_H+	balanced	imbalanced {'H': 2.0} charge +0
+#324	rxn06031	4-methyl-2-oxopentanoate:[dihydrolipoyllysine-residue (2-met	yes	>/>	0	db_before_except_H+	balanced	imbalanced {'H': 15.0, 'C': 8.0, 'O': 1.0, 'N': 1.0, 'S': 2.0} charge +0; missing ['cpd19171_c']
+#324	rxn06335	(S)-2-methylbutanoyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-(	yes	=/=	2	db_before_except_H+	balanced	imbalanced {'C': 8.0, 'H': 17.0, 'N': 1.0, 'O': 1.0, 'S': 2.0} charge +0; missing ['cpd19172_c']
+#324	rxn06586	3-methylbutanoyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-(3-me	yes	=/=	1	db_before_except_H+	balanced	imbalanced {'C': 8.0, 'H': 17.0, 'N': 1.0, 'O': 1.0, 'S': 2.0} charge +0; missing ['cpd19172_c']
+#324	rxn06621	(S)-3-Methyl-2-oxopentanoate:[dihydrolipoyllysine-residue (2	yes	>/>	0	db_before_except_H+	balanced	imbalanced {'H': 15.0, 'C': 8.0, 'O': 1.0, 'N': 1.0, 'S': 2.0} charge +0; missing ['cpd19171_c']
+#324	rxn08437	fatty-acyl-ACP hydrolase	yes	>/>	0	db_before_except_H+	balanced	imbalanced {'H': 50.0, 'O': 8.0, 'C': 27.0, 'N': 2.0, 'P': 1.0, 'R': 1.0, 'S': 1.0} charge -2; missing ['cpd27830_c']
+#324	rxn08480	release of Fe(III) from ferric 2,3-dihydroxybenzoylserine	yes	=/=	0	db_before	balanced	imbalanced {'H': -14.0, 'C': -10.0, 'N': -1.0, 'O': -6.0} charge -3; missing ['cpd26520_c']
+#324	rxn08550	glycerol-3-phosphate acyltransferase (C16:1)	yes	>/>	2	db_before_except_H+	balanced	imbalanced {'C': 8.0, 'H': 15.0, 'O': 1.0, 'N': 2.0, 'R': 1.0, 'S': 1.0} charge +0; missing ['cpd27830_c', 'cpd44604_c']
+#324	rxn09507	Glycolipid 1,3-alpha-D-mannosyltransferase, Golgi apparatus	yes	=/=	0	db_before	balanced	imbalanced {'C': -43.0, 'H': -73.0, 'N': -2.0, 'O': -27.0, 'P': -2.0} charge +3; missing ['cpd12790_c']
+#324	rxn10002	Heme D synthase	yes	>/>	0	db_before	balanced	imbalanced {'O': 4.0, 'H': -4.0} charge -4
+#324	rxn10600	precorrin-2 cobaltochelatase	no					
+#324	rxn13690	dihydro or otate dehydrogenase	yes	=/=	0	db_before	balanced	imbalanced {'H': -67.0, 'C': -46.0, 'O': -2.0} charge -1; missing ['cpd23255_c']
+#324	rxn13727	NADH dehydrogenase (menaquinone-7 & 4 protons)	yes	=/=	0	db_before	balanced	imbalanced {'C': -46.0, 'H': -67.0, 'O': -2.0} charge -1; missing ['cpd23255_c']
+#324	rxn13838	Hexadecanoyl-[acyl-carrier protein]:malonyl-CoA  C-acyltrans	yes	=/=	0	db_before_except_H+	balanced	imbalanced {'H': 1.0} charge +1
+#324	rxn13974	pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating)	yes	</=	4	db_before	balanced	imbalanced {} charge -1
+#324	rxn14048	2-oxoglutarate:ferredoxin oxidoreductase (decarboxylating)	yes	</=	1	db_before	balanced	imbalanced {} charge -1
+#324	rxn30129	Folylpolyglutamate synthase	no					
+#324	rxn41896		yes	=/=	1	db_before	imbalanced {'O': -1} charge +2	balanced
+#324	rxn43837		yes	>/=	1	neither	imbalanced {'C': -1, 'H': -1, 'N': -1, 'O': -1} charge +0	imbalanced {'H': 4.0, 'C': 3.0, 'N': 1.0, 'O': 1.0, 'R': 2.0, 'S': 2.0} charge -1; missing ['cpd28256_c']
+#324	rxn45692	cysteine:[ThiI sulfur-carrier protein]-L-cysteine sulfurtran	yes	>/=	1	db_before	imbalanced {'C': 1, 'H': 1, 'N': 1, 'O': 1} charge +0	imbalanced {'C': -3.0, 'H': -4.0, 'N': -1.0, 'O': -1.0, 'S': -2.0, 'R': -2.0} charge +1; missing ['cpd28256_c']
+#324	rxn48582	Rusticyanin electron transfer, cytochrome c reducing 	yes	=/=	1	neither	balanced	balanced
+#325	rxn05760	L-Glutamate:ferredoxin oxidoreductase (transaminating)	yes	=/=	0	db_after_except_H+	balanced	imbalanced {'H': 1.0} charge +1
+#325	rxn05902	sulphite reductase	yes	</<	0	db_after	balanced	balanced
+#325	rxn05937	Ferredoxin:NADP+ oxidoreductase	yes	>/=	0	db_after_except_H+	balanced	imbalanced {'H': 1.0} charge +1
+#325	rxn05938	pyruvate ferredoxin oxidoreductase	yes	</=	0	db_after	balanced	balanced
+#325	rxn05939	2-oxoglutarate synthase (rev)	yes	>/=	0	db_after	balanced	balanced
+#325	rxn05940	2-oxobutanoate:ferredoxin 2-oxidoreductase (CoA-propionylati	yes	=/=	0	db_after	balanced	balanced
+#325	rxn05942	5-methyltetrahydrofolate:ferredoxin oxidoreductase	yes	=/=	0	db_after	balanced	balanced
+#325	rxn06133	progesterone,reduced ferredoxin:oxygen oxidoreductase (11-hy	yes	>/>	0	db_after	balanced	balanced
+#325	rxn06262	steroid,reduced ferredoxin:oxygen oxidoreductase (11-hydroxy	yes	>/>	0	db_after	balanced	balanced
+#325	rxn06329	1,4,5,6-Tetrahydro-6-oxonicotinate:ferredoxin oxidoreductase	yes	=/=	0	db_after_except_H+	balanced	imbalanced {'H': 1.0} charge +1
+#325	rxn06424	R03611	yes	</<	0	db_after	balanced	balanced
+#325	rxn06451	phytochromobilin:ferredoxin oxidoreductase, chloroplast / ph	yes	=/=	0	db_after	balanced	balanced
+#325	rxn06507	11-deoxycorticosterone,reduced ferredoxin:oxygen oxidoreduct	yes	>/>	0	db_after	balanced	balanced
+#325	rxn06926	reduced ferredoxin:acetylene oxidoreductase (ATP-hydrolysing	yes	>/>	0	db_after	balanced	balanced
+#325	rxn06981	15,16-dihydrobiliverdin:ferredoxin oxidoreductase	yes	=/=	1	db_after	balanced	balanced
+#325	rxn06982	(3Z)-phycoerythrobilin:ferredoxin oxidoreductase	yes	=/=	1	db_after	balanced	balanced
+#325	rxn06990	Ferredoxin:NAD oxidoreductase	yes	=/=	0	db_after_except_H+	balanced	imbalanced {'H': 1.0} charge +1
+#325	rxn07189	carbon-monoxide,water:ferredoxin oxidoreductase	yes	>/>	0	db_after	balanced	balanced
+#325	rxn07191	D-glyceraldehyde-3-phosphate:ferredoxin oxidoreductase	yes	>/=	0	db_after	balanced	balanced
+#325	rxn07193	3-(indol-3-yl)pyruvate:ferredoxin oxidoreductase (decarboxyl	yes	=/=	1	db_after_except_H+	balanced	imbalanced {'H': 1.0} charge +1
+#325	rxn11959	toluene, ferredoxin:oxygen oxidoreductase	yes	</<	0	db_after	balanced	balanced
+#325	rxn11982	steroid,reduced-adrenal-ferredoxin:oxygen oxidoreductase (11	yes	>/>	0	db_after	balanced	balanced
+#325	rxn12002	17alpha,21-dihydroxypregnenolone:oxygen oxidoreductase (11-h	yes	>/>	0	db_after	balanced	balanced
+#325	rxn13775	Formate oxidoreductase	yes	>/>	0	db_after	balanced	balanced
+#325	rxn14108	glyceraldehyde ferredoxin oxidoreductase	no					
+#325	rxn15923	3-vinylbacteriochlorophyllide-a:ferredoxin oxidoreductase	yes	=/=	1	db_after_except_H+	balanced	imbalanced {'H': 1.0} charge +1
+#325	rxn15930	3-hydroxyethylbacteriochlorophyllide-a:ferredoxin oxidoreduc	yes	=/=	1	db_after_except_H+	balanced	imbalanced {'H': -1.0} charge -1
+#325	rxn16333	(3Z)-phycoerythrobilin:ferredoxin oxidoreductase (from biliv	yes	=/=	1	db_after	balanced	balanced
+#325	rxn16430	progesterone,reduced-ferredoxin:oxygen oxidoreductase (15bet	no					
+#325	rxn31312	2-oxoglutarate synthase	no					
+#325	rxn31332	Ferredoxin:NADP+ oxidoreductase	no					
+#325	rxn31333	Ferredoxin:NAD oxidoreductase	no					
+#325	rxn33372	carbon-monoxide,water:ferredoxin oxidoreductase	no					
+#325	rxn33376	carbon-monoxide,water:ferredoxin oxidoreductase	no					
+#325	rxn33380	carbon-monoxide,water:ferredoxin oxidoreductase	no					
+#325	rxn34265	pyruvate synthase	no					
+#325	rxn34588	calcidiol synthase	no					
+#325	rxn35210	Glycolate dehydrogenase	no					
+#325	rxn39342	cyclohexa-1,5-diene-1-carbonyl-CoA:ferredoxin oxidoreductase	no					
+#325	rxn39495	benzoyl-CoA:acceptor oxidoreductase	no					
+#325	rxn39679	ATP-dependent ferredoxin:protochlorophyllide-a 7,8-oxidoredu	yes	</<	1	db_after	balanced	balanced
+#325	rxn39948		no					
+#325	rxn40047	1-deoxypentalenate,reduced ferredoxin:oxygen oxidoreductase	no					

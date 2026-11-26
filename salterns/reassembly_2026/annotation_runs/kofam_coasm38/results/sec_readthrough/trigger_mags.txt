@@ -1,0 +1,9 @@
+R1_sediment__maxbin2.Bin.083_sub.fa
+R1_sediment__metabat2.bin.091_sub.fa
+R2A_sediment__metabat2.bin.048_sub.fa
+R2A_sediment__metabat2.bin.201_sub.fa
+R2A_sediment__metabat2.bin.257_sub.fa
+R2_sediment__maxbin2.Bin.036_sub.fa
+R2_sediment__maxbin2.Bin.211.fa
+SF2_sediment__concoct.bin.200_sub.fa
+SF2_sediment__metabat2.bin.082.fa

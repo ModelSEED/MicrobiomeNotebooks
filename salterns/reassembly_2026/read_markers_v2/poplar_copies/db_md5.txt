@@ -1,0 +1,4 @@
+3c23432da18d495d723234449555fd04  db/survey.faa
+616506b4e4abb2c8293684cf6247c209  db/survey.dmnd
+fb15cc48c9bb23234301d053ba8c52b2  db/panel_v2.hmm
+d0ee7b22ac99a8605d5fc0ccdc20b315  refs/labeled.faa

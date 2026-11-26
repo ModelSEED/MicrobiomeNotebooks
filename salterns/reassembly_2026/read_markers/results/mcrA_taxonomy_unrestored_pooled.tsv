@@ -1,0 +1,27 @@
+family	genus	reads	frac	70-85	85-95	<70	>=95	kept_mag	other_bin	unassembled	unbinned
+Methanosarcinaceae	Methanolobus	479	0.5771	1	14	0	464	215	44	149	71
+Methanosarcinaceae	Methanohalophilus	143	0.1723	0	9	0	134	0	0	130	13
+Methanomicrobiaceae	Methanogenium	53	0.06386	0	13	0	40	0	0	53	0
+Methanosarcinaceae	Methanococcoides	32	0.03855	0	10	0	22	0	0	32	0
+	methanogenic	24	0.02892	2	5	0	17	7	1	14	2
+Methanosarcinales	Methanococcoides	17	0.02048	0	4	0	13	0	0	17	0
+Methanophagales	Methanospirare	13	0.01566	8	5	0	0	0	0	13	0
+Methanomethylophilaceae	Methanomethylophilus	9	0.01084	2	5	0	2	0	0	9	0
+Methanomassiliicoccaceae	Methanomassiliicoccus	6	0.007229	6	0	0	0	0	0	6	0
+Methanosarcinaceae	Methanohalobium	6	0.007229	0	3	0	3	0	0	6	0
+Methanosarcinaceae	Methanomethylovorans	5	0.006024	0	0	0	5	0	1	3	1
+Methanomassiliicoccales	Methanogranum	5	0.006024	1	4	0	0	0	0	5	0
+	Methanomassiliicoccales	5	0.006024	2	3	0	0	0	0	5	0
+Methanomicrobiaceae	Methanoplanus	5	0.006024	0	3	0	2	0	0	5	0
+	Methanomicrobiales	5	0.006024	1	4	0	0	0	0	5	0
+unclassified Thermoplasmatota	Methanogenic	4	0.004819	1	2	0	1	0	0	4	0
+Thermoplasmatales	Thermoplasmatales	3	0.003614	1	2	0	0	0	0	3	0
+Methanomicrobiaceae	Methanoculleus	3	0.003614	2	0	0	1	0	0	3	0
+Methanomicrobiaceae	Methanofollis	3	0.003614	0	3	0	0	0	0	3	0
+Methanotrichaceae	Methanothrix	2	0.00241	1	0	0	1	0	0	2	0
+Methanomassiliicoccaceae	Candidatus Methanoplasma	2	0.00241	0	2	0	0	0	0	2	0
+Methanosarcinaceae	Methanosalsum	2	0.00241	1	0	0	1	0	0	2	0
+Methanobacteriaceae	Methanobacterium	1	0.001205	0	0	1	0	0	0	1	0
+	Candidatus Methanodesulfokora	1	0.001205	1	0	0	0	0	0	1	0
+Methanomicrobiales	Methanogenium	1	0.001205	0	1	0	0	0	0	1	0
+Methanotrichaceae	Methanocrinis	1	0.001205	0	0	0	1	0	0	1	0

@@ -1,0 +1,20 @@
+[2026-11-13 11:25:10] START (load 499.47 482.85 451.82, threads 32)
+[2026-11-13 11:29:37] TIME drep wall=4:27.18 maxrss_GB=0.1 cpu%=330%
+[2026-11-13 11:29:37] DEREP 188 of 359 MAGs kept (95% ANI)
+[2026-11-13 11:30:25] START (load 535.68 520.55 476.13, threads 32)
+[2026-11-13 11:30:25] DEREP 188 of 359 MAGs kept (95% ANI)
+[2026-11-13 11:30:39] START (load 540.62 522.46 477.47, threads 32)
+[2026-11-13 11:30:39] DEREP 188 of 359 MAGs kept (95% ANI)
+[2026-11-13 11:48:53] TIME coverm_SRR21120499 wall=18:13.16 maxrss_GB=25.1 cpu%=917%
+[2026-11-13 11:50:14] START (load 609.58 549.32 527.92, threads 32)
+[2026-11-13 11:50:14] DEREP 188 of 359 MAGs kept (95% ANI)
+[2026-11-13 11:50:53] TIME coverm_raw_SRR21120499 wall=0:38.83 maxrss_GB=0.0 cpu%=344%
+[2026-11-13 12:08:06] TIME coverm_SRR21120498 wall=17:12.80 maxrss_GB=25.1 cpu%=917%
+[2026-11-13 12:08:46] TIME coverm_raw_SRR21120498 wall=0:40.02 maxrss_GB=0.0 cpu%=343%
+[2026-11-13 12:08:47] TIME sylph_db wall=0:00.49 maxrss_GB=0.1 cpu%=756%
+[2026-11-13 12:10:04] TIME sylph_sketch_SRR21120499 wall=1:17.89 maxrss_GB=1.4 cpu%=176%
+[2026-11-13 12:11:32] TIME sylph_sketch_SRR21120498 wall=1:27.72 maxrss_GB=1.4 cpu%=176%
+[2026-11-13 12:11:39] TIME sylph_profile_derep wall=0:07.13 maxrss_GB=0.5 cpu%=348%
+[2026-11-13 12:14:19] TIME sylph_db_all wall=2:39.94 maxrss_GB=1.5 cpu%=137%
+[2026-11-13 12:14:53] TIME sylph_profile_all wall=0:33.00 maxrss_GB=1.8 cpu%=166%
+[2026-11-13 12:14:53] DONE

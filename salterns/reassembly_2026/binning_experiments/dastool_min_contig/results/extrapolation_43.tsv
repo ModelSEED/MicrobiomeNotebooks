@@ -1,0 +1,22 @@
+variant	units	ratio_exp_checkm_mq_vs_V0_8units	ratio_exp_checkm_hq_vs_V0_8units	actual_checkm_mq_V0_43	actual_checkm_hq_V0_43	projected_checkm_mq_43	projected_checkm_hq_43	median_n50_ratio_vs_V0_8units	basis_units
+V0 as run	per-sample (39)	1.0	1.0	776	134	776	134	1.0	R1_A_D1,R1_B_H2O,R2A_C_D1,R2_B_D2,R2_restored_D_shore,SF2_A_D1,SF2_B_H2O
+V0 as run	co-assemblies (4)	1.0	1.0	548	189	548	189	1.0	SF2_sediment
+V1 MaxBin2 >=2500	per-sample (39)	0.809	0.741	776	134	628	99	1.22	R1_A_D1,R1_B_H2O,R2A_C_D1,R2_B_D2,R2_restored_D_shore,SF2_A_D1,SF2_B_H2O
+V1 MaxBin2 >=2500	co-assemblies (4)	0.96	1.019	548	189	526	193	1.07	SF2_sediment
+V2 all >=3000	per-sample (39)	0.689	0.555	776	134	535	74	1.4	R1_A_D1,R1_B_H2O,R2A_C_D1,R2_B_D2,R2_restored_D_shore,SF2_A_D1,SF2_B_H2O
+V2 all >=3000	co-assemblies (4)	0.949	0.986	548	189	520	186	0.97	SF2_sediment
+V3 all >=5000	per-sample (39)	0.451	0.372	776	134	350	50	2.19	R1_A_D1,R1_B_H2O,R2A_C_D1,R2_B_D2,R2_restored_D_shore,SF2_A_D1,SF2_B_H2O
+V3 all >=5000	co-assemblies (4)	0.653	0.81	548	189	358	153	1.9	SF2_sediment
+V4 no MaxBin2	per-sample (39)	0.77	0.701	776	134	598	94	1.23	R1_A_D1,R1_B_H2O,R2A_C_D1,R2_B_D2,R2_restored_D_shore,SF2_A_D1,SF2_B_H2O
+V4 no MaxBin2	co-assemblies (4)	0.885	0.878	548	189	485	166	1.0	SF2_sediment
+V5 as run + filtered extras	per-sample (39)	1.024	0.993	776	134	795	133	1.0	R1_A_D1,R1_B_H2O,R2A_C_D1,R2_B_D2,R2_restored_D_shore,SF2_A_D1,SF2_B_H2O
+V5 as run + filtered extras	co-assemblies (4)	1.113	1.13	548	189	610	214	0.93	SF2_sediment
+V6 as run + >=5000 extras	per-sample (39)	1.028	1.006	776	134	797	135	1.01	R1_A_D1,R1_B_H2O,R2A_C_D1,R2_B_D2,R2_restored_D_shore,SF2_A_D1,SF2_B_H2O
+V6 as run + >=5000 extras	co-assemblies (4)	1.036	1.072	548	189	568	203	1.07	SF2_sediment
+V0 as run	all 43			1324	323	1324	323		
+V1 MaxBin2 >=2500	all 43			1324	323	1154	292		
+V2 all >=3000	all 43			1324	323	1055	260		
+V3 all >=5000	all 43			1324	323	708	203		
+V4 no MaxBin2	all 43			1324	323	1083	260		
+V5 as run + filtered extras	all 43			1324	323	1405	347		
+V6 as run + >=5000 extras	all 43			1324	323	1365	338		

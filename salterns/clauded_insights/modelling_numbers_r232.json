@@ -1,0 +1,851 @@
+{
+ "meta": {
+  "n_cores": 6,
+  "cores": [
+   "R1_A",
+   "R1_B",
+   "R1_C",
+   "R2_A",
+   "R2_B",
+   "R2_C"
+  ],
+  "bases": {
+   "raw_areal": "x = measured areal CH4 (mean of D1/D2 rows), y = modelled areal CH4 via per-core volume-weighted DNA and 0.7 g cm-3 (figure7_corrected.py panel a)",
+   "DNA_normalised_as_submitted": "x = measured CH4/DNA (depth mean), same y (submitted Figure 7a)",
+   "notebook_fits_json": "x = measured CH4/DNA, y = summed flux x constant (2 ug DNA g-1, 1.4 g cm-3); analysis(1).ipynb cell 27 -> fits.json; both axes carry 1/DNA"
+  },
+  "measured_CH4_raw": {
+   "R1_A": 737.32,
+   "R1_B": 1347.13,
+   "R1_C": 490.47,
+   "R2_A": 1327.18,
+   "R2_B": 1607.09,
+   "R2_C": 1588.57
+  },
+  "measured_CH4_per_DNA": {
+   "R1_A": 154.044,
+   "R1_B": 350.732,
+   "R1_C": 263.021,
+   "R2_A": 589.327,
+   "R2_B": 5308.591,
+   "R2_C": 5214.314
+  },
+  "VW_DNA_ug_g": {
+   "R1_A": 4.7751,
+   "R1_B": 3.744,
+   "R1_C": 1.9644,
+   "R2_A": 2.3769,
+   "R2_B": 1.9236,
+   "R2_C": 1.2405
+  },
+  "mean_inverse_DNA_by_core": {
+   "R1_A": 0.2089,
+   "R1_B": 0.2604,
+   "R1_C": 0.5363,
+   "R2_A": 0.444,
+   "R2_B": 3.3032,
+   "R2_C": 3.2824
+  }
+ },
+ "MePn": {
+  "0.07": {
+   "n_MAGs": 20,
+   "raw_areal": {
+    "n": 6,
+    "slope": 0.6472638887070047,
+    "intercept": -247.23652157917945,
+    "pearson_r": 0.6086261679759892,
+    "pearson_r2": 0.37042581234513705,
+    "pearson_p": 0.19978616937952287,
+    "spearman_rho": 0.6,
+    "spearman_p": 0.208
+   },
+   "DNA_normalised_as_submitted": {
+    "n": 6,
+    "slope": 0.1818958881073197,
+    "intercept": 158.29600457143573,
+    "pearson_r": 0.941209307623269,
+    "pearson_r2": 0.8858749607566735,
+    "pearson_p": 0.005082917792386083,
+    "spearman_rho": 0.6,
+    "spearman_p": 0.208
+   },
+   "notebook_fits_json": {
+    "n": 6,
+    "slope": 0.5104927026972121,
+    "intercept": 138.47671124077021,
+    "pearson_r": 0.9890806921722851,
+    "pearson_r2": 0.9782806156280066,
+    "pearson_p": 0.00017819596361132558,
+    "spearman_rho": 0.5428571428571429,
+    "spearman_p": 0.26570262390670546
+   },
+   "modelled_areal_CH4_by_core": {
+    "R1_A": 213.197,
+    "R1_B": 268.962,
+    "R1_C": 293.107,
+    "R2_A": 98.306,
+    "R2_B": 1350.404,
+    "R2_C": 886.728
+   },
+   "modelled_notebook_basis_by_core": {
+    "R1_A": 178.59,
+    "R1_B": 287.352,
+    "R1_C": 596.825,
+    "R2_A": 165.437,
+    "R2_B": 2808.142,
+    "R2_C": 2859.183
+   },
+   "model_over_measured_areal_by_core": {
+    "R1_A": 0.2892,
+    "R1_B": 0.1997,
+    "R1_C": 0.5976,
+    "R2_A": 0.0741,
+    "R2_B": 0.8403,
+    "R2_C": 0.5582
+   },
+   "model_over_measured_areal_summed": 0.438265679486761,
+   "model_over_measured_areal_median": 0.42367192713485713,
+   "CH4_share_by_genus_areal": {
+    "Roseovarius": 0.7668,
+    "Albimonas": 0.1078,
+    "Marivita": 0.0469,
+    "Roseibacterium": 0.0344,
+    "DAINOF01": 0.02,
+    "JAVJPJ01": 0.0146,
+    "CAZRZN01": 0.0066,
+    "Saliniramus": 0.0029,
+    "Thiolinea": 0.0001
+   },
+   "CH4_share_by_family_areal": {
+    "Rhodobacteraceae": 0.997,
+    "Beijerinckiaceae": 0.0029,
+    "Thiotrichaceae": 0.0001
+   }
+  },
+  "0.07_phnJ17": {
+   "n_MAGs": 17,
+   "raw_areal": {
+    "n": 6,
+    "slope": 0.6324775792826642,
+    "intercept": -243.5814988700701,
+    "pearson_r": 0.6095781730131223,
+    "pearson_r2": 0.37158554901401614,
+    "pearson_p": 0.1988879605233374,
+    "spearman_rho": 0.6,
+    "spearman_p": 0.208
+   },
+   "DNA_normalised_as_submitted": {
+    "n": 6,
+    "slope": 0.1779239434273424,
+    "intercept": 152.32388491615933,
+    "pearson_r": 0.9436539397931052,
+    "pearson_r2": 0.8904827580870494,
+    "pearson_p": 0.004672871803679594,
+    "spearman_rho": 0.6,
+    "spearman_p": 0.208
+   },
+   "notebook_fits_json": {
+    "n": 6,
+    "slope": 0.49928717951904317,
+    "intercept": 132.23085584408625,
+    "pearson_r": 0.9891112306522813,
+    "pearson_r2": 0.9783410266024705,
+    "pearson_p": 0.0001772024317709451,
+    "spearman_rho": 0.5428571428571429,
+    "spearman_p": 0.26570262390670546
+   },
+   "modelled_areal_CH4_by_core": {
+    "R1_A": 207.359,
+    "R1_B": 256.778,
+    "R1_C": 283.879,
+    "R2_A": 96.398,
+    "R2_B": 1312.862,
+    "R2_C": 870.408
+   },
+   "modelled_notebook_basis_by_core": {
+    "R1_A": 173.7,
+    "R1_B": 274.335,
+    "R1_C": 578.035,
+    "R2_A": 162.226,
+    "R2_B": 2730.074,
+    "R2_C": 2806.562
+   },
+   "model_over_measured_areal_by_core": {
+    "R1_A": 0.2812,
+    "R1_B": 0.1906,
+    "R1_C": 0.5788,
+    "R2_A": 0.0726,
+    "R2_B": 0.8169,
+    "R2_C": 0.5479
+   },
+   "model_over_measured_areal_summed": 0.4265690964344952,
+   "model_over_measured_areal_median": 0.41457647322166624
+  },
+  "0.33": {
+   "n_MAGs": 20,
+   "raw_areal": {
+    "n": 6,
+    "slope": 1.212224175752785,
+    "intercept": -495.6729716757319,
+    "pearson_r": 0.6342601498595979,
+    "pearson_r2": 0.40228593769991955,
+    "pearson_p": 0.17618674477658303,
+    "spearman_rho": 0.6,
+    "spearman_p": 0.208
+   },
+   "DNA_normalised_as_submitted": {
+    "n": 6,
+    "slope": 0.3357144338827762,
+    "intercept": 273.623489544745,
+    "pearson_r": 0.9666039988818926,
+    "pearson_r2": 0.9343232906544658,
+    "pearson_p": 0.0016543161747088495,
+    "spearman_rho": 0.6,
+    "spearman_p": 0.208
+   },
+   "notebook_fits_json": {
+    "n": 6,
+    "slope": 0.9545570902054299,
+    "intercept": 223.77464095372034,
+    "pearson_r": 0.9839333093617315,
+    "pearson_r2": 0.9681247572715288,
+    "pearson_p": 0.00038513410600194347,
+    "spearman_rho": 0.5428571428571429,
+    "spearman_p": 0.26570262390670546
+   },
+   "modelled_areal_CH4_by_core": {
+    "R1_A": 371.299,
+    "R1_B": 485.249,
+    "R1_C": 499.893,
+    "R2_A": 180.323,
+    "R2_B": 2328.878,
+    "R2_C": 1764.397
+   },
+   "modelled_notebook_basis_by_core": {
+    "R1_A": 311.029,
+    "R1_B": 518.428,
+    "R1_C": 1017.881,
+    "R2_A": 303.46,
+    "R2_B": 4842.86,
+    "R2_C": 5689.155
+   },
+   "model_over_measured_areal_by_core": {
+    "R1_A": 0.5036,
+    "R1_B": 0.3602,
+    "R1_C": 1.0192,
+    "R2_A": 0.1359,
+    "R2_B": 1.4491,
+    "R2_C": 1.1107
+   },
+   "model_over_measured_areal_summed": 0.7932134131946833,
+   "model_over_measured_areal_median": 0.7613958032414558,
+   "CH4_share_by_genus_areal": {
+    "Roseovarius": 0.6777,
+    "Marivita": 0.0982,
+    "Roseibacterium": 0.072,
+    "Albimonas": 0.0596,
+    "DAINOF01": 0.0419,
+    "JAVJPJ01": 0.0306,
+    "CAZRZN01": 0.0138,
+    "Saliniramus": 0.0061,
+    "Thiolinea": 0.0002
+   },
+   "CH4_share_by_family_areal": {
+    "Rhodobacteraceae": 0.9938,
+    "Beijerinckiaceae": 0.0061,
+    "Thiotrichaceae": 0.0002
+   }
+  },
+  "0.33_phnJ17": {
+   "n_MAGs": 17,
+   "raw_areal": {
+    "n": 6,
+    "slope": 1.156144198763242,
+    "intercept": -481.81058157325333,
+    "pearson_r": 0.6364780857884945,
+    "pearson_r2": 0.4051043536889862,
+    "pearson_p": 0.17420289310753376,
+    "spearman_rho": 0.6,
+    "spearman_p": 0.208
+   },
+   "DNA_normalised_as_submitted": {
+    "n": 6,
+    "slope": 0.32065005508037187,
+    "intercept": 250.97305506239763,
+    "pearson_r": 0.9713972252176661,
+    "pearson_r2": 0.9436125691605812,
+    "pearson_p": 0.001215477855051618,
+    "spearman_rho": 0.6,
+    "spearman_p": 0.208
+   },
+   "notebook_fits_json": {
+    "n": 6,
+    "slope": 0.9120579469805198,
+    "intercept": 200.08601001295187,
+    "pearson_r": 0.9821178876728438,
+    "pearson_r2": 0.9645555452869686,
+    "pearson_p": 0.0004767958309171294,
+    "spearman_rho": 0.5428571428571429,
+    "spearman_p": 0.26570262390670546
+   },
+   "modelled_areal_CH4_by_core": {
+    "R1_A": 349.158,
+    "R1_B": 439.038,
+    "R1_C": 464.895,
+    "R2_A": 173.086,
+    "R2_B": 2186.493,
+    "R2_C": 1702.502
+   },
+   "modelled_notebook_basis_by_core": {
+    "R1_A": 292.481,
+    "R1_B": 469.057,
+    "R1_C": 946.618,
+    "R2_A": 291.281,
+    "R2_B": 4546.774,
+    "R2_C": 5489.58
+   },
+   "model_over_measured_areal_by_core": {
+    "R1_A": 0.4735,
+    "R1_B": 0.3259,
+    "R1_C": 0.9479,
+    "R2_A": 0.1304,
+    "R2_B": 1.3605,
+    "R2_C": 1.0717
+   },
+   "model_over_measured_areal_summed": 0.7488518291368358,
+   "model_over_measured_areal_median": 0.7107027887961344
+  },
+  "addition_no_ratio_constraint": {
+   "n_MAGs_simulated": 20,
+   "MAGs_with_CH4": [
+    "Albimonas.1",
+    "Roseovarius.11",
+    "Roseovarius.9"
+   ],
+   "cores_with_zero_modelled_CH4": [
+    "R2_B",
+    "R2_C"
+   ],
+   "note": "analysis(1).ipynb cell 33 (substrate-addition simulation): no phosphate-ratio constraint, MePn uptake <= 0.001; infeasible MAG x core cells were skipped and count as 0. The three CH4-producing models were infeasible in R2_B and R2_C. fits_addition.json R^2 = 0.918 is this run on the notebook basis with a NEGATIVE slope.",
+   "raw_areal": {
+    "n": 6,
+    "slope": -0.07557746873537766,
+    "intercept": 147.78681282725685,
+    "pearson_r": -0.599849063892496,
+    "pearson_r2": 0.3598188994527038,
+    "pearson_p": 0.20814491916502223,
+    "spearman_rho": -0.5797710356524484,
+    "spearman_p": 0.22778395671501606
+   },
+   "DNA_normalised_as_submitted": {
+    "n": 6,
+    "slope": -0.01818278349482036,
+    "intercept": 94.38369221610604,
+    "pearson_r": -0.7941528512113999,
+    "pearson_r2": 0.6306787510871958,
+    "pearson_p": 0.05919838737007084,
+    "spearman_rho": -0.8116794499134279,
+    "spearman_p": 0.04985758510134036
+   },
+   "notebook_fits_json": {
+    "n": 6,
+    "slope": -0.02169445545825327,
+    "intercept": 114.1893084458051,
+    "pearson_r": -0.9584061674132273,
+    "pearson_r2": 0.918542381735711,
+    "pearson_p": 0.0025590907231292787,
+    "spearman_rho": -0.8116794499134279,
+    "spearman_p": 0.04985758510134036
+   },
+   "modelled_areal_CH4_by_core": {
+    "R1_A": 156.584,
+    "R1_B": 76.282,
+    "R1_C": 48.485,
+    "R2_A": 68.938,
+    "R2_B": 0.0,
+    "R2_C": 0.0
+   },
+   "modelled_notebook_basis_by_core": {
+    "R1_A": 131.167,
+    "R1_B": 81.498,
+    "R1_C": 98.725,
+    "R2_A": 116.014,
+    "R2_B": 0.0,
+    "R2_C": 0.0
+   },
+   "model_over_measured_areal_by_core": {
+    "R1_A": 0.2124,
+    "R1_B": 0.0566,
+    "R1_C": 0.0989,
+    "R2_A": 0.0519,
+    "R2_B": 0.0,
+    "R2_C": 0.0
+   },
+   "model_over_measured_areal_summed": 0.04935221005955781,
+   "model_over_measured_areal_median": 0.05428465660824972
+  },
+  "ratio_constraint": {
+   "binding_at_0.07_MAGs": 17,
+   "nonbinding_MAGs": [
+    "Albimonas.1",
+    "Roseovarius.11",
+    "Roseovarius.9"
+   ],
+   "nonbinding_MePn_to_Pi_uptake": {
+    "Roseovarius.9": 2.4626,
+    "Roseovarius.11": 5.1704,
+    "Albimonas.1": 2.4626
+   },
+   "nonbinding_CH4_identical_at_0.07_and_0.33_max_abs_diff": 3.2085484713995777e-13,
+   "CH4_per_unit_abundance_constants": [
+    0.04321,
+    0.46974,
+    0.55344
+   ],
+   "CH4_per_unit_abundance_max_CV_across_cores": 1.1333083557637095e-09,
+   "abundance_basis": "correlational/betaine_grdH_r232/inputs/averaged_normalized_abundances_unrestored_22f4629.csv",
+   "note": "Modelled CH4 of every MePn MAG is a constant times its (DNA-normalised) abundance in all 6 cores."
+  },
+  "inferred_unconstrained_nonbinding3": {
+   "n_MAGs": 3,
+   "MAGs": [
+    "Albimonas.1",
+    "Roseovarius.11",
+    "Roseovarius.9"
+   ],
+   "share_of_0.07_CH4_areal": 0.7099964740797807,
+   "note": "INFERENCE, not a stored run: summed CH4 of the MAGs whose ratio constraint is not binding",
+   "raw_areal": {
+    "n": 6,
+    "slope": 0.4449646474658768,
+    "intercept": -158.2771619562621,
+    "pearson_r": 0.5805551351909076,
+    "pearson_r2": 0.337044264996533,
+    "pearson_p": 0.22700368662882972,
+    "spearman_rho": 0.6,
+    "spearman_p": 0.208
+   },
+   "DNA_normalised_as_submitted": {
+    "n": 6,
+    "slope": 0.126817016524525,
+    "intercept": 116.99989360267418,
+    "pearson_r": 0.9105201975020244,
+    "pearson_r2": 0.8290470300591255,
+    "pearson_p": 0.011651736520914256,
+    "spearman_rho": 0.6,
+    "spearman_p": 0.208
+   },
+   "notebook_fits_json": {
+    "n": 6,
+    "slope": 0.35148349317071254,
+    "intercept": 107.93349102156378,
+    "pearson_r": 0.9851266636822886,
+    "pearson_r2": 0.970474543497797,
+    "pearson_p": 0.0003301790888554874,
+    "spearman_rho": 0.6,
+    "spearman_p": 0.208
+   },
+   "modelled_areal_CH4_by_core": {
+    "R1_A": 156.584,
+    "R1_B": 191.515,
+    "R1_C": 219.062,
+    "R2_A": 68.938,
+    "R2_B": 1000.035,
+    "R2_C": 572.455
+   },
+   "modelled_notebook_basis_by_core": {
+    "R1_A": 131.167,
+    "R1_B": 204.61,
+    "R1_C": 446.054,
+    "R2_A": 116.014,
+    "R2_B": 2079.556,
+    "R2_C": 1845.835
+   },
+   "model_over_measured_areal_by_core": {
+    "R1_A": 0.2124,
+    "R1_B": 0.1422,
+    "R1_C": 0.4466,
+    "R2_A": 0.0519,
+    "R2_B": 0.6223,
+    "R2_C": 0.3604
+   },
+   "model_over_measured_areal_summed": 0.3111670871457796,
+   "model_over_measured_areal_median": 0.2863640600566938
+  }
+ },
+ "MePn_modelled_set": {
+  "modelled_20": [
+   "Albimonas.1",
+   "CAZRZN01.1",
+   "DAINOF01.1",
+   "JAVJPJ01.1",
+   "Marivita.2",
+   "Marivita.3",
+   "Roseibacterium.1",
+   "Roseovarius.1",
+   "Roseovarius.10",
+   "Roseovarius.11",
+   "Roseovarius.12",
+   "Roseovarius.2",
+   "Roseovarius.4",
+   "Roseovarius.5",
+   "Roseovarius.6",
+   "Roseovarius.7",
+   "Roseovarius.8",
+   "Roseovarius.9",
+   "Saliniramus.1",
+   "Thiolinea.1"
+  ],
+  "modelled_without_phnJ": [
+   "CAZRZN01.1",
+   "DAINOF01.1",
+   "Thiolinea.1"
+  ],
+  "curated_2020_not_modelled": {
+   "no_MePn_model_built (archaea; models/MePn_consumers has no file, base RAST models exist in correlational/models)": [
+    "Halorubrum.3",
+    "Haloquadratum.4",
+    "Natrinema.1"
+   ],
+   "no_growth_on_lactate_medium (dontGrow)": [
+    "Desulfotignum.1",
+    "Desulfotignum.2",
+    "Gaopeijia.1",
+    "Phaeodactylibacter.1"
+   ]
+  },
+  "phnJ_carriers_not_modelled": [
+   "Desulfotignum.1",
+   "Desulfotignum.2",
+   "Haloquadratum.4",
+   "Natrinema.1",
+   "Phaeodactylibacter.1"
+  ]
+ },
+ "betaine": {
+  "orig15": {
+   "n_MAGs": 15,
+   "raw_areal": {
+    "n": 6,
+    "slope": -1.0052423389980734,
+    "intercept": 4499.774013005656,
+    "pearson_r": -0.3111385351517428,
+    "pearson_r2": 0.09680718805637227,
+    "pearson_p": 0.5483524206143955,
+    "spearman_rho": -0.08571428571428573,
+    "spearman_p": 0.8717434402332361
+   },
+   "DNA_normalised_as_submitted": {
+    "n": 6,
+    "slope": -0.3190012336545995,
+    "intercept": 3942.2365657696296,
+    "pearson_r": -0.5433372521658414,
+    "pearson_r2": 0.2952153695911271,
+    "pearson_p": 0.265194875606621,
+    "spearman_rho": -0.4285714285714286,
+    "spearman_p": 0.3965014577259473
+   },
+   "notebook_fits_json": {
+    "n": 6,
+    "slope": 0.2369319175283493,
+    "intercept": 4632.1741610159215,
+    "pearson_r": 0.9285576917095479,
+    "pearson_r2": 0.8622193868329638,
+    "pearson_p": 0.007473684228097459,
+    "spearman_rho": 0.5428571428571429,
+    "spearman_p": 0.26570262390670546
+   },
+   "modelled_areal_CH4_by_core": {
+    "R1_A": 5700.009,
+    "R1_B": 4600.927,
+    "R1_C": 2303.886,
+    "R2_A": 2640.567,
+    "R2_B": 2715.157,
+    "R2_C": 1903.13
+   },
+   "modelled_notebook_basis_by_core": {
+    "R1_A": 4774.766,
+    "R1_B": 4915.52,
+    "R1_C": 4691.17,
+    "R2_A": 4443.736,
+    "R2_B": 5646.12,
+    "R2_C": 6136.491
+   },
+   "model_over_measured_areal_by_core": {
+    "R1_A": 7.7307,
+    "R1_B": 3.4154,
+    "R1_C": 4.6973,
+    "R2_A": 1.9896,
+    "R2_B": 1.6895,
+    "R2_C": 1.198
+   },
+   "model_over_measured_areal_summed": 2.7985836678032183,
+   "model_over_measured_areal_median": 2.7024807760323686
+  },
+  "grdH9": {
+   "n_MAGs": 9,
+   "MAGs": [
+    "BM714.2",
+    "BM714.4",
+    "DATFJG01.1",
+    "Halanaerobium.1",
+    "Halanaerobium.2",
+    "Halanaerobium.3",
+    "M55B127.1",
+    "M55B127.2",
+    "UBA8670.2"
+   ],
+   "raw_areal": {
+    "n": 6,
+    "slope": -0.7052566029343482,
+    "intercept": 3192.4620882720305,
+    "pearson_r": -0.3139558286225606,
+    "pearson_r2": 0.09856826232607864,
+    "pearson_p": 0.544539297303394,
+    "spearman_rho": -0.08571428571428573,
+    "spearman_p": 0.8717434402332361
+   },
+   "DNA_normalised_as_submitted": {
+    "n": 6,
+    "slope": -0.21780871469222574,
+    "intercept": 2789.434076252761,
+    "pearson_r": -0.5335691730431004,
+    "pearson_r2": 0.284696062421898,
+    "pearson_p": 0.27559876173288866,
+    "spearman_rho": -0.4285714285714286,
+    "spearman_p": 0.3965014577259473
+   },
+   "notebook_fits_json": {
+    "n": 6,
+    "slope": 0.17809454665317523,
+    "intercept": 3289.907631782601,
+    "pearson_r": 0.9761184424763873,
+    "pearson_r2": 0.9528072137425283,
+    "pearson_p": 0.0008486830147304931,
+    "spearman_rho": 0.6377481392176932,
+    "spearman_p": 0.17307111024125982
+   },
+   "modelled_areal_CH4_by_core": {
+    "R1_A": 4032.18,
+    "R1_B": 3202.427,
+    "R1_C": 1665.959,
+    "R2_A": 1899.641,
+    "R2_B": 2035.861,
+    "R2_C": 1312.961
+   },
+   "modelled_notebook_basis_by_core": {
+    "R1_A": 3377.664,
+    "R1_B": 3421.397,
+    "R1_C": 3392.225,
+    "R2_A": 3196.852,
+    "R2_B": 4233.538,
+    "R2_C": 4233.538
+   },
+   "model_over_measured_areal_by_core": {
+    "R1_A": 5.4687,
+    "R1_B": 2.3772,
+    "R1_C": 3.3967,
+    "R2_A": 1.4313,
+    "R2_B": 1.2668,
+    "R2_C": 0.8265
+   },
+   "model_over_measured_areal_summed": 1.993450105890997,
+   "model_over_measured_areal_median": 1.9042792488632254
+  },
+  "note": "stored fluxes; the 9 grdH carriers re-simulate to these values exactly (correlational/betaine_grdH_r232/stats_grdH_r232.json)",
+  "grdH9_regimes": {
+   "regimes_by_MAG": {
+    "BM714.2": [
+     "degenerate_alternative_optima",
+     "saturated_at_0.1_uptake_bound"
+    ],
+    "BM714.4": [
+     "degenerate_alternative_optima"
+    ],
+    "DATFJG01.1": [
+     "degenerate_alternative_optima",
+     "saturated_at_0.1_uptake_bound"
+    ],
+    "Halanaerobium.1": [
+     "degenerate_alternative_optima"
+    ],
+    "Halanaerobium.2": [
+     "zero_forced"
+    ],
+    "Halanaerobium.3": [
+     "saturated_at_0.1_uptake_bound",
+     "unique_below_bound"
+    ],
+    "M55B127.1": [
+     "saturated_at_0.1_uptake_bound",
+     "unique_below_bound"
+    ],
+    "M55B127.2": [
+     "degenerate_alternative_optima",
+     "saturated_at_0.1_uptake_bound"
+    ],
+    "UBA8670.2": [
+     "saturated_at_0.1_uptake_bound"
+    ]
+   },
+   "fixed_at_0.1_bound_in_all_6_cores": [
+    "UBA8670.2"
+   ],
+   "families_of_those": [
+    "Dethiosulfatibacteraceae"
+   ],
+   "zero_TMA_in_stored_solution_any_core": [
+    "BM714.4",
+    "Halanaerobium.2"
+   ],
+   "cells_at_bound_stored": 33,
+   "cells": 54,
+   "cells_zero_stored": 12
+  },
+  "orig15_regimes": {
+   "fixed_at_0.1_bound_in_all_6_cores": [
+    "CAZFJG01.2",
+    "UBA8670.2"
+   ],
+   "zero_TMA_in_stored_solution_all_cores": [
+    "BM714.1",
+    "BM714.3",
+    "BM714.4",
+    "Halanaerobium.2"
+   ]
+  }
+ },
+ "reproduction_max_abs_diff": {
+  "figure7_stats/raw_areal_basis_corrected/MePn": 0.0,
+  "figure7_stats/raw_areal_basis_corrected/Betaine": 0.0,
+  "figure7_stats/DNA_normalised_basis_as_submitted/MePn": 0.0,
+  "figure7_stats/DNA_normalised_basis_as_submitted/Betaine": 0.0,
+  "fits.json[0.07]": 4.371993433949228e-09,
+  "fits.json[0.33]": 2.728471226731699e-09,
+  "fits_betaine.json": 3.167036188855832e-09,
+  "fits_addition.json": 1.7357110193572112e-09
+ },
+ "draft_values_traced": {
+  "P69 R2=0.966 (MePn, 0.07)": "matches no stored fit at any commit; fits.json[0.07] = 0.978",
+  "P95 R2=0.978 (MePn)": "fits.json[0.07] = 0.97828 (notebook basis)",
+  "P73 R2=0.968 (ratio 0.33)": "fits.json[0.33] = 0.96812 (notebook basis)",
+  "P73 R2=0.970 (unconstrained)": "no unconstrained in-situ run is stored at any commit (ratio loop was only [0.07] then [0.07, 0.33]); the only run without the ratio constraint is the substrate-addition run: R2 = 0.919 with r = -0.96 (inverse). INFERENCE: the three MAGs whose ratio constraint is not binding (Roseovarius.9, Roseovarius.11, Albimonas.1; the draft's 'two Roseovarius and one Albimonas') give R2 = 0.9705 on this basis",
+  "P74 R2=0.862 (betaine)": "fits_betaine.json = 0.86222 (notebook basis, 15 MAGs)",
+  "P70 eq 0.51x+138": "fits.json[0.07] notebook basis",
+  "P72 eq 0.95x+224": "fits.json[0.33] notebook basis",
+  "P75 eq 0.24x+4632": "betaine 15 MAGs, notebook basis (fits_betaine.json stores a different equation, y = -3.95x - 77202.90, from an earlier cell state)",
+  "soil_density": "notebook basis used 1.4 g cm-3 and a constant 2 ug DNA g-1; Methods P40 states 0.7"
+ },
+ "stoichiometry": {
+  "0.07": {
+   "CH4_per_MePn_min": 0.9999999905848077,
+   "CH4_per_MePn_max": 1.0000000000019256,
+   "community_CH4_per_MePn_by_core": {
+    "R1_A": 1.0,
+    "R1_B": 1.0,
+    "R1_C": 1.0,
+    "R2_A": 1.0,
+    "R2_B": 1.0,
+    "R2_C": 1.0
+   },
+   "realised_MePn_to_Pi_uptake_by_core": {
+    "R1_A": 0.2494,
+    "R1_B": 0.2319,
+    "R1_C": 0.2608,
+    "R2_A": 0.2245,
+    "R2_B": 0.2549,
+    "R2_C": 0.1908
+   },
+   "MePn_share_of_total_P_by_core": {
+    "R1_A": 0.1996,
+    "R1_B": 0.1883,
+    "R1_C": 0.2068,
+    "R2_A": 0.1833,
+    "R2_B": 0.2031,
+    "R2_C": 0.1602
+   }
+  },
+  "0.33": {
+   "CH4_per_MePn_min": 0.9999999990795252,
+   "CH4_per_MePn_max": 1.0000000024817952,
+   "community_CH4_per_MePn_by_core": {
+    "R1_A": 1.0,
+    "R1_B": 1.0,
+    "R1_C": 1.0,
+    "R2_A": 1.0,
+    "R2_B": 1.0,
+    "R2_C": 1.0
+   },
+   "realised_MePn_to_Pi_uptake_by_core": {
+    "R1_A": 0.533,
+    "R1_B": 0.5144,
+    "R1_C": 0.545,
+    "R2_A": 0.5067,
+    "R2_B": 0.5392,
+    "R2_C": 0.468
+   },
+   "MePn_share_of_total_P_by_core": {
+    "R1_A": 0.3477,
+    "R1_B": 0.3397,
+    "R1_C": 0.3527,
+    "R2_A": 0.3363,
+    "R2_B": 0.3503,
+    "R2_C": 0.3188
+   }
+  },
+  "addition": {
+   "community_CH4_per_MePn_by_core": {
+    "R1_A": 1.0,
+    "R1_B": 1.0,
+    "R1_C": 1.0,
+    "R2_A": 1.0,
+    "R2_B": null,
+    "R2_C": null
+   }
+  },
+  "note": "every stored MePn solution (and every committed version of saltern_fluxes.json) gives exactly 1 CH4 per MePn; the draft's 1.4 : 1 is not supported. Betaine CH4 = 0.06 x TMA is an assumption (Methods P36), not a model output."
+ },
+ "diagnostics": {
+  "measured_CH4_per_DNA_vs_mean_1_over_DNA_unrestored": {
+   "n": 6,
+   "slope": 1672.3928057346877,
+   "intercept": -259.66749711816624,
+   "pearson_r": 0.9970919055395834,
+   "pearson_r2": 0.9941922680925575,
+   "pearson_p": 1.2673223189162171e-05,
+   "spearman_rho": 0.8285714285714287,
+   "spearman_p": 0.04156268221574335
+  },
+  "MePn_0.07_notebook_y_vs_mean_1_over_DNA_unrestored": {
+   "n": 6,
+   "slope": 862.0917704347739,
+   "intercept": -5.260542028828695,
+   "pearson_r": 0.9958467163892971,
+   "pearson_r2": 0.9917106825433452,
+   "pearson_p": 2.5838825543785526e-05,
+   "spearman_rho": 0.7714285714285715,
+   "spearman_p": 0.07239650145772594
+  },
+  "DNA_vs_CH4_12_cores_VW_DNA": {
+   "n": 12,
+   "slope": 256.8151198077143,
+   "intercept": 116.18021869212077,
+   "pearson_r": 0.4697019267600761,
+   "pearson_r2": 0.2206199000021279,
+   "pearson_p": 0.12338898528285201,
+   "spearman_rho": 0.5244755244755246,
+   "spearman_p": 0.08001937592027474
+  },
+  "DNA_vs_CH4_24_samples": {
+   "n": 24,
+   "slope": 148.7008840787188,
+   "intercept": 294.7839712008451,
+   "pearson_r": 0.348413700035541,
+   "pearson_r2": 0.12139210637245595,
+   "pearson_p": 0.09521578492697885,
+   "spearman_rho": 0.21796064090817371,
+   "spearman_p": 0.3062367149494486
+  }
+ }
+}

@@ -1,0 +1,4 @@
+# chunk_manifest.tsv: name -> species_cluster for the 935 rollout MAGs, used ONLY to group whole species clusters into hmmsearch chunks (search efficiency; exact either way).
+# source: reassembly_2026/comparison_rollout/mags_three_way.tsv rows set == rollout
+804b38f7cb948bf65ccb579dbbfac340  mags_three_way.tsv  mtime 2026-11-19 08:03:08.351166649 -0600  size 1217275
+77e9625ad675e25af85da94e9cdd4d33  chunk_manifest.tsv

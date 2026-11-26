@@ -1,0 +1,7797 @@
+{
+ "build": {
+  "tag": "R2_sediment__metabat2.bin.414_sub__mepn_consumer__A",
+  "mag_id": "R2_sediment__metabat2.bin.414_sub",
+  "guild": "mepn_consumer",
+  "arm": "A",
+  "arm_sources": [],
+  "status": "ok",
+  "solver": "gurobi",
+  "versions": {
+   "cobra": "0.29.1",
+   "modelseedpy": "0.4.3",
+   "modelseedpy_file": "/home/andrew/venvs/salterns_modelling/lib/python3.12/site-packages/modelseedpy/__init__.py",
+   "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]"
+  },
+  "domain": "Bacteria",
+  "phylum": "Pseudomonadota",
+  "family": "Rhodobacteraceae",
+  "genus": "DAINOF01",
+  "template_file": "GramNegModelTemplateV7.json",
+  "template_rule": "Bacteria, other phylum (Pseudomonadota) -> GramNegModelTemplateV7",
+  "template_md5": "358a9119d63430c21e7be32a0040bbe5",
+  "core_template_md5": "7ab51b2bc12136c066349c92c0e0bb07",
+  "msdb": "/home/andrew/tf_runs/salterns_modelling/src/ModelSEEDDatabase",
+  "draft": {
+   "n_reactions": 1141,
+   "n_metabolites": 1156,
+   "n_genes": 1007,
+   "n_gene_associated": 1032,
+   "n_rast_supported": 1032,
+   "n_extra_supported": 0,
+   "n_extra_only": 0,
+   "n_template_rxns_with_extra_evidence": 0,
+   "n_bakta_extra_genes_used": 0
+  },
+  "guild_pathway": {
+   "reactions": {
+    "rxn26456_c0": "PhnGHIL",
+    "rxn26457_c0": "PhnM",
+    "rxn26459_c0": "PhnJ C-P lyase"
+   },
+   "gene_supported": {
+    "rxn26456_c0": true,
+    "rxn26457_c0": false,
+    "rxn26459_c0": true
+   },
+   "fraction": 0.6666666666666666,
+   "evidence": {
+    "rxn26456_c0": {
+     "rast": true,
+     "extra": {},
+     "template_type": "conditional"
+    },
+    "rxn26457_c0": null,
+    "rxn26459_c0": {
+     "rast": true,
+     "extra": {},
+     "template_type": "conditional"
+    }
+   }
+  },
+  "protocol": {
+   "cell5_disabled": [
+    "rxn23850_c0"
+   ],
+   "cell5_lb0": [
+    "rxn00145_c0",
+    "rxn00499_c0",
+    "rxn00146_c0",
+    "rxn08934_c0",
+    "rxn08941_c0",
+    "rxn08935_c0",
+    "rxn08942_c0",
+    "rxn11942_c0",
+    "rxn11941_c0",
+    "rxn11940_c0",
+    "rxn14415_c0"
+   ],
+   "cell5_H_fixed": [],
+   "rxs43120_c_balance": {},
+   "rxs00001_c_balance": {},
+   "rxn26447_c_balance_before": {},
+   "rxn26447_c_H_fix": null,
+   "template_removed": [
+    "rxn23850_c",
+    "rxn09193_c",
+    "rxn05315_c",
+    "rxn05206_c"
+   ],
+   "template_lb0": [
+    "rxn09188_c",
+    "rxn00929_c",
+    "rxn00145_c",
+    "rxn00499_c",
+    "rxn00146_c",
+    "rxn08934_c",
+    "rxn08941_c",
+    "rxn08935_c",
+    "rxn08942_c",
+    "rxn11942_c",
+    "rxn11941_c",
+    "rxn11940_c",
+    "rxn04159_c",
+    "rxn04705_c",
+    "rxn14415_c",
+    "sul00003_c",
+    "rxn48579_c"
+   ],
+   "mepn_hand_added": [
+    "rxs00001_c0",
+    "rxn26457_c0",
+    "rxs43120_c0",
+    "rxn26447_c0"
+   ],
+   "phn_transport_genes": {
+    "PhnC": 2,
+    "PhnD": 2,
+    "PhnE": 3
+   },
+   "rxs00001_gpr": "(k127_2859574_3 or k127_3421978_3) and (k127_2859574_4 or k127_3421978_4) and (k127_2859574_5 or k127_2859574_6 or k127_3421978_6)",
+   "rxs43120_gpr": "k127_2507539_3 or k127_2859574_14"
+  },
+  "draft_free_atp_before_atp_correction": {
+   "water_H": 0.0,
+   "salts_O2": 0.0,
+   "salts_NO3": 0.0
+  },
+  "atp_correction": {
+   "selected_media": [
+    "Ac.O2",
+    "Etho.O2",
+    "Pyr.O2",
+    "Fum.O2",
+    "LLac.O2",
+    "For.O2",
+    "Pyr",
+    "Fum",
+    "For.NO2",
+    "Pyr.NO2",
+    "Ac.NO2",
+    "Pyr.DMSO",
+    "Pyr.TMAO",
+    "Pyr.SO3"
+   ],
+   "n_tests": 15,
+   "tests": [
+    {
+     "media": "empty",
+     "threshold": 1e-05
+    },
+    {
+     "media": "Ac.O2",
+     "threshold": 10.35
+    },
+    {
+     "media": "Etho.O2",
+     "threshold": 17.25
+    },
+    {
+     "media": "Pyr.O2",
+     "threshold": 14.399999999999999
+    },
+    {
+     "media": "Fum.O2",
+     "threshold": 18.75
+    },
+    {
+     "media": "LLac.O2",
+     "threshold": 17.25
+    },
+    {
+     "media": "For.O2",
+     "threshold": 2.85
+    },
+    {
+     "media": "Pyr",
+     "threshold": 0.04166666666666674
+    },
+    {
+     "media": "Fum",
+     "threshold": 1.4999999999999993
+    },
+    {
+     "media": "For.NO2",
+     "threshold": 2.85
+    },
+    {
+     "media": "Pyr.NO2",
+     "threshold": 14.399999999999999
+    },
+    {
+     "media": "Ac.NO2",
+     "threshold": 10.35
+    },
+    {
+     "media": "Pyr.DMSO",
+     "threshold": 0.024999999999999977
+    },
+    {
+     "media": "Pyr.TMAO",
+     "threshold": 0.025000000000000043
+    },
+    {
+     "media": "Pyr.SO3",
+     "threshold": 0.025000000000000043
+    }
+   ],
+   "core_gapfilling": [],
+   "expansion_filtered": [
+    [
+     "rxn09260_c0: cpd00081_c0 --> cpd00081_e0",
+     "<"
+    ]
+   ],
+   "reactions_added": [],
+   "reactions_removed": [],
+   "free_atp_after": {
+    "water_H": 0.0,
+    "salts_O2": 0.0,
+    "salts_NO3": 0.0
+   }
+  },
+  "gapfill_1": {
+   "medium": "lactate_Pi_noMePn",
+   "target": "bio1",
+   "minimum_obj": null,
+   "solution_found": true,
+   "gfmodel_solver_status_if_failed": null,
+   "solution": {
+    "new": {
+     "EX_cpd00099_e0": "<",
+     "rxn12008_c0": "<",
+     "rxn08333_c0": ">",
+     "rxn00738_c0": "<",
+     "rxn02898_c0": ">",
+     "rxn10336_c0": ">",
+     "rxn02504_c0": ">",
+     "rxn02988_c0": "<",
+     "rxn01331_c0": ">",
+     "rxn00128_c0": "<",
+     "rxn02331_c0": "<",
+     "rxn00452_c0": ">",
+     "rxn11537_c0": "<",
+     "rxn00068_c0": "<",
+     "rxn02264_c0": ">",
+     "rxn09202_c0": ">",
+     "rxn09427_c0": ">",
+     "rxn03958_c0": "<",
+     "rxn00549_c0": ">",
+     "rxn00672_c0": ">",
+     "rxn00471_c0": ">",
+     "rxn10213_c0": ">",
+     "rxn02404_c0": ">",
+     "rxn05039_c0": ">",
+     "rxn00336_c0": ">",
+     "rxn03891_c0": ">",
+     "rxn00747_c0": ">",
+     "rxn02175_c0": ">",
+     "rxn00790_c0": "<",
+     "rxn08311_c0": ">",
+     "rxn09210_c0": ">",
+     "rxn04794_c0": ">",
+     "rxn01518_c0": ">",
+     "rxn11535_c0": "<",
+     "rxn03397_c0": ">",
+     "rxn00979_c0": ">",
+     "rxn11703_c0": ">",
+     "rxn12224_c0": ">",
+     "rxn03537_c0": ">",
+     "rxn00966_c0": "<",
+     "rxn02269_c0": "<",
+     "rxn09429_c0": ">",
+     "rxn06033_c0": ">",
+     "rxn01116_c0": "<",
+     "rxn02402_c0": "<",
+     "rxn04413_c0": ">",
+     "rxn10094_c0": ">",
+     "rxn06723_c0": "<",
+     "rxn01508_c0": ">",
+     "rxn02939_c0": ">",
+     "rxn02405_c0": ">",
+     "rxn02200_c0": ">",
+     "rxn03150_c0": ">",
+     "rxn00105_c0": ">",
+     "rxn00784_c0": "<",
+     "rxn03538_c0": ">",
+     "rxn01213_c0": ">",
+     "rxn00502_c0": "<",
+     "rxn05287_c0": ">",
+     "rxn03841_c0": ">",
+     "rxn03892_c0": ">",
+     "rxn03393_c0": ">",
+     "rxn11702_c0": ">",
+     "rxn02897_c0": ">",
+     "rxn01406_c0": ">",
+     "rxn00742_c0": ">",
+     "rxn00430_c0": "<",
+     "rxn02185_c0": "<",
+     "rxn06076_c0": "<",
+     "rxn03394_c0": ">",
+     "rxn00338_c0": ">",
+     "rxn00119_c0": ">",
+     "rxn02831_c0": ">",
+     "rxn01258_c0": ">",
+     "rxn02832_c0": "<",
+     "rxn06729_c0": ">",
+     "rxn01791_c0": ">",
+     "rxn02186_c0": ">",
+     "rxn00209_c0": ">",
+     "rxn01019_c0": ">",
+     "rxn00905_c0": "<",
+     "rxn01520_c0": ">",
+     "rxn08234_c0": ">"
+    },
+    "reversed": {}
+   },
+   "integrated": {
+    "new": {
+     "EX_cpd00099_e0": "<",
+     "rxn12008_c0": "<",
+     "rxn08333_c0": ">",
+     "rxn00738_c0": "<",
+     "rxn02898_c0": ">",
+     "rxn10336_c0": ">",
+     "rxn02504_c0": ">",
+     "rxn02988_c0": "<",
+     "rxn01331_c0": ">",
+     "rxn00128_c0": "<",
+     "rxn02331_c0": "<",
+     "rxn00452_c0": ">",
+     "rxn11537_c0": "<",
+     "rxn00068_c0": "<",
+     "rxn02264_c0": ">",
+     "rxn09202_c0": ">",
+     "rxn03958_c0": "<",
+     "rxn00549_c0": ">",
+     "rxn00471_c0": ">",
+     "rxn10213_c0": ">",
+     "rxn02404_c0": ">",
+     "rxn05039_c0": ">",
+     "rxn03891_c0": ">",
+     "rxn00747_c0": ">",
+     "rxn02175_c0": ">",
+     "rxn00790_c0": "<",
+     "rxn08311_c0": ">",
+     "rxn09210_c0": ">",
+     "rxn04794_c0": ">",
+     "rxn11535_c0": "<",
+     "rxn03397_c0": ">",
+     "rxn00979_c0": ">",
+     "rxn11703_c0": ">",
+     "rxn12224_c0": ">",
+     "rxn03537_c0": ">",
+     "rxn00966_c0": "<",
+     "rxn02269_c0": "<",
+     "rxn09429_c0": ">",
+     "rxn06033_c0": ">",
+     "rxn01116_c0": "<",
+     "rxn02402_c0": "<",
+     "rxn04413_c0": ">",
+     "rxn10094_c0": ">",
+     "rxn06723_c0": "<",
+     "rxn01508_c0": ">",
+     "rxn02939_c0": ">",
+     "rxn02405_c0": ">",
+     "rxn02200_c0": ">",
+     "rxn03150_c0": ">",
+     "rxn00105_c0": ">",
+     "rxn03538_c0": ">",
+     "rxn01213_c0": ">",
+     "rxn00502_c0": "<",
+     "rxn05287_c0": ">",
+     "rxn03841_c0": ">",
+     "rxn03892_c0": ">",
+     "rxn03393_c0": ">",
+     "rxn11702_c0": ">",
+     "rxn02897_c0": ">",
+     "rxn01406_c0": ">",
+     "rxn00742_c0": ">",
+     "rxn00430_c0": "<",
+     "rxn02185_c0": "<",
+     "rxn06076_c0": "<",
+     "rxn03394_c0": ">",
+     "rxn00338_c0": ">",
+     "rxn00119_c0": ">",
+     "rxn02831_c0": ">",
+     "rxn01258_c0": ">",
+     "rxn02832_c0": "<",
+     "rxn06729_c0": ">",
+     "rxn01791_c0": ">",
+     "rxn02186_c0": ">",
+     "rxn00209_c0": ">",
+     "rxn01019_c0": ">",
+     "rxn00905_c0": "<",
+     "rxn01520_c0": ">",
+     "rxn08234_c0": ">"
+    },
+    "reversed": {},
+    "growth": 5.091654038441485
+   },
+   "added_reactions": {
+    "rxn00068_c0": [
+     -100,
+     0
+    ],
+    "rxn00105_c0": [
+     0,
+     100
+    ],
+    "rxn00119_c0": [
+     0,
+     100
+    ],
+    "rxn00128_c0": [
+     -100,
+     0
+    ],
+    "rxn00209_c0": [
+     0,
+     100
+    ],
+    "rxn00338_c0": [
+     0,
+     100
+    ],
+    "rxn00430_c0": [
+     -100,
+     0
+    ],
+    "rxn00452_c0": [
+     0,
+     100
+    ],
+    "rxn00471_c0": [
+     0,
+     100
+    ],
+    "rxn00502_c0": [
+     -100,
+     0
+    ],
+    "rxn00549_c0": [
+     0,
+     100
+    ],
+    "rxn00738_c0": [
+     -100,
+     0
+    ],
+    "rxn00742_c0": [
+     0,
+     100
+    ],
+    "rxn00747_c0": [
+     0,
+     100
+    ],
+    "rxn00790_c0": [
+     -100,
+     0
+    ],
+    "rxn00905_c0": [
+     -100,
+     0
+    ],
+    "rxn00966_c0": [
+     -100,
+     0
+    ],
+    "rxn00979_c0": [
+     0,
+     100
+    ],
+    "rxn01019_c0": [
+     0,
+     100
+    ],
+    "rxn01116_c0": [
+     -100,
+     0
+    ],
+    "rxn01213_c0": [
+     0,
+     100
+    ],
+    "rxn01258_c0": [
+     0,
+     100
+    ],
+    "rxn01331_c0": [
+     0,
+     100
+    ],
+    "rxn01406_c0": [
+     0,
+     100
+    ],
+    "rxn01508_c0": [
+     0,
+     100
+    ],
+    "rxn01520_c0": [
+     0,
+     100
+    ],
+    "rxn01791_c0": [
+     0,
+     100
+    ],
+    "rxn02175_c0": [
+     0,
+     100
+    ],
+    "rxn02185_c0": [
+     -100,
+     0
+    ],
+    "rxn02186_c0": [
+     0,
+     100
+    ],
+    "rxn02200_c0": [
+     0,
+     100
+    ],
+    "rxn02264_c0": [
+     0,
+     100
+    ],
+    "rxn02269_c0": [
+     -100,
+     0
+    ],
+    "rxn02331_c0": [
+     -100,
+     0
+    ],
+    "rxn02402_c0": [
+     -100,
+     0
+    ],
+    "rxn02404_c0": [
+     0,
+     100
+    ],
+    "rxn02405_c0": [
+     0,
+     100
+    ],
+    "rxn02504_c0": [
+     0,
+     100
+    ],
+    "rxn02831_c0": [
+     0,
+     100
+    ],
+    "rxn02832_c0": [
+     -100,
+     0
+    ],
+    "rxn02897_c0": [
+     0,
+     100
+    ],
+    "rxn02898_c0": [
+     0,
+     100
+    ],
+    "rxn02939_c0": [
+     0,
+     100
+    ],
+    "rxn02988_c0": [
+     -100,
+     0
+    ],
+    "rxn03150_c0": [
+     0,
+     100
+    ],
+    "rxn03393_c0": [
+     0,
+     100
+    ],
+    "rxn03394_c0": [
+     0,
+     100
+    ],
+    "rxn03397_c0": [
+     0,
+     100
+    ],
+    "rxn03537_c0": [
+     0,
+     100
+    ],
+    "rxn03538_c0": [
+     0,
+     100
+    ],
+    "rxn03841_c0": [
+     0,
+     100
+    ],
+    "rxn03891_c0": [
+     0,
+     100
+    ],
+    "rxn03892_c0": [
+     0,
+     100
+    ],
+    "rxn03958_c0": [
+     -100,
+     0
+    ],
+    "rxn04413_c0": [
+     0,
+     100
+    ],
+    "rxn04794_c0": [
+     0,
+     100
+    ],
+    "rxn05039_c0": [
+     0,
+     100
+    ],
+    "rxn05287_c0": [
+     0,
+     100
+    ],
+    "rxn06033_c0": [
+     0,
+     100
+    ],
+    "rxn06076_c0": [
+     -100,
+     0
+    ],
+    "rxn06723_c0": [
+     -100,
+     0
+    ],
+    "rxn06729_c0": [
+     0,
+     100
+    ],
+    "rxn08234_c0": [
+     0,
+     100
+    ],
+    "rxn08311_c0": [
+     0,
+     100
+    ],
+    "rxn08333_c0": [
+     0,
+     100
+    ],
+    "rxn09202_c0": [
+     0,
+     100
+    ],
+    "rxn09210_c0": [
+     0,
+     100
+    ],
+    "rxn09429_c0": [
+     0,
+     100
+    ],
+    "rxn10094_c0": [
+     0,
+     100
+    ],
+    "rxn10213_c0": [
+     0,
+     100
+    ],
+    "rxn10336_c0": [
+     0,
+     100
+    ],
+    "rxn11535_c0": [
+     -100,
+     0
+    ],
+    "rxn11537_c0": [
+     -100,
+     0
+    ],
+    "rxn11702_c0": [
+     0,
+     100
+    ],
+    "rxn11703_c0": [
+     0,
+     100
+    ],
+    "rxn12008_c0": [
+     -100,
+     0
+    ],
+    "rxn12224_c0": [
+     0,
+     100
+    ]
+   },
+   "reversed_reactions": {}
+  },
+  "gapfill_2": {
+   "medium": "fliu_PiFree_lactate1_MePn",
+   "target": "bio1",
+   "minimum_obj": 0.02,
+   "solution_found": true,
+   "gfmodel_solver_status_if_failed": null,
+   "solution": {
+    "new": {},
+    "reversed": {}
+   },
+   "integrated": {
+    "new": {},
+    "reversed": {},
+    "growth": 0.048125505686697684
+   },
+   "added_reactions": {},
+   "reversed_reactions": {}
+  },
+  "hand_added": [
+   "rxs00001_c0",
+   "rxn26457_c0",
+   "rxs43120_c0",
+   "rxn26447_c0"
+  ],
+  "added_media_exchanges": [
+   "EX_cpd10515_e0"
+  ],
+  "exchange_bounds_reset": 55,
+  "gapfilled": {
+   "rxn00068_c0": "gapfill_1",
+   "rxn00105_c0": "gapfill_1",
+   "rxn00119_c0": "gapfill_1",
+   "rxn00128_c0": "gapfill_1",
+   "rxn00209_c0": "gapfill_1",
+   "rxn00338_c0": "gapfill_1",
+   "rxn00430_c0": "gapfill_1",
+   "rxn00452_c0": "gapfill_1",
+   "rxn00471_c0": "gapfill_1",
+   "rxn00502_c0": "gapfill_1",
+   "rxn00549_c0": "gapfill_1",
+   "rxn00738_c0": "gapfill_1",
+   "rxn00742_c0": "gapfill_1",
+   "rxn00747_c0": "gapfill_1",
+   "rxn00790_c0": "gapfill_1",
+   "rxn00905_c0": "gapfill_1",
+   "rxn00966_c0": "gapfill_1",
+   "rxn00979_c0": "gapfill_1",
+   "rxn01019_c0": "gapfill_1",
+   "rxn01116_c0": "gapfill_1",
+   "rxn01213_c0": "gapfill_1",
+   "rxn01258_c0": "gapfill_1",
+   "rxn01331_c0": "gapfill_1",
+   "rxn01406_c0": "gapfill_1",
+   "rxn01508_c0": "gapfill_1",
+   "rxn01520_c0": "gapfill_1",
+   "rxn01791_c0": "gapfill_1",
+   "rxn02175_c0": "gapfill_1",
+   "rxn02185_c0": "gapfill_1",
+   "rxn02186_c0": "gapfill_1",
+   "rxn02200_c0": "gapfill_1",
+   "rxn02264_c0": "gapfill_1",
+   "rxn02269_c0": "gapfill_1",
+   "rxn02331_c0": "gapfill_1",
+   "rxn02402_c0": "gapfill_1",
+   "rxn02404_c0": "gapfill_1",
+   "rxn02405_c0": "gapfill_1",
+   "rxn02504_c0": "gapfill_1",
+   "rxn02831_c0": "gapfill_1",
+   "rxn02832_c0": "gapfill_1",
+   "rxn02897_c0": "gapfill_1",
+   "rxn02898_c0": "gapfill_1",
+   "rxn02939_c0": "gapfill_1",
+   "rxn02988_c0": "gapfill_1",
+   "rxn03150_c0": "gapfill_1",
+   "rxn03393_c0": "gapfill_1",
+   "rxn03394_c0": "gapfill_1",
+   "rxn03397_c0": "gapfill_1",
+   "rxn03537_c0": "gapfill_1",
+   "rxn03538_c0": "gapfill_1",
+   "rxn03841_c0": "gapfill_1",
+   "rxn03891_c0": "gapfill_1",
+   "rxn03892_c0": "gapfill_1",
+   "rxn03958_c0": "gapfill_1",
+   "rxn04413_c0": "gapfill_1",
+   "rxn04794_c0": "gapfill_1",
+   "rxn05039_c0": "gapfill_1",
+   "rxn05287_c0": "gapfill_1",
+   "rxn06033_c0": "gapfill_1",
+   "rxn06076_c0": "gapfill_1",
+   "rxn06723_c0": "gapfill_1",
+   "rxn06729_c0": "gapfill_1",
+   "rxn08234_c0": "gapfill_1",
+   "rxn08311_c0": "gapfill_1",
+   "rxn08333_c0": "gapfill_1",
+   "rxn09202_c0": "gapfill_1",
+   "rxn09210_c0": "gapfill_1",
+   "rxn09429_c0": "gapfill_1",
+   "rxn10094_c0": "gapfill_1",
+   "rxn10213_c0": "gapfill_1",
+   "rxn10336_c0": "gapfill_1",
+   "rxn11535_c0": "gapfill_1",
+   "rxn11537_c0": "gapfill_1",
+   "rxn11702_c0": "gapfill_1",
+   "rxn11703_c0": "gapfill_1",
+   "rxn12008_c0": "gapfill_1",
+   "rxn12224_c0": "gapfill_1"
+  },
+  "qc": {
+   "growth_sim_medium": [
+    5.357410191093678,
+    "optimal"
+   ],
+   "growth_PiFree_MePn": [
+    0.04812550568669676,
+    "optimal"
+   ],
+   "growth_no_MePn": [
+    5.357410191093673,
+    "optimal"
+   ],
+   "growth_triplet": {
+    "a_as_is": 5.357410191093673,
+    "b_MePn_blocked": 5.357410191093673,
+    "c_Pi_blocked_MePn_only_P": 4.812550568669737,
+    "status": [
+     "optimal",
+     "optimal",
+     "optimal"
+    ],
+    "obligate": false
+   },
+   "CH4_at_max_growth_PiFree": 0.03180949766761033,
+   "MePn_at_max_growth_PiFree": -0.03180949766761033,
+   "guild_growth": 0.04812550568669676,
+   "grows": true,
+   "free_atp": {
+    "water_H": 0.0,
+    "salts_O2": 0.0,
+    "salts_NO3": 0.0
+   },
+   "free_atp_pass": true,
+   "atp_tests": [
+    {
+     "media": "empty",
+     "threshold": 1e-05,
+     "pass": true
+    },
+    {
+     "media": "Ac.O2",
+     "threshold": 10.35,
+     "pass": true
+    },
+    {
+     "media": "Etho.O2",
+     "threshold": 17.25,
+     "pass": true
+    },
+    {
+     "media": "Pyr.O2",
+     "threshold": 14.399999999999999,
+     "pass": true
+    },
+    {
+     "media": "Fum.O2",
+     "threshold": 18.75,
+     "pass": true
+    },
+    {
+     "media": "LLac.O2",
+     "threshold": 17.25,
+     "pass": true
+    },
+    {
+     "media": "For.O2",
+     "threshold": 2.85,
+     "pass": true
+    },
+    {
+     "media": "Pyr",
+     "threshold": 0.04166666666666674,
+     "pass": true
+    },
+    {
+     "media": "Fum",
+     "threshold": 1.4999999999999993,
+     "pass": true
+    },
+    {
+     "media": "For.NO2",
+     "threshold": 2.85,
+     "pass": true
+    },
+    {
+     "media": "Pyr.NO2",
+     "threshold": 14.399999999999999,
+     "pass": true
+    },
+    {
+     "media": "Ac.NO2",
+     "threshold": 10.35,
+     "pass": true
+    },
+    {
+     "media": "Pyr.DMSO",
+     "threshold": 0.024999999999999977,
+     "pass": true
+    },
+    {
+     "media": "Pyr.TMAO",
+     "threshold": 0.025000000000000043,
+     "pass": true
+    },
+    {
+     "media": "Pyr.SO3",
+     "threshold": 0.025000000000000043,
+     "pass": true
+    }
+   ],
+   "atp_test_pass_rate": 1.0,
+   "n_internal_reactions": 1147,
+   "blocked_internal": 476,
+   "blocked_frac": 0.4149956408020924,
+   "blocked_ids": [
+    "rxn00002_c0",
+    "rxn00004_c0",
+    "rxn00016_c0",
+    "rxn00065_c0",
+    "rxn00107_c0",
+    "rxn00138_c0",
+    "rxn00178_c0",
+    "rxn00179_c0",
+    "rxn00190_c0",
+    "rxn00206_c0",
+    "rxn00211_c0",
+    "rxn00214_c0",
+    "rxn00222_c0",
+    "rxn00223_c0",
+    "rxn00227_c0",
+    "rxn00231_c0",
+    "rxn00242_c0",
+    "rxn00255_c0",
+    "rxn00298_c0",
+    "rxn00303_c0",
+    "rxn00433_c0",
+    "rxn00484_c0",
+    "rxn00497_c0",
+    "rxn00509_c0",
+    "rxn00510_c0",
+    "rxn00515_c0",
+    "rxn00529_c0",
+    "rxn00559_c0",
+    "rxn00587_c0",
+    "rxn00602_c0",
+    "rxn00629_c0",
+    "rxn00634_c0",
+    "rxn00640_c0",
+    "rxn00641_c0",
+    "rxn00642_c0",
+    "rxn00647_c0",
+    "rxn00649_c0",
+    "rxn00653_c0",
+    "rxn00668_c0",
+    "rxn00675_c0",
+    "rxn00682_c0",
+    "rxn00689_c0",
+    "rxn00702_c0",
+    "rxn00717_c0",
+    "rxn00719_c0",
+    "rxn00728_c0",
+    "rxn00735_c0",
+    "rxn00743_c0",
+    "rxn00756_c0",
+    "rxn00758_c0",
+    "rxn00775_c0",
+    "rxn00787_c0",
+    "rxn00792_c0",
+    "rxn00817_c0",
+    "rxn00818_c0",
+    "rxn00819_c0",
+    "rxn00858_c0",
+    "rxn00872_c0",
+    "rxn00874_c0",
+    "rxn00879_c0",
+    "rxn00881_c0",
+    "rxn00882_c0",
+    "rxn00883_c0",
+    "rxn00890_c0",
+    "rxn00962_c0",
+    "rxn00977_c0",
+    "rxn00980_c0",
+    "rxn00991_c0",
+    "rxn00993_c0",
+    "rxn01007_c0",
+    "rxn01022_c0",
+    "rxn01025_c0",
+    "rxn01027_c0",
+    "rxn01053_c0",
+    "rxn01069_c0",
+    "rxn01073_c0",
+    "rxn01080_c0",
+    "rxn01084_c0",
+    "rxn01114_c0",
+    "rxn01122_c0",
+    "rxn01123_c0",
+    "rxn01124_c0",
+    "rxn01145_c0",
+    "rxn01146_c0",
+    "rxn01176_c0",
+    "rxn01192_c0",
+    "rxn01203_c0",
+    "rxn01210_c0",
+    "rxn01279_c0",
+    "rxn01316_c0",
+    "rxn01329_c0",
+    "rxn01334_c0",
+    "rxn01355_c0",
+    "rxn01365_c0",
+    "rxn01383_c0",
+    "rxn01394_c0",
+    "rxn01457_c0",
+    "rxn01459_c0",
+    "rxn01477_c0",
+    "rxn01480_c0",
+    "rxn01484_c0",
+    "rxn01487_c0",
+    "rxn01489_c0",
+    "rxn01499_c0",
+    "rxn01504_c0",
+    "rxn01522_c0",
+    "rxn01580_c0",
+    "rxn01602_c0",
+    "rxn01621_c0",
+    "rxn01626_c0",
+    "rxn01663_c0",
+    "rxn01675_c0",
+    "rxn01710_c0",
+    "rxn01725_c0",
+    "rxn01757_c0",
+    "rxn01761_c0",
+    "rxn01775_c0",
+    "rxn01802_c0",
+    "rxn01825_c0",
+    "rxn01831_c0",
+    "rxn01843_c0",
+    "rxn01851_c0",
+    "rxn01896_c0",
+    "rxn01924_c0",
+    "rxn01930_c0",
+    "rxn01948_c0",
+    "rxn01962_c0",
+    "rxn01986_c0",
+    "rxn01987_c0",
+    "rxn01996_c0",
+    "rxn01997_c0",
+    "rxn02000_c0",
+    "rxn02003_c0",
+    "rxn02007_c0",
+    "rxn02021_c0",
+    "rxn02028_c0",
+    "rxn02090_c0",
+    "rxn02093_c0",
+    "rxn02095_c0",
+    "rxn02128_c0",
+    "rxn02143_c0",
+    "rxn02144_c0",
+    "rxn02166_c0",
+    "rxn02167_c0",
+    "rxn02173_c0",
+    "rxn02190_c0",
+    "rxn02222_c0",
+    "rxn02275_c0",
+    "rxn02276_c0",
+    "rxn02281_c0",
+    "rxn02369_c0",
+    "rxn02373_c0",
+    "rxn02374_c0",
+    "rxn02429_c0",
+    "rxn02483_c0",
+    "rxn02517_c0",
+    "rxn02518_c0",
+    "rxn02521_c0",
+    "rxn02522_c0",
+    "rxn02569_c0",
+    "rxn02596_c0",
+    "rxn02632_c0",
+    "rxn02679_c0",
+    "rxn02680_c0",
+    "rxn02720_c0",
+    "rxn02733_c0",
+    "rxn02762_c0",
+    "rxn02791_c0",
+    "rxn02792_c0",
+    "rxn02798_c0",
+    "rxn02803_c0",
+    "rxn02842_c0",
+    "rxn02853_c0",
+    "rxn02911_c0",
+    "rxn02916_c0",
+    "rxn02925_c0",
+    "rxn02945_c0",
+    "rxn02949_c0",
+    "rxn02959_c0",
+    "rxn02989_c0",
+    "rxn03012_c0",
+    "rxn03023_c0",
+    "rxn03039_c0",
+    "rxn03043_c0",
+    "rxn03047_c0",
+    "rxn03141_c0",
+    "rxn03236_c0",
+    "rxn03241_c0",
+    "rxn03242_c0",
+    "rxn03243_c0",
+    "rxn03244_c0",
+    "rxn03245_c0",
+    "rxn03246_c0",
+    "rxn03247_c0",
+    "rxn03248_c0",
+    "rxn03249_c0",
+    "rxn03250_c0",
+    "rxn03251_c0",
+    "rxn03253_c0",
+    "rxn03264_c0",
+    "rxn03269_c0",
+    "rxn03360_c0",
+    "rxn03384_c0",
+    "rxn03406_c0",
+    "rxn03407_c0",
+    "rxn03409_c0",
+    "rxn03433_c0",
+    "rxn03437_c0",
+    "rxn03446_c0",
+    "rxn03483_c0",
+    "rxn03504_c0",
+    "rxn03535_c0",
+    "rxn03542_c0",
+    "rxn03838_c0",
+    "rxn03839_c0",
+    "rxn03869_c0",
+    "rxn03885_c0",
+    "rxn03903_c0",
+    "rxn03932_c0",
+    "rxn03933_c0",
+    "rxn03951_c0",
+    "rxn03962_c0",
+    "rxn04132_c0",
+    "rxn04133_c0",
+    "rxn04142_c0",
+    "rxn04152_c0",
+    "rxn04153_c0",
+    "rxn04154_c0",
+    "rxn04161_c0",
+    "rxn04457_c0",
+    "rxn04750_c0",
+    "rxn05031_c0",
+    "rxn05034_c0",
+    "rxn05064_c0",
+    "rxn05120_c0",
+    "rxn05129_c0",
+    "rxn05174_c0",
+    "rxn05181_c0",
+    "rxn05187_c0",
+    "rxn05223_c0",
+    "rxn05247_c0",
+    "rxn05248_c0",
+    "rxn05249_c0",
+    "rxn05250_c0",
+    "rxn05251_c0",
+    "rxn05252_c0",
+    "rxn05361_c0",
+    "rxn05365_c0",
+    "rxn05369_c0",
+    "rxn05373_c0",
+    "rxn05377_c0",
+    "rxn05381_c0",
+    "rxn05386_c0",
+    "rxn05390_c0",
+    "rxn05394_c0",
+    "rxn05398_c0",
+    "rxn05402_c0",
+    "rxn05406_c0",
+    "rxn05433_c0",
+    "rxn05434_c0",
+    "rxn05435_c0",
+    "rxn05436_c0",
+    "rxn05437_c0",
+    "rxn05438_c0",
+    "rxn05439_c0",
+    "rxn05440_c0",
+    "rxn05441_c0",
+    "rxn05442_c0",
+    "rxn05443_c0",
+    "rxn05444_c0",
+    "rxn05445_c0",
+    "rxn05446_c0",
+    "rxn05447_c0",
+    "rxn05448_c0",
+    "rxn05449_c0",
+    "rxn05450_c0",
+    "rxn05460_c0",
+    "rxn05461_c0",
+    "rxn05464_c0",
+    "rxn05619_c0",
+    "rxn05730_c0",
+    "rxn05733_c0",
+    "rxn05734_c0",
+    "rxn05735_c0",
+    "rxn05736_c0",
+    "rxn05746_c0",
+    "rxn05890_c0",
+    "rxn06077_c0",
+    "rxn06299_c0",
+    "rxn06493_c0",
+    "rxn06510_c0",
+    "rxn06777_c0",
+    "rxn06864_c0",
+    "rxn07193_c0",
+    "rxn07438_c0",
+    "rxn07439_c0",
+    "rxn07455_c0",
+    "rxn07879_c0",
+    "rxn07976_c0",
+    "rxn07977_c0",
+    "rxn07978_c0",
+    "rxn07980_c0",
+    "rxn07981_c0",
+    "rxn08015_c0",
+    "rxn08040_c0",
+    "rxn08070_c0",
+    "rxn08073_c0",
+    "rxn08076_c0",
+    "rxn08078_c0",
+    "rxn08084_c0",
+    "rxn08089_c0",
+    "rxn08100_c0",
+    "rxn08119_c0",
+    "rxn08120_c0",
+    "rxn08123_c0",
+    "rxn08124_c0",
+    "rxn08129_c0",
+    "rxn08136_c0",
+    "rxn08192_c0",
+    "rxn08213_c0",
+    "rxn08353_c0",
+    "rxn08380_c0",
+    "rxn08396_c0",
+    "rxn08549_c0",
+    "rxn08668_c0",
+    "rxn08669_c0",
+    "rxn08715_c0",
+    "rxn08796_c0",
+    "rxn08797_c0",
+    "rxn08798_c0",
+    "rxn08799_c0",
+    "rxn08800_c0",
+    "rxn08802_c0",
+    "rxn08803_c0",
+    "rxn08804_c0",
+    "rxn08805_c0",
+    "rxn08806_c0",
+    "rxn08807_c0",
+    "rxn08808_c0",
+    "rxn08809_c0",
+    "rxn08810_c0",
+    "rxn08811_c0",
+    "rxn08812_c0",
+    "rxn08813_c0",
+    "rxn08814_c0",
+    "rxn08815_c0",
+    "rxn08816_c0",
+    "rxn08817_c0",
+    "rxn08818_c0",
+    "rxn08819_c0",
+    "rxn08820_c0",
+    "rxn08821_c0",
+    "rxn08822_c0",
+    "rxn08823_c0",
+    "rxn08838_c0",
+    "rxn08839_c0",
+    "rxn08840_c0",
+    "rxn08841_c0",
+    "rxn08842_c0",
+    "rxn08843_c0",
+    "rxn08844_c0",
+    "rxn08845_c0",
+    "rxn08846_c0",
+    "rxn08847_c0",
+    "rxn08848_c0",
+    "rxn08849_c0",
+    "rxn08850_c0",
+    "rxn08851_c0",
+    "rxn08890_c0",
+    "rxn08893_c0",
+    "rxn08895_c0",
+    "rxn08898_c0",
+    "rxn09008_c0",
+    "rxn09039_c0",
+    "rxn09101_c0",
+    "rxn09102_c0",
+    "rxn09103_c0",
+    "rxn09104_c0",
+    "rxn09105_c0",
+    "rxn09107_c0",
+    "rxn09108_c0",
+    "rxn09109_c0",
+    "rxn09110_c0",
+    "rxn09111_c0",
+    "rxn09112_c0",
+    "rxn09114_c0",
+    "rxn09448_c0",
+    "rxn09450_c0",
+    "rxn09953_c0",
+    "rxn09978_c0",
+    "rxn09979_c0",
+    "rxn10259_c0",
+    "rxn10260_c0",
+    "rxn10261_c0",
+    "rxn10262_c0",
+    "rxn10263_c0",
+    "rxn10264_c0",
+    "rxn10265_c0",
+    "rxn10266_c0",
+    "rxn10267_c0",
+    "rxn10268_c0",
+    "rxn10269_c0",
+    "rxn10270_c0",
+    "rxn10307_c0",
+    "rxn10308_c0",
+    "rxn10309_c0",
+    "rxn10312_c0",
+    "rxn10313_c0",
+    "rxn10314_c0",
+    "rxn10315_c0",
+    "rxn10344_c0",
+    "rxn10506_c0",
+    "rxn10770_c0",
+    "rxn11665_c0",
+    "rxn11666_c0",
+    "rxn11667_c0",
+    "rxn11940_c0",
+    "rxn11941_c0",
+    "rxn11942_c0",
+    "rxn12146_c0",
+    "rxn12633_c0",
+    "rxn12634_c0",
+    "rxn12635_c0",
+    "rxn12636_c0",
+    "rxn12637_c0",
+    "rxn12638_c0",
+    "rxn12639_c0",
+    "rxn12640_c0",
+    "rxn12641_c0",
+    "rxn12642_c0",
+    "rxn12643_c0",
+    "rxn12644_c0",
+    "rxn12645_c0",
+    "rxn12646_c0",
+    "rxn12845_c0",
+    "rxn12846_c0",
+    "rxn12847_c0",
+    "rxn13892_c0",
+    "rxn15249_c0",
+    "rxn15293_c0",
+    "rxn15467_c0",
+    "rxn15937_c0",
+    "rxn15972_c0",
+    "rxn16143_c0",
+    "rxn16583_c0",
+    "rxn19006_c0",
+    "rxn20583_c0",
+    "rxn21729_c0",
+    "rxn21857_c0",
+    "rxn21859_c0",
+    "rxn21860_c0",
+    "rxn21861_c0",
+    "rxn21863_c0",
+    "rxn23336_c0",
+    "rxn23589_c0",
+    "rxn23850_c0",
+    "rxn24612_c0",
+    "rxn24718_c0",
+    "rxn24830_c0",
+    "rxn25270_c0",
+    "rxn25271_c0",
+    "rxn26021_c0",
+    "rxn39679_c0",
+    "rxn40041_c0",
+    "rxn40368_c0",
+    "rxn41683_c0",
+    "rxn41896_c0",
+    "rxn42230_c0",
+    "rxn43470_c0",
+    "rxn44539_c0",
+    "rxn45223_c0",
+    "rxn45692_c0",
+    "rxn45996_c0",
+    "rxn46344_c0",
+    "rxn46365_c0",
+    "rxn47768_c0"
+   ],
+   "dead_ends": {
+    "n_internal_metabolites": 1110,
+    "dead_end_metabolites": 203,
+    "dead_end_metabolite_frac": 0.18288288288288287,
+    "dead_end_reactions": 167,
+    "dead_end_metabolite_ids": [
+     "cpd00076_c0",
+     "cpd00077_c0",
+     "cpd00152_c0",
+     "cpd00153_c0",
+     "cpd00157_c0",
+     "cpd00158_c0",
+     "cpd00162_c0",
+     "cpd00163_c0",
+     "cpd00183_c0",
+     "cpd00196_c0",
+     "cpd00232_c0",
+     "cpd00244_c0",
+     "cpd00251_c0",
+     "cpd00281_c0",
+     "cpd00291_c0",
+     "cpd00300_c0",
+     "cpd00307_c0",
+     "cpd00318_c0",
+     "cpd00323_c0",
+     "cpd00339_c0",
+     "cpd00352_c0",
+     "cpd00374_c0",
+     "cpd00390_c0",
+     "cpd00400_c0",
+     "cpd00413_c0",
+     "cpd00426_c0",
+     "cpd00434_c0",
+     "cpd00446_c0",
+     "cpd00481_c0",
+     "cpd00483_c0",
+     "cpd00490_c0",
+     "cpd00492_c0",
+     "cpd00507_c0",
+     "cpd00530_c0",
+     "cpd00532_c0",
+     "cpd00579_c0",
+     "cpd00608_c0",
+     "cpd00620_c0",
+     "cpd00638_c0",
+     "cpd00646_c0",
+     "cpd00653_c0",
+     "cpd00681_c0",
+     "cpd00703_c0",
+     "cpd00722_c0",
+     "cpd00727_c0",
+     "cpd00742_c0",
+     "cpd00756_c0",
+     "cpd00762_c0",
+     "cpd00768_c0",
+     "cpd00809_c0",
+     "cpd00867_c0",
+     "cpd00905_c0",
+     "cpd00922_c0",
+     "cpd00988_c0",
+     "cpd00989_c0",
+     "cpd01078_c0",
+     "cpd01092_c0",
+     "cpd01101_c0",
+     "cpd01133_c0",
+     "cpd01150_c0",
+     "cpd01157_c0",
+     "cpd01550_c0",
+     "cpd01567_c0",
+     "cpd01570_c0",
+     "cpd01571_c0",
+     "cpd01572_c0",
+     "cpd01587_c0",
+     "cpd01720_c0",
+     "cpd01747_c0",
+     "cpd01831_c0",
+     "cpd01845_c0",
+     "cpd01973_c0",
+     "cpd02065_c0",
+     "cpd02074_c0",
+     "cpd02135_c0",
+     "cpd02172_c0",
+     "cpd02230_c0",
+     "cpd02357_c0",
+     "cpd02414_c0",
+     "cpd02419_c0",
+     "cpd02431_c0",
+     "cpd02446_c0",
+     "cpd02484_c0",
+     "cpd02524_c0",
+     "cpd02535_c0",
+     "cpd02631_c0",
+     "cpd02692_c0",
+     "cpd02711_c0",
+     "cpd02740_c0",
+     "cpd03034_c0",
+     "cpd03052_c0",
+     "cpd03078_c0",
+     "cpd03148_c0",
+     "cpd03161_c0",
+     "cpd03163_c0",
+     "cpd03200_c0",
+     "cpd03205_c0",
+     "cpd03211_c0",
+     "cpd03392_c0",
+     "cpd03414_c0",
+     "cpd03416_c0",
+     "cpd03424_c0",
+     "cpd03454_c0",
+     "cpd03487_c0",
+     "cpd03488_c0",
+     "cpd03490_c0",
+     "cpd03492_c0",
+     "cpd03496_c0",
+     "cpd03524_c0",
+     "cpd03560_c0",
+     "cpd03608_c0",
+     "cpd03646_c0",
+     "cpd03701_c0",
+     "cpd03702_c0",
+     "cpd03704_c0",
+     "cpd03708_c0",
+     "cpd03734_c0",
+     "cpd03738_c0",
+     "cpd03915_c0",
+     "cpd03916_c0",
+     "cpd04097_c0",
+     "cpd04099_c0",
+     "cpd04122_c0",
+     "cpd06227_c0",
+     "cpd06707_c0",
+     "cpd07923_c0",
+     "cpd07924_c0",
+     "cpd08625_c0",
+     "cpd08632_c0",
+     "cpd09027_c0",
+     "cpd11313_c0",
+     "cpd11430_c0",
+     "cpd11431_c0",
+     "cpd11432_c0",
+     "cpd11433_c0",
+     "cpd11434_c0",
+     "cpd11435_c0",
+     "cpd11436_c0",
+     "cpd11437_c0",
+     "cpd11438_c0",
+     "cpd11439_c0",
+     "cpd11440_c0",
+     "cpd11441_c0",
+     "cpd11499_c0",
+     "cpd11503_c0",
+     "cpd11507_c0",
+     "cpd11511_c0",
+     "cpd11515_c0",
+     "cpd11519_c0",
+     "cpd11524_c0",
+     "cpd11528_c0",
+     "cpd11532_c0",
+     "cpd11536_c0",
+     "cpd11540_c0",
+     "cpd11544_c0",
+     "cpd11548_c0",
+     "cpd11549_c0",
+     "cpd11552_c0",
+     "cpd11553_c0",
+     "cpd11556_c0",
+     "cpd11557_c0",
+     "cpd11560_c0",
+     "cpd11561_c0",
+     "cpd11564_c0",
+     "cpd11565_c0",
+     "cpd11568_c0",
+     "cpd11569_c0",
+     "cpd11572_c0",
+     "cpd11573_c0",
+     "cpd11583_c0",
+     "cpd11588_c0",
+     "cpd11825_c0",
+     "cpd14545_c0",
+     "cpd14548_c0",
+     "cpd15238_c0",
+     "cpd15274_c0",
+     "cpd15277_c0",
+     "cpd15294_c0",
+     "cpd15330_c0",
+     "cpd15338_c0",
+     "cpd15345_c0",
+     "cpd15362_c0",
+     "cpd15391_c0",
+     "cpd15522_c0",
+     "cpd15527_c0",
+     "cpd15535_c0",
+     "cpd15536_c0",
+     "cpd15537_c0",
+     "cpd15539_c0",
+     "cpd15541_c0",
+     "cpd15722_c0",
+     "cpd15723_c0",
+     "cpd15724_c0",
+     "cpd15725_c0",
+     "cpd15726_c0",
+     "cpd15727_c0",
+     "cpd15807_c0",
+     "cpd19030_c0",
+     "cpd21090_c0",
+     "cpd26672_c0",
+     "cpd28205_c0",
+     "cpd35272_c0",
+     "cpd35556_c0"
+    ]
+   }
+  },
+  "metrics": {
+   "m1_gene_associated_non_gapfilled": 1032,
+   "m2_gapfilled": 77,
+   "m2_atp_core_gapfill": 0,
+   "m2_gapfilled_by_stage": {
+    "gapfill_1": 77
+   },
+   "m3_guild_pathway_fraction": 0.6666666666666666,
+   "m4_free_atp_pass": true,
+   "m4_atp_test_pass_rate": 1.0,
+   "m5_blocked_frac": 0.4149956408020924,
+   "m5_dead_end_metabolite_frac": 0.18288288288288287,
+   "m6_weak_only_reactions": 0,
+   "m6_weak_ids": [],
+   "extra_only_reactions_in_final": 0,
+   "extra_only_by_template_type": {
+    "conditional": 0,
+    "gapfilling": 0,
+    "universal": 0
+   },
+   "grows": true
+  },
+  "final": {
+   "n_reactions": 1226,
+   "n_metabolites": 1187,
+   "n_genes": 1007,
+   "n_internal_reactions": 1147
+  },
+  "evidence_by_reaction": {
+   "rxn00351_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00836_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00364_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05561_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03408_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05250_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00646_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05440_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01673_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00247_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02342_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05156_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01452_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00642_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00022_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02733_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02000_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03239_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02632_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05457_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00107_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08934_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn04070_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00199_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01358_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03433_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10270_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12637_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01219_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00800_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09177_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00211_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00179_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02945_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00587_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01210_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00192_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01218_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03360_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00509_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00962_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05654_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01199_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08807_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01663_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10344_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02320_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03384_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05167_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02095_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03039_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10262_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10126_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08084_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01486_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00898_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05444_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05334_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05040_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00890_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01636_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02090_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05377_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08556_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01843_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn04792_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00165_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01117_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00001_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05369_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08895_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn00710_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01114_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00470_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08817_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01203_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00910_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00953_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00717_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01297_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01962_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01682_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08796_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08941_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03181_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn11940_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn06493_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12846_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00337_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01930_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08823_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05031_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05434_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05346_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00867_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03248_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08127_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05386_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05516_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05733_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00416_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02270_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01134_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02376_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12512_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08669_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00902_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn06672_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00649_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01739_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02400_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01268_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00641_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00361_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02679_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01974_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01640_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00242_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12641_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08971_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00060_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05350_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08838_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00148_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00100_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02281_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02842_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00514_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00789_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05390_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05437_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05158_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08976_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00781_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00881_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01355_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08336_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03043_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05157_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn01451_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03903_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00097_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05514_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02212_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00695_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00250_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05324_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10481_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03535_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00692_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00802_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02160_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08802_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01825_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00926_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02720_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00913_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01997_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08809_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00460_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00171_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00131_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00178_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03264_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01362_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05329_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03174_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05161_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03951_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01022_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00506_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10060_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02933_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00727_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10307_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12638_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01354_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09105_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01445_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05248_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00612_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08766_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn05539_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08841_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05461_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02159_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn04161_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10263_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02791_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05466_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "universal"
+   },
+   "rxn08814_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00004_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00917_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08078_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn08845_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn07981_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn00375_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00300_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08792_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02798_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05174_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08799_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00433_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05957_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05335_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03023_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03419_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05890_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00758_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02103_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10314_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09111_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn06078_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05595_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn05348_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05435_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03245_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn11946_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01504_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00907_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05458_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01644_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02911_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01280_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05450_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12847_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05443_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09114_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09180_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08822_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05030_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05345_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01522_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01465_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01833_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05145_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01872_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01301_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01643_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00248_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00499_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08844_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01637_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00708_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01269_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00392_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01334_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00830_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01108_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00879_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03406_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00029_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn06673_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12646_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn06777_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03869_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05256_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05448_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05446_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08136_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn02835_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02774_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01675_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00146_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00324_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08839_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01575_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05150_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00656_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05398_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03240_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09562_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00555_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03080_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01044_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12644_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00147_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05365_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00849_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00737_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08843_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01256_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00213_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00777_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05164_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01740_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00190_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05327_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01013_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02762_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00668_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08353_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn08801_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02275_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01545_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00139_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03910_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn07976_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn00237_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00463_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01489_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03175_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01365_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10264_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03421_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01146_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05336_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01484_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01124_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00285_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00182_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00424_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01642_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00132_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08893_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn06864_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08615_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08815_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00126_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn07980_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn00719_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01015_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12844_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08798_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05175_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05034_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08119_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn08821_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00206_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05381_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01871_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05340_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02143_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn04154_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00484_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn04704_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00299_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00756_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05735_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00904_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12639_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03159_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01000_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00647_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08120_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn00363_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08128_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01281_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01670_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12643_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02522_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00411_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02173_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00786_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03908_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01100_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00838_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00102_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00512_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00831_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01352_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02004_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12634_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00883_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01457_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01255_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05406_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05296_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05251_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01176_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00214_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01211_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01453_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00527_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05322_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12848_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05151_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00792_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08804_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01316_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01580_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01917_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02429_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08527_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03253_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01509_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02011_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01548_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08528_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01145_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn07978_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn09176_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn03269_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn05163_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01669_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01896_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10122_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08352_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09106_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00187_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00728_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08850_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05734_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00772_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09103_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08812_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00006_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05338_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03135_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12146_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10265_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00915_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02028_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02853_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05337_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01477_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01653_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00474_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03147_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08073_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn03843_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01123_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08557_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01802_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02811_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03062_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08847_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn04153_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00863_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09113_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00711_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01270_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01138_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00682_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05465_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12845_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08820_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05148_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05347_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn06077_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00145_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08126_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03407_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01831_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01303_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00113_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00497_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00137_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn06023_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00611_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05746_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01678_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02286_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00872_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00832_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00360_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01106_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12640_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00690_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00977_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09450_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00938_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08380_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn04938_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05115_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00412_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00650_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03167_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00787_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05152_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00640_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01103_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00515_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08846_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03005_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03437_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01353_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12633_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00882_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03244_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn04139_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00616_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00552_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00313_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02949_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00735_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00775_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02680_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01192_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn04750_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05619_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05325_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08647_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08803_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01053_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn07879_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02895_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02934_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn04651_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08089_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00189_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10269_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02508_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05442_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00543_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01996_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05402_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00420_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02792_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn14334_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08935_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00993_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00469_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10266_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02804_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05005_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00048_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00283_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03962_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05373_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00726_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00184_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00379_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01025_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08851_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05330_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00304_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09102_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05170_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02475_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05339_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05460_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09039_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn11942_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10313_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00675_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01018_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08813_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05602_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00634_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08793_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00947_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03247_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00278_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01476_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00205_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00440_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03146_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03893_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02789_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00988_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00410_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02102_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01333_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02925_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01725_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12510_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00151_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03933_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05342_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn04152_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00407_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00333_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05146_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00414_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08123_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn09110_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00529_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05349_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00303_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00799_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn07439_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01073_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00011_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01986_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00602_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01069_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05528_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00791_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00702_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00065_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01672_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05181_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01007_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08975_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01646_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08981_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn03243_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03446_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01302_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00101_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00223_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01122_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05029_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn13689_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn00510_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02285_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02303_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03087_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05394_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00227_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03047_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00559_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01109_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08848_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05294_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08840_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00290_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03907_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01987_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02834_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09953_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00459_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02085_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03932_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00770_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08806_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05436_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00076_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn14040_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05209_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12822_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00175_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01366_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05165_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn13892_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn01647_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01487_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00260_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02803_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00461_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00817_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05247_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00858_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03136_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00222_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01387_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00818_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09101_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02937_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08810_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01652_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00350_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03137_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08818_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10267_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05239_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00952_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00161_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01961_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01517_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00371_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09978_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08040_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02021_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03141_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn05006_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01299_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05331_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01800_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00533_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02476_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01512_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08655_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn04954_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn06865_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01279_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05517_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03249_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn04113_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00676_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01257_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09272_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00903_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00980_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00056_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00016_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02213_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05441_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00086_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08668_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn01127_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02569_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00615_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02521_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05445_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05341_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00298_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08124_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn05449_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01626_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn07438_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00743_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01775_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03483_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02483_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03236_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01265_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00874_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00834_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02369_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00599_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00704_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01459_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05252_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00241_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12642_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01332_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01499_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn11941_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00785_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01351_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03909_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01101_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03084_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02007_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03439_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00216_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08808_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00558_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12635_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01859_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00806_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05328_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05361_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01851_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00507_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09449_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05323_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05616_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08805_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01507_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01790_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00255_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05651_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00077_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01388_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03638_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05438_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01446_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10309_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05249_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02056_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01068_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03504_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02596_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00991_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10260_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03242_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00541_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01924_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01368_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00629_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00851_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01480_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00301_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05233_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09109_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00141_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02003_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01200_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00377_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08558_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01241_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05332_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01027_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00288_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00763_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00819_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08811_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02473_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08656_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10315_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01434_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn06299_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08819_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02345_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08898_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn00122_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn07193_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09979_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01011_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08890_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn05179_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10259_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01602_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05223_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01761_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05433_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05344_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03241_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01521_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12636_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02276_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02373_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01649_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03839_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00085_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00063_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05149_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08549_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05447_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01466_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05187_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01304_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03409_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03885_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00974_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01948_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00605_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn04142_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02008_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05740_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03904_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01225_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01171_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02288_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10199_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00783_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00409_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08015_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn08842_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05295_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00840_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02128_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00778_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02518_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03901_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01985_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10052_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00946_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00193_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02517_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05326_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05114_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00653_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03164_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05155_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03251_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08800_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01383_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02166_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00256_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08335_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03004_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00138_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08942_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn07977_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn05168_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02167_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01858_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01621_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10770_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00231_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01799_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08396_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn01485_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09104_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02190_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03031_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09296_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00239_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00441_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00302_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03250_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02465_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02222_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02093_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03130_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01710_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00623_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09107_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08100_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn10308_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01757_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01329_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00002_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02507_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10268_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05464_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10261_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08076_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn14333_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01964_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08816_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02341_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01519_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01137_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03182_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01394_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01080_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08797_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00127_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09108_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00224_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01513_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05333_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn06510_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05177_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01274_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02474_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03246_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02144_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00604_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08657_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn12645_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10312_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02929_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00104_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn08849_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09448_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00525_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05439_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05305_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09014_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "gapfilling"
+   },
+   "rxn02914_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01603_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn04945_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00686_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn09112_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00689_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08129_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01286_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05289_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01973_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00117_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05343_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03395_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00330_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05736_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03445_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn11663_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01226_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00493_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01834_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00293_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn02959_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00367_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn14011_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00839_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03838_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn21857_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn24612_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn14159_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn45996_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn03542_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn42230_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn07455_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn47768_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn21861_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn00154_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn01084_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn15395_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn15972_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn25271_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn45223_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn26456_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn14428_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn15249_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn48583_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn44357_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn39679_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn15930_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn15923_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn14419_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn14426_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08160_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn29769_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08070_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08098_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08213_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08192_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08173_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08734_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn14412_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn14418_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn14425_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn14420_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn14415_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn26307_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn41896_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn21729_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn39452_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn16583_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn44539_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn15337_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn10506_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn15338_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn39451_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn24830_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn26021_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn41683_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn15167_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn15296_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn15293_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn16143_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn25270_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn15937_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn17275_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn43581_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08241_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08715_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn46365_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn19006_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn46344_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn26459_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn23336_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn43470_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn23850_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn40368_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn20583_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn15467_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn11665_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn27318_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn11666_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn11667_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn15929_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn15924_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn14061_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn13957_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn08062_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn21863_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn40037_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn21859_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn21860_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn05120_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn40041_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn26127_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn19704_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn43657_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn45692_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   },
+   "rxn60859_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   }
+  },
+  "times_s": {
+   "load_biochem": 14.02,
+   "load_templates": 0.4,
+   "draft": 0.54,
+   "atp_correction": 18.61,
+   "gapfill_1": 148.85,
+   "gapfill_2": 147.12,
+   "qc": 3.94
+  }
+ },
+ "repair": {
+  "tag": "R2_sediment__metabat2.bin.414_sub__mepn_consumer__A",
+  "mag_id": "R2_sediment__metabat2.bin.414_sub",
+  "guild": "mepn_consumer",
+  "arm": "A",
+  "source_model_md5": "4e8f09789e5ed0ef8339130490299e51",
+  "source_report_md5": "4a21361cc793096be585790556e9e9fc",
+  "code_md5": {
+   "repair_model.py": "d0b5cf9ee3b0de3193760aafc381a3ef",
+   "build_model.py": "ea55c8eda3a995a9fe6fbc67f556101f"
+  },
+  "status": "ok",
+  "repair": {
+   "free_atp_before": {
+    "water_H": 0.0,
+    "salts_O2": 0.0,
+    "salts_NO3": 0.0
+   },
+   "nh3_oxidation_block": {},
+   "methane_consumption": {
+    "template_reactions_restricted": 7,
+    "model": {}
+   },
+   "free_atp_after_block": {
+    "water_H": 0.0,
+    "salts_O2": 0.0,
+    "salts_NO3": 0.0
+   },
+   "growth_restoration": {
+    "gapfill_1": {
+     "value_before": 5.357410191093691,
+     "minimum": 0.01,
+     "passes": [],
+     "value_final": 5.357410191093691
+    },
+    "gapfill_2": {
+     "value_before": 0.048125505686696296,
+     "minimum": 0.02,
+     "passes": [],
+     "value_final": 0.048125505686696296
+    }
+   },
+   "exchange_bounds_reset": 0
+  },
+  "qc": {
+   "growth_sim_medium": [
+    5.35741019109368,
+    "optimal"
+   ],
+   "growth_PiFree_MePn": [
+    0.048125505686697254,
+    "optimal"
+   ],
+   "growth_no_MePn": [
+    5.357410191093671,
+    "optimal"
+   ],
+   "growth_triplet": {
+    "a_as_is": 5.357410191093688,
+    "b_MePn_blocked": 5.357410191093688,
+    "c_Pi_blocked_MePn_only_P": 4.8125505686697165,
+    "status": [
+     "optimal",
+     "optimal",
+     "optimal"
+    ],
+    "obligate": false
+   },
+   "CH4_at_max_growth_PiFree": 0.031809497667612104,
+   "MePn_at_max_growth_PiFree": -0.031809497667612104,
+   "guild_growth": 0.048125505686697254,
+   "grows": true,
+   "free_atp": {
+    "water_H": 0.0,
+    "salts_O2": 0.0,
+    "salts_NO3": 0.0
+   },
+   "free_atp_pass": true,
+   "atp_tests": [
+    {
+     "media": "empty",
+     "threshold": 1e-05,
+     "pass": true
+    },
+    {
+     "media": "Ac.O2",
+     "threshold": 10.35,
+     "pass": true
+    },
+    {
+     "media": "Etho.O2",
+     "threshold": 17.25,
+     "pass": true
+    },
+    {
+     "media": "Pyr.O2",
+     "threshold": 14.399999999999999,
+     "pass": true
+    },
+    {
+     "media": "Fum.O2",
+     "threshold": 18.75,
+     "pass": true
+    },
+    {
+     "media": "LLac.O2",
+     "threshold": 17.25,
+     "pass": true
+    },
+    {
+     "media": "For.O2",
+     "threshold": 2.85,
+     "pass": true
+    },
+    {
+     "media": "Pyr",
+     "threshold": 0.04166666666666674,
+     "pass": true
+    },
+    {
+     "media": "Fum",
+     "threshold": 1.4999999999999993,
+     "pass": true
+    },
+    {
+     "media": "For.NO2",
+     "threshold": 2.85,
+     "pass": true
+    },
+    {
+     "media": "Pyr.NO2",
+     "threshold": 14.399999999999999,
+     "pass": true
+    },
+    {
+     "media": "Ac.NO2",
+     "threshold": 10.35,
+     "pass": true
+    },
+    {
+     "media": "Pyr.DMSO",
+     "threshold": 0.024999999999999977,
+     "pass": true
+    },
+    {
+     "media": "Pyr.TMAO",
+     "threshold": 0.025000000000000043,
+     "pass": true
+    },
+    {
+     "media": "Pyr.SO3",
+     "threshold": 0.025000000000000043,
+     "pass": true
+    }
+   ],
+   "atp_test_pass_rate": 1.0,
+   "n_internal_reactions": 1147,
+   "blocked_internal": 476,
+   "blocked_frac": 0.4149956408020924,
+   "blocked_ids": [
+    "rxn00002_c0",
+    "rxn00004_c0",
+    "rxn00016_c0",
+    "rxn00065_c0",
+    "rxn00107_c0",
+    "rxn00138_c0",
+    "rxn00178_c0",
+    "rxn00179_c0",
+    "rxn00190_c0",
+    "rxn00206_c0",
+    "rxn00211_c0",
+    "rxn00214_c0",
+    "rxn00222_c0",
+    "rxn00223_c0",
+    "rxn00227_c0",
+    "rxn00231_c0",
+    "rxn00242_c0",
+    "rxn00255_c0",
+    "rxn00298_c0",
+    "rxn00303_c0",
+    "rxn00433_c0",
+    "rxn00484_c0",
+    "rxn00497_c0",
+    "rxn00509_c0",
+    "rxn00510_c0",
+    "rxn00515_c0",
+    "rxn00529_c0",
+    "rxn00559_c0",
+    "rxn00587_c0",
+    "rxn00602_c0",
+    "rxn00629_c0",
+    "rxn00634_c0",
+    "rxn00640_c0",
+    "rxn00641_c0",
+    "rxn00642_c0",
+    "rxn00647_c0",
+    "rxn00649_c0",
+    "rxn00653_c0",
+    "rxn00668_c0",
+    "rxn00675_c0",
+    "rxn00682_c0",
+    "rxn00689_c0",
+    "rxn00702_c0",
+    "rxn00717_c0",
+    "rxn00719_c0",
+    "rxn00728_c0",
+    "rxn00735_c0",
+    "rxn00743_c0",
+    "rxn00756_c0",
+    "rxn00758_c0",
+    "rxn00775_c0",
+    "rxn00787_c0",
+    "rxn00792_c0",
+    "rxn00817_c0",
+    "rxn00818_c0",
+    "rxn00819_c0",
+    "rxn00858_c0",
+    "rxn00872_c0",
+    "rxn00874_c0",
+    "rxn00879_c0",
+    "rxn00881_c0",
+    "rxn00882_c0",
+    "rxn00883_c0",
+    "rxn00890_c0",
+    "rxn00962_c0",
+    "rxn00977_c0",
+    "rxn00980_c0",
+    "rxn00991_c0",
+    "rxn00993_c0",
+    "rxn01007_c0",
+    "rxn01022_c0",
+    "rxn01025_c0",
+    "rxn01027_c0",
+    "rxn01053_c0",
+    "rxn01069_c0",
+    "rxn01073_c0",
+    "rxn01080_c0",
+    "rxn01084_c0",
+    "rxn01114_c0",
+    "rxn01122_c0",
+    "rxn01123_c0",
+    "rxn01124_c0",
+    "rxn01145_c0",
+    "rxn01146_c0",
+    "rxn01176_c0",
+    "rxn01192_c0",
+    "rxn01203_c0",
+    "rxn01210_c0",
+    "rxn01279_c0",
+    "rxn01316_c0",
+    "rxn01329_c0",
+    "rxn01334_c0",
+    "rxn01355_c0",
+    "rxn01365_c0",
+    "rxn01383_c0",
+    "rxn01394_c0",
+    "rxn01457_c0",
+    "rxn01459_c0",
+    "rxn01477_c0",
+    "rxn01480_c0",
+    "rxn01484_c0",
+    "rxn01487_c0",
+    "rxn01489_c0",
+    "rxn01499_c0",
+    "rxn01504_c0",
+    "rxn01522_c0",
+    "rxn01580_c0",
+    "rxn01602_c0",
+    "rxn01621_c0",
+    "rxn01626_c0",
+    "rxn01663_c0",
+    "rxn01675_c0",
+    "rxn01710_c0",
+    "rxn01725_c0",
+    "rxn01757_c0",
+    "rxn01761_c0",
+    "rxn01775_c0",
+    "rxn01802_c0",
+    "rxn01825_c0",
+    "rxn01831_c0",
+    "rxn01843_c0",
+    "rxn01851_c0",
+    "rxn01896_c0",
+    "rxn01924_c0",
+    "rxn01930_c0",
+    "rxn01948_c0",
+    "rxn01962_c0",
+    "rxn01986_c0",
+    "rxn01987_c0",
+    "rxn01996_c0",
+    "rxn01997_c0",
+    "rxn02000_c0",
+    "rxn02003_c0",
+    "rxn02007_c0",
+    "rxn02021_c0",
+    "rxn02028_c0",
+    "rxn02090_c0",
+    "rxn02093_c0",
+    "rxn02095_c0",
+    "rxn02128_c0",
+    "rxn02143_c0",
+    "rxn02144_c0",
+    "rxn02166_c0",
+    "rxn02167_c0",
+    "rxn02173_c0",
+    "rxn02190_c0",
+    "rxn02222_c0",
+    "rxn02275_c0",
+    "rxn02276_c0",
+    "rxn02281_c0",
+    "rxn02369_c0",
+    "rxn02373_c0",
+    "rxn02374_c0",
+    "rxn02429_c0",
+    "rxn02483_c0",
+    "rxn02517_c0",
+    "rxn02518_c0",
+    "rxn02521_c0",
+    "rxn02522_c0",
+    "rxn02569_c0",
+    "rxn02596_c0",
+    "rxn02632_c0",
+    "rxn02679_c0",
+    "rxn02680_c0",
+    "rxn02720_c0",
+    "rxn02733_c0",
+    "rxn02762_c0",
+    "rxn02791_c0",
+    "rxn02792_c0",
+    "rxn02798_c0",
+    "rxn02803_c0",
+    "rxn02842_c0",
+    "rxn02853_c0",
+    "rxn02911_c0",
+    "rxn02916_c0",
+    "rxn02925_c0",
+    "rxn02945_c0",
+    "rxn02949_c0",
+    "rxn02959_c0",
+    "rxn02989_c0",
+    "rxn03012_c0",
+    "rxn03023_c0",
+    "rxn03039_c0",
+    "rxn03043_c0",
+    "rxn03047_c0",
+    "rxn03141_c0",
+    "rxn03236_c0",
+    "rxn03241_c0",
+    "rxn03242_c0",
+    "rxn03243_c0",
+    "rxn03244_c0",
+    "rxn03245_c0",
+    "rxn03246_c0",
+    "rxn03247_c0",
+    "rxn03248_c0",
+    "rxn03249_c0",
+    "rxn03250_c0",
+    "rxn03251_c0",
+    "rxn03253_c0",
+    "rxn03264_c0",
+    "rxn03269_c0",
+    "rxn03360_c0",
+    "rxn03384_c0",
+    "rxn03406_c0",
+    "rxn03407_c0",
+    "rxn03409_c0",
+    "rxn03433_c0",
+    "rxn03437_c0",
+    "rxn03446_c0",
+    "rxn03483_c0",
+    "rxn03504_c0",
+    "rxn03535_c0",
+    "rxn03542_c0",
+    "rxn03838_c0",
+    "rxn03839_c0",
+    "rxn03869_c0",
+    "rxn03885_c0",
+    "rxn03903_c0",
+    "rxn03932_c0",
+    "rxn03933_c0",
+    "rxn03951_c0",
+    "rxn03962_c0",
+    "rxn04132_c0",
+    "rxn04133_c0",
+    "rxn04142_c0",
+    "rxn04152_c0",
+    "rxn04153_c0",
+    "rxn04154_c0",
+    "rxn04161_c0",
+    "rxn04457_c0",
+    "rxn04750_c0",
+    "rxn05031_c0",
+    "rxn05034_c0",
+    "rxn05064_c0",
+    "rxn05120_c0",
+    "rxn05129_c0",
+    "rxn05174_c0",
+    "rxn05181_c0",
+    "rxn05187_c0",
+    "rxn05223_c0",
+    "rxn05247_c0",
+    "rxn05248_c0",
+    "rxn05249_c0",
+    "rxn05250_c0",
+    "rxn05251_c0",
+    "rxn05252_c0",
+    "rxn05361_c0",
+    "rxn05365_c0",
+    "rxn05369_c0",
+    "rxn05373_c0",
+    "rxn05377_c0",
+    "rxn05381_c0",
+    "rxn05386_c0",
+    "rxn05390_c0",
+    "rxn05394_c0",
+    "rxn05398_c0",
+    "rxn05402_c0",
+    "rxn05406_c0",
+    "rxn05433_c0",
+    "rxn05434_c0",
+    "rxn05435_c0",
+    "rxn05436_c0",
+    "rxn05437_c0",
+    "rxn05438_c0",
+    "rxn05439_c0",
+    "rxn05440_c0",
+    "rxn05441_c0",
+    "rxn05442_c0",
+    "rxn05443_c0",
+    "rxn05444_c0",
+    "rxn05445_c0",
+    "rxn05446_c0",
+    "rxn05447_c0",
+    "rxn05448_c0",
+    "rxn05449_c0",
+    "rxn05450_c0",
+    "rxn05460_c0",
+    "rxn05461_c0",
+    "rxn05464_c0",
+    "rxn05619_c0",
+    "rxn05730_c0",
+    "rxn05733_c0",
+    "rxn05734_c0",
+    "rxn05735_c0",
+    "rxn05736_c0",
+    "rxn05746_c0",
+    "rxn05890_c0",
+    "rxn06077_c0",
+    "rxn06299_c0",
+    "rxn06493_c0",
+    "rxn06510_c0",
+    "rxn06777_c0",
+    "rxn06864_c0",
+    "rxn07193_c0",
+    "rxn07438_c0",
+    "rxn07439_c0",
+    "rxn07455_c0",
+    "rxn07879_c0",
+    "rxn07976_c0",
+    "rxn07977_c0",
+    "rxn07978_c0",
+    "rxn07980_c0",
+    "rxn07981_c0",
+    "rxn08015_c0",
+    "rxn08040_c0",
+    "rxn08070_c0",
+    "rxn08073_c0",
+    "rxn08076_c0",
+    "rxn08078_c0",
+    "rxn08084_c0",
+    "rxn08089_c0",
+    "rxn08100_c0",
+    "rxn08119_c0",
+    "rxn08120_c0",
+    "rxn08123_c0",
+    "rxn08124_c0",
+    "rxn08129_c0",
+    "rxn08136_c0",
+    "rxn08192_c0",
+    "rxn08213_c0",
+    "rxn08353_c0",
+    "rxn08380_c0",
+    "rxn08396_c0",
+    "rxn08549_c0",
+    "rxn08668_c0",
+    "rxn08669_c0",
+    "rxn08715_c0",
+    "rxn08796_c0",
+    "rxn08797_c0",
+    "rxn08798_c0",
+    "rxn08799_c0",
+    "rxn08800_c0",
+    "rxn08802_c0",
+    "rxn08803_c0",
+    "rxn08804_c0",
+    "rxn08805_c0",
+    "rxn08806_c0",
+    "rxn08807_c0",
+    "rxn08808_c0",
+    "rxn08809_c0",
+    "rxn08810_c0",
+    "rxn08811_c0",
+    "rxn08812_c0",
+    "rxn08813_c0",
+    "rxn08814_c0",
+    "rxn08815_c0",
+    "rxn08816_c0",
+    "rxn08817_c0",
+    "rxn08818_c0",
+    "rxn08819_c0",
+    "rxn08820_c0",
+    "rxn08821_c0",
+    "rxn08822_c0",
+    "rxn08823_c0",
+    "rxn08838_c0",
+    "rxn08839_c0",
+    "rxn08840_c0",
+    "rxn08841_c0",
+    "rxn08842_c0",
+    "rxn08843_c0",
+    "rxn08844_c0",
+    "rxn08845_c0",
+    "rxn08846_c0",
+    "rxn08847_c0",
+    "rxn08848_c0",
+    "rxn08849_c0",
+    "rxn08850_c0",
+    "rxn08851_c0",
+    "rxn08890_c0",
+    "rxn08893_c0",
+    "rxn08895_c0",
+    "rxn08898_c0",
+    "rxn09008_c0",
+    "rxn09039_c0",
+    "rxn09101_c0",
+    "rxn09102_c0",
+    "rxn09103_c0",
+    "rxn09104_c0",
+    "rxn09105_c0",
+    "rxn09107_c0",
+    "rxn09108_c0",
+    "rxn09109_c0",
+    "rxn09110_c0",
+    "rxn09111_c0",
+    "rxn09112_c0",
+    "rxn09114_c0",
+    "rxn09448_c0",
+    "rxn09450_c0",
+    "rxn09953_c0",
+    "rxn09978_c0",
+    "rxn09979_c0",
+    "rxn10259_c0",
+    "rxn10260_c0",
+    "rxn10261_c0",
+    "rxn10262_c0",
+    "rxn10263_c0",
+    "rxn10264_c0",
+    "rxn10265_c0",
+    "rxn10266_c0",
+    "rxn10267_c0",
+    "rxn10268_c0",
+    "rxn10269_c0",
+    "rxn10270_c0",
+    "rxn10307_c0",
+    "rxn10308_c0",
+    "rxn10309_c0",
+    "rxn10312_c0",
+    "rxn10313_c0",
+    "rxn10314_c0",
+    "rxn10315_c0",
+    "rxn10344_c0",
+    "rxn10506_c0",
+    "rxn10770_c0",
+    "rxn11665_c0",
+    "rxn11666_c0",
+    "rxn11667_c0",
+    "rxn11940_c0",
+    "rxn11941_c0",
+    "rxn11942_c0",
+    "rxn12146_c0",
+    "rxn12633_c0",
+    "rxn12634_c0",
+    "rxn12635_c0",
+    "rxn12636_c0",
+    "rxn12637_c0",
+    "rxn12638_c0",
+    "rxn12639_c0",
+    "rxn12640_c0",
+    "rxn12641_c0",
+    "rxn12642_c0",
+    "rxn12643_c0",
+    "rxn12644_c0",
+    "rxn12645_c0",
+    "rxn12646_c0",
+    "rxn12845_c0",
+    "rxn12846_c0",
+    "rxn12847_c0",
+    "rxn13892_c0",
+    "rxn15249_c0",
+    "rxn15293_c0",
+    "rxn15467_c0",
+    "rxn15937_c0",
+    "rxn15972_c0",
+    "rxn16143_c0",
+    "rxn16583_c0",
+    "rxn19006_c0",
+    "rxn20583_c0",
+    "rxn21729_c0",
+    "rxn21857_c0",
+    "rxn21859_c0",
+    "rxn21860_c0",
+    "rxn21861_c0",
+    "rxn21863_c0",
+    "rxn23336_c0",
+    "rxn23589_c0",
+    "rxn23850_c0",
+    "rxn24612_c0",
+    "rxn24718_c0",
+    "rxn24830_c0",
+    "rxn25270_c0",
+    "rxn25271_c0",
+    "rxn26021_c0",
+    "rxn39679_c0",
+    "rxn40041_c0",
+    "rxn40368_c0",
+    "rxn41683_c0",
+    "rxn41896_c0",
+    "rxn42230_c0",
+    "rxn43470_c0",
+    "rxn44539_c0",
+    "rxn45223_c0",
+    "rxn45692_c0",
+    "rxn45996_c0",
+    "rxn46344_c0",
+    "rxn46365_c0",
+    "rxn47768_c0"
+   ],
+   "dead_ends": {
+    "n_internal_metabolites": 1110,
+    "dead_end_metabolites": 203,
+    "dead_end_metabolite_frac": 0.18288288288288287,
+    "dead_end_reactions": 167,
+    "dead_end_metabolite_ids": [
+     "cpd00076_c0",
+     "cpd00077_c0",
+     "cpd00152_c0",
+     "cpd00153_c0",
+     "cpd00157_c0",
+     "cpd00158_c0",
+     "cpd00162_c0",
+     "cpd00163_c0",
+     "cpd00183_c0",
+     "cpd00196_c0",
+     "cpd00232_c0",
+     "cpd00244_c0",
+     "cpd00251_c0",
+     "cpd00281_c0",
+     "cpd00291_c0",
+     "cpd00300_c0",
+     "cpd00307_c0",
+     "cpd00318_c0",
+     "cpd00323_c0",
+     "cpd00339_c0",
+     "cpd00352_c0",
+     "cpd00374_c0",
+     "cpd00390_c0",
+     "cpd00400_c0",
+     "cpd00413_c0",
+     "cpd00426_c0",
+     "cpd00434_c0",
+     "cpd00446_c0",
+     "cpd00481_c0",
+     "cpd00483_c0",
+     "cpd00490_c0",
+     "cpd00492_c0",
+     "cpd00507_c0",
+     "cpd00530_c0",
+     "cpd00532_c0",
+     "cpd00579_c0",
+     "cpd00608_c0",
+     "cpd00620_c0",
+     "cpd00638_c0",
+     "cpd00646_c0",
+     "cpd00653_c0",
+     "cpd00681_c0",
+     "cpd00703_c0",
+     "cpd00722_c0",
+     "cpd00727_c0",
+     "cpd00742_c0",
+     "cpd00756_c0",
+     "cpd00762_c0",
+     "cpd00768_c0",
+     "cpd00809_c0",
+     "cpd00867_c0",
+     "cpd00905_c0",
+     "cpd00922_c0",
+     "cpd00988_c0",
+     "cpd00989_c0",
+     "cpd01078_c0",
+     "cpd01092_c0",
+     "cpd01101_c0",
+     "cpd01133_c0",
+     "cpd01150_c0",
+     "cpd01157_c0",
+     "cpd01550_c0",
+     "cpd01567_c0",
+     "cpd01570_c0",
+     "cpd01571_c0",
+     "cpd01572_c0",
+     "cpd01587_c0",
+     "cpd01720_c0",
+     "cpd01747_c0",
+     "cpd01831_c0",
+     "cpd01845_c0",
+     "cpd01973_c0",
+     "cpd02065_c0",
+     "cpd02074_c0",
+     "cpd02135_c0",
+     "cpd02172_c0",
+     "cpd02230_c0",
+     "cpd02357_c0",
+     "cpd02414_c0",
+     "cpd02419_c0",
+     "cpd02431_c0",
+     "cpd02446_c0",
+     "cpd02484_c0",
+     "cpd02524_c0",
+     "cpd02535_c0",
+     "cpd02631_c0",
+     "cpd02692_c0",
+     "cpd02711_c0",
+     "cpd02740_c0",
+     "cpd03034_c0",
+     "cpd03052_c0",
+     "cpd03078_c0",
+     "cpd03148_c0",
+     "cpd03161_c0",
+     "cpd03163_c0",
+     "cpd03200_c0",
+     "cpd03205_c0",
+     "cpd03211_c0",
+     "cpd03392_c0",
+     "cpd03414_c0",
+     "cpd03416_c0",
+     "cpd03424_c0",
+     "cpd03454_c0",
+     "cpd03487_c0",
+     "cpd03488_c0",
+     "cpd03490_c0",
+     "cpd03492_c0",
+     "cpd03496_c0",
+     "cpd03524_c0",
+     "cpd03560_c0",
+     "cpd03608_c0",
+     "cpd03646_c0",
+     "cpd03701_c0",
+     "cpd03702_c0",
+     "cpd03704_c0",
+     "cpd03708_c0",
+     "cpd03734_c0",
+     "cpd03738_c0",
+     "cpd03915_c0",
+     "cpd03916_c0",
+     "cpd04097_c0",
+     "cpd04099_c0",
+     "cpd04122_c0",
+     "cpd06227_c0",
+     "cpd06707_c0",
+     "cpd07923_c0",
+     "cpd07924_c0",
+     "cpd08625_c0",
+     "cpd08632_c0",
+     "cpd09027_c0",
+     "cpd11313_c0",
+     "cpd11430_c0",
+     "cpd11431_c0",
+     "cpd11432_c0",
+     "cpd11433_c0",
+     "cpd11434_c0",
+     "cpd11435_c0",
+     "cpd11436_c0",
+     "cpd11437_c0",
+     "cpd11438_c0",
+     "cpd11439_c0",
+     "cpd11440_c0",
+     "cpd11441_c0",
+     "cpd11499_c0",
+     "cpd11503_c0",
+     "cpd11507_c0",
+     "cpd11511_c0",
+     "cpd11515_c0",
+     "cpd11519_c0",
+     "cpd11524_c0",
+     "cpd11528_c0",
+     "cpd11532_c0",
+     "cpd11536_c0",
+     "cpd11540_c0",
+     "cpd11544_c0",
+     "cpd11548_c0",
+     "cpd11549_c0",
+     "cpd11552_c0",
+     "cpd11553_c0",
+     "cpd11556_c0",
+     "cpd11557_c0",
+     "cpd11560_c0",
+     "cpd11561_c0",
+     "cpd11564_c0",
+     "cpd11565_c0",
+     "cpd11568_c0",
+     "cpd11569_c0",
+     "cpd11572_c0",
+     "cpd11573_c0",
+     "cpd11583_c0",
+     "cpd11588_c0",
+     "cpd11825_c0",
+     "cpd14545_c0",
+     "cpd14548_c0",
+     "cpd15238_c0",
+     "cpd15274_c0",
+     "cpd15277_c0",
+     "cpd15294_c0",
+     "cpd15330_c0",
+     "cpd15338_c0",
+     "cpd15345_c0",
+     "cpd15362_c0",
+     "cpd15391_c0",
+     "cpd15522_c0",
+     "cpd15527_c0",
+     "cpd15535_c0",
+     "cpd15536_c0",
+     "cpd15537_c0",
+     "cpd15539_c0",
+     "cpd15541_c0",
+     "cpd15722_c0",
+     "cpd15723_c0",
+     "cpd15724_c0",
+     "cpd15725_c0",
+     "cpd15726_c0",
+     "cpd15727_c0",
+     "cpd15807_c0",
+     "cpd19030_c0",
+     "cpd21090_c0",
+     "cpd26672_c0",
+     "cpd28205_c0",
+     "cpd35272_c0",
+     "cpd35556_c0"
+    ]
+   }
+  },
+  "gapfilled": {
+   "rxn00068_c0": "gapfill_1",
+   "rxn00105_c0": "gapfill_1",
+   "rxn00119_c0": "gapfill_1",
+   "rxn00128_c0": "gapfill_1",
+   "rxn00209_c0": "gapfill_1",
+   "rxn00338_c0": "gapfill_1",
+   "rxn00430_c0": "gapfill_1",
+   "rxn00452_c0": "gapfill_1",
+   "rxn00471_c0": "gapfill_1",
+   "rxn00502_c0": "gapfill_1",
+   "rxn00549_c0": "gapfill_1",
+   "rxn00738_c0": "gapfill_1",
+   "rxn00742_c0": "gapfill_1",
+   "rxn00747_c0": "gapfill_1",
+   "rxn00790_c0": "gapfill_1",
+   "rxn00905_c0": "gapfill_1",
+   "rxn00966_c0": "gapfill_1",
+   "rxn00979_c0": "gapfill_1",
+   "rxn01019_c0": "gapfill_1",
+   "rxn01116_c0": "gapfill_1",
+   "rxn01213_c0": "gapfill_1",
+   "rxn01258_c0": "gapfill_1",
+   "rxn01331_c0": "gapfill_1",
+   "rxn01406_c0": "gapfill_1",
+   "rxn01508_c0": "gapfill_1",
+   "rxn01520_c0": "gapfill_1",
+   "rxn01791_c0": "gapfill_1",
+   "rxn02175_c0": "gapfill_1",
+   "rxn02185_c0": "gapfill_1",
+   "rxn02186_c0": "gapfill_1",
+   "rxn02200_c0": "gapfill_1",
+   "rxn02264_c0": "gapfill_1",
+   "rxn02269_c0": "gapfill_1",
+   "rxn02331_c0": "gapfill_1",
+   "rxn02402_c0": "gapfill_1",
+   "rxn02404_c0": "gapfill_1",
+   "rxn02405_c0": "gapfill_1",
+   "rxn02504_c0": "gapfill_1",
+   "rxn02831_c0": "gapfill_1",
+   "rxn02832_c0": "gapfill_1",
+   "rxn02897_c0": "gapfill_1",
+   "rxn02898_c0": "gapfill_1",
+   "rxn02939_c0": "gapfill_1",
+   "rxn02988_c0": "gapfill_1",
+   "rxn03150_c0": "gapfill_1",
+   "rxn03393_c0": "gapfill_1",
+   "rxn03394_c0": "gapfill_1",
+   "rxn03397_c0": "gapfill_1",
+   "rxn03537_c0": "gapfill_1",
+   "rxn03538_c0": "gapfill_1",
+   "rxn03841_c0": "gapfill_1",
+   "rxn03891_c0": "gapfill_1",
+   "rxn03892_c0": "gapfill_1",
+   "rxn03958_c0": "gapfill_1",
+   "rxn04413_c0": "gapfill_1",
+   "rxn04794_c0": "gapfill_1",
+   "rxn05039_c0": "gapfill_1",
+   "rxn05287_c0": "gapfill_1",
+   "rxn06033_c0": "gapfill_1",
+   "rxn06076_c0": "gapfill_1",
+   "rxn06723_c0": "gapfill_1",
+   "rxn06729_c0": "gapfill_1",
+   "rxn08234_c0": "gapfill_1",
+   "rxn08311_c0": "gapfill_1",
+   "rxn08333_c0": "gapfill_1",
+   "rxn09202_c0": "gapfill_1",
+   "rxn09210_c0": "gapfill_1",
+   "rxn09429_c0": "gapfill_1",
+   "rxn10094_c0": "gapfill_1",
+   "rxn10213_c0": "gapfill_1",
+   "rxn10336_c0": "gapfill_1",
+   "rxn11535_c0": "gapfill_1",
+   "rxn11537_c0": "gapfill_1",
+   "rxn11702_c0": "gapfill_1",
+   "rxn11703_c0": "gapfill_1",
+   "rxn12008_c0": "gapfill_1",
+   "rxn12224_c0": "gapfill_1"
+  },
+  "hand_added": [
+   "rxs00001_c0",
+   "rxn26457_c0",
+   "rxs43120_c0",
+   "rxn26447_c0"
+  ],
+  "guild_pathway": {
+   "reactions": {
+    "rxn26456_c0": "PhnGHIL",
+    "rxn26457_c0": "PhnM",
+    "rxn26459_c0": "PhnJ C-P lyase"
+   },
+   "gene_supported": {
+    "rxn26456_c0": true,
+    "rxn26457_c0": false,
+    "rxn26459_c0": true
+   },
+   "fraction": 0.6666666666666666,
+   "evidence": {
+    "rxn26456_c0": {
+     "rast": true,
+     "extra": {},
+     "template_type": "conditional"
+    },
+    "rxn26457_c0": null,
+    "rxn26459_c0": {
+     "rast": true,
+     "extra": {},
+     "template_type": "conditional"
+    }
+   }
+  },
+  "template_file": "GramNegModelTemplateV7.json",
+  "template_rule": "Bacteria, other phylum (Pseudomonadota) -> GramNegModelTemplateV7",
+  "final": {
+   "n_reactions": 1226,
+   "n_metabolites": 1187,
+   "n_genes": 1007,
+   "n_gene_associated_non_gapfilled": 1032
+  },
+  "times_s": {
+   "qc": 3.33
+  }
+ }
+}

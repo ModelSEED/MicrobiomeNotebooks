@@ -1,0 +1,1656 @@
+unit	variant	v0_bin	v0_bin_set	v0_compl	v0_red	v0_n50	v0_size	status	match_bin	match_n50	match_compl	new_red	new_size	new_bin_set	new_matches_any_V0_bin	new_matches_current_MAG	new_matches_original	new_bp_in_V0_passing_bins
+R1_A_D1	V1	metabat2.bin.042	metabat2	100.0	0.0	26126.0	2805176.0	kept	metabat2.bin.042	26126.0	100.0							
+R1_A_D1	V1	maxbin2.Bin.004	maxbin2	98.0	2.0	5779.0	2216943.0	kept	metabat2.bin.043	7597.0	94.0							
+R1_A_D1	V1	concoct.bin.039	concoct	94.0	0.0	49451.0	3862172.0	kept	concoct.bin.039	49451.0	94.0							
+R1_A_D1	V1	maxbin2.Bin.039	maxbin2	94.0	0.0	8055.0	3450466.0	kept	concoct.bin.025	9704.0	82.0							
+R1_A_D1	V1	concoct.bin.066_sub	concoct	96.0	2.0	12600.0	3225139.0	kept	concoct.bin.066	12600.0	96.0							
+R1_A_D1	V1	maxbin2.Bin.018	maxbin2	98.0	4.0	7328.0	2375871.0	kept	metabat2.bin.057	8913.0	94.0							
+R1_A_D1	V1	metabat2.bin.036	metabat2	100.0	6.0	21548.0	2076259.0	kept	metabat2.bin.036	21548.0	100.0							
+R1_A_D1	V1	metabat2.bin.005	metabat2	92.0	0.0	13384.0	3499585.0	kept	metabat2.bin.005	13384.0	92.0							
+R1_A_D1	V1	maxbin2.Bin.044	maxbin2	92.0	0.0	4161.0	3074074.0	kept	maxbin2.Bin.044	6123.0	82.0							
+R1_A_D1	V1	maxbin2.Bin.070	maxbin2	94.0	2.0	3649.0	3209393.0	kept	metabat2.bin.011	4845.0	75.0							
+R1_A_D1	V1	concoct.bin.070	concoct	90.0	0.0	7474.0	1633152.0	kept	concoct.bin.070	7474.0	90.0							
+R1_A_D1	V1	maxbin2.Bin.005_sub	maxbin2	90.0	0.0	2764.0	2487969.0	kept	metabat2.bin.045	4381.0	76.0							
+R1_A_D1	V1	maxbin2.Bin.058	maxbin2	92.0	2.0	7916.0	2065787.0	kept	metabat2.bin.055	8790.0	65.0							
+R1_A_D1	V1	maxbin2.Bin.006_sub	maxbin2	92.0	2.0	3518.0	3827056.0	kept	metabat2.bin.079	5128.0	78.0							
+R1_A_D1	V1	maxbin2.Bin.012	maxbin2	96.0	6.0	3551.0	2474996.0	kept	metabat2.bin.087	5393.0	86.0							
+R1_A_D1	V1	maxbin2.Bin.055	maxbin2	97.0	8.0	5242.0	3719032.0	kept	concoct.bin.060	10465.0	87.0							
+R1_A_D1	V1	concoct.bin.067	concoct	90.0	2.0	6321.0	2415193.0	kept	concoct.bin.067	6321.0	90.0							
+R1_A_D1	V1	maxbin2.Bin.028	maxbin2	90.0	2.0	4656.0	3232555.0	kept	maxbin2.Bin.028_sub	5788.0	65.0							
+R1_A_D1	V1	maxbin2.Bin.045	maxbin2	92.0	4.0	4911.0	3561490.0	kept	metabat2.bin.022_sub	5483.0	69.0							
+R1_A_D1	V1	concoct.bin.076_sub	concoct	94.0	6.0	9005.0	3608113.0	kept	concoct.bin.076	9005.0	94.0							
+R1_A_D1	V1	maxbin2.Bin.015	maxbin2	86.0	0.0	11439.0	3466453.0	kept	metabat2.bin.038	13134.0	71.0							
+R1_A_D1	V1	metabat2.bin.037	metabat2	90.0	4.0	6750.0	2863129.0	kept	metabat2.bin.037	6750.0	90.0							
+R1_A_D1	V1	metabat2.bin.075	metabat2	82.0	0.0	8271.0	557766.0	kept	metabat2.bin.075	8271.0	82.0							
+R1_A_D1	V1	maxbin2.Bin.046	maxbin2	80.0	0.0	3683.0	3778247.0	kept	concoct.bin.024	5172.0	75.0							
+R1_A_D1	V1	maxbin2.Bin.082	maxbin2	86.0	6.0	2067.0	3644416.0	kept	concoct.bin.056	3684.0	63.0							
+R1_A_D1	V1	concoct.bin.111	concoct	82.0	5.0	6747.0	2845823.0	kept	maxbin2.Bin.052	6964.0	82.0							
+R1_A_D1	V1	concoct.bin.064	concoct	84.0	8.0	4435.0	1620186.0	kept	concoct.bin.064	4435.0	84.0							
+R1_A_D1	V1	maxbin2.Bin.007	maxbin2	75.0	0.0	4726.0	2229374.0	kept	metabat2.bin.032	6140.0	73.0							
+R1_A_D1	V1	metabat2.bin.059_sub	metabat2	75.0	0.0	4715.0	2401867.0	kept	metabat2.bin.059_sub	4707.0	75.0							
+R1_A_D1	V1	maxbin2.Bin.064	maxbin2	76.0	2.0	2402.0	2817447.0	dropped										
+R1_A_D1	V1	concoct.bin.036_sub	concoct	73.0	0.0	5151.0	2832215.0	kept	maxbin2.Bin.009_sub	5242.0	67.0							
+R1_A_D1	V1	maxbin2.Bin.008	maxbin2	76.0	4.0	2611.0	2038415.0	dropped										
+R1_A_D1	V1	concoct.bin.003_sub	concoct	71.0	0.0	5805.0	1673266.0	kept	concoct.bin.003	5706.0	71.0							
+R1_A_D1	V1	maxbin2.Bin.090	maxbin2	71.0	0.0	2215.0	2829701.0	dropped										
+R1_A_D1	V1	maxbin2.Bin.081_sub	maxbin2	73.0	2.0	1867.0	2640572.0	dropped										
+R1_A_D1	V1	concoct.bin.114_sub	concoct	69.0	0.0	5172.0	646424.0	kept	concoct.bin.114	5172.0	69.0							
+R1_A_D1	V1	maxbin2.Bin.077	maxbin2	73.0	4.0	1951.0	3753251.0	kept	maxbin2.Bin.077_sub	3654.0	57.0							
+R1_A_D1	V1	maxbin2.Bin.050_sub	maxbin2	67.0	0.0	3359.0	2899700.0	kept	metabat2.bin.006	3954.0	51.0							
+R1_A_D1	V1	maxbin2.Bin.092_sub	maxbin2	78.0	8.0	1802.0	3063920.0	dropped										
+R1_A_D1	V1	maxbin2.Bin.073	maxbin2	66.0	3.0	3624.0	626004.0	kept	concoct.bin.102	4893.0	55.0							
+R1_A_D1	V1	concoct.bin.001_sub	concoct	67.0	4.0	5248.0	2108700.0	kept	concoct.bin.001	5224.0	69.0							
+R1_A_D1	V1	maxbin2.Bin.011	maxbin2	61.0	0.0	1675.0	2199541.0	dropped										
+R1_A_D1	V1	metabat2.bin.056_sub	metabat2	59.0	0.0	4115.0	1750507.0	kept	metabat2.bin.056_sub	4116.0	59.0							
+R1_A_D1	V1	maxbin2.Bin.013	maxbin2	63.0	4.0	3285.0	2878005.0	kept	concoct.bin.085_sub	4548.0	59.0							
+R1_A_D1	V1	maxbin2.Bin.067_sub	maxbin2	65.0	6.0	2555.0	2861990.0	dropped										
+R1_A_D1	V1	maxbin2.Bin.068	maxbin2	63.0	6.0	2280.0	2942927.0	dropped										
+R1_A_D1	V1	metabat2.bin.007_sub	metabat2	57.0	2.0	4386.0	1271943.0	kept	metabat2.bin.007_sub	4386.0	57.0							
+R1_A_D1	V1	metabat2.bin.076_sub	metabat2	57.0	2.0	4328.0	2046799.0	kept	metabat2.bin.076_sub	4291.0	57.0							
+R1_A_D1	V1	concoct.bin.081_sub	concoct	57.0	2.0	3681.0	631281.0	kept	concoct.bin.081	3681.0	57.0							
+R1_A_D1	V1	maxbin2.Bin.056	maxbin2	53.0	0.0	2839.0	3211381.0	dropped										
+R1_A_D1	V1	maxbin2.Bin.010	maxbin2	59.0	4.0	2862.0	296676.0	kept	maxbin2.Bin.010	4214.0	57.0							
+R1_A_D1	V1	maxbin2.Bin.099	maxbin2	55.0	3.0	1512.0	1597670.0	dropped										
+R1_A_D1	V1							new	concoct.bin.031	3983.0	78.0	2.0	2050240.0	concoct	True	True	True	0.0136
+R1_A_D1	V1							new	metabat2.bin.023	3594.0	59.0	0.0	1468418.0	metabat2	True	True	False	0.0049
+R1_A_D1	V1							new	maxbin2.Bin.087_sub	3491.0	59.0	0.0	1007684.0	maxbin2	True	False	False	0.0
+R1_A_D1	V2	metabat2.bin.042	metabat2	100.0	0.0	26126.0	2805176.0	kept	metabat2.bin.042	26570.0	100.0							
+R1_A_D1	V2	maxbin2.Bin.004	maxbin2	98.0	2.0	5779.0	2216943.0	kept	metabat2.bin.043	7901.0	88.0							
+R1_A_D1	V2	concoct.bin.039	concoct	94.0	0.0	49451.0	3862172.0	kept	metabat2.bin.048	49451.0	94.0							
+R1_A_D1	V2	maxbin2.Bin.039	maxbin2	94.0	0.0	8055.0	3450466.0	kept	concoct.bin.025	10139.0	82.0							
+R1_A_D1	V2	concoct.bin.066_sub	concoct	96.0	2.0	12600.0	3225139.0	kept	concoct.bin.066	12860.0	96.0							
+R1_A_D1	V2	maxbin2.Bin.018	maxbin2	98.0	4.0	7328.0	2375871.0	kept	metabat2.bin.057	9485.0	94.0							
+R1_A_D1	V2	metabat2.bin.036	metabat2	100.0	6.0	21548.0	2076259.0	kept	metabat2.bin.036	21548.0	100.0							
+R1_A_D1	V2	metabat2.bin.005	metabat2	92.0	0.0	13384.0	3499585.0	kept	metabat2.bin.005	13728.0	92.0							
+R1_A_D1	V2	maxbin2.Bin.044	maxbin2	92.0	0.0	4161.0	3074074.0	kept	maxbin2.Bin.044	6548.0	75.0							
+R1_A_D1	V2	maxbin2.Bin.070	maxbin2	94.0	2.0	3649.0	3209393.0	kept	metabat2.bin.011	5249.0	71.0							
+R1_A_D1	V2	concoct.bin.070	concoct	90.0	0.0	7474.0	1633152.0	kept	concoct.bin.070	7981.0	90.0							
+R1_A_D1	V2	maxbin2.Bin.005_sub	maxbin2	90.0	0.0	2764.0	2487969.0	kept	metabat2.bin.045	4856.0	67.0							
+R1_A_D1	V2	maxbin2.Bin.058	maxbin2	92.0	2.0	7916.0	2065787.0	kept	metabat2.bin.055	9258.0	63.0							
+R1_A_D1	V2	maxbin2.Bin.006_sub	maxbin2	92.0	2.0	3518.0	3827056.0	kept	metabat2.bin.079	5390.0	71.0							
+R1_A_D1	V2	maxbin2.Bin.012	maxbin2	96.0	6.0	3551.0	2474996.0	kept	metabat2.bin.087	5692.0	86.0							
+R1_A_D1	V2	maxbin2.Bin.055	maxbin2	97.0	8.0	5242.0	3719032.0	kept	metabat2.bin.035	11409.0	82.0							
+R1_A_D1	V2	concoct.bin.067	concoct	90.0	2.0	6321.0	2415193.0	kept	concoct.bin.067	6726.0	78.0							
+R1_A_D1	V2	maxbin2.Bin.028	maxbin2	90.0	2.0	4656.0	3232555.0	kept	metabat2.bin.088	6141.0	63.0							
+R1_A_D1	V2	maxbin2.Bin.045	maxbin2	92.0	4.0	4911.0	3561490.0	kept	metabat2.bin.022_sub	5754.0	67.0							
+R1_A_D1	V2	concoct.bin.076_sub	concoct	94.0	6.0	9005.0	3608113.0	kept	concoct.bin.076	9519.0	92.0							
+R1_A_D1	V2	maxbin2.Bin.015	maxbin2	86.0	0.0	11439.0	3466453.0	kept	metabat2.bin.038	13824.0	65.0							
+R1_A_D1	V2	metabat2.bin.037	metabat2	90.0	4.0	6750.0	2863129.0	kept	concoct.bin.091_sub	7509.0	90.0							
+R1_A_D1	V2	metabat2.bin.075	metabat2	82.0	0.0	8271.0	557766.0	kept	metabat2.bin.075	9630.0	82.0							
+R1_A_D1	V2	maxbin2.Bin.046	maxbin2	80.0	0.0	3683.0	3778247.0	kept	metabat2.bin.054	5848.0	57.0							
+R1_A_D1	V2	maxbin2.Bin.082	maxbin2	86.0	6.0	2067.0	3644416.0	dropped										
+R1_A_D1	V2	concoct.bin.111	concoct	82.0	5.0	6747.0	2845823.0	kept	maxbin2.Bin.052	7288.0	82.0							
+R1_A_D1	V2	concoct.bin.064	concoct	84.0	8.0	4435.0	1620186.0	kept	concoct.bin.064	4763.0	82.0							
+R1_A_D1	V2	maxbin2.Bin.007	maxbin2	75.0	0.0	4726.0	2229374.0	kept	metabat2.bin.032	6589.0	73.0							
+R1_A_D1	V2	metabat2.bin.059_sub	metabat2	75.0	0.0	4715.0	2401867.0	kept	metabat2.bin.059_sub	4937.0	71.0							
+R1_A_D1	V2	maxbin2.Bin.064	maxbin2	76.0	2.0	2402.0	2817447.0	dropped										
+R1_A_D1	V2	concoct.bin.036_sub	concoct	73.0	0.0	5151.0	2832215.0	kept	maxbin2.Bin.009_sub	5812.0	67.0							
+R1_A_D1	V2	maxbin2.Bin.008	maxbin2	76.0	4.0	2611.0	2038415.0	dropped										
+R1_A_D1	V2	concoct.bin.003_sub	concoct	71.0	0.0	5805.0	1673266.0	kept	concoct.bin.003	6544.0	63.0							
+R1_A_D1	V2	maxbin2.Bin.090	maxbin2	71.0	0.0	2215.0	2829701.0	dropped										
+R1_A_D1	V2	maxbin2.Bin.081_sub	maxbin2	73.0	2.0	1867.0	2640572.0	dropped										
+R1_A_D1	V2	concoct.bin.114_sub	concoct	69.0	0.0	5172.0	646424.0	dropped										
+R1_A_D1	V2	maxbin2.Bin.077	maxbin2	73.0	4.0	1951.0	3753251.0	dropped										
+R1_A_D1	V2	maxbin2.Bin.050_sub	maxbin2	67.0	0.0	3359.0	2899700.0	dropped										
+R1_A_D1	V2	maxbin2.Bin.092_sub	maxbin2	78.0	8.0	1802.0	3063920.0	dropped										
+R1_A_D1	V2	maxbin2.Bin.073	maxbin2	66.0	3.0	3624.0	626004.0	kept	concoct.bin.102	5251.0	53.0							
+R1_A_D1	V2	concoct.bin.001_sub	concoct	67.0	4.0	5248.0	2108700.0	kept	concoct.bin.001	5709.0	69.0							
+R1_A_D1	V2	maxbin2.Bin.011	maxbin2	61.0	0.0	1675.0	2199541.0	dropped										
+R1_A_D1	V2	metabat2.bin.056_sub	metabat2	59.0	0.0	4115.0	1750507.0	kept	metabat2.bin.056	4531.0	57.0							
+R1_A_D1	V2	maxbin2.Bin.013	maxbin2	63.0	4.0	3285.0	2878005.0	kept	concoct.bin.085	4959.0	55.0							
+R1_A_D1	V2	maxbin2.Bin.067_sub	maxbin2	65.0	6.0	2555.0	2861990.0	dropped										
+R1_A_D1	V2	maxbin2.Bin.068	maxbin2	63.0	6.0	2280.0	2942927.0	dropped										
+R1_A_D1	V2	metabat2.bin.007_sub	metabat2	57.0	2.0	4386.0	1271943.0	dropped										
+R1_A_D1	V2	metabat2.bin.076_sub	metabat2	57.0	2.0	4328.0	2046799.0	dropped										
+R1_A_D1	V2	concoct.bin.081_sub	concoct	57.0	2.0	3681.0	631281.0	kept	concoct.bin.081	4093.0	55.0							
+R1_A_D1	V2	maxbin2.Bin.056	maxbin2	53.0	0.0	2839.0	3211381.0	dropped										
+R1_A_D1	V2	maxbin2.Bin.010	maxbin2	59.0	4.0	2862.0	296676.0	kept	maxbin2.Bin.010	4811.0	57.0							
+R1_A_D1	V2	maxbin2.Bin.099	maxbin2	55.0	3.0	1512.0	1597670.0	dropped										
+R1_A_D1	V2							new	maxbin2.Bin.101_sub	4780.0	51.0	0.0	854612.0	maxbin2	True	False	False	0.0
+R1_A_D1	V2							new	concoct.bin.031	4385.0	73.0	0.0	1629110.0	concoct	True	True	True	0.0112
+R1_A_D1	V3	metabat2.bin.042	metabat2	100.0	0.0	26126.0	2805176.0	kept	metabat2.bin.042	26954.0	100.0							
+R1_A_D1	V3	maxbin2.Bin.004	maxbin2	98.0	2.0	5779.0	2216943.0	kept	metabat2.bin.043	10326.0	88.0							
+R1_A_D1	V3	concoct.bin.039	concoct	94.0	0.0	49451.0	3862172.0	kept	metabat2.bin.048	51091.0	94.0							
+R1_A_D1	V3	maxbin2.Bin.039	maxbin2	94.0	0.0	8055.0	3450466.0	kept	concoct.bin.025	12230.0	73.0							
+R1_A_D1	V3	concoct.bin.066_sub	concoct	96.0	2.0	12600.0	3225139.0	kept	concoct.bin.066	14470.0	94.0							
+R1_A_D1	V3	maxbin2.Bin.018	maxbin2	98.0	4.0	7328.0	2375871.0	kept	maxbin2.Bin.018	12350.0	75.0							
+R1_A_D1	V3	metabat2.bin.036	metabat2	100.0	6.0	21548.0	2076259.0	kept	metabat2.bin.036	23463.0	100.0							
+R1_A_D1	V3	metabat2.bin.005	metabat2	92.0	0.0	13384.0	3499585.0	kept	metabat2.bin.005	15103.0	80.0							
+R1_A_D1	V3	maxbin2.Bin.044	maxbin2	92.0	0.0	4161.0	3074074.0	kept	concoct.bin.000	8511.0	65.0							
+R1_A_D1	V3	maxbin2.Bin.070	maxbin2	94.0	2.0	3649.0	3209393.0	kept	concoct.bin.015	7045.0	61.0							
+R1_A_D1	V3	concoct.bin.070	concoct	90.0	0.0	7474.0	1633152.0	kept	metabat2.bin.004	9879.0	90.0							
+R1_A_D1	V3	maxbin2.Bin.005_sub	maxbin2	90.0	0.0	2764.0	2487969.0	kept	maxbin2.Bin.005	7577.0	57.0							
+R1_A_D1	V3	maxbin2.Bin.058	maxbin2	92.0	2.0	7916.0	2065787.0	dropped										
+R1_A_D1	V3	maxbin2.Bin.006_sub	maxbin2	92.0	2.0	3518.0	3827056.0	kept	metabat2.bin.079	7360.0	53.0							
+R1_A_D1	V3	maxbin2.Bin.012	maxbin2	96.0	6.0	3551.0	2474996.0	kept	concoct.bin.092	7336.0	73.0							
+R1_A_D1	V3	maxbin2.Bin.055	maxbin2	97.0	8.0	5242.0	3719032.0	kept	metabat2.bin.035	13104.0	76.0							
+R1_A_D1	V3	concoct.bin.067	concoct	90.0	2.0	6321.0	2415193.0	dropped										
+R1_A_D1	V3	maxbin2.Bin.028	maxbin2	90.0	2.0	4656.0	3232555.0	kept	maxbin2.Bin.028	8234.0	55.0							
+R1_A_D1	V3	maxbin2.Bin.045	maxbin2	92.0	4.0	4911.0	3561490.0	kept	metabat2.bin.022	7560.0	53.0							
+R1_A_D1	V3	concoct.bin.076_sub	concoct	94.0	6.0	9005.0	3608113.0	kept	concoct.bin.076	11369.0	90.0							
+R1_A_D1	V3	maxbin2.Bin.015	maxbin2	86.0	0.0	11439.0	3466453.0	dropped										
+R1_A_D1	V3	metabat2.bin.037	metabat2	90.0	4.0	6750.0	2863129.0	kept	concoct.bin.091_sub	8603.0	76.0							
+R1_A_D1	V3	metabat2.bin.075	metabat2	82.0	0.0	8271.0	557766.0	kept	concoct.bin.095	11390.0	71.0							
+R1_A_D1	V3	maxbin2.Bin.046	maxbin2	80.0	0.0	3683.0	3778247.0	dropped										
+R1_A_D1	V3	maxbin2.Bin.082	maxbin2	86.0	6.0	2067.0	3644416.0	dropped										
+R1_A_D1	V3	concoct.bin.111	concoct	82.0	5.0	6747.0	2845823.0	kept	maxbin2.Bin.052	9649.0	68.0							
+R1_A_D1	V3	concoct.bin.064	concoct	84.0	8.0	4435.0	1620186.0	kept	metabat2.bin.008	6566.0	51.0							
+R1_A_D1	V3	maxbin2.Bin.007	maxbin2	75.0	0.0	4726.0	2229374.0	dropped										
+R1_A_D1	V3	metabat2.bin.059_sub	metabat2	75.0	0.0	4715.0	2401867.0	kept	maxbin2.Bin.022_sub	7516.0	51.0							
+R1_A_D1	V3	maxbin2.Bin.064	maxbin2	76.0	2.0	2402.0	2817447.0	dropped										
+R1_A_D1	V3	concoct.bin.036_sub	concoct	73.0	0.0	5151.0	2832215.0	kept	metabat2.bin.070	8157.0	55.0							
+R1_A_D1	V3	maxbin2.Bin.008	maxbin2	76.0	4.0	2611.0	2038415.0	dropped										
+R1_A_D1	V3	concoct.bin.003_sub	concoct	71.0	0.0	5805.0	1673266.0	dropped										
+R1_A_D1	V3	maxbin2.Bin.090	maxbin2	71.0	0.0	2215.0	2829701.0	dropped										
+R1_A_D1	V3	maxbin2.Bin.081_sub	maxbin2	73.0	2.0	1867.0	2640572.0	dropped										
+R1_A_D1	V3	concoct.bin.114_sub	concoct	69.0	0.0	5172.0	646424.0	dropped										
+R1_A_D1	V3	maxbin2.Bin.077	maxbin2	73.0	4.0	1951.0	3753251.0	dropped										
+R1_A_D1	V3	maxbin2.Bin.050_sub	maxbin2	67.0	0.0	3359.0	2899700.0	dropped										
+R1_A_D1	V3	maxbin2.Bin.092_sub	maxbin2	78.0	8.0	1802.0	3063920.0	dropped										
+R1_A_D1	V3	maxbin2.Bin.073	maxbin2	66.0	3.0	3624.0	626004.0	dropped										
+R1_A_D1	V3	concoct.bin.001_sub	concoct	67.0	4.0	5248.0	2108700.0	dropped										
+R1_A_D1	V3	maxbin2.Bin.011	maxbin2	61.0	0.0	1675.0	2199541.0	dropped										
+R1_A_D1	V3	metabat2.bin.056_sub	metabat2	59.0	0.0	4115.0	1750507.0	dropped										
+R1_A_D1	V3	maxbin2.Bin.013	maxbin2	63.0	4.0	3285.0	2878005.0	dropped										
+R1_A_D1	V3	maxbin2.Bin.067_sub	maxbin2	65.0	6.0	2555.0	2861990.0	dropped										
+R1_A_D1	V3	maxbin2.Bin.068	maxbin2	63.0	6.0	2280.0	2942927.0	dropped										
+R1_A_D1	V3	metabat2.bin.007_sub	metabat2	57.0	2.0	4386.0	1271943.0	dropped										
+R1_A_D1	V3	metabat2.bin.076_sub	metabat2	57.0	2.0	4328.0	2046799.0	dropped										
+R1_A_D1	V3	concoct.bin.081_sub	concoct	57.0	2.0	3681.0	631281.0	dropped										
+R1_A_D1	V3	maxbin2.Bin.056	maxbin2	53.0	0.0	2839.0	3211381.0	dropped										
+R1_A_D1	V3	maxbin2.Bin.010	maxbin2	59.0	4.0	2862.0	296676.0	dropped										
+R1_A_D1	V3	maxbin2.Bin.099	maxbin2	55.0	3.0	1512.0	1597670.0	dropped										
+R1_A_D1	V4	metabat2.bin.042	metabat2	100.0	0.0	26126.0	2805176.0	kept	metabat2.bin.042	26126.0	100.0							
+R1_A_D1	V4	maxbin2.Bin.004	maxbin2	98.0	2.0	5779.0	2216943.0	kept	metabat2.bin.043	7597.0	94.0							
+R1_A_D1	V4	concoct.bin.039	concoct	94.0	0.0	49451.0	3862172.0	kept	concoct.bin.039	49451.0	94.0							
+R1_A_D1	V4	maxbin2.Bin.039	maxbin2	94.0	0.0	8055.0	3450466.0	kept	concoct.bin.025	9704.0	82.0							
+R1_A_D1	V4	concoct.bin.066_sub	concoct	96.0	2.0	12600.0	3225139.0	kept	concoct.bin.066	12600.0	96.0							
+R1_A_D1	V4	maxbin2.Bin.018	maxbin2	98.0	4.0	7328.0	2375871.0	kept	metabat2.bin.057	8913.0	94.0							
+R1_A_D1	V4	metabat2.bin.036	metabat2	100.0	6.0	21548.0	2076259.0	kept	metabat2.bin.036	21548.0	100.0							
+R1_A_D1	V4	metabat2.bin.005	metabat2	92.0	0.0	13384.0	3499585.0	kept	metabat2.bin.005	13384.0	92.0							
+R1_A_D1	V4	maxbin2.Bin.044	maxbin2	92.0	0.0	4161.0	3074074.0	kept	concoct.bin.000	6020.0	82.0							
+R1_A_D1	V4	maxbin2.Bin.070	maxbin2	94.0	2.0	3649.0	3209393.0	kept	metabat2.bin.011	4845.0	75.0							
+R1_A_D1	V4	concoct.bin.070	concoct	90.0	0.0	7474.0	1633152.0	kept	concoct.bin.070	7474.0	90.0							
+R1_A_D1	V4	maxbin2.Bin.005_sub	maxbin2	90.0	0.0	2764.0	2487969.0	kept	metabat2.bin.045	4381.0	76.0							
+R1_A_D1	V4	maxbin2.Bin.058	maxbin2	92.0	2.0	7916.0	2065787.0	kept	metabat2.bin.055	8790.0	65.0							
+R1_A_D1	V4	maxbin2.Bin.006_sub	maxbin2	92.0	2.0	3518.0	3827056.0	kept	metabat2.bin.079	5128.0	78.0							
+R1_A_D1	V4	maxbin2.Bin.012	maxbin2	96.0	6.0	3551.0	2474996.0	kept	metabat2.bin.087	5393.0	86.0							
+R1_A_D1	V4	maxbin2.Bin.055	maxbin2	97.0	8.0	5242.0	3719032.0	kept	concoct.bin.060	10465.0	87.0							
+R1_A_D1	V4	concoct.bin.067	concoct	90.0	2.0	6321.0	2415193.0	kept	concoct.bin.067	6321.0	90.0							
+R1_A_D1	V4	maxbin2.Bin.028	maxbin2	90.0	2.0	4656.0	3232555.0	kept	metabat2.bin.088	5779.0	65.0							
+R1_A_D1	V4	maxbin2.Bin.045	maxbin2	92.0	4.0	4911.0	3561490.0	kept	metabat2.bin.022	5483.0	69.0							
+R1_A_D1	V4	concoct.bin.076_sub	concoct	94.0	6.0	9005.0	3608113.0	kept	concoct.bin.076	9005.0	94.0							
+R1_A_D1	V4	maxbin2.Bin.015	maxbin2	86.0	0.0	11439.0	3466453.0	kept	metabat2.bin.038	13134.0	71.0							
+R1_A_D1	V4	metabat2.bin.037	metabat2	90.0	4.0	6750.0	2863129.0	kept	metabat2.bin.037	6750.0	90.0							
+R1_A_D1	V4	metabat2.bin.075	metabat2	82.0	0.0	8271.0	557766.0	kept	metabat2.bin.075	8271.0	82.0							
+R1_A_D1	V4	maxbin2.Bin.046	maxbin2	80.0	0.0	3683.0	3778247.0	kept	concoct.bin.024	5172.0	75.0							
+R1_A_D1	V4	maxbin2.Bin.082	maxbin2	86.0	6.0	2067.0	3644416.0	kept	concoct.bin.056	3684.0	63.0							
+R1_A_D1	V4	concoct.bin.111	concoct	82.0	5.0	6747.0	2845823.0	kept	concoct.bin.111	6747.0	82.0							
+R1_A_D1	V4	concoct.bin.064	concoct	84.0	8.0	4435.0	1620186.0	kept	concoct.bin.064	4435.0	84.0							
+R1_A_D1	V4	maxbin2.Bin.007	maxbin2	75.0	0.0	4726.0	2229374.0	kept	metabat2.bin.032	6140.0	73.0							
+R1_A_D1	V4	metabat2.bin.059_sub	metabat2	75.0	0.0	4715.0	2401867.0	kept	metabat2.bin.059_sub	4707.0	75.0							
+R1_A_D1	V4	maxbin2.Bin.064	maxbin2	76.0	2.0	2402.0	2817447.0	dropped										
+R1_A_D1	V4	concoct.bin.036_sub	concoct	73.0	0.0	5151.0	2832215.0	kept	concoct.bin.036_sub	5073.0	69.0							
+R1_A_D1	V4	maxbin2.Bin.008	maxbin2	76.0	4.0	2611.0	2038415.0	dropped										
+R1_A_D1	V4	concoct.bin.003_sub	concoct	71.0	0.0	5805.0	1673266.0	kept	concoct.bin.003	5706.0	71.0							
+R1_A_D1	V4	maxbin2.Bin.090	maxbin2	71.0	0.0	2215.0	2829701.0	dropped										
+R1_A_D1	V4	maxbin2.Bin.081_sub	maxbin2	73.0	2.0	1867.0	2640572.0	dropped										
+R1_A_D1	V4	concoct.bin.114_sub	concoct	69.0	0.0	5172.0	646424.0	kept	concoct.bin.114	5172.0	69.0							
+R1_A_D1	V4	maxbin2.Bin.077	maxbin2	73.0	4.0	1951.0	3753251.0	kept	concoct.bin.027	3652.0	57.0							
+R1_A_D1	V4	maxbin2.Bin.050_sub	maxbin2	67.0	0.0	3359.0	2899700.0	kept	metabat2.bin.006	3954.0	51.0							
+R1_A_D1	V4	maxbin2.Bin.092_sub	maxbin2	78.0	8.0	1802.0	3063920.0	dropped										
+R1_A_D1	V4	maxbin2.Bin.073	maxbin2	66.0	3.0	3624.0	626004.0	kept	concoct.bin.102	4893.0	55.0							
+R1_A_D1	V4	concoct.bin.001_sub	concoct	67.0	4.0	5248.0	2108700.0	kept	concoct.bin.001	5224.0	69.0							
+R1_A_D1	V4	maxbin2.Bin.011	maxbin2	61.0	0.0	1675.0	2199541.0	dropped										
+R1_A_D1	V4	metabat2.bin.056_sub	metabat2	59.0	0.0	4115.0	1750507.0	kept	metabat2.bin.056_sub	4116.0	59.0							
+R1_A_D1	V4	maxbin2.Bin.013	maxbin2	63.0	4.0	3285.0	2878005.0	kept	concoct.bin.085	4531.0	59.0							
+R1_A_D1	V4	maxbin2.Bin.067_sub	maxbin2	65.0	6.0	2555.0	2861990.0	dropped										
+R1_A_D1	V4	maxbin2.Bin.068	maxbin2	63.0	6.0	2280.0	2942927.0	dropped										
+R1_A_D1	V4	metabat2.bin.007_sub	metabat2	57.0	2.0	4386.0	1271943.0	kept	metabat2.bin.007_sub	4386.0	57.0							
+R1_A_D1	V4	metabat2.bin.076_sub	metabat2	57.0	2.0	4328.0	2046799.0	kept	metabat2.bin.076_sub	4276.0	57.0							
+R1_A_D1	V4	concoct.bin.081_sub	concoct	57.0	2.0	3681.0	631281.0	kept	concoct.bin.081	3681.0	57.0							
+R1_A_D1	V4	maxbin2.Bin.056	maxbin2	53.0	0.0	2839.0	3211381.0	dropped										
+R1_A_D1	V4	maxbin2.Bin.010	maxbin2	59.0	4.0	2862.0	296676.0	dropped										
+R1_A_D1	V4	maxbin2.Bin.099	maxbin2	55.0	3.0	1512.0	1597670.0	dropped										
+R1_A_D1	V4							new	concoct.bin.031	3983.0	78.0	2.0	2050240.0	concoct	True	True	True	0.0136
+R1_A_D1	V4							new	metabat2.bin.023	3594.0	59.0	0.0	1468418.0	metabat2	True	True	False	0.0049
+R1_A_D1	V4							new	concoct.bin.065	3408.0	55.0	0.0	869166.0	concoct	True	False	False	0.0
+R1_A_D1	V5	metabat2.bin.042	metabat2	100.0	0.0	26126.0	2805176.0	kept	metabat2.bin.042.ge5000	26954.0	100.0							
+R1_A_D1	V5	maxbin2.Bin.004	maxbin2	98.0	2.0	5779.0	2216943.0	kept	maxbin2.Bin.004	5779.0	98.0							
+R1_A_D1	V5	concoct.bin.039	concoct	94.0	0.0	49451.0	3862172.0	kept	metabat2.bin.048.ge5000	51091.0	94.0							
+R1_A_D1	V5	maxbin2.Bin.039	maxbin2	94.0	0.0	8055.0	3450466.0	kept	maxbin2.Bin.039	8055.0	94.0							
+R1_A_D1	V5	concoct.bin.066_sub	concoct	96.0	2.0	12600.0	3225139.0	kept	concoct.bin.066.ge3000_sub	12899.0	96.0							
+R1_A_D1	V5	maxbin2.Bin.018	maxbin2	98.0	4.0	7328.0	2375871.0	kept	maxbin2.Bin.018	7328.0	98.0							
+R1_A_D1	V5	metabat2.bin.036	metabat2	100.0	6.0	21548.0	2076259.0	kept	metabat2.bin.036.ge5000	23463.0	100.0							
+R1_A_D1	V5	metabat2.bin.005	metabat2	92.0	0.0	13384.0	3499585.0	kept	metabat2.bin.005.ge3000	13728.0	92.0							
+R1_A_D1	V5	maxbin2.Bin.044	maxbin2	92.0	0.0	4161.0	3074074.0	kept	maxbin2.Bin.044	4161.0	92.0							
+R1_A_D1	V5	maxbin2.Bin.070	maxbin2	94.0	2.0	3649.0	3209393.0	kept	maxbin2.Bin.070	3649.0	94.0							
+R1_A_D1	V5	concoct.bin.070	concoct	90.0	0.0	7474.0	1633152.0	kept	metabat2.bin.004.ge5000	9879.0	90.0							
+R1_A_D1	V5	maxbin2.Bin.005_sub	maxbin2	90.0	0.0	2764.0	2487969.0	kept	maxbin2.Bin.005	2753.0	90.0							
+R1_A_D1	V5	maxbin2.Bin.058	maxbin2	92.0	2.0	7916.0	2065787.0	kept	maxbin2.Bin.058	7916.0	92.0							
+R1_A_D1	V5	maxbin2.Bin.006_sub	maxbin2	92.0	2.0	3518.0	3827056.0	kept	maxbin2.Bin.006	3508.0	92.0							
+R1_A_D1	V5	maxbin2.Bin.012	maxbin2	96.0	6.0	3551.0	2474996.0	kept	maxbin2.Bin.012	3551.0	96.0							
+R1_A_D1	V5	maxbin2.Bin.055	maxbin2	97.0	8.0	5242.0	3719032.0	kept	maxbin2.Bin.055	5242.0	97.0							
+R1_A_D1	V5	concoct.bin.067	concoct	90.0	2.0	6321.0	2415193.0	kept	concoct.bin.067	6321.0	90.0							
+R1_A_D1	V5	maxbin2.Bin.028	maxbin2	90.0	2.0	4656.0	3232555.0	kept	maxbin2.Bin.028	4656.0	90.0							
+R1_A_D1	V5	maxbin2.Bin.045	maxbin2	92.0	4.0	4911.0	3561490.0	kept	maxbin2.Bin.045	4911.0	92.0							
+R1_A_D1	V5	concoct.bin.076_sub	concoct	94.0	6.0	9005.0	3608113.0	kept	concoct.bin.076_sub	9005.0	94.0							
+R1_A_D1	V5	maxbin2.Bin.015	maxbin2	86.0	0.0	11439.0	3466453.0	kept	maxbin2.Bin.015	11439.0	86.0							
+R1_A_D1	V5	metabat2.bin.037	metabat2	90.0	4.0	6750.0	2863129.0	kept	concoct.bin.091.ge3000_sub	7509.0	90.0							
+R1_A_D1	V5	metabat2.bin.075	metabat2	82.0	0.0	8271.0	557766.0	kept	metabat2.bin.075.ge3000	9630.0	82.0							
+R1_A_D1	V5	maxbin2.Bin.046	maxbin2	80.0	0.0	3683.0	3778247.0	kept	maxbin2.Bin.046	3683.0	80.0							
+R1_A_D1	V5	maxbin2.Bin.082	maxbin2	86.0	6.0	2067.0	3644416.0	kept	maxbin2.Bin.082	2067.0	86.0							
+R1_A_D1	V5	concoct.bin.111	concoct	82.0	5.0	6747.0	2845823.0	kept	maxbin2.Bin.052.ge3000	7288.0	82.0							
+R1_A_D1	V5	concoct.bin.064	concoct	84.0	8.0	4435.0	1620186.0	kept	concoct.bin.064	4435.0	84.0							
+R1_A_D1	V5	maxbin2.Bin.007	maxbin2	75.0	0.0	4726.0	2229374.0	kept	maxbin2.Bin.007	4726.0	75.0							
+R1_A_D1	V5	metabat2.bin.059_sub	metabat2	75.0	0.0	4715.0	2401867.0	kept	metabat2.bin.059_sub	4715.0	75.0							
+R1_A_D1	V5	maxbin2.Bin.064	maxbin2	76.0	2.0	2402.0	2817447.0	kept	maxbin2.Bin.064	2402.0	76.0							
+R1_A_D1	V5	concoct.bin.036_sub	concoct	73.0	0.0	5151.0	2832215.0	kept	concoct.bin.036.ge3000_sub	5699.0	73.0							
+R1_A_D1	V5	maxbin2.Bin.008	maxbin2	76.0	4.0	2611.0	2038415.0	kept	maxbin2.Bin.008	2611.0	76.0							
+R1_A_D1	V5	concoct.bin.003_sub	concoct	71.0	0.0	5805.0	1673266.0	kept	concoct.bin.003_sub	5805.0	71.0							
+R1_A_D1	V5	maxbin2.Bin.090	maxbin2	71.0	0.0	2215.0	2829701.0	kept	maxbin2.Bin.090	2215.0	71.0							
+R1_A_D1	V5	maxbin2.Bin.081_sub	maxbin2	73.0	2.0	1867.0	2640572.0	kept	maxbin2.Bin.081_sub	1867.0	73.0							
+R1_A_D1	V5	concoct.bin.114_sub	concoct	69.0	0.0	5172.0	646424.0	kept	concoct.bin.114_sub	5172.0	69.0							
+R1_A_D1	V5	maxbin2.Bin.077	maxbin2	73.0	4.0	1951.0	3753251.0	kept	maxbin2.Bin.077	1951.0	73.0							
+R1_A_D1	V5	maxbin2.Bin.050_sub	maxbin2	67.0	0.0	3359.0	2899700.0	kept	maxbin2.Bin.050_sub	3359.0	67.0							
+R1_A_D1	V5	maxbin2.Bin.092_sub	maxbin2	78.0	8.0	1802.0	3063920.0	kept	maxbin2.Bin.092_sub	1802.0	78.0							
+R1_A_D1	V5	maxbin2.Bin.073	maxbin2	66.0	3.0	3624.0	626004.0	kept	maxbin2.Bin.073	3624.0	66.0							
+R1_A_D1	V5	concoct.bin.001_sub	concoct	67.0	4.0	5248.0	2108700.0	kept	concoct.bin.001.ge3000_sub	5848.0	67.0							
+R1_A_D1	V5	maxbin2.Bin.011	maxbin2	61.0	0.0	1675.0	2199541.0	kept	maxbin2.Bin.011	1675.0	61.0							
+R1_A_D1	V5	metabat2.bin.056_sub	metabat2	59.0	0.0	4115.0	1750507.0	kept	metabat2.bin.056_sub	4115.0	59.0							
+R1_A_D1	V5	maxbin2.Bin.013	maxbin2	63.0	4.0	3285.0	2878005.0	kept	maxbin2.Bin.013	3285.0	63.0							
+R1_A_D1	V5	maxbin2.Bin.067_sub	maxbin2	65.0	6.0	2555.0	2861990.0	kept	maxbin2.Bin.067_sub	2555.0	65.0							
+R1_A_D1	V5	maxbin2.Bin.068	maxbin2	63.0	6.0	2280.0	2942927.0	kept	maxbin2.Bin.068	2280.0	63.0							
+R1_A_D1	V5	metabat2.bin.007_sub	metabat2	57.0	2.0	4386.0	1271943.0	kept	metabat2.bin.007_sub	4386.0	57.0							
+R1_A_D1	V5	metabat2.bin.076_sub	metabat2	57.0	2.0	4328.0	2046799.0	kept	metabat2.bin.076_sub	4328.0	57.0							
+R1_A_D1	V5	concoct.bin.081_sub	concoct	57.0	2.0	3681.0	631281.0	kept	concoct.bin.081_sub	3681.0	57.0							
+R1_A_D1	V5	maxbin2.Bin.056	maxbin2	53.0	0.0	2839.0	3211381.0	kept	maxbin2.Bin.056	2839.0	53.0							
+R1_A_D1	V5	maxbin2.Bin.010	maxbin2	59.0	4.0	2862.0	296676.0	kept	maxbin2.Bin.010.ge3000	4811.0	57.0							
+R1_A_D1	V5	maxbin2.Bin.099	maxbin2	55.0	3.0	1512.0	1597670.0	kept	maxbin2.Bin.099	1512.0	55.0							
+R1_A_D1	V6	metabat2.bin.042	metabat2	100.0	0.0	26126.0	2805176.0	kept	metabat2.bin.042.ge5000	26954.0	100.0							
+R1_A_D1	V6	maxbin2.Bin.004	maxbin2	98.0	2.0	5779.0	2216943.0	kept	maxbin2.Bin.004	5779.0	98.0							
+R1_A_D1	V6	concoct.bin.039	concoct	94.0	0.0	49451.0	3862172.0	kept	metabat2.bin.048.ge5000	51091.0	94.0							
+R1_A_D1	V6	maxbin2.Bin.039	maxbin2	94.0	0.0	8055.0	3450466.0	kept	maxbin2.Bin.039	8055.0	94.0							
+R1_A_D1	V6	concoct.bin.066_sub	concoct	96.0	2.0	12600.0	3225139.0	kept	concoct.bin.066_sub	12600.0	96.0							
+R1_A_D1	V6	maxbin2.Bin.018	maxbin2	98.0	4.0	7328.0	2375871.0	kept	maxbin2.Bin.018	7328.0	98.0							
+R1_A_D1	V6	metabat2.bin.036	metabat2	100.0	6.0	21548.0	2076259.0	kept	metabat2.bin.036.ge5000	23463.0	100.0							
+R1_A_D1	V6	metabat2.bin.005	metabat2	92.0	0.0	13384.0	3499585.0	kept	metabat2.bin.005	13384.0	92.0							
+R1_A_D1	V6	maxbin2.Bin.044	maxbin2	92.0	0.0	4161.0	3074074.0	kept	maxbin2.Bin.044	4161.0	92.0							
+R1_A_D1	V6	maxbin2.Bin.070	maxbin2	94.0	2.0	3649.0	3209393.0	kept	maxbin2.Bin.070	3649.0	94.0							
+R1_A_D1	V6	concoct.bin.070	concoct	90.0	0.0	7474.0	1633152.0	kept	metabat2.bin.004.ge5000	9879.0	90.0							
+R1_A_D1	V6	maxbin2.Bin.005_sub	maxbin2	90.0	0.0	2764.0	2487969.0	kept	maxbin2.Bin.005	2753.0	90.0							
+R1_A_D1	V6	maxbin2.Bin.058	maxbin2	92.0	2.0	7916.0	2065787.0	kept	maxbin2.Bin.058	7916.0	92.0							
+R1_A_D1	V6	maxbin2.Bin.006_sub	maxbin2	92.0	2.0	3518.0	3827056.0	kept	maxbin2.Bin.006	3508.0	92.0							
+R1_A_D1	V6	maxbin2.Bin.012	maxbin2	96.0	6.0	3551.0	2474996.0	kept	maxbin2.Bin.012	3551.0	96.0							
+R1_A_D1	V6	maxbin2.Bin.055	maxbin2	97.0	8.0	5242.0	3719032.0	kept	maxbin2.Bin.055	5242.0	97.0							
+R1_A_D1	V6	concoct.bin.067	concoct	90.0	2.0	6321.0	2415193.0	kept	concoct.bin.067	6321.0	90.0							
+R1_A_D1	V6	maxbin2.Bin.028	maxbin2	90.0	2.0	4656.0	3232555.0	kept	maxbin2.Bin.028	4656.0	90.0							
+R1_A_D1	V6	maxbin2.Bin.045	maxbin2	92.0	4.0	4911.0	3561490.0	kept	maxbin2.Bin.045	4911.0	92.0							
+R1_A_D1	V6	concoct.bin.076_sub	concoct	94.0	6.0	9005.0	3608113.0	kept	concoct.bin.076_sub	9005.0	94.0							
+R1_A_D1	V6	maxbin2.Bin.015	maxbin2	86.0	0.0	11439.0	3466453.0	kept	maxbin2.Bin.015	11439.0	86.0							
+R1_A_D1	V6	metabat2.bin.037	metabat2	90.0	4.0	6750.0	2863129.0	kept	metabat2.bin.037	6750.0	90.0							
+R1_A_D1	V6	metabat2.bin.075	metabat2	82.0	0.0	8271.0	557766.0	kept	metabat2.bin.075	8271.0	82.0							
+R1_A_D1	V6	maxbin2.Bin.046	maxbin2	80.0	0.0	3683.0	3778247.0	kept	maxbin2.Bin.046	3683.0	80.0							
+R1_A_D1	V6	maxbin2.Bin.082	maxbin2	86.0	6.0	2067.0	3644416.0	kept	maxbin2.Bin.082	2067.0	86.0							
+R1_A_D1	V6	concoct.bin.111	concoct	82.0	5.0	6747.0	2845823.0	kept	concoct.bin.111	6747.0	82.0							
+R1_A_D1	V6	concoct.bin.064	concoct	84.0	8.0	4435.0	1620186.0	kept	concoct.bin.064	4435.0	84.0							
+R1_A_D1	V6	maxbin2.Bin.007	maxbin2	75.0	0.0	4726.0	2229374.0	kept	maxbin2.Bin.007	4726.0	75.0							
+R1_A_D1	V6	metabat2.bin.059_sub	metabat2	75.0	0.0	4715.0	2401867.0	kept	metabat2.bin.059_sub	4715.0	75.0							
+R1_A_D1	V6	maxbin2.Bin.064	maxbin2	76.0	2.0	2402.0	2817447.0	kept	maxbin2.Bin.064	2402.0	76.0							
+R1_A_D1	V6	concoct.bin.036_sub	concoct	73.0	0.0	5151.0	2832215.0	kept	concoct.bin.036_sub	5151.0	73.0							
+R1_A_D1	V6	maxbin2.Bin.008	maxbin2	76.0	4.0	2611.0	2038415.0	kept	maxbin2.Bin.008	2611.0	76.0							
+R1_A_D1	V6	concoct.bin.003_sub	concoct	71.0	0.0	5805.0	1673266.0	kept	concoct.bin.003_sub	5805.0	71.0							
+R1_A_D1	V6	maxbin2.Bin.090	maxbin2	71.0	0.0	2215.0	2829701.0	kept	maxbin2.Bin.090	2215.0	71.0							
+R1_A_D1	V6	maxbin2.Bin.081_sub	maxbin2	73.0	2.0	1867.0	2640572.0	kept	maxbin2.Bin.081_sub	1867.0	73.0							
+R1_A_D1	V6	concoct.bin.114_sub	concoct	69.0	0.0	5172.0	646424.0	kept	concoct.bin.114_sub	5172.0	69.0							
+R1_A_D1	V6	maxbin2.Bin.077	maxbin2	73.0	4.0	1951.0	3753251.0	kept	maxbin2.Bin.077	1951.0	73.0							
+R1_A_D1	V6	maxbin2.Bin.050_sub	maxbin2	67.0	0.0	3359.0	2899700.0	kept	maxbin2.Bin.050_sub	3359.0	67.0							
+R1_A_D1	V6	maxbin2.Bin.092_sub	maxbin2	78.0	8.0	1802.0	3063920.0	kept	maxbin2.Bin.092_sub	1802.0	78.0							
+R1_A_D1	V6	maxbin2.Bin.073	maxbin2	66.0	3.0	3624.0	626004.0	kept	maxbin2.Bin.073	3624.0	66.0							
+R1_A_D1	V6	concoct.bin.001_sub	concoct	67.0	4.0	5248.0	2108700.0	kept	concoct.bin.001_sub	5248.0	67.0							
+R1_A_D1	V6	maxbin2.Bin.011	maxbin2	61.0	0.0	1675.0	2199541.0	kept	maxbin2.Bin.011	1675.0	61.0							
+R1_A_D1	V6	metabat2.bin.056_sub	metabat2	59.0	0.0	4115.0	1750507.0	kept	metabat2.bin.056_sub	4115.0	59.0							
+R1_A_D1	V6	maxbin2.Bin.013	maxbin2	63.0	4.0	3285.0	2878005.0	kept	maxbin2.Bin.013	3285.0	63.0							
+R1_A_D1	V6	maxbin2.Bin.067_sub	maxbin2	65.0	6.0	2555.0	2861990.0	kept	maxbin2.Bin.067_sub	2555.0	65.0							
+R1_A_D1	V6	maxbin2.Bin.068	maxbin2	63.0	6.0	2280.0	2942927.0	kept	maxbin2.Bin.068	2280.0	63.0							
+R1_A_D1	V6	metabat2.bin.007_sub	metabat2	57.0	2.0	4386.0	1271943.0	kept	metabat2.bin.007_sub	4386.0	57.0							
+R1_A_D1	V6	metabat2.bin.076_sub	metabat2	57.0	2.0	4328.0	2046799.0	kept	metabat2.bin.076_sub	4328.0	57.0							
+R1_A_D1	V6	concoct.bin.081_sub	concoct	57.0	2.0	3681.0	631281.0	kept	concoct.bin.081_sub	3681.0	57.0							
+R1_A_D1	V6	maxbin2.Bin.056	maxbin2	53.0	0.0	2839.0	3211381.0	kept	maxbin2.Bin.056	2839.0	53.0							
+R1_A_D1	V6	maxbin2.Bin.010	maxbin2	59.0	4.0	2862.0	296676.0	kept	maxbin2.Bin.010	2862.0	59.0							
+R1_A_D1	V6	maxbin2.Bin.099	maxbin2	55.0	3.0	1512.0	1597670.0	kept	maxbin2.Bin.099	1512.0	55.0							
+R2_B_D2	V1	maxbin2.Bin.053	maxbin2	100.0	0.0	17146.0	3010289.0	kept	metabat2.bin.025	18215.0	98.0							
+R2_B_D2	V1	concoct.bin.038	concoct	98.0	0.0	7219.0	2832865.0	kept	concoct.bin.038	7219.0	98.0							
+R2_B_D2	V1	metabat2.bin.014	metabat2	98.0	2.0	11511.0	3628251.0	kept	maxbin2.Bin.011	11535.0	98.0							
+R2_B_D2	V1	maxbin2.Bin.005	maxbin2	98.0	2.0	11226.0	3650080.0	kept	maxbin2.Bin.005	12627.0	90.0							
+R2_B_D2	V1	maxbin2.Bin.104	maxbin2	98.0	2.0	10514.0	4537059.0	kept	metabat2.bin.098_sub	11392.0	55.0							
+R2_B_D2	V1	concoct.bin.003	concoct	94.0	0.0	8481.0	2263170.0	kept	maxbin2.Bin.033	8764.0	94.0							
+R2_B_D2	V1	metabat2.bin.061	metabat2	96.0	2.0	8125.0	2753946.0	kept	maxbin2.Bin.074	8546.0	96.0							
+R2_B_D2	V1	metabat2.bin.110	metabat2	92.0	0.0	6435.0	2958820.0	kept	metabat2.bin.110	6435.0	92.0							
+R2_B_D2	V1	maxbin2.Bin.003	maxbin2	94.0	2.0	13820.0	3266915.0	kept	metabat2.bin.053	16290.0	84.0							
+R2_B_D2	V1	metabat2.bin.034_sub	metabat2	94.0	2.0	11032.0	3556004.0	kept	maxbin2.Bin.012	11169.0	98.0							
+R2_B_D2	V1	maxbin2.Bin.103	maxbin2	94.0	2.0	3760.0	3936732.0	kept	maxbin2.Bin.103	5372.0	75.0							
+R2_B_D2	V1	concoct.bin.114	concoct	90.0	0.0	25770.0	643455.0	kept	concoct.bin.114	25770.0	90.0							
+R2_B_D2	V1	concoct.bin.110	concoct	90.0	0.0	7879.0	3499770.0	kept	maxbin2.Bin.083	8076.0	90.0							
+R2_B_D2	V1	metabat2.bin.078	metabat2	90.0	0.0	6989.0	3287528.0	kept	metabat2.bin.078	6989.0	90.0							
+R2_B_D2	V1	maxbin2.Bin.008	maxbin2	90.0	0.0	4970.0	3111788.0	kept	maxbin2.Bin.008_sub	6621.0	76.0							
+R2_B_D2	V1	concoct.bin.063	concoct	92.0	2.0	19461.0	6502101.0	kept	concoct.bin.063	19461.0	92.0							
+R2_B_D2	V1	maxbin2.Bin.004_sub	maxbin2	98.0	8.0	7191.0	2193361.0	kept	metabat2.bin.046	9048.0	84.0							
+R2_B_D2	V1	metabat2.bin.060	metabat2	90.0	2.0	8977.0	2924790.0	kept	metabat2.bin.060	8977.0	90.0							
+R2_B_D2	V1	concoct.bin.011	concoct	92.0	4.0	6240.0	3134231.0	kept	maxbin2.Bin.123	6266.0	92.0							
+R2_B_D2	V1	maxbin2.Bin.015	maxbin2	96.0	8.0	4505.0	3653338.0	kept	concoct.bin.091_sub	6226.0	78.0							
+R2_B_D2	V1	metabat2.bin.019	metabat2	86.0	0.0	5692.0	2659817.0	kept	metabat2.bin.019	5692.0	86.0							
+R2_B_D2	V1	concoct.bin.104	concoct	88.0	2.0	10858.0	830721.0	kept	concoct.bin.104	10858.0	88.0							
+R2_B_D2	V1	concoct.bin.118	concoct	88.0	2.0	8208.0	5805800.0	kept	concoct.bin.118	8208.0	88.0							
+R2_B_D2	V1	maxbin2.Bin.024	maxbin2	94.0	8.0	3949.0	2408496.0	kept	metabat2.bin.069	5322.0	78.0							
+R2_B_D2	V1	concoct.bin.049_sub	concoct	84.0	0.0	11771.0	3287916.0	kept	concoct.bin.049	11771.0	84.0							
+R2_B_D2	V1	metabat2.bin.056	metabat2	84.0	0.0	6376.0	2565235.0	kept	metabat2.bin.056	6376.0	84.0							
+R2_B_D2	V1	maxbin2.Bin.050	maxbin2	86.0	2.0	3392.0	1795962.0	kept	concoct.bin.075	5391.0	73.0							
+R2_B_D2	V1	maxbin2.Bin.165	maxbin2	88.0	4.0	4616.0	3529112.0	kept	maxbin2.Bin.165	5382.0	76.0							
+R2_B_D2	V1	maxbin2.Bin.106_sub	maxbin2	90.0	6.0	6275.0	3628211.0	kept	maxbin2.Bin.106_sub	7659.0	75.0							
+R2_B_D2	V1	concoct.bin.048_sub	concoct	82.0	0.0	5947.0	2909564.0	kept	concoct.bin.048	5947.0	82.0							
+R2_B_D2	V1	maxbin2.Bin.077	maxbin2	82.0	0.0	5738.0	1071428.0	kept	concoct.bin.046	7146.0	75.0							
+R2_B_D2	V1	maxbin2.Bin.018_sub	maxbin2	84.0	2.0	2792.0	2892496.0	kept	concoct.bin.095_sub	4110.0	78.0							
+R2_B_D2	V1	maxbin2.Bin.037_sub	maxbin2	86.0	4.0	4863.0	3508080.0	kept	maxbin2.Bin.037_sub	5819.0	78.0							
+R2_B_D2	V1	metabat2.bin.081	metabat2	80.0	0.0	7891.0	3273084.0	kept	metabat2.bin.081	7891.0	80.0							
+R2_B_D2	V1	maxbin2.Bin.043	maxbin2	80.0	0.0	2319.0	1661499.0	dropped										
+R2_B_D2	V1	metabat2.bin.043_sub	metabat2	82.0	2.0	9048.0	925606.0	kept	metabat2.bin.043	9048.0	82.0							
+R2_B_D2	V1	metabat2.bin.075_sub	metabat2	80.0	2.0	4890.0	2585075.0	kept	metabat2.bin.075_sub	4890.0	80.0							
+R2_B_D2	V1	maxbin2.Bin.030_sub	maxbin2	80.0	4.0	2271.0	2807296.0	dropped										
+R2_B_D2	V1	maxbin2.Bin.026	maxbin2	75.0	0.0	4060.0	3242103.0	dropped										
+R2_B_D2	V1	maxbin2.Bin.105	maxbin2	76.0	2.0	2206.0	3215004.0	dropped										
+R2_B_D2	V1	maxbin2.Bin.052	maxbin2	75.0	2.0	3745.0	2461189.0	kept	metabat2.bin.005_sub	4863.0	51.0							
+R2_B_D2	V1	metabat2.bin.124	metabat2	67.0	0.0	4736.0	2424331.0	kept	metabat2.bin.124_sub	4738.0	67.0							
+R2_B_D2	V1	metabat2.bin.048_sub	metabat2	65.0	0.0	6270.0	2645068.0	kept	metabat2.bin.048_sub	6270.0	65.0							
+R2_B_D2	V1	maxbin2.Bin.035	maxbin2	73.0	8.0	1695.0	1367882.0	dropped										
+R2_B_D2	V1	maxbin2.Bin.002_sub	maxbin2	65.0	2.0	1541.0	1782028.0	dropped										
+R2_B_D2	V1	concoct.bin.085	concoct	61.0	0.0	5574.0	2301366.0	kept	concoct.bin.085_sub	5574.0	61.0							
+R2_B_D2	V1	metabat2.bin.016	metabat2	61.0	0.0	4440.0	459537.0	kept	metabat2.bin.016	4440.0	61.0							
+R2_B_D2	V1	concoct.bin.001_sub	concoct	65.0	4.0	4998.0	2662970.0	kept	metabat2.bin.017_sub	5220.0	65.0							
+R2_B_D2	V1	concoct.bin.018	concoct	59.0	0.0	4242.0	2229942.0	kept	concoct.bin.018	4242.0	59.0							
+R2_B_D2	V1	metabat2.bin.068_sub	metabat2	59.0	0.0	3604.0	2374610.0	kept	metabat2.bin.068_sub	3562.0	71.0							
+R2_B_D2	V1	concoct.bin.105_sub	concoct	59.0	0.0	3484.0	925410.0	kept	concoct.bin.105_sub	3484.0	59.0							
+R2_B_D2	V1	maxbin2.Bin.111_sub	maxbin2	57.0	0.0	1984.0	3012302.0	dropped										
+R2_B_D2	V1	maxbin2.Bin.049_sub	maxbin2	65.0	6.0	3229.0	1588499.0	kept	concoct.bin.014_sub	4418.0	57.0							
+R2_B_D2	V1	maxbin2.Bin.032	maxbin2	65.0	6.0	3217.0	356726.0	dropped										
+R2_B_D2	V1	concoct.bin.115_sub	concoct	67.0	8.0	6089.0	2641065.0	kept	metabat2.bin.109_sub	5965.0	63.0							
+R2_B_D2	V1	maxbin2.Bin.058	maxbin2	55.0	0.0	3587.0	716909.0	dropped										
+R2_B_D2	V1	metabat2.bin.027_sub	metabat2	55.0	0.0	3433.0	573880.0	kept	metabat2.bin.027	3477.0	55.0							
+R2_B_D2	V1	maxbin2.Bin.090_sub	maxbin2	57.0	2.0	1703.0	2543731.0	dropped										
+R2_B_D2	V1	maxbin2.Bin.158_sub	maxbin2	65.0	8.0	2807.0	4655476.0	kept	concoct.bin.017_sub	4026.0	55.0							
+R2_B_D2	V1	concoct.bin.005	concoct	55.0	2.0	4392.0	1778303.0	kept	concoct.bin.005	4392.0	55.0							
+R2_B_D2	V1	metabat2.bin.104_sub	metabat2	55.0	2.0	3963.0	1619223.0	kept	metabat2.bin.104_sub	3963.0	55.0							
+R2_B_D2	V1	concoct.bin.121	concoct	51.0	0.0	35105.0	156541.0	dropped										
+R2_B_D2	V1							new	metabat2.bin.020	4570.0	53.0	0.0	2243982.0	metabat2	True	False	True	0.002
+R2_B_D2	V1							new	metabat2.bin.065_sub	4164.0	57.0	4.0	2167531.0	metabat2	False	False	True	0.0019
+R2_B_D2	V1							new	concoct.bin.098_sub	6430.0	59.0	2.0	3768781.0	concoct	True	False	True	0.0595
+R2_B_D2	V2	maxbin2.Bin.053	maxbin2	100.0	0.0	17146.0	3010289.0	kept	metabat2.bin.025	18229.0	98.0							
+R2_B_D2	V2	concoct.bin.038	concoct	98.0	0.0	7219.0	2832865.0	kept	concoct.bin.038	7945.0	98.0							
+R2_B_D2	V2	metabat2.bin.014	metabat2	98.0	2.0	11511.0	3628251.0	kept	maxbin2.Bin.011	11721.0	98.0							
+R2_B_D2	V2	maxbin2.Bin.005	maxbin2	98.0	2.0	11226.0	3650080.0	kept	maxbin2.Bin.005	12713.0	86.0							
+R2_B_D2	V2	maxbin2.Bin.104	maxbin2	98.0	2.0	10514.0	4537059.0	kept	maxbin2.Bin.104_sub	11845.0	51.0							
+R2_B_D2	V2	concoct.bin.003	concoct	94.0	0.0	8481.0	2263170.0	kept	maxbin2.Bin.033	8947.0	88.0							
+R2_B_D2	V2	metabat2.bin.061	metabat2	96.0	2.0	8125.0	2753946.0	kept	maxbin2.Bin.074	8941.0	92.0							
+R2_B_D2	V2	metabat2.bin.110	metabat2	92.0	0.0	6435.0	2958820.0	kept	metabat2.bin.110	6711.0	80.0							
+R2_B_D2	V2	maxbin2.Bin.003	maxbin2	94.0	2.0	13820.0	3266915.0	kept	metabat2.bin.053	16738.0	84.0							
+R2_B_D2	V2	metabat2.bin.034_sub	metabat2	94.0	2.0	11032.0	3556004.0	kept	maxbin2.Bin.012	11516.0	98.0							
+R2_B_D2	V2	maxbin2.Bin.103	maxbin2	94.0	2.0	3760.0	3936732.0	kept	maxbin2.Bin.103	5781.0	75.0							
+R2_B_D2	V2	concoct.bin.114	concoct	90.0	0.0	25770.0	643455.0	kept	concoct.bin.114	25770.0	88.0							
+R2_B_D2	V2	concoct.bin.110	concoct	90.0	0.0	7879.0	3499770.0	kept	metabat2.bin.116	8535.0	98.0							
+R2_B_D2	V2	metabat2.bin.078	metabat2	90.0	0.0	6989.0	3287528.0	kept	metabat2.bin.078	7429.0	90.0							
+R2_B_D2	V2	maxbin2.Bin.008	maxbin2	90.0	0.0	4970.0	3111788.0	kept	maxbin2.Bin.008	7026.0	75.0							
+R2_B_D2	V2	concoct.bin.063	concoct	92.0	2.0	19461.0	6502101.0	kept	concoct.bin.063	19488.0	92.0							
+R2_B_D2	V2	maxbin2.Bin.004_sub	maxbin2	98.0	8.0	7191.0	2193361.0	kept	metabat2.bin.046	9460.0	80.0							
+R2_B_D2	V2	metabat2.bin.060	metabat2	90.0	2.0	8977.0	2924790.0	kept	metabat2.bin.060	9129.0	88.0							
+R2_B_D2	V2	concoct.bin.011	concoct	92.0	4.0	6240.0	3134231.0	kept	maxbin2.Bin.123	6846.0	84.0							
+R2_B_D2	V2	maxbin2.Bin.015	maxbin2	96.0	8.0	4505.0	3653338.0	kept	concoct.bin.091_sub	6716.0	73.0							
+R2_B_D2	V2	metabat2.bin.019	metabat2	86.0	0.0	5692.0	2659817.0	kept	metabat2.bin.019	5929.0	82.0							
+R2_B_D2	V2	concoct.bin.104	concoct	88.0	2.0	10858.0	830721.0	kept	concoct.bin.104	10980.0	86.0							
+R2_B_D2	V2	concoct.bin.118	concoct	88.0	2.0	8208.0	5805800.0	kept	concoct.bin.118	8463.0	86.0							
+R2_B_D2	V2	maxbin2.Bin.024	maxbin2	94.0	8.0	3949.0	2408496.0	dropped										
+R2_B_D2	V2	concoct.bin.049_sub	concoct	84.0	0.0	11771.0	3287916.0	kept	metabat2.bin.006	11771.0	82.0							
+R2_B_D2	V2	metabat2.bin.056	metabat2	84.0	0.0	6376.0	2565235.0	kept	metabat2.bin.056	6848.0	84.0							
+R2_B_D2	V2	maxbin2.Bin.050	maxbin2	86.0	2.0	3392.0	1795962.0	kept	concoct.bin.075	5861.0	71.0							
+R2_B_D2	V2	maxbin2.Bin.165	maxbin2	88.0	4.0	4616.0	3529112.0	kept	metabat2.bin.052	5814.0	76.0							
+R2_B_D2	V2	maxbin2.Bin.106_sub	maxbin2	90.0	6.0	6275.0	3628211.0	kept	concoct.bin.079_sub	8131.0	71.0							
+R2_B_D2	V2	concoct.bin.048_sub	concoct	82.0	0.0	5947.0	2909564.0	kept	concoct.bin.048	6433.0	78.0							
+R2_B_D2	V2	maxbin2.Bin.077	maxbin2	82.0	0.0	5738.0	1071428.0	kept	concoct.bin.046	7475.0	65.0							
+R2_B_D2	V2	maxbin2.Bin.018_sub	maxbin2	84.0	2.0	2792.0	2892496.0	kept	concoct.bin.095_sub	4628.0	78.0							
+R2_B_D2	V2	maxbin2.Bin.037_sub	maxbin2	86.0	4.0	4863.0	3508080.0	kept	maxbin2.Bin.037_sub	6115.0	67.0							
+R2_B_D2	V2	metabat2.bin.081	metabat2	80.0	0.0	7891.0	3273084.0	kept	metabat2.bin.081	8294.0	78.0							
+R2_B_D2	V2	maxbin2.Bin.043	maxbin2	80.0	0.0	2319.0	1661499.0	dropped										
+R2_B_D2	V2	metabat2.bin.043_sub	metabat2	82.0	2.0	9048.0	925606.0	kept	metabat2.bin.043	9063.0	82.0							
+R2_B_D2	V2	metabat2.bin.075_sub	metabat2	80.0	2.0	4890.0	2585075.0	kept	metabat2.bin.075	5168.0	75.0							
+R2_B_D2	V2	maxbin2.Bin.030_sub	maxbin2	80.0	4.0	2271.0	2807296.0	dropped										
+R2_B_D2	V2	maxbin2.Bin.026	maxbin2	75.0	0.0	4060.0	3242103.0	dropped										
+R2_B_D2	V2	maxbin2.Bin.105	maxbin2	76.0	2.0	2206.0	3215004.0	dropped										
+R2_B_D2	V2	maxbin2.Bin.052	maxbin2	75.0	2.0	3745.0	2461189.0	dropped										
+R2_B_D2	V2	metabat2.bin.124	metabat2	67.0	0.0	4736.0	2424331.0	kept	concoct.bin.094_sub	4808.0	59.0							
+R2_B_D2	V2	metabat2.bin.048_sub	metabat2	65.0	0.0	6270.0	2645068.0	kept	metabat2.bin.048	6581.0	61.0							
+R2_B_D2	V2	maxbin2.Bin.035	maxbin2	73.0	8.0	1695.0	1367882.0	dropped										
+R2_B_D2	V2	maxbin2.Bin.002_sub	maxbin2	65.0	2.0	1541.0	1782028.0	dropped										
+R2_B_D2	V2	concoct.bin.085	concoct	61.0	0.0	5574.0	2301366.0	kept	metabat2.bin.112	6009.0	57.0							
+R2_B_D2	V2	metabat2.bin.016	metabat2	61.0	0.0	4440.0	459537.0	kept	metabat2.bin.016	4681.0	53.0							
+R2_B_D2	V2	concoct.bin.001_sub	concoct	65.0	4.0	4998.0	2662970.0	kept	concoct.bin.001_sub	5294.0	63.0							
+R2_B_D2	V2	concoct.bin.018	concoct	59.0	0.0	4242.0	2229942.0	dropped										
+R2_B_D2	V2	metabat2.bin.068_sub	metabat2	59.0	0.0	3604.0	2374610.0	kept	metabat2.bin.068_sub	4333.0	65.0							
+R2_B_D2	V2	concoct.bin.105_sub	concoct	59.0	0.0	3484.0	925410.0	dropped										
+R2_B_D2	V2	maxbin2.Bin.111_sub	maxbin2	57.0	0.0	1984.0	3012302.0	dropped										
+R2_B_D2	V2	maxbin2.Bin.049_sub	maxbin2	65.0	6.0	3229.0	1588499.0	dropped										
+R2_B_D2	V2	maxbin2.Bin.032	maxbin2	65.0	6.0	3217.0	356726.0	dropped										
+R2_B_D2	V2	concoct.bin.115_sub	concoct	67.0	8.0	6089.0	2641065.0	dropped										
+R2_B_D2	V2	maxbin2.Bin.058	maxbin2	55.0	0.0	3587.0	716909.0	dropped										
+R2_B_D2	V2	metabat2.bin.027_sub	metabat2	55.0	0.0	3433.0	573880.0	dropped										
+R2_B_D2	V2	maxbin2.Bin.090_sub	maxbin2	57.0	2.0	1703.0	2543731.0	dropped										
+R2_B_D2	V2	maxbin2.Bin.158_sub	maxbin2	65.0	8.0	2807.0	4655476.0	dropped										
+R2_B_D2	V2	concoct.bin.005	concoct	55.0	2.0	4392.0	1778303.0	dropped										
+R2_B_D2	V2	metabat2.bin.104_sub	metabat2	55.0	2.0	3963.0	1619223.0	dropped										
+R2_B_D2	V2	concoct.bin.121	concoct	51.0	0.0	35105.0	156541.0	kept	maxbin2.Bin.102_sub	4414.0	65.0							
+R2_B_D2	V2							new	metabat2.bin.035	5494.0	61.0	0.0	1827340.0	metabat2	True	False	True	0.0
+R2_B_D2	V3	maxbin2.Bin.053	maxbin2	100.0	0.0	17146.0	3010289.0	kept	metabat2.bin.025	19554.0	92.0							
+R2_B_D2	V3	concoct.bin.038	concoct	98.0	0.0	7219.0	2832865.0	kept	concoct.bin.038	10300.0	92.0							
+R2_B_D2	V3	metabat2.bin.014	metabat2	98.0	2.0	11511.0	3628251.0	kept	maxbin2.Bin.011	13373.0	98.0							
+R2_B_D2	V3	maxbin2.Bin.005	maxbin2	98.0	2.0	11226.0	3650080.0	kept	maxbin2.Bin.005	14669.0	75.0							
+R2_B_D2	V3	maxbin2.Bin.104	maxbin2	98.0	2.0	10514.0	4537059.0	dropped										
+R2_B_D2	V3	concoct.bin.003	concoct	94.0	0.0	8481.0	2263170.0	kept	maxbin2.Bin.033	11154.0	86.0							
+R2_B_D2	V3	metabat2.bin.061	metabat2	96.0	2.0	8125.0	2753946.0	kept	maxbin2.Bin.074	10698.0	63.0							
+R2_B_D2	V3	metabat2.bin.110	metabat2	92.0	0.0	6435.0	2958820.0	kept	maxbin2.Bin.023	8365.0	73.0							
+R2_B_D2	V3	maxbin2.Bin.003	maxbin2	94.0	2.0	13820.0	3266915.0	kept	metabat2.bin.053	17717.0	84.0							
+R2_B_D2	V3	metabat2.bin.034_sub	metabat2	94.0	2.0	11032.0	3556004.0	kept	maxbin2.Bin.012	13958.0	92.0							
+R2_B_D2	V3	maxbin2.Bin.103	maxbin2	94.0	2.0	3760.0	3936732.0	kept	maxbin2.Bin.103	8022.0	69.0							
+R2_B_D2	V3	concoct.bin.114	concoct	90.0	0.0	25770.0	643455.0	kept	maxbin2.Bin.013	26079.0	88.0							
+R2_B_D2	V3	concoct.bin.110	concoct	90.0	0.0	7879.0	3499770.0	kept	concoct.bin.110	10195.0	90.0							
+R2_B_D2	V3	metabat2.bin.078	metabat2	90.0	0.0	6989.0	3287528.0	kept	metabat2.bin.078	9291.0	78.0							
+R2_B_D2	V3	maxbin2.Bin.008	maxbin2	90.0	0.0	4970.0	3111788.0	dropped										
+R2_B_D2	V3	concoct.bin.063	concoct	92.0	2.0	19461.0	6502101.0	kept	concoct.bin.063	20290.0	92.0							
+R2_B_D2	V3	maxbin2.Bin.004_sub	maxbin2	98.0	8.0	7191.0	2193361.0	kept	metabat2.bin.046	12220.0	65.0							
+R2_B_D2	V3	metabat2.bin.060	metabat2	90.0	2.0	8977.0	2924790.0	kept	concoct.bin.031	10567.0	86.0							
+R2_B_D2	V3	concoct.bin.011	concoct	92.0	4.0	6240.0	3134231.0	kept	maxbin2.Bin.123_sub	7896.0	61.0							
+R2_B_D2	V3	maxbin2.Bin.015	maxbin2	96.0	8.0	4505.0	3653338.0	kept	concoct.bin.091_sub	8091.0	51.0							
+R2_B_D2	V3	metabat2.bin.019	metabat2	86.0	0.0	5692.0	2659817.0	kept	metabat2.bin.019	8489.0	69.0							
+R2_B_D2	V3	concoct.bin.104	concoct	88.0	2.0	10858.0	830721.0	kept	concoct.bin.104	11548.0	67.0							
+R2_B_D2	V3	concoct.bin.118	concoct	88.0	2.0	8208.0	5805800.0	kept	maxbin2.Bin.146_sub	10357.0	67.0							
+R2_B_D2	V3	maxbin2.Bin.024	maxbin2	94.0	8.0	3949.0	2408496.0	kept	metabat2.bin.069	7131.0	53.0							
+R2_B_D2	V3	concoct.bin.049_sub	concoct	84.0	0.0	11771.0	3287916.0	kept	concoct.bin.049_sub	12805.0	53.0							
+R2_B_D2	V3	metabat2.bin.056	metabat2	84.0	0.0	6376.0	2565235.0	kept	concoct.bin.102	8459.0	71.0							
+R2_B_D2	V3	maxbin2.Bin.050	maxbin2	86.0	2.0	3392.0	1795962.0	dropped										
+R2_B_D2	V3	maxbin2.Bin.165	maxbin2	88.0	4.0	4616.0	3529112.0	kept	metabat2.bin.052	8055.0	57.0							
+R2_B_D2	V3	maxbin2.Bin.106_sub	maxbin2	90.0	6.0	6275.0	3628211.0	kept	maxbin2.Bin.106	9769.0	61.0							
+R2_B_D2	V3	concoct.bin.048_sub	concoct	82.0	0.0	5947.0	2909564.0	dropped										
+R2_B_D2	V3	maxbin2.Bin.077	maxbin2	82.0	0.0	5738.0	1071428.0	kept	metabat2.bin.123	8895.0	57.0							
+R2_B_D2	V3	maxbin2.Bin.018_sub	maxbin2	84.0	2.0	2792.0	2892496.0	kept	concoct.bin.095_sub	6367.0	61.0							
+R2_B_D2	V3	maxbin2.Bin.037_sub	maxbin2	86.0	4.0	4863.0	3508080.0	kept	maxbin2.Bin.037	7836.0	57.0							
+R2_B_D2	V3	metabat2.bin.081	metabat2	80.0	0.0	7891.0	3273084.0	dropped										
+R2_B_D2	V3	maxbin2.Bin.043	maxbin2	80.0	0.0	2319.0	1661499.0	dropped										
+R2_B_D2	V3	metabat2.bin.043_sub	metabat2	82.0	2.0	9048.0	925606.0	kept	metabat2.bin.043	10777.0	71.0							
+R2_B_D2	V3	metabat2.bin.075_sub	metabat2	80.0	2.0	4890.0	2585075.0	dropped										
+R2_B_D2	V3	maxbin2.Bin.030_sub	maxbin2	80.0	4.0	2271.0	2807296.0	dropped										
+R2_B_D2	V3	maxbin2.Bin.026	maxbin2	75.0	0.0	4060.0	3242103.0	dropped										
+R2_B_D2	V3	maxbin2.Bin.105	maxbin2	76.0	2.0	2206.0	3215004.0	dropped										
+R2_B_D2	V3	maxbin2.Bin.052	maxbin2	75.0	2.0	3745.0	2461189.0	dropped										
+R2_B_D2	V3	metabat2.bin.124	metabat2	67.0	0.0	4736.0	2424331.0	dropped										
+R2_B_D2	V3	metabat2.bin.048_sub	metabat2	65.0	0.0	6270.0	2645068.0	dropped										
+R2_B_D2	V3	maxbin2.Bin.035	maxbin2	73.0	8.0	1695.0	1367882.0	dropped										
+R2_B_D2	V3	maxbin2.Bin.002_sub	maxbin2	65.0	2.0	1541.0	1782028.0	dropped										
+R2_B_D2	V3	concoct.bin.085	concoct	61.0	0.0	5574.0	2301366.0	dropped										
+R2_B_D2	V3	metabat2.bin.016	metabat2	61.0	0.0	4440.0	459537.0	dropped										
+R2_B_D2	V3	concoct.bin.001_sub	concoct	65.0	4.0	4998.0	2662970.0	dropped										
+R2_B_D2	V3	concoct.bin.018	concoct	59.0	0.0	4242.0	2229942.0	dropped										
+R2_B_D2	V3	metabat2.bin.068_sub	metabat2	59.0	0.0	3604.0	2374610.0	dropped										
+R2_B_D2	V3	concoct.bin.105_sub	concoct	59.0	0.0	3484.0	925410.0	dropped										
+R2_B_D2	V3	maxbin2.Bin.111_sub	maxbin2	57.0	0.0	1984.0	3012302.0	dropped										
+R2_B_D2	V3	maxbin2.Bin.049_sub	maxbin2	65.0	6.0	3229.0	1588499.0	dropped										
+R2_B_D2	V3	maxbin2.Bin.032	maxbin2	65.0	6.0	3217.0	356726.0	dropped										
+R2_B_D2	V3	concoct.bin.115_sub	concoct	67.0	8.0	6089.0	2641065.0	dropped										
+R2_B_D2	V3	maxbin2.Bin.058	maxbin2	55.0	0.0	3587.0	716909.0	dropped										
+R2_B_D2	V3	metabat2.bin.027_sub	metabat2	55.0	0.0	3433.0	573880.0	dropped										
+R2_B_D2	V3	maxbin2.Bin.090_sub	maxbin2	57.0	2.0	1703.0	2543731.0	dropped										
+R2_B_D2	V3	maxbin2.Bin.158_sub	maxbin2	65.0	8.0	2807.0	4655476.0	dropped										
+R2_B_D2	V3	concoct.bin.005	concoct	55.0	2.0	4392.0	1778303.0	dropped										
+R2_B_D2	V3	metabat2.bin.104_sub	metabat2	55.0	2.0	3963.0	1619223.0	dropped										
+R2_B_D2	V3	concoct.bin.121	concoct	51.0	0.0	35105.0	156541.0	kept	maxbin2.Bin.102	10645.0	53.0							
+R2_B_D2	V3							new	metabat2.bin.066	8334.0	92.0	6.0	3963302.0	metabat2	False	False	False	0.0021
+R2_B_D2	V3							new	maxbin2.Bin.025_sub	7588.0	53.0	0.0	1222310.0	maxbin2	True	False	True	0.0
+R2_B_D2	V4	maxbin2.Bin.053	maxbin2	100.0	0.0	17146.0	3010289.0	kept	metabat2.bin.025	18215.0	98.0							
+R2_B_D2	V4	concoct.bin.038	concoct	98.0	0.0	7219.0	2832865.0	kept	concoct.bin.038	7219.0	98.0							
+R2_B_D2	V4	metabat2.bin.014	metabat2	98.0	2.0	11511.0	3628251.0	kept	metabat2.bin.014	11511.0	98.0							
+R2_B_D2	V4	maxbin2.Bin.005	maxbin2	98.0	2.0	11226.0	3650080.0	kept	metabat2.bin.088	12648.0	90.0							
+R2_B_D2	V4	maxbin2.Bin.104	maxbin2	98.0	2.0	10514.0	4537059.0	kept	metabat2.bin.098_sub	11392.0	55.0							
+R2_B_D2	V4	concoct.bin.003	concoct	94.0	0.0	8481.0	2263170.0	kept	concoct.bin.003	8481.0	94.0							
+R2_B_D2	V4	metabat2.bin.061	metabat2	96.0	2.0	8125.0	2753946.0	kept	metabat2.bin.061	8125.0	96.0							
+R2_B_D2	V4	metabat2.bin.110	metabat2	92.0	0.0	6435.0	2958820.0	kept	metabat2.bin.110	6435.0	92.0							
+R2_B_D2	V4	maxbin2.Bin.003	maxbin2	94.0	2.0	13820.0	3266915.0	kept	metabat2.bin.053	16290.0	84.0							
+R2_B_D2	V4	metabat2.bin.034_sub	metabat2	94.0	2.0	11032.0	3556004.0	kept	metabat2.bin.034	11032.0	94.0							
+R2_B_D2	V4	maxbin2.Bin.103	maxbin2	94.0	2.0	3760.0	3936732.0	kept	concoct.bin.123	5369.0	75.0							
+R2_B_D2	V4	concoct.bin.114	concoct	90.0	0.0	25770.0	643455.0	kept	concoct.bin.114	25770.0	90.0							
+R2_B_D2	V4	concoct.bin.110	concoct	90.0	0.0	7879.0	3499770.0	kept	concoct.bin.110	7879.0	90.0							
+R2_B_D2	V4	metabat2.bin.078	metabat2	90.0	0.0	6989.0	3287528.0	kept	metabat2.bin.078	6989.0	90.0							
+R2_B_D2	V4	maxbin2.Bin.008	maxbin2	90.0	0.0	4970.0	3111788.0	kept	metabat2.bin.107_sub	7018.0	71.0							
+R2_B_D2	V4	concoct.bin.063	concoct	92.0	2.0	19461.0	6502101.0	kept	concoct.bin.063	19461.0	92.0							
+R2_B_D2	V4	maxbin2.Bin.004_sub	maxbin2	98.0	8.0	7191.0	2193361.0	kept	metabat2.bin.046	9048.0	84.0							
+R2_B_D2	V4	metabat2.bin.060	metabat2	90.0	2.0	8977.0	2924790.0	kept	metabat2.bin.060	8977.0	90.0							
+R2_B_D2	V4	concoct.bin.011	concoct	92.0	4.0	6240.0	3134231.0	kept	concoct.bin.011	6240.0	92.0							
+R2_B_D2	V4	maxbin2.Bin.015	maxbin2	96.0	8.0	4505.0	3653338.0	kept	concoct.bin.091_sub	6255.0	78.0							
+R2_B_D2	V4	metabat2.bin.019	metabat2	86.0	0.0	5692.0	2659817.0	kept	metabat2.bin.019	5692.0	86.0							
+R2_B_D2	V4	concoct.bin.104	concoct	88.0	2.0	10858.0	830721.0	kept	concoct.bin.104	10858.0	88.0							
+R2_B_D2	V4	concoct.bin.118	concoct	88.0	2.0	8208.0	5805800.0	kept	concoct.bin.118	8208.0	88.0							
+R2_B_D2	V4	maxbin2.Bin.024	maxbin2	94.0	8.0	3949.0	2408496.0	kept	metabat2.bin.069	5322.0	78.0							
+R2_B_D2	V4	concoct.bin.049_sub	concoct	84.0	0.0	11771.0	3287916.0	kept	concoct.bin.049	11771.0	84.0							
+R2_B_D2	V4	metabat2.bin.056	metabat2	84.0	0.0	6376.0	2565235.0	kept	metabat2.bin.056	6376.0	84.0							
+R2_B_D2	V4	maxbin2.Bin.050	maxbin2	86.0	2.0	3392.0	1795962.0	kept	concoct.bin.075	5391.0	73.0							
+R2_B_D2	V4	maxbin2.Bin.165	maxbin2	88.0	4.0	4616.0	3529112.0	kept	metabat2.bin.052	5381.0	76.0							
+R2_B_D2	V4	maxbin2.Bin.106_sub	maxbin2	90.0	6.0	6275.0	3628211.0	kept	concoct.bin.079_sub	7682.0	71.0							
+R2_B_D2	V4	concoct.bin.048_sub	concoct	82.0	0.0	5947.0	2909564.0	kept	concoct.bin.048	5947.0	82.0							
+R2_B_D2	V4	maxbin2.Bin.077	maxbin2	82.0	0.0	5738.0	1071428.0	kept	concoct.bin.046	7146.0	75.0							
+R2_B_D2	V4	maxbin2.Bin.018_sub	maxbin2	84.0	2.0	2792.0	2892496.0	kept	concoct.bin.095_sub	4110.0	78.0							
+R2_B_D2	V4	maxbin2.Bin.037_sub	maxbin2	86.0	4.0	4863.0	3508080.0	kept	concoct.bin.078	5738.0	73.0							
+R2_B_D2	V4	metabat2.bin.081	metabat2	80.0	0.0	7891.0	3273084.0	kept	metabat2.bin.081	7891.0	80.0							
+R2_B_D2	V4	maxbin2.Bin.043	maxbin2	80.0	0.0	2319.0	1661499.0	dropped										
+R2_B_D2	V4	metabat2.bin.043_sub	metabat2	82.0	2.0	9048.0	925606.0	kept	metabat2.bin.043	9048.0	82.0							
+R2_B_D2	V4	metabat2.bin.075_sub	metabat2	80.0	2.0	4890.0	2585075.0	kept	metabat2.bin.075_sub	4890.0	80.0							
+R2_B_D2	V4	maxbin2.Bin.030_sub	maxbin2	80.0	4.0	2271.0	2807296.0	dropped										
+R2_B_D2	V4	maxbin2.Bin.026	maxbin2	75.0	0.0	4060.0	3242103.0	dropped										
+R2_B_D2	V4	maxbin2.Bin.105	maxbin2	76.0	2.0	2206.0	3215004.0	dropped										
+R2_B_D2	V4	maxbin2.Bin.052	maxbin2	75.0	2.0	3745.0	2461189.0	kept	metabat2.bin.005_sub	4863.0	51.0							
+R2_B_D2	V4	metabat2.bin.124	metabat2	67.0	0.0	4736.0	2424331.0	kept	metabat2.bin.124	4736.0	67.0							
+R2_B_D2	V4	metabat2.bin.048_sub	metabat2	65.0	0.0	6270.0	2645068.0	kept	metabat2.bin.048	6270.0	65.0							
+R2_B_D2	V4	maxbin2.Bin.035	maxbin2	73.0	8.0	1695.0	1367882.0	dropped										
+R2_B_D2	V4	maxbin2.Bin.002_sub	maxbin2	65.0	2.0	1541.0	1782028.0	dropped										
+R2_B_D2	V4	concoct.bin.085	concoct	61.0	0.0	5574.0	2301366.0	kept	concoct.bin.085	5574.0	61.0							
+R2_B_D2	V4	metabat2.bin.016	metabat2	61.0	0.0	4440.0	459537.0	kept	metabat2.bin.016	4440.0	61.0							
+R2_B_D2	V4	concoct.bin.001_sub	concoct	65.0	4.0	4998.0	2662970.0	kept	metabat2.bin.017_sub	5233.0	65.0							
+R2_B_D2	V4	concoct.bin.018	concoct	59.0	0.0	4242.0	2229942.0	kept	concoct.bin.018	4242.0	59.0							
+R2_B_D2	V4	metabat2.bin.068_sub	metabat2	59.0	0.0	3604.0	2374610.0	kept	metabat2.bin.068_sub	3579.0	71.0							
+R2_B_D2	V4	concoct.bin.105_sub	concoct	59.0	0.0	3484.0	925410.0	kept	concoct.bin.105_sub	3474.0	59.0							
+R2_B_D2	V4	maxbin2.Bin.111_sub	maxbin2	57.0	0.0	1984.0	3012302.0	dropped										
+R2_B_D2	V4	maxbin2.Bin.049_sub	maxbin2	65.0	6.0	3229.0	1588499.0	dropped										
+R2_B_D2	V4	maxbin2.Bin.032	maxbin2	65.0	6.0	3217.0	356726.0	dropped										
+R2_B_D2	V4	concoct.bin.115_sub	concoct	67.0	8.0	6089.0	2641065.0	kept	concoct.bin.115_sub	6089.0	67.0							
+R2_B_D2	V4	maxbin2.Bin.058	maxbin2	55.0	0.0	3587.0	716909.0	dropped										
+R2_B_D2	V4	metabat2.bin.027_sub	metabat2	55.0	0.0	3433.0	573880.0	kept	metabat2.bin.027	3477.0	55.0							
+R2_B_D2	V4	maxbin2.Bin.090_sub	maxbin2	57.0	2.0	1703.0	2543731.0	dropped										
+R2_B_D2	V4	maxbin2.Bin.158_sub	maxbin2	65.0	8.0	2807.0	4655476.0	kept	concoct.bin.017_sub	4026.0	55.0							
+R2_B_D2	V4	concoct.bin.005	concoct	55.0	2.0	4392.0	1778303.0	kept	concoct.bin.005	4392.0	55.0							
+R2_B_D2	V4	metabat2.bin.104_sub	metabat2	55.0	2.0	3963.0	1619223.0	kept	metabat2.bin.104_sub	3963.0	55.0							
+R2_B_D2	V4	concoct.bin.121	concoct	51.0	0.0	35105.0	156541.0	kept	concoct.bin.121	35105.0	51.0							
+R2_B_D2	V4							new	metabat2.bin.020	4570.0	53.0	0.0	2243982.0	metabat2	True	False	True	0.002
+R2_B_D2	V4							new	metabat2.bin.035	5119.0	71.0	0.0	2018733.0	metabat2	True	False	True	0.0
+R2_B_D2	V4							new	concoct.bin.098_sub	6430.0	59.0	2.0	3800121.0	concoct	True	False	True	0.012
+R2_B_D2	V4							new	metabat2.bin.065	4164.0	57.0	4.0	2170116.0	metabat2	False	False	True	0.0019
+R2_B_D2	V5	maxbin2.Bin.053	maxbin2	100.0	0.0	17146.0	3010289.0	kept	maxbin2.Bin.053	17146.0	100.0							
+R2_B_D2	V5	concoct.bin.038	concoct	98.0	0.0	7219.0	2832865.0	kept	concoct.bin.038.ge3000	7945.0	98.0							
+R2_B_D2	V5	metabat2.bin.014	metabat2	98.0	2.0	11511.0	3628251.0	kept	maxbin2.Bin.011.ge5000	13373.0	98.0							
+R2_B_D2	V5	maxbin2.Bin.005	maxbin2	98.0	2.0	11226.0	3650080.0	kept	maxbin2.Bin.005	11226.0	98.0							
+R2_B_D2	V5	maxbin2.Bin.104	maxbin2	98.0	2.0	10514.0	4537059.0	kept	maxbin2.Bin.104	10514.0	98.0							
+R2_B_D2	V5	concoct.bin.003	concoct	94.0	0.0	8481.0	2263170.0	kept	maxbin2.Bin.033.ge2500	8764.0	94.0							
+R2_B_D2	V5	metabat2.bin.061	metabat2	96.0	2.0	8125.0	2753946.0	kept	maxbin2.Bin.074.ge2500	8546.0	96.0							
+R2_B_D2	V5	metabat2.bin.110	metabat2	92.0	0.0	6435.0	2958820.0	kept	metabat2.bin.110	6435.0	92.0							
+R2_B_D2	V5	maxbin2.Bin.003	maxbin2	94.0	2.0	13820.0	3266915.0	kept	maxbin2.Bin.003	13820.0	94.0							
+R2_B_D2	V5	metabat2.bin.034_sub	metabat2	94.0	2.0	11032.0	3556004.0	kept	maxbin2.Bin.012.ge3000	11516.0	98.0							
+R2_B_D2	V5	maxbin2.Bin.103	maxbin2	94.0	2.0	3760.0	3936732.0	kept	maxbin2.Bin.103	3760.0	94.0							
+R2_B_D2	V5	concoct.bin.114	concoct	90.0	0.0	25770.0	643455.0	kept	concoct.bin.114	25770.0	90.0							
+R2_B_D2	V5	concoct.bin.110	concoct	90.0	0.0	7879.0	3499770.0	kept	metabat2.bin.116.ge3000	8535.0	98.0							
+R2_B_D2	V5	metabat2.bin.078	metabat2	90.0	0.0	6989.0	3287528.0	kept	metabat2.bin.078.ge3000	7429.0	90.0							
+R2_B_D2	V5	maxbin2.Bin.008	maxbin2	90.0	0.0	4970.0	3111788.0	kept	maxbin2.Bin.008	4970.0	90.0							
+R2_B_D2	V5	concoct.bin.063	concoct	92.0	2.0	19461.0	6502101.0	kept	concoct.bin.063.ge5000	20290.0	92.0							
+R2_B_D2	V5	maxbin2.Bin.004_sub	maxbin2	98.0	8.0	7191.0	2193361.0	kept	maxbin2.Bin.004	7212.0	98.0							
+R2_B_D2	V5	metabat2.bin.060	metabat2	90.0	2.0	8977.0	2924790.0	kept	metabat2.bin.060	8977.0	90.0							
+R2_B_D2	V5	concoct.bin.011	concoct	92.0	4.0	6240.0	3134231.0	kept	maxbin2.Bin.123.ge2500	6266.0	92.0							
+R2_B_D2	V5	maxbin2.Bin.015	maxbin2	96.0	8.0	4505.0	3653338.0	kept	maxbin2.Bin.015	4505.0	96.0							
+R2_B_D2	V5	metabat2.bin.019	metabat2	86.0	0.0	5692.0	2659817.0	kept	metabat2.bin.019	5692.0	86.0							
+R2_B_D2	V5	concoct.bin.104	concoct	88.0	2.0	10858.0	830721.0	kept	concoct.bin.104	10858.0	88.0							
+R2_B_D2	V5	concoct.bin.118	concoct	88.0	2.0	8208.0	5805800.0	kept	concoct.bin.118	8208.0	88.0							
+R2_B_D2	V5	maxbin2.Bin.024	maxbin2	94.0	8.0	3949.0	2408496.0	kept	maxbin2.Bin.024	3949.0	94.0							
+R2_B_D2	V5	concoct.bin.049_sub	concoct	84.0	0.0	11771.0	3287916.0	kept	concoct.bin.049_sub	11771.0	84.0							
+R2_B_D2	V5	metabat2.bin.056	metabat2	84.0	0.0	6376.0	2565235.0	kept	metabat2.bin.056.ge3000	6848.0	84.0							
+R2_B_D2	V5	maxbin2.Bin.050	maxbin2	86.0	2.0	3392.0	1795962.0	kept	maxbin2.Bin.050	3392.0	86.0							
+R2_B_D2	V5	maxbin2.Bin.165	maxbin2	88.0	4.0	4616.0	3529112.0	kept	maxbin2.Bin.165	4616.0	88.0							
+R2_B_D2	V5	maxbin2.Bin.106_sub	maxbin2	90.0	6.0	6275.0	3628211.0	kept	maxbin2.Bin.106_sub	6275.0	90.0							
+R2_B_D2	V5	concoct.bin.048_sub	concoct	82.0	0.0	5947.0	2909564.0	kept	concoct.bin.048_sub	5947.0	82.0							
+R2_B_D2	V5	maxbin2.Bin.077	maxbin2	82.0	0.0	5738.0	1071428.0	kept	maxbin2.Bin.077	5738.0	82.0							
+R2_B_D2	V5	maxbin2.Bin.018_sub	maxbin2	84.0	2.0	2792.0	2892496.0	kept	maxbin2.Bin.018_sub	2792.0	84.0							
+R2_B_D2	V5	maxbin2.Bin.037_sub	maxbin2	86.0	4.0	4863.0	3508080.0	kept	maxbin2.Bin.037_sub	4863.0	86.0							
+R2_B_D2	V5	metabat2.bin.081	metabat2	80.0	0.0	7891.0	3273084.0	kept	metabat2.bin.081	7891.0	80.0							
+R2_B_D2	V5	maxbin2.Bin.043	maxbin2	80.0	0.0	2319.0	1661499.0	kept	maxbin2.Bin.043	2319.0	80.0							
+R2_B_D2	V5	metabat2.bin.043_sub	metabat2	82.0	2.0	9048.0	925606.0	kept	metabat2.bin.043.ge3000_sub	9097.0	82.0							
+R2_B_D2	V5	metabat2.bin.075_sub	metabat2	80.0	2.0	4890.0	2585075.0	kept	metabat2.bin.075_sub	4890.0	80.0							
+R2_B_D2	V5	maxbin2.Bin.030_sub	maxbin2	80.0	4.0	2271.0	2807296.0	kept	maxbin2.Bin.030	2292.0	80.0							
+R2_B_D2	V5	maxbin2.Bin.026	maxbin2	75.0	0.0	4060.0	3242103.0	kept	maxbin2.Bin.026	4060.0	75.0							
+R2_B_D2	V5	maxbin2.Bin.105	maxbin2	76.0	2.0	2206.0	3215004.0	kept	maxbin2.Bin.105	2206.0	76.0							
+R2_B_D2	V5	maxbin2.Bin.052	maxbin2	75.0	2.0	3745.0	2461189.0	kept	maxbin2.Bin.052	3745.0	75.0							
+R2_B_D2	V5	metabat2.bin.124	metabat2	67.0	0.0	4736.0	2424331.0	kept	metabat2.bin.124_sub	4738.0	67.0							
+R2_B_D2	V5	metabat2.bin.048_sub	metabat2	65.0	0.0	6270.0	2645068.0	kept	metabat2.bin.048_sub	6270.0	65.0							
+R2_B_D2	V5	maxbin2.Bin.035	maxbin2	73.0	8.0	1695.0	1367882.0	kept	maxbin2.Bin.035	1695.0	73.0							
+R2_B_D2	V5	maxbin2.Bin.002_sub	maxbin2	65.0	2.0	1541.0	1782028.0	dropped										
+R2_B_D2	V5	concoct.bin.085	concoct	61.0	0.0	5574.0	2301366.0	kept	concoct.bin.085_sub	5574.0	61.0							
+R2_B_D2	V5	metabat2.bin.016	metabat2	61.0	0.0	4440.0	459537.0	kept	metabat2.bin.016	4440.0	61.0							
+R2_B_D2	V5	concoct.bin.001_sub	concoct	65.0	4.0	4998.0	2662970.0	kept	concoct.bin.001.ge3000_sub	5294.0	63.0							
+R2_B_D2	V5	concoct.bin.018	concoct	59.0	0.0	4242.0	2229942.0	kept	concoct.bin.018	4242.0	59.0							
+R2_B_D2	V5	metabat2.bin.068_sub	metabat2	59.0	0.0	3604.0	2374610.0	kept	metabat2.bin.068.ge3000_sub	4343.0	65.0							
+R2_B_D2	V5	concoct.bin.105_sub	concoct	59.0	0.0	3484.0	925410.0	kept	concoct.bin.105_sub	3474.0	59.0							
+R2_B_D2	V5	maxbin2.Bin.111_sub	maxbin2	57.0	0.0	1984.0	3012302.0	kept	maxbin2.Bin.111_sub	1984.0	57.0							
+R2_B_D2	V5	maxbin2.Bin.049_sub	maxbin2	65.0	6.0	3229.0	1588499.0	kept	maxbin2.Bin.049_sub	3229.0	65.0							
+R2_B_D2	V5	maxbin2.Bin.032	maxbin2	65.0	6.0	3217.0	356726.0	kept	maxbin2.Bin.032	3217.0	65.0							
+R2_B_D2	V5	concoct.bin.115_sub	concoct	67.0	8.0	6089.0	2641065.0	kept	metabat2.bin.109_sub	5965.0	63.0							
+R2_B_D2	V5	maxbin2.Bin.058	maxbin2	55.0	0.0	3587.0	716909.0	kept	maxbin2.Bin.058	3587.0	55.0							
+R2_B_D2	V5	metabat2.bin.027_sub	metabat2	55.0	0.0	3433.0	573880.0	kept	metabat2.bin.027_sub	3433.0	55.0							
+R2_B_D2	V5	maxbin2.Bin.090_sub	maxbin2	57.0	2.0	1703.0	2543731.0	kept	maxbin2.Bin.090_sub	1709.0	57.0							
+R2_B_D2	V5	maxbin2.Bin.158_sub	maxbin2	65.0	8.0	2807.0	4655476.0	kept	maxbin2.Bin.158	2807.0	65.0							
+R2_B_D2	V5	concoct.bin.005	concoct	55.0	2.0	4392.0	1778303.0	kept	concoct.bin.005	4392.0	55.0							
+R2_B_D2	V5	metabat2.bin.104_sub	metabat2	55.0	2.0	3963.0	1619223.0	kept	metabat2.bin.104_sub	3963.0	55.0							
+R2_B_D2	V5	concoct.bin.121	concoct	51.0	0.0	35105.0	156541.0	kept	maxbin2.Bin.102.ge3000_sub	4414.0	65.0							
+R2_B_D2	V5							new	metabat2.bin.066.ge5000_sub	8334.0	92.0	6.0	3958129.0	metabat2_ge5000	False	False	False	0.0
+R2_B_D2	V6	maxbin2.Bin.053	maxbin2	100.0	0.0	17146.0	3010289.0	kept	maxbin2.Bin.053	17146.0	100.0							
+R2_B_D2	V6	concoct.bin.038	concoct	98.0	0.0	7219.0	2832865.0	kept	concoct.bin.038	7219.0	98.0							
+R2_B_D2	V6	metabat2.bin.014	metabat2	98.0	2.0	11511.0	3628251.0	kept	maxbin2.Bin.011.ge5000	13373.0	98.0							
+R2_B_D2	V6	maxbin2.Bin.005	maxbin2	98.0	2.0	11226.0	3650080.0	kept	maxbin2.Bin.005	11226.0	98.0							
+R2_B_D2	V6	maxbin2.Bin.104	maxbin2	98.0	2.0	10514.0	4537059.0	kept	maxbin2.Bin.104	10514.0	98.0							
+R2_B_D2	V6	concoct.bin.003	concoct	94.0	0.0	8481.0	2263170.0	kept	concoct.bin.003	8481.0	94.0							
+R2_B_D2	V6	metabat2.bin.061	metabat2	96.0	2.0	8125.0	2753946.0	kept	metabat2.bin.061	8125.0	96.0							
+R2_B_D2	V6	metabat2.bin.110	metabat2	92.0	0.0	6435.0	2958820.0	kept	metabat2.bin.110	6435.0	92.0							
+R2_B_D2	V6	maxbin2.Bin.003	maxbin2	94.0	2.0	13820.0	3266915.0	kept	maxbin2.Bin.003	13820.0	94.0							
+R2_B_D2	V6	metabat2.bin.034_sub	metabat2	94.0	2.0	11032.0	3556004.0	kept	maxbin2.Bin.012.ge5000	13958.0	92.0							
+R2_B_D2	V6	maxbin2.Bin.103	maxbin2	94.0	2.0	3760.0	3936732.0	kept	maxbin2.Bin.103	3760.0	94.0							
+R2_B_D2	V6	concoct.bin.114	concoct	90.0	0.0	25770.0	643455.0	kept	concoct.bin.114	25770.0	90.0							
+R2_B_D2	V6	concoct.bin.110	concoct	90.0	0.0	7879.0	3499770.0	kept	concoct.bin.110.ge5000	10195.0	90.0							
+R2_B_D2	V6	metabat2.bin.078	metabat2	90.0	0.0	6989.0	3287528.0	kept	metabat2.bin.078	6989.0	90.0							
+R2_B_D2	V6	maxbin2.Bin.008	maxbin2	90.0	0.0	4970.0	3111788.0	kept	maxbin2.Bin.008	4970.0	90.0							
+R2_B_D2	V6	concoct.bin.063	concoct	92.0	2.0	19461.0	6502101.0	kept	concoct.bin.063.ge5000	20290.0	92.0							
+R2_B_D2	V6	maxbin2.Bin.004_sub	maxbin2	98.0	8.0	7191.0	2193361.0	kept	maxbin2.Bin.004	7212.0	98.0							
+R2_B_D2	V6	metabat2.bin.060	metabat2	90.0	2.0	8977.0	2924790.0	kept	metabat2.bin.060	8977.0	90.0							
+R2_B_D2	V6	concoct.bin.011	concoct	92.0	4.0	6240.0	3134231.0	kept	concoct.bin.011	6240.0	92.0							
+R2_B_D2	V6	maxbin2.Bin.015	maxbin2	96.0	8.0	4505.0	3653338.0	kept	maxbin2.Bin.015	4505.0	96.0							
+R2_B_D2	V6	metabat2.bin.019	metabat2	86.0	0.0	5692.0	2659817.0	kept	metabat2.bin.019	5692.0	86.0							
+R2_B_D2	V6	concoct.bin.104	concoct	88.0	2.0	10858.0	830721.0	kept	concoct.bin.104	10858.0	88.0							
+R2_B_D2	V6	concoct.bin.118	concoct	88.0	2.0	8208.0	5805800.0	kept	concoct.bin.118	8208.0	88.0							
+R2_B_D2	V6	maxbin2.Bin.024	maxbin2	94.0	8.0	3949.0	2408496.0	kept	maxbin2.Bin.024	3949.0	94.0							
+R2_B_D2	V6	concoct.bin.049_sub	concoct	84.0	0.0	11771.0	3287916.0	kept	concoct.bin.049_sub	11771.0	84.0							
+R2_B_D2	V6	metabat2.bin.056	metabat2	84.0	0.0	6376.0	2565235.0	kept	metabat2.bin.056	6376.0	84.0							
+R2_B_D2	V6	maxbin2.Bin.050	maxbin2	86.0	2.0	3392.0	1795962.0	kept	maxbin2.Bin.050	3392.0	86.0							
+R2_B_D2	V6	maxbin2.Bin.165	maxbin2	88.0	4.0	4616.0	3529112.0	kept	maxbin2.Bin.165	4616.0	88.0							
+R2_B_D2	V6	maxbin2.Bin.106_sub	maxbin2	90.0	6.0	6275.0	3628211.0	kept	maxbin2.Bin.106_sub	6275.0	90.0							
+R2_B_D2	V6	concoct.bin.048_sub	concoct	82.0	0.0	5947.0	2909564.0	kept	concoct.bin.048_sub	5947.0	82.0							
+R2_B_D2	V6	maxbin2.Bin.077	maxbin2	82.0	0.0	5738.0	1071428.0	kept	maxbin2.Bin.077	5738.0	82.0							
+R2_B_D2	V6	maxbin2.Bin.018_sub	maxbin2	84.0	2.0	2792.0	2892496.0	kept	maxbin2.Bin.018_sub	2792.0	84.0							
+R2_B_D2	V6	maxbin2.Bin.037_sub	maxbin2	86.0	4.0	4863.0	3508080.0	kept	maxbin2.Bin.037_sub	4863.0	86.0							
+R2_B_D2	V6	metabat2.bin.081	metabat2	80.0	0.0	7891.0	3273084.0	kept	metabat2.bin.081	7891.0	80.0							
+R2_B_D2	V6	maxbin2.Bin.043	maxbin2	80.0	0.0	2319.0	1661499.0	kept	maxbin2.Bin.043	2319.0	80.0							
+R2_B_D2	V6	metabat2.bin.043_sub	metabat2	82.0	2.0	9048.0	925606.0	kept	metabat2.bin.043_sub	9048.0	82.0							
+R2_B_D2	V6	metabat2.bin.075_sub	metabat2	80.0	2.0	4890.0	2585075.0	kept	metabat2.bin.075_sub	4890.0	80.0							
+R2_B_D2	V6	maxbin2.Bin.030_sub	maxbin2	80.0	4.0	2271.0	2807296.0	kept	maxbin2.Bin.030	2292.0	80.0							
+R2_B_D2	V6	maxbin2.Bin.026	maxbin2	75.0	0.0	4060.0	3242103.0	kept	maxbin2.Bin.026	4060.0	75.0							
+R2_B_D2	V6	maxbin2.Bin.105	maxbin2	76.0	2.0	2206.0	3215004.0	kept	maxbin2.Bin.105	2206.0	76.0							
+R2_B_D2	V6	maxbin2.Bin.052	maxbin2	75.0	2.0	3745.0	2461189.0	kept	maxbin2.Bin.052	3745.0	75.0							
+R2_B_D2	V6	metabat2.bin.124	metabat2	67.0	0.0	4736.0	2424331.0	kept	metabat2.bin.124	4736.0	67.0							
+R2_B_D2	V6	metabat2.bin.048_sub	metabat2	65.0	0.0	6270.0	2645068.0	kept	metabat2.bin.048_sub	6270.0	65.0							
+R2_B_D2	V6	maxbin2.Bin.035	maxbin2	73.0	8.0	1695.0	1367882.0	kept	maxbin2.Bin.035	1695.0	73.0							
+R2_B_D2	V6	maxbin2.Bin.002_sub	maxbin2	65.0	2.0	1541.0	1782028.0	kept	maxbin2.Bin.002_sub	1541.0	65.0							
+R2_B_D2	V6	concoct.bin.085	concoct	61.0	0.0	5574.0	2301366.0	kept	concoct.bin.085	5574.0	61.0							
+R2_B_D2	V6	metabat2.bin.016	metabat2	61.0	0.0	4440.0	459537.0	kept	metabat2.bin.016	4440.0	61.0							
+R2_B_D2	V6	concoct.bin.001_sub	concoct	65.0	4.0	4998.0	2662970.0	kept	concoct.bin.001_sub	4998.0	65.0							
+R2_B_D2	V6	concoct.bin.018	concoct	59.0	0.0	4242.0	2229942.0	kept	concoct.bin.018	4242.0	59.0							
+R2_B_D2	V6	metabat2.bin.068_sub	metabat2	59.0	0.0	3604.0	2374610.0	kept	metabat2.bin.068_sub	3579.0	59.0							
+R2_B_D2	V6	concoct.bin.105_sub	concoct	59.0	0.0	3484.0	925410.0	kept	concoct.bin.105_sub	3486.0	59.0							
+R2_B_D2	V6	maxbin2.Bin.111_sub	maxbin2	57.0	0.0	1984.0	3012302.0	kept	maxbin2.Bin.111_sub	1984.0	57.0							
+R2_B_D2	V6	maxbin2.Bin.049_sub	maxbin2	65.0	6.0	3229.0	1588499.0	kept	maxbin2.Bin.049_sub	3229.0	65.0							
+R2_B_D2	V6	maxbin2.Bin.032	maxbin2	65.0	6.0	3217.0	356726.0	kept	maxbin2.Bin.032	3217.0	65.0							
+R2_B_D2	V6	concoct.bin.115_sub	concoct	67.0	8.0	6089.0	2641065.0	kept	metabat2.bin.109_sub	5901.0	69.0							
+R2_B_D2	V6	maxbin2.Bin.058	maxbin2	55.0	0.0	3587.0	716909.0	kept	maxbin2.Bin.058	3587.0	55.0							
+R2_B_D2	V6	metabat2.bin.027_sub	metabat2	55.0	0.0	3433.0	573880.0	kept	metabat2.bin.027_sub	3433.0	55.0							
+R2_B_D2	V6	maxbin2.Bin.090_sub	maxbin2	57.0	2.0	1703.0	2543731.0	kept	maxbin2.Bin.090_sub	1705.0	57.0							
+R2_B_D2	V6	maxbin2.Bin.158_sub	maxbin2	65.0	8.0	2807.0	4655476.0	kept	maxbin2.Bin.158_sub	2807.0	65.0							
+R2_B_D2	V6	concoct.bin.005	concoct	55.0	2.0	4392.0	1778303.0	kept	concoct.bin.005	4392.0	55.0							
+R2_B_D2	V6	metabat2.bin.104_sub	metabat2	55.0	2.0	3963.0	1619223.0	kept	metabat2.bin.104_sub	3963.0	55.0							
+R2_B_D2	V6	concoct.bin.121	concoct	51.0	0.0	35105.0	156541.0	kept	maxbin2.Bin.102.ge5000	10645.0	53.0							
+R2_B_D2	V6							new	metabat2.bin.066.ge5000_sub	8334.0	92.0	6.0	3958129.0	metabat2_ge5000	False	False	False	0.0
+R2A_C_D1	V1	metabat2.bin.025	metabat2	100.0	2.0	18560.0	3329362.0	kept	metabat2.bin.025	18560.0	100.0							
+R2A_C_D1	V1	maxbin2.Bin.042	maxbin2	94.0	0.0	1961.0	2822911.0	kept	maxbin2.Bin.042	3345.0	57.0							
+R2A_C_D1	V1	concoct.bin.004	concoct	96.0	2.0	137530.0	6483498.0	kept	concoct.bin.004	137530.0	96.0							
+R2A_C_D1	V1	metabat2.bin.021	metabat2	96.0	2.0	10002.0	3245451.0	kept	metabat2.bin.021	10002.0	96.0							
+R2A_C_D1	V1	maxbin2.Bin.036	maxbin2	92.0	0.0	18104.0	2690015.0	kept	metabat2.bin.020	20031.0	88.0							
+R2A_C_D1	V1	metabat2.bin.022	metabat2	92.0	0.0	9898.0	2129454.0	kept	metabat2.bin.022	9898.0	92.0							
+R2A_C_D1	V1	concoct.bin.009	concoct	89.0	0.0	6614.0	1473713.0	kept	concoct.bin.009	6614.0	89.0							
+R2A_C_D1	V1	concoct.bin.035	concoct	86.0	2.0	6628.0	3949843.0	kept	concoct.bin.035	6628.0	86.0							
+R2A_C_D1	V1	concoct.bin.052	concoct	82.0	0.0	7123.0	2432659.0	kept	concoct.bin.052	7123.0	82.0							
+R2A_C_D1	V1	maxbin2.Bin.052	maxbin2	78.0	4.0	2512.0	3929268.0	kept	metabat2.bin.015	3906.0	53.0							
+R2A_C_D1	V1	metabat2.bin.017_sub	metabat2	71.0	0.0	5103.0	3077437.0	kept	metabat2.bin.017	5103.0	71.0							
+R2A_C_D1	V1	maxbin2.Bin.012	maxbin2	71.0	0.0	3181.0	3076770.0	dropped										
+R2A_C_D1	V1	metabat2.bin.009	metabat2	75.0	4.0	4670.0	2898838.0	kept	metabat2.bin.009	4670.0	75.0							
+R2A_C_D1	V1	concoct.bin.046_sub	concoct	71.0	2.0	5197.0	4097025.0	kept	maxbin2.Bin.009_sub	5237.0	71.0							
+R2A_C_D1	V1	concoct.bin.019	concoct	65.0	0.0	4905.0	3337690.0	kept	concoct.bin.019	4905.0	65.0							
+R2A_C_D1	V1	maxbin2.Bin.010	maxbin2	75.0	8.0	3235.0	4102312.0	kept	metabat2.bin.002	4363.0	53.0							
+R2A_C_D1	V1	maxbin2.Bin.008	maxbin2	59.0	0.0	1618.0	2124686.0	dropped										
+R2A_C_D1	V1	maxbin2.Bin.032_sub	maxbin2	57.0	0.0	2024.0	3070647.0	kept	metabat2.bin.003_sub	3656.0	57.0							
+R2A_C_D1	V1	metabat2.bin.037	metabat2	53.0	0.0	3790.0	1863833.0	kept	metabat2.bin.037	3790.0	53.0							
+R2A_C_D1	V1							new	metabat2.bin.023	4687.0	65.0	4.0	1772134.0	metabat2	True	False	True	0.005
+R2A_C_D1	V2	metabat2.bin.025	metabat2	100.0	2.0	18560.0	3329362.0	kept	maxbin2.Bin.047	18560.0	100.0							
+R2A_C_D1	V2	maxbin2.Bin.042	maxbin2	94.0	0.0	1961.0	2822911.0	dropped										
+R2A_C_D1	V2	concoct.bin.004	concoct	96.0	2.0	137530.0	6483498.0	kept	metabat2.bin.018	137530.0	96.0							
+R2A_C_D1	V2	metabat2.bin.021	metabat2	96.0	2.0	10002.0	3245451.0	kept	metabat2.bin.021	10229.0	96.0							
+R2A_C_D1	V2	maxbin2.Bin.036	maxbin2	92.0	0.0	18104.0	2690015.0	kept	metabat2.bin.020	20031.0	88.0							
+R2A_C_D1	V2	metabat2.bin.022	metabat2	92.0	0.0	9898.0	2129454.0	kept	maxbin2.Bin.048	10228.0	92.0							
+R2A_C_D1	V2	concoct.bin.009	concoct	89.0	0.0	6614.0	1473713.0	kept	concoct.bin.009	6971.0	89.0							
+R2A_C_D1	V2	concoct.bin.035	concoct	86.0	2.0	6628.0	3949843.0	kept	concoct.bin.035	6962.0	78.0							
+R2A_C_D1	V2	concoct.bin.052	concoct	82.0	0.0	7123.0	2432659.0	kept	concoct.bin.052	7406.0	82.0							
+R2A_C_D1	V2	maxbin2.Bin.052	maxbin2	78.0	4.0	2512.0	3929268.0	kept	metabat2.bin.015	4228.0	53.0							
+R2A_C_D1	V2	metabat2.bin.017_sub	metabat2	71.0	0.0	5103.0	3077437.0	kept	metabat2.bin.017_sub	5501.0	59.0							
+R2A_C_D1	V2	maxbin2.Bin.012	maxbin2	71.0	0.0	3181.0	3076770.0	dropped										
+R2A_C_D1	V2	metabat2.bin.009	metabat2	75.0	4.0	4670.0	2898838.0	kept	metabat2.bin.009_sub	4979.0	61.0							
+R2A_C_D1	V2	concoct.bin.046_sub	concoct	71.0	2.0	5197.0	4097025.0	kept	maxbin2.Bin.009	5885.0	65.0							
+R2A_C_D1	V2	concoct.bin.019	concoct	65.0	0.0	4905.0	3337690.0	kept	concoct.bin.019	5369.0	63.0							
+R2A_C_D1	V2	maxbin2.Bin.010	maxbin2	75.0	8.0	3235.0	4102312.0	dropped										
+R2A_C_D1	V2	maxbin2.Bin.008	maxbin2	59.0	0.0	1618.0	2124686.0	dropped										
+R2A_C_D1	V2	maxbin2.Bin.032_sub	maxbin2	57.0	0.0	2024.0	3070647.0	kept	metabat2.bin.003_sub	4189.0	53.0							
+R2A_C_D1	V2	metabat2.bin.037	metabat2	53.0	0.0	3790.0	1863833.0	dropped										
+R2A_C_D1	V2							new	metabat2.bin.023	5040.0	59.0	0.0	1547153.0	metabat2	True	False	True	0.0032
+R2A_C_D1	V3	metabat2.bin.025	metabat2	100.0	2.0	18560.0	3329362.0	kept	maxbin2.Bin.047	20187.0	100.0							
+R2A_C_D1	V3	maxbin2.Bin.042	maxbin2	94.0	0.0	1961.0	2822911.0	dropped										
+R2A_C_D1	V3	concoct.bin.004	concoct	96.0	2.0	137530.0	6483498.0	kept	maxbin2.Bin.035	137530.0	96.0							
+R2A_C_D1	V3	metabat2.bin.021	metabat2	96.0	2.0	10002.0	3245451.0	kept	metabat2.bin.021	11665.0	88.0							
+R2A_C_D1	V3	maxbin2.Bin.036	maxbin2	92.0	0.0	18104.0	2690015.0	kept	metabat2.bin.020	20921.0	88.0							
+R2A_C_D1	V3	metabat2.bin.022	metabat2	92.0	0.0	9898.0	2129454.0	kept	maxbin2.Bin.048	12054.0	73.0							
+R2A_C_D1	V3	concoct.bin.009	concoct	89.0	0.0	6614.0	1473713.0	kept	concoct.bin.009	10048.0	61.0							
+R2A_C_D1	V3	concoct.bin.035	concoct	86.0	2.0	6628.0	3949843.0	kept	concoct.bin.035	8507.0	63.0							
+R2A_C_D1	V3	concoct.bin.052	concoct	82.0	0.0	7123.0	2432659.0	kept	maxbin2.Bin.016	9133.0	57.0							
+R2A_C_D1	V3	maxbin2.Bin.052	maxbin2	78.0	4.0	2512.0	3929268.0	dropped										
+R2A_C_D1	V3	metabat2.bin.017_sub	metabat2	71.0	0.0	5103.0	3077437.0	kept	concoct.bin.045_sub	7140.0	53.0							
+R2A_C_D1	V3	maxbin2.Bin.012	maxbin2	71.0	0.0	3181.0	3076770.0	dropped										
+R2A_C_D1	V3	metabat2.bin.009	metabat2	75.0	4.0	4670.0	2898838.0	dropped										
+R2A_C_D1	V3	concoct.bin.046_sub	concoct	71.0	2.0	5197.0	4097025.0	dropped										
+R2A_C_D1	V3	concoct.bin.019	concoct	65.0	0.0	4905.0	3337690.0	dropped										
+R2A_C_D1	V3	maxbin2.Bin.010	maxbin2	75.0	8.0	3235.0	4102312.0	dropped										
+R2A_C_D1	V3	maxbin2.Bin.008	maxbin2	59.0	0.0	1618.0	2124686.0	dropped										
+R2A_C_D1	V3	maxbin2.Bin.032_sub	maxbin2	57.0	0.0	2024.0	3070647.0	dropped										
+R2A_C_D1	V3	metabat2.bin.037	metabat2	53.0	0.0	3790.0	1863833.0	dropped										
+R2A_C_D1	V4	metabat2.bin.025	metabat2	100.0	2.0	18560.0	3329362.0	kept	metabat2.bin.025	18560.0	100.0							
+R2A_C_D1	V4	maxbin2.Bin.042	maxbin2	94.0	0.0	1961.0	2822911.0	kept	metabat2.bin.034	3317.0	57.0							
+R2A_C_D1	V4	concoct.bin.004	concoct	96.0	2.0	137530.0	6483498.0	kept	concoct.bin.004	137530.0	96.0							
+R2A_C_D1	V4	metabat2.bin.021	metabat2	96.0	2.0	10002.0	3245451.0	kept	metabat2.bin.021	10002.0	96.0							
+R2A_C_D1	V4	maxbin2.Bin.036	maxbin2	92.0	0.0	18104.0	2690015.0	kept	metabat2.bin.020	20031.0	88.0							
+R2A_C_D1	V4	metabat2.bin.022	metabat2	92.0	0.0	9898.0	2129454.0	kept	metabat2.bin.022	9898.0	92.0							
+R2A_C_D1	V4	concoct.bin.009	concoct	89.0	0.0	6614.0	1473713.0	kept	concoct.bin.009	6614.0	89.0							
+R2A_C_D1	V4	concoct.bin.035	concoct	86.0	2.0	6628.0	3949843.0	kept	concoct.bin.035	6628.0	86.0							
+R2A_C_D1	V4	concoct.bin.052	concoct	82.0	0.0	7123.0	2432659.0	kept	concoct.bin.052	7123.0	82.0							
+R2A_C_D1	V4	maxbin2.Bin.052	maxbin2	78.0	4.0	2512.0	3929268.0	kept	metabat2.bin.015	3906.0	53.0							
+R2A_C_D1	V4	metabat2.bin.017_sub	metabat2	71.0	0.0	5103.0	3077437.0	kept	metabat2.bin.017	5103.0	71.0							
+R2A_C_D1	V4	maxbin2.Bin.012	maxbin2	71.0	0.0	3181.0	3076770.0	dropped										
+R2A_C_D1	V4	metabat2.bin.009	metabat2	75.0	4.0	4670.0	2898838.0	kept	metabat2.bin.009	4670.0	75.0							
+R2A_C_D1	V4	concoct.bin.046_sub	concoct	71.0	2.0	5197.0	4097025.0	kept	concoct.bin.046_sub	5197.0	71.0							
+R2A_C_D1	V4	concoct.bin.019	concoct	65.0	0.0	4905.0	3337690.0	kept	concoct.bin.019	4905.0	65.0							
+R2A_C_D1	V4	maxbin2.Bin.010	maxbin2	75.0	8.0	3235.0	4102312.0	kept	metabat2.bin.002	4363.0	53.0							
+R2A_C_D1	V4	maxbin2.Bin.008	maxbin2	59.0	0.0	1618.0	2124686.0	dropped										
+R2A_C_D1	V4	maxbin2.Bin.032_sub	maxbin2	57.0	0.0	2024.0	3070647.0	kept	metabat2.bin.003_sub	3656.0	57.0							
+R2A_C_D1	V4	metabat2.bin.037	metabat2	53.0	0.0	3790.0	1863833.0	kept	metabat2.bin.037	3790.0	53.0							
+R2A_C_D1	V4							new	metabat2.bin.023	4687.0	65.0	4.0	1772134.0	metabat2	True	False	True	0.005
+R2A_C_D1	V5	metabat2.bin.025	metabat2	100.0	2.0	18560.0	3329362.0	kept	maxbin2.Bin.047.ge5000	20187.0	100.0							
+R2A_C_D1	V5	maxbin2.Bin.042	maxbin2	94.0	0.0	1961.0	2822911.0	kept	maxbin2.Bin.042	1961.0	94.0							
+R2A_C_D1	V5	concoct.bin.004	concoct	96.0	2.0	137530.0	6483498.0	kept	metabat2.bin.018.ge3000	137530.0	96.0							
+R2A_C_D1	V5	metabat2.bin.021	metabat2	96.0	2.0	10002.0	3245451.0	kept	metabat2.bin.021.ge3000	10229.0	96.0							
+R2A_C_D1	V5	maxbin2.Bin.036	maxbin2	92.0	0.0	18104.0	2690015.0	kept	maxbin2.Bin.036	18104.0	92.0							
+R2A_C_D1	V5	metabat2.bin.022	metabat2	92.0	0.0	9898.0	2129454.0	kept	maxbin2.Bin.048.ge3000	10228.0	92.0							
+R2A_C_D1	V5	concoct.bin.009	concoct	89.0	0.0	6614.0	1473713.0	kept	concoct.bin.009.ge3000	6971.0	89.0							
+R2A_C_D1	V5	concoct.bin.035	concoct	86.0	2.0	6628.0	3949843.0	kept	concoct.bin.035	6628.0	86.0							
+R2A_C_D1	V5	concoct.bin.052	concoct	82.0	0.0	7123.0	2432659.0	kept	concoct.bin.052.ge3000	7406.0	82.0							
+R2A_C_D1	V5	maxbin2.Bin.052	maxbin2	78.0	4.0	2512.0	3929268.0	kept	maxbin2.Bin.052	2512.0	78.0							
+R2A_C_D1	V5	metabat2.bin.017_sub	metabat2	71.0	0.0	5103.0	3077437.0	kept	metabat2.bin.017_sub	5117.0	71.0							
+R2A_C_D1	V5	maxbin2.Bin.012	maxbin2	71.0	0.0	3181.0	3076770.0	kept	maxbin2.Bin.012	3181.0	71.0							
+R2A_C_D1	V5	metabat2.bin.009	metabat2	75.0	4.0	4670.0	2898838.0	kept	metabat2.bin.009	4670.0	75.0							
+R2A_C_D1	V5	concoct.bin.046_sub	concoct	71.0	2.0	5197.0	4097025.0	kept	maxbin2.Bin.009.ge2500_sub	5206.0	71.0							
+R2A_C_D1	V5	concoct.bin.019	concoct	65.0	0.0	4905.0	3337690.0	kept	concoct.bin.019	4905.0	65.0							
+R2A_C_D1	V5	maxbin2.Bin.010	maxbin2	75.0	8.0	3235.0	4102312.0	kept	maxbin2.Bin.010	3235.0	75.0							
+R2A_C_D1	V5	maxbin2.Bin.008	maxbin2	59.0	0.0	1618.0	2124686.0	kept	maxbin2.Bin.008	1618.0	59.0							
+R2A_C_D1	V5	maxbin2.Bin.032_sub	maxbin2	57.0	0.0	2024.0	3070647.0	kept	maxbin2.Bin.032_sub	2024.0	57.0							
+R2A_C_D1	V5	metabat2.bin.037	metabat2	53.0	0.0	3790.0	1863833.0	kept	metabat2.bin.037	3790.0	53.0							
+R2A_C_D1	V6	metabat2.bin.025	metabat2	100.0	2.0	18560.0	3329362.0	kept	maxbin2.Bin.047.ge5000	20187.0	100.0							
+R2A_C_D1	V6	maxbin2.Bin.042	maxbin2	94.0	0.0	1961.0	2822911.0	kept	maxbin2.Bin.042	1961.0	94.0							
+R2A_C_D1	V6	concoct.bin.004	concoct	96.0	2.0	137530.0	6483498.0	kept	concoct.bin.004	137530.0	96.0							
+R2A_C_D1	V6	metabat2.bin.021	metabat2	96.0	2.0	10002.0	3245451.0	kept	metabat2.bin.021	10002.0	96.0							
+R2A_C_D1	V6	maxbin2.Bin.036	maxbin2	92.0	0.0	18104.0	2690015.0	kept	maxbin2.Bin.036	18104.0	92.0							
+R2A_C_D1	V6	metabat2.bin.022	metabat2	92.0	0.0	9898.0	2129454.0	kept	metabat2.bin.022	9898.0	92.0							
+R2A_C_D1	V6	concoct.bin.009	concoct	89.0	0.0	6614.0	1473713.0	kept	concoct.bin.009	6614.0	89.0							
+R2A_C_D1	V6	concoct.bin.035	concoct	86.0	2.0	6628.0	3949843.0	kept	concoct.bin.035	6628.0	86.0							
+R2A_C_D1	V6	concoct.bin.052	concoct	82.0	0.0	7123.0	2432659.0	kept	concoct.bin.052	7123.0	82.0							
+R2A_C_D1	V6	maxbin2.Bin.052	maxbin2	78.0	4.0	2512.0	3929268.0	kept	maxbin2.Bin.052	2512.0	78.0							
+R2A_C_D1	V6	metabat2.bin.017_sub	metabat2	71.0	0.0	5103.0	3077437.0	kept	metabat2.bin.017_sub	5103.0	71.0							
+R2A_C_D1	V6	maxbin2.Bin.012	maxbin2	71.0	0.0	3181.0	3076770.0	kept	maxbin2.Bin.012	3181.0	71.0							
+R2A_C_D1	V6	metabat2.bin.009	metabat2	75.0	4.0	4670.0	2898838.0	kept	metabat2.bin.009	4670.0	75.0							
+R2A_C_D1	V6	concoct.bin.046_sub	concoct	71.0	2.0	5197.0	4097025.0	kept	concoct.bin.046_sub	5197.0	71.0							
+R2A_C_D1	V6	concoct.bin.019	concoct	65.0	0.0	4905.0	3337690.0	kept	concoct.bin.019	4905.0	65.0							
+R2A_C_D1	V6	maxbin2.Bin.010	maxbin2	75.0	8.0	3235.0	4102312.0	kept	maxbin2.Bin.010	3235.0	75.0							
+R2A_C_D1	V6	maxbin2.Bin.008	maxbin2	59.0	0.0	1618.0	2124686.0	kept	maxbin2.Bin.008	1618.0	59.0							
+R2A_C_D1	V6	maxbin2.Bin.032_sub	maxbin2	57.0	0.0	2024.0	3070647.0	kept	maxbin2.Bin.032_sub	2024.0	57.0							
+R2A_C_D1	V6	metabat2.bin.037	metabat2	53.0	0.0	3790.0	1863833.0	kept	metabat2.bin.037	3790.0	53.0							
+SF2_A_D1	V1	metabat2.bin.014	metabat2	100.0	0.0	8141.0	2663048.0	kept	metabat2.bin.014	8141.0	100.0							
+SF2_A_D1	V1	maxbin2.Bin.008	maxbin2	98.0	6.0	5234.0	4167462.0	kept	metabat2.bin.005	6633.0	92.0							
+SF2_A_D1	V1	metabat2.bin.007	metabat2	84.0	8.0	5917.0	3565103.0	kept	metabat2.bin.007	5917.0	84.0							
+SF2_A_D1	V1	metabat2.bin.006	metabat2	76.0	4.0	5293.0	3006304.0	kept	maxbin2.Bin.005_sub	5318.0	76.0							
+SF2_A_D1	V2	metabat2.bin.014	metabat2	100.0	0.0	8141.0	2663048.0	kept	metabat2.bin.014	8612.0	96.0							
+SF2_A_D1	V2	maxbin2.Bin.008	maxbin2	98.0	6.0	5234.0	4167462.0	kept	metabat2.bin.005	7004.0	82.0							
+SF2_A_D1	V2	metabat2.bin.007	metabat2	84.0	8.0	5917.0	3565103.0	kept	metabat2.bin.007	6433.0	82.0							
+SF2_A_D1	V2	metabat2.bin.006	metabat2	76.0	4.0	5293.0	3006304.0	kept	maxbin2.Bin.005_sub	5951.0	71.0							
+SF2_A_D1	V3	metabat2.bin.014	metabat2	100.0	0.0	8141.0	2663048.0	kept	metabat2.bin.014	10270.0	92.0							
+SF2_A_D1	V3	maxbin2.Bin.008	maxbin2	98.0	6.0	5234.0	4167462.0	kept	metabat2.bin.005	8723.0	71.0							
+SF2_A_D1	V3	metabat2.bin.007	metabat2	84.0	8.0	5917.0	3565103.0	kept	metabat2.bin.007	8952.0	67.0							
+SF2_A_D1	V3	metabat2.bin.006	metabat2	76.0	4.0	5293.0	3006304.0	kept	maxbin2.Bin.005	7366.0	61.0							
+SF2_A_D1	V4	metabat2.bin.014	metabat2	100.0	0.0	8141.0	2663048.0	kept	metabat2.bin.014	8141.0	100.0							
+SF2_A_D1	V4	maxbin2.Bin.008	maxbin2	98.0	6.0	5234.0	4167462.0	kept	metabat2.bin.005	6633.0	92.0							
+SF2_A_D1	V4	metabat2.bin.007	metabat2	84.0	8.0	5917.0	3565103.0	kept	metabat2.bin.007	5917.0	84.0							
+SF2_A_D1	V4	metabat2.bin.006	metabat2	76.0	4.0	5293.0	3006304.0	kept	metabat2.bin.006	5293.0	76.0							
+SF2_A_D1	V5	metabat2.bin.014	metabat2	100.0	0.0	8141.0	2663048.0	kept	metabat2.bin.014	8141.0	100.0							
+SF2_A_D1	V5	maxbin2.Bin.008	maxbin2	98.0	6.0	5234.0	4167462.0	kept	maxbin2.Bin.008	5234.0	98.0							
+SF2_A_D1	V5	metabat2.bin.007	metabat2	84.0	8.0	5917.0	3565103.0	kept	metabat2.bin.007	5917.0	84.0							
+SF2_A_D1	V5	metabat2.bin.006	metabat2	76.0	4.0	5293.0	3006304.0	kept	maxbin2.Bin.005.ge2500_sub	5318.0	76.0							
+SF2_A_D1	V6	metabat2.bin.014	metabat2	100.0	0.0	8141.0	2663048.0	kept	metabat2.bin.014	8141.0	100.0							
+SF2_A_D1	V6	maxbin2.Bin.008	maxbin2	98.0	6.0	5234.0	4167462.0	kept	maxbin2.Bin.008	5234.0	98.0							
+SF2_A_D1	V6	metabat2.bin.007	metabat2	84.0	8.0	5917.0	3565103.0	kept	metabat2.bin.007	5917.0	84.0							
+SF2_A_D1	V6	metabat2.bin.006	metabat2	76.0	4.0	5293.0	3006304.0	kept	metabat2.bin.006	5293.0	76.0							
+R1_B_H2O	V1	metabat2.bin.036	metabat2	96.0	0.0	42636.0	2358833.0	kept	metabat2.bin.036	42636.0	96.0							
+R1_B_H2O	V1	maxbin2.Bin.032	maxbin2	89.0	0.0	2900.0	2445579.0	kept	maxbin2.Bin.032	4242.0	53.0							
+R1_B_H2O	V1	maxbin2.Bin.010	maxbin2	98.0	8.0	2926.0	5726256.0	kept	maxbin2.Bin.010	5287.0	82.0							
+R1_B_H2O	V1	metabat2.bin.021	metabat2	88.0	0.0	11126.0	1454837.0	kept	metabat2.bin.021	11126.0	88.0							
+R1_B_H2O	V1	metabat2.bin.012	metabat2	84.0	0.0	39302.0	1182799.0	kept	metabat2.bin.012	39302.0	84.0							
+R1_B_H2O	V1	maxbin2.Bin.018	maxbin2	86.0	2.0	4041.0	1703982.0	kept	metabat2.bin.027_sub	5382.0	80.0							
+R1_B_H2O	V1	metabat2.bin.002	metabat2	92.0	8.0	5583.0	2189712.0	kept	maxbin2.Bin.015	5902.0	89.0							
+R1_B_H2O	V1	concoct.bin.024_sub	concoct	82.0	0.0	31323.0	1294137.0	kept	concoct.bin.024_sub	31323.0	82.0							
+R1_B_H2O	V1	maxbin2.Bin.037	maxbin2	86.0	6.0	5931.0	2104980.0	kept	maxbin2.Bin.037	8720.0	84.0							
+R1_B_H2O	V1	concoct.bin.035_sub	concoct	78.0	0.0	6129.0	2611687.0	kept	concoct.bin.035_sub	6129.0	78.0							
+R1_B_H2O	V1	maxbin2.Bin.013	maxbin2	71.0	2.0	2468.0	1231930.0	dropped										
+R1_B_H2O	V1	maxbin2.Bin.047	maxbin2	61.0	0.0	2428.0	2205565.0	dropped										
+R1_B_H2O	V1	maxbin2.Bin.042_sub	maxbin2	66.0	5.0	2592.0	1271698.0	dropped										
+R1_B_H2O	V1	maxbin2.Bin.027_sub	maxbin2	57.0	4.0	2075.0	5028278.0	dropped										
+R1_B_H2O	V2	metabat2.bin.036	metabat2	96.0	0.0	42636.0	2358833.0	kept	metabat2.bin.036	42636.0	96.0							
+R1_B_H2O	V2	maxbin2.Bin.032	maxbin2	89.0	0.0	2900.0	2445579.0	dropped										
+R1_B_H2O	V2	maxbin2.Bin.010	maxbin2	98.0	8.0	2926.0	5726256.0	kept	maxbin2.Bin.010	5915.0	82.0							
+R1_B_H2O	V2	metabat2.bin.021	metabat2	88.0	0.0	11126.0	1454837.0	kept	metabat2.bin.021	12110.0	78.0							
+R1_B_H2O	V2	metabat2.bin.012	metabat2	84.0	0.0	39302.0	1182799.0	kept	metabat2.bin.012	39302.0	82.0							
+R1_B_H2O	V2	maxbin2.Bin.018	maxbin2	86.0	2.0	4041.0	1703982.0	kept	concoct.bin.031_sub	5757.0	73.0							
+R1_B_H2O	V2	metabat2.bin.002	metabat2	92.0	8.0	5583.0	2189712.0	kept	maxbin2.Bin.015	6124.0	79.0							
+R1_B_H2O	V2	concoct.bin.024_sub	concoct	82.0	0.0	31323.0	1294137.0	kept	concoct.bin.024_sub	39003.0	82.0							
+R1_B_H2O	V2	maxbin2.Bin.037	maxbin2	86.0	6.0	5931.0	2104980.0	dropped										
+R1_B_H2O	V2	concoct.bin.035_sub	concoct	78.0	0.0	6129.0	2611687.0	kept	concoct.bin.035	6417.0	73.0							
+R1_B_H2O	V2	maxbin2.Bin.013	maxbin2	71.0	2.0	2468.0	1231930.0	dropped										
+R1_B_H2O	V2	maxbin2.Bin.047	maxbin2	61.0	0.0	2428.0	2205565.0	dropped										
+R1_B_H2O	V2	maxbin2.Bin.042_sub	maxbin2	66.0	5.0	2592.0	1271698.0	dropped										
+R1_B_H2O	V2	maxbin2.Bin.027_sub	maxbin2	57.0	4.0	2075.0	5028278.0	dropped										
+R1_B_H2O	V3	metabat2.bin.036	metabat2	96.0	0.0	42636.0	2358833.0	kept	metabat2.bin.036	45409.0	96.0							
+R1_B_H2O	V3	maxbin2.Bin.032	maxbin2	89.0	0.0	2900.0	2445579.0	dropped										
+R1_B_H2O	V3	maxbin2.Bin.010	maxbin2	98.0	8.0	2926.0	5726256.0	kept	maxbin2.Bin.010	9216.0	73.0							
+R1_B_H2O	V3	metabat2.bin.021	metabat2	88.0	0.0	11126.0	1454837.0	kept	metabat2.bin.021	12683.0	53.0							
+R1_B_H2O	V3	metabat2.bin.012	metabat2	84.0	0.0	39302.0	1182799.0	kept	metabat2.bin.012	40627.0	79.0							
+R1_B_H2O	V3	maxbin2.Bin.018	maxbin2	86.0	2.0	4041.0	1703982.0	dropped										
+R1_B_H2O	V3	metabat2.bin.002	metabat2	92.0	8.0	5583.0	2189712.0	dropped										
+R1_B_H2O	V3	concoct.bin.024_sub	concoct	82.0	0.0	31323.0	1294137.0	kept	concoct.bin.024_sub	41563.0	76.0							
+R1_B_H2O	V3	maxbin2.Bin.037	maxbin2	86.0	6.0	5931.0	2104980.0	kept	maxbin2.Bin.037	11761.0	69.0							
+R1_B_H2O	V3	concoct.bin.035_sub	concoct	78.0	0.0	6129.0	2611687.0	dropped										
+R1_B_H2O	V3	maxbin2.Bin.013	maxbin2	71.0	2.0	2468.0	1231930.0	dropped										
+R1_B_H2O	V3	maxbin2.Bin.047	maxbin2	61.0	0.0	2428.0	2205565.0	dropped										
+R1_B_H2O	V3	maxbin2.Bin.042_sub	maxbin2	66.0	5.0	2592.0	1271698.0	dropped										
+R1_B_H2O	V3	maxbin2.Bin.027_sub	maxbin2	57.0	4.0	2075.0	5028278.0	dropped										
+R1_B_H2O	V4	metabat2.bin.036	metabat2	96.0	0.0	42636.0	2358833.0	kept	metabat2.bin.036	42636.0	96.0							
+R1_B_H2O	V4	maxbin2.Bin.032	maxbin2	89.0	0.0	2900.0	2445579.0	kept	metabat2.bin.007	4242.0	53.0							
+R1_B_H2O	V4	maxbin2.Bin.010	maxbin2	98.0	8.0	2926.0	5726256.0	kept	metabat2.bin.023	4890.0	82.0							
+R1_B_H2O	V4	metabat2.bin.021	metabat2	88.0	0.0	11126.0	1454837.0	kept	metabat2.bin.021	11126.0	88.0							
+R1_B_H2O	V4	metabat2.bin.012	metabat2	84.0	0.0	39302.0	1182799.0	kept	metabat2.bin.012	39302.0	84.0							
+R1_B_H2O	V4	maxbin2.Bin.018	maxbin2	86.0	2.0	4041.0	1703982.0	kept	metabat2.bin.027	5382.0	80.0							
+R1_B_H2O	V4	metabat2.bin.002	metabat2	92.0	8.0	5583.0	2189712.0	kept	metabat2.bin.002	5583.0	92.0							
+R1_B_H2O	V4	concoct.bin.024_sub	concoct	82.0	0.0	31323.0	1294137.0	kept	concoct.bin.024_sub	31323.0	82.0							
+R1_B_H2O	V4	maxbin2.Bin.037	maxbin2	86.0	6.0	5931.0	2104980.0	dropped										
+R1_B_H2O	V4	concoct.bin.035_sub	concoct	78.0	0.0	6129.0	2611687.0	kept	concoct.bin.035	6119.0	78.0							
+R1_B_H2O	V4	maxbin2.Bin.013	maxbin2	71.0	2.0	2468.0	1231930.0	dropped										
+R1_B_H2O	V4	maxbin2.Bin.047	maxbin2	61.0	0.0	2428.0	2205565.0	dropped										
+R1_B_H2O	V4	maxbin2.Bin.042_sub	maxbin2	66.0	5.0	2592.0	1271698.0	dropped										
+R1_B_H2O	V4	maxbin2.Bin.027_sub	maxbin2	57.0	4.0	2075.0	5028278.0	dropped										
+R1_B_H2O	V4							new	metabat2.bin.018	3604.0	53.0	0.0	723846.0	metabat2	True	False	False	0.0155
+R1_B_H2O	V5	metabat2.bin.036	metabat2	96.0	0.0	42636.0	2358833.0	kept	metabat2.bin.036.ge5000	45409.0	96.0							
+R1_B_H2O	V5	maxbin2.Bin.032	maxbin2	89.0	0.0	2900.0	2445579.0	kept	maxbin2.Bin.032	2900.0	89.0							
+R1_B_H2O	V5	maxbin2.Bin.010	maxbin2	98.0	8.0	2926.0	5726256.0	kept	maxbin2.Bin.010	2926.0	98.0							
+R1_B_H2O	V5	metabat2.bin.021	metabat2	88.0	0.0	11126.0	1454837.0	kept	metabat2.bin.021	11126.0	88.0							
+R1_B_H2O	V5	metabat2.bin.012	metabat2	84.0	0.0	39302.0	1182799.0	kept	metabat2.bin.012	39302.0	84.0							
+R1_B_H2O	V5	maxbin2.Bin.018	maxbin2	86.0	2.0	4041.0	1703982.0	kept	maxbin2.Bin.018	4041.0	86.0							
+R1_B_H2O	V5	metabat2.bin.002	metabat2	92.0	8.0	5583.0	2189712.0	kept	maxbin2.Bin.015.ge2500	5902.0	89.0							
+R1_B_H2O	V5	concoct.bin.024_sub	concoct	82.0	0.0	31323.0	1294137.0	kept	concoct.bin.024.ge3000_sub	39003.0	82.0							
+R1_B_H2O	V5	maxbin2.Bin.037	maxbin2	86.0	6.0	5931.0	2104980.0	dropped										
+R1_B_H2O	V5	concoct.bin.035_sub	concoct	78.0	0.0	6129.0	2611687.0	kept	concoct.bin.035	6119.0	78.0							
+R1_B_H2O	V5	maxbin2.Bin.013	maxbin2	71.0	2.0	2468.0	1231930.0	kept	maxbin2.Bin.013	2468.0	71.0							
+R1_B_H2O	V5	maxbin2.Bin.047	maxbin2	61.0	0.0	2428.0	2205565.0	kept	maxbin2.Bin.047	2428.0	61.0							
+R1_B_H2O	V5	maxbin2.Bin.042_sub	maxbin2	66.0	5.0	2592.0	1271698.0	kept	maxbin2.Bin.042_sub	2592.0	66.0							
+R1_B_H2O	V5	maxbin2.Bin.027_sub	maxbin2	57.0	4.0	2075.0	5028278.0	kept	maxbin2.Bin.027_sub	2075.0	57.0							
+R1_B_H2O	V5							new	concoct.bin.057_sub	3230.0	67.0	2.0	1057483.0	concoct	True	False	False	0.1107
+R1_B_H2O	V6	metabat2.bin.036	metabat2	96.0	0.0	42636.0	2358833.0	kept	metabat2.bin.036.ge5000	45409.0	96.0							
+R1_B_H2O	V6	maxbin2.Bin.032	maxbin2	89.0	0.0	2900.0	2445579.0	kept	maxbin2.Bin.032	2900.0	89.0							
+R1_B_H2O	V6	maxbin2.Bin.010	maxbin2	98.0	8.0	2926.0	5726256.0	kept	maxbin2.Bin.010	2926.0	98.0							
+R1_B_H2O	V6	metabat2.bin.021	metabat2	88.0	0.0	11126.0	1454837.0	kept	metabat2.bin.021	11126.0	88.0							
+R1_B_H2O	V6	metabat2.bin.012	metabat2	84.0	0.0	39302.0	1182799.0	kept	metabat2.bin.012	39302.0	84.0							
+R1_B_H2O	V6	maxbin2.Bin.018	maxbin2	86.0	2.0	4041.0	1703982.0	kept	maxbin2.Bin.018	4041.0	86.0							
+R1_B_H2O	V6	metabat2.bin.002	metabat2	92.0	8.0	5583.0	2189712.0	kept	metabat2.bin.002	5583.0	92.0							
+R1_B_H2O	V6	concoct.bin.024_sub	concoct	82.0	0.0	31323.0	1294137.0	kept	concoct.bin.024_sub	31323.0	82.0							
+R1_B_H2O	V6	maxbin2.Bin.037	maxbin2	86.0	6.0	5931.0	2104980.0	kept	maxbin2.Bin.037	5931.0	86.0							
+R1_B_H2O	V6	concoct.bin.035_sub	concoct	78.0	0.0	6129.0	2611687.0	kept	concoct.bin.035_sub	6129.0	78.0							
+R1_B_H2O	V6	maxbin2.Bin.013	maxbin2	71.0	2.0	2468.0	1231930.0	kept	maxbin2.Bin.013	2468.0	71.0							
+R1_B_H2O	V6	maxbin2.Bin.047	maxbin2	61.0	0.0	2428.0	2205565.0	kept	maxbin2.Bin.047	2428.0	61.0							
+R1_B_H2O	V6	maxbin2.Bin.042_sub	maxbin2	66.0	5.0	2592.0	1271698.0	kept	maxbin2.Bin.042_sub	2592.0	66.0							
+R1_B_H2O	V6	maxbin2.Bin.027_sub	maxbin2	57.0	4.0	2075.0	5028278.0	kept	maxbin2.Bin.027_sub	2075.0	57.0							
+SF2_B_H2O	V1	metabat2.bin.041	metabat2	96.0	2.0	31856.0	2059826.0	kept	metabat2.bin.041	31856.0	96.0							
+SF2_B_H2O	V1	maxbin2.Bin.004	maxbin2	92.0	0.0	3619.0	1489980.0	kept	maxbin2.Bin.004_sub	4917.0	61.0							
+SF2_B_H2O	V1	metabat2.bin.019	metabat2	84.0	2.0	9973.0	1712229.0	kept	metabat2.bin.019	9973.0	84.0							
+SF2_B_H2O	V1	maxbin2.Bin.110_sub	maxbin2	78.0	0.0	2364.0	335894.0	dropped										
+SF2_B_H2O	V1	maxbin2.Bin.068_sub	maxbin2	80.0	4.0	10463.0	1836646.0	kept	maxbin2.Bin.068_sub	12626.0	80.0							
+SF2_B_H2O	V1	maxbin2.Bin.086	maxbin2	75.0	0.0	3017.0	2261549.0	kept	concoct.bin.062	4422.0	55.0							
+SF2_B_H2O	V1	concoct.bin.108	concoct	75.0	2.0	5733.0	2036138.0	kept	concoct.bin.108	5733.0	75.0							
+SF2_B_H2O	V1	maxbin2.Bin.036	maxbin2	75.0	2.0	1991.0	1153530.0	kept	maxbin2.Bin.036	3464.0	55.0							
+SF2_B_H2O	V1	maxbin2.Bin.100	maxbin2	76.0	4.0	3364.0	2157756.0	kept	maxbin2.Bin.100	4537.0	65.0							
+SF2_B_H2O	V1	concoct.bin.102_sub	concoct	73.0	2.0	6006.0	885047.0	kept	concoct.bin.102_sub	6007.0	80.0							
+SF2_B_H2O	V1	maxbin2.Bin.105	maxbin2	75.0	4.0	3122.0	2075289.0	dropped										
+SF2_B_H2O	V1	maxbin2.Bin.023	maxbin2	71.0	4.0	2381.0	1708221.0	kept	maxbin2.Bin.023	4416.0	57.0							
+SF2_B_H2O	V1	metabat2.bin.035_sub	metabat2	65.0	2.0	4352.0	1401236.0	kept	metabat2.bin.035_sub	4352.0	65.0							
+SF2_B_H2O	V1	maxbin2.Bin.057	maxbin2	69.0	6.0	1820.0	1317392.0	dropped										
+SF2_B_H2O	V1	metabat2.bin.018_sub	metabat2	59.0	0.0	4901.0	1403264.0	kept	metabat2.bin.018_sub	4901.0	59.0							
+SF2_B_H2O	V1	maxbin2.Bin.038	maxbin2	55.0	0.0	1837.0	465523.0	dropped										
+SF2_B_H2O	V1							new	maxbin2.Bin.010	7358.0	69.0	4.0	367403.0	maxbin2	True	False	False	0.0
+SF2_B_H2O	V1							new	maxbin2.Bin.025_sub	9412.0	71.0	4.0	216559.0	maxbin2	False	False	False	0.0
+SF2_B_H2O	V1							new	maxbin2.Bin.048	72388.0	69.0	0.0	319622.0	maxbin2	False	False	False	0.0
+SF2_B_H2O	V2	metabat2.bin.041	metabat2	96.0	2.0	31856.0	2059826.0	kept	metabat2.bin.041	31856.0	92.0							
+SF2_B_H2O	V2	maxbin2.Bin.004	maxbin2	92.0	0.0	3619.0	1489980.0	kept	maxbin2.Bin.004_sub	5392.0	61.0							
+SF2_B_H2O	V2	metabat2.bin.019	metabat2	84.0	2.0	9973.0	1712229.0	kept	metabat2.bin.019	10987.0	84.0							
+SF2_B_H2O	V2	maxbin2.Bin.110_sub	maxbin2	78.0	0.0	2364.0	335894.0	dropped										
+SF2_B_H2O	V2	maxbin2.Bin.068_sub	maxbin2	80.0	4.0	10463.0	1836646.0	kept	metabat2.bin.006	13228.0	73.0							
+SF2_B_H2O	V2	maxbin2.Bin.086	maxbin2	75.0	0.0	3017.0	2261549.0	dropped										
+SF2_B_H2O	V2	concoct.bin.108	concoct	75.0	2.0	5733.0	2036138.0	kept	concoct.bin.108	6184.0	73.0							
+SF2_B_H2O	V2	maxbin2.Bin.036	maxbin2	75.0	2.0	1991.0	1153530.0	dropped										
+SF2_B_H2O	V2	maxbin2.Bin.100	maxbin2	76.0	4.0	3364.0	2157756.0	kept	maxbin2.Bin.100	4982.0	59.0							
+SF2_B_H2O	V2	concoct.bin.102_sub	concoct	73.0	2.0	6006.0	885047.0	kept	concoct.bin.102_sub	6527.0	76.0							
+SF2_B_H2O	V2	maxbin2.Bin.105	maxbin2	75.0	4.0	3122.0	2075289.0	dropped										
+SF2_B_H2O	V2	maxbin2.Bin.023	maxbin2	71.0	4.0	2381.0	1708221.0	kept	maxbin2.Bin.023	4988.0	53.0							
+SF2_B_H2O	V2	metabat2.bin.035_sub	metabat2	65.0	2.0	4352.0	1401236.0	kept	metabat2.bin.035_sub	4624.0	55.0							
+SF2_B_H2O	V2	maxbin2.Bin.057	maxbin2	69.0	6.0	1820.0	1317392.0	dropped										
+SF2_B_H2O	V2	metabat2.bin.018_sub	metabat2	59.0	0.0	4901.0	1403264.0	kept	maxbin2.Bin.076_sub	5518.0	53.0							
+SF2_B_H2O	V2	maxbin2.Bin.038	maxbin2	55.0	0.0	1837.0	465523.0	dropped										
+SF2_B_H2O	V2							new	maxbin2.Bin.010	8104.0	69.0	4.0	337270.0	maxbin2	True	False	False	0.0
+SF2_B_H2O	V2							new	maxbin2.Bin.025_sub	40744.0	71.0	4.0	192537.0	maxbin2	False	False	False	0.0
+SF2_B_H2O	V2							new	maxbin2.Bin.048	72388.0	69.0	0.0	259644.0	maxbin2	False	False	False	0.0
+SF2_B_H2O	V2							new	maxbin2.Bin.041_sub	5978.0	63.0	2.0	408581.0	maxbin2	False	False	False	0.0
+SF2_B_H2O	V2							new	maxbin2.Bin.065_sub	5121.0	65.0	8.0	1821972.0	maxbin2	False	False	False	0.0
+SF2_B_H2O	V2							new	metabat2.bin.043	10206.0	86.0	4.0	777098.0	metabat2	True	True	True	0.0
+SF2_B_H2O	V3	metabat2.bin.041	metabat2	96.0	2.0	31856.0	2059826.0	kept	metabat2.bin.041	33655.0	92.0							
+SF2_B_H2O	V3	maxbin2.Bin.004	maxbin2	92.0	0.0	3619.0	1489980.0	dropped										
+SF2_B_H2O	V3	metabat2.bin.019	metabat2	84.0	2.0	9973.0	1712229.0	dropped										
+SF2_B_H2O	V3	maxbin2.Bin.110_sub	maxbin2	78.0	0.0	2364.0	335894.0	dropped										
+SF2_B_H2O	V3	maxbin2.Bin.068_sub	maxbin2	80.0	4.0	10463.0	1836646.0	kept	metabat2.bin.006	14884.0	71.0							
+SF2_B_H2O	V3	maxbin2.Bin.086	maxbin2	75.0	0.0	3017.0	2261549.0	dropped										
+SF2_B_H2O	V3	concoct.bin.108	concoct	75.0	2.0	5733.0	2036138.0	dropped										
+SF2_B_H2O	V3	maxbin2.Bin.036	maxbin2	75.0	2.0	1991.0	1153530.0	dropped										
+SF2_B_H2O	V3	maxbin2.Bin.100	maxbin2	76.0	4.0	3364.0	2157756.0	dropped										
+SF2_B_H2O	V3	concoct.bin.102_sub	concoct	73.0	2.0	6006.0	885047.0	kept	concoct.bin.102_sub	8295.0	69.0							
+SF2_B_H2O	V3	maxbin2.Bin.105	maxbin2	75.0	4.0	3122.0	2075289.0	dropped										
+SF2_B_H2O	V3	maxbin2.Bin.023	maxbin2	71.0	4.0	2381.0	1708221.0	dropped										
+SF2_B_H2O	V3	metabat2.bin.035_sub	metabat2	65.0	2.0	4352.0	1401236.0	dropped										
+SF2_B_H2O	V3	maxbin2.Bin.057	maxbin2	69.0	6.0	1820.0	1317392.0	dropped										
+SF2_B_H2O	V3	metabat2.bin.018_sub	metabat2	59.0	0.0	4901.0	1403264.0	dropped										
+SF2_B_H2O	V3	maxbin2.Bin.038	maxbin2	55.0	0.0	1837.0	465523.0	dropped										
+SF2_B_H2O	V3							new	metabat2.bin.043	11553.0	84.0	0.0	638471.0	metabat2	True	True	True	0.0
+SF2_B_H2O	V3							new	metabat2.bin.013_sub	6789.0	63.0	6.0	973917.0	metabat2	False	False	False	0.0
+SF2_B_H2O	V3							new	maxbin2.Bin.025	40744.0	71.0	4.0	155601.0	maxbin2	False	False	False	0.0
+SF2_B_H2O	V3							new	maxbin2.Bin.048	99118.0	69.0	0.0	182004.0	maxbin2	False	False	False	0.0
+SF2_B_H2O	V3							new	maxbin2.Bin.010	21398.0	67.0	4.0	221022.0	maxbin2	True	False	False	0.0
+SF2_B_H2O	V4	metabat2.bin.041	metabat2	96.0	2.0	31856.0	2059826.0	kept	metabat2.bin.041	31856.0	96.0							
+SF2_B_H2O	V4	maxbin2.Bin.004	maxbin2	92.0	0.0	3619.0	1489980.0	dropped										
+SF2_B_H2O	V4	metabat2.bin.019	metabat2	84.0	2.0	9973.0	1712229.0	kept	metabat2.bin.019	9973.0	84.0							
+SF2_B_H2O	V4	maxbin2.Bin.110_sub	maxbin2	78.0	0.0	2364.0	335894.0	dropped										
+SF2_B_H2O	V4	maxbin2.Bin.068_sub	maxbin2	80.0	4.0	10463.0	1836646.0	kept	metabat2.bin.006	12391.0	76.0							
+SF2_B_H2O	V4	maxbin2.Bin.086	maxbin2	75.0	0.0	3017.0	2261549.0	kept	concoct.bin.062	4422.0	55.0							
+SF2_B_H2O	V4	concoct.bin.108	concoct	75.0	2.0	5733.0	2036138.0	kept	concoct.bin.108	5733.0	75.0							
+SF2_B_H2O	V4	maxbin2.Bin.036	maxbin2	75.0	2.0	1991.0	1153530.0	dropped										
+SF2_B_H2O	V4	maxbin2.Bin.100	maxbin2	76.0	4.0	3364.0	2157756.0	dropped										
+SF2_B_H2O	V4	concoct.bin.102_sub	concoct	73.0	2.0	6006.0	885047.0	kept	concoct.bin.102_sub	6007.0	76.0							
+SF2_B_H2O	V4	maxbin2.Bin.105	maxbin2	75.0	4.0	3122.0	2075289.0	dropped										
+SF2_B_H2O	V4	maxbin2.Bin.023	maxbin2	71.0	4.0	2381.0	1708221.0	dropped										
+SF2_B_H2O	V4	metabat2.bin.035_sub	metabat2	65.0	2.0	4352.0	1401236.0	kept	metabat2.bin.035_sub	4352.0	65.0							
+SF2_B_H2O	V4	maxbin2.Bin.057	maxbin2	69.0	6.0	1820.0	1317392.0	dropped										
+SF2_B_H2O	V4	metabat2.bin.018_sub	metabat2	59.0	0.0	4901.0	1403264.0	kept	metabat2.bin.018_sub	4895.0	59.0							
+SF2_B_H2O	V4	maxbin2.Bin.038	maxbin2	55.0	0.0	1837.0	465523.0	dropped										
+SF2_B_H2O	V5	metabat2.bin.041	metabat2	96.0	2.0	31856.0	2059826.0	kept	metabat2.bin.041	31856.0	96.0							
+SF2_B_H2O	V5	maxbin2.Bin.004	maxbin2	92.0	0.0	3619.0	1489980.0	kept	maxbin2.Bin.004	3619.0	92.0							
+SF2_B_H2O	V5	metabat2.bin.019	metabat2	84.0	2.0	9973.0	1712229.0	kept	metabat2.bin.019.ge3000	10987.0	84.0							
+SF2_B_H2O	V5	maxbin2.Bin.110_sub	maxbin2	78.0	0.0	2364.0	335894.0	kept	maxbin2.Bin.110_sub	2364.0	78.0							
+SF2_B_H2O	V5	maxbin2.Bin.068_sub	maxbin2	80.0	4.0	10463.0	1836646.0	kept	maxbin2.Bin.068.ge2500_sub	12626.0	80.0							
+SF2_B_H2O	V5	maxbin2.Bin.086	maxbin2	75.0	0.0	3017.0	2261549.0	kept	maxbin2.Bin.086	3017.0	75.0							
+SF2_B_H2O	V5	concoct.bin.108	concoct	75.0	2.0	5733.0	2036138.0	kept	concoct.bin.108.ge3000	6184.0	73.0							
+SF2_B_H2O	V5	maxbin2.Bin.036	maxbin2	75.0	2.0	1991.0	1153530.0	kept	maxbin2.Bin.036	1991.0	75.0							
+SF2_B_H2O	V5	maxbin2.Bin.100	maxbin2	76.0	4.0	3364.0	2157756.0	kept	maxbin2.Bin.100	3364.0	76.0							
+SF2_B_H2O	V5	concoct.bin.102_sub	concoct	73.0	2.0	6006.0	885047.0	kept	concoct.bin.102_sub	6006.0	73.0							
+SF2_B_H2O	V5	maxbin2.Bin.105	maxbin2	75.0	4.0	3122.0	2075289.0	kept	maxbin2.Bin.105	3122.0	75.0							
+SF2_B_H2O	V5	maxbin2.Bin.023	maxbin2	71.0	4.0	2381.0	1708221.0	kept	maxbin2.Bin.023	2381.0	71.0							
+SF2_B_H2O	V5	metabat2.bin.035_sub	metabat2	65.0	2.0	4352.0	1401236.0	kept	metabat2.bin.035_sub	4352.0	65.0							
+SF2_B_H2O	V5	maxbin2.Bin.057	maxbin2	69.0	6.0	1820.0	1317392.0	kept	maxbin2.Bin.057	1820.0	69.0							
+SF2_B_H2O	V5	metabat2.bin.018_sub	metabat2	59.0	0.0	4901.0	1403264.0	kept	metabat2.bin.018_sub	4901.0	59.0							
+SF2_B_H2O	V5	maxbin2.Bin.038	maxbin2	55.0	0.0	1837.0	465523.0	kept	maxbin2.Bin.038	1837.0	55.0							
+SF2_B_H2O	V5							new	metabat2.bin.043.ge5000	11553.0	84.0	0.0	638471.0	metabat2_ge5000	True	True	True	0.0
+SF2_B_H2O	V5							new	maxbin2.Bin.041.ge3000_sub	4873.0	61.0	2.0	289310.0	maxbin2_ge3000	False	False	False	0.0
+SF2_B_H2O	V5							new	maxbin2.Bin.065.ge3000_sub	5121.0	65.0	8.0	1821972.0	maxbin2_ge3000	False	False	False	0.0
+SF2_B_H2O	V5							new	maxbin2.Bin.048.ge5000	99118.0	69.0	0.0	182004.0	maxbin2_ge5000	False	False	False	0.0
+SF2_B_H2O	V5							new	maxbin2.Bin.025.ge3000	40744.0	71.0	4.0	205539.0	maxbin2_ge3000	False	False	False	0.0
+SF2_B_H2O	V6	metabat2.bin.041	metabat2	96.0	2.0	31856.0	2059826.0	kept	metabat2.bin.041	31856.0	96.0							
+SF2_B_H2O	V6	maxbin2.Bin.004	maxbin2	92.0	0.0	3619.0	1489980.0	kept	maxbin2.Bin.004	3619.0	92.0							
+SF2_B_H2O	V6	metabat2.bin.019	metabat2	84.0	2.0	9973.0	1712229.0	kept	metabat2.bin.019	9973.0	84.0							
+SF2_B_H2O	V6	maxbin2.Bin.110_sub	maxbin2	78.0	0.0	2364.0	335894.0	kept	maxbin2.Bin.110_sub	2364.0	78.0							
+SF2_B_H2O	V6	maxbin2.Bin.068_sub	maxbin2	80.0	4.0	10463.0	1836646.0	kept	maxbin2.Bin.068_sub	10463.0	80.0							
+SF2_B_H2O	V6	maxbin2.Bin.086	maxbin2	75.0	0.0	3017.0	2261549.0	kept	maxbin2.Bin.086	3017.0	75.0							
+SF2_B_H2O	V6	concoct.bin.108	concoct	75.0	2.0	5733.0	2036138.0	kept	concoct.bin.108	5733.0	75.0							
+SF2_B_H2O	V6	maxbin2.Bin.036	maxbin2	75.0	2.0	1991.0	1153530.0	kept	maxbin2.Bin.036	1991.0	75.0							
+SF2_B_H2O	V6	maxbin2.Bin.100	maxbin2	76.0	4.0	3364.0	2157756.0	kept	maxbin2.Bin.100	3364.0	76.0							
+SF2_B_H2O	V6	concoct.bin.102_sub	concoct	73.0	2.0	6006.0	885047.0	kept	concoct.bin.102_sub	6006.0	73.0							
+SF2_B_H2O	V6	maxbin2.Bin.105	maxbin2	75.0	4.0	3122.0	2075289.0	kept	maxbin2.Bin.105	3122.0	75.0							
+SF2_B_H2O	V6	maxbin2.Bin.023	maxbin2	71.0	4.0	2381.0	1708221.0	kept	maxbin2.Bin.023	2381.0	71.0							
+SF2_B_H2O	V6	metabat2.bin.035_sub	metabat2	65.0	2.0	4352.0	1401236.0	kept	metabat2.bin.035_sub	4352.0	65.0							
+SF2_B_H2O	V6	maxbin2.Bin.057	maxbin2	69.0	6.0	1820.0	1317392.0	kept	maxbin2.Bin.057	1820.0	69.0							
+SF2_B_H2O	V6	metabat2.bin.018_sub	metabat2	59.0	0.0	4901.0	1403264.0	kept	metabat2.bin.018_sub	4901.0	59.0							
+SF2_B_H2O	V6	maxbin2.Bin.038	maxbin2	55.0	0.0	1837.0	465523.0	kept	maxbin2.Bin.038	1837.0	55.0							
+SF2_B_H2O	V6							new	maxbin2.Bin.025.ge5000	40744.0	71.0	4.0	155601.0	maxbin2_ge5000	False	False	False	0.0
+SF2_B_H2O	V6							new	maxbin2.Bin.048.ge5000	99118.0	69.0	0.0	182004.0	maxbin2_ge5000	False	False	False	0.0
+SF2_B_H2O	V6							new	metabat2.bin.043.ge5000	11553.0	84.0	0.0	638471.0	metabat2_ge5000	True	True	True	0.0
+R2_restored_D_shore	V1	metabat2.bin.024	metabat2	100.0	0.0	219202.0	4283877.0	kept	metabat2.bin.024	219202.0	100.0							
+R2_restored_D_shore	V1	maxbin2.Bin.020	maxbin2	98.0	0.0	39600.0	3618135.0	kept	maxbin2.Bin.020	41625.0	98.0							
+R2_restored_D_shore	V1	maxbin2.Bin.034	maxbin2	98.0	0.0	8976.0	3401595.0	kept	maxbin2.Bin.034	10560.0	94.0							
+R2_restored_D_shore	V1	metabat2.bin.027	metabat2	94.0	0.0	24222.0	3308228.0	kept	metabat2.bin.027	24222.0	94.0							
+R2_restored_D_shore	V1	maxbin2.Bin.031	maxbin2	98.0	4.0	11906.0	3081687.0	kept	maxbin2.Bin.031	13594.0	98.0							
+R2_restored_D_shore	V1	metabat2.bin.012	metabat2	92.0	0.0	20412.0	2807292.0	kept	metabat2.bin.012	20412.0	92.0							
+R2_restored_D_shore	V1	metabat2.bin.013	metabat2	90.0	2.0	17899.0	3990080.0	kept	metabat2.bin.013	17899.0	90.0							
+R2_restored_D_shore	V1	maxbin2.Bin.074	maxbin2	88.0	2.0	2796.0	4359224.0	kept	maxbin2.Bin.074_sub	4406.0	67.0							
+R2_restored_D_shore	V1	maxbin2.Bin.030	maxbin2	90.0	4.0	4528.0	2911069.0	kept	concoct.bin.026_sub	6418.0	84.0							
+R2_restored_D_shore	V1	concoct.bin.043_sub	concoct	84.0	0.0	98245.0	2908822.0	kept	concoct.bin.043_sub	98245.0	84.0							
+R2_restored_D_shore	V1	maxbin2.Bin.067	maxbin2	82.0	2.0	2265.0	2456729.0	kept	maxbin2.Bin.067_sub	3668.0	55.0							
+R2_restored_D_shore	V1	metabat2.bin.003_sub	metabat2	86.0	6.0	7737.0	2578948.0	kept	metabat2.bin.003	7612.0	86.0							
+R2_restored_D_shore	V1	metabat2.bin.006	metabat2	82.0	4.0	6365.0	2262874.0	kept	maxbin2.Bin.008	6077.0	90.0							
+R2_restored_D_shore	V1	maxbin2.Bin.027	maxbin2	73.0	0.0	3277.0	496179.0	kept	maxbin2.Bin.027	3811.0	55.0							
+R2_restored_D_shore	V1	maxbin2.Bin.048_sub	maxbin2	80.0	8.0	4438.0	2613558.0	kept	maxbin2.Bin.048_sub	6169.0	55.0							
+R2_restored_D_shore	V1	concoct.bin.021_sub	concoct	75.0	4.0	9674.0	3061270.0	kept	concoct.bin.021_sub	9674.0	75.0							
+R2_restored_D_shore	V1	metabat2.bin.025_sub	metabat2	71.0	2.0	4968.0	3521479.0	kept	metabat2.bin.025_sub	4879.0	71.0							
+R2_restored_D_shore	V1	metabat2.bin.047	metabat2	67.0	0.0	4933.0	3662988.0	kept	metabat2.bin.047	4933.0	67.0							
+R2_restored_D_shore	V1	maxbin2.Bin.054_sub	maxbin2	69.0	4.0	6106.0	4241280.0	dropped										
+R2_restored_D_shore	V1	metabat2.bin.021	metabat2	65.0	2.0	4664.0	1988450.0	kept	metabat2.bin.021	4664.0	65.0							
+R2_restored_D_shore	V1	maxbin2.Bin.014	maxbin2	61.0	0.0	2205.0	3471083.0	dropped										
+R2_restored_D_shore	V1	maxbin2.Bin.072	maxbin2	63.0	2.0	2223.0	3581052.0	dropped										
+R2_restored_D_shore	V1	metabat2.bin.011_sub	metabat2	73.0	8.0	3949.0	3227863.0	kept	metabat2.bin.011_sub	4002.0	71.0							
+R2_restored_D_shore	V1	maxbin2.Bin.046_sub	maxbin2	57.0	0.0	1577.0	1085732.0	dropped										
+R2_restored_D_shore	V1							new	concoct.bin.046_sub	5401.0	69.0	8.0	4556459.0	concoct	False	False	False	0.1472
+R2_restored_D_shore	V2	metabat2.bin.024	metabat2	100.0	0.0	219202.0	4283877.0	kept	metabat2.bin.024	219202.0	100.0							
+R2_restored_D_shore	V2	maxbin2.Bin.020	maxbin2	98.0	0.0	39600.0	3618135.0	kept	maxbin2.Bin.020	41631.0	98.0							
+R2_restored_D_shore	V2	maxbin2.Bin.034	maxbin2	98.0	0.0	8976.0	3401595.0	kept	maxbin2.Bin.034_sub	11052.0	75.0							
+R2_restored_D_shore	V2	metabat2.bin.027	metabat2	94.0	0.0	24222.0	3308228.0	kept	metabat2.bin.027	24222.0	94.0							
+R2_restored_D_shore	V2	maxbin2.Bin.031	maxbin2	98.0	4.0	11906.0	3081687.0	kept	maxbin2.Bin.031	14268.0	94.0							
+R2_restored_D_shore	V2	metabat2.bin.012	metabat2	92.0	0.0	20412.0	2807292.0	kept	metabat2.bin.012	20460.0	92.0							
+R2_restored_D_shore	V2	metabat2.bin.013	metabat2	90.0	2.0	17899.0	3990080.0	kept	metabat2.bin.013	17991.0	90.0							
+R2_restored_D_shore	V2	maxbin2.Bin.074	maxbin2	88.0	2.0	2796.0	4359224.0	kept	maxbin2.Bin.074_sub	4900.0	53.0							
+R2_restored_D_shore	V2	maxbin2.Bin.030	maxbin2	90.0	4.0	4528.0	2911069.0	kept	concoct.bin.026_sub	6724.0	84.0							
+R2_restored_D_shore	V2	concoct.bin.043_sub	concoct	84.0	0.0	98245.0	2908822.0	kept	concoct.bin.043	98245.0	84.0							
+R2_restored_D_shore	V2	maxbin2.Bin.067	maxbin2	82.0	2.0	2265.0	2456729.0	dropped										
+R2_restored_D_shore	V2	metabat2.bin.003_sub	metabat2	86.0	6.0	7737.0	2578948.0	kept	metabat2.bin.003	8320.0	82.0							
+R2_restored_D_shore	V2	metabat2.bin.006	metabat2	82.0	4.0	6365.0	2262874.0	kept	maxbin2.Bin.008	6672.0	78.0							
+R2_restored_D_shore	V2	maxbin2.Bin.027	maxbin2	73.0	0.0	3277.0	496179.0	dropped										
+R2_restored_D_shore	V2	maxbin2.Bin.048_sub	maxbin2	80.0	8.0	4438.0	2613558.0	dropped										
+R2_restored_D_shore	V2	concoct.bin.021_sub	concoct	75.0	4.0	9674.0	3061270.0	kept	concoct.bin.021_sub	10026.0	75.0							
+R2_restored_D_shore	V2	metabat2.bin.025_sub	metabat2	71.0	2.0	4968.0	3521479.0	kept	metabat2.bin.025_sub	5339.0	67.0							
+R2_restored_D_shore	V2	metabat2.bin.047	metabat2	67.0	0.0	4933.0	3662988.0	kept	metabat2.bin.047	5555.0	67.0							
+R2_restored_D_shore	V2	maxbin2.Bin.054_sub	maxbin2	69.0	4.0	6106.0	4241280.0	dropped										
+R2_restored_D_shore	V2	metabat2.bin.021	metabat2	65.0	2.0	4664.0	1988450.0	kept	metabat2.bin.021	5172.0	61.0							
+R2_restored_D_shore	V2	maxbin2.Bin.014	maxbin2	61.0	0.0	2205.0	3471083.0	dropped										
+R2_restored_D_shore	V2	maxbin2.Bin.072	maxbin2	63.0	2.0	2223.0	3581052.0	dropped										
+R2_restored_D_shore	V2	metabat2.bin.011_sub	metabat2	73.0	8.0	3949.0	3227863.0	kept	metabat2.bin.011_sub	4695.0	71.0							
+R2_restored_D_shore	V2	maxbin2.Bin.046_sub	maxbin2	57.0	0.0	1577.0	1085732.0	dropped										
+R2_restored_D_shore	V3	metabat2.bin.024	metabat2	100.0	0.0	219202.0	4283877.0	kept	metabat2.bin.024	219202.0	100.0							
+R2_restored_D_shore	V3	maxbin2.Bin.020	maxbin2	98.0	0.0	39600.0	3618135.0	kept	maxbin2.Bin.020	43580.0	82.0							
+R2_restored_D_shore	V3	maxbin2.Bin.034	maxbin2	98.0	0.0	8976.0	3401595.0	kept	metabat2.bin.031_sub	12650.0	75.0							
+R2_restored_D_shore	V3	metabat2.bin.027	metabat2	94.0	0.0	24222.0	3308228.0	kept	metabat2.bin.027	25207.0	94.0							
+R2_restored_D_shore	V3	maxbin2.Bin.031	maxbin2	98.0	4.0	11906.0	3081687.0	kept	maxbin2.Bin.031	15241.0	92.0							
+R2_restored_D_shore	V3	metabat2.bin.012	metabat2	92.0	0.0	20412.0	2807292.0	kept	metabat2.bin.012	22030.0	87.0							
+R2_restored_D_shore	V3	metabat2.bin.013	metabat2	90.0	2.0	17899.0	3990080.0	kept	metabat2.bin.013	19373.0	88.0							
+R2_restored_D_shore	V3	maxbin2.Bin.074	maxbin2	88.0	2.0	2796.0	4359224.0	dropped										
+R2_restored_D_shore	V3	maxbin2.Bin.030	maxbin2	90.0	4.0	4528.0	2911069.0	kept	concoct.bin.026_sub	8903.0	69.0							
+R2_restored_D_shore	V3	concoct.bin.043_sub	concoct	84.0	0.0	98245.0	2908822.0	kept	concoct.bin.043	98245.0	84.0							
+R2_restored_D_shore	V3	maxbin2.Bin.067	maxbin2	82.0	2.0	2265.0	2456729.0	dropped										
+R2_restored_D_shore	V3	metabat2.bin.003_sub	metabat2	86.0	6.0	7737.0	2578948.0	kept	concoct.bin.010	10850.0	69.0							
+R2_restored_D_shore	V3	metabat2.bin.006	metabat2	82.0	4.0	6365.0	2262874.0	kept	maxbin2.Bin.008	8787.0	53.0							
+R2_restored_D_shore	V3	maxbin2.Bin.027	maxbin2	73.0	0.0	3277.0	496179.0	dropped										
+R2_restored_D_shore	V3	maxbin2.Bin.048_sub	maxbin2	80.0	8.0	4438.0	2613558.0	dropped										
+R2_restored_D_shore	V3	concoct.bin.021_sub	concoct	75.0	4.0	9674.0	3061270.0	kept	concoct.bin.021_sub	11285.0	67.0							
+R2_restored_D_shore	V3	metabat2.bin.025_sub	metabat2	71.0	2.0	4968.0	3521479.0	dropped										
+R2_restored_D_shore	V3	metabat2.bin.047	metabat2	67.0	0.0	4933.0	3662988.0	dropped										
+R2_restored_D_shore	V3	maxbin2.Bin.054_sub	maxbin2	69.0	4.0	6106.0	4241280.0	dropped										
+R2_restored_D_shore	V3	metabat2.bin.021	metabat2	65.0	2.0	4664.0	1988450.0	dropped										
+R2_restored_D_shore	V3	maxbin2.Bin.014	maxbin2	61.0	0.0	2205.0	3471083.0	dropped										
+R2_restored_D_shore	V3	maxbin2.Bin.072	maxbin2	63.0	2.0	2223.0	3581052.0	dropped										
+R2_restored_D_shore	V3	metabat2.bin.011_sub	metabat2	73.0	8.0	3949.0	3227863.0	dropped										
+R2_restored_D_shore	V3	maxbin2.Bin.046_sub	maxbin2	57.0	0.0	1577.0	1085732.0	dropped										
+R2_restored_D_shore	V3							new	metabat2.bin.008	19752.0	67.0	0.0	3098982.0	metabat2	False	False	True	0.0049
+R2_restored_D_shore	V3							new	metabat2.bin.002_sub	8115.0	75.0	0.0	3300573.0	metabat2	True	False	False	0.0
+R2_restored_D_shore	V4	metabat2.bin.024	metabat2	100.0	0.0	219202.0	4283877.0	kept	metabat2.bin.024	219202.0	100.0							
+R2_restored_D_shore	V4	maxbin2.Bin.020	maxbin2	98.0	0.0	39600.0	3618135.0	kept	metabat2.bin.032	43580.0	73.0							
+R2_restored_D_shore	V4	maxbin2.Bin.034	maxbin2	98.0	0.0	8976.0	3401595.0	kept	metabat2.bin.031	10444.0	94.0							
+R2_restored_D_shore	V4	metabat2.bin.027	metabat2	94.0	0.0	24222.0	3308228.0	kept	metabat2.bin.027	24222.0	94.0							
+R2_restored_D_shore	V4	maxbin2.Bin.031	maxbin2	98.0	4.0	11906.0	3081687.0	dropped										
+R2_restored_D_shore	V4	metabat2.bin.012	metabat2	92.0	0.0	20412.0	2807292.0	kept	metabat2.bin.012	20412.0	92.0							
+R2_restored_D_shore	V4	metabat2.bin.013	metabat2	90.0	2.0	17899.0	3990080.0	kept	metabat2.bin.013	17899.0	90.0							
+R2_restored_D_shore	V4	maxbin2.Bin.074	maxbin2	88.0	2.0	2796.0	4359224.0	dropped										
+R2_restored_D_shore	V4	maxbin2.Bin.030	maxbin2	90.0	4.0	4528.0	2911069.0	kept	concoct.bin.026_sub	6418.0	84.0							
+R2_restored_D_shore	V4	concoct.bin.043_sub	concoct	84.0	0.0	98245.0	2908822.0	kept	concoct.bin.043	98245.0	84.0							
+R2_restored_D_shore	V4	maxbin2.Bin.067	maxbin2	82.0	2.0	2265.0	2456729.0	kept	metabat2.bin.048	3642.0	55.0							
+R2_restored_D_shore	V4	metabat2.bin.003_sub	metabat2	86.0	6.0	7737.0	2578948.0	kept	metabat2.bin.003	7612.0	86.0							
+R2_restored_D_shore	V4	metabat2.bin.006	metabat2	82.0	4.0	6365.0	2262874.0	kept	metabat2.bin.006	6365.0	82.0							
+R2_restored_D_shore	V4	maxbin2.Bin.027	maxbin2	73.0	0.0	3277.0	496179.0	kept	concoct.bin.079	3811.0	55.0							
+R2_restored_D_shore	V4	maxbin2.Bin.048_sub	maxbin2	80.0	8.0	4438.0	2613558.0	dropped										
+R2_restored_D_shore	V4	concoct.bin.021_sub	concoct	75.0	4.0	9674.0	3061270.0	kept	concoct.bin.021_sub	9513.0	75.0							
+R2_restored_D_shore	V4	metabat2.bin.025_sub	metabat2	71.0	2.0	4968.0	3521479.0	kept	metabat2.bin.025_sub	4879.0	71.0							
+R2_restored_D_shore	V4	metabat2.bin.047	metabat2	67.0	0.0	4933.0	3662988.0	kept	metabat2.bin.047	4933.0	67.0							
+R2_restored_D_shore	V4	maxbin2.Bin.054_sub	maxbin2	69.0	4.0	6106.0	4241280.0	dropped										
+R2_restored_D_shore	V4	metabat2.bin.021	metabat2	65.0	2.0	4664.0	1988450.0	kept	metabat2.bin.021	4664.0	65.0							
+R2_restored_D_shore	V4	maxbin2.Bin.014	maxbin2	61.0	0.0	2205.0	3471083.0	dropped										
+R2_restored_D_shore	V4	maxbin2.Bin.072	maxbin2	63.0	2.0	2223.0	3581052.0	dropped										
+R2_restored_D_shore	V4	metabat2.bin.011_sub	metabat2	73.0	8.0	3949.0	3227863.0	kept	metabat2.bin.011_sub	4002.0	71.0							
+R2_restored_D_shore	V4	maxbin2.Bin.046_sub	maxbin2	57.0	0.0	1577.0	1085732.0	dropped										
+R2_restored_D_shore	V4							new	concoct.bin.046_sub	5401.0	69.0	8.0	4558921.0	concoct	False	False	False	0.1493
+R2_restored_D_shore	V5	metabat2.bin.024	metabat2	100.0	0.0	219202.0	4283877.0	kept	metabat2.bin.024	219202.0	100.0							
+R2_restored_D_shore	V5	maxbin2.Bin.020	maxbin2	98.0	0.0	39600.0	3618135.0	kept	maxbin2.Bin.020.ge3000	41631.0	98.0							
+R2_restored_D_shore	V5	maxbin2.Bin.034	maxbin2	98.0	0.0	8976.0	3401595.0	kept	maxbin2.Bin.034	8976.0	98.0							
+R2_restored_D_shore	V5	metabat2.bin.027	metabat2	94.0	0.0	24222.0	3308228.0	kept	metabat2.bin.027.ge5000	25207.0	94.0							
+R2_restored_D_shore	V5	maxbin2.Bin.031	maxbin2	98.0	4.0	11906.0	3081687.0	kept	maxbin2.Bin.031.ge2500	13594.0	98.0							
+R2_restored_D_shore	V5	metabat2.bin.012	metabat2	92.0	0.0	20412.0	2807292.0	kept	metabat2.bin.012.ge3000	20460.0	92.0							
+R2_restored_D_shore	V5	metabat2.bin.013	metabat2	90.0	2.0	17899.0	3990080.0	kept	metabat2.bin.013.ge3000	17991.0	90.0							
+R2_restored_D_shore	V5	maxbin2.Bin.074	maxbin2	88.0	2.0	2796.0	4359224.0	kept	maxbin2.Bin.074	2796.0	88.0							
+R2_restored_D_shore	V5	maxbin2.Bin.030	maxbin2	90.0	4.0	4528.0	2911069.0	kept	maxbin2.Bin.030	4528.0	90.0							
+R2_restored_D_shore	V5	concoct.bin.043_sub	concoct	84.0	0.0	98245.0	2908822.0	kept	concoct.bin.043.ge3000_sub	98245.0	84.0							
+R2_restored_D_shore	V5	maxbin2.Bin.067	maxbin2	82.0	2.0	2265.0	2456729.0	kept	maxbin2.Bin.067	2265.0	82.0							
+R2_restored_D_shore	V5	metabat2.bin.003_sub	metabat2	86.0	6.0	7737.0	2578948.0	kept	metabat2.bin.003_sub	7737.0	86.0							
+R2_restored_D_shore	V5	metabat2.bin.006	metabat2	82.0	4.0	6365.0	2262874.0	kept	maxbin2.Bin.008.ge2500	6077.0	90.0							
+R2_restored_D_shore	V5	maxbin2.Bin.027	maxbin2	73.0	0.0	3277.0	496179.0	kept	maxbin2.Bin.027	3277.0	73.0							
+R2_restored_D_shore	V5	maxbin2.Bin.048_sub	maxbin2	80.0	8.0	4438.0	2613558.0	kept	maxbin2.Bin.048_sub	4509.0	80.0							
+R2_restored_D_shore	V5	concoct.bin.021_sub	concoct	75.0	4.0	9674.0	3061270.0	kept	concoct.bin.021.ge3000_sub	10026.0	75.0							
+R2_restored_D_shore	V5	metabat2.bin.025_sub	metabat2	71.0	2.0	4968.0	3521479.0	kept	metabat2.bin.025_sub	4954.0	71.0							
+R2_restored_D_shore	V5	metabat2.bin.047	metabat2	67.0	0.0	4933.0	3662988.0	kept	metabat2.bin.047.ge3000	5555.0	67.0							
+R2_restored_D_shore	V5	maxbin2.Bin.054_sub	maxbin2	69.0	4.0	6106.0	4241280.0	kept	maxbin2.Bin.054.ge2500	8698.0	69.0							
+R2_restored_D_shore	V5	metabat2.bin.021	metabat2	65.0	2.0	4664.0	1988450.0	kept	metabat2.bin.021	4664.0	65.0							
+R2_restored_D_shore	V5	maxbin2.Bin.014	maxbin2	61.0	0.0	2205.0	3471083.0	kept	maxbin2.Bin.014_sub	2195.0	61.0							
+R2_restored_D_shore	V5	maxbin2.Bin.072	maxbin2	63.0	2.0	2223.0	3581052.0	kept	maxbin2.Bin.072_sub	2218.0	63.0							
+R2_restored_D_shore	V5	metabat2.bin.011_sub	metabat2	73.0	8.0	3949.0	3227863.0	kept	metabat2.bin.011.ge3000_sub	4645.0	73.0							
+R2_restored_D_shore	V5	maxbin2.Bin.046_sub	maxbin2	57.0	0.0	1577.0	1085732.0	kept	maxbin2.Bin.046_sub	1577.0	57.0							
+R2_restored_D_shore	V5							new	metabat2.bin.008.ge5000_sub	19752.0	67.0	0.0	3073606.0	metabat2_ge5000	False	False	True	0.0
+R2_restored_D_shore	V6	metabat2.bin.024	metabat2	100.0	0.0	219202.0	4283877.0	kept	metabat2.bin.024	219202.0	100.0							
+R2_restored_D_shore	V6	maxbin2.Bin.020	maxbin2	98.0	0.0	39600.0	3618135.0	kept	maxbin2.Bin.020	39600.0	98.0							
+R2_restored_D_shore	V6	maxbin2.Bin.034	maxbin2	98.0	0.0	8976.0	3401595.0	kept	maxbin2.Bin.034	8976.0	98.0							
+R2_restored_D_shore	V6	metabat2.bin.027	metabat2	94.0	0.0	24222.0	3308228.0	kept	metabat2.bin.027.ge5000	25207.0	94.0							
+R2_restored_D_shore	V6	maxbin2.Bin.031	maxbin2	98.0	4.0	11906.0	3081687.0	kept	maxbin2.Bin.031	11906.0	98.0							
+R2_restored_D_shore	V6	metabat2.bin.012	metabat2	92.0	0.0	20412.0	2807292.0	kept	metabat2.bin.012	20412.0	92.0							
+R2_restored_D_shore	V6	metabat2.bin.013	metabat2	90.0	2.0	17899.0	3990080.0	kept	metabat2.bin.013	17899.0	90.0							
+R2_restored_D_shore	V6	maxbin2.Bin.074	maxbin2	88.0	2.0	2796.0	4359224.0	kept	maxbin2.Bin.074	2796.0	88.0							
+R2_restored_D_shore	V6	maxbin2.Bin.030	maxbin2	90.0	4.0	4528.0	2911069.0	kept	maxbin2.Bin.030	4528.0	90.0							
+R2_restored_D_shore	V6	concoct.bin.043_sub	concoct	84.0	0.0	98245.0	2908822.0	kept	concoct.bin.043_sub	98245.0	84.0							
+R2_restored_D_shore	V6	maxbin2.Bin.067	maxbin2	82.0	2.0	2265.0	2456729.0	kept	maxbin2.Bin.067	2265.0	82.0							
+R2_restored_D_shore	V6	metabat2.bin.003_sub	metabat2	86.0	6.0	7737.0	2578948.0	kept	metabat2.bin.003_sub	7737.0	86.0							
+R2_restored_D_shore	V6	metabat2.bin.006	metabat2	82.0	4.0	6365.0	2262874.0	kept	metabat2.bin.006	6365.0	82.0							
+R2_restored_D_shore	V6	maxbin2.Bin.027	maxbin2	73.0	0.0	3277.0	496179.0	kept	maxbin2.Bin.027	3277.0	73.0							
+R2_restored_D_shore	V6	maxbin2.Bin.048_sub	maxbin2	80.0	8.0	4438.0	2613558.0	kept	maxbin2.Bin.048_sub	4509.0	80.0							
+R2_restored_D_shore	V6	concoct.bin.021_sub	concoct	75.0	4.0	9674.0	3061270.0	kept	concoct.bin.021_sub	9674.0	75.0							
+R2_restored_D_shore	V6	metabat2.bin.025_sub	metabat2	71.0	2.0	4968.0	3521479.0	kept	metabat2.bin.025_sub	4968.0	71.0							
+R2_restored_D_shore	V6	metabat2.bin.047	metabat2	67.0	0.0	4933.0	3662988.0	kept	metabat2.bin.047	4933.0	67.0							
+R2_restored_D_shore	V6	maxbin2.Bin.054_sub	maxbin2	69.0	4.0	6106.0	4241280.0	kept	maxbin2.Bin.054_sub	6106.0	69.0							
+R2_restored_D_shore	V6	metabat2.bin.021	metabat2	65.0	2.0	4664.0	1988450.0	kept	metabat2.bin.021	4664.0	65.0							
+R2_restored_D_shore	V6	maxbin2.Bin.014	maxbin2	61.0	0.0	2205.0	3471083.0	kept	maxbin2.Bin.014_sub	2204.0	61.0							
+R2_restored_D_shore	V6	maxbin2.Bin.072	maxbin2	63.0	2.0	2223.0	3581052.0	kept	maxbin2.Bin.072	2223.0	63.0							
+R2_restored_D_shore	V6	metabat2.bin.011_sub	metabat2	73.0	8.0	3949.0	3227863.0	kept	metabat2.bin.011_sub	3949.0	73.0							
+R2_restored_D_shore	V6	maxbin2.Bin.046_sub	maxbin2	57.0	0.0	1577.0	1085732.0	kept	maxbin2.Bin.046_sub	1577.0	57.0							
+R2_restored_D_shore	V6							new	metabat2.bin.033.ge5000_sub	11307.0	63.0	8.0	3810127.0	metabat2_ge5000	False	False	False	0.0
+R2_restored_D_shore	V6							new	metabat2.bin.002.ge5000_sub	8115.0	75.0	0.0	3300573.0	metabat2_ge5000	True	False	False	0.0
+R2_restored_D_shore	V6							new	metabat2.bin.008.ge5000_sub	19752.0	67.0	0.0	3073606.0	metabat2_ge5000	False	False	True	0.0
+SF2_sediment	V1	concoct.bin.024	concoct	100.0	0.0	25238.0	3654475.0	kept	concoct.bin.024	25238.0	100.0							
+SF2_sediment	V1	concoct.bin.170	concoct	100.0	0.0	12609.0	4829459.0	kept	concoct.bin.170	12609.0	100.0							
+SF2_sediment	V1	maxbin2.Bin.297	maxbin2	98.0	0.0	30313.0	4232759.0	kept	maxbin2.Bin.297	32412.0	98.0							
+SF2_sediment	V1	maxbin2.Bin.249	maxbin2	98.0	0.0	21348.0	4188241.0	kept	maxbin2.Bin.249	23887.0	98.0							
+SF2_sediment	V1	maxbin2.Bin.255	maxbin2	98.0	0.0	13896.0	4662370.0	kept	maxbin2.Bin.255	15110.0	94.0							
+SF2_sediment	V1	concoct.bin.136	concoct	98.0	0.0	13499.0	3235494.0	kept	concoct.bin.136	13499.0	98.0							
+SF2_sediment	V1	metabat2.bin.153	metabat2	98.0	0.0	8547.0	4200336.0	kept	maxbin2.Bin.282	8584.0	98.0							
+SF2_sediment	V1	metabat2.bin.024	metabat2	100.0	2.0	21774.0	3759334.0	kept	metabat2.bin.024	21774.0	100.0							
+SF2_sediment	V1	maxbin2.Bin.279	maxbin2	100.0	2.0	18148.0	4085613.0	kept	maxbin2.Bin.279	19503.0	100.0							
+SF2_sediment	V1	concoct.bin.174	concoct	96.0	0.0	52101.0	4559410.0	kept	concoct.bin.174	52101.0	96.0							
+SF2_sediment	V1	concoct.bin.154	concoct	96.0	0.0	46041.0	2898752.0	kept	concoct.bin.154	46041.0	96.0							
+SF2_sediment	V1	concoct.bin.121	concoct	96.0	0.0	36515.0	5554416.0	kept	concoct.bin.121	36515.0	96.0							
+SF2_sediment	V1	concoct.bin.064	concoct	94.0	0.0	15816.0	2541488.0	kept	concoct.bin.064	15816.0	94.0							
+SF2_sediment	V1	concoct.bin.083	concoct	94.0	0.0	7750.0	3793423.0	kept	concoct.bin.083	7750.0	94.0							
+SF2_sediment	V1	concoct.bin.026	concoct	92.0	0.0	38889.0	3058182.0	kept	concoct.bin.026	38889.0	92.0							
+SF2_sediment	V1	concoct.bin.135	concoct	92.0	0.0	9657.0	2901220.0	kept	concoct.bin.135	9657.0	92.0							
+SF2_sediment	V1	concoct.bin.172_sub	concoct	92.0	0.0	8315.0	3717168.0	kept	maxbin2.Bin.274_sub	8460.0	92.0							
+SF2_sediment	V1	maxbin2.Bin.262	maxbin2	94.0	2.0	44769.0	3298401.0	kept	metabat2.bin.040	44769.0	94.0							
+SF2_sediment	V1	metabat2.bin.164	metabat2	94.0	2.0	35757.0	3139245.0	kept	metabat2.bin.164	35757.0	94.0							
+SF2_sediment	V1	metabat2.bin.033	metabat2	94.0	2.0	27450.0	4076873.0	kept	maxbin2.Bin.292	27450.0	94.0							
+SF2_sediment	V1	maxbin2.Bin.073	maxbin2	96.0	4.0	9842.0	3039889.0	kept	maxbin2.Bin.073	12025.0	94.0							
+SF2_sediment	V1	concoct.bin.048	concoct	98.0	6.0	31274.0	4455714.0	kept	concoct.bin.048	31274.0	98.0							
+SF2_sediment	V1	concoct.bin.137	concoct	100.0	8.0	32144.0	3533942.0	kept	concoct.bin.137	32144.0	100.0							
+SF2_sediment	V1	metabat2.bin.124	metabat2	90.0	0.0	19518.0	2756855.0	kept	maxbin2.Bin.004	20117.0	90.0							
+SF2_sediment	V1	maxbin2.Bin.323	maxbin2	92.0	2.0	4217.0	3041945.0	kept	metabat2.bin.163_sub	4826.0	76.0							
+SF2_sediment	V1	maxbin2.Bin.010	maxbin2	96.0	6.0	5385.0	3215331.0	kept	maxbin2.Bin.010	6585.0	90.0							
+SF2_sediment	V1	metabat2.bin.130	metabat2	96.0	8.0	92489.0	2612318.0	kept	metabat2.bin.130	92489.0	96.0							
+SF2_sediment	V1	maxbin2.Bin.307	maxbin2	96.0	8.0	39384.0	3371877.0	kept	maxbin2.Bin.307	40050.0	96.0							
+SF2_sediment	V1	maxbin2.Bin.058	maxbin2	94.0	6.0	14403.0	4561649.0	kept	maxbin2.Bin.058	14799.0	94.0							
+SF2_sediment	V1	metabat2.bin.115	metabat2	86.0	0.0	7707.0	5397782.0	kept	metabat2.bin.115	7707.0	86.0							
+SF2_sediment	V1	concoct.bin.176	concoct	86.0	0.0	6702.0	6023173.0	kept	concoct.bin.176	6702.0	86.0							
+SF2_sediment	V1	concoct.bin.150	concoct	86.0	2.0	6308.0	2288189.0	kept	concoct.bin.150	6308.0	86.0							
+SF2_sediment	V1	metabat2.bin.082	metabat2	82.0	0.0	49230.0	3426566.0	kept	metabat2.bin.082	49230.0	82.0							
+SF2_sediment	V1	concoct.bin.023	concoct	82.0	0.0	5261.0	2907685.0	kept	concoct.bin.023	5261.0	82.0							
+SF2_sediment	V1	concoct.bin.217_sub	concoct	80.0	0.0	7700.0	2456540.0	kept	concoct.bin.217_sub	7700.0	80.0							
+SF2_sediment	V1	concoct.bin.025_sub	concoct	80.0	0.0	5274.0	4483701.0	kept	concoct.bin.025_sub	5274.0	80.0							
+SF2_sediment	V1	concoct.bin.206_sub	concoct	80.0	0.0	5107.0	2856506.0	kept	concoct.bin.206_sub	5107.0	80.0							
+SF2_sediment	V1	concoct.bin.112	concoct	84.0	4.0	6247.0	1879509.0	kept	concoct.bin.112	6247.0	84.0							
+SF2_sediment	V1	concoct.bin.008	concoct	78.0	0.0	9563.0	2889891.0	kept	concoct.bin.008	9563.0	78.0							
+SF2_sediment	V1	maxbin2.Bin.277	maxbin2	82.0	4.0	2799.0	2252559.0	kept	concoct.bin.148	3833.0	65.0							
+SF2_sediment	V1	concoct.bin.038_sub	concoct	80.0	2.0	5280.0	2963151.0	kept	concoct.bin.038	5280.0	80.0							
+SF2_sediment	V1	concoct.bin.009_sub	concoct	86.0	8.0	4597.0	5402869.0	kept	concoct.bin.009_sub	4597.0	86.0							
+SF2_sediment	V1	maxbin2.Bin.269	maxbin2	78.0	2.0	11293.0	4748807.0	kept	maxbin2.Bin.269	11825.0	76.0							
+SF2_sediment	V1	concoct.bin.124	concoct	75.0	0.0	5319.0	2259676.0	kept	concoct.bin.124	5319.0	75.0							
+SF2_sediment	V1	concoct.bin.107	concoct	76.0	2.0	4005.0	2711248.0	kept	concoct.bin.107	4005.0	76.0							
+SF2_sediment	V1	metabat2.bin.060	metabat2	82.0	6.0	14518.0	4494333.0	kept	metabat2.bin.060	14518.0	82.0							
+SF2_sediment	V1	concoct.bin.073	concoct	73.0	0.0	5980.0	2104287.0	kept	concoct.bin.073	5980.0	73.0							
+SF2_sediment	V1	concoct.bin.201	concoct	75.0	2.0	5345.0	4522409.0	kept	concoct.bin.201	5345.0	75.0							
+SF2_sediment	V1	concoct.bin.089	concoct	76.0	4.0	4679.0	1368749.0	kept	concoct.bin.089	4679.0	76.0							
+SF2_sediment	V1	concoct.bin.080	concoct	71.0	0.0	4620.0	2129287.0	kept	concoct.bin.080	4620.0	71.0							
+SF2_sediment	V1	concoct.bin.182	concoct	71.0	0.0	4234.0	1957186.0	kept	concoct.bin.182	4234.0	71.0							
+SF2_sediment	V1	metabat2.bin.119_sub	metabat2	73.0	2.0	4163.0	2921462.0	kept	metabat2.bin.119_sub	4163.0	73.0							
+SF2_sediment	V1	metabat2.bin.076_sub	metabat2	80.0	8.0	13330.0	3540860.0	kept	metabat2.bin.076_sub	13330.0	80.0							
+SF2_sediment	V1	metabat2.bin.079_sub	metabat2	69.0	0.0	6724.0	2917429.0	kept	metabat2.bin.079_sub	6705.0	69.0							
+SF2_sediment	V1	maxbin2.Bin.348	maxbin2	78.0	8.0	3130.0	1457631.0	kept	metabat2.bin.097	3850.0	63.0							
+SF2_sediment	V1	maxbin2.Bin.002	maxbin2	76.0	6.0	2241.0	2208036.0	kept	maxbin2.Bin.002	3785.0	61.0							
+SF2_sediment	V1	metabat2.bin.088	metabat2	67.0	0.0	4411.0	1625597.0	kept	metabat2.bin.088	4411.0	67.0							
+SF2_sediment	V1	metabat2.bin.165_sub	metabat2	67.0	0.0	3976.0	1066131.0	kept	metabat2.bin.165_sub	3976.0	67.0							
+SF2_sediment	V1	maxbin2.Bin.340_sub	maxbin2	69.0	4.0	7927.0	4023516.0	kept	maxbin2.Bin.340_sub	8730.0	65.0							
+SF2_sediment	V1	metabat2.bin.017_sub	metabat2	66.0	3.0	4319.0	1351613.0	kept	metabat2.bin.017_sub	4319.0	66.0							
+SF2_sediment	V1	concoct.bin.132	concoct	61.0	0.0	3720.0	1225896.0	kept	concoct.bin.132	3720.0	61.0							
+SF2_sediment	V1	concoct.bin.045_sub	concoct	61.0	2.0	3966.0	1574621.0	kept	concoct.bin.045_sub	3966.0	61.0							
+SF2_sediment	V1	concoct.bin.146_sub	concoct	57.0	0.0	4281.0	1881817.0	kept	concoct.bin.146_sub	4281.0	57.0							
+SF2_sediment	V1	concoct.bin.161	concoct	59.0	2.0	4543.0	3966141.0	kept	concoct.bin.161	4543.0	59.0							
+SF2_sediment	V1	concoct.bin.098	concoct	67.0	8.0	3994.0	287906.0	kept	maxbin2.Bin.040	15226.0	61.0							
+SF2_sediment	V1	maxbin2.Bin.344	maxbin2	63.0	5.0	3750.0	2297335.0	kept	maxbin2.Bin.344	5213.0	50.0							
+SF2_sediment	V1	maxbin2.Bin.122	maxbin2	61.0	4.0	7230.0	3688780.0	dropped										
+SF2_sediment	V1	maxbin2.Bin.069	maxbin2	65.0	6.0	4086.0	2260292.0	dropped										
+SF2_sediment	V1	maxbin2.Bin.054	maxbin2	57.0	2.0	4622.0	1588812.0	dropped										
+SF2_sediment	V1	metabat2.bin.059_sub	metabat2	65.0	8.0	4478.0	1811092.0	kept	maxbin2.Bin.191	4616.0	57.0							
+SF2_sediment	V1	concoct.bin.116_sub	concoct	61.0	6.0	3697.0	3702470.0	kept	concoct.bin.116_sub	3697.0	61.0							
+SF2_sediment	V1							new	maxbin2.Bin.001	4104.0	80.0	6.0	688302.0	maxbin2	True	True	True	0.0
+SF2_sediment	V1							new	maxbin2.Bin.112	3858.0	67.0	4.0	1217337.0	maxbin2	True	True	False	0.0
+SF2_sediment	V2	concoct.bin.024	concoct	100.0	0.0	25238.0	3654475.0	kept	concoct.bin.024	25238.0	100.0							
+SF2_sediment	V2	concoct.bin.170	concoct	100.0	0.0	12609.0	4829459.0	kept	concoct.bin.170	13017.0	100.0							
+SF2_sediment	V2	maxbin2.Bin.297	maxbin2	98.0	0.0	30313.0	4232759.0	kept	maxbin2.Bin.297	32412.0	98.0							
+SF2_sediment	V2	maxbin2.Bin.249	maxbin2	98.0	0.0	21348.0	4188241.0	kept	maxbin2.Bin.249	25260.0	98.0							
+SF2_sediment	V2	maxbin2.Bin.255	maxbin2	98.0	0.0	13896.0	4662370.0	kept	maxbin2.Bin.255	15412.0	94.0							
+SF2_sediment	V2	concoct.bin.136	concoct	98.0	0.0	13499.0	3235494.0	kept	metabat2.bin.084	13703.0	98.0							
+SF2_sediment	V2	metabat2.bin.153	metabat2	98.0	0.0	8547.0	4200336.0	kept	maxbin2.Bin.282	8885.0	92.0							
+SF2_sediment	V2	metabat2.bin.024	metabat2	100.0	2.0	21774.0	3759334.0	kept	metabat2.bin.024	22086.0	100.0							
+SF2_sediment	V2	maxbin2.Bin.279	maxbin2	100.0	2.0	18148.0	4085613.0	kept	concoct.bin.044	20873.0	100.0							
+SF2_sediment	V2	concoct.bin.174	concoct	96.0	0.0	52101.0	4559410.0	kept	concoct.bin.174	52101.0	96.0							
+SF2_sediment	V2	concoct.bin.154	concoct	96.0	0.0	46041.0	2898752.0	kept	concoct.bin.154	46041.0	96.0							
+SF2_sediment	V2	concoct.bin.121	concoct	96.0	0.0	36515.0	5554416.0	kept	concoct.bin.121	36515.0	96.0							
+SF2_sediment	V2	concoct.bin.064	concoct	94.0	0.0	15816.0	2541488.0	kept	concoct.bin.064	16240.0	94.0							
+SF2_sediment	V2	concoct.bin.083	concoct	94.0	0.0	7750.0	3793423.0	kept	concoct.bin.083	8177.0	94.0							
+SF2_sediment	V2	concoct.bin.026	concoct	92.0	0.0	38889.0	3058182.0	kept	maxbin2.Bin.032	39606.0	92.0							
+SF2_sediment	V2	concoct.bin.135	concoct	92.0	0.0	9657.0	2901220.0	kept	concoct.bin.135	9807.0	92.0							
+SF2_sediment	V2	concoct.bin.172_sub	concoct	92.0	0.0	8315.0	3717168.0	kept	metabat2.bin.009_sub	9131.0	90.0							
+SF2_sediment	V2	maxbin2.Bin.262	maxbin2	94.0	2.0	44769.0	3298401.0	kept	metabat2.bin.040	44769.0	94.0							
+SF2_sediment	V2	metabat2.bin.164	metabat2	94.0	2.0	35757.0	3139245.0	kept	maxbin2.Bin.261	35757.0	94.0							
+SF2_sediment	V2	metabat2.bin.033	metabat2	94.0	2.0	27450.0	4076873.0	kept	maxbin2.Bin.292	27450.0	94.0							
+SF2_sediment	V2	maxbin2.Bin.073	maxbin2	96.0	4.0	9842.0	3039889.0	kept	maxbin2.Bin.073	12842.0	94.0							
+SF2_sediment	V2	concoct.bin.048	concoct	98.0	6.0	31274.0	4455714.0	kept	concoct.bin.048	31362.0	98.0							
+SF2_sediment	V2	concoct.bin.137	concoct	100.0	8.0	32144.0	3533942.0	kept	concoct.bin.137	32144.0	100.0							
+SF2_sediment	V2	metabat2.bin.124	metabat2	90.0	0.0	19518.0	2756855.0	kept	maxbin2.Bin.004	20431.0	90.0							
+SF2_sediment	V2	maxbin2.Bin.323	maxbin2	92.0	2.0	4217.0	3041945.0	kept	maxbin2.Bin.323	5534.0	73.0							
+SF2_sediment	V2	maxbin2.Bin.010	maxbin2	96.0	6.0	5385.0	3215331.0	kept	maxbin2.Bin.010	6934.0	86.0							
+SF2_sediment	V2	metabat2.bin.130	metabat2	96.0	8.0	92489.0	2612318.0	kept	metabat2.bin.130	92489.0	96.0							
+SF2_sediment	V2	maxbin2.Bin.307	maxbin2	96.0	8.0	39384.0	3371877.0	kept	maxbin2.Bin.307	40050.0	96.0							
+SF2_sediment	V2	maxbin2.Bin.058	maxbin2	94.0	6.0	14403.0	4561649.0	kept	maxbin2.Bin.058	15030.0	90.0							
+SF2_sediment	V2	metabat2.bin.115	metabat2	86.0	0.0	7707.0	5397782.0	kept	metabat2.bin.115	7981.0	82.0							
+SF2_sediment	V2	concoct.bin.176	concoct	86.0	0.0	6702.0	6023173.0	kept	concoct.bin.176	6974.0	80.0							
+SF2_sediment	V2	concoct.bin.150	concoct	86.0	2.0	6308.0	2288189.0	kept	concoct.bin.150	6655.0	82.0							
+SF2_sediment	V2	metabat2.bin.082	metabat2	82.0	0.0	49230.0	3426566.0	kept	metabat2.bin.082_sub	49236.0	82.0							
+SF2_sediment	V2	concoct.bin.023	concoct	82.0	0.0	5261.0	2907685.0	kept	concoct.bin.023	5566.0	80.0							
+SF2_sediment	V2	concoct.bin.217_sub	concoct	80.0	0.0	7700.0	2456540.0	kept	concoct.bin.217	7881.0	67.0							
+SF2_sediment	V2	concoct.bin.025_sub	concoct	80.0	0.0	5274.0	4483701.0	kept	metabat2.bin.083_sub	5873.0	71.0							
+SF2_sediment	V2	concoct.bin.206_sub	concoct	80.0	0.0	5107.0	2856506.0	kept	concoct.bin.206	5492.0	75.0							
+SF2_sediment	V2	concoct.bin.112	concoct	84.0	4.0	6247.0	1879509.0	kept	concoct.bin.112	6575.0	84.0							
+SF2_sediment	V2	concoct.bin.008	concoct	78.0	0.0	9563.0	2889891.0	kept	concoct.bin.008	9706.0	78.0							
+SF2_sediment	V2	maxbin2.Bin.277	maxbin2	82.0	4.0	2799.0	2252559.0	kept	concoct.bin.148	4241.0	57.0							
+SF2_sediment	V2	concoct.bin.038_sub	concoct	80.0	2.0	5280.0	2963151.0	kept	concoct.bin.038	5546.0	80.0							
+SF2_sediment	V2	concoct.bin.009_sub	concoct	86.0	8.0	4597.0	5402869.0	kept	maxbin2.Bin.005	5144.0	75.0							
+SF2_sediment	V2	maxbin2.Bin.269	maxbin2	78.0	2.0	11293.0	4748807.0	kept	concoct.bin.087	11364.0	71.0							
+SF2_sediment	V2	concoct.bin.124	concoct	75.0	0.0	5319.0	2259676.0	kept	concoct.bin.124	5834.0	71.0							
+SF2_sediment	V2	concoct.bin.107	concoct	76.0	2.0	4005.0	2711248.0	kept	metabat2.bin.032_sub	4678.0	53.0							
+SF2_sediment	V2	metabat2.bin.060	metabat2	82.0	6.0	14518.0	4494333.0	kept	metabat2.bin.060	16793.0	82.0							
+SF2_sediment	V2	concoct.bin.073	concoct	73.0	0.0	5980.0	2104287.0	kept	concoct.bin.073	6996.0	71.0							
+SF2_sediment	V2	concoct.bin.201	concoct	75.0	2.0	5345.0	4522409.0	kept	concoct.bin.201	5751.0	75.0							
+SF2_sediment	V2	concoct.bin.089	concoct	76.0	4.0	4679.0	1368749.0	kept	concoct.bin.089	5201.0	67.0							
+SF2_sediment	V2	concoct.bin.080	concoct	71.0	0.0	4620.0	2129287.0	kept	concoct.bin.080	5003.0	69.0							
+SF2_sediment	V2	concoct.bin.182	concoct	71.0	0.0	4234.0	1957186.0	kept	concoct.bin.182	4664.0	67.0							
+SF2_sediment	V2	metabat2.bin.119_sub	metabat2	73.0	2.0	4163.0	2921462.0	kept	metabat2.bin.119_sub	4729.0	71.0							
+SF2_sediment	V2	metabat2.bin.076_sub	metabat2	80.0	8.0	13330.0	3540860.0	dropped										
+SF2_sediment	V2	metabat2.bin.079_sub	metabat2	69.0	0.0	6724.0	2917429.0	kept	metabat2.bin.079_sub	7020.0	57.0							
+SF2_sediment	V2	maxbin2.Bin.348	maxbin2	78.0	8.0	3130.0	1457631.0	kept	metabat2.bin.097	4362.0	57.0							
+SF2_sediment	V2	maxbin2.Bin.002	maxbin2	76.0	6.0	2241.0	2208036.0	kept	maxbin2.Bin.002	4316.0	59.0							
+SF2_sediment	V2	metabat2.bin.088	metabat2	67.0	0.0	4411.0	1625597.0	kept	metabat2.bin.088	4881.0	55.0							
+SF2_sediment	V2	metabat2.bin.165_sub	metabat2	67.0	0.0	3976.0	1066131.0	kept	metabat2.bin.165_sub	4261.0	57.0							
+SF2_sediment	V2	maxbin2.Bin.340_sub	maxbin2	69.0	4.0	7927.0	4023516.0	kept	maxbin2.Bin.340_sub	8991.0	63.0							
+SF2_sediment	V2	metabat2.bin.017_sub	metabat2	66.0	3.0	4319.0	1351613.0	dropped										
+SF2_sediment	V2	concoct.bin.132	concoct	61.0	0.0	3720.0	1225896.0	kept	concoct.bin.132	4196.0	57.0							
+SF2_sediment	V2	concoct.bin.045_sub	concoct	61.0	2.0	3966.0	1574621.0	kept	metabat2.bin.055_sub	4517.0	55.0							
+SF2_sediment	V2	concoct.bin.146_sub	concoct	57.0	0.0	4281.0	1881817.0	dropped										
+SF2_sediment	V2	concoct.bin.161	concoct	59.0	2.0	4543.0	3966141.0	kept	concoct.bin.161_sub	5098.0	53.0							
+SF2_sediment	V2	concoct.bin.098	concoct	67.0	8.0	3994.0	287906.0	kept	concoct.bin.098	6112.0	67.0							
+SF2_sediment	V2	maxbin2.Bin.344	maxbin2	63.0	5.0	3750.0	2297335.0	dropped										
+SF2_sediment	V2	maxbin2.Bin.122	maxbin2	61.0	4.0	7230.0	3688780.0	dropped										
+SF2_sediment	V2	maxbin2.Bin.069	maxbin2	65.0	6.0	4086.0	2260292.0	dropped										
+SF2_sediment	V2	maxbin2.Bin.054	maxbin2	57.0	2.0	4622.0	1588812.0	dropped										
+SF2_sediment	V2	metabat2.bin.059_sub	metabat2	65.0	8.0	4478.0	1811092.0	kept	concoct.bin.143	4652.0	75.0							
+SF2_sediment	V2	concoct.bin.116_sub	concoct	61.0	6.0	3697.0	3702470.0	dropped										
+SF2_sediment	V2							new	metabat2.bin.149_sub	6401.0	51.0	0.0	1089628.0	metabat2	False	False	False	0.0
+SF2_sediment	V2							new	concoct.bin.200	4361.0	69.0	2.0	2889731.0	concoct	True	False	False	0.0
+SF2_sediment	V2							new	concoct.bin.103	10326.0	94.0	8.0	8492409.0	concoct	True	False	False	0.0
+SF2_sediment	V2							new	maxbin2.Bin.001	4498.0	76.0	6.0	555374.0	maxbin2	True	True	True	0.0
+SF2_sediment	V2							new	concoct.bin.056_sub	4003.0	55.0	2.0	2213694.0	concoct	False	False	False	0.0
+SF2_sediment	V2							new	metabat2.bin.134_sub	3961.0	65.0	8.0	3348935.0	metabat2	False	False	False	0.0262
+SF2_sediment	V2							new	concoct.bin.127	5189.0	59.0	0.0	2347906.0	concoct	False	False	False	0.0
+SF2_sediment	V2							new	maxbin2.Bin.112	4394.0	67.0	4.0	924330.0	maxbin2	True	True	False	0.0
+SF2_sediment	V2							new	concoct.bin.018	4092.0	69.0	2.0	1312008.0	concoct	True	False	False	0.0
+SF2_sediment	V3	concoct.bin.024	concoct	100.0	0.0	25238.0	3654475.0	kept	metabat2.bin.122	26211.0	100.0							
+SF2_sediment	V3	concoct.bin.170	concoct	100.0	0.0	12609.0	4829459.0	kept	metabat2.bin.051	15345.0	100.0							
+SF2_sediment	V3	maxbin2.Bin.297	maxbin2	98.0	0.0	30313.0	4232759.0	kept	maxbin2.Bin.297	33694.0	96.0							
+SF2_sediment	V3	maxbin2.Bin.249	maxbin2	98.0	0.0	21348.0	4188241.0	kept	maxbin2.Bin.249	26335.0	96.0							
+SF2_sediment	V3	maxbin2.Bin.255	maxbin2	98.0	0.0	13896.0	4662370.0	kept	maxbin2.Bin.255_sub	16533.0	92.0							
+SF2_sediment	V3	concoct.bin.136	concoct	98.0	0.0	13499.0	3235494.0	kept	metabat2.bin.084	15632.0	96.0							
+SF2_sediment	V3	metabat2.bin.153	metabat2	98.0	0.0	8547.0	4200336.0	kept	metabat2.bin.153	10209.0	90.0							
+SF2_sediment	V3	metabat2.bin.024	metabat2	100.0	2.0	21774.0	3759334.0	kept	metabat2.bin.024	23918.0	94.0							
+SF2_sediment	V3	maxbin2.Bin.279	maxbin2	100.0	2.0	18148.0	4085613.0	kept	concoct.bin.044	21925.0	96.0							
+SF2_sediment	V3	concoct.bin.174	concoct	96.0	0.0	52101.0	4559410.0	kept	concoct.bin.174	52101.0	96.0							
+SF2_sediment	V3	concoct.bin.154	concoct	96.0	0.0	46041.0	2898752.0	kept	metabat2.bin.132	46905.0	96.0							
+SF2_sediment	V3	concoct.bin.121	concoct	96.0	0.0	36515.0	5554416.0	kept	concoct.bin.121	37313.0	96.0							
+SF2_sediment	V3	concoct.bin.064	concoct	94.0	0.0	15816.0	2541488.0	kept	metabat2.bin.157	19318.0	90.0							
+SF2_sediment	V3	concoct.bin.083	concoct	94.0	0.0	7750.0	3793423.0	kept	concoct.bin.083	10174.0	78.0							
+SF2_sediment	V3	concoct.bin.026	concoct	92.0	0.0	38889.0	3058182.0	kept	concoct.bin.026	39893.0	92.0							
+SF2_sediment	V3	concoct.bin.135	concoct	92.0	0.0	9657.0	2901220.0	kept	concoct.bin.135	11027.0	88.0							
+SF2_sediment	V3	concoct.bin.172_sub	concoct	92.0	0.0	8315.0	3717168.0	kept	maxbin2.Bin.274_sub	10830.0	88.0							
+SF2_sediment	V3	maxbin2.Bin.262	maxbin2	94.0	2.0	44769.0	3298401.0	kept	metabat2.bin.040	44857.0	94.0							
+SF2_sediment	V3	metabat2.bin.164	metabat2	94.0	2.0	35757.0	3139245.0	kept	metabat2.bin.164	36018.0	94.0							
+SF2_sediment	V3	metabat2.bin.033	metabat2	94.0	2.0	27450.0	4076873.0	kept	maxbin2.Bin.292	28453.0	94.0							
+SF2_sediment	V3	maxbin2.Bin.073	maxbin2	96.0	4.0	9842.0	3039889.0	kept	maxbin2.Bin.073	13716.0	84.0							
+SF2_sediment	V3	concoct.bin.048	concoct	98.0	6.0	31274.0	4455714.0	kept	concoct.bin.048	31467.0	88.0							
+SF2_sediment	V3	concoct.bin.137	concoct	100.0	8.0	32144.0	3533942.0	kept	concoct.bin.137	32897.0	100.0							
+SF2_sediment	V3	metabat2.bin.124	metabat2	90.0	0.0	19518.0	2756855.0	kept	maxbin2.Bin.004	22249.0	90.0							
+SF2_sediment	V3	maxbin2.Bin.323	maxbin2	92.0	2.0	4217.0	3041945.0	kept	maxbin2.Bin.323	7703.0	55.0							
+SF2_sediment	V3	maxbin2.Bin.010	maxbin2	96.0	6.0	5385.0	3215331.0	kept	maxbin2.Bin.010	8132.0	61.0							
+SF2_sediment	V3	metabat2.bin.130	metabat2	96.0	8.0	92489.0	2612318.0	kept	metabat2.bin.130	92489.0	90.0							
+SF2_sediment	V3	maxbin2.Bin.307	maxbin2	96.0	8.0	39384.0	3371877.0	kept	maxbin2.Bin.307	42894.0	96.0							
+SF2_sediment	V3	maxbin2.Bin.058	maxbin2	94.0	6.0	14403.0	4561649.0	kept	maxbin2.Bin.058	16234.0	73.0							
+SF2_sediment	V3	metabat2.bin.115	metabat2	86.0	0.0	7707.0	5397782.0	kept	maxbin2.Bin.246	9907.0	69.0							
+SF2_sediment	V3	concoct.bin.176	concoct	86.0	0.0	6702.0	6023173.0	kept	concoct.bin.176	8638.0	76.0							
+SF2_sediment	V3	concoct.bin.150	concoct	86.0	2.0	6308.0	2288189.0	kept	metabat2.bin.052	8117.0	76.0							
+SF2_sediment	V3	metabat2.bin.082	metabat2	82.0	0.0	49230.0	3426566.0	kept	metabat2.bin.082_sub	49236.0	82.0							
+SF2_sediment	V3	concoct.bin.023	concoct	82.0	0.0	5261.0	2907685.0	kept	concoct.bin.023	7124.0	61.0							
+SF2_sediment	V3	concoct.bin.217_sub	concoct	80.0	0.0	7700.0	2456540.0	dropped										
+SF2_sediment	V3	concoct.bin.025_sub	concoct	80.0	0.0	5274.0	4483701.0	kept	metabat2.bin.083	7848.0	59.0							
+SF2_sediment	V3	concoct.bin.206_sub	concoct	80.0	0.0	5107.0	2856506.0	kept	maxbin2.Bin.181	7865.0	67.0							
+SF2_sediment	V3	concoct.bin.112	concoct	84.0	4.0	6247.0	1879509.0	kept	concoct.bin.112	8539.0	59.0							
+SF2_sediment	V3	concoct.bin.008	concoct	78.0	0.0	9563.0	2889891.0	kept	concoct.bin.008	11527.0	76.0							
+SF2_sediment	V3	maxbin2.Bin.277	maxbin2	82.0	4.0	2799.0	2252559.0	dropped										
+SF2_sediment	V3	concoct.bin.038_sub	concoct	80.0	2.0	5280.0	2963151.0	kept	metabat2.bin.109	7050.0	61.0							
+SF2_sediment	V3	concoct.bin.009_sub	concoct	86.0	8.0	4597.0	5402869.0	kept	concoct.bin.009	7326.0	63.0							
+SF2_sediment	V3	maxbin2.Bin.269	maxbin2	78.0	2.0	11293.0	4748807.0	kept	concoct.bin.087	12483.0	61.0							
+SF2_sediment	V3	concoct.bin.124	concoct	75.0	0.0	5319.0	2259676.0	kept	concoct.bin.124	7678.0	55.0							
+SF2_sediment	V3	concoct.bin.107	concoct	76.0	2.0	4005.0	2711248.0	dropped										
+SF2_sediment	V3	metabat2.bin.060	metabat2	82.0	6.0	14518.0	4494333.0	kept	metabat2.bin.060	20981.0	67.0							
+SF2_sediment	V3	concoct.bin.073	concoct	73.0	0.0	5980.0	2104287.0	kept	concoct.bin.073	9010.0	61.0							
+SF2_sediment	V3	concoct.bin.201	concoct	75.0	2.0	5345.0	4522409.0	dropped										
+SF2_sediment	V3	concoct.bin.089	concoct	76.0	4.0	4679.0	1368749.0	dropped										
+SF2_sediment	V3	concoct.bin.080	concoct	71.0	0.0	4620.0	2129287.0	kept	concoct.bin.080	7144.0	57.0							
+SF2_sediment	V3	concoct.bin.182	concoct	71.0	0.0	4234.0	1957186.0	dropped										
+SF2_sediment	V3	metabat2.bin.119_sub	metabat2	73.0	2.0	4163.0	2921462.0	kept	metabat2.bin.119	6841.0	59.0							
+SF2_sediment	V3	metabat2.bin.076_sub	metabat2	80.0	8.0	13330.0	3540860.0	dropped										
+SF2_sediment	V3	metabat2.bin.079_sub	metabat2	69.0	0.0	6724.0	2917429.0	dropped										
+SF2_sediment	V3	maxbin2.Bin.348	maxbin2	78.0	8.0	3130.0	1457631.0	dropped										
+SF2_sediment	V3	maxbin2.Bin.002	maxbin2	76.0	6.0	2241.0	2208036.0	dropped										
+SF2_sediment	V3	metabat2.bin.088	metabat2	67.0	0.0	4411.0	1625597.0	dropped										
+SF2_sediment	V3	metabat2.bin.165_sub	metabat2	67.0	0.0	3976.0	1066131.0	dropped										
+SF2_sediment	V3	maxbin2.Bin.340_sub	maxbin2	69.0	4.0	7927.0	4023516.0	dropped										
+SF2_sediment	V3	metabat2.bin.017_sub	metabat2	66.0	3.0	4319.0	1351613.0	dropped										
+SF2_sediment	V3	concoct.bin.132	concoct	61.0	0.0	3720.0	1225896.0	dropped										
+SF2_sediment	V3	concoct.bin.045_sub	concoct	61.0	2.0	3966.0	1574621.0	dropped										
+SF2_sediment	V3	concoct.bin.146_sub	concoct	57.0	0.0	4281.0	1881817.0	dropped										
+SF2_sediment	V3	concoct.bin.161	concoct	59.0	2.0	4543.0	3966141.0	dropped										
+SF2_sediment	V3	concoct.bin.098	concoct	67.0	8.0	3994.0	287906.0	kept	concoct.bin.098	12794.0	67.0							
+SF2_sediment	V3	maxbin2.Bin.344	maxbin2	63.0	5.0	3750.0	2297335.0	dropped										
+SF2_sediment	V3	maxbin2.Bin.122	maxbin2	61.0	4.0	7230.0	3688780.0	dropped										
+SF2_sediment	V3	maxbin2.Bin.069	maxbin2	65.0	6.0	4086.0	2260292.0	dropped										
+SF2_sediment	V3	maxbin2.Bin.054	maxbin2	57.0	2.0	4622.0	1588812.0	dropped										
+SF2_sediment	V3	metabat2.bin.059_sub	metabat2	65.0	8.0	4478.0	1811092.0	dropped										
+SF2_sediment	V3	concoct.bin.116_sub	concoct	61.0	6.0	3697.0	3702470.0	dropped										
+SF2_sediment	V3							new	maxbin2.Bin.112	6673.0	55.0	0.0	357814.0	maxbin2	True	True	False	0.0
+SF2_sediment	V3							new	concoct.bin.103	14029.0	88.0	6.0	6578823.0	concoct	True	False	False	0.0
+SF2_sediment	V3							new	concoct.bin.110	7869.0	75.0	2.0	2436711.0	concoct	True	False	False	0.0
+SF2_sediment	V3							new	metabat2.bin.071	10470.0	76.0	8.0	3844316.0	metabat2	False	False	False	0.0
+SF2_sediment	V4	concoct.bin.024	concoct	100.0	0.0	25238.0	3654475.0	kept	concoct.bin.024	25238.0	100.0							
+SF2_sediment	V4	concoct.bin.170	concoct	100.0	0.0	12609.0	4829459.0	kept	concoct.bin.170	12609.0	100.0							
+SF2_sediment	V4	maxbin2.Bin.297	maxbin2	98.0	0.0	30313.0	4232759.0	kept	metabat2.bin.099	32412.0	96.0							
+SF2_sediment	V4	maxbin2.Bin.249	maxbin2	98.0	0.0	21348.0	4188241.0	kept	metabat2.bin.102	21776.0	94.0							
+SF2_sediment	V4	maxbin2.Bin.255	maxbin2	98.0	0.0	13896.0	4662370.0	kept	concoct.bin.007_sub	14248.0	94.0							
+SF2_sediment	V4	concoct.bin.136	concoct	98.0	0.0	13499.0	3235494.0	kept	concoct.bin.136	13499.0	98.0							
+SF2_sediment	V4	metabat2.bin.153	metabat2	98.0	0.0	8547.0	4200336.0	kept	metabat2.bin.153	8547.0	98.0							
+SF2_sediment	V4	metabat2.bin.024	metabat2	100.0	2.0	21774.0	3759334.0	kept	metabat2.bin.024	21774.0	100.0							
+SF2_sediment	V4	maxbin2.Bin.279	maxbin2	100.0	2.0	18148.0	4085613.0	kept	concoct.bin.044	20551.0	100.0							
+SF2_sediment	V4	concoct.bin.174	concoct	96.0	0.0	52101.0	4559410.0	kept	concoct.bin.174	52101.0	96.0							
+SF2_sediment	V4	concoct.bin.154	concoct	96.0	0.0	46041.0	2898752.0	kept	concoct.bin.154	46041.0	96.0							
+SF2_sediment	V4	concoct.bin.121	concoct	96.0	0.0	36515.0	5554416.0	kept	concoct.bin.121	36515.0	96.0							
+SF2_sediment	V4	concoct.bin.064	concoct	94.0	0.0	15816.0	2541488.0	kept	concoct.bin.064	15816.0	94.0							
+SF2_sediment	V4	concoct.bin.083	concoct	94.0	0.0	7750.0	3793423.0	kept	concoct.bin.083	7750.0	94.0							
+SF2_sediment	V4	concoct.bin.026	concoct	92.0	0.0	38889.0	3058182.0	kept	concoct.bin.026	38889.0	92.0							
+SF2_sediment	V4	concoct.bin.135	concoct	92.0	0.0	9657.0	2901220.0	kept	concoct.bin.135	9657.0	92.0							
+SF2_sediment	V4	concoct.bin.172_sub	concoct	92.0	0.0	8315.0	3717168.0	kept	concoct.bin.172	8315.0	92.0							
+SF2_sediment	V4	maxbin2.Bin.262	maxbin2	94.0	2.0	44769.0	3298401.0	kept	metabat2.bin.040	44769.0	94.0							
+SF2_sediment	V4	metabat2.bin.164	metabat2	94.0	2.0	35757.0	3139245.0	kept	metabat2.bin.164	35757.0	94.0							
+SF2_sediment	V4	metabat2.bin.033	metabat2	94.0	2.0	27450.0	4076873.0	kept	metabat2.bin.033	27450.0	94.0							
+SF2_sediment	V4	maxbin2.Bin.073	maxbin2	96.0	4.0	9842.0	3039889.0	dropped										
+SF2_sediment	V4	concoct.bin.048	concoct	98.0	6.0	31274.0	4455714.0	kept	concoct.bin.048	31274.0	98.0							
+SF2_sediment	V4	concoct.bin.137	concoct	100.0	8.0	32144.0	3533942.0	kept	concoct.bin.137	32144.0	100.0							
+SF2_sediment	V4	metabat2.bin.124	metabat2	90.0	0.0	19518.0	2756855.0	kept	metabat2.bin.124	19518.0	90.0							
+SF2_sediment	V4	maxbin2.Bin.323	maxbin2	92.0	2.0	4217.0	3041945.0	kept	metabat2.bin.163_sub	4826.0	76.0							
+SF2_sediment	V4	maxbin2.Bin.010	maxbin2	96.0	6.0	5385.0	3215331.0	dropped										
+SF2_sediment	V4	metabat2.bin.130	metabat2	96.0	8.0	92489.0	2612318.0	kept	metabat2.bin.130	92489.0	96.0							
+SF2_sediment	V4	maxbin2.Bin.307	maxbin2	96.0	8.0	39384.0	3371877.0	dropped										
+SF2_sediment	V4	maxbin2.Bin.058	maxbin2	94.0	6.0	14403.0	4561649.0	dropped										
+SF2_sediment	V4	metabat2.bin.115	metabat2	86.0	0.0	7707.0	5397782.0	kept	metabat2.bin.115	7707.0	86.0							
+SF2_sediment	V4	concoct.bin.176	concoct	86.0	0.0	6702.0	6023173.0	kept	concoct.bin.176	6702.0	86.0							
+SF2_sediment	V4	concoct.bin.150	concoct	86.0	2.0	6308.0	2288189.0	kept	concoct.bin.150	6308.0	86.0							
+SF2_sediment	V4	metabat2.bin.082	metabat2	82.0	0.0	49230.0	3426566.0	kept	metabat2.bin.082_sub	49236.0	82.0							
+SF2_sediment	V4	concoct.bin.023	concoct	82.0	0.0	5261.0	2907685.0	kept	concoct.bin.023	5261.0	82.0							
+SF2_sediment	V4	concoct.bin.217_sub	concoct	80.0	0.0	7700.0	2456540.0	kept	concoct.bin.217_sub	7700.0	80.0							
+SF2_sediment	V4	concoct.bin.025_sub	concoct	80.0	0.0	5274.0	4483701.0	kept	concoct.bin.025_sub	5274.0	80.0							
+SF2_sediment	V4	concoct.bin.206_sub	concoct	80.0	0.0	5107.0	2856506.0	kept	concoct.bin.206	5107.0	80.0							
+SF2_sediment	V4	concoct.bin.112	concoct	84.0	4.0	6247.0	1879509.0	kept	concoct.bin.112	6247.0	84.0							
+SF2_sediment	V4	concoct.bin.008	concoct	78.0	0.0	9563.0	2889891.0	kept	concoct.bin.008	9563.0	78.0							
+SF2_sediment	V4	maxbin2.Bin.277	maxbin2	82.0	4.0	2799.0	2252559.0	kept	concoct.bin.148	3833.0	65.0							
+SF2_sediment	V4	concoct.bin.038_sub	concoct	80.0	2.0	5280.0	2963151.0	kept	concoct.bin.038_sub	5280.0	80.0							
+SF2_sediment	V4	concoct.bin.009_sub	concoct	86.0	8.0	4597.0	5402869.0	kept	concoct.bin.009_sub	4597.0	86.0							
+SF2_sediment	V4	maxbin2.Bin.269	maxbin2	78.0	2.0	11293.0	4748807.0	kept	concoct.bin.087	10917.0	71.0							
+SF2_sediment	V4	concoct.bin.124	concoct	75.0	0.0	5319.0	2259676.0	kept	concoct.bin.124	5319.0	75.0							
+SF2_sediment	V4	concoct.bin.107	concoct	76.0	2.0	4005.0	2711248.0	kept	concoct.bin.107	4005.0	76.0							
+SF2_sediment	V4	metabat2.bin.060	metabat2	82.0	6.0	14518.0	4494333.0	kept	metabat2.bin.060	14518.0	82.0							
+SF2_sediment	V4	concoct.bin.073	concoct	73.0	0.0	5980.0	2104287.0	kept	concoct.bin.073	5980.0	73.0							
+SF2_sediment	V4	concoct.bin.201	concoct	75.0	2.0	5345.0	4522409.0	kept	concoct.bin.201	5345.0	75.0							
+SF2_sediment	V4	concoct.bin.089	concoct	76.0	4.0	4679.0	1368749.0	kept	concoct.bin.089	4679.0	76.0							
+SF2_sediment	V4	concoct.bin.080	concoct	71.0	0.0	4620.0	2129287.0	kept	concoct.bin.080	4620.0	71.0							
+SF2_sediment	V4	concoct.bin.182	concoct	71.0	0.0	4234.0	1957186.0	kept	concoct.bin.182	4234.0	71.0							
+SF2_sediment	V4	metabat2.bin.119_sub	metabat2	73.0	2.0	4163.0	2921462.0	kept	metabat2.bin.119_sub	4163.0	73.0							
+SF2_sediment	V4	metabat2.bin.076_sub	metabat2	80.0	8.0	13330.0	3540860.0	dropped										
+SF2_sediment	V4	metabat2.bin.079_sub	metabat2	69.0	0.0	6724.0	2917429.0	kept	metabat2.bin.079_sub	6705.0	69.0							
+SF2_sediment	V4	maxbin2.Bin.348	maxbin2	78.0	8.0	3130.0	1457631.0	kept	metabat2.bin.097	3850.0	63.0							
+SF2_sediment	V4	maxbin2.Bin.002	maxbin2	76.0	6.0	2241.0	2208036.0	kept	metabat2.bin.025	4175.0	71.0							
+SF2_sediment	V4	metabat2.bin.088	metabat2	67.0	0.0	4411.0	1625597.0	kept	metabat2.bin.088	4411.0	67.0							
+SF2_sediment	V4	metabat2.bin.165_sub	metabat2	67.0	0.0	3976.0	1066131.0	kept	metabat2.bin.165	3976.0	67.0							
+SF2_sediment	V4	maxbin2.Bin.340_sub	maxbin2	69.0	4.0	7927.0	4023516.0	kept	concoct.bin.128_sub	8786.0	61.0							
+SF2_sediment	V4	metabat2.bin.017_sub	metabat2	66.0	3.0	4319.0	1351613.0	kept	metabat2.bin.017_sub	4319.0	66.0							
+SF2_sediment	V4	concoct.bin.132	concoct	61.0	0.0	3720.0	1225896.0	kept	concoct.bin.132	3720.0	61.0							
+SF2_sediment	V4	concoct.bin.045_sub	concoct	61.0	2.0	3966.0	1574621.0	kept	concoct.bin.045_sub	3966.0	61.0							
+SF2_sediment	V4	concoct.bin.146_sub	concoct	57.0	0.0	4281.0	1881817.0	kept	concoct.bin.146_sub	4281.0	57.0							
+SF2_sediment	V4	concoct.bin.161	concoct	59.0	2.0	4543.0	3966141.0	kept	concoct.bin.161	4543.0	59.0							
+SF2_sediment	V4	concoct.bin.098	concoct	67.0	8.0	3994.0	287906.0	kept	concoct.bin.098	3994.0	67.0							
+SF2_sediment	V4	maxbin2.Bin.344	maxbin2	63.0	5.0	3750.0	2297335.0	dropped										
+SF2_sediment	V4	maxbin2.Bin.122	maxbin2	61.0	4.0	7230.0	3688780.0	dropped										
+SF2_sediment	V4	maxbin2.Bin.069	maxbin2	65.0	6.0	4086.0	2260292.0	dropped										
+SF2_sediment	V4	maxbin2.Bin.054	maxbin2	57.0	2.0	4622.0	1588812.0	dropped										
+SF2_sediment	V4	metabat2.bin.059_sub	metabat2	65.0	8.0	4478.0	1811092.0	kept	metabat2.bin.059_sub	4473.0	65.0							
+SF2_sediment	V4	concoct.bin.116_sub	concoct	61.0	6.0	3697.0	3702470.0	kept	concoct.bin.116_sub	3697.0	61.0							
+SF2_sediment	V5	concoct.bin.024	concoct	100.0	0.0	25238.0	3654475.0	kept	metabat2.bin.122.ge5000	26211.0	100.0							
+SF2_sediment	V5	concoct.bin.170	concoct	100.0	0.0	12609.0	4829459.0	kept	metabat2.bin.051.ge5000	15345.0	100.0							
+SF2_sediment	V5	maxbin2.Bin.297	maxbin2	98.0	0.0	30313.0	4232759.0	kept	maxbin2.Bin.297.ge2500	32412.0	98.0							
+SF2_sediment	V5	maxbin2.Bin.249	maxbin2	98.0	0.0	21348.0	4188241.0	kept	maxbin2.Bin.249.ge3000	25260.0	98.0							
+SF2_sediment	V5	maxbin2.Bin.255	maxbin2	98.0	0.0	13896.0	4662370.0	kept	maxbin2.Bin.255_sub	13989.0	98.0							
+SF2_sediment	V5	concoct.bin.136	concoct	98.0	0.0	13499.0	3235494.0	kept	metabat2.bin.084.ge3000	13703.0	98.0							
+SF2_sediment	V5	metabat2.bin.153	metabat2	98.0	0.0	8547.0	4200336.0	kept	maxbin2.Bin.282.ge2500	8584.0	98.0							
+SF2_sediment	V5	metabat2.bin.024	metabat2	100.0	2.0	21774.0	3759334.0	kept	metabat2.bin.024.ge3000	22086.0	100.0							
+SF2_sediment	V5	maxbin2.Bin.279	maxbin2	100.0	2.0	18148.0	4085613.0	kept	concoct.bin.044.ge3000	20873.0	100.0							
+SF2_sediment	V5	concoct.bin.174	concoct	96.0	0.0	52101.0	4559410.0	kept	concoct.bin.174	52101.0	96.0							
+SF2_sediment	V5	concoct.bin.154	concoct	96.0	0.0	46041.0	2898752.0	kept	metabat2.bin.132.ge5000	46905.0	96.0							
+SF2_sediment	V5	concoct.bin.121	concoct	96.0	0.0	36515.0	5554416.0	kept	concoct.bin.121.ge5000	37313.0	96.0							
+SF2_sediment	V5	concoct.bin.064	concoct	94.0	0.0	15816.0	2541488.0	kept	concoct.bin.064.ge3000	16240.0	94.0							
+SF2_sediment	V5	concoct.bin.083	concoct	94.0	0.0	7750.0	3793423.0	kept	concoct.bin.083.ge3000	8177.0	94.0							
+SF2_sediment	V5	concoct.bin.026	concoct	92.0	0.0	38889.0	3058182.0	kept	concoct.bin.026.ge5000	39893.0	92.0							
+SF2_sediment	V5	concoct.bin.135	concoct	92.0	0.0	9657.0	2901220.0	kept	concoct.bin.135.ge3000	9807.0	92.0							
+SF2_sediment	V5	concoct.bin.172_sub	concoct	92.0	0.0	8315.0	3717168.0	kept	maxbin2.Bin.274.ge2500_sub	8460.0	92.0							
+SF2_sediment	V5	maxbin2.Bin.262	maxbin2	94.0	2.0	44769.0	3298401.0	kept	metabat2.bin.040.ge5000	44857.0	94.0							
+SF2_sediment	V5	metabat2.bin.164	metabat2	94.0	2.0	35757.0	3139245.0	kept	metabat2.bin.164.ge5000	36018.0	94.0							
+SF2_sediment	V5	metabat2.bin.033	metabat2	94.0	2.0	27450.0	4076873.0	kept	maxbin2.Bin.292.ge5000	28453.0	94.0							
+SF2_sediment	V5	maxbin2.Bin.073	maxbin2	96.0	4.0	9842.0	3039889.0	kept	maxbin2.Bin.073.ge3000	12842.0	94.0							
+SF2_sediment	V5	concoct.bin.048	concoct	98.0	6.0	31274.0	4455714.0	kept	concoct.bin.048.ge3000	31362.0	98.0							
+SF2_sediment	V5	concoct.bin.137	concoct	100.0	8.0	32144.0	3533942.0	kept	concoct.bin.137.ge5000	32897.0	100.0							
+SF2_sediment	V5	metabat2.bin.124	metabat2	90.0	0.0	19518.0	2756855.0	kept	maxbin2.Bin.004.ge5000	22249.0	90.0							
+SF2_sediment	V5	maxbin2.Bin.323	maxbin2	92.0	2.0	4217.0	3041945.0	kept	maxbin2.Bin.323	4217.0	92.0							
+SF2_sediment	V5	maxbin2.Bin.010	maxbin2	96.0	6.0	5385.0	3215331.0	kept	maxbin2.Bin.010	5385.0	96.0							
+SF2_sediment	V5	metabat2.bin.130	metabat2	96.0	8.0	92489.0	2612318.0	kept	metabat2.bin.130.ge5000	92489.0	90.0							
+SF2_sediment	V5	maxbin2.Bin.307	maxbin2	96.0	8.0	39384.0	3371877.0	kept	maxbin2.Bin.307.ge5000	42894.0	96.0							
+SF2_sediment	V5	maxbin2.Bin.058	maxbin2	94.0	6.0	14403.0	4561649.0	kept	maxbin2.Bin.058.ge3000	15030.0	90.0							
+SF2_sediment	V5	metabat2.bin.115	metabat2	86.0	0.0	7707.0	5397782.0	kept	metabat2.bin.115	7707.0	86.0							
+SF2_sediment	V5	concoct.bin.176	concoct	86.0	0.0	6702.0	6023173.0	kept	concoct.bin.176	6702.0	86.0							
+SF2_sediment	V5	concoct.bin.150	concoct	86.0	2.0	6308.0	2288189.0	kept	concoct.bin.150	6308.0	86.0							
+SF2_sediment	V5	metabat2.bin.082	metabat2	82.0	0.0	49230.0	3426566.0	kept	metabat2.bin.082_sub	49236.0	82.0							
+SF2_sediment	V5	concoct.bin.023	concoct	82.0	0.0	5261.0	2907685.0	kept	concoct.bin.023	5261.0	82.0							
+SF2_sediment	V5	concoct.bin.217_sub	concoct	80.0	0.0	7700.0	2456540.0	kept	concoct.bin.217	7700.0	80.0							
+SF2_sediment	V5	concoct.bin.025_sub	concoct	80.0	0.0	5274.0	4483701.0	kept	concoct.bin.025_sub	5274.0	80.0							
+SF2_sediment	V5	concoct.bin.206_sub	concoct	80.0	0.0	5107.0	2856506.0	kept	concoct.bin.206	5107.0	80.0							
+SF2_sediment	V5	concoct.bin.112	concoct	84.0	4.0	6247.0	1879509.0	kept	concoct.bin.112.ge3000	6575.0	84.0							
+SF2_sediment	V5	concoct.bin.008	concoct	78.0	0.0	9563.0	2889891.0	kept	concoct.bin.008.ge3000	9706.0	78.0							
+SF2_sediment	V5	maxbin2.Bin.277	maxbin2	82.0	4.0	2799.0	2252559.0	kept	maxbin2.Bin.277	2799.0	82.0							
+SF2_sediment	V5	concoct.bin.038_sub	concoct	80.0	2.0	5280.0	2963151.0	kept	concoct.bin.038.ge3000	5546.0	80.0							
+SF2_sediment	V5	concoct.bin.009_sub	concoct	86.0	8.0	4597.0	5402869.0	kept	concoct.bin.009	4591.0	86.0							
+SF2_sediment	V5	maxbin2.Bin.269	maxbin2	78.0	2.0	11293.0	4748807.0	kept	maxbin2.Bin.269	11293.0	78.0							
+SF2_sediment	V5	concoct.bin.124	concoct	75.0	0.0	5319.0	2259676.0	kept	concoct.bin.124	5319.0	75.0							
+SF2_sediment	V5	concoct.bin.107	concoct	76.0	2.0	4005.0	2711248.0	kept	concoct.bin.107	4005.0	76.0							
+SF2_sediment	V5	metabat2.bin.060	metabat2	82.0	6.0	14518.0	4494333.0	kept	metabat2.bin.060.ge3000	16793.0	82.0							
+SF2_sediment	V5	concoct.bin.073	concoct	73.0	0.0	5980.0	2104287.0	kept	concoct.bin.073	5980.0	73.0							
+SF2_sediment	V5	concoct.bin.201	concoct	75.0	2.0	5345.0	4522409.0	kept	concoct.bin.201.ge3000	5751.0	75.0							
+SF2_sediment	V5	concoct.bin.089	concoct	76.0	4.0	4679.0	1368749.0	kept	concoct.bin.089	4679.0	76.0							
+SF2_sediment	V5	concoct.bin.080	concoct	71.0	0.0	4620.0	2129287.0	kept	concoct.bin.080	4620.0	71.0							
+SF2_sediment	V5	concoct.bin.182	concoct	71.0	0.0	4234.0	1957186.0	kept	concoct.bin.182	4234.0	71.0							
+SF2_sediment	V5	metabat2.bin.119_sub	metabat2	73.0	2.0	4163.0	2921462.0	kept	metabat2.bin.119	4243.0	73.0							
+SF2_sediment	V5	metabat2.bin.076_sub	metabat2	80.0	8.0	13330.0	3540860.0	kept	metabat2.bin.076_sub	12912.0	82.0							
+SF2_sediment	V5	metabat2.bin.079_sub	metabat2	69.0	0.0	6724.0	2917429.0	kept	metabat2.bin.079_sub	6705.0	69.0							
+SF2_sediment	V5	maxbin2.Bin.348	maxbin2	78.0	8.0	3130.0	1457631.0	kept	maxbin2.Bin.348	3130.0	78.0							
+SF2_sediment	V5	maxbin2.Bin.002	maxbin2	76.0	6.0	2241.0	2208036.0	kept	maxbin2.Bin.002	2241.0	76.0							
+SF2_sediment	V5	metabat2.bin.088	metabat2	67.0	0.0	4411.0	1625597.0	kept	metabat2.bin.088	4411.0	67.0							
+SF2_sediment	V5	metabat2.bin.165_sub	metabat2	67.0	0.0	3976.0	1066131.0	kept	metabat2.bin.165_sub	3976.0	67.0							
+SF2_sediment	V5	maxbin2.Bin.340_sub	maxbin2	69.0	4.0	7927.0	4023516.0	kept	maxbin2.Bin.340_sub	7894.0	69.0							
+SF2_sediment	V5	metabat2.bin.017_sub	metabat2	66.0	3.0	4319.0	1351613.0	kept	metabat2.bin.017_sub	4319.0	66.0							
+SF2_sediment	V5	concoct.bin.132	concoct	61.0	0.0	3720.0	1225896.0	kept	concoct.bin.132	3720.0	61.0							
+SF2_sediment	V5	concoct.bin.045_sub	concoct	61.0	2.0	3966.0	1574621.0	kept	concoct.bin.045_sub	3966.0	61.0							
+SF2_sediment	V5	concoct.bin.146_sub	concoct	57.0	0.0	4281.0	1881817.0	kept	concoct.bin.146_sub	4281.0	57.0							
+SF2_sediment	V5	concoct.bin.161	concoct	59.0	2.0	4543.0	3966141.0	kept	concoct.bin.161	4543.0	59.0							
+SF2_sediment	V5	concoct.bin.098	concoct	67.0	8.0	3994.0	287906.0	kept	concoct.bin.098.ge5000	12794.0	67.0							
+SF2_sediment	V5	maxbin2.Bin.344	maxbin2	63.0	5.0	3750.0	2297335.0	kept	maxbin2.Bin.344	3750.0	63.0							
+SF2_sediment	V5	maxbin2.Bin.122	maxbin2	61.0	4.0	7230.0	3688780.0	kept	maxbin2.Bin.122	7230.0	61.0							
+SF2_sediment	V5	maxbin2.Bin.069	maxbin2	65.0	6.0	4086.0	2260292.0	kept	maxbin2.Bin.069_sub	4095.0	65.0							
+SF2_sediment	V5	maxbin2.Bin.054	maxbin2	57.0	2.0	4622.0	1588812.0	kept	maxbin2.Bin.054	4622.0	57.0							
+SF2_sediment	V5	metabat2.bin.059_sub	metabat2	65.0	8.0	4478.0	1811092.0	kept	concoct.bin.143.ge3000	4652.0	75.0							
+SF2_sediment	V5	concoct.bin.116_sub	concoct	61.0	6.0	3697.0	3702470.0	kept	concoct.bin.116_sub	3704.0	61.0							
+SF2_sediment	V5							new	concoct.bin.103.ge3000	10326.0	94.0	8.0	8492409.0	concoct_ge3000	True	False	False	0.0
+SF2_sediment	V5							new	metabat2.bin.134.ge3000_sub	3961.0	65.0	8.0	3348935.0	metabat2_ge3000	False	False	False	0.0262
+SF2_sediment	V5							new	maxbin2.Bin.001.ge2500	4104.0	80.0	6.0	688302.0	maxbin2_ge2500	True	True	True	0.0
+SF2_sediment	V5							new	concoct.bin.018.ge3000	4092.0	69.0	2.0	1312008.0	concoct_ge3000	True	False	False	0.0
+SF2_sediment	V5							new	concoct.bin.000.ge3000_sub	7583.0	57.0	4.0	491263.0	concoct_ge3000	False	False	False	0.0
+SF2_sediment	V5							new	concoct.bin.200.ge3000	4361.0	69.0	2.0	2889731.0	concoct_ge3000	True	False	False	0.0
+SF2_sediment	V5							new	metabat2.bin.071.ge5000	10470.0	76.0	8.0	3844316.0	metabat2_ge5000	False	False	False	0.0
+SF2_sediment	V5							new	concoct.bin.127.ge3000	5189.0	59.0	0.0	2347906.0	concoct_ge3000	False	False	False	0.0
+SF2_sediment	V5							new	concoct.bin.056.ge3000_sub	4049.0	55.0	2.0	2212360.0	concoct_ge3000	False	False	False	0.0
+SF2_sediment	V5							new	metabat2.bin.142_sub	3489.0	61.0	6.0	5000654.0	metabat2	False	False	False	0.0007
+SF2_sediment	V6	concoct.bin.024	concoct	100.0	0.0	25238.0	3654475.0	kept	metabat2.bin.122.ge5000	26211.0	100.0							
+SF2_sediment	V6	concoct.bin.170	concoct	100.0	0.0	12609.0	4829459.0	kept	metabat2.bin.051.ge5000	15345.0	100.0							
+SF2_sediment	V6	maxbin2.Bin.297	maxbin2	98.0	0.0	30313.0	4232759.0	kept	maxbin2.Bin.297	30313.0	98.0							
+SF2_sediment	V6	maxbin2.Bin.249	maxbin2	98.0	0.0	21348.0	4188241.0	kept	maxbin2.Bin.249	21348.0	98.0							
+SF2_sediment	V6	maxbin2.Bin.255	maxbin2	98.0	0.0	13896.0	4662370.0	kept	maxbin2.Bin.255_sub	13989.0	98.0							
+SF2_sediment	V6	concoct.bin.136	concoct	98.0	0.0	13499.0	3235494.0	kept	concoct.bin.136	13499.0	98.0							
+SF2_sediment	V6	metabat2.bin.153	metabat2	98.0	0.0	8547.0	4200336.0	kept	metabat2.bin.153	8547.0	98.0							
+SF2_sediment	V6	metabat2.bin.024	metabat2	100.0	2.0	21774.0	3759334.0	kept	metabat2.bin.024	21774.0	100.0							
+SF2_sediment	V6	maxbin2.Bin.279	maxbin2	100.0	2.0	18148.0	4085613.0	kept	maxbin2.Bin.279	18148.0	100.0							
+SF2_sediment	V6	concoct.bin.174	concoct	96.0	0.0	52101.0	4559410.0	kept	concoct.bin.174	52101.0	96.0							
+SF2_sediment	V6	concoct.bin.154	concoct	96.0	0.0	46041.0	2898752.0	kept	metabat2.bin.132.ge5000	46905.0	96.0							
+SF2_sediment	V6	concoct.bin.121	concoct	96.0	0.0	36515.0	5554416.0	kept	concoct.bin.121.ge5000	37313.0	96.0							
+SF2_sediment	V6	concoct.bin.064	concoct	94.0	0.0	15816.0	2541488.0	kept	concoct.bin.064	15816.0	94.0							
+SF2_sediment	V6	concoct.bin.083	concoct	94.0	0.0	7750.0	3793423.0	kept	concoct.bin.083	7750.0	94.0							
+SF2_sediment	V6	concoct.bin.026	concoct	92.0	0.0	38889.0	3058182.0	kept	concoct.bin.026.ge5000	39893.0	92.0							
+SF2_sediment	V6	concoct.bin.135	concoct	92.0	0.0	9657.0	2901220.0	kept	concoct.bin.135	9657.0	92.0							
+SF2_sediment	V6	concoct.bin.172_sub	concoct	92.0	0.0	8315.0	3717168.0	kept	concoct.bin.172_sub	8315.0	92.0							
+SF2_sediment	V6	maxbin2.Bin.262	maxbin2	94.0	2.0	44769.0	3298401.0	kept	metabat2.bin.040.ge5000	44857.0	94.0							
+SF2_sediment	V6	metabat2.bin.164	metabat2	94.0	2.0	35757.0	3139245.0	kept	metabat2.bin.164.ge5000	36018.0	94.0							
+SF2_sediment	V6	metabat2.bin.033	metabat2	94.0	2.0	27450.0	4076873.0	kept	maxbin2.Bin.292.ge5000	28453.0	94.0							
+SF2_sediment	V6	maxbin2.Bin.073	maxbin2	96.0	4.0	9842.0	3039889.0	kept	maxbin2.Bin.073	9842.0	96.0							
+SF2_sediment	V6	concoct.bin.048	concoct	98.0	6.0	31274.0	4455714.0	kept	concoct.bin.048	31274.0	98.0							
+SF2_sediment	V6	concoct.bin.137	concoct	100.0	8.0	32144.0	3533942.0	kept	concoct.bin.137.ge5000	32897.0	100.0							
+SF2_sediment	V6	metabat2.bin.124	metabat2	90.0	0.0	19518.0	2756855.0	kept	maxbin2.Bin.004.ge5000	22249.0	90.0							
+SF2_sediment	V6	maxbin2.Bin.323	maxbin2	92.0	2.0	4217.0	3041945.0	kept	maxbin2.Bin.323	4217.0	92.0							
+SF2_sediment	V6	maxbin2.Bin.010	maxbin2	96.0	6.0	5385.0	3215331.0	kept	maxbin2.Bin.010	5385.0	96.0							
+SF2_sediment	V6	metabat2.bin.130	metabat2	96.0	8.0	92489.0	2612318.0	kept	metabat2.bin.130.ge5000	92489.0	90.0							
+SF2_sediment	V6	maxbin2.Bin.307	maxbin2	96.0	8.0	39384.0	3371877.0	kept	maxbin2.Bin.307.ge5000	42894.0	96.0							
+SF2_sediment	V6	maxbin2.Bin.058	maxbin2	94.0	6.0	14403.0	4561649.0	kept	maxbin2.Bin.058	14403.0	94.0							
+SF2_sediment	V6	metabat2.bin.115	metabat2	86.0	0.0	7707.0	5397782.0	kept	metabat2.bin.115	7707.0	86.0							
+SF2_sediment	V6	concoct.bin.176	concoct	86.0	0.0	6702.0	6023173.0	kept	concoct.bin.176	6702.0	86.0							
+SF2_sediment	V6	concoct.bin.150	concoct	86.0	2.0	6308.0	2288189.0	kept	concoct.bin.150	6308.0	86.0							
+SF2_sediment	V6	metabat2.bin.082	metabat2	82.0	0.0	49230.0	3426566.0	kept	metabat2.bin.082.ge5000	49236.0	82.0							
+SF2_sediment	V6	concoct.bin.023	concoct	82.0	0.0	5261.0	2907685.0	kept	concoct.bin.023	5261.0	82.0							
+SF2_sediment	V6	concoct.bin.217_sub	concoct	80.0	0.0	7700.0	2456540.0	kept	concoct.bin.217	7700.0	80.0							
+SF2_sediment	V6	concoct.bin.025_sub	concoct	80.0	0.0	5274.0	4483701.0	kept	concoct.bin.025_sub	5274.0	80.0							
+SF2_sediment	V6	concoct.bin.206_sub	concoct	80.0	0.0	5107.0	2856506.0	kept	concoct.bin.206_sub	5107.0	80.0							
+SF2_sediment	V6	concoct.bin.112	concoct	84.0	4.0	6247.0	1879509.0	kept	concoct.bin.112	6247.0	84.0							
+SF2_sediment	V6	concoct.bin.008	concoct	78.0	0.0	9563.0	2889891.0	kept	concoct.bin.008	9563.0	78.0							
+SF2_sediment	V6	maxbin2.Bin.277	maxbin2	82.0	4.0	2799.0	2252559.0	kept	maxbin2.Bin.277	2799.0	82.0							
+SF2_sediment	V6	concoct.bin.038_sub	concoct	80.0	2.0	5280.0	2963151.0	kept	concoct.bin.038_sub	5280.0	80.0							
+SF2_sediment	V6	concoct.bin.009_sub	concoct	86.0	8.0	4597.0	5402869.0	kept	concoct.bin.009	4591.0	86.0							
+SF2_sediment	V6	maxbin2.Bin.269	maxbin2	78.0	2.0	11293.0	4748807.0	kept	maxbin2.Bin.269	11293.0	78.0							
+SF2_sediment	V6	concoct.bin.124	concoct	75.0	0.0	5319.0	2259676.0	kept	concoct.bin.124	5319.0	75.0							
+SF2_sediment	V6	concoct.bin.107	concoct	76.0	2.0	4005.0	2711248.0	kept	concoct.bin.107	4005.0	76.0							
+SF2_sediment	V6	metabat2.bin.060	metabat2	82.0	6.0	14518.0	4494333.0	kept	metabat2.bin.060	14518.0	82.0							
+SF2_sediment	V6	concoct.bin.073	concoct	73.0	0.0	5980.0	2104287.0	kept	concoct.bin.073	5980.0	73.0							
+SF2_sediment	V6	concoct.bin.201	concoct	75.0	2.0	5345.0	4522409.0	kept	concoct.bin.201	5345.0	75.0							
+SF2_sediment	V6	concoct.bin.089	concoct	76.0	4.0	4679.0	1368749.0	kept	concoct.bin.089	4679.0	76.0							
+SF2_sediment	V6	concoct.bin.080	concoct	71.0	0.0	4620.0	2129287.0	kept	concoct.bin.080	4620.0	71.0							
+SF2_sediment	V6	concoct.bin.182	concoct	71.0	0.0	4234.0	1957186.0	kept	concoct.bin.182	4234.0	71.0							
+SF2_sediment	V6	metabat2.bin.119_sub	metabat2	73.0	2.0	4163.0	2921462.0	kept	metabat2.bin.119	4243.0	73.0							
+SF2_sediment	V6	metabat2.bin.076_sub	metabat2	80.0	8.0	13330.0	3540860.0	kept	metabat2.bin.076_sub	12912.0	82.0							
+SF2_sediment	V6	metabat2.bin.079_sub	metabat2	69.0	0.0	6724.0	2917429.0	kept	metabat2.bin.079_sub	6705.0	69.0							
+SF2_sediment	V6	maxbin2.Bin.348	maxbin2	78.0	8.0	3130.0	1457631.0	kept	maxbin2.Bin.348	3130.0	78.0							
+SF2_sediment	V6	maxbin2.Bin.002	maxbin2	76.0	6.0	2241.0	2208036.0	kept	maxbin2.Bin.002	2241.0	76.0							
+SF2_sediment	V6	metabat2.bin.088	metabat2	67.0	0.0	4411.0	1625597.0	kept	metabat2.bin.088	4411.0	67.0							
+SF2_sediment	V6	metabat2.bin.165_sub	metabat2	67.0	0.0	3976.0	1066131.0	kept	metabat2.bin.165_sub	3976.0	67.0							
+SF2_sediment	V6	maxbin2.Bin.340_sub	maxbin2	69.0	4.0	7927.0	4023516.0	kept	maxbin2.Bin.340_sub	7927.0	69.0							
+SF2_sediment	V6	metabat2.bin.017_sub	metabat2	66.0	3.0	4319.0	1351613.0	kept	metabat2.bin.017_sub	4319.0	66.0							
+SF2_sediment	V6	concoct.bin.132	concoct	61.0	0.0	3720.0	1225896.0	kept	concoct.bin.132	3720.0	61.0							
+SF2_sediment	V6	concoct.bin.045_sub	concoct	61.0	2.0	3966.0	1574621.0	kept	concoct.bin.045_sub	3966.0	61.0							
+SF2_sediment	V6	concoct.bin.146_sub	concoct	57.0	0.0	4281.0	1881817.0	kept	concoct.bin.146_sub	4281.0	57.0							
+SF2_sediment	V6	concoct.bin.161	concoct	59.0	2.0	4543.0	3966141.0	kept	concoct.bin.161	4543.0	59.0							
+SF2_sediment	V6	concoct.bin.098	concoct	67.0	8.0	3994.0	287906.0	kept	concoct.bin.098.ge5000	12794.0	67.0							
+SF2_sediment	V6	maxbin2.Bin.344	maxbin2	63.0	5.0	3750.0	2297335.0	kept	maxbin2.Bin.344	3750.0	63.0							
+SF2_sediment	V6	maxbin2.Bin.122	maxbin2	61.0	4.0	7230.0	3688780.0	kept	maxbin2.Bin.122	7230.0	61.0							
+SF2_sediment	V6	maxbin2.Bin.069	maxbin2	65.0	6.0	4086.0	2260292.0	kept	maxbin2.Bin.069	4086.0	65.0							
+SF2_sediment	V6	maxbin2.Bin.054	maxbin2	57.0	2.0	4622.0	1588812.0	kept	maxbin2.Bin.054	4622.0	57.0							
+SF2_sediment	V6	metabat2.bin.059_sub	metabat2	65.0	8.0	4478.0	1811092.0	kept	metabat2.bin.059_sub	4478.0	65.0							
+SF2_sediment	V6	concoct.bin.116_sub	concoct	61.0	6.0	3697.0	3702470.0	kept	concoct.bin.116_sub	3697.0	61.0							
+SF2_sediment	V6							new	concoct.bin.103.ge5000	14029.0	88.0	6.0	6578823.0	concoct_ge5000	True	False	False	0.0
+SF2_sediment	V6							new	metabat2.bin.071.ge5000	10470.0	76.0	8.0	3844316.0	metabat2_ge5000	False	False	False	0.0
+SF2_sediment	V6							new	concoct.bin.110.ge5000	7869.0	75.0	2.0	2436711.0	concoct_ge5000	True	False	False	0.0

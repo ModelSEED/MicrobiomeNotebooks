@@ -1,0 +1,14 @@
+taxon	orig_mags	orig_clusters	new_mags	new_clusters	clusters_both	mepn_consumer: RAST orig MAGs	mepn_consumer: KOfam orig MAGs	mepn_consumer: new MAGs	mepn_consumer: new clusters	mepn_consumer: categories	betaine_reducer: RAST orig MAGs	betaine_reducer: KOfam orig MAGs	betaine_reducer: new MAGs	betaine_reducer: new clusters	betaine_reducer: categories	methanogen: RAST orig MAGs	methanogen: KOfam orig MAGs	methanogen: new MAGs	methanogen: new clusters	methanogen: categories	tma: RAST orig MAGs	tma: KOfam orig MAGs	tma: new MAGs	tma: new clusters	tma: categories	mttB_family_without_mcrA: new MAGs	methylamine_user: new MAGs
+Rhodobacteraceae	25	24	122	38	19	16	15	58	19	gained_new_cluster:9;recovered_same:9;not_recovered:4;lost_genome:1;gained_genome:1;no_callable_phnJ:1	0	0	0	0		0	0	0	0		0	9	23	10	gained_rule:6;gained_genome:3;kofam_orig_only:2;gained_new_cluster:1	122	0
+Roseovarius	12	11	41	12	7	11	11	24	9	recovered_same:5;gained_new_cluster:4;not_recovered:4;lost_genome:1	0	0	0	0		0	0	0	0		0	7	17	6	gained_rule:4;gained_genome:2;kofam_orig_only:2	41	0
+Marivita	3	3	17	3	3	2	2	16	2	recovered_same:2	0	0	0	0		0	0	0	0		0	0	1	1	gained_genome:1	17	0
+Albimonas	1	1	5	1	1	1	0	0	0	no_callable_phnJ:1	0	0	0	0		0	0	0	0		0	0	0	0		5	0
+Halomonas	1	1	3	1	1	0	0	0	0		0	0	0	0		0	0	0	0		0	0	0	0		0	0
+Vreelandella	1	1	0	0	0	0	0	0	0		0	0	0	0		0	0	0	0		0	0	0	0		0	0
+Methanolobus	1	1	4	1	1	0	0	0	0		0	0	0	0		1	1	3	1	recovered_same:1	0	0	0	0		1	3
+Methanohalophilus	0	0	1	1	0	0	0	0	0		0	0	0	0		0	0	0	0		0	0	0	0		0	0
+Halanaerobiaceae	3	2	3	2	0	0	0	0	0		3	2	3	2	gained_new_cluster:2;not_recovered:2	0	0	0	0		0	0	0	0		0	0
+Desulfobacterota	28	27	118	50	27	2	2	6	3	recovered_same:2;gained_genome:1	0	0	0	0		0	0	0	0		0	1	4	2	gained_new_cluster:1;gained_rule:1	59	0
+haloarchaea (c. Halobacteria)	23	23	75	28	17	2	2	8	3	recovered_same:1;gained_new_cluster:1;not_recovered:1;gained_genome:1	0	0	0	0		0	0	0	0		0	0	0	0		0	0
+Bacillota (all)	15	13	88	22	11	0	0	1	1	gained_new_cluster:1	9	7	51	15	gained_new_cluster:10;recovered_same:5;not_recovered:2;rast_label_not_supported:1	0	0	0	0		0	2	9	2	gained_rule:2	45	0
+M55B127 (f.)	2	2	26	6	2	0	0	0	0		2	2	23	6	gained_new_cluster:4;recovered_same:2	0	0	0	0		0	0	0	0		26	0

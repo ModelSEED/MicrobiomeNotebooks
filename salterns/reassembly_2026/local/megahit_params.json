@@ -1,0 +1,1722 @@
+{
+ "coassembly": {
+  "R1": {
+   "ledger_key": "coassemble:R1",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "service_ver": "e2e6d557da8a92d8b9a6cb4893a2a7293a3068bf",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "<merge:R1 output_ref: ONE KBaseFile.PairedEndLibrary of the 6 cores>",
+     "output_contigset_name": "R1_sediment.coassembly.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-large",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "input_cores": {
+    "R1_A_D1": "275645/9/1",
+    "R1_A_D2": "275645/5/1",
+    "R1_B_D1": "275645/13/1",
+    "R1_B_D2": "275645/4/1",
+    "R1_C_D1": "275645/6/1",
+    "R1_C_D2": "275645/2/1"
+   },
+   "expected_merged_read_count": 340408056,
+   "expected_merged_gbp": 51.4,
+   "check": "MEGAHIT log line 'Lib 0 (...): pe, 340408056 reads, 151 max length' must show exactly 340408056",
+   "default_mode_prediction (no preset, min-count 2, k21-141; meta-large expected x1.3-2.0 wall)": {
+    "wall_h": {
+     "median": 20.7,
+     "p90": 32.4,
+     "p95": 35.3
+    },
+    "rss_gb": {
+     "median": 370.3,
+     "p90": 450.2,
+     "p95": 467.6
+    },
+    "disk_gb": {
+     "median": 377.9,
+     "p90": 403.7,
+     "p95": 411.3
+    }
+   }
+  },
+  "R2": {
+   "ledger_key": "coassemble:R2",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "service_ver": "e2e6d557da8a92d8b9a6cb4893a2a7293a3068bf",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "<merge:R2 output_ref: ONE KBaseFile.PairedEndLibrary of the 6 cores>",
+     "output_contigset_name": "R2_sediment.coassembly.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-large",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "input_cores": {
+    "R2_A_D1": "275645/10/1",
+    "R2_A_D2": "275645/8/1",
+    "R2_B_D1": "275645/7/1",
+    "R2_B_D2": "275645/29/1",
+    "R2_C_D1": "275645/24/1",
+    "R2_C_D2": "275645/20/1"
+   },
+   "expected_merged_read_count": 354202282,
+   "expected_merged_gbp": 53.48,
+   "check": "MEGAHIT log line 'Lib 0 (...): pe, 354202282 reads, 151 max length' must show exactly 354202282",
+   "default_mode_prediction (no preset, min-count 2, k21-141; meta-large expected x1.3-2.0 wall)": {
+    "wall_h": {
+     "median": 21.6,
+     "p90": 33.8,
+     "p95": 36.9
+    },
+    "rss_gb": {
+     "median": 384.4,
+     "p90": 467.4,
+     "p95": 485.4
+    },
+    "disk_gb": {
+     "median": 393.4,
+     "p90": 420.3,
+     "p95": 428.2
+    }
+   }
+  },
+  "R2A": {
+   "ledger_key": "coassemble:R2A",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "service_ver": "e2e6d557da8a92d8b9a6cb4893a2a7293a3068bf",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "<merge:R2A output_ref: ONE KBaseFile.PairedEndLibrary of the 6 cores>",
+     "output_contigset_name": "R2A_sediment.coassembly.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-large",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "input_cores": {
+    "R2A_A_D1": "275645/48/1",
+    "R2A_A_D2": "275645/49/1",
+    "R2A_B_D1": "275645/39/1",
+    "R2A_B_D2": "275645/41/1",
+    "R2A_C_D1": "275645/43/1",
+    "R2A_C_D2": "275645/52/1"
+   },
+   "expected_merged_read_count": 307334012,
+   "expected_merged_gbp": 46.41,
+   "check": "MEGAHIT log line 'Lib 0 (...): pe, 307334012 reads, 151 max length' must show exactly 307334012",
+   "default_mode_prediction (no preset, min-count 2, k21-141; meta-large expected x1.3-2.0 wall)": {
+    "wall_h": {
+     "median": 18.6,
+     "p90": 29.1,
+     "p95": 31.7
+    },
+    "rss_gb": {
+     "median": 336.2,
+     "p90": 408.8,
+     "p95": 424.6
+    },
+    "disk_gb": {
+     "median": 340.7,
+     "p90": 363.9,
+     "p95": 370.8
+    }
+   }
+  },
+  "SF2": {
+   "ledger_key": "coassemble:SF2",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "service_ver": "e2e6d557da8a92d8b9a6cb4893a2a7293a3068bf",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "<merge:SF2 output_ref: ONE KBaseFile.PairedEndLibrary of the 6 cores>",
+     "output_contigset_name": "SF2_sediment.coassembly.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-large",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "input_cores": {
+    "SF2_A_D1": "275645/28/1",
+    "SF2_A_D2": "275645/31/1",
+    "SF2_B_D1": "275645/27/1",
+    "SF2_B_D2": "275645/35/1",
+    "SF2_C_D1": "275645/38/1",
+    "SF2_C_D2": "275645/42/1"
+   },
+   "expected_merged_read_count": 373040656,
+   "expected_merged_gbp": 56.33,
+   "check": "MEGAHIT log line 'Lib 0 (...): pe, 373040656 reads, 151 max length' must show exactly 373040656",
+   "default_mode_prediction (no preset, min-count 2, k21-141; meta-large expected x1.3-2.0 wall)": {
+    "wall_h": {
+     "median": 22.8,
+     "p90": 35.7,
+     "p95": 39.0
+    },
+    "rss_gb": {
+     "median": 403.6,
+     "p90": 490.8,
+     "p95": 509.7
+    },
+    "disk_gb": {
+     "median": 414.7,
+     "p90": 443.0,
+     "p95": 451.3
+    }
+   }
+  }
+ },
+ "per_sample_fallback": {
+  "R1_A_D1": {
+   "ledger_key": "assemble:R1_A_D1 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/9/1",
+     "output_contigset_name": "R1_A_D1.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 59825172,
+   "gbp": 9.034,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.3,
+     "p90": 5.1,
+     "p95": 5.6
+    },
+    "rss_gb": {
+     "median": 71.8,
+     "p90": 87.4,
+     "p95": 90.7
+    },
+    "disk_gb": {
+     "median": 64.8,
+     "p90": 69.2,
+     "p95": 70.5
+    }
+   }
+  },
+  "R1_A_D2": {
+   "ledger_key": "assemble:R1_A_D2 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/5/1",
+     "output_contigset_name": "R1_A_D2.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 59057950,
+   "gbp": 8.918,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.2,
+     "p90": 5.0,
+     "p95": 5.5
+    },
+    "rss_gb": {
+     "median": 71.0,
+     "p90": 86.3,
+     "p95": 89.6
+    },
+    "disk_gb": {
+     "median": 64.0,
+     "p90": 68.3,
+     "p95": 69.6
+    }
+   }
+  },
+  "R1_B_D1": {
+   "ledger_key": "assemble:R1_B_D1 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/13/1",
+     "output_contigset_name": "R1_B_D1.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 63123134,
+   "gbp": 9.532,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.4,
+     "p90": 5.4,
+     "p95": 5.9
+    },
+    "rss_gb": {
+     "median": 75.6,
+     "p90": 91.9,
+     "p95": 95.4
+    },
+    "disk_gb": {
+     "median": 68.4,
+     "p90": 73.1,
+     "p95": 74.5
+    }
+   }
+  },
+  "R1_B_D2": {
+   "ledger_key": "assemble:R1_B_D2 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/4/1",
+     "output_contigset_name": "R1_B_D2.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 59925860,
+   "gbp": 9.049,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.3,
+     "p90": 5.1,
+     "p95": 5.6
+    },
+    "rss_gb": {
+     "median": 72.0,
+     "p90": 87.5,
+     "p95": 90.9
+    },
+    "disk_gb": {
+     "median": 64.9,
+     "p90": 69.3,
+     "p95": 70.6
+    }
+   }
+  },
+  "R1_C_D1": {
+   "ledger_key": "assemble:R1_C_D1 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/6/1",
+     "output_contigset_name": "R1_C_D1.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 49524718,
+   "gbp": 7.478,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 2.7,
+     "p90": 4.2,
+     "p95": 4.5
+    },
+    "rss_gb": {
+     "median": 60.1,
+     "p90": 73.1,
+     "p95": 75.9
+    },
+    "disk_gb": {
+     "median": 53.5,
+     "p90": 57.2,
+     "p95": 58.2
+    }
+   }
+  },
+  "R1_C_D2": {
+   "ledger_key": "assemble:R1_C_D2 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/2/1",
+     "output_contigset_name": "R1_C_D2.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 48951222,
+   "gbp": 7.392,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 2.6,
+     "p90": 4.1,
+     "p95": 4.5
+    },
+    "rss_gb": {
+     "median": 59.5,
+     "p90": 72.3,
+     "p95": 75.1
+    },
+    "disk_gb": {
+     "median": 52.9,
+     "p90": 56.5,
+     "p95": 57.5
+    }
+   }
+  },
+  "R2_A_D1": {
+   "ledger_key": "assemble:R2_A_D1 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/10/1",
+     "output_contigset_name": "R2_A_D1.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 66947564,
+   "gbp": 10.109,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.7,
+     "p90": 5.7,
+     "p95": 6.3
+    },
+    "rss_gb": {
+     "median": 79.9,
+     "p90": 97.1,
+     "p95": 100.9
+    },
+    "disk_gb": {
+     "median": 72.6,
+     "p90": 77.6,
+     "p95": 79.0
+    }
+   }
+  },
+  "R2_A_D2": {
+   "ledger_key": "assemble:R2_A_D2 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/8/1",
+     "output_contigset_name": "R2_A_D2.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 57188010,
+   "gbp": 8.635,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.1,
+     "p90": 4.9,
+     "p95": 5.3
+    },
+    "rss_gb": {
+     "median": 68.8,
+     "p90": 83.7,
+     "p95": 86.9
+    },
+    "disk_gb": {
+     "median": 61.9,
+     "p90": 66.1,
+     "p95": 67.4
+    }
+   }
+  },
+  "R2_B_D1": {
+   "ledger_key": "assemble:R2_B_D1 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/7/1",
+     "output_contigset_name": "R2_B_D1.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 50016748,
+   "gbp": 7.553,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 2.7,
+     "p90": 4.2,
+     "p95": 4.6
+    },
+    "rss_gb": {
+     "median": 60.7,
+     "p90": 73.8,
+     "p95": 76.6
+    },
+    "disk_gb": {
+     "median": 54.0,
+     "p90": 57.7,
+     "p95": 58.8
+    }
+   }
+  },
+  "R2_B_D2": {
+   "ledger_key": "assemble:R2_B_D2 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/29/1",
+     "output_contigset_name": "R2_B_D2.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 82387718,
+   "gbp": 12.441,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 4.6,
+     "p90": 7.2,
+     "p95": 7.8
+    },
+    "rss_gb": {
+     "median": 97.1,
+     "p90": 118.1,
+     "p95": 122.7
+    },
+    "disk_gb": {
+     "median": 89.6,
+     "p90": 95.8,
+     "p95": 97.6
+    }
+   }
+  },
+  "R2_C_D1": {
+   "ledger_key": "assemble:R2_C_D1 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/24/1",
+     "output_contigset_name": "R2_C_D1.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 55210670,
+   "gbp": 8.337,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.0,
+     "p90": 4.7,
+     "p95": 5.1
+    },
+    "rss_gb": {
+     "median": 66.6,
+     "p90": 81.0,
+     "p95": 84.1
+    },
+    "disk_gb": {
+     "median": 59.7,
+     "p90": 63.8,
+     "p95": 65.0
+    }
+   }
+  },
+  "R2_C_D2": {
+   "ledger_key": "assemble:R2_C_D2 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/20/1",
+     "output_contigset_name": "R2_C_D2.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 42451572,
+   "gbp": 6.41,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 2.3,
+     "p90": 3.5,
+     "p95": 3.9
+    },
+    "rss_gb": {
+     "median": 52.0,
+     "p90": 63.2,
+     "p95": 65.6
+    },
+    "disk_gb": {
+     "median": 45.8,
+     "p90": 48.9,
+     "p95": 49.8
+    }
+   }
+  },
+  "R2_restored_C_black": {
+   "ledger_key": "assemble:R2_restored_C_black (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/25/1",
+     "output_contigset_name": "R2_restored_C_black.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 56793738,
+   "gbp": 8.576,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.1,
+     "p90": 4.8,
+     "p95": 5.3
+    },
+    "rss_gb": {
+     "median": 68.4,
+     "p90": 83.2,
+     "p95": 86.4
+    },
+    "disk_gb": {
+     "median": 61.5,
+     "p90": 65.7,
+     "p95": 66.9
+    }
+   }
+  },
+  "R2_restored_D_shore": {
+   "ledger_key": "assemble:R2_restored_D_shore (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/22/1",
+     "output_contigset_name": "R2_restored_D_shore.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 45344840,
+   "gbp": 6.847,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 2.4,
+     "p90": 3.8,
+     "p95": 4.1
+    },
+    "rss_gb": {
+     "median": 55.3,
+     "p90": 67.3,
+     "p95": 69.9
+    },
+    "disk_gb": {
+     "median": 48.9,
+     "p90": 52.3,
+     "p95": 53.2
+    }
+   }
+  },
+  "SF2_A_D1": {
+   "ledger_key": "assemble:SF2_A_D1 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/28/1",
+     "output_contigset_name": "SF2_A_D1.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 62598644,
+   "gbp": 9.452,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.4,
+     "p90": 5.3,
+     "p95": 5.8
+    },
+    "rss_gb": {
+     "median": 75.0,
+     "p90": 91.2,
+     "p95": 94.7
+    },
+    "disk_gb": {
+     "median": 67.9,
+     "p90": 72.5,
+     "p95": 73.8
+    }
+   }
+  },
+  "SF2_A_D2": {
+   "ledger_key": "assemble:SF2_A_D2 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/31/1",
+     "output_contigset_name": "SF2_A_D2.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 64602506,
+   "gbp": 9.755,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.5,
+     "p90": 5.5,
+     "p95": 6.0
+    },
+    "rss_gb": {
+     "median": 77.2,
+     "p90": 93.9,
+     "p95": 97.5
+    },
+    "disk_gb": {
+     "median": 70.1,
+     "p90": 74.8,
+     "p95": 76.2
+    }
+   }
+  },
+  "SF2_B_D1": {
+   "ledger_key": "assemble:SF2_B_D1 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/27/1",
+     "output_contigset_name": "SF2_B_D1.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 59410506,
+   "gbp": 8.971,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.2,
+     "p90": 5.1,
+     "p95": 5.5
+    },
+    "rss_gb": {
+     "median": 71.4,
+     "p90": 86.8,
+     "p95": 90.1
+    },
+    "disk_gb": {
+     "median": 64.3,
+     "p90": 68.7,
+     "p95": 70.0
+    }
+   }
+  },
+  "SF2_B_D2": {
+   "ledger_key": "assemble:SF2_B_D2 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/35/1",
+     "output_contigset_name": "SF2_B_D2.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 60886626,
+   "gbp": 9.194,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.3,
+     "p90": 5.2,
+     "p95": 5.7
+    },
+    "rss_gb": {
+     "median": 73.0,
+     "p90": 88.8,
+     "p95": 92.2
+    },
+    "disk_gb": {
+     "median": 66.0,
+     "p90": 70.5,
+     "p95": 71.8
+    }
+   }
+  },
+  "SF2_C_D1": {
+   "ledger_key": "assemble:SF2_C_D1 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/38/1",
+     "output_contigset_name": "SF2_C_D1.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 60170420,
+   "gbp": 9.086,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.3,
+     "p90": 5.1,
+     "p95": 5.6
+    },
+    "rss_gb": {
+     "median": 72.2,
+     "p90": 87.8,
+     "p95": 91.2
+    },
+    "disk_gb": {
+     "median": 65.2,
+     "p90": 69.6,
+     "p95": 70.9
+    }
+   }
+  },
+  "SF2_C_D2": {
+   "ledger_key": "assemble:SF2_C_D2 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/42/1",
+     "output_contigset_name": "SF2_C_D2.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 65371954,
+   "gbp": 9.871,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.6,
+     "p90": 5.6,
+     "p95": 6.1
+    },
+    "rss_gb": {
+     "median": 78.1,
+     "p90": 95.0,
+     "p95": 98.6
+    },
+    "disk_gb": {
+     "median": 70.9,
+     "p90": 75.7,
+     "p95": 77.2
+    }
+   }
+  },
+  "R2A_A_D1": {
+   "ledger_key": "assemble:R2A_A_D1 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/48/1",
+     "output_contigset_name": "R2A_A_D1.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 56667572,
+   "gbp": 8.557,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.1,
+     "p90": 4.8,
+     "p95": 5.2
+    },
+    "rss_gb": {
+     "median": 68.3,
+     "p90": 83.0,
+     "p95": 86.2
+    },
+    "disk_gb": {
+     "median": 61.3,
+     "p90": 65.5,
+     "p95": 66.8
+    }
+   }
+  },
+  "R2A_A_D2": {
+   "ledger_key": "assemble:R2A_A_D2 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/49/1",
+     "output_contigset_name": "R2A_A_D2.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 58274644,
+   "gbp": 8.799,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.2,
+     "p90": 5.0,
+     "p95": 5.4
+    },
+    "rss_gb": {
+     "median": 70.1,
+     "p90": 85.2,
+     "p95": 88.5
+    },
+    "disk_gb": {
+     "median": 63.1,
+     "p90": 67.4,
+     "p95": 68.7
+    }
+   }
+  },
+  "R2A_B_D1": {
+   "ledger_key": "assemble:R2A_B_D1 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/39/1",
+     "output_contigset_name": "R2A_B_D1.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 44070040,
+   "gbp": 6.655,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 2.4,
+     "p90": 3.7,
+     "p95": 4.0
+    },
+    "rss_gb": {
+     "median": 53.8,
+     "p90": 65.5,
+     "p95": 68.0
+    },
+    "disk_gb": {
+     "median": 47.5,
+     "p90": 50.8,
+     "p95": 51.7
+    }
+   }
+  },
+  "R2A_B_D2": {
+   "ledger_key": "assemble:R2A_B_D2 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/41/1",
+     "output_contigset_name": "R2A_B_D2.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 47144186,
+   "gbp": 7.119,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 2.5,
+     "p90": 4.0,
+     "p95": 4.3
+    },
+    "rss_gb": {
+     "median": 57.4,
+     "p90": 69.8,
+     "p95": 72.5
+    },
+    "disk_gb": {
+     "median": 50.9,
+     "p90": 54.4,
+     "p95": 55.4
+    }
+   }
+  },
+  "R2A_C_D1": {
+   "ledger_key": "assemble:R2A_C_D1 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/43/1",
+     "output_contigset_name": "R2A_C_D1.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 46002048,
+   "gbp": 6.946,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 2.5,
+     "p90": 3.9,
+     "p95": 4.2
+    },
+    "rss_gb": {
+     "median": 56.1,
+     "p90": 68.2,
+     "p95": 70.8
+    },
+    "disk_gb": {
+     "median": 49.6,
+     "p90": 53.0,
+     "p95": 54.0
+    }
+   }
+  },
+  "R2A_C_D2": {
+   "ledger_key": "assemble:R2A_C_D2 (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/52/1",
+     "output_contigset_name": "R2A_C_D2.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 55175522,
+   "gbp": 8.332,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.0,
+     "p90": 4.7,
+     "p95": 5.1
+    },
+    "rss_gb": {
+     "median": 66.6,
+     "p90": 80.9,
+     "p95": 84.1
+    },
+    "disk_gb": {
+     "median": 59.7,
+     "p90": 63.8,
+     "p95": 65.0
+    }
+   }
+  },
+  "R1_A_H2O": {
+   "ledger_key": "assemble:R1_A_H2O (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/50/1",
+     "output_contigset_name": "R1_A_H2O.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 54349698,
+   "gbp": 8.207,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 2.9,
+     "p90": 4.6,
+     "p95": 5.0
+    },
+    "rss_gb": {
+     "median": 65.6,
+     "p90": 79.8,
+     "p95": 82.9
+    },
+    "disk_gb": {
+     "median": 58.8,
+     "p90": 62.8,
+     "p95": 64.0
+    }
+   }
+  },
+  "R1_B_H2O": {
+   "ledger_key": "assemble:R1_B_H2O (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/60/1",
+     "output_contigset_name": "R1_B_H2O.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 66580226,
+   "gbp": 10.054,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.6,
+     "p90": 5.7,
+     "p95": 6.2
+    },
+    "rss_gb": {
+     "median": 79.5,
+     "p90": 96.6,
+     "p95": 100.4
+    },
+    "disk_gb": {
+     "median": 72.2,
+     "p90": 77.2,
+     "p95": 78.6
+    }
+   }
+  },
+  "R1_C_H2O": {
+   "ledger_key": "assemble:R1_C_H2O (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/61/1",
+     "output_contigset_name": "R1_C_H2O.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 63667738,
+   "gbp": 9.614,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.5,
+     "p90": 5.4,
+     "p95": 5.9
+    },
+    "rss_gb": {
+     "median": 76.2,
+     "p90": 92.6,
+     "p95": 96.2
+    },
+    "disk_gb": {
+     "median": 69.0,
+     "p90": 73.7,
+     "p95": 75.1
+    }
+   }
+  },
+  "R2_A_H2O": {
+   "ledger_key": "assemble:R2_A_H2O (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/58/1",
+     "output_contigset_name": "R2_A_H2O.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 55174718,
+   "gbp": 8.331,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.0,
+     "p90": 4.7,
+     "p95": 5.1
+    },
+    "rss_gb": {
+     "median": 66.6,
+     "p90": 80.9,
+     "p95": 84.1
+    },
+    "disk_gb": {
+     "median": 59.7,
+     "p90": 63.8,
+     "p95": 65.0
+    }
+   }
+  },
+  "R2_B_H2O": {
+   "ledger_key": "assemble:R2_B_H2O (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/56/1",
+     "output_contigset_name": "R2_B_H2O.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 40639322,
+   "gbp": 6.137,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 2.2,
+     "p90": 3.4,
+     "p95": 3.7
+    },
+    "rss_gb": {
+     "median": 49.9,
+     "p90": 60.7,
+     "p95": 63.0
+    },
+    "disk_gb": {
+     "median": 43.8,
+     "p90": 46.8,
+     "p95": 47.6
+    }
+   }
+  },
+  "R2_C_H2O": {
+   "ledger_key": "assemble:R2_C_H2O (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/59/1",
+     "output_contigset_name": "R2_C_H2O.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 51003448,
+   "gbp": 7.702,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 2.7,
+     "p90": 4.3,
+     "p95": 4.7
+    },
+    "rss_gb": {
+     "median": 61.8,
+     "p90": 75.2,
+     "p95": 78.1
+    },
+    "disk_gb": {
+     "median": 55.1,
+     "p90": 58.9,
+     "p95": 60.0
+    }
+   }
+  },
+  "R2_restored_H2O": {
+   "ledger_key": "assemble:R2_restored_H2O (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/66/1",
+     "output_contigset_name": "R2_restored_H2O.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 55915610,
+   "gbp": 8.443,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.0,
+     "p90": 4.7,
+     "p95": 5.2
+    },
+    "rss_gb": {
+     "median": 67.4,
+     "p90": 82.0,
+     "p95": 85.1
+    },
+    "disk_gb": {
+     "median": 60.5,
+     "p90": 64.6,
+     "p95": 65.9
+    }
+   }
+  },
+  "SF2_A_H2O": {
+   "ledger_key": "assemble:SF2_A_H2O (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/68/1",
+     "output_contigset_name": "SF2_A_H2O.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 80359702,
+   "gbp": 12.134,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 4.5,
+     "p90": 7.0,
+     "p95": 7.6
+    },
+    "rss_gb": {
+     "median": 94.9,
+     "p90": 115.4,
+     "p95": 119.8
+    },
+    "disk_gb": {
+     "median": 87.4,
+     "p90": 93.4,
+     "p95": 95.1
+    }
+   }
+  },
+  "SF2_B_H2O": {
+   "ledger_key": "assemble:SF2_B_H2O (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/71/1",
+     "output_contigset_name": "SF2_B_H2O.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 79101076,
+   "gbp": 11.944,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 4.4,
+     "p90": 6.9,
+     "p95": 7.5
+    },
+    "rss_gb": {
+     "median": 93.5,
+     "p90": 113.7,
+     "p95": 118.1
+    },
+    "disk_gb": {
+     "median": 86.0,
+     "p90": 91.9,
+     "p95": 93.6
+    }
+   }
+  },
+  "SF2_C_H2O": {
+   "ledger_key": "assemble:SF2_C_H2O (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/69/1",
+     "output_contigset_name": "SF2_C_H2O.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 67741530,
+   "gbp": 10.229,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.7,
+     "p90": 5.8,
+     "p95": 6.3
+    },
+    "rss_gb": {
+     "median": 80.8,
+     "p90": 98.2,
+     "p95": 102.0
+    },
+    "disk_gb": {
+     "median": 73.5,
+     "p90": 78.5,
+     "p95": 80.0
+    }
+   }
+  },
+  "R2A_A_H2O": {
+   "ledger_key": "assemble:R2A_A_H2O (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/73/1",
+     "output_contigset_name": "R2A_A_H2O.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 63899264,
+   "gbp": 9.649,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.5,
+     "p90": 5.5,
+     "p95": 6.0
+    },
+    "rss_gb": {
+     "median": 76.4,
+     "p90": 93.0,
+     "p95": 96.5
+    },
+    "disk_gb": {
+     "median": 69.3,
+     "p90": 74.0,
+     "p95": 75.4
+    }
+   }
+  },
+  "R2A_B_H2O": {
+   "ledger_key": "assemble:R2A_B_H2O (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/76/1",
+     "output_contigset_name": "R2A_B_H2O.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 55644054,
+   "gbp": 8.402,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.0,
+     "p90": 4.7,
+     "p95": 5.1
+    },
+    "rss_gb": {
+     "median": 67.1,
+     "p90": 81.6,
+     "p95": 84.7
+    },
+    "disk_gb": {
+     "median": 60.2,
+     "p90": 64.3,
+     "p95": 65.5
+    }
+   }
+  },
+  "R2A_C_H2O": {
+   "ledger_key": "assemble:R2A_C_H2O (variant assemble_megahit)",
+   "app_id": "MEGAHIT/run_megahit",
+   "tag": "release",
+   "params": [
+    {
+     "workspace_name": "freiburgermsu:narrative_1793847843029",
+     "read_library_ref": "275645/78/1",
+     "output_contigset_name": "R2A_C_H2O.MEGAHIT.Assembly",
+     "megahit_parameter_preset": "meta-sensitive",
+     "min_count": null,
+     "k_min": null,
+     "k_max": null,
+     "k_step": null,
+     "k_list": [],
+     "min_contig_length": 1000
+    }
+   ],
+   "read_count": 67577064,
+   "gbp": 10.204,
+   "default_mode_prediction (meta-sensitive expected x1.5-2.5 wall)": {
+    "wall_h": {
+     "median": 3.7,
+     "p90": 5.8,
+     "p95": 6.3
+    },
+    "rss_gb": {
+     "median": 80.6,
+     "p90": 98.0,
+     "p95": 101.8
+    },
+    "disk_gb": {
+     "median": 73.3,
+     "p90": 78.3,
+     "p95": 79.8
+    }
+   }
+  }
+ },
+ "alternatives": {
+  "coassembly_retry_variant_if_meta_large_fails_intrinsically": [
+   {
+    "workspace_name": "freiburgermsu:narrative_1793847843029",
+    "read_library_ref": "<merge:{site} output_ref>",
+    "output_contigset_name": "{site}_sediment.coassembly.MEGAHIT.Assembly",
+    "megahit_parameter_preset": null,
+    "min_count": 2,
+    "k_min": null,
+    "k_max": null,
+    "k_step": null,
+    "k_list": [
+     27,
+     37,
+     47,
+     57,
+     67,
+     77,
+     87,
+     97,
+     107,
+     117,
+     127
+    ],
+    "min_contig_length": 1000
+   }
+  ],
+  "proven_default_variant (770/770 wetland completions used this)": [
+   {
+    "workspace_name": "freiburgermsu:narrative_1793847843029",
+    "read_library_ref": "<ref>",
+    "output_contigset_name": "<name>",
+    "megahit_parameter_preset": null,
+    "min_count": null,
+    "k_min": null,
+    "k_max": null,
+    "k_step": null,
+    "k_list": [],
+    "min_contig_length": 1000
+   }
+  ]
+ }
+}

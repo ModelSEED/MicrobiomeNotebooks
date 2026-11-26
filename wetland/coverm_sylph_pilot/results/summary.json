@@ -1,0 +1,200 @@
+{
+ "timing": {
+  "sylph_sketch_SRR21120498": {
+   "wall_min": 1.5,
+   "max_rss_GB": 1.4,
+   "cpu": "176%"
+  },
+  "sylph_profile_derep": {
+   "wall_min": 0.1,
+   "max_rss_GB": 0.5,
+   "cpu": "348%"
+  },
+  "coverm_SRR21120499": {
+   "wall_min": 18.2,
+   "max_rss_GB": 25.1,
+   "cpu": "917%"
+  },
+  "sylph_db": {
+   "wall_min": 0.0,
+   "max_rss_GB": 0.1,
+   "cpu": "756%"
+  },
+  "sylph_db_all": {
+   "wall_min": 2.7,
+   "max_rss_GB": 1.5,
+   "cpu": "137%"
+  },
+  "sylph_sketch_SRR21120499": {
+   "wall_min": 1.3,
+   "max_rss_GB": 1.4,
+   "cpu": "176%"
+  },
+  "coverm_raw_SRR21120498": {
+   "wall_min": 0.7,
+   "max_rss_GB": 0.0,
+   "cpu": "343%"
+  },
+  "coverm_SRR21120498": {
+   "wall_min": 17.2,
+   "max_rss_GB": 25.1,
+   "cpu": "917%"
+  },
+  "sylph_profile_all": {
+   "wall_min": 0.6,
+   "max_rss_GB": 1.8,
+   "cpu": "166%"
+  },
+  "coverm_raw_SRR21120499": {
+   "wall_min": 0.6,
+   "max_rss_GB": 0.0,
+   "cpu": "344%"
+  },
+  "drep": {
+   "wall_min": 4.5,
+   "max_rss_GB": 0.1,
+   "cpu": "330%"
+  }
+ },
+ "samples": {
+  "SRR21120499": {
+   "coverm_reads_mapped_pct_default": 67.93,
+   "coverm_reads_mapped_pct_any_coverage": 68.5,
+   "sylph_sequence_abundance_sum_pct": 74.96,
+   "detected_coverm": 109,
+   "detected_sylph": 103,
+   "detected_both": 98,
+   "only_coverm": [
+    "bin.002.fasta__SRR21120497",
+    "bin.002.fasta__SRR21120501",
+    "bin.003.fasta__SRR21120501",
+    "bin.005.fasta__SRR21120501",
+    "bin.008.fasta__SRR21120495",
+    "bin.010.fasta__SRR21120501",
+    "bin.014.fasta__SRR21120502",
+    "bin.015.fasta__SRR21120497",
+    "bin.023.fasta__SRR21120495",
+    "bin.035.fasta__SRR21120497",
+    "bin.047.fasta__SRR21120496"
+   ],
+   "n_only_coverm": 11,
+   "only_sylph": [
+    "bin.008.fasta__SRR21120497",
+    "bin.025.fasta__SRR21120497",
+    "bin.032.fasta__SRR21120501",
+    "bin.051.fasta__SRR21120496",
+    "bin.052.fasta__SRR21120496"
+   ],
+   "n_only_sylph": 5,
+   "spearman_relabund_both": 0.989,
+   "pearson_relabund_both": 0.999,
+   "spearman_trimmedmean_vs_truecov": 0.995,
+   "bray_curtis_relabund_all": 0.051,
+   "sylph_adjusted_ani_quantiles": [
+    95.77,
+    99.53,
+    99.85,
+    99.98,
+    100.0
+   ],
+   "sylph_detected_ani_lt_99": 18,
+   "own_sample_mags_detected_sylph": 22,
+   "sylph_all_detected": 127,
+   "sylph_all_detected_own_sample": 48,
+   "sylph_all_detected_same_project_other_samples": 77,
+   "sylph_all_detected_other_projects": 2,
+   "sylph_all_sequence_abundance_sum_pct": 81.56,
+   "sylph_all_seqabund_from_other_projects_pct": 0.01,
+   "sylph_all_top_other_project": [
+    {
+     "genome": "bin.023.fasta__SRR14454020",
+     "Sequence_abundance": 0.0033,
+     "Adjusted_ANI": 97.03,
+     "lineage": "d__Bacteria;p__Methylomirabilota;c__Methylomirabilia;o__Methylomirabilales;f__2-02-FULL-66-22;g__2-02-FULL-66-22;s__"
+    },
+    {
+     "genome": "bin.001.fasta__SRR11793864",
+     "Sequence_abundance": 0.0028,
+     "Adjusted_ANI": 98.17,
+     "lineage": "d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Enterobacteriaceae;g__Escherichia;s__Escherichia hormaechei_A"
+    }
+   ]
+  },
+  "SRR21120498": {
+   "coverm_reads_mapped_pct_default": 66.0,
+   "coverm_reads_mapped_pct_any_coverage": 66.74,
+   "sylph_sequence_abundance_sum_pct": 70.27,
+   "detected_coverm": 110,
+   "detected_sylph": 99,
+   "detected_both": 96,
+   "only_coverm": [
+    "bin.002.fasta__SRR21120497",
+    "bin.002.fasta__SRR21120501",
+    "bin.003.fasta__SRR21120501",
+    "bin.005.fasta__SRR21120501",
+    "bin.010.fasta__SRR21120501",
+    "bin.013.fasta__SRR21120497",
+    "bin.014.fasta__SRR21120502",
+    "bin.015.fasta__SRR21120497",
+    "bin.017.fasta__SRR21120503",
+    "bin.023.fasta__SRR21120495",
+    "bin.035.fasta__SRR21120497",
+    "bin.037.fasta__SRR21120496",
+    "bin.041.fasta__SRR21120496",
+    "bin.047.fasta__SRR21120496"
+   ],
+   "n_only_coverm": 14,
+   "only_sylph": [
+    "bin.002.fasta__SRR21120502",
+    "bin.008.fasta__SRR21120497",
+    "bin.028.fasta__SRR21120497"
+   ],
+   "n_only_sylph": 3,
+   "spearman_relabund_both": 0.988,
+   "pearson_relabund_both": 1.0,
+   "spearman_trimmedmean_vs_truecov": 0.995,
+   "bray_curtis_relabund_all": 0.047,
+   "sylph_adjusted_ani_quantiles": [
+    95.3,
+    99.68,
+    99.9,
+    99.99,
+    100.0
+   ],
+   "sylph_detected_ani_lt_99": 13,
+   "own_sample_mags_detected_sylph": 23,
+   "sylph_all_detected": 126,
+   "sylph_all_detected_own_sample": 49,
+   "sylph_all_detected_same_project_other_samples": 73,
+   "sylph_all_detected_other_projects": 4,
+   "sylph_all_sequence_abundance_sum_pct": 72.38,
+   "sylph_all_seqabund_from_other_projects_pct": 0.02,
+   "sylph_all_top_other_project": [
+    {
+     "genome": "bin.018.fasta__SRR12445281",
+     "Sequence_abundance": 0.006,
+     "Adjusted_ANI": 96.43,
+     "lineage": "d__Bacteria;p__Actinomycetota;c__Thermoleophilia;o__Gaiellales;f__Gaiellaceae;g__JAICNY01;s__JAICNY01 sp025930955"
+    },
+    {
+     "genome": "bin.010.fasta__SRR14454019",
+     "Sequence_abundance": 0.0045,
+     "Adjusted_ANI": 95.33,
+     "lineage": "d__Bacteria;p__Methylomirabilota;c__Methylomirabilia;o__Methylomirabilales;f__2-02-FULL-66-22;g__2-02-FULL-66-22;s__"
+    },
+    {
+     "genome": "bin.026.fasta__SRR16547339",
+     "Sequence_abundance": 0.0033,
+     "Adjusted_ANI": 95.32,
+     "lineage": "d__Archaea;p__Thermoproteota;c__Nitrososphaeria;o__Nitrososphaerales;f__Nitrososphaeraceae;g__Nitrososphaera;s__Nitrososphaera sp964464485"
+    },
+    {
+     "genome": "bin.008.fasta__SRR14454016",
+     "Sequence_abundance": 0.0013,
+     "Adjusted_ANI": 97.88,
+     "lineage": "d__Bacteria;p__Methylomirabilota;c__Methylomirabilia;o__Methylomirabilales;f__2-02-FULL-66-22;g__2-02-FULL-66-22;s__"
+    }
+   ]
+  }
+ }
+}

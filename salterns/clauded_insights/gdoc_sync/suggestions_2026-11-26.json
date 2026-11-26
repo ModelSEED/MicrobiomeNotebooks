@@ -1,0 +1,380 @@
+{
+ "document": "1idf01km9tbuGXXXMU4Hw7BvU0UGpdX2BgShv7BVHcTw",
+ "date": "2026-11-26",
+ "account": "A. Freiburger (suggestions)",
+ "times_CST": {
+  "test edit (P96 80% -> 79%)": "about 2:33 AM",
+  "text batch, five chunks": "about 2:35-2:47 AM",
+  "image batch": "about 2:51 AM",
+  "correction batch (4 edits inside own suggestions)": "about 2:56 AM"
+ },
+ "ops": [
+  {
+   "key": "p28_amplicons",
+   "anchor": "DNA was extracted and 16S rRNA gene amplicons",
+   "kind": "replace",
+   "new": "amplicons were processed",
+   "old": "amplicons and metagenomes were processed"
+  },
+  {
+   "key": "p28_metagenomes",
+   "anchor": "DNA was extracted and 16S rRNA gene amplicons",
+   "kind": "insert_before",
+   "new": "The 39 metagenomes, 26 of sediment and 13 of water (Table S4), were re-assembled from the raw reads as described below. ",
+   "old": "Sediments were sent to the UC Davis"
+  },
+  {
+   "key": "p30_panel",
+   "anchor": "The 24 metagenomes were quality filtered and trimmed with BBtools",
+   "kind": "replace_all",
+   "new": "\tTo build on the findings of Zhou et al. (2022), who reported differences in the abundance of some genes involved in methylotrophic methanogenesis and methylphosphonate cycling, we compiled a panel of 138 KEGG orthologs (KOs) involved in the cycling of methylated compounds and in methanogenesis (Table S1), using BioCyc, KEGG and the literature (49, 50). The panel extends the original list of 39 KOs: 34 were kept, six that KOfam assigns to unrelated functions were replaced by the KOs of the intended enzymes (Table S1, sheet ‘Original list’), and 68 were added. The added KOs cover the oxidation of trimethylamine N-oxide (TMAO), dimethylamine (DMA) and methylamines; the production of trimethylamine (TMA) from choline, carnitine and glycine betaine; the corrinoid methyltransferases of methylotrophic methanogens and bacteria and methyl-coenzyme M reductase; glycine betaine, dimethylglycine and sarcosine metabolism; methanol oxidation; the metabolism of dimethylsulfide (DMS), methanethiol and methanesulfonate; the cleavage and demethylation of dimethylsulfoniopropionate (DMSP); and the C–P lyase and oxidative pathways of phosphonate degradation. Thirty further KOs of the acetoclastic and hydrogenotrophic pathways of methanogenesis were analyzed for Figure S4. The abundance of each KO in each metagenome was measured both in all reads and in the assembled genes, as copies per genome equivalent (see below)."
+  },
+  {
+   "key": "m6_read_survey",
+   "anchor": "To count the guild genes independently of assembly and binning",
+   "kind": "replace",
+   "new": "\tTo count the methylated-compound and guild genes independently of assembly and binning, every quality-filtered read of the 39 metagenomes (2.08 billion reads, each mate a separate query) was compared with DIAMOND v2.2.8 (blastx, --mid-sensitive) against reference proteins of the 138 KOs of the panel (Table S1), eight universal single-copy ribosomal-protein genes, and their closest paralogs. References were the KEGG GENES members of each KEGG ortholog (every archaeal gene and up to 1,500 bacterial genes per KO), UniProtKB members of the corresponding Pfam families labeled with KOfam, and the KOfam-labeled proteins of the salterns assemblies, clustered at 99% identity (338,105 representatives). Paralogs that are not panel genes (for example glycine reductase GrdB, other glycyl-radical enzymes, Rieske oxygenases, soluble di-iron monooxygenases and 114 further KOs related to the panel genes), eukaryotic homologs, and other members of the families of generic genes were included as decoys, and reads whose best hit was a decoy were not counted. Each read took the label of its best hit (E ≤ 10⁻⁵, at least 30 aligned amino acids; reads with an equally good hit of another label were not counted), with minimum identities of 50% for the ribosomal-protein markers and *sdaA*, 60% for *cutC*, *cntA*, *cntB*, *mpnS*, *mtbA*, *amtB* and *glyA*, and 70% for *mtmC*. These cut-offs were chosen with simulated reads from 14,205 reference genes withheld from the database: across the 128 panel genes with enough test reads, the median recall was 0.97 and the median precision 0.99, and the guild markers *mcrA*, *phnJ* and *grdI* had recalls of 0.95–1.00 and precisions of 0.92–1.00. Genes that the test could not separate in short reads (the methylamine corrinoid proteins *mtbC*, *mtmC* and *mttC*; *gsdmt* and *sdmt*; *dmgdh* and *sardh*; the phosphotransacetylases; *mtaA* and *mtsA*; *cntB* and *dmmB*; *mttB* and *mtgB*; *grdH* and *grdB*) are flagged in Table S1 and also reported as merged classes. Read counts were converted to gene copies per genome equivalent by dividing each gene’s read depth by the mean depth of the eight ribosomal-protein genes, and compared with the guild MAGs’ genomes per genome equivalent from the CoverM read counts. Reads whose best hit was an archaeon of an order, family or genus named Methano- (excluding anaerobic methanotrophs) were counted as reads of methanogens. The classified reads were mapped back to the contigs of their own sample with Bowtie2 to place them on kept-MAG, other-bin or unbinned contigs, or as unassembled.",
+   "old": "\tTo count the guild genes independently of assembly and binning, every quality-filtered read of the 39 metagenomes (2.08 billion reads, each mate a separate query) was compared with DIAMOND v2.2.8 (blastx, --mid-sensitive) against reference proteins of the guild genes and of their closest paralogs. References were the KEGG GENES members of each KEGG ortholog, UniProtKB members of the corresponding Pfam families labeled with KOfam, and the KOfam-labeled proteins of the salterns assemblies, clustered at 99% identity. Paralogs that are not guild genes (for example glycine reductase GrdB, other glycyl-radical enzymes, Rieske oxygenases and soluble di-iron monooxygenases) were included as decoys, and reads whose best hit was a decoy were not counted. Each read took the label of its best hit (E ≤ 10⁻⁵, at least 30 aligned amino acids; reads with an equally good hit of another label were not counted), with minimum identities of 50% for the ribosomal-protein markers and 60% for cutC and cntA. These cut-offs were chosen with simulated reads from reference clusters withheld from the database, on which the guild markers mcrA, phnJ and grdI had a recall of at least 0.99 and a precision of at least 0.93. Read counts were converted to gene copies per genome equivalent by dividing each gene’s read depth by the mean depth of eight universal single-copy ribosomal-protein genes, and compared with the guild MAGs’ genomes per genome equivalent from the CoverM read counts. The classified reads were mapped back to the contigs of their own sample with Bowtie2 to place them on kept-MAG, other-bin or unbinned contigs, or as unassembled."
+  },
+  {
+   "key": "m7_assembly",
+   "anchor": "To count the guild genes independently of assembly and binning",
+   "kind": "append_paragraph",
+   "new": "\tThe panel was also counted in the assembled genes. The 12.06 million genes predicted with Prodigal v2.6.3 on the contigs (≥ 1 kb) of the 39 per-sample assemblies of the second pass were searched with hmmsearch (HMMER v3.4) against the KOfam profiles of the 138 panel KOs and of the eight ribosomal-protein genes; the 142,487 genes that scored at least half of a threshold were then searched against all 27,981 KOfam profiles and assigned the best-scoring KO above its threshold, as DRAM does (for 87,728 proteins searched against all profiles at once, the assignments were identical). Five panel KOs without a KOfam threshold were assigned at E ≤ 10⁻³⁰ with at least half of the profile aligned. The copies per genome equivalent of each KO were the summed read depths of its genes’ contigs divided by the mean summed depth of the eight assembled ribosomal-protein genes. Because the assembled genes of the unrestored cores held only 0.3–0.5 of the copies found in all reads for the guild genes and almost none of the methanol methyltransferase genes, and less in the restored and reference sediments, Figure 1 and the statistics use the read-based abundances; the assembly-based values are given in Table S1 for comparison."
+  },
+  {
+   "key": "p50_kw",
+   "anchor": "Metabolomic data were analyzed using a combination of R",
+   "kind": "replace",
+   "new": "Differences in gene abundances (copies per genome equivalent) among the three habitat types (unrestored R1 and R2, n = 12; restored SF2, n = 6; reference R2A, n = 6) were tested with Kruskal–Wallis tests, with Benjamini–Hochberg false discovery rate (FDR) correction across all panel KOs detected in the 24 sediment metagenomes, followed by Dunn’s tests with Holm correction; the metagenomes were clustered with Ward’s minimum-variance criterion on the per-gene z-scores. The abundances of the cultured genera (Figure S6) were compared among the four sites in the same way.",
+   "old": "Differences in gene abundances among the three habitat types were tested with Kruskal-Wallis tests."
+  },
+  {
+   "key": "p50_s4",
+   "anchor": "Metabolomic data were analyzed using a combination of R",
+   "kind": "insert_before",
+   "new": "For the correlations with gene abundance (Figure S4), only reads whose best hit was a methanogen were counted for the genes of the methanogenesis pathways. ",
+   "old": "Only metabolites present in at least three samples"
+  },
+  {
+   "key": "p50_mantel",
+   "anchor": "Metabolomic data were analyzed using a combination of R",
+   "kind": "replace",
+   "new": "Correlations between Bray–Curtis dissimilarities were calculated with Mantel tests (Pearson’s r, 9,999 permutations) over the 19 samples with NMR data, using all 50 metabolites and, for taxonomic composition, either the species of the re-assembled MAG set or the genera of the ribosomal-protein reads.",
+   "old": "Correlations between Bray-Curtis dissimilarities were calculated with Mantel tests."
+  },
+  {
+   "key": "p57_figure1",
+   "anchor": "were present in at least one metagenome (Table S1)",
+   "kind": "replace_all",
+   "new": "Of the 108 methylated-compound KOs in the panel (Table S1), 107 were detected in the reads of the 24 sediment metagenomes; only the alcohol oxidase AOX, which has no prokaryotic reference, was absent. Hierarchical clustering of the metagenomes by these KOs separated the three sample types exactly (unrestored salterns, restored saltern, reference wetland; Figure 1), and the abundance of 100 of the 107 KOs differed among them (Kruskal–Wallis test, P~FDR~ < 0.05). The unrestored salterns had the most C–P lyase genes (*phnGHIJKLM*; *phnJ* 12.7 copies per 100 genome equivalents, against 1.1 in the restored saltern and 4.4 in the reference wetland), betaine reductase (*grdI* 6.5, against 0.1 and 0.2) and methyl-coenzyme M reductase (*mcrA* 0.28, against 0.03 and < 0.01), and the highest abundance of the genes for DMA oxidation by DMA monooxygenase (*dmmABC*), for methylamine oxidation through N-methylglutamate (*mgdABCD*), for DMSP demethylation and cleavage (*dmdA*, *dddL*) and for methanethiol oxidation (*MTO*). The reference wetland had the most genes for the aerobic oxidation of TMA and methylamines (*tmd* 17.8, against 4.3 in the unrestored salterns; *mauAB*; *gmaS*), carnitine monooxygenase (*cntA*), glycine betaine monooxygenase (*gbcAB*), choline monooxygenase (*CMO*), methanol dehydrogenases (*mxaF*, *xoxF*), and several genes of formaldehyde, sarcosine and methylthiopropanoate (MMPA) metabolism (*gfa*, *frmA*, *dgcA*, *dmdB*, *dmdD*). The restored saltern had the most choline TMA-lyase (*cutC* 4.7, against 1.4 and 0.9) and betaine-homocysteine methyltransferase (*bhmt*), and the most corrinoid methyltransferases of TMA, DMA, methylamine and methanol (*mttB*, *mtbB*, *mtmB*, *mtaB*; *mtbB* 14.6, against 0.8 and 0.9). These methyltransferases occur in methylotrophic methanogens and in bacteria: only 3–8% of the *mtbB*, *mtmB* and *mtaB* reads of the restored saltern came from methanogens (most of its *mtbB* and *mtmB* reads were of Desulfobacterota and Chloroflexota), against 21–52% in the unrestored salterns, where *Methanolobus* carried the largest share of the *mtmB* reads. In sum, the microbiomes at each site differed in their capacity to metabolize each of these substrates, both in terms of gene relative abundances and pathways utilized."
+  },
+  {
+   "key": "rs_methanogenium",
+   "anchor": "Counting the guild genes in all reads",
+   "kind": "replace",
+   "new": "(6.9%)",
+   "old": "(6.5%)"
+  },
+  {
+   "key": "rs_methanococcoides",
+   "anchor": "Counting the guild genes in all reads",
+   "kind": "replace",
+   "new": "(6.1%)",
+   "old": "(5.9%)"
+  },
+  {
+   "key": "rs_roseovarius",
+   "anchor": "Counting the guild genes in all reads",
+   "kind": "replace",
+   "new": "(39%)",
+   "old": "(37%)"
+  },
+  {
+   "key": "rs_markers",
+   "anchor": "Counting the guild genes in all reads",
+   "kind": "replace",
+   "new": "as did 42%",
+   "old": "as did 43%"
+  },
+  {
+   "key": "p62_figS4",
+   "anchor": "were positively correlated with CH4 flux while glucose",
+   "kind": "replace",
+   "new": "Counting only the reads of methanogens, MMA, acetate and TMA were significantly positively correlated with *mcrA*, *mcrB* and *mcrG* (Spearman ρ = 0.69–0.81 for *mcrA*), and trehalose with *mcrB*, while fructose, proline, 2-oxoisocaproate and sucrose were negatively correlated with all three (ρ = −0.66 to −0.80 for *mcrA*), and glucose with *mcrB* and *mcrG* (Figure S4). The C–P lyase genes shared most of these correlations: *phnJ*, for example, was positively correlated with TMA and trehalose and negatively with proline, sucrose, glucose and fructose.",
+   "old": "TMA, trehalose, acetate, and MMA were significantly positively correlated with mcrABG while sucrose, 2-oxoisocaproate, fructose, glucose, and proline were the most negatively correlated with mcrA (Figure S4)."
+  },
+  {
+   "key": "p62_mantel",
+   "anchor": "were positively correlated with CH4 flux while glucose",
+   "kind": "replace",
+   "new": "(Mantel test with the species of the re-assembled MAG set, r = 0.78, and with the genera of the ribosomal-protein reads, r = 0.70; p < 0.001 for both)",
+   "old": "(Mantel test, r = 0.78, p < 0.001)"
+  },
+  {
+   "key": "p67_figS6",
+   "anchor": "Several aerobic and anaerobic taxa from the hypersaline unrestored",
+   "kind": "replace",
+   "new": "*Halomonas* and *Salegentibacter* were significantly more abundant in the unrestored salterns than in the restored saltern and the reference wetland, in the 16S rRNA gene data, the metagenomic reads and the MAGs, consistent with a preference for high salt concentrations, whereas *Idiomarina* was rare at all sites and differed among them only in the 16S rRNA gene data (Figure S6).",
+   "old": "All of these isolated genera were significantly more abundant in unrestored salterns than the restored saltern and reference wetland, demonstrating a preference for high salt concentrations (Figure S6)."
+  },
+  {
+   "key": "p78_grdI_genus",
+   "anchor": "Figure 10 sets the hypothesized methane sources side by side",
+   "kind": "replace",
+   "new": "DATFJG01",
+   "old": "Halanaerobium"
+  },
+  {
+   "key": "p78_tma_range",
+   "anchor": "Figure 10 sets the hypothesized methane sources side by side",
+   "kind": "replace",
+   "new": "2–10)",
+   "old": "2–9)"
+  },
+  {
+   "key": "p81_bc",
+   "anchor": "Despite taxonomic and metabolomic dissimilarity being positively correlated",
+   "kind": "replace",
+   "new": "(Bray–Curtis index = 0.32 to 0.84) in even the most dissimilar taxonomic communities (Bray–Curtis index = 0.85 to 0.94 between the species compositions of the re-assembled MAG set)",
+   "old": "(Bray-Curtis index = 0.31 to 0.85) in even the most dissimilar taxonomic communities (Bray-Curtis index = 0.83 to ~0.96)"
+  },
+  {
+   "key": "p93_genera",
+   "anchor": "Several aerobic bacteria were isolated from the hypersaline salterns",
+   "kind": "replace",
+   "new": "All five cultivated genera were detected in both the 16S rRNA gene and the metagenomic data, but in the metagenomic reads only *Halomonas* and *Salegentibacter*, and *Marinilabilia* relative to the reference wetland, were more abundant in the unrestored salterns (Figure S6); *Idiomarina* was rare at all sites, and the reads assigned to *Clostridium*, most of them distant from any reference genome, were more abundant in the restored saltern and the reference wetland.",
+   "old": "The cultivated genera were all present in both 16S rRNA gene and metagenomic sequencing datasets and were more abundant in the unrestored salterns (Figure S6), demonstrating their preference for this environment."
+  },
+  {
+   "key": "p99_mpn_share",
+   "anchor": "Taken together, these results attribute",
+   "kind": "replace",
+   "new": "1–7%",
+   "old": "1–8%"
+  },
+  {
+   "key": "p102_folders",
+   "anchor": "MAG quality assessments, GTDB R232 classifications",
+   "kind": "replace",
+   "new": "salterns/correlational/final585); the read survey and the gene panel are in salterns/reassembly_2026/read_markers_v2 and salterns/reassembly_2026/community_ko, the re-assemblies and bins in KBase narrative 275645, and salterns/FIGURES.md lists the script behind each figure and table.",
+   "old": "salterns/correlational/final585)."
+  },
+  {
+   "key": "cap_fig1",
+   "anchor": "Relative abundances of genes (z-score transformed DESeq2",
+   "kind": "replace_all",
+   "new": "Figure 1. Relative abundance of genes involved in the cycling of methylated compounds in the 24 sediment metagenomes: copies per genome equivalent in all reads, z-scored per gene. Samples (columns) are clustered with Ward’s criterion, which separates them by restoration type; genes (rows) are grouped by compound, in two blocks. Rows are annotated by whether the gene’s abundance differs among the three restoration types (KW: Kruskal–Wallis test, Benjamini–Hochberg FDR < 0.05 over all panel KOs), the restoration type with the highest abundance (Highest; shown when FDR < 0.05; pairwise Dunn’s tests in Table S1), the compound, the type of process, and the validation of the read survey (Validation: flagged = recall < 0.80 or precision < 0.90 on simulated reads, or not separable in short reads from a related gene; not testable = too few reference genes). The corrinoid methyltransferases (methyl transfer) occur in methylotrophic methanogens and in bacteria. The alcohol oxidase AOX (K17066) was not detected. TMA = trimethylamine, TMAO = trimethylamine N-oxide, DMA = dimethylamine, MMA = monomethylamine, GB = glycine betaine, DMG = dimethylglycine, DMS = dimethyl sulfide, MMPA = methylthiopropanoate, DMSP = dimethylsulfoniopropionate."
+  },
+  {
+   "key": "cap_figS4",
+   "anchor": "Heatmap of Spearman correlation coefficients between metabolite",
+   "kind": "replace_all",
+   "new": "Figure S4. Spearman correlations between metabolite concentrations (NMR) and the abundance of methanogenesis and C–P lyase genes in the 19 sediment samples with NMR data, for the 40 metabolites present in at least three samples. Gene abundance is copies per genome equivalent in all reads; for the methanogenesis pathways only reads whose best hit is a methanogen (an archaeon of an order, family or genus named Methano-, excluding anaerobic methanotrophs) are counted, so that bacterial and haloarchaeal homologs are excluded; C–P lyase counts all reads. Three phosphotransacetylase genes (K13788, K15024 and *eutD*) had no methanogen reads and are not shown. Dots mark correlations with Benjamini–Hochberg FDR < 0.05 over all 1,960 tests. Metabolites are clustered by complete linkage of their correlation profiles."
+  },
+  {
+   "key": "cap_tableS1",
+   "anchor": "List of KOs involved in methylated compound cycling",
+   "kind": "replace_all",
+   "new": "Table S1. The 138 KEGG orthologs involved in the cycling of methylated compounds and in methanogenesis that were analyzed in this study (Excel file), with their abundance in the reads and in the assembled genes of the 24 sediment metagenomes by restoration type, Kruskal–Wallis and Dunn’s tests, the validation of the read survey, and the species of the re-assembled MAG set that carry them. A second sheet lists the 39 KOs of the original list and how each was carried into the panel."
+  },
+  {
+   "key": "cap_tableS4",
+   "anchor": "Metadata, including IMG/M and NCBI accessions, for the 24 metagenomes",
+   "kind": "replace_all",
+   "new": "Table S4. The 39 metagenomes of this study (26 sediment and 13 water samples): NCBI BioProject, BioSample and SRA accessions, GOLD and IMG/M identifiers, read counts, and the MAGs kept from each re-assembly (Excel file)."
+  }
+ ],
+ "text_chunks": [
+  [
+   "cap_tableS4",
+   "cap_tableS1",
+   "cap_figS4",
+   "cap_fig1",
+   "p102_folders",
+   "p99_mpn_share",
+   "p93_genera",
+   "p81_bc",
+   "p78_tma_range",
+   "p78_grdI_genus"
+  ],
+  [
+   "p67_figS6",
+   "p62_mantel",
+   "p62_figS4",
+   "rs_markers",
+   "rs_roseovarius",
+   "rs_methanococcoides",
+   "rs_methanogenium"
+  ],
+  [
+   "p57_figure1",
+   "p50_mantel",
+   "p50_s4"
+  ],
+  [
+   "p50_kw",
+   "m7_assembly",
+   "m6_read_survey"
+  ],
+  [
+   "p30_panel",
+   "p28_metagenomes",
+   "p28_amplicons"
+  ]
+ ],
+ "image_batch": {
+  "images_commit": "b137292db357886f2a14ba93dc4e34c62266f87d",
+  "replaced_own_suggestions_from_commit": "d24477cc0989dd51d0cc566ae371cf877523d36a",
+  "figures": {
+   "Figure 1": "new image suggested over the original (inline in the caption)",
+   "Figure S4": "same",
+   "Figure 7": "v2 image replaces the v1 image suggested on 2026-11-25",
+   "Figure 10": "same"
+  },
+  "requests": [
+   {
+    "insertInlineImage": {
+     "uri": "https://raw.githubusercontent.com/ModelSEED/MicrobiomeNotebooks/b137292db357886f2a14ba93dc4e34c62266f87d/salterns/reassembly_2026/community_ko/figures/figureS4_2026.png",
+     "location": {
+      "index": 129835
+     },
+     "objectSize": {
+      "width": {
+       "magnitude": 468.0,
+       "unit": "PT"
+      },
+      "height": {
+       "magnitude": 416.7,
+       "unit": "PT"
+      }
+     }
+    }
+   },
+   {
+    "deleteContentRange": {
+     "range": {
+      "startIndex": 129836,
+      "endIndex": 129837
+     }
+    }
+   },
+   {
+    "insertInlineImage": {
+     "uri": "https://raw.githubusercontent.com/ModelSEED/MicrobiomeNotebooks/b137292db357886f2a14ba93dc4e34c62266f87d/salterns/reassembly_2026/modelling_2026/synthesis/figure10_pathways.png",
+     "location": {
+      "index": 127544
+     },
+     "objectSize": {
+      "width": {
+       "magnitude": 468.0,
+       "unit": "PT"
+      },
+      "height": {
+       "magnitude": 245.5,
+       "unit": "PT"
+      }
+     }
+    }
+   },
+   {
+    "deleteContentRange": {
+     "range": {
+      "startIndex": 127545,
+      "endIndex": 127546
+     }
+    }
+   },
+   {
+    "insertInlineImage": {
+     "uri": "https://raw.githubusercontent.com/ModelSEED/MicrobiomeNotebooks/b137292db357886f2a14ba93dc4e34c62266f87d/salterns/reassembly_2026/modelling_2026/simulations/figure7_pergram.png",
+     "location": {
+      "index": 120761
+     },
+     "objectSize": {
+      "width": {
+       "magnitude": 468.0,
+       "unit": "PT"
+      },
+      "height": {
+       "magnitude": 245.7,
+       "unit": "PT"
+      }
+     }
+    }
+   },
+   {
+    "deleteContentRange": {
+     "range": {
+      "startIndex": 120762,
+      "endIndex": 120763
+     }
+    }
+   },
+   {
+    "insertInlineImage": {
+     "uri": "https://raw.githubusercontent.com/ModelSEED/MicrobiomeNotebooks/b137292db357886f2a14ba93dc4e34c62266f87d/salterns/reassembly_2026/community_ko/figures/figure1_2026.png",
+     "location": {
+      "index": 116096
+     },
+     "objectSize": {
+      "width": {
+       "magnitude": 468.0,
+       "unit": "PT"
+      },
+      "height": {
+       "magnitude": 296.2,
+       "unit": "PT"
+      }
+     }
+    }
+   },
+   {
+    "deleteContentRange": {
+     "range": {
+      "startIndex": 116097,
+      "endIndex": 116098
+     }
+    }
+   }
+  ]
+ },
+ "revision_after": "AHj4eMSEnLb9mGVml2g3beoRqHSNjw255TsO2ZJSQ_B6pYmKNuvrSxApOopyEyP33h_V8vR4ugEcYlfGQJIVHA",
+ "verified": [
+  "text_delta.py verify: all 26 ops present",
+  "the only paragraphs whose proposed text changed are the 26 targets (+1 new paragraph); each equals the review's paragraph, except P57, which keeps another author's open suggestions (see hand_list)",
+  "figure_swap.py verify: Figures 1, S4, 7, 10",
+  "the image batch changed no text"
+ ],
+ "behaviour_learned": "In SUGGEST mode, deleting text or an image that is this account's own suggested insertion removes it (the suggestion is edited); deleting base text leaves a suggested deletion.",
+ "correction_ops": [
+  {
+   "key": "p57_phyla",
+   "anchor": "Of the 108 methylated-compound KOs in the panel",
+   "kind": "replace",
+   "old": "(most of its mtbB and mtmB reads were of Desulfobacterota and Chloroflexota)",
+   "new": "(92% of its *mtbB* reads were of the sulfate-reducing Desulfobacterota and Thermodesulfobacteriota, and most of its *mtmB* reads of Desulfobacterota, Chloroflexota and Bacillota)"
+  },
+  {
+   "key": "p67_16S",
+   "anchor": "were significantly more abundant in the unrestored salterns than in the restored saltern and the reference wetland, in the 16S",
+   "kind": "replace",
+   "old": "wetland, in the 16S rRNA gene data, the metagenomic reads and the MAGs, consistent",
+   "new": "wetland in the metagenomic reads and the MAGs, and for R1 also in the 16S rRNA gene data, consistent"
+  },
+  {
+   "key": "m6_caps",
+   "anchor": "To count the methylated-compound and guild genes",
+   "kind": "replace",
+   "old": "(every archaeal gene and up to 1,500 bacterial genes per KO)",
+   "new": "(for large KOs, every archaeal gene and a random subset of 1,500–3,000 bacterial genes)"
+  },
+  {
+   "key": "m7_fraction",
+   "anchor": "The panel was also counted in the assembled genes",
+   "kind": "replace",
+   "old": "held only 0.3–0.5 of the copies",
+   "new": "held only 0.3–0.6 of the copies"
+  }
+ ]
+}

@@ -1,0 +1,1143 @@
+{
+ "author": "Claude (R232 review)",
+ "date": "2026-10-26",
+ "note": "r232_review_edits_2026-11-25.json plus the 2026-11-26 metagenome sections (make_metagenome_edits_2026-11-26.py).",
+ "edits": [
+  {
+   "paragraph": 47,
+   "kind": "insert_before",
+   "old": "Furthermore, the isolates were inserted into a phylogenetic tree",
+   "new": "The isolate assemblies were later reclassified with GTDB-Tk v2.8.0 (68) against GTDB release R232, outside KBase. ",
+   "rationale": "Methods statement of the R232 reclassification asked for in review comment 3. It was run locally (run_gtdbtk_isolates.sh), not in KBase. Note that ref 68 is the GTDB-Tk v1 paper; see the comment proposed at P245. Reworded by the orchestrator: the original GTDB-Tk v1.7.0 clause is kept because its citations are hyperlinks, which cannot be placed inside a tracked deletion.",
+   "sources": "run_gtdbtk_isolates.sh; MAG_QC/gtdbtk_isolates_r232/gtdbtk.bac120.summary.tsv",
+   "origin": "halomonas"
+  },
+  {
+   "paragraph": 47,
+   "kind": "comment",
+   "old": "publicly accessible with narrative ID 139158",
+   "new": "KBase workspace 139158 could not be read with the freiburgermsu account ('may not read workspace 139158'), and its permissions list no public read entry, so the narrative does not appear to be public. Please make it public (or correct the ID) before submission. For the same reason, the Figure 5 SpeciesTree reference genomes could not be retrieved from it.",
+   "rationale": "The draft's claim that the narrative is publicly accessible is not supported by a read-only check.",
+   "sources": "KBUtilLib ws.get_workspace_info / list_objects (authorization error) and get_permissions_mass -> {'freiburgermsu': 'n'}",
+   "origin": "halomonas"
+  },
+  {
+   "paragraph": 47,
+   "kind": "replace",
+   "old": "are available on NCBI GenBank via accession PRJNA992430.",
+   "new": "are available on NCBI GenBank under BioProject PRJNA992430 (*Halomonas* sp. D, deposited as strain I1, GCA_032334135.1; *H. saccharevitans* strain I4, GCA_032333995.1).",
+   "rationale": "PRJNA992430 is a BioProject, not a GenBank accession. It contains exactly these two assemblies, and their lengths match data/I1 and I4. This also ties the draft's name 'sp. D' to the NCBI strain name I1, confirmed by gene content (C-P lyase cluster in I1 only).",
+   "sources": "NCBI Datasets v2: bioproject/PRJNA992430/dataset_report; genome/accession/GCF_032334135.1/dataset_report; esl-seqstat of data/I1_SPAdes.Assembly.fa (3,937,892 bp) and data/I4_SPAdes.Assembly.fa (3,406,698 bp)",
+   "origin": "halomonas"
+  },
+  {
+   "paragraph": 67,
+   "kind": "replace",
+   "old": "Six other Halomonas genomes also contained multiple MPn transport and degradation genes, while 17 did not (Figure 5).",
+   "new": "In GTDB release R232, which divides the former genus *Halomonas* among *Halomonas*, *Vreelandella*, and several smaller genera, both isolates remain in *Halomonas*: *H. saccharevitans* shares 98.5% average nucleotide identity (ANI) with the type strain genome, and *Halomonas* sp. D is the representative of its own species cluster (*Halomonas* sp032334135; closest other species, 92.7% ANI). Six other reference genomes labeled *Halomonas* also contained multiple MPn transport and degradation genes, while 17 did not (Figure 5); in GTDB R232, three of these six (*Halomonas* sp. PBN3, *H. huangheensis*, and *Halomonas* sp. S2151) remain in *Halomonas*, whereas *H. jeotgali* is now placed in *Vreelandella* and *H. zincidurans* and *H. lutea* in *Modicisalibacter*.",
+   "rationale": "Reports the isolates' R232 placement (review comment 3). The six/17 counts still describe the Figure 5 labels, but three of the six MPn-positive 'Halomonas' references are in other genera in R232. All six are resolved unambiguously by strain, so this sentence does not depend on the H. campaniensis inference. I1's GTDB match is to its own deposited genome, so it is described as its own species cluster, not as a 100% ANI identification.",
+   "sources": "gtdbtk.bac120.summary.tsv (I4 98.49 ANI / 0.912 AF to GCF_900116405.1; I1 other_related_references GCF_029081005.1 92.7 ANI); Figure 5 image (docx word/media/image2.png); NCBI Datasets taxon reports; GTDB API taxon-history for GCF_000475415.1, GCF_001431725.1, GCF_000967645.1, GCF_000334215.1, GCF_000731955.1, GCF_000378505.1",
+   "origin": "halomonas"
+  },
+  {
+   "paragraph": 67,
+   "kind": "comment",
+   "old": "the isolate identified as Halomonas sp. D",
+   "new": "Gene content confirms this is isolate I1: it carries a contiguous phnCDEFGHIJKLMNP cluster, while I4 has none of phnF–P. NCBI deposits this genome as 'Halomonas sp. I1' (strain I1, GCA_032334135.1), and Figure 5 labels it 'Halomonas sp. (isolate)'. Please use one name throughout, or state the equivalence once (proposed in the Methods paragraph on the isolates).",
+   "rationale": "The isolate's name is inconsistent across the text, Figure 5, Figure 6 and NCBI.",
+   "sources": "prodigal + hmmsearch --cut_tc (Pfam PF06754/PF05845/PF05861/PF06007; TIGRFAM phosphonate models) on data/I1 and I4 assemblies; Figure 5/6 images; NCBI GCF_032334135.1 report",
+   "origin": "halomonas"
+  },
+  {
+   "paragraph": 67,
+   "kind": "comment",
+   "old": "only Halomonas contains members with the genes encoding the C-P lyase pathway",
+   "new": "This is a genus-level statement based on reference genomes (Figure 5). In the metagenome, neither Halomonadaceae MAG carries C–P lyase genes (phnF–P, including phnJ): Halomonas.1 (H. fontilapidosi) and 2020 Halomonas.2 (now Vreelandella.1 in R232). Neither isolate matches any of the 450 MAGs at species level (skani: best pair I4 vs Halomonas.1, 85.7% ANI over ~25% of the genome). The C-P lyase Halomonas is therefore supported by the isolate, not by the MAGs; consider saying so where Halomonas is presented as the case study (the Culturing discussion and the Conclusions).",
+   "rationale": "Context from the R232 MAG guilds that bears on the Halomonas MPn argument.",
+   "sources": "correlational/r232/guilds_r232.csv (ev_phnJ, ev_phn_accessory empty for both); correlational/iterativeIDs_r232_vs_2020.csv; skani dist of data/I1, I4 vs MAG_contigs/*.fna",
+   "origin": "halomonas"
+  },
+  {
+   "paragraph": 93,
+   "kind": "comment",
+   "old": "Halomonas is another diverse genus (102 recognized species as of 2021)",
+   "new": "GTDB R232 (and NCBI, for many species) now divides this genus. R232 has 117 species clusters in Halomonas and 101 in Vreelandella; for example, H. boliviensis, H. stevensii and H. jeotgali are now Vreelandella. Both isolates remain in Halomonas, so the sentence can stand. Consider adding 'before many species were transferred to Vreelandella and other genera', citing the taxogenomic revision of the Halomonadaceae (de la Haba et al. 2023, Front Microbiol; citation details unverified).",
+   "rationale": "The 2021 count of recognized species is historically correct but predates the split. These are counts of GTDB species clusters, not validly named species, so this is a comment, not a number change.",
+   "sources": "~/Documents/gtdbtk_data/release232/taxonomy/gtdb_taxonomy.tsv (f__Halomonadaceae genus tally); NCBI organism names for GCF_000236035.1, GCF_000275725.1, GCF_000334215.1",
+   "origin": "halomonas"
+  },
+  {
+   "paragraph": 122,
+   "kind": "replace",
+   "old": "orthologous genes.",
+   "new": "orthologous genes. Reference genomes are labeled with their names in the KBase reference set at the time of analysis; in GTDB R232, 10 or 11 of the 23 reference genomes labeled *Halomonas* are placed in other genera (*Vreelandella*, 6 or 7; *Modicisalibacter*, 2; *Litchfieldella*, 1; *Litchfieldella*_A, 1), depending on which *H. campaniensis* genome the tree used.",
+   "rationale": "Figure 5 cannot be relabelled because the KBase tree object is inaccessible, so the caption flags the R232 split. CAVEAT (inference): one of the 7 Vreelandella, H. campaniensis, rests on tree topology. Three KBase genomes are named H. campaniensis: SK03 (V. campaniensis_A) and LS21 (V. alkaliphila), both Vreelandella in R232, and the type strain 5AG (Halomonas); the tip sits in the Vreelandella clade, so the caption gives 10 or 11. Hedged on the verifier's finding that a third H. campaniensis genome (LS21, Vreelandella alkaliphila in R232) is also in KBase.",
+   "sources": "Figure 5 image (docx word/media/image2.png); NCBI Datasets taxon reports; GTDB API taxon-history (R232) per accession; KBase ws 19217 (ReferenceDataManager) object names",
+   "origin": "halomonas"
+  },
+  {
+   "paragraph": 173,
+   "kind": "comment",
+   "old": "showing the taxonomy of the top BLAST hits and % identity",
+   "new": "Table S3 is not in this document or the repository, so it was not checked. If it lists the two sequenced Halomonas isolates only by their 16S BLAST hit, consider adding their genome-based GTDB R232 names and accessions: I1 (= Halomonas sp. D), Halomonas sp032334135, GCA_032334135.1; I4, H. saccharevitans, GCA_032333995.1.",
+   "rationale": "The task lists P173 among the places the isolate names appear. The caption itself needs no change because it describes BLAST hits.",
+   "sources": "python-docx scan of the original docx (no Table S3 table or image); gtdbtk.bac120.summary.tsv; NCBI PRJNA992430 report",
+   "origin": "halomonas"
+  },
+  {
+   "paragraph": 47,
+   "kind": "comment",
+   "old": "Furthermore, the isolates were inserted",
+   "new": "Reference 68 is the GTDB-Tk v1 paper. The new sentence here and the new MAG Methods paragraph cite (68) for GTDB-Tk v2.8.0; please add the GTDB-Tk v2 paper (Chaumeil et al. 2022, Bioinformatics 38:5315–5316) and a citation for GTDB release R232.",
+   "rationale": "Citation mismatch introduced by moving to GTDB-Tk v2.8.0. Not in make_r232_review_docx.py's edited paragraphs. Moved to P47 by the orchestrator: P245's text is entirely inside hyperlinks, which cannot carry a comment anchor here.",
+   "sources": "Manuscript P245 text; MAG_QC/gtdbtk_isolates_r232/gtdbtk.json (version 2.8.0)",
+   "origin": "halomonas"
+  },
+  {
+   "paragraph": 67,
+   "kind": "replace",
+   "old": "Saligentibacter",
+   "new": "*Salegentibacter*",
+   "rationale": "Spelling: the genus is Salegentibacter (as in P93).",
+   "sources": "P93 of the draft",
+   "origin": "orchestrator"
+  },
+  {
+   "paragraph": 122,
+   "kind": "comment",
+   "old": "Phylogenetic tree and presence of methylphosphonate",
+   "new": "Three KBase genomes are named H. campaniensis: SK03 (GCF_002211105.1) and LS21 (GCF_000696485.1), both Vreelandella in R232, and the type strain 5AG (GCF_014193375.1), Halomonas. The tip sits inside the Vreelandella clade (sister to GFAJ-1), so SK03 or LS21 is more likely, which gives 11 of 23 (7 Vreelandella); with 5AG it is 10 of 23 (6). The KBase tree object (narrative 139158) could not be read to confirm; references were matched by name (MAG_QC/gtdbtk_isolates_r232/README.md).",
+   "rationale": "Caveat on the P122 caption edit, which rests on one inferred genome identity.",
+   "sources": "halomonas task open issue",
+   "origin": "orchestrator"
+  },
+  {
+   "paragraph": 18,
+   "kind": "replace",
+   "old": "This was corroborated by metabolic modeling, where trace consumption of methylphosphonic acid was sufficient to reproduce the experimental methane emissions.",
+   "new": "In metabolic models, methylphosphonate-consuming bacteria released 0.04–0.66 mmol of methane per gram of biomass formed, set by the phosphorus they assimilate, whereas the methylotrophic methanogen detected in the same sediments released 126 mmol; to supply the measured emissions, the methylphosphonate consumers would have to double every 2 min to 3.8 h, and the methanogen would need a specific methanogenic activity of 2–99 mmol g⁻¹ h⁻¹.",
+   "rationale": "per-gram framing; the Abstract states yields and required rates, the inference is in the P18 and P100 comments",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z",
+   "mirror_index": 19
+  },
+  {
+   "paragraph": 36,
+   "kind": "replace",
+   "old": "were simulated with a fixed ratio of inorganic to organic phosphate (0.07 yielded the best fit to the experimental data)",
+   "new": "were simulated with a minimum ratio of methylphosphonate to inorganic phosphate uptake of 0.07 mol mol^−1^ (0.33 was also tested; see Results)",
+   "rationale": "analysis(1).ipynb cell 27 constrains MePn uptake ≥ ratio × Pi uptake: a minimum, and MePn:Pi rather than inorganic:organic. As built it binds in 17 of the 20 models; after the repair of the three MePn-obligate models (P36, revised 2026-11-08) it binds in all 20. 'Best fit' held only on the basis with both axes divided by DNA.",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
+   "origin": "modelling",
+   "date": "2026-11-08T00:00:00Z"
+  },
+  {
+   "paragraph": 36,
+   "kind": "replace",
+   "old": "to create a realistic consumption and excretion profile.",
+   "new": "to create a realistic consumption and excretion profile. The ratio constraint bound in every model. A C–P lyase releases one methane per methylphosphonate it cleaves, and the models cleave methylphosphonate only for the phosphorus they assimilate, so each MPn-consumer model released a fixed amount of methane per gram of biomass formed (0.043–0.077 mmol g⁻¹ at a ratio of 0.07, depending on the template’s biomass), and at most the phosphorus content of biomass (about 0.66 mmol g⁻¹) if all phosphorus came from methylphosphonate.",
+   "rationale": "ratio binds in all models; biochemistry of the yield",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 36,
+   "kind": "replace",
+   "old": "The betaine-utilizing organisms were simulated with a betaine consumption rate of",
+   "new": "The betaine-reducing organisms (the 18 betaine-reducer models; Table 4) were simulated with a maximum betaine uptake rate of",
+   "rationale": "18 betaine-reducer species, one model each.",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 37,
+   "kind": "replace",
+   "old": "(see Figure S9)",
+   "new": "(see Figure S10)",
+   "rationale": "Figure S9 is the microcosm comparison; the gap-filling figure is Figure S10 (pre-existing citation error).",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
+   "origin": "modelling",
+   "in_doc_since": "2026-11-24",
+   "google_suggestion_id": "suggest.hzsyv3lhfhtb"
+  },
+  {
+   "paragraph": 69,
+   "kind": "replace",
+   "old": "Soil DNA density was significantly positively correlated with methane flux (Figure S7), therefore, we only used methane emissions and fluxes that were normalized by DNA density for all modeling efforts.",
+   "new": "Soil DNA concentration was weakly and not significantly correlated with methane flux (Figure S7; R^2^ = 0.22, Spearman ρ = 0.52, p = 0.08, n = 12 cores).",
+   "rationale": "DNA sentence; no DNA normalization in the per-gram comparison",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 69,
+   "kind": "replace",
+   "old": "The simulated methane production of the MPn-consuming community members correlated remarkably well (R2 = 0.966) with the experimental methane emissions (Figure S8), and was most correlated when the phosphate source ratio was 0.07 (at least 1/14 of the total phosphate consumed in methylphosphonate versus inorganic phosphate).",
+   "new": "At a phosphate source ratio of 0.07 (at least 0.07 mol of methylphosphonate per mol of inorganic phosphate, about 6.5% of the phosphate taken up), the 38 MPn-consumer models released 0.043 mmol of methane per gram of biomass formed (median; Figure 7a). Given their measured biomass, supplying the measured emissions of the six unrestored cores would require these organisms to double every 2 min to 15 min (Figure 7b).",
+   "rationale": "per-gram MPn result",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 73,
+   "kind": "replace",
+   "old": "and yield an almost identical fit to the best fitting regression (R2 = 0.968).",
+   "new": "",
+   "rationale": "regression removed",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 73,
+   "kind": "replace",
+   "old": "It is worth noting that unconstraining the phosphate source ratio produced almost an identical fit (R2 = 0.970) and still resulted in methylphosphonate consumption by several marine organisms in the Rhodobacteraceae family: two species in the Roseovarius genera and one species in the Albimonas genera.",
+   "new": "None of the 38 models needed methylphosphonate to grow: each also grew with inorganic phosphate, or with methylphosphonate, as its only phosphorus source, so the methylphosphonate taken up, and with it the methane, was set by the assumed ratio. Their methane per unit of growth did not follow the differences in emissions among the six cores (Spearman ρ = 0.03, n = 6), because it is proportional to their biomass, and most of it came from the Rhodobacteraceae family.",
+   "rationale": "obligacy, ranking, family",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 73,
+   "kind": "replace",
+   "old": "which supports that this taxa is uniquely responsible for the methane emissions.",
+   "new": "which is consistent with this family contributing to the methane emissions (Rhodobacteraceae accounted for 76% of the MPn consumers’ methane per unit of growth, *Roseovarius* alone 52%).",
+   "rationale": "family shares from yield x measured biomass (PrmA blocked)",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 74,
+   "kind": "replace",
+   "old": "The simulated methane production of the betaine-consuming community members correlated slightly less well (R2 = 0.862) with the experimental methane emissions (Figure 7),",
+   "new": "The 18 betaine-reducer models excreted 48–192 mmol of TMA per gram of biomass formed; at the assumed 0.06 methane per TMA (Methods), their measured biomass would supply the measured emissions at doubling times of 1.0 h to 35 h, and their methane per unit of growth was not correlated with the emissions either (Spearman ρ = −0.26, n = 6; Figure 7).",
+   "rationale": "per-gram betaine result",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 76,
+   "kind": "replace_paragraph",
+   "old": "requiring substantially more adjustments in the slope and th",
+   "new": "Methane from betaine depends on a second organism that converts the TMA, and only one species among the MAGs carries *mcrA*: *Methanolobus*.1, whose curated model released 126 mmol of methane per gram of biomass formed on methylamines (120–159 mmol g⁻¹ across published ion couplings), about 2,900 times the MPn consumers’ yield at a ratio of 0.07. Because a methanogen also spends methane on maintenance, its required specific methanogenic activity is the more direct measure: given its measured biomass, the measured emissions require 2–21 mmol g⁻¹ h⁻¹ in the R1 cores and 60–99 mmol g⁻¹ h⁻¹ in the R2 cores, equivalent to growth-coupled doubling times of 4.2 h to 38 h and 53 min to 1.5 h. Methanogens not recovered as MAGs lower these requirements but do not remove them. In all sequenced reads of the six cores, *mcrA* was 1.7 times as abundant as the *Methanolobus* MAG (several-fold only in three R2 samples where the MAG was scarce and *mcrA* reads few, 16–66 per sample), and 42% of the *mcrA* reads came from other methanogens, mostly *Methanohalophilus*, *Methanogenium* and *Methanococcoides*, 93% of them in no assembled contig. With the methanogens’ biomass scaled to the *mcrA* reads, the measured emissions require 1–9 mmol g⁻¹ h⁻¹ in the R1 cores and 19–44 mmol g⁻¹ h⁻¹ in the R2 cores (doubling times of 9.4 h to 3 d and 2.0 h to 4.7 h). Doubling every few hours, as in the R2 cores, still seems unlikely for sediment methanogens unless non-growth methanogenesis or a lower DNA content of biomass add to the methane. The standing porewater pools of mono-, di- and trimethylamine could supply the measured emissions if turned over every 0.9–3.4 days, and supplying the TMA for complete conversion would need the betaine reducers to double only every 37 h to 54 d. Neither the methanogens’ biomass (Spearman ρ = −0.43 for the MAG and −0.66 counting all *mcrA* reads, p ≥ 0.17) nor that of any other guild followed the differences in emissions among the six cores.",
+   "rationale": "betaine -> TMA -> methanogen chain; required specific activity first; R1/R2 contrast; methanogens in the reads",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 77,
+   "kind": "replace",
+   "old": "The models further reveal that methane is produced stoichiometrically from betaine and almost from methylphosphonate (1.4 methane : 1 methylphosphonate).",
+   "new": "In the models, each methylphosphonate consumed yields exactly one methane (1 methane : 1 methylphosphonate), whereas methane from betaine was set by assumption to 0.06 of the TMA excreted (Methods).",
+   "rationale": "CH4/MePn is 1.000 for every MAG and core in saltern_fluxes.json at 0.07 and 0.33, in every committed version (c49e503, a725dce, 1b758a4) and in the substrate-addition run. The 1.4 is not supported. Betaine CH4 = 0.06 × TMA is the Methods assumption (P36), not a model result.",
+   "sources": "modelling_numbers_r232.json (clauded_insights/modelling_numbers_r232.py)",
+   "origin": "modelling"
+  },
+  {
+   "paragraph": 95,
+   "kind": "replace",
+   "old": "This was mechanistically corroborated by metabolic models that reproduced the experimental methane emissions with high accuracy (R2 = 0.978), and demonstrate that methane is generated stoichiometrically from methylphosphonate.",
+   "new": "Metabolic models show why: a C–P lyase releases one methane per methylphosphonate cleaved for phosphorus, so the modeled MPn consumers released only 0.04–0.66 mmol of methane per gram of biomass formed, about 2,900 times less than the methylotrophic methanogen, for which methane is the product of its energy metabolism. Their measured biomass could supply the measured emissions only at doubling times of minutes to hours, whereas the methanogens’ would need doubling times of hours to days in the R1 cores and one to five hours in the R2 cores, also when the methanogens found only in the reads are counted; neither guild’s biomass followed the differences in emissions among the six cores.",
+   "rationale": "per-gram Discussion",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 95,
+   "kind": "replace",
+   "old": "The high average correlation of all members is attributed to higher metabolic activity of community members when in the regime of producing methane.",
+   "new": "",
+   "rationale": "Contradicts the revised Results, which attribute the community-wide correlation with methane to the separation of the high-methane unrestored salterns from the other sites (254 of 310 MAGs correlated; no guild beats random sets on the areal basis).",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
+   "origin": "modelling"
+  },
+  {
+   "paragraph": 95,
+   "kind": "replace",
+   "old": "The metabolic models only parameterized the relative abundances of each member and trace consumption of methylphosphonate, which encourages that these are natural outcomes of the metabolism and not forced behaviors during optimization.",
+   "new": "The MPn-consumer models only parameterized a minimum ratio of methylphosphonate to inorganic phosphate uptake: every model released a fixed amount of methane per gram of biomass formed, set by the ratio and the phosphorus content of its biomass, so the models translate MPn-consumer biomass and the assumed ratio into methane rather than testing differences in their metabolism.",
+   "rationale": "parameterization",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 99,
+   "kind": "replace",
+   "old": "Thirdly, metabolic models reproduced methane emissions from trace amounts of methylphosphonate in near stoichiometric equivalence, supporting the experimental findings. The metabolic models systematically underestimated the quantity of methane emitted, which suggests",
+   "new": "Thirdly, metabolic models showed that assimilating methylphosphonate releases only 0.04–0.66 mmol of methane per gram of biomass formed, so the measured emissions would require the MPn consumers to double every minutes to hours, whereas methylotrophic methanogenesis releases about 2,900 times more methane per gram. That the MPn models cannot reach the measured emissions at plausible growth suggests",
+   "rationale": "per-gram Conclusions",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 129,
+   "kind": "replace_paragraph",
+   "old": "Figure 7. Assessing methylphosphonate and betaine metabolism",
+   "new": "Figure 7. Methane released per gram of biomass formed by the metabolic models (a), and the growth each guild’s measured biomass would need to supply the measured methane emissions of the six unrestored cores (b). (a) Each point is a model: the 38 methylphosphonate (MPn)-consuming models at an MPn:phosphate uptake ratio of 0.07 and 0.33 and with MPn as the only phosphorus source (blue, light to dark), the 18 betaine-reducing models with methane assumed to be 0.06 of the TMA excreted (orange), and the curated *Methanolobus* model on methylamines (green; bar, 120–159 mmol g⁻¹ across published ion couplings); black lines are medians. (b) Doubling time (ln 2 / µ) at which each guild’s measured biomass in each core (relative abundance × soil DNA × layer thickness, DNA taken as 10% of dry biomass) would supply the measured emission by growth-coupled methane release (filled symbols); open symbols scale each guild’s biomass by its marker gene’s abundance in all sequenced reads relative to its MAGs (*phnJ*, *grdI*, *mcrA*); dotted lines mark 10 min, 1 h, 1 day and 1 week. JASFMS01.1 did not grow and is not modeled. No guild’s yield × biomass is correlated with the measured emissions across the six cores (Spearman ρ from −0.43 to 0.03; read-based, −0.66 to −0.09).",
+   "rationale": "Figure 7 replaced by figure7_pergram.png",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 36,
+   "kind": "comment",
+   "old": "The MAG-derived models were subjected",
+   "new": "2026 models (reassembly_2026/modelling_2026/models/README.md). Built with ModelSEEDpy (fork sync-cshenry-main 311f720) on the curated templates of modelling_2026/templates/; RAST (arm A) won the pre-registered annotation comparison. JASFMS01.1 was dropped (cannot make ribose-5-phosphate; sedoheptulose-1,7-bisphosphatase, rxn01345, rescues it but fails two ATP tests). The Methanolobus model was curated by hand (models/methanogen/CURATION.md: 19 gene-justified changes to Fpo, HdrDE, Rnf, Mcr and related reactions); its genome lacks mtaB/mtaC, so it cannot use methanol, and it has no betaine methyltransferase (mtgB). The Roseovarius 'methane monooxygenase' is PrmA (KOfam PrmA 1016 vs MmoX 228) and was disabled. Template curation queue: betaine and glycine reductase directions (rxn11678, rxn11676), Fpo (rxn24614) and Rnf, reversible N-cycle reactions, and the missing betaine reductase complex.",
+   "rationale": "model decisions and caveats",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 18,
+   "kind": "comment",
+   "old": "a primary methanogenic substrate",
+   "new": "Review (2026-11-24): per gram of biomass formed, methylphosphonate assimilation releases about 2,900-fold less methane than methylotrophic methanogenesis (Figure 7), and the measured emissions would need the MPn consumers to double every minutes to hours. The models therefore do not support methylphosphonate as the primary substrate unless MPn is degraded well beyond assimilatory phosphorus demand, which they do not represent. Consider 'a' instead of 'a primary' unless the in vitro data alone carry 'primary'. See also the synthesis paragraph in the Conclusions and Figure 10 (2026-11-25).",
+   "rationale": "Abstract claim",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z",
+   "mirror_index": 19
+  },
+  {
+   "paragraph": 35,
+   "kind": "replace_paragraph",
+   "old": "Metabolic models were developed using dereplicated medium and high quality",
+   "new": "Metabolic models were built for the representative MAG of each MPn-consumer and betaine-reducer species of the re-assembled MAG set (39 and 18 species; Table 4), one model per species and guild. Prodigal genes were annotated with the RAST service (53), and draft models were built with ModelSEEDpy, which implements the KBase modeling pipeline (52), from the current ModelSEED templates with our curations (Gram-negative v7, Gram-positive v7 and Archaea v6 templates for 31, 19 and 6 models, respectively). RAST alone was chosen over drafts that also used KOfam, eggNOG-mapper v2.1.13 and Bakta v1.12.0 annotations by criteria fixed in advance (gene-associated and gapfilled reactions, guild-pathway support, ATP production without a carbon source, and the fraction of blocked reactions): the added annotations raised the number of gene-associated reactions, but they also raised the fraction of blocked reactions by 2.7–6.5 percentage points, beyond the pre-set limit of 2, and the two that included eggNOG-mapper let one model make ATP from ammonia and oxygen. ATP production was corrected on 54 test media, and the models were gapfilled as in the original protocol: MPn consumers first on aerobic lactate with phosphate and then on lactate with MPn as the only phosphorus source, after a C–P lyase pathway and an MPn transporter were added where absent; betaine reducers on aerobic lactate, after which betaine reductase, glycine reductase and TMA export were added. Reactions that let a model oxidize ammonia (reversed nitrite and hydroxylamine reductases) or consume methane without annotation support were restricted to their reductive or methane-producing directions, and models that lost growth were gapfilled again. One MPn-consumer model (JASFMS01.1) could not grow and was excluded, leaving 38 MPn-consumer and 18 betaine-reducer models; none of the MPn-consumer models required MPn to grow. The model of the only *mcrA*-carrying species among the MAGs (*Methanolobus*.1) grew by converting methyl groups to acetate instead of methane, because it could not reduce methanophenazine; its F420H2 dehydrogenase (Fpo), membrane-bound heterodisulfide reductase (HdrDE), Rnf complex and methyl-coenzyme M reductase were corrected to the gene-supported forms, after which it grew by methylotrophic methanogenesis on mono-, di- and trimethylamine, with the textbook methane yields, but not on methanol (its genome lacks *mtaB* and *mtaC*). A gene annotated by RAST as methane monooxygenase in two *Roseovarius* models is a propane 2-monooxygenase (*prmA*), and its reaction was disabled.",
+   "rationale": "curated methanogen (models/methanogen/CURATION.md) and PrmA block (pipeline/apply_prma_block.py)",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 37,
+   "kind": "replace",
+   "old": "for all methylphosphonate- and betaine- consuming members",
+   "new": "for the methylphosphonate-consuming members",
+   "rationale": "Figure S10 regenerated for the 2026 models (reassembly_2026/modelling_2026/figureS10/)",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 37,
+   "kind": "insert_before",
+   "old": "Glycerol and acetate are other candidate carbon sources",
+   "new": "For the betaine-reducing members, however, aerobic L-lactate required more reactions than 15 of the 22 media tested, including anaerobic pyruvate and fumarate (median 5.5 against 0; Figure S10). ",
+   "rationale": "Figure S10 regenerated: lactate is not among the cheapest media for the betaine reducers",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 37,
+   "kind": "comment",
+   "old": "Lactate was selected as the simulated carbon source",
+   "new": "Figure S10 is regenerated for the 2026 models (figureS10_final.py: MSATPCorrection core gap-filling of each arm-A draft on the 22 ATP test media of the original figure, run with the build code on TF). Aerobic L-lactate remains the cheapest medium for the MePn consumers, but for the betaine reducers it ranks 16 of 22 (anaerobic pyruvate and fumarate need none), and no betaine model grows without O2 although these organisms (Bacillota such as Halanaerobium, M55B127) are anaerobic Stickland fermenters. Simulating the betaine reducers on an anaerobic medium (e.g. pyruvate) would be more realistic; the protocol was kept to match the original analysis.",
+   "rationale": "S10 regenerated",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 157,
+   "kind": "replace_paragraph",
+   "old": "Figure S10.",
+   "new": "Figure S10. Core gap filling of the draft metabolic models: the number of reactions that ATP correction had to add or reverse for each draft to produce ATP on each of 22 test media (a single carbon source, with or without O~2~), for a) the 38 methylphosphonate-consuming and b) the 18 betaine-reducing models (species labels as in Table 4). Rows and columns are ordered by hierarchical clustering; grey cells had no gap-filling solution. The red box marks the aerobic L-lactate medium used for the simulations, which needed no reactions for most methylphosphonate consumers (median 0, tied for the lowest of the 22 media) but a median of 5.5 for the betaine reducers, more than 15 other media, including anaerobic pyruvate and fumarate (median 0).",
+   "rationale": "Figure S10 replaced by figureS10_final.png",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 73,
+   "kind": "comment",
+   "old": "Roseovarius has been experimentally observed",
+   "new": "Consider deleting the closing Albimonas sentence: KOfam found no phnJ in any Albimonas MAG of the re-assembled set (the C–P lyase genes of the original Albimonas.1 are frameshifted), so Albimonas has no MPn-consumer model and no longer appears in these results. Reference 78 would then be uncited. (Not deleted here: the sentence ends inside an existing comment range and a citation link.)",
+   "rationale": "Albimonas",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 36,
+   "kind": "replace",
+   "old": "constrained to its relative abundance in each simulated sample (based on read mapping), which scales the member’s metabolism to match its contribution in the sample’s consortium and specifically allows the simulated methane emission to quantitatively approximate the organism’s in situ production",
+   "new": "fixed, and the methane (or trimethylamine, TMA) each model released was expressed per gram of biomass formed; in these models this yield does not depend on the growth rate imposed, and it was combined with each member’s measured biomass in each core (see below)",
+   "rationale": "per-gram framing replaces 'biomass = relative abundance / DNA'",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 36,
+   "kind": "insert_before",
+   "old": "One TMA was excreted for each consumed betaine",
+   "new": "For the per-gram comparison the uptake bound was lifted, and the least TMA excreted per gram of biomass formed at the optimum was used (more TMA was possible without changing the optimum). ",
+   "rationale": "betaine per-gram yield",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 36,
+   "kind": "insert_before",
+   "old": "The metabolic models were finally minimized",
+   "new": "The methanogen model was simulated on methylamines without an external electron acceptor, minimizing methylamine uptake; methane is the end product of its energy metabolism, so its yield per gram of biomass formed is set by the ATP the cell needs to grow. ",
+   "rationale": "methanogen protocol",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 38,
+   "kind": "replace_paragraph",
+   "old": "Linear regression between the experimental and simulated",
+   "new": "The modeled yields were compared with the measured emissions through the measured biomass of each member in each core.",
+   "rationale": "the regression and the unit conversion of the original comparison are replaced (P39, P40)",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 40,
+   "kind": "replace_paragraph",
+   "old": "for direct comparison and consistent flux interpretation",
+   "new": "The biomass of each member in each core was its relative abundance times the soil DNA concentration of each depth, summed over the two layers (0–5 and 5–15 cm) with a soil bulk density of 0.7 g cm⁻³ estimated from other studies of this region, and with DNA taken as 10% of dry biomass. The product of a guild’s methane yield and its biomass is the methane it produces per unit of growth; dividing the measured emission by this product gives the specific growth rate µ at which the guild’s measured biomass would supply the measured emission (doubling time ln 2 / µ), and, for the methanogen, dividing by its biomass alone gives the specific methanogenic activity required. If DNA were 3% of dry biomass, every biomass would be 3.3 times larger and every required rate 3.3 times smaller. Spearman rank correlations (exact permutation p values) between each guild’s methane per unit of growth and the measured emissions of the six unrestored cores test whether the models follow the differences among cores. To include guild members not recovered as MAGs, each guild’s biomass was also scaled, in each sample, by the copies of its marker gene per genome equivalent in all sequenced reads (*mcrA* for methanogens, *phnJ* for MPn consumers, *grdI* for betaine reducers; see Metagenomics) divided by its MAGs’ genomes per genome equivalent. The required specific methanogenic activity does not depend on the methane yield; the doubling times computed from the read-based methanogen biomass assume that every *mcrA*-carrying organism has the yield of the *Methanolobus* model.",
+   "rationale": "explicit-rate comparison; the 10 % DNA constant and its sensitivity are stated; read-based scaling",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 69,
+   "kind": "replace",
+   "old": "The line-of-best-fit equation from this regression",
+   "new": "",
+   "rationale": "the regression equation (P70) is removed",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 71,
+   "kind": "replace_paragraph",
+   "old": "reveals that generally the models predict half",
+   "new": "At a ratio of 0.33 (at least 0.33 mol of methylphosphonate per mol of inorganic phosphate, about 25% of the phosphate taken up) the yield rose to 0.164 mmol g⁻¹, and the required doubling times to 8 min to 56 min; even with methylphosphonate as the only phosphorus source the yield reached only 0.66 mmol g⁻¹, and the doubling times 31 min to 3.8 h. C–P lyase (*phnJ*) genes were 1.7–2.4 times as abundant in all sequenced reads as in the MPn-consumer MAGs, so counting MPn consumers not recovered as MAGs lengthens these doubling times only to 4 min to 28 min at a ratio of 0.07 and 1.1 h to 7.1 h with methylphosphonate as the only phosphorus source (Figure 7b, open symbols). Such rates are implausibly fast for sediment microorganisms, so assimilation of methylphosphonate by the modeled consumers cannot supply the measured emissions unless methylphosphonate is degraded well beyond the phosphorus they assimilate (for example, with the phosphate excreted or stored as polyphosphate), which the models do not represent.",
+   "rationale": "per-gram MPn result at 0.33 and with MPn the only P source; the loophole the models cannot close",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 73,
+   "kind": "comment",
+   "old": "This family is by far the most abundant",
+   "new": "Review (2026-11-24): the regression equations (P70, P72, P75), the unit-conversion equation (P39) and their lead-ins are tracked deletions. Simulated areal emissions need an assumed growth rate: the original pipeline set each member's growth to its relative abundance divided by DNA, and the 2026-10-26 to 11-23 revisions in effect multiplied the methane per gram of biomass formed by the standing biomass per hour (every member growing at 1 h⁻¹); any fit only rescales with that choice. The model output is now the methane per gram of biomass formed, and the comparison is the growth each guild would need (Figure 7). For the implausibility of minute-to-hour doubling times in sediments, consider citing Hoehler and Jørgensen 2013 (Nat Rev Microbiol 11:83–94). LibreOffice ignores revisions on equations and still shows them.",
+   "rationale": "equation removal",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 74,
+   "kind": "replace",
+   "old": "with the line-of-best-fit",
+   "new": "",
+   "rationale": "the regression equation (P75) is removed",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 96,
+   "kind": "insert_before",
+   "old": "The unrestored systems are relatively well defined",
+   "new": "Much of this fraction was never assembled: of the reads of eight universal single-copy ribosomal-protein genes, 39% (R1), 46% (R2), 76% (R2A) and 79% (SF2) lay in no contig of at least 1 kb, so the unbinned fraction mainly reflects organisms too rare or too diverse to assemble at this sequencing depth rather than contigs left out of bins. Counted in all reads, the guilds’ marker genes were 1.7–2.4 (*phnJ*), 1.3–2.4 (*grdI*) and, pooled, 1.7 (*mcrA*) times as abundant as the guilds’ MAGs in the unrestored cores, which lengthens the doubling times required of each guild by about these factors but does not change the conclusions of the models (Figure 7b). ",
+   "rationale": "why the unbinned fraction is large (assembly-limited), and the read-based guild abundance",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z"
+  },
+  {
+   "paragraph": 24,
+   "kind": "comment",
+   "old": "converged on methylphosphonate being the primary methanogenic substrate",
+   "new": "Review (2026-11-24): as for the Abstract (P18) and the Conclusions (P100), the models do not support 'primary'. Per gram of biomass formed, methylphosphonate assimilation releases about 2,900-fold less methane than methylotrophic methanogenesis (Figure 7), and the reads carry mcrA of several methylotrophic methanogens besides Methanolobus. Consider 'converged on methylphosphonate as a methanogenic substrate, alongside methylotrophic methanogenesis'. The paragraph's last sentence is unfinished ('...revealing that restoration efforts should'). See also the synthesis paragraph in the Conclusions and Figure 10 (2026-11-25).",
+   "rationale": "Introduction claim (Andrew's 2026-11-23 rewrite of P24)",
+   "sources": "reassembly_2026/modelling_2026/simulations/{per_gram_yields,specific_rates}.tsv (per_gram_yields.py, specific_rates.py); models/methanogen/CURATION.md; community_eval/methanogen_test_curated.tsv; reassembly_2026/read_markers/README.md (read-based guild abundance)",
+   "origin": "modelling_2026_per_gram",
+   "date": "2026-11-24T00:00:00Z",
+   "min_mirror": "2026-11-24"
+  },
+  {
+   "paragraph": 40,
+   "kind": "new_paragraph_after",
+   "old": "",
+   "new": "To compare the hypothesized methane sources (Figure 10), the abundance of each pathway was taken from its marker gene in all reads and from its MAGs (see Metagenomics); the *mcrA* reads were assigned to methylotrophic, hydrogenotrophic and acetoclastic methanogens by the genus of their best hit, pooled over the 12 samples of the unrestored cores (reads of the ANME-1-related Methanophagales were excluded), and only the archaeal reads of the methanol methyltransferase gene (*mtaB*) were counted. The standing porewater pool of each measured substrate was its NMR concentration times the porewater volume of each layer (porosity 0.74, from the bulk density of 0.7 g cm⁻³ and a particle density of 2.65 g cm⁻³), converted to methane with the stoichiometry of methanogenesis (methane per molecule: TMA 2.25, DMA 1.5, MMA 0.75, methanol 0.75, formate 0.25, acetate 1, and glycine betaine 2.25 through TMA); the pool divided by the measured emission is the turnover time at which it would supply the emission. To apportion the emission among the pathways, each guild’s methane per unit of growth (yield × read-based biomass) was compared at equal specific growth rates, and the methanogens’ share was divided among the methanogen groups by their *mcrA* reads.",
+   "rationale": "Methods for Figure 10 and the attribution",
+   "sources": "reassembly_2026/modelling_2026/synthesis/pathway_summary.{py,json}, figure10_pathways.py; reassembly_2026/read_markers/README.md",
+   "origin": "synthesis_2026_11_25",
+   "date": "2026-11-25T00:00:00Z"
+  },
+  {
+   "paragraph": 78,
+   "kind": "new_paragraph_after",
+   "old": "",
+   "new": "Figure 10 sets the hypothesized methane sources side by side. Among the pathway genes in all reads, C–P lyase (*phnJ*) was the most abundant (9–18 copies per 100 genome equivalents; 5–9 genomes per 100 in the MAGs), mostly of *Roseovarius* and *Marivita*, followed by the TMA-producing betaine reductase (*grdI*; 1–12; mostly M55B127, UBA8670 and DATFJG01) and choline and carnitine genes (*cutC* + *cntA*; 2–10), whereas methanogens were rare (*mcrA* 0.1–0.8). Of the *mcrA* reads, 91% belonged to methylotrophic methanogens (*Methanolobus*, *Methanohalophilus*, *Methanococcoides*, and hydrogen-dependent Methanomassiliicoccales), 9% to hydrogenotrophic methanogens, mostly *Methanogenium*, and 3 reads to the acetoclastic *Methanothrix* and *Methanocrinis*. Only 21% of the reads of the methanol methyltransferase gene *mtaB* were archaeal (mostly *Methanohalophilus* and *Methanococcoides*), and no MAG carried methanol-, hydrogen- or acetate-based methanogenesis. The measured porewater pools would supply the measured emissions if turned over every 0.9–3.4 days (mono-, di- and trimethylamine), 0.6–3.0 days (methanol), 4–12 hours (formate), 8–335 days (acetate) and 61–168 days (glycine betaine, if fully converted through TMA). The betaine reducers could supply the TMA for complete conversion at doubling times of 37 hours or longer, whereas the acetoclastic methanogens, at their read-based abundance, would need doubling times of minutes.",
+   "rationale": "Results for Figure 10",
+   "sources": "reassembly_2026/modelling_2026/synthesis/pathway_summary.{py,json}, figure10_pathways.py; reassembly_2026/read_markers/README.md",
+   "origin": "synthesis_2026_11_25",
+   "date": "2026-11-25T00:00:00Z"
+  },
+  {
+   "paragraph": 98,
+   "kind": "replace",
+   "old": "although methylphosphonate degradation by halophilic aerobic bacteria such as Halomonas appears to be the most corroborated conclusion from multiple perspectives.",
+   "new": "and methylphosphonate degradation by halophilic aerobic bacteria. Combining the read, MAG, substrate and model evidence attributes most of the methane to methylotrophic methanogenesis, with methylphosphonate degradation a secondary source (Figure 10).",
+   "rationale": "Conclusions opening agrees with the synthesis",
+   "sources": "reassembly_2026/modelling_2026/synthesis/pathway_summary.{py,json}, figure10_pathways.py; reassembly_2026/read_markers/README.md",
+   "origin": "synthesis_2026_11_25",
+   "date": "2026-11-25T00:00:00Z"
+  },
+  {
+   "paragraph": 99,
+   "kind": "new_paragraph_after",
+   "old": "",
+   "new": "Taken together, these results attribute most of the measured methane to methylotrophic methanogenesis (Figure 10). Methanogens that use methyl groups carry 91% of the methanogen *mcrA* reads, hydrogenotrophic methanogens 9%, and acetoclastic methanogens fewer than 1%, although acetate was abundant. Their substrates are mainly methylated amines (the dominant *Methanolobus* cannot use methanol, which only the less abundant *Methanohalophilus* and *Methanococcoides* may use): the porewater mono-, di- and trimethylamine would supply the measured emissions if turned over every 0.9–3.4 days, and the large glycine betaine pool (enough for 61–168 days of emissions if fully converted through TMA), degraded by abundant betaine-reducing Bacillota, together with choline and carnitine degradation, can resupply TMA without fast growth. Methylphosphonate degradation by C–P lyase bacteria (mostly *Roseovarius* and *Marivita* in situ, and *Halomonas* in culture) does contribute, but it is limited by their phosphorus demand: at equal specific growth rates the MPn consumers would supply 1–7% of the methane at an MPn:Pi uptake ratio of 0.07, 3–24% at 0.33, and 9–55% only if methylphosphonate were their sole phosphorus source; even growing ten times faster than the methanogens, they would supply 6–45% at a ratio of 0.07. Growth-coupled production does not close the budget of the R2 cores: at a doubling time of one day, the methanogens there would supply only 8–19% of the measured methane, so their methane must come largely from activity beyond growth (19–45 mmol CH₄ per gram of methanogen biomass per hour) or from more methanogen biomass than the DNA suggests. In the microcosms, only the TMA addition produced as much methane as the controls under anoxic conditions (Figure 4b), and methylphosphonic acid did not raise methane significantly above the controls under oxic conditions (Figure 4a). We therefore attribute the measured methane mainly to methylotrophic methanogenesis fed by the turnover of compatible solutes, with methylphosphonate degradation as a secondary, phosphorus-limited source and hydrogenotrophic methanogenesis as a minor one.",
+   "rationale": "the synthesis paragraph the user asked for (attribution among the hypotheses)",
+   "sources": "reassembly_2026/modelling_2026/synthesis/pathway_summary.{py,json}, figure10_pathways.py; reassembly_2026/read_markers/README.md",
+   "origin": "synthesis_2026_11_25",
+   "date": "2026-11-25T00:00:00Z"
+  },
+  {
+   "paragraph": 100,
+   "kind": "replace",
+   "old": "We therefore propose methylphosphonate as the primary source of methane in the hypersaline unrestored salterns. The C-P lyase pathway in aerobic halotolerant bacteria appears to be the precise mechanism.",
+   "new": "We therefore propose that the methane of the hypersaline unrestored salterns comes mainly from methylotrophic methanogens that use methylated amines derived from compatible solutes, and secondarily from the C–P lyase pathway of aerobic halotolerant bacteria degrading methylphosphonate.",
+   "rationale": "the proposal agrees with the synthesis paragraph (replaces the P100 'Consider revising' comment)",
+   "sources": "reassembly_2026/modelling_2026/synthesis/pathway_summary.{py,json}, figure10_pathways.py; reassembly_2026/read_markers/README.md",
+   "origin": "synthesis_2026_11_25",
+   "date": "2026-11-25T00:00:00Z"
+  },
+  {
+   "paragraph": 100,
+   "kind": "comment",
+   "old": "This project improves our understanding",
+   "new": "Review (2026-11-25): the proposal is rewritten to match the new synthesis paragraph above and Figure 10. The attribution rests on the read survey (all 2.08 billion reads), the MAGs, the porewater pools and the per-gram models; the shares assume equal specific growth rates of the guilds, with sensitivities given in the text. If the authors prefer to keep methylphosphonate as the primary source, the Abstract, the Introduction (P24) and the models section would need evidence that methylphosphonate is degraded far beyond assimilatory phosphorus demand.",
+   "rationale": "rationale for the rewritten proposal",
+   "sources": "reassembly_2026/modelling_2026/synthesis/pathway_summary.{py,json}, figure10_pathways.py; reassembly_2026/read_markers/README.md",
+   "origin": "synthesis_2026_11_25",
+   "date": "2026-11-25T00:00:00Z"
+  },
+  {
+   "paragraph": 28,
+   "kind": "replace",
+   "old": "amplicons and metagenomes were processed as detailed by",
+   "new": "amplicons were processed as detailed by",
+   "rationale": "the metagenomes are re-processed (re-assembly, Methods below)",
+   "sources": "reassembly_2026/community_ko/ (panel_stats.py, figure1.py, figureS4.py, figureS6.py, metabolome_taxonomy.py, table_s1.py); reassembly_2026/read_markers_v2/README.md; reassembly_2026/community_ko/assembly_based/README.md",
+   "origin": "metagenome_2026_11_26",
+   "date": "2026-11-26T00:00:00Z"
+  },
+  {
+   "paragraph": 28,
+   "kind": "insert_before",
+   "old": "Sediments were sent to the UC Davis",
+   "new": "The 39 metagenomes, 26 of sediment and 13 of water (Table S4), were re-assembled from the raw reads as described below. ",
+   "rationale": "points to the re-assembly and Table S4",
+   "sources": "reassembly_2026/community_ko/ (panel_stats.py, figure1.py, figureS4.py, figureS6.py, metabolome_taxonomy.py, table_s1.py); reassembly_2026/read_markers_v2/README.md; reassembly_2026/community_ko/assembly_based/README.md",
+   "origin": "metagenome_2026_11_26",
+   "date": "2026-11-26T00:00:00Z"
+  },
+  {
+   "paragraph": 30,
+   "kind": "replace_paragraph",
+   "old": "",
+   "new": "To build on the findings of Zhou et al. (2022), who reported differences in the abundance of some genes involved in methylotrophic methanogenesis and methylphosphonate cycling, we compiled a panel of 138 KEGG orthologs (KOs) involved in the cycling of methylated compounds and in methanogenesis (Table S1), using BioCyc, KEGG and the literature (49, 50). The panel extends the original list of 39 KOs: 34 were kept, six that KOfam assigns to unrelated functions were replaced by the KOs of the intended enzymes (Table S1, sheet ‘Original list’), and 68 were added. The added KOs cover the oxidation of trimethylamine N-oxide (TMAO), dimethylamine (DMA) and methylamines; the production of trimethylamine (TMA) from choline, carnitine and glycine betaine; the corrinoid methyltransferases of methylotrophic methanogens and bacteria and methyl-coenzyme M reductase; glycine betaine, dimethylglycine and sarcosine metabolism; methanol oxidation; the metabolism of dimethylsulfide (DMS), methanethiol and methanesulfonate; the cleavage and demethylation of dimethylsulfoniopropionate (DMSP); and the C–P lyase and oxidative pathways of phosphonate degradation. Thirty further KOs of the acetoclastic and hydrogenotrophic pathways of methanogenesis were analyzed for Figure S4. The abundance of each KO in each metagenome was measured both in all reads and in the assembled genes, as copies per genome equivalent (see below).",
+   "rationale": "the IMG/MEGAHIT/DESeq2 profile is replaced by the read- and assembly-based profiles of the 2026 data (the pipeline and versions are in the MAG and read-survey Methods paragraphs below)",
+   "sources": "reassembly_2026/community_ko/ (panel_stats.py, figure1.py, figureS4.py, figureS6.py, metabolome_taxonomy.py, table_s1.py); reassembly_2026/read_markers_v2/README.md; reassembly_2026/community_ko/assembly_based/README.md",
+   "origin": "metagenome_2026_11_26",
+   "date": "2026-11-26T00:00:00Z"
+  },
+  {
+   "paragraph": 50,
+   "kind": "replace",
+   "old": "Differences in gene abundances among the three habitat types were tested with Kruskal-Wallis tests.",
+   "new": "Differences in gene abundances (copies per genome equivalent) among the three habitat types (unrestored R1 and R2, n = 12; restored SF2, n = 6; reference R2A, n = 6) were tested with Kruskal–Wallis tests, with Benjamini–Hochberg false discovery rate (FDR) correction across all panel KOs detected in the 24 sediment metagenomes, followed by Dunn’s tests with Holm correction; the metagenomes were clustered with Ward’s minimum-variance criterion on the per-gene z-scores. The abundances of the cultured genera (Figure S6) were compared among the four sites in the same way.",
+   "rationale": "statistics of Figure 1, Figure S6 and Table S1",
+   "sources": "reassembly_2026/community_ko/ (panel_stats.py, figure1.py, figureS4.py, figureS6.py, metabolome_taxonomy.py, table_s1.py); reassembly_2026/read_markers_v2/README.md; reassembly_2026/community_ko/assembly_based/README.md",
+   "origin": "metagenome_2026_11_26",
+   "date": "2026-11-26T00:00:00Z"
+  },
+  {
+   "paragraph": 50,
+   "kind": "insert_before",
+   "old": "Only metabolites present in at least three samples",
+   "new": "For the correlations with gene abundance (Figure S4), only reads whose best hit was a methanogen were counted for the genes of the methanogenesis pathways. ",
+   "rationale": "Figure S4 counts methanogen-lineage reads",
+   "sources": "reassembly_2026/community_ko/ (panel_stats.py, figure1.py, figureS4.py, figureS6.py, metabolome_taxonomy.py, table_s1.py); reassembly_2026/read_markers_v2/README.md; reassembly_2026/community_ko/assembly_based/README.md",
+   "origin": "metagenome_2026_11_26",
+   "date": "2026-11-26T00:00:00Z"
+  },
+  {
+   "paragraph": 50,
+   "kind": "replace",
+   "old": "Correlations between Bray-Curtis dissimilarities were calculated with Mantel tests.",
+   "new": "Correlations between Bray–Curtis dissimilarities were calculated with Mantel tests (Pearson’s r, 9,999 permutations) over the 19 samples with NMR data, using all 50 metabolites and, for taxonomic composition, either the species of the re-assembled MAG set or the genera of the ribosomal-protein reads.",
+   "rationale": "Mantel inputs",
+   "sources": "reassembly_2026/community_ko/ (panel_stats.py, figure1.py, figureS4.py, figureS6.py, metabolome_taxonomy.py, table_s1.py); reassembly_2026/read_markers_v2/README.md; reassembly_2026/community_ko/assembly_based/README.md",
+   "origin": "metagenome_2026_11_26",
+   "date": "2026-11-26T00:00:00Z"
+  },
+  {
+   "paragraph": 57,
+   "kind": "replace_paragraph",
+   "old": "",
+   "new": "Of the 108 methylated-compound KOs in the panel (Table S1), 107 were detected in the reads of the 24 sediment metagenomes; only the alcohol oxidase AOX, which has no prokaryotic reference, was absent. Hierarchical clustering of the metagenomes by these KOs separated the three sample types exactly (unrestored salterns, restored saltern, reference wetland; Figure 1), and the abundance of 100 of the 107 KOs differed among them (Kruskal–Wallis test, P~FDR~ < 0.05). The unrestored salterns had the most C–P lyase genes (*phnGHIJKLM*; *phnJ* 12.7 copies per 100 genome equivalents, against 1.1 in the restored saltern and 4.4 in the reference wetland), betaine reductase (*grdI* 6.5, against 0.1 and 0.2) and methyl-coenzyme M reductase (*mcrA* 0.28, against 0.03 and < 0.01), and the highest abundance of the genes for DMA oxidation by DMA monooxygenase (*dmmABC*), for methylamine oxidation through N-methylglutamate (*mgdABCD*), for DMSP demethylation and cleavage (*dmdA*, *dddL*) and for methanethiol oxidation (*MTO*). The reference wetland had the most genes for the aerobic oxidation of TMA and methylamines (*tmd* 17.8, against 4.3 in the unrestored salterns; *mauAB*; *gmaS*), carnitine monooxygenase (*cntA*), glycine betaine monooxygenase (*gbcAB*), choline monooxygenase (*CMO*), methanol dehydrogenases (*mxaF*, *xoxF*), and several genes of formaldehyde, sarcosine and methylthiopropanoate (MMPA) metabolism (*gfa*, *frmA*, *dgcA*, *dmdB*, *dmdD*). The restored saltern had the most choline TMA-lyase (*cutC* 4.7, against 1.4 and 0.9) and betaine-homocysteine methyltransferase (*bhmt*), and the most corrinoid methyltransferases of TMA, DMA, methylamine and methanol (*mttB*, *mtbB*, *mtmB*, *mtaB*; *mtbB* 14.6, against 0.8 and 0.9). These methyltransferases occur in methylotrophic methanogens and in bacteria: only 3–8% of the *mtbB*, *mtmB* and *mtaB* reads of the restored saltern came from methanogens (92% of its *mtbB* reads were of the sulfate-reducing Desulfobacterota and Thermodesulfobacteriota, and most of its *mtmB* reads of Desulfobacterota, Chloroflexota and Bacillota), against 21–52% in the unrestored salterns, where *Methanolobus* carried the largest share of the *mtmB* reads. In sum, the microbiomes at each site differed in their capacity to metabolize each of these substrates, both in terms of gene relative abundances and pathways utilized.",
+   "rationale": "Figure 1 on the read survey of the 2026 panel; the gene lists of the old paragraph (folD, purU, ftfL, soxBD, sdaA, gbsB as unrestored; fae, SARDH, sfnG, msuD as reference; ddhA as restored) are not supported by the new profile (Table S1)",
+   "sources": "reassembly_2026/community_ko/ (panel_stats.py, figure1.py, figureS4.py, figureS6.py, metabolome_taxonomy.py, table_s1.py); reassembly_2026/read_markers_v2/README.md; reassembly_2026/community_ko/assembly_based/README.md",
+   "origin": "metagenome_2026_11_26",
+   "date": "2026-11-26T00:00:00Z"
+  },
+  {
+   "paragraph": 62,
+   "kind": "replace",
+   "old": "TMA, trehalose, acetate, and MMA were significantly positively correlated with mcrABG while sucrose, 2-oxoisocaproate, fructose, glucose, and proline were the most negatively correlated with mcrA (Figure S4).",
+   "new": "Counting only the reads of methanogens, MMA, acetate and TMA were significantly positively correlated with *mcrA*, *mcrB* and *mcrG* (Spearman ρ = 0.69–0.81 for *mcrA*), and trehalose with *mcrB*, while fructose, proline, 2-oxoisocaproate and sucrose were negatively correlated with all three (ρ = −0.66 to −0.80 for *mcrA*), and glucose with *mcrB* and *mcrG* (Figure S4). The C–P lyase genes shared most of these correlations: *phnJ*, for example, was positively correlated with TMA and trehalose and negatively with proline, sucrose, glucose and fructose.",
+   "rationale": "Figure S4 on the read survey (methanogen-lineage reads)",
+   "sources": "reassembly_2026/community_ko/ (panel_stats.py, figure1.py, figureS4.py, figureS6.py, metabolome_taxonomy.py, table_s1.py); reassembly_2026/read_markers_v2/README.md; reassembly_2026/community_ko/assembly_based/README.md",
+   "origin": "metagenome_2026_11_26",
+   "date": "2026-11-26T00:00:00Z"
+  },
+  {
+   "paragraph": 62,
+   "kind": "replace",
+   "old": "(Mantel test, r = 0.78, p < 0.001)",
+   "new": "(Mantel test with the species of the re-assembled MAG set, r = 0.78, and with the genera of the ribosomal-protein reads, r = 0.70; p < 0.001 for both)",
+   "rationale": "Mantel on the 2026 community data",
+   "sources": "reassembly_2026/community_ko/ (panel_stats.py, figure1.py, figureS4.py, figureS6.py, metabolome_taxonomy.py, table_s1.py); reassembly_2026/read_markers_v2/README.md; reassembly_2026/community_ko/assembly_based/README.md",
+   "origin": "metagenome_2026_11_26",
+   "date": "2026-11-26T00:00:00Z"
+  },
+  {
+   "paragraph": 67,
+   "kind": "replace",
+   "old": "All of these isolated genera were significantly more abundant in unrestored salterns than the restored saltern and reference wetland, demonstrating a preference for high salt concentrations (Figure S6).",
+   "new": "*Halomonas* and *Salegentibacter* were significantly more abundant in the unrestored salterns than in the restored saltern and the reference wetland in the metagenomic reads and the MAGs, and for R1 also in the 16S rRNA gene data, consistent with a preference for high salt concentrations, whereas *Idiomarina* was rare at all sites and differed among them only in the 16S rRNA gene data (Figure S6).",
+   "rationale": "Figure S6 with the read and MAG rows",
+   "sources": "reassembly_2026/community_ko/ (panel_stats.py, figure1.py, figureS4.py, figureS6.py, metabolome_taxonomy.py, table_s1.py); reassembly_2026/read_markers_v2/README.md; reassembly_2026/community_ko/assembly_based/README.md",
+   "origin": "metagenome_2026_11_26",
+   "date": "2026-11-26T00:00:00Z"
+  },
+  {
+   "paragraph": 81,
+   "kind": "replace",
+   "old": "(Bray-Curtis index = 0.31 to 0.85) in even the most dissimilar taxonomic communities (Bray-Curtis index = 0.83 to ~0.96)",
+   "new": "(Bray–Curtis index = 0.32 to 0.84) in even the most dissimilar taxonomic communities (Bray–Curtis index = 0.85 to 0.94 between the species compositions of the re-assembled MAG set)",
+   "rationale": "Bray-Curtis ranges on the 2026 community data",
+   "sources": "reassembly_2026/community_ko/ (panel_stats.py, figure1.py, figureS4.py, figureS6.py, metabolome_taxonomy.py, table_s1.py); reassembly_2026/read_markers_v2/README.md; reassembly_2026/community_ko/assembly_based/README.md",
+   "origin": "metagenome_2026_11_26",
+   "date": "2026-11-26T00:00:00Z"
+  },
+  {
+   "paragraph": 93,
+   "kind": "replace",
+   "old": "The cultivated genera were all present in both 16S rRNA gene and metagenomic sequencing datasets and were more abundant in the unrestored salterns (Figure S6), demonstrating their preference for this environment.",
+   "new": "All five cultivated genera were detected in both the 16S rRNA gene and the metagenomic data, but in the metagenomic reads only *Halomonas* and *Salegentibacter*, and *Marinilabilia* relative to the reference wetland, were more abundant in the unrestored salterns (Figure S6); *Idiomarina* was rare at all sites, and the reads assigned to *Clostridium*, most of them distant from any reference genome, were more abundant in the restored saltern and the reference wetland.",
+   "rationale": "Figure S6 with the read and MAG rows",
+   "sources": "reassembly_2026/community_ko/ (panel_stats.py, figure1.py, figureS4.py, figureS6.py, metabolome_taxonomy.py, table_s1.py); reassembly_2026/read_markers_v2/README.md; reassembly_2026/community_ko/assembly_based/README.md",
+   "origin": "metagenome_2026_11_26",
+   "date": "2026-11-26T00:00:00Z"
+  },
+  {
+   "paragraph": 115,
+   "kind": "replace_paragraph",
+   "old": "",
+   "new": "Figure 1. Relative abundance of genes involved in the cycling of methylated compounds in the 24 sediment metagenomes: copies per genome equivalent in all reads, z-scored per gene. Samples (columns) are clustered with Ward’s criterion, which separates them by restoration type; genes (rows) are grouped by compound, in two blocks. Rows are annotated by whether the gene’s abundance differs among the three restoration types (KW: Kruskal–Wallis test, Benjamini–Hochberg FDR < 0.05 over all panel KOs), the restoration type with the highest abundance (Highest; shown when FDR < 0.05; pairwise Dunn’s tests in Table S1), the compound, the type of process, and the validation of the read survey (Validation: flagged = recall < 0.80 or precision < 0.90 on simulated reads, or not separable in short reads from a related gene; not testable = too few reference genes). The corrinoid methyltransferases (methyl transfer) occur in methylotrophic methanogens and in bacteria. The alcohol oxidase AOX (K17066) was not detected. TMA = trimethylamine, TMAO = trimethylamine N-oxide, DMA = dimethylamine, MMA = monomethylamine, GB = glycine betaine, DMG = dimethylglycine, DMS = dimethyl sulfide, MMPA = methylthiopropanoate, DMSP = dimethylsulfoniopropionate.",
+   "rationale": "Figure 1 on the read survey",
+   "sources": "reassembly_2026/community_ko/ (panel_stats.py, figure1.py, figureS4.py, figureS6.py, metabolome_taxonomy.py, table_s1.py); reassembly_2026/read_markers_v2/README.md; reassembly_2026/community_ko/assembly_based/README.md",
+   "origin": "metagenome_2026_11_26",
+   "date": "2026-11-26T00:00:00Z"
+  },
+  {
+   "paragraph": 140,
+   "kind": "replace_paragraph",
+   "old": "",
+   "new": "Figure S4. Spearman correlations between metabolite concentrations (NMR) and the abundance of methanogenesis and C–P lyase genes in the 19 sediment samples with NMR data, for the 40 metabolites present in at least three samples. Gene abundance is copies per genome equivalent in all reads; for the methanogenesis pathways only reads whose best hit is a methanogen (an archaeon of an order, family or genus named Methano-, excluding anaerobic methanotrophs) are counted, so that bacterial and haloarchaeal homologs are excluded; C–P lyase counts all reads. Three phosphotransacetylase genes (K13788, K15024 and *eutD*) had no methanogen reads and are not shown. Dots mark correlations with Benjamini–Hochberg FDR < 0.05 over all 1,960 tests. Metabolites are clustered by complete linkage of their correlation profiles.",
+   "rationale": "Figure S4 on the read survey",
+   "sources": "reassembly_2026/community_ko/ (panel_stats.py, figure1.py, figureS4.py, figureS6.py, metabolome_taxonomy.py, table_s1.py); reassembly_2026/read_markers_v2/README.md; reassembly_2026/community_ko/assembly_based/README.md",
+   "origin": "metagenome_2026_11_26",
+   "date": "2026-11-26T00:00:00Z"
+  },
+  {
+   "paragraph": 144,
+   "kind": "replace",
+   "old": " and metagenomic data (bottom row)",
+   "new": ", metagenomic reads (middle row) and metagenome-assembled genomes (MAGs; bottom row) of the 24 sediment samples",
+   "rationale": "Figure S6 rows (as suggested in the Google Doc on 2026-11-25)",
+   "sources": "reassembly_2026/community_ko/ (panel_stats.py, figure1.py, figureS4.py, figureS6.py, metabolome_taxonomy.py, table_s1.py); reassembly_2026/read_markers_v2/README.md; reassembly_2026/community_ko/assembly_based/README.md",
+   "origin": "metagenome_2026_11_26",
+   "date": "2026-11-26T00:00:00Z"
+  },
+  {
+   "paragraph": 144,
+   "kind": "replace",
+   "old": "Metagenomic abundances were computed by the IMG/M pipeline by using lastal to map contigs to the IMG reference database. ",
+   "new": "",
+   "rationale": "Figure S6: the IMG/lastal row is replaced",
+   "sources": "reassembly_2026/community_ko/ (panel_stats.py, figure1.py, figureS4.py, figureS6.py, metabolome_taxonomy.py, table_s1.py); reassembly_2026/read_markers_v2/README.md; reassembly_2026/community_ko/assembly_based/README.md",
+   "origin": "metagenome_2026_11_26",
+   "date": "2026-11-26T00:00:00Z"
+  },
+  {
+   "paragraph": 144,
+   "kind": "append",
+   "old": "",
+   "new": " Metagenomic abundance is the percentage of the reads of eight single-copy ribosomal-protein genes whose best DIAMOND hit is a reference genome of the genus (GTDB R232); *Halomonas* includes *Vreelandella*, which GTDB separates from it, and *Clostridium* includes the GTDB genera with *Clostridium* suffixes (e.g. Clostridium_B). Only 8% of the reads assigned to *Clostridium* had a best hit at least 95% identical, so that assignment is uncertain. MAG abundance is the percentage of all reads that mapped to the genus’s species in the re-assembled MAG set; no species of *Idiomarina*, *Clostridium* or *Marinilabilia* was recovered. In the metagenomic and MAG rows, letters show Dunn’s tests (Holm-adjusted) after a significant Kruskal–Wallis test across the four sites (p < 0.05); sites sharing a letter do not differ.",
+   "rationale": "Figure S6 definitions (as in the Google Doc)",
+   "sources": "reassembly_2026/community_ko/ (panel_stats.py, figure1.py, figureS4.py, figureS6.py, metabolome_taxonomy.py, table_s1.py); reassembly_2026/read_markers_v2/README.md; reassembly_2026/community_ko/assembly_based/README.md",
+   "origin": "metagenome_2026_11_26",
+   "date": "2026-11-26T00:00:00Z"
+  },
+  {
+   "paragraph": 169,
+   "kind": "replace_paragraph",
+   "old": "",
+   "new": "Table S1. The 138 KEGG orthologs involved in the cycling of methylated compounds and in methanogenesis that were analyzed in this study (Excel file), with their abundance in the reads and in the assembled genes of the 24 sediment metagenomes by restoration type, Kruskal–Wallis and Dunn’s tests, the validation of the read survey, and the species of the re-assembled MAG set that carry them. A second sheet lists the 39 KOs of the original list and how each was carried into the panel.",
+   "rationale": "Table S1 is the 2026 panel",
+   "sources": "reassembly_2026/community_ko/ (panel_stats.py, figure1.py, figureS4.py, figureS6.py, metabolome_taxonomy.py, table_s1.py); reassembly_2026/read_markers_v2/README.md; reassembly_2026/community_ko/assembly_based/README.md",
+   "origin": "metagenome_2026_11_26",
+   "date": "2026-11-26T00:00:00Z"
+  },
+  {
+   "paragraph": 175,
+   "kind": "replace_paragraph",
+   "old": "",
+   "new": "Table S4. The 39 metagenomes of this study (26 sediment and 13 water samples): NCBI BioProject, BioSample and SRA accessions, GOLD and IMG/M identifiers, read counts, and the MAGs kept from each re-assembly (Excel file).",
+   "rationale": "Table S4 covers all 39 metagenomes",
+   "sources": "reassembly_2026/community_ko/ (panel_stats.py, figure1.py, figureS4.py, figureS6.py, metabolome_taxonomy.py, table_s1.py); reassembly_2026/read_markers_v2/README.md; reassembly_2026/community_ko/assembly_based/README.md",
+   "origin": "metagenome_2026_11_26",
+   "date": "2026-11-26T00:00:00Z"
+  }
+ ],
+ "facts": {
+  "n_mep": 38,
+  "n_bet": 18,
+  "drop_id": "JASFMS01.1",
+  "mmo_id": "Roseovarius.2",
+  "t07": "14",
+  "t33": "55",
+  "w07": "one seventh",
+  "w33": "one half",
+  "rho07": 0.028571428571428574,
+  "p07": 1.0,
+  "rho_b": 0.6,
+  "p_b": 0.24166666666666667,
+  "fold": 3.829294965279371,
+  "k": [
+   0.043241003804965546,
+   0.07650464017554942
+  ]
+ },
+ "facts_2026_11_24": {
+  "k07": 0.04324100380500995,
+  "k33": 0.16399998328195237,
+  "kP": 0.6609696295908863,
+  "k_meth": 126.47214780294321,
+  "k_meth_range": [
+   119.54514025329289,
+   159.06583954516807
+  ],
+  "fold": 2900.0,
+  "tma_range": [
+   48.048525682078775,
+   191.80058346393383
+  ],
+  "mepn_doubling_h": {
+   "0.07": [
+    0.0335755115617045,
+    0.2475196211086943
+   ],
+   "0.33": [
+    0.1273417092635632,
+    0.9387666832810396
+   ],
+   "only_P": [
+    0.5132256767289186,
+    3.783514208375408
+   ]
+  },
+  "betaine_doubling_h_006": [
+   0.9992200969318522,
+   34.75649742307831
+  ],
+  "betaine_chain_doubling_h": [
+   37.47075363494447,
+   1303.368653365437
+  ],
+  "methanogen_doubling_h": {
+   "R1_A": 37.85,
+   "R1_B": 4.21,
+   "R1_C": 10.86,
+   "R2_A": 0.88,
+   "R2_B": 0.97,
+   "R2_C": 1.45
+  },
+  "methanogen_q_required": {
+   "R1_A": 2.32,
+   "R1_B": 20.82,
+   "R1_C": 8.07,
+   "R2_A": 99.26,
+   "R2_B": 90.42,
+   "R2_C": 60.32
+  },
+  "methylamine_turnover_d": {
+   "R1_A": 2.91,
+   "R1_B": 1.16,
+   "R1_C": 3.38,
+   "R2_A": 0.91,
+   "R2_B": 1.49,
+   "R2_C": 3.09
+  },
+  "rho": {
+   "MePn, ratio 0.07": 0.028571428571428574,
+   "MePn, ratio 0.33": 0.028571428571428574,
+   "MePn, only P source": 0.028571428571428574,
+   "Betaine, 0.06 CH4 per TMA": -0.2571428571428572,
+   "Betaine, 2.25 CH4 per TMA": -0.2571428571428572,
+   "Methanogen, methylamines": -0.4285714285714286
+  },
+  "rhodobacteraceae_share": 0.7617436301437603,
+  "roseovarius_share": 0.518111250683209,
+  "read_based": {
+   "rho": {
+    "MePn, ratio 0.07": [
+     -0.08571428571428573,
+     0.9194444444444444
+    ],
+    "MePn, ratio 0.33": [
+     -0.08571428571428573,
+     0.9194444444444444
+    ],
+    "MePn, only P source": [
+     -0.08571428571428573,
+     0.9194444444444444
+    ],
+    "Betaine, 0.06 CH4 per TMA": [
+     -0.2571428571428572,
+     0.6583333333333333
+    ],
+    "Betaine, 2.25 CH4 per TMA": [
+     -0.2571428571428572,
+     0.6583333333333333
+    ],
+    "Methanogen, methylamines": [
+     -0.6571428571428573,
+     0.175
+    ]
+   },
+   "mcrA_fold_pooled": 1.7388990755606226,
+   "fold_range": {
+    "methanogen": [
+     0.92242,
+     14.6
+    ],
+    "mepn_consumer": [
+     1.7246,
+     2.3786
+    ],
+    "betaine_reducer": [
+     1.347,
+     2.4171
+    ]
+   },
+   "mcrA_other_methanogens_share": 0.42289156626506025,
+   "mcrA_other_unassembled": 0.9287749287749287,
+   "methanogen_q_required": {
+    "R1_A": 1.26,
+    "R1_B": 9.28,
+    "R1_C": 6.48,
+    "R2_A": 18.51,
+    "R2_B": 42.42,
+    "R2_C": 44.0
+   },
+   "methanogen_doubling_h": {
+    "R1_A": 69.31,
+    "R1_B": 9.44,
+    "R1_C": 13.53,
+    "R2_A": 4.74,
+    "R2_B": 2.07,
+    "R2_C": 1.99
+   },
+   "mepn_doubling_h": {
+    "0.07": [
+     0.0700732046428944,
+     0.4645060739903396
+    ],
+    "0.33": [
+     0.2657663647626825,
+     1.7617303407729374
+    ],
+    "only_P": [
+     1.0711189852556844,
+     7.100307130994539
+    ]
+   },
+   "betaine_doubling_h_006": [
+    2.308500038607632,
+    55.153358017384825
+   ],
+   "marker_reads_unassembled_pct_by_site": {
+    "R1": 39.0,
+    "R2": 46.0,
+    "R2A": 76.0,
+    "SF2": 79.0
+   }
+  }
+ },
+ "figure10": {
+  "image": "reassembly_2026/modelling_2026/synthesis/figure10_pathways.png",
+  "caption": "Figure 10. The hypothesized methane sources of the unrestored salterns. (a) Pathways: cleavage of methylphosphonate (MPn) by C–P lyase (blue); degradation of glycine betaine, choline and carnitine to TMA (orange), which feeds methylotrophic methanogenesis (dashed); and methanogenesis from methylamines, methanol, H₂/CO₂ or formate, and acetate (green). (b) Abundance per 100 genome equivalents in all reads (open: copies of *phnJ*, *grdI*, *cutC* + *cntA*, *mcrA* split by the methanogen group of the reads’ best hits, and the archaeal share of *mtaB*) and in the MAGs (filled: genomes of the guild’s species), median and range over the 12 samples of the six unrestored cores. (c) The most abundant organisms: genus of the reads’ best hits (share of the pathway’s reads) and the most abundant MAG species. (d) Turnover each pathway alone would need to supply the measured methane of the six cores: turnover of the measured porewater pool (diamonds; methane per molecule: TMA 2.25, DMA 1.5, MMA 0.75, methanol 0.75, formate 0.25, acetate 1, glycine betaine 2.25 through TMA), and doubling time of the pathway’s organisms (squares; per-gram yields × measured biomass as in Figure 7, MAG-based filled, read-based open; MPn consumers at an MPn:Pi uptake ratio of 0.07 and with MPn as the only phosphorus source; betaine reducers supplying TMA for complete conversion). Hydrogenotrophic and acetoclastic methanogens have no model; their doubling times at the methylotrophic model’s yield are lower bounds (dotted; a lower growth yield allows slower growth). Methylphosphonic acid was detected but not quantified; choline, carnitine and H₂ were not measured.",
+  "after": "Figure 9 caption"
+ },
+ "facts_2026_11_25": {
+  "shares": {
+   "methylotrophic": 0.9065656565656566,
+   "hydrogenotrophic": 0.08964646464646464,
+   "acetoclastic": 0.003787878787878788
+  },
+  "mcrA_reads": {
+   "acetoclastic": 3,
+   "anme": 13,
+   "hydrogenotrophic": 71,
+   "methylotrophic": 718,
+   "unassigned": 25
+  },
+  "mtaB_archaeal": 0.21386138613861386,
+  "pool_turnover_d": {
+   "betaine": [
+    60.52882164396235,
+    167.80410087974911
+   ],
+   "methylamines": [
+    0.9085976593298831,
+    3.3812869519455924
+   ],
+   "methanol": [
+    0.5923779732193792,
+    3.0493469683103345
+   ],
+   "hydrogenotrophic": [
+    0.15453338431809896,
+    0.5025983933008423
+   ],
+   "acetoclastic": [
+    7.654120937939913,
+    334.8390967856333
+   ]
+  },
+  "attribution": {
+   "mpn_0.07 x1": {
+    "MPn": [
+     0.00676290121917851,
+     0.07494911389217124
+    ],
+    "methylotrophic": [
+     0.8386193639209862,
+     0.9004346425816034
+    ],
+    "hydrogenotrophic": [
+     0.08292754155764627,
+     0.08904019446141202
+    ],
+    "acetoclastic": [
+     0.003503980629196321,
+     0.0037622617378061424
+    ]
+   },
+   "mpn_0.33 x1": {
+    "MPn": [
+     0.02517417087494116,
+     0.23505898789472202
+    ],
+    "methylotrophic": [
+     0.6934692508732193,
+     0.8837436178179195
+    ],
+    "hydrogenotrophic": [
+     0.06857425739832669,
+     0.08738968922712018
+    ],
+    "acetoclastic": [
+     0.0028975038337321142,
+     0.0036925220800191625
+    ]
+   },
+   "mpn_onlyP x1": {
+    "MPn": [
+     0.09426824924007014,
+     0.5532669342448111
+    ],
+    "methylotrophic": [
+     0.40499285506594146,
+     0.8211052993000374
+    ],
+    "hydrogenotrophic": [
+     0.04004803998562931,
+     0.08119564937368058
+    ],
+    "acetoclastic": [
+     0.0016921707036181399,
+     0.0034308020862118555
+    ]
+   },
+   "mpn_0.07 x10": {
+    "MPn": [
+     0.06374886660276341,
+     0.4475797726894853
+    ],
+    "methylotrophic": [
+     0.500805206071906,
+     0.8487731234586059
+    ],
+    "hydrogenotrophic": [
+     0.04952252037758402,
+     0.08393160413030781
+    ],
+    "acetoclastic": [
+     0.002092500861024677,
+     0.0035464058083228655
+    ]
+   },
+   "mpn_onlyP x10": {
+    "MPn": [
+     0.5099952545208668,
+     0.9252880078547141
+    ],
+    "methylotrophic": [
+     0.06773132621251936,
+     0.4442214738055779
+    ],
+    "hydrogenotrophic": [
+     0.006697665962519322,
+     0.043927193092195026
+    ],
+    "acetoclastic": [
+     0.00028299997024729535,
+     0.0018560785813603535
+    ]
+   }
+  },
+  "coverage": {
+   "methanogens": {
+    "R1": [
+     0.38726965620051484,
+     2.8424971913180657
+    ],
+    "R2": [
+     0.08171474094976261,
+     0.19423689660321752
+    ]
+   },
+   "mpn_0.07": {
+    "R1": [
+     0.012003123548869033,
+     0.019354419749597482
+    ],
+    "R2": [
+     0.0029197168601206,
+     0.0068668929273581454
+    ]
+   },
+   "mpn_onlyP": {
+    "R1": [
+     0.18347631710413503,
+     0.2958461304581058
+    ],
+    "R2": [
+     0.04462995771898685,
+     0.10496536331818972
+    ]
+   }
+  },
+  "q_required": {
+   "R1": [
+    1.2850175797406425,
+    9.431823027507983
+   ],
+   "R2": [
+    18.805175149954536,
+    44.700121651890605
+   ]
+  }
+ },
+ "figures_2026_11_26": {
+  "Figure 1": {
+   "image": "reassembly_2026/community_ko/figures/figure1_2026.png",
+   "caption_paragraph": 115,
+   "image_inline_in_caption": true
+  },
+  "Figure S4": {
+   "image": "reassembly_2026/community_ko/figures/figureS4_2026.png",
+   "caption_paragraph": 140,
+   "image_inline_in_caption": true
+  },
+  "Figure S6": {
+   "image": "reassembly_2026/community_ko/figures/figureS6_2026.png",
+   "caption_paragraph": 144,
+   "image_paragraph": 143
+  }
+ },
+ "facts_2026_11_26": {
+  "fig1": {
+   "n_detected": 107,
+   "n_q05": 100
+  },
+  "methyltransferase_methanogen_share": {
+   "restored": [
+    0.03390461997019374,
+    0.08304067895815043
+   ],
+   "unrestored": [
+    0.21306930693069306,
+    0.5204806116876024
+   ]
+  },
+  "mcrA_rho_pos": [
+   0.6924512283818294,
+   0.806787330316742
+  ],
+  "mcrA_rho_neg": [
+   -0.6596923037672666,
+   -0.800214116282711
+  ],
+  "mantel": {
+   "mag": 0.7789558593714111,
+   "reads": 0.6992114797887051
+  },
+  "bc": {
+   "metab": [
+    0.3169951568924495,
+    0.8406904296443001
+   ],
+   "taxo": [
+    0.8479240685855851,
+    0.9394312906615142
+   ]
+  }
+ }
+}

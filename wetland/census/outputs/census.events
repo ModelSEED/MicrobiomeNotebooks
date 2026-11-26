@@ -1,0 +1,7 @@
+[2026-11-13 12:23:20] START load 444.28 553.03 570.02
+[2026-11-13 12:24:49] TIME triangle rc=0 wall=1:17.70 maxrss_GB=10.7
+[2026-11-13 12:44:48] TIME search_novel_all_representatives rc=0 wall=19:58.88 maxrss_GB=20.6
+[2026-11-13 12:52:21] TIME search_novel_hq_v2 rc=0 wall=7:33.66 maxrss_GB=4.0
+[2026-11-13 13:10:05] TIME search_gtdb_r220_consolidated rc=0 wall=17:43.60 maxrss_GB=23.3
+[2026-11-13 23:06:33] TIME checkm2 rc=0 wall=10:43:01 maxrss_GB=17.4
+[2026-11-13 23:06:33] DONE checkm2=ok triangle=ok searches=3/3

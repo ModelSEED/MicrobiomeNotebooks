@@ -1,0 +1,12 @@
+table	rows_compared	columns_compared	cells_compared	cells_differing	note
+gene calls (.faa/.gff/.genes.tsv/.done)	8	1	8	0	md5 of this run's files vs kofam_rollout/genes/
+per_mag tables (gene)	5228	14	73192	0	columns: all except ['kofam_full_evalue']
+  of which kofam_id (best KO)	5228	1	5228	0	2477 genes with a best KO
+  kofam_full_evalue	2477	1	2477	2420	E-values differ as expected; new/old / (Z_new/Z_old = 0.04068): median 0.9999, range 0.945-1.057; zero in both 57, zero in one only 0
+genes_ko (gene)	2477	11	27247	0	columns: all except ['best_full_evalue']
+  best_full_evalue	2477	1	2477	2420	E-values differ as expected; new/old / (Z_new/Z_old = 0.04068): median 0.9999, range 0.945-1.057; zero in both 57, zero in one only 0
+marker_hits (gene x KO)	1027	19	19513	0	columns: all except ['full_evalue']
+  full_evalue	1027	1	1027	1027	E-values differ as expected; new/old / (Z_new/Z_old = 0.04068): median 0.9994, range 0.945-1.057; zero in both 0, zero in one only 0
+mag_ko_counts (MAG x KO)	1988	2	3976	0	columns: all except []
+mag_markers_guilds (MAG)	2	91	182	0	columns: all except ['chunk']
+no_threshold_hits (informational)	2409	6	14454	0	Z-dependent row set (E <= 1e-5): rollout 2409 rows, this run 2626; rollout rows missing here 0; extra here 217

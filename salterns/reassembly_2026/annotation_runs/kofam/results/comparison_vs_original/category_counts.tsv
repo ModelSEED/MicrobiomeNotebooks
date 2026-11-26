@@ -1,0 +1,11 @@
+	mepn_consumer	betaine_reducer	methanogen	tma
+gained_new_cluster	19	11	0	10
+recovered_same	13	5	1	1
+not_recovered	5	2	0	0
+gained_genome	3	0	0	3
+lost_genome	2	0	0	0
+no_callable_phnJ	1	0	0	0
+rast_label_not_supported	0	1	0	0
+gained_rule	0	0	0	17
+kofam_orig_only	0	0	0	6
+lost_rule	0	0	0	3

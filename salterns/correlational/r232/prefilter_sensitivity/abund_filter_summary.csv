@@ -1,0 +1,9 @@
+filter,code,labels,MAGs_kept,MAGs_removed,taxa_kept,taxa_total_in_labelling,archaeal_MAGs_kept,binned_reads_kept_pct_mean12,removed: detected only at R1/R2 (unrestored),removed: detected in cores of 1 site only,removed: detected in no core,removed: archaea,MePn phnJ kept,MePn 2020 set kept,betaine grdH kept,betaine 2020 set kept,methanogen mcrA kept,TMA-route candidate kept,archaeon kept,Roseovarius/Albimonas/Marivita kept,Halomonas/Vreelandella kept,Halanaerobium kept
+a: 2020 defined iterativeID,"analysis_2_marimo.py:1348-1350 (also :1795-1796, :2000-2001)",2020,280,30,179,179,0,93.91305460553146,8,3,0,30,20/22,24/27,9/9,15/15,0/1,4/4,0/30,16/16,2/2,3/3
+"b: >=3 of 4 sites > 1e-5 (2020 heatmap, 2020 IDs + defined)",analysis_2_marimo.py:1344-1345,2020,145,165,94,179,0,66.9392020890206,52,15,25,30,19/22,22/27,1/9,1/15,0/1,2/4,0/30,16/16,1/2,0/3
+b: >=3 of 4 sites > 1e-5 (r232 heatmap),rerun_correlational_r232.py:283,r232,164,146,109,216,19,72.50125203670875,52,15,25,11,20/22,24/27,1/9,1/15,0/1,2/4,19/30,16/16,1/2,0/3
+"c: >=6 of 12 cores > 1e-5 (2020 S11 / _wc_run, 2020 IDs + defined)",analysis_2_marimo.py:1996 (+ defined drop :2000-2001),2020,222,88,140,179,0,91.65102093840606,15,15,25,30,20/22,23/27,8/9,14/15,0/1,4/4,0/30,16/16,2/2,3/3
+c: >=6 of 12 cores > 1e-5 (r232 within-condition),rerun_correlational_r232.py:386,r232,245,65,169,216,23,97.5162459880865,11,15,25,7,22/22,26/27,8/9,14/15,1/1,4/4,23/30,16/16,2/2,3/3
+c-old: >=3 of 12 cores > 1e-5 (older within-condition cell),analysis_2_marimo.py:1790-1791; analysis(2).ipynb cell 55,r232,278,32,193,216,28,99.95582898844751,2,7,25,2,22/22,27/27,9/9,15/15,1/1,4/4,28/30,16/16,2/2,3/3
+d: guild sums (no prevalence filter),rerun_correlational_r232.py:164,r232,310,0,216,216,30,100.0,0,0,0,0,22/22,27/27,9/9,15/15,1/1,4/4,30/30,16/16,2/2,3/3
+d: per-MAG vs CH4 (non-constant only),rerun_correlational_r232.py:192,r232,310,0,216,216,30,100.0,0,0,0,0,22/22,27/27,9/9,15/15,1/1,4/4,30/30,16/16,2/2,3/3

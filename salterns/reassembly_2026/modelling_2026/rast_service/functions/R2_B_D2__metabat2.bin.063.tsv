@@ -1,0 +1,1880 @@
+protein_id	function
+R2_B_D2__metabat2.bin.063|NODE_4743_length_13936_cov_1.488377_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_4743_length_13936_cov_1.488377_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_4743_length_13936_cov_1.488377_3	
+R2_B_D2__metabat2.bin.063|NODE_4743_length_13936_cov_1.488377_4	
+R2_B_D2__metabat2.bin.063|NODE_4743_length_13936_cov_1.488377_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_4743_length_13936_cov_1.488377_6	
+R2_B_D2__metabat2.bin.063|NODE_4743_length_13936_cov_1.488377_7	ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)
+R2_B_D2__metabat2.bin.063|NODE_4743_length_13936_cov_1.488377_8	ATP phosphoribosyltransferase (EC 2.4.2.17) => HisGs
+R2_B_D2__metabat2.bin.063|NODE_4743_length_13936_cov_1.488377_9	Histidinol dehydrogenase (EC 1.1.1.23)
+R2_B_D2__metabat2.bin.063|NODE_4743_length_13936_cov_1.488377_10	Histidinol-phosphate aminotransferase (EC 2.6.1.9)
+R2_B_D2__metabat2.bin.063|NODE_4743_length_13936_cov_1.488377_11	Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)
+R2_B_D2__metabat2.bin.063|NODE_4743_length_13936_cov_1.488377_12	Imidazole glycerol phosphate synthase amidotransferase subunit HisH
+R2_B_D2__metabat2.bin.063|NODE_4743_length_13936_cov_1.488377_13	Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16)
+R2_B_D2__metabat2.bin.063|NODE_4743_length_13936_cov_1.488377_14	Imidazole glycerol phosphate synthase cyclase subunit
+R2_B_D2__metabat2.bin.063|NODE_4743_length_13936_cov_1.488377_15	Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19) / Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)
+R2_B_D2__metabat2.bin.063|NODE_5310_length_12842_cov_1.989225_1	DegV family protein
+R2_B_D2__metabat2.bin.063|NODE_5310_length_12842_cov_1.989225_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_5310_length_12842_cov_1.989225_3	Deoxyribodipyrimidine photolyase, type II (EC 4.1.99.3)
+R2_B_D2__metabat2.bin.063|NODE_5310_length_12842_cov_1.989225_4	
+R2_B_D2__metabat2.bin.063|NODE_5310_length_12842_cov_1.989225_5	DNA topoisomerase I (EC 5.99.1.2)
+R2_B_D2__metabat2.bin.063|NODE_5310_length_12842_cov_1.989225_6	ATP-dependent protease subunit HslV (EC 3.4.25.2)
+R2_B_D2__metabat2.bin.063|NODE_5310_length_12842_cov_1.989225_7	ATP-dependent hsl protease ATP-binding subunit HslU
+R2_B_D2__metabat2.bin.063|NODE_5310_length_12842_cov_1.989225_8	GTP-sensing transcriptional pleiotropic repressor CodY
+R2_B_D2__metabat2.bin.063|NODE_5310_length_12842_cov_1.989225_9	SSU ribosomal protein S2p (SAe)
+R2_B_D2__metabat2.bin.063|NODE_5310_length_12842_cov_1.989225_10	Translation elongation factor Ts
+R2_B_D2__metabat2.bin.063|NODE_5310_length_12842_cov_1.989225_11	Uridylate kinase (EC 2.7.4.22)
+R2_B_D2__metabat2.bin.063|NODE_5310_length_12842_cov_1.989225_12	Ribosome recycling factor
+R2_B_D2__metabat2.bin.063|NODE_5310_length_12842_cov_1.989225_13	
+R2_B_D2__metabat2.bin.063|NODE_5310_length_12842_cov_1.989225_14	Undecaprenyl diphosphate synthase (EC 2.5.1.31)
+R2_B_D2__metabat2.bin.063|NODE_5454_length_12587_cov_1.917496_1	ATP synthase beta chain (EC 3.6.3.14)
+R2_B_D2__metabat2.bin.063|NODE_5454_length_12587_cov_1.917496_2	ATP synthase gamma chain (EC 3.6.3.14)
+R2_B_D2__metabat2.bin.063|NODE_5454_length_12587_cov_1.917496_3	ATP synthase alpha chain (EC 3.6.3.14)
+R2_B_D2__metabat2.bin.063|NODE_5454_length_12587_cov_1.917496_4	
+R2_B_D2__metabat2.bin.063|NODE_5454_length_12587_cov_1.917496_5	
+R2_B_D2__metabat2.bin.063|NODE_5454_length_12587_cov_1.917496_6	ATP synthase F0 sector subunit c (EC 3.6.3.14)
+R2_B_D2__metabat2.bin.063|NODE_5454_length_12587_cov_1.917496_7	ATP synthase protein I
+R2_B_D2__metabat2.bin.063|NODE_5454_length_12587_cov_1.917496_8	ATP synthase F0 sector subunit c (EC 3.6.3.14)
+R2_B_D2__metabat2.bin.063|NODE_5454_length_12587_cov_1.917496_9	ATP synthase F0 sector subunit a (EC 3.6.3.14)
+R2_B_D2__metabat2.bin.063|NODE_5454_length_12587_cov_1.917496_10	
+R2_B_D2__metabat2.bin.063|NODE_5454_length_12587_cov_1.917496_11	Undecaprenyl-phosphate alpha-N-acetylglucosaminyl 1-phosphate transferase (EC 2.7.8.33)
+R2_B_D2__metabat2.bin.063|NODE_5454_length_12587_cov_1.917496_12	Uracil phosphoribosyltransferase (EC 2.4.2.9)
+R2_B_D2__metabat2.bin.063|NODE_5454_length_12587_cov_1.917496_13	
+R2_B_D2__metabat2.bin.063|NODE_5454_length_12587_cov_1.917496_14	Threonylcarbamoyl-AMP synthase (EC 2.7.7.87) / SUA5 domain with internal deletion
+R2_B_D2__metabat2.bin.063|NODE_5454_length_12587_cov_1.917496_15	Peptide chain release factor N(5)-glutamine methyltransferase (EC 2.1.1.297)
+R2_B_D2__metabat2.bin.063|NODE_5454_length_12587_cov_1.917496_16	Peptide chain release factor 1
+R2_B_D2__metabat2.bin.063|NODE_5454_length_12587_cov_1.917496_17	FIG069887: hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_5778_length_12064_cov_2.073804_1	tRNA-5-carboxymethylaminomethyl-2-thiouridine(34) synthesis protein MnmG
+R2_B_D2__metabat2.bin.063|NODE_5778_length_12064_cov_2.073804_2	tRNA-5-carboxymethylaminomethyl-2-thiouridine(34) synthesis protein MnmE
+R2_B_D2__metabat2.bin.063|NODE_5778_length_12064_cov_2.073804_3	RNA-binding protein Jag
+R2_B_D2__metabat2.bin.063|NODE_5778_length_12064_cov_2.073804_4	Inner membrane protein translocase and chaperone YidC, short form OxaI-like
+R2_B_D2__metabat2.bin.063|NODE_5778_length_12064_cov_2.073804_5	Membrane protein insertion efficiency factor YidD
+R2_B_D2__metabat2.bin.063|NODE_5778_length_12064_cov_2.073804_6	Ribonuclease P protein component (EC 3.1.26.5)
+R2_B_D2__metabat2.bin.063|NODE_5778_length_12064_cov_2.073804_7	Chromosomal replication initiator protein DnaA
+R2_B_D2__metabat2.bin.063|NODE_5778_length_12064_cov_2.073804_8	DNA polymerase III beta subunit (EC 2.7.7.7)
+R2_B_D2__metabat2.bin.063|NODE_5778_length_12064_cov_2.073804_9	Uncharacterized S4 RNA-binding-domain protein YbcJ
+R2_B_D2__metabat2.bin.063|NODE_5778_length_12064_cov_2.073804_10	DNA recombination and repair protein RecF
+R2_B_D2__metabat2.bin.063|NODE_5778_length_12064_cov_2.073804_11	
+R2_B_D2__metabat2.bin.063|NODE_5778_length_12064_cov_2.073804_12	DNA gyrase subunit B (EC 5.99.1.3)
+R2_B_D2__metabat2.bin.063|NODE_5778_length_12064_cov_2.073804_13	DNA gyrase subunit A (EC 5.99.1.3)
+R2_B_D2__metabat2.bin.063|NODE_5836_length_11945_cov_1.988831_1	RidA/YER057c/UK114 superfamily protein
+R2_B_D2__metabat2.bin.063|NODE_5836_length_11945_cov_1.988831_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_5836_length_11945_cov_1.988831_3	3-hydroxybutyryl-CoA dehydratase (EC 4.2.1.55)
+R2_B_D2__metabat2.bin.063|NODE_5836_length_11945_cov_1.988831_4	CTP synthase (EC 6.3.4.2)
+R2_B_D2__metabat2.bin.063|NODE_5836_length_11945_cov_1.988831_5	Arginyl-tRNA synthetase (EC 6.1.1.19)
+R2_B_D2__metabat2.bin.063|NODE_5836_length_11945_cov_1.988831_6	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_5836_length_11945_cov_1.988831_7	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_5836_length_11945_cov_1.988831_8	Thioredoxin
+R2_B_D2__metabat2.bin.063|NODE_5836_length_11945_cov_1.988831_9	Glutaredoxin-like
+R2_B_D2__metabat2.bin.063|NODE_5836_length_11945_cov_1.988831_10	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_5836_length_11945_cov_1.988831_11	Probable M18-family aminopeptidase 1 (EC 3.4.11.-)
+R2_B_D2__metabat2.bin.063|NODE_5836_length_11945_cov_1.988831_12	Cytochrome c-type biogenesis protein CcdA (DsbD analog)
+R2_B_D2__metabat2.bin.063|NODE_5836_length_11945_cov_1.988831_13	
+R2_B_D2__metabat2.bin.063|NODE_6066_length_11598_cov_1.676489_1	Fructose-1,6-bisphosphatase, GlpX type (EC 3.1.3.11)
+R2_B_D2__metabat2.bin.063|NODE_6066_length_11598_cov_1.676489_2	Phosphate starvation-inducible protein PhoH, predicted ATPase
+R2_B_D2__metabat2.bin.063|NODE_6066_length_11598_cov_1.676489_3	Membrane protein containing HD superfamily hydrolase domain, YQFF ortholog
+R2_B_D2__metabat2.bin.063|NODE_6066_length_11598_cov_1.676489_4	Metal-dependent hydrolase YbeY, involved in rRNA and/or ribosome maturation and assembly
+R2_B_D2__metabat2.bin.063|NODE_6066_length_11598_cov_1.676489_5	Hemolysins and related proteins containing CBS domains
+R2_B_D2__metabat2.bin.063|NODE_6066_length_11598_cov_1.676489_6	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_6066_length_11598_cov_1.676489_7	Cytidine deaminase (EC 3.5.4.5)
+R2_B_D2__metabat2.bin.063|NODE_6066_length_11598_cov_1.676489_8	GTP-binding protein Era
+R2_B_D2__metabat2.bin.063|NODE_6066_length_11598_cov_1.676489_9	Deoxyribose-phosphate aldolase (EC 4.1.2.4)
+R2_B_D2__metabat2.bin.063|NODE_6066_length_11598_cov_1.676489_10	
+R2_B_D2__metabat2.bin.063|NODE_6066_length_11598_cov_1.676489_11	Glycyl-tRNA synthetase alpha chain (EC 6.1.1.14)
+R2_B_D2__metabat2.bin.063|NODE_6066_length_11598_cov_1.676489_12	Glycyl-tRNA synthetase beta chain (EC 6.1.1.14)
+R2_B_D2__metabat2.bin.063|NODE_6111_length_11553_cov_1.559951_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_6111_length_11553_cov_1.559951_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_6111_length_11553_cov_1.559951_3	5'-nucleotidase (EC 3.1.3.5)
+R2_B_D2__metabat2.bin.063|NODE_6111_length_11553_cov_1.559951_4	Potassium efflux system KefA protein / Small-conductance mechanosensitive channel
+R2_B_D2__metabat2.bin.063|NODE_6111_length_11553_cov_1.559951_5	
+R2_B_D2__metabat2.bin.063|NODE_6111_length_11553_cov_1.559951_6	Xanthine dehydrogenase iron-sulfur subunit (EC 1.17.1.4)
+R2_B_D2__metabat2.bin.063|NODE_6111_length_11553_cov_1.559951_7	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_6111_length_11553_cov_1.559951_8	Xanthine dehydrogenase, molybdenum binding subunit (EC 1.17.1.4)
+R2_B_D2__metabat2.bin.063|NODE_6111_length_11553_cov_1.559951_9	Fructokinase (EC 2.7.1.4)
+R2_B_D2__metabat2.bin.063|NODE_6111_length_11553_cov_1.559951_10	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_6120_length_11545_cov_1.737607_1	
+R2_B_D2__metabat2.bin.063|NODE_6120_length_11545_cov_1.737607_2	oxidoreductase domain protein
+R2_B_D2__metabat2.bin.063|NODE_6120_length_11545_cov_1.737607_3	IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3)
+R2_B_D2__metabat2.bin.063|NODE_6120_length_11545_cov_1.737607_4	Phosphoribosylglycinamide formyltransferase (EC 2.1.2.2)
+R2_B_D2__metabat2.bin.063|NODE_6120_length_11545_cov_1.737607_5	Phosphoribosylformylglycinamidine cyclo-ligase (EC 6.3.3.1)
+R2_B_D2__metabat2.bin.063|NODE_6120_length_11545_cov_1.737607_6	Uncharacterized ABC transporter ATP-binding protein MJ0121
+R2_B_D2__metabat2.bin.063|NODE_6120_length_11545_cov_1.737607_7	Ni2+-binding GTPase involved in regulation of expression and maturation of hydrogenase
+R2_B_D2__metabat2.bin.063|NODE_6120_length_11545_cov_1.737607_8	Spermidine/putrescine-binding protein
+R2_B_D2__metabat2.bin.063|NODE_6120_length_11545_cov_1.737607_9	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_6120_length_11545_cov_1.737607_10	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_6120_length_11545_cov_1.737607_11	putative membrane protein
+R2_B_D2__metabat2.bin.063|NODE_6120_length_11545_cov_1.737607_12	
+R2_B_D2__metabat2.bin.063|NODE_6149_length_11507_cov_1.915905_1	Ribonuclease PH (EC 2.7.7.56)
+R2_B_D2__metabat2.bin.063|NODE_6149_length_11507_cov_1.915905_2	Xanthine dehydrogenase iron-sulfur subunit (EC 1.17.1.4)
+R2_B_D2__metabat2.bin.063|NODE_6149_length_11507_cov_1.915905_3	Xanthine dehydrogenase, FAD binding subunit (EC 1.17.1.4)
+R2_B_D2__metabat2.bin.063|NODE_6149_length_11507_cov_1.915905_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_6149_length_11507_cov_1.915905_5	Cytosine deaminase (EC 3.5.4.1)
+R2_B_D2__metabat2.bin.063|NODE_6149_length_11507_cov_1.915905_6	Cytosine permease
+R2_B_D2__metabat2.bin.063|NODE_6149_length_11507_cov_1.915905_7	Transcriptional regulator, IclR family
+R2_B_D2__metabat2.bin.063|NODE_6149_length_11507_cov_1.915905_8	Glutamate racemase (EC 5.1.1.3)
+R2_B_D2__metabat2.bin.063|NODE_6149_length_11507_cov_1.915905_9	
+R2_B_D2__metabat2.bin.063|NODE_6149_length_11507_cov_1.915905_10	N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)
+R2_B_D2__metabat2.bin.063|NODE_6613_length_10953_cov_2.679106_1	Alanyl-tRNA synthetase family protein
+R2_B_D2__metabat2.bin.063|NODE_6613_length_10953_cov_2.679106_2	
+R2_B_D2__metabat2.bin.063|NODE_6613_length_10953_cov_2.679106_3	
+R2_B_D2__metabat2.bin.063|NODE_6613_length_10953_cov_2.679106_4	LolE-like permease protein
+R2_B_D2__metabat2.bin.063|NODE_6613_length_10953_cov_2.679106_5	ABC-type antimicrobial peptide transport system, ATPase component
+R2_B_D2__metabat2.bin.063|NODE_6613_length_10953_cov_2.679106_6	Transcriptional regulator, AcrR family
+R2_B_D2__metabat2.bin.063|NODE_6613_length_10953_cov_2.679106_7	Putative FabK-like enoyl-[acyl-carrier-protein] reductase
+R2_B_D2__metabat2.bin.063|NODE_6613_length_10953_cov_2.679106_8	Uncharacterized transcriptional regulator YozG, Cro/CI family
+R2_B_D2__metabat2.bin.063|NODE_6613_length_10953_cov_2.679106_9	
+R2_B_D2__metabat2.bin.063|NODE_6613_length_10953_cov_2.679106_10	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_6613_length_10953_cov_2.679106_11	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_6613_length_10953_cov_2.679106_12	
+R2_B_D2__metabat2.bin.063|NODE_6613_length_10953_cov_2.679106_13	
+R2_B_D2__metabat2.bin.063|NODE_6613_length_10953_cov_2.679106_14	
+R2_B_D2__metabat2.bin.063|NODE_6863_length_10672_cov_1.591655_1	Coenzyme F390 synthetase
+R2_B_D2__metabat2.bin.063|NODE_6863_length_10672_cov_1.591655_2	Substrate-specific component TrpP of tryptophan ECF transporter
+R2_B_D2__metabat2.bin.063|NODE_6863_length_10672_cov_1.591655_3	
+R2_B_D2__metabat2.bin.063|NODE_6863_length_10672_cov_1.591655_4	[4Fe-4S]-AdoMet protein YhcC/YtqA
+R2_B_D2__metabat2.bin.063|NODE_6863_length_10672_cov_1.591655_5	UPF0340 protein YwlG
+R2_B_D2__metabat2.bin.063|NODE_6863_length_10672_cov_1.591655_6	Sulfate permease, Trk-type
+R2_B_D2__metabat2.bin.063|NODE_6863_length_10672_cov_1.591655_7	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_6863_length_10672_cov_1.591655_8	
+R2_B_D2__metabat2.bin.063|NODE_6863_length_10672_cov_1.591655_9	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_6863_length_10672_cov_1.591655_10	tRNA-(cytosine32)-2-thiocytidine synthetase TtcA
+R2_B_D2__metabat2.bin.063|NODE_6863_length_10672_cov_1.591655_11	Uncharacterized di-Fe4-S4 cluster-containing protein AF_1153
+R2_B_D2__metabat2.bin.063|NODE_7012_length_10493_cov_1.796064_1	Dihydrofolate synthase (EC 6.3.2.12) @ Folylpolyglutamate synthase (EC 6.3.2.17)
+R2_B_D2__metabat2.bin.063|NODE_7012_length_10493_cov_1.796064_2	Uncharacterized membrane protein YuiD
+R2_B_D2__metabat2.bin.063|NODE_7012_length_10493_cov_1.796064_3	tRNA nucleotidyltransferase, A-adding (EC 2.7.7.72)
+R2_B_D2__metabat2.bin.063|NODE_7012_length_10493_cov_1.796064_4	Transketolase (EC 2.2.1.1)
+R2_B_D2__metabat2.bin.063|NODE_7012_length_10493_cov_1.796064_5	Pyridoxal kinase (EC 2.7.1.35)
+R2_B_D2__metabat2.bin.063|NODE_7012_length_10493_cov_1.796064_6	Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27)
+R2_B_D2__metabat2.bin.063|NODE_7012_length_10493_cov_1.796064_7	Uncharacterized MFS-type transporter
+R2_B_D2__metabat2.bin.063|NODE_7012_length_10493_cov_1.796064_8	Probable low-affinity inorganic phosphate transporter
+R2_B_D2__metabat2.bin.063|NODE_7012_length_10493_cov_1.796064_9	
+R2_B_D2__metabat2.bin.063|NODE_7012_length_10493_cov_1.796064_10	Permease of the drug/metabolite transporter (DMT) superfamily
+R2_B_D2__metabat2.bin.063|NODE_7035_length_10465_cov_1.585607_1	ATP-dependent Clp protease proteolytic subunit ClpP (EC 3.4.21.92)
+R2_B_D2__metabat2.bin.063|NODE_7035_length_10465_cov_1.585607_2	ATP-dependent Clp protease ATP-binding subunit ClpX
+R2_B_D2__metabat2.bin.063|NODE_7035_length_10465_cov_1.585607_3	ATP-dependent protease La (EC 3.4.21.53) Type I
+R2_B_D2__metabat2.bin.063|NODE_7035_length_10465_cov_1.585607_4	GTP-binding protein EngB
+R2_B_D2__metabat2.bin.063|NODE_7035_length_10465_cov_1.585607_5	
+R2_B_D2__metabat2.bin.063|NODE_7035_length_10465_cov_1.585607_6	Methyl-accepting chemotaxis protein
+R2_B_D2__metabat2.bin.063|NODE_7035_length_10465_cov_1.585607_7	
+R2_B_D2__metabat2.bin.063|NODE_7035_length_10465_cov_1.585607_8	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_7035_length_10465_cov_1.585607_9	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_7035_length_10465_cov_1.585607_10	
+R2_B_D2__metabat2.bin.063|NODE_7113_length_10382_cov_1.831789_1	
+R2_B_D2__metabat2.bin.063|NODE_7113_length_10382_cov_1.831789_2	RNA-binding protein YhbY
+R2_B_D2__metabat2.bin.063|NODE_7113_length_10382_cov_1.831789_3	GTP-binding protein Obg
+R2_B_D2__metabat2.bin.063|NODE_7113_length_10382_cov_1.831789_4	LSU ribosomal protein L27p
+R2_B_D2__metabat2.bin.063|NODE_7113_length_10382_cov_1.831789_5	LSU ribosomal protein L21p
+R2_B_D2__metabat2.bin.063|NODE_7113_length_10382_cov_1.831789_6	Ribonuclease G
+R2_B_D2__metabat2.bin.063|NODE_7113_length_10382_cov_1.831789_7	
+R2_B_D2__metabat2.bin.063|NODE_7113_length_10382_cov_1.831789_8	FIG092679: Fe-S oxidoreductase
+R2_B_D2__metabat2.bin.063|NODE_7113_length_10382_cov_1.831789_9	Rod shape-determining protein RodA
+R2_B_D2__metabat2.bin.063|NODE_7113_length_10382_cov_1.831789_10	
+R2_B_D2__metabat2.bin.063|NODE_7113_length_10382_cov_1.831789_11	Septum site-determining protein MinD
+R2_B_D2__metabat2.bin.063|NODE_7113_length_10382_cov_1.831789_12	Septum site-determining protein MinC
+R2_B_D2__metabat2.bin.063|NODE_7113_length_10382_cov_1.831789_13	
+R2_B_D2__metabat2.bin.063|NODE_7175_length_10305_cov_2.090882_1	Dipeptide ABC transporter, substrate-binding protein DppA (TC 3.A.1.5.2)
+R2_B_D2__metabat2.bin.063|NODE_7175_length_10305_cov_2.090882_2	Transcriptional regulator, AcrR family
+R2_B_D2__metabat2.bin.063|NODE_7175_length_10305_cov_2.090882_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_7175_length_10305_cov_2.090882_4	
+R2_B_D2__metabat2.bin.063|NODE_7175_length_10305_cov_2.090882_5	GTP-binding protein RBG1/RBG2
+R2_B_D2__metabat2.bin.063|NODE_7175_length_10305_cov_2.090882_6	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_7175_length_10305_cov_2.090882_7	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_7175_length_10305_cov_2.090882_8	
+R2_B_D2__metabat2.bin.063|NODE_7175_length_10305_cov_2.090882_9	Tungsten-containing aldehyde:ferredoxin oxidoreductase (EC 1.2.7.5)
+R2_B_D2__metabat2.bin.063|NODE_7175_length_10305_cov_2.090882_10	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_7175_length_10305_cov_2.090882_11	
+R2_B_D2__metabat2.bin.063|NODE_7283_length_10183_cov_2.098051_1	
+R2_B_D2__metabat2.bin.063|NODE_7283_length_10183_cov_2.098051_2	
+R2_B_D2__metabat2.bin.063|NODE_7283_length_10183_cov_2.098051_3	
+R2_B_D2__metabat2.bin.063|NODE_7283_length_10183_cov_2.098051_4	
+R2_B_D2__metabat2.bin.063|NODE_7283_length_10183_cov_2.098051_5	Dipeptide ABC transporter, permease protein DppC (TC 3.A.1.5.2)
+R2_B_D2__metabat2.bin.063|NODE_7283_length_10183_cov_2.098051_6	Dipeptide ABC transporter, permease protein DppB (TC 3.A.1.5.2)
+R2_B_D2__metabat2.bin.063|NODE_7283_length_10183_cov_2.098051_7	Dipeptide ABC transporter, substrate-binding protein DppA (TC 3.A.1.5.2)
+R2_B_D2__metabat2.bin.063|NODE_7283_length_10183_cov_2.098051_8	
+R2_B_D2__metabat2.bin.063|NODE_7283_length_10183_cov_2.098051_9	
+R2_B_D2__metabat2.bin.063|NODE_7283_length_10183_cov_2.098051_10	NADH oxidase
+R2_B_D2__metabat2.bin.063|NODE_7283_length_10183_cov_2.098051_11	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_7606_length_9819_cov_1.273215_1	Phosphoenolpyruvate carboxykinase [GTP] (EC 4.1.1.32)
+R2_B_D2__metabat2.bin.063|NODE_7606_length_9819_cov_1.273215_2	Aspartate aminotransferase (EC 2.6.1.1)
+R2_B_D2__metabat2.bin.063|NODE_7606_length_9819_cov_1.273215_3	
+R2_B_D2__metabat2.bin.063|NODE_7606_length_9819_cov_1.273215_4	
+R2_B_D2__metabat2.bin.063|NODE_7606_length_9819_cov_1.273215_5	
+R2_B_D2__metabat2.bin.063|NODE_7606_length_9819_cov_1.273215_6	
+R2_B_D2__metabat2.bin.063|NODE_7606_length_9819_cov_1.273215_7	UPF0047 protein TM0723
+R2_B_D2__metabat2.bin.063|NODE_7606_length_9819_cov_1.273215_8	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_7606_length_9819_cov_1.273215_9	FIG00031715: Predicted metal-dependent phosphoesterases (PHP family)
+R2_B_D2__metabat2.bin.063|NODE_7606_length_9819_cov_1.273215_10	Sulfate adenylyltransferase (EC 2.7.7.4)
+R2_B_D2__metabat2.bin.063|NODE_7606_length_9819_cov_1.273215_11	Adenylylsulfate kinase (EC 2.7.1.25)
+R2_B_D2__metabat2.bin.063|NODE_7606_length_9819_cov_1.273215_12	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_7606_length_9819_cov_1.273215_13	Transaldolase (EC 2.2.1.2)
+R2_B_D2__metabat2.bin.063|NODE_7606_length_9819_cov_1.273215_14	
+R2_B_D2__metabat2.bin.063|NODE_7606_length_9819_cov_1.273215_15	Glyoxalase family protein
+R2_B_D2__metabat2.bin.063|NODE_7717_length_9711_cov_2.005113_1	ATPase component of general energizing module of ECF transporters
+R2_B_D2__metabat2.bin.063|NODE_7717_length_9711_cov_2.005113_2	ATPase component of general energizing module of ECF transporters
+R2_B_D2__metabat2.bin.063|NODE_7717_length_9711_cov_2.005113_3	LSU ribosomal protein L17p
+R2_B_D2__metabat2.bin.063|NODE_7717_length_9711_cov_2.005113_4	DNA-directed RNA polymerase alpha subunit (EC 2.7.7.6)
+R2_B_D2__metabat2.bin.063|NODE_7717_length_9711_cov_2.005113_5	SSU ribosomal protein S4p (S9e) @ SSU ribosomal protein S4p (S9e), zinc-independent
+R2_B_D2__metabat2.bin.063|NODE_7717_length_9711_cov_2.005113_6	SSU ribosomal protein S11p (S14e)
+R2_B_D2__metabat2.bin.063|NODE_7717_length_9711_cov_2.005113_7	SSU ribosomal protein S13p (S18e)
+R2_B_D2__metabat2.bin.063|NODE_7717_length_9711_cov_2.005113_8	Translation initiation factor 1
+R2_B_D2__metabat2.bin.063|NODE_7717_length_9711_cov_2.005113_9	Methionine aminopeptidase (EC 3.4.11.18)
+R2_B_D2__metabat2.bin.063|NODE_7717_length_9711_cov_2.005113_10	Adenylate kinase (EC 2.7.4.3)
+R2_B_D2__metabat2.bin.063|NODE_7717_length_9711_cov_2.005113_11	Protein translocase subunit SecY
+R2_B_D2__metabat2.bin.063|NODE_7717_length_9711_cov_2.005113_12	LSU ribosomal protein L15p (L27Ae)
+R2_B_D2__metabat2.bin.063|NODE_7717_length_9711_cov_2.005113_13	SSU ribosomal protein S5p (S2e)
+R2_B_D2__metabat2.bin.063|NODE_7717_length_9711_cov_2.005113_14	LSU ribosomal protein L18p (L5e)
+R2_B_D2__metabat2.bin.063|NODE_7717_length_9711_cov_2.005113_15	LSU ribosomal protein L6p (L9e)
+R2_B_D2__metabat2.bin.063|NODE_7717_length_9711_cov_2.005113_16	SSU ribosomal protein S8p (S15Ae)
+R2_B_D2__metabat2.bin.063|NODE_7755_length_9673_cov_1.249843_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_7755_length_9673_cov_1.249843_2	
+R2_B_D2__metabat2.bin.063|NODE_7755_length_9673_cov_1.249843_3	Transcriptional activator of maltose regulon, MalT
+R2_B_D2__metabat2.bin.063|NODE_7755_length_9673_cov_1.249843_4	Uncharacterized protein YyaL
+R2_B_D2__metabat2.bin.063|NODE_7755_length_9673_cov_1.249843_5	
+R2_B_D2__metabat2.bin.063|NODE_7755_length_9673_cov_1.249843_6	
+R2_B_D2__metabat2.bin.063|NODE_7889_length_9532_cov_1.679426_1	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (EC 2.7.1.148)
+R2_B_D2__metabat2.bin.063|NODE_7889_length_9532_cov_1.679426_2	putative amidohydrolase
+R2_B_D2__metabat2.bin.063|NODE_7889_length_9532_cov_1.679426_3	2-amino-3-ketobutyrate coenzyme A ligase (EC 2.3.1.29)
+R2_B_D2__metabat2.bin.063|NODE_7889_length_9532_cov_1.679426_4	L-threonine 3-dehydrogenase (EC 1.1.1.103)
+R2_B_D2__metabat2.bin.063|NODE_7889_length_9532_cov_1.679426_5	Substrate-specific component BioY of biotin ECF transporter
+R2_B_D2__metabat2.bin.063|NODE_7889_length_9532_cov_1.679426_6	
+R2_B_D2__metabat2.bin.063|NODE_7889_length_9532_cov_1.679426_7	
+R2_B_D2__metabat2.bin.063|NODE_7889_length_9532_cov_1.679426_8	Cobalt-zinc-cadmium resistance protein
+R2_B_D2__metabat2.bin.063|NODE_7889_length_9532_cov_1.679426_9	Transmembrane protein YfcA
+R2_B_D2__metabat2.bin.063|NODE_7889_length_9532_cov_1.679426_10	Efflux ABC transporter, permease/ATP-binding protein YwjA
+R2_B_D2__metabat2.bin.063|NODE_7943_length_9476_cov_1.610654_1	Glucose-6-phosphate isomerase (EC 5.3.1.9)
+R2_B_D2__metabat2.bin.063|NODE_7943_length_9476_cov_1.610654_2	
+R2_B_D2__metabat2.bin.063|NODE_7943_length_9476_cov_1.610654_3	Rubrerythrin
+R2_B_D2__metabat2.bin.063|NODE_7943_length_9476_cov_1.610654_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_7943_length_9476_cov_1.610654_5	Free methionine-(R)-sulfoxide reductase, contains GAF domain
+R2_B_D2__metabat2.bin.063|NODE_7943_length_9476_cov_1.610654_6	3,5-diaminohexanoate dehydrogenase (EC 1.4.1.11)
+R2_B_D2__metabat2.bin.063|NODE_7943_length_9476_cov_1.610654_7	3,5-diaminohexanoate dehydrogenase (EC 1.4.1.11)
+R2_B_D2__metabat2.bin.063|NODE_7943_length_9476_cov_1.610654_8	BRAMP
+R2_B_D2__metabat2.bin.063|NODE_7943_length_9476_cov_1.610654_9	3-keto-5-aminohexanoate cleavage enzyme (EC 2.3.1.247)
+R2_B_D2__metabat2.bin.063|NODE_7943_length_9476_cov_1.610654_10	3-aminobutyryl-CoA ammonia-lyase (EC 4.3.1.14)
+R2_B_D2__metabat2.bin.063|NODE_7943_length_9476_cov_1.610654_11	L-beta-lysine 5,6-aminomutase beta subunit (EC 5.4.3.3) @ D-lysine 5,6-aminomutase beta subunit (EC 5.4.3.4)
+R2_B_D2__metabat2.bin.063|NODE_7943_length_9476_cov_1.610654_12	L-beta-lysine 5,6-aminomutase alpha subunit (EC 5.4.3.3) @ D-lysine 5,6-aminomutase alpha subunit (EC 5.4.3.4)
+R2_B_D2__metabat2.bin.063|NODE_7943_length_9476_cov_1.610654_13	
+R2_B_D2__metabat2.bin.063|NODE_7998_length_9423_cov_1.606820_1	
+R2_B_D2__metabat2.bin.063|NODE_7998_length_9423_cov_1.606820_2	HDIG domain protein
+R2_B_D2__metabat2.bin.063|NODE_7998_length_9423_cov_1.606820_3	thioesterase superfamily protein
+R2_B_D2__metabat2.bin.063|NODE_7998_length_9423_cov_1.606820_4	K(+)-stimulated pyrophosphate-energized sodium pump
+R2_B_D2__metabat2.bin.063|NODE_7998_length_9423_cov_1.606820_5	Protein translocase membrane subunit SecG
+R2_B_D2__metabat2.bin.063|NODE_7998_length_9423_cov_1.606820_6	RND efflux system, inner membrane transporter
+R2_B_D2__metabat2.bin.063|NODE_7998_length_9423_cov_1.606820_7	RND efflux system, inner membrane transporter
+R2_B_D2__metabat2.bin.063|NODE_7998_length_9423_cov_1.606820_8	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_7998_length_9423_cov_1.606820_9	
+R2_B_D2__metabat2.bin.063|NODE_8517_length_8963_cov_1.206881_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_8517_length_8963_cov_1.206881_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_8517_length_8963_cov_1.206881_3	33 kDa chaperonin HslO
+R2_B_D2__metabat2.bin.063|NODE_8517_length_8963_cov_1.206881_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_8517_length_8963_cov_1.206881_5	Ribosome LSU-associated GTP-binding protein HflX
+R2_B_D2__metabat2.bin.063|NODE_8517_length_8963_cov_1.206881_6	Lysophospholipase (EC 3.1.1.5); Monoglyceride lipase (EC 3.1.1.23)
+R2_B_D2__metabat2.bin.063|NODE_8517_length_8963_cov_1.206881_7	Aliphatic amidase AmiE (EC 3.5.1.4)
+R2_B_D2__metabat2.bin.063|NODE_8517_length_8963_cov_1.206881_8	
+R2_B_D2__metabat2.bin.063|NODE_8517_length_8963_cov_1.206881_9	TrkA-like protein
+R2_B_D2__metabat2.bin.063|NODE_8668_length_8836_cov_1.256746_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_8668_length_8836_cov_1.256746_2	
+R2_B_D2__metabat2.bin.063|NODE_8668_length_8836_cov_1.256746_3	3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.180)
+R2_B_D2__metabat2.bin.063|NODE_8668_length_8836_cov_1.256746_4	Oxidoreductase, short-chain dehydrogenase/reductase family
+R2_B_D2__metabat2.bin.063|NODE_8668_length_8836_cov_1.256746_5	4-hydroxybutyrate coenzyme A transferase
+R2_B_D2__metabat2.bin.063|NODE_8668_length_8836_cov_1.256746_6	ABC-type branched-chain amino acid transport systems, periplasmic component
+R2_B_D2__metabat2.bin.063|NODE_9117_length_8506_cov_1.475474_1	Uncharacterized flavin-containing protein YtfP
+R2_B_D2__metabat2.bin.063|NODE_9117_length_8506_cov_1.475474_2	Cystathionine beta-lyase (EC 4.4.1.8)
+R2_B_D2__metabat2.bin.063|NODE_9117_length_8506_cov_1.475474_3	Aspartyl aminopeptidase (EC 3.4.11.21)
+R2_B_D2__metabat2.bin.063|NODE_9117_length_8506_cov_1.475474_4	
+R2_B_D2__metabat2.bin.063|NODE_9117_length_8506_cov_1.475474_5	Acetylornithine deacetylase/Succinyl-diaminopimelate desuccinylase and related deacylases
+R2_B_D2__metabat2.bin.063|NODE_9117_length_8506_cov_1.475474_6	Na+/H+ antiporter NhaC
+R2_B_D2__metabat2.bin.063|NODE_9117_length_8506_cov_1.475474_7	
+R2_B_D2__metabat2.bin.063|NODE_9117_length_8506_cov_1.475474_8	
+R2_B_D2__metabat2.bin.063|NODE_9117_length_8506_cov_1.475474_9	
+R2_B_D2__metabat2.bin.063|NODE_9117_length_8506_cov_1.475474_10	Methylated-DNA--protein-cysteine methyltransferase (EC 2.1.1.63)
+R2_B_D2__metabat2.bin.063|NODE_9298_length_8373_cov_1.532016_1	ATP-dependent DNA helicase UvrD/PcrA (EC 3.6.4.12)
+R2_B_D2__metabat2.bin.063|NODE_9298_length_8373_cov_1.532016_2	DNA ligase (NAD(+)) (EC 6.5.1.2)
+R2_B_D2__metabat2.bin.063|NODE_9298_length_8373_cov_1.532016_3	
+R2_B_D2__metabat2.bin.063|NODE_9298_length_8373_cov_1.532016_4	Aspartyl-tRNA(Asn) amidotransferase subunit C (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit C (EC 6.3.5.7)
+R2_B_D2__metabat2.bin.063|NODE_9298_length_8373_cov_1.532016_5	Aspartyl-tRNA(Asn) amidotransferase subunit A (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit A (EC 6.3.5.7)
+R2_B_D2__metabat2.bin.063|NODE_9298_length_8373_cov_1.532016_6	Aspartyl-tRNA(Asn) amidotransferase subunit B (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit B (EC 6.3.5.7)
+R2_B_D2__metabat2.bin.063|NODE_9298_length_8373_cov_1.532016_7	Isoaspartyl aminopeptidase (EC 3.4.19.5) @ Asp-X dipeptidase
+R2_B_D2__metabat2.bin.063|NODE_9373_length_8313_cov_1.649035_1	Chaperone protein DnaK
+R2_B_D2__metabat2.bin.063|NODE_9373_length_8313_cov_1.649035_2	Chaperone protein DnaJ
+R2_B_D2__metabat2.bin.063|NODE_9373_length_8313_cov_1.649035_3	16S rRNA (uracil(1498)-N(3))-methyltransferase (EC 2.1.1.193)
+R2_B_D2__metabat2.bin.063|NODE_9373_length_8313_cov_1.649035_4	tRNA t(6)A37-methylthiotransferase (EC 2.8.4.5)
+R2_B_D2__metabat2.bin.063|NODE_9373_length_8313_cov_1.649035_5	Histidine triad (HIT) protein
+R2_B_D2__metabat2.bin.063|NODE_9373_length_8313_cov_1.649035_6	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_9373_length_8313_cov_1.649035_7	UPF0365 protein YqfA
+R2_B_D2__metabat2.bin.063|NODE_9373_length_8313_cov_1.649035_8	
+R2_B_D2__metabat2.bin.063|NODE_9373_length_8313_cov_1.649035_9	Transcriptional repressor CcpN, MarR family
+R2_B_D2__metabat2.bin.063|NODE_9373_length_8313_cov_1.649035_10	Fructose-1,6-bisphosphatase, GlpX type (EC 3.1.3.11)
+R2_B_D2__metabat2.bin.063|NODE_9434_length_8269_cov_1.732253_1	hypothetical protein clustered with lysine fermentation genes
+R2_B_D2__metabat2.bin.063|NODE_9434_length_8269_cov_1.732253_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_9434_length_8269_cov_1.732253_3	
+R2_B_D2__metabat2.bin.063|NODE_9434_length_8269_cov_1.732253_4	
+R2_B_D2__metabat2.bin.063|NODE_9434_length_8269_cov_1.732253_5	Ornithine racemase (EC 5.1.1.12)
+R2_B_D2__metabat2.bin.063|NODE_9434_length_8269_cov_1.732253_6	Lysine 2,3-aminomutase (EC 5.4.3.2)
+R2_B_D2__metabat2.bin.063|NODE_9434_length_8269_cov_1.732253_7	Butyrate--acetoacetate CoA-transferase subunit B (EC 2.8.3.9)
+R2_B_D2__metabat2.bin.063|NODE_9559_length_8176_cov_1.699093_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_9559_length_8176_cov_1.699093_2	
+R2_B_D2__metabat2.bin.063|NODE_9559_length_8176_cov_1.699093_3	Arylsulfatase (EC 3.1.6.1)
+R2_B_D2__metabat2.bin.063|NODE_9559_length_8176_cov_1.699093_4	Putative arylsulfatase regulatory protein
+R2_B_D2__metabat2.bin.063|NODE_9559_length_8176_cov_1.699093_5	
+R2_B_D2__metabat2.bin.063|NODE_9559_length_8176_cov_1.699093_6	Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)
+R2_B_D2__metabat2.bin.063|NODE_9559_length_8176_cov_1.699093_7	Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)
+R2_B_D2__metabat2.bin.063|NODE_9559_length_8176_cov_1.699093_8	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_9559_length_8176_cov_1.699093_9	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_9709_length_8084_cov_1.401533_1	
+R2_B_D2__metabat2.bin.063|NODE_9709_length_8084_cov_1.401533_2	Flagellum-specific ATP synthase FliI
+R2_B_D2__metabat2.bin.063|NODE_9709_length_8084_cov_1.401533_3	
+R2_B_D2__metabat2.bin.063|NODE_9709_length_8084_cov_1.401533_4	Flagellar motor switch protein FliG
+R2_B_D2__metabat2.bin.063|NODE_9709_length_8084_cov_1.401533_5	Flagellar M-ring protein FliF
+R2_B_D2__metabat2.bin.063|NODE_9709_length_8084_cov_1.401533_6	Flagellar hook-basal body complex protein FliE
+R2_B_D2__metabat2.bin.063|NODE_9709_length_8084_cov_1.401533_7	Flagellar basal-body rod protein FlgC
+R2_B_D2__metabat2.bin.063|NODE_9709_length_8084_cov_1.401533_8	Flagellar basal-body rod protein FlgB
+R2_B_D2__metabat2.bin.063|NODE_9709_length_8084_cov_1.401533_9	Chemotaxis regulator - transmits chemoreceptor signals to flagellar motor components CheY
+R2_B_D2__metabat2.bin.063|NODE_9709_length_8084_cov_1.401533_10	Chemotaxis protein CheD
+R2_B_D2__metabat2.bin.063|NODE_9709_length_8084_cov_1.401533_11	Chemotaxis protein CheC -- inhibitor of MCP methylation
+R2_B_D2__metabat2.bin.063|NODE_10001_length_7909_cov_1.566821_1	Cation-transporting ATPase, E1-E2 family
+R2_B_D2__metabat2.bin.063|NODE_10001_length_7909_cov_1.566821_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_10001_length_7909_cov_1.566821_3	Threonine synthase (EC 4.2.3.1)
+R2_B_D2__metabat2.bin.063|NODE_10001_length_7909_cov_1.566821_4	Homoserine kinase (EC 2.7.1.39)
+R2_B_D2__metabat2.bin.063|NODE_10001_length_7909_cov_1.566821_5	Adenosylhomocysteinase (EC 3.3.1.1)
+R2_B_D2__metabat2.bin.063|NODE_10001_length_7909_cov_1.566821_6	Deoxyuridine 5'-triphosphate nucleotidohydrolase (EC 3.6.1.23)
+R2_B_D2__metabat2.bin.063|NODE_10001_length_7909_cov_1.566821_7	Spore cortex-lytic enzyme, lytic transglycosylase SleB
+R2_B_D2__metabat2.bin.063|NODE_10028_length_7898_cov_1.455411_1	Glycerol-3-phosphate ABC transporter, substrate-binding protein UgpB
+R2_B_D2__metabat2.bin.063|NODE_10028_length_7898_cov_1.455411_2	Glycerol-3-phosphate ABC transporter, permease protein UgpE (TC 3.A.1.1.3)
+R2_B_D2__metabat2.bin.063|NODE_10028_length_7898_cov_1.455411_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_10028_length_7898_cov_1.455411_4	Glycerol kinase (EC 2.7.1.30)
+R2_B_D2__metabat2.bin.063|NODE_10028_length_7898_cov_1.455411_5	
+R2_B_D2__metabat2.bin.063|NODE_10028_length_7898_cov_1.455411_6	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_10028_length_7898_cov_1.455411_7	Cation-transporting ATPase, E1-E2 family
+R2_B_D2__metabat2.bin.063|NODE_10028_length_7898_cov_1.455411_8	
+R2_B_D2__metabat2.bin.063|NODE_10104_length_7853_cov_1.914704_1	Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)
+R2_B_D2__metabat2.bin.063|NODE_10104_length_7853_cov_1.914704_2	6-phosphogluconate dehydrogenase, decarboxylating (EC 1.1.1.44)
+R2_B_D2__metabat2.bin.063|NODE_10104_length_7853_cov_1.914704_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_10104_length_7853_cov_1.914704_4	
+R2_B_D2__metabat2.bin.063|NODE_10104_length_7853_cov_1.914704_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_10104_length_7853_cov_1.914704_6	DUF124 domain-containing protein
+R2_B_D2__metabat2.bin.063|NODE_10104_length_7853_cov_1.914704_7	6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.78)
+R2_B_D2__metabat2.bin.063|NODE_10104_length_7853_cov_1.914704_8	3,4-dihydroxy-2-butanone 4-phosphate synthase (EC 4.1.99.12) / GTP cyclohydrolase II (EC 3.5.4.25)
+R2_B_D2__metabat2.bin.063|NODE_10104_length_7853_cov_1.914704_9	Riboflavin synthase eubacterial/eukaryotic (EC 2.5.1.9)
+R2_B_D2__metabat2.bin.063|NODE_10104_length_7853_cov_1.914704_10	Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)
+R2_B_D2__metabat2.bin.063|NODE_10235_length_7788_cov_1.406344_1	
+R2_B_D2__metabat2.bin.063|NODE_10235_length_7788_cov_1.406344_2	TRAP-type C4-dicarboxylate transport system, small permease component
+R2_B_D2__metabat2.bin.063|NODE_10235_length_7788_cov_1.406344_3	
+R2_B_D2__metabat2.bin.063|NODE_10235_length_7788_cov_1.406344_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_10235_length_7788_cov_1.406344_5	Alanine racemase (EC 5.1.1.1)
+R2_B_D2__metabat2.bin.063|NODE_10235_length_7788_cov_1.406344_6	D-Ornithine 4,5-aminomutase E subunit (EC 5.4.3.5)
+R2_B_D2__metabat2.bin.063|NODE_10235_length_7788_cov_1.406344_7	D-Ornithine 4,5-aminomutase S subunit (EC 5.4.3.5)
+R2_B_D2__metabat2.bin.063|NODE_10235_length_7788_cov_1.406344_8	Probable reactivating factor for D-ornithine aminomutase
+R2_B_D2__metabat2.bin.063|NODE_10296_length_7755_cov_1.541033_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_10296_length_7755_cov_1.541033_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_10296_length_7755_cov_1.541033_3	Beta-phosphoglucomutase (EC 5.4.2.6)
+R2_B_D2__metabat2.bin.063|NODE_10296_length_7755_cov_1.541033_4	
+R2_B_D2__metabat2.bin.063|NODE_10296_length_7755_cov_1.541033_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_10296_length_7755_cov_1.541033_6	Maltodextrin ABC transporter, ATP-binding protein MsmX
+R2_B_D2__metabat2.bin.063|NODE_10296_length_7755_cov_1.541033_7	Ferredoxin domain containing protein
+R2_B_D2__metabat2.bin.063|NODE_10296_length_7755_cov_1.541033_8	Cell division protein DivIC (FtsB), stabilizes FtsL against RasP cleavage
+R2_B_D2__metabat2.bin.063|NODE_10296_length_7755_cov_1.541033_9	Transcription accessory protein (S1 RNA-binding domain)
+R2_B_D2__metabat2.bin.063|NODE_10379_length_7712_cov_1.787475_1	Leucyl-tRNA synthetase (EC 6.1.1.4)
+R2_B_D2__metabat2.bin.063|NODE_10379_length_7712_cov_1.787475_2	Ribosomal silencing factor RsfA
+R2_B_D2__metabat2.bin.063|NODE_10379_length_7712_cov_1.787475_3	Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr, subfamily M
+R2_B_D2__metabat2.bin.063|NODE_10379_length_7712_cov_1.787475_4	Hydrolase (HAD superfamily), YqeK
+R2_B_D2__metabat2.bin.063|NODE_10379_length_7712_cov_1.787475_5	Nicotinate-nucleotide adenylyltransferase (EC 2.7.7.18)
+R2_B_D2__metabat2.bin.063|NODE_10379_length_7712_cov_1.787475_6	
+R2_B_D2__metabat2.bin.063|NODE_10379_length_7712_cov_1.787475_7	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_10379_length_7712_cov_1.787475_8	
+R2_B_D2__metabat2.bin.063|NODE_10379_length_7712_cov_1.787475_9	L-lactate dehydrogenase (FMN-dependent) and related alpha-hydroxy acid dehydrogenases
+R2_B_D2__metabat2.bin.063|NODE_10379_length_7712_cov_1.787475_10	ABC transporter, substrate-binding protein (cluster 15, trp?)
+R2_B_D2__metabat2.bin.063|NODE_10379_length_7712_cov_1.787475_11	ABC transporter, permease protein (cluster 15, trp?)
+R2_B_D2__metabat2.bin.063|NODE_10397_length_7705_cov_1.503167_1	
+R2_B_D2__metabat2.bin.063|NODE_10397_length_7705_cov_1.503167_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_10397_length_7705_cov_1.503167_3	
+R2_B_D2__metabat2.bin.063|NODE_10397_length_7705_cov_1.503167_4	Replicative DNA helicase (DnaB) (EC 3.6.4.12)
+R2_B_D2__metabat2.bin.063|NODE_10397_length_7705_cov_1.503167_5	
+R2_B_D2__metabat2.bin.063|NODE_10397_length_7705_cov_1.503167_6	Adenylosuccinate lyase (EC 4.3.2.2) @ SAICAR lyase (EC 4.3.2.2)
+R2_B_D2__metabat2.bin.063|NODE_10397_length_7705_cov_1.503167_7	Adenylosuccinate synthetase (EC 6.3.4.4)
+R2_B_D2__metabat2.bin.063|NODE_10397_length_7705_cov_1.503167_8	Phosphoribosylamine--glycine ligase (EC 6.3.4.13)
+R2_B_D2__metabat2.bin.063|NODE_10428_length_7688_cov_1.189525_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_10428_length_7688_cov_1.189525_2	
+R2_B_D2__metabat2.bin.063|NODE_10428_length_7688_cov_1.189525_3	Vitamin B12 ABC transporter, substrate-binding protein BtuF
+R2_B_D2__metabat2.bin.063|NODE_10428_length_7688_cov_1.189525_4	Cobalamin synthase (EC 2.7.8.26)
+R2_B_D2__metabat2.bin.063|NODE_10428_length_7688_cov_1.189525_5	Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (EC 2.4.2.21)
+R2_B_D2__metabat2.bin.063|NODE_10428_length_7688_cov_1.189525_6	Cobyric acid synthase (EC 6.3.5.10)
+R2_B_D2__metabat2.bin.063|NODE_10428_length_7688_cov_1.189525_7	Adenosylcobinamide kinase (EC 2.7.1.156) / Adenosylcobinamide-phosphate guanylyltransferase (EC 2.7.7.62)
+R2_B_D2__metabat2.bin.063|NODE_10428_length_7688_cov_1.189525_8	NAD synthetase (EC 6.3.1.5)
+R2_B_D2__metabat2.bin.063|NODE_10815_length_7457_cov_1.971351_1	
+R2_B_D2__metabat2.bin.063|NODE_10815_length_7457_cov_1.971351_2	Sulfur carrier protein FdhD
+R2_B_D2__metabat2.bin.063|NODE_10815_length_7457_cov_1.971351_3	
+R2_B_D2__metabat2.bin.063|NODE_10815_length_7457_cov_1.971351_4	Twin-arginine translocation protein TatC
+R2_B_D2__metabat2.bin.063|NODE_10815_length_7457_cov_1.971351_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_10815_length_7457_cov_1.971351_6	Cell division protein FtsA, extended form
+R2_B_D2__metabat2.bin.063|NODE_10815_length_7457_cov_1.971351_7	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_10815_length_7457_cov_1.971351_8	Mobile element protein
+R2_B_D2__metabat2.bin.063|NODE_10896_length_7413_cov_1.467197_1	Na+/H+ antiporter
+R2_B_D2__metabat2.bin.063|NODE_10896_length_7413_cov_1.467197_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_10896_length_7413_cov_1.467197_3	Substrate-specific component RibU of riboflavin ECF transporter
+R2_B_D2__metabat2.bin.063|NODE_10896_length_7413_cov_1.467197_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_10896_length_7413_cov_1.467197_5	C4-dicarboxylate transporter/malic acid transport protein
+R2_B_D2__metabat2.bin.063|NODE_10896_length_7413_cov_1.467197_6	conserved protein, ferredoxin-related
+R2_B_D2__metabat2.bin.063|NODE_10896_length_7413_cov_1.467197_7	
+R2_B_D2__metabat2.bin.063|NODE_11015_length_7356_cov_1.385945_1	tRNA dimethylallyltransferase (EC 2.5.1.75)
+R2_B_D2__metabat2.bin.063|NODE_11015_length_7356_cov_1.385945_2	
+R2_B_D2__metabat2.bin.063|NODE_11015_length_7356_cov_1.385945_3	Diaminopimelate epimerase (EC 5.1.1.7)
+R2_B_D2__metabat2.bin.063|NODE_11015_length_7356_cov_1.385945_4	L,L-diaminopimelate aminotransferase (EC 2.6.1.83), DapL2 type
+R2_B_D2__metabat2.bin.063|NODE_11015_length_7356_cov_1.385945_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_11015_length_7356_cov_1.385945_6	Uracil-DNA glycosylase, family 4 (EC 3.2.2.27)
+R2_B_D2__metabat2.bin.063|NODE_11015_length_7356_cov_1.385945_7	SOS-response repressor and protease LexA (EC 3.4.21.88)
+R2_B_D2__metabat2.bin.063|NODE_11015_length_7356_cov_1.385945_8	
+R2_B_D2__metabat2.bin.063|NODE_11015_length_7356_cov_1.385945_9	DegV family protein
+R2_B_D2__metabat2.bin.063|NODE_11015_length_7356_cov_1.385945_10	
+R2_B_D2__metabat2.bin.063|NODE_11262_length_7232_cov_2.087825_1	DNA-binding protein HBsu
+R2_B_D2__metabat2.bin.063|NODE_11262_length_7232_cov_2.087825_2	NAD-dependent protein deacetylase of SIR2 family
+R2_B_D2__metabat2.bin.063|NODE_11262_length_7232_cov_2.087825_3	
+R2_B_D2__metabat2.bin.063|NODE_11262_length_7232_cov_2.087825_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_11262_length_7232_cov_2.087825_5	
+R2_B_D2__metabat2.bin.063|NODE_11262_length_7232_cov_2.087825_6	Uncharacterized MFS-type transporter YxiO
+R2_B_D2__metabat2.bin.063|NODE_11262_length_7232_cov_2.087825_7	Glutamate formiminotransferase (EC 2.1.2.5) @ Glutamate formyltransferase
+R2_B_D2__metabat2.bin.063|NODE_11262_length_7232_cov_2.087825_8	Imidazolonepropionase (EC 3.5.2.7)
+R2_B_D2__metabat2.bin.063|NODE_11262_length_7232_cov_2.087825_9	Urocanate hydratase (EC 4.2.1.49)
+R2_B_D2__metabat2.bin.063|NODE_11328_length_7198_cov_1.539952_1	Enolase (EC 4.2.1.11)
+R2_B_D2__metabat2.bin.063|NODE_11328_length_7198_cov_1.539952_2	2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC 5.4.2.12)
+R2_B_D2__metabat2.bin.063|NODE_11328_length_7198_cov_1.539952_3	Triosephosphate isomerase (EC 5.3.1.1)
+R2_B_D2__metabat2.bin.063|NODE_11328_length_7198_cov_1.539952_4	Phosphoglycerate kinase (EC 2.7.2.3)
+R2_B_D2__metabat2.bin.063|NODE_11328_length_7198_cov_1.539952_5	NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)
+R2_B_D2__metabat2.bin.063|NODE_11328_length_7198_cov_1.539952_6	Central glycolytic genes regulator
+R2_B_D2__metabat2.bin.063|NODE_11328_length_7198_cov_1.539952_7	RNA polymerase sigma-54 factor RpoN
+R2_B_D2__metabat2.bin.063|NODE_11460_length_7126_cov_1.423775_1	
+R2_B_D2__metabat2.bin.063|NODE_11460_length_7126_cov_1.423775_2	Cyclic pyranopterin monophosphate synthase (EC 4.6.1.17)
+R2_B_D2__metabat2.bin.063|NODE_11460_length_7126_cov_1.423775_3	GTP 3',8-cyclase (EC 4.1.99.22)
+R2_B_D2__metabat2.bin.063|NODE_11460_length_7126_cov_1.423775_4	Molybdopterin molybdenumtransferase (EC 2.10.1.1)
+R2_B_D2__metabat2.bin.063|NODE_11460_length_7126_cov_1.423775_5	
+R2_B_D2__metabat2.bin.063|NODE_11460_length_7126_cov_1.423775_6	Molybdenum ABC transporter permease protein ModB
+R2_B_D2__metabat2.bin.063|NODE_11460_length_7126_cov_1.423775_7	
+R2_B_D2__metabat2.bin.063|NODE_11460_length_7126_cov_1.423775_8	Cysteine desulfurase (EC 2.8.1.7)
+R2_B_D2__metabat2.bin.063|NODE_11460_length_7126_cov_1.423775_9	Iron-sulfur cluster assembly scaffold protein IscU/NifU-like
+R2_B_D2__metabat2.bin.063|NODE_11460_length_7126_cov_1.423775_10	tRNA-specific 2-thiouridylase MnmA (EC 2.8.1.13)
+R2_B_D2__metabat2.bin.063|NODE_11483_length_7112_cov_1.665999_1	UPF0348 protein family
+R2_B_D2__metabat2.bin.063|NODE_11483_length_7112_cov_1.665999_2	Phosphate acetyltransferase (EC 2.3.1.8)
+R2_B_D2__metabat2.bin.063|NODE_11483_length_7112_cov_1.665999_3	Acetate kinase (EC 2.7.2.1)
+R2_B_D2__metabat2.bin.063|NODE_11483_length_7112_cov_1.665999_4	FIG01269488: protein, clustered with ribosomal protein L32p
+R2_B_D2__metabat2.bin.063|NODE_11483_length_7112_cov_1.665999_5	LSU ribosomal protein L32p @ LSU ribosomal protein L32p, zinc-dependent
+R2_B_D2__metabat2.bin.063|NODE_11483_length_7112_cov_1.665999_6	Phosphate:acyl-ACP acyltransferase PlsX (EC 2.3.1.n2)
+R2_B_D2__metabat2.bin.063|NODE_11483_length_7112_cov_1.665999_7	Enoyl-[acyl-carrier-protein] reductase [FMN, NADH] (EC 1.3.1.9), FabK => refractory to triclosan
+R2_B_D2__metabat2.bin.063|NODE_11483_length_7112_cov_1.665999_8	3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.180)
+R2_B_D2__metabat2.bin.063|NODE_11483_length_7112_cov_1.665999_9	
+R2_B_D2__metabat2.bin.063|NODE_11550_length_7085_cov_2.410463_1	
+R2_B_D2__metabat2.bin.063|NODE_11550_length_7085_cov_2.410463_2	
+R2_B_D2__metabat2.bin.063|NODE_11550_length_7085_cov_2.410463_3	Ferrous iron transporter FeoB
+R2_B_D2__metabat2.bin.063|NODE_11550_length_7085_cov_2.410463_4	
+R2_B_D2__metabat2.bin.063|NODE_11550_length_7085_cov_2.410463_5	Substrate-specific component PanT of predicted pantothenate ECF transporter
+R2_B_D2__metabat2.bin.063|NODE_11550_length_7085_cov_2.410463_6	Retron-type RNA-directed DNA polymerase (EC 2.7.7.49)
+R2_B_D2__metabat2.bin.063|NODE_11550_length_7085_cov_2.410463_7	Methyl-accepting chemotaxis protein
+R2_B_D2__metabat2.bin.063|NODE_11577_length_7071_cov_1.995680_1	1-phosphofructokinase (EC 2.7.1.56)
+R2_B_D2__metabat2.bin.063|NODE_11577_length_7071_cov_1.995680_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_11577_length_7071_cov_1.995680_3	Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5); Copper-translocating P-type ATPase (EC 3.6.3.4)
+R2_B_D2__metabat2.bin.063|NODE_11577_length_7071_cov_1.995680_4	
+R2_B_D2__metabat2.bin.063|NODE_11577_length_7071_cov_1.995680_5	
+R2_B_D2__metabat2.bin.063|NODE_11577_length_7071_cov_1.995680_6	
+R2_B_D2__metabat2.bin.063|NODE_11577_length_7071_cov_1.995680_7	Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5); Copper-translocating P-type ATPase (EC 3.6.3.4)
+R2_B_D2__metabat2.bin.063|NODE_11644_length_7037_cov_2.158466_1	Uncharacterized molybdopterin-containing oxidoreductase YdhV, similar to aldehyde:ferredoxin oxidoreductase
+R2_B_D2__metabat2.bin.063|NODE_11644_length_7037_cov_2.158466_2	
+R2_B_D2__metabat2.bin.063|NODE_11644_length_7037_cov_2.158466_3	
+R2_B_D2__metabat2.bin.063|NODE_11644_length_7037_cov_2.158466_4	
+R2_B_D2__metabat2.bin.063|NODE_11644_length_7037_cov_2.158466_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_11644_length_7037_cov_2.158466_6	Nucleoside 5-triphosphatase RdgB (dHAPTP, dITP, XTP-specific) (EC 3.6.1.66)
+R2_B_D2__metabat2.bin.063|NODE_11644_length_7037_cov_2.158466_7	Ribonuclease PH (EC 2.7.7.56)
+R2_B_D2__metabat2.bin.063|NODE_11662_length_7026_cov_1.572692_1	Pyruvate-flavodoxin oxidoreductase
+R2_B_D2__metabat2.bin.063|NODE_11662_length_7026_cov_1.572692_2	Aldo/keto reductase, 4Fe-4S-containing, TM1183 family
+R2_B_D2__metabat2.bin.063|NODE_11662_length_7026_cov_1.572692_3	
+R2_B_D2__metabat2.bin.063|NODE_11662_length_7026_cov_1.572692_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_11662_length_7026_cov_1.572692_5	Heterodimeric efflux ABC transporter, permease/ATP-binding subunit 1
+R2_B_D2__metabat2.bin.063|NODE_11662_length_7026_cov_1.572692_6	Heterodimeric efflux ABC transporter, permease/ATP-binding subunit 2
+R2_B_D2__metabat2.bin.063|NODE_11684_length_7017_cov_1.394775_1	Undecaprenyl diphosphate synthase (EC 2.5.1.31)
+R2_B_D2__metabat2.bin.063|NODE_11684_length_7017_cov_1.394775_2	Phosphatidate cytidylyltransferase (EC 2.7.7.41)
+R2_B_D2__metabat2.bin.063|NODE_11684_length_7017_cov_1.394775_3	1-deoxy-D-xylulose 5-phosphate reductoisomerase (EC 1.1.1.267)
+R2_B_D2__metabat2.bin.063|NODE_11684_length_7017_cov_1.394775_4	Intramembrane protease RasP/YluC, implicated in cell division based on FtsL cleavage
+R2_B_D2__metabat2.bin.063|NODE_11684_length_7017_cov_1.394775_5	(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase (flavodoxin) (EC 1.17.7.3)
+R2_B_D2__metabat2.bin.063|NODE_11684_length_7017_cov_1.394775_6	Prolyl-tRNA synthetase (EC 6.1.1.15), bacterial type
+R2_B_D2__metabat2.bin.063|NODE_11684_length_7017_cov_1.394775_7	
+R2_B_D2__metabat2.bin.063|NODE_11737_length_6996_cov_1.372398_1	
+R2_B_D2__metabat2.bin.063|NODE_11737_length_6996_cov_1.372398_2	Transcriptional regulator CtsR
+R2_B_D2__metabat2.bin.063|NODE_11737_length_6996_cov_1.372398_3	
+R2_B_D2__metabat2.bin.063|NODE_11737_length_6996_cov_1.372398_4	Protein-arginine kinase McsB (EC 2.7.14.1)
+R2_B_D2__metabat2.bin.063|NODE_11737_length_6996_cov_1.372398_5	ATP-dependent Clp protease, ATP-binding subunit ClpC
+R2_B_D2__metabat2.bin.063|NODE_11737_length_6996_cov_1.372398_6	DNA repair protein RadA
+R2_B_D2__metabat2.bin.063|NODE_11737_length_6996_cov_1.372398_7	DNA integrity scanning protein DisA
+R2_B_D2__metabat2.bin.063|NODE_12153_length_6809_cov_1.252320_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_12153_length_6809_cov_1.252320_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_12546_length_6649_cov_1.966115_1	
+R2_B_D2__metabat2.bin.063|NODE_12546_length_6649_cov_1.966115_2	S-adenosylmethionine synthetase (EC 2.5.1.6)
+R2_B_D2__metabat2.bin.063|NODE_12546_length_6649_cov_1.966115_3	TldE protein, part of TldE/TldD proteolytic complex
+R2_B_D2__metabat2.bin.063|NODE_12546_length_6649_cov_1.966115_4	TldD protein, part of TldE/TldD proteolytic complex
+R2_B_D2__metabat2.bin.063|NODE_12546_length_6649_cov_1.966115_5	Phosphopantothenoylcysteine decarboxylase (EC 4.1.1.36) / Phosphopantothenoylcysteine synthetase (EC 6.3.2.5)
+R2_B_D2__metabat2.bin.063|NODE_12546_length_6649_cov_1.966115_6	Guanylate kinase (EC 2.7.4.8)
+R2_B_D2__metabat2.bin.063|NODE_12546_length_6649_cov_1.966115_7	UPF0296 protein YlzA
+R2_B_D2__metabat2.bin.063|NODE_12546_length_6649_cov_1.966115_8	
+R2_B_D2__metabat2.bin.063|NODE_12621_length_6618_cov_0.981821_1	Flagellar motor rotation protein MotA
+R2_B_D2__metabat2.bin.063|NODE_12621_length_6618_cov_0.981821_2	Flagellar motor rotation protein MotB
+R2_B_D2__metabat2.bin.063|NODE_12621_length_6618_cov_0.981821_3	
+R2_B_D2__metabat2.bin.063|NODE_12621_length_6618_cov_0.981821_4	Flagellar motor switch protein FliM
+R2_B_D2__metabat2.bin.063|NODE_12621_length_6618_cov_0.981821_5	Flagellar motor switch protein FliN
+R2_B_D2__metabat2.bin.063|NODE_12621_length_6618_cov_0.981821_6	
+R2_B_D2__metabat2.bin.063|NODE_12621_length_6618_cov_0.981821_7	Flagellar biosynthesis protein FliP
+R2_B_D2__metabat2.bin.063|NODE_12621_length_6618_cov_0.981821_8	Flagellar biosynthesis protein FliQ
+R2_B_D2__metabat2.bin.063|NODE_12621_length_6618_cov_0.981821_9	Flagellar biosynthesis protein FliR
+R2_B_D2__metabat2.bin.063|NODE_12621_length_6618_cov_0.981821_10	Flagellar biosynthesis protein FlhB
+R2_B_D2__metabat2.bin.063|NODE_12971_length_6492_cov_1.026709_1	Xanthine dehydrogenase, molybdenum binding subunit (EC 1.17.1.4)
+R2_B_D2__metabat2.bin.063|NODE_12971_length_6492_cov_1.026709_2	Xanthine dehydrogenase, FAD binding subunit (EC 1.17.1.4)
+R2_B_D2__metabat2.bin.063|NODE_12971_length_6492_cov_1.026709_3	Xanthine dehydrogenase iron-sulfur subunit (EC 1.17.1.4)
+R2_B_D2__metabat2.bin.063|NODE_12971_length_6492_cov_1.026709_4	Guanine deaminase (EC 3.5.4.3); Hydroxydechloroatrazine ethylaminohydrolase (EC 3.5.99.3)
+R2_B_D2__metabat2.bin.063|NODE_12971_length_6492_cov_1.026709_5	Guanine deaminase (EC 3.5.4.3); Hydroxydechloroatrazine ethylaminohydrolase (EC 3.5.99.3)
+R2_B_D2__metabat2.bin.063|NODE_12971_length_6492_cov_1.026709_6	Guanine deaminase (EC 3.5.4.3)
+R2_B_D2__metabat2.bin.063|NODE_12971_length_6492_cov_1.026709_7	
+R2_B_D2__metabat2.bin.063|NODE_12973_length_6490_cov_1.411913_1	Ferrous iron transporter FeoB
+R2_B_D2__metabat2.bin.063|NODE_12973_length_6490_cov_1.411913_2	
+R2_B_D2__metabat2.bin.063|NODE_12973_length_6490_cov_1.411913_3	
+R2_B_D2__metabat2.bin.063|NODE_12973_length_6490_cov_1.411913_4	
+R2_B_D2__metabat2.bin.063|NODE_12973_length_6490_cov_1.411913_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_12973_length_6490_cov_1.411913_6	Substrate-specific component STY3230 of queuosine-regulated ECF transporter
+R2_B_D2__metabat2.bin.063|NODE_12973_length_6490_cov_1.411913_7	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_12973_length_6490_cov_1.411913_8	
+R2_B_D2__metabat2.bin.063|NODE_13086_length_6442_cov_1.835946_1	Phosphate ABC transporter, permease protein PstA (TC 3.A.1.7.1)
+R2_B_D2__metabat2.bin.063|NODE_13086_length_6442_cov_1.835946_2	Phosphate ABC transporter, permease protein PstC (TC 3.A.1.7.1)
+R2_B_D2__metabat2.bin.063|NODE_13086_length_6442_cov_1.835946_3	Phosphate ABC transporter, substrate-binding protein PstS (TC 3.A.1.7.1)
+R2_B_D2__metabat2.bin.063|NODE_13086_length_6442_cov_1.835946_4	
+R2_B_D2__metabat2.bin.063|NODE_13086_length_6442_cov_1.835946_5	Methylglyoxal synthase (EC 4.2.3.3)
+R2_B_D2__metabat2.bin.063|NODE_13086_length_6442_cov_1.835946_6	
+R2_B_D2__metabat2.bin.063|NODE_13086_length_6442_cov_1.835946_7	
+R2_B_D2__metabat2.bin.063|NODE_13086_length_6442_cov_1.835946_8	Putative dipeptidase
+R2_B_D2__metabat2.bin.063|NODE_13123_length_6425_cov_1.776755_1	Bifurcating [FeFe] hydrogenase, alpha subunit (EC 1.12.1.4)
+R2_B_D2__metabat2.bin.063|NODE_13123_length_6425_cov_1.776755_2	Bifurcating [FeFe] hydrogenase, beta subunit (EC 1.12.1.4)
+R2_B_D2__metabat2.bin.063|NODE_13123_length_6425_cov_1.776755_3	NADP-reducing hydrogenase, subunit B
+R2_B_D2__metabat2.bin.063|NODE_13123_length_6425_cov_1.776755_4	HydE protein clustered with electron-bifurcating [FeFe]-hydrogenase (possible two-component regulator histidine kinase)
+R2_B_D2__metabat2.bin.063|NODE_13123_length_6425_cov_1.776755_5	HoxE-like protein
+R2_B_D2__metabat2.bin.063|NODE_13123_length_6425_cov_1.776755_6	FIG168882: metal-dependent phosphoesterases (PHP family)
+R2_B_D2__metabat2.bin.063|NODE_13123_length_6425_cov_1.776755_7	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_13123_length_6425_cov_1.776755_8	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_13196_length_6396_cov_0.908598_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_13196_length_6396_cov_0.908598_2	PLP-dependent aminotransferase
+R2_B_D2__metabat2.bin.063|NODE_13196_length_6396_cov_0.908598_3	Uncharacterized protein MJ0274
+R2_B_D2__metabat2.bin.063|NODE_13196_length_6396_cov_0.908598_4	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)
+R2_B_D2__metabat2.bin.063|NODE_13196_length_6396_cov_0.908598_5	
+R2_B_D2__metabat2.bin.063|NODE_13269_length_6369_cov_1.741749_1	Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)
+R2_B_D2__metabat2.bin.063|NODE_13269_length_6369_cov_1.741749_2	
+R2_B_D2__metabat2.bin.063|NODE_13269_length_6369_cov_1.741749_3	TRAP-type transporter, large permease protein
+R2_B_D2__metabat2.bin.063|NODE_13269_length_6369_cov_1.741749_4	
+R2_B_D2__metabat2.bin.063|NODE_13269_length_6369_cov_1.741749_5	TRAP-type transporter, substrate-binding protein
+R2_B_D2__metabat2.bin.063|NODE_13269_length_6369_cov_1.741749_6	
+R2_B_D2__metabat2.bin.063|NODE_13269_length_6369_cov_1.741749_7	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_13269_length_6369_cov_1.741749_8	PQQ-dependent oxidoreductase, gdhB family
+R2_B_D2__metabat2.bin.063|NODE_13335_length_6340_cov_1.418799_1	
+R2_B_D2__metabat2.bin.063|NODE_13335_length_6340_cov_1.418799_2	Glycerol-3-phosphate dehydrogenase [NAD(P)+] (EC 1.1.1.94)
+R2_B_D2__metabat2.bin.063|NODE_13335_length_6340_cov_1.418799_3	Acyl-phosphate:glycerol-3-phosphate O-acyltransferase PlsY (EC 2.3.1.n3)
+R2_B_D2__metabat2.bin.063|NODE_13335_length_6340_cov_1.418799_4	GTP-binding protein EngA
+R2_B_D2__metabat2.bin.063|NODE_13335_length_6340_cov_1.418799_5	Fe-S oxidoreductase, related to NifB/MoaA family with PDZ N-terminal domain
+R2_B_D2__metabat2.bin.063|NODE_13335_length_6340_cov_1.418799_6	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (EC 1.17.7.4) / Ribosomal protein S1 RNA-binding domain
+R2_B_D2__metabat2.bin.063|NODE_13440_length_6305_cov_1.272256_1	
+R2_B_D2__metabat2.bin.063|NODE_13440_length_6305_cov_1.272256_2	
+R2_B_D2__metabat2.bin.063|NODE_13440_length_6305_cov_1.272256_3	
+R2_B_D2__metabat2.bin.063|NODE_13440_length_6305_cov_1.272256_4	
+R2_B_D2__metabat2.bin.063|NODE_13440_length_6305_cov_1.272256_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_13440_length_6305_cov_1.272256_6	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_13440_length_6305_cov_1.272256_7	
+R2_B_D2__metabat2.bin.063|NODE_13440_length_6305_cov_1.272256_8	
+R2_B_D2__metabat2.bin.063|NODE_13456_length_6299_cov_1.614226_1	Nicotinamidase (EC 3.5.1.19)
+R2_B_D2__metabat2.bin.063|NODE_13456_length_6299_cov_1.614226_2	Acylphosphate phosphohydrolase (EC 3.6.1.7)
+R2_B_D2__metabat2.bin.063|NODE_13456_length_6299_cov_1.614226_3	
+R2_B_D2__metabat2.bin.063|NODE_13456_length_6299_cov_1.614226_4	
+R2_B_D2__metabat2.bin.063|NODE_13456_length_6299_cov_1.614226_5	Methyltransferase corrinoid activation protein
+R2_B_D2__metabat2.bin.063|NODE_13456_length_6299_cov_1.614226_6	Substrate-specific component FolT of folate ECF transporter
+R2_B_D2__metabat2.bin.063|NODE_13456_length_6299_cov_1.614226_7	Formate--tetrahydrofolate ligase (EC 6.3.4.3)
+R2_B_D2__metabat2.bin.063|NODE_13494_length_6286_cov_1.565676_1	UDP-N-acetylmuramoyl-dipeptide--2,6-diaminopimelate ligase (EC 6.3.2.13)
+R2_B_D2__metabat2.bin.063|NODE_13494_length_6286_cov_1.565676_2	Cell division protein FtsI [Peptidoglycan synthetase] (EC 2.4.1.129) @ Sporulation peptidoglycan synthetase SpoVD
+R2_B_D2__metabat2.bin.063|NODE_13494_length_6286_cov_1.565676_3	
+R2_B_D2__metabat2.bin.063|NODE_13494_length_6286_cov_1.565676_4	16S rRNA (cytosine(1402)-N(4))-methyltransferase (EC 2.1.1.199)
+R2_B_D2__metabat2.bin.063|NODE_13494_length_6286_cov_1.565676_5	Transcriptional regulator MraZ
+R2_B_D2__metabat2.bin.063|NODE_13494_length_6286_cov_1.565676_6	
+R2_B_D2__metabat2.bin.063|NODE_13494_length_6286_cov_1.565676_7	DNA polymerase IV (EC 2.7.7.7)
+R2_B_D2__metabat2.bin.063|NODE_13534_length_6273_cov_1.360885_1	Glycosyltransferases involved in cell wall biogenesis
+R2_B_D2__metabat2.bin.063|NODE_13534_length_6273_cov_1.360885_2	DNA polymerase III polC-type (EC 2.7.7.7)
+R2_B_D2__metabat2.bin.063|NODE_13534_length_6273_cov_1.360885_3	Bacterial ribosome SSU maturation protein RimP
+R2_B_D2__metabat2.bin.063|NODE_13534_length_6273_cov_1.360885_4	Transcription termination protein NusA
+R2_B_D2__metabat2.bin.063|NODE_13631_length_6239_cov_1.329516_1	
+R2_B_D2__metabat2.bin.063|NODE_13631_length_6239_cov_1.329516_2	Cysteine desulfurase (EC 2.8.1.7)
+R2_B_D2__metabat2.bin.063|NODE_13631_length_6239_cov_1.329516_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_13631_length_6239_cov_1.329516_4	
+R2_B_D2__metabat2.bin.063|NODE_13631_length_6239_cov_1.329516_5	
+R2_B_D2__metabat2.bin.063|NODE_13631_length_6239_cov_1.329516_6	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_13631_length_6239_cov_1.329516_7	
+R2_B_D2__metabat2.bin.063|NODE_13651_length_6231_cov_1.504423_1	Alpha-glucosidase (EC 3.2.1.20)
+R2_B_D2__metabat2.bin.063|NODE_13651_length_6231_cov_1.504423_2	
+R2_B_D2__metabat2.bin.063|NODE_13651_length_6231_cov_1.504423_3	
+R2_B_D2__metabat2.bin.063|NODE_13651_length_6231_cov_1.504423_4	
+R2_B_D2__metabat2.bin.063|NODE_13651_length_6231_cov_1.504423_5	alpha-glucoside ABC transporter, substrate-binding protein AglE
+R2_B_D2__metabat2.bin.063|NODE_13651_length_6231_cov_1.504423_6	alpha-glucoside ABC transporter, permease protein AglF
+R2_B_D2__metabat2.bin.063|NODE_13651_length_6231_cov_1.504423_7	alpha-glucoside ABC transporter, permease protein AglG
+R2_B_D2__metabat2.bin.063|NODE_13651_length_6231_cov_1.504423_8	alpha-mannosidase (EC 3.2.1.24)
+R2_B_D2__metabat2.bin.063|NODE_13685_length_6220_cov_1.378139_1	
+R2_B_D2__metabat2.bin.063|NODE_13685_length_6220_cov_1.378139_2	
+R2_B_D2__metabat2.bin.063|NODE_13685_length_6220_cov_1.378139_3	
+R2_B_D2__metabat2.bin.063|NODE_13685_length_6220_cov_1.378139_4	
+R2_B_D2__metabat2.bin.063|NODE_13685_length_6220_cov_1.378139_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_13685_length_6220_cov_1.378139_6	UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase (EC 2.3.1.191)
+R2_B_D2__metabat2.bin.063|NODE_13685_length_6220_cov_1.378139_7	UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase (EC 3.5.1.108)
+R2_B_D2__metabat2.bin.063|NODE_14074_length_6086_cov_1.608156_1	Uncharacterized DUF554 membrane protein
+R2_B_D2__metabat2.bin.063|NODE_14074_length_6086_cov_1.608156_2	
+R2_B_D2__metabat2.bin.063|NODE_14074_length_6086_cov_1.608156_3	Chromosome (plasmid) partitioning protein ParB
+R2_B_D2__metabat2.bin.063|NODE_14074_length_6086_cov_1.608156_4	Chromosome (plasmid) partitioning protein ParA
+R2_B_D2__metabat2.bin.063|NODE_14074_length_6086_cov_1.608156_5	Chromosome (plasmid) partitioning protein ParB-2
+R2_B_D2__metabat2.bin.063|NODE_14074_length_6086_cov_1.608156_6	16S rRNA (guanine(527)-N(7))-methyltransferase (EC 2.1.1.170)
+R2_B_D2__metabat2.bin.063|NODE_14074_length_6086_cov_1.608156_7	tRNA-5-carboxymethylaminomethyl-2-thiouridine(34) synthesis protein MnmG
+R2_B_D2__metabat2.bin.063|NODE_14143_length_6059_cov_1.267869_1	Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)
+R2_B_D2__metabat2.bin.063|NODE_14143_length_6059_cov_1.267869_2	3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.179)
+R2_B_D2__metabat2.bin.063|NODE_14143_length_6059_cov_1.267869_3	
+R2_B_D2__metabat2.bin.063|NODE_14143_length_6059_cov_1.267869_4	Uracil permease @ Uracil:proton symporter UraA
+R2_B_D2__metabat2.bin.063|NODE_14143_length_6059_cov_1.267869_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_14143_length_6059_cov_1.267869_6	
+R2_B_D2__metabat2.bin.063|NODE_14423_length_5965_cov_1.804385_1	DNA polymerase I (EC 2.7.7.7)
+R2_B_D2__metabat2.bin.063|NODE_14423_length_5965_cov_1.804385_2	Formamidopyrimidine-DNA glycosylase (EC 3.2.2.23)
+R2_B_D2__metabat2.bin.063|NODE_14423_length_5965_cov_1.804385_3	Dephospho-CoA kinase (EC 2.7.1.24)
+R2_B_D2__metabat2.bin.063|NODE_14423_length_5965_cov_1.804385_4	ABC transporter, substrate-binding protein (cluster 5, nickel/peptides/opines)
+R2_B_D2__metabat2.bin.063|NODE_14423_length_5965_cov_1.804385_5	ABC transporter, permease protein 1 (cluster 5, nickel/peptides/opines)
+R2_B_D2__metabat2.bin.063|NODE_14423_length_5965_cov_1.804385_6	ABC transporter, permease protein 2 (cluster 5, nickel/peptides/opines)
+R2_B_D2__metabat2.bin.063|NODE_14430_length_5964_cov_1.699161_1	ATP-dependent RNA helicase
+R2_B_D2__metabat2.bin.063|NODE_14430_length_5964_cov_1.699161_2	
+R2_B_D2__metabat2.bin.063|NODE_14430_length_5964_cov_1.699161_3	
+R2_B_D2__metabat2.bin.063|NODE_14430_length_5964_cov_1.699161_4	
+R2_B_D2__metabat2.bin.063|NODE_14430_length_5964_cov_1.699161_5	NADH dehydrogenase (EC 1.6.99.3)
+R2_B_D2__metabat2.bin.063|NODE_14571_length_5920_cov_1.446746_1	[FeFe] hydrogenase (EC 1.12.7.2)
+R2_B_D2__metabat2.bin.063|NODE_14571_length_5920_cov_1.446746_2	
+R2_B_D2__metabat2.bin.063|NODE_14571_length_5920_cov_1.446746_3	
+R2_B_D2__metabat2.bin.063|NODE_14571_length_5920_cov_1.446746_4	Amidohydrolase
+R2_B_D2__metabat2.bin.063|NODE_14571_length_5920_cov_1.446746_5	Hypothetical protein of L-Asparaginase type 2-like superfamily
+R2_B_D2__metabat2.bin.063|NODE_14571_length_5920_cov_1.446746_6	Programmed cell death toxin YdcE
+R2_B_D2__metabat2.bin.063|NODE_14571_length_5920_cov_1.446746_7	
+R2_B_D2__metabat2.bin.063|NODE_14571_length_5920_cov_1.446746_8	Uncharacterized ATP-dependent helicase MJ0104
+R2_B_D2__metabat2.bin.063|NODE_14583_length_5916_cov_1.301779_1	
+R2_B_D2__metabat2.bin.063|NODE_14583_length_5916_cov_1.301779_2	
+R2_B_D2__metabat2.bin.063|NODE_14583_length_5916_cov_1.301779_3	Oxidoreductase, short-chain dehydrogenase/reductase family
+R2_B_D2__metabat2.bin.063|NODE_14583_length_5916_cov_1.301779_4	Transcriptional regulator, LysR family
+R2_B_D2__metabat2.bin.063|NODE_14583_length_5916_cov_1.301779_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_14583_length_5916_cov_1.301779_6	
+R2_B_D2__metabat2.bin.063|NODE_14583_length_5916_cov_1.301779_7	
+R2_B_D2__metabat2.bin.063|NODE_14583_length_5916_cov_1.301779_8	Oligoendopeptidase F-like protein
+R2_B_D2__metabat2.bin.063|NODE_14583_length_5916_cov_1.301779_9	
+R2_B_D2__metabat2.bin.063|NODE_14613_length_5909_cov_1.706849_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_14613_length_5909_cov_1.706849_2	
+R2_B_D2__metabat2.bin.063|NODE_14613_length_5909_cov_1.706849_3	
+R2_B_D2__metabat2.bin.063|NODE_14613_length_5909_cov_1.706849_4	
+R2_B_D2__metabat2.bin.063|NODE_14613_length_5909_cov_1.706849_5	
+R2_B_D2__metabat2.bin.063|NODE_14613_length_5909_cov_1.706849_6	
+R2_B_D2__metabat2.bin.063|NODE_14613_length_5909_cov_1.706849_7	
+R2_B_D2__metabat2.bin.063|NODE_14613_length_5909_cov_1.706849_8	
+R2_B_D2__metabat2.bin.063|NODE_14613_length_5909_cov_1.706849_9	
+R2_B_D2__metabat2.bin.063|NODE_14613_length_5909_cov_1.706849_10	
+R2_B_D2__metabat2.bin.063|NODE_14613_length_5909_cov_1.706849_11	
+R2_B_D2__metabat2.bin.063|NODE_14613_length_5909_cov_1.706849_12	
+R2_B_D2__metabat2.bin.063|NODE_14613_length_5909_cov_1.706849_13	
+R2_B_D2__metabat2.bin.063|NODE_14630_length_5905_cov_1.320353_1	Seryl-tRNA synthetase (EC 6.1.1.11)
+R2_B_D2__metabat2.bin.063|NODE_14630_length_5905_cov_1.320353_2	
+R2_B_D2__metabat2.bin.063|NODE_14630_length_5905_cov_1.320353_3	
+R2_B_D2__metabat2.bin.063|NODE_14630_length_5905_cov_1.320353_4	N-acyl-D-amino-acid deacylase (EC 3.5.1.81)
+R2_B_D2__metabat2.bin.063|NODE_14630_length_5905_cov_1.320353_5	N-succinyl-L,L-diaminopimelate desuccinylase (EC 3.5.1.18)
+R2_B_D2__metabat2.bin.063|NODE_14630_length_5905_cov_1.320353_6	TRAP-type C4-dicarboxylate transport system, large permease component
+R2_B_D2__metabat2.bin.063|NODE_14887_length_5822_cov_1.518701_1	
+R2_B_D2__metabat2.bin.063|NODE_14887_length_5822_cov_1.518701_2	Phosphatidylglycerol--membrane-oligosaccharide glycerophosphotransferase (EC 2.7.8.20)
+R2_B_D2__metabat2.bin.063|NODE_14887_length_5822_cov_1.518701_3	
+R2_B_D2__metabat2.bin.063|NODE_14887_length_5822_cov_1.518701_4	Sodium-dependent anion transporter family
+R2_B_D2__metabat2.bin.063|NODE_14887_length_5822_cov_1.518701_5	nodulin 21-related protein
+R2_B_D2__metabat2.bin.063|NODE_14887_length_5822_cov_1.518701_6	UDP-N-acetylglucosamine 4,6-dehydratase (EC 4.2.1.135)
+R2_B_D2__metabat2.bin.063|NODE_14963_length_5801_cov_1.754494_1	
+R2_B_D2__metabat2.bin.063|NODE_14963_length_5801_cov_1.754494_2	
+R2_B_D2__metabat2.bin.063|NODE_14963_length_5801_cov_1.754494_3	23S rRNA (pseudouridine(1915)-N(3))-methyltransferase (EC 2.1.1.177)
+R2_B_D2__metabat2.bin.063|NODE_14963_length_5801_cov_1.754494_4	Zn-dependent hydrolase YycJ/WalJ, required for cell wall metabolism and coordination of cell division with DNA replication
+R2_B_D2__metabat2.bin.063|NODE_14963_length_5801_cov_1.754494_5	Redox-sensing transcriptional repressor Rex
+R2_B_D2__metabat2.bin.063|NODE_14963_length_5801_cov_1.754494_6	Methionyl-tRNA synthetase (EC 6.1.1.10)
+R2_B_D2__metabat2.bin.063|NODE_14963_length_5801_cov_1.754494_7	16S rRNA (cytidine(1402)-2'-O)-methyltransferase (EC 2.1.1.198)
+R2_B_D2__metabat2.bin.063|NODE_15045_length_5780_cov_2.819565_1	Dipeptide ABC transporter, substrate-binding protein DppA (TC 3.A.1.5.2)
+R2_B_D2__metabat2.bin.063|NODE_15045_length_5780_cov_2.819565_2	Dipeptide ABC transporter, permease protein DppB (TC 3.A.1.5.2)
+R2_B_D2__metabat2.bin.063|NODE_15045_length_5780_cov_2.819565_3	ABC transporter, permease protein 2 (cluster 5, nickel/peptides/opines)
+R2_B_D2__metabat2.bin.063|NODE_15045_length_5780_cov_2.819565_4	Oligopeptide ABC transporter, ATP-binding protein OppD (TC 3.A.1.5.1)
+R2_B_D2__metabat2.bin.063|NODE_15045_length_5780_cov_2.819565_5	Oligopeptide ABC transporter, ATP-binding protein OppF (TC 3.A.1.5.1)
+R2_B_D2__metabat2.bin.063|NODE_15045_length_5780_cov_2.819565_6	DegV family protein
+R2_B_D2__metabat2.bin.063|NODE_15062_length_5776_cov_2.455479_1	
+R2_B_D2__metabat2.bin.063|NODE_15062_length_5776_cov_2.455479_2	
+R2_B_D2__metabat2.bin.063|NODE_15062_length_5776_cov_2.455479_3	
+R2_B_D2__metabat2.bin.063|NODE_15062_length_5776_cov_2.455479_4	Metal-dependent hydrolase
+R2_B_D2__metabat2.bin.063|NODE_15062_length_5776_cov_2.455479_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_15062_length_5776_cov_2.455479_6	
+R2_B_D2__metabat2.bin.063|NODE_15062_length_5776_cov_2.455479_7	
+R2_B_D2__metabat2.bin.063|NODE_15108_length_5762_cov_1.822715_1	Peptidase M23B
+R2_B_D2__metabat2.bin.063|NODE_15108_length_5762_cov_1.822715_2	
+R2_B_D2__metabat2.bin.063|NODE_15108_length_5762_cov_1.822715_3	
+R2_B_D2__metabat2.bin.063|NODE_15108_length_5762_cov_1.822715_4	
+R2_B_D2__metabat2.bin.063|NODE_15108_length_5762_cov_1.822715_5	
+R2_B_D2__metabat2.bin.063|NODE_15108_length_5762_cov_1.822715_6	
+R2_B_D2__metabat2.bin.063|NODE_15108_length_5762_cov_1.822715_7	
+R2_B_D2__metabat2.bin.063|NODE_15110_length_5762_cov_1.412245_1	Uncharacterized aldehyde oxidase, 2Fe-2S subunit
+R2_B_D2__metabat2.bin.063|NODE_15110_length_5762_cov_1.412245_2	Xanthine dehydrogenase, molybdenum binding subunit (EC 1.17.1.4)
+R2_B_D2__metabat2.bin.063|NODE_15110_length_5762_cov_1.412245_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_15110_length_5762_cov_1.412245_4	Acyl carrier protein
+R2_B_D2__metabat2.bin.063|NODE_15110_length_5762_cov_1.412245_5	Ribonuclease III (EC 3.1.26.3)
+R2_B_D2__metabat2.bin.063|NODE_15110_length_5762_cov_1.412245_6	
+R2_B_D2__metabat2.bin.063|NODE_15110_length_5762_cov_1.412245_7	
+R2_B_D2__metabat2.bin.063|NODE_15419_length_5678_cov_2.746712_1	
+R2_B_D2__metabat2.bin.063|NODE_15419_length_5678_cov_2.746712_2	Uncharacterized protein YahG
+R2_B_D2__metabat2.bin.063|NODE_15419_length_5678_cov_2.746712_3	
+R2_B_D2__metabat2.bin.063|NODE_15419_length_5678_cov_2.746712_4	
+R2_B_D2__metabat2.bin.063|NODE_15419_length_5678_cov_2.746712_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_15419_length_5678_cov_2.746712_6	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_15525_length_5646_cov_1.481971_1	
+R2_B_D2__metabat2.bin.063|NODE_15525_length_5646_cov_1.481971_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_15525_length_5646_cov_1.481971_3	
+R2_B_D2__metabat2.bin.063|NODE_15525_length_5646_cov_1.481971_4	TRAP-type C4-dicarboxylate transport system, large permease component
+R2_B_D2__metabat2.bin.063|NODE_15525_length_5646_cov_1.481971_5	Alanine dehydrogenase (EC 1.4.1.1)
+R2_B_D2__metabat2.bin.063|NODE_15525_length_5646_cov_1.481971_6	2,4-diaminopentanoate dehydrogenase (EC 1.4.1.12)
+R2_B_D2__metabat2.bin.063|NODE_15568_length_5635_cov_1.512890_1	UPF0182 protein AF1421
+R2_B_D2__metabat2.bin.063|NODE_15568_length_5635_cov_1.512890_2	S-adenosylhomocysteine deaminase (EC 3.5.4.28); Methylthioadenosine deaminase (EC 3.5.4.31)
+R2_B_D2__metabat2.bin.063|NODE_15568_length_5635_cov_1.512890_3	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (EC 2.7.8.5)
+R2_B_D2__metabat2.bin.063|NODE_15568_length_5635_cov_1.512890_4	
+R2_B_D2__metabat2.bin.063|NODE_15568_length_5635_cov_1.512890_5	Bacterial non-heme ferritin (EC 1.16.3.2)
+R2_B_D2__metabat2.bin.063|NODE_15568_length_5635_cov_1.512890_6	Substrate-specific component QueT (COG4708) of predicted queuosine-regulated ECF transporter
+R2_B_D2__metabat2.bin.063|NODE_15568_length_5635_cov_1.512890_7	Ribonuclease HII (EC 3.1.26.4)
+R2_B_D2__metabat2.bin.063|NODE_15568_length_5635_cov_1.512890_8	LSU ribosomal maturation GTPase RbgA (B. subtilis YlqF)
+R2_B_D2__metabat2.bin.063|NODE_15579_length_5631_cov_1.808321_1	
+R2_B_D2__metabat2.bin.063|NODE_15579_length_5631_cov_1.808321_2	Bifurcating [FeFe] hydrogenase, gamma subunit (EC 1.12.1.4)
+R2_B_D2__metabat2.bin.063|NODE_15579_length_5631_cov_1.808321_3	Bifurcating [FeFe] hydrogenase, beta subunit (EC 1.12.1.4)
+R2_B_D2__metabat2.bin.063|NODE_15579_length_5631_cov_1.808321_4	NAD-dependent formate dehydrogenase alpha subunit @ selenocysteine-containing
+R2_B_D2__metabat2.bin.063|NODE_15579_length_5631_cov_1.808321_5	Molybdenum cofactor guanylyltransferase (EC 2.7.7.77)
+R2_B_D2__metabat2.bin.063|NODE_15589_length_5629_cov_1.543802_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_15589_length_5629_cov_1.543802_2	MATE efflux family protein
+R2_B_D2__metabat2.bin.063|NODE_15589_length_5629_cov_1.543802_3	Probable GTPase related to EngC
+R2_B_D2__metabat2.bin.063|NODE_15589_length_5629_cov_1.543802_4	Methyltransferase type 11
+R2_B_D2__metabat2.bin.063|NODE_15589_length_5629_cov_1.543802_5	Peptide-methionine (S)-S-oxide reductase MsrA (EC 1.8.4.11)
+R2_B_D2__metabat2.bin.063|NODE_15589_length_5629_cov_1.543802_6	Peptide-methionine (R)-S-oxide reductase MsrB (EC 1.8.4.12)
+R2_B_D2__metabat2.bin.063|NODE_15589_length_5629_cov_1.543802_7	
+R2_B_D2__metabat2.bin.063|NODE_15669_length_5605_cov_2.044177_1	UPF0047 protein Bsu YugU
+R2_B_D2__metabat2.bin.063|NODE_15669_length_5605_cov_2.044177_2	Glycerate kinase (EC 2.7.1.31)
+R2_B_D2__metabat2.bin.063|NODE_15669_length_5605_cov_2.044177_3	Substrate-specific component ThiT of thiamin ECF transporter
+R2_B_D2__metabat2.bin.063|NODE_15669_length_5605_cov_2.044177_4	Lysyl-tRNA synthetase (class II) (EC 6.1.1.6)
+R2_B_D2__metabat2.bin.063|NODE_15669_length_5605_cov_2.044177_5	Transcription elongation factor GreA
+R2_B_D2__metabat2.bin.063|NODE_15669_length_5605_cov_2.044177_6	
+R2_B_D2__metabat2.bin.063|NODE_15752_length_5582_cov_1.419982_1	
+R2_B_D2__metabat2.bin.063|NODE_15752_length_5582_cov_1.419982_2	TRAP dicarboxylate transporter, DctM subunit, unknown substrate 8
+R2_B_D2__metabat2.bin.063|NODE_15752_length_5582_cov_1.419982_3	Oxidoreductase, short-chain dehydrogenase/reductase family
+R2_B_D2__metabat2.bin.063|NODE_15752_length_5582_cov_1.419982_4	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)
+R2_B_D2__metabat2.bin.063|NODE_15752_length_5582_cov_1.419982_5	
+R2_B_D2__metabat2.bin.063|NODE_15752_length_5582_cov_1.419982_6	D-mannonate oxidoreductase (EC 1.1.1.57)
+R2_B_D2__metabat2.bin.063|NODE_15818_length_5564_cov_1.435718_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_15818_length_5564_cov_1.435718_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_15818_length_5564_cov_1.435718_3	Iron-sulfur cluster assembly ATPase protein SufC
+R2_B_D2__metabat2.bin.063|NODE_15818_length_5564_cov_1.435718_4	Iron-sulfur cluster assembly protein SufB
+R2_B_D2__metabat2.bin.063|NODE_15818_length_5564_cov_1.435718_5	
+R2_B_D2__metabat2.bin.063|NODE_15818_length_5564_cov_1.435718_6	
+R2_B_D2__metabat2.bin.063|NODE_15818_length_5564_cov_1.435718_7	
+R2_B_D2__metabat2.bin.063|NODE_16006_length_5513_cov_1.719087_1	GTP-binding and nucleic acid-binding protein YchF
+R2_B_D2__metabat2.bin.063|NODE_16006_length_5513_cov_1.719087_2	SSU ribosomal protein S6p
+R2_B_D2__metabat2.bin.063|NODE_16006_length_5513_cov_1.719087_3	Single-stranded DNA-binding protein
+R2_B_D2__metabat2.bin.063|NODE_16006_length_5513_cov_1.719087_4	SSU ribosomal protein S18p @ SSU ribosomal protein S18p, zinc-dependent
+R2_B_D2__metabat2.bin.063|NODE_16006_length_5513_cov_1.719087_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_16006_length_5513_cov_1.719087_6	LSU ribosomal protein L9p
+R2_B_D2__metabat2.bin.063|NODE_16006_length_5513_cov_1.719087_7	Transcriptional regulator, AcrR family
+R2_B_D2__metabat2.bin.063|NODE_16006_length_5513_cov_1.719087_8	ABC-type antimicrobial peptide transport system, ATPase component
+R2_B_D2__metabat2.bin.063|NODE_16006_length_5513_cov_1.719087_9	
+R2_B_D2__metabat2.bin.063|NODE_16441_length_5398_cov_1.143237_1	
+R2_B_D2__metabat2.bin.063|NODE_16441_length_5398_cov_1.143237_2	Transcriptional regulator, Xre family
+R2_B_D2__metabat2.bin.063|NODE_16441_length_5398_cov_1.143237_3	DNA gyrase subunit A (EC 5.99.1.3)
+R2_B_D2__metabat2.bin.063|NODE_16441_length_5398_cov_1.143237_4	DNA gyrase subunit A (EC 5.99.1.3)
+R2_B_D2__metabat2.bin.063|NODE_16441_length_5398_cov_1.143237_5	DNA gyrase subunit B (EC 5.99.1.3)
+R2_B_D2__metabat2.bin.063|NODE_16441_length_5398_cov_1.143237_6	
+R2_B_D2__metabat2.bin.063|NODE_16441_length_5398_cov_1.143237_7	
+R2_B_D2__metabat2.bin.063|NODE_16489_length_5386_cov_2.004944_1	Uncharacterized protease YrrO
+R2_B_D2__metabat2.bin.063|NODE_16489_length_5386_cov_2.004944_2	
+R2_B_D2__metabat2.bin.063|NODE_16489_length_5386_cov_2.004944_3	
+R2_B_D2__metabat2.bin.063|NODE_16489_length_5386_cov_2.004944_4	Spore cortex-lytic enzyme, lytic transglycosylase SleB
+R2_B_D2__metabat2.bin.063|NODE_16489_length_5386_cov_2.004944_5	Transition state regulatory protein AbrB
+R2_B_D2__metabat2.bin.063|NODE_16489_length_5386_cov_2.004944_6	Ferric uptake regulation protein FUR
+R2_B_D2__metabat2.bin.063|NODE_16489_length_5386_cov_2.004944_7	
+R2_B_D2__metabat2.bin.063|NODE_16489_length_5386_cov_2.004944_8	Transcriptional regulator, Crp/Fnr family
+R2_B_D2__metabat2.bin.063|NODE_16489_length_5386_cov_2.004944_9	Permease of the drug/metabolite transporter (DMT) superfamily
+R2_B_D2__metabat2.bin.063|NODE_16489_length_5386_cov_2.004944_10	Shikimate 5-dehydrogenase I alpha (EC 1.1.1.25)
+R2_B_D2__metabat2.bin.063|NODE_16591_length_5366_cov_1.671311_1	Polysaccharide pyruvyl transferase CsaB
+R2_B_D2__metabat2.bin.063|NODE_16591_length_5366_cov_1.671311_2	N-acetylmannosaminyltransferase (EC 2.4.1.187)
+R2_B_D2__metabat2.bin.063|NODE_16591_length_5366_cov_1.671311_3	Carboxyl-terminal protease (EC 3.4.21.102)
+R2_B_D2__metabat2.bin.063|NODE_16591_length_5366_cov_1.671311_4	L-serine dehydratase, beta subunit (EC 4.3.1.17)
+R2_B_D2__metabat2.bin.063|NODE_16591_length_5366_cov_1.671311_5	
+R2_B_D2__metabat2.bin.063|NODE_16591_length_5366_cov_1.671311_6	L-serine dehydratase, alpha subunit (EC 4.3.1.17)
+R2_B_D2__metabat2.bin.063|NODE_16591_length_5366_cov_1.671311_7	Excinuclease ABC subunit B
+R2_B_D2__metabat2.bin.063|NODE_16687_length_5344_cov_1.151620_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_16687_length_5344_cov_1.151620_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_16687_length_5344_cov_1.151620_3	Glycosyl transferase, group 2 family
+R2_B_D2__metabat2.bin.063|NODE_16687_length_5344_cov_1.151620_4	
+R2_B_D2__metabat2.bin.063|NODE_16687_length_5344_cov_1.151620_5	
+R2_B_D2__metabat2.bin.063|NODE_16692_length_5343_cov_1.216449_1	
+R2_B_D2__metabat2.bin.063|NODE_16692_length_5343_cov_1.216449_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_16692_length_5343_cov_1.216449_3	
+R2_B_D2__metabat2.bin.063|NODE_16692_length_5343_cov_1.216449_4	MinD superfamily P-loop ATPase containing an inserted ferredoxin domain
+R2_B_D2__metabat2.bin.063|NODE_16692_length_5343_cov_1.216449_5	MinD superfamily P-loop ATPase containing an inserted ferredoxin domain
+R2_B_D2__metabat2.bin.063|NODE_16692_length_5343_cov_1.216449_6	
+R2_B_D2__metabat2.bin.063|NODE_16692_length_5343_cov_1.216449_7	Putative UV-damage repair protein UvrX
+R2_B_D2__metabat2.bin.063|NODE_16692_length_5343_cov_1.216449_8	
+R2_B_D2__metabat2.bin.063|NODE_16692_length_5343_cov_1.216449_9	
+R2_B_D2__metabat2.bin.063|NODE_16749_length_5333_cov_1.725317_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_16749_length_5333_cov_1.725317_2	DNA alkylation repair enzyme
+R2_B_D2__metabat2.bin.063|NODE_16749_length_5333_cov_1.725317_3	Xanthine and CO dehydrogenases maturation factor, XdhC/CoxF family
+R2_B_D2__metabat2.bin.063|NODE_16749_length_5333_cov_1.725317_4	
+R2_B_D2__metabat2.bin.063|NODE_16749_length_5333_cov_1.725317_5	
+R2_B_D2__metabat2.bin.063|NODE_16749_length_5333_cov_1.725317_6	Metal transporter, ZIP family
+R2_B_D2__metabat2.bin.063|NODE_16749_length_5333_cov_1.725317_7	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_16913_length_5296_cov_1.463726_1	
+R2_B_D2__metabat2.bin.063|NODE_16913_length_5296_cov_1.463726_2	
+R2_B_D2__metabat2.bin.063|NODE_16913_length_5296_cov_1.463726_3	
+R2_B_D2__metabat2.bin.063|NODE_16913_length_5296_cov_1.463726_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_16919_length_5295_cov_1.559017_1	Vitamin B12 ABC transporter, permease protein BtuC
+R2_B_D2__metabat2.bin.063|NODE_16919_length_5295_cov_1.559017_2	
+R2_B_D2__metabat2.bin.063|NODE_16919_length_5295_cov_1.559017_3	Alpha,alpha-trehalose phosphorylase (2.4.1.64)
+R2_B_D2__metabat2.bin.063|NODE_16919_length_5295_cov_1.559017_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_16919_length_5295_cov_1.559017_5	
+R2_B_D2__metabat2.bin.063|NODE_17028_length_5270_cov_1.310130_1	Valyl-tRNA synthetase (EC 6.1.1.9)
+R2_B_D2__metabat2.bin.063|NODE_17028_length_5270_cov_1.310130_2	Pyrophosphate-dependent fructose 6-phosphate-1-kinase (EC 2.7.1.90)
+R2_B_D2__metabat2.bin.063|NODE_17028_length_5270_cov_1.310130_3	Tryptophanase (EC 4.1.99.1)
+R2_B_D2__metabat2.bin.063|NODE_17028_length_5270_cov_1.310130_4	Maltodextrin ABC transporter, substrate-binding protein MdxE
+R2_B_D2__metabat2.bin.063|NODE_17028_length_5270_cov_1.310130_5	
+R2_B_D2__metabat2.bin.063|NODE_17298_length_5210_cov_1.713752_1	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (EC 4.6.1.12)
+R2_B_D2__metabat2.bin.063|NODE_17298_length_5210_cov_1.713752_2	CBS domain protein
+R2_B_D2__metabat2.bin.063|NODE_17298_length_5210_cov_1.713752_3	Glutamyl-tRNA synthetase (EC 6.1.1.17) @ Glutamyl-tRNA(Gln) synthetase (EC 6.1.1.24)
+R2_B_D2__metabat2.bin.063|NODE_17298_length_5210_cov_1.713752_4	Cysteinyl-tRNA synthetase (EC 6.1.1.16)
+R2_B_D2__metabat2.bin.063|NODE_17298_length_5210_cov_1.713752_5	Thymidylate synthase ThyX (EC 2.1.1.148)
+R2_B_D2__metabat2.bin.063|NODE_17298_length_5210_cov_1.713752_6	
+R2_B_D2__metabat2.bin.063|NODE_17505_length_5168_cov_1.161278_1	
+R2_B_D2__metabat2.bin.063|NODE_17505_length_5168_cov_1.161278_2	
+R2_B_D2__metabat2.bin.063|NODE_17505_length_5168_cov_1.161278_3	Lipoate carrier protein / Dihydrolipoamide dehydrogenase (EC 1.8.1.4)
+R2_B_D2__metabat2.bin.063|NODE_17505_length_5168_cov_1.161278_4	Lipoate-protein ligase A
+R2_B_D2__metabat2.bin.063|NODE_17505_length_5168_cov_1.161278_5	
+R2_B_D2__metabat2.bin.063|NODE_17505_length_5168_cov_1.161278_6	UDP-N-acetylglucosamine 2-epimerase (EC 5.1.3.14)
+R2_B_D2__metabat2.bin.063|NODE_17505_length_5168_cov_1.161278_7	Protein-L-isoaspartate O-methyltransferase (EC 2.1.1.77)
+R2_B_D2__metabat2.bin.063|NODE_17733_length_5118_cov_1.291725_1	
+R2_B_D2__metabat2.bin.063|NODE_17733_length_5118_cov_1.291725_2	
+R2_B_D2__metabat2.bin.063|NODE_17733_length_5118_cov_1.291725_3	COG1683: Uncharacterized conserved protein / FIG143828: Hypothetical protein YbgA
+R2_B_D2__metabat2.bin.063|NODE_17733_length_5118_cov_1.291725_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_17733_length_5118_cov_1.291725_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_17733_length_5118_cov_1.291725_6	
+R2_B_D2__metabat2.bin.063|NODE_17857_length_5089_cov_4.197299_1	
+R2_B_D2__metabat2.bin.063|NODE_17857_length_5089_cov_4.197299_2	
+R2_B_D2__metabat2.bin.063|NODE_17857_length_5089_cov_4.197299_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_17857_length_5089_cov_4.197299_4	
+R2_B_D2__metabat2.bin.063|NODE_17857_length_5089_cov_4.197299_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_17857_length_5089_cov_4.197299_6	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_17936_length_5075_cov_1.457357_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_17936_length_5075_cov_1.457357_2	
+R2_B_D2__metabat2.bin.063|NODE_17936_length_5075_cov_1.457357_3	NADPH-dependent butanol dehydrogenase
+R2_B_D2__metabat2.bin.063|NODE_17936_length_5075_cov_1.457357_4	
+R2_B_D2__metabat2.bin.063|NODE_17936_length_5075_cov_1.457357_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_18001_length_5061_cov_1.295501_1	
+R2_B_D2__metabat2.bin.063|NODE_18001_length_5061_cov_1.295501_2	Cell division protein FtsA
+R2_B_D2__metabat2.bin.063|NODE_18001_length_5061_cov_1.295501_3	Cell division protein FtsZ
+R2_B_D2__metabat2.bin.063|NODE_18001_length_5061_cov_1.295501_4	FIG00003370: Multicopper polyphenol oxidase
+R2_B_D2__metabat2.bin.063|NODE_18001_length_5061_cov_1.295501_5	
+R2_B_D2__metabat2.bin.063|NODE_18001_length_5061_cov_1.295501_6	Pyridoxal phosphate-containing protein YggS
+R2_B_D2__metabat2.bin.063|NODE_18077_length_5045_cov_1.343229_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_18077_length_5045_cov_1.343229_2	Shikimate kinase I (EC 2.7.1.71)
+R2_B_D2__metabat2.bin.063|NODE_18077_length_5045_cov_1.343229_3	3-dehydroquinate synthase (EC 4.2.3.4)
+R2_B_D2__metabat2.bin.063|NODE_18077_length_5045_cov_1.343229_4	3-dehydroquinate dehydratase II (EC 4.2.1.10)
+R2_B_D2__metabat2.bin.063|NODE_18077_length_5045_cov_1.343229_5	Aminopeptidase YpdF (MP-, MA-, MS-, AP-, NP- specific)
+R2_B_D2__metabat2.bin.063|NODE_18077_length_5045_cov_1.343229_6	Translation elongation factor P
+R2_B_D2__metabat2.bin.063|NODE_18077_length_5045_cov_1.343229_7	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_18419_length_4980_cov_1.299196_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_18419_length_4980_cov_1.299196_2	
+R2_B_D2__metabat2.bin.063|NODE_18419_length_4980_cov_1.299196_3	Fructose-bisphosphate aldolase class II (EC 4.1.2.13)
+R2_B_D2__metabat2.bin.063|NODE_18419_length_4980_cov_1.299196_4	1-phosphofructokinase (EC 2.7.1.56)
+R2_B_D2__metabat2.bin.063|NODE_18419_length_4980_cov_1.299196_5	N-acetylglucosamine-6-phosphate deacetylase (EC 3.5.1.25)
+R2_B_D2__metabat2.bin.063|NODE_18526_length_4962_cov_1.345398_1	ABC transporter, substrate-binding protein (cluster 5, nickel/peptides/opines)
+R2_B_D2__metabat2.bin.063|NODE_18526_length_4962_cov_1.345398_2	
+R2_B_D2__metabat2.bin.063|NODE_18526_length_4962_cov_1.345398_3	ABC transporter, permease protein 2 (cluster 5, nickel/peptides/opines)
+R2_B_D2__metabat2.bin.063|NODE_18526_length_4962_cov_1.345398_4	
+R2_B_D2__metabat2.bin.063|NODE_18526_length_4962_cov_1.345398_5	
+R2_B_D2__metabat2.bin.063|NODE_18586_length_4951_cov_1.564677_1	Exodeoxyribonuclease VII large subunit (EC 3.1.11.6)
+R2_B_D2__metabat2.bin.063|NODE_18586_length_4951_cov_1.564677_2	
+R2_B_D2__metabat2.bin.063|NODE_18586_length_4951_cov_1.564677_3	Bifurcating [FeFe] hydrogenase, gamma subunit (EC 1.12.1.4)
+R2_B_D2__metabat2.bin.063|NODE_18586_length_4951_cov_1.564677_4	NADH-ubiquinone oxidoreductase chain F (EC 1.6.5.3)
+R2_B_D2__metabat2.bin.063|NODE_18586_length_4951_cov_1.564677_5	NADH-dependent reduced ferredoxin:NADP+ oxidoreductase subunit B
+R2_B_D2__metabat2.bin.063|NODE_18670_length_4935_cov_1.319260_1	
+R2_B_D2__metabat2.bin.063|NODE_18670_length_4935_cov_1.319260_2	
+R2_B_D2__metabat2.bin.063|NODE_18670_length_4935_cov_1.319260_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_18670_length_4935_cov_1.319260_4	
+R2_B_D2__metabat2.bin.063|NODE_18802_length_4909_cov_1.753869_1	Glycine betaine/L-proline transport system permease protein ProW (TC 3.A.1.12.1)
+R2_B_D2__metabat2.bin.063|NODE_18802_length_4909_cov_1.753869_2	Choline binding ABC transport system substrate-binding protein ChoX
+R2_B_D2__metabat2.bin.063|NODE_18802_length_4909_cov_1.753869_3	Glycine betaine/L-proline transport ATP-binding protein ProV (TC 3.A.1.12.1)
+R2_B_D2__metabat2.bin.063|NODE_18802_length_4909_cov_1.753869_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_18802_length_4909_cov_1.753869_5	
+R2_B_D2__metabat2.bin.063|NODE_18802_length_4909_cov_1.753869_6	RNA methyltransferase, TrmA family
+R2_B_D2__metabat2.bin.063|NODE_18971_length_4879_cov_1.598695_1	
+R2_B_D2__metabat2.bin.063|NODE_18971_length_4879_cov_1.598695_2	Indolepyruvate oxidoreductase subunit IorA (EC 1.2.7.8)
+R2_B_D2__metabat2.bin.063|NODE_18971_length_4879_cov_1.598695_3	Indolepyruvate oxidoreductase subunit IorB (EC 1.2.7.8)
+R2_B_D2__metabat2.bin.063|NODE_18971_length_4879_cov_1.598695_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_19057_length_4864_cov_1.585392_1	Pyridine nucleotide-disulfide oxidoreductase; NADH dehydrogenase (EC 1.6.99.3)
+R2_B_D2__metabat2.bin.063|NODE_19057_length_4864_cov_1.585392_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_19057_length_4864_cov_1.585392_3	Scaffold protein for [4Fe-4S] cluster assembly ApbC, MRP-like
+R2_B_D2__metabat2.bin.063|NODE_19057_length_4864_cov_1.585392_4	Ferrous iron transporter FeoB
+R2_B_D2__metabat2.bin.063|NODE_19250_length_4832_cov_1.185760_1	
+R2_B_D2__metabat2.bin.063|NODE_19250_length_4832_cov_1.185760_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_19250_length_4832_cov_1.185760_3	ABC transporter, substrate-binding protein (cluster 3, basic aa/glutamine/opines)
+R2_B_D2__metabat2.bin.063|NODE_19250_length_4832_cov_1.185760_4	ABC transporter, permease protein (cluster 3, basic aa/glutamine/opines)
+R2_B_D2__metabat2.bin.063|NODE_19250_length_4832_cov_1.185760_5	ABC transporter, ATP-binding protein (cluster 3, basic aa/glutamine/opines)
+R2_B_D2__metabat2.bin.063|NODE_19250_length_4832_cov_1.185760_6	ABC transporter, permease protein (cluster 3, basic aa/glutamine/opines)
+R2_B_D2__metabat2.bin.063|NODE_19250_length_4832_cov_1.185760_7	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_19286_length_4823_cov_3.167164_1	Multimodular transpeptidase-transglycosylase (EC 2.4.1.129) (EC 3.4.-.-)
+R2_B_D2__metabat2.bin.063|NODE_19286_length_4823_cov_3.167164_2	Retron-type RNA-directed DNA polymerase (EC 2.7.7.49)
+R2_B_D2__metabat2.bin.063|NODE_19286_length_4823_cov_3.167164_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_19500_length_4782_cov_1.617830_1	
+R2_B_D2__metabat2.bin.063|NODE_19500_length_4782_cov_1.617830_2	Modification methylase MjaIII (EC 2.1.1.72)
+R2_B_D2__metabat2.bin.063|NODE_19500_length_4782_cov_1.617830_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_19500_length_4782_cov_1.617830_4	
+R2_B_D2__metabat2.bin.063|NODE_19500_length_4782_cov_1.617830_5	Ferrous iron transporter FeoB
+R2_B_D2__metabat2.bin.063|NODE_19550_length_4775_cov_1.395439_1	
+R2_B_D2__metabat2.bin.063|NODE_19550_length_4775_cov_1.395439_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_19550_length_4775_cov_1.395439_3	
+R2_B_D2__metabat2.bin.063|NODE_19550_length_4775_cov_1.395439_4	2-hydroxy-3-keto-5-methylthiopentenyl-1-phosphate phosphatase related protein
+R2_B_D2__metabat2.bin.063|NODE_19550_length_4775_cov_1.395439_5	
+R2_B_D2__metabat2.bin.063|NODE_19550_length_4775_cov_1.395439_6	
+R2_B_D2__metabat2.bin.063|NODE_19615_length_4764_cov_2.050248_1	
+R2_B_D2__metabat2.bin.063|NODE_19615_length_4764_cov_2.050248_2	Transcriptional repressor for NAD biosynthesis in gram-positives
+R2_B_D2__metabat2.bin.063|NODE_19615_length_4764_cov_2.050248_3	2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase, beta subunit (EC 1.2.7.-)
+R2_B_D2__metabat2.bin.063|NODE_19615_length_4764_cov_2.050248_4	2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase, gamma subunit (EC 1.2.7.-) / 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase, alpha subunit (EC 1.2.7.-)
+R2_B_D2__metabat2.bin.063|NODE_19615_length_4764_cov_2.050248_5	Rubrerythrin
+R2_B_D2__metabat2.bin.063|NODE_19615_length_4764_cov_2.050248_6	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_19615_length_4764_cov_2.050248_7	
+R2_B_D2__metabat2.bin.063|NODE_19648_length_4759_cov_1.572107_1	
+R2_B_D2__metabat2.bin.063|NODE_19648_length_4759_cov_1.572107_2	Uncharacterized corrinoid protein
+R2_B_D2__metabat2.bin.063|NODE_19648_length_4759_cov_1.572107_3	High-affinity choline uptake protein BetT
+R2_B_D2__metabat2.bin.063|NODE_19648_length_4759_cov_1.572107_4	Transcriptional regulator, AcrR family
+R2_B_D2__metabat2.bin.063|NODE_19648_length_4759_cov_1.572107_5	
+R2_B_D2__metabat2.bin.063|NODE_19757_length_4741_cov_1.585392_1	Protein translocase subunit SecA
+R2_B_D2__metabat2.bin.063|NODE_19757_length_4741_cov_1.585392_2	Peptide chain release factor 2 @ programmed frameshift-containing
+R2_B_D2__metabat2.bin.063|NODE_19757_length_4741_cov_1.585392_3	Polysaccharide biosynthesis protein X
+R2_B_D2__metabat2.bin.063|NODE_19757_length_4741_cov_1.585392_4	Polysaccharide pyruvyl transferase CsaB
+R2_B_D2__metabat2.bin.063|NODE_19797_length_4732_cov_1.484256_1	
+R2_B_D2__metabat2.bin.063|NODE_19797_length_4732_cov_1.484256_2	Chromosome partition protein smc
+R2_B_D2__metabat2.bin.063|NODE_19797_length_4732_cov_1.484256_3	Signal recognition particle receptor FtsY
+R2_B_D2__metabat2.bin.063|NODE_19948_length_4706_cov_1.818083_1	
+R2_B_D2__metabat2.bin.063|NODE_19948_length_4706_cov_1.818083_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_19948_length_4706_cov_1.818083_3	GTP-binding protein TypA/BipA
+R2_B_D2__metabat2.bin.063|NODE_19948_length_4706_cov_1.818083_4	redox proteins related to the succinate dehydrogenases and fumarate reductases
+R2_B_D2__metabat2.bin.063|NODE_20074_length_4686_cov_1.322000_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_20074_length_4686_cov_1.322000_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_20074_length_4686_cov_1.322000_3	Multi antimicrobial extrusion protein (Na(+)/drug antiporter), MATE family of MDR efflux pumps
+R2_B_D2__metabat2.bin.063|NODE_20074_length_4686_cov_1.322000_4	
+R2_B_D2__metabat2.bin.063|NODE_20074_length_4686_cov_1.322000_5	Cold shock protein of CSP family
+R2_B_D2__metabat2.bin.063|NODE_20074_length_4686_cov_1.322000_6	DEAD-box ATP-dependent RNA helicase DeaD (= CshA) (EC 3.6.4.13)
+R2_B_D2__metabat2.bin.063|NODE_20084_length_4684_cov_1.418916_1	Phenylalanyl-tRNA synthetase beta chain (EC 6.1.1.20)
+R2_B_D2__metabat2.bin.063|NODE_20084_length_4684_cov_1.418916_2	Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)
+R2_B_D2__metabat2.bin.063|NODE_20084_length_4684_cov_1.418916_3	Uncharacterized RNA methyltransferase YsgA
+R2_B_D2__metabat2.bin.063|NODE_20084_length_4684_cov_1.418916_4	LSU ribosomal protein L20p
+R2_B_D2__metabat2.bin.063|NODE_20084_length_4684_cov_1.418916_5	LSU ribosomal protein L35p
+R2_B_D2__metabat2.bin.063|NODE_20084_length_4684_cov_1.418916_6	Translation initiation factor 3
+R2_B_D2__metabat2.bin.063|NODE_20111_length_4679_cov_1.887302_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_20111_length_4679_cov_1.887302_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_20111_length_4679_cov_1.887302_3	
+R2_B_D2__metabat2.bin.063|NODE_20111_length_4679_cov_1.887302_4	Integrase/recombinase, RitC
+R2_B_D2__metabat2.bin.063|NODE_20111_length_4679_cov_1.887302_5	
+R2_B_D2__metabat2.bin.063|NODE_20149_length_4672_cov_1.221562_1	
+R2_B_D2__metabat2.bin.063|NODE_20149_length_4672_cov_1.221562_2	
+R2_B_D2__metabat2.bin.063|NODE_20149_length_4672_cov_1.221562_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_20178_length_4667_cov_1.540969_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_20178_length_4667_cov_1.540969_2	ABC transporter, permease protein 2 (cluster 5, nickel/peptides/opines)
+R2_B_D2__metabat2.bin.063|NODE_20178_length_4667_cov_1.540969_3	
+R2_B_D2__metabat2.bin.063|NODE_20178_length_4667_cov_1.540969_4	Oligopeptide ABC transporter, substrate-binding protein OppA (TC 3.A.1.5.1)
+R2_B_D2__metabat2.bin.063|NODE_20178_length_4667_cov_1.540969_5	
+R2_B_D2__metabat2.bin.063|NODE_20199_length_4665_cov_1.371309_1	Phosphoribosylamine--glycine ligase (EC 6.3.4.13)
+R2_B_D2__metabat2.bin.063|NODE_20199_length_4665_cov_1.371309_2	N5-carboxyaminoimidazole ribonucleotide mutase (EC 5.4.99.18)
+R2_B_D2__metabat2.bin.063|NODE_20199_length_4665_cov_1.371309_3	Adenylosuccinate lyase (EC 4.3.2.2) @ SAICAR lyase (EC 4.3.2.2)
+R2_B_D2__metabat2.bin.063|NODE_20199_length_4665_cov_1.371309_4	Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6)
+R2_B_D2__metabat2.bin.063|NODE_20199_length_4665_cov_1.371309_5	Phosphoribosylformylglycinamidine synthase, PurS subunit (EC 6.3.5.3)
+R2_B_D2__metabat2.bin.063|NODE_20199_length_4665_cov_1.371309_6	Phosphoribosylformylglycinamidine synthase, glutamine amidotransferase subunit (EC 6.3.5.3)
+R2_B_D2__metabat2.bin.063|NODE_20199_length_4665_cov_1.371309_7	Phosphoribosylformylglycinamidine synthase, synthetase subunit (EC 6.3.5.3)
+R2_B_D2__metabat2.bin.063|NODE_20247_length_4657_cov_0.988742_1	
+R2_B_D2__metabat2.bin.063|NODE_20247_length_4657_cov_0.988742_2	Cysteine synthase (EC 2.5.1.47)
+R2_B_D2__metabat2.bin.063|NODE_20247_length_4657_cov_0.988742_3	Serine acetyltransferase (EC 2.3.1.30)
+R2_B_D2__metabat2.bin.063|NODE_20247_length_4657_cov_0.988742_4	diguanylate cyclase/phosphodiesterase (GGDEF & EAL domains) with PAS/PAC sensor(s)
+R2_B_D2__metabat2.bin.063|NODE_20247_length_4657_cov_0.988742_5	D-serine ammonia-lyase (EC 4.3.1.18)
+R2_B_D2__metabat2.bin.063|NODE_20287_length_4651_cov_1.515915_1	Amidophosphoribosyltransferase (EC 2.4.2.14)
+R2_B_D2__metabat2.bin.063|NODE_20287_length_4651_cov_1.515915_2	Phosphoribosylformylglycinamidine synthase, synthetase subunit (EC 6.3.5.3)
+R2_B_D2__metabat2.bin.063|NODE_20287_length_4651_cov_1.515915_3	Phosphoribosylformylglycinamidine synthase, glutamine amidotransferase subunit (EC 6.3.5.3)
+R2_B_D2__metabat2.bin.063|NODE_20287_length_4651_cov_1.515915_4	Phosphoribosylformylglycinamidine synthase, PurS subunit (EC 6.3.5.3)
+R2_B_D2__metabat2.bin.063|NODE_20287_length_4651_cov_1.515915_5	Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6)
+R2_B_D2__metabat2.bin.063|NODE_20355_length_4640_cov_1.824285_1	Hypothetical NagD-like phosphatase
+R2_B_D2__metabat2.bin.063|NODE_20355_length_4640_cov_1.824285_2	Glycerophosphoryl diester phosphodiesterase (EC 3.1.4.46)
+R2_B_D2__metabat2.bin.063|NODE_20355_length_4640_cov_1.824285_3	Glycerol-3-phosphate dehydrogenase (EC 1.1.5.3)
+R2_B_D2__metabat2.bin.063|NODE_20355_length_4640_cov_1.824285_4	Putative oxidoreductase
+R2_B_D2__metabat2.bin.063|NODE_20355_length_4640_cov_1.824285_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_20355_length_4640_cov_1.824285_6	
+R2_B_D2__metabat2.bin.063|NODE_20457_length_4623_cov_1.368995_1	Dihydrofolate synthase (EC 6.3.2.12) @ Folylpolyglutamate synthase (EC 6.3.2.17)
+R2_B_D2__metabat2.bin.063|NODE_20457_length_4623_cov_1.368995_2	
+R2_B_D2__metabat2.bin.063|NODE_20457_length_4623_cov_1.368995_3	Electron transport complex protein RnfC
+R2_B_D2__metabat2.bin.063|NODE_20457_length_4623_cov_1.368995_4	Electron transport complex protein RnfD
+R2_B_D2__metabat2.bin.063|NODE_20457_length_4623_cov_1.368995_5	
+R2_B_D2__metabat2.bin.063|NODE_20457_length_4623_cov_1.368995_6	Electron transport complex protein RnfE
+R2_B_D2__metabat2.bin.063|NODE_20457_length_4623_cov_1.368995_7	
+R2_B_D2__metabat2.bin.063|NODE_20545_length_4608_cov_1.478018_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_20545_length_4608_cov_1.478018_2	N(6)-L-threonylcarbamoyladenine synthase (EC 2.3.1.234)
+R2_B_D2__metabat2.bin.063|NODE_20545_length_4608_cov_1.478018_3	
+R2_B_D2__metabat2.bin.063|NODE_20545_length_4608_cov_1.478018_4	tRNA threonylcarbamoyladenosine biosynthesis protein TsaB
+R2_B_D2__metabat2.bin.063|NODE_20545_length_4608_cov_1.478018_5	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE
+R2_B_D2__metabat2.bin.063|NODE_20545_length_4608_cov_1.478018_6	Periplasmic [FeFe] hydrogenase large subunit (EC 1.12.7.2)
+R2_B_D2__metabat2.bin.063|NODE_20660_length_4590_cov_1.159982_1	
+R2_B_D2__metabat2.bin.063|NODE_20660_length_4590_cov_1.159982_2	
+R2_B_D2__metabat2.bin.063|NODE_20660_length_4590_cov_1.159982_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_20660_length_4590_cov_1.159982_4	
+R2_B_D2__metabat2.bin.063|NODE_20698_length_4583_cov_1.990799_1	Histidyl-tRNA synthetase (EC 6.1.1.21)
+R2_B_D2__metabat2.bin.063|NODE_20698_length_4583_cov_1.990799_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_20698_length_4583_cov_1.990799_3	MBL-fold metallo-hydrolase superfamily
+R2_B_D2__metabat2.bin.063|NODE_20698_length_4583_cov_1.990799_4	D-aminoacyl-tRNA deacylase (EC 3.1.1.96)
+R2_B_D2__metabat2.bin.063|NODE_20698_length_4583_cov_1.990799_5	Guanosine-3',5'-bis(diphosphate) 3'-pyrophosphohydrolase (EC 3.1.7.2) / GTP pyrophosphokinase (EC 2.7.6.5), (p)ppGpp synthetase II
+R2_B_D2__metabat2.bin.063|NODE_20862_length_4559_cov_1.167193_1	Signal transduction histidine kinase CheA
+R2_B_D2__metabat2.bin.063|NODE_20862_length_4559_cov_1.167193_2	Signal transduction histidine kinase CheA
+R2_B_D2__metabat2.bin.063|NODE_20862_length_4559_cov_1.167193_3	Positive regulator of CheA protein activity (CheW)
+R2_B_D2__metabat2.bin.063|NODE_20862_length_4559_cov_1.167193_4	
+R2_B_D2__metabat2.bin.063|NODE_20862_length_4559_cov_1.167193_5	Chemotaxis regulator - transmits chemoreceptor signals to flagellar motor components CheY
+R2_B_D2__metabat2.bin.063|NODE_20862_length_4559_cov_1.167193_6	Chemotaxis response regulator protein-glutamate methylesterase CheB (EC 3.1.1.61)
+R2_B_D2__metabat2.bin.063|NODE_20862_length_4559_cov_1.167193_7	Chemotaxis protein methyltransferase CheR (EC 2.1.1.80)
+R2_B_D2__metabat2.bin.063|NODE_20862_length_4559_cov_1.167193_8	
+R2_B_D2__metabat2.bin.063|NODE_20911_length_4552_cov_1.480904_1	Peptidoglycan D,D-transpeptidase MrdA (EC 3.4.16.4)
+R2_B_D2__metabat2.bin.063|NODE_20911_length_4552_cov_1.480904_2	
+R2_B_D2__metabat2.bin.063|NODE_20911_length_4552_cov_1.480904_3	Rod shape-determining protein MreC
+R2_B_D2__metabat2.bin.063|NODE_20911_length_4552_cov_1.480904_4	Rod shape-determining protein MreB
+R2_B_D2__metabat2.bin.063|NODE_20911_length_4552_cov_1.480904_5	UPF0758 family protein
+R2_B_D2__metabat2.bin.063|NODE_21031_length_4533_cov_1.805719_1	
+R2_B_D2__metabat2.bin.063|NODE_21031_length_4533_cov_1.805719_2	UDP-N-acetylmuramate--L-alanine ligase (EC 6.3.2.8)
+R2_B_D2__metabat2.bin.063|NODE_21031_length_4533_cov_1.805719_3	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase (EC 2.4.1.227)
+R2_B_D2__metabat2.bin.063|NODE_21031_length_4533_cov_1.805719_4	Peptidoglycan glycosyltransferase FtsW (EC 2.4.1.129) @ Stage V sporulation protein E
+R2_B_D2__metabat2.bin.063|NODE_21031_length_4533_cov_1.805719_5	UDP-N-acetylmuramoyl-L-alanine--D-glutamate ligase (EC 6.3.2.9)
+R2_B_D2__metabat2.bin.063|NODE_21067_length_4527_cov_1.603409_1	1-deoxy-D-xylulose 5-phosphate synthase (EC 2.2.1.7)
+R2_B_D2__metabat2.bin.063|NODE_21067_length_4527_cov_1.603409_2	RNA binding methyltransferase FtsJ like
+R2_B_D2__metabat2.bin.063|NODE_21067_length_4527_cov_1.603409_3	NAD kinase (EC 2.7.1.23)
+R2_B_D2__metabat2.bin.063|NODE_21067_length_4527_cov_1.603409_4	Arginine pathway regulatory protein ArgR, repressor of arg regulon
+R2_B_D2__metabat2.bin.063|NODE_21067_length_4527_cov_1.603409_5	DNA repair protein RecN
+R2_B_D2__metabat2.bin.063|NODE_21086_length_4524_cov_1.086195_1	RecA protein
+R2_B_D2__metabat2.bin.063|NODE_21086_length_4524_cov_1.086195_2	2'-5' RNA ligase
+R2_B_D2__metabat2.bin.063|NODE_21086_length_4524_cov_1.086195_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_21086_length_4524_cov_1.086195_4	ADP-ribose pyrophosphatase of COG1058 family (EC 3.6.1.13) / Nicotinamide-nucleotide amidase (EC 3.5.1.42)
+R2_B_D2__metabat2.bin.063|NODE_21086_length_4524_cov_1.086195_5	Phosphatidylglycerophosphatase A (EC 3.1.3.27)
+R2_B_D2__metabat2.bin.063|NODE_21086_length_4524_cov_1.086195_6	
+R2_B_D2__metabat2.bin.063|NODE_21114_length_4520_cov_1.158206_1	
+R2_B_D2__metabat2.bin.063|NODE_21114_length_4520_cov_1.158206_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_21114_length_4520_cov_1.158206_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_21114_length_4520_cov_1.158206_4	Glycogen synthase, ADP-glucose transglucosylase (EC 2.4.1.21)
+R2_B_D2__metabat2.bin.063|NODE_21261_length_4497_cov_1.625629_1	
+R2_B_D2__metabat2.bin.063|NODE_21261_length_4497_cov_1.625629_2	Integrase/recombinase, RitA
+R2_B_D2__metabat2.bin.063|NODE_21261_length_4497_cov_1.625629_3	
+R2_B_D2__metabat2.bin.063|NODE_21261_length_4497_cov_1.625629_4	Acetyltransferase, GNAT family
+R2_B_D2__metabat2.bin.063|NODE_21261_length_4497_cov_1.625629_5	
+R2_B_D2__metabat2.bin.063|NODE_21559_length_4454_cov_1.370002_1	Glutamine cyclotransferase
+R2_B_D2__metabat2.bin.063|NODE_21559_length_4454_cov_1.370002_2	Metal transporter, ZIP family
+R2_B_D2__metabat2.bin.063|NODE_21559_length_4454_cov_1.370002_3	Beta-lactamase class A-like and penicillin binding proteins (PBPs) superfamily
+R2_B_D2__metabat2.bin.063|NODE_21559_length_4454_cov_1.370002_4	
+R2_B_D2__metabat2.bin.063|NODE_21559_length_4454_cov_1.370002_5	DEAD-box ATP-dependent RNA helicase DeaD (= CshA) (EC 3.6.4.13)
+R2_B_D2__metabat2.bin.063|NODE_21610_length_4448_cov_1.393196_1	
+R2_B_D2__metabat2.bin.063|NODE_21610_length_4448_cov_1.393196_2	ABC transporter, permease protein 1 (cluster 5, nickel/peptides/opines)
+R2_B_D2__metabat2.bin.063|NODE_21610_length_4448_cov_1.393196_3	ABC transporter, permease protein 2 (cluster 5, nickel/peptides/opines)
+R2_B_D2__metabat2.bin.063|NODE_21610_length_4448_cov_1.393196_4	Oligopeptide ABC transporter, ATP-binding protein OppD (TC 3.A.1.5.1)
+R2_B_D2__metabat2.bin.063|NODE_21610_length_4448_cov_1.393196_5	Oligopeptide ABC transporter, ATP-binding protein OppF (TC 3.A.1.5.1)
+R2_B_D2__metabat2.bin.063|NODE_21660_length_4441_cov_1.289522_1	
+R2_B_D2__metabat2.bin.063|NODE_21660_length_4441_cov_1.289522_2	Repressor CsoR of the copZA operon
+R2_B_D2__metabat2.bin.063|NODE_21660_length_4441_cov_1.289522_3	
+R2_B_D2__metabat2.bin.063|NODE_21660_length_4441_cov_1.289522_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_21660_length_4441_cov_1.289522_5	Leucyl-tRNA synthetase (EC 6.1.1.4)
+R2_B_D2__metabat2.bin.063|NODE_22023_length_4389_cov_1.187236_1	Uncharacterized corrinoid protein
+R2_B_D2__metabat2.bin.063|NODE_22023_length_4389_cov_1.187236_2	trimethylamine methyltransferase
+R2_B_D2__metabat2.bin.063|NODE_22023_length_4389_cov_1.187236_3	Hydantoinase/oxoprolinase family protein
+R2_B_D2__metabat2.bin.063|NODE_22023_length_4389_cov_1.187236_4	Uncharacterized pterin binding enzyme
+R2_B_D2__metabat2.bin.063|NODE_22055_length_4383_cov_1.724859_1	
+R2_B_D2__metabat2.bin.063|NODE_22055_length_4383_cov_1.724859_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_22055_length_4383_cov_1.724859_3	PAS modulated sigma54 specific transcriptional regulator, Fis family
+R2_B_D2__metabat2.bin.063|NODE_22083_length_4380_cov_1.497766_1	Predicted esterase of the alpha-beta hydrolase superfamily
+R2_B_D2__metabat2.bin.063|NODE_22083_length_4380_cov_1.497766_2	GTP-binding and nucleic acid-binding protein YchF
+R2_B_D2__metabat2.bin.063|NODE_22083_length_4380_cov_1.497766_3	
+R2_B_D2__metabat2.bin.063|NODE_22083_length_4380_cov_1.497766_4	
+R2_B_D2__metabat2.bin.063|NODE_22187_length_4365_cov_1.176970_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_22187_length_4365_cov_1.176970_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_22187_length_4365_cov_1.176970_3	
+R2_B_D2__metabat2.bin.063|NODE_22187_length_4365_cov_1.176970_4	
+R2_B_D2__metabat2.bin.063|NODE_22222_length_4360_cov_0.414363_1	
+R2_B_D2__metabat2.bin.063|NODE_22222_length_4360_cov_0.414363_2	UDP-glucose 6-dehydrogenase (EC 1.1.1.22)
+R2_B_D2__metabat2.bin.063|NODE_22222_length_4360_cov_0.414363_3	UDP-glucose 4-epimerase (EC 5.1.3.2)
+R2_B_D2__metabat2.bin.063|NODE_22222_length_4360_cov_0.414363_4	Aminotransferase, DegT/DnrJ/EryC1/StrS family
+R2_B_D2__metabat2.bin.063|NODE_22222_length_4360_cov_0.414363_5	
+R2_B_D2__metabat2.bin.063|NODE_22231_length_4358_cov_1.004727_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_22231_length_4358_cov_1.004727_2	
+R2_B_D2__metabat2.bin.063|NODE_22231_length_4358_cov_1.004727_3	
+R2_B_D2__metabat2.bin.063|NODE_22231_length_4358_cov_1.004727_4	
+R2_B_D2__metabat2.bin.063|NODE_22231_length_4358_cov_1.004727_5	O-acetyl-ADP-ribose deacetylase
+R2_B_D2__metabat2.bin.063|NODE_22231_length_4358_cov_1.004727_6	
+R2_B_D2__metabat2.bin.063|NODE_22231_length_4358_cov_1.004727_7	
+R2_B_D2__metabat2.bin.063|NODE_22290_length_4350_cov_1.592943_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_22290_length_4350_cov_1.592943_2	
+R2_B_D2__metabat2.bin.063|NODE_22290_length_4350_cov_1.592943_3	[FeFe] hydrogenase (EC 1.12.7.2)
+R2_B_D2__metabat2.bin.063|NODE_22290_length_4350_cov_1.592943_4	
+R2_B_D2__metabat2.bin.063|NODE_22290_length_4350_cov_1.592943_5	Ferredoxin
+R2_B_D2__metabat2.bin.063|NODE_22290_length_4350_cov_1.592943_6	Serine hydroxymethyltransferase (EC 2.1.2.1)
+R2_B_D2__metabat2.bin.063|NODE_22290_length_4350_cov_1.592943_7	
+R2_B_D2__metabat2.bin.063|NODE_22399_length_4337_cov_1.670309_1	Quad-[4Fe-4S] ferredoxin, HycB/HydN/HyfA family
+R2_B_D2__metabat2.bin.063|NODE_22399_length_4337_cov_1.670309_2	Tungsten-containing aldehyde:ferredoxin oxidoreductase (EC 1.2.7.5)
+R2_B_D2__metabat2.bin.063|NODE_22399_length_4337_cov_1.670309_3	
+R2_B_D2__metabat2.bin.063|NODE_22427_length_4333_cov_1.860675_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_22427_length_4333_cov_1.860675_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_22450_length_4331_cov_1.443387_1	DNA polymerase IV (EC 2.7.7.7)
+R2_B_D2__metabat2.bin.063|NODE_22450_length_4331_cov_1.443387_2	D-alanine--D-alanine ligase (EC 6.3.2.4)
+R2_B_D2__metabat2.bin.063|NODE_22450_length_4331_cov_1.443387_3	Tryptophanyl-tRNA synthetase (EC 6.1.1.2)
+R2_B_D2__metabat2.bin.063|NODE_22450_length_4331_cov_1.443387_4	Peroxide stress regulator PerR, FUR family
+R2_B_D2__metabat2.bin.063|NODE_22450_length_4331_cov_1.443387_5	Purine nucleoside phosphorylase (EC 2.4.2.1)
+R2_B_D2__metabat2.bin.063|NODE_22450_length_4331_cov_1.443387_6	Ribonuclease HI (EC 3.1.26.4)
+R2_B_D2__metabat2.bin.063|NODE_22571_length_4311_cov_1.759799_1	KtrAB potassium uptake system, integral membrane component KtrB
+R2_B_D2__metabat2.bin.063|NODE_22571_length_4311_cov_1.759799_2	Rubredoxin
+R2_B_D2__metabat2.bin.063|NODE_22571_length_4311_cov_1.759799_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_22571_length_4311_cov_1.759799_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_22571_length_4311_cov_1.759799_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_22597_length_4307_cov_2.022010_1	
+R2_B_D2__metabat2.bin.063|NODE_22597_length_4307_cov_2.022010_2	
+R2_B_D2__metabat2.bin.063|NODE_22597_length_4307_cov_2.022010_3	Putative pre-16S rRNA nuclease YqgF
+R2_B_D2__metabat2.bin.063|NODE_22597_length_4307_cov_2.022010_4	UPF0297 protein YrzL
+R2_B_D2__metabat2.bin.063|NODE_22597_length_4307_cov_2.022010_5	Alanyl-tRNA synthetase (EC 6.1.1.7)
+R2_B_D2__metabat2.bin.063|NODE_22597_length_4307_cov_2.022010_6	Tyrosyl-tRNA synthetase (EC 6.1.1.1)
+R2_B_D2__metabat2.bin.063|NODE_22650_length_4300_cov_1.769950_1	
+R2_B_D2__metabat2.bin.063|NODE_22650_length_4300_cov_1.769950_2	Xanthine/uracil/thiamine/ascorbate permease family protein
+R2_B_D2__metabat2.bin.063|NODE_22650_length_4300_cov_1.769950_3	Adenine deaminase (EC 3.5.4.2)
+R2_B_D2__metabat2.bin.063|NODE_22650_length_4300_cov_1.769950_4	Dihydroorotate dehydrogenase-like protein
+R2_B_D2__metabat2.bin.063|NODE_23143_length_4241_cov_1.381867_1	Beta-lactamase class C-like and penicillin binding proteins (PBPs) superfamily
+R2_B_D2__metabat2.bin.063|NODE_23143_length_4241_cov_1.381867_2	
+R2_B_D2__metabat2.bin.063|NODE_23143_length_4241_cov_1.381867_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_23143_length_4241_cov_1.381867_4	
+R2_B_D2__metabat2.bin.063|NODE_23143_length_4241_cov_1.381867_5	
+R2_B_D2__metabat2.bin.063|NODE_23321_length_4218_cov_2.120997_1	
+R2_B_D2__metabat2.bin.063|NODE_23321_length_4218_cov_2.120997_2	Uncharacterized MFS-type transporter
+R2_B_D2__metabat2.bin.063|NODE_23321_length_4218_cov_2.120997_3	
+R2_B_D2__metabat2.bin.063|NODE_23321_length_4218_cov_2.120997_4	
+R2_B_D2__metabat2.bin.063|NODE_23617_length_4183_cov_2.472880_1	D-alanyl-D-alanine carboxypeptidase (EC 3.4.16.4)
+R2_B_D2__metabat2.bin.063|NODE_23617_length_4183_cov_2.472880_2	Nucleoside triphosphate pyrophosphohydrolase MazG (EC 3.6.1.8)
+R2_B_D2__metabat2.bin.063|NODE_23617_length_4183_cov_2.472880_3	FIG006789: Stage V sporulation protein
+R2_B_D2__metabat2.bin.063|NODE_23630_length_4181_cov_1.506907_1	Na+/H+ antiporter
+R2_B_D2__metabat2.bin.063|NODE_23630_length_4181_cov_1.506907_2	transposase, IS605 OrfB family
+R2_B_D2__metabat2.bin.063|NODE_23630_length_4181_cov_1.506907_3	
+R2_B_D2__metabat2.bin.063|NODE_23630_length_4181_cov_1.506907_4	Substrate-specific component PanT of predicted pantothenate ECF transporter
+R2_B_D2__metabat2.bin.063|NODE_23630_length_4181_cov_1.506907_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_23630_length_4181_cov_1.506907_6	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_23700_length_4173_cov_1.782007_1	
+R2_B_D2__metabat2.bin.063|NODE_23700_length_4173_cov_1.782007_2	Na+/H+ antiporter NhaC
+R2_B_D2__metabat2.bin.063|NODE_23700_length_4173_cov_1.782007_3	
+R2_B_D2__metabat2.bin.063|NODE_23700_length_4173_cov_1.782007_4	Tungsten-containing ferredoxin oxidoreductase WOR6
+R2_B_D2__metabat2.bin.063|NODE_23936_length_4143_cov_1.616036_1	Acetyl-coenzyme A carboxyl transferase alpha chain (EC 6.4.1.2) / Acetyl-coenzyme A carboxyl transferase beta chain (EC 6.4.1.2); Propionyl-CoA carboxylase beta chain (EC 6.4.1.3)
+R2_B_D2__metabat2.bin.063|NODE_23936_length_4143_cov_1.616036_2	
+R2_B_D2__metabat2.bin.063|NODE_23936_length_4143_cov_1.616036_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_23936_length_4143_cov_1.616036_4	Oxaloacetate decarboxylase Na(+) pump, beta chain (EC 4.1.1.3)
+R2_B_D2__metabat2.bin.063|NODE_23936_length_4143_cov_1.616036_5	
+R2_B_D2__metabat2.bin.063|NODE_24005_length_4137_cov_1.239401_1	
+R2_B_D2__metabat2.bin.063|NODE_24005_length_4137_cov_1.239401_2	
+R2_B_D2__metabat2.bin.063|NODE_24005_length_4137_cov_1.239401_3	Flagellar basal-body rod protein FlgG
+R2_B_D2__metabat2.bin.063|NODE_24005_length_4137_cov_1.239401_4	Flagellar basal-body rod protein FlgG
+R2_B_D2__metabat2.bin.063|NODE_24005_length_4137_cov_1.239401_5	
+R2_B_D2__metabat2.bin.063|NODE_24005_length_4137_cov_1.239401_6	
+R2_B_D2__metabat2.bin.063|NODE_24005_length_4137_cov_1.239401_7	
+R2_B_D2__metabat2.bin.063|NODE_24064_length_4130_cov_1.897577_1	Urocanate hydratase (EC 4.2.1.49)
+R2_B_D2__metabat2.bin.063|NODE_24064_length_4130_cov_1.897577_2	Formiminotetrahydrofolate cyclodeaminase (EC 4.3.1.4)
+R2_B_D2__metabat2.bin.063|NODE_24064_length_4130_cov_1.897577_3	Histidine ammonia-lyase (EC 4.3.1.3)
+R2_B_D2__metabat2.bin.063|NODE_24064_length_4130_cov_1.897577_4	
+R2_B_D2__metabat2.bin.063|NODE_24076_length_4129_cov_1.292104_1	2-dehydro-3-deoxygluconokinase (EC 2.7.1.45)
+R2_B_D2__metabat2.bin.063|NODE_24076_length_4129_cov_1.292104_2	4-hydroxy-2-oxoglutarate aldolase (EC 4.1.3.16) @ 2-dehydro-3-deoxyphosphogluconate aldolase (EC 4.1.2.14)
+R2_B_D2__metabat2.bin.063|NODE_24076_length_4129_cov_1.292104_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_24076_length_4129_cov_1.292104_4	
+R2_B_D2__metabat2.bin.063|NODE_24076_length_4129_cov_1.292104_5	
+R2_B_D2__metabat2.bin.063|NODE_24076_length_4129_cov_1.292104_6	
+R2_B_D2__metabat2.bin.063|NODE_24365_length_4093_cov_0.778618_1	
+R2_B_D2__metabat2.bin.063|NODE_24365_length_4093_cov_0.778618_2	
+R2_B_D2__metabat2.bin.063|NODE_24365_length_4093_cov_0.778618_3	
+R2_B_D2__metabat2.bin.063|NODE_24365_length_4093_cov_0.778618_4	
+R2_B_D2__metabat2.bin.063|NODE_24365_length_4093_cov_0.778618_5	
+R2_B_D2__metabat2.bin.063|NODE_24365_length_4093_cov_0.778618_6	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_24397_length_4090_cov_1.711834_1	tRNA(1)(Val) (adenine(37)-N(6))-methyltransferase (EC 2.1.1.223)
+R2_B_D2__metabat2.bin.063|NODE_24397_length_4090_cov_1.711834_2	DNA replication intiation control protein YabA
+R2_B_D2__metabat2.bin.063|NODE_24397_length_4090_cov_1.711834_3	Stage 0 sporulation protein YaaT
+R2_B_D2__metabat2.bin.063|NODE_24397_length_4090_cov_1.711834_4	
+R2_B_D2__metabat2.bin.063|NODE_24397_length_4090_cov_1.711834_5	protein from nitrogen regulatory protein P-II (GLNB) family, ortholog YAAQ B. subtilis
+R2_B_D2__metabat2.bin.063|NODE_24397_length_4090_cov_1.711834_6	Thymidylate kinase (EC 2.7.4.9)
+R2_B_D2__metabat2.bin.063|NODE_24397_length_4090_cov_1.711834_7	Thioredoxin reductase (EC 1.8.1.9)
+R2_B_D2__metabat2.bin.063|NODE_24993_length_4022_cov_1.364827_1	
+R2_B_D2__metabat2.bin.063|NODE_24993_length_4022_cov_1.364827_2	Electron transfer flavoprotein, beta subunit
+R2_B_D2__metabat2.bin.063|NODE_24993_length_4022_cov_1.364827_3	Electron bifurcating butyryl-CoA dehydrogenase (NAD+, ferredoxin)
+R2_B_D2__metabat2.bin.063|NODE_24993_length_4022_cov_1.364827_4	MaoC-like dehydratase
+R2_B_D2__metabat2.bin.063|NODE_24993_length_4022_cov_1.364827_5	
+R2_B_D2__metabat2.bin.063|NODE_25106_length_4010_cov_1.582282_1	Selenocysteine-specific translation elongation factor
+R2_B_D2__metabat2.bin.063|NODE_25106_length_4010_cov_1.582282_2	L-seryl-tRNA(Sec) selenium transferase (EC 2.9.1.1)
+R2_B_D2__metabat2.bin.063|NODE_25106_length_4010_cov_1.582282_3	Cysteine desulfurase (EC 2.8.1.7)
+R2_B_D2__metabat2.bin.063|NODE_25160_length_4005_cov_0.902011_1	
+R2_B_D2__metabat2.bin.063|NODE_25160_length_4005_cov_0.902011_2	
+R2_B_D2__metabat2.bin.063|NODE_25160_length_4005_cov_0.902011_3	
+R2_B_D2__metabat2.bin.063|NODE_25160_length_4005_cov_0.902011_4	
+R2_B_D2__metabat2.bin.063|NODE_25180_length_4002_cov_1.793290_1	
+R2_B_D2__metabat2.bin.063|NODE_25180_length_4002_cov_1.793290_2	Lipid-A-disaccharide synthase (EC 2.4.1.182)
+R2_B_D2__metabat2.bin.063|NODE_25180_length_4002_cov_1.793290_3	UDP-2,3-diacylglucosamine pyrophosphatase
+R2_B_D2__metabat2.bin.063|NODE_25180_length_4002_cov_1.793290_4	Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase (EC 2.3.1.129)
+R2_B_D2__metabat2.bin.063|NODE_25180_length_4002_cov_1.793290_5	3-hydroxyacyl-[acyl-carrier-protein] dehydratase, FabZ form (EC 4.2.1.59)
+R2_B_D2__metabat2.bin.063|NODE_25180_length_4002_cov_1.793290_6	UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase (EC 3.5.1.108)
+R2_B_D2__metabat2.bin.063|NODE_25393_length_3977_cov_1.361299_1	
+R2_B_D2__metabat2.bin.063|NODE_25393_length_3977_cov_1.361299_2	
+R2_B_D2__metabat2.bin.063|NODE_25393_length_3977_cov_1.361299_3	Alkyl hydroperoxide reductase protein C (EC 1.11.1.15)
+R2_B_D2__metabat2.bin.063|NODE_25393_length_3977_cov_1.361299_4	HtrA protease/chaperone protein
+R2_B_D2__metabat2.bin.063|NODE_25393_length_3977_cov_1.361299_5	
+R2_B_D2__metabat2.bin.063|NODE_25393_length_3977_cov_1.361299_6	
+R2_B_D2__metabat2.bin.063|NODE_25394_length_3977_cov_1.340779_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_25394_length_3977_cov_1.340779_2	
+R2_B_D2__metabat2.bin.063|NODE_25394_length_3977_cov_1.340779_3	
+R2_B_D2__metabat2.bin.063|NODE_25394_length_3977_cov_1.340779_4	UDP-N-acetylenolpyruvoylglucosamine reductase (EC 1.3.1.98)
+R2_B_D2__metabat2.bin.063|NODE_25394_length_3977_cov_1.340779_5	
+R2_B_D2__metabat2.bin.063|NODE_25451_length_3971_cov_1.306972_1	
+R2_B_D2__metabat2.bin.063|NODE_25451_length_3971_cov_1.306972_2	Oligopeptide ABC transporter, ATP-binding protein OppD (TC 3.A.1.5.1)
+R2_B_D2__metabat2.bin.063|NODE_25451_length_3971_cov_1.306972_3	Oligopeptide ABC transporter, permease protein OppC (TC 3.A.1.5.1)
+R2_B_D2__metabat2.bin.063|NODE_25451_length_3971_cov_1.306972_4	Dipeptide ABC transporter, permease protein DppB (TC 3.A.1.5.2)
+R2_B_D2__metabat2.bin.063|NODE_25451_length_3971_cov_1.306972_5	Amidohydrolase
+R2_B_D2__metabat2.bin.063|NODE_25566_length_3957_cov_1.473368_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_25566_length_3957_cov_1.473368_2	Isoleucyl-tRNA synthetase (EC 6.1.1.5)
+R2_B_D2__metabat2.bin.063|NODE_25566_length_3957_cov_1.473368_3	MATE efflux family protein
+R2_B_D2__metabat2.bin.063|NODE_25628_length_3950_cov_1.147790_1	
+R2_B_D2__metabat2.bin.063|NODE_25628_length_3950_cov_1.147790_2	Xanthine dehydrogenase iron-sulfur subunit (EC 1.17.1.4)
+R2_B_D2__metabat2.bin.063|NODE_25628_length_3950_cov_1.147790_3	Xanthine dehydrogenase, molybdenum binding subunit (EC 1.17.1.4)
+R2_B_D2__metabat2.bin.063|NODE_25628_length_3950_cov_1.147790_4	Xanthine dehydrogenase, molybdenum binding subunit (EC 1.17.1.4)
+R2_B_D2__metabat2.bin.063|NODE_25628_length_3950_cov_1.147790_5	Nucleoside-triphosphatase THEP1 (EC 3.6.1.15)
+R2_B_D2__metabat2.bin.063|NODE_25628_length_3950_cov_1.147790_6	Dihydroorotate dehydrogenase-like protein
+R2_B_D2__metabat2.bin.063|NODE_25657_length_3946_cov_1.617963_1	Ornithine carbamoyltransferase (EC 2.1.3.3)
+R2_B_D2__metabat2.bin.063|NODE_25657_length_3946_cov_1.617963_2	Uncharacterized deacetylase
+R2_B_D2__metabat2.bin.063|NODE_25657_length_3946_cov_1.617963_3	
+R2_B_D2__metabat2.bin.063|NODE_25657_length_3946_cov_1.617963_4	Threonine-synthase-like protein 5
+R2_B_D2__metabat2.bin.063|NODE_25657_length_3946_cov_1.617963_5	Cysteine synthase (EC 2.5.1.47)
+R2_B_D2__metabat2.bin.063|NODE_25794_length_3933_cov_1.343931_1	
+R2_B_D2__metabat2.bin.063|NODE_25794_length_3933_cov_1.343931_2	DNA protection during starvation protein
+R2_B_D2__metabat2.bin.063|NODE_25794_length_3933_cov_1.343931_3	
+R2_B_D2__metabat2.bin.063|NODE_25794_length_3933_cov_1.343931_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_25794_length_3933_cov_1.343931_5	
+R2_B_D2__metabat2.bin.063|NODE_25853_length_3926_cov_1.307449_1	conserved hypothetical protein 374
+R2_B_D2__metabat2.bin.063|NODE_25853_length_3926_cov_1.307449_2	Helicase PriA essential for oriC/DnaA-independent DNA replication
+R2_B_D2__metabat2.bin.063|NODE_25853_length_3926_cov_1.307449_3	Peptide deformylase (EC 3.5.1.88)
+R2_B_D2__metabat2.bin.063|NODE_25853_length_3926_cov_1.307449_4	Methionyl-tRNA formyltransferase (EC 2.1.2.9)
+R2_B_D2__metabat2.bin.063|NODE_25952_length_3917_cov_2.108971_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_25952_length_3917_cov_2.108971_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_25952_length_3917_cov_2.108971_3	
+R2_B_D2__metabat2.bin.063|NODE_25952_length_3917_cov_2.108971_4	Electron transport complex protein RnfG
+R2_B_D2__metabat2.bin.063|NODE_25952_length_3917_cov_2.108971_5	
+R2_B_D2__metabat2.bin.063|NODE_26107_length_3902_cov_0.799735_1	
+R2_B_D2__metabat2.bin.063|NODE_26107_length_3902_cov_0.799735_2	
+R2_B_D2__metabat2.bin.063|NODE_26107_length_3902_cov_0.799735_3	
+R2_B_D2__metabat2.bin.063|NODE_26107_length_3902_cov_0.799735_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_26107_length_3902_cov_0.799735_5	
+R2_B_D2__metabat2.bin.063|NODE_26107_length_3902_cov_0.799735_6	
+R2_B_D2__metabat2.bin.063|NODE_26107_length_3902_cov_0.799735_7	Phage exonuclease (EC 3.1.11.3)
+R2_B_D2__metabat2.bin.063|NODE_26192_length_3892_cov_1.271713_1	Iron-sulfur cluster assembly scaffold protein IscU/NifU-like
+R2_B_D2__metabat2.bin.063|NODE_26192_length_3892_cov_1.271713_2	Cysteine desulfurase (EC 2.8.1.7)
+R2_B_D2__metabat2.bin.063|NODE_26192_length_3892_cov_1.271713_3	NADH dehydrogenase (EC 1.6.99.3)
+R2_B_D2__metabat2.bin.063|NODE_26192_length_3892_cov_1.271713_4	
+R2_B_D2__metabat2.bin.063|NODE_26192_length_3892_cov_1.271713_5	Radical SAM domain protein
+R2_B_D2__metabat2.bin.063|NODE_26192_length_3892_cov_1.271713_6	Peptide-methionine (R)-S-oxide reductase MsrB (EC 1.8.4.12)
+R2_B_D2__metabat2.bin.063|NODE_26192_length_3892_cov_1.271713_7	
+R2_B_D2__metabat2.bin.063|NODE_26225_length_3889_cov_1.198299_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_26225_length_3889_cov_1.198299_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_26225_length_3889_cov_1.198299_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_26225_length_3889_cov_1.198299_4	Phenylalanyl-tRNA synthetase beta chain (EC 6.1.1.20)
+R2_B_D2__metabat2.bin.063|NODE_26661_length_3848_cov_2.263101_1	Translation elongation factor Tu
+R2_B_D2__metabat2.bin.063|NODE_26661_length_3848_cov_2.263101_2	
+R2_B_D2__metabat2.bin.063|NODE_26661_length_3848_cov_2.263101_3	Transcription antitermination protein NusG
+R2_B_D2__metabat2.bin.063|NODE_26661_length_3848_cov_2.263101_4	LSU ribosomal protein L11p (L12e)
+R2_B_D2__metabat2.bin.063|NODE_26661_length_3848_cov_2.263101_5	LSU ribosomal protein L1p (L10Ae)
+R2_B_D2__metabat2.bin.063|NODE_26661_length_3848_cov_2.263101_6	LSU ribosomal protein L10p (P0)
+R2_B_D2__metabat2.bin.063|NODE_26661_length_3848_cov_2.263101_7	LSU ribosomal protein L7p/L12p (P1/P2)
+R2_B_D2__metabat2.bin.063|NODE_26720_length_3841_cov_1.298869_1	
+R2_B_D2__metabat2.bin.063|NODE_26720_length_3841_cov_1.298869_2	ABC transporter, permease protein 2 (cluster 11, riboflavin/purine nucleoside/unknown)
+R2_B_D2__metabat2.bin.063|NODE_26720_length_3841_cov_1.298869_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_26720_length_3841_cov_1.298869_4	Spore core dehydratation and coat assembly protein SpoVS
+R2_B_D2__metabat2.bin.063|NODE_26720_length_3841_cov_1.298869_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_26927_length_3816_cov_1.418271_1	RNA polymerase sporulation specific sigma factor SigH
+R2_B_D2__metabat2.bin.063|NODE_26927_length_3816_cov_1.418271_2	
+R2_B_D2__metabat2.bin.063|NODE_26927_length_3816_cov_1.418271_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_26927_length_3816_cov_1.418271_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_26927_length_3816_cov_1.418271_5	Flagellar operon protein CA_C2155
+R2_B_D2__metabat2.bin.063|NODE_26927_length_3816_cov_1.418271_6	
+R2_B_D2__metabat2.bin.063|NODE_27187_length_3789_cov_1.357728_1	
+R2_B_D2__metabat2.bin.063|NODE_27187_length_3789_cov_1.357728_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_27187_length_3789_cov_1.357728_3	
+R2_B_D2__metabat2.bin.063|NODE_27212_length_3786_cov_1.592785_1	FMN adenylyltransferase (EC 2.7.7.2) / Riboflavin kinase (EC 2.7.1.26)
+R2_B_D2__metabat2.bin.063|NODE_27212_length_3786_cov_1.592785_2	tRNA pseudouridine(55) synthase (EC 5.4.99.25)
+R2_B_D2__metabat2.bin.063|NODE_27212_length_3786_cov_1.592785_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_27212_length_3786_cov_1.592785_4	
+R2_B_D2__metabat2.bin.063|NODE_27212_length_3786_cov_1.592785_5	Translation initiation factor 2
+R2_B_D2__metabat2.bin.063|NODE_27352_length_3772_cov_1.297942_1	
+R2_B_D2__metabat2.bin.063|NODE_27352_length_3772_cov_1.297942_2	Hydroxylamine reductase (EC 1.7.99.1)
+R2_B_D2__metabat2.bin.063|NODE_27352_length_3772_cov_1.297942_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_27474_length_3761_cov_1.677490_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_27474_length_3761_cov_1.677490_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_27474_length_3761_cov_1.677490_3	
+R2_B_D2__metabat2.bin.063|NODE_27474_length_3761_cov_1.677490_4	
+R2_B_D2__metabat2.bin.063|NODE_27474_length_3761_cov_1.677490_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_27563_length_3752_cov_2.060690_1	Excinuclease ABC subunit B
+R2_B_D2__metabat2.bin.063|NODE_27563_length_3752_cov_2.060690_2	Excinuclease ABC subunit A
+R2_B_D2__metabat2.bin.063|NODE_27563_length_3752_cov_2.060690_3	Excinuclease ABC subunit C
+R2_B_D2__metabat2.bin.063|NODE_27574_length_3751_cov_1.416115_1	
+R2_B_D2__metabat2.bin.063|NODE_27574_length_3751_cov_1.416115_2	ABC transporter, permease protein 1 (cluster 5, nickel/peptides/opines)
+R2_B_D2__metabat2.bin.063|NODE_27574_length_3751_cov_1.416115_3	
+R2_B_D2__metabat2.bin.063|NODE_27574_length_3751_cov_1.416115_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_27746_length_3737_cov_1.501939_1	Na(+)/H(+) antiporter
+R2_B_D2__metabat2.bin.063|NODE_27746_length_3737_cov_1.501939_2	Rod shape-determining protein MreB
+R2_B_D2__metabat2.bin.063|NODE_27746_length_3737_cov_1.501939_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_27878_length_3725_cov_0.958866_1	Efflux ABC transporter, ATP-binding protein
+R2_B_D2__metabat2.bin.063|NODE_27878_length_3725_cov_0.958866_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_27878_length_3725_cov_0.958866_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_27878_length_3725_cov_0.958866_4	Putative methyltransferase associated with DUF414
+R2_B_D2__metabat2.bin.063|NODE_27878_length_3725_cov_0.958866_5	
+R2_B_D2__metabat2.bin.063|NODE_27888_length_3724_cov_1.615791_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_27888_length_3724_cov_1.615791_2	
+R2_B_D2__metabat2.bin.063|NODE_27888_length_3724_cov_1.615791_3	Metal-dependent hydrolases of the beta-lactamase superfamily I; PhnP protein
+R2_B_D2__metabat2.bin.063|NODE_28301_length_3686_cov_1.169149_1	Ribose-phosphate pyrophosphokinase (EC 2.7.6.1)
+R2_B_D2__metabat2.bin.063|NODE_28301_length_3686_cov_1.169149_2	N-acetylglucosamine-1-phosphate uridyltransferase (EC 2.7.7.23) / Glucosamine-1-phosphate N-acetyltransferase (EC 2.3.1.157)
+R2_B_D2__metabat2.bin.063|NODE_28301_length_3686_cov_1.169149_3	
+R2_B_D2__metabat2.bin.063|NODE_28301_length_3686_cov_1.169149_4	Substrate-specific component PdxU2 of predicted pyridoxin-related ECF transporter
+R2_B_D2__metabat2.bin.063|NODE_28301_length_3686_cov_1.169149_5	
+R2_B_D2__metabat2.bin.063|NODE_28349_length_3681_cov_1.963421_1	Butyrate--acetoacetate CoA-transferase subunit B (EC 2.8.3.9)
+R2_B_D2__metabat2.bin.063|NODE_28349_length_3681_cov_1.963421_2	Succinyl-CoA:3-ketoacid-coenzyme A transferase subunit A (EC 2.8.3.5)
+R2_B_D2__metabat2.bin.063|NODE_28349_length_3681_cov_1.963421_3	3-hydroxybutyryl-CoA dehydratase (EC 4.2.1.55)
+R2_B_D2__metabat2.bin.063|NODE_28349_length_3681_cov_1.963421_4	3-hydroxybutyryl-CoA dehydrogenase (EC 1.1.1.157)
+R2_B_D2__metabat2.bin.063|NODE_28349_length_3681_cov_1.963421_5	
+R2_B_D2__metabat2.bin.063|NODE_28349_length_3681_cov_1.963421_6	
+R2_B_D2__metabat2.bin.063|NODE_28442_length_3673_cov_1.328539_1	
+R2_B_D2__metabat2.bin.063|NODE_28442_length_3673_cov_1.328539_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_28442_length_3673_cov_1.328539_3	RNA methyltransferase, TrmA family
+R2_B_D2__metabat2.bin.063|NODE_28500_length_3668_cov_1.460604_1	Chaperone protein ClpB (ATP-dependent unfoldase)
+R2_B_D2__metabat2.bin.063|NODE_28500_length_3668_cov_1.460604_2	
+R2_B_D2__metabat2.bin.063|NODE_28500_length_3668_cov_1.460604_3	Sensory box protein
+R2_B_D2__metabat2.bin.063|NODE_28500_length_3668_cov_1.460604_4	Diaminopimelate decarboxylase (EC 4.1.1.20)
+R2_B_D2__metabat2.bin.063|NODE_28694_length_3649_cov_1.059625_1	Glycine reductase component B beta subunit (EC 1.21.4.2) / Glycine reductase component B alpha subunit (EC 1.21.4.2)
+R2_B_D2__metabat2.bin.063|NODE_28694_length_3649_cov_1.059625_2	Thioredoxin
+R2_B_D2__metabat2.bin.063|NODE_28694_length_3649_cov_1.059625_3	GrdX protein
+R2_B_D2__metabat2.bin.063|NODE_28694_length_3649_cov_1.059625_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_28694_length_3649_cov_1.059625_5	Selenide,water dikinase (EC 2.7.9.3) @ selenocysteine-containing
+R2_B_D2__metabat2.bin.063|NODE_28694_length_3649_cov_1.059625_6	Hypothetical protein Cj1505c
+R2_B_D2__metabat2.bin.063|NODE_28744_length_3645_cov_1.313530_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_28744_length_3645_cov_1.313530_2	Branched-chain amino acid ABC transporter, ATP-binding protein LivF (TC 3.A.1.4.1)
+R2_B_D2__metabat2.bin.063|NODE_28744_length_3645_cov_1.313530_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_28744_length_3645_cov_1.313530_4	
+R2_B_D2__metabat2.bin.063|NODE_28776_length_3642_cov_1.240967_1	Chaperone protein DnaK
+R2_B_D2__metabat2.bin.063|NODE_28776_length_3642_cov_1.240967_2	Heat shock protein GrpE
+R2_B_D2__metabat2.bin.063|NODE_28776_length_3642_cov_1.240967_3	Heat-inducible transcription repressor HrcA
+R2_B_D2__metabat2.bin.063|NODE_28776_length_3642_cov_1.240967_4	Oxygen-independent coproporphyrinogen-III oxidase-like protein YggW
+R2_B_D2__metabat2.bin.063|NODE_28889_length_3632_cov_1.471897_1	NADP-dependent malic enzyme (EC 1.1.1.40)
+R2_B_D2__metabat2.bin.063|NODE_28889_length_3632_cov_1.471897_2	LSU ribosomal protein L28p @ LSU ribosomal protein L28p, zinc-dependent
+R2_B_D2__metabat2.bin.063|NODE_28889_length_3632_cov_1.471897_3	FIG001802: Putative alkaline-shock protein
+R2_B_D2__metabat2.bin.063|NODE_28889_length_3632_cov_1.471897_4	Dihydroxyacetone kinase-like protein, phosphatase domain / Dihydroxyacetone kinase-like protein, kinase domain
+R2_B_D2__metabat2.bin.063|NODE_28889_length_3632_cov_1.471897_5	
+R2_B_D2__metabat2.bin.063|NODE_29049_length_3619_cov_1.344502_1	
+R2_B_D2__metabat2.bin.063|NODE_29049_length_3619_cov_1.344502_2	
+R2_B_D2__metabat2.bin.063|NODE_29049_length_3619_cov_1.344502_3	
+R2_B_D2__metabat2.bin.063|NODE_29049_length_3619_cov_1.344502_4	
+R2_B_D2__metabat2.bin.063|NODE_29049_length_3619_cov_1.344502_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_29069_length_3617_cov_1.577364_1	Signal recognition particle associated protein
+R2_B_D2__metabat2.bin.063|NODE_29069_length_3617_cov_1.577364_2	Signal recognition particle protein Ffh
+R2_B_D2__metabat2.bin.063|NODE_29069_length_3617_cov_1.577364_3	SSU ribosomal protein S16p
+R2_B_D2__metabat2.bin.063|NODE_29069_length_3617_cov_1.577364_4	KH domain RNA binding protein YlqC
+R2_B_D2__metabat2.bin.063|NODE_29069_length_3617_cov_1.577364_5	
+R2_B_D2__metabat2.bin.063|NODE_29069_length_3617_cov_1.577364_6	tRNA (guanine(37)-N(1))-methyltransferase (EC 2.1.1.228)
+R2_B_D2__metabat2.bin.063|NODE_29069_length_3617_cov_1.577364_7	protein of unknown function aq_054
+R2_B_D2__metabat2.bin.063|NODE_29158_length_3609_cov_1.638713_1	Glycosyltransferase
+R2_B_D2__metabat2.bin.063|NODE_29158_length_3609_cov_1.638713_2	Glycogen phosphorylase (EC 2.4.1.1)
+R2_B_D2__metabat2.bin.063|NODE_29158_length_3609_cov_1.638713_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_29158_length_3609_cov_1.638713_4	Multi antimicrobial extrusion protein (Na(+)/drug antiporter), MATE family of MDR efflux pumps
+R2_B_D2__metabat2.bin.063|NODE_29379_length_3591_cov_1.004042_1	Phosphoenolpyruvate carboxykinase [GTP] (EC 4.1.1.32)
+R2_B_D2__metabat2.bin.063|NODE_29379_length_3591_cov_1.004042_2	Pyruvate carboxylase subunit B (biotin-containing) (EC 6.4.1.1)
+R2_B_D2__metabat2.bin.063|NODE_29379_length_3591_cov_1.004042_3	NAD-specific glutamate dehydrogenase (EC 1.4.1.2); NADP-specific glutamate dehydrogenase (EC 1.4.1.4)
+R2_B_D2__metabat2.bin.063|NODE_29509_length_3578_cov_1.399594_1	
+R2_B_D2__metabat2.bin.063|NODE_29509_length_3578_cov_1.399594_2	
+R2_B_D2__metabat2.bin.063|NODE_29509_length_3578_cov_1.399594_3	
+R2_B_D2__metabat2.bin.063|NODE_29509_length_3578_cov_1.399594_4	
+R2_B_D2__metabat2.bin.063|NODE_29509_length_3578_cov_1.399594_5	
+R2_B_D2__metabat2.bin.063|NODE_29701_length_3562_cov_1.154876_1	
+R2_B_D2__metabat2.bin.063|NODE_29701_length_3562_cov_1.154876_2	Periplasmic [FeFe] hydrogenase large subunit (EC 1.12.7.2)
+R2_B_D2__metabat2.bin.063|NODE_29701_length_3562_cov_1.154876_3	Redox-sensing transcriptional repressor Rex
+R2_B_D2__metabat2.bin.063|NODE_29701_length_3562_cov_1.154876_4	RNA methyltransferase, TrmA family
+R2_B_D2__metabat2.bin.063|NODE_29801_length_3553_cov_1.600992_1	Proline/sodium symporter PutP (TC 2.A.21.2.1) @ Propionate/sodium symporter
+R2_B_D2__metabat2.bin.063|NODE_29801_length_3553_cov_1.600992_2	
+R2_B_D2__metabat2.bin.063|NODE_29801_length_3553_cov_1.600992_3	1-phosphofructokinase (EC 2.7.1.56)
+R2_B_D2__metabat2.bin.063|NODE_29801_length_3553_cov_1.600992_4	Uncharacterized protein MJ1426
+R2_B_D2__metabat2.bin.063|NODE_29801_length_3553_cov_1.600992_5	Na(+)/H(+) antiporter
+R2_B_D2__metabat2.bin.063|NODE_29891_length_3545_cov_1.380047_1	Fructose-bisphosphate aldolase class II (EC 4.1.2.13)
+R2_B_D2__metabat2.bin.063|NODE_29891_length_3545_cov_1.380047_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_29891_length_3545_cov_1.380047_3	Transcription termination factor Rho
+R2_B_D2__metabat2.bin.063|NODE_29891_length_3545_cov_1.380047_4	LSU ribosomal protein L31p @ LSU ribosomal protein L31p, zinc-dependent
+R2_B_D2__metabat2.bin.063|NODE_29891_length_3545_cov_1.380047_5	Thymidine kinase (EC 2.7.1.21)
+R2_B_D2__metabat2.bin.063|NODE_29956_length_3538_cov_2.340369_1	
+R2_B_D2__metabat2.bin.063|NODE_29956_length_3538_cov_2.340369_2	
+R2_B_D2__metabat2.bin.063|NODE_29956_length_3538_cov_2.340369_3	
+R2_B_D2__metabat2.bin.063|NODE_29956_length_3538_cov_2.340369_4	transposase, IS605 OrfB family
+R2_B_D2__metabat2.bin.063|NODE_29956_length_3538_cov_2.340369_5	
+R2_B_D2__metabat2.bin.063|NODE_30522_length_3495_cov_1.665974_1	2-amino-4-ketopentanoate thiolase, alpha subunit
+R2_B_D2__metabat2.bin.063|NODE_30522_length_3495_cov_1.665974_2	2-amino-4-ketopentanoate thiolase, beta subunit
+R2_B_D2__metabat2.bin.063|NODE_30522_length_3495_cov_1.665974_3	Probable reactivating factor for D-ornithine aminomutase
+R2_B_D2__metabat2.bin.063|NODE_30522_length_3495_cov_1.665974_4	D-Ornithine 4,5-aminomutase S subunit (EC 5.4.3.5)
+R2_B_D2__metabat2.bin.063|NODE_30549_length_3494_cov_1.327294_1	Branched-chain phosphotransacylase (EC 2.3.1.- )
+R2_B_D2__metabat2.bin.063|NODE_30549_length_3494_cov_1.327294_2	Branched-chain amino acid dehydrogenase [deaminating] (EC 1.4.1.9)(EC 1.4.1.23)
+R2_B_D2__metabat2.bin.063|NODE_30549_length_3494_cov_1.327294_3	Branched-chain acyl kinase
+R2_B_D2__metabat2.bin.063|NODE_30549_length_3494_cov_1.327294_4	2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase, delta subunit, ferredoxin-like 4Fe-4S binding protein (EC 1.2.7.-)
+R2_B_D2__metabat2.bin.063|NODE_30549_length_3494_cov_1.327294_5	2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase, alpha subunit (EC 1.2.7.-)
+R2_B_D2__metabat2.bin.063|NODE_30771_length_3478_cov_0.792898_1	Pyruvate,phosphate dikinase (EC 2.7.9.1)
+R2_B_D2__metabat2.bin.063|NODE_30771_length_3478_cov_0.792898_2	Glycyl-tRNA synthetase beta chain (EC 6.1.1.14)
+R2_B_D2__metabat2.bin.063|NODE_30931_length_3465_cov_1.115938_1	ABC transporter, substrate-binding protein (cluster 1, maltose/g3p/polyamine/iron)
+R2_B_D2__metabat2.bin.063|NODE_30931_length_3465_cov_1.115938_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_30931_length_3465_cov_1.115938_3	ABC transporter, permease protein 2 (cluster 1, maltose/g3p/polyamine/iron)
+R2_B_D2__metabat2.bin.063|NODE_30931_length_3465_cov_1.115938_4	
+R2_B_D2__metabat2.bin.063|NODE_31039_length_3457_cov_1.314414_1	Pyruvate kinase (EC 2.7.1.40)
+R2_B_D2__metabat2.bin.063|NODE_31039_length_3457_cov_1.314414_2	UPF0750 membrane protein YvjA
+R2_B_D2__metabat2.bin.063|NODE_31039_length_3457_cov_1.314414_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_31039_length_3457_cov_1.314414_4	Phosphoserine phosphatase (EC 3.1.3.3)
+R2_B_D2__metabat2.bin.063|NODE_31257_length_3441_cov_1.480084_1	ABC-type antimicrobial peptide transport system, ATPase component
+R2_B_D2__metabat2.bin.063|NODE_31257_length_3441_cov_1.480084_2	LolE-like permease protein
+R2_B_D2__metabat2.bin.063|NODE_31257_length_3441_cov_1.480084_3	
+R2_B_D2__metabat2.bin.063|NODE_31257_length_3441_cov_1.480084_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_31288_length_3439_cov_1.776872_1	Tripartite tricarboxylate transporter TctA family
+R2_B_D2__metabat2.bin.063|NODE_31288_length_3439_cov_1.776872_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_31288_length_3439_cov_1.776872_3	
+R2_B_D2__metabat2.bin.063|NODE_31336_length_3436_cov_1.301299_1	
+R2_B_D2__metabat2.bin.063|NODE_31336_length_3436_cov_1.301299_2	
+R2_B_D2__metabat2.bin.063|NODE_31336_length_3436_cov_1.301299_3	
+R2_B_D2__metabat2.bin.063|NODE_31336_length_3436_cov_1.301299_4	Iron(III) ABC transporter, ATP-binding protein
+R2_B_D2__metabat2.bin.063|NODE_31336_length_3436_cov_1.301299_5	
+R2_B_D2__metabat2.bin.063|NODE_31336_length_3436_cov_1.301299_6	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_31336_length_3436_cov_1.301299_7	
+R2_B_D2__metabat2.bin.063|NODE_31378_length_3433_cov_1.153962_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_31378_length_3433_cov_1.153962_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_31395_length_3432_cov_0.676853_1	Flagellin protein FlaA
+R2_B_D2__metabat2.bin.063|NODE_31395_length_3432_cov_0.676853_2	
+R2_B_D2__metabat2.bin.063|NODE_31395_length_3432_cov_0.676853_3	Flagellar cap protein FliD
+R2_B_D2__metabat2.bin.063|NODE_31395_length_3432_cov_0.676853_4	
+R2_B_D2__metabat2.bin.063|NODE_31395_length_3432_cov_0.676853_5	
+R2_B_D2__metabat2.bin.063|NODE_31395_length_3432_cov_0.676853_6	
+R2_B_D2__metabat2.bin.063|NODE_31602_length_3416_cov_1.556096_1	
+R2_B_D2__metabat2.bin.063|NODE_31602_length_3416_cov_1.556096_2	Tripartite tricarboxylate transporter TctC family
+R2_B_D2__metabat2.bin.063|NODE_31602_length_3416_cov_1.556096_3	
+R2_B_D2__metabat2.bin.063|NODE_31602_length_3416_cov_1.556096_4	Aconitate hydratase (EC 4.2.1.3)
+R2_B_D2__metabat2.bin.063|NODE_31602_length_3416_cov_1.556096_5	
+R2_B_D2__metabat2.bin.063|NODE_31768_length_3404_cov_1.507782_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_31768_length_3404_cov_1.507782_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_31930_length_3391_cov_1.746630_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_31930_length_3391_cov_1.746630_2	S-methyl-5-thioribose-1-phosphate isomerase (EC 5.3.1.23)
+R2_B_D2__metabat2.bin.063|NODE_31930_length_3391_cov_1.746630_3	
+R2_B_D2__metabat2.bin.063|NODE_31930_length_3391_cov_1.746630_4	
+R2_B_D2__metabat2.bin.063|NODE_32053_length_3382_cov_1.148694_1	5'-nucleotidase (EC 3.1.3.5)
+R2_B_D2__metabat2.bin.063|NODE_32053_length_3382_cov_1.148694_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_32053_length_3382_cov_1.148694_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_32132_length_3377_cov_1.209538_1	Cadmium, zinc and cobalt-transporting P-type ATPase (EC 3.6.3.3) (EC 3.6.3.5)
+R2_B_D2__metabat2.bin.063|NODE_32132_length_3377_cov_1.209538_2	Cadmium efflux system accessory protein
+R2_B_D2__metabat2.bin.063|NODE_32132_length_3377_cov_1.209538_3	tRNA-specific 2-thiouridylase MnmA (EC 2.8.1.13)
+R2_B_D2__metabat2.bin.063|NODE_32242_length_3369_cov_2.207279_1	
+R2_B_D2__metabat2.bin.063|NODE_32242_length_3369_cov_2.207279_2	Low-specificity L-threonine aldolase (EC 4.1.2.48)
+R2_B_D2__metabat2.bin.063|NODE_32242_length_3369_cov_2.207279_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_32242_length_3369_cov_2.207279_4	
+R2_B_D2__metabat2.bin.063|NODE_32557_length_3347_cov_1.366149_1	Pyruvate kinase (EC 2.7.1.40)
+R2_B_D2__metabat2.bin.063|NODE_32557_length_3347_cov_1.366149_2	6-phosphofructokinase (EC 2.7.1.11)
+R2_B_D2__metabat2.bin.063|NODE_32557_length_3347_cov_1.366149_3	DNA polymerase III alpha subunit (EC 2.7.7.7)
+R2_B_D2__metabat2.bin.063|NODE_32570_length_3346_cov_2.090401_1	
+R2_B_D2__metabat2.bin.063|NODE_32570_length_3346_cov_2.090401_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_32570_length_3346_cov_2.090401_3	
+R2_B_D2__metabat2.bin.063|NODE_32570_length_3346_cov_2.090401_4	Xaa-Pro aminopeptidase (EC 3.4.11.9)
+R2_B_D2__metabat2.bin.063|NODE_32615_length_3344_cov_1.612993_1	Serine/threonine protein kinase PrkC, regulator of stationary phase
+R2_B_D2__metabat2.bin.063|NODE_32615_length_3344_cov_1.612993_2	Protein serine/threonine phosphatase PrpC, regulation of stationary phase
+R2_B_D2__metabat2.bin.063|NODE_32615_length_3344_cov_1.612993_3	23S rRNA (adenine(2503)-C(2))-methyltransferase @ tRNA (adenine(37)-C(2))-methyltransferase (EC 2.1.1.192)
+R2_B_D2__metabat2.bin.063|NODE_32615_length_3344_cov_1.612993_4	Putative membrane protease YugP
+R2_B_D2__metabat2.bin.063|NODE_32793_length_3331_cov_1.427278_1	DNA integrity scanning protein DisA
+R2_B_D2__metabat2.bin.063|NODE_32793_length_3331_cov_1.427278_2	Transcriptional regulator, CarD family
+R2_B_D2__metabat2.bin.063|NODE_32793_length_3331_cov_1.427278_3	Membrane-associated protein containing RNA-binding TRAM domain and ribonuclease PIN-domain, YacL B.subtilis ortholog
+R2_B_D2__metabat2.bin.063|NODE_32793_length_3331_cov_1.427278_4	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (EC 2.7.7.60)
+R2_B_D2__metabat2.bin.063|NODE_32793_length_3331_cov_1.427278_5	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (EC 4.6.1.12)
+R2_B_D2__metabat2.bin.063|NODE_32915_length_3322_cov_1.783412_1	Efflux ABC transporter, ATP-binding protein
+R2_B_D2__metabat2.bin.063|NODE_32915_length_3322_cov_1.783412_2	Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)
+R2_B_D2__metabat2.bin.063|NODE_32969_length_3318_cov_1.316202_1	
+R2_B_D2__metabat2.bin.063|NODE_32969_length_3318_cov_1.316202_2	
+R2_B_D2__metabat2.bin.063|NODE_32969_length_3318_cov_1.316202_3	Fe-S oxidoreductase
+R2_B_D2__metabat2.bin.063|NODE_32969_length_3318_cov_1.316202_4	
+R2_B_D2__metabat2.bin.063|NODE_33022_length_3315_cov_1.385822_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_33022_length_3315_cov_1.385822_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_33059_length_3313_cov_1.371626_1	Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5); Copper-translocating P-type ATPase (EC 3.6.3.4)
+R2_B_D2__metabat2.bin.063|NODE_33059_length_3313_cov_1.371626_2	Aldo/keto reductase, 4Fe-4S-containing, TM1183 family
+R2_B_D2__metabat2.bin.063|NODE_33059_length_3313_cov_1.371626_3	Alkyl hydroperoxide reductase subunit C-like protein
+R2_B_D2__metabat2.bin.063|NODE_33454_length_3286_cov_1.483697_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_33454_length_3286_cov_1.483697_2	
+R2_B_D2__metabat2.bin.063|NODE_33454_length_3286_cov_1.483697_3	
+R2_B_D2__metabat2.bin.063|NODE_33685_length_3271_cov_1.026718_1	Ribonuclease PH (EC 2.7.7.56)
+R2_B_D2__metabat2.bin.063|NODE_33685_length_3271_cov_1.026718_2	Nucleoside 5-triphosphatase RdgB (dHAPTP, dITP, XTP-specific) (EC 3.6.1.66)
+R2_B_D2__metabat2.bin.063|NODE_33685_length_3271_cov_1.026718_3	uncharacterized domain 1
+R2_B_D2__metabat2.bin.063|NODE_33685_length_3271_cov_1.026718_4	
+R2_B_D2__metabat2.bin.063|NODE_33685_length_3271_cov_1.026718_5	Peptidyl-prolyl cis-trans isomerase PpiB (EC 5.2.1.8)
+R2_B_D2__metabat2.bin.063|NODE_33685_length_3271_cov_1.026718_6	
+R2_B_D2__metabat2.bin.063|NODE_33815_length_3262_cov_1.459330_1	
+R2_B_D2__metabat2.bin.063|NODE_33815_length_3262_cov_1.459330_2	Translation elongation factor G
+R2_B_D2__metabat2.bin.063|NODE_33815_length_3262_cov_1.459330_3	Nitroreductase
+R2_B_D2__metabat2.bin.063|NODE_33815_length_3262_cov_1.459330_4	
+R2_B_D2__metabat2.bin.063|NODE_34076_length_3245_cov_1.699487_1	
+R2_B_D2__metabat2.bin.063|NODE_34076_length_3245_cov_1.699487_2	Na(+) H(+) antiporter subunit G
+R2_B_D2__metabat2.bin.063|NODE_34076_length_3245_cov_1.699487_3	Na(+) H(+) antiporter subunit F
+R2_B_D2__metabat2.bin.063|NODE_34076_length_3245_cov_1.699487_4	Na(+) H(+) antiporter subunit E
+R2_B_D2__metabat2.bin.063|NODE_34076_length_3245_cov_1.699487_5	Uncharacterized protein TTE2374
+R2_B_D2__metabat2.bin.063|NODE_34076_length_3245_cov_1.699487_6	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_34144_length_3239_cov_2.103792_1	Two-component system sensor histidine kinase
+R2_B_D2__metabat2.bin.063|NODE_34144_length_3239_cov_2.103792_2	Phosphate regulon transcriptional regulatory protein PhoB (SphR)
+R2_B_D2__metabat2.bin.063|NODE_34144_length_3239_cov_2.103792_3	Efflux ABC transporter, ATP-binding protein
+R2_B_D2__metabat2.bin.063|NODE_34579_length_3210_cov_1.670451_1	Retron-type RNA-directed DNA polymerase (EC 2.7.7.49)
+R2_B_D2__metabat2.bin.063|NODE_34579_length_3210_cov_1.670451_2	Retron-type RNA-directed DNA polymerase (EC 2.7.7.49)
+R2_B_D2__metabat2.bin.063|NODE_34601_length_3209_cov_1.075600_1	Tripartite tricarboxylate transporter TctA family
+R2_B_D2__metabat2.bin.063|NODE_34601_length_3209_cov_1.075600_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_34601_length_3209_cov_1.075600_3	Tripartite tricarboxylate transporter TctC family
+R2_B_D2__metabat2.bin.063|NODE_34723_length_3202_cov_0.808780_1	NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)
+R2_B_D2__metabat2.bin.063|NODE_34723_length_3202_cov_0.808780_2	
+R2_B_D2__metabat2.bin.063|NODE_34723_length_3202_cov_0.808780_3	NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)
+R2_B_D2__metabat2.bin.063|NODE_34723_length_3202_cov_0.808780_4	
+R2_B_D2__metabat2.bin.063|NODE_34738_length_3201_cov_0.979180_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_34738_length_3201_cov_0.979180_2	
+R2_B_D2__metabat2.bin.063|NODE_34738_length_3201_cov_0.979180_3	Lipopolysaccharide ABC transporter, ATP-binding protein LptB
+R2_B_D2__metabat2.bin.063|NODE_34738_length_3201_cov_0.979180_4	Lipopolysaccharide export system permease protein LptF @ Lipopolysaccharide export system permease protein LptG
+R2_B_D2__metabat2.bin.063|NODE_34738_length_3201_cov_0.979180_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_34817_length_3197_cov_0.773616_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_34817_length_3197_cov_0.773616_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_34939_length_3190_cov_1.087169_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_34939_length_3190_cov_1.087169_2	
+R2_B_D2__metabat2.bin.063|NODE_34974_length_3188_cov_1.049657_1	
+R2_B_D2__metabat2.bin.063|NODE_34974_length_3188_cov_1.049657_2	Dihydroxyacetone kinase-like protein, phosphatase domain / Dihydroxyacetone kinase-like protein, kinase domain
+R2_B_D2__metabat2.bin.063|NODE_34974_length_3188_cov_1.049657_3	FIG005069: Hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_34974_length_3188_cov_1.049657_4	
+R2_B_D2__metabat2.bin.063|NODE_35026_length_3185_cov_1.252453_1	Phosphomannomutase (EC 5.4.2.8)
+R2_B_D2__metabat2.bin.063|NODE_35026_length_3185_cov_1.252453_2	
+R2_B_D2__metabat2.bin.063|NODE_35026_length_3185_cov_1.252453_3	
+R2_B_D2__metabat2.bin.063|NODE_35026_length_3185_cov_1.252453_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_35026_length_3185_cov_1.252453_5	
+R2_B_D2__metabat2.bin.063|NODE_35228_length_3172_cov_2.244335_1	
+R2_B_D2__metabat2.bin.063|NODE_35228_length_3172_cov_2.244335_2	Transmembrane component of general energizing module of ECF transporters
+R2_B_D2__metabat2.bin.063|NODE_35228_length_3172_cov_2.244335_3	tRNA pseudouridine(38-40) synthase (EC 5.4.99.12)
+R2_B_D2__metabat2.bin.063|NODE_35228_length_3172_cov_2.244335_4	LSU ribosomal protein L13p (L13Ae)
+R2_B_D2__metabat2.bin.063|NODE_35228_length_3172_cov_2.244335_5	SSU ribosomal protein S9p (S16e)
+R2_B_D2__metabat2.bin.063|NODE_35228_length_3172_cov_2.244335_6	
+R2_B_D2__metabat2.bin.063|NODE_35305_length_3167_cov_1.535197_1	
+R2_B_D2__metabat2.bin.063|NODE_35305_length_3167_cov_1.535197_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_35305_length_3167_cov_1.535197_3	Magnesium and cobalt transport protein CorA
+R2_B_D2__metabat2.bin.063|NODE_35305_length_3167_cov_1.535197_4	
+R2_B_D2__metabat2.bin.063|NODE_35305_length_3167_cov_1.535197_5	
+R2_B_D2__metabat2.bin.063|NODE_35656_length_3147_cov_1.548675_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_35656_length_3147_cov_1.548675_2	Cell division trigger factor (EC 5.2.1.8)
+R2_B_D2__metabat2.bin.063|NODE_35656_length_3147_cov_1.548675_3	ATP-dependent Clp protease proteolytic subunit ClpP (EC 3.4.21.92)
+R2_B_D2__metabat2.bin.063|NODE_35725_length_3143_cov_2.086538_1	Translation elongation factor LepA
+R2_B_D2__metabat2.bin.063|NODE_35725_length_3143_cov_2.086538_2	SSU ribosomal protein S20p
+R2_B_D2__metabat2.bin.063|NODE_35725_length_3143_cov_2.086538_3	
+R2_B_D2__metabat2.bin.063|NODE_35776_length_3140_cov_1.330899_1	
+R2_B_D2__metabat2.bin.063|NODE_35776_length_3140_cov_1.330899_2	Xaa-Pro dipeptidase (EC 3.4.13.9)
+R2_B_D2__metabat2.bin.063|NODE_35776_length_3140_cov_1.330899_3	ABC transporter, permease protein 2 (cluster 5, nickel/peptides/opines)
+R2_B_D2__metabat2.bin.063|NODE_35776_length_3140_cov_1.330899_4	ABC transporter, permease protein 1 (cluster 5, nickel/peptides/opines)
+R2_B_D2__metabat2.bin.063|NODE_35847_length_3136_cov_1.096710_1	UPF0213 protein YazA
+R2_B_D2__metabat2.bin.063|NODE_35847_length_3136_cov_1.096710_2	Phosphoserine phosphatase (EC 3.1.3.3)
+R2_B_D2__metabat2.bin.063|NODE_35847_length_3136_cov_1.096710_3	Cob(I)alamin adenosyltransferase (EC 2.5.1.17)
+R2_B_D2__metabat2.bin.063|NODE_35847_length_3136_cov_1.096710_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_35847_length_3136_cov_1.096710_5	
+R2_B_D2__metabat2.bin.063|NODE_36080_length_3122_cov_2.532554_1	
+R2_B_D2__metabat2.bin.063|NODE_36080_length_3122_cov_2.532554_2	Exodeoxyribonuclease III (EC 3.1.11.2)
+R2_B_D2__metabat2.bin.063|NODE_36080_length_3122_cov_2.532554_3	Transcription termination protein NusB
+R2_B_D2__metabat2.bin.063|NODE_36080_length_3122_cov_2.532554_4	
+R2_B_D2__metabat2.bin.063|NODE_36080_length_3122_cov_2.532554_5	
+R2_B_D2__metabat2.bin.063|NODE_36080_length_3122_cov_2.532554_6	Alkaline shock protein
+R2_B_D2__metabat2.bin.063|NODE_36080_length_3122_cov_2.532554_7	
+R2_B_D2__metabat2.bin.063|NODE_36199_length_3116_cov_0.850786_1	Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5); Copper-translocating P-type ATPase (EC 3.6.3.4)
+R2_B_D2__metabat2.bin.063|NODE_36199_length_3116_cov_0.850786_2	Transposase
+R2_B_D2__metabat2.bin.063|NODE_36199_length_3116_cov_0.850786_3	transposase, IS605 OrfB family
+R2_B_D2__metabat2.bin.063|NODE_36304_length_3110_cov_1.505531_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_36304_length_3110_cov_1.505531_2	
+R2_B_D2__metabat2.bin.063|NODE_36304_length_3110_cov_1.505531_3	
+R2_B_D2__metabat2.bin.063|NODE_36304_length_3110_cov_1.505531_4	Succinate-acetate/proton symporter SatP
+R2_B_D2__metabat2.bin.063|NODE_36304_length_3110_cov_1.505531_5	
+R2_B_D2__metabat2.bin.063|NODE_36361_length_3107_cov_1.924832_1	
+R2_B_D2__metabat2.bin.063|NODE_36361_length_3107_cov_1.924832_2	
+R2_B_D2__metabat2.bin.063|NODE_36361_length_3107_cov_1.924832_3	Methyl-accepting chemotaxis sensor/transducer protein
+R2_B_D2__metabat2.bin.063|NODE_36361_length_3107_cov_1.924832_4	
+R2_B_D2__metabat2.bin.063|NODE_36751_length_3085_cov_2.566599_1	ABC transporter, permease protein (cluster 15, trp?)
+R2_B_D2__metabat2.bin.063|NODE_36751_length_3085_cov_2.566599_2	ABC transporter, ATP-binding protein (cluster 15, trp?)
+R2_B_D2__metabat2.bin.063|NODE_36751_length_3085_cov_2.566599_3	Oligo-1,6-glucosidase (EC 3.2.1.10)
+R2_B_D2__metabat2.bin.063|NODE_36755_length_3085_cov_1.874915_1	Proline/sodium symporter PutP (TC 2.A.21.2.1) @ Propionate/sodium symporter
+R2_B_D2__metabat2.bin.063|NODE_36755_length_3085_cov_1.874915_2	2Fe-2S ferredoxin family protein
+R2_B_D2__metabat2.bin.063|NODE_36755_length_3085_cov_1.874915_3	Sarcosine oxidase alpha subunit (EC 1.5.3.1)
+R2_B_D2__metabat2.bin.063|NODE_36755_length_3085_cov_1.874915_4	
+R2_B_D2__metabat2.bin.063|NODE_36755_length_3085_cov_1.874915_5	
+R2_B_D2__metabat2.bin.063|NODE_36755_length_3085_cov_1.874915_6	
+R2_B_D2__metabat2.bin.063|NODE_36757_length_3085_cov_1.539554_1	LSU ribosomal protein L27p
+R2_B_D2__metabat2.bin.063|NODE_36757_length_3085_cov_1.539554_2	GTP-binding protein Obg
+R2_B_D2__metabat2.bin.063|NODE_36757_length_3085_cov_1.539554_3	RNA-binding protein YhbY
+R2_B_D2__metabat2.bin.063|NODE_36757_length_3085_cov_1.539554_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_37039_length_3067_cov_1.836054_1	
+R2_B_D2__metabat2.bin.063|NODE_37039_length_3067_cov_1.836054_2	
+R2_B_D2__metabat2.bin.063|NODE_37039_length_3067_cov_1.836054_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_37364_length_3048_cov_1.415953_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_37364_length_3048_cov_1.415953_2	Glutamine cyclotransferase
+R2_B_D2__metabat2.bin.063|NODE_37364_length_3048_cov_1.415953_3	Metal transporter, ZIP family
+R2_B_D2__metabat2.bin.063|NODE_37401_length_3046_cov_1.152107_1	
+R2_B_D2__metabat2.bin.063|NODE_37401_length_3046_cov_1.152107_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_37401_length_3046_cov_1.152107_3	
+R2_B_D2__metabat2.bin.063|NODE_37401_length_3046_cov_1.152107_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_37401_length_3046_cov_1.152107_5	
+R2_B_D2__metabat2.bin.063|NODE_37517_length_3039_cov_2.018887_1	Electron bifurcating butyryl-CoA dehydrogenase, electron transfer flavoprotein beta
+R2_B_D2__metabat2.bin.063|NODE_37517_length_3039_cov_2.018887_2	Electron bifurcating butyryl-CoA dehydrogenase, electron transfer flavoprotein alpha
+R2_B_D2__metabat2.bin.063|NODE_37517_length_3039_cov_2.018887_3	UPF0246 protein YaaA
+R2_B_D2__metabat2.bin.063|NODE_37829_length_3022_cov_2.030052_1	
+R2_B_D2__metabat2.bin.063|NODE_37829_length_3022_cov_2.030052_2	
+R2_B_D2__metabat2.bin.063|NODE_37829_length_3022_cov_2.030052_3	Diadenylate cyclase spyDAC; Bacterial checkpoint controller DisA with nucleotide-binding domain
+R2_B_D2__metabat2.bin.063|NODE_37829_length_3022_cov_2.030052_4	
+R2_B_D2__metabat2.bin.063|NODE_37829_length_3022_cov_2.030052_5	Phosphoglucosamine mutase (EC 5.4.2.10)
+R2_B_D2__metabat2.bin.063|NODE_37934_length_3017_cov_1.267474_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_37934_length_3017_cov_1.267474_2	Acetyltransferase, GNAT family
+R2_B_D2__metabat2.bin.063|NODE_37934_length_3017_cov_1.267474_3	
+R2_B_D2__metabat2.bin.063|NODE_37934_length_3017_cov_1.267474_4	
+R2_B_D2__metabat2.bin.063|NODE_37934_length_3017_cov_1.267474_5	
+R2_B_D2__metabat2.bin.063|NODE_37934_length_3017_cov_1.267474_6	
+R2_B_D2__metabat2.bin.063|NODE_37965_length_3015_cov_1.628116_1	
+R2_B_D2__metabat2.bin.063|NODE_37965_length_3015_cov_1.628116_2	
+R2_B_D2__metabat2.bin.063|NODE_37965_length_3015_cov_1.628116_3	
+R2_B_D2__metabat2.bin.063|NODE_37965_length_3015_cov_1.628116_4	Mg/Co/Ni transporter MgtE, CBS domain-containing
+R2_B_D2__metabat2.bin.063|NODE_37965_length_3015_cov_1.628116_5	
+R2_B_D2__metabat2.bin.063|NODE_38258_length_3001_cov_1.012526_1	
+R2_B_D2__metabat2.bin.063|NODE_38258_length_3001_cov_1.012526_2	Glycine reductase component B gamma subunit (EC 1.21.4.2) @ selenocysteine-containing
+R2_B_D2__metabat2.bin.063|NODE_38258_length_3001_cov_1.012526_3	
+R2_B_D2__metabat2.bin.063|NODE_38666_length_2979_cov_1.605540_1	Putative rRNA methylase YtqB
+R2_B_D2__metabat2.bin.063|NODE_38666_length_2979_cov_1.605540_2	
+R2_B_D2__metabat2.bin.063|NODE_38666_length_2979_cov_1.605540_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_38686_length_2978_cov_1.406173_1	
+R2_B_D2__metabat2.bin.063|NODE_38686_length_2978_cov_1.406173_2	
+R2_B_D2__metabat2.bin.063|NODE_38686_length_2978_cov_1.406173_3	
+R2_B_D2__metabat2.bin.063|NODE_38686_length_2978_cov_1.406173_4	Glutamine synthetase type I (EC 6.3.1.2)
+R2_B_D2__metabat2.bin.063|NODE_38909_length_2966_cov_1.153223_1	
+R2_B_D2__metabat2.bin.063|NODE_38909_length_2966_cov_1.153223_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_38909_length_2966_cov_1.153223_3	UPF0182 protein AF1421
+R2_B_D2__metabat2.bin.063|NODE_39202_length_2952_cov_1.661947_1	Excinuclease ABC subunit C
+R2_B_D2__metabat2.bin.063|NODE_39202_length_2952_cov_1.661947_2	Mobile element protein
+R2_B_D2__metabat2.bin.063|NODE_39202_length_2952_cov_1.661947_3	Uncharacterized protein CAC3725
+R2_B_D2__metabat2.bin.063|NODE_39429_length_2941_cov_1.685146_1	Sporulation transcription regulator WhiA
+R2_B_D2__metabat2.bin.063|NODE_39429_length_2941_cov_1.685146_2	FIG002813: LPPG:FO 2-phospho-L-lactate transferase like, CofD-like
+R2_B_D2__metabat2.bin.063|NODE_39429_length_2941_cov_1.685146_3	RNase adapter protein RapZ
+R2_B_D2__metabat2.bin.063|NODE_39429_length_2941_cov_1.685146_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_39451_length_2940_cov_1.565233_1	
+R2_B_D2__metabat2.bin.063|NODE_39451_length_2940_cov_1.565233_2	ABC transporter, permease protein (cluster 10, nitrate/sulfonate/bicarbonate)
+R2_B_D2__metabat2.bin.063|NODE_39451_length_2940_cov_1.565233_3	ABC transporter, ATP-binding protein (cluster 10, nitrate/sulfonate/bicarbonate)
+R2_B_D2__metabat2.bin.063|NODE_39451_length_2940_cov_1.565233_4	ABC transporter, substrate-binding protein (cluster 10, nitrate/sulfonate/bicarbonate)
+R2_B_D2__metabat2.bin.063|NODE_39451_length_2940_cov_1.565233_5	
+R2_B_D2__metabat2.bin.063|NODE_39653_length_2929_cov_2.050321_1	
+R2_B_D2__metabat2.bin.063|NODE_39653_length_2929_cov_2.050321_2	Two-component transcriptional response regulator, LuxR family
+R2_B_D2__metabat2.bin.063|NODE_39653_length_2929_cov_2.050321_3	
+R2_B_D2__metabat2.bin.063|NODE_39653_length_2929_cov_2.050321_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_39712_length_2927_cov_1.027857_1	
+R2_B_D2__metabat2.bin.063|NODE_39712_length_2927_cov_1.027857_2	
+R2_B_D2__metabat2.bin.063|NODE_39712_length_2927_cov_1.027857_3	ABC transporter, permease protein 2 (cluster 1, maltose/g3p/polyamine/iron)
+R2_B_D2__metabat2.bin.063|NODE_39906_length_2918_cov_1.190971_1	Ornithine carbamoyltransferase (EC 2.1.3.3)
+R2_B_D2__metabat2.bin.063|NODE_39906_length_2918_cov_1.190971_2	Xanthine permease
+R2_B_D2__metabat2.bin.063|NODE_39906_length_2918_cov_1.190971_3	Xanthine dehydrogenase, molybdenum binding subunit (EC 1.17.1.4)
+R2_B_D2__metabat2.bin.063|NODE_40133_length_2908_cov_0.635023_1	
+R2_B_D2__metabat2.bin.063|NODE_40133_length_2908_cov_0.635023_2	
+R2_B_D2__metabat2.bin.063|NODE_40133_length_2908_cov_0.635023_3	Putative dipeptidase
+R2_B_D2__metabat2.bin.063|NODE_40201_length_2905_cov_1.411087_1	
+R2_B_D2__metabat2.bin.063|NODE_40201_length_2905_cov_1.411087_2	
+R2_B_D2__metabat2.bin.063|NODE_40201_length_2905_cov_1.411087_3	
+R2_B_D2__metabat2.bin.063|NODE_40201_length_2905_cov_1.411087_4	
+R2_B_D2__metabat2.bin.063|NODE_40201_length_2905_cov_1.411087_5	
+R2_B_D2__metabat2.bin.063|NODE_40201_length_2905_cov_1.411087_6	
+R2_B_D2__metabat2.bin.063|NODE_40201_length_2905_cov_1.411087_7	
+R2_B_D2__metabat2.bin.063|NODE_40201_length_2905_cov_1.411087_8	
+R2_B_D2__metabat2.bin.063|NODE_40201_length_2905_cov_1.411087_9	
+R2_B_D2__metabat2.bin.063|NODE_40201_length_2905_cov_1.411087_10	
+R2_B_D2__metabat2.bin.063|NODE_40243_length_2903_cov_1.912824_1	L-aspartate oxidase-like protein
+R2_B_D2__metabat2.bin.063|NODE_40243_length_2903_cov_1.912824_2	
+R2_B_D2__metabat2.bin.063|NODE_40309_length_2900_cov_1.039668_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_40309_length_2900_cov_1.039668_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_40309_length_2900_cov_1.039668_3	
+R2_B_D2__metabat2.bin.063|NODE_40449_length_2893_cov_1.262473_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_40460_length_2892_cov_1.945027_1	3-phosphoshikimate 1-carboxyvinyltransferase (EC 2.5.1.19)
+R2_B_D2__metabat2.bin.063|NODE_40460_length_2892_cov_1.945027_2	Cytidylate kinase (EC 2.7.4.25)
+R2_B_D2__metabat2.bin.063|NODE_40460_length_2892_cov_1.945027_3	Acyl-CoA:1-acyl-sn-glycerol-3-phosphate acyltransferase (EC 2.3.1.51)
+R2_B_D2__metabat2.bin.063|NODE_40460_length_2892_cov_1.945027_4	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (EC 1.17.7.4)
+R2_B_D2__metabat2.bin.063|NODE_40541_length_2888_cov_1.267294_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_40541_length_2888_cov_1.267294_2	Zinc ABC transporter, ATP-binding protein ZnuC
+R2_B_D2__metabat2.bin.063|NODE_40541_length_2888_cov_1.267294_3	Zinc ABC transporter, permease protein ZnuB
+R2_B_D2__metabat2.bin.063|NODE_40541_length_2888_cov_1.267294_4	Na(+)/H(+) antiporter
+R2_B_D2__metabat2.bin.063|NODE_40708_length_2879_cov_1.305596_1	2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase, beta subunit (EC 1.2.7.-)
+R2_B_D2__metabat2.bin.063|NODE_40708_length_2879_cov_1.305596_2	2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase, gamma subunit (EC 1.2.7.-)
+R2_B_D2__metabat2.bin.063|NODE_40708_length_2879_cov_1.305596_3	Methylmalonyl-CoA mutase (EC 5.4.99.2)
+R2_B_D2__metabat2.bin.063|NODE_40708_length_2879_cov_1.305596_4	B12 binding domain of Methylmalonyl-CoA mutase (EC 5.4.99.2)
+R2_B_D2__metabat2.bin.063|NODE_40795_length_2875_cov_0.784934_1	
+R2_B_D2__metabat2.bin.063|NODE_40795_length_2875_cov_0.784934_2	
+R2_B_D2__metabat2.bin.063|NODE_40795_length_2875_cov_0.784934_3	
+R2_B_D2__metabat2.bin.063|NODE_40795_length_2875_cov_0.784934_4	
+R2_B_D2__metabat2.bin.063|NODE_40795_length_2875_cov_0.784934_5	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_41271_length_2854_cov_1.325633_1	Polyribonucleotide nucleotidyltransferase (EC 2.7.7.8)
+R2_B_D2__metabat2.bin.063|NODE_41271_length_2854_cov_1.325633_2	SSU ribosomal protein S15p (S13e)
+R2_B_D2__metabat2.bin.063|NODE_41271_length_2854_cov_1.325633_3	FMN adenylyltransferase (EC 2.7.7.2) / Riboflavin kinase (EC 2.7.1.26)
+R2_B_D2__metabat2.bin.063|NODE_41453_length_2847_cov_0.975735_1	
+R2_B_D2__metabat2.bin.063|NODE_41453_length_2847_cov_0.975735_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_41453_length_2847_cov_0.975735_3	DJ-1/YajL/PfpI superfamily, includes chaperone protein YajL (former ThiJ), parkinsonism-associated protein DJ-1, peptidases PfpI, Hsp31
+R2_B_D2__metabat2.bin.063|NODE_41453_length_2847_cov_0.975735_4	
+R2_B_D2__metabat2.bin.063|NODE_41636_length_2838_cov_1.940243_1	DNA polymerase III subunits gamma and tau (EC 2.7.7.7)
+R2_B_D2__metabat2.bin.063|NODE_41636_length_2838_cov_1.940243_2	Nucleoid-associated protein YaaK
+R2_B_D2__metabat2.bin.063|NODE_41636_length_2838_cov_1.940243_3	Recombination protein RecR
+R2_B_D2__metabat2.bin.063|NODE_41763_length_2832_cov_1.653974_1	
+R2_B_D2__metabat2.bin.063|NODE_41763_length_2832_cov_1.653974_2	ABC-type antimicrobial peptide transport system, permease component
+R2_B_D2__metabat2.bin.063|NODE_41763_length_2832_cov_1.653974_3	ABC-type antimicrobial peptide transport system, ATPase component
+R2_B_D2__metabat2.bin.063|NODE_41763_length_2832_cov_1.653974_4	
+R2_B_D2__metabat2.bin.063|NODE_42467_length_2801_cov_1.126402_1	
+R2_B_D2__metabat2.bin.063|NODE_42467_length_2801_cov_1.126402_2	KtrAB potassium uptake system, peripheral membrane component KtrA
+R2_B_D2__metabat2.bin.063|NODE_42467_length_2801_cov_1.126402_3	Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5); Copper-translocating P-type ATPase (EC 3.6.3.4)
+R2_B_D2__metabat2.bin.063|NODE_42520_length_2799_cov_1.564371_1	NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)
+R2_B_D2__metabat2.bin.063|NODE_42520_length_2799_cov_1.564371_2	NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)
+R2_B_D2__metabat2.bin.063|NODE_42520_length_2799_cov_1.564371_3	NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)
+R2_B_D2__metabat2.bin.063|NODE_42654_length_2793_cov_1.889347_1	
+R2_B_D2__metabat2.bin.063|NODE_42654_length_2793_cov_1.889347_2	
+R2_B_D2__metabat2.bin.063|NODE_42654_length_2793_cov_1.889347_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_42813_length_2787_cov_0.798872_1	Nicotinate phosphoribosyltransferase (EC 6.3.4.21)
+R2_B_D2__metabat2.bin.063|NODE_42813_length_2787_cov_0.798872_2	
+R2_B_D2__metabat2.bin.063|NODE_43038_length_2777_cov_1.540377_1	Multi antimicrobial extrusion protein (Na(+)/drug antiporter), MATE family of MDR efflux pumps
+R2_B_D2__metabat2.bin.063|NODE_43038_length_2777_cov_1.540377_2	DJ-1/YajL/PfpI superfamily, includes chaperone protein YajL (former ThiJ), parkinsonism-associated protein DJ-1, peptidases PfpI, Hsp31
+R2_B_D2__metabat2.bin.063|NODE_43038_length_2777_cov_1.540377_3	
+R2_B_D2__metabat2.bin.063|NODE_43038_length_2777_cov_1.540377_4	
+R2_B_D2__metabat2.bin.063|NODE_43038_length_2777_cov_1.540377_5	carboxymethylenebutenolidase-related protein
+R2_B_D2__metabat2.bin.063|NODE_43145_length_2772_cov_1.215501_1	
+R2_B_D2__metabat2.bin.063|NODE_43145_length_2772_cov_1.215501_2	
+R2_B_D2__metabat2.bin.063|NODE_43145_length_2772_cov_1.215501_3	
+R2_B_D2__metabat2.bin.063|NODE_43145_length_2772_cov_1.215501_4	
+R2_B_D2__metabat2.bin.063|NODE_43145_length_2772_cov_1.215501_5	
+R2_B_D2__metabat2.bin.063|NODE_43145_length_2772_cov_1.215501_6	
+R2_B_D2__metabat2.bin.063|NODE_43145_length_2772_cov_1.215501_7	
+R2_B_D2__metabat2.bin.063|NODE_43237_length_2768_cov_1.275275_1	Transcriptional regulator, AcrR family
+R2_B_D2__metabat2.bin.063|NODE_43237_length_2768_cov_1.275275_2	Glycine betaine transporter OpuD
+R2_B_D2__metabat2.bin.063|NODE_43237_length_2768_cov_1.275275_3	Betaine reductase component B beta subunit (EC 1.21.4.4) @ selenocysteine-containing
+R2_B_D2__metabat2.bin.063|NODE_43237_length_2768_cov_1.275275_4	Betaine reductase component B beta subunit (EC 1.21.4.4) @ selenocysteine-containing
+R2_B_D2__metabat2.bin.063|NODE_43351_length_2764_cov_1.259765_1	
+R2_B_D2__metabat2.bin.063|NODE_43351_length_2764_cov_1.259765_2	ABC transporter, permease protein 2 (cluster 1, maltose/g3p/polyamine/iron)
+R2_B_D2__metabat2.bin.063|NODE_43351_length_2764_cov_1.259765_3	ABC transporter, permease protein 1 (cluster 1, maltose/g3p/polyamine/iron)
+R2_B_D2__metabat2.bin.063|NODE_43351_length_2764_cov_1.259765_4	
+R2_B_D2__metabat2.bin.063|NODE_43561_length_2755_cov_0.964992_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_43561_length_2755_cov_0.964992_2	Two-component system response regulator protein
+R2_B_D2__metabat2.bin.063|NODE_43616_length_2752_cov_2.143619_1	
+R2_B_D2__metabat2.bin.063|NODE_43616_length_2752_cov_2.143619_2	3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11)
+R2_B_D2__metabat2.bin.063|NODE_43616_length_2752_cov_2.143619_3	Transcriptional regulator, IclR family
+R2_B_D2__metabat2.bin.063|NODE_44098_length_2734_cov_1.141542_1	Single-stranded-DNA-specific exonuclease RecJ
+R2_B_D2__metabat2.bin.063|NODE_44098_length_2734_cov_1.141542_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_44098_length_2734_cov_1.141542_3	Protein translocase subunit SecF
+R2_B_D2__metabat2.bin.063|NODE_44225_length_2728_cov_1.252595_1	
+R2_B_D2__metabat2.bin.063|NODE_44225_length_2728_cov_1.252595_2	
+R2_B_D2__metabat2.bin.063|NODE_44225_length_2728_cov_1.252595_3	Transposase
+R2_B_D2__metabat2.bin.063|NODE_44225_length_2728_cov_1.252595_4	
+R2_B_D2__metabat2.bin.063|NODE_44410_length_2721_cov_1.378180_1	4-hydroxy-tetrahydrodipicolinate reductase (EC 1.17.1.8)
+R2_B_D2__metabat2.bin.063|NODE_44410_length_2721_cov_1.378180_2	Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11)
+R2_B_D2__metabat2.bin.063|NODE_44410_length_2721_cov_1.378180_3	Aspartokinase (EC 2.7.2.4)
+R2_B_D2__metabat2.bin.063|NODE_44634_length_2712_cov_1.855319_1	
+R2_B_D2__metabat2.bin.063|NODE_44634_length_2712_cov_1.855319_2	Glycerol-3-phosphate ABC transporter, permease protein UgpE (TC 3.A.1.1.3)
+R2_B_D2__metabat2.bin.063|NODE_44634_length_2712_cov_1.855319_3	Glycerol-3-phosphate ABC transporter, permease protein UgpA (TC 3.A.1.1.3)
+R2_B_D2__metabat2.bin.063|NODE_44634_length_2712_cov_1.855319_4	
+R2_B_D2__metabat2.bin.063|NODE_44676_length_2711_cov_0.983746_1	Replication-associated recombination protein RarA
+R2_B_D2__metabat2.bin.063|NODE_44676_length_2711_cov_0.983746_2	FIG000605: protein co-occurring with transport systems (COG1739)
+R2_B_D2__metabat2.bin.063|NODE_44676_length_2711_cov_0.983746_3	Iron-sulfur cluster regulator IscR
+R2_B_D2__metabat2.bin.063|NODE_44676_length_2711_cov_0.983746_4	tRNA-specific 2-thiouridylase MnmA (EC 2.8.1.13)
+R2_B_D2__metabat2.bin.063|NODE_44899_length_2701_cov_2.237762_1	Dihydroorotase (EC 3.5.2.3)
+R2_B_D2__metabat2.bin.063|NODE_44899_length_2701_cov_2.237762_2	Phosphate transport system regulatory protein PhoU
+R2_B_D2__metabat2.bin.063|NODE_44899_length_2701_cov_2.237762_3	
+R2_B_D2__metabat2.bin.063|NODE_45344_length_2684_cov_1.114196_1	Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)
+R2_B_D2__metabat2.bin.063|NODE_45344_length_2684_cov_1.114196_2	
+R2_B_D2__metabat2.bin.063|NODE_45344_length_2684_cov_1.114196_3	
+R2_B_D2__metabat2.bin.063|NODE_45344_length_2684_cov_1.114196_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_45359_length_2683_cov_2.535994_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_45359_length_2683_cov_2.535994_2	Purine nucleoside phosphorylase (EC 2.4.2.1)
+R2_B_D2__metabat2.bin.063|NODE_45359_length_2683_cov_2.535994_3	Transcriptional regulator, LacI family
+R2_B_D2__metabat2.bin.063|NODE_45510_length_2677_cov_1.266275_1	Flagellar biosynthesis protein FlhF
+R2_B_D2__metabat2.bin.063|NODE_45510_length_2677_cov_1.266275_2	Flagellar synthesis regulator FleN
+R2_B_D2__metabat2.bin.063|NODE_45510_length_2677_cov_1.266275_3	
+R2_B_D2__metabat2.bin.063|NODE_45510_length_2677_cov_1.266275_4	
+R2_B_D2__metabat2.bin.063|NODE_45526_length_2676_cov_1.140840_1	RNA polymerase sporulation specific sigma factor SigH
+R2_B_D2__metabat2.bin.063|NODE_45526_length_2676_cov_1.140840_2	Cold shock protein of CSP family
+R2_B_D2__metabat2.bin.063|NODE_45526_length_2676_cov_1.140840_3	Ribosome hibernation promoting factor Hpf
+R2_B_D2__metabat2.bin.063|NODE_45526_length_2676_cov_1.140840_4	Protein translocase subunit SecA
+R2_B_D2__metabat2.bin.063|NODE_45793_length_2666_cov_1.090981_1	Efflux ABC transporter, ATP-binding protein
+R2_B_D2__metabat2.bin.063|NODE_45793_length_2666_cov_1.090981_2	Efflux ABC transporter, permease protein
+R2_B_D2__metabat2.bin.063|NODE_45793_length_2666_cov_1.090981_3	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)
+R2_B_D2__metabat2.bin.063|NODE_45793_length_2666_cov_1.090981_4	
+R2_B_D2__metabat2.bin.063|NODE_45833_length_2664_cov_1.946393_1	
+R2_B_D2__metabat2.bin.063|NODE_45833_length_2664_cov_1.946393_2	UTP--glucose-1-phosphate uridylyltransferase (EC 2.7.7.9)
+R2_B_D2__metabat2.bin.063|NODE_45833_length_2664_cov_1.946393_3	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_45843_length_2664_cov_1.083957_1	
+R2_B_D2__metabat2.bin.063|NODE_45843_length_2664_cov_1.083957_2	
+R2_B_D2__metabat2.bin.063|NODE_45843_length_2664_cov_1.083957_3	Transcriptional regulator, GntR family
+R2_B_D2__metabat2.bin.063|NODE_45843_length_2664_cov_1.083957_4	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_45843_length_2664_cov_1.083957_5	
+R2_B_D2__metabat2.bin.063|NODE_46299_length_2648_cov_1.000397_1	
+R2_B_D2__metabat2.bin.063|NODE_46299_length_2648_cov_1.000397_2	Putative dipeptidase
+R2_B_D2__metabat2.bin.063|NODE_46811_length_2629_cov_0.781375_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_46811_length_2629_cov_0.781375_2	Chorismate synthase (EC 4.2.3.5)
+R2_B_D2__metabat2.bin.063|NODE_46811_length_2629_cov_0.781375_3	
+R2_B_D2__metabat2.bin.063|NODE_47436_length_2606_cov_1.133522_1	
+R2_B_D2__metabat2.bin.063|NODE_47436_length_2606_cov_1.133522_2	
+R2_B_D2__metabat2.bin.063|NODE_47436_length_2606_cov_1.133522_3	
+R2_B_D2__metabat2.bin.063|NODE_47436_length_2606_cov_1.133522_4	
+R2_B_D2__metabat2.bin.063|NODE_47710_length_2596_cov_1.405832_1	FIG00031715: Predicted metal-dependent phosphoesterases (PHP family)
+R2_B_D2__metabat2.bin.063|NODE_47710_length_2596_cov_1.405832_2	Spore core dehydratation and coat assembly protein SpoVS
+R2_B_D2__metabat2.bin.063|NODE_47710_length_2596_cov_1.405832_3	2',3'-cyclic-nucleotide 2'-phosphodiesterase, Bsub YmdB
+R2_B_D2__metabat2.bin.063|NODE_47710_length_2596_cov_1.405832_4	Ribonuclease Y
+R2_B_D2__metabat2.bin.063|NODE_47889_length_2590_cov_1.494925_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_47889_length_2590_cov_1.494925_2	Membrane protein sharing a domain with YeeE/YedE
+R2_B_D2__metabat2.bin.063|NODE_47889_length_2590_cov_1.494925_3	MBL-fold metallo-hydrolase superfamily
+R2_B_D2__metabat2.bin.063|NODE_48035_length_2585_cov_1.393002_1	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)
+R2_B_D2__metabat2.bin.063|NODE_48035_length_2585_cov_1.393002_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_48035_length_2585_cov_1.393002_3	Two-component transcriptional response regulator, NarL/FixJ family
+R2_B_D2__metabat2.bin.063|NODE_48035_length_2585_cov_1.393002_4	
+R2_B_D2__metabat2.bin.063|NODE_48234_length_2577_cov_1.938776_1	
+R2_B_D2__metabat2.bin.063|NODE_48234_length_2577_cov_1.938776_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_48234_length_2577_cov_1.938776_3	
+R2_B_D2__metabat2.bin.063|NODE_48267_length_2576_cov_1.555329_1	Pullulanase (EC 3.2.1.41)
+R2_B_D2__metabat2.bin.063|NODE_48267_length_2576_cov_1.555329_2	1,4-alpha-glucan (glycogen) branching enzyme, GH-13-type (EC 2.4.1.18)
+R2_B_D2__metabat2.bin.063|NODE_48414_length_2571_cov_1.983633_1	
+R2_B_D2__metabat2.bin.063|NODE_48414_length_2571_cov_1.983633_2	
+R2_B_D2__metabat2.bin.063|NODE_48414_length_2571_cov_1.983633_3	
+R2_B_D2__metabat2.bin.063|NODE_48483_length_2569_cov_1.293202_1	
+R2_B_D2__metabat2.bin.063|NODE_48483_length_2569_cov_1.293202_2	
+R2_B_D2__metabat2.bin.063|NODE_48483_length_2569_cov_1.293202_3	DSBH domain containing protein
+R2_B_D2__metabat2.bin.063|NODE_48483_length_2569_cov_1.293202_4	Iron-sulfur cluster-binding protein
+R2_B_D2__metabat2.bin.063|NODE_48483_length_2569_cov_1.293202_5	
+R2_B_D2__metabat2.bin.063|NODE_48640_length_2564_cov_0.837505_1	Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)
+R2_B_D2__metabat2.bin.063|NODE_48640_length_2564_cov_0.837505_2	
+R2_B_D2__metabat2.bin.063|NODE_48640_length_2564_cov_0.837505_3	
+R2_B_D2__metabat2.bin.063|NODE_48640_length_2564_cov_0.837505_4	
+R2_B_D2__metabat2.bin.063|NODE_48740_length_2561_cov_1.059162_1	
+R2_B_D2__metabat2.bin.063|NODE_48740_length_2561_cov_1.059162_2	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_48740_length_2561_cov_1.059162_3	
+R2_B_D2__metabat2.bin.063|NODE_48740_length_2561_cov_1.059162_4	4-hydroxythreonine-4-phosphate dehydrogenase (EC 1.1.1.262)
+R2_B_D2__metabat2.bin.063|NODE_48883_length_2556_cov_1.503499_1	
+R2_B_D2__metabat2.bin.063|NODE_48883_length_2556_cov_1.503499_2	
+R2_B_D2__metabat2.bin.063|NODE_48883_length_2556_cov_1.503499_3	Magnesium and cobalt transport protein CorA
+R2_B_D2__metabat2.bin.063|NODE_48952_length_2554_cov_0.692625_1	UDP-N-acetylmuramoyl-L-alanine--D-glutamate ligase (EC 6.3.2.9)
+R2_B_D2__metabat2.bin.063|NODE_48952_length_2554_cov_0.692625_2	Phospho-N-acetylmuramoyl-pentapeptide-transferase (EC 2.7.8.13)
+R2_B_D2__metabat2.bin.063|NODE_48952_length_2554_cov_0.692625_3	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase (EC 6.3.2.10)
+R2_B_D2__metabat2.bin.063|NODE_48966_length_2553_cov_1.518549_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_48966_length_2553_cov_1.518549_2	
+R2_B_D2__metabat2.bin.063|NODE_49084_length_2549_cov_0.948803_1	
+R2_B_D2__metabat2.bin.063|NODE_49084_length_2549_cov_0.948803_2	
+R2_B_D2__metabat2.bin.063|NODE_49084_length_2549_cov_0.948803_3	
+R2_B_D2__metabat2.bin.063|NODE_49084_length_2549_cov_0.948803_4	
+R2_B_D2__metabat2.bin.063|NODE_49219_length_2544_cov_1.049648_1	Threonyl-tRNA synthetase (EC 6.1.1.3)
+R2_B_D2__metabat2.bin.063|NODE_49219_length_2544_cov_1.049648_2	
+R2_B_D2__metabat2.bin.063|NODE_49724_length_2526_cov_1.237182_1	Flagellar biosynthesis protein FlhB
+R2_B_D2__metabat2.bin.063|NODE_49724_length_2526_cov_1.237182_2	Flagellar biosynthesis protein FlhA
+R2_B_D2__metabat2.bin.063|NODE_49724_length_2526_cov_1.237182_3	Flagellar biosynthesis protein FlhF
+R2_B_D2__metabat2.bin.063|NODE_49897_length_2520_cov_0.818220_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_50163_length_2511_cov_0.680789_1	Glycerol-3-phosphate dehydrogenase [NAD(P)+] (EC 1.1.1.94)
+R2_B_D2__metabat2.bin.063|NODE_50163_length_2511_cov_0.680789_2	Acyl-phosphate:glycerol-3-phosphate O-acyltransferase PlsY (EC 2.3.1.n3)
+R2_B_D2__metabat2.bin.063|NODE_50163_length_2511_cov_0.680789_3	GTP-binding protein EngA
+R2_B_D2__metabat2.bin.063|NODE_50207_length_2509_cov_1.854324_1	
+R2_B_D2__metabat2.bin.063|NODE_50207_length_2509_cov_1.854324_2	Ribosome small subunit biogenesis RbfA-release protein RsgA
+R2_B_D2__metabat2.bin.063|NODE_50207_length_2509_cov_1.854324_3	Ribulose-phosphate 3-epimerase (EC 5.1.3.1)
+R2_B_D2__metabat2.bin.063|NODE_50280_length_2507_cov_1.426050_1	DNA mismatch repair protein MutS
+R2_B_D2__metabat2.bin.063|NODE_50280_length_2507_cov_1.426050_2	DNA mismatch repair protein MutL
+R2_B_D2__metabat2.bin.063|NODE_50450_length_2502_cov_1.462316_1	Aspartyl-tRNA synthetase (EC 6.1.1.12)
+R2_B_D2__metabat2.bin.063|NODE_50450_length_2502_cov_1.462316_2	5-formyltetrahydrofolate cyclo-ligase (EC 6.3.3.2)
+R2_B_D2__metabat2.bin.063|NODE_50451_length_2502_cov_1.220632_1	hypothetical protein
+R2_B_D2__metabat2.bin.063|NODE_50451_length_2502_cov_1.220632_2	hypothetical protein

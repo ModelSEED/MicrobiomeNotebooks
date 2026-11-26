@@ -1,0 +1,189 @@
+genome	Relative Abundance (%)	Trimmed Mean	Mean	Covered Fraction	Taxonomic_abundance	Sequence_abundance	Adjusted_ANI	True_cov	coverm_rel_norm	lineage
+bin.001.fasta__SRR21120497	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__SG8-39;g__2-12-FULL-68-20;s__
+bin.001.fasta__SRR21120499	0.3020738	8.746163	8.91512	0.98308134	0.376	0.1916	99.72	7.333	0.45766161458351223	d__Bacteria;p__4484-113;c__4484-113;o__JAGGVC01;f__JAGGVC01;g__CAYMAI01;s__
+bin.001.fasta__SRR21120500	0.52925694	14.154522	15.619987	0.9988857	0.7245	0.456	99.98	14.13	0.8018589685365929	d__Bacteria;p__Chloroflexota;c__Dehalococcoidia;o__SM23-28-2;f__RBG-16-64-32;g__JACZRQ01;s__
+bin.001.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__Rhodocyclaceae;g__Thauera;s__
+bin.002.fasta__SRR21120496	0.017032275	0.3204822	0.5026744	0.2842352	0.0196	0.0124	99.14	0.383	0.025805013465353133	d__Bacteria;p__Bacteroidota;c__Ignavibacteria;o__Ignavibacteriales;f__Ignavibacteriaceae;g__;s__
+bin.002.fasta__SRR21120497	0.013830197	0.19138582	0.40817133	0.16705605	0.0	0.0	0.0	0.0	0.020953655328691357	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__SG8-41;g__JAQGMV01;s__
+bin.002.fasta__SRR21120501	0.010011276	0.080764145	0.29546332	0.11282349	0.0	0.0	0.0	0.0	0.015167739599399767	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae_E;g__Zeimonas;s__Zeimonas sp001724315
+bin.002.fasta__SRR21120502	0.0	0.0	0.0	0.0	0.0071	0.006	96.91	0.138	0.0	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae_C;g__Acidovorax;s__Acidovorax sp000302535
+bin.003.fasta__SRR21120496	0.053703047	1.0315177	1.5849407	0.5870279	0.0466	0.0433	99.97	0.909	0.08136363762125097	d__Bacteria;p__Acidobacteriota;c__Thermoanaerobaculia;o__Gp7-AA8;f__Gp7-AA8;g__;s__
+bin.003.fasta__SRR21120498	0.30881193	8.94349	9.113982	0.9991582	0.4523	0.4077	99.99	8.822	0.46787032336617923	d__Bacteria;p__Sumerlaeota;c__Sumerlaeia;o__MVZB01;f__JAJFLK01;g__;s__
+bin.003.fasta__SRR21120499	0.124138154	3.47874	3.6636958	0.9304132	0.1418	0.1196	99.96	2.766	0.1880774432971568	d__Bacteria;p__Eisenbacteria;c__RBG-16-71-46;o__JABDJR01;f__JABDJR01;g__JABDJR01;s__
+bin.003.fasta__SRR21120500	0.20447844	5.886542	6.034783	0.9893079	0.2973	0.3375	99.88	5.799	0.3097982446604698	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Aggregatilineales;f__Phototrophicaceae;g__GCA-2702065;s__
+bin.003.fasta__SRR21120501	0.03568512	0.5958336	1.0531768	0.25076336	0.0	0.0	0.0	0.0	0.05406529674472391	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Dongiales;f__Dongiaceae;g__DAIMFL01;s__
+bin.003.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae_C;g__Hylemonella;s__Hylemonella sp019745555
+bin.004.fasta__SRR21120495	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Planctomycetota;c__Brocadiia;o__Brocadiales;f__Brocadiaceae;g__JBDIVL01;s__JBDIVL01 sp039794405
+bin.004.fasta__SRR21120499	0.05981199	1.5994931	1.7652344	0.73061365	0.0752	0.061	99.83	1.466	0.09061908684186741	d__Bacteria;p__Planctomycetota;c__Planctomycetia;o__Planctomycetales;f__Planctomycetaceae;g__JAHBXV01;s__
+bin.004.fasta__SRR21120501	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__UBA1402;g__UBA8389;s__UBA8389 sp964522065
+bin.004.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Tenuifilaceae;g__UBA5206;s__UBA5206 sp002412705
+bin.005.fasta__SRR21120495	0.28542405	8.170587	8.423735	0.9560716	0.4118	0.2352	99.55	8.032	0.4324361515760888	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Xanthomonadales;f__Xanthomonadaceae;g__Rehaibacterium;s__
+bin.005.fasta__SRR21120498	0.523228	15.258244	15.442056	0.99970263	0.7057	0.3477	100.0	13.763	0.7927247291069331	d__Bacteria;p__Chloroflexota;c__Limnocylindria;o__QHBO01;f__QHBO01;g__JAPSGM01;s__
+bin.005.fasta__SRR21120501	0.10264405	2.0300455	3.029339	0.34120902	0.0	0.0	0.0	0.0	0.15551246632574806	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Acidiferrobacterales;f__Sulfurifustaceae;g__Sulfurifustis;s__
+bin.005.fasta__SRR21120502	0.17172419	4.7893806	5.068105	0.9398875	0.2236	0.1228	99.36	4.361	0.2601734081487564	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__Thiobacillaceae;g__Thiobacillus;s__
+bin.005.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae_C;g__Comamonas;s__Comamonas aquatica
+bin.006.fasta__SRR21120497	0.049891904	1.2317189	1.4724623	0.6397236	0.0565	0.0423	99.67	1.101	0.07558950607197841	d__Bacteria;p__Chloroflexota;c__Dehalococcoidia;o__Tepidiformales;f__Tepidiformaceae;g__Amarobacter;s__
+bin.006.fasta__SRR21120501	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides;s__Bacteroides graminisolvens
+bin.006.fasta__SRR21120502	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiia;o__Verrucomicrobiales;f__Akkermansiaceae;g__Luteolibacter;s__
+bin.006.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Acidobacteriota;c__Vicinamibacteria;o__Vicinamibacterales;f__UBA2999;g__12-FULL-67-14b;s__
+bin.007.fasta__SRR21120496	0.09196029	2.5128603	2.7140288	0.851707	0.0995	0.1205	99.77	1.941	0.13932586937022678	d__Bacteria;p__Planctomycetota;c__Phycisphaerae;o__UBA1845;f__PWPN01;g__JACQVT01;s__
+bin.007.fasta__SRR21120499	0.08360817	2.2950444	2.4675324	0.83772117	0.098	0.1095	99.9	1.912	0.1266718599050059	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiia;o__Limisphaerales;f__JACRJZ01;g__JACRJZ01;s__
+bin.007.fasta__SRR21120502	0.06441863	1.2610134	1.9011903	0.36675614	0.0258	0.0151	97.76	0.504	0.09759844850847005	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__Anaerolineaceae;g__Bellilinea;s__
+bin.008.fasta__SRR21120495	0.15893683	0.6745344	4.690711	0.40271685	0.0313	0.0288	98.07	0.611	0.24079971925597388	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__SG8-39;g__SCGC-AG-212-J23;s__
+bin.008.fasta__SRR21120496	0.041172836	1.0085348	1.215136	0.576951	0.0476	0.0378	99.8	0.928	0.06237954632524288	d__Bacteria;p__Planctomycetota;c__Phycisphaerae;o__Phycisphaerales;f__UBA1924;g__PNC22;s__
+bin.008.fasta__SRR21120497	0.0	0.0	0.0	0.0	0.0056	0.0051	95.3	0.109	0.0	d__Bacteria;p__Acidobacteriota;c__Terriglobia;o__Bryobacterales;f__Bryobacteraceae;g__PNKE01;s__
+bin.008.fasta__SRR21120500	0.53325725	15.610963	15.7380495	0.99452364	0.7006	0.3227	99.89	13.664	0.8079197004949242	d__Bacteria;p__Actinomycetota;c__UBA4738;o__UBA4738;f__HRBIN12;g__HRBIN12;s__HRBIN12 sp036845105
+bin.008.fasta__SRR21120501	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Tissierellaceae;g__Gudongella;s__Gudongella sp030602225
+bin.008.fasta__SRR21120502	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Bacillota;c__Clostridia;o__Tissierellales;f__Tissierellaceae;g__Gudongella;s__
+bin.009.fasta__SRR21120495	0.009297909	0.06352284	0.27440968	0.10700932	0.0082	0.0107	98.31	0.161	0.014086941817498139	d__Bacteria;p__Desulfobacterota;c__Binatia;o__HRBIN30;f__;g__;s__
+bin.009.fasta__SRR21120499	0.0717087	1.9538229	2.1163425	0.8024008	0.0865	0.0122	100.0	1.687	0.10864338258294728	d__Bacteria;p__Patescibacteriota;c__Minisyncoccia;o__Phycocordibacterales;f__2-01-FULL-51-21;g__;s__
+bin.009.fasta__SRR21120501	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Synergistota;c__Synergistia;o__Synergistales;f__Aminobacteriaceae;g__Aminivibrio;s__
+bin.009.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodospirillales;f__Rhodospirillaceae;g__Caenispirillum;s__Caenispirillum sp023396465
+bin.010.fasta__SRR21120499	0.31374818	9.094593	9.259666	0.9833665	0.4089	0.2859	99.68	7.976	0.4753490657959691	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__Villigracilaceae;g__JAABUE01;s__
+bin.010.fasta__SRR21120501	0.009171628	0.068847775	0.27068275	0.103695184	0.0	0.0	0.0	0.0	0.013895617822000281	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__SG8-39;g__;s__
+bin.011.fasta__SRR21120495	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__Villigracilaceae;g__UBA877;s__
+bin.011.fasta__SRR21120497	0.032617636	0.8086239	0.9626459	0.5157269	0.043	0.0415	99.78	0.839	0.049417857343660034	d__Bacteria;p__Acidobacteriota;c__UBA6911;o__RPQK01;f__JAPXNP01;g__CAZGEH01;s__
+bin.011.fasta__SRR21120498	0.4395263	12.8327	12.971763	1.0	0.6812	0.1616	100.0	13.287	0.6659111651189781	d__Bacteria;p__Patescibacteriota;c__Microgenomatia;o__UBA10105;f__UBA927;g__UBA927;s__
+bin.011.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Erysipelotrichales;f__Erysipelotrichaceae;g__UBA2227;s__UBA2227 sp003510215
+bin.012.fasta__SRR21120498	0.25868064	7.4676294	7.6344557	0.99901193	0.3677	0.3014	99.99	7.172	0.39191813180718177	d__Bacteria;p__Chloroflexota;c__UBA6077;o__FW602-bin22;f__JACPQP01;g__;s__
+bin.012.fasta__SRR21120502	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Treponematales;f__Treponemataceae;g__Teretinema;s__
+bin.012.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodospirillales;f__Magnetospirillaceae;g__Magnetospirillum;s__Magnetospirillum aberrantis
+bin.013.fasta__SRR21120496	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Chloroflexota;c__Dehalococcoidia;o__DSTF01;f__WHTK01;g__;s__
+bin.013.fasta__SRR21120497	0.026423603	0.07377894	0.7798411	0.1046582	0.0	0.0	0.0	0.0	0.040033491193522036	d__Bacteria;p__Acidobacteriota;c__Thermoanaerobaculia;o__Multivoradales;f__JAGPDF01;g__JAAYLR01;s__
+bin.013.fasta__SRR21120502	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Desulfobacterota;c__Desulfobulbia;o__Desulfobulbales;f__Desulfobulbaceae;g__Desulfobulbus;s__Desulfobulbus sp017998195
+bin.013.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhizobiales;f__Beijerinckiaceae;g__Chelatococcus_A;s__
+bin.014.fasta__SRR21120495	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Nitrospirota;c__Nitrospiria;o__Nitrospirales;f__Nitrospiraceae;g__JBDZUK01;s__
+bin.014.fasta__SRR21120497	17.509926	523.28613	516.77136	0.9988709	28.8223	16.4987	99.97	562.154	26.528686050884982	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Thiohalomonadales;f__Thiohalomonadaceae;g__Sulfurivermis;s__
+bin.014.fasta__SRR21120502	0.028211087	0.2343192	0.8325952	0.1599083	0.0	0.0	0.0	0.0	0.04274164666242465	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__Villigracilaceae;g__Villigracilis;s__Villigracilis sp964410375
+bin.014.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__Villigracilaceae;g__UBA8950;s__
+bin.015.fasta__SRR21120495	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Planctomycetota;c__MHYJ01;o__MHYJ01;f__JACPRB01;g__;s__
+bin.015.fasta__SRR21120496	0.3159719	9.134832	9.325295	0.93382436	0.4304	0.3364	99.48	8.394	0.4787181474097392	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhizobiales;f__Xanthobacteraceae;g__Pseudorhodoplanes;s__
+bin.015.fasta__SRR21120497	0.12070223	1.6980554	3.5622911	0.57141584	0.0	0.0	0.0	0.0	0.18287179313674487	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Thiohalobacterales;f__Thiohalobacteraceae;g__JAHJQQ01;s__JAHJQQ01 sp964458835
+bin.015.fasta__SRR21120499	0.12000136	3.3301234	3.5416064	0.9159938	0.1212	0.1124	99.91	2.363	0.18180992912929655	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__GCA-2731375;f__GCA-2731375;g__;s__
+bin.015.fasta__SRR21120500	0.23229274	6.6757016	6.8556676	0.9871025	0.3269	0.3041	99.83	6.377	0.3519387329997769	d__Bacteria;p__Myxococcota;c__Myxococcia;o__Myxococcales;f__Vulgatibacteraceae;g__;s__
+bin.015.fasta__SRR21120502	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhizobiales;f__Rhizobiaceae;g__Aerobium;s__Aerobium sp022838525
+bin.016.fasta__SRR21120497	0.01998607	0.2642653	0.5898499	0.19860032	0.0137	0.0078	96.53	0.267	0.030280206576601798	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Steroidobacterales;f__Steroidobacteraceae;g__RPQJ01;s__
+bin.016.fasta__SRR21120500	0.12986617	3.6772594	3.8327465	0.9432739	0.1656	0.1829	99.97	3.23	0.19675576313462761	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiia;o__Limisphaerales;f__SIBE01;g__;s__
+bin.016.fasta__SRR21120501	0.51318586	14.740395	15.14568	0.9876279	0.5346	0.3079	99.85	10.427	0.7775102285237192	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Thiohalobacterales;f__Thiohalobacteraceae;g__JAHJQQ01;s__
+bin.016.fasta__SRR21120502	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Bacillota;c__Negativicutes;o__UBA1444;f__UBA1444;g__UBA1444;s__
+bin.016.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Xanthomonadales;f__Xanthomonadaceae;g__Pseudoxanthomonas_A;s__Pseudoxanthomonas_A wuyuanensis
+bin.017.fasta__SRR21120497	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Hinthialibacterota;c__Hinthialibacteria;o__Hinthialibacterales;f__Hinthialibacteraceae;g__JBMNGS01;s__
+bin.017.fasta__SRR21120498	0.6691842	19.610395	19.749668	0.9999522	1.0577	0.7151	100.0	20.629	1.013857942747024	d__Bacteria;p__Chloroflexota;c__Dehalococcoidia;o__Tepidiformales;f__Tepidiformaceae;g__Amarobacter;s__
+bin.017.fasta__SRR21120499	0.6076709	16.12533	17.934221	0.997679	0.7033	0.4665	99.94	13.718	0.9206612596968555	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__Villigracilaceae;g__Defluviilinea;s__
+bin.017.fasta__SRR21120500	0.34379545	10.010752	10.146452	0.99907887	0.5112	0.2534	99.98	9.97	0.5208726501055873	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__Anaerolineaceae;g__Bellilinea;s__
+bin.017.fasta__SRR21120502	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Tannerellaceae;g__Macellibacteroides;s__Macellibacteroides fermentans
+bin.017.fasta__SRR21120503	0.014567894	0.15191793	0.42994303	0.14167197	0.0	0.0	0.0	0.0	0.02207131465595977	d__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Propionibacteriales;f__Nocardioidaceae;g__Marmoricola_A;s__
+bin.018.fasta__SRR21120501	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Cellulomonadaceae;g__Actinotalea;s__
+bin.018.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Aeromonadaceae;g__Aeromonas;s__Aeromonas salmonicida
+bin.019.fasta__SRR21120498	0.5064937	14.821378	14.948174	0.9999245	0.7711	0.3414	100.0	15.04	0.7673711673053971	d__Archaea;p__Thermoproteota;c__Nitrososphaeria;o__Nitrososphaerales;f__Nitrososphaeraceae;g__Nitrososphaera;s__
+bin.019.fasta__SRR21120499	0.07447251	1.8355885	2.1979108	0.7595059	0.0788	0.0599	99.8	1.537	0.11283073596149934	d__Bacteria;p__Planctomycetota;c__B15-G4;o__B15-G4;f__B15-G4;g__;s__
+bin.019.fasta__SRR21120501	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Cellulomonadaceae;g__Actinotalea;s__
+bin.019.fasta__SRR21120502	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiia;o__Verrucomicrobiales;f__Akkermansiaceae;g__Luteolibacter;s__
+bin.020.fasta__SRR21120495	0.08028523	2.0863895	2.369462	0.7905586	0.0817	0.0345	99.47	1.594	0.12163738791318092	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodospirillales;f__Magnetospirillaceae;g__;s__
+bin.020.fasta__SRR21120498	0.8278539	24.255524	24.432495	0.9998985	1.2727	1.0015	100.0	24.822	1.2542529425367492	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__Villigracilaceae;g__Villigracilis;s__
+bin.020.fasta__SRR21120499	0.16290328	4.62985	4.807773	0.9649698	0.1799	0.1516	99.92	3.51	0.2468091510940372	d__Bacteria;p__Sumerlaeota;c__Sumerlaeia;o__;f__;g__;s__
+bin.020.fasta__SRR21120501	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__Rhodocyclaceae;g__Thauera;s__Thauera propionica
+bin.020.fasta__SRR21120502	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Synergistota;c__Synergistia;o__Synergistales;f__Aminobacteriaceae;g__JAAYLU01;s__JAAYLU01 sp018436785
+bin.021.fasta__SRR21120497	0.085541286	2.2271733	2.5245843	0.80677336	0.0837	0.0543	99.81	1.632	0.12960065740329013	d__Bacteria;p__Chloroflexota;c__Limnocylindria;o__Limnocylindrales;f__CSP1-4;g__CTSoil-043;s__
+bin.021.fasta__SRR21120498	0.33328432	9.683042	9.836238	0.9996888	0.4779	0.3891	100.0	9.321	0.5049475989197605	d__Bacteria;p__Gemmatimonadota;c__Gemmatimonadetes;o__Longimicrobiales;f__Longimicrobiaceae;g__WHSP01;s__
+bin.021.fasta__SRR21120500	0.21498877	6.1572943	6.3449745	0.98859984	0.3041	0.6441	99.87	5.932	0.32572208379383893	d__Bacteria;p__Myxococcota_A;c__Polyangia;o__Polyangiales;f__Sandaracinaceae;g__JAEZBP01;s__
+bin.021.fasta__SRR21120502	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Sphingomonadales;f__Sphingomonadaceae;g__Sphingopyxis;s__Sphingopyxis sp014595975
+bin.021.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiia;o__Opitutales;f__Opitutaceae;g__Didemnitutus;s__
+bin.022.fasta__SRR21120495	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Desulfobacterota;c__GWC2-55-46;o__GWC2-55-46;f__GWC2-55-46;g__UBA5799;s__
+bin.022.fasta__SRR21120496	0.1747248	4.930996	5.156662	0.9365959	0.2629	0.1345	99.51	5.127	0.2647195290547584	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__Thiobacillaceae;g__UBA6918;s__
+bin.022.fasta__SRR21120497	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Gemmatimonadota;c__Gemmatimonadetes;o__Longimicrobiales;f__RSA9;g__SH-MAG3;s__
+bin.022.fasta__SRR21120500	0.42957312	11.957399	12.678014	0.9995511	0.634	0.2896	99.99	12.365	0.6508314447690493	d__Bacteria;p__Cyanobacteriota;c__Vampirovibrionia;o__Vampirovibrionales;f__JAGQHJ01;g__;s__
+bin.022.fasta__SRR21120501	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Gemmatimonadota;c__Gemmatimonadetes;o__Longimicrobiales;f__RSA9;g__SH-MAG3;s__
+bin.022.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Actinomycetota;c__Acidimicrobiia;o__Acidimicrobiales;f__Microtrichaceae;g__JBAOHV01;s__
+bin.023.fasta__SRR21120495	0.01935268	0.25171873	0.5711567	0.18981099	0.0	0.0	0.0	0.0	0.02932057919395209	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__Usitatibacteraceae;g__Usitatibacter;s__
+bin.023.fasta__SRR21120496	0.77124673	22.385675	22.761847	0.9974373	1.1229	0.8571	99.95	21.902	1.168489368141342	d__Bacteria;p__Acidobacteriota;c__Polarisedimenticolia;o__Polarisedimenticolales;f__DASRJG01;g__CAYLHQ01;s__
+bin.023.fasta__SRR21120499	0.12168762	3.4241383	3.591373	0.92536193	0.1318	0.1459	99.94	2.571	0.18436472360073894	d__Bacteria;p__Hinthialibacterota;c__Hinthialibacteria;o__H5-UNCL2;f__;g__;s__
+bin.023.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Bacillota;c__Dethiobacteria;o__Dethiobacterales;f__Dethiobacteraceae;g__;s__
+bin.025.fasta__SRR21120495	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Desulfobacterota;c__Binatia;o__UBA1149;f__CAITLU01;g__DATNBU01;s__
+bin.025.fasta__SRR21120497	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Acidobacteriota;c__UBA6911;o__RPQK01;f__JAPXNP01;g__CAZGEH01;s__
+bin.025.fasta__SRR21120500	0.14989544	4.279275	4.4238725	0.9609482	0.1789	0.1524	99.96	3.489	0.22710142054393986	d__Bacteria;p__Hydrogenedentota;c__Hydrogenedentia;o__Hydrogenedentales;f__GCA-2746185;g__;s__
+bin.025.fasta__SRR21120501	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Bacillota;c__Clostridia;o__Christensenellales;f__CAG-138;g__UBA7703;s__
+bin.025.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Caulobacterales;f__Aquidulcibacteraceae;g__Vitreimonas;s__Vitreimonas sp036392335
+bin.026.fasta__SRR21120495	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Planctomycetota;c__Phycisphaerae;o__Phycisphaerales;f__SM1A02;g__CAZWJR01;s__
+bin.026.fasta__SRR21120496	0.17459565	5.0115657	5.1528506	0.9356707	0.2647	0.193	99.07	5.163	0.2645238583361344	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Ferrovibrionales;f__Ferrovibrionaceae;g__JAHCJQ01;s__
+bin.026.fasta__SRR21120497	0.10626593	2.4909718	3.1362321	0.60952437	0.0375	0.0242	98.96	0.732	0.160999852019667	d__Bacteria;p__Actinomycetota;c__Acidimicrobiia;o__IMCC26256;f__PALSA-610;g__;s__
+bin.026.fasta__SRR21120498	0.33582097	9.745426	9.911101	0.99941134	0.4072	0.5862	99.99	7.942	0.5087907900029768	d__Bacteria;p__Myxococcota_A;c__Polyangia;o__Nannocystales;f__Nannocystaceae;g__Plesiocystis;s__
+bin.026.fasta__SRR21120501	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae_C;g__Aquabacterium;s__Aquabacterium sp017989885
+bin.026.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__SHVZ01;f__SHVZ01;g__SHVZ01;s__
+bin.027.fasta__SRR21120497	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Myxococcota_A;c__Polyangia;o__Polyangiales;f__Sandaracinaceae;g__JAEZBP01;s__
+bin.027.fasta__SRR21120499	0.94508463	27.941032	27.892332	0.99833745	1.0645	0.5693	99.88	20.761	1.4318651855402926	d__Bacteria;p__Sumerlaeota;c__Sumerlaeia;o__MVZB01;f__JAJFLK01;g__;s__
+bin.027.fasta__SRR21120500	0.15459557	4.2872825	4.5625873	0.9658965	0.2243	0.1336	99.72	4.376	0.23422242569086882	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__UBA6429;f__Thiohalophilaceae;g__;s__
+bin.027.fasta__SRR21120501	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Planctomycetota;c__Phycisphaerae;o__Sedimentisphaerales;f__Anaerohalosphaeraceae;g__T3Sed10-213;s__
+bin.027.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Armatimonadota;c__Fimbriimonadia;o__Fimbriimonadales;f__Fimbriimonadaceae;g__JANJUB01;s__
+bin.028.fasta__SRR21120497	0.0	0.0	0.0	0.0	0.0115	0.0084	96.91	0.224	0.0	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Aggregatilineales;f__UBA3940;g__;s__
+bin.028.fasta__SRR21120498	0.34185365	9.81984	10.089144	0.998539	0.4868	0.2282	99.99	9.496	0.5179306957778758	d__Bacteria;p__Actinomycetota;c__Acidimicrobiia;o__IMCC26256;f__PALSA-610;g__;s__
+bin.028.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae_C;g__CAMLOF01;s__
+bin.029.fasta__SRR21120495	0.118425295	3.3557255	3.4950917	0.9154394	0.1336	0.0233	99.93	2.606	0.17942208730856082	d__Bacteria;p__Patescibacteriota;c__Microgenomatia;o__UBA8517;f__UBA8517;g__;s__
+bin.029.fasta__SRR21120497	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Gemmatimonadota;c__Gemmatimonadetes;o__Longimicrobiales;f__Gaopeijiaceae;g__SZUA-318;s__
+bin.029.fasta__SRR21120498	0.66381323	19.304926	19.591156	0.99989456	1.0381	0.8189	100.0	20.247	1.0057205710117738	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Xanthomonadales;f__SZUA-36;g__Elongatibacter;s__
+bin.029.fasta__SRR21120501	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Treponematales;f__Treponemataceae;g__Teretinema;s__
+bin.029.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Cellulomonadaceae;g__Actinotalea;s__
+bin.030.fasta__SRR21120497	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Gemmatimonadota;c__Gemmatimonadetes;o__Longimicrobiales;f__RSA9;g__;s__
+bin.030.fasta__SRR21120498	1.1805979	34.500103	34.843044	0.9999697	1.8716	1.3194	100.0	36.504	1.7886832326666657	d__Bacteria;p__Chloroflexota;c__Chloroflexia;o__Thermomicrobiales;f__Thermomicrobiaceae;g__Nitrolancea;s__
+bin.030.fasta__SRR21120501	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Marinilabiliaceae;g__CALEUX01;s__
+bin.030.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Xanthomonadales;f__Xanthomonadaceae;g__Pseudoxanthomonas_A;s__Pseudoxanthomonas_A mexicana
+bin.031.fasta__SRR21120497	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Acidobacteriota;c__Terriglobia;o__Bryobacterales;f__Bryobacteraceae;g__;s__
+bin.031.fasta__SRR21120498	0.2906914	8.366299	8.579191	0.9958972	0.4345	0.4531	99.99	8.475	0.44041653221676813	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhizobiales;f__Hyphomicrobiaceae;g__ZC4RG25;s__
+bin.031.fasta__SRR21120499	0.19129243	4.541387	5.645623	0.96181756	0.2307	0.2271	99.61	4.499	0.2898205748774091	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Steroidobacterales;f__Steroidobacteraceae;g__JADJHU01;s__
+bin.031.fasta__SRR21120501	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Stutzerimonas;s__Stutzerimonas stutzeri
+bin.031.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiia;o__Opitutales;f__Opitutaceae;g__Didemnitutus;s__Didemnitutus sp964601365
+bin.032.fasta__SRR21120497	0.008358147	0.08533007	0.24667442	0.12622963	0.011	0.0089	97.46	0.215	0.012663140765423346	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__ATCC43930;f__CGMCC-115725;g__JADGGZ01;s__
+bin.032.fasta__SRR21120498	0.55893093	16.29804	16.495758	0.9998356	0.7852	0.4878	100.0	15.314	0.8468170091694945	d__Bacteria;p__Actinomycetota;c__Acidimicrobiia;o__IMCC26256;f__PALSA-610;g__DASUMP01;s__
+bin.032.fasta__SRR21120501	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Prolixibacteraceae;g__UBA1413;s__UBA1413 sp001270045
+bin.032.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Reyranellales;f__Reyranellaceae;g__Reyranella;s__Reyranella sp964422305
+bin.033.fasta__SRR21120497	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiia;o__Limisphaerales;f__UBA8199;g__;s__
+bin.033.fasta__SRR21120499	0.23412563	6.744905	6.909762	0.9931223	0.3378	0.3852	99.89	6.589	0.3547156815360418	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiia;o__JADLBR01;f__JADLBR01;g__JADLBR01;s__
+bin.033.fasta__SRR21120500	0.19979623	5.7496567	5.896596	0.98465383	0.2806	0.2633	99.79	5.474	0.3027043894885911	d__Bacteria;p__Acidobacteriota;c__UBA6911;o__RPQK01;f__JAPXNP01;g__CAZGEH01;s__
+bin.033.fasta__SRR21120501	0.00618094	0.067795	0.1824184	0.11102609	0.0101	0.0069	98.29	0.198	0.00936452939660379	d__Bacteria;p__Desulfobacterota;c__Desulfuromonadia;o__Desulfuromonadales;f__Geoalkalibacteraceae;g__;s__
+bin.034.fasta__SRR21120498	0.3163068	9.178223	9.335179	0.9996589	0.4717	0.5454	100.0	9.2	0.4792255428698023	d__Bacteria;p__Desulfobacterota;c__Binatia;o__UBA9968;f__UBA9968;g__DP-20;s__
+bin.035.fasta__SRR21120497	0.060379375	1.0812958	1.7819797	0.26242545	0.0	0.0	0.0	0.0	0.09147871232143719	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Acidiferrobacterales;f__Sulfurifustaceae;g__Sulfurifustis;s__
+bin.035.fasta__SRR21120499	0.17723745	5.0726542	5.2308183	0.97977984	0.2614	0.2996	99.82	5.098	0.26852635856424656	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Aggregatilineales;f__UBA3940;g__JAHEME01;s__
+bin.035.fasta__SRR21120500	0.1239746	3.2763271	3.6588686	0.88627994	0.1069	0.1087	99.81	2.085	0.18782964826259377	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__Villigracilaceae;g__JAABUE01;s__
+bin.035.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Acidobacteriota;c__Blastocatellia;o__Pyrinomonadales;f__Pyrinomonadaceae;g__OLB17;s__OLB17 sp040756215
+bin.036.fasta__SRR21120496	0.17135572	4.9066114	5.05723	0.9311429	0.2655	0.2884	98.47	5.179	0.2596151519374412	d__Bacteria;p__Cyanobacteriota;c__Sericytochromatia;o__S15B-MN24;f__VGJW01;g__VGJY01;s__
+bin.036.fasta__SRR21120498	0.60098225	17.576942	17.73682	0.9998235	0.8932	0.8996	100.0	17.421	0.9105275163586911	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__CACIAM-22H2;f__CACIAM-22H2;g__;s__
+bin.036.fasta__SRR21120503	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__Anaerolineaceae;g__Bellilinea;s__
+bin.037.fasta__SRR21120496	0.01107795	0.11655858	0.32694408	0.13551773	0.0	0.0	0.0	0.0	0.01678382065334835	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__GCA-2731375;f__GCA-2731375;g__;s__
+bin.037.fasta__SRR21120497	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Steroidobacterales;f__Rariloculaceae;g__ZC4RG20;s__
+bin.037.fasta__SRR21120499	0.06762057	1.7944643	1.9956892	0.77001303	0.0795	0.0657	99.98	1.551	0.10244959756608289	d__Bacteria;p__Hydrogenedentota;c__Hydrogenedentia;o__Hydrogenedentales;f__JAGMZX01;g__JAGMZX01;s__JAGMZX01 sp029556545
+bin.038.fasta__SRR21120496	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Patescibacteriota;c__Microgenomatia;o__UBA1406;f__GWC2-37-13;g__GWC2-37-13;s__GWC2-37-13 sp002440905
+bin.038.fasta__SRR21120497	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Gemmatimonadota;c__Gemmatimonadetes;o__Longimicrobiales;f__RSA9;g__VEPF01;s__
+bin.038.fasta__SRR21120500	0.38707703	11.232935	11.423825	0.997113	0.5899	0.3287	99.9	11.505	0.5864470818653938	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__Thiobacillaceae;g__Thiobacillus;s__
+bin.039.fasta__SRR21120497	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Chloroflexota;c__Dehalococcoidia;o__Tepidiformales;f__Tepidiformaceae;g__DATBWD01;s__
+bin.039.fasta__SRR21120500	0.5090266	14.88485	15.022928	0.9993926	0.7733	0.5509	99.98	15.082	0.7712086768927184	d__Bacteria;p__Bacteroidota;c__Ignavibacteria;o__Ignavibacteriales;f__Ignavibacteriaceae;g__JAGXRK01;s__
+bin.040.fasta__SRR21120499	0.10099957	2.7940347	2.9808056	0.86811495	0.0973	0.0628	99.91	1.897	0.15302097129390388	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiia;o__Opitutales;f__Opitutaceae;g__DATKCJ01;s__
+bin.041.fasta__SRR21120496	0.008674931	0.11331867	0.25602368	0.14521155	0.0	0.0	0.0	0.0	0.013143089297584109	d__Bacteria;p__Krumholzibacteriota;c__Krumholzibacteriia;o__JAJRXK01;f__JAJRXK01;g__JAJRXK01;s__
+bin.041.fasta__SRR21120499	0.574922	16.311737	16.967703	0.99898577	0.8416	0.6831	99.99	16.414	0.8710445287859523	d__Bacteria;p__Sumerlaeota;c__Sumerlaeia;o__SLMS01;f__JAHLLQ01;g__;s__
+bin.041.fasta__SRR21120500	1.1284913	33.20183	33.30522	0.9974968	1.7967	1.7988	99.98	35.043	1.7097383169326394	d__Bacteria;p__Gemmatimonadota;c__Gemmatimonadetes;o__Gemmatimonadales;f__Gemmatimonadaceae;g__DATIGO01;s__
+bin.043.fasta__SRR21120498	0.28532246	8.269644	8.420737	0.99972516	0.3868	0.1427	99.99	7.544	0.4322822360646292	d__Archaea;p__Halobacteriota;c__Methanomicrobia;o__Methanomicrobiales;f__Methanoculleaceae;g__;s__
+bin.044.fasta__SRR21120498	0.26044384	7.4922223	7.686493	0.99907196	0.3574	0.2137	99.99	6.971	0.39458949542373395	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__Villigracilaceae;g__Villigracilis;s__
+bin.045.fasta__SRR21120496	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Myxococcota;c__Myxococcia;o__Myxococcales;f__Myxococcaceae;g__Hyalangium;s__
+bin.045.fasta__SRR21120498	0.85754496	25.053377	25.30877	0.9999627	1.2727	0.9126	100.0	24.822	1.2992368453389649	d__Bacteria;p__Actinomycetota;c__Acidimicrobiia;o__Acidimicrobiales;f__Acidimicrobilacustridaceae;g__CAVZVZ01;s__
+bin.045.fasta__SRR21120499	0.45030805	13.18038	13.289965	0.9940216	0.5961	0.4276	99.89	11.626	0.6822462233498997	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__Villigracilaceae;g__Defluviilinea;s__
+bin.045.fasta__SRR21120500	0.1018327	2.8456376	3.0053937	0.89549583	0.1153	0.0661	99.96	2.249	0.15428321787390506	d__Bacteria;p__Hydrogenedentota;c__Hydrogenedentia;o__Hydrogenedentales;f__GCA-2746185;g__;s__
+bin.046.fasta__SRR21120496	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__UBA4823;g__JAGUYW01;s__
+bin.046.fasta__SRR21120500	0.6817082	20.089222	20.11929	0.9979208	1.0915	0.8753	99.91	21.289	1.0328326239707644	d__Bacteria;p__Nitrospirota;c__Nitrospiria;o__Nitrospirales;f__Nitrospiraceae;g__Nitrospira_D;s__
+bin.047.fasta__SRR21120496	0.019081432	0.30359676	0.56315124	0.20916866	0.0	0.0	0.0	0.0	0.028909620687677967	d__Bacteria;p__Methylomirabilota;c__Methylomirabilia;o__Rokubacteriales;f__CSP1-6;g__;s__
+bin.047.fasta__SRR21120498	0.4247137	12.381504	12.534597	0.99956584	0.6093	0.3944	100.0	11.884	0.6434691048271564	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodospirillales;f__Magnetospirillaceae;g__JACFNC01;s__
+bin.047.fasta__SRR21120499	0.23500693	6.5181775	6.935772	0.9920226	0.3351	0.289	99.69	6.536	0.35605090882464624	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__SG8-41;g__DSOT01;s__
+bin.047.fasta__SRR21120500	0.31471705	9.154779	9.28826	0.9972627	0.4261	0.3275	99.95	8.31	0.4768169673767137	d__Bacteria;p__Zixibacteria;c__MSB-5A5;o__GN15;f__FEB-12;g__JAGNLV01;s__
+bin.048.fasta__SRR21120498	0.27464104	7.919124	8.105495	0.999357	0.3932	0.42	99.99	7.668	0.4160991843625464	d__Bacteria;p__Myxococcota;c__Myxococcia;o__Myxococcales;f__Myxococcaceae;g__JACPVI01;s__
+bin.049.fasta__SRR21120499	0.5283057	15.4563675	15.591914	0.9996228	0.8291	0.1441	100.0	16.171	0.8004177775618826	d__Bacteria;p__Patescibacteriota;c__Microgenomatia;o__UBA1400;f__UBA12108;g__LCPA01;s__
+bin.049.fasta__SRR21120500	0.27693558	7.830426	8.173214	0.98503405	0.3675	0.3297	99.84	7.168	0.4195755629201255	d__Bacteria;p__Myxococcota_A;c__UBA9160;o__UBA9160;f__UBA6930;g__JBFIYM01;s__
+bin.050.fasta__SRR21120496	0.100831404	2.793069	2.9758425	0.8113059	0.1521	0.17	97.49	2.967	0.15276618877692275	d__Bacteria;p__Bacillota;c__Sulfobacillia;o__Symbiobacteriales;f__Symbiobacteriaceae;g__JBOZRQ01;s__
+bin.050.fasta__SRR21120500	0.3882537	11.278771	11.458551	0.99925494	0.558	0.6386	99.95	10.883	0.5882298140720001	d__Bacteria;p__Sumerlaeota;c__Sumerlaeia;o__MVZB01;f__JAJFLK01;g__JAJFLK01;s__
+bin.051.fasta__SRR21120496	0.024185346	0.52268475	0.7137834	0.37746355	0.0368	0.0299	97.74	0.717	0.036642385071531815	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__Villigracilaceae;g__UBA8950;s__
+bin.051.fasta__SRR21120498	1.1694232	30.50591	34.51325	0.9998818	1.5721	1.0546	100.0	30.663	1.7717528294192264	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__Nitrosomonadaceae;g__Nitrosomonas;s__Nitrosomonas nitrosa
+bin.052.fasta__SRR21120496	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__UBA11579;g__SCUK01;s__
+bin.052.fasta__SRR21120499	0.2178848	6.23793	6.4304457	0.97840416	0.3142	0.3991	99.78	6.127	0.330109759142321	d__Bacteria;p__Hydrogenedentota;c__Hydrogenedentia;o__Hydrogenedentales;f__SLHB01;g__JAHDWY01;s__
+bin.052.fasta__SRR21120500	0.48072535	13.960543	14.187673	0.9977084	0.6892	0.586	99.95	13.441	0.7283304273731254	d__Bacteria;p__Eisenbacteria;c__RBG-16-71-46;o__RBG-16-71-46;f__RBG-16-71-46;g__CAVUWA01;s__
+bin.053.fasta__SRR21120496	0.086341664	1.781271	2.5482059	0.68526226	0.0515	0.0269	99.27	1.005	0.13081328255567717	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__Thiobacillaceae;g__Thiobacillus;s__Thiobacillus sp003510325
+bin.053.fasta__SRR21120498	19.049635	546.6298	562.2129	0.99991965	30.8436	23.4564	100.0	601.578	28.86144614768505	d__Bacteria;p__Planctomycetota;c__Brocadiia;o__Brocadiales;f__Brocadiaceae;g__JBDIVL01;s__
+bin.053.fasta__SRR21120500	0.23716944	6.7900143	6.999594	0.9897099	0.3252	0.1802	99.82	6.342	0.3593272532747542	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Xanthomonadales;f__Xanthomonadaceae;g__JAWLBY01;s__JAWLBY01 sp041687455
+bin.054.fasta__SRR21120496	0.28623846	8.240802	8.44777	0.8984692	0.4614	0.5444	99.12	8.999	0.43367003612858207	d__Bacteria;p__Desulfobacterota;c__Binatia;o__HRBIN30;f__CADEER01;g__CBFGUK01;s__
+bin.057.fasta__SRR21120496	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__AKYH767-A;f__OLB10;g__JALRAP01;s__

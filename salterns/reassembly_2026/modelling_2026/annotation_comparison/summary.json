@@ -1,0 +1,410 @@
+{
+ "n_models_expected_per_arm": 58,
+ "n_paired_models": 58,
+ "errors_per_arm": {
+  "A": [],
+  "B": [],
+  "C": [],
+  "D": []
+ },
+ "non_growing_per_arm": {
+  "A": [
+   [
+    "R2_B_D2__metabat2.bin.056",
+    "betaine_reducer"
+   ],
+   [
+    "R2_restored_D_shore__concoct.bin.011_sub",
+    "mepn_consumer"
+   ]
+  ],
+  "B": [
+   [
+    "R2_A_D1__maxbin2.Bin.018_sub",
+    "betaine_reducer"
+   ]
+  ],
+  "C": [
+   [
+    "R1_sediment__concoct.bin.052_sub",
+    "betaine_reducer"
+   ],
+   [
+    "R1_sediment__concoct.bin.104",
+    "mepn_consumer"
+   ],
+   [
+    "R2_A_D1__concoct.bin.120",
+    "mepn_consumer"
+   ],
+   [
+    "R2_sediment__metabat2.bin.362_sub",
+    "betaine_reducer"
+   ]
+  ],
+  "D": [
+   [
+    "R1_sediment__concoct.bin.104",
+    "mepn_consumer"
+   ],
+   [
+    "R2_C_D2__concoct.bin.063",
+    "mepn_consumer"
+   ],
+   [
+    "R2_sediment__metabat2.bin.362_sub",
+    "betaine_reducer"
+   ]
+  ]
+ },
+ "medians": {
+  "A": {
+   "m1": 801.5,
+   "m2": 97.0,
+   "m2_atp_core_gapfill": 0.0,
+   "m3": 1.0,
+   "atp_test_pass_rate": 1.0,
+   "n_atp_tests": 7.0,
+   "blocked_frac": 0.40853408687364745,
+   "dead_end_met_frac": 0.19681099429194998,
+   "m6_weak": 0.0,
+   "extra_only_final": 0.0,
+   "draft_gene_associated": 802.5,
+   "final_reactions": 1025.0,
+   "guild_growth": 0.04797173170740575,
+   "free_atp_pass_n": 55,
+   "grows_n": 56,
+   "obligate_n": 0
+  },
+  "B": {
+   "m1": 1003.5,
+   "m2": 75.0,
+   "m2_atp_core_gapfill": 0.0,
+   "m3": 1.0,
+   "atp_test_pass_rate": 1.0,
+   "n_atp_tests": 10.0,
+   "blocked_frac": 0.43541386390993414,
+   "dead_end_met_frac": 0.1776181280302408,
+   "m6_weak": 0.0,
+   "extra_only_final": 203.0,
+   "draft_gene_associated": 1005.0,
+   "final_reactions": 1193.5,
+   "guild_growth": 0.04817269143105329,
+   "free_atp_pass_n": 55,
+   "grows_n": 57,
+   "obligate_n": 0
+  },
+  "C": {
+   "m1": 1378.5,
+   "m2": 62.0,
+   "m2_atp_core_gapfill": 0.0,
+   "m3": 1.0,
+   "atp_test_pass_rate": 1.0,
+   "n_atp_tests": 10.0,
+   "blocked_frac": 0.47399949601958324,
+   "dead_end_met_frac": 0.1814920594704778,
+   "m6_weak": 288.0,
+   "extra_only_final": 589.5,
+   "draft_gene_associated": 1379.5,
+   "final_reactions": 1592.0,
+   "guild_growth": 0.0496820272838911,
+   "free_atp_pass_n": 57,
+   "grows_n": 54,
+   "obligate_n": 0
+  },
+  "D": {
+   "m1": 1370.0,
+   "m2": 62.0,
+   "m2_atp_core_gapfill": 0.0,
+   "m3": 1.0,
+   "atp_test_pass_rate": 1.0,
+   "n_atp_tests": 10.0,
+   "blocked_frac": 0.47211909945509234,
+   "dead_end_met_frac": 0.18003941134543627,
+   "m6_weak": 256.5,
+   "extra_only_final": 616.0,
+   "draft_gene_associated": 1392.5,
+   "final_reactions": 1606.5,
+   "guild_growth": 0.049760047852019644,
+   "free_atp_pass_n": 57,
+   "grows_n": 55,
+   "obligate_n": 0
+  }
+ },
+ "means": {
+  "A": {
+   "m1": 820.3965517241379,
+   "m2": 103.6896551724138,
+   "m2_atp_core_gapfill": 0.5517241379310345,
+   "m3": 0.5945663531870429,
+   "atp_test_pass_rate": 0.958915318398077,
+   "n_atp_tests": 8.258620689655173,
+   "blocked_frac": 0.40549344473820503,
+   "dead_end_met_frac": 0.19563428301245525,
+   "m6_weak": 0.0,
+   "extra_only_final": 0.0,
+   "draft_gene_associated": 820.5689655172414,
+   "final_reactions": 1035.2758620689656,
+   "guild_growth": 0.3462331839081336
+  },
+  "B": {
+   "m1": 1035.0172413793102,
+   "m2": 87.17241379310344,
+   "m2_atp_core_gapfill": 0.43103448275862066,
+   "m3": 0.9049111807732497,
+   "atp_test_pass_rate": 0.9678297755883964,
+   "n_atp_tests": 8.913793103448276,
+   "blocked_frac": 0.4349382641656655,
+   "dead_end_met_frac": 0.18247617248052778,
+   "m6_weak": 0.0,
+   "extra_only_final": 214.74137931034483,
+   "draft_gene_associated": 1035.5344827586207,
+   "final_reactions": 1235.7758620689656,
+   "guild_growth": 0.3262851124451238
+  },
+  "C": {
+   "m1": 1426.8620689655172,
+   "m2": 73.25862068965517,
+   "m2_atp_core_gapfill": 0.3793103448275862,
+   "m3": 0.9237199582027169,
+   "atp_test_pass_rate": 0.9623026398888468,
+   "n_atp_tests": 10.189655172413794,
+   "blocked_frac": 0.47056159518705304,
+   "dead_end_met_frac": 0.18616327798321125,
+   "m6_weak": 288.5,
+   "extra_only_final": 608.9310344827586,
+   "draft_gene_associated": 1434.0172413793102,
+   "final_reactions": 1626.448275862069,
+   "guild_growth": 0.42286120983785436
+  },
+  "D": {
+   "m1": 1443.0689655172414,
+   "m2": 72.20689655172414,
+   "m2_atp_core_gapfill": 0.3793103448275862,
+   "m3": 0.9237199582027169,
+   "atp_test_pass_rate": 0.9621131741821397,
+   "n_atp_tests": 10.258620689655173,
+   "blocked_frac": 0.46741989974295634,
+   "dead_end_met_frac": 0.18535822805821364,
+   "m6_weak": 253.72413793103448,
+   "extra_only_final": 625.7241379310345,
+   "draft_gene_associated": 1451.5689655172414,
+   "final_reactions": 1646.5689655172414,
+   "guild_growth": 0.5454961285831745
+  }
+ },
+ "per_guild": {
+  "A": {
+   "betaine_reducer": {
+    "n": 18,
+    "m3_median": 0.0,
+    "m3_mean": 0.0,
+    "m1_median": 686.0,
+    "m2_median": 154.0,
+    "blocked_median": 0.3816386525558553
+   },
+   "mepn_consumer": {
+    "n": 39,
+    "m3_median": 1.0,
+    "m3_mean": 0.8632478632478632,
+    "m1_median": 984.0,
+    "m2_median": 71.0,
+    "blocked_median": 0.41877637130801687
+   },
+   "methanogen": {
+    "n": 1,
+    "m3_median": 0.8181818181818182,
+    "m3_mean": 0.8181818181818182,
+    "m1_median": 525.0,
+    "m2_median": 104.0,
+    "blocked_median": 0.3957703927492447
+   }
+  },
+  "B": {
+   "betaine_reducer": {
+    "n": 18,
+    "m3_median": 1.0,
+    "m3_mean": 0.9444444444444444,
+    "m1_median": 856.5,
+    "m2_median": 131.5,
+    "blocked_median": 0.4007386888273315
+   },
+   "mepn_consumer": {
+    "n": 39,
+    "m3_median": 1.0,
+    "m3_mean": 0.8888888888888888,
+    "m1_median": 1263.0,
+    "m2_median": 55.0,
+    "blocked_median": 0.4523979957050823
+   },
+   "methanogen": {
+    "n": 1,
+    "m3_median": 0.8181818181818182,
+    "m3_mean": 0.8181818181818182,
+    "m1_median": 666.0,
+    "m2_median": 73.0,
+    "blocked_median": 0.41222366710013003
+   }
+  },
+  "C": {
+   "betaine_reducer": {
+    "n": 18,
+    "m3_median": 1.0,
+    "m3_mean": 1.0,
+    "m1_median": 1214.5,
+    "m2_median": 115.0,
+    "blocked_median": 0.43915868203273223
+   },
+   "mepn_consumer": {
+    "n": 39,
+    "m3_median": 1.0,
+    "m3_mean": 0.8888888888888888,
+    "m1_median": 1652.0,
+    "m2_median": 47.0,
+    "blocked_median": 0.48887621220764405
+   },
+   "methanogen": {
+    "n": 1,
+    "m3_median": 0.9090909090909091,
+    "m3_mean": 0.9090909090909091,
+    "m1_median": 914.0,
+    "m2_median": 57.0,
+    "blocked_median": 0.46161515453639085
+   }
+  },
+  "D": {
+   "betaine_reducer": {
+    "n": 18,
+    "m3_median": 1.0,
+    "m3_mean": 1.0,
+    "m1_median": 1265.5,
+    "m2_median": 111.5,
+    "blocked_median": 0.4381059841859143
+   },
+   "mepn_consumer": {
+    "n": 39,
+    "m3_median": 1.0,
+    "m3_mean": 0.8888888888888888,
+    "m1_median": 1680.0,
+    "m2_median": 46.0,
+    "blocked_median": 0.48023822414726586
+   },
+   "methanogen": {
+    "n": 1,
+    "m3_median": 0.9090909090909091,
+    "m3_mean": 0.9090909090909091,
+    "m1_median": 915.0,
+    "m2_median": 57.0,
+    "blocked_median": 0.4581673306772908
+   }
+  }
+ },
+ "paired_change_medians": {
+  "D": {
+   "m1_rel_change": 0.7653991237318714,
+   "m2_rel_change": -0.3235373054213634,
+   "blocked_frac_change": 0.06120633616565946
+  },
+  "C": {
+   "m1_rel_change": 0.7511757742329936,
+   "m2_rel_change": -0.3120471014492754,
+   "blocked_frac_change": 0.0660028832528351
+  },
+  "B": {
+   "m1_rel_change": 0.2556264120514429,
+   "m2_rel_change": -0.17799539170506912,
+   "blocked_frac_change": 0.02949062453147905
+  }
+ },
+ "criteria": {
+  "D": {
+   "a_m1_ratio": 1.7092950717404867,
+   "a_pass": true,
+   "b_m2_ratio": 0.6391752577319587,
+   "b_pass": true,
+   "c_per_guild": {
+    "betaine_reducer": true,
+    "mepn_consumer": true,
+    "methanogen": true
+   },
+   "c_pass": true,
+   "d_models_gaining_free_atp": [
+    [
+     "R1_sediment__metabat2.bin.142_sub",
+     "mepn_consumer"
+    ]
+   ],
+   "d_atp_pass_rate": [
+    1.0,
+    1.0
+   ],
+   "d_pass": false,
+   "e_blocked_change_pp": 6.358501258144489,
+   "e_pass": false,
+   "all_pass": false,
+   "paired_view_disagrees": {
+    "a": false,
+    "b": false,
+    "e": false
+   }
+  },
+  "C": {
+   "a_m1_ratio": 1.7199001871490955,
+   "a_pass": true,
+   "b_m2_ratio": 0.6391752577319587,
+   "b_pass": true,
+   "c_per_guild": {
+    "betaine_reducer": true,
+    "mepn_consumer": true,
+    "methanogen": true
+   },
+   "c_pass": true,
+   "d_models_gaining_free_atp": [
+    [
+     "R1_sediment__metabat2.bin.142_sub",
+     "mepn_consumer"
+    ]
+   ],
+   "d_atp_pass_rate": [
+    1.0,
+    1.0
+   ],
+   "d_pass": false,
+   "e_blocked_change_pp": 6.54654091459358,
+   "e_pass": false,
+   "all_pass": false,
+   "paired_view_disagrees": {
+    "a": false,
+    "b": false,
+    "e": false
+   }
+  },
+  "B": {
+   "a_m1_ratio": 1.2520274485339988,
+   "a_pass": true,
+   "b_m2_ratio": 0.7731958762886598,
+   "b_pass": true,
+   "c_per_guild": {
+    "betaine_reducer": true,
+    "mepn_consumer": true,
+    "methanogen": true
+   },
+   "c_pass": true,
+   "d_models_gaining_free_atp": [],
+   "d_atp_pass_rate": [
+    1.0,
+    1.0
+   ],
+   "d_pass": true,
+   "e_blocked_change_pp": 2.687977703628669,
+   "e_pass": false,
+   "all_pass": false,
+   "paired_view_disagrees": {
+    "a": false,
+    "b": true,
+    "e": false
+   }
+  }
+ },
+ "decision": "A"
+}

@@ -1,0 +1,66 @@
+gene_id	gene_description	module	topic_ecosystem	header	subheader
+K02041	phnC; phosphonate ABC transporter ATP-binding	MePn C-P lyase	salterns_methane	MePn C-P lyase	phnC
+K02044	phnD; phosphonate ABC transporter substrate-binding	MePn C-P lyase	salterns_methane	MePn C-P lyase	phnD
+K02042	phnE; phosphonate ABC transporter permease	MePn C-P lyase	salterns_methane	MePn C-P lyase	phnE
+K02043	phnF; phn operon regulator (GntR)	MePn C-P lyase	salterns_methane	MePn C-P lyase	phnF
+K06166	phnG; C-P lyase core PhnG	MePn C-P lyase	salterns_methane	MePn C-P lyase	phnG
+K06165	phnH; C-P lyase core PhnH	MePn C-P lyase	salterns_methane	MePn C-P lyase	phnH
+K06164	phnI; C-P lyase core PhnI	MePn C-P lyase	salterns_methane	MePn C-P lyase	phnI
+K06163	phnJ; C-P lyase PhnJ (the C-P bond-cleaving step; guild rule)	MePn C-P lyase	salterns_methane	MePn C-P lyase	phnJ
+K05781	phnK; C-P lyase complex PhnK	MePn C-P lyase	salterns_methane	MePn C-P lyase	phnK
+K05780	phnL; C-P lyase complex PhnL	MePn C-P lyase	salterns_methane	MePn C-P lyase	phnL
+K06162	phnM; RPnTP diphosphatase PhnM	MePn C-P lyase	salterns_methane	MePn C-P lyase	phnM
+K05774	phnN; ribose 1,5-bisphosphokinase PhnN	MePn C-P lyase	salterns_methane	MePn C-P lyase	phnN
+K09994	phnO; aminoalkylphosphonate N-acetyltransferase	MePn C-P lyase	salterns_methane	MePn C-P lyase	phnO
+K06167	phnP; phosphoribosyl cyclic phosphate phosphodiesterase	MePn C-P lyase	salterns_methane	MePn C-P lyase	phnP
+K05306	phnX; phosphonoacetaldehyde hydrolase (2-AEP route)	other phosphonate catabolism	salterns_methane	other phosphonate catabolism	phnX
+K03430	phnW; 2-AEP:pyruvate transaminase	other phosphonate catabolism	salterns_methane	other phosphonate catabolism	phnW
+K21195	phnY; 2-AEP dioxygenase	other phosphonate catabolism	salterns_methane	other phosphonate catabolism	phnY
+K21196	phnZ; 2-amino-1-hydroxyethylphosphonate dioxygenase	other phosphonate catabolism	salterns_methane	other phosphonate catabolism	phnZ
+K21578	grdI; betaine reductase protein B alpha (guild rule, RAST 'component B')	betaine reductase	salterns_methane	betaine reductase	grdI
+K21579	grdH; betaine reductase protein B beta, selenocysteine (guild rule)	betaine reductase	salterns_methane	betaine reductase	grdH
+K10670	grdA; Gly/Sar/betaine reductase protein A, selenocysteine	betaine reductase	salterns_methane	betaine reductase	grdA
+K21576	grdD; Gly/Sar/betaine reductase protein C alpha	betaine reductase	salterns_methane	betaine reductase	grdD
+K21577	grdC; Gly/Sar/betaine reductase protein C beta	betaine reductase	salterns_methane	betaine reductase	grdC
+K10672	grdB; glycine reductase protein B gamma, selenocysteine	glycine reductase (paralog control)	salterns_methane	glycine reductase (paralog control)	grdB
+K10671	grdE; glycine reductase protein B alpha/beta	glycine reductase (paralog control)	salterns_methane	glycine reductase (paralog control)	grdE
+K21584	grdF; sarcosine reductase protein B beta	sarcosine reductase (paralog control)	salterns_methane	sarcosine reductase (paralog control)	grdF
+K21583	grdG; sarcosine reductase protein B alpha	sarcosine reductase (paralog control)	salterns_methane	sarcosine reductase (paralog control)	grdG
+K25220	mtgB; glycine betaine:corrinoid methyltransferase (non-Pyl MttB family)	betaine demethylation	salterns_methane	betaine demethylation	mtgB
+K25221	mtgA; methylcorrinoid:THF methyltransferase (betaine-specific)	betaine demethylation	salterns_methane	betaine demethylation	mtgA
+K02000	proV; glycine betaine/proline ABC ATP-binding	betaine transport	salterns_methane	betaine transport	proV
+K02001	proW; glycine betaine/proline ABC permease	betaine transport	salterns_methane	betaine transport	proW
+K02002	proX; glycine betaine/proline ABC substrate-binding	betaine transport	salterns_methane	betaine transport	proX
+K05847	opuA; osmoprotectant ABC ATP-binding	betaine transport	salterns_methane	betaine transport	opuA
+K05846	opuBD; osmoprotectant ABC permease	betaine transport	salterns_methane	betaine transport	opuBD
+K05845	opuC; osmoprotectant ABC substrate-binding	betaine transport	salterns_methane	betaine transport	opuC
+K02168	betT; choline/glycine/proline betaine BCCT transporter	betaine transport	salterns_methane	betaine transport	betT
+K05020	opuD; glycine betaine BCCT transporter	betaine transport	salterns_methane	betaine transport	opuD
+K03451	BCCT; betaine/carnitine/choline BCCT family	betaine transport	salterns_methane	betaine transport	BCCT
+K20038	cutC; choline TMA-lyase (glycyl radical)	TMA production	salterns_methane	TMA production	cutC
+K20037	cutD; CutC activating enzyme	TMA production	salterns_methane	TMA production	cutD
+K22443	cntA/yeaW; carnitine (or choline/betaine) monooxygenase oxygenase; yeaW = same KO	TMA production	salterns_methane	TMA production	cntA/yeaW
+K22444	cntB/yeaX; carnitine monooxygenase reductase; yeaX = same KO	TMA production	salterns_methane	TMA production	cntB/yeaX
+K07811	torA; TMAO reductase TorA	TMA production	salterns_methane	TMA production	torA
+K07812	torZ; TMAO reductase TorZ	TMA production	salterns_methane	TMA production	torZ
+K07306	dmsA; DMSO reductase A (some reduce TMAO)	TMA production	salterns_methane	TMA production	dmsA
+K18277	tmm; TMA monooxygenase	TMA consumption	salterns_methane	TMA consumption	tmm
+K00317	dmd-tmd; DMA/TMA dehydrogenase	TMA consumption	salterns_methane	TMA consumption	dmd-tmd
+K28979	tdm; TMAO demethylase/aldolase	TMA consumption	salterns_methane	TMA consumption	tdm
+K00399	mcrA; methyl-CoM reductase alpha (guild rule)	methanogenesis	salterns_methane	methanogenesis	mcrA
+K00401	mcrB; methyl-CoM reductase beta	methanogenesis	salterns_methane	methanogenesis	mcrB
+K00402	mcrG; methyl-CoM reductase gamma	methanogenesis	salterns_methane	methanogenesis	mcrG
+K14083	mttB; TMA methyltransferase (pyrrolysine)	methylamine methanogenesis	salterns_methane	methylamine methanogenesis	mttB
+K14084	mttC; TMA corrinoid protein	methylamine methanogenesis	salterns_methane	methylamine methanogenesis	mttC
+K16178	mtbB; DMA methyltransferase (pyrrolysine; guild rule)	methylamine methanogenesis	salterns_methane	methylamine methanogenesis	mtbB
+K16179	mtbC; DMA corrinoid protein	methylamine methanogenesis	salterns_methane	methylamine methanogenesis	mtbC
+K16176	mtmB; MMA methyltransferase (pyrrolysine; guild rule)	methylamine methanogenesis	salterns_methane	methylamine methanogenesis	mtmB
+K16177	mtmC; MMA corrinoid protein	methylamine methanogenesis	salterns_methane	methylamine methanogenesis	mtmC
+K14082	mtbA; methylcobamide:CoM methyltransferase	methylamine methanogenesis	salterns_methane	methylamine methanogenesis	mtbA
+K04480	mtaB; methanol:corrinoid methyltransferase	methanol methanogenesis	salterns_methane	methanol methanogenesis	mtaB
+K14081	mtaC; methanol corrinoid protein	methanol methanogenesis	salterns_methane	methanol methanogenesis	mtaC
+K14080	mtaA; methylcobamide:CoM methyltransferase (methanol/betaine)	methanol methanogenesis	salterns_methane	methanol methanogenesis	mtaA
+K16180	pylB; methylornithine synthase	pyrrolysine	salterns_methane	pyrrolysine	pylB
+K16181	pylC; pyrrolysine synthetase	pyrrolysine	salterns_methane	pyrrolysine	pylC
+K16182	pylD; pyrrolysine synthase	pyrrolysine	salterns_methane	pyrrolysine	pylD
+K11627	pylS; pyrrolysyl-tRNA synthetase	pyrrolysine	salterns_methane	pyrrolysine	pylS

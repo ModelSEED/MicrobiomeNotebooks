@@ -1,0 +1,211 @@
+sample	domain	phylum	family	genus	genus_source	ident_bin	status	reads
+R1_A_D1	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	>=95	kept_mag	91
+R1_A_D1	Archaea	Methanobacteriota		Methanomicrobiales	external	85-95	unassembled	2
+R1_A_D1	Archaea	Methanobacteriota		methanogenic	external	85-95	unassembled	1
+R1_A_D1	Archaea	Methanobacteriota		methanogenic	external	>=95	kept_mag	4
+R1_A_D1	Archaea	Methanobacteriota	Methanobacteriaceae	Methanobacterium	external	<70	unassembled	1
+R1_A_D1	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanogenium	external	85-95	unassembled	2
+R1_A_D1	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanogenium	external	>=95	unassembled	6
+R1_A_D1	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanoplanus	external	85-95	unassembled	1
+R1_A_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanococcoides	external	>=95	unassembled	2
+R1_A_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	>=95	unassembled	10
+R1_A_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	>=95	unbinned	13
+R1_A_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	85-95	unassembled	4
+R1_A_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	>=95	kept_mag	9
+R1_A_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	>=95	unassembled	3
+R1_A_D1	Archaea	Methanobacteriota	Methanosarcinales	Methanococcoides	external	>=95	unassembled	1
+R1_A_D1	Archaea	Methanobacteriota	Methanotrichaceae	Methanothrix	external	70-85	unassembled	1
+R1_A_D1	Archaea	Thermoplasmatota	Thermoplasmatales	Thermoplasmatales	external	85-95	unassembled	2
+R1_A_D1	Archaea	Thermoplasmatota	unclassified Thermoplasmatota	Methanogenic	external	85-95	unassembled	1
+R1_A_D2	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	85-95	kept_mag	1
+R1_A_D2	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	>=95	kept_mag	96
+R1_A_D2	Archaea	Methanobacteriota		Methanomicrobiales	external	85-95	unassembled	2
+R1_A_D2	Archaea	Methanobacteriota		methanogenic	external	70-85	unassembled	1
+R1_A_D2	Archaea	Methanobacteriota		methanogenic	external	>=95	kept_mag	3
+R1_A_D2	Archaea	Methanobacteriota		methanogenic	external	>=95	unassembled	1
+R1_A_D2	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanoculleus	external	>=95	unassembled	1
+R1_A_D2	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanofollis	external	85-95	unassembled	3
+R1_A_D2	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanogenium	external	85-95	unassembled	10
+R1_A_D2	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanogenium	external	>=95	unassembled	30
+R1_A_D2	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanoplanus	external	85-95	unassembled	1
+R1_A_D2	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanoplanus	external	>=95	unassembled	2
+R1_A_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanococcoides	external	85-95	unassembled	4
+R1_A_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanococcoides	external	>=95	unassembled	5
+R1_A_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalobium	external	85-95	unassembled	1
+R1_A_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	85-95	unassembled	3
+R1_A_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	>=95	unassembled	14
+R1_A_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	>=95	kept_mag	18
+R1_A_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanosalsum	external	70-85	unassembled	1
+R1_A_D2	Archaea	Methanobacteriota	Methanosarcinales	Methanococcoides	external	85-95	unassembled	2
+R1_A_D2	Archaea	Methanobacteriota	Methanosarcinales	Methanococcoides	external	>=95	unassembled	3
+R1_A_D2	Archaea	Thermoplasmatota		Methanomassiliicoccales	external	70-85	unassembled	1
+R1_A_D2	Archaea	Thermoplasmatota		Methanomassiliicoccales	external	85-95	unassembled	1
+R1_A_D2	Archaea	Thermoplasmatota	Methanomassiliicoccaceae	Candidatus Methanoplasma	external	85-95	unassembled	2
+R1_A_D2	Archaea	Thermoplasmatota	Methanomassiliicoccaceae	Methanomassiliicoccus	external	70-85	unassembled	1
+R1_A_D2	Archaea	Thermoplasmatota	Methanomassiliicoccales	Methanogranum	external	85-95	unassembled	1
+R1_A_D2	Archaea	Thermoplasmatota	Methanomethylophilaceae	Methanomethylophilus	external	70-85	unassembled	1
+R1_A_D2	Archaea	Thermoplasmatota	Methanomethylophilaceae	Methanomethylophilus	external	85-95	unassembled	4
+R1_A_D2	Archaea	Thermoplasmatota	Methanomethylophilaceae	Methanomethylophilus	external	>=95	unassembled	1
+R1_A_D2	Archaea	Thermoplasmatota	Thermoplasmatales	Thermoplasmatales	external	70-85	unassembled	1
+R1_A_D2	Archaea	Thermoplasmatota	unclassified Thermoplasmatota	Methanogenic	external	>=95	unassembled	1
+R1_A_H2O	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	>=95	unassembled	2
+R1_A_H2O	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanogenium	external	>=95	unassembled	1
+R1_A_H2O	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	85-95	unassembled	2
+R1_B_D1	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	>=95	unassembled	8
+R1_B_D1	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	>=95	unbinned	16
+R1_B_D1	Archaea	Methanobacteriota		methanogenic	external	>=95	unassembled	2
+R1_B_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanococcoides	external	85-95	unassembled	1
+R1_B_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	>=95	unassembled	7
+R1_B_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	85-95	unassembled	4
+R1_B_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	>=95	unassembled	4
+R1_B_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	>=95	unbinned	4
+R1_B_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanomethylovorans	external	>=95	unbinned	1
+R1_B_D1	Archaea	Methanobacteriota	Methanosarcinales	Methanococcoides	external	>=95	unassembled	1
+R1_B_D1	Archaea	Thermoplasmatota	Methanomassiliicoccales	Methanogranum	external	85-95	unassembled	1
+R1_B_D2	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	85-95	other_bin	1
+R1_B_D2	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	>=95	other_bin	38
+R1_B_D2	Archaea	Methanobacteriota		methanogenic	external	85-95	unassembled	1
+R1_B_D2	Archaea	Methanobacteriota		methanogenic	external	>=95	other_bin	1
+R1_B_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanococcoides	external	>=95	unassembled	6
+R1_B_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalobium	external	85-95	unassembled	1
+R1_B_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	>=95	unassembled	9
+R1_B_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	85-95	unassembled	1
+R1_B_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	>=95	other_bin	5
+R1_B_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanomethylovorans	external	>=95	other_bin	1
+R1_B_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanomethylovorans	external	>=95	unassembled	1
+R1_B_D2	Archaea	Methanobacteriota	Methanosarcinales	Methanococcoides	external	85-95	unassembled	1
+R1_B_D2	Archaea	Methanobacteriota	Methanosarcinales	Methanococcoides	external	>=95	unassembled	3
+R1_B_D2	Archaea	Thermoplasmatota	Methanomassiliicoccaceae	Methanomassiliicoccus	external	70-85	unassembled	1
+R1_B_D2	Archaea	Thermoplasmatota	Methanomethylophilaceae	Methanomethylophilus	external	85-95	unassembled	1
+R1_B_D2	Archaea	Thermoplasmatota	Methanomethylophilaceae	Methanomethylophilus	external	>=95	unassembled	1
+R1_B_H2O	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	>=95	unassembled	9
+R1_B_H2O	Archaea	Methanobacteriota	Methanosarcinaceae	Methanococcoides	external	85-95	unassembled	1
+R1_B_H2O	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	85-95	unassembled	1
+R1_B_H2O	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	>=95	unassembled	8
+R1_B_H2O	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	>=95	unassembled	1
+R1_C_D1	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	>=95	unbinned	38
+R1_C_D1	Archaea	Methanobacteriota		methanogenic	external	>=95	unbinned	2
+R1_C_D1	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanogenium	external	>=95	unassembled	1
+R1_C_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalobium	external	>=95	unassembled	2
+R1_C_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	>=95	unassembled	11
+R1_C_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	>=95	unbinned	5
+R1_C_D2	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	>=95	unassembled	36
+R1_C_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanococcoides	external	>=95	unassembled	2
+R1_C_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	>=95	unassembled	2
+R1_C_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	>=95	unassembled	4
+R1_C_H2O	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	>=95	unassembled	15
+R1_C_H2O	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanogenium	external	85-95	unassembled	1
+R1_C_H2O	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanogenium	external	>=95	unassembled	1
+R1_C_H2O	Archaea	Methanobacteriota	Methanosarcinaceae	Methanococcoides	external	85-95	unassembled	1
+R1_C_H2O	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	>=95	unassembled	9
+R1_C_H2O	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	85-95	unassembled	3
+R1_C_H2O	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	>=95	unassembled	1
+R2A_C_D1	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanofollis	external	<70	unassembled	1
+R2A_C_H2O	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	70-85	unassembled	1
+R2A_C_H2O	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	85-95	unassembled	1
+R2A_C_H2O	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	>=95	unassembled	1
+R2_A_D1	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	>=95	unassembled	13
+R2_A_D1	Archaea	Methanobacteriota		Methanomicrobiales	external	70-85	unassembled	1
+R2_A_D1	Archaea	Methanobacteriota		methanogenic	external	>=95	unassembled	1
+R2_A_D1	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanogenium	external	85-95	unassembled	1
+R2_A_D1	Archaea	Methanobacteriota	Methanophagales	Methanospirare	external	70-85	unassembled	1
+R2_A_D1	Archaea	Methanobacteriota	Methanophagales	Methanospirare	external	85-95	unassembled	1
+R2_A_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	85-95	unassembled	1
+R2_A_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	>=95	unassembled	39
+R2_A_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	85-95	unassembled	1
+R2_A_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	>=95	unassembled	3
+R2_A_D1	Archaea	Methanobacteriota	Methanotrichaceae	Methanocrinis	external	>=95	unassembled	1
+R2_A_D1	Archaea	Methanobacteriota	Methanotrichaceae	Methanothrix	external	>=95	unassembled	1
+R2_A_D1	Archaea	Thermoplasmatota	Methanomassiliicoccaceae	Methanomassiliicoccus	external	70-85	unassembled	1
+R2_A_D1	Archaea	Thermoplasmatota	Methanomassiliicoccales	Methanogranum	external	85-95	unassembled	1
+R2_A_D2	Archaea	Methanobacteriota		methanogenic	external	70-85	unassembled	1
+R2_A_D2	Archaea	Methanobacteriota		methanogenic	external	85-95	unassembled	2
+R2_A_D2	Archaea	Methanobacteriota		methanogenic	external	>=95	unassembled	1
+R2_A_D2	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanoculleus	external	70-85	unassembled	1
+R2_A_D2	Archaea	Methanobacteriota	Methanophagales	Methanospirare	external	70-85	unassembled	7
+R2_A_D2	Archaea	Methanobacteriota	Methanophagales	Methanospirare	external	85-95	unassembled	4
+R2_A_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanococcoides	external	85-95	unassembled	1
+R2_A_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanococcoides	external	>=95	unassembled	1
+R2_A_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalobium	external	85-95	unassembled	1
+R2_A_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalobium	external	>=95	unassembled	1
+R2_A_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	>=95	unassembled	5
+R2_A_D2	Archaea	Thermoplasmatota	Methanomassiliicoccaceae	Methanomassiliicoccus	external	70-85	unassembled	3
+R2_A_D2	Archaea	Thermoplasmatota	Methanomethylophilaceae	Methanomethylophilus	external	70-85	unassembled	1
+R2_A_D2	Archaea	Thermoplasmatota	unclassified Thermoplasmatota	Methanogenic	external	70-85	unassembled	1
+R2_A_D2	Archaea	Thermoproteota		Candidatus Methanodesulfokora	external	70-85	unassembled	1
+R2_B_D1	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	>=95	unassembled	27
+R2_B_D1	Archaea	Methanobacteriota		methanogenic	external	>=95	unassembled	1
+R2_B_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	>=95	unassembled	3
+R2_B_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	>=95	unassembled	4
+R2_B_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanomethylovorans	external	>=95	unassembled	1
+R2_B_D2	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	>=95	unassembled	8
+R2_B_D2	Archaea	Methanobacteriota		methanogenic	external	>=95	unassembled	1
+R2_B_D2	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanogenium	external	>=95	unassembled	3
+R2_B_D2	Archaea	Methanobacteriota	Methanomicrobiales	Methanogenium	external	85-95	unassembled	1
+R2_B_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanococcoides	external	85-95	unassembled	4
+R2_B_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanococcoides	external	>=95	unassembled	3
+R2_B_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	85-95	unassembled	3
+R2_B_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	>=95	unassembled	7
+R2_B_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	85-95	unassembled	2
+R2_B_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	>=95	unassembled	2
+R2_B_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanosalsum	external	>=95	unassembled	1
+R2_B_D2	Archaea	Methanobacteriota	Methanosarcinales	Methanococcoides	external	85-95	unassembled	1
+R2_B_D2	Archaea	Methanobacteriota	Methanosarcinales	Methanococcoides	external	>=95	unassembled	4
+R2_B_D2	Archaea	Thermoplasmatota	Methanomassiliicoccales	Methanogranum	external	70-85	unassembled	1
+R2_B_D2	Archaea	Thermoplasmatota	Methanomassiliicoccales	Methanogranum	external	85-95	unassembled	1
+R2_C_D1	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	70-85	unassembled	1
+R2_C_D1	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	>=95	unassembled	17
+R2_C_D1	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	>=95	unbinned	8
+R2_C_D1	Archaea	Methanobacteriota		methanogenic	external	85-95	unassembled	1
+R2_C_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanococcoides	external	>=95	unassembled	2
+R2_C_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	85-95	unassembled	2
+R2_C_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	>=95	unassembled	11
+R2_C_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanomethylovorans	external	>=95	unassembled	1
+R2_C_D1	Archaea	Thermoplasmatota		Methanomassiliicoccales	external	85-95	unassembled	1
+R2_C_D1	Archaea	Thermoplasmatota	unclassified Thermoplasmatota	Methanogenic	external	85-95	unassembled	1
+R2_C_D2	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	>=95	unassembled	7
+R2_C_D2	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanoculleus	external	70-85	unassembled	1
+R2_C_D2	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanoplanus	external	85-95	unassembled	1
+R2_C_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanococcoides	external	>=95	unassembled	1
+R2_C_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	>=95	unassembled	3
+R2_C_D2	Archaea	Methanobacteriota	Methanosarcinales	Methanococcoides	external	>=95	unassembled	1
+R2_C_D2	Archaea	Thermoplasmatota		Methanomassiliicoccales	external	70-85	unassembled	1
+R2_C_D2	Archaea	Thermoplasmatota		Methanomassiliicoccales	external	85-95	unassembled	1
+R2_C_H2O	Archaea	Methanobacteriota	Methanonatronarchaeaceae	Candidatus Methanohalarchaeum	external	>=95	unassembled	2
+R2_restored_C_black	Archaea	Halobacteriota	Methanosarcinaceae	Methanolobus	salterns_MAG	>=95	other_bin	44
+R2_restored_C_black	Archaea	Methanobacteriota	Methanosarcinaceae	Methanococcoides	external	>=95	other_bin	1
+R2_restored_C_black	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	>=95	other_bin	10
+R2_restored_C_black	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	>=95	unassembled	2
+R2_restored_D_shore	Archaea	Methanobacteriota		euryarchaeote	external	>=95	unassembled	1
+R2_restored_D_shore	Archaea	Methanobacteriota		methanogenic	external	85-95	unassembled	1
+R2_restored_D_shore	Archaea	Methanobacteriota		methanogenic	external	85-95	unbinned	18
+R2_restored_D_shore	Archaea	Methanobacteriota		methanogenic	external	>=95	unbinned	7
+R2_restored_D_shore	Archaea	Methanobacteriota	Methanococcales	Methanocaldococcus	external	<70	unbinned	1
+R2_restored_D_shore	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanoculleus	external	>=95	unassembled	2
+R2_restored_D_shore	Archaea	Methanobacteriota	Methanophagales	Methanospirare	external	70-85	unassembled	5
+R2_restored_D_shore	Archaea	Methanobacteriota	Methanophagales	Methanospirare	external	70-85	unbinned	12
+R2_restored_D_shore	Archaea	Methanobacteriota	Methanophagales	Methanospirare	external	85-95	unassembled	2
+R2_restored_D_shore	Archaea	Methanobacteriota	Methanophagales	Methanospirare	external	85-95	unbinned	4
+R2_restored_D_shore	Archaea	Methanobacteriota	Methanophagales	Methanospirare	external	<70	unassembled	3
+R2_restored_D_shore	Archaea	Methanobacteriota	Methermicoccaceae	Methermicoccus	external	85-95	unassembled	2
+SF2_A_D1	Archaea	Methanobacteriota		methanogenic	external	>=95	unassembled	1
+SF2_A_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanococcoides	external	>=95	unassembled	1
+SF2_A_D2	Archaea	Methanobacteriota		Methanomicrobiales	external	70-85	unassembled	1
+SF2_A_D2	Archaea	Methanobacteriota		methanogenic	external	85-95	unassembled	2
+SF2_A_D2	Archaea	Methanobacteriota		methanogenic	external	>=95	unassembled	2
+SF2_A_D2	Archaea	Methanobacteriota	Methanomicrobiaceae	Methanofollis	external	85-95	unassembled	1
+SF2_A_D2	Archaea	Methanobacteriota	Methanophagales	Methanospirare	external	85-95	unassembled	1
+SF2_A_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanococcoides	external	>=95	unassembled	8
+SF2_A_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	>=95	unassembled	1
+SF2_A_D2	Archaea	Methanobacteriota	Methanosarcinaceae	methanogenic	external	>=95	unassembled	1
+SF2_A_D2	Archaea	Methanobacteriota	Methanosarcinales	Methanococcoides	external	>=95	unassembled	5
+SF2_B_D1	Archaea	Candidatus Bathyarchaeota	unclassified Bathyarchaeota	Bathyarchaeota	external	<70	unassembled	1
+SF2_B_D1	Archaea	Halobacteriota		Candidatus Syntropharchaeum	external	<70	unassembled	1
+SF2_B_D2	Archaea	Methanobacteriota		methanogenic	external	>=95	unassembled	1
+SF2_B_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanohalophilus	external	>=95	unassembled	2
+SF2_B_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	>=95	unassembled	2
+SF2_B_D2	Archaea	Methanobacteriota	Methanosarcinales	Methanococcoides	external	>=95	unassembled	1
+SF2_B_H2O	Archaea	Methanobacteriota	Methanosarcinaceae	Methanococcoides	external	>=95	unassembled	2
+SF2_C_D1	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	>=95	unassembled	2
+SF2_C_D1	Archaea	Methanobacteriota	Methanosarcinales	Methanococcoides	external	>=95	unassembled	2
+SF2_C_D2	Archaea	Methanobacteriota	Methanosarcinaceae	Methanolobus	external	>=95	unassembled	1

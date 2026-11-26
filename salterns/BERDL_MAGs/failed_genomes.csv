@@ -1,0 +1,201 @@
+genome,genome_ref,batch_output,job_id,job_status,output_produced,outcome,reason,last_log
+Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_concoct_out.91.contigs__.RAST,155805/41/1,BERDL_unprocessed_batch02.dlt,6a6940591c6b2638b1d8b8f9,zombie,no,failed,no log output for 81h,2026-08-10 15:38:08
+Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.28.contigs__.RAST,155805/36/1,BERDL_unprocessed_batch02.dlt,6a6940591c6b2638b1d8b8f9,zombie,no,failed,no log output for 81h,2026-08-10 15:38:08
+Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.15.contigs__.RAST,155805/62/1,BERDL_unprocessed_batch02.dlt,6a6940591c6b2638b1d8b8f9,zombie,no,failed,no log output for 81h,2026-08-10 15:38:08
+Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.26.contigs__.RAST,155805/51/1,BERDL_unprocessed_batch02.dlt,6a6940591c6b2638b1d8b8f9,zombie,no,failed,no log output for 81h,2026-08-10 15:38:08
+Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_metabat.19.contigs__.RAST,155805/44/1,BERDL_unprocessed_batch02.dlt,6a6940591c6b2638b1d8b8f9,zombie,no,failed,no log output for 81h,2026-08-10 15:38:08
+Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.45.contigs__.RAST,155805/61/1,BERDL_unprocessed_batch02.dlt,6a6940591c6b2638b1d8b8f9,zombie,no,failed,no log output for 81h,2026-08-10 15:38:08
+Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.38.contigs__.RAST,155805/30/1,BERDL_unprocessed_batch02.dlt,6a6940591c6b2638b1d8b8f9,zombie,no,failed,no log output for 81h,2026-08-10 15:38:08
+Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.34.contigs__.RAST,155805/43/1,BERDL_unprocessed_batch02.dlt,6a6940591c6b2638b1d8b8f9,zombie,no,failed,no log output for 81h,2026-08-10 15:38:08
+Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_concoct_out.13.contigs__.RAST,155805/32/1,BERDL_unprocessed_batch02.dlt,6a6940591c6b2638b1d8b8f9,zombie,no,failed,no log output for 81h,2026-08-10 15:38:08
+Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.17.contigs__.RAST,155805/40/1,BERDL_unprocessed_batch02.dlt,6a6940591c6b2638b1d8b8f9,zombie,no,failed,no log output for 81h,2026-08-10 15:38:08
+Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.4.contigs__.RAST,155805/35/1,BERDL_unprocessed_batch02.dlt,6a6940591c6b2638b1d8b8f9,zombie,no,failed,no log output for 81h,2026-08-10 15:38:08
+Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.29.contigs__.RAST,155805/29/1,BERDL_unprocessed_batch02.dlt,6a6940591c6b2638b1d8b8f9,zombie,no,failed,no log output for 81h,2026-08-10 15:38:08
+Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.9.contigs__.RAST,155805/56/1,BERDL_unprocessed_batch02.dlt,6a6940591c6b2638b1d8b8f9,zombie,no,failed,no log output for 81h,2026-08-10 15:38:08
+Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_concoct_out.45.contigs__.RAST,155805/52/1,BERDL_unprocessed_batch02.dlt,6a6940591c6b2638b1d8b8f9,zombie,no,failed,no log output for 81h,2026-08-10 15:38:08
+Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_metabat.22.contigs__.RAST,155805/42/1,BERDL_unprocessed_batch02.dlt,6a6940591c6b2638b1d8b8f9,zombie,no,failed,no log output for 81h,2026-08-10 15:38:08
+Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.80.contigs__.RAST,155805/31/1,BERDL_unprocessed_batch02.dlt,6a6940591c6b2638b1d8b8f9,zombie,no,failed,no log output for 81h,2026-08-10 15:38:08
+Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.71.contigs__.RAST,155805/53/1,BERDL_unprocessed_batch02.dlt,6a6940591c6b2638b1d8b8f9,zombie,no,failed,no log output for 81h,2026-08-10 15:38:08
+Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.45.contigs__.RAST,155805/33/1,BERDL_unprocessed_batch02.dlt,6a6940591c6b2638b1d8b8f9,zombie,no,failed,no log output for 81h,2026-08-10 15:38:08
+Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.43.contigs__.RAST,155805/54/1,BERDL_unprocessed_batch02.dlt,6a6940591c6b2638b1d8b8f9,zombie,no,failed,no log output for 81h,2026-08-10 15:38:08
+Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.37.contigs__.RAST,155805/45/1,BERDL_unprocessed_batch02.dlt,6a6940591c6b2638b1d8b8f9,zombie,no,failed,no log output for 81h,2026-08-10 15:38:08
+Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_concoct_out.33.contigs__.RAST,155805/78/1,BERDL_unprocessed_batch03.dlt,6a69405ac9e2e40ca406078a,zombie,no,failed,no log output for 77h,2026-08-10 19:45:03
+Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.19.contigs__.RAST,155805/76/1,BERDL_unprocessed_batch03.dlt,6a69405ac9e2e40ca406078a,zombie,no,failed,no log output for 77h,2026-08-10 19:45:03
+Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.13.contigs__.RAST,155805/83/1,BERDL_unprocessed_batch03.dlt,6a69405ac9e2e40ca406078a,zombie,no,failed,no log output for 77h,2026-08-10 19:45:03
+Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.87.contigs__.RAST,155805/74/1,BERDL_unprocessed_batch03.dlt,6a69405ac9e2e40ca406078a,zombie,no,failed,no log output for 77h,2026-08-10 19:45:03
+Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_metabat.19.contigs__.RAST,155805/87/1,BERDL_unprocessed_batch03.dlt,6a69405ac9e2e40ca406078a,zombie,no,failed,no log output for 77h,2026-08-10 19:45:03
+Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.67.contigs__.RAST,155805/70/1,BERDL_unprocessed_batch03.dlt,6a69405ac9e2e40ca406078a,zombie,no,failed,no log output for 77h,2026-08-10 19:45:03
+Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_metabat.16.contigs__.RAST,155805/75/1,BERDL_unprocessed_batch03.dlt,6a69405ac9e2e40ca406078a,zombie,no,failed,no log output for 77h,2026-08-10 19:45:03
+Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_concoct_out.59.contigs__.RAST,155805/93/1,BERDL_unprocessed_batch03.dlt,6a69405ac9e2e40ca406078a,zombie,no,failed,no log output for 77h,2026-08-10 19:45:03
+Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.12.contigs__.RAST,155805/71/1,BERDL_unprocessed_batch03.dlt,6a69405ac9e2e40ca406078a,zombie,no,failed,no log output for 77h,2026-08-10 19:45:03
+Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.7.contigs__.RAST,155805/90/1,BERDL_unprocessed_batch03.dlt,6a69405ac9e2e40ca406078a,zombie,no,failed,no log output for 77h,2026-08-10 19:45:03
+Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_metabat.14.contigs__.RAST,155805/64/1,BERDL_unprocessed_batch03.dlt,6a69405ac9e2e40ca406078a,zombie,no,failed,no log output for 77h,2026-08-10 19:45:03
+Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_metabat.10.contigs__.RAST,155805/79/1,BERDL_unprocessed_batch03.dlt,6a69405ac9e2e40ca406078a,zombie,no,failed,no log output for 77h,2026-08-10 19:45:03
+Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.143.contigs__.RAST,155805/68/1,BERDL_unprocessed_batch03.dlt,6a69405ac9e2e40ca406078a,zombie,no,failed,no log output for 77h,2026-08-10 19:45:03
+Salt_Pond_MetaG_R2_B_H2O_MG_DASTool_bins_metabat.17.contigs__.RAST,155805/80/1,BERDL_unprocessed_batch03.dlt,6a69405ac9e2e40ca406078a,zombie,no,failed,no log output for 77h,2026-08-10 19:45:03
+Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.98.contigs__.RAST,155805/91/1,BERDL_unprocessed_batch03.dlt,6a69405ac9e2e40ca406078a,zombie,no,failed,no log output for 77h,2026-08-10 19:45:03
+Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.18.contigs__.RAST,155805/72/1,BERDL_unprocessed_batch03.dlt,6a69405ac9e2e40ca406078a,zombie,no,failed,no log output for 77h,2026-08-10 19:45:03
+Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.26.contigs__.RAST,155805/85/1,BERDL_unprocessed_batch03.dlt,6a69405ac9e2e40ca406078a,zombie,no,failed,no log output for 77h,2026-08-10 19:45:03
+Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.2.contigs__.RAST,155805/94/1,BERDL_unprocessed_batch03.dlt,6a69405ac9e2e40ca406078a,zombie,no,failed,no log output for 77h,2026-08-10 19:45:03
+Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.40.contigs__.RAST,155805/73/1,BERDL_unprocessed_batch03.dlt,6a69405ac9e2e40ca406078a,zombie,no,failed,no log output for 77h,2026-08-10 19:45:03
+Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.23.contigs__.RAST,155805/65/1,BERDL_unprocessed_batch03.dlt,6a69405ac9e2e40ca406078a,zombie,no,failed,no log output for 77h,2026-08-10 19:45:03
+Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.28.contigs__.RAST,155805/115/1,BERDL_unprocessed_batch04.dlt,6a69405bdefcede6f71dd4f6,zombie,no,failed,no log output for 74h,2026-08-10 22:49:43
+Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.11.contigs__.RAST,155805/118/1,BERDL_unprocessed_batch04.dlt,6a69405bdefcede6f71dd4f6,zombie,no,failed,no log output for 74h,2026-08-10 22:49:43
+Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.26.contigs__.RAST,155805/119/1,BERDL_unprocessed_batch04.dlt,6a69405bdefcede6f71dd4f6,zombie,no,failed,no log output for 74h,2026-08-10 22:49:43
+Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.6.contigs__.RAST,155805/99/1,BERDL_unprocessed_batch04.dlt,6a69405bdefcede6f71dd4f6,zombie,no,failed,no log output for 74h,2026-08-10 22:49:43
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.15.contigs__.RAST,155805/117/1,BERDL_unprocessed_batch04.dlt,6a69405bdefcede6f71dd4f6,zombie,no,failed,no log output for 74h,2026-08-10 22:49:43
+Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_maxbin.022.contigs__.RAST,155805/104/1,BERDL_unprocessed_batch04.dlt,6a69405bdefcede6f71dd4f6,zombie,no,failed,no log output for 74h,2026-08-10 22:49:43
+Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.89.contigs__.RAST,155805/120/1,BERDL_unprocessed_batch04.dlt,6a69405bdefcede6f71dd4f6,zombie,no,failed,no log output for 74h,2026-08-10 22:49:43
+Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.28.contigs__.RAST,155805/121/1,BERDL_unprocessed_batch04.dlt,6a69405bdefcede6f71dd4f6,zombie,no,failed,no log output for 74h,2026-08-10 22:49:43
+Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.7.contigs__.RAST,155805/103/1,BERDL_unprocessed_batch04.dlt,6a69405bdefcede6f71dd4f6,zombie,no,failed,no log output for 74h,2026-08-10 22:49:43
+Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_concoct_out.45.contigs__.RAST,155805/110/1,BERDL_unprocessed_batch04.dlt,6a69405bdefcede6f71dd4f6,zombie,no,failed,no log output for 74h,2026-08-10 22:49:43
+Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_metabat.29.contigs__.RAST,155805/107/1,BERDL_unprocessed_batch04.dlt,6a69405bdefcede6f71dd4f6,zombie,no,failed,no log output for 74h,2026-08-10 22:49:43
+Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_metabat.16.contigs__.RAST,155805/112/1,BERDL_unprocessed_batch04.dlt,6a69405bdefcede6f71dd4f6,zombie,no,failed,no log output for 74h,2026-08-10 22:49:43
+Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_metabat.42.contigs__.RAST,155805/113/1,BERDL_unprocessed_batch04.dlt,6a69405bdefcede6f71dd4f6,zombie,no,failed,no log output for 74h,2026-08-10 22:49:43
+Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.49.contigs__.RAST,155805/114/1,BERDL_unprocessed_batch04.dlt,6a69405bdefcede6f71dd4f6,zombie,no,failed,no log output for 74h,2026-08-10 22:49:43
+Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.9.contigs__.RAST,155805/97/1,BERDL_unprocessed_batch04.dlt,6a69405bdefcede6f71dd4f6,zombie,no,failed,no log output for 74h,2026-08-10 22:49:43
+Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_concoct_out.19.contigs__.RAST,155805/102/1,BERDL_unprocessed_batch04.dlt,6a69405bdefcede6f71dd4f6,zombie,no,failed,no log output for 74h,2026-08-10 22:49:43
+Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.32.contigs__.RAST,155805/109/1,BERDL_unprocessed_batch04.dlt,6a69405bdefcede6f71dd4f6,zombie,no,failed,no log output for 74h,2026-08-10 22:49:43
+Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.19.contigs__.RAST,155805/101/1,BERDL_unprocessed_batch04.dlt,6a69405bdefcede6f71dd4f6,zombie,no,failed,no log output for 74h,2026-08-10 22:49:43
+Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.100.contigs__.RAST,155805/111/1,BERDL_unprocessed_batch04.dlt,6a69405bdefcede6f71dd4f6,zombie,no,failed,no log output for 74h,2026-08-10 22:49:43
+Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.7.contigs__.RAST,155805/106/1,BERDL_unprocessed_batch04.dlt,6a69405bdefcede6f71dd4f6,zombie,no,failed,no log output for 74h,2026-08-10 22:49:43
+Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.39.contigs__.RAST,155805/124/1,BERDL_unprocessed_batch05.dlt,6a69405cc9e2e40ca406078b,error,no,failed,Unexpected Job Error,
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.36.contigs__.RAST,155805/140/1,BERDL_unprocessed_batch05.dlt,6a69405cc9e2e40ca406078b,error,no,failed,Unexpected Job Error,
+Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.37.contigs__.RAST,155805/128/1,BERDL_unprocessed_batch05.dlt,6a69405cc9e2e40ca406078b,error,no,failed,Unexpected Job Error,
+Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.11.contigs__.RAST,155805/142/1,BERDL_unprocessed_batch05.dlt,6a69405cc9e2e40ca406078b,error,no,failed,Unexpected Job Error,
+Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.17.contigs__.RAST,155805/148/1,BERDL_unprocessed_batch05.dlt,6a69405cc9e2e40ca406078b,error,no,failed,Unexpected Job Error,
+Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_metabat.23.contigs__.RAST,155805/129/1,BERDL_unprocessed_batch05.dlt,6a69405cc9e2e40ca406078b,error,no,failed,Unexpected Job Error,
+Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_metabat.10.contigs__.RAST,155805/134/1,BERDL_unprocessed_batch05.dlt,6a69405cc9e2e40ca406078b,error,no,failed,Unexpected Job Error,
+Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_concoct_out.80.contigs__.RAST,155805/132/1,BERDL_unprocessed_batch05.dlt,6a69405cc9e2e40ca406078b,error,no,failed,Unexpected Job Error,
+Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.5.contigs__.RAST,155805/151/1,BERDL_unprocessed_batch05.dlt,6a69405cc9e2e40ca406078b,error,no,failed,Unexpected Job Error,
+Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.4.contigs__.RAST,155805/138/1,BERDL_unprocessed_batch05.dlt,6a69405cc9e2e40ca406078b,error,no,failed,Unexpected Job Error,
+Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_concoct_out.11.contigs__.RAST,155805/143/1,BERDL_unprocessed_batch05.dlt,6a69405cc9e2e40ca406078b,error,no,failed,Unexpected Job Error,
+Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_metabat.13.contigs__.RAST,155805/122/1,BERDL_unprocessed_batch05.dlt,6a69405cc9e2e40ca406078b,error,no,failed,Unexpected Job Error,
+Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.39.contigs__.RAST,155805/147/1,BERDL_unprocessed_batch05.dlt,6a69405cc9e2e40ca406078b,error,no,failed,Unexpected Job Error,
+Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.38.contigs__.RAST,155805/139/1,BERDL_unprocessed_batch05.dlt,6a69405cc9e2e40ca406078b,error,no,failed,Unexpected Job Error,
+Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.95.contigs__.RAST,155805/131/1,BERDL_unprocessed_batch05.dlt,6a69405cc9e2e40ca406078b,error,no,failed,Unexpected Job Error,
+Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.47.contigs__.RAST,155805/149/1,BERDL_unprocessed_batch05.dlt,6a69405cc9e2e40ca406078b,error,no,failed,Unexpected Job Error,
+Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.51.contigs__.RAST,155805/130/1,BERDL_unprocessed_batch05.dlt,6a69405cc9e2e40ca406078b,error,no,failed,Unexpected Job Error,
+Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.8.contigs__.RAST,155805/144/1,BERDL_unprocessed_batch05.dlt,6a69405cc9e2e40ca406078b,error,no,failed,Unexpected Job Error,
+Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.21.contigs__.RAST,155805/150/1,BERDL_unprocessed_batch05.dlt,6a69405cc9e2e40ca406078b,error,no,failed,Unexpected Job Error,
+Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.89.contigs__.RAST,155805/125/1,BERDL_unprocessed_batch05.dlt,6a69405cc9e2e40ca406078b,error,no,failed,Unexpected Job Error,
+Salt_Pond_MetaGSF2_B_D1_MG_DASTool_bins_concoct_out.44.contigs__.RAST,155805/17/1,BERDL_unprocessed_batch01.dlt,6a6940596756400f4e6711e7,completed,yes,succeeded,,
+Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.8.contigs__.RAST,155805/3/1,BERDL_unprocessed_batch01.dlt,6a6940596756400f4e6711e7,completed,yes,succeeded,,
+Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.25.contigs__.RAST,155805/23/1,BERDL_unprocessed_batch01.dlt,6a6940596756400f4e6711e7,completed,yes,succeeded,,
+Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.32.contigs__.RAST,155805/12/1,BERDL_unprocessed_batch01.dlt,6a6940596756400f4e6711e7,completed,yes,succeeded,,
+Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.15.contigs__.RAST,155805/13/1,BERDL_unprocessed_batch01.dlt,6a6940596756400f4e6711e7,completed,yes,succeeded,,
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.21.contigs__.RAST,155805/7/1,BERDL_unprocessed_batch01.dlt,6a6940596756400f4e6711e7,completed,yes,succeeded,,
+Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.20.contigs__.RAST,155805/4/1,BERDL_unprocessed_batch01.dlt,6a6940596756400f4e6711e7,completed,yes,succeeded,,
+Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.86.contigs__.RAST,155805/24/1,BERDL_unprocessed_batch01.dlt,6a6940596756400f4e6711e7,completed,yes,succeeded,,
+Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.18.contigs__.RAST,155805/11/1,BERDL_unprocessed_batch01.dlt,6a6940596756400f4e6711e7,completed,yes,succeeded,,
+Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_metabat.31.contigs__.RAST,155805/8/1,BERDL_unprocessed_batch01.dlt,6a6940596756400f4e6711e7,completed,yes,succeeded,,
+Salt_Pond_MetaG_R2A_B_H2O_MG_DASTool_bins_metabat.10.contigs__.RAST,155805/22/1,BERDL_unprocessed_batch01.dlt,6a6940596756400f4e6711e7,completed,yes,succeeded,,
+Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_metabat.18.contigs__.RAST,155805/21/1,BERDL_unprocessed_batch01.dlt,6a6940596756400f4e6711e7,completed,yes,succeeded,,
+Salt_Pond_MetaG_R2A_C_H2O_MG_DASTool_bins_metabat.16.contigs__.RAST,155805/20/1,BERDL_unprocessed_batch01.dlt,6a6940596756400f4e6711e7,completed,yes,succeeded,,
+Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.10.contigs__.RAST,155805/16/1,BERDL_unprocessed_batch01.dlt,6a6940596756400f4e6711e7,completed,yes,succeeded,,
+Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_concoct_out.29.contigs__.RAST,155805/9/1,BERDL_unprocessed_batch01.dlt,6a6940596756400f4e6711e7,completed,yes,succeeded,,
+Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.50.contigs__.RAST,155805/10/1,BERDL_unprocessed_batch01.dlt,6a6940596756400f4e6711e7,completed,yes,succeeded,,
+Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.88.contigs__.RAST,155805/14/1,BERDL_unprocessed_batch01.dlt,6a6940596756400f4e6711e7,completed,yes,succeeded,,
+Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.2.contigs__.RAST,155805/28/1,BERDL_unprocessed_batch01.dlt,6a6940596756400f4e6711e7,completed,yes,succeeded,,
+Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.46.contigs__.RAST,155805/6/1,BERDL_unprocessed_batch01.dlt,6a6940596756400f4e6711e7,completed,yes,succeeded,,
+Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.25.contigs__.RAST,155805/26/1,BERDL_unprocessed_batch01.dlt,6a6940596756400f4e6711e7,completed,yes,succeeded,,
+Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.40.contigs__.RAST,155805/178/1,BERDL_unprocessed_batch06.dlt,6a69405cc9e2e40ca406078c,queued,no,pending,not started,
+Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.23.contigs__.RAST,155805/155/1,BERDL_unprocessed_batch06.dlt,6a69405cc9e2e40ca406078c,queued,no,pending,not started,
+Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.25.contigs__.RAST,155805/177/1,BERDL_unprocessed_batch06.dlt,6a69405cc9e2e40ca406078c,queued,no,pending,not started,
+Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.39.contigs__.RAST,155805/153/1,BERDL_unprocessed_batch06.dlt,6a69405cc9e2e40ca406078c,queued,no,pending,not started,
+Salt_Pond_MetaGSF2_C_H2O_MG_DASTool_bins_metabat.29.contigs__.RAST,155805/158/1,BERDL_unprocessed_batch06.dlt,6a69405cc9e2e40ca406078c,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.54.contigs__.RAST,155805/174/1,BERDL_unprocessed_batch06.dlt,6a69405cc9e2e40ca406078c,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.18.contigs__.RAST,155805/167/1,BERDL_unprocessed_batch06.dlt,6a69405cc9e2e40ca406078c,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_metabat.8.contigs__.RAST,155805/179/1,BERDL_unprocessed_batch06.dlt,6a69405cc9e2e40ca406078c,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.53.contigs__.RAST,155805/161/1,BERDL_unprocessed_batch06.dlt,6a69405cc9e2e40ca406078c,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.27.contigs__.RAST,155805/164/1,BERDL_unprocessed_batch06.dlt,6a69405cc9e2e40ca406078c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.50.contigs__.RAST,155805/175/1,BERDL_unprocessed_batch06.dlt,6a69405cc9e2e40ca406078c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_concoct_out.59.contigs__.RAST,155805/171/1,BERDL_unprocessed_batch06.dlt,6a69405cc9e2e40ca406078c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_concoct_out.78.contigs__.RAST,155805/152/1,BERDL_unprocessed_batch06.dlt,6a69405cc9e2e40ca406078c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.37.contigs__.RAST,155805/176/1,BERDL_unprocessed_batch06.dlt,6a69405cc9e2e40ca406078c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_C_H2O_MG_DASTool_bins_metabat.5.contigs__.RAST,155805/157/1,BERDL_unprocessed_batch06.dlt,6a69405cc9e2e40ca406078c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_metabat.14.contigs__.RAST,155805/162/1,BERDL_unprocessed_batch06.dlt,6a69405cc9e2e40ca406078c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_B_H2O_MG_DASTool_bins_metabat.29.contigs__.RAST,155805/165/1,BERDL_unprocessed_batch06.dlt,6a69405cc9e2e40ca406078c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.65.contigs__.RAST,155805/163/1,BERDL_unprocessed_batch06.dlt,6a69405cc9e2e40ca406078c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_C_H2O_MG_DASTool_bins_metabat.29.contigs__.RAST,155805/168/1,BERDL_unprocessed_batch06.dlt,6a69405cc9e2e40ca406078c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.11.contigs__.RAST,155805/166/1,BERDL_unprocessed_batch06.dlt,6a69405cc9e2e40ca406078c,queued,no,pending,not started,
+Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.33.contigs__.RAST,155805/211/1,BERDL_unprocessed_batch07.dlt,6a69405ddefcede6f71dd4f7,queued,no,pending,not started,
+Salt_Pond_MetaGSF2_B_D2_MG_DASTool_bins_concoct_out.55.contigs__.RAST,155805/213/1,BERDL_unprocessed_batch07.dlt,6a69405ddefcede6f71dd4f7,queued,no,pending,not started,
+Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.24.contigs__.RAST,155805/193/1,BERDL_unprocessed_batch07.dlt,6a69405ddefcede6f71dd4f7,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.109.contigs__.RAST,155805/198/1,BERDL_unprocessed_batch07.dlt,6a69405ddefcede6f71dd4f7,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.49.contigs__.RAST,155805/180/1,BERDL_unprocessed_batch07.dlt,6a69405ddefcede6f71dd4f7,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.19.contigs__.RAST,155805/200/1,BERDL_unprocessed_batch07.dlt,6a69405ddefcede6f71dd4f7,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.5.contigs__.RAST,155805/183/1,BERDL_unprocessed_batch07.dlt,6a69405ddefcede6f71dd4f7,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.30.contigs__.RAST,155805/201/1,BERDL_unprocessed_batch07.dlt,6a69405ddefcede6f71dd4f7,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_metabat.22.contigs__.RAST,155805/191/1,BERDL_unprocessed_batch07.dlt,6a69405ddefcede6f71dd4f7,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.11.contigs__.RAST,155805/214/1,BERDL_unprocessed_batch07.dlt,6a69405ddefcede6f71dd4f7,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_concoct_out.10.contigs__.RAST,155805/195/1,BERDL_unprocessed_batch07.dlt,6a69405ddefcede6f71dd4f7,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_concoct_out.34.contigs__.RAST,155805/212/1,BERDL_unprocessed_batch07.dlt,6a69405ddefcede6f71dd4f7,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_concoct_out.40.contigs__.RAST,155805/202/1,BERDL_unprocessed_batch07.dlt,6a69405ddefcede6f71dd4f7,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.20.contigs__.RAST,155805/182/1,BERDL_unprocessed_batch07.dlt,6a69405ddefcede6f71dd4f7,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_B_H2O_MG_DASTool_bins_metabat.16.contigs__.RAST,155805/199/1,BERDL_unprocessed_batch07.dlt,6a69405ddefcede6f71dd4f7,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.118.contigs__.RAST,155805/208/1,BERDL_unprocessed_batch07.dlt,6a69405ddefcede6f71dd4f7,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_metabat.25.contigs__.RAST,155805/184/1,BERDL_unprocessed_batch07.dlt,6a69405ddefcede6f71dd4f7,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_C_H2O_MG_DASTool_bins_metabat.20.contigs__.RAST,155805/204/1,BERDL_unprocessed_batch07.dlt,6a69405ddefcede6f71dd4f7,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.22.contigs__.RAST,155805/188/1,BERDL_unprocessed_batch07.dlt,6a69405ddefcede6f71dd4f7,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_maxbin.005.contigs__.RAST,155805/185/1,BERDL_unprocessed_batch07.dlt,6a69405ddefcede6f71dd4f7,queued,no,pending,not started,
+Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.34.contigs__.RAST,155805/229/1,BERDL_unprocessed_batch08.dlt,6a69405e7662238c12e4763f,queued,no,pending,not started,
+Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.17.contigs__.RAST,155805/240/1,BERDL_unprocessed_batch08.dlt,6a69405e7662238c12e4763f,queued,no,pending,not started,
+Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.3.contigs__.RAST,155805/231/1,BERDL_unprocessed_batch08.dlt,6a69405e7662238c12e4763f,queued,no,pending,not started,
+Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_metabat.11.contigs__.RAST,155805/237/1,BERDL_unprocessed_batch08.dlt,6a69405e7662238c12e4763f,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.51.contigs__.RAST,155805/238/1,BERDL_unprocessed_batch08.dlt,6a69405e7662238c12e4763f,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.31.contigs__.RAST,155805/225/1,BERDL_unprocessed_batch08.dlt,6a69405e7662238c12e4763f,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_metabat.6.contigs__.RAST,155805/216/1,BERDL_unprocessed_batch08.dlt,6a69405e7662238c12e4763f,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.32.contigs__.RAST,155805/239/1,BERDL_unprocessed_batch08.dlt,6a69405e7662238c12e4763f,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.37.contigs__.RAST,155805/226/1,BERDL_unprocessed_batch08.dlt,6a69405e7662238c12e4763f,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.14.contigs__.RAST,155805/245/1,BERDL_unprocessed_batch08.dlt,6a69405e7662238c12e4763f,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_maxbin.028.contigs__.RAST,155805/218/1,BERDL_unprocessed_batch08.dlt,6a69405e7662238c12e4763f,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_concoct_out.25.contigs__.RAST,155805/232/1,BERDL_unprocessed_batch08.dlt,6a69405e7662238c12e4763f,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_A_H2O_MG_DASTool_bins_metabat.20.contigs__.RAST,155805/228/1,BERDL_unprocessed_batch08.dlt,6a69405e7662238c12e4763f,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_C_H2O_MG_DASTool_bins_metabat.4.contigs__.RAST,155805/235/1,BERDL_unprocessed_batch08.dlt,6a69405e7662238c12e4763f,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_A_H2O_MG_DASTool_bins_maxbin.035.contigs__.RAST,155805/244/1,BERDL_unprocessed_batch08.dlt,6a69405e7662238c12e4763f,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.16.contigs__.RAST,155805/217/1,BERDL_unprocessed_batch08.dlt,6a69405e7662238c12e4763f,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.55.contigs__.RAST,155805/243/1,BERDL_unprocessed_batch08.dlt,6a69405e7662238c12e4763f,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_C_H2O_MG_DASTool_bins_concoct_out.35.contigs__.RAST,155805/227/1,BERDL_unprocessed_batch08.dlt,6a69405e7662238c12e4763f,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_metabat.13.contigs__.RAST,155805/222/1,BERDL_unprocessed_batch08.dlt,6a69405e7662238c12e4763f,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.20.contigs__.RAST,155805/242/1,BERDL_unprocessed_batch08.dlt,6a69405e7662238c12e4763f,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.5.contigs__.RAST,155805/254/1,BERDL_unprocessed_batch09.dlt,6a69405e5a42139f6f44417c,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.25.contigs__.RAST,155805/277/1,BERDL_unprocessed_batch09.dlt,6a69405e5a42139f6f44417c,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_concoct_out.2.contigs__.RAST,155805/259/1,BERDL_unprocessed_batch09.dlt,6a69405e5a42139f6f44417c,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.28.contigs__.RAST,155805/276/1,BERDL_unprocessed_batch09.dlt,6a69405e5a42139f6f44417c,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.29.contigs__.RAST,155805/247/1,BERDL_unprocessed_batch09.dlt,6a69405e5a42139f6f44417c,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_concoct_out.22.contigs__.RAST,155805/265/1,BERDL_unprocessed_batch09.dlt,6a69405e5a42139f6f44417c,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.79.contigs__.RAST,155805/250/1,BERDL_unprocessed_batch09.dlt,6a69405e5a42139f6f44417c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.42.contigs__.RAST,155805/253/1,BERDL_unprocessed_batch09.dlt,6a69405e5a42139f6f44417c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.6.contigs__.RAST,155805/269/1,BERDL_unprocessed_batch09.dlt,6a69405e5a42139f6f44417c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_metabat.7.contigs__.RAST,155805/273/1,BERDL_unprocessed_batch09.dlt,6a69405e5a42139f6f44417c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.54.contigs__.RAST,155805/251/1,BERDL_unprocessed_batch09.dlt,6a69405e5a42139f6f44417c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_concoct_out.52.contigs__.RAST,155805/271/1,BERDL_unprocessed_batch09.dlt,6a69405e5a42139f6f44417c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_C_D2_MG_DASTool_bins_metabat.38.contigs__.RAST,155805/275/1,BERDL_unprocessed_batch09.dlt,6a69405e5a42139f6f44417c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.52.contigs__.RAST,155805/262/1,BERDL_unprocessed_batch09.dlt,6a69405e5a42139f6f44417c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.24.contigs__.RAST,155805/263/1,BERDL_unprocessed_batch09.dlt,6a69405e5a42139f6f44417c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_A_D2_MG_DASTool_bins_metabat.16.contigs__.RAST,155805/258/1,BERDL_unprocessed_batch09.dlt,6a69405e5a42139f6f44417c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.124.contigs__.RAST,155805/264/1,BERDL_unprocessed_batch09.dlt,6a69405e5a42139f6f44417c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_restored_C_black_MG_DASTool_bins_concoct_out.17.contigs__.RAST,155805/248/1,BERDL_unprocessed_batch09.dlt,6a69405e5a42139f6f44417c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.38.contigs__.RAST,155805/268/1,BERDL_unprocessed_batch09.dlt,6a69405e5a42139f6f44417c,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.8.contigs__.RAST,155805/249/1,BERDL_unprocessed_batch09.dlt,6a69405e5a42139f6f44417c,queued,no,pending,not started,
+Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.55.contigs__.RAST,155805/294/1,BERDL_unprocessed_batch10.dlt,6a69405f6742627971d2c145,queued,no,pending,not started,
+Salt_Pond_MetaGSF2_B_D2_MG_DASTool_bins_metabat.4.contigs__.RAST,155805/293/1,BERDL_unprocessed_batch10.dlt,6a69405f6742627971d2c145,queued,no,pending,not started,
+Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.8.contigs__.RAST,155805/312/1,BERDL_unprocessed_batch10.dlt,6a69405f6742627971d2c145,queued,no,pending,not started,
+Salt_Pond_MetaGSF2_C_H2O_MG_DASTool_bins_metabat.13.contigs__.RAST,155805/298/1,BERDL_unprocessed_batch10.dlt,6a69405f6742627971d2c145,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_A_H2O_MG_DASTool_bins_metabat.14.contigs__.RAST,155805/279/1,BERDL_unprocessed_batch10.dlt,6a69405f6742627971d2c145,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.40.contigs__.RAST,155805/302/1,BERDL_unprocessed_batch10.dlt,6a69405f6742627971d2c145,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_maxbin.014.contigs__.RAST,155805/280/1,BERDL_unprocessed_batch10.dlt,6a69405f6742627971d2c145,queued,no,pending,not started,
+Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_metabat.16.contigs__.RAST,155805/297/1,BERDL_unprocessed_batch10.dlt,6a69405f6742627971d2c145,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_A_D2_MG_DASTool_bins_concoct_out.51.contigs__.RAST,155805/311/1,BERDL_unprocessed_batch10.dlt,6a69405f6742627971d2c145,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_B_D2_MG_DASTool_bins_concoct_out.47.contigs__.RAST,155805/290/1,BERDL_unprocessed_batch10.dlt,6a69405f6742627971d2c145,queued,no,pending,not started,
+Salt_Pond_MetaG_R2A_C_D1_MG_DASTool_bins_concoct_out.15.contigs__.RAST,155805/309/1,BERDL_unprocessed_batch10.dlt,6a69405f6742627971d2c145,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.35.contigs__.RAST,155805/301/1,BERDL_unprocessed_batch10.dlt,6a69405f6742627971d2c145,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_metabat.50.contigs__.RAST,155805/287/1,BERDL_unprocessed_batch10.dlt,6a69405f6742627971d2c145,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_B_D1_MG_DASTool_bins_concoct_out.110.contigs__.RAST,155805/282/1,BERDL_unprocessed_batch10.dlt,6a69405f6742627971d2c145,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.10.contigs__.RAST,155805/300/1,BERDL_unprocessed_batch10.dlt,6a69405f6742627971d2c145,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_concoct_out.7.contigs__.RAST,155805/283/1,BERDL_unprocessed_batch10.dlt,6a69405f6742627971d2c145,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_C_D1_MG_DASTool_bins_metabat.17.contigs__.RAST,155805/288/1,BERDL_unprocessed_batch10.dlt,6a69405f6742627971d2c145,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_C_D2_MG_DASTool_bins_concoct_out.104.contigs__.RAST,155805/305/1,BERDL_unprocessed_batch10.dlt,6a69405f6742627971d2c145,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.12.contigs__.RAST,155805/306/1,BERDL_unprocessed_batch10.dlt,6a69405f6742627971d2c145,queued,no,pending,not started,
+Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.18.contigs__.RAST,155805/299/1,BERDL_unprocessed_batch10.dlt,6a69405f6742627971d2c145,queued,no,pending,not started,

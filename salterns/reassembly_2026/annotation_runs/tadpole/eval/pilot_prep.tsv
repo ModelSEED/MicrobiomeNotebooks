@@ -1,0 +1,25 @@
+sample	step	input_reads	input_bases	bbmerge_pairs	bbmerge_joined	bbmerge_joined_pct	bbmerge_ambiguous_pct	bbmerge_nosolution_pct	bbmerge_avg_insert	unique_kmers	time_s	errors_detected	errors_corrected	reads_with_errors_detected	reads_with_errors_detected_pct	reads_fully_corrected	reads_fully_corrected_pct_of_detected	output_reads	output_bases	result_reads	result_pct_reads	result_bases	result_pct_bases	removed_or_trimmed
+R1_A_D1	A1_bbmerge	57656350	8632874940	28828175	18020370	62.510	37.478	0.012	267.7	357145129	2091.010													
+R1_A_D1	A2a_tadpole_pairs	21615610	3241408478							364571266	1734.116	6329268	2910143	2191248	10.14	1704531	77.79	21615610	3241408478					
+R1_A_D1	A2b_tadpole_merged	18020370	4823672590							364571385	2126.731	5911632	1409144	1815625	10.08	986806	54.35	18020370	4823672590					
+R1_A_D1	A3_qtrim	21615610	3241408478								71.724									21615352	100.00	3191531952	98.46	Total Removed 258 reads (0.00%) 49876526 bases (1.54%)
+R1_A_D1	A4_metaspades																							
+R1_A_D1	B1_tadpole	57656350	8632874940							357145679	2305.587	14775267	8486450	6651927	11.54	5590579	84.04	57656350	8632874940					
+R1_A_D1	B2_qtrim	57656350	8632874940								139.728									57655962	100.00	8545574493	98.99	Total Removed 388 reads (0.00%) 87300447 bases (1.01%)
+R1_A_D1	B3_metaspades																							
+R1_A_D1	C1_spades_default																							
+R1_A_D1	bbduk_adapt	59825172	9033600972								411.007									57657264	96.38	8633010936	95.57	Total Removed 2167908 reads (3.62%) 400590036 bases (4.43%)
+R1_A_D1	bbduk_filter	57657264	8633010936								365.738									57656350	100.00	8632874940	100.00	Total Removed 914 reads (0.00%) 135996 bases (0.00%)
+R1_A_D1	fix_plus_SRR5209943																							
+SF2_C_D1	A1_bbmerge	51710446	7744984364	25855223	12373225	47.856	52.132	0.012	248.0	86788402	1489.707													
+SF2_C_D1	A2a_tadpole_pairs	26963996	4043635564							85717675	1691.675	1288956	528581	458372	1.70	318766	69.54	26963996	4043635564					
+SF2_C_D1	A2b_tadpole_merged	12373225	3067973685							85699445	1657.986	1351519	251386	382246	3.09	149288	39.06	12373225	3067973685					
+SF2_C_D1	A3_qtrim	26963996	4043635564								58.258									26963742	100.00	4011399182	99.20	Total Removed 254 reads (0.00%) 32236382 bases (0.80%)
+SF2_C_D1	A4_metaspades																							
+SF2_C_D1	B1_tadpole	51710446	7744984364							86787724	2528.804	2407225	1195239	1066856	2.06	786903	73.76	51710446	7744984364					
+SF2_C_D1	B2_qtrim	51710446	7744984364								154.721									51710086	100.00	7699289060	99.41	Total Removed 360 reads (0.00%) 45695304 bases (0.59%)
+SF2_C_D1	B3_metaspades																							
+SF2_C_D1	C1_spades_default																							
+SF2_C_D1	bbduk_adapt	60170420	9085733420								381.140									52086950	86.57	7801452874	85.86	Total Removed 8083470 reads (13.43%) 1284280546 bases (14.14%)
+SF2_C_D1	bbduk_filter	52086950	7801452874								265.223									51710446	99.28	7744984364	99.28	Total Removed 376504 reads (0.72%) 56468510 bases (0.72%)
+SF2_C_D1	fix_plus_SRR5210468																							

@@ -1,0 +1,5267 @@
+{
+ "R2_restored_D_shore__concoct.bin.005_sub": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Hikarchaeaceae",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2_restored_D_shore__concoct.bin.011_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Nitrococcales",
+  "Family": "Nitrococcaceae",
+  "Genus": "JASFMS01",
+  "Species": ""
+ },
+ "R2_restored_D_shore__concoct.bin.087": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Palauibacterales",
+  "Family": "Palauibacteraceae",
+  "Genus": "Humimonas",
+  "Species": "Humimonas sp035267645"
+ },
+ "R2_restored_D_shore__maxbin2.Bin.021": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Minisyncoccia",
+  "Order": "Portnoybacterales",
+  "Family": "UBA2143",
+  "Genus": "CAYXST01",
+  "Species": ""
+ },
+ "R2_restored_D_shore__maxbin2.Bin.031": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "Fodinibius",
+  "Species": ""
+ },
+ "R2_restored_D_shore__maxbin2.Bin.044_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "DATFLL01",
+  "Family": "DATFLL01",
+  "Genus": "DATFLL01",
+  "Species": ""
+ },
+ "R2_restored_D_shore__maxbin2.Bin.045": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "GWC2-55-46",
+  "Order": "GWC2-55-46",
+  "Family": "JBHHVK01",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2_restored_D_shore__maxbin2.Bin.051": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "XJ16",
+  "Family": "Halofilaceae",
+  "Genus": "Halofilum",
+  "Species": ""
+ },
+ "R2_restored_D_shore__maxbin2.Bin.062": {
+  "Kingdom": "Bacteria",
+  "Phylum": "SAR324",
+  "Class": "SAR324",
+  "Order": "SAR324",
+  "Family": "JACQKK01",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2_restored_D_shore__metabat2.bin.005": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "UBA5335",
+  "Family": "SLRW01",
+  "Genus": "DASQZJ01",
+  "Species": "DASQZJ01 sp035638695"
+ },
+ "R2_restored_D_shore__metabat2.bin.015": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Zetaproteobacteria",
+  "Order": "Mariprofundales",
+  "Family": "Mariprofundaceae",
+  "Genus": "DATFLK01",
+  "Species": "DATFLK01 sp035267815"
+ },
+ "R2_restored_D_shore__metabat2.bin.017_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Palauibacterales",
+  "Family": "Palauibacteraceae",
+  "Genus": "Humimonas",
+  "Species": ""
+ },
+ "R2_restored_D_shore__metabat2.bin.019": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Hikarchaeaceae",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2_restored_D_shore__metabat2.bin.022": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Thiohalorhabdales",
+  "Family": "Thiohalorhabdaceae",
+  "Genus": "Thiohalorhabdus",
+  "Species": "Thiohalorhabdus sp035267605"
+ },
+ "R2_restored_D_shore__metabat2.bin.023_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2_restored_D_shore__metabat2.bin.028": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "CAVTAV01",
+  "Family": "CAVTAV01",
+  "Genus": "CAVTAV01",
+  "Species": "CAVTAV01 sp963821875"
+ },
+ "R2_restored_D_shore__metabat2.bin.029": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Fidelibacterota",
+  "Class": "JAANXI01",
+  "Order": "JAANXI01",
+  "Family": "JAANXI01",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2_restored_D_shore__metabat2.bin.036": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "DATFLL01",
+  "Family": "DATFLL01",
+  "Genus": "DATFLL01",
+  "Species": "DATFLL01 sp035267785"
+ },
+ "R2_restored_D_shore__metabat2.bin.038": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Acidobacteriota",
+  "Class": "Aminicenantia",
+  "Order": "Aminicenantales",
+  "Family": "Aminicenantaceae",
+  "Genus": "WJMT01",
+  "Species": "WJMT01 sp035655135"
+ },
+ "R2_restored_D_shore__metabat2.bin.049": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2_restored_D_shore__metabat2.bin.053_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "DATFLG01",
+  "Family": "DATFLG01",
+  "Genus": "DATFLG01",
+  "Species": "DATFLG01 sp035267985"
+ },
+ "R2_restored_D_shore__metabat2.bin.054_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Palauibacterales",
+  "Family": "Palauibacteraceae",
+  "Genus": "Humimonas",
+  "Species": ""
+ },
+ "R2_restored_D_shore__metabat2.bin.057_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Fidelibacterota",
+  "Class": "JAANXI01",
+  "Order": "JAANXI01",
+  "Family": "JAANXI01",
+  "Genus": "",
+  "Species": ""
+ },
+ "SF2_A_H2O__concoct.bin.088_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "BM103",
+  "Genus": "JAFDBW01",
+  "Species": "JAFDBW01 sp019313105"
+ },
+ "SF2_A_H2O__metabat2.bin.033": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Burkholderiales",
+  "Family": "Methylophilaceae",
+  "Genus": "BACL14",
+  "Species": "BACL14 sp017852315"
+ },
+ "SF2_A_H2O__metabat2.bin.038_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "HIMB11",
+  "Species": "HIMB11 sp003486095"
+ },
+ "R1_A_D1__concoct.bin.007": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Methanosarcinia",
+  "Order": "Methanosarcinales",
+  "Family": "Methanosarcinaceae",
+  "Genus": "Methanolobus",
+  "Species": "Methanolobus sp020055655"
+ },
+ "R1_A_D1__concoct.bin.034": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Salegentibacter",
+  "Species": "Salegentibacter sp035269545"
+ },
+ "R1_A_D1__concoct.bin.054": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Natrialbaceae",
+  "Genus": "DATFIX01",
+  "Species": "DATFIX01 sp035269625"
+ },
+ "R1_A_D1__concoct.bin.076": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Thiohalospirales",
+  "Family": "Thiohalospiraceae",
+  "Genus": "Thiohalospira",
+  "Species": ""
+ },
+ "R1_A_D1__maxbin2.Bin.044": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "SW132",
+  "Species": ""
+ },
+ "R1_A_D1__metabat2.bin.042": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "VadinHA17",
+  "Genus": "UBA9300",
+  "Species": ""
+ },
+ "R1_A_D1__metabat2.bin.047": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "UBA12077",
+  "Genus": "UBA12077",
+  "Species": "UBA12077 sp035269575"
+ },
+ "R1_A_D1__metabat2.bin.076_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Thiohalorhabdales",
+  "Family": "Thiohalorhabdaceae",
+  "Genus": "Thiohalorhabdus",
+  "Species": ""
+ },
+ "R1_A_D2__concoct.bin.073": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Halieaceae",
+  "Genus": "Chromatocurvus",
+  "Species": "Chromatocurvus sp964613795"
+ },
+ "R1_A_D2__maxbin2.Bin.011_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "Wenzhouxiangellaceae",
+  "Genus": "GCA-2722315",
+  "Species": ""
+ },
+ "R1_A_D2__maxbin2.Bin.123_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Clostridia",
+  "Order": "Peptostreptococcales",
+  "Family": "BM714",
+  "Genus": "BM714",
+  "Species": "BM714 sp035269385"
+ },
+ "R1_A_D2__metabat2.bin.009": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "Prolixibacteraceae",
+  "Genus": "Tangfeifania",
+  "Species": "Tangfeifania diversioriginum"
+ },
+ "R1_A_D2__metabat2.bin.020": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Clostridia",
+  "Order": "Peptostreptococcales",
+  "Family": "Acidaminobacteraceae",
+  "Genus": "DATFJG01",
+  "Species": "DATFJG01 sp035269305"
+ },
+ "R1_A_D2__metabat2.bin.053": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": ""
+ },
+ "R1_A_D2__metabat2.bin.063": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "Halalkalibaculum",
+  "Species": "Halalkalibaculum sp035269475"
+ },
+ "R1_A_D2__metabat2.bin.064": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Gracilibacteria",
+  "Order": "Absconditabacterales",
+  "Family": "Absconditicoccaceae",
+  "Genus": "JALOAF01",
+  "Species": "JALOAF01 sp035269265"
+ },
+ "R1_A_D2__metabat2.bin.070": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Clostridia",
+  "Order": "Peptostreptococcales",
+  "Family": "BM714",
+  "Genus": "BM714",
+  "Species": "BM714 sp964644525"
+ },
+ "R1_A_D2__metabat2.bin.091_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "Wenzhouxiangellaceae",
+  "Genus": "GCA-2722315",
+  "Species": "GCA-2722315 sp035269245"
+ },
+ "R1_A_D2__metabat2.bin.092_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "Rhodohalobacter",
+  "Species": "Rhodohalobacter sp035312505"
+ },
+ "R1_A_D2__metabat2.bin.098": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "Desulfobacteraceae",
+  "Genus": "Desulfobacter",
+  "Species": "Desulfobacter sp035270145"
+ },
+ "R1_B_D1__concoct.bin.000_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Patescibacteriia",
+  "Order": "Patescibacteriales",
+  "Family": "UBA12465",
+  "Genus": "JAIPJO01",
+  "Species": "JAIPJO01 sp035269015"
+ },
+ "R1_B_D1__concoct.bin.010_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Deinococcota",
+  "Class": "Deinococci",
+  "Order": "Deinococcales",
+  "Family": "Trueperaceae",
+  "Genus": "SLSQ01",
+  "Species": "SLSQ01 sp964561595"
+ },
+ "R1_B_D1__concoct.bin.030": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Psychroflexus",
+  "Species": ""
+ },
+ "R1_B_D1__concoct.bin.076_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Rhodothermales",
+  "Family": "Salinibacteraceae",
+  "Genus": "Salinibacter",
+  "Species": ""
+ },
+ "R1_B_D1__maxbin2.Bin.029": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "UBA12077",
+  "Genus": "UBA12077",
+  "Species": "UBA12077 sp964635605"
+ },
+ "R1_B_D1__maxbin2.Bin.073": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Natrialbaceae",
+  "Genus": "Natrinema",
+  "Species": "Natrinema hispanicum_A"
+ },
+ "R1_B_D1__maxbin2.Bin.115": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "Desulfobacteraceae",
+  "Genus": "DATFJZ01",
+  "Species": ""
+ },
+ "R1_B_D1__metabat2.bin.017_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": "Roseovarius sp964570675"
+ },
+ "R1_B_D1__metabat2.bin.032_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "Wenzhouxiangellaceae",
+  "Genus": "GCA-2722315",
+  "Species": "GCA-2722315 sp964476005"
+ },
+ "R1_B_D1__metabat2.bin.040": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": "Roseovarius sp035268705"
+ },
+ "R1_B_D1__metabat2.bin.044": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Clostridia",
+  "Order": "Peptostreptococcales",
+  "Family": "Anaerovoracaceae",
+  "Genus": "JAAYHV01",
+  "Species": "JAAYHV01 sp035268985"
+ },
+ "R1_B_D2__concoct.bin.019_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Synergistota",
+  "Class": "Synergistia",
+  "Order": "Synergistales",
+  "Family": "JAFGMB01",
+  "Genus": "CAZFJG01",
+  "Species": "CAZFJG01 sp964519285"
+ },
+ "R1_B_D2__concoct.bin.030_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": "Roseovarius sp037083845"
+ },
+ "R1_B_D2__concoct.bin.055_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Steroidobacterales",
+  "Family": "Woeseiaceae",
+  "Genus": "Lentisalinibacter",
+  "Species": ""
+ },
+ "R1_B_D2__concoct.bin.109": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "CAYVBJ01",
+  "Species": "CAYVBJ01 sp964449075"
+ },
+ "R1_B_D2__concoct.bin.112_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "Halanaerobiaceae",
+  "Genus": "Halanaerobium",
+  "Species": ""
+ },
+ "R1_B_D2__maxbin2.Bin.030": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Clostridia",
+  "Order": "Peptostreptococcales",
+  "Family": "BM714",
+  "Genus": "BM714",
+  "Species": "BM714 sp964484935"
+ },
+ "R1_B_D2__maxbin2.Bin.085": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Flagellimonas",
+  "Species": "Flagellimonas sp040148835"
+ },
+ "R1_B_D2__metabat2.bin.021_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "JADQBU01",
+  "Genus": "CAYRVO01",
+  "Species": ""
+ },
+ "R1_B_D2__metabat2.bin.032": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "BM103",
+  "Genus": "JAQYVZ01",
+  "Species": "JAQYVZ01 sp035269105"
+ },
+ "R1_B_D2__metabat2.bin.039": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "DATFIM01",
+  "Genus": "DATFIM01",
+  "Species": "DATFIM01 sp035270125"
+ },
+ "R1_B_D2__metabat2.bin.043": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "DAINOF01",
+  "Species": "DAINOF01 sp964587905"
+ },
+ "R1_B_D2__metabat2.bin.049": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Chitinophagales",
+  "Family": "Saprospiraceae",
+  "Genus": "JAWLFI01",
+  "Species": "JAWLFI01 sp964627995"
+ },
+ "R1_B_D2__metabat2.bin.065": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": ""
+ },
+ "R1_B_D2__metabat2.bin.078_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": ""
+ },
+ "R1_C_D1__concoct.bin.031": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Clostridia",
+  "Order": "Tissierellales",
+  "Family": "Dethiosulfatibacteraceae",
+  "Genus": "UBA8670",
+  "Species": "UBA8670 sp964393495"
+ },
+ "R1_C_D1__concoct.bin.033": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Steroidobacterales",
+  "Family": "Woeseiaceae",
+  "Genus": "Lentisalinibacter",
+  "Species": "Lentisalinibacter sp035655155"
+ },
+ "R1_C_D1__maxbin2.Bin.003_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "M55B127",
+  "Genus": "M55B127",
+  "Species": "M55B127 sp018334565"
+ },
+ "R1_C_D2__concoct.bin.007_sub": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Natronoarchaeaceae",
+  "Genus": "Natronoarchaeum",
+  "Species": ""
+ },
+ "R1_C_D2__maxbin2.Bin.099_sub": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Halohasta",
+  "Species": ""
+ },
+ "R1_C_D2__metabat2.bin.048": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Marivita",
+  "Species": "Marivita sp020055675"
+ },
+ "R1_C_D2__metabat2.bin.051": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "Desulfosalsimonadaceae",
+  "Genus": "M55B175",
+  "Species": "M55B175 sp018334555"
+ },
+ "SF2_A_D1__metabat2.bin.011": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "UBA11574",
+  "Genus": "UBA11574",
+  "Species": "UBA11574 sp002868985"
+ },
+ "SF2_A_D2__concoct.bin.009": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Halieaceae",
+  "Genus": "JAACFI01",
+  "Species": "JAACFI01 sp029287595"
+ },
+ "SF2_A_D2__concoct.bin.042": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Steroidobacterales",
+  "Family": "BM003",
+  "Genus": "BM003",
+  "Species": "BM003 sp002868855"
+ },
+ "SF2_A_D2__concoct.bin.058": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "JAHEIW01",
+  "Genus": "JAHEIW01",
+  "Species": ""
+ },
+ "SF2_A_D2__maxbin2.Bin.001": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "BM103",
+  "Genus": "M0040",
+  "Species": "M0040 sp029859485"
+ },
+ "SF2_A_D2__metabat2.bin.022": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobulbia",
+  "Order": "Desulfobulbales",
+  "Family": "BM004",
+  "Genus": "BM004",
+  "Species": "BM004 sp002868955"
+ },
+ "SF2_B_D1__concoct.bin.040": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "UBA11574",
+  "Genus": "JAAXQD01",
+  "Species": "JAAXQD01 sp024641825"
+ },
+ "SF2_B_D1__maxbin2.Bin.005_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Syntrophobacteria",
+  "Order": "BM002",
+  "Family": "BM002",
+  "Genus": "BM002",
+  "Species": "BM002 sp002899795"
+ },
+ "SF2_B_D1__metabat2.bin.020_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "B30-G6",
+  "Genus": "B30-G6",
+  "Species": ""
+ },
+ "SF2_B_D2__concoct.bin.025": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Hikarchaeaceae",
+  "Genus": "",
+  "Species": ""
+ },
+ "SF2_C_D2__concoct.bin.004": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Nevskiales",
+  "Family": "CAZYIP01",
+  "Genus": "",
+  "Species": ""
+ },
+ "SF2_C_D2__concoct.bin.006": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "DASQZP01",
+  "Genus": "DASQZP01",
+  "Species": "DASQZP01 sp035638655"
+ },
+ "SF2_C_D2__concoct.bin.010_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "DATFMH01",
+  "Genus": "DATFMH01",
+  "Species": "DATFMH01 sp035267005"
+ },
+ "SF2_C_D2__concoct.bin.042_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "GCA-2748055",
+  "Genus": "DASQZK01",
+  "Species": "DASQZK01 sp035638735"
+ },
+ "SF2_C_D2__concoct.bin.047": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "JAKDMP01",
+  "Family": "JAKDMP01",
+  "Genus": "JBAUSV01",
+  "Species": ""
+ },
+ "SF2_C_D2__maxbin2.Bin.013": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "JAKDMP01",
+  "Family": "JAKDMP01",
+  "Genus": "",
+  "Species": ""
+ },
+ "SF2_C_D2__metabat2.bin.002_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "UBA5335",
+  "Family": "SLRW01",
+  "Genus": "DASQZJ01",
+  "Species": "DASQZJ01 sp035638775"
+ },
+ "SF2_C_D2__metabat2.bin.012": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "UBA11574",
+  "Genus": "UBA11574",
+  "Species": "UBA11574 sp963731025"
+ },
+ "SF2_C_D2__metabat2.bin.017": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "DDH964",
+  "Genus": "",
+  "Species": ""
+ },
+ "SF2_C_D2__metabat2.bin.029": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Deinococcota",
+  "Class": "Deinococci",
+  "Order": "Deinococcales",
+  "Family": "Trueperaceae",
+  "Genus": "JASBRS01",
+  "Species": ""
+ },
+ "R1_A_H2O__metabat2.bin.021_sub": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Haloquadratum",
+  "Species": ""
+ },
+ "R1_B_H2O__concoct.bin.016": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Thiotrichales",
+  "Family": "Thiotrichaceae",
+  "Genus": "Thiolinea",
+  "Species": ""
+ },
+ "R1_B_H2O__concoct.bin.022": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Psychroflexus",
+  "Species": ""
+ },
+ "R1_B_H2O__concoct.bin.024": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Schleiferiaceae",
+  "Genus": "CAJXMS01",
+  "Species": "CAJXMS01 sp913056475"
+ },
+ "R1_B_H2O__concoct.bin.032_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Halothiobacillales",
+  "Family": "Halothiobacillaceae",
+  "Genus": "Guyparkeria",
+  "Species": ""
+ },
+ "R1_B_H2O__concoct.bin.040": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Halomonadaceae",
+  "Genus": "Vreelandella",
+  "Species": ""
+ },
+ "R1_B_H2O__concoct.bin.044": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Psychroflexus",
+  "Species": "Psychroflexus sp913056525"
+ },
+ "R1_B_H2O__concoct.bin.046_sub": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Haloquadratum",
+  "Species": ""
+ },
+ "R1_B_H2O__concoct.bin.053": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": ""
+ },
+ "R1_B_H2O__maxbin2.Bin.051": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Nitrococcales",
+  "Family": "Nitrococcaceae",
+  "Genus": "Spiribacter",
+  "Species": "Spiribacter sp031581235"
+ },
+ "R1_B_H2O__metabat2.bin.040": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Halorubrum",
+  "Species": ""
+ },
+ "R1_B_H2O__metabat2.bin.048": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Actinomycetes",
+  "Order": "Actinomycetales",
+  "Family": "Microbacteriaceae",
+  "Genus": "CAJXVY01",
+  "Species": ""
+ },
+ "R1_C_H2O__maxbin2.Bin.065": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Nitrococcales",
+  "Family": "Nitrococcaceae",
+  "Genus": "Spiribacter",
+  "Species": "Spiribacter sp031581365"
+ },
+ "R1_C_H2O__maxbin2.Bin.066_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Nitrococcales",
+  "Family": "Nitrococcaceae",
+  "Genus": "Spiribacter",
+  "Species": "Spiribacter salinus"
+ },
+ "R1_C_H2O__metabat2.bin.043": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Nitrococcales",
+  "Family": "Nitrococcaceae",
+  "Genus": "Spiribacter",
+  "Species": ""
+ },
+ "R1_C_H2O__metabat2.bin.056": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Macinerneyibacteriota",
+  "Class": "Macinerneyibacteria",
+  "Order": "Macinerneyibacteriales",
+  "Family": "Macinerneyibacteriaceae",
+  "Genus": "CAZUKV01",
+  "Species": "CAZUKV01 sp964621075"
+ },
+ "SF2_B_H2O__maxbin2.Bin.006": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Cyanobacteriota",
+  "Class": "Cyanobacteriia",
+  "Order": "Gloeomargaritales",
+  "Family": "",
+  "Genus": "",
+  "Species": ""
+ },
+ "SF2_B_H2O__maxbin2.Bin.053": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Pelagibacterales",
+  "Family": "Pelagibacteraceae",
+  "Genus": "Pelagibacter",
+  "Species": "Pelagibacter sp008638165"
+ },
+ "SF2_B_H2O__maxbin2.Bin.076": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Litorivicinaceae",
+  "Genus": "HIMB30",
+  "Species": "HIMB30 sp002691485"
+ },
+ "SF2_B_H2O__maxbin2.Bin.090_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Schleiferiaceae",
+  "Genus": "UBA10364",
+  "Species": "UBA10364 sp018402665"
+ },
+ "SF2_B_H2O__maxbin2.Bin.094_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Acidimicrobiia",
+  "Order": "Acidimicrobiales",
+  "Family": "Ilumatobacteraceae",
+  "Genus": "Casp-actino5",
+  "Species": "Casp-actino5 sp017859785"
+ },
+ "SF2_B_H2O__maxbin2.Bin.109": {
+  "Kingdom": "Archaea",
+  "Phylum": "Thermoplasmatota",
+  "Class": "Poseidoniia",
+  "Order": "Poseidoniales",
+  "Family": "Poseidoniaceae",
+  "Genus": "Poseidonia",
+  "Species": "Poseidonia sp030827745"
+ },
+ "SF2_B_H2O__metabat2.bin.009": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Magnimaribacterales",
+  "Family": "D2472",
+  "Genus": "D2472",
+  "Species": "D2472 sp016779505"
+ },
+ "SF2_B_H2O__metabat2.bin.019": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Pseudohongiellaceae",
+  "Genus": "Eutrophocola",
+  "Species": "Eutrophocola sp030828385"
+ },
+ "SF2_B_H2O__metabat2.bin.032": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "NS11-12g",
+  "Family": "UBA955",
+  "Genus": "VMCP01",
+  "Species": "VMCP01 sp008081305"
+ },
+ "SF2_B_H2O__metabat2.bin.045": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Planktomarina",
+  "Species": "Planktomarina temperata"
+ },
+ "SF2_C_H2O__concoct.bin.006": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Puniceispirillales",
+  "Family": "Puniceispirillaceae",
+  "Genus": "UBA3439",
+  "Species": "UBA3439 sp017859295"
+ },
+ "SF2_C_H2O__maxbin2.Bin.093": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Azotimanducaceae",
+  "Genus": "Salivita",
+  "Species": "Salivita sp030828335"
+ },
+ "SF2_C_H2O__metabat2.bin.005": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Puniceispirillales",
+  "Family": "Marisalimonadaceae",
+  "Genus": "Marisalimonas",
+  "Species": "Marisalimonas sp937142855"
+ },
+ "SF2_C_H2O__metabat2.bin.025": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "MS024-2A",
+  "Species": "MS024-2A sp017852075"
+ },
+ "SF2_C_H2O__metabat2.bin.030": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "MS024-2A",
+  "Species": "MS024-2A sp017851655"
+ },
+ "SF2_C_H2O__metabat2.bin.035": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Chromatiales",
+  "Family": "Chromatiaceae",
+  "Genus": "VMDJ01",
+  "Species": "VMDJ01 sp008080925"
+ },
+ "SF2_C_H2O__metabat2.bin.044": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Pseudohongiellaceae",
+  "Genus": "UBA9145",
+  "Species": "UBA9145 sp003482475"
+ },
+ "SF2_C_H2O__metabat2.bin.046": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Verrucomicrobiota",
+  "Class": "Verrucomicrobiia",
+  "Order": "Opitutales",
+  "Family": "Seribacteraceae",
+  "Genus": "Chordibacter",
+  "Species": "Chordibacter sp027593365"
+ },
+ "SF2_C_H2O__metabat2.bin.049_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "MAG-120531",
+  "Species": "MAG-120531 sp013373635"
+ },
+ "SF2_C_H2O__metabat2.bin.058": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Cyanobacteriota",
+  "Class": "Cyanobacteriia",
+  "Order": "",
+  "Family": "",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2_A_D1__concoct.bin.027_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Fidelibacterota",
+  "Class": "UBA2242",
+  "Order": "UBA2242",
+  "Family": "JAFGTP01",
+  "Genus": "JAIPHI01",
+  "Species": "JAIPHI01 sp035312185"
+ },
+ "R2_A_D1__concoct.bin.089": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bipolaricaulota",
+  "Class": "Bipolaricaulia",
+  "Order": "M55B111",
+  "Family": "M55B111",
+  "Genus": "JAGXLP01",
+  "Species": ""
+ },
+ "R2_A_D1__concoct.bin.117": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Minisyncoccia",
+  "Order": "Minisyncoccales",
+  "Family": "CAYPLZ01",
+  "Genus": "CAYPLZ01",
+  "Species": "CAYPLZ01 sp964555095"
+ },
+ "R2_A_D1__concoct.bin.120": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhizobiales",
+  "Family": "Beijerinckiaceae",
+  "Genus": "Saliniramus",
+  "Species": "Saliniramus sp035311605"
+ },
+ "R2_A_D1__maxbin2.Bin.007": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "Wenzhouxiangellaceae",
+  "Genus": "GCA-2722315",
+  "Species": "GCA-2722315 sp035311685"
+ },
+ "R2_A_D1__maxbin2.Bin.018_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "M55B127",
+  "Genus": "M55B127",
+  "Species": "M55B127 sp035312025"
+ },
+ "R2_A_D1__maxbin2.Bin.034": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Synergistota",
+  "Class": "Synergistia",
+  "Order": "Synergistales",
+  "Family": "JAFGMB01",
+  "Genus": "CAZFJG01",
+  "Species": "CAZFJG01 sp964410915"
+ },
+ "R2_A_D1__maxbin2.Bin.068": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "UBA12135",
+  "Order": "COTS27",
+  "Family": "CAZFAK01",
+  "Genus": "CAZFAK01",
+  "Species": "CAZFAK01 sp964517045"
+ },
+ "R2_A_D1__metabat2.bin.076": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "JASJAR01",
+  "Species": "JASJAR01 sp964588375"
+ },
+ "R2_A_D1__metabat2.bin.093": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "Wenzhouxiangellaceae",
+  "Genus": "Wenzhouxiangella",
+  "Species": "Wenzhouxiangella sp964439915"
+ },
+ "R2_A_D1__metabat2.bin.095": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bipolaricaulota",
+  "Class": "Bipolaricaulia",
+  "Order": "M55B111",
+  "Family": "M55B111",
+  "Genus": "M55B111",
+  "Species": "M55B111 sp964614065"
+ },
+ "R2_A_D1__metabat2.bin.109_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfovibrionia",
+  "Order": "Desulfovibrionales",
+  "Family": "Desulfothermaceae",
+  "Genus": "CAYUNZ01",
+  "Species": "CAYUNZ01 sp964446205"
+ },
+ "R2_A_D1__metabat2.bin.120": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "UBA12077",
+  "Genus": "JAGXLC01",
+  "Species": "JAGXLC01 sp964633615"
+ },
+ "R2_A_D2__metabat2.bin.012": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Haloquadratum",
+  "Species": ""
+ },
+ "R2_A_D2__metabat2.bin.013_sub": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloarculaceae",
+  "Genus": "Natronomonas",
+  "Species": ""
+ },
+ "R2_A_D2__metabat2.bin.039": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Halohasta",
+  "Species": ""
+ },
+ "R2_A_D2__metabat2.bin.055": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Haloplanus",
+  "Species": ""
+ },
+ "R2_A_D2__metabat2.bin.056": {
+  "Kingdom": "Archaea",
+  "Phylum": "Nanohalarchaeota",
+  "Class": "Nanosalinia",
+  "Order": "Nanosalinales",
+  "Family": "Nanosalinaceae",
+  "Genus": "Nanosalina",
+  "Species": ""
+ },
+ "R2_A_D2__metabat2.bin.057": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Halorubrum",
+  "Species": ""
+ },
+ "R2_A_D2__metabat2.bin.059": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Haloplanus",
+  "Species": ""
+ },
+ "R2_B_D1__concoct.bin.056": {
+  "Kingdom": "Archaea",
+  "Phylum": "Nanobdellota",
+  "Class": "Nanobdellia",
+  "Order": "Pacearchaeales",
+  "Family": "GW2011-AR1",
+  "Genus": "DATFJM01",
+  "Species": "DATFJM01 sp035269225"
+ },
+ "R2_B_D1__concoct.bin.098": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "Gracilimonas",
+  "Species": ""
+ },
+ "R2_B_D1__metabat2.bin.031": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Chitinophagales",
+  "Family": "Saprospiraceae",
+  "Genus": "JAWLFI01",
+  "Species": "JAWLFI01 sp964626595"
+ },
+ "R2_B_D1__metabat2.bin.066": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Acidimicrobiia",
+  "Order": "Acidimicrobiales",
+  "Family": "Ilumatobacteraceae",
+  "Genus": "Sva-07",
+  "Species": "Sva-07 sp041686315"
+ },
+ "R2_B_D2__concoct.bin.019": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Minisyncoccia",
+  "Order": "Phycocordibacterales",
+  "Family": "UBA918",
+  "Genus": "OLB19",
+  "Species": "OLB19 sp964655825"
+ },
+ "R2_B_D2__concoct.bin.026": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "UBA12077",
+  "Genus": "JAGXLC01",
+  "Species": "JAGXLC01 sp964461045"
+ },
+ "R2_B_D2__concoct.bin.028": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Planctomycetia",
+  "Order": "Pirellulales",
+  "Family": "Pirellulaceae",
+  "Genus": "Roseimaritima",
+  "Species": "Roseimaritima sp964477385"
+ },
+ "R2_B_D2__maxbin2.Bin.022": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Steroidobacterales",
+  "Family": "Woeseiaceae",
+  "Genus": "Lentisalinibacter",
+  "Species": "Lentisalinibacter sp964421805"
+ },
+ "R2_B_D2__maxbin2.Bin.028_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "Spirochaetia",
+  "Order": "DSM-16054",
+  "Family": "Sediminispirochaetaceae",
+  "Genus": "DSBN01",
+  "Species": ""
+ },
+ "R2_B_D2__maxbin2.Bin.037": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Minisyncoccia",
+  "Order": "Minisyncoccales",
+  "Family": "",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2_B_D2__maxbin2.Bin.065": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": "Roseovarius sp035269125"
+ },
+ "R2_B_D2__maxbin2.Bin.075": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Steroidobacterales",
+  "Family": "XN24",
+  "Genus": "XN24",
+  "Species": "XN24 sp964441585"
+ },
+ "R2_B_D2__metabat2.bin.006_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": "Roseovarius sp024742655"
+ },
+ "R2_B_D2__metabat2.bin.022": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Nitriliruptoria",
+  "Order": "Nitriliruptorales",
+  "Family": "Nitriliruptoraceae",
+  "Genus": "T1Sed10-7",
+  "Species": ""
+ },
+ "R2_B_D2__metabat2.bin.056": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "M55B127",
+  "Genus": "M55B127",
+  "Species": "M55B127 sp035269185"
+ },
+ "R2_B_D2__metabat2.bin.063": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "M55B127",
+  "Genus": "M55B127",
+  "Species": "M55B127 sp041642015"
+ },
+ "R2_B_D2__metabat2.bin.066_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Clostridia",
+  "Order": "Tissierellales",
+  "Family": "Dethiosulfatibacteraceae",
+  "Genus": "UBA8670",
+  "Species": "UBA8670 sp964574015"
+ },
+ "R2_B_D2__metabat2.bin.095_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "Wenzhouxiangellaceae",
+  "Genus": "GCA-2722315",
+  "Species": ""
+ },
+ "R2_B_D2__metabat2.bin.128": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "Geopsychrobacteraceae",
+  "Genus": "Pelovirga",
+  "Species": "Pelovirga sp035312385"
+ },
+ "R2_C_D1__concoct.bin.003": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "Wenzhouxiangellaceae",
+  "Genus": "GCA-2722315",
+  "Species": "GCA-2722315 sp964548715"
+ },
+ "R2_C_D1__concoct.bin.049": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Krumholzibacteriota",
+  "Class": "Krumholzibacteriia",
+  "Order": "JAJRXK01",
+  "Family": "JAJRXK01",
+  "Genus": "JAJRXK01",
+  "Species": "JAJRXK01 sp035268685"
+ },
+ "R2_C_D1__maxbin2.Bin.110_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Chitinophagales",
+  "Family": "Saprospiraceae",
+  "Genus": "Phaeodactylibacter",
+  "Species": ""
+ },
+ "R2_C_D1__metabat2.bin.014": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Salibaculum",
+  "Species": "Salibaculum sp035270045"
+ },
+ "R2_C_D1__metabat2.bin.021": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "Prolixibacteraceae",
+  "Genus": "Tangfeifania",
+  "Species": "Tangfeifania sp035269145"
+ },
+ "R2_C_D1__metabat2.bin.034": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "Desulfobacteraceae",
+  "Genus": "DATFJZ01",
+  "Species": "DATFJZ01 sp035268945"
+ },
+ "R2_C_D1__metabat2.bin.042": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Chitinophagales",
+  "Family": "Saprospiraceae",
+  "Genus": "DATFKA01",
+  "Species": "DATFKA01 sp035268885"
+ },
+ "R2_C_D1__metabat2.bin.054": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Oleiphilaceae",
+  "Genus": "Marinobacter",
+  "Species": "Marinobacter sp964520755"
+ },
+ "R2_C_D1__metabat2.bin.057_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "Desulfobacteraceae",
+  "Genus": "Desulfotignum",
+  "Species": "Desulfotignum sp035268905"
+ },
+ "R2_C_D1__metabat2.bin.058": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "Prolixibacteraceae",
+  "Genus": "Roseimarinus",
+  "Species": ""
+ },
+ "R2_C_D1__metabat2.bin.069": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Chitinophagales",
+  "Family": "Saprospiraceae",
+  "Genus": "CAZWDL01",
+  "Species": "CAZWDL01 sp964632995"
+ },
+ "R2_C_D1__metabat2.bin.079": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Oleiphilaceae",
+  "Genus": "Marinobacter",
+  "Species": "Marinobacter sp035268745"
+ },
+ "R2_C_D2__concoct.bin.063": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseibacterium",
+  "Species": "Roseibacterium sp964578115"
+ },
+ "R2_C_D2__concoct.bin.072": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "JAVJPJ01",
+  "Species": "JAVJPJ01 sp040217295"
+ },
+ "R2_C_D2__maxbin2.Bin.046": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Actinomycetes",
+  "Order": "S36-B12",
+  "Family": "S36-B12",
+  "Genus": "S36-B12",
+  "Species": "S36-B12 sp964634545"
+ },
+ "R2_C_D2__metabat2.bin.011": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "Spirochaetia",
+  "Order": "DSM-27196",
+  "Family": "SLST01",
+  "Genus": "SLST01",
+  "Species": ""
+ },
+ "R2_C_D2__metabat2.bin.037": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Maribacter",
+  "Species": "Maribacter sp964620945"
+ },
+ "R2_C_D2__metabat2.bin.065": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "Halanaerobiaceae",
+  "Genus": "Halanaerobium",
+  "Species": "Halanaerobium saccharolyticum"
+ },
+ "R2_restored_C_black__concoct.bin.024": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "UBA12077",
+  "Genus": "UBA12077",
+  "Species": ""
+ },
+ "R2_restored_C_black__concoct.bin.031_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Steroidobacterales",
+  "Family": "XN24",
+  "Genus": "XN24",
+  "Species": "XN24 sp035268405"
+ },
+ "R2_restored_C_black__concoct.bin.063": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Albimonas",
+  "Species": "Albimonas sp035268645"
+ },
+ "R2_restored_C_black__maxbin2.Bin.006_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "SW132",
+  "Species": "SW132 sp964625635"
+ },
+ "R2_restored_C_black__maxbin2.Bin.042": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "Desulfobacteraceae",
+  "Genus": "Desulfotignum",
+  "Species": "Desulfotignum sp035268565"
+ },
+ "R2_restored_C_black__maxbin2.Bin.108": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "Desulfobacteraceae",
+  "Genus": "Desulfobacter",
+  "Species": ""
+ },
+ "R2_restored_C_black__metabat2.bin.011_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": ""
+ },
+ "R2_restored_C_black__metabat2.bin.057": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobulbia",
+  "Order": "Desulfobulbales",
+  "Family": "Desulfocapsaceae",
+  "Genus": "Desulfopila_A",
+  "Species": ""
+ },
+ "R2_restored_C_black__metabat2.bin.072": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Verrucomicrobiota",
+  "Class": "Verrucomicrobiia",
+  "Order": "Opitutales",
+  "Family": "CAZCJJ01",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_A_D1__concoct.bin.004": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "Geopsychrobacteraceae",
+  "Genus": "BM509",
+  "Species": "BM509 sp035267105"
+ },
+ "R2A_A_D1__concoct.bin.053_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Thermoleophilia",
+  "Order": "Solirubrobacterales",
+  "Family": "70-9",
+  "Genus": "CAXMST01",
+  "Species": "CAXMST01 sp035267205"
+ },
+ "R2A_A_D1__maxbin2.Bin.016": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Lutibacter",
+  "Species": ""
+ },
+ "R2A_A_D1__maxbin2.Bin.026": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "Prolixibacteraceae",
+  "Genus": "CAVYUC01",
+  "Species": ""
+ },
+ "R2A_A_D1__metabat2.bin.016": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "SZUA-36",
+  "Genus": "JAUIBE01",
+  "Species": "JAUIBE01 sp035267185"
+ },
+ "R2A_A_D1__metabat2.bin.017": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Nitriliruptoria",
+  "Order": "Nitriliruptorales",
+  "Family": "Nitriliruptoraceae",
+  "Genus": "Salsipaludibacter",
+  "Species": "Salsipaludibacter sp035267125"
+ },
+ "R2A_A_D1__metabat2.bin.019_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Chloroflexota",
+  "Class": "Anaerolineae",
+  "Order": "Anaerolineales",
+  "Family": "UBA11579",
+  "Genus": "UBA11579",
+  "Species": ""
+ },
+ "R2A_A_D1__metabat2.bin.039": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Chloroflexota",
+  "Class": "Anaerolineae",
+  "Order": "Anaerolineales",
+  "Family": "Villigracilaceae",
+  "Genus": "Defluviilinea",
+  "Species": ""
+ },
+ "R2A_A_D2__concoct.bin.010": {
+  "Kingdom": "Archaea",
+  "Phylum": "Thermoproteota",
+  "Class": "Nitrososphaeria",
+  "Order": "Nitrososphaerales",
+  "Family": "Nitrosopumilaceae",
+  "Genus": "Nitrosomaritimum",
+  "Species": ""
+ },
+ "R2A_A_D2__concoct.bin.012": {
+  "Kingdom": "Archaea",
+  "Phylum": "Thermoproteota",
+  "Class": "Nitrososphaeria",
+  "Order": "Nitrososphaerales",
+  "Family": "Nitrosopumilaceae",
+  "Genus": "Nitrosopumilus",
+  "Species": ""
+ },
+ "R2A_A_D2__concoct.bin.032": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Rhodothermales",
+  "Family": "DATGCC01",
+  "Genus": "DATGCC01",
+  "Species": "DATGCC01 sp035312345"
+ },
+ "R2A_A_D2__concoct.bin.037": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Chloroflexota",
+  "Class": "Anaerolineae",
+  "Order": "Anaerolineales",
+  "Family": "Villigracilaceae",
+  "Genus": "Defluviilinea",
+  "Species": ""
+ },
+ "R2A_A_D2__metabat2.bin.007_sub": {
+  "Kingdom": "Archaea",
+  "Phylum": "Thermoproteota",
+  "Class": "Nitrososphaeria",
+  "Order": "Nitrososphaerales",
+  "Family": "Nitrosopumilaceae",
+  "Genus": "Nitrosomaritimum",
+  "Species": "Nitrosomaritimum sp037386265"
+ },
+ "R2A_A_D2__metabat2.bin.010": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Thermoleophilia",
+  "Order": "Solirubrobacterales",
+  "Family": "70-9",
+  "Genus": "VAYN01",
+  "Species": ""
+ },
+ "R2A_A_D2__metabat2.bin.015": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "SZUA-36",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_A_D2__metabat2.bin.038": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Gilvirhabdus",
+  "Species": "Gilvirhabdus sp035312485"
+ },
+ "R2A_B_D2__metabat2.bin.003": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Ignavibacteria",
+  "Order": "Ignavibacteriales",
+  "Family": "Ignavibacteriaceae",
+  "Genus": "JAKAGZ01",
+  "Species": ""
+ },
+ "R2A_B_D2__metabat2.bin.010_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_B_D2__metabat2.bin.013_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "JAKDMP01",
+  "Family": "JAKDMP01",
+  "Genus": "JBAUSV01",
+  "Species": ""
+ },
+ "R2A_B_D2__metabat2.bin.015": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "VadinHA17",
+  "Genus": "LD21",
+  "Species": "LD21 sp035268305"
+ },
+ "R2A_B_D2__metabat2.bin.024_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Geojedonia",
+  "Species": ""
+ },
+ "R2A_C_D1__concoct.bin.040": {
+  "Kingdom": "Archaea",
+  "Phylum": "Thermoproteota",
+  "Class": "Nitrososphaeria",
+  "Order": "Nitrososphaerales",
+  "Family": "Nitrosopumilaceae",
+  "Genus": "Nitrosopumilus",
+  "Species": ""
+ },
+ "R2A_C_D1__maxbin2.Bin.041": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Acidobacteriota",
+  "Class": "Thermoanaerobaculia",
+  "Order": "Multivoradales",
+  "Family": "",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_C_D1__maxbin2.Bin.057": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Palauibacterales",
+  "Family": "Palauibacteraceae",
+  "Genus": "Humimonas",
+  "Species": "Humimonas hydrogenitrophica"
+ },
+ "R2A_C_D1__metabat2.bin.011_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "JAPULJ01",
+  "Family": "JAPULJ01",
+  "Genus": "DATKZM01",
+  "Species": ""
+ },
+ "R2A_C_D1__metabat2.bin.020": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "GCA-001735895",
+  "Family": "GCA-001735895",
+  "Genus": "GCA-001735895",
+  "Species": ""
+ },
+ "R2A_C_D2__concoct.bin.008": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobulbia",
+  "Order": "Desulfobulbales",
+  "Family": "VMSU01",
+  "Genus": "JADGBM01",
+  "Species": ""
+ },
+ "R2A_C_D2__concoct.bin.034": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Thermoleophilia",
+  "Order": "Solirubrobacterales",
+  "Family": "70-9",
+  "Genus": "VRUE01",
+  "Species": "VRUE01 sp035266685"
+ },
+ "R2A_C_D2__concoct.bin.040_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Zetaproteobacteria",
+  "Order": "Mariprofundales",
+  "Family": "Mariprofundaceae",
+  "Genus": "JAJRVH01",
+  "Species": ""
+ },
+ "R2A_C_D2__concoct.bin.046_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Longimicrobiales",
+  "Family": "Gaopeijiaceae",
+  "Genus": "SZUA-318",
+  "Species": ""
+ },
+ "R2A_C_D2__concoct.bin.048_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "JAKDMP01",
+  "Family": "JAKDMP01",
+  "Genus": "JBAUSV01",
+  "Species": ""
+ },
+ "R2A_C_D2__concoct.bin.064": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Deinococcota",
+  "Class": "Deinococci",
+  "Order": "Deinococcales",
+  "Family": "Trueperaceae",
+  "Genus": "JASBRS01",
+  "Species": "JASBRS01 sp035266525"
+ },
+ "R2A_C_D2__concoct.bin.091": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Burkholderiales",
+  "Family": "SG8-39",
+  "Genus": "DAHVFK01",
+  "Species": "DAHVFK01 sp035266805"
+ },
+ "R2A_C_D2__concoct.bin.101": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "ATBO01",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_C_D2__maxbin2.Bin.018": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Myxococcota_A",
+  "Class": "UBA9160",
+  "Order": "UBA9160",
+  "Family": "JAFDDA01",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_C_D2__maxbin2.Bin.108": {
+  "Kingdom": "Bacteria",
+  "Phylum": "SAR324",
+  "Class": "SAR324",
+  "Order": "SAR324",
+  "Family": "JACQKK01",
+  "Genus": "DATFMP01",
+  "Species": "DATFMP01 sp035266845"
+ },
+ "R2A_C_D2__metabat2.bin.019": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Zeaxanthinibacter",
+  "Species": "Zeaxanthinibacter sp963721045"
+ },
+ "R2A_C_D2__metabat2.bin.025": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Zetaproteobacteria",
+  "Order": "Mariprofundales",
+  "Family": "Mariprofundaceae",
+  "Genus": "UBA1543",
+  "Species": ""
+ },
+ "R2A_C_D2__metabat2.bin.027": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Zetaproteobacteria",
+  "Order": "Mariprofundales",
+  "Family": "Mariprofundaceae",
+  "Genus": "UBA1543",
+  "Species": ""
+ },
+ "R2A_C_D2__metabat2.bin.029": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Kiloniellales",
+  "Family": "J153",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_C_D2__metabat2.bin.033": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Gemmatimonadales",
+  "Family": "GWC2-71-9",
+  "Genus": "DATFMZ01",
+  "Species": "DATFMZ01 sp035266665"
+ },
+ "R2A_C_D2__metabat2.bin.036": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "Geothermobacteraceae",
+  "Genus": "DATFMT01",
+  "Species": "DATFMT01 sp035266745"
+ },
+ "R2A_C_D2__metabat2.bin.037": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Acidobacteriota",
+  "Class": "Terriglobia",
+  "Order": "UBA7540",
+  "Family": "UBA7540",
+  "Genus": "SCRD01",
+  "Species": ""
+ },
+ "R2A_C_D2__metabat2.bin.045": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Burkholderiales",
+  "Family": "Gallionellaceae",
+  "Genus": "RI-121",
+  "Species": ""
+ },
+ "R2A_C_D2__metabat2.bin.052_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Zetaproteobacteria",
+  "Order": "Mariprofundales",
+  "Family": "Mariprofundaceae",
+  "Genus": "JAJRVH01",
+  "Species": ""
+ },
+ "R2A_C_D2__metabat2.bin.067": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Azotimanducaceae",
+  "Genus": "JANQJA01",
+  "Species": ""
+ },
+ "R2A_C_D2__metabat2.bin.069": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Deinococcota",
+  "Class": "Deinococci",
+  "Order": "Deinococcales",
+  "Family": "Trueperaceae",
+  "Genus": "JASBRS01",
+  "Species": ""
+ },
+ "R2A_C_D2__metabat2.bin.077_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Arenicellales",
+  "Family": "JAANXG01",
+  "Genus": "JAANXG01",
+  "Species": ""
+ },
+ "R2_A_H2O__concoct.bin.012": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloarculaceae",
+  "Genus": "Haloarcula",
+  "Species": ""
+ },
+ "R2_A_H2O__concoct.bin.024": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Haloquadratum",
+  "Species": ""
+ },
+ "R2_A_H2O__concoct.bin.044": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Halorubrum",
+  "Species": "Halorubrum sp003990725"
+ },
+ "R2_A_H2O__concoct.bin.062": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Halorubrum",
+  "Species": ""
+ },
+ "R2_A_H2O__concoct.bin.072": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloarculaceae",
+  "Genus": "Halosegnis",
+  "Species": "Halosegnis rubeus"
+ },
+ "R2_A_H2O__maxbin2.Bin.017_sub": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloarculaceae",
+  "Genus": "Haloarcula",
+  "Species": ""
+ },
+ "R2_A_H2O__metabat2.bin.026": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Halorubrum",
+  "Species": ""
+ },
+ "R2_B_H2O__concoct.bin.033_sub": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Halorubrum",
+  "Species": ""
+ },
+ "R2_B_H2O__concoct.bin.036_sub": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Halonotius",
+  "Species": ""
+ },
+ "R2_B_H2O__maxbin2.Bin.035_sub": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Halonotius",
+  "Species": ""
+ },
+ "R2_B_H2O__maxbin2.Bin.052_sub": {
+  "Kingdom": "Archaea",
+  "Phylum": "Nanohalarchaeota",
+  "Class": "Nanosalinia",
+  "Order": "Nanosalinales",
+  "Family": "Nanosalinaceae",
+  "Genus": "JBDGSM01",
+  "Species": ""
+ },
+ "R2_B_H2O__metabat2.bin.003_sub": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Halonotius",
+  "Species": ""
+ },
+ "R2_B_H2O__metabat2.bin.045": {
+  "Kingdom": "Archaea",
+  "Phylum": "Nanohalarchaeota",
+  "Class": "Nanosalinia",
+  "Order": "Nanosalinales",
+  "Family": "Nanosalinaceae",
+  "Genus": "B1-Br10-U2g21",
+  "Species": ""
+ },
+ "R2_B_H2O__metabat2.bin.048": {
+  "Kingdom": "Archaea",
+  "Phylum": "Nanohalarchaeota",
+  "Class": "Nanosalinia",
+  "Order": "Nanosalinales",
+  "Family": "Nanosalinaceae",
+  "Genus": "Nanohalovita",
+  "Species": ""
+ },
+ "R2_B_H2O__metabat2.bin.051": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Haloquadratum",
+  "Species": "Haloquadratum walsbyi"
+ },
+ "R2_C_H2O__metabat2.bin.005": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloarculaceae",
+  "Genus": "Natronomonas",
+  "Species": ""
+ },
+ "R2_C_H2O__metabat2.bin.008": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Halonotius",
+  "Species": ""
+ },
+ "R2_C_H2O__metabat2.bin.041_sub": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloarculaceae",
+  "Genus": "Natronomonas",
+  "Species": ""
+ },
+ "R2_restored_H2O__metabat2.bin.023": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Actinomycetes",
+  "Order": "Actinomycetales",
+  "Family": "Microbacteriaceae",
+  "Genus": "Pontimonas",
+  "Species": ""
+ },
+ "R2_restored_H2O__metabat2.bin.031": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Burkholderiales",
+  "Family": "Burkholderiaceae_B",
+  "Genus": "Algicoccus",
+  "Species": ""
+ },
+ "R2A_A_H2O__maxbin2.Bin.007": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Deinococcota",
+  "Class": "Deinococci",
+  "Order": "Deinococcales",
+  "Family": "Trueperaceae",
+  "Genus": "JBCCBI01",
+  "Species": ""
+ },
+ "R2A_A_H2O__maxbin2.Bin.038": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Verrucomicrobiota",
+  "Class": "Verrucomicrobiia",
+  "Order": "Opitutales",
+  "Family": "Coraliomargaritaceae",
+  "Genus": "Thalassobacterium",
+  "Species": ""
+ },
+ "R2A_A_H2O__metabat2.bin.014": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Magnimaribacterales",
+  "Family": "D2472",
+  "Genus": "D2472",
+  "Species": "D2472 sp016779285"
+ },
+ "R2A_A_H2O__metabat2.bin.030": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Pelagibacterales",
+  "Family": "Pelagibacteraceae",
+  "Genus": "Pelagibacter",
+  "Species": "Pelagibacter ubiqueversans"
+ },
+ "R2A_A_H2O__metabat2.bin.044_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Schleiferiaceae",
+  "Genus": "UBA10364",
+  "Species": ""
+ },
+ "R2A_A_H2O__metabat2.bin.059_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Verrucomicrobiota",
+  "Class": "Verrucomicrobiia",
+  "Order": "Opitutales",
+  "Family": "Coraliomargaritaceae",
+  "Genus": "Coraliomargarita_B",
+  "Species": ""
+ },
+ "R2A_B_H2O__concoct.bin.090": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "JAHEIH01",
+  "Genus": "JAHEIH01",
+  "Species": ""
+ },
+ "R2A_B_H2O__maxbin2.Bin.015": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Balneatricaceae",
+  "Genus": "Marinobacterium_E",
+  "Species": "Marinobacterium_E sp013373575"
+ },
+ "R2A_B_H2O__maxbin2.Bin.027": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Campylobacterota",
+  "Class": "Campylobacteria",
+  "Order": "Campylobacterales",
+  "Family": "Arcobacteraceae",
+  "Genus": "JALRJW01",
+  "Species": "JALRJW01 sp937138295"
+ },
+ "R2A_B_H2O__maxbin2.Bin.036": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "CAJXSD01",
+  "Species": "CAJXSD01 sp964633145"
+ },
+ "R2A_C_H2O__maxbin2.Bin.044": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota_I",
+  "Class": "Bacilli_A",
+  "Order": "Mycoplasmatales",
+  "Family": "Hepatoplasmataceae",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_C_H2O__metabat2.bin.012_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Halieaceae",
+  "Genus": "Halioglobus",
+  "Species": ""
+ },
+ "R2A_C_H2O__metabat2.bin.018": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Acidimicrobiia",
+  "Order": "Actinomarinales",
+  "Family": "Actinomarinaceae",
+  "Genus": "Actinomarina",
+  "Species": "Actinomarina sp014384285"
+ },
+ "R2A_C_H2O__metabat2.bin.037": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Enterobacterales",
+  "Family": "Alteromonadaceae",
+  "Genus": "Opacimonas",
+  "Species": ""
+ },
+ "R1_sediment__concoct.bin.002": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "UBA12077",
+  "Genus": "CAYVSF01",
+  "Species": "CAYVSF01 sp964453775"
+ },
+ "R1_sediment__concoct.bin.036": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "CAZRZN01",
+  "Species": "CAZRZN01 sp964604565"
+ },
+ "R1_sediment__concoct.bin.045": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Rhodothermales",
+  "Family": "Salinibacteraceae",
+  "Genus": "Salinibacter",
+  "Species": ""
+ },
+ "R1_sediment__concoct.bin.052_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "JADQBU01",
+  "Genus": "CAYRVO01",
+  "Species": "CAYRVO01 sp964427565"
+ },
+ "R1_sediment__concoct.bin.056": {
+  "Kingdom": "Archaea",
+  "Phylum": "Asgardarchaeota",
+  "Class": "Lokiarchaeia",
+  "Order": "Sigyniarchaeales",
+  "Family": "Promethearchaeaceae",
+  "Genus": "CAZEPC01",
+  "Species": "CAZEPC01 sp964513765"
+ },
+ "R1_sediment__concoct.bin.100_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "Geopsychrobacteraceae",
+  "Genus": "G963676795",
+  "Species": ""
+ },
+ "R1_sediment__concoct.bin.102_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "HLUCCA09",
+  "Species": ""
+ },
+ "R1_sediment__concoct.bin.104": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": "Roseovarius sp031580875"
+ },
+ "R1_sediment__concoct.bin.111_sub": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Halobacteriaceae",
+  "Genus": "Halanaeroarchaeum",
+  "Species": ""
+ },
+ "R1_sediment__concoct.bin.119_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Phycisphaerae",
+  "Order": "Sedimentisphaerales",
+  "Family": "Anaerohalosphaeraceae",
+  "Genus": "VRUI01",
+  "Species": ""
+ },
+ "R1_sediment__concoct.bin.134": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "Prolixibacteraceae",
+  "Genus": "Mariniphaga",
+  "Species": ""
+ },
+ "R1_sediment__concoct.bin.135": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Ignavibacteria",
+  "Order": "Kapaibacteriales",
+  "Family": "UBA2268",
+  "Genus": "",
+  "Species": ""
+ },
+ "R1_sediment__concoct.bin.152": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales_D",
+  "Family": "Cryomorphaceae",
+  "Genus": "JAIVHP01",
+  "Species": ""
+ },
+ "R1_sediment__concoct.bin.167_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "Desulfobacteraceae",
+  "Genus": "DATFJZ01",
+  "Species": "DATFJZ01 sp046482845"
+ },
+ "R1_sediment__concoct.bin.186": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "",
+  "Family": "",
+  "Genus": "",
+  "Species": ""
+ },
+ "R1_sediment__concoct.bin.190_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Planctomycetia",
+  "Order": "Pirellulales",
+  "Family": "Pirellulaceae",
+  "Genus": "Rubripirellula",
+  "Species": ""
+ },
+ "R1_sediment__concoct.bin.206": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Chitinophagales",
+  "Family": "Saprospiraceae",
+  "Genus": "DATFJT01",
+  "Species": "DATFJT01 sp035269065"
+ },
+ "R1_sediment__concoct.bin.227": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "Wenzhouxiangellaceae",
+  "Genus": "Wenzhouxiangella",
+  "Species": ""
+ },
+ "R1_sediment__concoct.bin.234": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Longimicrobiales",
+  "Family": "Gaopeijiaceae",
+  "Genus": "Gaopeijia",
+  "Species": "Gaopeijia sp035269045"
+ },
+ "R1_sediment__concoct.bin.276": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Palauibacterales",
+  "Family": "Palauibacteraceae",
+  "Genus": "Caribbeanibacter",
+  "Species": ""
+ },
+ "R1_sediment__maxbin2.Bin.094_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfovibrionia",
+  "Order": "Desulfovibrionales",
+  "Family": "Desulfomicrobiaceae",
+  "Genus": "JAWLGC01",
+  "Species": "JAWLGC01 sp041685265"
+ },
+ "R1_sediment__maxbin2.Bin.103": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "JAIPAH01",
+  "Genus": "JAIPAH01",
+  "Species": ""
+ },
+ "R1_sediment__maxbin2.Bin.133": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "Desulfosalsimonadaceae",
+  "Genus": "M55B175",
+  "Species": "M55B175 sp035312245"
+ },
+ "R1_sediment__maxbin2.Bin.156": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "Rhodohalobacter",
+  "Species": ""
+ },
+ "R1_sediment__maxbin2.Bin.179": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "Spirochaetia",
+  "Order": "DSM-16054",
+  "Family": "Sediminispirochaetaceae",
+  "Genus": "DSBN01",
+  "Species": "DSBN01 sp964504785"
+ },
+ "R1_sediment__maxbin2.Bin.192": {
+  "Kingdom": "Archaea",
+  "Phylum": "Nanobdellota",
+  "Class": "Nanobdellia",
+  "Order": "Woesearchaeales",
+  "Family": "UBA525",
+  "Genus": "CAZDJS01",
+  "Species": ""
+ },
+ "R1_sediment__maxbin2.Bin.519_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Deinococcota",
+  "Class": "Deinococci",
+  "Order": "Deinococcales",
+  "Family": "Trueperaceae",
+  "Genus": "JBCCBI01",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.013": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Babelota",
+  "Class": "Babeliae",
+  "Order": "Babelales",
+  "Family": "Vermiphilaceae",
+  "Genus": "",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.021": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "JAWOCM01",
+  "Genus": "JAWOCM01",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.026": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "Spirochaetia",
+  "Order": "DSM-27196",
+  "Family": "Alkalispirochaetaceae",
+  "Genus": "Alkalispirochaeta",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.063_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Azotimanducaceae",
+  "Genus": "SLTB01",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.077": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Clostridia",
+  "Order": "Tissierellales",
+  "Family": "Dethiosulfatibacteraceae",
+  "Genus": "UBA8670",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.082": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Patescibacteriia",
+  "Order": "Patescibacteriales",
+  "Family": "UBA12075",
+  "Genus": "",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.094": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Minisyncoccia",
+  "Order": "Phycocordibacterales",
+  "Family": "JAACPR01",
+  "Genus": "",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.112_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Marivita",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.118_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Caldisericota",
+  "Class": "Caldisericia",
+  "Order": "UBA6126",
+  "Family": "UBA6126",
+  "Genus": "JAGLCW01",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.121_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": "Roseovarius sp003298505"
+ },
+ "R1_sediment__metabat2.bin.122": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "Salinivirgaceae",
+  "Genus": "Salinivirga",
+  "Species": "Salinivirga sp035268865"
+ },
+ "R1_sediment__metabat2.bin.142_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Acidobacteriota",
+  "Class": "Terriglobia",
+  "Order": "Bryobacterales",
+  "Family": "UBA6623",
+  "Genus": "RI-231",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.154": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Thermotogota",
+  "Class": "Thermotogae",
+  "Order": "MWEM01",
+  "Family": "MWEM01",
+  "Genus": "CAZVWW01",
+  "Species": "CAZVWW01 sp964631265"
+ },
+ "R1_sediment__metabat2.bin.160_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Chromatiales",
+  "Family": "Chromatiaceae",
+  "Genus": "CAVQCX01",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.175": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "GCA-2748055",
+  "Genus": "CAYZMH01",
+  "Species": "CAYZMH01 sp964479445"
+ },
+ "R1_sediment__metabat2.bin.180_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "Prolixibacteraceae",
+  "Genus": "Tangfeifania",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.183": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Patescibacteriia",
+  "Order": "Patescibacteriales",
+  "Family": "WJLG01",
+  "Genus": "WJLG01",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.186": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Cloacimonadota",
+  "Class": "Cloacimonadia",
+  "Order": "Cloacimonadales",
+  "Family": "TCS61",
+  "Genus": "DAOWES01",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.196_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Shimia",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.198": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Patescibacteriia",
+  "Order": "UBA2591",
+  "Family": "UBA6264",
+  "Genus": "DATFJC01",
+  "Species": "DATFJC01 sp035269445"
+ },
+ "R1_sediment__metabat2.bin.206": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "Halanaerobiaceae",
+  "Genus": "Halanaerobium",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.221": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Patescibacteriia",
+  "Order": "UBA2591",
+  "Family": "UBA6264",
+  "Genus": "JAIPGN01",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.232": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "UBA4802",
+  "Order": "UBA4802",
+  "Family": "UB4802",
+  "Genus": "M55B154",
+  "Species": "M55B154 sp964629365"
+ },
+ "R1_sediment__metabat2.bin.241": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Fidelibacterota",
+  "Class": "Fidelibacteria",
+  "Order": "Fidelibacterales",
+  "Family": "Fidelibacteraceae",
+  "Genus": "",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.247": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "Spirochaetia",
+  "Order": "Sphaerochaetales",
+  "Family": "Sphaerochaetaceae",
+  "Genus": "Pleomorphochaeta",
+  "Species": "Pleomorphochaeta sp964589355"
+ },
+ "R1_sediment__metabat2.bin.258": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Bin95",
+  "Family": "Bin95",
+  "Genus": "JACKII01",
+  "Species": "JACKII01 sp964474065"
+ },
+ "R1_sediment__metabat2.bin.259": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota_I",
+  "Class": "Bacilli_A",
+  "Order": "Izemoplasmatales",
+  "Family": "Hujiaoplasmataceae",
+  "Genus": "Hujiaoplasma",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.265_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Verrucomicrobiota",
+  "Class": "Kiritimatiellia",
+  "Order": "Kiritimatiellales",
+  "Family": "Tichowtungiaceae",
+  "Genus": "Tichowtungia",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.269": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Minisyncoccia",
+  "Order": "Phycocordibacterales",
+  "Family": "UBA918",
+  "Genus": "OLB19",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.270_sub": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Natrialbaceae",
+  "Genus": "Haloarchaeobius",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.271": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "CAZOON01",
+  "Genus": "CAZOON01",
+  "Species": "CAZOON01 sp964581445"
+ },
+ "R1_sediment__metabat2.bin.284": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Minisyncoccia",
+  "Order": "Phycocordibacterales",
+  "Family": "UBA918",
+  "Genus": "OLB19",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.292": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Minisyncoccia",
+  "Order": "Phycocordibacterales",
+  "Family": "UBA918",
+  "Genus": "OLB19",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.295": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Patescibacteriia",
+  "Order": "Patescibacteriales",
+  "Family": "UBA12465",
+  "Genus": "JAIPJO01",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.298": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "UBA2294",
+  "Genus": "BM707",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.336": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Halomonadaceae",
+  "Genus": "Halomonas",
+  "Species": "Halomonas fontilapidosi"
+ },
+ "R1_sediment__metabat2.bin.337": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Minisyncoccia",
+  "Order": "Phycocordibacterales",
+  "Family": "UBA918",
+  "Genus": "OLB19",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.342": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloarculaceae",
+  "Genus": "Halorhabdus",
+  "Species": ""
+ },
+ "R1_sediment__metabat2.bin.356": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "Halanaerobiaceae",
+  "Genus": "QPJE01",
+  "Species": "QPJE01 sp964559325"
+ },
+ "R1_sediment__metabat2.bin.372": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Minisyncoccia",
+  "Order": "Phycocordibacterales",
+  "Family": "UBA918",
+  "Genus": "OLB19",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.016": {
+  "Kingdom": "Bacteria",
+  "Phylum": "ARS69",
+  "Class": "ARS69",
+  "Order": "ARS69",
+  "Family": "ARS69",
+  "Genus": "JBQTGV01",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.026_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "SZUA-36",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.048_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Fidelibacterota",
+  "Class": "JAANXI01",
+  "Order": "JAANXI01",
+  "Family": "",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.061": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Eutrophobiales",
+  "Family": "Eutrophobiaceae",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.063_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Acidobacteriota",
+  "Class": "Polarisedimenticolia",
+  "Order": "Polarisedimenticolales",
+  "Family": "Polarisedimenticolaceae",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.089_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "JAPULJ01",
+  "Family": "JAPULJ01",
+  "Genus": "DATKZM01",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.091": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobulbia",
+  "Order": "Desulfobulbales",
+  "Family": "JAGXFP01",
+  "Genus": "JAGXFP01",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.101_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhizobiales",
+  "Family": "Xanthobacteraceae",
+  "Genus": "Pseudolabrys",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.122": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Calditrichota",
+  "Class": "Calditrichia",
+  "Order": "Calditrichales",
+  "Family": "J004",
+  "Genus": "CAVRRG01",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.127": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Acidimicrobiia",
+  "Order": "Spongiisociales",
+  "Family": "ZC4RG35",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.140": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Longimicrobiales",
+  "Family": "Gaopeijiaceae",
+  "Genus": "Gaopeijia",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.142": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "SZUA-36",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.143_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Burkholderiales",
+  "Family": "Nitrosomonadaceae",
+  "Genus": "Nitrosomonas",
+  "Species": "Nitrosomonas sp021604405"
+ },
+ "R2A_sediment__concoct.bin.151": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Zetaproteobacteria",
+  "Order": "Mariprofundales",
+  "Family": "Mariprofundaceae",
+  "Genus": "WSZY01",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.170": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Zeaxanthinibacter",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.186": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Myxococcota_A",
+  "Class": "UBA9160",
+  "Order": "UBA9160",
+  "Family": "UBA4427",
+  "Genus": "UBA4427",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.189_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "UBA8366",
+  "Family": "UBA8366",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.192": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "SZUA-36",
+  "Genus": "JABDJL01",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.194_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "JAJDOD01",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.199": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "UBA11574",
+  "Genus": "UBA11574",
+  "Species": "UBA11574 sp964591175"
+ },
+ "R2A_sediment__concoct.bin.203": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Thermoleophilia",
+  "Order": "Solirubrobacterales",
+  "Family": "70-9",
+  "Genus": "VRUE01",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.207": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Ignavibacteria",
+  "Order": "Ignavibacteriales",
+  "Family": "Ignavibacteriaceae",
+  "Genus": "FEN-1297",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.209_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Longimicrobiales",
+  "Family": "Gaopeijiaceae",
+  "Genus": "UBA2982",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.220_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "DSM-4660",
+  "Order": "Desulfatiglandales",
+  "Family": "Desulfatiglandaceae",
+  "Genus": "NaphS2",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.225_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Acidobacteriota",
+  "Class": "Polarisedimenticolia",
+  "Order": "Polarisedimenticolales",
+  "Family": "Polarisedimenticolaceae",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.228_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "MPNO01",
+  "Family": "",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.232": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Thermoleophilia",
+  "Order": "Gaiellales",
+  "Family": "Gaiellaceae",
+  "Genus": "Palsa-739",
+  "Species": "Palsa-739 sp035266765"
+ },
+ "R2A_sediment__concoct.bin.246_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Actinomycetes",
+  "Order": "Actinomycetales",
+  "Family": "Dermatophilaceae",
+  "Genus": "Fodinibacter",
+  "Species": "Fodinibacter sp963730365"
+ },
+ "R2A_sediment__concoct.bin.249": {
+  "Kingdom": "Bacteria",
+  "Phylum": "ARS69",
+  "Class": "ARS69",
+  "Order": "ARS69",
+  "Family": "ARS69",
+  "Genus": "BQJX01",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.251": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobulbia",
+  "Order": "Desulfobulbales",
+  "Family": "Desulfobulbaceae",
+  "Genus": "UBA10518",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.252": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Acidobacteriota",
+  "Class": "Thermoanaerobaculia",
+  "Order": "Multivoradales",
+  "Family": "JBCCEF01",
+  "Genus": "CAZLBJ01",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.267": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Rhodothermales",
+  "Family": "JAHQVL01",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.275": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Krumholzibacteriota",
+  "Class": "Krumholzibacteriia",
+  "Order": "JAJRXK01",
+  "Family": "JAJRXK01",
+  "Genus": "JAOZPE01",
+  "Species": "JAOZPE01 sp963806035"
+ },
+ "R2A_sediment__concoct.bin.283_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Planctomycetia",
+  "Order": "Pirellulales",
+  "Family": "JADFKK01",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_sediment__concoct.bin.284": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Acidimicrobiia",
+  "Order": "IMCC26256",
+  "Family": "DASPTH01",
+  "Genus": "DASUAS01",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.010": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Steroidobacterales",
+  "Family": "Woeseiaceae",
+  "Genus": "UBA1847",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.030": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Chitinophagales",
+  "Family": "Saprospiraceae",
+  "Genus": "B8-G4",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.033": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "SZUA-229",
+  "Family": "SZUA-229",
+  "Genus": "GCA-2746365",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.039_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhizobiales",
+  "Family": "Afifellaceae",
+  "Genus": "CAMYKZ01",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.080": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Arenicellales",
+  "Family": "JAHEKD01",
+  "Genus": "JAHEKD01",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.108": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Chloroflexota",
+  "Class": "Anaerolineae",
+  "Order": "Aggregatilineales",
+  "Family": "J027",
+  "Genus": "DAOTVD01",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.133": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Steroidobacterales",
+  "Family": "Rariloculaceae",
+  "Genus": "JAHEEO01",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.142": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Chloroflexota",
+  "Class": "Anaerolineae",
+  "Order": "Aggregatilineales",
+  "Family": "Phototrophicaceae",
+  "Genus": "JAUZRW01",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.163_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Flagellimonas",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.233": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "CBDCFL01",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.248": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Myxococcota_A",
+  "Class": "UBA9160",
+  "Order": "UBA9160",
+  "Family": "SMWR01",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.268": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Acidimicrobiia",
+  "Order": "Spongiisociales",
+  "Family": "UBA5794",
+  "Genus": "UBA5794",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.288": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "UBA8366",
+  "Family": "JADFVY01",
+  "Genus": "JBFHDX01",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.308": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Chloroflexota",
+  "Class": "Anaerolineae",
+  "Order": "Anaerolineales",
+  "Family": "Villigracilaceae",
+  "Genus": "Defluviilinea",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.332_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhizobiales",
+  "Family": "Rhodomicrobiaceae",
+  "Genus": "JAHQVI01",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.439_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "GCA-2748055",
+  "Genus": "GCA-2748055",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.449": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "UBA1135",
+  "Order": "UBA1135",
+  "Family": "GCA-002686595",
+  "Genus": "DATKBQ01",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.457_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Gemmatimonadales",
+  "Family": "GWC2-71-9",
+  "Genus": "Palsa-1233",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.487": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "Prolixibacteraceae",
+  "Genus": "Sunxiuqinia",
+  "Species": "Sunxiuqinia sp035266925"
+ },
+ "R2A_sediment__maxbin2.Bin.516": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Gemmatimonadales",
+  "Family": "GWC2-71-9",
+  "Genus": "SHZU01",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.530": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Verrucomicrobiota",
+  "Class": "Verrucomicrobiia",
+  "Order": "Limisphaerales",
+  "Family": "DSYF01",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_sediment__maxbin2.Bin.535": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Zixibacteria",
+  "Class": "MSB-5A5",
+  "Order": "GN15",
+  "Family": "FEB-12",
+  "Genus": "CAVQCT01",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.004_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Cytophagales",
+  "Family": "Cyclobacteriaceae",
+  "Genus": "Agaribacillus",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.008": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Acidobacteriota",
+  "Class": "Thermoanaerobaculia",
+  "Order": "Multivoradales",
+  "Family": "JBJKRB01",
+  "Genus": "JBJKRB01",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.009_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "CAWJPQ01",
+  "Family": "CAWJPQ01",
+  "Genus": "CAWJPQ01",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.011_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Longimicrobiales",
+  "Family": "Gaopeijiaceae",
+  "Genus": "UBA2589",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.030": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Longimicrobiales",
+  "Family": "RSA9",
+  "Genus": "JARRJS01",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.033_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobulbia",
+  "Order": "Desulfobulbales",
+  "Family": "JAGXFP01",
+  "Genus": "JAGVGT01",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.040": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Nitrospinota",
+  "Class": "Nitrospinia",
+  "Order": "Nitrospinales",
+  "Family": "Nitrospinaceae",
+  "Genus": "SZUA-226",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.041": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobulbia",
+  "Order": "Desulfobulbales",
+  "Family": "Desulfocapsaceae",
+  "Genus": "Desulfopila_A",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.043": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "JAJFIK01",
+  "Family": "JAJFIK01",
+  "Genus": "JBKHIN01",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.045_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Acidobacteriota",
+  "Class": "UBA890",
+  "Order": "UBA890",
+  "Family": "UBA890",
+  "Genus": "JASFRZ01",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.047": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Acidobacteriota",
+  "Class": "Thermoanaerobaculia",
+  "Order": "Multivoradales",
+  "Family": "JBCCEF01",
+  "Genus": "CAZLBJ01",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.048_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Acidobacteriota",
+  "Class": "Terriglobia",
+  "Order": "UBA7540",
+  "Family": "UBA7540",
+  "Genus": "SCRD01",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.050": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Kiloniellales",
+  "Family": "Kiloniellaceae",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.055_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Zetaproteobacteria",
+  "Order": "Mariprofundales",
+  "Family": "Mariprofundaceae",
+  "Genus": "JAJRVH01",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.074_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Azotimanducaceae",
+  "Genus": "UBA4421",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.080": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Chloroflexota",
+  "Class": "Limnocylindria",
+  "Order": "QHBO01",
+  "Family": "QHBO01",
+  "Genus": "CAWINH01",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.085": {
+  "Kingdom": "Archaea",
+  "Phylum": "Thermoproteota",
+  "Class": "Nitrososphaeria",
+  "Order": "Nitrososphaerales",
+  "Family": "Nitrosopumilaceae",
+  "Genus": "HKST03",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.086": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Chloroflexota",
+  "Class": "Dehalococcoidia",
+  "Order": "Lucifugimonadales",
+  "Family": "Lucifugimonadaceae",
+  "Genus": "UBA1151",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.092": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "UBA2294",
+  "Genus": "BM707",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.098": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Actinomycetes",
+  "Order": "Actinomycetales",
+  "Family": "Dermatophilaceae",
+  "Genus": "Ornithinicoccus",
+  "Species": "Ornithinicoccus sp035267225"
+ },
+ "R2A_sediment__metabat2.bin.106": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Myxococcota_A",
+  "Class": "UBA9160",
+  "Order": "UBA9160",
+  "Family": "JAFDDA01",
+  "Genus": "JAFDDA01",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.119": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "DATFMH01",
+  "Genus": "DATFNI01",
+  "Species": "DATFNI01 sp035266485"
+ },
+ "R2A_sediment__metabat2.bin.132": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhizobiales",
+  "Family": "Kaistiaceae",
+  "Genus": "CAMCWB01",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.148": {
+  "Kingdom": "Archaea",
+  "Phylum": "Thermoplasmatota",
+  "Class": "Thermoplasmata",
+  "Order": "Thermoplasmatales",
+  "Family": "Thermoplasmataceae",
+  "Genus": "GCA-965745",
+  "Species": "GCA-965745 sp000965745"
+ },
+ "R2A_sediment__metabat2.bin.149": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "JAFMPW01",
+  "Species": "JAFMPW01 sp035312365"
+ },
+ "R2A_sediment__metabat2.bin.153": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.171": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Acidimicrobiia",
+  "Order": "Acidimicrobiales",
+  "Family": "Ilumatobacteraceae",
+  "Genus": "Ilumatobacter",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.191": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Kiloniellales",
+  "Family": "J153",
+  "Genus": "JAJFGI01",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.201_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Binatia",
+  "Order": "UBA1149",
+  "Family": "SPBQ01",
+  "Genus": "JAJCZM01",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.206": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Chloroflexota",
+  "Class": "Anaerolineae",
+  "Order": "Anaerolineales",
+  "Family": "UBA11579",
+  "Genus": "SCUK01",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.227": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Kiloniellales",
+  "Family": "CECT-8803",
+  "Genus": "JARRJC01",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.234": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "SZUA-36",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.242": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Steroidobacterales",
+  "Family": "Woeseiaceae",
+  "Genus": "Woeseia",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.252": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "SZUA-140",
+  "Family": "SZUA-140",
+  "Genus": "CAZYTT01",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.253": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Myxococcota_A",
+  "Class": "UBA9160",
+  "Order": "UBA9160",
+  "Family": "SMWR01",
+  "Genus": "JAFDEI01",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.257_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Nitrococcales",
+  "Family": "",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.264": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Natronospirales",
+  "Family": "REEB76",
+  "Genus": "DASSKW01",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.289": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Halovulum",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.294": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "Rhodanobacteraceae",
+  "Genus": "Rudaea",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.299": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Acidobacteriota",
+  "Class": "Terriglobia",
+  "Order": "Terriglobales",
+  "Family": "Acidobacteriaceae",
+  "Genus": "Telmatobacter",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.302": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Kiloniellales",
+  "Family": "J153",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2A_sediment__metabat2.bin.320": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota_D",
+  "Class": "UBA1144",
+  "Order": "Nemesobacterales",
+  "Family": "",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2_sediment__concoct.bin.010_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Halieaceae",
+  "Genus": "Pseudohaliea",
+  "Species": ""
+ },
+ "R2_sediment__concoct.bin.011": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Halieaceae",
+  "Genus": "Marimicrobium",
+  "Species": "Marimicrobium sp964519755"
+ },
+ "R2_sediment__concoct.bin.017_sub": {
+  "Kingdom": "Archaea",
+  "Phylum": "Asgardarchaeota",
+  "Class": "Lokiarchaeia",
+  "Order": "Sigyniarchaeales",
+  "Family": "Promethearchaeaceae",
+  "Genus": "CAZEPC01",
+  "Species": ""
+ },
+ "R2_sediment__concoct.bin.027_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Fidelibacterota",
+  "Class": "UBA2242",
+  "Order": "UBA2242",
+  "Family": "JAFGTP01",
+  "Genus": "JAFGTP01",
+  "Species": "JAFGTP01 sp964438745"
+ },
+ "R2_sediment__concoct.bin.028": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Planctomycetia",
+  "Order": "Pirellulales",
+  "Family": "Pirellulaceae",
+  "Genus": "Crateriforma",
+  "Species": "Crateriforma sp964453205"
+ },
+ "R2_sediment__concoct.bin.031": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Fermentibacterota",
+  "Class": "Fermentibacteria",
+  "Order": "Fermentibacterales",
+  "Family": "JCC-6",
+  "Genus": "JAWLEP01",
+  "Species": ""
+ },
+ "R2_sediment__concoct.bin.032_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Planctomycetia",
+  "Order": "Pirellulales",
+  "Family": "Pirellulaceae",
+  "Genus": "CAYNVI01",
+  "Species": "CAYNVI01 sp964400585"
+ },
+ "R2_sediment__concoct.bin.036_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseovarius",
+  "Species": "Roseovarius sp965656855"
+ },
+ "R2_sediment__concoct.bin.063_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Macinerneyibacteriota",
+  "Class": "Macinerneyibacteria",
+  "Order": "Macinerneyibacteriales",
+  "Family": "Macinerneyibacteriaceae",
+  "Genus": "Macinerneyibacterium",
+  "Species": "Macinerneyibacterium sp964565585"
+ },
+ "R2_sediment__concoct.bin.070": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Verrucomicrobiota",
+  "Class": "Verrucomicrobiia",
+  "Order": "Opitutales",
+  "Family": "Oceanipulchritudinaceae",
+  "Genus": "Oceanipulchritudo",
+  "Species": ""
+ },
+ "R2_sediment__concoct.bin.088_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales_D",
+  "Family": "Cryomorphaceae",
+  "Genus": "JAKVAV01",
+  "Species": ""
+ },
+ "R2_sediment__concoct.bin.096": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Zhuqueibacterota",
+  "Class": "Zhuqueibacteria",
+  "Order": "Residuimicrobiales",
+  "Family": "Krinioviventaceae",
+  "Genus": "CAYPZM01",
+  "Species": ""
+ },
+ "R2_sediment__concoct.bin.108_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "Desulfosudaceae",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2_sediment__concoct.bin.112": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhizobiales",
+  "Family": "Hyphomicrobiaceae",
+  "Genus": "CAJQQK01",
+  "Species": "CAJQQK01 sp964632265"
+ },
+ "R2_sediment__concoct.bin.137_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Phycisphaerae",
+  "Order": "Phycisphaerales",
+  "Family": "Phycisphaeraceae",
+  "Genus": "JAHQVV01",
+  "Species": ""
+ },
+ "R2_sediment__concoct.bin.147_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Deinococcota",
+  "Class": "Deinococci",
+  "Order": "Deinococcales",
+  "Family": "Trueperaceae",
+  "Genus": "SLSQ01",
+  "Species": ""
+ },
+ "R2_sediment__concoct.bin.164_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Halothiobacillales",
+  "Family": "Halothiobacillaceae",
+  "Genus": "Guyparkeria",
+  "Species": ""
+ },
+ "R2_sediment__concoct.bin.178_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Patescibacteriia",
+  "Order": "Patescibacteriales",
+  "Family": "JAGXOH01",
+  "Genus": "JAIOTG01",
+  "Species": "JAIOTG01 sp964424365"
+ },
+ "R2_sediment__concoct.bin.183_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "JBKDZR01",
+  "Species": ""
+ },
+ "R2_sediment__concoct.bin.218_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Rhodothermales",
+  "Family": "JANQRZ01",
+  "Genus": "JBBSMX01",
+  "Species": ""
+ },
+ "R2_sediment__concoct.bin.228_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Planctomycetia",
+  "Order": "Planctomycetales",
+  "Family": "Planctomycetaceae",
+  "Genus": "JABURQ01",
+  "Species": ""
+ },
+ "R2_sediment__concoct.bin.248_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "Desulfosalsimonadaceae",
+  "Genus": "M55B175",
+  "Species": ""
+ },
+ "R2_sediment__concoct.bin.254_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "Spirochaetia",
+  "Order": "DSM-16054",
+  "Family": "Sediminispirochaetaceae",
+  "Genus": "DSBN01",
+  "Species": ""
+ },
+ "R2_sediment__concoct.bin.259": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Fidelibacterota",
+  "Class": "UBA2242",
+  "Order": "UBA2242",
+  "Family": "JAFGTP01",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2_sediment__concoct.bin.282_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "Fodinibius",
+  "Species": ""
+ },
+ "R2_sediment__concoct.bin.288": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Planctomycetia",
+  "Order": "Pirellulales",
+  "Family": "Pirellulaceae",
+  "Genus": "Laterigemmans",
+  "Species": "Laterigemmans sp964535475"
+ },
+ "R2_sediment__maxbin2.Bin.016": {
+  "Kingdom": "Archaea",
+  "Phylum": "Thermoplasmatota",
+  "Class": "E2",
+  "Order": "DHVEG-1",
+  "Family": "DHVEG-1",
+  "Genus": "EX4572-165",
+  "Species": ""
+ },
+ "R2_sediment__maxbin2.Bin.046": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Actinomycetes",
+  "Order": "S36-B12",
+  "Family": "S36-B12",
+  "Genus": "S36-B12",
+  "Species": "S36-B12 sp964550285"
+ },
+ "R2_sediment__maxbin2.Bin.060": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Patescibacteriia",
+  "Order": "Patescibacteriales",
+  "Family": "JAGXOH01",
+  "Genus": "JAIOTG01",
+  "Species": "JAIOTG01 sp964644045"
+ },
+ "R2_sediment__maxbin2.Bin.088": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Patescibacteriia",
+  "Order": "UBA11705",
+  "Family": "JABHMO01",
+  "Genus": "JABMRF01",
+  "Species": "JABMRF01 sp964584985"
+ },
+ "R2_sediment__maxbin2.Bin.176": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Chloroflexota",
+  "Class": "Anaerolineae",
+  "Order": "Anaerolineales",
+  "Family": "UBA11858",
+  "Genus": "B10-G9",
+  "Species": "B10-G9 sp018335275"
+ },
+ "R2_sediment__maxbin2.Bin.185_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Oederibacteriota",
+  "Class": "PGYV01",
+  "Order": "PGYV01",
+  "Family": "CAYTNY01",
+  "Genus": "CAZHOD01",
+  "Species": ""
+ },
+ "R2_sediment__maxbin2.Bin.207": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Minisyncoccia",
+  "Order": "Minisyncoccales",
+  "Family": "JAZKSW01",
+  "Genus": "JAZKSW01",
+  "Species": ""
+ },
+ "R2_sediment__maxbin2.Bin.234": {
+  "Kingdom": "Archaea",
+  "Phylum": "Nanobdellota",
+  "Class": "Nanobdellia",
+  "Order": "Woesearchaeales",
+  "Family": "WJKR01",
+  "Genus": "WJKR01",
+  "Species": ""
+ },
+ "R2_sediment__maxbin2.Bin.253": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Myxococcota_A",
+  "Class": "UBA9160",
+  "Order": "UBA9160",
+  "Family": "UBA4427",
+  "Genus": "UBA4427",
+  "Species": "UBA4427 sp964466005"
+ },
+ "R2_sediment__maxbin2.Bin.265_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Steroidobacterales",
+  "Family": "XN24",
+  "Genus": "XN24",
+  "Species": ""
+ },
+ "R2_sediment__maxbin2.Bin.405_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "UBA12077",
+  "Genus": "CAYVSF01",
+  "Species": ""
+ },
+ "R2_sediment__maxbin2.Bin.406": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "UBA12077",
+  "Genus": "JAGXLC01",
+  "Species": ""
+ },
+ "R2_sediment__maxbin2.Bin.581_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "Spirochaetia",
+  "Order": "DSM-27196",
+  "Family": "Alkalispirochaetaceae",
+  "Genus": "CAYZHV01",
+  "Species": ""
+ },
+ "R2_sediment__maxbin2.Bin.584": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Verrucomicrobiota",
+  "Class": "Verrucomicrobiia",
+  "Order": "Verrucomicrobiales",
+  "Family": "DEV007",
+  "Genus": "Arctic95D-9",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.004": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Krumholzibacteriota",
+  "Class": "Krumholzibacteriia",
+  "Order": "LZORAL124-64-63",
+  "Family": "LZORAL124-64-63",
+  "Genus": "Glo-17",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.025": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Nitriliruptoria",
+  "Order": "Nitriliruptorales",
+  "Family": "Nitriliruptoraceae",
+  "Genus": "T1Sed10-7",
+  "Species": "T1Sed10-7 sp964465225"
+ },
+ "R2_sediment__metabat2.bin.030": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "HLUCCA09",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.032": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Phycisphaerae",
+  "Order": "Phycisphaerales",
+  "Family": "SM1A02",
+  "Genus": "CAYLNM01",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.033": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "JAABTG01",
+  "Family": "JAABTG01",
+  "Genus": "JAABTG01",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.066": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Planctomycetia",
+  "Order": "Pirellulales",
+  "Family": "Pirellulaceae",
+  "Genus": "Stieleria",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.068": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Patescibacteriia",
+  "Order": "Patescibacteriales",
+  "Family": "JAGXOH01",
+  "Genus": "CAZNAQ01",
+  "Species": "CAZNAQ01 sp964585585"
+ },
+ "R2_sediment__metabat2.bin.090": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Chitinophagales",
+  "Family": "Saprospiraceae",
+  "Genus": "DT-110",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.096": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Minisyncoccia",
+  "Order": "Minisyncoccales",
+  "Family": "JAZKSW01",
+  "Genus": "JAZKSW01",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.110": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "Spirochaetia",
+  "Order": "DSM-16054",
+  "Family": "Sediminispirochaetaceae",
+  "Genus": "DSBN01",
+  "Species": "DSBN01 sp964485995"
+ },
+ "R2_sediment__metabat2.bin.112_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Lentibacter",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.115": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Patescibacteriia",
+  "Order": "JAXHNJ01",
+  "Family": "JAXHNJ01",
+  "Genus": "JAXHNJ01",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.121": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Sphingomonadales",
+  "Family": "Sphingomonadaceae",
+  "Genus": "Erythrobacter",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.126": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "UBA7960",
+  "Genus": "SKVR01",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.128": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Actinomycetota",
+  "Class": "Acidimicrobiia",
+  "Order": "Acidimicrobiales",
+  "Family": "SKKL01",
+  "Genus": "DATHSN01",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.141": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "UBA994",
+  "Order": "PWPR01",
+  "Family": "PWPR01",
+  "Genus": "PWPR01",
+  "Species": "PWPR01 sp964497955"
+ },
+ "R2_sediment__metabat2.bin.148": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "GCA-2748055",
+  "Genus": "M55B112",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.154": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "DSM-16000",
+  "Family": "Inquilinaceae",
+  "Genus": "JAAAOG01",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.156": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales_D",
+  "Family": "Cryomorphaceae",
+  "Genus": "JAKVAV01",
+  "Species": "JAKVAV01 sp035268465"
+ },
+ "R2_sediment__metabat2.bin.162": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "M55B127",
+  "Genus": "M55B127",
+  "Species": "M55B127 sp964642575"
+ },
+ "R2_sediment__metabat2.bin.175": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Rhodothermales",
+  "Family": "Salinibacteraceae",
+  "Genus": "CAKZLV01",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.176_sub": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Salinigranum",
+  "Species": "Salinigranum halophilum"
+ },
+ "R2_sediment__metabat2.bin.190": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Verrucomicrobiota",
+  "Class": "Verrucomicrobiia",
+  "Order": "Opitutales",
+  "Family": "Puniceicoccaceae",
+  "Genus": "CAJXLM01",
+  "Species": "CAJXLM01 sp913056175"
+ },
+ "R2_sediment__metabat2.bin.200": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfovibrionia",
+  "Order": "Desulfovibrionales",
+  "Family": "Desulfonatronovibrionaceae",
+  "Genus": "CAYNNQ01",
+  "Species": "CAYNNQ01 sp964614055"
+ },
+ "R2_sediment__metabat2.bin.203": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "GCA-2748055",
+  "Genus": "M55B112",
+  "Species": "M55B112 sp964589155"
+ },
+ "R2_sediment__metabat2.bin.224_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Minisyncoccia",
+  "Order": "UBA6257",
+  "Family": "GWB1-50-10",
+  "Genus": "DATGCT01",
+  "Species": "DATGCT01 sp035311565"
+ },
+ "R2_sediment__metabat2.bin.226": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Phycisphaerae",
+  "Order": "SM23-33",
+  "Family": "SM23-33",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.236": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfovibrionia",
+  "Order": "Desulfovibrionales",
+  "Family": "Desulfonatronovibrionaceae",
+  "Genus": "CAYNNQ01",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.260": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Minisyncoccia",
+  "Order": "Phycocordibacterales",
+  "Family": "JAXHMZ01",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.279": {
+  "Kingdom": "Archaea",
+  "Phylum": "Nanobdellota",
+  "Class": "Nanobdellia",
+  "Order": "Pacearchaeales",
+  "Family": "GW2011-AR1",
+  "Genus": "GW2011-AR1",
+  "Species": "GW2011-AR1 sp964416245"
+ },
+ "R2_sediment__metabat2.bin.289": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "Desulfosalsimonadaceae",
+  "Genus": "M55B175",
+  "Species": "M55B175 sp964635265"
+ },
+ "R2_sediment__metabat2.bin.299": {
+  "Kingdom": "Archaea",
+  "Phylum": "Nanobdellota",
+  "Class": "Nanobdellia",
+  "Order": "Woesearchaeales",
+  "Family": "SKGA01",
+  "Genus": "JAQUYS01",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.314_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobulbia",
+  "Order": "Desulfobulbales",
+  "Family": "Desulfocapsaceae",
+  "Genus": "Desulfopila_A",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.325": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "ML635J-15",
+  "Genus": "JAQIBY01",
+  "Species": "JAQIBY01 sp964418565"
+ },
+ "R2_sediment__metabat2.bin.343": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Phycisphaerae",
+  "Order": "Phycisphaerales",
+  "Family": "UBA1924",
+  "Genus": "UBA1924",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.356": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Minisyncoccia",
+  "Order": "Minisyncoccales",
+  "Family": "JANBVM01",
+  "Genus": "CAYSZX01",
+  "Species": "CAYSZX01 sp964638845"
+ },
+ "R2_sediment__metabat2.bin.361": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Patescibacteriia",
+  "Order": "Patescibacteriales",
+  "Family": "BM507",
+  "Genus": "",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.362_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "M55B127",
+  "Genus": "M55B127",
+  "Species": "M55B127 sp913055675"
+ },
+ "R2_sediment__metabat2.bin.370_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales_D",
+  "Family": "SKUL01",
+  "Genus": "SKUL01",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.371": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "Wenzhouxiangellaceae",
+  "Genus": "GCA-2722315",
+  "Species": "GCA-2722315 sp964415285"
+ },
+ "R2_sediment__metabat2.bin.372": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Minisyncoccia",
+  "Order": "Minisyncoccales",
+  "Family": "CAYPLZ01",
+  "Genus": "CAYPLZ01",
+  "Species": "CAYPLZ01 sp964411855"
+ },
+ "R2_sediment__metabat2.bin.385": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Longimicrobiales",
+  "Family": "Gaopeijiaceae",
+  "Genus": "Gaopeijia",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.388": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Planctomycetia",
+  "Order": "Pirellulales",
+  "Family": "Pirellulaceae",
+  "Genus": "JAWLFY01",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.405": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Thermohalobaculum",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.414_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "DAINOF01",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.416": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "Spirochaetia",
+  "Order": "DSM-27196",
+  "Family": "Alkalispirochaetaceae",
+  "Genus": "Alkalispirochaeta",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.424": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Krumholzibacteriota",
+  "Class": "Krumholzibacteriia",
+  "Order": "Krumholzibacteriales",
+  "Family": "WJIX01",
+  "Genus": "JAGHBT01",
+  "Species": "JAGHBT01 sp035311885"
+ },
+ "R2_sediment__metabat2.bin.434_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Clostridia",
+  "Order": "Tissierellales",
+  "Family": "Dethiosulfatibacteraceae",
+  "Genus": "UBA8670",
+  "Species": "UBA8670 sp046482875"
+ },
+ "R2_sediment__metabat2.bin.435": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacillota",
+  "Class": "Halanaerobiia",
+  "Order": "Halanaerobiales",
+  "Family": "Halarsenatibacteraceae",
+  "Genus": "Halonatronomonas",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.438": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Minisyncoccia",
+  "Order": "Minisyncoccales",
+  "Family": "JAZKSW01",
+  "Genus": "JAZKSW01",
+  "Species": ""
+ },
+ "R2_sediment__metabat2.bin.460_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Patescibacteriota",
+  "Class": "Patescibacteriia",
+  "Order": "UBA2591",
+  "Family": "UBA6264",
+  "Genus": "DATFJC01",
+  "Species": "DATFJC01 sp964494785"
+ },
+ "R2_sediment__metabat2.bin.470": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Haloferacaceae",
+  "Genus": "Halohasta",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.008": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Steroidobacterales",
+  "Family": "XN24",
+  "Genus": "JAHEFR01",
+  "Species": "JAHEFR01 sp937924335"
+ },
+ "SF2_sediment__concoct.bin.023": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Pseudomonadales",
+  "Family": "Azotimanducaceae",
+  "Genus": "UBA7803",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.024": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfuromonadia",
+  "Order": "Desulfuromonadales",
+  "Family": "CAWANI01",
+  "Genus": "CAWANI01",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.025_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Phycisphaerae",
+  "Order": "Sedimentisphaerales",
+  "Family": "Anaerobacaceae",
+  "Genus": "JBDREF01",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.026": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Joyebacterota",
+  "Class": "Joyebacteria",
+  "Order": "Joyebacterales",
+  "Family": "Joyebacteraceae",
+  "Genus": "JALGZG01",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.064": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Chloroflexota",
+  "Class": "Anaerolineae",
+  "Order": "Anaerolineales",
+  "Family": "Anaerolineaceae",
+  "Genus": "Pelolinea",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.073": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "JANQOS01",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.080": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Steroidobacterales",
+  "Family": "BM003",
+  "Genus": "CAKZML01",
+  "Species": "CAKZML01 sp041571575"
+ },
+ "SF2_sediment__concoct.bin.083": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobulbia",
+  "Order": "Desulfobulbales",
+  "Family": "Desulfocapsaceae",
+  "Genus": "JABDQA01",
+  "Species": "JABDQA01 sp905479735"
+ },
+ "SF2_sediment__concoct.bin.089": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Fidelibacterota",
+  "Class": "Marinisomatia",
+  "Order": "Marinisomatales",
+  "Family": "JAHJCW01",
+  "Genus": "JAHJCW01",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.107": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "WTBG01",
+  "Order": "WTBG01",
+  "Family": "WTBG01",
+  "Genus": "CALJBY01",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.112": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Campylobacterota",
+  "Class": "Campylobacteria",
+  "Order": "Campylobacterales",
+  "Family": "Sulfurimonadaceae",
+  "Genus": "Sulfonitrofixus",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.121": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobacteria",
+  "Order": "Desulfobacterales",
+  "Family": "JAFDCJ01",
+  "Genus": "JAFDCJ01",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.124": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "Xanthomonadales",
+  "Family": "SZUA-36",
+  "Genus": "SZUA-36",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.132": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Lutimonas",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.135": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "B18-G4",
+  "Genus": "B18-G4",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.136": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Zixibacteria",
+  "Class": "MSB-5A5",
+  "Order": "GN15",
+  "Family": "PGXB01",
+  "Genus": "JAAERC01",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.137": {
+  "Kingdom": "Archaea",
+  "Phylum": "Halobacteriota",
+  "Class": "Halobacteria",
+  "Order": "Halobacteriales",
+  "Family": "Halobacteriaceae",
+  "Genus": "CAZYYH01",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.146_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.150": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Desulfobacterota",
+  "Class": "Desulfobulbia",
+  "Order": "Desulfobulbales",
+  "Family": "VMSU01",
+  "Genus": "",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.154": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Lutimonas",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.161": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Phycisphaerae",
+  "Order": "Sedimentisphaerales",
+  "Family": "Anaerobacaceae",
+  "Genus": "Anaerobaca",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.174": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "Fodinibius",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.176": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Planctomycetia",
+  "Order": "Pirellulales",
+  "Family": "Thermoguttaceae",
+  "Genus": "JAZFUB01",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.200_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Chloroflexota",
+  "Class": "Anaerolineae",
+  "Order": "Anaerolineales",
+  "Family": "UBA11858",
+  "Genus": "UBA11858",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.201": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Chloroflexota",
+  "Class": "Anaerolineae",
+  "Order": "JAAYZQ01",
+  "Family": "JAAYZQ01",
+  "Genus": "JBFFCR01",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.206_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Zixibacteria",
+  "Class": "MSB-5A5",
+  "Order": "WJJR01",
+  "Family": "WJJR01",
+  "Genus": "JBFMFQ01",
+  "Species": ""
+ },
+ "SF2_sediment__concoct.bin.217_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "JAKDMP01",
+  "Family": "JAKDMP01",
+  "Genus": "",
+  "Species": ""
+ },
+ "SF2_sediment__maxbin2.Bin.058": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Acidobacteriota",
+  "Class": "Thermoanaerobaculia",
+  "Order": "Thermoanaerobaculales",
+  "Family": "Sulfomarinibacteraceae",
+  "Genus": "Sulfomarinibacter",
+  "Species": "Sulfomarinibacter kjeldsenii"
+ },
+ "SF2_sediment__maxbin2.Bin.069": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhizobiales",
+  "Family": "Methyloligellaceae",
+  "Genus": "Methyloceanibacter",
+  "Species": "Methyloceanibacter sp049590335"
+ },
+ "SF2_sediment__maxbin2.Bin.112": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Gemmatimonadota",
+  "Class": "Gemmatimonadetes",
+  "Order": "Palauibacterales",
+  "Family": "Palauibacteraceae",
+  "Genus": "Carthagonibacter",
+  "Species": ""
+ },
+ "SF2_sediment__maxbin2.Bin.122": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Bacteroidales",
+  "Family": "GCA-2748055",
+  "Genus": "GCA-2748055",
+  "Species": ""
+ },
+ "SF2_sediment__maxbin2.Bin.249": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "DATFMH01",
+  "Genus": "DATFMH01",
+  "Species": "DATFMH01 sp035267045"
+ },
+ "SF2_sediment__maxbin2.Bin.269": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Abyssobacteria",
+  "Class": "SURF-5",
+  "Order": "SURF-5",
+  "Family": "SURF-5",
+  "Genus": "SURF-5",
+  "Species": ""
+ },
+ "SF2_sediment__maxbin2.Bin.277": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Verrucomicrobiota",
+  "Class": "Verrucomicrobiia",
+  "Order": "Verrucomicrobiales",
+  "Family": "Akkermansiaceae",
+  "Genus": "Luteolibacter",
+  "Species": ""
+ },
+ "SF2_sediment__maxbin2.Bin.279": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Gammaproteobacteria",
+  "Order": "DATFLG01",
+  "Family": "DATFLG01",
+  "Genus": "DATFML01",
+  "Species": "DATFML01 sp035266965"
+ },
+ "SF2_sediment__maxbin2.Bin.283_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Rhodothermia",
+  "Order": "Balneolales",
+  "Family": "Balneolaceae",
+  "Genus": "Fodinibius",
+  "Species": ""
+ },
+ "SF2_sediment__maxbin2.Bin.348": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Phycisphaerae",
+  "Order": "SM23-33",
+  "Family": "SM23-33",
+  "Genus": "JAGXKT01",
+  "Species": "JAGXKT01 sp964531695"
+ },
+ "SF2_sediment__metabat2.bin.033": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Spirochaetota",
+  "Class": "Spirochaetia",
+  "Order": "DSM-27196",
+  "Family": "PWMO01",
+  "Genus": "",
+  "Species": ""
+ },
+ "SF2_sediment__metabat2.bin.059_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Pseudomonadota",
+  "Class": "Alphaproteobacteria",
+  "Order": "Rhodobacterales",
+  "Family": "Rhodobacteraceae",
+  "Genus": "Roseobacter",
+  "Species": ""
+ },
+ "SF2_sediment__metabat2.bin.079_sub": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Deinococcota",
+  "Class": "Deinococci",
+  "Order": "Deinococcales",
+  "Family": "Trueperaceae",
+  "Genus": "JASBRS01",
+  "Species": ""
+ },
+ "SF2_sediment__metabat2.bin.088": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Bacteroidia",
+  "Order": "Flavobacteriales",
+  "Family": "Flavobacteriaceae",
+  "Genus": "Robiginitalea",
+  "Species": ""
+ },
+ "SF2_sediment__metabat2.bin.115": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Fibrobacterota",
+  "Class": "Chitinivibrionia",
+  "Order": "Chitinivibrionales",
+  "Family": "WJKA01",
+  "Genus": "",
+  "Species": ""
+ },
+ "SF2_sediment__metabat2.bin.153": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Bacteroidota",
+  "Class": "Ignavibacteria",
+  "Order": "Ignavibacteriales",
+  "Family": "Melioribacteraceae",
+  "Genus": "",
+  "Species": ""
+ },
+ "SF2_sediment__metabat2.bin.164": {
+  "Kingdom": "Bacteria",
+  "Phylum": "Planctomycetota",
+  "Class": "Phycisphaerae",
+  "Order": "SM23-33",
+  "Family": "SM23-33",
+  "Genus": "",
+  "Species": ""
+ }
+}

@@ -1,0 +1,318 @@
+sample	target	mag	population	source_sample	genus	completeness	contamination	mag_bp	mag_n_contigs	mag_n50	mag_kmer_cov_wmed	frac_cov99	frac_cov95	frac_cov99_tge2500	n_tcontigs99	tcontig_n50_99	nga50_99	lga90_99	n_tcontigs95	nga50_95	lga90_95	joins	splits	n_identical	frac_bp_identical	cov_ratio_wmed
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.15.contigs__	derep310	R1_A_D1	Fodinibius	84.57	11.21	3596877	579	7547	1.77192	0.7689	0.8623	0.4915	1079	3124	2412		1252	2630		10	220	16	0.0163	0.985
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.45.contigs__	derep310	R1_A_D1	Thiohalospira	98.15	0.82	2748072	160	41695	6.07892	0.922	0.9502	0.8528	381	11696	11131	313	417	11212	296	7	75	7	0.0116	0.995
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs__	derep310	R1_A_D1	BM714	100.0	1.06	2343144	64	75174	7.48991	0.9598	0.9874	0.9458	117	39572	35548	67	127	35548	64	12	32	2	0.0126	0.986
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.6.contigs__	derep310	R1_A_D1	Fodinibius	83.5	12.26	5114281	951	5939	1.78569	0.8366	0.8688	0.5585	1563	3356	2699		1662	2761		10	263	67	0.0626	0.976
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.26.contigs__	derep310	R1_A_D1	Halomonas	97.0	5.21	3485261	382	12797	2.59622	0.8391	0.8815	0.5194	1180	3002	2549		1260	2615	1245	11	207	5	0.005	0.941
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.44.contigs__	derep310	R1_A_D1	JAWOCM01	80.96	2.94	2172664	385	6218	1.90949	0.9027	0.9098	0.6629	664	3496	3212	651	671	3215	645	6	119	38	0.077	0.963
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.18.contigs__	derep310	R1_A_D1	Halalkalibaculum	96.72	1.37	3895884	219	31530	4.57025	0.7687	0.9211	0.5641	1013	3938	2951		1276	3454	1059	16	137	1	0.0007	0.98
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.54.contigs__	derep310	R1_A_D1	Thiohalorhabdus	90.7	12.75	2482535	458	5881	2.10895	0.8523	0.901	0.6158	717	3706	3036		771	3149	750	13	124	41	0.0705	0.968
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs__	derep310	R1_A_D1	UBA8670	80.86	2.89	2057886	376	6146	1.93037	0.869	0.8939	0.6168	632	3479	2974		661	2998		7	127	36	0.0702	0.954
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.5.contigs__	derep310	R1_A_D1	DATFIX01	92.6	4.13	3428800	185	29905	3.86327	0.9525	0.9685	0.8594	616	8330	7782	456	646	7811	448	16	133	10	0.0291	0.988
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs__	derep310	R1_A_D1	DATFIM01	98.68	0.44	2600506	141	29598	13.5119	0.9129	0.9807	0.8807	224	28055	24892	187	237	26789	131	25	56	5	0.0326	1.02
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.8.contigs.fa_assembly	nonderep140	R1_A_D1				4711511	491	12442	4.68964	0.798	0.9209	0.6339	1073	5151	3556		1324	4054	1132	47	248	2	0.0014	0.989
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.3.contigs.fa_assembly	nonderep140	R1_A_D1				3105577	140	35039	3.88505	0.8634	0.9437	0.7457	626	6050	5234		728	5550	563	14	109	1	0.0012	1.035
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.59.contigs.fa_assembly	nonderep140	R1_A_D1				3113987	217	19618	3.5249	0.8725	0.9425	0.7184	740	4958	4278		841	4496	663	23	162	1	0.0013	1.012
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.24.contigs.fa_assembly	nonderep140	R1_A_D1				3555814	303	17536	3.52136	0.6599	0.9134	0.4611	845	3792	2088		1256	3176	1032	18	167	8	0.009	1.029
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.44.contigs.fa_assembly	nonderep140	R1_A_D1				2655566	325	10805	10.9404	0.931	0.9683	0.8729	392	10991	9308	319	420	9467	292	59	93	13	0.0357	1.003
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.maxbin.055.contigs.fa_assembly	nonderep140	R1_A_D1				2527610	426	6634	1.48052	0.7279	0.8257	0.3737	836	2569	1881		979	2060		4	155	5	0.0067	1.002
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.36.contigs.fa_assembly	nonderep140	R1_A_D1				3162671	585	5857	1.3988	0.7123	0.7883	0.317	1110	2337	1689		1246	1810		12	215	5	0.0051	0.992
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.69.contigs.fa_assembly	nonderep140	R1_A_D1				2500340	416	7018	1.87672	0.5635	0.8086	0.2542	689	2448	1224		1044	1884		7	135	6	0.0106	0.978
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.10.contigs.fa_assembly	nonderep140	R1_A_D1				4427181	381	17160	3.4512	0.8198	0.9146	0.6365	1066	4769	3661		1246	4074	1109	38	218	2	0.0014	0.999
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.33.contigs.fa_assembly	nonderep140	R1_A_D1				3313783	417	10429	2.06562	0.7496	0.8269	0.38	1146	2525	1864		1296	2048		17	209	5	0.0048	0.955
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.65.contigs.fa_assembly	nonderep140	R1_A_D1				3056574	462	7718	2.16725	0.7815	0.8694	0.4571	1013	2876	2228		1148	2442		11	203	3	0.0036	1.0
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.64.contigs.fa_assembly	nonderep140	R1_A_D1				2998258	434	8186	2.34681	0.8617	0.908	0.6902	741	4632	3890		797	4032	753	32	167	19	0.0303	0.992
+R1_A_D1	armA	Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.51.contigs__	lost30	R1_A_D2	UBA9300	77.76	3.92	2443255	467	5574	1.20027	0.2057	0.7308	0.0859	245	2658	0		837	1631		5	29	0	0.0	1.456
+R1_A_D1	armA	Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.49.contigs__	lost30	R1_B_D1	DSBN01	83.16	5.99	2883566	644	4694	0.917593	0.0889	0.3228	0.0231	125	2180	0		490	0		5	17	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs__	lost30	R1_B_D2	Halanaerobium	76.23	5.55	2242436	470	4926	1.33422	0.0364	0.2189	0.0098	40	3863	0		278	0		0	1	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_concoct_out.22.contigs__	lost30	R1_B_H2O	Guyparkeria	88.44	1.44	2103648	251	10185	2.90992	0.0041	0.0181	0.0008	4	1156	0		17	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.11.contigs__	lost30	R1_B_H2O	Psychroflexus	99.11	0.57	2693220	121	39521	5.4082	0.0	0.0008	0.0	0	0	0		2	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.5.contigs__	lost30	R1_B_H2O	Vreelandella	92.27	9.27	3203741	476	8556	1.99143	0.0004	0.0012	0.0002	0	0	0		1	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_concoct_out.45.contigs__	lost30	R1_C_D1	DSBN01	82.72	3.51	2928114	635	4878	1.08663	0.0929	0.3376	0.0301	136	2130	0		547	0		3	11	0	0.0	0.904
+R1_A_D1	armA	Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_metabat.31.contigs__	lost30	R1_C_D1	Natrinema	82.03	4.16	2818050	509	6106	1.62869	0.1431	0.3673	0.0243	234	1814	0		609	0		0	40	0	0.0	1.345
+R1_A_D1	armA	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.16.contigs__	lost30	R1_C_H2O	CAZUKV01	77.2	2.88	1766180	326	5906	1.59371	0.1436	0.3221	0.0283	145	2415	0		350	0		1	28	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.79.contigs__	lost30	R1_C_H2O	Roseovarius	79.51	7.81	2803883	489	6444	2.24107	0.012	0.0369	0.0081	11	116458	0		37	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_metabat.23.contigs__	lost30	R1_C_H2O	Spiribacter	87.1	7.8	1857591	181	17917	4.51644	0.0005	0.0005	0.0005	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.42.contigs__	lost30	R2A_A_D1	Christiangramia	86.65	2.89	2992562	442	8592	1.30157	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.143.contigs__	lost30	R2_B_D2	Roseovarius	90.86	9.4	3715211	295	17992	4.70251	0.0007	0.0018	0.0	2	1486	0		4	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.12.contigs__	lost30	R2_restored_DShore	Kariarchaeum	86.92	4.21	4782018	424	14987	2.96664	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.2.contigs__	lost30	R2_restored_DShore	DATFLG01	84.88	2.79	2812285	205	15834	3.90077	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.20.contigs__	lost30	R2_restored_DShore	JBBDSH01	83.69	4.88	3187718	141	26721	4.34414	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.40.contigs__	lost30	R2_restored_DShore		82.11	8.46	3294236	515	7326	2.35306	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.89.contigs__	lost30	R2_restored_DShore	Halofilum	92.03	4.96	3858666	330	15575	3.66069	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.11.contigs__	lost30	R2_restored_DShore	Fodinibius	92.9	7.69	4896743	475	15653	3.00851	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.18.contigs__	lost30	R2_restored_DShore	Thiohalophilus	79.46	7.72	3374596	625	5845	2.14198	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_concoct_out.34.contigs__	lost30	R2_restored_H2O	Pontimonas	86.56	2.38	1342987	136	12643	2.18118	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_maxbin.017.contigs__	lost30	R2_restored_H2O	S36-B12	79.6	3.33	3330263	588	6404	2.26352	0.0003	0.0038	0.0	0	0	0		7	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.11.contigs__	lost30	SF2_A_D2	Sulfurovum	76.91	3.48	1462504	309	5060	1.14041	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_concoct_out.33.contigs__	lost30	SF2_A_H2O	VMCP01	93.17	3.87	2086774	144	22701	2.14243	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.28.contigs__	lost30	SF2_A_H2O	MAG-120531	82.31	3.11	1753787	194	11863	1.9894	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.34.contigs__	lost30	SF2_A_H2O	VMDJ01	90.08	2.73	1645797	195	10988	1.57056	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaGSF2_B_D1_MG_DASTool_bins_concoct_out.44.contigs__	lost30	SF2_B_D1	Yeosuana	83.2	8.99	2934897	462	7199	2.14378	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.19.contigs__	lost30	SF2_B_H2O	Planktomarina	83.94	3.06	2220081	370	6779	1.57472	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.39.contigs__	lost30	SF2_B_H2O	D2472	84.48	8.62	1130560	50	37916	15.1383	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armA	Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.25.contigs__	lost30	SF2_C_D2		80.41	4.28	3082290	477	7251	1.97775	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.15.contigs__	derep310	R1_A_D1	Fodinibius	84.57	11.21	3596877	579	7547	1.77192	0.7472	0.8621	0.4588	1068	2990	2209		1290	2476		11	220	9	0.0082	0.4
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.45.contigs__	derep310	R1_A_D1	Thiohalospira	98.15	0.82	2748072	160	41695	6.07892	0.8672	0.9038	0.6568	722	4447	3790		772	3932	722	5	81	4	0.0063	0.305
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs__	derep310	R1_A_D1	BM714	100.0	1.06	2343144	64	75174	7.48991	0.9622	0.9835	0.9289	224	19940	19757	143	242	19757	138	18	41	1	0.0015	0.295
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.6.contigs__	derep310	R1_A_D1	Fodinibius	83.5	12.26	5114281	951	5939	1.78569	0.8272	0.8658	0.542	1590	3225	2623		1702	2654		14	266	52	0.0408	0.38
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.26.contigs__	derep310	R1_A_D1	Halomonas	97.0	5.21	3485261	382	12797	2.59622	0.7992	0.8524	0.448	1214	2709	2208		1320	2316		7	203	2	0.0018	0.326
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.44.contigs__	derep310	R1_A_D1	JAWOCM01	80.96	2.94	2172664	385	6218	1.90949	0.8949	0.9071	0.6485	660	3573	3136		670	3162	656	8	126	31	0.0688	0.374
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.18.contigs__	derep310	R1_A_D1	Halalkalibaculum	96.72	1.37	3895884	219	31530	4.57025	0.6762	0.806	0.2759	1351	2194	1543		1665	1810		6	144	1	0.0009	0.321
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.54.contigs__	derep310	R1_A_D1	Thiohalorhabdus	90.7	12.75	2482535	458	5881	2.10895	0.8356	0.891	0.5997	722	3450	2863		790	2943		11	128	36	0.0631	0.373
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs__	derep310	R1_A_D1	UBA8670	80.86	2.89	2057886	376	6146	1.93037	0.8489	0.888	0.593	632	3353	2866		676	2918		9	128	26	0.0508	0.381
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.5.contigs__	derep310	R1_A_D1	DATFIX01	92.6	4.13	3428800	185	29905	3.86327	0.931	0.9556	0.8017	745	6002	5690	617	786	5690	599	13	136	5	0.011	0.323
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs__	derep310	R1_A_D1	DATFIM01	98.68	0.44	2600506	141	29598	13.5119	0.8883	0.9105	0.6418	758	3903	3373	747	796	3419	719	24	95	2	0.0024	0.293
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.8.contigs.fa_assembly	nonderep140	R1_A_D1				4711511	491	12442	4.68964	0.7366	0.8599	0.4176	1453	2895	2002		1770	2328		24	278	0	0.0	0.301
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.3.contigs.fa_assembly	nonderep140	R1_A_D1				3105577	140	35039	3.88505	0.8432	0.9228	0.6578	756	4817	3992		885	4174	748	12	110	1	0.0012	0.338
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.59.contigs.fa_assembly	nonderep140	R1_A_D1				3113987	217	19618	3.5249	0.8253	0.9055	0.5736	899	3589	2959		1026	3192	938	18	165	0	0.0	0.334
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.24.contigs.fa_assembly	nonderep140	R1_A_D1				3555814	303	17536	3.52136	0.6126	0.8613	0.3327	973	2770	1494		1476	2230	1437	11	173	2	0.003	0.341
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.44.contigs.fa_assembly	nonderep140	R1_A_D1				2655566	325	10805	10.9404	0.8035	0.8603	0.5356	815	3346	2570		886	2725		35	148	1	0.0015	0.285
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.maxbin.055.contigs.fa_assembly	nonderep140	R1_A_D1				2527610	426	6634	1.48052	0.7032	0.8374	0.3879	762	2733	1861		951	2179		6	149	2	0.0022	0.426
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.36.contigs.fa_assembly	nonderep140	R1_A_D1				3162671	585	5857	1.3988	0.6978	0.7865	0.3223	1052	2401	1609		1213	1779		14	198	1	0.0008	0.392
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.69.contigs.fa_assembly	nonderep140	R1_A_D1				2500340	416	7018	1.87672	0.5283	0.8022	0.2302	653	2368	1061		1051	1791		1	119	3	0.0057	0.377
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.10.contigs.fa_assembly	nonderep140	R1_A_D1				4427181	381	17160	3.4512	0.7874	0.8828	0.5326	1240	3521	2637		1454	2870		32	226	1	0.0006	0.344
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.33.contigs.fa_assembly	nonderep140	R1_A_D1				3313783	417	10429	2.06562	0.7422	0.8213	0.3467	1150	2438	1843		1294	1983		11	212	3	0.0031	0.364
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.65.contigs.fa_assembly	nonderep140	R1_A_D1				3056574	462	7718	2.16725	0.7343	0.8597	0.4082	976	2791	1925		1166	2246		13	199	3	0.0042	0.35
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.64.contigs.fa_assembly	nonderep140	R1_A_D1				2998258	434	8186	2.34681	0.8403	0.9062	0.6672	745	4390	3547		832	3701	793	28	178	6	0.009	0.372
+R1_A_D1	armB	Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.51.contigs__	lost30	R1_A_D2	UBA9300	77.76	3.92	2443255	467	5574	1.20027	0.2015	0.7431	0.0883	225	2720	0		831	1726		6	24	0	0.0	0.565
+R1_A_D1	armB	Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.49.contigs__	lost30	R1_B_D1	DSBN01	83.16	5.99	2883566	644	4694	0.917593	0.0885	0.3323	0.0221	123	1849	0		503	0		2	11	0	0.0	0.526
+R1_A_D1	armB	Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs__	lost30	R1_B_D2	Halanaerobium	76.23	5.55	2242436	470	4926	1.33422	0.0352	0.2325	0.0096	38	2712	0		284	0		0	1	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_concoct_out.22.contigs__	lost30	R1_B_H2O	Guyparkeria	88.44	1.44	2103648	251	10185	2.90992	0.0031	0.019	0.0013	2	3375	0		18	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.11.contigs__	lost30	R1_B_H2O	Psychroflexus	99.11	0.57	2693220	121	39521	5.4082	0.0	0.0005	0.0	0	0	0		1	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.5.contigs__	lost30	R1_B_H2O	Vreelandella	92.27	9.27	3203741	476	8556	1.99143	0.0004	0.0004	0.0002	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_concoct_out.45.contigs__	lost30	R1_C_D1	DSBN01	82.72	3.51	2928114	635	4878	1.08663	0.0944	0.3569	0.0215	134	1947	0		585	0		0	10	0	0.0	0.418
+R1_A_D1	armB	Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_metabat.31.contigs__	lost30	R1_C_D1	Natrinema	82.03	4.16	2818050	509	6106	1.62869	0.138	0.3799	0.0167	233	1787	0		631	0		0	40	0	0.0	0.449
+R1_A_D1	armB	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.16.contigs__	lost30	R1_C_H2O	CAZUKV01	77.2	2.88	1766180	326	5906	1.59371	0.1284	0.3246	0.025	132	1670	0		353	0		1	24	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.79.contigs__	lost30	R1_C_H2O	Roseovarius	79.51	7.81	2803883	489	6444	2.24107	0.0129	0.0389	0.0082	12	19369	0		46	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_metabat.23.contigs__	lost30	R1_C_H2O	Spiribacter	87.1	7.8	1857591	181	17917	4.51644	0.0005	0.0005	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.42.contigs__	lost30	R2A_A_D1	Christiangramia	86.65	2.89	2992562	442	8592	1.30157	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.143.contigs__	lost30	R2_B_D2	Roseovarius	90.86	9.4	3715211	295	17992	4.70251	0.0007	0.0018	0.0	2	1486	0		4	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.12.contigs__	lost30	R2_restored_DShore	Kariarchaeum	86.92	4.21	4782018	424	14987	2.96664	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.2.contigs__	lost30	R2_restored_DShore	DATFLG01	84.88	2.79	2812285	205	15834	3.90077	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.20.contigs__	lost30	R2_restored_DShore	JBBDSH01	83.69	4.88	3187718	141	26721	4.34414	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.40.contigs__	lost30	R2_restored_DShore		82.11	8.46	3294236	515	7326	2.35306	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.89.contigs__	lost30	R2_restored_DShore	Halofilum	92.03	4.96	3858666	330	15575	3.66069	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.11.contigs__	lost30	R2_restored_DShore	Fodinibius	92.9	7.69	4896743	475	15653	3.00851	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.18.contigs__	lost30	R2_restored_DShore	Thiohalophilus	79.46	7.72	3374596	625	5845	2.14198	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_concoct_out.34.contigs__	lost30	R2_restored_H2O	Pontimonas	86.56	2.38	1342987	136	12643	2.18118	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_maxbin.017.contigs__	lost30	R2_restored_H2O	S36-B12	79.6	3.33	3330263	588	6404	2.26352	0.001	0.0042	0.0	2	1334	0		8	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.11.contigs__	lost30	SF2_A_D2	Sulfurovum	76.91	3.48	1462504	309	5060	1.14041	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_concoct_out.33.contigs__	lost30	SF2_A_H2O	VMCP01	93.17	3.87	2086774	144	22701	2.14243	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.28.contigs__	lost30	SF2_A_H2O	MAG-120531	82.31	3.11	1753787	194	11863	1.9894	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.34.contigs__	lost30	SF2_A_H2O	VMDJ01	90.08	2.73	1645797	195	10988	1.57056	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaGSF2_B_D1_MG_DASTool_bins_concoct_out.44.contigs__	lost30	SF2_B_D1	Yeosuana	83.2	8.99	2934897	462	7199	2.14378	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.19.contigs__	lost30	SF2_B_H2O	Planktomarina	83.94	3.06	2220081	370	6779	1.57472	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.39.contigs__	lost30	SF2_B_H2O	D2472	84.48	8.62	1130560	50	37916	15.1383	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armB	Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.25.contigs__	lost30	SF2_C_D2		80.41	4.28	3082290	477	7251	1.97775	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.15.contigs__	derep310	R1_A_D1	Fodinibius	84.57	11.21	3596877	579	7547	1.77192	0.8535	0.9388	0.7374	760	5891	4412		847	5043	727	33	140	43	0.0501	0.972
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.45.contigs__	derep310	R1_A_D1	Thiohalospira	98.15	0.82	2748072	160	41695	6.07892	0.9507	0.9763	0.9232	171	43468	41695	98	189	41695	90	20	30	13	0.0285	0.967
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs__	derep310	R1_A_D1	BM714	100.0	1.06	2343144	64	75174	7.48991	0.9864	0.9971	0.9769	71	73578	71369	32	73	71369	32	16	18	5	0.0297	0.985
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.6.contigs__	derep310	R1_A_D1	Fodinibius	83.5	12.26	5114281	951	5939	1.78569	0.9006	0.9321	0.7885	1146	7873	4441		1204	4522	1078	26	136	178	0.1698	0.973
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.26.contigs__	derep310	R1_A_D1	Halomonas	97.0	5.21	3485261	382	12797	2.59622	0.9182	0.9619	0.8747	460	10171	9185	409	491	9583	364	53	93	25	0.0505	0.903
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.44.contigs__	derep310	R1_A_D1	JAWOCM01	80.96	2.94	2172664	385	6218	1.90949	0.9509	0.9539	0.8528	492	5250	4796	418	495	4796	417	7	64	102	0.2352	0.964
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.18.contigs__	derep310	R1_A_D1	Halalkalibaculum	96.72	1.37	3895884	219	31530	4.57025	0.8951	0.972	0.8791	273	23763	19851	268	302	23139	186	56	86	7	0.0093	0.936
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.54.contigs__	derep310	R1_A_D1	Thiohalorhabdus	90.7	12.75	2482535	458	5881	2.10895	0.8934	0.9512	0.8223	507	5455	4673		548	5040	457	30	55	98	0.1913	0.955
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs__	derep310	R1_A_D1	UBA8670	80.86	2.89	2057886	376	6146	1.93037	0.8993	0.9452	0.8139	455	5409	4336		488	4532	419	13	64	80	0.1904	0.957
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.5.contigs__	derep310	R1_A_D1	DATFIX01	92.6	4.13	3428800	185	29905	3.86327	0.9735	0.9875	0.9605	242	26627	25637	158	247	26168	153	27	64	23	0.0949	0.962
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs__	derep310	R1_A_D1	DATFIM01	98.68	0.44	2600506	141	29598	13.5119	0.9474	0.9822	0.9366	154	34928	29648	102	161	30255	90	39	46	7	0.0299	0.988
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.8.contigs.fa_assembly	nonderep140	R1_A_D1				4711511	491	12442	4.68964	0.8491	0.9649	0.8167	519	15455	9737		605	11701	411	81	107	9	0.015	0.964
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.3.contigs.fa_assembly	nonderep140	R1_A_D1				3105577	140	35039	3.88505	0.931	0.9869	0.9241	150	33745	31413	114	171	32548	100	32	45	3	0.0046	0.963
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.59.contigs.fa_assembly	nonderep140	R1_A_D1				3113987	217	19618	3.5249	0.9178	0.9798	0.9053	235	19648	18369	198	258	19437	165	53	72	5	0.0347	0.957
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.24.contigs.fa_assembly	nonderep140	R1_A_D1				3555814	303	17536	3.52136	0.7846	0.9636	0.7605	306	15904	10877		393	13816	262	58	71	12	0.015	0.951
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.44.contigs.fa_assembly	nonderep140	R1_A_D1				2655566	325	10805	10.9404	0.9474	0.9781	0.9102	324	19379	11816	247	342	12206	231	62	54	23	0.0604	0.977
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.maxbin.055.contigs.fa_assembly	nonderep140	R1_A_D1				2527610	426	6634	1.48052	0.8602	0.9358	0.7341	576	4762	3987		637	4197	568	20	107	23	0.0298	0.976
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.36.contigs.fa_assembly	nonderep140	R1_A_D1				3162671	585	5857	1.3988	0.8425	0.91	0.7371	682	5251	4024		757	4283	753	38	106	31	0.047	0.914
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.69.contigs.fa_assembly	nonderep140	R1_A_D1				2500340	416	7018	1.87672	0.5982	0.9265	0.514	420	5910	2312		587	5077	488	30	70	15	0.0245	0.946
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.10.contigs.fa_assembly	nonderep140	R1_A_D1				4427181	381	17160	3.4512	0.885	0.9663	0.8594	424	16738	13834		463	15766	314	62	89	28	0.0486	0.972
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.33.contigs.fa_assembly	nonderep140	R1_A_D1				3313783	417	10429	2.06562	0.8684	0.9471	0.8075	518	8069	6269		565	7075	458	51	107	29	0.0461	0.948
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.65.contigs.fa_assembly	nonderep140	R1_A_D1				3056574	462	7718	2.16725	0.8597	0.9502	0.779	569	6497	4973		647	5417	533	37	112	24	0.0336	0.957
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.64.contigs.fa_assembly	nonderep140	R1_A_D1				2998258	434	8186	2.34681	0.8889	0.9434	0.8293	486	7861	6594		525	7172	436	53	86	41	0.0835	0.97
+R1_A_D1	armC	Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.51.contigs__	lost30	R1_A_D2	UBA9300	77.76	3.92	2443255	467	5574	1.20027	0.1632	0.8309	0.1212	152	4928	0		633	3048		8	15	0	0.0	1.641
+R1_A_D1	armC	Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.49.contigs__	lost30	R1_B_D1	DSBN01	83.16	5.99	2883566	644	4694	0.917593	0.0726	0.3953	0.0345	84	3837	0		480	0		8	11	0	0.0	1.259
+R1_A_D1	armC	Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs__	lost30	R1_B_D2	Halanaerobium	76.23	5.55	2242436	470	4926	1.33422	0.0346	0.3102	0.0149	35	13628	0		297	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_concoct_out.22.contigs__	lost30	R1_B_H2O	Guyparkeria	88.44	1.44	2103648	251	10185	2.90992	0.0044	0.0193	0.0023	3	3000	0		15	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.11.contigs__	lost30	R1_B_H2O	Psychroflexus	99.11	0.57	2693220	121	39521	5.4082	0.0	0.0009	0.0	0	0	0		2	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.5.contigs__	lost30	R1_B_H2O	Vreelandella	92.27	9.27	3203741	476	8556	1.99143	0.0004	0.0012	0.0002	0	0	0		1	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_concoct_out.45.contigs__	lost30	R1_C_D1	DSBN01	82.72	3.51	2928114	635	4878	1.08663	0.0779	0.4281	0.0425	92	4308	0		535	0		5	5	0	0.0	0.851
+R1_A_D1	armC	Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_metabat.31.contigs__	lost30	R1_C_D1	Natrinema	82.03	4.16	2818050	509	6106	1.62869	0.1436	0.4518	0.0375	226	3421	0		681	0		0	41	0	0.0	1.179
+R1_A_D1	armC	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.16.contigs__	lost30	R1_C_H2O	CAZUKV01	77.2	2.88	1766180	326	5906	1.59371	0.1447	0.4137	0.0334	142	2227	0		416	0		1	27	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.79.contigs__	lost30	R1_C_H2O	Roseovarius	79.51	7.81	2803883	489	6444	2.24107	0.0102	0.0371	0.0096	9	198894	0		41	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_metabat.23.contigs__	lost30	R1_C_H2O	Spiribacter	87.1	7.8	1857591	181	17917	4.51644	0.0005	0.0005	0.0005	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.42.contigs__	lost30	R2A_A_D1	Christiangramia	86.65	2.89	2992562	442	8592	1.30157	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.143.contigs__	lost30	R2_B_D2	Roseovarius	90.86	9.4	3715211	295	17992	4.70251	0.0007	0.0017	0.0	2	1486	0		4	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.12.contigs__	lost30	R2_restored_DShore	Kariarchaeum	86.92	4.21	4782018	424	14987	2.96664	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.2.contigs__	lost30	R2_restored_DShore	DATFLG01	84.88	2.79	2812285	205	15834	3.90077	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.20.contigs__	lost30	R2_restored_DShore	JBBDSH01	83.69	4.88	3187718	141	26721	4.34414	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.40.contigs__	lost30	R2_restored_DShore		82.11	8.46	3294236	515	7326	2.35306	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.89.contigs__	lost30	R2_restored_DShore	Halofilum	92.03	4.96	3858666	330	15575	3.66069	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.11.contigs__	lost30	R2_restored_DShore	Fodinibius	92.9	7.69	4896743	475	15653	3.00851	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.18.contigs__	lost30	R2_restored_DShore	Thiohalophilus	79.46	7.72	3374596	625	5845	2.14198	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_concoct_out.34.contigs__	lost30	R2_restored_H2O	Pontimonas	86.56	2.38	1342987	136	12643	2.18118	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_maxbin.017.contigs__	lost30	R2_restored_H2O	S36-B12	79.6	3.33	3330263	588	6404	2.26352	0.0004	0.0066	0.0	1	1269	0		12	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.11.contigs__	lost30	SF2_A_D2	Sulfurovum	76.91	3.48	1462504	309	5060	1.14041	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_concoct_out.33.contigs__	lost30	SF2_A_H2O	VMCP01	93.17	3.87	2086774	144	22701	2.14243	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.28.contigs__	lost30	SF2_A_H2O	MAG-120531	82.31	3.11	1753787	194	11863	1.9894	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.34.contigs__	lost30	SF2_A_H2O	VMDJ01	90.08	2.73	1645797	195	10988	1.57056	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaGSF2_B_D1_MG_DASTool_bins_concoct_out.44.contigs__	lost30	SF2_B_D1	Yeosuana	83.2	8.99	2934897	462	7199	2.14378	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.19.contigs__	lost30	SF2_B_H2O	Planktomarina	83.94	3.06	2220081	370	6779	1.57472	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.39.contigs__	lost30	SF2_B_H2O	D2472	84.48	8.62	1130560	50	37916	15.1383	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	armC	Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.25.contigs__	lost30	SF2_C_D2		80.41	4.28	3082290	477	7251	1.97775	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.15.contigs__	derep310	R1_A_D1	Fodinibius	84.57	11.21	3596877	579	7547	1.77192	0.7401	0.8546	0.4448	1061	2945	2159		1269	2443		8	224	7	0.0069	0.442
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.45.contigs__	derep310	R1_A_D1	Thiohalospira	98.15	0.82	2748072	160	41695	6.07892	0.8766	0.9102	0.6697	724	4417	3886		771	3972	703	10	81	4	0.0063	0.307
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs__	derep310	R1_A_D1	BM714	100.0	1.06	2343144	64	75174	7.48991	0.9627	0.9769	0.9265	229	19823	18876	146	243	18876	142	15	43	2	0.0039	0.297
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.6.contigs__	derep310	R1_A_D1	Fodinibius	83.5	12.26	5114281	951	5939	1.78569	0.828	0.87	0.5617	1539	3403	2712		1658	2762		16	258	39	0.0326	0.427
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.26.contigs__	derep310	R1_A_D1	Halomonas	97.0	5.21	3485261	382	12797	2.59622	0.8211	0.8646	0.5103	1128	3060	2510		1216	2584		18	196	3	0.0033	0.387
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.44.contigs__	derep310	R1_A_D1	JAWOCM01	80.96	2.94	2172664	385	6218	1.90949	0.8941	0.9089	0.6566	646	3646	3234		662	3277	639	11	117	21	0.0399	0.423
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.18.contigs__	derep310	R1_A_D1	Halalkalibaculum	96.72	1.37	3895884	219	31530	4.57025	0.7156	0.8265	0.3257	1356	2368	1720		1634	1923		9	147	1	0.0009	0.332
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.54.contigs__	derep310	R1_A_D1	Thiohalorhabdus	90.7	12.75	2482535	458	5881	2.10895	0.8221	0.8892	0.5788	717	3595	2839		792	2962		15	130	22	0.0386	0.39
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs__	derep310	R1_A_D1	UBA8670	80.86	2.89	2057886	376	6146	1.93037	0.8299	0.8763	0.5925	592	3546	2881		644	2928		9	112	13	0.0226	0.42
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.5.contigs__	derep310	R1_A_D1	DATFIX01	92.6	4.13	3428800	185	29905	3.86327	0.93	0.9535	0.812	737	6010	5616	616	775	5616	597	13	139	3	0.0055	0.335
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs__	derep310	R1_A_D1	DATFIM01	98.68	0.44	2600506	141	29598	13.5119	0.8853	0.906	0.6165	776	3804	3297	773	809	3327	748	20	96	1	0.0013	0.291
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.8.contigs.fa_assembly	nonderep140	R1_A_D1				4711511	491	12442	4.68964	0.7311	0.8406	0.4106	1468	2796	1929		1776	2177		24	285	0	0.0	0.31
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.3.contigs.fa_assembly	nonderep140	R1_A_D1				3105577	140	35039	3.88505	0.8565	0.9315	0.673	751	4767	4064		871	4208	725	15	107	0	0.0	0.355
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.59.contigs.fa_assembly	nonderep140	R1_A_D1				3113987	217	19618	3.5249	0.8279	0.8994	0.5969	870	3709	3195		987	3305	930	19	164	1	0.002	0.351
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.24.contigs.fa_assembly	nonderep140	R1_A_D1				3555814	303	17536	3.52136	0.6156	0.8568	0.3066	1009	2518	1486		1502	2139	1481	11	180	0	0.0	0.364
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.44.contigs.fa_assembly	nonderep140	R1_A_D1				2655566	325	10805	10.9404	0.8048	0.848	0.5011	853	3210	2366		909	2501		34	154	1	0.0026	0.283
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.maxbin.055.contigs.fa_assembly	nonderep140	R1_A_D1				2527610	426	6634	1.48052	0.7113	0.8379	0.3931	791	2715	1852		977	2092		11	156	0	0.0	0.466
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.36.contigs.fa_assembly	nonderep140	R1_A_D1				3162671	585	5857	1.3988	0.6997	0.797	0.3347	1010	2484	1734		1178	1949		13	201	1	0.001	0.463
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.69.contigs.fa_assembly	nonderep140	R1_A_D1				2500340	416	7018	1.87672	0.5172	0.7729	0.1965	657	2127	0		1034	1638		6	132	3	0.0064	0.412
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.10.contigs.fa_assembly	nonderep140	R1_A_D1				4427181	381	17160	3.4512	0.7899	0.8916	0.5682	1168	3937	2921		1388	3194	1355	27	223	5	0.0044	0.367
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.33.contigs.fa_assembly	nonderep140	R1_A_D1				3313783	417	10429	2.06562	0.7537	0.8198	0.3692	1153	2470	1940		1274	2052		13	203	2	0.0024	0.425
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.65.contigs.fa_assembly	nonderep140	R1_A_D1				3056574	462	7718	2.16725	0.7149	0.8411	0.4223	924	2966	1918		1114	2250		18	202	2	0.0028	0.393
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.64.contigs.fa_assembly	nonderep140	R1_A_D1				2998258	434	8186	2.34681	0.8331	0.9042	0.6605	738	4542	3583		825	3851	798	31	171	8	0.0129	0.401
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.51.contigs__	lost30	R1_A_D2	UBA9300	77.76	3.92	2443255	467	5574	1.20027	0.1819	0.7427	0.0835	212	2695	0		855	1669		4	30	0	0.0	0.48
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.49.contigs__	lost30	R1_B_D1	DSBN01	83.16	5.99	2883566	644	4694	0.917593	0.0851	0.3281	0.0279	118	2277	0		487	0		3	12	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs__	lost30	R1_B_D2	Halanaerobium	76.23	5.55	2242436	470	4926	1.33422	0.0315	0.2285	0.0081	29	3460	0		269	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_concoct_out.22.contigs__	lost30	R1_B_H2O	Guyparkeria	88.44	1.44	2103648	251	10185	2.90992	0.0023	0.0197	0.0013	1	3376	0		15	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.11.contigs__	lost30	R1_B_H2O	Psychroflexus	99.11	0.57	2693220	121	39521	5.4082	0.0	0.0007	0.0	0	0	0		1	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.5.contigs__	lost30	R1_B_H2O	Vreelandella	92.27	9.27	3203741	476	8556	1.99143	0.0004	0.0012	0.0002	0	0	0		1	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_concoct_out.45.contigs__	lost30	R1_C_D1	DSBN01	82.72	3.51	2928114	635	4878	1.08663	0.0753	0.3387	0.0251	100	2286	0		518	0		0	9	0	0.0	0.457
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_metabat.31.contigs__	lost30	R1_C_D1	Natrinema	82.03	4.16	2818050	509	6106	1.62869	0.1292	0.3684	0.0229	211	1861	0		603	0		0	34	0	0.0	0.487
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.16.contigs__	lost30	R1_C_H2O	CAZUKV01	77.2	2.88	1766180	326	5906	1.59371	0.1203	0.325	0.024	120	1695	0		342	0		1	22	0	0.0	0.183
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.79.contigs__	lost30	R1_C_H2O	Roseovarius	79.51	7.81	2803883	489	6444	2.24107	0.0129	0.0373	0.0103	15	15784	0		37	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_metabat.23.contigs__	lost30	R1_C_H2O	Spiribacter	87.1	7.8	1857591	181	17917	4.51644	0.0005	0.0005	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.42.contigs__	lost30	R2A_A_D1	Christiangramia	86.65	2.89	2992562	442	8592	1.30157	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.143.contigs__	lost30	R2_B_D2	Roseovarius	90.86	9.4	3715211	295	17992	4.70251	0.0007	0.0015	0.0004	2	6309	0		3	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.12.contigs__	lost30	R2_restored_DShore	Kariarchaeum	86.92	4.21	4782018	424	14987	2.96664	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.2.contigs__	lost30	R2_restored_DShore	DATFLG01	84.88	2.79	2812285	205	15834	3.90077	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.20.contigs__	lost30	R2_restored_DShore	JBBDSH01	83.69	4.88	3187718	141	26721	4.34414	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.40.contigs__	lost30	R2_restored_DShore		82.11	8.46	3294236	515	7326	2.35306	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.89.contigs__	lost30	R2_restored_DShore	Halofilum	92.03	4.96	3858666	330	15575	3.66069	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.11.contigs__	lost30	R2_restored_DShore	Fodinibius	92.9	7.69	4896743	475	15653	3.00851	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.18.contigs__	lost30	R2_restored_DShore	Thiohalophilus	79.46	7.72	3374596	625	5845	2.14198	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_concoct_out.34.contigs__	lost30	R2_restored_H2O	Pontimonas	86.56	2.38	1342987	136	12643	2.18118	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_maxbin.017.contigs__	lost30	R2_restored_H2O	S36-B12	79.6	3.33	3330263	588	6404	2.26352	0.0016	0.0062	0.0	4	1368	0		13	0		0	1	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.11.contigs__	lost30	SF2_A_D2	Sulfurovum	76.91	3.48	1462504	309	5060	1.14041	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_concoct_out.33.contigs__	lost30	SF2_A_H2O	VMCP01	93.17	3.87	2086774	144	22701	2.14243	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.28.contigs__	lost30	SF2_A_H2O	MAG-120531	82.31	3.11	1753787	194	11863	1.9894	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.34.contigs__	lost30	SF2_A_H2O	VMDJ01	90.08	2.73	1645797	195	10988	1.57056	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaGSF2_B_D1_MG_DASTool_bins_concoct_out.44.contigs__	lost30	SF2_B_D1	Yeosuana	83.2	8.99	2934897	462	7199	2.14378	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.19.contigs__	lost30	SF2_B_H2O	Planktomarina	83.94	3.06	2220081	370	6779	1.57472	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.39.contigs__	lost30	SF2_B_H2O	D2472	84.48	8.62	1130560	50	37916	15.1383	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+R1_A_D1	kbase2026	Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.25.contigs__	lost30	SF2_C_D2		80.41	4.28	3082290	477	7251	1.97775	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_concoct_out.13.contigs__	derep310	SF2_C_D1	Sulfurovum	95.61	15.1	2373324	402	6868	1.54649	0.3669	0.7082	0.1058	484	1884	0		958	1443		0	93	1	0.0013	1.124
+SF2_C_D1	armA	Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_concoct_out.23.contigs.fa_assembly	nonderep140	SF2_C_D1				4708085	605	9518	3.08505	0.5242	0.8277	0.2725	1127	2671	1114		1891	2058		12	259	2	0.0024	1.0
+SF2_C_D1	armA	Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_metabat.11.contigs.fa_assembly	nonderep140	SF2_C_D1				2477372	197	20283	4.16687	0.7639	0.8918	0.5281	698	3406	2562		871	2907	804	11	114	0	0.0	0.993
+SF2_C_D1	armA	Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_concoct_out.21.contigs.fa_assembly	nonderep140	SF2_C_D1				4173000	371	15518	2.82303	0.7942	0.8689	0.5322	1232	3317	2607		1404	2772		31	244	0	0.0	0.997
+SF2_C_D1	armA	Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_metabat.6.contigs.fa_assembly	nonderep140	SF2_C_D1				3966841	380	14363	2.60108	0.6233	0.7813	0.2763	1204	2338	1464		1611	1757		5	212	1	0.0007	0.987
+SF2_C_D1	armA	Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.51.contigs__	lost30	R1_A_D2	UBA9300	77.76	3.92	2443255	467	5574	1.20027	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.49.contigs__	lost30	R1_B_D1	DSBN01	83.16	5.99	2883566	644	4694	0.917593	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs__	lost30	R1_B_D2	Halanaerobium	76.23	5.55	2242436	470	4926	1.33422	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_concoct_out.22.contigs__	lost30	R1_B_H2O	Guyparkeria	88.44	1.44	2103648	251	10185	2.90992	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.11.contigs__	lost30	R1_B_H2O	Psychroflexus	99.11	0.57	2693220	121	39521	5.4082	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.5.contigs__	lost30	R1_B_H2O	Vreelandella	92.27	9.27	3203741	476	8556	1.99143	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_concoct_out.45.contigs__	lost30	R1_C_D1	DSBN01	82.72	3.51	2928114	635	4878	1.08663	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_metabat.31.contigs__	lost30	R1_C_D1	Natrinema	82.03	4.16	2818050	509	6106	1.62869	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.16.contigs__	lost30	R1_C_H2O	CAZUKV01	77.2	2.88	1766180	326	5906	1.59371	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.79.contigs__	lost30	R1_C_H2O	Roseovarius	79.51	7.81	2803883	489	6444	2.24107	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_metabat.23.contigs__	lost30	R1_C_H2O	Spiribacter	87.1	7.8	1857591	181	17917	4.51644	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.42.contigs__	lost30	R2A_A_D1	Christiangramia	86.65	2.89	2992562	442	8592	1.30157	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.143.contigs__	lost30	R2_B_D2	Roseovarius	90.86	9.4	3715211	295	17992	4.70251	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.12.contigs__	lost30	R2_restored_DShore	Kariarchaeum	86.92	4.21	4782018	424	14987	2.96664	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.2.contigs__	lost30	R2_restored_DShore	DATFLG01	84.88	2.79	2812285	205	15834	3.90077	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.20.contigs__	lost30	R2_restored_DShore	JBBDSH01	83.69	4.88	3187718	141	26721	4.34414	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.40.contigs__	lost30	R2_restored_DShore		82.11	8.46	3294236	515	7326	2.35306	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.89.contigs__	lost30	R2_restored_DShore	Halofilum	92.03	4.96	3858666	330	15575	3.66069	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.11.contigs__	lost30	R2_restored_DShore	Fodinibius	92.9	7.69	4896743	475	15653	3.00851	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.18.contigs__	lost30	R2_restored_DShore	Thiohalophilus	79.46	7.72	3374596	625	5845	2.14198	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_concoct_out.34.contigs__	lost30	R2_restored_H2O	Pontimonas	86.56	2.38	1342987	136	12643	2.18118	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_maxbin.017.contigs__	lost30	R2_restored_H2O	S36-B12	79.6	3.33	3330263	588	6404	2.26352	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.11.contigs__	lost30	SF2_A_D2	Sulfurovum	76.91	3.48	1462504	309	5060	1.14041	0.1672	0.5059	0.0358	132	1983	0		404	0		0	9	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_concoct_out.33.contigs__	lost30	SF2_A_H2O	VMCP01	93.17	3.87	2086774	144	22701	2.14243	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.28.contigs__	lost30	SF2_A_H2O	MAG-120531	82.31	3.11	1753787	194	11863	1.9894	0.0008	0.0019	0.0004	0	0	0		1	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.34.contigs__	lost30	SF2_A_H2O	VMDJ01	90.08	2.73	1645797	195	10988	1.57056	0.0	0.0006	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaGSF2_B_D1_MG_DASTool_bins_concoct_out.44.contigs__	lost30	SF2_B_D1	Yeosuana	83.2	8.99	2934897	462	7199	2.14378	0.0182	0.0311	0.0	35	1139	0		62	0		0	3	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.19.contigs__	lost30	SF2_B_H2O	Planktomarina	83.94	3.06	2220081	370	6779	1.57472	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.39.contigs__	lost30	SF2_B_H2O	D2472	84.48	8.62	1130560	50	37916	15.1383	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armA	Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.25.contigs__	lost30	SF2_C_D2		80.41	4.28	3082290	477	7251	1.97775	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_concoct_out.13.contigs__	derep310	SF2_C_D1	Sulfurovum	95.61	15.1	2373324	402	6868	1.54649	0.3463	0.7005	0.0925	454	1854	0		974	1389		0	93	0	0.0	0.449
+SF2_C_D1	armB	Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_concoct_out.23.contigs.fa_assembly	nonderep140	SF2_C_D1				4708085	605	9518	3.08505	0.4823	0.7558	0.1973	1165	2264	0		1971	1589		12	243	0	0.0	0.348
+SF2_C_D1	armB	Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_metabat.11.contigs.fa_assembly	nonderep140	SF2_C_D1				2477372	197	20283	4.16687	0.6408	0.7581	0.2529	796	2152	1437		990	1658		2	115	0	0.0	0.316
+SF2_C_D1	armB	Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_concoct_out.21.contigs.fa_assembly	nonderep140	SF2_C_D1				4173000	371	15518	2.82303	0.7682	0.8519	0.4792	1238	3113	2335		1428	2482		23	241	0	0.0	0.353
+SF2_C_D1	armB	Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_metabat.6.contigs.fa_assembly	nonderep140	SF2_C_D1				3966841	380	14363	2.60108	0.5548	0.6914	0.166	1226	1963	1139		1578	1370		4	209	0	0.0	0.341
+SF2_C_D1	armB	Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.51.contigs__	lost30	R1_A_D2	UBA9300	77.76	3.92	2443255	467	5574	1.20027	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.49.contigs__	lost30	R1_B_D1	DSBN01	83.16	5.99	2883566	644	4694	0.917593	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs__	lost30	R1_B_D2	Halanaerobium	76.23	5.55	2242436	470	4926	1.33422	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_concoct_out.22.contigs__	lost30	R1_B_H2O	Guyparkeria	88.44	1.44	2103648	251	10185	2.90992	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.11.contigs__	lost30	R1_B_H2O	Psychroflexus	99.11	0.57	2693220	121	39521	5.4082	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.5.contigs__	lost30	R1_B_H2O	Vreelandella	92.27	9.27	3203741	476	8556	1.99143	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_concoct_out.45.contigs__	lost30	R1_C_D1	DSBN01	82.72	3.51	2928114	635	4878	1.08663	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_metabat.31.contigs__	lost30	R1_C_D1	Natrinema	82.03	4.16	2818050	509	6106	1.62869	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.16.contigs__	lost30	R1_C_H2O	CAZUKV01	77.2	2.88	1766180	326	5906	1.59371	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.79.contigs__	lost30	R1_C_H2O	Roseovarius	79.51	7.81	2803883	489	6444	2.24107	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_metabat.23.contigs__	lost30	R1_C_H2O	Spiribacter	87.1	7.8	1857591	181	17917	4.51644	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.42.contigs__	lost30	R2A_A_D1	Christiangramia	86.65	2.89	2992562	442	8592	1.30157	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.143.contigs__	lost30	R2_B_D2	Roseovarius	90.86	9.4	3715211	295	17992	4.70251	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.12.contigs__	lost30	R2_restored_DShore	Kariarchaeum	86.92	4.21	4782018	424	14987	2.96664	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.2.contigs__	lost30	R2_restored_DShore	DATFLG01	84.88	2.79	2812285	205	15834	3.90077	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.20.contigs__	lost30	R2_restored_DShore	JBBDSH01	83.69	4.88	3187718	141	26721	4.34414	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.40.contigs__	lost30	R2_restored_DShore		82.11	8.46	3294236	515	7326	2.35306	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.89.contigs__	lost30	R2_restored_DShore	Halofilum	92.03	4.96	3858666	330	15575	3.66069	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.11.contigs__	lost30	R2_restored_DShore	Fodinibius	92.9	7.69	4896743	475	15653	3.00851	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.18.contigs__	lost30	R2_restored_DShore	Thiohalophilus	79.46	7.72	3374596	625	5845	2.14198	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_concoct_out.34.contigs__	lost30	R2_restored_H2O	Pontimonas	86.56	2.38	1342987	136	12643	2.18118	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_maxbin.017.contigs__	lost30	R2_restored_H2O	S36-B12	79.6	3.33	3330263	588	6404	2.26352	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.11.contigs__	lost30	SF2_A_D2	Sulfurovum	76.91	3.48	1462504	309	5060	1.14041	0.1449	0.5033	0.0286	117	1773	0		411	0		0	9	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_concoct_out.33.contigs__	lost30	SF2_A_H2O	VMCP01	93.17	3.87	2086774	144	22701	2.14243	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.28.contigs__	lost30	SF2_A_H2O	MAG-120531	82.31	3.11	1753787	194	11863	1.9894	0.0005	0.0021	0.0005	0	0	0		1	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.34.contigs__	lost30	SF2_A_H2O	VMDJ01	90.08	2.73	1645797	195	10988	1.57056	0.0003	0.0009	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaGSF2_B_D1_MG_DASTool_bins_concoct_out.44.contigs__	lost30	SF2_B_D1	Yeosuana	83.2	8.99	2934897	462	7199	2.14378	0.0159	0.0312	0.0	28	1168	0		57	0		0	1	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.19.contigs__	lost30	SF2_B_H2O	Planktomarina	83.94	3.06	2220081	370	6779	1.57472	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.39.contigs__	lost30	SF2_B_H2O	D2472	84.48	8.62	1130560	50	37916	15.1383	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	armB	Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.25.contigs__	lost30	SF2_C_D2		80.41	4.28	3082290	477	7251	1.97775	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_concoct_out.13.contigs__	derep310	SF2_C_D1	Sulfurovum	95.61	15.1	2373324	402	6868	1.54649	0.3238	0.6519	0.0714	437	1852	0		928	1238		1	80	0	0.0	0.574
+SF2_C_D1	kbase2026	Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_concoct_out.23.contigs.fa_assembly	nonderep140	SF2_C_D1				4708085	605	9518	3.08505	0.4698	0.729	0.1747	1156	2163	0		1943	1474		9	264	0	0.0	0.378
+SF2_C_D1	kbase2026	Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_metabat.11.contigs.fa_assembly	nonderep140	SF2_C_D1				2477372	197	20283	4.16687	0.6793	0.7798	0.2681	865	2187	1521		1033	1686		4	115	0	0.0	0.308
+SF2_C_D1	kbase2026	Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_concoct_out.21.contigs.fa_assembly	nonderep140	SF2_C_D1				4173000	371	15518	2.82303	0.7726	0.8524	0.5184	1168	3543	2547		1332	2781		31	236	0	0.0	0.411
+SF2_C_D1	kbase2026	Salt_Pond_MetaGSF2_C_D1_MG_DASTool_bins_metabat.6.contigs.fa_assembly	nonderep140	SF2_C_D1				3966841	380	14363	2.60108	0.5933	0.7113	0.219	1233	2139	1273		1517	1529		7	214	0	0.0	0.415
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_concoct_out.51.contigs__	lost30	R1_A_D2	UBA9300	77.76	3.92	2443255	467	5574	1.20027	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.49.contigs__	lost30	R1_B_D1	DSBN01	83.16	5.99	2883566	644	4694	0.917593	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs__	lost30	R1_B_D2	Halanaerobium	76.23	5.55	2242436	470	4926	1.33422	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_concoct_out.22.contigs__	lost30	R1_B_H2O	Guyparkeria	88.44	1.44	2103648	251	10185	2.90992	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.11.contigs__	lost30	R1_B_H2O	Psychroflexus	99.11	0.57	2693220	121	39521	5.4082	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R1_B_H2O_MG_DASTool_bins_metabat.5.contigs__	lost30	R1_B_H2O	Vreelandella	92.27	9.27	3203741	476	8556	1.99143	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_concoct_out.45.contigs__	lost30	R1_C_D1	DSBN01	82.72	3.51	2928114	635	4878	1.08663	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_metabat.31.contigs__	lost30	R1_C_D1	Natrinema	82.03	4.16	2818050	509	6106	1.62869	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.16.contigs__	lost30	R1_C_H2O	CAZUKV01	77.2	2.88	1766180	326	5906	1.59371	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_concoct_out.79.contigs__	lost30	R1_C_H2O	Roseovarius	79.51	7.81	2803883	489	6444	2.24107	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R1_C_H2O_MG_DASTool_bins_metabat.23.contigs__	lost30	R1_C_H2O	Spiribacter	87.1	7.8	1857591	181	17917	4.51644	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R2A_A_D1_MG_DASTool_bins_concoct_out.42.contigs__	lost30	R2A_A_D1	Christiangramia	86.65	2.89	2992562	442	8592	1.30157	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_concoct_out.143.contigs__	lost30	R2_B_D2	Roseovarius	90.86	9.4	3715211	295	17992	4.70251	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.12.contigs__	lost30	R2_restored_DShore	Kariarchaeum	86.92	4.21	4782018	424	14987	2.96664	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.2.contigs__	lost30	R2_restored_DShore	DATFLG01	84.88	2.79	2812285	205	15834	3.90077	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.20.contigs__	lost30	R2_restored_DShore	JBBDSH01	83.69	4.88	3187718	141	26721	4.34414	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.40.contigs__	lost30	R2_restored_DShore		82.11	8.46	3294236	515	7326	2.35306	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_concoct_out.89.contigs__	lost30	R2_restored_DShore	Halofilum	92.03	4.96	3858666	330	15575	3.66069	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.11.contigs__	lost30	R2_restored_DShore	Fodinibius	92.9	7.69	4896743	475	15653	3.00851	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R2_restored_DShore_MG_DASTool_bins_metabat.18.contigs__	lost30	R2_restored_DShore	Thiohalophilus	79.46	7.72	3374596	625	5845	2.14198	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_concoct_out.34.contigs__	lost30	R2_restored_H2O	Pontimonas	86.56	2.38	1342987	136	12643	2.18118	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaG_R2_restored_H2O_MG_DASTool_bins_maxbin.017.contigs__	lost30	R2_restored_H2O	S36-B12	79.6	3.33	3330263	588	6404	2.26352	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaGSF2_A_D2_MG_DASTool_bins_concoct_out.11.contigs__	lost30	SF2_A_D2	Sulfurovum	76.91	3.48	1462504	309	5060	1.14041	0.136	0.4872	0.0288	109	1785	0		411	0		2	10	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_concoct_out.33.contigs__	lost30	SF2_A_H2O	VMCP01	93.17	3.87	2086774	144	22701	2.14243	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.28.contigs__	lost30	SF2_A_H2O	MAG-120531	82.31	3.11	1753787	194	11863	1.9894	0.0008	0.0015	0.0004	0	0	0		1	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaGSF2_A_H2O_MG_DASTool_bins_metabat.34.contigs__	lost30	SF2_A_H2O	VMDJ01	90.08	2.73	1645797	195	10988	1.57056	0.0	0.0004	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaGSF2_B_D1_MG_DASTool_bins_concoct_out.44.contigs__	lost30	SF2_B_D1	Yeosuana	83.2	8.99	2934897	462	7199	2.14378	0.0131	0.0314	0.0	27	1226	0		64	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.19.contigs__	lost30	SF2_B_H2O	Planktomarina	83.94	3.06	2220081	370	6779	1.57472	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaGSF2_B_H2O_MG_DASTool_bins_metabat.39.contigs__	lost30	SF2_B_H2O	D2472	84.48	8.62	1130560	50	37916	15.1383	0.0	0.0	0.0	0	0	0		0	0		0	0	0	0.0	
+SF2_C_D1	kbase2026	Salt_Pond_MetaGSF2_C_D2_MG_DASTool_bins_concoct_out.25.contigs__	lost30	SF2_C_D2		80.41	4.28	3082290	477	7251	1.97775	0.0	0.0002	0.0	0	0	0		0	0		0	0	0	0.0	

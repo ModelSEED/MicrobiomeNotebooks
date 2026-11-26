@@ -1,0 +1,35 @@
+[2026-11-15 09:59:27] START watching 11 MEGAHIT jobs (pid 620396)
+[2026-11-15 09:59:27] SRR13021855_reads.MEGAHIT.assembly None -> queued
+[2026-11-15 09:59:27] SRR11837711_reads.MEGAHIT.assembly None -> queued
+[2026-11-15 09:59:27] SRR12172649_reads.MEGAHIT.assembly None -> queued
+[2026-11-15 09:59:27] SRR12951270_reads.MEGAHIT.assembly None -> queued
+[2026-11-15 09:59:27] SRR4242551_reads.MEGAHIT.assembly None -> queued
+[2026-11-15 09:59:27] SRR5817588_reads.MEGAHIT.assembly None -> queued
+[2026-11-15 09:59:27] SRR5817589_reads.MEGAHIT.assembly None -> queued
+[2026-11-15 09:59:27] SRR5817590_reads.MEGAHIT.assembly None -> queued
+[2026-11-15 09:59:27] SRR6193119_reads.MEGAHIT.assembly None -> queued
+[2026-11-15 09:59:27] SRR6307338_reads.MEGAHIT.assembly None -> queued
+[2026-11-15 09:59:27] SRR8554905_reads.MEGAHIT.assembly None -> queued
+[2026-11-15 19:29:29] SRR13021855_reads.MEGAHIT.assembly queued -> running
+[2026-11-15 20:29:29] SRR11837711_reads.MEGAHIT.assembly queued -> running
+[2026-11-15 21:59:30] SRR12172649_reads.MEGAHIT.assembly queued -> running
+[2026-11-15 23:29:31] SRR13021855_reads.MEGAHIT.assembly running -> completed
+[2026-11-15 23:29:31] SRR12951270_reads.MEGAHIT.assembly queued -> running
+[2026-11-15 23:59:31] SRR4242551_reads.MEGAHIT.assembly queued -> running
+[2026-11-16 01:29:32] SRR5817588_reads.MEGAHIT.assembly queued -> running
+[2026-11-16 06:29:36] SRR12951270_reads.MEGAHIT.assembly running -> completed
+[2026-11-16 06:29:36] SRR5817589_reads.MEGAHIT.assembly queued -> running
+[2026-11-16 10:29:39] SRR5817590_reads.MEGAHIT.assembly queued -> running
+[2026-11-16 10:29:40] SRR6193119_reads.MEGAHIT.assembly queued -> running
+[2026-11-16 14:29:44] SRR6307338_reads.MEGAHIT.assembly queued -> running
+[2026-11-16 15:59:45] SRR11837711_reads.MEGAHIT.assembly running -> completed
+[2026-11-16 15:59:46] SRR8554905_reads.MEGAHIT.assembly queued -> running
+[2026-11-16 16:29:46] SRR6193119_reads.MEGAHIT.assembly running -> completed
+[2026-11-16 18:29:48] SRR12172649_reads.MEGAHIT.assembly running -> completed
+[2026-11-16 22:59:53] SRR6307338_reads.MEGAHIT.assembly running -> completed
+[2026-11-17 02:29:55] SRR5817589_reads.MEGAHIT.assembly running -> completed
+[2026-11-17 02:59:55] SRR8554905_reads.MEGAHIT.assembly running -> completed
+[2026-11-17 04:29:55] SRR5817588_reads.MEGAHIT.assembly running -> completed
+[2026-11-17 05:59:56] SRR5817590_reads.MEGAHIT.assembly running -> completed
+[2026-11-17 11:29:57] SRR4242551_reads.MEGAHIT.assembly running -> completed
+[2026-11-17 11:29:57] ALLDONE {"SRR13021855_reads.MEGAHIT.assembly": "completed", "SRR11837711_reads.MEGAHIT.assembly": "completed", "SRR12172649_reads.MEGAHIT.assembly": "completed", "SRR12951270_reads.MEGAHIT.assembly": "completed", "SRR4242551_reads.MEGAHIT.assembly": "completed", "SRR5817588_reads.MEGAHIT.assembly": "completed", "SRR5817589_reads.MEGAHIT.assembly": "completed", "SRR5817590_reads.MEGAHIT.assembly": "completed", "SRR6193119_reads.MEGAHIT.assembly": "completed", "SRR6307338_reads.MEGAHIT.assembly": "completed", "SRR8554905_reads.MEGAHIT.assembly": "completed"}

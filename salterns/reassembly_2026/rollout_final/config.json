@@ -1,0 +1,1243 @@
+{
+ "cores": 336,
+ "cap_max": 256,
+ "cap_min": 64,
+ "headroom": 16,
+ "mem_floor_gb": 400,
+ "settle_s": 120,
+ "poll_s": 20,
+ "sched_s": 120,
+ "retry_wait_s": 300,
+ "min_free_scratch_gb": 1000,
+ "max_rollout_gb": 2600,
+ "tmp_min_free_gb": 10,
+ "kind_limits": {
+  "dl": 4,
+  "reads": 4,
+  "asm": 6,
+  "checkm2": 3,
+  "checkm1": 3,
+  "gtdbtk": 1,
+  "import": 2
+ },
+ "group_limits": {
+  "prep": {
+   "kinds": [
+    "merge",
+    "tadpole",
+    "qtrimasm"
+   ],
+   "max": 3
+  },
+  "qc": {
+   "kinds": [
+    "checkm2",
+    "gunc",
+    "checkm1"
+   ],
+   "max": 6
+  }
+ },
+ "prep_buffer": 2,
+ "asm_lane_threads": 40,
+ "background_cap": 16,
+ "attempts": {
+  "default": 2,
+  "dl": 3,
+  "asm": 4
+ },
+ "spades": {
+  "klist": "33,55,77,99,127",
+  "mem_gb": [
+   400,
+   800
+  ],
+  "reserve_gb": [
+   80,
+   400
+  ]
+ },
+ "heap": {
+  "xms": "8g",
+  "le9": "150g",
+  "gt9": "200g",
+  "oom": "250g",
+  "small": "16g",
+  "split_bases": 9000000000
+ },
+ "tools": {
+  "py": "/scratch1/afreiburger/salterns_2026/envs/bt_map/bin/python",
+  "sra": "/scratch1/afreiburger/metag-hybrid/env/miniforge/envs/sra/bin",
+  "bbtools": "/scratch1/afreiburger/emilykin/processed/reanalysis_norm/env_bbtools/bin",
+  "spades": "/scratch1/afreiburger/salterns_2026/envs/spades3153/bin",
+  "map": "/scratch1/afreiburger/salterns_2026/envs/bt_map/bin",
+  "metabat2": "/scratch1/afreiburger/salterns_2026/envs/bt_metabat2/bin",
+  "maxbin2": "/scratch1/afreiburger/salterns_2026/envs/bt_maxbin2/bin",
+  "concoct": "/scratch1/afreiburger/salterns_2026/envs/bt_concoct/bin",
+  "dastool": "/scratch1/afreiburger/salterns_2026/envs/bt_dastool/bin",
+  "gunc": "/scratch1/afreiburger/salterns_2026/envs/bt_gunc/bin",
+  "qcenv": "/scratch1/afreiburger/emilykin/processed/.snakemake_envs/8c703f8abdc13cdc1ef374a2bcf37f14_/bin",
+  "checkm2_db": "/scratch1/afreiburger/emilykin/processed/refdata/checkm2/CheckM2_database/uniref100.KO.1.dmnd",
+  "checkm1": "/scratch1/afreiburger/salterns_2026/envs/bt_checkm1/bin",
+  "checkm1_env_ok": "/scratch1/afreiburger/salterns_2026/envs/.bt_setup/checkm1.ok",
+  "checkm1_data": "/scratch1/afreiburger/salterns_2026/binning_test/refdata/checkm1",
+  "gunc_db_dir": "/scratch1/afreiburger/salterns_2026/binning_test/refdata/gunc"
+ },
+ "binning_test_root": "/scratch1/afreiburger/salterns_2026/binning_test",
+ "root": "/scratch1/afreiburger/salterns_2026/rollout",
+ "name": "rollout",
+ "host": "poplar",
+ "threads": {
+  "dl": 6,
+  "reads": 16,
+  "merge": 16,
+  "tadpole": 16,
+  "qtrimasm": 16,
+  "asm": 24,
+  "contigs": 1,
+  "idx": 16,
+  "map": 16,
+  "metabat2": 16,
+  "maxbin2": 16,
+  "concoct": 16,
+  "dastool": 16,
+  "checkm2": 16,
+  "gunc": 16,
+  "checkm1": 16,
+  "keep": 1,
+  "import": 2,
+  "gtdbtk": 48,
+  "report": 1
+ },
+ "reserve_gb": {
+  "dl": 4,
+  "reads": 20,
+  "merge": 150,
+  "tadpole": 150,
+  "qtrimasm": 20,
+  "asm": 80,
+  "contigs": 2,
+  "idx": 10,
+  "map": 10,
+  "depth": 10,
+  "metabat2": 10,
+  "maxbin2": 15,
+  "concoct": 30,
+  "dastool": 20,
+  "checkm2": 40,
+  "gunc": 30,
+  "checkm1": 40,
+  "keep": 2,
+  "import": 4,
+  "gtdbtk": 170,
+  "report": 4
+ },
+ "gtdbtk": {
+  "env_bin": "/scratch1/afreiburger/salterns_2026/envs/gtdbtk280/bin",
+  "env_ok": "/scratch1/afreiburger/salterns_2026/envs/.ro_setup/gtdbtk280.ok",
+  "data_ok": "/scratch1/afreiburger/salterns_2026/refdata/gtdbtk_r232/.ok",
+  "fail_markers": [
+   "/scratch1/afreiburger/salterns_2026/envs/.ro_setup/gtdbtk280.FAIL",
+   "/scratch1/afreiburger/salterns_2026/refdata/gtdbtk_r232/.FAIL"
+  ],
+  "cpus": 48,
+  "pplacer_cpus": 8,
+  "min_perc_aa": 10
+ },
+ "old_table": "/scratch1/afreiburger/salterns_2026/rollout/inputs/mags_old_vs_new.tsv",
+ "libraries": {
+  "R1_A_D1": {
+   "srr": "SRR5209943",
+   "spots": 29912586,
+   "bases": 9033600972,
+   "group": "R1",
+   "reuse": "/scratch1/afreiburger/salterns_2026/binning_test/reads/R1_A_D1",
+   "reuse_lib": "R1_A_D1"
+  },
+  "R1_A_D2": {
+   "srr": "SRR5209944",
+   "spots": 29528975,
+   "bases": 8917750450,
+   "group": "R1",
+   "reuse": "/scratch1/afreiburger/salterns_2026/binning_test/reads/R1_A_D2",
+   "reuse_lib": "R1_A_D2"
+  },
+  "R1_B_D1": {
+   "srr": "SRR5209942",
+   "spots": 31561567,
+   "bases": 9531593234,
+   "group": "R1",
+   "reuse": "/scratch1/afreiburger/salterns_2026/binning_test/reads/R1_B_D1",
+   "reuse_lib": "R1_B_D1"
+  },
+  "R1_B_D2": {
+   "srr": "SRR5209946",
+   "spots": 29962930,
+   "bases": 9048804860,
+   "group": "R1",
+   "reuse": "/scratch1/afreiburger/salterns_2026/binning_test/reads/R1_B_D2",
+   "reuse_lib": "R1_B_D2"
+  },
+  "R1_C_D1": {
+   "srr": "SRR14626311",
+   "spots": 24762359,
+   "bases": 7478232418,
+   "group": "R1",
+   "reuse": "/scratch1/afreiburger/salterns_2026/binning_test/reads/R1_C_D1",
+   "reuse_lib": "R1_C_D1"
+  },
+  "R1_C_D2": {
+   "srr": "SRR5468416",
+   "spots": 24475611,
+   "bases": 7391634522,
+   "group": "R1",
+   "reuse": "/scratch1/afreiburger/salterns_2026/binning_test/reads/R1_C_D2",
+   "reuse_lib": "R1_C_D2"
+  },
+  "R2_A_D1": {
+   "srr": "SRR5468419",
+   "spots": 33473782,
+   "bases": 10109082164,
+   "group": "R2"
+  },
+  "R2_A_D2": {
+   "srr": "SRR14626312",
+   "spots": 28594005,
+   "bases": 8635389510,
+   "group": "R2"
+  },
+  "R2_B_D1": {
+   "srr": "SRR5209945",
+   "spots": 25008374,
+   "bases": 7552528948,
+   "group": "R2"
+  },
+  "R2_B_D2": {
+   "srr": "SRR6056297",
+   "spots": 41193859,
+   "bases": 12440545418,
+   "group": "R2"
+  },
+  "R2_C_D1": {
+   "srr": "SRR5210208",
+   "spots": 27605335,
+   "bases": 8336811170,
+   "group": "R2"
+  },
+  "R2_C_D2": {
+   "srr": "SRR10375808",
+   "spots": 21225786,
+   "bases": 6410187372,
+   "group": "R2"
+  },
+  "R2_restored_C_black": {
+   "srr": "SRR5210210",
+   "spots": 28396869,
+   "bases": 8575854438,
+   "group": "R2"
+  },
+  "R2_restored_D_shore": {
+   "srr": "SRR5210213",
+   "spots": 22672420,
+   "bases": 6847070840,
+   "group": "R2"
+  },
+  "SF2_A_D1": {
+   "srr": "SRR14626156",
+   "spots": 31299322,
+   "bases": 9452395244,
+   "group": "SF2",
+   "reuse": "/scratch1/afreiburger/salterns_2026/binning_test/reads/SF2_A_D1",
+   "reuse_lib": "SF2_A_D1"
+  },
+  "SF2_A_D2": {
+   "srr": "SRR5210466",
+   "spots": 32301253,
+   "bases": 9754978406,
+   "group": "SF2",
+   "reuse": "/scratch1/afreiburger/salterns_2026/binning_test/reads/SF2_A_D2",
+   "reuse_lib": "SF2_A_D2"
+  },
+  "SF2_B_D1": {
+   "srr": "SRR6056278",
+   "spots": 29705253,
+   "bases": 8970986406,
+   "group": "SF2",
+   "reuse": "/scratch1/afreiburger/salterns_2026/binning_test/reads/SF2_B_D1",
+   "reuse_lib": "SF2_B_D1"
+  },
+  "SF2_B_D2": {
+   "srr": "SRR5210469",
+   "spots": 30443313,
+   "bases": 9193880526,
+   "group": "SF2",
+   "reuse": "/scratch1/afreiburger/salterns_2026/binning_test/reads/SF2_B_D2",
+   "reuse_lib": "SF2_B_D2"
+  },
+  "SF2_C_D1": {
+   "srr": "SRR5210468",
+   "spots": 30085210,
+   "bases": 9085733420,
+   "group": "SF2",
+   "reuse": "/scratch1/afreiburger/salterns_2026/binning_test/reads/SF2_C_D1",
+   "reuse_lib": "SF2_C_D1"
+  },
+  "SF2_C_D2": {
+   "srr": "SRR6056298",
+   "spots": 32685977,
+   "bases": 9871165054,
+   "group": "SF2",
+   "reuse": "/scratch1/afreiburger/salterns_2026/binning_test/reads/SF2_C_D2",
+   "reuse_lib": "SF2_C_D2"
+  },
+  "R2A_A_D1": {
+   "srr": "SRR5210214",
+   "spots": 28333786,
+   "bases": 8556803372,
+   "group": "R2A"
+  },
+  "R2A_A_D2": {
+   "srr": "SRR5468417",
+   "spots": 29137322,
+   "bases": 8799471244,
+   "group": "R2A"
+  },
+  "R2A_B_D1": {
+   "srr": "SRR5468418",
+   "spots": 22035020,
+   "bases": 6654576040,
+   "group": "R2A"
+  },
+  "R2A_B_D2": {
+   "srr": "SRR5210212",
+   "spots": 23572093,
+   "bases": 7118772086,
+   "group": "R2A"
+  },
+  "R2A_C_D1": {
+   "srr": "SRR5210316",
+   "spots": 23001024,
+   "bases": 6946309248,
+   "group": "R2A"
+  },
+  "R2A_C_D2": {
+   "srr": "SRR5210470",
+   "spots": 27587761,
+   "bases": 8331503822,
+   "group": "R2A"
+  },
+  "R1_A_H2O": {
+   "srr": "SRR5209947",
+   "spots": 27174849,
+   "bases": 8206804398,
+   "group": "R1",
+   "reuse": "/scratch1/afreiburger/salterns_2026/binning_test/reads/R1_A_H2O",
+   "reuse_lib": "R1_A_H2O"
+  },
+  "R1_B_H2O": {
+   "srr": "SRR6056296",
+   "spots": 33290113,
+   "bases": 10053614126,
+   "group": "R1",
+   "reuse": "/scratch1/afreiburger/salterns_2026/binning_test/reads/R1_B_H2O",
+   "reuse_lib": "R1_B_H2O"
+  },
+  "R1_C_H2O": {
+   "srr": "SRR14626313",
+   "spots": 31833869,
+   "bases": 9613828438,
+   "group": "R1",
+   "reuse": "/scratch1/afreiburger/salterns_2026/binning_test/reads/R1_C_H2O",
+   "reuse_lib": "R1_C_H2O"
+  },
+  "R2_A_H2O": {
+   "srr": "SRR14626314",
+   "spots": 27587359,
+   "bases": 8331382418,
+   "group": "R2"
+  },
+  "R2_B_H2O": {
+   "srr": "SRR5209948",
+   "spots": 20319661,
+   "bases": 6136537622,
+   "group": "R2"
+  },
+  "R2_C_H2O": {
+   "srr": "SRR5210216",
+   "spots": 25501724,
+   "bases": 7701520648,
+   "group": "R2"
+  },
+  "R2_restored_H2O": {
+   "srr": "SRR5210209",
+   "spots": 27957805,
+   "bases": 8443257110,
+   "group": "R2"
+  },
+  "SF2_A_H2O": {
+   "srr": "SRR5210317",
+   "spots": 40179851,
+   "bases": 12134315002,
+   "group": "SF2",
+   "reuse": "/scratch1/afreiburger/salterns_2026/binning_test/reads/SF2_A_H2O",
+   "reuse_lib": "SF2_A_H2O"
+  },
+  "SF2_B_H2O": {
+   "srr": "SRR6056300",
+   "spots": 39550538,
+   "bases": 11944262476,
+   "group": "SF2",
+   "reuse": "/scratch1/afreiburger/salterns_2026/binning_test/reads/SF2_B_H2O",
+   "reuse_lib": "SF2_B_H2O"
+  },
+  "SF2_C_H2O": {
+   "srr": "SRR6056279",
+   "spots": 33870765,
+   "bases": 10228971030,
+   "group": "SF2",
+   "reuse": "/scratch1/afreiburger/salterns_2026/binning_test/reads/SF2_C_H2O",
+   "reuse_lib": "SF2_C_H2O"
+  },
+  "R2A_A_H2O": {
+   "srr": "SRR5210215",
+   "spots": 31949632,
+   "bases": 9648788864,
+   "group": "R2A"
+  },
+  "R2A_B_H2O": {
+   "srr": "SRR5210211",
+   "spots": 27822027,
+   "bases": 8402252154,
+   "group": "R2A"
+  },
+  "R2A_C_H2O": {
+   "srr": "SRR5210467",
+   "spots": 33788532,
+   "bases": 10204136664,
+   "group": "R2A"
+  }
+ },
+ "samples": {
+  "R2_restored_D_shore": {
+   "lib": "R2_restored_D_shore",
+   "group": [
+    "R2_A_D1",
+    "R2_A_D2",
+    "R2_A_H2O",
+    "R2_B_D1",
+    "R2_B_D2",
+    "R2_B_H2O",
+    "R2_C_D1",
+    "R2_C_D2",
+    "R2_C_H2O",
+    "R2_restored_C_black",
+    "R2_restored_D_shore",
+    "R2_restored_H2O"
+   ],
+   "group_name": "R2",
+   "order": 0,
+   "bases": 6847070840,
+   "unit": "R2_restored_D_shore"
+  },
+  "SF2_A_H2O": {
+   "lib": "SF2_A_H2O",
+   "group": [
+    "SF2_A_D1",
+    "SF2_A_D2",
+    "SF2_A_H2O",
+    "SF2_B_D1",
+    "SF2_B_D2",
+    "SF2_B_H2O",
+    "SF2_C_D1",
+    "SF2_C_D2",
+    "SF2_C_H2O"
+   ],
+   "group_name": "SF2",
+   "order": 1,
+   "bases": 12134315002,
+   "unit": "SF2_A_H2O"
+  },
+  "R1_A_D1": {
+   "lib": "R1_A_D1",
+   "group": [
+    "R1_A_D1",
+    "R1_A_D2",
+    "R1_A_H2O",
+    "R1_B_D1",
+    "R1_B_D2",
+    "R1_B_H2O",
+    "R1_C_D1",
+    "R1_C_D2",
+    "R1_C_H2O"
+   ],
+   "group_name": "R1",
+   "order": 2,
+   "bases": 9033600972,
+   "unit": "R1_A_D1",
+   "import_from": {
+    "bt_sample": "R1_A_D1",
+    "pilot_dir": "/scratch1/afreiburger/salterns_2026/tadpole_pilot/R1_A_D1"
+   }
+  },
+  "R1_A_D2": {
+   "lib": "R1_A_D2",
+   "group": [
+    "R1_A_D1",
+    "R1_A_D2",
+    "R1_A_H2O",
+    "R1_B_D1",
+    "R1_B_D2",
+    "R1_B_H2O",
+    "R1_C_D1",
+    "R1_C_D2",
+    "R1_C_H2O"
+   ],
+   "group_name": "R1",
+   "order": 3,
+   "bases": 8917750450,
+   "unit": "R1_A_D2"
+  },
+  "R1_B_D1": {
+   "lib": "R1_B_D1",
+   "group": [
+    "R1_A_D1",
+    "R1_A_D2",
+    "R1_A_H2O",
+    "R1_B_D1",
+    "R1_B_D2",
+    "R1_B_H2O",
+    "R1_C_D1",
+    "R1_C_D2",
+    "R1_C_H2O"
+   ],
+   "group_name": "R1",
+   "order": 4,
+   "bases": 9531593234,
+   "unit": "R1_B_D1"
+  },
+  "R1_B_D2": {
+   "lib": "R1_B_D2",
+   "group": [
+    "R1_A_D1",
+    "R1_A_D2",
+    "R1_A_H2O",
+    "R1_B_D1",
+    "R1_B_D2",
+    "R1_B_H2O",
+    "R1_C_D1",
+    "R1_C_D2",
+    "R1_C_H2O"
+   ],
+   "group_name": "R1",
+   "order": 5,
+   "bases": 9048804860,
+   "unit": "R1_B_D2"
+  },
+  "R1_C_D1": {
+   "lib": "R1_C_D1",
+   "group": [
+    "R1_A_D1",
+    "R1_A_D2",
+    "R1_A_H2O",
+    "R1_B_D1",
+    "R1_B_D2",
+    "R1_B_H2O",
+    "R1_C_D1",
+    "R1_C_D2",
+    "R1_C_H2O"
+   ],
+   "group_name": "R1",
+   "order": 6,
+   "bases": 7478232418,
+   "unit": "R1_C_D1"
+  },
+  "R1_C_D2": {
+   "lib": "R1_C_D2",
+   "group": [
+    "R1_A_D1",
+    "R1_A_D2",
+    "R1_A_H2O",
+    "R1_B_D1",
+    "R1_B_D2",
+    "R1_B_H2O",
+    "R1_C_D1",
+    "R1_C_D2",
+    "R1_C_H2O"
+   ],
+   "group_name": "R1",
+   "order": 7,
+   "bases": 7391634522,
+   "unit": "R1_C_D2"
+  },
+  "SF2_A_D1": {
+   "lib": "SF2_A_D1",
+   "group": [
+    "SF2_A_D1",
+    "SF2_A_D2",
+    "SF2_A_H2O",
+    "SF2_B_D1",
+    "SF2_B_D2",
+    "SF2_B_H2O",
+    "SF2_C_D1",
+    "SF2_C_D2",
+    "SF2_C_H2O"
+   ],
+   "group_name": "SF2",
+   "order": 8,
+   "bases": 9452395244,
+   "unit": "SF2_A_D1"
+  },
+  "SF2_A_D2": {
+   "lib": "SF2_A_D2",
+   "group": [
+    "SF2_A_D1",
+    "SF2_A_D2",
+    "SF2_A_H2O",
+    "SF2_B_D1",
+    "SF2_B_D2",
+    "SF2_B_H2O",
+    "SF2_C_D1",
+    "SF2_C_D2",
+    "SF2_C_H2O"
+   ],
+   "group_name": "SF2",
+   "order": 9,
+   "bases": 9754978406,
+   "unit": "SF2_A_D2"
+  },
+  "SF2_B_D1": {
+   "lib": "SF2_B_D1",
+   "group": [
+    "SF2_A_D1",
+    "SF2_A_D2",
+    "SF2_A_H2O",
+    "SF2_B_D1",
+    "SF2_B_D2",
+    "SF2_B_H2O",
+    "SF2_C_D1",
+    "SF2_C_D2",
+    "SF2_C_H2O"
+   ],
+   "group_name": "SF2",
+   "order": 10,
+   "bases": 8970986406,
+   "unit": "SF2_B_D1"
+  },
+  "SF2_B_D2": {
+   "lib": "SF2_B_D2",
+   "group": [
+    "SF2_A_D1",
+    "SF2_A_D2",
+    "SF2_A_H2O",
+    "SF2_B_D1",
+    "SF2_B_D2",
+    "SF2_B_H2O",
+    "SF2_C_D1",
+    "SF2_C_D2",
+    "SF2_C_H2O"
+   ],
+   "group_name": "SF2",
+   "order": 11,
+   "bases": 9193880526,
+   "unit": "SF2_B_D2"
+  },
+  "SF2_C_D1": {
+   "lib": "SF2_C_D1",
+   "group": [
+    "SF2_A_D1",
+    "SF2_A_D2",
+    "SF2_A_H2O",
+    "SF2_B_D1",
+    "SF2_B_D2",
+    "SF2_B_H2O",
+    "SF2_C_D1",
+    "SF2_C_D2",
+    "SF2_C_H2O"
+   ],
+   "group_name": "SF2",
+   "order": 12,
+   "bases": 9085733420,
+   "unit": "SF2_C_D1",
+   "import_from": {
+    "bt_sample": "SF2_C_D1",
+    "pilot_dir": "/scratch1/afreiburger/salterns_2026/tadpole_pilot/SF2_C_D1"
+   }
+  },
+  "SF2_C_D2": {
+   "lib": "SF2_C_D2",
+   "group": [
+    "SF2_A_D1",
+    "SF2_A_D2",
+    "SF2_A_H2O",
+    "SF2_B_D1",
+    "SF2_B_D2",
+    "SF2_B_H2O",
+    "SF2_C_D1",
+    "SF2_C_D2",
+    "SF2_C_H2O"
+   ],
+   "group_name": "SF2",
+   "order": 13,
+   "bases": 9871165054,
+   "unit": "SF2_C_D2"
+  },
+  "R1_A_H2O": {
+   "lib": "R1_A_H2O",
+   "group": [
+    "R1_A_D1",
+    "R1_A_D2",
+    "R1_A_H2O",
+    "R1_B_D1",
+    "R1_B_D2",
+    "R1_B_H2O",
+    "R1_C_D1",
+    "R1_C_D2",
+    "R1_C_H2O"
+   ],
+   "group_name": "R1",
+   "order": 14,
+   "bases": 8206804398,
+   "unit": "R1_A_H2O"
+  },
+  "R1_B_H2O": {
+   "lib": "R1_B_H2O",
+   "group": [
+    "R1_A_D1",
+    "R1_A_D2",
+    "R1_A_H2O",
+    "R1_B_D1",
+    "R1_B_D2",
+    "R1_B_H2O",
+    "R1_C_D1",
+    "R1_C_D2",
+    "R1_C_H2O"
+   ],
+   "group_name": "R1",
+   "order": 15,
+   "bases": 10053614126,
+   "unit": "R1_B_H2O"
+  },
+  "R1_C_H2O": {
+   "lib": "R1_C_H2O",
+   "group": [
+    "R1_A_D1",
+    "R1_A_D2",
+    "R1_A_H2O",
+    "R1_B_D1",
+    "R1_B_D2",
+    "R1_B_H2O",
+    "R1_C_D1",
+    "R1_C_D2",
+    "R1_C_H2O"
+   ],
+   "group_name": "R1",
+   "order": 16,
+   "bases": 9613828438,
+   "unit": "R1_C_H2O"
+  },
+  "SF2_B_H2O": {
+   "lib": "SF2_B_H2O",
+   "group": [
+    "SF2_A_D1",
+    "SF2_A_D2",
+    "SF2_A_H2O",
+    "SF2_B_D1",
+    "SF2_B_D2",
+    "SF2_B_H2O",
+    "SF2_C_D1",
+    "SF2_C_D2",
+    "SF2_C_H2O"
+   ],
+   "group_name": "SF2",
+   "order": 17,
+   "bases": 11944262476,
+   "unit": "SF2_B_H2O"
+  },
+  "SF2_C_H2O": {
+   "lib": "SF2_C_H2O",
+   "group": [
+    "SF2_A_D1",
+    "SF2_A_D2",
+    "SF2_A_H2O",
+    "SF2_B_D1",
+    "SF2_B_D2",
+    "SF2_B_H2O",
+    "SF2_C_D1",
+    "SF2_C_D2",
+    "SF2_C_H2O"
+   ],
+   "group_name": "SF2",
+   "order": 18,
+   "bases": 10228971030,
+   "unit": "SF2_C_H2O"
+  },
+  "R2_A_D1": {
+   "lib": "R2_A_D1",
+   "group": [
+    "R2_A_D1",
+    "R2_A_D2",
+    "R2_A_H2O",
+    "R2_B_D1",
+    "R2_B_D2",
+    "R2_B_H2O",
+    "R2_C_D1",
+    "R2_C_D2",
+    "R2_C_H2O",
+    "R2_restored_C_black",
+    "R2_restored_D_shore",
+    "R2_restored_H2O"
+   ],
+   "group_name": "R2",
+   "order": 19,
+   "bases": 10109082164,
+   "unit": "R2_A_D1"
+  },
+  "R2_A_D2": {
+   "lib": "R2_A_D2",
+   "group": [
+    "R2_A_D1",
+    "R2_A_D2",
+    "R2_A_H2O",
+    "R2_B_D1",
+    "R2_B_D2",
+    "R2_B_H2O",
+    "R2_C_D1",
+    "R2_C_D2",
+    "R2_C_H2O",
+    "R2_restored_C_black",
+    "R2_restored_D_shore",
+    "R2_restored_H2O"
+   ],
+   "group_name": "R2",
+   "order": 20,
+   "bases": 8635389510,
+   "unit": "R2_A_D2"
+  },
+  "R2_B_D1": {
+   "lib": "R2_B_D1",
+   "group": [
+    "R2_A_D1",
+    "R2_A_D2",
+    "R2_A_H2O",
+    "R2_B_D1",
+    "R2_B_D2",
+    "R2_B_H2O",
+    "R2_C_D1",
+    "R2_C_D2",
+    "R2_C_H2O",
+    "R2_restored_C_black",
+    "R2_restored_D_shore",
+    "R2_restored_H2O"
+   ],
+   "group_name": "R2",
+   "order": 21,
+   "bases": 7552528948,
+   "unit": "R2_B_D1",
+   "import_from": {
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2_B_D1",
+    "marker": "READY",
+    "source": "frankensteinsmonster:~/Documents/salterns_rollout_local/rollout"
+   }
+  },
+  "R2_B_D2": {
+   "lib": "R2_B_D2",
+   "group": [
+    "R2_A_D1",
+    "R2_A_D2",
+    "R2_A_H2O",
+    "R2_B_D1",
+    "R2_B_D2",
+    "R2_B_H2O",
+    "R2_C_D1",
+    "R2_C_D2",
+    "R2_C_H2O",
+    "R2_restored_C_black",
+    "R2_restored_D_shore",
+    "R2_restored_H2O"
+   ],
+   "group_name": "R2",
+   "order": 22,
+   "bases": 12440545418,
+   "unit": "R2_B_D2"
+  },
+  "R2_C_D1": {
+   "lib": "R2_C_D1",
+   "group": [
+    "R2_A_D1",
+    "R2_A_D2",
+    "R2_A_H2O",
+    "R2_B_D1",
+    "R2_B_D2",
+    "R2_B_H2O",
+    "R2_C_D1",
+    "R2_C_D2",
+    "R2_C_H2O",
+    "R2_restored_C_black",
+    "R2_restored_D_shore",
+    "R2_restored_H2O"
+   ],
+   "group_name": "R2",
+   "order": 23,
+   "bases": 8336811170,
+   "unit": "R2_C_D1",
+   "import_from": {
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2_C_D1",
+    "marker": "READY",
+    "source": "frankensteinsmonster:~/Documents/salterns_rollout_local/rollout"
+   }
+  },
+  "R2_C_D2": {
+   "lib": "R2_C_D2",
+   "group": [
+    "R2_A_D1",
+    "R2_A_D2",
+    "R2_A_H2O",
+    "R2_B_D1",
+    "R2_B_D2",
+    "R2_B_H2O",
+    "R2_C_D1",
+    "R2_C_D2",
+    "R2_C_H2O",
+    "R2_restored_C_black",
+    "R2_restored_D_shore",
+    "R2_restored_H2O"
+   ],
+   "group_name": "R2",
+   "order": 24,
+   "bases": 6410187372,
+   "unit": "R2_C_D2",
+   "import_from": {
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2_C_D2",
+    "marker": "READY",
+    "source": "frankensteinsmonster:~/Documents/salterns_rollout_local/rollout"
+   }
+  },
+  "R2_restored_C_black": {
+   "lib": "R2_restored_C_black",
+   "group": [
+    "R2_A_D1",
+    "R2_A_D2",
+    "R2_A_H2O",
+    "R2_B_D1",
+    "R2_B_D2",
+    "R2_B_H2O",
+    "R2_C_D1",
+    "R2_C_D2",
+    "R2_C_H2O",
+    "R2_restored_C_black",
+    "R2_restored_D_shore",
+    "R2_restored_H2O"
+   ],
+   "group_name": "R2",
+   "order": 25,
+   "bases": 8575854438,
+   "unit": "R2_restored_C_black",
+   "import_from": {
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2_restored_C_black",
+    "marker": "READY",
+    "source": "frankensteinsmonster:~/Documents/salterns_rollout_local/rollout"
+   }
+  },
+  "R2A_A_D1": {
+   "lib": "R2A_A_D1",
+   "group": [
+    "R2A_A_D1",
+    "R2A_A_D2",
+    "R2A_A_H2O",
+    "R2A_B_D1",
+    "R2A_B_D2",
+    "R2A_B_H2O",
+    "R2A_C_D1",
+    "R2A_C_D2",
+    "R2A_C_H2O"
+   ],
+   "group_name": "R2A",
+   "order": 26,
+   "bases": 8556803372,
+   "unit": "R2A_A_D1",
+   "import_from": {
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2A_A_D1",
+    "marker": "READY",
+    "source": "frankensteinsmonster:~/Documents/salterns_rollout_local/rollout"
+   }
+  },
+  "R2A_A_D2": {
+   "lib": "R2A_A_D2",
+   "group": [
+    "R2A_A_D1",
+    "R2A_A_D2",
+    "R2A_A_H2O",
+    "R2A_B_D1",
+    "R2A_B_D2",
+    "R2A_B_H2O",
+    "R2A_C_D1",
+    "R2A_C_D2",
+    "R2A_C_H2O"
+   ],
+   "group_name": "R2A",
+   "order": 27,
+   "bases": 8799471244,
+   "unit": "R2A_A_D2",
+   "import_from": {
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2A_A_D2",
+    "marker": "READY",
+    "source": "frankensteinsmonster:~/Documents/salterns_rollout_local/rollout"
+   }
+  },
+  "R2A_B_D1": {
+   "lib": "R2A_B_D1",
+   "group": [
+    "R2A_A_D1",
+    "R2A_A_D2",
+    "R2A_A_H2O",
+    "R2A_B_D1",
+    "R2A_B_D2",
+    "R2A_B_H2O",
+    "R2A_C_D1",
+    "R2A_C_D2",
+    "R2A_C_H2O"
+   ],
+   "group_name": "R2A",
+   "order": 28,
+   "bases": 6654576040,
+   "unit": "R2A_B_D1",
+   "import_from": {
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2A_B_D1",
+    "marker": "READY",
+    "source": "frankensteinsmonster:~/Documents/salterns_rollout_local/rollout"
+   }
+  },
+  "R2A_B_D2": {
+   "lib": "R2A_B_D2",
+   "group": [
+    "R2A_A_D1",
+    "R2A_A_D2",
+    "R2A_A_H2O",
+    "R2A_B_D1",
+    "R2A_B_D2",
+    "R2A_B_H2O",
+    "R2A_C_D1",
+    "R2A_C_D2",
+    "R2A_C_H2O"
+   ],
+   "group_name": "R2A",
+   "order": 29,
+   "bases": 7118772086,
+   "unit": "R2A_B_D2",
+   "import_from": {
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2A_B_D2",
+    "marker": "READY",
+    "source": "frankensteinsmonster:~/Documents/salterns_rollout_local/rollout"
+   }
+  },
+  "R2A_C_D1": {
+   "lib": "R2A_C_D1",
+   "group": [
+    "R2A_A_D1",
+    "R2A_A_D2",
+    "R2A_A_H2O",
+    "R2A_B_D1",
+    "R2A_B_D2",
+    "R2A_B_H2O",
+    "R2A_C_D1",
+    "R2A_C_D2",
+    "R2A_C_H2O"
+   ],
+   "group_name": "R2A",
+   "order": 30,
+   "bases": 6946309248,
+   "unit": "R2A_C_D1",
+   "import_from": {
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2A_C_D1",
+    "marker": "READY",
+    "source": "frankensteinsmonster:~/Documents/salterns_rollout_local/rollout"
+   }
+  },
+  "R2A_C_D2": {
+   "lib": "R2A_C_D2",
+   "group": [
+    "R2A_A_D1",
+    "R2A_A_D2",
+    "R2A_A_H2O",
+    "R2A_B_D1",
+    "R2A_B_D2",
+    "R2A_B_H2O",
+    "R2A_C_D1",
+    "R2A_C_D2",
+    "R2A_C_H2O"
+   ],
+   "group_name": "R2A",
+   "order": 31,
+   "bases": 8331503822,
+   "unit": "R2A_C_D2",
+   "import_from": {
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2A_C_D2",
+    "marker": "READY",
+    "source": "frankensteinsmonster:~/Documents/salterns_rollout_local/rollout"
+   }
+  },
+  "R2_A_H2O": {
+   "lib": "R2_A_H2O",
+   "group": [
+    "R2_A_D1",
+    "R2_A_D2",
+    "R2_A_H2O",
+    "R2_B_D1",
+    "R2_B_D2",
+    "R2_B_H2O",
+    "R2_C_D1",
+    "R2_C_D2",
+    "R2_C_H2O",
+    "R2_restored_C_black",
+    "R2_restored_D_shore",
+    "R2_restored_H2O"
+   ],
+   "group_name": "R2",
+   "order": 32,
+   "bases": 8331382418,
+   "unit": "R2_A_H2O",
+   "import_from": {
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2_A_H2O",
+    "marker": "READY",
+    "source": "frankensteinsmonster:~/Documents/salterns_rollout_local/rollout"
+   }
+  },
+  "R2_B_H2O": {
+   "lib": "R2_B_H2O",
+   "group": [
+    "R2_A_D1",
+    "R2_A_D2",
+    "R2_A_H2O",
+    "R2_B_D1",
+    "R2_B_D2",
+    "R2_B_H2O",
+    "R2_C_D1",
+    "R2_C_D2",
+    "R2_C_H2O",
+    "R2_restored_C_black",
+    "R2_restored_D_shore",
+    "R2_restored_H2O"
+   ],
+   "group_name": "R2",
+   "order": 33,
+   "bases": 6136537622,
+   "unit": "R2_B_H2O",
+   "import_from": {
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2_B_H2O",
+    "marker": "READY",
+    "source": "frankensteinsmonster:~/Documents/salterns_rollout_local/rollout"
+   }
+  },
+  "R2_C_H2O": {
+   "lib": "R2_C_H2O",
+   "group": [
+    "R2_A_D1",
+    "R2_A_D2",
+    "R2_A_H2O",
+    "R2_B_D1",
+    "R2_B_D2",
+    "R2_B_H2O",
+    "R2_C_D1",
+    "R2_C_D2",
+    "R2_C_H2O",
+    "R2_restored_C_black",
+    "R2_restored_D_shore",
+    "R2_restored_H2O"
+   ],
+   "group_name": "R2",
+   "order": 34,
+   "bases": 7701520648,
+   "unit": "R2_C_H2O",
+   "import_from": {
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2_C_H2O",
+    "marker": "READY",
+    "source": "frankensteinsmonster:~/Documents/salterns_rollout_local/rollout"
+   }
+  },
+  "R2_restored_H2O": {
+   "lib": "R2_restored_H2O",
+   "group": [
+    "R2_A_D1",
+    "R2_A_D2",
+    "R2_A_H2O",
+    "R2_B_D1",
+    "R2_B_D2",
+    "R2_B_H2O",
+    "R2_C_D1",
+    "R2_C_D2",
+    "R2_C_H2O",
+    "R2_restored_C_black",
+    "R2_restored_D_shore",
+    "R2_restored_H2O"
+   ],
+   "group_name": "R2",
+   "order": 35,
+   "bases": 8443257110,
+   "unit": "R2_restored_H2O",
+   "import_from": {
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2_restored_H2O",
+    "marker": "READY",
+    "source": "frankensteinsmonster:~/Documents/salterns_rollout_local/rollout"
+   }
+  },
+  "R2A_A_H2O": {
+   "lib": "R2A_A_H2O",
+   "group": [
+    "R2A_A_D1",
+    "R2A_A_D2",
+    "R2A_A_H2O",
+    "R2A_B_D1",
+    "R2A_B_D2",
+    "R2A_B_H2O",
+    "R2A_C_D1",
+    "R2A_C_D2",
+    "R2A_C_H2O"
+   ],
+   "group_name": "R2A",
+   "order": 36,
+   "bases": 9648788864,
+   "unit": "R2A_A_H2O"
+  },
+  "R2A_B_H2O": {
+   "lib": "R2A_B_H2O",
+   "group": [
+    "R2A_A_D1",
+    "R2A_A_D2",
+    "R2A_A_H2O",
+    "R2A_B_D1",
+    "R2A_B_D2",
+    "R2A_B_H2O",
+    "R2A_C_D1",
+    "R2A_C_D2",
+    "R2A_C_H2O"
+   ],
+   "group_name": "R2A",
+   "order": 37,
+   "bases": 8402252154,
+   "unit": "R2A_B_H2O",
+   "import_from": {
+    "staged": "/scratch1/afreiburger/salterns_2026/rollout/imports/R2A_B_H2O",
+    "marker": "READY",
+    "source": "frankensteinsmonster:~/Documents/salterns_rollout_local/rollout"
+   }
+  },
+  "R2A_C_H2O": {
+   "lib": "R2A_C_H2O",
+   "group": [
+    "R2A_A_D1",
+    "R2A_A_D2",
+    "R2A_A_H2O",
+    "R2A_B_D1",
+    "R2A_B_D2",
+    "R2A_B_H2O",
+    "R2A_C_D1",
+    "R2A_C_D2",
+    "R2A_C_H2O"
+   ],
+   "group_name": "R2A",
+   "order": 38,
+   "bases": 10204136664,
+   "unit": "R2A_C_H2O"
+  }
+ }
+}

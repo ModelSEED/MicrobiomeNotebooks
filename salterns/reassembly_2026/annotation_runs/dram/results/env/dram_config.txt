@@ -1,0 +1,29 @@
+Processed search databases
+KEGG db: None
+KOfam db: /scratch1/afreiburger/salterns_2026/dram_db/kofam_profiles.hmm
+KOfam KO list: /scratch1/afreiburger/salterns_2026/dram_db/kofam_ko_list.tsv
+UniRef db: None
+Pfam db: /scratch1/afreiburger/salterns_2026/dram_db/pfam.mmspro
+dbCAN db: /scratch1/afreiburger/salterns_2026/dram_db/dbCAN-HMMdb-V11.txt
+RefSeq Viral db: /scratch1/afreiburger/salterns_2026/dram_db/refseq_viral.20261111.mmsdb
+MEROPS peptidase db: /scratch1/afreiburger/salterns_2026/dram_db/peptidases.20261111.mmsdb
+VOGDB db: /scratch1/afreiburger/salterns_2026/dram_db/vog_latest_hmms.txt
+CAMPER HMM db: None
+CAMPER FASTA db: None
+CAMPER HMM cutoffs: None
+CAMPER FASTA cutoffs: None
+
+Descriptions of search database entries
+Pfam hmm dat: /scratch1/afreiburger/salterns_2026/dram_db/Pfam-A.hmm.dat.gz
+dbCAN family activities: /scratch1/afreiburger/salterns_2026/dram_db/CAZyDB.08062022.fam-activities.txt
+VOG annotations: /scratch1/afreiburger/salterns_2026/dram_db/vog.annotations.tsv.gz
+
+Description db: /scratch1/afreiburger/salterns_2026/dram_db/description_db.sqlite
+
+DRAM distillation sheets
+Genome summary form: /scratch1/afreiburger/salterns_2026/dram_db/genome_summary_form.20261111.tsv
+Module step form: /scratch1/afreiburger/salterns_2026/dram_db/module_step_form.20261111.tsv
+ETC module database: /scratch1/afreiburger/salterns_2026/dram_db/etc_mdoule_database.20261111.tsv
+Function heatmap form: /scratch1/afreiburger/salterns_2026/dram_db/function_heatmap_form.20261111.tsv
+AMG database: /scratch1/afreiburger/salterns_2026/dram_db/amg_database.20261111.tsv
+CAMPER Distillate form: None

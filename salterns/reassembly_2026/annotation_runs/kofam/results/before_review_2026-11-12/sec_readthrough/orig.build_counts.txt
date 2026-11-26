@@ -1,0 +1,6 @@
+trigger	190
+tga_stop	109
+upstream_tga	106
+partial_skip	4
+junctions	112
+junctions_with_called_partner_pair	86

@@ -1,0 +1,14 @@
+Family (2020 GTDB),In corrected top 10,Old 'Unrestored total' (R1+R2+R2A),Old 'Restored total' (actually R2A),Old 'Reference total' (actually SF2),"Unrestored (R1, R2)",Restored (SF2),Reference (R2A)
+Rhodobacteraceae,yes,0.205579,0.023704,0.008131,0.205806,0.007799,0.02319
+Balneolaceae,yes,0.112063,0.00137,0.085078,0.113485,0.081598,0.00134
+Wenzhouxiangellaceae,yes,0.096556,0.001906,0.000975,0.0977,0.000935,0.001865
+Saprospiraceae,yes,0.075393,0.000535,0.000266,0.076393,0.000255,0.000523
+undetermined,yes,0.081655,0.169926,0.165546,0.068143,0.175628,0.166376
+Haloferacaceae (archaeal),yes,,,,0.059095,0.005976,0.000427
+UBA12077,yes,0.031803,0.000287,0.000523,0.032218,0.000501,0.00028
+Woeseiaceae,yes,0.032407,0.019029,0.005789,0.030725,0.005553,0.018616
+Sediminispirochaetaceae,yes,0.02722,0.000319,0.000519,0.027567,0.000498,0.000312
+Haloarculaceae (archaeal),yes,,,,0.024781,0.005981,0.000204
+Flavobacteriaceae,no,0.025992,0.063411,0.019261,0.019234,0.018473,0.062036
+Oleiphilaceae,no,0.023174,0.001592,0.000722,0.023321,0.000692,0.001557
+Unbinned share of all reads (caption),,,,,0.5245,0.8842,0.8908

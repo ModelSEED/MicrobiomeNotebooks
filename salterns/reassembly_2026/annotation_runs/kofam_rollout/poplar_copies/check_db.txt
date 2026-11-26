@@ -1,0 +1,8 @@
+kofam_all.hmm	bytes	7685073092	md5	6fcb36e48f6c0c3a8f34867a95731c6e	profiles	27981
+kofam_all.hmm	trailing_bytes_after_last_profile	0
+kofam_all.hmm	names_sorted	True
+tarball	hmm_members	27981	byte_identical_to_kofam_all_range	27981	differing	0	
+tarball	member_set_equals_profile_set	True
+markers.hmm	md5	ebb733f9dc054ed8f53c6473a44d8dbe	expected_from_kofam_all	ebb733f9dc054ed8f53c6473a44d8dbe	equal	True	markers	68	with_profile	68
+hmm_info.tsv	regenerated_from_ko_list.gz_equal	True	rows	27981	sum_LENG	16466034
+bakta_test_chunks	files	39	concat_md5	6fcb36e48f6c0c3a8f34867a95731c6e	equal_kofam_all	True

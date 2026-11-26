@@ -1,0 +1,77 @@
+MAG_r232,MAG_2020,taxon,domain,flags,cores_gt_ZERO,cores_R1,cores_R2,cores_R2A,cores_SF2,max_rel_abund,mean_rel_abund,passes_min6,passes_min4,passes_min3,passes_min2,passes_min1,passes_min0
+Albimonas.1,Albimonas.1,Albimonas,Bacteria,MePn(phnJ) MePn2020,12,3,3,3,3,0.004766945492751921,0.001291093011401282,True,True,True,True,True,True
+B1-Br10-U2g21.1,,B1-Br10-U2g21,Archaea, archaea,5,2,3,0,0,0.0009166860636176278,9.296240639438418e-05,False,True,True,True,True,True
+BM714.1,BM714.1,BM714,Bacteria,betaine2020,6,3,3,0,0,0.006153616989585315,0.001142510546308202,True,True,True,True,True,True
+BM714.2,BM714.2,BM714,Bacteria,betaine(grdH) betaine2020,5,3,2,0,0,0.0021913546714905983,0.00036659764797295917,False,True,True,True,True,True
+BM714.3,BM714.3,BM714,Bacteria,betaine2020,6,3,3,0,0,0.0033293336535810424,0.0006862421021203736,True,True,True,True,True,True
+BM714.4,BM714.4,BM714,Bacteria,betaine(grdH) betaine2020,6,3,3,0,0,0.0034715883558556005,0.0007127127603677373,True,True,True,True,True,True
+CAZFJG01.1,Synergistales.1,CAZFJG01,Bacteria,betaine2020,6,3,3,0,0,0.0029928501616064123,0.000580148445795939,True,True,True,True,True,True
+CAZFJG01.2,Synergistales.2,CAZFJG01,Bacteria,betaine2020 TMA-cand,6,3,3,0,0,0.008005446006689995,0.0021311185081342387,True,True,True,True,True,True
+CAZRZN01.1,Maliponia.1,CAZRZN01,Bacteria,MePn2020,12,3,3,3,3,0.0033952604510152106,0.0008044148365764556,True,True,True,True,True,True
+DAINOF01.1,IMCC34051.1,DAINOF01,Bacteria,MePn2020,12,3,3,3,3,0.00904340303881621,0.0027870491427873546,True,True,True,True,True,True
+DATFIM01.1,Halanaerobiales.1,DATFIM01,Bacteria,betaine2020,6,3,3,0,0,0.007480963334597925,0.0018704374482468155,True,True,True,True,True,True
+DATFIX01.1,,DATFIX01,Archaea, archaea,10,3,3,1,3,0.003043287084064425,0.0008099959631645407,True,True,True,True,True,True
+DATFJG01.1,Acidaminobacteraceae.1,DATFJG01,Bacteria,betaine(grdH) betaine2020,7,3,3,1,0,0.0057219449643963905,0.001398558349301201,True,True,True,True,True,True
+Desulfotignum.1,Desulfotignum.1,Desulfotignum,Bacteria,MePn(phnJ) MePn2020,10,3,3,1,3,0.005831962588356955,0.0006746546365432892,True,True,True,True,True,True
+Desulfotignum.2,Desulfotignum.2,Desulfotignum,Bacteria,MePn(phnJ) MePn2020,10,3,3,1,3,0.001500284073401838,0.0003139596129600847,True,True,True,True,True,True
+Gaopeijia.1,UBA6960.1,Gaopeijia,Bacteria,MePn2020,12,3,3,3,3,0.002729175212363629,0.0009649248234335849,True,True,True,True,True,True
+Haladaptataceae.1,,Haladaptataceae,Archaea, archaea,11,3,3,2,3,0.002222070913970633,0.00044052986311568265,True,True,True,True,True,True
+Halanaerobium.1,Halanaerobium.1,Halanaerobium,Bacteria,betaine(grdH) betaine2020,6,3,3,0,0,0.003882786255056899,0.0009628089084445357,True,True,True,True,True,True
+Halanaerobium.2,Halanaerobium.2,Halanaerobium,Bacteria,betaine(grdH) betaine2020,6,3,3,0,0,0.003510164367157688,0.0009177303581727527,True,True,True,True,True,True
+Halanaerobium.3,Halanaerobium.3,Halanaerobium,Bacteria,betaine(grdH) betaine2020,6,3,3,0,0,0.0024349877574836847,0.0006484458866082085,True,True,True,True,True,True
+Haloarcula.1,,Haloarcula,Archaea, archaea,10,3,3,1,3,0.0027552833425816036,0.0007060202630939623,True,True,True,True,True,True
+Haloarcula.2,,Haloarcula,Archaea, archaea,8,3,3,0,2,0.0015387404638701572,0.00027199500200520636,True,True,True,True,True,True
+Haloarcula.3,,Haloarcula,Archaea, archaea,9,3,3,1,2,0.008251311179301828,0.0013016049632102102,True,True,True,True,True,True
+Halohasta.1,,Halohasta,Archaea, archaea,9,3,3,1,2,0.005558768880962736,0.0011451848674247326,True,True,True,True,True,True
+Halomonas.1,Halomonas.1,Halomonas,Bacteria,,12,3,3,3,3,0.0036104049260741737,0.0008198684538687815,True,True,True,True,True,True
+Halonotius.1,,Halonotius,Archaea, archaea,8,3,3,0,2,0.0049139913482462326,0.0005350572080375048,True,True,True,True,True,True
+Halonotius.2,,Halonotius,Archaea, archaea,8,3,3,0,2,0.012818174909931366,0.0012931948804178986,True,True,True,True,True,True
+Haloplanus.1,,Haloplanus,Archaea, archaea,10,3,3,1,3,0.003496033159736803,0.0006302693848252644,True,True,True,True,True,True
+Haloquadratum.1,,Haloquadratum,Archaea, archaea,3,1,2,0,0,3.179983411213157e-05,7.933354173425503e-06,False,False,True,True,True,True
+Haloquadratum.2,,Haloquadratum,Archaea, archaea,6,3,3,0,0,0.00012359440259639249,2.884351854172378e-05,True,True,True,True,True,True
+Haloquadratum.3,,Haloquadratum,Archaea, archaea,6,3,3,0,0,3.392512963305787e-05,1.1892828322045117e-05,True,True,True,True,True,True
+Haloquadratum.4,,Haloquadratum,Archaea,MePn(phnJ) MePn2020 archaea,6,3,3,0,0,0.003061822579608087,0.00027417991502501864,True,True,True,True,True,True
+Halorubrum.1,,Halorubrum,Archaea, archaea,9,3,3,1,2,0.037571774350961464,0.0033138637280867664,True,True,True,True,True,True
+Halorubrum.2,,Halorubrum,Archaea, archaea,8,3,3,0,2,0.006269310042221,0.0006422026639012541,True,True,True,True,True,True
+Halorubrum.3,,Halorubrum,Archaea,MePn2020 archaea,10,3,3,1,3,0.003086953469855117,0.0008171981401058165,True,True,True,True,True,True
+Halorubrum.4,,Halorubrum,Archaea, archaea,10,3,3,1,3,0.0031063108933593294,0.0005692611063346807,True,True,True,True,True,True
+Halosegnis.1,,Halosegnis,Archaea, archaea,8,3,3,0,2,0.0037527443920211574,0.00038238673205768093,True,True,True,True,True,True
+Hikarchaeaceae.1,,Hikarchaeaceae,Archaea, archaea,9,3,3,0,3,0.0002377289528445477,8.514842151927729e-05,True,True,True,True,True,True
+Hikarchaeaceae.2,,Hikarchaeaceae,Archaea, archaea,10,3,3,1,3,0.0021339701452244026,0.0005347537160731916,True,True,True,True,True,True
+J153.1,J153.1,J153,Bacteria,TMA-cand,12,3,3,3,3,0.008452924266241573,0.0010009287078118429,True,True,True,True,True,True
+JAVJPJ01.1,Roseicyclus.2,JAVJPJ01,Bacteria,MePn(phnJ) MePn2020,12,3,3,3,3,0.0032202600638424157,0.00042602099853135595,True,True,True,True,True,True
+Kariarchaeum.1,,Kariarchaeum,Archaea, archaea,1,0,0,0,1,5.6138488324005524e-05,6.015946336565659e-06,False,False,False,False,True,True
+M55B127.1,Halanaerobiales.3,M55B127,Bacteria,betaine(grdH) betaine2020,7,3,3,1,0,0.01790257278612621,0.004045542426011793,True,True,True,True,True,True
+M55B127.2,Halanaerobiales.4,M55B127,Bacteria,betaine(grdH) betaine2020,7,3,3,1,0,0.012082332023768376,0.0017936929409208783,True,True,True,True,True,True
+Marivita.1,Marivita.1,Marivita,Bacteria,,12,3,3,3,3,0.0016400756271019927,0.00026239872907084753,True,True,True,True,True,True
+Marivita.2,Marivita.2,Marivita,Bacteria,MePn(phnJ) MePn2020,12,3,3,3,3,0.008609650250650594,0.003203261106181838,True,True,True,True,True,True
+Marivita.3,Marivita.3,Marivita,Bacteria,MePn(phnJ) MePn2020,12,3,3,3,3,0.007481123505161584,0.0020515521054223318,True,True,True,True,True,True
+Methanolobus.1,,Methanolobus,Archaea,methanogen(mcrA) archaea,6,3,3,0,0,0.0029781803970383293,0.000576464765718882,True,True,True,True,True,True
+Nanohalovita.1,,Nanohalovita,Archaea, archaea,2,0,2,0,0,0.00022697336542294795,2.194583755237683e-05,False,False,False,True,True,True
+Nanosalina.1,,Nanosalina,Archaea, archaea,3,0,3,0,0,0.0005096268503793496,4.5942265364485914e-05,False,False,True,True,True,True
+Natrinema.1,,Natrinema,Archaea,MePn(phnJ) MePn2020 archaea,9,3,3,0,3,0.00698124803375961,0.0014289290940564493,True,True,True,True,True,True
+Natronomonas.1,,Natronomonas,Archaea, archaea,8,3,3,0,2,0.013481997175784794,0.001282412067590575,True,True,True,True,True,True
+Natronomonas.2,,Natronomonas,Archaea, archaea,8,3,3,0,2,0.0015305841337228839,0.00016326687541764963,True,True,True,True,True,True
+Nitrosopumilus.1,,Nitrosopumilus,Archaea, archaea,5,0,0,3,2,0.0015073016981254714,0.00021440154744222764,False,True,True,True,True,True
+Nitrosopumilus.2,,Nitrosopumilus,Archaea, archaea,5,0,0,3,2,0.002376323742290457,0.000262690264047027,False,True,True,True,True,True
+Phaeodactylibacter.1,Phaeodactylibacter.1,Phaeodactylibacter,Bacteria,MePn(phnJ) MePn2020,6,3,3,0,0,0.003515276847329695,0.00043506802620896435,True,True,True,True,True,True
+Roseibacterium.1,Roseicyclus.1,Roseibacterium,Bacteria,MePn(phnJ) MePn2020,12,3,3,3,3,0.01266325080889391,0.0026828995966554615,True,True,True,True,True,True
+Roseovarius.1,Roseovarius.1,Roseovarius,Bacteria,MePn(phnJ) MePn2020,12,3,3,3,3,0.005042328897076231,0.002118400597853678,True,True,True,True,True,True
+Roseovarius.10,Roseovarius.10,Roseovarius,Bacteria,MePn(phnJ) MePn2020,12,3,3,3,3,0.015504456259325755,0.005420293414150704,True,True,True,True,True,True
+Roseovarius.11,Roseovarius.11,Roseovarius,Bacteria,MePn(phnJ) MePn2020,12,3,3,3,3,0.011970617874889448,0.0038204581652738416,True,True,True,True,True,True
+Roseovarius.12,Roseovarius.12,Roseovarius,Bacteria,MePn(phnJ) MePn2020,12,3,3,3,3,0.005798080776639619,0.0008889669198800789,True,True,True,True,True,True
+Roseovarius.2,Roseovarius.2,Roseovarius,Bacteria,MePn(phnJ) MePn2020,12,3,3,3,3,0.004886226287336754,0.0018818027586362882,True,True,True,True,True,True
+Roseovarius.3,Roseovarius.3,Roseovarius,Bacteria,,12,3,3,3,3,0.00432113097800752,0.0014258550138083964,True,True,True,True,True,True
+Roseovarius.4,Roseovarius.4,Roseovarius,Bacteria,MePn(phnJ) MePn2020,12,3,3,3,3,0.0009688910949265296,0.00042009481921918384,True,True,True,True,True,True
+Roseovarius.5,Roseovarius.5,Roseovarius,Bacteria,MePn(phnJ) MePn2020,12,3,3,3,3,0.008664585945083292,0.0029625955950683762,True,True,True,True,True,True
+Roseovarius.6,Roseovarius.6,Roseovarius,Bacteria,MePn(phnJ) MePn2020,12,3,3,3,3,0.005348114212961135,0.0009301945978858788,True,True,True,True,True,True
+Roseovarius.7,Roseovarius.7,Roseovarius,Bacteria,MePn(phnJ) MePn2020,12,3,3,3,3,0.010690312213749366,0.003159410189732755,True,True,True,True,True,True
+Roseovarius.8,Roseovarius.8,Roseovarius,Bacteria,MePn(phnJ) MePn2020,12,3,3,3,3,0.00696994282398431,0.002820410332455971,True,True,True,True,True,True
+Roseovarius.9,Roseovarius.9,Roseovarius,Bacteria,MePn(phnJ) MePn2020,12,3,3,3,3,0.005528486063255145,0.002243186771353421,True,True,True,True,True,True
+Saliniramus.1,Salinarimonas.1,Saliniramus,Bacteria,MePn(phnJ) MePn2020,12,3,3,3,3,0.0031196592080478492,0.0006030921523835171,True,True,True,True,True,True
+T1Sed10-7.1,T1Sed10-7.1,T1Sed10-7,Bacteria,TMA-cand,10,3,3,3,1,0.002667257485210323,0.000592369211189421,True,True,True,True,True,True
+Thiolinea.1,Thiolinea.1,Thiolinea,Bacteria,MePn2020,5,2,3,0,0,7.074756875778954e-05,1.3844352079008497e-05,False,True,True,True,True,True
+UBA11579.1,UBA11579.1,UBA11579,Bacteria,TMA-cand,6,0,0,3,3,0.0027988288402028658,0.00038406338503790355,True,True,True,True,True,True
+UBA8670.1,UBA8670.1,UBA8670,Bacteria,betaine2020,7,3,3,1,0,0.002434850733173386,0.000621101417919625,True,True,True,True,True,True
+UBA8670.2,UBA8670.2,UBA8670,Bacteria,betaine(grdH) betaine2020,7,3,3,1,0,0.0232425476390464,0.003981549990324865,True,True,True,True,True,True
+Vreelandella.1,Halomonas.2,Vreelandella,Bacteria,,6,3,3,0,0,0.00039647816459661896,8.336541603526876e-05,True,True,True,True,True,True

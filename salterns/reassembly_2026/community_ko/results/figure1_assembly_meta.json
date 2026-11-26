@@ -1,0 +1,75 @@
+{
+ "source": "assembly",
+ "survey": "assembly_based",
+ "n_panel": 108,
+ "n_surveyed": 108,
+ "n_detected": 89,
+ "not_detected": [
+  "K07811",
+  "K07812",
+  "K22444",
+  "K16954",
+  "K14028",
+  "K14029",
+  "K00093",
+  "K17066",
+  "K00122",
+  "K00314",
+  "K16967",
+  "K16964",
+  "K16966",
+  "K28069",
+  "K28072",
+  "K23996",
+  "K05915",
+  "K18049",
+  "K12905"
+ ],
+ "not_surveyed": [],
+ "n_q05": 53,
+ "ward_k3_crosstab": {
+  "reference": {
+   "1": 0,
+   "2": 0,
+   "3": 6
+  },
+  "restored": {
+   "1": 0,
+   "2": 5,
+   "3": 1
+  },
+  "unrestored": {
+   "1": 11,
+   "2": 0,
+   "3": 1
+  }
+ },
+ "ward_k3_purity": 0.9166666666666666,
+ "ward_k3_matches_restoration": false,
+ "column_order": [
+  "R2_B_D2",
+  "R1_B_D1",
+  "R1_B_D2",
+  "R2_C_D2",
+  "R2_B_D1",
+  "R2_C_D1",
+  "R1_C_D1",
+  "R1_C_D2",
+  "R2_A_D1",
+  "R1_A_D1",
+  "R1_A_D2",
+  "SF2_B_D1",
+  "SF2_B_D2",
+  "SF2_C_D1",
+  "SF2_A_D1",
+  "SF2_A_D2",
+  "R2A_B_D1",
+  "R2A_A_D2",
+  "R2A_C_D1",
+  "R2A_B_D2",
+  "SF2_C_D2",
+  "R2A_C_D2",
+  "R2_A_D2",
+  "R2A_A_D1"
+ ]
+}

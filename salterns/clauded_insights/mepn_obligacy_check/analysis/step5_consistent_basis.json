@@ -1,0 +1,1980 @@
+{
+ "basis": "areal (consistent basis of modelling_consistent_basis_r232.py) and relab_only sensitivity",
+ "primary_repairs": {
+  "Roseovarius.9": [
+   "rxn01300_c0"
+  ],
+  "Albimonas.1": [
+   "rxn01300_c0"
+  ],
+  "Roseovarius.11": [
+   "rxn00770_c0"
+  ]
+ },
+ "regression": {
+  "MePn_0.07_20": {
+   "before_vs_stored_json": {
+    "model_over_measured_total": [
+     0.5636562383172398,
+     0.5636562383172398
+    ],
+    "spearman_rho": [
+     -0.2,
+     -0.2
+    ],
+    "model_over_measured_min": [
+     0.17783245912049142,
+     0.17783245912049142
+    ],
+    "model_over_measured_max": [
+     1.4121130925104597,
+     1.4121130925104597
+    ],
+    "pearson_r2": [
+     0.07980483652167084,
+     0.07980483652167084
+    ]
+   },
+   "max_abs_diff": 0.0
+  },
+  "MePn_0.33_20": {
+   "before_vs_stored_json": {
+    "model_over_measured_total": [
+     0.9989426985541655,
+     0.9989426985541655
+    ],
+    "spearman_rho": [
+     -0.08571428571428573,
+     -0.08571428571428573
+    ],
+    "model_over_measured_min": [
+     0.30458321520286225,
+     0.30458321520286225
+    ],
+    "model_over_measured_max": [
+     2.450526167850498,
+     2.450526167850498
+    ],
+    "pearson_r2": [
+     0.0635484461718768,
+     0.0635484461718768
+    ]
+   },
+   "max_abs_diff": 0.0
+  }
+ },
+ "areal": {
+  "0.07": {
+   "before": {
+    "n": 6,
+    "slope": -0.20323102837029638,
+    "intercept": 907.1969610006879,
+    "pearson_r2": 0.07980483652167084,
+    "pearson_p": 0.5875260859470552,
+    "spearman_rho": -0.2,
+    "spearman_p": 0.7040000000000001,
+    "model_over_measured_total": 0.5636562383172398,
+    "model_over_measured_min": 0.17783245912049142,
+    "model_over_measured_max": 1.4121130925104597,
+    "sim_by_core": {
+     "R1_A": 1041.179,
+     "R1_B": 1036.136,
+     "R1_C": 575.768,
+     "R2_A": 325.985,
+     "R2_B": 739.13,
+     "R2_C": 282.499
+    },
+    "share_of_three": 0.7234732346548856,
+    "three_by_model_total": {
+     "Roseovarius.9": 900.3282661575743,
+     "Roseovarius.11": 1657.7999690169925,
+     "Albimonas.1": 336.2687487513508
+    },
+    "per_model_total": {
+     "DAINOF01.1": 96.60713913103014,
+     "Roseovarius.1": 72.71823528819681,
+     "Roseovarius.2": 70.51801598519229,
+     "Marivita.2": 110.12939130309975,
+     "Thiolinea.1": 0.3524065518120439,
+     "Roseovarius.4": 13.666563123227498,
+     "Saliniramus.1": 14.660493035643192,
+     "Roseovarius.5": 112.32281635058354,
+     "Roseovarius.6": 28.44950931628507,
+     "CAZRZN01.1": 25.41881844378585,
+     "Marivita.3": 68.92135061361729,
+     "Roseovarius.7": 104.86397518436884,
+     "Roseibacterium.1": 77.58028132536319,
+     "Roseovarius.8": 92.39716920491392,
+     "Roseovarius.9": 900.3282661575743,
+     "Roseovarius.10": 181.0103485446531,
+     "JAVJPJ01.1": 11.107822950456601,
+     "Roseovarius.11": 1657.7999690169925,
+     "Roseovarius.12": 25.575381800425344,
+     "Albimonas.1": 336.2687487513508
+    },
+    "measured_total": 7097.76,
+    "sim_total": 4000.696702078572
+   },
+   "after": {
+    "n": 6,
+    "slope": -0.05647521303692414,
+    "intercept": 291.72117645887135,
+    "pearson_r2": 0.05369305368290078,
+    "pearson_p": 0.6586443888219226,
+    "spearman_rho": -0.08571428571428573,
+    "spearman_p": 0.8717434402332361,
+    "model_over_measured_total": 0.19012752624324705,
+    "model_over_measured_min": 0.056698705276779914,
+    "model_over_measured_max": 0.4598023650963576,
+    "sim_by_core": {
+     "R1_A": 339.021,
+     "R1_B": 359.962,
+     "R1_C": 188.213,
+     "R2_A": 116.189,
+     "R2_B": 256.024,
+     "R2_C": 90.07
+    },
+    "share_of_three": 0.1802026806521008,
+    "three_by_model_total": {
+     "Roseovarius.9": 82.81774403630158,
+     "Roseovarius.11": 129.43001604245893,
+     "Albimonas.1": 30.932072436854106
+    },
+    "per_model_total": {
+     "DAINOF01.1": 96.60713913103014,
+     "Roseovarius.1": 72.71823528819681,
+     "Roseovarius.2": 70.51801598519229,
+     "Marivita.2": 110.12939130309975,
+     "Thiolinea.1": 0.3524065518120439,
+     "Roseovarius.4": 13.666563123227498,
+     "Saliniramus.1": 14.660493035643192,
+     "Roseovarius.5": 112.32281635058354,
+     "Roseovarius.6": 28.44950931628507,
+     "CAZRZN01.1": 25.41881844378585,
+     "Marivita.3": 68.92135061361729,
+     "Roseovarius.7": 104.86397518436884,
+     "Roseibacterium.1": 77.58028132536319,
+     "Roseovarius.8": 92.39716920491392,
+     "Roseovarius.9": 82.81774403630158,
+     "Roseovarius.10": 181.0103485446531,
+     "JAVJPJ01.1": 11.107822950456601,
+     "Roseovarius.11": 129.43001604245893,
+     "Roseovarius.12": 25.575381800425344,
+     "Albimonas.1": 30.932072436854106
+    },
+    "measured_total": 7097.76,
+    "sim_total": 1349.4795506682692
+   }
+  },
+  "0.33": {
+   "before": {
+    "n": 6,
+    "slope": -0.3219990476282928,
+    "intercept": 1562.621248064001,
+    "pearson_r2": 0.0635484461718768,
+    "pearson_p": 0.6298776486602085,
+    "spearman_rho": -0.08571428571428573,
+    "spearman_p": 0.8717434402332361,
+    "model_over_measured_total": 0.9989426985541655,
+    "model_over_measured_min": 0.30458321520286225,
+    "model_over_measured_max": 2.450526167850498,
+    "sim_by_core": {
+     "R1_A": 1806.822,
+     "R1_B": 1869.105,
+     "R1_C": 1001.363,
+     "R2_A": 597.722,
+     "R2_B": 1331.391,
+     "R2_C": 483.852
+    },
+    "share_of_three": 0.40822181545364206,
+    "three_by_model_total": {
+     "Roseovarius.9": 900.3282661575793,
+     "Roseovarius.11": 1657.799969016707,
+     "Albimonas.1": 336.2687485327592
+    },
+    "per_model_total": {
+     "DAINOF01.1": 366.4015126506927,
+     "Roseovarius.1": 275.79816197917665,
+     "Roseovarius.2": 267.45339897284106,
+     "Marivita.2": 417.6873047155424,
+     "Thiolinea.1": 1.3365709285159206,
+     "Roseovarius.4": 51.83311964352035,
+     "Saliniramus.1": 55.60279367223873,
+     "Roseovarius.5": 426.0062991771394,
+     "Roseovarius.6": 107.90034093304433,
+     "CAZRZN01.1": 96.40585169173826,
+     "Marivita.3": 261.39773256355494,
+     "Roseovarius.7": 397.717181929055,
+     "Roseibacterium.1": 294.23842466081845,
+     "Roseovarius.8": 350.4343764366842,
+     "Roseovarius.9": 900.3282661575793,
+     "Roseovarius.10": 686.5172295501667,
+     "JAVJPJ01.1": 42.12859595898304,
+     "Roseovarius.11": 1657.799969016707,
+     "Roseovarius.12": 96.999648919056,
+     "Albimonas.1": 336.2687485327592
+    },
+    "measured_total": 7097.76,
+    "sim_total": 7090.255528089814
+   },
+   "after": {
+    "n": 6,
+    "slope": -0.21419331605048747,
+    "intercept": 1106.409746607464,
+    "pearson_r2": 0.05369305368681736,
+    "pearson_p": 0.6586443888099264,
+    "spearman_rho": -0.08571428571428573,
+    "spearman_p": 0.8717434402332361,
+    "model_over_measured_total": 0.7210959131774357,
+    "model_over_measured_min": 0.21504095417010255,
+    "model_over_measured_max": 1.7438906027784395,
+    "sim_by_core": {
+     "R1_A": 1285.805,
+     "R1_B": 1365.225,
+     "R1_C": 713.836,
+     "R2_A": 440.671,
+     "R2_B": 971.021,
+     "R2_C": 341.608
+    },
+    "share_of_three": 0.18020268065121814,
+    "three_by_model_total": {
+     "Roseovarius.9": 314.102528670412,
+     "Roseovarius.11": 490.88870746078305,
+     "Albimonas.1": 117.31594820031286
+    },
+    "per_model_total": {
+     "DAINOF01.1": 366.4015126506927,
+     "Roseovarius.1": 275.79816197917665,
+     "Roseovarius.2": 267.45339897284106,
+     "Marivita.2": 417.6873047155424,
+     "Thiolinea.1": 1.3365709285159206,
+     "Roseovarius.4": 51.83311964352035,
+     "Saliniramus.1": 55.60279367223873,
+     "Roseovarius.5": 426.0062991771394,
+     "Roseovarius.6": 107.90034093304433,
+     "CAZRZN01.1": 96.40585169173826,
+     "Marivita.3": 261.39773256355494,
+     "Roseovarius.7": 397.717181929055,
+     "Roseibacterium.1": 294.23842466081845,
+     "Roseovarius.8": 350.4343764366842,
+     "Roseovarius.9": 314.102528670412,
+     "Roseovarius.10": 686.5172295501667,
+     "JAVJPJ01.1": 42.12859595898304,
+     "Roseovarius.11": 490.88870746078305,
+     "Roseovarius.12": 96.999648919056,
+     "Albimonas.1": 117.31594820031286
+    },
+    "measured_total": 7097.76,
+    "sim_total": 5118.165728714276
+   }
+  }
+ },
+ "relab_only": {
+  "0.07": {
+   "before": {
+    "n": 6,
+    "slope": -0.024293374061257107,
+    "intercept": 667.6999601825396,
+    "pearson_r2": 0.0028016103244411293,
+    "pearson_p": 0.9206787846988482,
+    "spearman_rho": 0.3142857142857143,
+    "spearman_p": 0.5440932944606415,
+    "model_over_measured_total": 0.5401381875997793,
+    "model_over_measured_min": 0.20380822967301415,
+    "model_over_measured_max": 1.5812698351080965,
+    "sim_by_core": {
+     "R1_A": 582.573,
+     "R1_B": 741.091,
+     "R1_C": 775.565,
+     "R2_A": 270.49,
+     "R2_B": 873.619,
+     "R2_C": 590.432
+    },
+    "share_of_three": 0.716779149806812,
+    "three_by_model_total": {
+     "Roseovarius.9": 829.7477364951945,
+     "Roseovarius.11": 1572.5478120472535,
+     "Albimonas.1": 345.67172881629887
+    },
+    "per_model_total": {
+     "DAINOF01.1": 85.0169731877486,
+     "Roseovarius.1": 65.39968044242782,
+     "Roseovarius.2": 60.34331494184445,
+     "Marivita.2": 101.24274271882565,
+     "Thiolinea.1": 0.32960552774821283,
+     "Roseovarius.4": 12.447232231083888,
+     "Saliniramus.1": 14.213828361595993,
+     "Roseovarius.5": 95.88751088828073,
+     "Roseovarius.6": 35.10085210604179,
+     "CAZRZN01.1": 25.657236503039186,
+     "Marivita.3": 72.5837494534814,
+     "Roseovarius.7": 102.25406991952457,
+     "Roseibacterium.1": 99.27966163464639,
+     "Roseovarius.8": 83.11678677653906,
+     "Roseovarius.9": 829.7477364951945,
+     "Roseovarius.10": 166.93801606787173,
+     "JAVJPJ01.1": 28.63864400613434,
+     "Roseovarius.11": 1572.5478120472535,
+     "Roseovarius.12": 37.35404029262904,
+     "Albimonas.1": 345.67172881629887
+    },
+    "measured_total": 7097.76,
+    "sim_total": 3833.7712224182096
+   },
+   "after": {
+    "n": 6,
+    "slope": 0.01301710124165994,
+    "intercept": 204.05135107858123,
+    "pearson_r2": 0.007343513335811778,
+    "pearson_p": 0.8717731961438526,
+    "spearman_rho": 0.48571428571428577,
+    "spearman_p": 0.3287230320699708,
+    "model_over_measured_total": 0.1855092827850606,
+    "model_over_measured_min": 0.07270698680453772,
+    "model_over_measured_max": 0.5139880588198479,
+    "sim_by_core": {
+     "R1_A": 189.669,
+     "R1_B": 257.408,
+     "R1_C": 252.096,
+     "R2_A": 96.495,
+     "R2_B": 298.012,
+     "R2_C": 223.02
+    },
+    "share_of_three": 0.1753598827123664,
+    "three_by_model_total": {
+     "Roseovarius.9": 76.32531182102252,
+     "Roseovarius.11": 122.77409358471706,
+     "Albimonas.1": 31.797016515289243
+    },
+    "per_model_total": {
+     "DAINOF01.1": 85.0169731877486,
+     "Roseovarius.1": 65.39968044242782,
+     "Roseovarius.2": 60.34331494184445,
+     "Marivita.2": 101.24274271882565,
+     "Thiolinea.1": 0.32960552774821283,
+     "Roseovarius.4": 12.447232231083888,
+     "Saliniramus.1": 14.213828361595993,
+     "Roseovarius.5": 95.88751088828073,
+     "Roseovarius.6": 35.10085210604179,
+     "CAZRZN01.1": 25.657236503039186,
+     "Marivita.3": 72.5837494534814,
+     "Roseovarius.7": 102.25406991952457,
+     "Roseibacterium.1": 99.27966163464639,
+     "Roseovarius.8": 83.11678677653906,
+     "Roseovarius.9": 76.32531182102252,
+     "Roseovarius.10": 166.93801606787173,
+     "JAVJPJ01.1": 28.63864400613434,
+     "Roseovarius.11": 122.77409358471706,
+     "Roseovarius.12": 37.35404029262904,
+     "Albimonas.1": 31.797016515289243
+    },
+    "measured_total": 7097.76,
+    "sim_total": 1316.7003669804917
+   }
+  },
+  "0.33": {
+   "before": {
+    "n": 6,
+    "slope": 0.02309288077385336,
+    "intercept": 1117.0306431680242,
+    "pearson_r2": 0.0008299515457189195,
+    "pearson_p": 0.9567986355373245,
+    "spearman_rho": 0.3142857142857143,
+    "spearman_p": 0.5440932944606415,
+    "model_over_measured_total": 0.9673603481168103,
+    "model_over_measured_min": 0.373807974595789,
+    "model_over_measured_max": 2.7408279297685607,
+    "sim_by_core": {
+     "R1_A": 1010.903,
+     "R1_B": 1336.712,
+     "R1_C": 1344.294,
+     "R2_A": 496.11,
+     "R2_B": 1559.154,
+     "R2_C": 1118.918
+    },
+    "share_of_three": 0.4002229279103811,
+    "three_by_model_total": {
+     "Roseovarius.9": 829.7477364951976,
+     "Roseovarius.11": 1572.5478120467073,
+     "Albimonas.1": 345.6717286873302
+    },
+    "per_model_total": {
+     "DAINOF01.1": 322.4435363372222,
+     "Roseovarius.1": 248.04110810119033,
+     "Roseovarius.2": 228.86385076224965,
+     "Marivita.2": 383.9829479465892,
+     "Thiolinea.1": 1.2500935751653446,
+     "Roseovarius.4": 47.20856821477787,
+     "Saliniramus.1": 53.908730338125366,
+     "Roseovarius.5": 363.6721814677863,
+     "Roseovarius.6": 133.12686230445266,
+     "CAZRZN01.1": 97.31009891754009,
+     "Marivita.3": 275.28809808832557,
+     "Roseovarius.7": 387.81860460344967,
+     "Roseibacterium.1": 376.5375781185682,
+     "Roseovarius.8": 315.2367068828751,
+     "Roseovarius.9": 829.7477364951976,
+     "Roseovarius.10": 633.145150092048,
+     "JAVJPJ01.1": 108.61767130178758,
+     "Roseovarius.11": 1572.5478120467073,
+     "Roseovarius.12": 141.67252016818293,
+     "Albimonas.1": 345.6717286873302
+    },
+    "measured_total": 7097.76,
+    "sim_total": 6866.091584449571
+   },
+   "after": {
+    "n": 6,
+    "slope": 0.049369908142301196,
+    "intercept": 773.9047482984403,
+    "pearson_r2": 0.007343513334653746,
+    "pearson_p": 0.8717731961539134,
+    "spearman_rho": 0.48571428571428577,
+    "spearman_p": 0.3287230320699708,
+    "model_over_measured_total": 0.7035803195665593,
+    "model_over_measured_min": 0.27575549989990444,
+    "model_over_measured_max": 1.9494004679837367,
+    "sim_by_core": {
+     "R1_A": 719.359,
+     "R1_B": 976.27,
+     "R1_C": 956.122,
+     "R2_A": 365.977,
+     "R2_B": 1130.27,
+     "R2_C": 845.846
+    },
+    "share_of_three": 0.17535988271171712,
+    "three_by_model_total": {
+     "Roseovarius.9": 289.4787068098942,
+     "Roseovarius.11": 465.6448168073987,
+     "Albimonas.1": 120.5964181691123
+    },
+    "per_model_total": {
+     "DAINOF01.1": 322.4435363372222,
+     "Roseovarius.1": 248.04110810119033,
+     "Roseovarius.2": 228.86385076224965,
+     "Marivita.2": 383.9829479465892,
+     "Thiolinea.1": 1.2500935751653446,
+     "Roseovarius.4": 47.20856821477787,
+     "Saliniramus.1": 53.908730338125366,
+     "Roseovarius.5": 363.6721814677863,
+     "Roseovarius.6": 133.12686230445266,
+     "CAZRZN01.1": 97.31009891754009,
+     "Marivita.3": 275.28809808832557,
+     "Roseovarius.7": 387.81860460344967,
+     "Roseibacterium.1": 376.5375781185682,
+     "Roseovarius.8": 315.2367068828751,
+     "Roseovarius.9": 289.4787068098942,
+     "Roseovarius.10": 633.145150092048,
+     "JAVJPJ01.1": 108.61767130178758,
+     "Roseovarius.11": 465.6448168073987,
+     "Roseovarius.12": 141.67252016818293,
+     "Albimonas.1": 120.5964181691123
+    },
+    "measured_total": 7097.76,
+    "sim_total": 4993.844249006742
+   }
+  }
+ },
+ "alternatives_areal": {
+  "0.07": {
+   "Roseovarius.9:rxn00688_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.04320928588306435,
+    "model_over_measured_total": 0.19012752624324505,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806520921
+   },
+   "Roseovarius.9:rxn00336_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.04320928588305901,
+    "model_over_measured_total": 0.19012752624324478,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806520911
+   },
+   "Roseovarius.9:rxn09693_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.46973679244335104,
+    "model_over_measured_total": 0.30530619136031456,
+    "spearman_rho": -0.2,
+    "share_of_three": 0.4894763330740577
+   },
+   "Roseovarius.9:rxn00286_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.04320928588306227,
+    "model_over_measured_total": 0.19012752624324505,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209227
+   },
+   "Roseovarius.9:rxn01300_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.043209285883073996,
+    "model_over_measured_total": 0.19012752624324705,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806521008
+   },
+   "Roseovarius.9:rxn02283_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.043209285883068035,
+    "model_over_measured_total": 0.1901275262432455,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209427
+   },
+   "Roseovarius.9:rxn11676_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.04320928588306395,
+    "model_over_measured_total": 0.1901275262432448,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806520913
+   },
+   "Roseovarius.9:rxn05299_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588306532,
+    "model_over_measured_total": 0.19012752624324483,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209122
+   },
+   "Roseovarius.9:rxn00270_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.0432092858830699,
+    "model_over_measured_total": 0.19012752624324494,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209183
+   },
+   "Roseovarius.9:rxn00934_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.04320928588306509,
+    "model_over_measured_total": 0.19012752624324578,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209524
+   },
+   "Roseovarius.9:rxn00691_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.04320928588306774,
+    "model_over_measured_total": 0.19012752624324533,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209327
+   },
+   "Roseovarius.9:rxn12217_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.04320928588306064,
+    "model_over_measured_total": 0.190127526243246,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209624
+   },
+   "Roseovarius.9:rxn00244_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.04320928588305573,
+    "model_over_measured_total": 0.19012752624324455,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209008
+   },
+   "Roseovarius.9:rxn01014_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.04320928588306975,
+    "model_over_measured_total": 0.19012752624324694,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806521004
+   },
+   "Roseovarius.9:rxn00905_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.04320928588306562,
+    "model_over_measured_total": 0.19012752624324497,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806520918
+   },
+   "Roseovarius.11:rxn00771_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.04320928588305113,
+    "model_over_measured_total": 0.19012752624324708,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065210102
+   },
+   "Roseovarius.11:rxn11267_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.043209285883058036,
+    "model_over_measured_total": 0.19012752624324752,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065210285
+   },
+   "Roseovarius.11:rxn09221_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.0432092858830588,
+    "model_over_measured_total": 0.19012752624324764,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065210335
+   },
+   "Roseovarius.11:rxn00770_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.043209285883056496,
+    "model_over_measured_total": 0.19012752624324705,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806521008
+   },
+   "Albimonas.1:rxn00688_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.043209285883067314,
+    "model_over_measured_total": 0.1901275262432446,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209033
+   },
+   "Albimonas.1:rxn00336_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.04320928588305255,
+    "model_over_measured_total": 0.19012752624324486,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209144
+   },
+   "Albimonas.1:rxn01300_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.043209285883075675,
+    "model_over_measured_total": 0.19012752624324705,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806521008
+   },
+   "Albimonas.1:rxn02283_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.04320928588306687,
+    "model_over_measured_total": 0.19012752624324586,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209563
+   },
+   "Albimonas.1:rxn11676_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.04320928588306073,
+    "model_over_measured_total": 0.1901275262432452,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209286
+   },
+   "Albimonas.1:rxn00691_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.04320928588306745,
+    "model_over_measured_total": 0.19012752624324497,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209186
+   },
+   "Albimonas.1:rxn00244_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.043209285883059945,
+    "model_over_measured_total": 0.1901275262432456,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806520946
+   },
+   "Albimonas.1:rxn01014_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.04320928588306598,
+    "model_over_measured_total": 0.19012752624324536,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209352
+   },
+   "Roseovarius.9:reverse-open rxn00330_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.04320928588305693,
+    "model_over_measured_total": 0.19012752624324425,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806520889
+   },
+   "Roseovarius.9:rxn00691_c0+rxn00740_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.043209285883057454,
+    "model_over_measured_total": 0.19012752624324536,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209352
+   },
+   "Roseovarius.9:rxn05318_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.043209285883066675,
+    "model_over_measured_total": 0.190127526243245,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209205
+   },
+   "Roseovarius.9:rxn05203_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588305791,
+    "model_over_measured_total": 0.19012752624324425,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065208886
+   },
+   "Roseovarius.9:rxn05497_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.0741451166229855,
+    "model_over_measured_total": 0.1984813783022747,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.2147070033386856
+   },
+   "Roseovarius.9:rxn10832_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.4697367924433451,
+    "model_over_measured_total": 0.3053061913603112,
+    "spearman_rho": -0.2,
+    "share_of_three": 0.4894763330740519
+   },
+   "Roseovarius.9:rxn09672_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588306195,
+    "model_over_measured_total": 0.19012752624324483,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209127
+   },
+   "Roseovarius.9:rxn12603_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.043209285883064844,
+    "model_over_measured_total": 0.19012752624324644,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209816
+   },
+   "Roseovarius.9:rxn05316_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.0432092858830646,
+    "model_over_measured_total": 0.19012752624324564,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209477
+   },
+   "Roseovarius.9:rxn09665_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.46816705372421746,
+    "model_over_measured_total": 0.30488230214454753,
+    "spearman_rho": -0.2,
+    "share_of_three": 0.48876653301258616
+   },
+   "Roseovarius.9:rxn05200_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.043209285883061346,
+    "model_over_measured_total": 0.19012752624324372,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065208656
+   },
+   "Roseovarius.9:rxn05680_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588306683,
+    "model_over_measured_total": 0.1901275262432459,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209577
+   },
+   "Roseovarius.9:rxn05308_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.46973679244335065,
+    "model_over_measured_total": 0.3053061913603061,
+    "spearman_rho": -0.2,
+    "share_of_three": 0.4894763330740434
+   },
+   "Roseovarius.9:rxn09689_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.4697367924433464,
+    "model_over_measured_total": 0.30530619136030135,
+    "spearman_rho": -0.2,
+    "share_of_three": 0.48947633307403543
+   },
+   "Roseovarius.9:rxn09696_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588306332,
+    "model_over_measured_total": 0.190127526243245,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209197
+   },
+   "Roseovarius.9:rxn05317_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.0432092858830605,
+    "model_over_measured_total": 0.19012752624324478,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209114
+   },
+   "Roseovarius.9:rxn13781_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.4697367924433516,
+    "model_over_measured_total": 0.3053061913603078,
+    "spearman_rho": -0.2,
+    "share_of_three": 0.4894763330740463
+   },
+   "Roseovarius.9:rxn12648_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.4697367924433876,
+    "model_over_measured_total": 0.3053061913603105,
+    "spearman_rho": -0.2,
+    "share_of_three": 0.48947633307405075
+   },
+   "Roseovarius.9:rxn09686_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.469736792443337,
+    "model_over_measured_total": 0.30530619136030335,
+    "spearman_rho": -0.2,
+    "share_of_three": 0.4894763330740388
+   },
+   "Roseovarius.9:rxn05679_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.06939957137360976,
+    "model_over_measured_total": 0.1971999004171009,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.20960387901420668
+   },
+   "Roseovarius.9:rxn05202_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588307068,
+    "model_over_measured_total": 0.1901275262432462,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209696
+   },
+   "Roseovarius.9:rxn05615_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588306469,
+    "model_over_measured_total": 0.19012752624324689,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065210007
+   },
+   "Roseovarius.9:rxn12544_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588305718,
+    "model_over_measured_total": 0.19012752624324422,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065208875
+   },
+   "Roseovarius.9:rxn05645_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.4697367924433542,
+    "model_over_measured_total": 0.30530619136030684,
+    "spearman_rho": -0.2,
+    "share_of_three": 0.48947633307404453
+   },
+   "Roseovarius.9:rxn13360_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.4697367924433542,
+    "model_over_measured_total": 0.30530619136030684,
+    "spearman_rho": -0.2,
+    "share_of_three": 0.48947633307404453
+   },
+   "Roseovarius.9:rxn05204_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588306762,
+    "model_over_measured_total": 0.19012752624324625,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806520975
+   },
+   "Roseovarius.9:rxn12647_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.4697367924433542,
+    "model_over_measured_total": 0.30530619136030684,
+    "spearman_rho": -0.2,
+    "share_of_three": 0.48947633307404453
+   },
+   "Roseovarius.9:rxn05201_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588306351,
+    "model_over_measured_total": 0.19012752624324608,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209655
+   },
+   "Roseovarius.9:rxn12594_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588304804,
+    "model_over_measured_total": 0.19012752624324253,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065208137
+   },
+   "Roseovarius.9:rxn10892_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588305796,
+    "model_over_measured_total": 0.19012752624324522,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209288
+   },
+   "Roseovarius.9:rxn05255_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588307056,
+    "model_over_measured_total": 0.19012752624324689,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806521002
+   },
+   "Roseovarius.9:rxn05471_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.0741451166229879,
+    "model_over_measured_total": 0.19848137830227575,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.21470700333868983
+   },
+   "Roseovarius.9:rxn05659_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588306471,
+    "model_over_measured_total": 0.19012752624324525,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209316
+   },
+   "Roseovarius.9:rxn05491_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.043209285883058675,
+    "model_over_measured_total": 0.19012752624324453,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065208989
+   },
+   "Roseovarius.9:rxn08343_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588307283,
+    "model_over_measured_total": 0.1901275262432477,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065210357
+   },
+   "Roseovarius.9:rxn08323_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588305223,
+    "model_over_measured_total": 0.19012752624324358,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065208583
+   },
+   "Roseovarius.9:rxn09165_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.469736792443348,
+    "model_over_measured_total": 0.3053061913603054,
+    "spearman_rho": -0.2,
+    "share_of_three": 0.48947633307404226
+   },
+   "Roseovarius.11:reverse-open rxn00139_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.04320928588305519,
+    "model_over_measured_total": 0.19012752624326684,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065218614
+   },
+   "Albimonas.1:reverse-open rxn00330_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.043209285883060784,
+    "model_over_measured_total": 0.19012752624324603,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209646
+   },
+   "Albimonas.1:rxn05318_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588306326,
+    "model_over_measured_total": 0.190127526243246,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806520962
+   },
+   "Albimonas.1:rxn05203_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588306178,
+    "model_over_measured_total": 0.1901275262432452,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209277
+   },
+   "Albimonas.1:rxn05497_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.07414511662297975,
+    "model_over_measured_total": 0.19324765418229314,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.19343892163663345
+   },
+   "Albimonas.1:rxn10832_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.46973679244336863,
+    "model_over_measured_total": 0.23314626400333732,
+    "spearman_rho": 0.028571428571428574,
+    "share_of_three": 0.33146672105271147
+   },
+   "Albimonas.1:rxn09672_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588305915,
+    "model_over_measured_total": 0.19012752624324605,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209658
+   },
+   "Albimonas.1:rxn12603_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588306787,
+    "model_over_measured_total": 0.19012752624324525,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209324
+   },
+   "Albimonas.1:rxn05316_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.043209285883060035,
+    "model_over_measured_total": 0.1901275262432454,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209374
+   },
+   "Albimonas.1:rxn09665_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.09255957589830006,
+    "model_over_measured_total": 0.19510490086011587,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.20111675482610067
+   },
+   "Albimonas.1:rxn05200_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.043209285883060014,
+    "model_over_measured_total": 0.19012752624324591,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209585
+   },
+   "Albimonas.1:rxn05680_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.043209285883062054,
+    "model_over_measured_total": 0.19012752624324503,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209205
+   },
+   "Albimonas.1:rxn05308_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.043209285883055136,
+    "model_over_measured_total": 0.19012752624324555,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209435
+   },
+   "Albimonas.1:rxn09689_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.4697367924433854,
+    "model_over_measured_total": 0.2331462640033392,
+    "spearman_rho": 0.028571428571428574,
+    "share_of_three": 0.3314667210527169
+   },
+   "Albimonas.1:rxn09693_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.469736792443354,
+    "model_over_measured_total": 0.23314626400333985,
+    "spearman_rho": 0.028571428571428574,
+    "share_of_three": 0.3314667210527187
+   },
+   "Albimonas.1:rxn09696_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588306125,
+    "model_over_measured_total": 0.19012752624324483,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209144
+   },
+   "Albimonas.1:rxn05317_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588306044,
+    "model_over_measured_total": 0.19012752624324494,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209172
+   },
+   "Albimonas.1:rxn13781_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.4697367924433514,
+    "model_over_measured_total": 0.23314626400334182,
+    "spearman_rho": 0.028571428571428574,
+    "share_of_three": 0.33146672105272434
+   },
+   "Albimonas.1:rxn12648_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.1131864549281082,
+    "model_over_measured_total": 0.19718528790701126,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.20954530633155197
+   },
+   "Albimonas.1:rxn09686_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.4697367924433664,
+    "model_over_measured_total": 0.23314626400334168,
+    "spearman_rho": 0.028571428571428574,
+    "share_of_three": 0.3314667210527239
+   },
+   "Albimonas.1:rxn05679_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.06939957137360293,
+    "model_over_measured_total": 0.1927690276846524,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.19143630996863303
+   },
+   "Albimonas.1:rxn05202_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588305147,
+    "model_over_measured_total": 0.19012752624324522,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209283
+   },
+   "Albimonas.1:rxn05615_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588305437,
+    "model_over_measured_total": 0.19012752624324517,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806520927
+   },
+   "Albimonas.1:rxn12544_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588306362,
+    "model_over_measured_total": 0.1901275262432414,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065207642
+   },
+   "Albimonas.1:rxn05645_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.46973679244337163,
+    "model_over_measured_total": 0.23314626400334124,
+    "spearman_rho": 0.028571428571428574,
+    "share_of_three": 0.3314667210527226
+   },
+   "Albimonas.1:rxn05720_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.07414511662298331,
+    "model_over_measured_total": 0.19324765418229384,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1934389216366364
+   },
+   "Albimonas.1:rxn05299_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.043209285883063844,
+    "model_over_measured_total": 0.19012752624324508,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209236
+   },
+   "Albimonas.1:rxn13360_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.46973679244336575,
+    "model_over_measured_total": 0.23314626400333943,
+    "spearman_rho": 0.028571428571428574,
+    "share_of_three": 0.33146672105271735
+   },
+   "Albimonas.1:rxn05204_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.043209285883052076,
+    "model_over_measured_total": 0.19012752624324544,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209388
+   },
+   "Albimonas.1:rxn12647_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.23330206775188958,
+    "model_over_measured_total": 0.20929991584889768,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.2552981413476177
+   },
+   "Albimonas.1:rxn05201_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.043209285883057814,
+    "model_over_measured_total": 0.19012752624324558,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806520945
+   },
+   "Albimonas.1:rxn12594_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588305295,
+    "model_over_measured_total": 0.19012752624324517,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209255
+   },
+   "Albimonas.1:rxn05636_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588305554,
+    "model_over_measured_total": 0.19012752624324622,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209727
+   },
+   "Albimonas.1:rxn10892_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.043209285883059195,
+    "model_over_measured_total": 0.1901275262432456,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209472
+   },
+   "Albimonas.1:rxn05255_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.043209285883061326,
+    "model_over_measured_total": 0.1901275262432441,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806520881
+   },
+   "Albimonas.1:rxn05471_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.07414511662298529,
+    "model_over_measured_total": 0.19324765418229356,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.19343892163663534
+   },
+   "Albimonas.1:rxn05659_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588306471,
+    "model_over_measured_total": 0.19012752624324536,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209347
+   },
+   "Albimonas.1:rxn05491_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588305882,
+    "model_over_measured_total": 0.19012752624324517,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209258
+   },
+   "Albimonas.1:rxn08343_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588305795,
+    "model_over_measured_total": 0.19012752624324464,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209052
+   },
+   "Albimonas.1:rxn08323_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.0432092858830677,
+    "model_over_measured_total": 0.1901275262432463,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065209755
+   },
+   "Albimonas.1:rxn09165_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.04320928588305688,
+    "model_over_measured_total": 0.19012752624324492,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806520916
+   }
+  },
+  "0.33": {
+   "Roseovarius.9:rxn00688_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.1638796868454578,
+    "model_over_measured_total": 0.7210959131774383,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065122122
+   },
+   "Roseovarius.9:rxn00336_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684545315,
+    "model_over_measured_total": 0.7210959131774349,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121733
+   },
+   "Roseovarius.9:rxn09693_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.46973679244336947,
+    "model_over_measured_total": 0.8036889759870012,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.2644511567547184
+   },
+   "Roseovarius.9:rxn00286_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.1638796868454304,
+    "model_over_measured_total": 0.7210959131774323,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806512142
+   },
+   "Roseovarius.9:rxn01300_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684544568,
+    "model_over_measured_total": 0.7210959131774357,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121814
+   },
+   "Roseovarius.9:rxn02283_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684542992,
+    "model_over_measured_total": 0.7210959131774348,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806512172
+   },
+   "Roseovarius.9:rxn11676_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684541027,
+    "model_over_measured_total": 0.7210959131774312,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806512131
+   },
+   "Roseovarius.9:rxn05299_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684542148,
+    "model_over_measured_total": 0.7210959131774312,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121317
+   },
+   "Roseovarius.9:rxn00270_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684543425,
+    "model_over_measured_total": 0.72109591317743,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121184
+   },
+   "Roseovarius.9:rxn00934_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684543497,
+    "model_over_measured_total": 0.7210959131774366,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121914
+   },
+   "Roseovarius.9:rxn00691_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684543794,
+    "model_over_measured_total": 0.7210959131774308,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121256
+   },
+   "Roseovarius.9:rxn12217_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684544027,
+    "model_over_measured_total": 0.7210959131774367,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121933
+   },
+   "Roseovarius.9:rxn00244_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684540508,
+    "model_over_measured_total": 0.7210959131774315,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121342
+   },
+   "Roseovarius.9:rxn01014_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684542317,
+    "model_over_measured_total": 0.7210959131774325,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121456
+   },
+   "Roseovarius.9:rxn00905_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684543966,
+    "model_over_measured_total": 0.7210959131774318,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121375
+   },
+   "Roseovarius.11:rxn00771_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684537774,
+    "model_over_measured_total": 0.7210959131774174,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806511972
+   },
+   "Roseovarius.11:rxn11267_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684537463,
+    "model_over_measured_total": 0.7210959131774188,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065119896
+   },
+   "Roseovarius.11:rxn09221_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684538967,
+    "model_over_measured_total": 0.7210959131774214,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065120174
+   },
+   "Roseovarius.11:rxn00770_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684543358,
+    "model_over_measured_total": 0.7210959131774357,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121814
+   },
+   "Albimonas.1:rxn00688_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684542978,
+    "model_over_measured_total": 0.7210959131774339,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121614
+   },
+   "Albimonas.1:rxn00336_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684540044,
+    "model_over_measured_total": 0.7210959131774344,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121667
+   },
+   "Albimonas.1:rxn01300_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.163879686845407,
+    "model_over_measured_total": 0.7210959131774357,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121814
+   },
+   "Albimonas.1:rxn02283_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.1638796868454027,
+    "model_over_measured_total": 0.7210959131774352,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121767
+   },
+   "Albimonas.1:rxn11676_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684543322,
+    "model_over_measured_total": 0.7210959131774356,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121806
+   },
+   "Albimonas.1:rxn00691_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.1638796868454315,
+    "model_over_measured_total": 0.721095913177434,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121622
+   },
+   "Albimonas.1:rxn00244_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.1638796868454216,
+    "model_over_measured_total": 0.7210959131774367,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121942
+   },
+   "Albimonas.1:rxn01014_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684541196,
+    "model_over_measured_total": 0.7210959131774349,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121747
+   },
+   "Roseovarius.9:reverse-open rxn00330_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.1638796868454309,
+    "model_over_measured_total": 0.7210959131774324,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121453
+   },
+   "Roseovarius.9:rxn00691_c0+rxn00740_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684545243,
+    "model_over_measured_total": 0.7210959131774352,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121767
+   },
+   "Roseovarius.9:rxn05318_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684544726,
+    "model_over_measured_total": 0.7210959131774342,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121645
+   },
+   "Roseovarius.9:rxn05203_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.1638796868454262,
+    "model_over_measured_total": 0.7210959131774343,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121667
+   },
+   "Roseovarius.9:rxn05497_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.28120988914689776,
+    "model_over_measured_total": 0.7527795346816578,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.21470700333768294
+   },
+   "Roseovarius.9:rxn10832_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.4697367924433451,
+    "model_over_measured_total": 0.803688975986996,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.2644511567547134
+   },
+   "Roseovarius.9:rxn09672_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684541376,
+    "model_over_measured_total": 0.7210959131774289,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806512105
+   },
+   "Roseovarius.9:rxn12603_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684544008,
+    "model_over_measured_total": 0.7210959131774385,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065122144
+   },
+   "Roseovarius.9:rxn05316_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684545134,
+    "model_over_measured_total": 0.7210959131774402,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065122338
+   },
+   "Roseovarius.9:rxn09665_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.46816705372421746,
+    "model_over_measured_total": 0.8032650867712313,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.26406300192581006
+   },
+   "Roseovarius.9:rxn05200_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.1638796868454326,
+    "model_over_measured_total": 0.7210959131774323,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121414
+   },
+   "Roseovarius.9:rxn05680_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684544751,
+    "model_over_measured_total": 0.7210959131774357,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121814
+   },
+   "Roseovarius.9:rxn05308_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.4697367924433564,
+    "model_over_measured_total": 0.8036889759869909,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.2644511567547088
+   },
+   "Roseovarius.9:rxn09689_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.46973679244334865,
+    "model_over_measured_total": 0.8036889759869884,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.26445115675470654
+   },
+   "Roseovarius.9:rxn09696_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684544768,
+    "model_over_measured_total": 0.7210959131774339,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121622
+   },
+   "Roseovarius.9:rxn05317_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684541035,
+    "model_over_measured_total": 0.7210959131774298,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806512115
+   },
+   "Roseovarius.9:rxn13781_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.46973679244334254,
+    "model_over_measured_total": 0.8036889759869921,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.26445115675471004
+   },
+   "Roseovarius.9:rxn12648_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.46973679244334343,
+    "model_over_measured_total": 0.8036889759869913,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.2644511567547093
+   },
+   "Roseovarius.9:rxn09686_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.46973679244336947,
+    "model_over_measured_total": 0.8036889759869926,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.2644511567547104
+   },
+   "Roseovarius.9:rxn05679_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.2246826054281544,
+    "model_over_measured_total": 0.7375150160251188,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.19845361277892973
+   },
+   "Roseovarius.9:rxn05202_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684545912,
+    "model_over_measured_total": 0.7210959131774366,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121908
+   },
+   "Roseovarius.9:rxn05615_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684544219,
+    "model_over_measured_total": 0.7210959131774382,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065122086
+   },
+   "Roseovarius.9:rxn12544_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684540613,
+    "model_over_measured_total": 0.7210959131774266,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806512079
+   },
+   "Roseovarius.9:rxn05645_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.46973679244335464,
+    "model_over_measured_total": 0.8036889759869914,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.2644511567547093
+   },
+   "Roseovarius.9:rxn13360_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.46973679244335464,
+    "model_over_measured_total": 0.8036889759869914,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.2644511567547093
+   },
+   "Roseovarius.9:rxn05204_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.1638796868454477,
+    "model_over_measured_total": 0.7210959131774368,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806512195
+   },
+   "Roseovarius.9:rxn12647_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.46973679244335464,
+    "model_over_measured_total": 0.8036889759869914,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.2644511567547093
+   },
+   "Roseovarius.9:rxn05201_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.1638796868454565,
+    "model_over_measured_total": 0.7210959131774414,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065122455
+   },
+   "Roseovarius.9:rxn12594_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684539458,
+    "model_over_measured_total": 0.721095913177426,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065120737
+   },
+   "Roseovarius.9:rxn10892_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684541432,
+    "model_over_measured_total": 0.7210959131774343,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121656
+   },
+   "Roseovarius.9:rxn05255_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684539156,
+    "model_over_measured_total": 0.7210959131774277,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065120912
+   },
+   "Roseovarius.9:rxn05471_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.28120988914689865,
+    "model_over_measured_total": 0.7527795346816606,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.2147070033376859
+   },
+   "Roseovarius.9:rxn05659_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684542223,
+    "model_over_measured_total": 0.7210959131774335,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806512157
+   },
+   "Roseovarius.9:rxn05491_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684541476,
+    "model_over_measured_total": 0.7210959131774322,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121417
+   },
+   "Roseovarius.9:rxn08343_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.1638796868454508,
+    "model_over_measured_total": 0.7210959131774374,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065122003
+   },
+   "Roseovarius.9:rxn08323_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684539708,
+    "model_over_measured_total": 0.7210959131774272,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065120848
+   },
+   "Roseovarius.9:rxn09165_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684542614,
+    "model_over_measured_total": 0.7210959131774336,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806512158
+   },
+   "Roseovarius.11:reverse-open rxn00139_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.16387968684538368,
+    "model_over_measured_total": 0.7210959131774273,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806512086
+   },
+   "Albimonas.1:reverse-open rxn00330_c0": {
+    "class": "metabolic",
+    "k_methane_per_abundance_R1_A": 0.1638796868453985,
+    "model_over_measured_total": 0.7210959131774358,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121842
+   },
+   "Albimonas.1:rxn05318_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.1638796868454324,
+    "model_over_measured_total": 0.7210959131774379,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065122058
+   },
+   "Albimonas.1:rxn05203_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684544085,
+    "model_over_measured_total": 0.7210959131774355,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806512179
+   },
+   "Albimonas.1:rxn05497_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.2812098891468847,
+    "model_over_measured_total": 0.7329296100117838,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.19343892163570883
+   },
+   "Albimonas.1:rxn10832_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.469736792443371,
+    "model_over_measured_total": 0.7519440681390868,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.21383448362162163
+   },
+   "Albimonas.1:rxn09672_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684542012,
+    "model_over_measured_total": 0.7210959131774377,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806512205
+   },
+   "Albimonas.1:rxn12603_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.1638796868454384,
+    "model_over_measured_total": 0.721095913177436,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806512187
+   },
+   "Albimonas.1:rxn05316_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684541204,
+    "model_over_measured_total": 0.7210959131774342,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121633
+   },
+   "Albimonas.1:rxn09665_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.26531973191811425,
+    "model_over_measured_total": 0.7313269595466262,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.19167140100687832
+   },
+   "Albimonas.1:rxn05200_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684541104,
+    "model_over_measured_total": 0.7210959131774376,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806512203
+   },
+   "Albimonas.1:rxn05680_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.1638796868454252,
+    "model_over_measured_total": 0.7210959131774346,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121692
+   },
+   "Albimonas.1:rxn05308_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684540483,
+    "model_over_measured_total": 0.7210959131774343,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121658
+   },
+   "Albimonas.1:rxn09689_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.4697367924433872,
+    "model_over_measured_total": 0.751944068139088,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.21383448362162283
+   },
+   "Albimonas.1:rxn09693_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.4697367924433379,
+    "model_over_measured_total": 0.7519440681390861,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.2138344836216209
+   },
+   "Albimonas.1:rxn09696_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684543827,
+    "model_over_measured_total": 0.7210959131774347,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.180202680651217
+   },
+   "Albimonas.1:rxn05317_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684541646,
+    "model_over_measured_total": 0.721095913177435,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121753
+   },
+   "Albimonas.1:rxn13781_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.4697367924433514,
+    "model_over_measured_total": 0.7519440681390905,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.21383448362162555
+   },
+   "Albimonas.1:rxn12648_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.29439629656178207,
+    "model_over_measured_total": 0.7342595655102093,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.19489983599266542
+   },
+   "Albimonas.1:rxn09686_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.4697367924433872,
+    "model_over_measured_total": 0.7519440681390912,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.2138344836216264
+   },
+   "Albimonas.1:rxn05679_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.22468260542813118,
+    "model_over_measured_total": 0.7272283777180033,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1871157469525283
+   },
+   "Albimonas.1:rxn05202_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684541818,
+    "model_over_measured_total": 0.7210959131774358,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121828
+   },
+   "Albimonas.1:rxn05615_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684541715,
+    "model_over_measured_total": 0.7210959131774342,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121645
+   },
+   "Albimonas.1:rxn12544_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.1638796868453928,
+    "model_over_measured_total": 0.7210959131774334,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806512157
+   },
+   "Albimonas.1:rxn05645_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.46973679244338506,
+    "model_over_measured_total": 0.7519440681390875,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.2138344836216223
+   },
+   "Albimonas.1:rxn05720_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.28120988914690154,
+    "model_over_measured_total": 0.7329296100117837,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.19343892163570883
+   },
+   "Albimonas.1:rxn05299_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684544577,
+    "model_over_measured_total": 0.7210959131774355,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.180202680651218
+   },
+   "Albimonas.1:rxn13360_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.46973679244336575,
+    "model_over_measured_total": 0.7519440681390872,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.21383448362162225
+   },
+   "Albimonas.1:rxn05204_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684544363,
+    "model_over_measured_total": 0.7210959131774365,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121903
+   },
+   "Albimonas.1:rxn12647_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.29439629656178407,
+    "model_over_measured_total": 0.7342595655102091,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.19489983599266536
+   },
+   "Albimonas.1:rxn05201_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684542195,
+    "model_over_measured_total": 0.7210959131774356,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121808
+   },
+   "Albimonas.1:rxn12594_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684542387,
+    "model_over_measured_total": 0.7210959131774349,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121728
+   },
+   "Albimonas.1:rxn05636_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684540133,
+    "model_over_measured_total": 0.7210959131774339,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121614
+   },
+   "Albimonas.1:rxn10892_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684540344,
+    "model_over_measured_total": 0.7210959131774353,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121767
+   },
+   "Albimonas.1:rxn05255_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684542192,
+    "model_over_measured_total": 0.7210959131774342,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806512164
+   },
+   "Albimonas.1:rxn05471_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.28120988914689404,
+    "model_over_measured_total": 0.7329296100117842,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.19343892163570928
+   },
+   "Albimonas.1:rxn05659_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684543966,
+    "model_over_measured_total": 0.7210959131774366,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121925
+   },
+   "Albimonas.1:rxn05491_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684541934,
+    "model_over_measured_total": 0.7210959131774346,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121692
+   },
+   "Albimonas.1:rxn08343_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684541465,
+    "model_over_measured_total": 0.7210959131774349,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.1802026806512173
+   },
+   "Albimonas.1:rxn08323_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.16387968684538756,
+    "model_over_measured_total": 0.7210959131774344,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121672
+   },
+   "Albimonas.1:rxn09165_c0": {
+    "class": "export_sink",
+    "k_methane_per_abundance_R1_A": 0.1638796868454022,
+    "model_over_measured_total": 0.721095913177435,
+    "spearman_rho": -0.08571428571428573,
+    "share_of_three": 0.18020268065121753
+   }
+  }
+ },
+ "alternatives_range_areal": {
+  "0.07": {
+   "metabolic": [
+    0.19012752624324425,
+    0.19012752624326684,
+    29
+   ],
+   "export_sink": [
+    0.1901275262432414,
+    0.30530619136031456,
+    76
+   ]
+  },
+  "0.33": {
+   "metabolic": [
+    0.7210959131774174,
+    0.7210959131774383,
+    29
+   ],
+   "export_sink": [
+    0.721095913177426,
+    0.8036889759870012,
+    76
+   ]
+  }
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "guild_species": {
+  "mepn_consumer": 39,
+  "betaine_reducer": 18,
+  "methanogen": 1,
+  "methylamine_user": 1,
+  "tma_producer": 0,
+  "tma_candidate_one_sided": 36,
+  "archaea": 57,
+  "methanosarcinales": 1
+ },
+ "guild_mags": {
+  "mepn_consumer": 109,
+  "betaine_reducer": 53,
+  "methanogen": 4,
+  "methylamine_user": 4,
+  "tma_producer": 0,
+  "tma_candidate_one_sided": 83
+ },
+ "n_species": 585,
+ "n_archaeal_species": 57,
+ "per_species_q05_raw": 480,
+ "per_species_q05_dna": 471,
+ "heatmap_taxa": 58,
+ "heatmap_archaeal_taxa": 9,
+ "heatmap_guild_taxa_absent": {
+  "mepn_consumer": [
+   "CAJQQK01",
+   "CAMCWB01",
+   "CAZRZN01",
+   "DAINOF01",
+   "DATHSN01",
+   "Desulfotignum",
+   "Halonotius",
+   "Haloplanus",
+   "Haloquadratum",
+   "Halorubrum",
+   "JAAAOG01",
+   "JACKII01",
+   "JASFMS01",
+   "JAVJPJ01",
+   "JAWLGC01",
+   "JBKDZR01",
+   "Lentibacter",
+   "Natronomonas",
+   "RI-231",
+   "Saliniramus",
+   "Thermohalobaculum",
+   "UBA8366",
+   "UBA8670",
+   "WSZY01"
+  ],
+  "betaine_reducer": [
+   "BM714",
+   "CAYRVO01",
+   "DAOWES01",
+   "Halanaerobium",
+   "Halonatronomonas",
+   "M55B127",
+   "PWPR01",
+   "QPJE01",
+   "UBA8670"
+  ],
+  "methanogen": [
+   "Methanolobus"
+  ]
+ },
+ "within_species_kept": 287,
+ "within_taxa": 201,
+ "within_archaeal_taxa": 23,
+ "candidates": 15508,
+ "effect_pass": 1679,
+ "fdr_pass": 0,
+ "maxT_q95": 0.9853890521630573,
+ "pairs_ge_maxT_q95": 1,
+ "glasso_alpha": 0.7569092304865263,
+ "glasso_edges_all": 194,
+ "glasso_edges_gt005": 117,
+ "pseudocount": 1.2619227298597204e-09,
+ "network_nodes": 62,
+ "network_edges": 117,
+ "louvain_Q": 0.741,
+ "louvain_modules": 7,
+ "module_sizes": [
+  16,
+  12,
+  11,
+  9,
+  5,
+  2,
+  2
+ ],
+ "network_archaeal_taxa": 10,
+ "archaeal_modules": [
+  "module_1",
+  "module_2",
+  "module_3"
+ ],
+ "same_phylum_edges": 24,
+ "guild_taxa_in_network": {
+  "mepn_consumer": [
+   "Halonotius",
+   "Haloplanus",
+   "Haloquadratum",
+   "Halorubrum"
+  ],
+  "methanogen": [],
+  "betaine_reducer": [
+   "BM714",
+   "DATFJG01",
+   "Halonatronomonas",
+   "QPJE01"
+  ]
+ },
+ "guild_taxa_in_panel_without_edges": {
+  "mepn_consumer": [
+   "CAJQQK01",
+   "CAZRZN01",
+   "DAINOF01",
+   "DATHSN01",
+   "Desulfotignum",
+   "JAAAOG01",
+   "JACKII01",
+   "JAWLGC01",
+   "JBKDZR01",
+   "Lentibacter",
+   "Marivita",
+   "Natrinema",
+   "RI-231",
+   "Roseibacterium",
+   "Roseovarius",
+   "Saliniramus",
+   "Thermohalobaculum",
+   "UBA8670"
+  ],
+  "methanogen": [
+   "Methanolobus"
+  ],
+  "betaine_reducer": [
+   "CAYRVO01",
+   "DAOWES01",
+   "Halanaerobium",
+   "M55B127",
+   "PWPR01",
+   "UBA8670"
+  ]
+ },
+ "guild_taxa_not_in_panel": {
+  "mepn_consumer": [
+   "CAMCWB01",
+   "JASFMS01",
+   "JAVJPJ01",
+   "Natronomonas",
+   "UBA8366",
+   "WSZY01"
+  ],
+  "methanogen": [],
+  "betaine_reducer": []
+ },
+ "guild_taxa_degree": {
+  "mepn_consumer": {
+   "Halonotius": 2,
+   "Haloplanus": 3,
+   "Haloquadratum": 8,
+   "Halorubrum": 1
+  },
+  "methanogen": {},
+  "betaine_reducer": {
+   "BM714": 1,
+   "DATFJG01": 10,
+   "Halonatronomonas": 1,
+   "QPJE01": 3
+  }
+ }
+}

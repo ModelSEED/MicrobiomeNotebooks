@@ -1,0 +1,16 @@
+BBMerge 39.13 on 300,000 read pairs of R1_A_D1 (SRR5209943, reads 100,001-400,000), 2026-11-11 (merge_rate_check.sh)
+
+bbmerge.sh defaults
+  Pairs 300000 | Joined 116645 (38.882 %) | Ambiguous 0 | No Solution 183355 (61.118 %)
+  Avg insert 239.5, SD 33.0, mode 269; percentiles 10th 198, 25th 222, 50th 246, 75th 264, 90th 274; range 17-291
+
+bbmerge-auto.sh rem k=62 extend2=50 ecct   (Tadpole extension + error correction; lower bound on a subsample)
+  Pairs 300000 | Joined 136277 (45.426 %) | Ambiguous 163669 (54.556 %) | No Solution 54 (0.018 %)
+  Avg insert 245.1, SD 38.7, mode 274
+
+For comparison, metaSPAdes 3.15.3 (2026 KBase run) estimated insert size 301.5 +- 67.4 bp (quantiles 221-391) for
+all pairs that map to long edges, so roughly half of the pairs overlap; most of the non-merging half are inserts
+> 291 bp that BBMerge can only join by Tadpole extension at full read depth.
+
+k-mers of k = 127 contributed per pair: unmerged 2 x (151 - 126) = 50 (about 44 after the 2026 Trimmomatic trimming,
+mean read length 148.3); merged fragment of 245 bp: 245 - 126 = 119.

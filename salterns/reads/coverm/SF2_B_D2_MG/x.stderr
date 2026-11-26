@@ -1,0 +1,10 @@
+[2025-03-15T05:13:33Z INFO  bird_tool_utils::clap_utils] CoverM version 0.7.0
+[2025-03-15T05:13:33Z INFO  coverm] Writing output to file: /scratch/fliu/data/cliff/reads/coverm/SF2_B_D2_MG//coverm_bins.out
+[2025-03-15T05:13:33Z INFO  bird_tool_utils::external_command_checker] Found strobealign version 0.13.0 
+[2025-03-15T05:13:33Z INFO  bird_tool_utils::external_command_checker] Found samtools version 1.20-52-ge6591ef 
+[2025-03-15T05:13:33Z INFO  coverm] Profiling 450 genomes
+[2025-03-15T05:13:33Z INFO  coverm] Generating concatenated reference FASTA file of 450 genomes ..
+[2025-03-15T05:14:21Z INFO  coverm] Writing BAM files to already existing directory /scratch/fliu/data/cliff/reads/coverm/SF2_B_D2_MG/bam_bins/
+[2025-03-15T05:14:21Z INFO  coverm] Not pre-generating strobealign index
+[2025-03-15T05:14:21Z INFO  coverm] Caching BAM file to /scratch/fliu/data/cliff/reads/coverm/SF2_B_D2_MG/bam_bins//coverm-genome.10092.4.148015.ATTCAGA-AGGCGAA.anqdpht.fastq.bam
+[2025-03-15T05:54:31Z INFO  coverm::genome] In sample '10092.4.148015.ATTCAGA-AGGCGAA.anqdpht.fastq', found 5461553 reads mapped out of 54400772 total (10.04%)

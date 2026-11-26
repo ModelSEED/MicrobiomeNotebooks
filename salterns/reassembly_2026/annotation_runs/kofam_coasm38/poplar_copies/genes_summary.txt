@@ -1,0 +1,5 @@
+contigs_in 21648 contigs_used 21648 genes 111172
+binner maxbin2 58948
+binner metabat2 38537
+binner concoct 13687
+aa_total 31552279

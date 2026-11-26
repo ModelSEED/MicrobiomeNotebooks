@@ -1,0 +1,181 @@
+"""Shared local-resource gate for the two GROW drivers' hybrid workers (user decision 2026-11-23).
+
+One flocked JSON (grow/hybrid/slots.json) lists every local hybrid worker of either driver with the threads and
+memory it was given. A driver may start a worker only if, with it, the hybrid workers stay within
+  TOTAL_THREADS 48 / TOTAL_MEM_GB 160  (BRIEF limits),
+MemAvailable stays >= request + MEM_MARGIN_GB, the machine has request/2 idle cores by load average (the other
+users' jobs, e.g. codiffusion, keep theirs), the work disk keeps >= MIN_FREE_GB + the step's disk need free, and no
+GTDB-Tk scope is active. The per-sample driver has priority: the sitecov driver starts nothing while the per-sample
+driver reported, in its last cycle (< 2 h ago), work that was ready but waiting for resources.
+The DAS Tool workers stay under each driver's own LOCAL_CAP and are counted here too (by their declared size).
+"""
+import fcntl
+import json
+import os
+import shutil
+import subprocess
+import time
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+SLOTS = os.path.join(HERE, "slots.json")
+TOTAL_THREADS = 48
+TOTAL_MEM_GB = 160
+MEM_MARGIN_GB = 30
+MIN_FREE_GB = 100
+GTDBTK_SCOPES = ("gtdbtk-grow-assembly", "gtdbtk-grow-sitecov", "gtdbtk-salterns-reassembly")
+PRIORITY_DRIVER = "per-sample"
+WAITING_TTL_S = 2 * 3600
+TF_THREADS, TF_MEM_GB = 20, 50
+
+
+def _alive(pid, workdir):
+    try:
+        with open(f"/proc/{pid}/stat") as fh:
+            if fh.read().rsplit(")", 1)[1].split()[0] in ("Z", "X"):
+                return False
+        with open(f"/proc/{pid}/cmdline", "rb") as fh:
+            return workdir.encode() in fh.read()
+    except (OSError, IndexError):
+        return False
+
+
+def mem_available_gb():
+    with open("/proc/meminfo") as fh:
+        for line in fh:
+            if line.startswith("MemAvailable:"):
+                return int(line.split()[1]) / 1048576
+    return 0.0
+
+
+def gtdbtk_running():
+    for s in GTDBTK_SCOPES:
+        st = subprocess.run(["systemctl", "--user", "is-active", s], capture_output=True, text=True).stdout.strip()
+        if st in ("active", "activating", "deactivating", "reloading", "refreshing"):
+            return s
+    return None
+
+
+class Gate:
+    """with Gate() as g: g.can(...); g.add(...)  -- holds the flock for the whole block."""
+
+    def __enter__(self):
+        self.fh = open(SLOTS + ".lock", "w")
+        fcntl.flock(self.fh, fcntl.LOCK_EX)
+        try:
+            self.d = json.load(open(SLOTS))
+        except (OSError, ValueError):
+            self.d = {"workers": {}, "waiting": {}}
+        self.d.setdefault("workers", {})
+        self.d.setdefault("waiting", {})
+        for wd, w in list(self.d["workers"].items()):            # drop finished workers
+            if w.get("pid") and not _alive(w["pid"], wd.split("#", 1)[0]):
+                del self.d["workers"][wd]
+            elif not w.get("pid") and time.time() - w.get("t", 0) > 600:
+                del self.d["workers"][wd]
+        return self
+
+    def __exit__(self, *exc):
+        tmp = SLOTS + ".tmp"
+        with open(tmp, "w") as f:
+            json.dump(self.d, f, indent=1)
+        os.replace(tmp, SLOTS)
+        fcntl.flock(self.fh, fcntl.LOCK_UN)
+        self.fh.close()
+
+    def used(self, host="FM"):
+        ws = [w for w in self.d["workers"].values() if w.get("host", "FM") == host]
+        return sum(w["threads"] for w in ws), sum(w["mem_gb"] for w in ws)
+
+    def can_tf(self, driver, threads, mem_gb):
+        """TF (user plan 2026-11-23): <= 20 threads / 50 GB for our jobs, >= 100 GB free, and back off when the
+        user's own work loads it (load average leaves fewer than threads idle cores)."""
+        if driver != PRIORITY_DRIVER:
+            w = self.d["waiting"].get(PRIORITY_DRIVER)
+            if w and w.get("n") and time.time() - w.get("t", 0) < WAITING_TTL_S:
+                return False, "per-sample priority"
+        t, m = self.used("TF")
+        if t + threads > TF_THREADS or m + mem_gb > TF_MEM_GB:
+            return False, f"TF budget {t}+{threads} threads / {m}+{mem_gb} GB"
+        try:
+            out = subprocess.run(["ssh", "-o", "BatchMode=yes", "-o", "ConnectTimeout=15", "TF",
+                                  "cat /proc/loadavg; nproc; grep MemAvailable /proc/meminfo; df -k --output=avail ~ | tail -1"],
+                                 capture_output=True, text=True, timeout=40).stdout.split("\n")
+            load, ncpu = float(out[0].split()[0]), int(out[1])
+            avail_gb, free_gb = int(out[2].split()[1]) / 1048576, int(out[3]) / 1048576
+        except Exception as e:  # noqa: BLE001
+            return False, f"TF unreachable ({type(e).__name__})"
+        if ncpu - load < threads:
+            return False, f"TF busy (load {load:.1f} on {ncpu})"
+        if avail_gb < mem_gb + 8:
+            return False, f"TF MemAvailable {avail_gb:.0f} GB"
+        if free_gb < 100:
+            return False, f"TF disk {free_gb:.0f} GB free"
+        return True, None
+
+    def can(self, driver, threads, mem_gb, disk_gb=0, disk_path=HERE):
+        """(ok, reason)"""
+        if driver != PRIORITY_DRIVER:
+            w = self.d["waiting"].get(PRIORITY_DRIVER)
+            if w and w.get("n") and time.time() - w.get("t", 0) < WAITING_TTL_S:
+                return False, f"per-sample run has {w['n']} local steps waiting (priority)"
+        g = gtdbtk_running()
+        if g:
+            return False, f"GTDB-Tk scope {g} is active"
+        t, m = self.used()
+        if t + threads > TOTAL_THREADS:
+            return False, f"threads {t}+{threads} > {TOTAL_THREADS}"
+        if m + mem_gb > TOTAL_MEM_GB:
+            return False, f"memory {m}+{mem_gb} GB > {TOTAL_MEM_GB}"
+        avail = mem_available_gb()
+        if avail < mem_gb + MEM_MARGIN_GB:
+            return False, f"MemAvailable {avail:.0f} GB < {mem_gb}+{MEM_MARGIN_GB}"
+        idle = os.cpu_count() - os.getloadavg()[0]
+        if idle < threads / 2:
+            return False, f"only {idle:.0f} idle cores by load average"
+        free = shutil.disk_usage(disk_path).free / 1e9
+        if free < MIN_FREE_GB + disk_gb:
+            return False, f"{free:.0f} GB free < {MIN_FREE_GB}+{disk_gb}"
+        return True, None
+
+    def add(self, workdir, driver, stage, unit, threads, mem_gb, pid=None, host="FM"):
+        self.d["workers"][workdir] = {"driver": driver, "stage": stage, "unit": unit, "threads": threads,
+                                      "mem_gb": mem_gb, "pid": pid, "t": time.time(), "host": host}
+
+    def set_pid(self, workdir, pid):
+        if workdir in self.d["workers"]:
+            self.d["workers"][workdir]["pid"] = pid
+
+    def waiting(self, driver, n):
+        self.d["waiting"][driver] = {"n": n, "t": time.time()}
+
+
+def reads_cache_cleanup(cache, needed_refs, log=print):
+    """Delete cached read files whose library ref no driver still needs (needs_*.json in this dir) and that no live
+    worker is using (a worker records the refs it reads in its spec)."""
+    needed = set(needed_refs)
+    for f in os.listdir(HERE):
+        if f.startswith("needs_") and f.endswith(".json"):
+            try:
+                needed |= set(json.load(open(os.path.join(HERE, f))))
+            except (OSError, ValueError):
+                return                                          # unreadable: delete nothing this time
+    with Gate() as g:
+        for wd in g.d["workers"]:
+            try:
+                sp = json.load(open(os.path.join(wd, "spec.json")))
+                needed |= set(sp.get("reads_refs", []))
+            except (OSError, ValueError):
+                pass
+    if not os.path.isdir(cache):
+        return
+    for f in os.listdir(cache):
+        if f.endswith(".part"):
+            continue
+        ref = "/".join(f.split(".", 1)[0].split("_")[:3])
+        if ref not in needed:
+            for p in (os.path.join(cache, f),):
+                try:
+                    os.remove(p)
+                    log(f"reads cache: removed {f} (no longer needed)")
+                except OSError:
+                    pass

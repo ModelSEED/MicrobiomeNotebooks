@@ -1,0 +1,2693 @@
+{
+  "meta": {
+    "description": "Betaine->TMA FBA fluxes (mmol/gDW/h per MAG and unrestored core). Modelled CH4 = 0.06 x TMA (Methods).",
+    "models": "correlational/models/<MAG>.contigs__.RAST_gapfilled_betaine.json + ATPM_c0 (lb 0) if absent",
+    "medium": {
+      "EX_cpd00067_e0": 1000.0,
+      "EX_cpd00058_e0": 1000.0,
+      "EX_cpd00013_e0": 1000.0,
+      "EX_cpd00244_e0": 1000.0,
+      "EX_cpd00205_e0": 1000.0,
+      "EX_cpd00034_e0": 1000.0,
+      "EX_cpd11574_e0": 1000.0,
+      "EX_cpd00971_e0": 1000.0,
+      "EX_cpd00048_e0": 1000.0,
+      "EX_cpd00030_e0": 1000.0,
+      "EX_cpd00305_e0": 100.0,
+      "EX_cpd00001_e0": 1000.0,
+      "EX_cpd10516_e0": 1000.0,
+      "EX_cpd00007_e0": 1000.0,
+      "EX_cpd00159_e0": 100.0,
+      "EX_cpd00009_e0": 100,
+      "EX_cpd00063_e0": 1000.0,
+      "EX_cpd00149_e0": 1000.0,
+      "EX_cpd00254_e0": 1000.0,
+      "EX_cpd00099_e0": 1000.0,
+      "EX_cpd00540_e0": 0.1
+    },
+    "constraints": "bio1 fixed to core abundance; EX_cpd00159_e0 bounds (-1000,0) as objective (maximised = minimise lactate uptake)",
+    "abundance_as_run": "correlational/betaine_grdH_r232/inputs/averaged_normalized_abundances_unrestored_22f4629.csv  (git show 22f4629:salterns/correlational/averaged_normalized_abundances_unrestored.csv)",
+    "abundance_current": "data/averaged_normalized_abundances_unrestored.csv",
+    "grdH9": [
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27",
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45",
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48",
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59",
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73",
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047",
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85",
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40",
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52"
+    ],
+    "cobra_version": "0.29.1",
+    "solvers": {
+      "resim_primary": "glpk",
+      "fva": "gurobi"
+    },
+    "note": "No model was structurally changed: no annotation-supported fix exists for the zero-TMA grdH models (see README)."
+  },
+  "existing_grdH9": {
+    "TMA": {
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": 0.09999999999999998,
+        "R2_B": 0.09999999999999998,
+        "R2_C": 0.09999999999999998,
+        "R1_A": 0.09999999999999998,
+        "R2_A": 0.09999999999999998,
+        "R1_B": 0.09999999999999998
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": 0.04049835052607321,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.04309736398630432,
+        "R2_A": 0.026673668070031162,
+        "R1_B": 0.03873150159343812
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": 0.09999999999999996,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": 0.02039362806224093,
+        "R2_B": 0.1,
+        "R2_C": 0.10000000000000002,
+        "R1_A": 0.015386985708030645,
+        "R2_A": 0.01051110191127906,
+        "R1_B": 0.02698393724322992
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": 0.09999999999999999,
+        "R2_B": 0.09999999999999998,
+        "R2_C": 0.09999999999999998,
+        "R1_A": 0.09999999999999998,
+        "R2_A": 0.09999999999999998,
+        "R1_B": 0.09999999999999998
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": 0.09999999999999998,
+        "R2_B": 0.09999999999999998,
+        "R2_C": 0.09999999999999998,
+        "R1_A": 0.09999999999999998,
+        "R2_A": 0.09140306704143271,
+        "R1_B": 0.09999999999999998
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      }
+    },
+    "betaine": {
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": -0.04049835052607321,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.04309736398630432,
+        "R2_A": -0.02667366807003116,
+        "R1_B": -0.03873150159343811
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": -0.02039362806224093,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.01538698570803064,
+        "R2_A": -0.010511101911279047,
+        "R1_B": -0.026983937243229922
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.09140306704143274,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      }
+    },
+    "lactate": {
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": -0.07664354612157769,
+        "R2_B": -1.1021569232047885,
+        "R2_C": -2.2346700387364167,
+        "R1_A": -0.06606904005511163,
+        "R2_A": -0.00013263035935846384,
+        "R1_B": -0.016273308812607606
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": -0.04325570720521295,
+        "R2_B": -0.32967928895331156,
+        "R2_C": -0.8269215152445607,
+        "R1_A": -0.03629055405027021,
+        "R2_A": -0.02246082134216034,
+        "R1_B": -0.032614237206514005
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": 0.0,
+        "R2_B": -0.0026878366793308913,
+        "R2_C": -0.00704304490940093,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": -0.013493001366517144,
+        "R2_B": -0.10700084440023282,
+        "R2_C": -0.20250380099079288,
+        "R1_A": -0.009476200917462,
+        "R2_A": -0.006619184089559963,
+        "R1_B": -0.015174552858336651
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": -0.014622874189782581,
+        "R2_B": -0.16233984792197698,
+        "R2_C": -0.45171852648335314,
+        "R1_A": -0.01103295379722601,
+        "R2_A": -0.007536791412274483,
+        "R1_B": -0.019348333619132446
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": -0.06021723815618566,
+        "R2_B": -0.045501008941393174,
+        "R2_C": -0.09392673467006991,
+        "R1_A": -0.05328186819481229,
+        "R2_A": -0.0013303833392577932,
+        "R1_B": -0.046317913343311756
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": -0.13883252834141374,
+        "R2_B": -0.6381136551861526,
+        "R2_C": -1.6647185658341215,
+        "R1_A": -0.3806897478361765,
+        "R2_A": -0.011113124074267088,
+        "R1_B": -0.15840820437459036
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": -0.31650730206634603,
+        "R2_B": -0.4974322664919271,
+        "R2_C": -0.5290750736408264,
+        "R1_A": -0.25633787902038185,
+        "R2_A": -0.06997501292276205,
+        "R1_B": -0.11106212972707583
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": 0.0,
+        "R2_B": -2.8835764421193035,
+        "R2_C": -3.8350698700093413,
+        "R1_A": 0.0,
+        "R2_A": -0.19304605304146427,
+        "R1_B": 0.0
+      }
+    }
+  },
+  "resim_glpk_asrun_15": {
+    "TMA": {
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs": {
+        "R1_C": 0.09999999999999999,
+        "R2_B": 0.09999999999999999,
+        "R2_C": 0.09999999999999999,
+        "R1_A": 0.09999999999999999,
+        "R2_A": 0.09999999999999999,
+        "R1_B": 0.09999999999999999
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": 0.09999999999999998,
+        "R2_B": 0.09999999999999998,
+        "R2_C": 0.09999999999999998,
+        "R1_A": 0.09999999999999998,
+        "R2_A": 0.09999999999999998,
+        "R1_B": 0.09999999999999998
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": 0.040498350526073416,
+        "R2_B": 0.10000000000000002,
+        "R2_C": 0.1,
+        "R1_A": 0.04309736398630366,
+        "R2_A": 0.026673668070031072,
+        "R1_B": 0.038731501593438716
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": 0.09999999999999996,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs": {
+        "R1_C": 0.010620624142021402,
+        "R2_B": 0.0173763080624544,
+        "R2_C": 0.05538545280165891,
+        "R1_A": 0.027738696578461258,
+        "R2_A": 0.004749024914201676,
+        "R1_B": 0.04266112324082968
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": 0.02039362806223605,
+        "R2_B": 0.09999999999999992,
+        "R2_C": 0.10000000000000002,
+        "R1_A": 0.015386985708031122,
+        "R2_A": 0.0105111019112792,
+        "R1_B": 0.026983937243229967
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": 0.09999999999999999,
+        "R2_B": 0.09999999999999998,
+        "R2_C": 0.09999999999999998,
+        "R1_A": 0.09999999999999998,
+        "R2_A": 0.09999999999999998,
+        "R1_B": 0.09999999999999998
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": 0.09999999999999998,
+        "R2_B": 0.09999999999999998,
+        "R2_C": 0.09999999999999998,
+        "R1_A": 0.09999999999999998,
+        "R2_A": 0.09140306704143315,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs": {
+        "R1_C": 0.09999999999999998,
+        "R2_B": 0.09999999999999998,
+        "R2_C": 0.09999999999999998,
+        "R1_A": 0.09999999999999998,
+        "R2_A": 0.09999999999999998,
+        "R1_B": 0.09999999999999998
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      }
+    },
+    "betaine": {
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": -0.040498350526073416,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.043097363986303656,
+        "R2_A": -0.026673668070031076,
+        "R1_B": -0.038731501593438716
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs": {
+        "R1_C": -0.010620624142021404,
+        "R2_B": -0.017376308062454403,
+        "R2_C": -0.05538545280165891,
+        "R1_A": -0.02773869657846126,
+        "R2_A": -0.004749024914201677,
+        "R1_B": -0.042661123240829685
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": -0.020393628062236033,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.015386985708031112,
+        "R2_A": -0.010511101911279186,
+        "R1_B": -0.02698393724322995
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.09140306704143317,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      }
+    },
+    "lactate": {
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs": {
+        "R1_C": -0.011662526176563624,
+        "R2_B": -0.11326810129521024,
+        "R2_C": -0.1860789906848122,
+        "R1_A": -0.013230461708644435,
+        "R2_A": 0.0,
+        "R1_B": -0.00649169329168488
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs": {
+        "R1_C": -2.7696619543647234,
+        "R2_B": -10.790914043372565,
+        "R2_C": -39.50077905828415,
+        "R1_A": -2.1776226895771518,
+        "R2_A": -0.9455790703817633,
+        "R1_B": -2.923935636578635
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs": {
+        "R1_C": -0.06701737556650487,
+        "R2_B": -0.04721343441407833,
+        "R2_C": -0.09281105592014438,
+        "R1_A": -0.09362834445722422,
+        "R2_A": -0.00048503250127747205,
+        "R1_B": -0.06870555069085235
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": -0.07664354612157684,
+        "R2_B": -1.102156923204799,
+        "R2_C": -2.234670038736421,
+        "R1_A": -0.06606904005511118,
+        "R2_A": -0.00013263035935847016,
+        "R1_B": -0.016273308812609823
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": -0.04325570720521303,
+        "R2_B": -0.3296792889532989,
+        "R2_C": -0.8269215152445568,
+        "R1_A": -0.03629055405026994,
+        "R2_A": -0.022460821342160292,
+        "R1_B": -0.03261423720651437
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": 0.0,
+        "R2_B": -0.0026878366793309685,
+        "R2_C": -0.007043044909400907,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs": {
+        "R1_C": -0.04450548482458137,
+        "R2_B": -0.014765744622372795,
+        "R2_C": -0.024137307464676225,
+        "R1_A": -0.05074329366657877,
+        "R2_A": -0.0003126084704341652,
+        "R1_B": -0.07414224908928502
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": -0.013493001366517047,
+        "R2_B": -0.10700084440023326,
+        "R2_C": -0.20250380099079376,
+        "R1_A": -0.009476200917462015,
+        "R2_A": -0.006619184089559971,
+        "R1_B": -0.015174552858336694
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs": {
+        "R1_C": -0.007399275450993618,
+        "R2_B": -0.012105888312788932,
+        "R2_C": -0.03858645365633669,
+        "R1_A": -0.019325253760133956,
+        "R2_A": -0.0033085949558065656,
+        "R1_B": -0.029721549099806878
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": -0.014622874189779709,
+        "R2_B": -0.16233984792197775,
+        "R2_C": -0.4517185264833523,
+        "R1_A": -0.011032953797226323,
+        "R2_A": -0.007536791412274553,
+        "R1_B": -0.019348333619132494
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": -0.06021723815618599,
+        "R2_B": -0.045501008941393174,
+        "R2_C": -0.09392673467006965,
+        "R1_A": -0.05328186819481213,
+        "R2_A": -0.0013303833392577947,
+        "R1_B": -0.04631791334331148
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": -0.13883252834141382,
+        "R2_B": -0.6381136551861448,
+        "R2_C": -1.6647185658341082,
+        "R1_A": -0.3806897478361748,
+        "R2_A": -0.01111312407426738,
+        "R1_B": -0.15840820437458958
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": -0.31650730206634553,
+        "R2_B": -0.4974322664919229,
+        "R2_C": -0.5290750736408334,
+        "R1_A": -0.2563378790203867,
+        "R2_A": -0.06997501292276238,
+        "R1_B": -0.11106212972707842
+      },
+      "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs": {
+        "R1_C": -0.06666326018475838,
+        "R2_B": -0.29030840731219626,
+        "R2_C": -0.5675102409306342,
+        "R1_A": -0.059150677686917945,
+        "R2_A": -0.007923328731048724,
+        "R1_B": -0.0470962740613785
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": 0.0,
+        "R2_B": -2.8835764421192147,
+        "R2_C": -3.8350698700092973,
+        "R1_A": 0.0,
+        "R2_A": -0.19304605304147485,
+        "R1_B": 0.0
+      }
+    },
+    "phosphate": {
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs": {
+        "R1_C": -0.0005574324466063617,
+        "R2_B": -0.0029014855440900097,
+        "R2_C": -0.004581241705156086,
+        "R1_A": -0.0005936049119097698,
+        "R2_A": -0.00019317632137518315,
+        "R1_B": -0.00043814069685496154
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs": {
+        "R1_C": -0.00199489662360456,
+        "R2_B": -0.00777234129845491,
+        "R2_C": -0.028451114999339073,
+        "R1_A": -0.0015684701680167591,
+        "R2_A": -0.0006810695766963169,
+        "R1_B": -0.002106014894648762
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs": {
+        "R1_C": -0.0010770907374526675,
+        "R2_B": -0.0007588054957520131,
+        "R2_C": -0.0014916419483719631,
+        "R1_A": -0.0015047772570241276,
+        "R2_A": -7.795351728912316e-06,
+        "R1_B": -0.0011042227726042718
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": -0.0015222971375675146,
+        "R2_B": -0.010598825056064486,
+        "R2_C": -0.020480881590635054,
+        "R1_A": -0.001399592183384619,
+        "R2_A": -0.00032154269904746967,
+        "R1_B": -0.0008217701194301595
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": -0.0027849178966335244,
+        "R2_B": -0.021225632668533757,
+        "R2_C": -0.05323941453530134,
+        "R1_A": -0.0023364827437423264,
+        "R2_A": -0.0014460876349129675,
+        "R1_B": -0.0020997916517831172
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": -0.00019460513233720297,
+        "R2_B": -0.0005122467834939281,
+        "R2_C": -0.0005954109050615355,
+        "R1_A": -0.00036978079575499234,
+        "R2_A": -2.506911530758432e-06,
+        "R1_B": -0.00010764520445507765
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs": {
+        "R1_C": -0.00070937453281827,
+        "R2_B": -0.00023535173775763638,
+        "R2_C": -0.00038472541696229665,
+        "R1_A": -0.0008087991936336008,
+        "R2_A": -4.982677720360847e-06,
+        "R1_B": -0.001181755990685474
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": -0.003222040975951839,
+        "R2_B": -0.025551105773585416,
+        "R2_C": -0.048356590713573205,
+        "R1_A": -0.0022628551515738193,
+        "R2_A": -0.0015806181133913896,
+        "R1_B": -0.0036235845363980336
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs": {
+        "R1_C": -0.00013383400753433494,
+        "R2_B": -0.00021896462138679904,
+        "R2_C": -0.000697930461376698,
+        "R1_A": -0.0003495445161443686,
+        "R2_A": -5.984403813267583e-05,
+        "R1_B": -0.0005375869640886708
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": -0.0004176377939152895,
+        "R2_B": -0.003336019738252398,
+        "R2_C": -0.006270226025070745,
+        "R1_A": -0.00031510757901972633,
+        "R2_A": -0.0002152551473654527,
+        "R1_B": -0.0005525996643186064
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": -0.0009595300625384885,
+        "R2_B": -0.0007250346793032846,
+        "R2_C": -0.001496673184483326,
+        "R1_A": -0.0008490185848200405,
+        "R2_A": -2.1198959763105338e-05,
+        "R1_B": -0.0007380516218908808
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": -0.0024897273312739433,
+        "R2_B": -0.009072670844305212,
+        "R2_C": -0.022608295913299836,
+        "R1_A": -0.005678576916305528,
+        "R2_A": -0.0008057669758683959,
+        "R1_B": -0.0027478295559066413
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": -0.005065370845052857,
+        "R2_B": -0.0072656973108724725,
+        "R2_C": -0.007650522623640448,
+        "R1_A": -0.004333617908793788,
+        "R2_A": -0.0019626062189686904,
+        "R1_B": -0.002566840852754154
+      },
+      "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs": {
+        "R1_C": -0.0012247442768690642,
+        "R2_B": -0.0029361981502886,
+        "R2_C": -0.005021522206545932,
+        "R1_A": -0.0011047259995801285,
+        "R2_A": -0.00028633656112314306,
+        "R1_B": -0.000912149244875649
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": -0.0005800686847694,
+        "R2_B": -0.01690945561402078,
+        "R2_C": -0.02178814220638619,
+        "R1_A": -0.003110908438255791,
+        "R2_A": -0.003114032386908037,
+        "R1_B": -0.00034958505215829306
+      }
+    },
+    "status": {
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      }
+    },
+    "growth_on_stored_medium": {
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs": 1.012920971084469,
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs": 0.04290869123708655,
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs": 1.3793735734618122,
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": 0.748895327155957,
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": 1.3276451033839145,
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": 1.0255571868355122,
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs": 1.3679779062238862,
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": 3.9989345108097307,
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs": 1.1245979493809524,
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": 0.8702442070841347,
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": 1.3675864209283757,
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": 1.120470674585552,
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": 1.0437720267024548,
+      "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs": 1.1389761447040652,
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": 0.4400622894005126
+    }
+  },
+  "resim_gurobi_asrun_15": {
+    "TMA": {
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": 0.042220868947795955,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs": {
+        "R1_C": 0.010620624142021303,
+        "R2_B": 0.01737630806245445,
+        "R2_C": 0.05538545280165909,
+        "R1_A": 0.027738696578461307,
+        "R2_A": 0.004749024914201682,
+        "R1_B": 0.042661123240829546
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": 0.020393628062240727,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.01538698570803081,
+        "R2_A": 0.010511101911279089,
+        "R1_B": 0.026983937243229835
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": 0.0016299044781788168,
+        "R2_B": 0.001231579203995997,
+        "R2_C": 0.0025423219354960562,
+        "R1_A": 0.001442184301963674,
+        "R2_A": 3.60095851079488e-05,
+        "R1_B": 0.0012536904163946265
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.09140306704143301,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": 0.06689508845949274,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.040081282428881856
+      }
+    },
+    "betaine": {
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": -0.042220868947795955,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs": {
+        "R1_C": -0.010620624142021303,
+        "R2_B": -0.01737630806245445,
+        "R2_C": -0.05538545280165909,
+        "R1_A": -0.027738696578461307,
+        "R2_A": -0.004749024914201682,
+        "R1_B": -0.042661123240829546
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": -0.020393628062240727,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.01538698570803081,
+        "R2_A": -0.010511101911279089,
+        "R1_B": -0.026983937243229835
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": -0.0016299044781788168,
+        "R2_B": -0.001231579203995997,
+        "R2_C": -0.0025423219354960562,
+        "R1_A": -0.001442184301963674,
+        "R2_A": -3.60095851079488e-05,
+        "R1_B": -0.0012536904163946265
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.09140306704143301,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": -0.06689508845949274,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.040081282428881856
+      }
+    },
+    "lactate": {
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs": {
+        "R1_C": -0.011662526176563184,
+        "R2_B": -0.11326810129520837,
+        "R2_C": -0.18607899068481137,
+        "R1_A": -0.01323046170864398,
+        "R2_A": 0.0,
+        "R1_B": -0.006491693291684732
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs": {
+        "R1_C": -2.7696619543639027,
+        "R2_B": -10.790914043375059,
+        "R2_C": -39.50077905829328,
+        "R1_A": -2.177622689577685,
+        "R2_A": -0.9455790703819802,
+        "R1_B": -2.9239356365793148
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs": {
+        "R1_C": -0.06701737556650514,
+        "R2_B": -0.047213434414078284,
+        "R2_C": -0.09281105592014359,
+        "R1_A": -0.09362834445722364,
+        "R2_A": -0.0004850325012774684,
+        "R1_B": -0.06870555069085266
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": -0.07664354612157688,
+        "R2_B": -1.1021569232047885,
+        "R2_C": -2.234670038736403,
+        "R1_A": -0.06606904005510983,
+        "R2_A": -0.00013263035935848363,
+        "R1_B": -0.01627330881260871
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": -0.04325570720521372,
+        "R2_B": -0.3296792889533,
+        "R2_C": -0.8269215152445583,
+        "R1_A": -0.03629055405026995,
+        "R2_A": -0.022460821342160257,
+        "R1_B": -0.03261423720651411
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": 0.0,
+        "R2_B": -0.0026878366793308176,
+        "R2_C": -0.007043044909401779,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs": {
+        "R1_C": -0.04450548482458154,
+        "R2_B": -0.014765744622372809,
+        "R2_C": -0.024137307464676298,
+        "R1_A": -0.05074329366657887,
+        "R2_A": -0.00031260847043416474,
+        "R1_B": -0.07414224908928546
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": -0.01349300136648671,
+        "R2_B": -0.10700084440024969,
+        "R2_C": -0.2025038009908227,
+        "R1_A": -0.009476200917441826,
+        "R2_A": -0.006619184089567295,
+        "R1_B": -0.015174552858312903
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs": {
+        "R1_C": -0.007399275450993529,
+        "R2_B": -0.012105888312788993,
+        "R2_C": -0.038586453656336867,
+        "R1_A": -0.019325253760134015,
+        "R2_A": -0.0033085949558065747,
+        "R1_B": -0.029721549099806822
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": -0.014622874189782397,
+        "R2_B": -0.16233984792197334,
+        "R2_C": -0.4517185264833553,
+        "R1_A": -0.011032953797226073,
+        "R2_A": -0.007536791412274493,
+        "R1_B": -0.019348333619132425
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": -0.060217238156185404,
+        "R2_B": -0.04550100894139329,
+        "R2_C": -0.09392673467006948,
+        "R1_A": -0.053281868194811836,
+        "R2_A": -0.0013303833392577862,
+        "R1_B": -0.04631791334331156
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": -0.138832528341414,
+        "R2_B": -0.6381136551861483,
+        "R2_C": -1.6647185658341161,
+        "R1_A": -0.38068974783617354,
+        "R2_A": -0.011113124074266663,
+        "R1_B": -0.15840820437458755
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": -0.31650730206634964,
+        "R2_B": -0.49743226649192424,
+        "R2_C": -0.5290750736408311,
+        "R1_A": -0.25633787902038285,
+        "R2_A": -0.06997501292276226,
+        "R1_B": -0.11106212972707816
+      },
+      "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs": {
+        "R1_C": -0.06666326018501978,
+        "R2_B": -0.2903084073126365,
+        "R2_C": -0.5675102409304031,
+        "R1_A": -0.05915067768772793,
+        "R2_A": -0.00792332873151122,
+        "R1_B": -0.047096274061520005
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": 0.0,
+        "R2_B": -2.883576442119147,
+        "R2_C": -3.8350698700093186,
+        "R1_A": 0.0,
+        "R2_A": -0.19304605304145905,
+        "R1_B": 0.0
+      }
+    },
+    "phosphate": {
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs": {
+        "R1_C": -0.0005574324466060412,
+        "R2_B": -0.002901485544089561,
+        "R2_C": -0.004581241705155559,
+        "R1_A": -0.0005936049119095426,
+        "R2_A": -0.0001931763213751631,
+        "R1_B": -0.0004381406968549771
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs": {
+        "R1_C": -0.0019948966236018936,
+        "R2_B": -0.0077723412984737296,
+        "R2_C": -0.028451114999386767,
+        "R1_A": -0.001568470168020055,
+        "R2_A": -0.0006810695766976799,
+        "R1_B": -0.002106014894652607
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs": {
+        "R1_C": -0.0010770907374527286,
+        "R2_B": -0.0007588054957519616,
+        "R2_C": -0.0014916419483718367,
+        "R1_A": -0.0015047772570239842,
+        "R2_A": -7.795351728911713e-06,
+        "R1_B": -0.001104222772604288
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": -0.0015222971375675187,
+        "R2_B": -0.010598825056063577,
+        "R2_C": -0.020480881590632664,
+        "R1_A": -0.00139959218338441,
+        "R2_A": -0.0003215426990473027,
+        "R1_B": -0.0008217701194300181
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": -0.0027849178966337573,
+        "R2_B": -0.021225632668533865,
+        "R2_C": -0.05323941453530149,
+        "R1_A": -0.002336482743742298,
+        "R2_A": -0.0014460876349129492,
+        "R1_B": -0.0020997916517829993
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": -0.0001946051323371106,
+        "R2_B": -0.0005122467834938526,
+        "R2_C": -0.0005954109050616289,
+        "R1_A": -0.00036978079575514895,
+        "R2_A": -2.5069115305476498e-06,
+        "R1_B": -0.00010764520445497028
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs": {
+        "R1_C": -0.0007093745328183362,
+        "R2_B": -0.00023535173775763503,
+        "R2_C": -0.00038472541696233796,
+        "R1_A": -0.0008087991936336049,
+        "R2_A": -4.98267772036077e-06,
+        "R1_B": -0.0011817559906855536
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": -0.003222040975951798,
+        "R2_B": -0.025551105773584666,
+        "R2_C": -0.04835659071357283,
+        "R1_A": -0.002262855151573784,
+        "R2_A": -0.0015806181133912794,
+        "R1_B": -0.0036235845363979825
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs": {
+        "R1_C": -0.00013383400753432754,
+        "R2_B": -0.0002189646213868403,
+        "R2_C": -0.0006979304613767981,
+        "R1_A": -0.0003495445161444311,
+        "R2_A": -5.984403813268332e-05,
+        "R1_B": -0.0005375869640886531
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": -0.00041763779391611373,
+        "R2_B": -0.003336019738252063,
+        "R2_C": -0.006270226025070603,
+        "R1_A": -0.0003151075790196645,
+        "R2_A": -0.00021525514736544434,
+        "R1_B": -0.0005525996643186069
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": -0.0009595300625383815,
+        "R2_B": -0.0007250346793032707,
+        "R2_C": -0.0014966731844832351,
+        "R1_A": -0.0008490185848200085,
+        "R2_A": -2.1198959763101614e-05,
+        "R1_B": -0.0007380516218908431
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": -0.0024897273312736784,
+        "R2_B": -0.009072670844305433,
+        "R2_C": -0.022608295913301338,
+        "R1_A": -0.005678576916305352,
+        "R2_A": -0.0008057669758683162,
+        "R1_B": -0.0027478295559063056
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": -0.005065370845052802,
+        "R2_B": -0.007265697310872352,
+        "R2_C": -0.007650522623639865,
+        "R1_A": -0.004333617908793247,
+        "R2_A": -0.0019626062189686097,
+        "R1_B": -0.002566840852754276
+      },
+      "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs": {
+        "R1_C": -0.0012247442768223832,
+        "R2_B": -0.0029361981503962914,
+        "R2_C": -0.0050215222064389844,
+        "R1_A": -0.001104725999790258,
+        "R2_A": -0.00028633656114457036,
+        "R1_B": -0.0009121492448949877
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": -0.0005800686847693376,
+        "R2_B": -0.016909455614016633,
+        "R2_C": -0.021788142206385957,
+        "R1_A": -0.020867956197700377,
+        "R2_A": -0.003114032386907393,
+        "R1_B": -0.00034958505215816507
+      }
+    },
+    "status": {
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      }
+    },
+    "growth_on_stored_medium": {
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs": 1.0129209710842428,
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs": 0.04290869123710586,
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs": 1.3793735734617762,
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": 0.7488953271559565,
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": 1.3276451033839183,
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": 1.0255571868354902,
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs": 1.3679779062238897,
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": 3.998934510809149,
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs": 1.124597949380953,
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": 0.8702442070841439,
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": 1.367586420928386,
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": 1.120470674585556,
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": 1.0437720267024664,
+      "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs": 1.1389761447040656,
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": 0.4400622894005027
+    }
+  },
+  "fva_asrun_15": {
+    "TMA_min": {
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs": {
+        "R1_C": 0.09999999999999676,
+        "R2_B": 0.0999999999999859,
+        "R2_C": 0.0999999999999906,
+        "R1_A": 0.09999999999999608,
+        "R2_A": 0.06698753113982989,
+        "R1_B": 0.09999999999999935
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": 0.09999999999999987,
+        "R2_B": 0.10000000000000622,
+        "R2_C": 0.10000000000000499,
+        "R1_A": 0.10000000000000062,
+        "R2_A": 0.050558525071651,
+        "R1_B": 0.10000000000000075
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": 0.042220868947796676,
+        "R2_B": 0.10000000000000021,
+        "R2_C": 0.10000000000000038,
+        "R1_A": 0.08022638626991555,
+        "R2_A": 0.00047178854556047435,
+        "R1_B": 0.023354338169670412
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs": {
+        "R1_C": 0.010620624142021477,
+        "R2_B": 0.017376308062454802,
+        "R2_C": 0.05538545280165929,
+        "R1_A": 0.027738696578461328,
+        "R2_A": 0.004749024914201795,
+        "R1_B": 0.04266112324083012
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": 0.020393628062240463,
+        "R2_B": 0.09999999999999812,
+        "R2_C": 0.10000000000000159,
+        "R1_A": 0.015386985708030706,
+        "R2_A": 0.010511101911279162,
+        "R1_B": 0.0269839372432305
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": 0.1000000000000026,
+        "R2_B": 0.10000000000000141,
+        "R2_C": 0.1000000000000073,
+        "R1_A": 0.10000000000000533,
+        "R2_A": 0.0999999999999998,
+        "R1_B": 0.10000000000000125
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": 0.10000000000000081,
+        "R2_B": 0.10000000000000026,
+        "R2_C": 0.09999999999999551,
+        "R1_A": 0.10000000000000106,
+        "R2_A": 0.0914030670414325,
+        "R1_B": 0.1000000000000013
+      },
+      "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs": {
+        "R1_C": 0.10000000000189516,
+        "R2_B": 0.09999999999999958,
+        "R2_C": 0.09999999999999835,
+        "R1_A": 0.10000000000002632,
+        "R2_A": 0.10000000000000177,
+        "R1_B": 0.09999999999999475
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": 0.06620051165223426,
+        "R2_B": 0.10000000000000993,
+        "R2_C": 0.09999999999998704,
+        "R1_A": 0.02708577517922057,
+        "R2_A": 0.10000000000000103,
+        "R1_B": 0.03989649833975733
+      }
+    },
+    "TMA_max": {
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.concoct_out.9.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.47.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R1_A_D1_MG_DASTool_bins.metabat.51.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.08269406152916149,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.0008138356791937612,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": 0.07593689776686169,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.06370932926247103,
+        "R2_A": 0.03943075270802046,
+        "R1_B": 0.05725542723751054
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.50.contigs": {
+        "R1_C": 0.07832734189475984,
+        "R2_B": 0.025986943675052332,
+        "R2_C": 0.04248040756451788,
+        "R1_A": 0.0893055614954905,
+        "R2_A": 0.0004981233337071931,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_metabat.58.contigs": {
+        "R1_C": 0.010620624142021081,
+        "R2_B": 0.017376308062454385,
+        "R2_C": 0.05538545280165884,
+        "R1_A": 0.027738696578461113,
+        "R2_A": 0.0047490249142016815,
+        "R1_B": 0.04266112324082905
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": 0.020393628062240685,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.015386985708030982,
+        "R2_A": 0.010511101911279217,
+        "R1_B": 0.02698393724323002
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.08029538166670909,
+        "R2_C": 0.1,
+        "R1_A": 0.09402622144331468,
+        "R2_A": 0.002333665294582473,
+        "R1_B": 0.08173696839771573
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.0914030670414332,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R2_A_D1_MG_DASTool_bins_concoct_out.98.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      }
+    }
+  },
+  "grdH9_resim_glpk_asrun": {
+    "TMA": {
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": 0.09999999999999998,
+        "R2_B": 0.09999999999999998,
+        "R2_C": 0.09999999999999998,
+        "R1_A": 0.09999999999999998,
+        "R2_A": 0.09999999999999998,
+        "R1_B": 0.09999999999999998
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": 0.040498350526073416,
+        "R2_B": 0.10000000000000002,
+        "R2_C": 0.1,
+        "R1_A": 0.04309736398630366,
+        "R2_A": 0.026673668070031072,
+        "R1_B": 0.038731501593438716
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": 0.09999999999999996,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": 0.02039362806223605,
+        "R2_B": 0.09999999999999992,
+        "R2_C": 0.10000000000000002,
+        "R1_A": 0.015386985708031122,
+        "R2_A": 0.0105111019112792,
+        "R1_B": 0.026983937243229967
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": 0.09999999999999999,
+        "R2_B": 0.09999999999999998,
+        "R2_C": 0.09999999999999998,
+        "R1_A": 0.09999999999999998,
+        "R2_A": 0.09999999999999998,
+        "R1_B": 0.09999999999999998
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": 0.09999999999999998,
+        "R2_B": 0.09999999999999998,
+        "R2_C": 0.09999999999999998,
+        "R1_A": 0.09999999999999998,
+        "R2_A": 0.09140306704143315,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      }
+    },
+    "betaine": {
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": -0.040498350526073416,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.043097363986303656,
+        "R2_A": -0.026673668070031076,
+        "R1_B": -0.038731501593438716
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": -0.020393628062236033,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.015386985708031112,
+        "R2_A": -0.010511101911279186,
+        "R1_B": -0.02698393724322995
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.09140306704143317,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      }
+    },
+    "lactate": {
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": -0.07664354612157684,
+        "R2_B": -1.102156923204799,
+        "R2_C": -2.234670038736421,
+        "R1_A": -0.06606904005511118,
+        "R2_A": -0.00013263035935847016,
+        "R1_B": -0.016273308812609823
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": -0.04325570720521303,
+        "R2_B": -0.3296792889532989,
+        "R2_C": -0.8269215152445568,
+        "R1_A": -0.03629055405026994,
+        "R2_A": -0.022460821342160292,
+        "R1_B": -0.03261423720651437
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": 0.0,
+        "R2_B": -0.0026878366793309685,
+        "R2_C": -0.007043044909400907,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": -0.013493001366517047,
+        "R2_B": -0.10700084440023326,
+        "R2_C": -0.20250380099079376,
+        "R1_A": -0.009476200917462015,
+        "R2_A": -0.006619184089559971,
+        "R1_B": -0.015174552858336694
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": -0.014622874189779709,
+        "R2_B": -0.16233984792197775,
+        "R2_C": -0.4517185264833523,
+        "R1_A": -0.011032953797226323,
+        "R2_A": -0.007536791412274553,
+        "R1_B": -0.019348333619132494
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": -0.06021723815618599,
+        "R2_B": -0.045501008941393174,
+        "R2_C": -0.09392673467006965,
+        "R1_A": -0.05328186819481213,
+        "R2_A": -0.0013303833392577947,
+        "R1_B": -0.04631791334331148
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": -0.13883252834141382,
+        "R2_B": -0.6381136551861448,
+        "R2_C": -1.6647185658341082,
+        "R1_A": -0.3806897478361748,
+        "R2_A": -0.01111312407426738,
+        "R1_B": -0.15840820437458958
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": -0.31650730206634553,
+        "R2_B": -0.4974322664919229,
+        "R2_C": -0.5290750736408334,
+        "R1_A": -0.2563378790203867,
+        "R2_A": -0.06997501292276238,
+        "R1_B": -0.11106212972707842
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": 0.0,
+        "R2_B": -2.8835764421192147,
+        "R2_C": -3.8350698700092973,
+        "R1_A": 0.0,
+        "R2_A": -0.19304605304147485,
+        "R1_B": 0.0
+      }
+    },
+    "phosphate": {
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": -0.0015222971375675146,
+        "R2_B": -0.010598825056064486,
+        "R2_C": -0.020480881590635054,
+        "R1_A": -0.001399592183384619,
+        "R2_A": -0.00032154269904746967,
+        "R1_B": -0.0008217701194301595
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": -0.0027849178966335244,
+        "R2_B": -0.021225632668533757,
+        "R2_C": -0.05323941453530134,
+        "R1_A": -0.0023364827437423264,
+        "R2_A": -0.0014460876349129675,
+        "R1_B": -0.0020997916517831172
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": -0.00019460513233720297,
+        "R2_B": -0.0005122467834939281,
+        "R2_C": -0.0005954109050615355,
+        "R1_A": -0.00036978079575499234,
+        "R2_A": -2.506911530758432e-06,
+        "R1_B": -0.00010764520445507765
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": -0.003222040975951839,
+        "R2_B": -0.025551105773585416,
+        "R2_C": -0.048356590713573205,
+        "R1_A": -0.0022628551515738193,
+        "R2_A": -0.0015806181133913896,
+        "R1_B": -0.0036235845363980336
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": -0.0004176377939152895,
+        "R2_B": -0.003336019738252398,
+        "R2_C": -0.006270226025070745,
+        "R1_A": -0.00031510757901972633,
+        "R2_A": -0.0002152551473654527,
+        "R1_B": -0.0005525996643186064
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": -0.0009595300625384885,
+        "R2_B": -0.0007250346793032846,
+        "R2_C": -0.001496673184483326,
+        "R1_A": -0.0008490185848200405,
+        "R2_A": -2.1198959763105338e-05,
+        "R1_B": -0.0007380516218908808
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": -0.0024897273312739433,
+        "R2_B": -0.009072670844305212,
+        "R2_C": -0.022608295913299836,
+        "R1_A": -0.005678576916305528,
+        "R2_A": -0.0008057669758683959,
+        "R1_B": -0.0027478295559066413
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": -0.005065370845052857,
+        "R2_B": -0.0072656973108724725,
+        "R2_C": -0.007650522623640448,
+        "R1_A": -0.004333617908793788,
+        "R2_A": -0.0019626062189686904,
+        "R1_B": -0.002566840852754154
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": -0.0005800686847694,
+        "R2_B": -0.01690945561402078,
+        "R2_C": -0.02178814220638619,
+        "R1_A": -0.003110908438255791,
+        "R2_A": -0.003114032386908037,
+        "R1_B": -0.00034958505215829306
+      }
+    },
+    "status": {
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      }
+    },
+    "growth_on_stored_medium": {
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": 0.748895327155957,
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": 1.3276451033839145,
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": 1.0255571868355122,
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": 3.9989345108097307,
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": 0.8702442070841347,
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": 1.3675864209283757,
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": 1.120470674585552,
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": 1.0437720267024548,
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": 0.4400622894005126
+    }
+  },
+  "grdH9_resim_glpk_current_abundance": {
+    "TMA": {
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": 0.09999999999999998,
+        "R2_B": 0.09999999999999998,
+        "R2_C": 0.09999999999999998,
+        "R1_A": 0.09999999999999998,
+        "R2_A": 0.09999999999999998,
+        "R1_B": 0.09999999999999998
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": 0.04038895921393044,
+        "R2_B": 0.059225254776163805,
+        "R2_C": 0.10000000000000009,
+        "R1_A": 0.043070689548832475,
+        "R2_A": 0.03324141766448645,
+        "R1_B": 0.03860350316928022
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": 0.09999999999999996,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": 0.02018372586343482,
+        "R2_B": 0.029982588661402118,
+        "R2_C": 0.06507882384879164,
+        "R1_A": 0.015385134980515601,
+        "R2_A": 0.013255587620834007,
+        "R1_B": 0.026443030512520782
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": 0.09999999999999999,
+        "R2_B": 0.09999999999999998,
+        "R2_C": 0.09999999999999998,
+        "R1_A": 0.09999999999999998,
+        "R2_A": 0.09999999999999998,
+        "R1_B": 0.09999999999999998
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": 0.09999999999999998,
+        "R2_B": 0.09999999999999998,
+        "R2_C": 0.03591169905269338,
+        "R1_A": 0.10000000000000009,
+        "R2_A": 0.09999999999999998,
+        "R1_B": 0.09999999999999998
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      }
+    },
+    "betaine": {
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": -0.040388959213930445,
+        "R2_B": -0.059225254776163805,
+        "R2_C": -0.1,
+        "R1_A": -0.043070689548832475,
+        "R2_A": -0.03324141766448645,
+        "R1_B": -0.03860350316928021
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": -0.02018372586343481,
+        "R2_B": -0.029982588661402104,
+        "R2_C": -0.06507882384879164,
+        "R1_A": -0.01538513498051558,
+        "R2_A": -0.013255587620834008,
+        "R1_B": -0.026443030512520782
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.03591169905269338,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": -0.1,
+        "R2_B": -0.1,
+        "R2_C": -0.1,
+        "R1_A": -0.1,
+        "R2_A": -0.1,
+        "R1_B": -0.1
+      }
+    },
+    "lactate": {
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": -0.07867074436582522,
+        "R2_B": -0.09615208743485712,
+        "R2_C": -0.1595602931256804,
+        "R1_A": -0.06577385773554102,
+        "R2_A": -0.0001659901311509522,
+        "R1_B": -0.01741335682274526
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": -0.04313886791404744,
+        "R2_B": -0.06325764497747975,
+        "R2_C": -0.15282496437308546,
+        "R1_A": -0.03626809258104602,
+        "R2_A": -0.027991258696100616,
+        "R1_B": -0.032506454889903336
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": 0.0,
+        "R2_B": -0.023692275980096506,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": -0.013357230823247917,
+        "R2_B": -0.019397398422254915,
+        "R2_C": -0.04196120447298534,
+        "R1_A": -0.009474933643385254,
+        "R2_A": -0.008309339218192543,
+        "R1_B": -0.015221620239695765
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": -0.014472367696483296,
+        "R2_B": -0.021498461212570905,
+        "R2_C": -0.046663568181959436,
+        "R1_A": -0.011031626767257061,
+        "R2_A": -0.009504674180558455,
+        "R1_B": -0.018960486442189343
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": -0.05780511776445937,
+        "R2_B": -0.03580529993392229,
+        "R2_C": -0.00992559995278047,
+        "R1_A": -0.05315567423171021,
+        "R2_A": -0.001497562057088193,
+        "R1_B": -0.04334235138695095
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": -0.139131067035812,
+        "R2_B": -0.21824143865727813,
+        "R2_C": -0.1322639221040164,
+        "R1_A": -0.3798835908415548,
+        "R2_A": -0.03131908361333987,
+        "R1_B": -0.15218358284194933
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": -0.30971754344237434,
+        "R2_B": -0.17459988618684846,
+        "R2_C": -0.02749274927668965,
+        "R1_A": -0.2573218879720687,
+        "R2_A": -0.09884678769132829,
+        "R1_B": -0.10068078013982046
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": 0.0,
+        "R2_B": -0.30320764414787854,
+        "R2_C": -0.09040796682532107,
+        "R1_A": 0.0,
+        "R2_A": -0.3251659832689636,
+        "R1_B": 0.0
+      }
+    },
+    "phosphate": {
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": -0.0015458204365394542,
+        "R2_B": -0.0017486712729624465,
+        "R2_C": -0.002373937361615381,
+        "R1_A": -0.001396166932808317,
+        "R2_A": -0.00040241853406469913,
+        "R1_B": -0.0008349990625099727
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": -0.0027773954711777754,
+        "R2_B": -0.004072696043574274,
+        "R2_C": -0.009839279157218517,
+        "R1_A": -0.002335036614395083,
+        "R2_A": -0.001802151954706274,
+        "R1_B": -0.0020928523385256273
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": -0.0002066627622228838,
+        "R2_B": -0.0009133334023633565,
+        "R2_C": -5.468756052855592e-05,
+        "R1_A": -0.00036792170910716345,
+        "R2_A": -2.526336827564528e-06,
+        "R1_B": -0.00010163732533326653
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": -0.0031896198531891173,
+        "R2_B": -0.00463197259421179,
+        "R2_C": -0.010020062737691167,
+        "R1_A": -0.002262552534765815,
+        "R2_A": -0.0019842161663555205,
+        "R1_B": -0.003634823920968683
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": -0.00041333924090814807,
+        "R2_B": -0.0006140085592531939,
+        "R2_C": -0.001332738654442203,
+        "R1_A": -0.0003150696782717817,
+        "R2_A": -0.00027145902407025544,
+        "R1_B": -0.0005415225233097984
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": -0.0009210941909975335,
+        "R2_B": -0.0005705386486789014,
+        "R2_C": -0.00015815922209385733,
+        "R1_A": -0.0008470077502979182,
+        "R2_A": -2.3862864825619002e-05,
+        "R1_B": -0.0006906376049499672
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": -0.0024936635172338973,
+        "R2_B": -0.0035367213851935607,
+        "R2_C": -0.0024031212861115245,
+        "R1_A": -0.00566794786250622,
+        "R2_A": -0.0010721793898783396,
+        "R1_B": -0.0026657588952384314
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": -0.004982796913676489,
+        "R2_B": -0.003339557915660098,
+        "R2_C": -0.0007710958305437167,
+        "R1_A": -0.004345584974509412,
+        "R2_A": -0.0024182834634762108,
+        "R1_B": -0.0024405876387753804
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": -0.0005623084703280803,
+        "R2_B": -0.003678874835389713,
+        "R2_C": -0.0023335030748304676,
+        "R1_A": -0.00023771385962129048,
+        "R2_A": -0.0037914640047119245,
+        "R1_B": -0.0003402753618555103
+      }
+    },
+    "status": {
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": "optimal",
+        "R2_B": "optimal",
+        "R2_C": "optimal",
+        "R1_A": "optimal",
+        "R2_A": "optimal",
+        "R1_B": "optimal"
+      }
+    },
+    "growth_on_stored_medium": {
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": 0.748895327155957,
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": 1.3276451033839145,
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": 1.0255571868355122,
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": 3.9989345108097307,
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": 0.8702442070841347,
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": 1.3675864209283757,
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": 1.120470674585552,
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": 1.0437720267024548,
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": 0.4400622894005126
+    }
+  },
+  "grdH9_fva_current_abundance": {
+    "TMA_min": {
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": 0.0999999999999989,
+        "R2_B": 0.09999999999999783,
+        "R2_C": 0.10000000000000057,
+        "R1_A": 0.09999999999999967,
+        "R2_A": 0.06327522784401911,
+        "R1_B": 0.09999999999999888
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": 0.04483685139960132,
+        "R2_B": 0.09999999999999712,
+        "R2_C": 0.011864827501825749,
+        "R1_A": 0.0798230451412018,
+        "R2_A": 0.0004740656790037717,
+        "R1_B": 0.02205088910844302
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": 0.02018372586343699,
+        "R2_B": 0.02998258866140258,
+        "R2_C": 0.06507882384879102,
+        "R1_A": 0.015385134980515561,
+        "R2_A": 0.013255587620833766,
+        "R1_B": 0.026443030512520744
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": 0.09999999999999748,
+        "R2_B": 0.09999999999999887,
+        "R2_C": 0.09999999999999831,
+        "R1_A": 0.10000000000000643,
+        "R2_A": 0.10000000000000052,
+        "R1_B": 0.10000000000000377
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": 0.09999999999999974,
+        "R2_B": 0.1000000000000022,
+        "R2_C": 0.035911699052692744,
+        "R1_A": 0.09999999999999885,
+        "R2_A": 0.10000000000000021,
+        "R1_B": 0.09999999999999847
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": 0.06417362188224843,
+        "R2_B": 0.09999999999999923,
+        "R2_C": 0.10000000000000239,
+        "R1_A": 0.02712916512638075,
+        "R2_A": 0.1000000000000012,
+        "R1_B": 0.038834027157385986
+      }
+    },
+    "TMA_max": {
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45.contigs": {
+        "R1_C": 0.07573178232934447,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.06366989737238456,
+        "R2_A": 0.04913962774639966,
+        "R1_B": 0.057066211633688115
+      },
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59.contigs": {
+        "R1_C": 0.0,
+        "R2_B": 0.0,
+        "R2_C": 0.0,
+        "R1_A": 0.0,
+        "R2_A": 0.0,
+        "R1_B": 0.0
+      },
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73.contigs": {
+        "R1_C": 0.02018372586343681,
+        "R2_B": 0.02998258866140192,
+        "R2_C": 0.0650788238487915,
+        "R1_A": 0.015385134980515565,
+        "R2_A": 0.013255587620833977,
+        "R1_B": 0.026443030512520546
+      },
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.06318541700005688,
+        "R2_C": 0.017515651960731522,
+        "R1_A": 0.09380352764669515,
+        "R2_A": 0.002626918494830305,
+        "R1_B": 0.07648601048452208
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.035911699052692515,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      },
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52.contigs": {
+        "R1_C": 0.1,
+        "R2_B": 0.1,
+        "R2_C": 0.1,
+        "R1_A": 0.1,
+        "R2_A": 0.1,
+        "R1_B": 0.1
+      }
+    }
+  }
+}

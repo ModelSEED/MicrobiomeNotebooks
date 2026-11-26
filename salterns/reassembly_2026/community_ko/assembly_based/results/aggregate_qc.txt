@@ -1,0 +1,12 @@
+samples	39
+genes	12055118
+genes_searched_full_db	142487
+genes_with_any_ko_among_searched	100177
+genes_with_panel_or_marker_ko	56324	fraction	0.0047
+genes_marker_rescue_only	1581
+panel_marker_kos_called_in_any_sample	131	of	148
+checkm1_lineage_domain_agrees_with_gtdb_kept_bins	935	935
+GE_asm_cv_range	0.0319	0.2098	median	0.0689
+GE_asm_cv_range_allprofile_rescue	0.0325	0.3944	median	0.0703
+genes_marker_rescue_only_allprofile	1371
+seconds	335

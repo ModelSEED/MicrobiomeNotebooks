@@ -1,0 +1,97 @@
+mag	marker	rast_genes	kofam_calls	rast_genes_kofam_called_as	missed_best_score/threshold	kofam_called_genes_rast_says
+Roseovarius.8	phnJ (C-P lyase)	1	1	phnJ		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+Roseovarius.8	mttB, Pyl-type per RAST	0	6			Mll1230 protein; Trimethylamine methyltransferase family protein
+Roseovarius.8	MttB family (RAST 'TMA methyltransferase family')	7	0	mttB; none	557/161 (mttB); 483/161 (mttB); 423/161 (mttB); 476/161 (mttB); 560/161 (mttB); 43/161 (mttB); 550/161 (mttB)	
+Roseovarius.8	cntA/yeaW	0	1			Rieske 2Fe-2S domain protein
+Albimonas.1	phnJ (C-P lyase)	2	0	none	134/247 (phnJ)	
+Albimonas.1	mttB, Pyl-type per RAST	0	2			Trimethylamine methyltransferase family protein
+Albimonas.1	MttB family (RAST 'TMA methyltransferase family')	2	0	mttB	512/161 (mttB); 572/161 (mttB)	
+Marivita.2	phnJ (C-P lyase)	2	1	none; phnJ	47/247 (phnJ)	Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+Marivita.2	mttB, Pyl-type per RAST	0	2			Trimethylamine methyltransferase family protein
+Marivita.2	MttB family (RAST 'TMA methyltransferase family')	2	0	mttB	573/161 (mttB); 543/161 (mttB)	
+Methanolobus.1	mcrA	1	1	mcrA		Methyl coenzyme M reductase alpha subunit (EC 2.8.4.1)
+Methanolobus.1	mtbB/mtmB (Pyl)	4	3	mtbB; mtmB; none	181/497 (mtbB)	[Dimethylamine--corrinoid protein] Co-methyltransferase (EC 2.1.1.249) @ pyrrolysine-containing; [Methylamine--corrinoid protein] Co-methyltransferase (EC 2.1.1.248) @ pyrrolysine-containing
+Methanolobus.1	mttB, Pyl-type per RAST	2	1	mttB; none	109/536 (mtgB)	[Trimethylamine--corrinoid protein] Co-methyltransferase (EC 2.1.1.250) @ pyrrolysine-containing
+Halanaerobium.1	grdH (betaine reductase B beta, Sec)	1	0	grdB	606/619 (grdH)	
+Halanaerobium.1	grdI (betaine reductase B alpha)	1	1	grdI		Betaine reductase component B alpha subunit (EC 1.21.4.4)
+M55B127.1	grdH (betaine reductase B beta, Sec)	2	0	grdB; none	107/619 (grdH); 602/619 (grdH)	
+M55B127.1	grdI (betaine reductase B alpha)	1	1	grdI		Betaine reductase component B alpha subunit (EC 1.21.4.4)
+M55B127.1	mttB, Pyl-type per RAST	1	0	mtgB	563/536 (mtgB)	
+M55B127.1	MttB family (RAST 'TMA methyltransferase family')	2	0	mtgB	601/536 (mtgB); 556/536 (mtgB)	
+DATFJG01.1	grdH (betaine reductase B beta, Sec)	6	2	grdH; none	134/619 (grdH); 422/619 (grdH)	Betaine reductase component B beta subunit (EC 1.21.4.4) @ selenocysteine-containing
+DATFJG01.1	grdI (betaine reductase B alpha)	2	2	grdI		Betaine reductase component B alpha subunit (EC 1.21.4.4)
+Desulfobacter.2	mttB, Pyl-type per RAST	0	2			Trimethylamine methyltransferase family protein; hypothetical protein
+Desulfobacter.2	MttB family (RAST 'TMA methyltransferase family')	1	0	mttB	510/536 (mtgB)	
+Haloquadratum.4	phnJ (C-P lyase)	1	1	phnJ		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+Natrinema.1	phnJ (C-P lyase)	1	1	phnJ		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+J153.1	mttB, Pyl-type per RAST	0	7			Trimethylamine methyltransferase family protein
+J153.1	MttB family (RAST 'TMA methyltransferase family')	7	0	mttB	444/536 (mtgB); 555/161 (mttB); 541/161 (mttB); 621/161 (mttB); 419/161 (mttB); 296/161 (mttB); 216/161 (mttB)	
+J153.1	cntA/yeaW	1	1	cntA/yeaW		Carnitine monooxygenase, oxygenase component CntA
+BM714.2	grdH (betaine reductase B beta, Sec)	4	1	grdB; grdH; none	119/619 (grdH); 591/619 (grdH); 134/619 (grdH)	Betaine reductase component B beta subunit (EC 1.21.4.4) @ selenocysteine-containing
+BM714.2	grdI (betaine reductase B alpha)	2	2	grdI		Betaine reductase component B alpha subunit (EC 1.21.4.4)
+Halanaerobium.2	grdH (betaine reductase B beta, Sec)	3	1	grdH; none	38/619 (grdH); 122/619 (grdH)	Betaine reductase component B beta subunit (EC 1.21.4.4) @ selenocysteine-containing
+Halanaerobium.2	grdI (betaine reductase B alpha)	1	1	grdI		Betaine reductase component B alpha subunit (EC 1.21.4.4)
+Roseovarius.1	phnJ (C-P lyase)	2	2	phnJ		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+Roseovarius.1	mttB, Pyl-type per RAST	0	3			Trimethylamine methyltransferase family protein
+Roseovarius.1	MttB family (RAST 'TMA methyltransferase family')	3	0	mttB	406/161 (mttB); 565/161 (mttB); 546/161 (mttB)	
+Roseovarius.2	phnJ (C-P lyase)	1	1	phnJ		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+Roseovarius.2	mttB, Pyl-type per RAST	0	2			Mll1230 protein; Trimethylamine methyltransferase family protein
+Roseovarius.2	MttB family (RAST 'TMA methyltransferase family')	4	0	mttB; none	554/161 (mttB); 389/161 (mttB); 138/161 (mttB); 123/161 (mttB)	
+Roseovarius.2	cntA/yeaW	0	1			Benzoate 1,2-dioxygenase (EC 1.14.12.10)
+Halanaerobium.3	grdH (betaine reductase B beta, Sec)	1	0	none	57/619 (grdH)	
+Halanaerobium.3	grdI (betaine reductase B alpha)	1	0	none	393/714 (grdI)	
+BM714.4	grdH (betaine reductase B beta, Sec)	1	0	none	362/619 (grdH)	
+UBA8670.2	grdH (betaine reductase B beta, Sec)	2	0	grdB; none	611/619 (grdH); 131/619 (grdH)	
+UBA8670.2	grdI (betaine reductase B alpha)	1	1	grdI		Betaine reductase component B alpha subunit (EC 1.21.4.4)
+UBA8670.2	mttB, Pyl-type per RAST	0	1			hypothetical protein
+Roseovarius.4	phnJ (C-P lyase)	1	1	phnJ		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+Roseovarius.4	mttB, Pyl-type per RAST	0	2			Trimethylamine methyltransferase family protein
+Roseovarius.4	MttB family (RAST 'TMA methyltransferase family')	2	0	mttB	272/161 (mttB); 453/161 (mttB)	
+UBA11579.1	mttB, Pyl-type per RAST	0	7			(no RAST CDS); Mll1230 protein; Trimethylamine methyltransferase family protein; hypothetical protein
+UBA11579.1	MttB family (RAST 'TMA methyltransferase family')	2	0	mttB	531/161 (mttB); 381/161 (mttB)	
+Saliniramus.1	phnJ (C-P lyase)	1	1	phnJ		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+Roseovarius.5	phnJ (C-P lyase)	1	1	phnJ		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+Roseovarius.5	mttB, Pyl-type per RAST	0	5			Mll1230 protein; Trimethylamine methyltransferase family protein
+Roseovarius.5	MttB family (RAST 'TMA methyltransferase family')	7	0	mttB; none	545/161 (mttB); 405/161 (mttB); 338/161 (mttB); 482/161 (mttB); 443/161 (mttB)	
+Roseovarius.5	cntA/yeaW	0	1			Benzoate 1,2-dioxygenase (EC 1.14.12.10)
+Roseovarius.6	phnJ (C-P lyase)	1	1	phnJ		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+Roseovarius.6	mttB, Pyl-type per RAST	0	6			Mll1230 protein; Trimethylamine methyltransferase family protein
+Roseovarius.6	MttB family (RAST 'TMA methyltransferase family')	6	0	mttB	490/161 (mttB); 421/161 (mttB); 551/161 (mttB); 396/536 (mtgB); 555/161 (mttB); 477/161 (mttB)	
+Marivita.3	phnJ (C-P lyase)	3	3	phnJ		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+Marivita.3	mttB, Pyl-type per RAST	0	3			Trimethylamine methyltransferase family protein
+Marivita.3	MttB family (RAST 'TMA methyltransferase family')	3	0	mttB	403/161 (mttB); 540/161 (mttB); 567/161 (mttB)	
+Roseovarius.7	phnJ (C-P lyase)	1	1	phnJ		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+Roseovarius.7	mttB, Pyl-type per RAST	0	4			Mll1230 protein; Trimethylamine methyltransferase family protein
+Roseovarius.7	MttB family (RAST 'TMA methyltransferase family')	5	0	mttB; none	543/161 (mttB); 410/161 (mttB); 451/161 (mttB); 337/161 (mttB); 79/161 (mttB)	
+Roseovarius.7	cntA/yeaW	0	1			Benzoate 1,2-dioxygenase (EC 1.14.12.10)
+Roseibacterium.1	phnJ (C-P lyase)	1	1	phnJ		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+Roseibacterium.1	mttB, Pyl-type per RAST	0	3			Trimethylamine methyltransferase family protein
+Roseibacterium.1	MttB family (RAST 'TMA methyltransferase family')	3	0	mttB	573/161 (mttB); 535/161 (mttB); 391/536 (mtgB)	
+M55B127.2	grdH (betaine reductase B beta, Sec)	2	0	grdB; none	600/619 (grdH); 134/619 (grdH)	
+M55B127.2	grdI (betaine reductase B alpha)	1	1	grdI		Betaine reductase component B alpha subunit (EC 1.21.4.4)
+M55B127.2	mttB, Pyl-type per RAST	0	1			(no RAST CDS)
+M55B127.2	MttB family (RAST 'TMA methyltransferase family')	1	0	mtgB	576/536 (mtgB)	
+Roseovarius.9	phnJ (C-P lyase)	1	1	phnJ		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+Roseovarius.9	mttB, Pyl-type per RAST	0	2			Trimethylamine methyltransferase family protein
+Roseovarius.9	MttB family (RAST 'TMA methyltransferase family')	3	0	mttB; none	546/161 (mttB); 447/161 (mttB); 111/161 (mttB)	
+Phaeodactylibacter.1	phnJ (C-P lyase)	1	1	phnJ		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+Desulfotignum.1	phnJ (C-P lyase)	1	1	phnJ		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+Desulfotignum.1	mttB, Pyl-type per RAST	1	15	mttB		(no RAST CDS); Trimethylamine methyltransferase family protein; Trimethylamine:corrinoid methyltransferase-like; [Trimethylamine--corrinoid protein] Co-methyltransferase (EC 2.1.1.250) @ pyrrolysine-containing; hypothetical protein; trimethylamine methyltransferase
+Desulfotignum.1	MttB family (RAST 'TMA methyltransferase family')	4	0	mtgB; mttB	215/536 (mtgB); 340/536 (mtgB); 554/536 (mtgB); 435/536 (mtgB)	
+Roseovarius.10	phnJ (C-P lyase)	1	1	phnJ		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+Roseovarius.10	mttB, Pyl-type per RAST	0	3			Trimethylamine methyltransferase family protein
+Roseovarius.10	MttB family (RAST 'TMA methyltransferase family')	4	0	mttB; none	560/161 (mttB); 546/161 (mttB); 411/161 (mttB); 91/161 (mttB)	
+Roseovarius.10	cntA/yeaW	0	2			Benzoate 1,2-dioxygenase (EC 1.14.12.10); Rieske 2Fe-2S domain protein
+JAVJPJ01.1	phnJ (C-P lyase)	1	1	phnJ		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+JAVJPJ01.1	mttB, Pyl-type per RAST	0	4			Trimethylamine methyltransferase family protein
+JAVJPJ01.1	MttB family (RAST 'TMA methyltransferase family')	4	0	mttB	532/161 (mttB); 471/161 (mttB); 572/161 (mttB); 406/161 (mttB)	
+Roseovarius.11	phnJ (C-P lyase)	1	1	phnJ		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+Roseovarius.11	mttB, Pyl-type per RAST	0	4			Mll1230 protein; Trimethylamine methyltransferase family protein
+Roseovarius.11	MttB family (RAST 'TMA methyltransferase family')	4	0	mttB	325/161 (mttB); 562/161 (mttB); 403/161 (mttB); 544/161 (mttB)	
+Roseovarius.11	cntA/yeaW	0	1			Benzoate 1,2-dioxygenase (EC 1.14.12.10)
+Roseovarius.12	phnJ (C-P lyase)	1	1	phnJ		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+Roseovarius.12	mttB, Pyl-type per RAST	0	5			Trimethylamine methyltransferase family protein
+Roseovarius.12	MttB family (RAST 'TMA methyltransferase family')	7	0	mttB; none	378/161 (mttB); 265/161 (mttB); 367/161 (mttB); 188/161 (mttB); 411/161 (mttB); 81/161 (mttB)	
+Desulfotignum.2	phnJ (C-P lyase)	1	1	phnJ		Alpha-D-ribose 1-methylphosphonate 5-phosphate C-P lyase (EC 4.7.1.1)
+Desulfotignum.2	mttB, Pyl-type per RAST	1	12	mttB		(no RAST CDS); Trimethylamine methyltransferase family protein; Trimethylamine:corrinoid methyltransferase-like; [Trimethylamine--corrinoid protein] Co-methyltransferase (EC 2.1.1.250) @ pyrrolysine-containing; hypothetical protein
+Desulfotignum.2	MttB family (RAST 'TMA methyltransferase family')	5	0	mtgB; mttB	570/536 (mtgB); 441/536 (mtgB); 455/536 (mtgB); 214/536 (mtgB); 511/536 (mtgB)	

@@ -1,0 +1,6 @@
+genus	marker_reads	frac_best_hit_ge95	gtdb_genera	H_ge95	p_ge95	letter_ge95_R1	letter_ge95_R2	letter_ge95_SF2	letter_ge95_R2A
+Halomonas	1905	0.8320209973753281	Halomonas;Vreelandella	16.379999999999995	0.0009476584200994018	a	a	b	b
+Idiomarina	52	0.5576923076923077	Idiomarina	4.126377410468315	0.24813704684693347	a	a	a	a
+Salegentibacter	2006	0.9526420737786641	Salegentibacter	17.886666666666684	0.0004641675161161997	a	a	b	b
+Clostridium	591	0.08121827411167512	Clostridium;Clostridium_AD;Clostridium_AM;Clostridium_AN;Clostridium_AR;Clostridium_AV;Clostridium_B;Clostridium_F;Clostridium_G;Clostridium_H;Clostridium_I;Clostridium_J;Clostridium_K;Clostridium_S;Clostridium_T;Clostridium_X	0.5674672489082947	0.9038379075597884	a	a	a	a
+Marinilabilia	397	0.6801007556675063	Marinilabilia	15.620833333333348	0.001356104907608477	a	a	b	b

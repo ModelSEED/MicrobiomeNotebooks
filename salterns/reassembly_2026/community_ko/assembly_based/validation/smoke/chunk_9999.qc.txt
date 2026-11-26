@@ -1,0 +1,7 @@
+chunk	9999
+reps	1000
+tblout_rows	22433
+reps_with_any_hit	822
+reps_with_passing_ko	464
+marker_rescue_all	0
+marker_rescue_panel	0

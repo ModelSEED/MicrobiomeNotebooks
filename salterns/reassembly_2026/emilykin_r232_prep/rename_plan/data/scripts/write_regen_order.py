@@ -1,0 +1,68 @@
+#!/usr/bin/env python
+"""Writes rename_plan/data/regeneration_order.tsv (the ordered plan, machine-readable)."""
+import csv, os
+D = "/home/freiburger/Documents/MicrobiomeNotebooks/salterns/reassembly_2026/emilykin_r232_prep/rename_plan/data"
+P = "rename_plan/data/"
+S = [
+ # step, phase, action/script, inputs, outputs, data not in repo?, runtime, depends_on, notes
+ ("0.1", "decide", "Decisions D1-D5 (PLAN.md section 6)", "-", "-", "no", "-", "-", "D2 (network MAG link) changes results, not just labels"),
+ ("0.2", "maps", P + "scripts/build_maps.py (done)", "repo taxonomy.json, iterativeIDs.json, relative_abundance.json, asv_to_mag_mapping.json, mag_abundance_summary.json, intersection CSV, gtdbtk summaries",
+  P + "mag_id_map_r220_r232.{tsv,json}, mag_id_changes_r220_r232.csv, mag_lineage_r220_r232.tsv, taxon_name_changes_r220_r232.tsv", "no", "<10 s", "-",
+  "baseline reproduces the committed map 291/291; 51 IDs change, 50 roots; chain Chitinophagaceae.1_m"),
+ ("A1", "taxonomy source", "copy results/gtdbtk.r232.summary.tsv over gtdbtk.bac120.summary.tsv", "prep results/gtdbtk.r232.summary.tsv", "gtdbtk.bac120.summary.tsv", "no", "1 s", "0.2",
+  "also removes the best-of-both hybrid (ANI/AF/RED now from the committed sequences)"),
+ ("A2", "taxonomy source", "NEW apply_r232_taxonomy.py: patch Domain..Species by bin", P + "mag_lineage_r220_r232.tsv", "mag_quality_summary.tsv", "no", "1 s", "A1",
+  "do NOT re-run scripts/build_mag_quality_table.py (poplar paths; regresses best-of-both)"),
+ ("A3", "taxonomy source", "same script: patch mag_abundance_summary.tsv (Domain..Species) and .json (taxonomy Domain..Genus; 6-rank schema kept)", P + "mag_lineage_r220_r232.tsv",
+  "mag_abundance_summary.tsv, mag_abundance_summary.json", "no", "2 s", "A1", "write the R232 strings verbatim (coasm_bin.221 genus is blank in the summaries but 1-14-0-10-56-10 in gtdbtk/quality; R232: CAZOZK01)"),
+ ("A4", "taxonomy source", "same script: patch leftover_reads_analysis/mag_taxonomy.json by bin; rebuild mag_genera.json (sorted set of genera)", P + "mag_lineage_r220_r232.tsv",
+  "leftover_reads_analysis/mag_taxonomy.json, mag_genera.json", "no", "1 s", "A1", "optional: leftover_reads_analysis/aggregate_report.py afterwards"),
+ ("A5", "taxonomy source", "same script: patch mimag_hq_classification.tsv Phylum/Genus/Species", P + "mag_lineage_r220_r232.tsv", "mimag_hq_classification.tsv", "no", "1 s", "A1",
+  "reprocess_291/build_mimag_hq.py has poplar inputs; patch instead"),
+ ("B1", "IDs", "scripts/recompute_mag_ids.py", "mag_abundance_summary.json (A3), taxonomy.json, iterativeIDs.json, relative_abundance.json, asv_to_mag_mapping.json, intersection CSV",
+  "mag_iterativeID_old_to_new.{csv,json}, scripts/_new_ids.json", "no", "<5 s", "A3",
+  "GATE: json must equal " + P + "mag_id_map_r220_r232.json 291/291 (51 changes, 0 duplicates). The csv keeps the pre-c796fdf 'old' columns, so also commit the R220->R232 pair (mag_id_changes_r220_r232.csv)"),
+ ("B2", "IDs", "scripts/apply_mag_ids.py, extended with the ADD rows of apply_mag_ids_extension.tsv", "scripts/_new_ids.json (B1)",
+  "9 listed files + Table_S7 csv, mag_guild_classification.csv, mag_percell_abundance.csv, ko_rpkm_*_ext.tsv, rpkm_long_*.tsv, fig1_annotation.tsv (label, iterativeID), fig1_mags_table.tsv, phase_rpkm_chord/*.csv, r13 taxonomy.tsv / mag_panel.tsv / _manifest.tsv iterativeID",
+  "no", "<30 s (rpkm_long files are 60k rows)", "B1",
+  "bin-join only; one pass over the 291-MAG dict (chain-safe). Also overwrites 33 stale IDs in Table S7 / guild CSV and stale rows in *_ext / rpkm_long / phase_rpkm_chord"),
+ ("B3", "IDs+taxonomy", "same NEW script: patch MAG genus/species/lineage columns of derived tables by bin (taxonomy_plan.tsv rows with action 'patch ...')", P + "mag_lineage_r220_r232.tsv",
+  "ko_rpkm_{combined,per_sample}{,_ext,_hq}.tsv genus; rpkm_long_*.tsv genus; gene_ab_figure taxonomy_labels Genus/Species; gene_copy_per_mag genus; nosz_clades*/allbins_nosz_master genus; novel_bacteria_summary",
+  "no", "<30 s", "B2", "keep each file's genus convention (some strip GTDB _A suffixes)"),
+ ("B4", "derived", "ko_gene_abundance/04_root_aggregate.py", "ko_rpkm_combined.tsv, ko_rpkm_per_sample.tsv (B2/B3)", "ko_rpkm_root_combined.tsv, ko_rpkm_root_per_sample.tsv", "no", "seconds", "B3",
+  "rows are MAG-ID roots: Ignavibacteria/Rhodobacter/Azospira/Flavipsychrobacter/Chiayiivirga/Sphingobacteriales/Paceibacteria rows disappear, new roots appear"),
+ ("B5", "derived", "scripts/build_percell_abundance.py", "mag_quality_summary.tsv (A2), mag_iterativeID_old_to_new.json (B1), ko_gene_abundance/counts_291_mag_CAN_*.json, meta/results/01_nanoplot_raw (local, untracked), mag_metagenome_abundance.csv",
+  "mag_percell_abundance.csv", "meta/ is untracked but present locally", "seconds", "A2,B1", "regression check vs the xlsx per-cell columns should still pass (values unchanged)"),
+ ("B6", "derived (xlsx: documents part)", "MAG_target_gene_filled*.xlsx: reprocess_291/build_xlsx_291.py with EMILYKIN_REPO=~/Documents/EmilyKin (rebuilds S1..S6 rows) or a bin-keyed cell patch", "map (B1), gtdbtk (A1), quality (A2), RPKM tables",
+  "MAG_target_gene_filled.xlsx (+ _UPDATED (1).xlsx used by render_fig1_tree / build_percell regression)", "check: build_xlsx_291 defaults to poplar paths", "<1 min", "B1-B3",
+  "owned by the documents part; listed here because B7, C2 (12_novel_bacteria_summary) and C5 read it"),
+ ("B7", "derived", "scripts/build_table_s7_classification.py", "MAG_target_gene_filled.xlsx S1/S3 (B6)", "Table_S7_MAG_functional_classification.csv, mag_guild_classification.csv", "no", "seconds", "B6",
+  "if B6 is late, B2+B3 already fix IDs/Genus/Family/Phylum in both CSVs"),
+ ("B8", "derived", "Table S6 rebuild: mag_gtdb_taxonomy from the R232 summary; skani_best_* against R232 (prep skani_preview/skani_search_r232.tsv); AF 0.60 bucket rule of reprocess_291/build_skani_novelty_291.py",
+  "results/gtdbtk.r232.summary.tsv, prep skani_preview/", "Table_S6_skani_novelty.tsv", "builder has poplar paths: port locally", "minutes", "A1", "decision D3 (novelty buckets will change: 96 -> 122 species-level)"),
+ ("B9", "derived (r13)", "fix build_taxonomy.py FLAG/DIDERM; re-run build_taxonomy.py; re-run panel/build_panel.py; patch calls/summary.tsv gtdb_phylum/gtdb_order", "gtdbtk (A1), kbase_mag_rename_log.json (KBase part) or the new map",
+  "community_modeling/analysis/r13/annotations/{taxonomy.tsv, panel/mag_panel.tsv, panel/mag_panel_loci.tsv, calls/summary.tsv}", "no (kofam/best_ko.tsv present)", "seconds-minutes", "A1, KBase part",
+  "member tables (member_panel*.tsv, design_answers/*) are ASV-keyed: unchanged. Envelope calls must come out identical (21 CPR + coasm_bin.258 diderm)"),
+ ("C1", "figures", "Fig 1: fix render_fig1_tree.py (root on Patescibacteria|Patescibacteriota; GTDB2PALETTE += Patescibacteriota, Myxococcota_A); scripts/select_fig1_mags.py; render_fig1_tree.py --annotation-out fig1_tree/fig1_annotation.tsv (no RAxML)",
+  "fig1_mags.raxml.support (unchanged), map, gtdbtk, xlsx per-cell, ~/Documents/emilykin_tools/gtdbtk_r220_markers (present)", "fig1_tree/fig1_annotation.tsv, fig1_mags_table.tsv, Fig 1 png/pdf", "no", "<1 min", "A1,B1,B6",
+  "61 reference tips keep R220 names unless D3 says relabel (21 change in R232, GB_GCA_017302355.1 left GTDB); fig1_tree/compare_trees.py same rooting fix"),
+ ("C2", "figures", "gene_ab_figure: 08_gene_copy_per_mag.py, 04_plot_heatmap.py, 05_bundle_offline.py, 06_plot_copy_number.py, 09_gene_abundance_over_time.py, 10_/12_/13_novel_*.py",
+  "taxonomy_labels.tsv, gene_copy_per_mag.tsv, selected_mags.tsv, gtdbtk (A1), Table S1 xlsx (12_)", "gene_ab_figure/*.png|pdf, data/gene_copy_per_mag.{tsv,md}, data/novel_bacteria_summary.*", "no (data/ tables present)", "~1 min", "B2,B3,B6", "2 of the 21 focal MAGs change ID"),
+ ("C3", "figures", "clade_classify/render_nosz_tree_fig.py, render_nosz_top5_tree.py, render_organism_tree.py", "gtdbtk (A1), nosz_clades.tsv, mag_guild_classification.csv (B7), map", "clade_classify/out/*.png|pdf, organism_tree png", "no", "~1 min", "B7", "render_nosz_top5_tree.py docstring names Ignavibacteria.21 (CAN_3_bin.221)"),
+ ("C4", "figures", "phase_rpkm_chord/01_build_long_table.py -> 03_plot_chords.py -> 04_plot_heatmap.py", "mag_abundance_summary.tsv, RPKM", "phase_rpkm_chord/*.csv|png", "no", "~1 min", "B2,B3", "this folder still carries pre-408cb39 IDs"),
+ ("C5", "figures", "scripts/render_chord_rpkm_function_guild.py, render_n2o_sink_producer.py, render_denitrification_heatmaps.py, render_percell_composition.py (fix DOCX_COLORS keys first), ppk1_classify/render_ppk1_tree_fig.py",
+  "ko_rpkm_combined_hq.tsv, guild CSV, xlsx, nosZ matrix, intersection CSV, percell", "network/chord_*.png, network/N2O_sink_producer.png, denitrification_*.png, figures/percell_composition.*, ppk1_reference_tree.*", "no", "~1-3 min", "B2-B7",
+  "percell: Giesbergeria->Simplicispira, Azospira_A->Proximibacter, SCMT01->Lysobacter_I; top-20 genus bands may change"),
+ ("C6", "network (D2)", "under D2a: scripts/render_cooccurrence_grid_all_phases.py; render_gao_pao_networks.py; build_module_mag_membership.py; render_module_denitrification_genes.py; render_module_pathway_completeness.py; network/compositional_networks/render_spieceasi_mag_network.py, spieceasi_modules_flanking.py (and the root copy), render_module_flanking_figures.py, render_spieceasi_docx.py",
+  "abundances.csv (ASV, unchanged), mag_iterativeID_old_to_new.json (B1), saved SPIEC-EASI adjacency", "network/*allphases*, GAO/PAO pngs, louvain_module_mag_membership.json, module_pathway_completeness/*, compositional_networks/out/asv/spieceasi_mag_*, tablesforpaper/*, SPIEC-EASI_network_analysis.docx",
+  "no", "minutes (all-phases Spearman + Louvain gamma scan + 16-27 MB grid PNGs)", "B1",
+  "MAG-only universe 140 -> 127 ASVs (17 drop, 4 join); SPIEC-EASI MAG display 53 -> 45; the aggregate and per-phase networks keep all 935 ASVs: modules unchanged, only MAG annotation changes. Under D2b: freeze the R220-era list and re-label only"),
+ ("C7", "community_modeling", "nothing to re-run (members are ASV synthetic genomes); r13 tables via B9; presentation decks by the documents part", "-", "-", "-", "0", "B9",
+  "a re-run would cost days (r12 75-day run 4.4-4.8 d wall) and change nothing but KBase feature-name strings"),
+ ("D1", "verify", "bin-keyed join of every MAG ID column against mag_id_map_r220_r232.json; ASV files md5-identical; ASV-ID string counts unchanged in ASV files", "all of the above", "verification report", "no", "seconds", "all",
+  "never verify by old-string count -> 0: 21 old IDs remain valid ASV IDs and 4 new IDs already exist as ASV IDs"),
+]
+hdr = ["step", "phase", "script_or_action", "inputs", "outputs", "data_not_in_repo", "est_runtime", "depends_on", "notes"]
+with open(os.path.join(D, "regeneration_order.tsv"), "w") as fh:
+    w = csv.writer(fh, delimiter="\t", lineterminator="\n"); w.writerow(hdr); w.writerows(S)
+print(len(S), "steps")

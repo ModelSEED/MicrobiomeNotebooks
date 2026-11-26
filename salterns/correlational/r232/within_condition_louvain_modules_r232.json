@@ -1,0 +1,168 @@
+{
+  "module_1": {
+    "size": 19,
+    "type": "louvain",
+    "members": [
+      "ATBO01",
+      "DAHVFK01",
+      "DATFML01",
+      "DATFMP01",
+      "DATFMT01",
+      "DATFMZ01",
+      "Draconibacterium",
+      "Halofilum",
+      "J153",
+      "JAAXQD01",
+      "JADGBM01",
+      "JAGXFP01",
+      "JASBRS01",
+      "JAZFUB01",
+      "JBBDSH01",
+      "Multivoradales",
+      "NaphS2",
+      "RI-121",
+      "Sunxiuqinia"
+    ]
+  },
+  "module_2": {
+    "size": 18,
+    "type": "louvain",
+    "members": [
+      "BM002",
+      "BM003",
+      "BM004",
+      "BM509",
+      "CAJXVY01",
+      "Christiangramia",
+      "DATFJG01",
+      "Defluviilinea",
+      "Gracilimonas",
+      "JAFDBW01",
+      "JAUIBE01",
+      "Lutibacter",
+      "Marinobacter",
+      "Ornithinicoccus",
+      "Salegentibacter",
+      "Salsipaludibacter",
+      "UBA8670",
+      "VAYN01"
+    ]
+  },
+  "module_3": {
+    "size": 11,
+    "type": "louvain",
+    "members": [
+      "CAYPLZ01",
+      "CAZUKV01",
+      "DATFJC01",
+      "JAGXLC01",
+      "M55B111",
+      "M55B127",
+      "Maribacter",
+      "Marimicrobium",
+      "Oleincola",
+      "S36-B12",
+      "Wenzhouxiangella"
+    ]
+  },
+  "module_4": {
+    "size": 9,
+    "type": "louvain",
+    "members": [
+      "Haloarcula",
+      "Halohasta",
+      "Halonotius",
+      "Haloplanus",
+      "Haloquadratum",
+      "Halorubrum",
+      "Halosegnis",
+      "Hikarchaeaceae",
+      "Natronomonas"
+    ]
+  },
+  "module_5": {
+    "size": 9,
+    "type": "louvain",
+    "members": [
+      "CAZCJJ01",
+      "CAZWDL01",
+      "Coraliomargarita_B",
+      "DATFJZ01",
+      "DATFKA01",
+      "DT-110",
+      "JAKVAV01",
+      "Phaeodactylibacter",
+      "Psychroflexus"
+    ]
+  },
+  "module_6": {
+    "size": 8,
+    "type": "louvain",
+    "members": [
+      "CAVTAV01",
+      "DASQZJ01",
+      "DATFMH01",
+      "Humimonas",
+      "JAKDMP01",
+      "JBAUSV01",
+      "PWMO01",
+      "SMO-BIN1"
+    ]
+  },
+  "singleton_1": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "UBA1847"
+    ]
+  },
+  "singleton_2": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "JAWLGC01"
+    ]
+  },
+  "singleton_3": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "UBA11579"
+    ]
+  },
+  "singleton_4": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "DASQZK01"
+    ]
+  },
+  "singleton_5": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "SZUA-36"
+    ]
+  },
+  "singleton_6": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "Alkalispirochaeta"
+    ]
+  },
+  "singleton_7": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "Pleomorphochaeta"
+    ]
+  },
+  "singleton_8": {
+    "size": 1,
+    "type": "isolate_singleton",
+    "members": [
+      "DASQZP01"
+    ]
+  }
+}

@@ -1,0 +1,179 @@
+{
+ "assumptions": {
+  "bulk_density_g_cm3": 0.7,
+  "porosity": 0.7358490566037736,
+  "DNA_fraction_of_biomass": 0.1,
+  "depth_cm": 15,
+  "CH4_per_substrate": {
+   "Methanol": 0.75,
+   "Methylamine": 0.75,
+   "Dimethylamine": 1.5,
+   "Trimethylamine": 2.25
+  }
+ },
+ "methanogen_models": {
+  "A": {
+   "mu_max_methanol": 0.0,
+   "q_ch4_at_mu_max": 0.0,
+   "k_ch4_per_g": null
+  },
+  "B": {
+   "mu_max_methanol": 0.1581547474280794,
+   "q_ch4_at_mu_max": 64.19954450166927,
+   "k_ch4_per_g": 405.9286587705103,
+   "methanol_per_g": 632.2921165896365
+  },
+  "C": {
+   "mu_max_methanol": 0.25423077750584483,
+   "q_ch4_at_mu_max": 52.24542493515355,
+   "k_ch4_per_g": 205.5039340544426,
+   "methanol_per_g": 393.3434062590635
+  },
+  "D": {
+   "mu_max_methanol": 0.25459920186805285,
+   "q_ch4_at_mu_max": 49.78836120065381,
+   "k_ch4_per_g": 195.55584163400556,
+   "methanol_per_g": 392.774208506059
+  }
+ },
+ "ranking_spearman_exact": {
+  "methanogen biomass": [
+   -0.4285714285714286,
+   0.41944444444444445
+  ],
+  "methanogen biomass x methyl-substrate CH4 potential": [
+   -0.6,
+   0.24166666666666667
+  ],
+  "methyl-substrate CH4 potential alone": [
+   0.2571428571428572,
+   0.6583333333333333
+  ],
+  "MePn biomass (= MePn model)": [
+   0.028571428571428574,
+   1.0
+  ]
+ },
+ "by_core": [
+  {
+   "core": "R1_A",
+   "CH4_measured_umol_m2_d": 737.32,
+   "methanogen_biomass_g_m2": 0.013265,
+   "mepn_biomass_g_m2": 0.240124,
+   "mepn_mu_required_h_r0.07": 3.046045,
+   "mepn_mu_required_h_r0.33": 0.790678,
+   "methanogen_q_required_mmol_g_h": 2.316074,
+   "methyl_substrate_CH4_potential_umol_m2": 3901.839623,
+   "methyl_substrate_turnover_days_required": 5.291922,
+   "betaine_pool_umol_m2": 39268.584906,
+   "pool_Methanol_umol_m2": 2340.0,
+   "pool_Methylamine_umol_m2": 603.396226,
+   "pool_Dimethylamine_umol_m2": 80.943396,
+   "pool_Trimethylamine_umol_m2": 699.056604,
+   "pool_Betaine_umol_m2": 39268.584906,
+   "methanogen_mu_required_h_armB": 0.005706,
+   "methanogen_mu_required_h_armC": 0.01127,
+   "methanogen_mu_required_h_armD": 0.011844
+  },
+  {
+   "core": "R1_B",
+   "CH4_measured_umol_m2_d": 1347.13,
+   "methanogen_biomass_g_m2": 0.002696,
+   "mepn_biomass_g_m2": 0.255636,
+   "mepn_mu_required_h_r0.07": 5.232429,
+   "mepn_mu_required_h_r0.33": 1.364772,
+   "methanogen_q_required_mmol_g_h": 20.820528,
+   "methyl_substrate_CH4_potential_umol_m2": 2900.165094,
+   "methyl_substrate_turnover_days_required": 2.152847,
+   "betaine_pool_umol_m2": 49511.603774,
+   "pool_Methanol_umol_m2": 1791.792453,
+   "pool_Methylamine_umol_m2": 209.716981,
+   "pool_Dimethylamine_umol_m2": 22.075472,
+   "pool_Trimethylamine_umol_m2": 607.075472,
+   "pool_Betaine_umol_m2": 49511.603774,
+   "methanogen_mu_required_h_armB": 0.051291,
+   "methanogen_mu_required_h_armC": 0.101314,
+   "methanogen_mu_required_h_armD": 0.106468
+  },
+  {
+   "core": "R1_C",
+   "CH4_measured_umol_m2_d": 490.47,
+   "methanogen_biomass_g_m2": 0.002532,
+   "mepn_biomass_g_m2": 0.125231,
+   "mepn_mu_required_h_r0.07": 3.953251,
+   "mepn_mu_required_h_r0.33": 1.029841,
+   "methanogen_q_required_mmol_g_h": 8.072438,
+   "methyl_substrate_CH4_potential_umol_m2": 3154.033019,
+   "methyl_substrate_turnover_days_required": 6.430634,
+   "betaine_pool_umol_m2": 36579.056604,
+   "pool_Methanol_umol_m2": 1994.150943,
+   "pool_Methylamine_umol_m2": 161.886792,
+   "pool_Dimethylamine_umol_m2": 47.830189,
+   "pool_Trimethylamine_umol_m2": 651.226415,
+   "pool_Betaine_umol_m2": 36579.056604,
+   "methanogen_mu_required_h_armB": 0.019886,
+   "methanogen_mu_required_h_armC": 0.039281,
+   "methanogen_mu_required_h_armD": 0.041279
+  },
+  {
+   "core": "R2_A",
+   "CH4_measured_umol_m2_d": 1327.18,
+   "methanogen_biomass_g_m2": 0.000557,
+   "mepn_biomass_g_m2": 0.13784,
+   "mepn_mu_required_h_r0.07": 8.766833,
+   "mepn_mu_required_h_r0.33": 2.304418,
+   "methanogen_q_required_mmol_g_h": 99.259776,
+   "methyl_substrate_CH4_potential_umol_m2": 2213.066038,
+   "methyl_substrate_turnover_days_required": 1.667495,
+   "betaine_pool_umol_m2": 35703.396226,
+   "pool_Methanol_umol_m2": 1342.924528,
+   "pool_Methylamine_umol_m2": 44.150943,
+   "pool_Dimethylamine_umol_m2": 14.716981,
+   "pool_Trimethylamine_umol_m2": 511.415094,
+   "pool_Betaine_umol_m2": 35703.396226,
+   "methanogen_mu_required_h_armB": 0.244525,
+   "methanogen_mu_required_h_armC": 0.483007,
+   "methanogen_mu_required_h_armD": 0.507578
+  },
+  {
+   "core": "R2_B",
+   "CH4_measured_umol_m2_d": 1607.09,
+   "methanogen_biomass_g_m2": 0.000741,
+   "mepn_biomass_g_m2": 0.171132,
+   "mepn_mu_required_h_r0.07": 9.090575,
+   "mepn_mu_required_h_r0.33": 2.383898,
+   "methanogen_q_required_mmol_g_h": 90.417017,
+   "methyl_substrate_CH4_potential_umol_m2": 3352.712264,
+   "methyl_substrate_turnover_days_required": 2.086201,
+   "betaine_pool_umol_m2": 52466.037736,
+   "pool_Methanol_umol_m2": 1269.339623,
+   "pool_Methylamine_umol_m2": 114.056604,
+   "pool_Dimethylamine_umol_m2": 47.830189,
+   "pool_Trimethylamine_umol_m2": 997.075472,
+   "pool_Betaine_umol_m2": 52466.037736,
+   "methanogen_mu_required_h_armB": 0.222741,
+   "methanogen_mu_required_h_armC": 0.439977,
+   "methanogen_mu_required_h_armD": 0.462359
+  },
+  {
+   "core": "R2_C",
+   "CH4_measured_umol_m2_d": 1588.57,
+   "methanogen_biomass_g_m2": 0.001097,
+   "mepn_biomass_g_m2": 0.073466,
+   "mepn_mu_required_h_r0.07": 21.202493,
+   "mepn_mu_required_h_r0.33": 5.563343,
+   "methanogen_q_required_mmol_g_h": 60.321436,
+   "methyl_substrate_CH4_potential_umol_m2": 5855.518868,
+   "methyl_substrate_turnover_days_required": 3.686031,
+   "betaine_pool_umol_m2": 69835.754717,
+   "pool_Methanol_umol_m2": 1273.018868,
+   "pool_Methylamine_umol_m2": 540.849057,
+   "pool_Dimethylamine_umol_m2": 408.396226,
+   "pool_Trimethylamine_umol_m2": 1725.566038,
+   "pool_Betaine_umol_m2": 69835.754717,
+   "methanogen_mu_required_h_armB": 0.148601,
+   "methanogen_mu_required_h_armC": 0.293529,
+   "methanogen_mu_required_h_armD": 0.308461
+  }
+ ]
+}

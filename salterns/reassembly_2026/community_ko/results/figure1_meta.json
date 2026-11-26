@@ -1,0 +1,57 @@
+{
+ "source": "read",
+ "survey": "/home/freiburger/Documents/MicrobiomeNotebooks/salterns/reassembly_2026/read_markers_v2/results",
+ "n_panel": 108,
+ "n_surveyed": 108,
+ "n_detected": 107,
+ "not_detected": [
+  "K17066"
+ ],
+ "not_surveyed": [],
+ "n_q05": 100,
+ "ward_k3_crosstab": {
+  "reference": {
+   "1": 0,
+   "2": 0,
+   "3": 6
+  },
+  "restored": {
+   "1": 0,
+   "2": 6,
+   "3": 0
+  },
+  "unrestored": {
+   "1": 12,
+   "2": 0,
+   "3": 0
+  }
+ },
+ "ward_k3_purity": 1.0,
+ "ward_k3_matches_restoration": true,
+ "column_order": [
+  "R2_A_D2",
+  "R1_A_D1",
+  "R1_A_D2",
+  "R1_B_D2",
+  "R1_C_D2",
+  "R1_B_D1",
+  "R2_B_D2",
+  "R2_C_D1",
+  "R1_C_D1",
+  "R2_B_D1",
+  "R2_A_D1",
+  "R2_C_D2",
+  "SF2_C_D2",
+  "SF2_B_D1",
+  "SF2_B_D2",
+  "SF2_C_D1",
+  "SF2_A_D1",
+  "SF2_A_D2",
+  "R2A_B_D2",
+  "R2A_C_D2",
+  "R2A_A_D1",
+  "R2A_C_D1",
+  "R2A_A_D2",
+  "R2A_B_D1"
+ ]
+}

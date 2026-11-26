@@ -1,0 +1,488 @@
+{
+ "author": "Claude (R232 review)",
+ "date": "2026-10-26",
+ "note": "Copy of r232_review_edits_2026-11-19.json with every modelling entry regenerated for the 2026 guild models of the final MAG set by make_modelling_edits_2026-11-23.py (dated 2026-11-23), plus the P35 Methods rewrite, the P73 Albimonas comment, and a P37 comment on Figure S10. 'paragraph' stays in July-export numbering; 'mirror_index' is the absolute paragraph index in the 2026-11-17/11-20 mirrors.",
+ "edits": [
+  {
+   "paragraph": 47,
+   "kind": "insert_before",
+   "old": "Furthermore, the isolates were inserted into a phylogenetic tree",
+   "new": "The isolate assemblies were later reclassified with GTDB-Tk v2.8.0 (68) against GTDB release R232, outside KBase. ",
+   "rationale": "Methods statement of the R232 reclassification asked for in review comment 3. It was run locally (run_gtdbtk_isolates.sh), not in KBase. Note that ref 68 is the GTDB-Tk v1 paper; see the comment proposed at P245. Reworded by the orchestrator: the original GTDB-Tk v1.7.0 clause is kept because its citations are hyperlinks, which cannot be placed inside a tracked deletion.",
+   "sources": "run_gtdbtk_isolates.sh; MAG_QC/gtdbtk_isolates_r232/gtdbtk.bac120.summary.tsv",
+   "origin": "halomonas"
+  },
+  {
+   "paragraph": 47,
+   "kind": "comment",
+   "old": "publicly accessible with narrative ID 139158",
+   "new": "KBase workspace 139158 could not be read with the freiburgermsu account ('may not read workspace 139158'), and its permissions list no public read entry, so the narrative does not appear to be public. Please make it public (or correct the ID) before submission. For the same reason, the Figure 5 SpeciesTree reference genomes could not be retrieved from it.",
+   "rationale": "The draft's claim that the narrative is publicly accessible is not supported by a read-only check.",
+   "sources": "KBUtilLib ws.get_workspace_info / list_objects (authorization error) and get_permissions_mass -> {'freiburgermsu': 'n'}",
+   "origin": "halomonas"
+  },
+  {
+   "paragraph": 47,
+   "kind": "replace",
+   "old": "are available on NCBI GenBank via accession PRJNA992430.",
+   "new": "are available on NCBI GenBank under BioProject PRJNA992430 (*Halomonas* sp. D, deposited as strain I1, GCA_032334135.1; *H. saccharevitans* strain I4, GCA_032333995.1).",
+   "rationale": "PRJNA992430 is a BioProject, not a GenBank accession. It contains exactly these two assemblies, and their lengths match data/I1 and I4. This also ties the draft's name 'sp. D' to the NCBI strain name I1, confirmed by gene content (C-P lyase cluster in I1 only).",
+   "sources": "NCBI Datasets v2: bioproject/PRJNA992430/dataset_report; genome/accession/GCF_032334135.1/dataset_report; esl-seqstat of data/I1_SPAdes.Assembly.fa (3,937,892 bp) and data/I4_SPAdes.Assembly.fa (3,406,698 bp)",
+   "origin": "halomonas"
+  },
+  {
+   "paragraph": 67,
+   "kind": "replace",
+   "old": "Six other Halomonas genomes also contained multiple MPn transport and degradation genes, while 17 did not (Figure 5).",
+   "new": "In GTDB release R232, which divides the former genus *Halomonas* among *Halomonas*, *Vreelandella*, and several smaller genera, both isolates remain in *Halomonas*: *H. saccharevitans* shares 98.5% average nucleotide identity (ANI) with the type strain genome, and *Halomonas* sp. D is the representative of its own species cluster (*Halomonas* sp032334135; closest other species, 92.7% ANI). Six other reference genomes labeled *Halomonas* also contained multiple MPn transport and degradation genes, while 17 did not (Figure 5); in GTDB R232, three of these six (*Halomonas* sp. PBN3, *H. huangheensis*, and *Halomonas* sp. S2151) remain in *Halomonas*, whereas *H. jeotgali* is now placed in *Vreelandella* and *H. zincidurans* and *H. lutea* in *Modicisalibacter*.",
+   "rationale": "Reports the isolates' R232 placement (review comment 3). The six/17 counts still describe the Figure 5 labels, but three of the six MPn-positive 'Halomonas' references are in other genera in R232. All six are resolved unambiguously by strain, so this sentence does not depend on the H. campaniensis inference. I1's GTDB match is to its own deposited genome, so it is described as its own species cluster, not as a 100% ANI identification.",
+   "sources": "gtdbtk.bac120.summary.tsv (I4 98.49 ANI / 0.912 AF to GCF_900116405.1; I1 other_related_references GCF_029081005.1 92.7 ANI); Figure 5 image (docx word/media/image2.png); NCBI Datasets taxon reports; GTDB API taxon-history for GCF_000475415.1, GCF_001431725.1, GCF_000967645.1, GCF_000334215.1, GCF_000731955.1, GCF_000378505.1",
+   "origin": "halomonas"
+  },
+  {
+   "paragraph": 67,
+   "kind": "comment",
+   "old": "the isolate identified as Halomonas sp. D",
+   "new": "Gene content confirms this is isolate I1: it carries a contiguous phnCDEFGHIJKLMNP cluster, while I4 has none of phnF–P. NCBI deposits this genome as 'Halomonas sp. I1' (strain I1, GCA_032334135.1), and Figure 5 labels it 'Halomonas sp. (isolate)'. Please use one name throughout, or state the equivalence once (proposed in the Methods paragraph on the isolates).",
+   "rationale": "The isolate's name is inconsistent across the text, Figure 5, Figure 6 and NCBI.",
+   "sources": "prodigal + hmmsearch --cut_tc (Pfam PF06754/PF05845/PF05861/PF06007; TIGRFAM phosphonate models) on data/I1 and I4 assemblies; Figure 5/6 images; NCBI GCF_032334135.1 report",
+   "origin": "halomonas"
+  },
+  {
+   "paragraph": 67,
+   "kind": "comment",
+   "old": "only Halomonas contains members with the genes encoding the C-P lyase pathway",
+   "new": "This is a genus-level statement based on reference genomes (Figure 5). In the metagenome, neither Halomonadaceae MAG carries C–P lyase genes (phnF–P, including phnJ): Halomonas.1 (H. fontilapidosi) and 2020 Halomonas.2 (now Vreelandella.1 in R232). Neither isolate matches any of the 450 MAGs at species level (skani: best pair I4 vs Halomonas.1, 85.7% ANI over ~25% of the genome). The C-P lyase Halomonas is therefore supported by the isolate, not by the MAGs; consider saying so where Halomonas is presented as the case study (the Culturing discussion and the Conclusions).",
+   "rationale": "Context from the R232 MAG guilds that bears on the Halomonas MPn argument.",
+   "sources": "correlational/r232/guilds_r232.csv (ev_phnJ, ev_phn_accessory empty for both); correlational/iterativeIDs_r232_vs_2020.csv; skani dist of data/I1, I4 vs MAG_contigs/*.fna",
+   "origin": "halomonas"
+  },
+  {
+   "paragraph": 93,
+   "kind": "comment",
+   "old": "Halomonas is another diverse genus (102 recognized species as of 2021)",
+   "new": "GTDB R232 (and NCBI, for many species) now divides this genus. R232 has 117 species clusters in Halomonas and 101 in Vreelandella; for example, H. boliviensis, H. stevensii and H. jeotgali are now Vreelandella. Both isolates remain in Halomonas, so the sentence can stand. Consider adding 'before many species were transferred to Vreelandella and other genera', citing the taxogenomic revision of the Halomonadaceae (de la Haba et al. 2023, Front Microbiol; citation details unverified).",
+   "rationale": "The 2021 count of recognized species is historically correct but predates the split. These are counts of GTDB species clusters, not validly named species, so this is a comment, not a number change.",
+   "sources": "~/Documents/gtdbtk_data/release232/taxonomy/gtdb_taxonomy.tsv (f__Halomonadaceae genus tally); NCBI organism names for GCF_000236035.1, GCF_000275725.1, GCF_000334215.1",
+   "origin": "halomonas"
+  },
+  {
+   "paragraph": 122,
+   "kind": "replace",
+   "old": "orthologous genes.",
+   "new": "orthologous genes. Reference genomes are labeled with their names in the KBase reference set at the time of analysis; in GTDB R232, 10 or 11 of the 23 reference genomes labeled *Halomonas* are placed in other genera (*Vreelandella*, 6 or 7; *Modicisalibacter*, 2; *Litchfieldella*, 1; *Litchfieldella*_A, 1), depending on which *H. campaniensis* genome the tree used.",
+   "rationale": "Figure 5 cannot be relabelled because the KBase tree object is inaccessible, so the caption flags the R232 split. CAVEAT (inference): one of the 7 Vreelandella, H. campaniensis, rests on tree topology. Three KBase genomes are named H. campaniensis: SK03 (V. campaniensis_A) and LS21 (V. alkaliphila), both Vreelandella in R232, and the type strain 5AG (Halomonas); the tip sits in the Vreelandella clade, so the caption gives 10 or 11. Hedged on the verifier's finding that a third H. campaniensis genome (LS21, Vreelandella alkaliphila in R232) is also in KBase.",
+   "sources": "Figure 5 image (docx word/media/image2.png); NCBI Datasets taxon reports; GTDB API taxon-history (R232) per accession; KBase ws 19217 (ReferenceDataManager) object names",
+   "origin": "halomonas"
+  },
+  {
+   "paragraph": 173,
+   "kind": "comment",
+   "old": "showing the taxonomy of the top BLAST hits and % identity",
+   "new": "Table S3 is not in this document or the repository, so it was not checked. If it lists the two sequenced Halomonas isolates only by their 16S BLAST hit, consider adding their genome-based GTDB R232 names and accessions: I1 (= Halomonas sp. D), Halomonas sp032334135, GCA_032334135.1; I4, H. saccharevitans, GCA_032333995.1.",
+   "rationale": "The task lists P173 among the places the isolate names appear. The caption itself needs no change because it describes BLAST hits.",
+   "sources": "python-docx scan of the original docx (no Table S3 table or image); gtdbtk.bac120.summary.tsv; NCBI PRJNA992430 report",
+   "origin": "halomonas"
+  },
+  {
+   "paragraph": 47,
+   "kind": "comment",
+   "old": "Furthermore, the isolates were inserted",
+   "new": "Reference 68 is the GTDB-Tk v1 paper. The new sentence here and the new MAG Methods paragraph cite (68) for GTDB-Tk v2.8.0; please add the GTDB-Tk v2 paper (Chaumeil et al. 2022, Bioinformatics 38:5315–5316) and a citation for GTDB release R232.",
+   "rationale": "Citation mismatch introduced by moving to GTDB-Tk v2.8.0. Not in make_r232_review_docx.py's edited paragraphs. Moved to P47 by the orchestrator: P245's text is entirely inside hyperlinks, which cannot carry a comment anchor here.",
+   "sources": "Manuscript P245 text; MAG_QC/gtdbtk_isolates_r232/gtdbtk.json (version 2.8.0)",
+   "origin": "halomonas"
+  },
+  {
+   "paragraph": 67,
+   "kind": "replace",
+   "old": "Saligentibacter",
+   "new": "*Salegentibacter*",
+   "rationale": "Spelling: the genus is Salegentibacter (as in P93).",
+   "sources": "P93 of the draft",
+   "origin": "orchestrator"
+  },
+  {
+   "paragraph": 122,
+   "kind": "comment",
+   "old": "Phylogenetic tree and presence of methylphosphonate",
+   "new": "Three KBase genomes are named H. campaniensis: SK03 (GCF_002211105.1) and LS21 (GCF_000696485.1), both Vreelandella in R232, and the type strain 5AG (GCF_014193375.1), Halomonas. The tip sits inside the Vreelandella clade (sister to GFAJ-1), so SK03 or LS21 is more likely, which gives 11 of 23 (7 Vreelandella); with 5AG it is 10 of 23 (6). The KBase tree object (narrative 139158) could not be read to confirm; references were matched by name (MAG_QC/gtdbtk_isolates_r232/README.md).",
+   "rationale": "Caveat on the P122 caption edit, which rests on one inferred genome identity.",
+   "sources": "halomonas task open issue",
+   "origin": "orchestrator"
+  },
+  {
+   "paragraph": 18,
+   "kind": "replace",
+   "old": "This was corroborated by metabolic modeling, where trace consumption of methylphosphonic acid was sufficient to reproduce the experimental methane emissions.",
+   "new": "Metabolic modeling partly corroborated this: trace consumption of methylphosphonic acid by the methylphosphonate-consuming community members could supply about one seventh to one half of the measured methane emissions, depending on the assumed share of methylphosphonate in phosphate uptake, although the simulated emissions did not track the differences among cores.",
+   "rationale": "2026 models of the final MAG set (38 MePn-consumer models): 14% of the measured methane at ratio 0.07 and 55% at 0.33; Spearman ρ = 0.03 (n = 6).",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z",
+   "mirror_index": 19
+  },
+  {
+   "paragraph": 36,
+   "kind": "replace",
+   "old": "constrained to its relative abundance in each simulated sample (based on read mapping)",
+   "new": "constrained to its relative abundance in each simulated sample (based on read mapping) divided by the soil DNA concentration, averaged over the two depths",
+   "rationale": "This is the input the stored simulations used (analysis(1).ipynb at 22f4629; averaged_normalized_abundances_unrestored.csv of that commit); the Methods and the Figure 7 caption described it inconsistently.",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
+   "origin": "modelling"
+  },
+  {
+   "paragraph": 36,
+   "kind": "replace",
+   "old": "were simulated with a fixed ratio of inorganic to organic phosphate (0.07 yielded the best fit to the experimental data)",
+   "new": "were simulated with a minimum ratio of methylphosphonate to inorganic phosphate uptake of 0.07 mol mol^−1^ (0.33 was also tested; see Results)",
+   "rationale": "analysis(1).ipynb cell 27 constrains MePn uptake ≥ ratio × Pi uptake: a minimum, and MePn:Pi rather than inorganic:organic. As built it binds in 17 of the 20 models; after the repair of the three MePn-obligate models (P36, revised 2026-11-08) it binds in all 20. 'Best fit' held only on the basis with both axes divided by DNA.",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
+   "origin": "modelling",
+   "date": "2026-11-08T00:00:00Z"
+  },
+  {
+   "paragraph": 36,
+   "kind": "replace",
+   "old": "to create a realistic consumption and excretion profile.",
+   "new": "to create a realistic consumption and excretion profile. The ratio constraint bound in every model, so each MPn-consumer model produced a fixed amount of methane per unit of biomass, set by the ratio and the phosphorus content of its template biomass (0.043–0.077 mmol CH~4~ per g of biomass formed at a ratio of 0.07, depending on the template). A methane monooxygenase annotated by RAST in one *Roseovarius* model was kept, because it is supported by the annotation (see Results).",
+   "rationale": "ratio binds in 76/76 reference runs (reference_k.json); k clusters by template biomass P content.",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 36,
+   "kind": "replace",
+   "old": "The betaine-utilizing organisms were simulated with a betaine consumption rate of",
+   "new": "The betaine-reducing organisms (the 18 betaine-reducer models; Table 4) were simulated with a maximum betaine uptake rate of",
+   "rationale": "18 betaine-reducer species, one model each.",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 37,
+   "kind": "replace",
+   "old": "(see Figure S9)",
+   "new": "(see Figure S10)",
+   "rationale": "Figure S9 is the microcosm comparison; the gap-filling figure is Figure S10 (pre-existing citation error).",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
+   "origin": "modelling"
+  },
+  {
+   "paragraph": 38,
+   "kind": "replace",
+   "old": "Linear regression between the experimental and simulated methane emissions revealed explanatory power of the experimental measurements by the modeling results.",
+   "new": "Linear regression and rank (Spearman) correlation between the experimental and simulated methane emissions were used to assess how well the modeling results explain the experimental measurements.",
+   "rationale": "Methods should describe the test, not assert its outcome. Spearman ρ is now reported alongside R².",
+   "sources": "modelling_numbers_r232.json (clauded_insights/modelling_numbers_r232.py)",
+   "origin": "modelling"
+  },
+  {
+   "paragraph": 40,
+   "kind": "replace",
+   "old": "The values were further normalized by DNA measurements to control for variability in biomass density among the samples.   Pearson coefficients were calculated between these two sets of methane concentrations, and linear equations of the line-of-best-fit from these correlations were reported.",
+   "new": "Because each model’s biomass had been fixed to its relative abundance divided by the DNA concentration of each depth, the simulated methane flux of each methylphosphonate-consuming member was rescaled to the member’s biomass in each core (its relative abundance times the soil DNA concentration of each depth, weighted by the depth intervals of 5 and 10 cm), so that the simulated and measured values are both areal emissions. The betaine models, whose TMA excretion was mostly set by the uptake bound rather than by biomass, were converted with the volume-weighted DNA concentration of each core. Pearson (R^2^) and Spearman (ρ, with exact permutation p values) correlations were calculated between the simulated and measured emissions of the six unrestored cores, and linear equations of the line-of-best-fit were reported.",
+   "rationale": "The stored fluxes were simulated with each model's biomass fixed to the mean over depths of relative abundance divided by DNA. Two depths have almost no DNA (R2_B_D1 and R2_C_D2, 0.16 µg g−1 soil), so that input carries a 1/DNA term, which multiplying by the core's DNA does not cancel. Both the draft's fits (R² 0.978/0.968/0.862, both axes divided by DNA) and an intermediate 'areal' correction (ρ = 0.60) came from that term: the factor VW_DNA × mean(1/DNA) alone has ρ = 0.60 against measured methane. On the consistent basis used here, each MAG's flux per unit of simulated abundance (a constant for every MePn model) is rescaled to its biomass in the core (relative abundance × DNA × layer thickness).",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
+   "origin": "modelling"
+  },
+  {
+   "paragraph": 69,
+   "kind": "replace",
+   "old": "Soil DNA density was significantly positively correlated with methane flux (Figure S7), therefore, we only used methane emissions and fluxes that were normalized by DNA density for all modeling efforts.",
+   "new": "Soil DNA concentration was weakly and not significantly correlated with methane flux (Figure S7; R^2^ = 0.22, Spearman ρ = 0.52, p = 0.08, n = 12 cores). The models were scaled by relative abundances normalized by DNA concentration, and for comparison with the measured emissions the simulated fluxes were converted to areal emissions from each member’s biomass in each core (Methods).",
+   "rationale": "Figure S7's own fit (y = 256.82x + 116.18) has R² = 0.22; Pearson p = 0.12; Spearman ρ = 0.52, p = 0.08; n = 12.",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
+   "origin": "modelling"
+  },
+  {
+   "paragraph": 69,
+   "kind": "replace",
+   "old": "The simulated methane production of the MPn-consuming community members correlated remarkably well (R2 = 0.966) with the experimental methane emissions (Figure S8), and was most correlated when the phosphate source ratio was 0.07 (at least 1/14 of the total phosphate consumed in methylphosphonate versus inorganic phosphate).",
+   "new": "With a phosphate source ratio of 0.07 (at least 0.07 mol of methylphosphonate per mol of inorganic phosphate, about 6.5% of the phosphate taken up), the simulated methane production of the 38 MPn-consumer models amounted to 14% of the experimental methane emissions in total and did not track their differences among the six unrestored cores (Figure 7; Spearman ρ = 0.03, exact p = 1.0, n = 6; R^2^ = 0.02).",
+   "rationale": "consistent areal basis, 2026 models",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 69,
+   "kind": "comment",
+   "old": "The line-of-best-fit equation from this regression",
+   "new": "The equation below is replaced (tracked) by the fit of the 2026 models on the consistent areal basis at ratio 0.07: simulated = −0.02 × experimental + 198, in µmol CH4 m−2 d−1 (R² = 0.02, Spearman ρ = 0.03, n = 6). The draft's fits (R² 0.978/0.968/0.862) had both axes divided by DNA, and two depths have almost no DNA (R2_B_D1, R2_C_D2, 0.16 µg g−1 soil), so they were driven by a 1/DNA term. Here each model's methane per unit of simulated biomass (a constant per model) is rescaled to its biomass in the core (relative abundance × DNA × layer thickness). Word shows the equation swap as a tracked change; LibreOffice and some other viewers display both equations.",
+   "rationale": "equation swap explanation",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 71,
+   "kind": "replace",
+   "old": "reveals that generally the models predict half of the experimental methane flux.",
+   "new": "reveals that the models predict about one seventh of the experimental methane flux in total (14%), from 5% to 33% among cores.",
+   "rationale": "consistent basis",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 71,
+   "kind": "replace",
+   "old": "0.3 (at least ⅓ of total phosphate consumed is methylphosphonate)",
+   "new": "0.33 (at least 0.33 mol of methylphosphonate per mol of inorganic phosphate, about 25% of the phosphate taken up)",
+   "rationale": "The simulated ratio is 0.33 (saltern_fluxes.json key) and is MePn:Pi, so MePn is ≥ 0.33/1.33 = 24.8% of P uptake, not 1/3.",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
+   "origin": "modelling"
+  },
+  {
+   "paragraph": 71,
+   "kind": "replace",
+   "old": "the models almost perfectly recapitulate the experimental methane emissions",
+   "new": "the simulated emissions reach 55% of the measured ones in total but range from 18% to 126% among cores",
+   "rationale": "consistent basis",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 71,
+   "kind": "comment",
+   "old": "If the phosphate ratio is",
+   "new": "The equation below is replaced (tracked) by the 2026 models' consistent-basis fit at ratio 0.33: simulated = −0.09 × experimental + 764, in µmol CH4 m−2 d−1 (R² = 0.03, Spearman ρ = 0.03). The previous 0.95x + 224 was the fit with both axes divided by DNA (R² = 0.968). Word shows the swap as a tracked change; LibreOffice shows both equations.",
+   "rationale": "equation swap explanation",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 73,
+   "kind": "replace",
+   "old": "and yield an almost identical fit to the best fitting regression (R2 = 0.968).",
+   "new": "and likewise do not track the measured emissions among cores (Spearman ρ = 0.03, n = 6; R^2^ = 0.03): the ratio rescales the simulated emissions (3.8-fold from 0.07 to 0.33) but does not change their pattern.",
+   "rationale": "consistent basis",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 73,
+   "kind": "replace",
+   "old": "It is worth noting that unconstraining the phosphate source ratio produced almost an identical fit (R2 = 0.970) and still resulted in methylphosphonate consumption by several marine organisms in the Rhodobacteraceae family: two species in the Roseovarius genera and one species in the Albimonas genera.",
+   "new": "It is worth noting that none of the 38 models needed methylphosphonate to grow: each also grew with inorganic phosphate, or with methylphosphonate, as its only phosphorus source, so the methylphosphonate taken up, and with it the methane, was set by the assumed ratio. In one *Roseovarius* model (Roseovarius.2), a RAST-annotated methane monooxygenase oxidized the methane released by the C–P lyase (all of it at a ratio of 0.07); with that reaction closed, the simulated total rises to 15% (0.07) and 58% (0.33) of the measured emissions. Most of the simulated methane came from models of the Rhodobacteraceae family.",
+   "rationale": "growth_triplet; mmo sensitivity",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 73,
+   "kind": "replace",
+   "old": "which supports that this taxa is uniquely responsible for the methane emissions.",
+   "new": "which is consistent with this family contributing to the methane emissions (Rhodobacteraceae models produced 75% of the simulated methane at a ratio of 0.07, *Roseovarius* alone 49%).",
+   "rationale": "family/genus shares",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 74,
+   "kind": "replace",
+   "old": "The simulated methane production of the betaine-consuming community members correlated slightly less well (R2 = 0.862) with the experimental methane emissions (Figure 7),",
+   "new": "The simulated methane production of the betaine-reducing community members (the 18 betaine-reducer models; Table 4) was not significantly correlated with the experimental methane emissions either (Figure 7; Spearman ρ = 0.60, exact p = 0.24, n = 6; R^2^ = 0.08),",
+   "rationale": "consistent basis (betaine: pipeline conversion)",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 74,
+   "kind": "comment",
+   "old": "with the line-of-best-fit",
+   "new": "The equation below is replaced (tracked) by the fit of the 18 2026 betaine models: simulated = 0.58 × experimental + 2347, in µmol CH4 m−2 d−1. The previous 0.24x + 4632 was the 15-MAG fit with both axes divided by DNA (R² = 0.862). Betaine-model caveats: the betaine reductase reaction rxn17220_c0 is added by hand (as in the original protocol) and carries the RAST betaine-reductase genes as its gene rule, because the templates have no complex for those roles; the models are aerobic (no betaine model grows without O2), so an anaerobic enzyme is simulated in aerobic models; TMA has no unique optimum in 43 of the 108 model×core cells (with every value at its FVA minimum or maximum, the total is 2.5- or 4.5-fold the measured emissions). The magnitude depends on the assumed uptake bound, the 0.06 methane per TMA, the soil bulk density and the DNA content of biomass. Word shows the equation swap as a tracked change; LibreOffice shows both equations.",
+   "rationale": "betaine caveats",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 76,
+   "kind": "replace_paragraph",
+   "old": "requiring substantially more adjustments in the slope and th",
+   "new": "which has a positive slope, but the simulated betaine-derived methane exceeded the measured emissions in all six cores (1.6- to 5.5-fold; 2.6-fold in total). Its magnitude is bounded by two assumptions, the betaine uptake bound of 0.1 and the conversion of 0.06 methane per TMA, and within those bounds it was often not determined by the genomes: TMA excretion reached the uptake bound in 35 of the 108 model × core simulations and was not unique in 43 (with every value at its minimum or maximum, the total is 2.5- to 4.5-fold the measured emissions). Across cores, the summed TMA excretion varied 3.0-fold while the DNA-normalized abundance of the betaine reducers varied 13-fold, so this comparison is not a strong test of the betaine hypothesis.",
+   "rationale": "betaine regime",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 77,
+   "kind": "replace",
+   "old": "The models further reveal that methane is produced stoichiometrically from betaine and almost from methylphosphonate (1.4 methane : 1 methylphosphonate).",
+   "new": "In the models, each methylphosphonate consumed yields exactly one methane (1 methane : 1 methylphosphonate), whereas methane from betaine was set by assumption to 0.06 of the TMA excreted (Methods).",
+   "rationale": "CH4/MePn is 1.000 for every MAG and core in saltern_fluxes.json at 0.07 and 0.33, in every committed version (c49e503, a725dce, 1b758a4) and in the substrate-addition run. The 1.4 is not supported. Betaine CH4 = 0.06 × TMA is the Methods assumption (P36), not a model result.",
+   "sources": "modelling_numbers_r232.json (clauded_insights/modelling_numbers_r232.py)",
+   "origin": "modelling"
+  },
+  {
+   "paragraph": 95,
+   "kind": "replace",
+   "old": "This was mechanistically corroborated by metabolic models that reproduced the experimental methane emissions with high accuracy (R2 = 0.978), and demonstrate that methane is generated stoichiometrically from methylphosphonate.",
+   "new": "Metabolic models of the MPn consumers produced methane equivalent to about one seventh of the experimental emissions in the unrestored cores at a phosphate source ratio of 0.07 (about one half at 0.33), with one methane generated per methylphosphonate consumed, but neither these models nor the betaine models tracked the differences in emissions among the six cores (Spearman ρ = 0.03 and 0.60, p ≥ 0.24), and the betaine models exceeded the measured emissions in every core.",
+   "rationale": "consistent basis",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 95,
+   "kind": "replace",
+   "old": "The high average correlation of all members is attributed to higher metabolic activity of community members when in the regime of producing methane.",
+   "new": "",
+   "rationale": "Contradicts the revised Results, which attribute the community-wide correlation with methane to the separation of the high-methane unrestored salterns from the other sites (254 of 310 MAGs correlated; no guild beats random sets on the areal basis).",
+   "sources": "clauded_insights/modelling_consistent_basis_r232.json (modelling_consistent_basis_r232.py)",
+   "origin": "modelling"
+  },
+  {
+   "paragraph": 95,
+   "kind": "replace",
+   "old": "The metabolic models only parameterized the relative abundances of each member and trace consumption of methylphosphonate, which encourages that these are natural outcomes of the metabolism and not forced behaviors during optimization.",
+   "new": "The metabolic models only parameterized the relative abundances of each member and a minimum ratio of methylphosphonate to inorganic phosphate uptake. Every MPn-consumer model produced a fixed amount of methane per unit of biomass, set by the ratio and the phosphorus content of its template biomass, so the simulated emissions translate the biomass of MPn consumers and the assumed ratio into methane rather than testing differences in their metabolism.",
+   "rationale": "ratio binds in every model",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 99,
+   "kind": "replace",
+   "old": "Thirdly, metabolic models reproduced methane emissions from trace amounts of methylphosphonate in near stoichiometric equivalence, supporting the experimental findings. The metabolic models systematically underestimated the quantity of methane emitted, which suggests",
+   "new": "Thirdly, metabolic models showed that trace consumption of methylphosphonate, with one methane per methylphosphonate consumed, can account for part of the methane emitted from the unrestored salterns (14% at a phosphate source ratio of 0.07 and 55% at 0.33), although the simulated emissions did not track the differences among cores. That the models underestimated the total methane emitted suggests",
+   "rationale": "consistent basis",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 100,
+   "kind": "comment",
+   "old": "We therefore propose methylphosphonate as the primary source of methane",
+   "new": "Consider hedging this conclusion. The 2026 models show that methylphosphonate consumption can supply part of the measured methane (about one seventh at a ratio of 0.07, about one half at 0.33) but not the pattern among cores (Figure 7), and in the re-assembled MAG set no guild's abundance tracks methane more closely than random sets of species (Table 5). The strongest support is the substrate-addition (Figure 4) and culturing (Figure 6) evidence. For example: 'We therefore propose methylphosphonate as the most consistent candidate source of methane…'.",
+   "rationale": "hedge",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 129,
+   "kind": "replace_paragraph",
+   "old": "Figure 7. Assessing methylphosphonate and betaine metabolism",
+   "new": "Figure 7. Simulated versus measured methane emissions in the six unrestored cores. Orange: summed methane flux of the methylphosphonate-consuming models (38 of the 39 MPn-consumer species; JASFMS01.1 did not grow), each model's methane per unit of simulated biomass rescaled to its biomass in the core (relative abundance × soil DNA concentration of each depth, weighted by depth); filled circles at a phosphate source ratio of 0.07 and open circles at 0.33. One *Roseovarius* model (Roseovarius.2) releases no methane at 0.07 because its annotated methane monooxygenase oxidizes it. Blue: summed methane of the 18 betaine-reducing models (methane = 0.06 × TMA excretion), converted with the core’s volume-weighted DNA concentration because their TMA excretion is partly set by the uptake bound. Both axes are in µmol CH~4~ m^−2^ d^−1^ on log scales; the dotted line marks 1:1 agreement and the dashed lines are linear fits (methylphosphonate models at 0.07, and betaine models). Methylphosphonate-derived methane is 14% of the measured emissions in total at 0.07 (5–33% among cores; 55% at 0.33) and does not track them (Spearman ρ = 0.03; R^2^ = 0.02); betaine-derived methane exceeds them in every core (1.6- to 5.5-fold) and is not significantly correlated with them (ρ = 0.60, exact p = 0.24; R^2^ = 0.08). Guild abundance versus methane is shown in Figure 9 and Table 5.",
+   "rationale": "Figure 7 replaced by figure7_final.png",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 36,
+   "kind": "comment",
+   "old": "The MAG-derived models were subjected",
+   "new": "2026 models (added 2026-11-23; reassembly_2026/modelling_2026/models/README.md). Built on TF with ModelSEEDpy (fork sync-cshenry-main 311f720) and the curated templates of modelling_2026/templates/; arm A (RAST) won the pre-registered annotation comparison (annotation_comparison/RESULTS.md). Decisions for the authors: (1) JASFMS01.1 was dropped because it cannot make ribose-5-phosphate; one reaction (sedoheptulose-1,7-bisphosphatase, rxn01345) rescues it but fails two ATP tests. (2) The methanogen model (Methanolobus.1) grows as a methyl-to-acetate acetogen without making methane, so it was not simulated; the manuscript's 'dimethylamine and hydrogen' medium has no surviving code (the model grows on it, 1.32 h−1, but makes methane only apart from growth). (3) Roseovarius.2 carries a RAST methane monooxygenase (rxn00844) that oxidizes its MePn methane at the lactate optimum; closing it gives 15% instead of 14% of the measured methane at 0.07. (4) Template curation queue: betaine reductase rxn11678 and glycine reductase rxn11676 are written in the synthesis direction; Fpo rxn24614 is '<' only; four N-cycle reactions are reversible; the betaine reductase roles have no complex. The earlier repair of three MePn-obligate 2020 models does not apply: no 2026 model needs MePn.",
+   "rationale": "replaces the 2026-11-08 repair comment",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 18,
+   "kind": "comment",
+   "old": "a primary methanogenic substrate",
+   "new": "Review: the 2026 models supply about one seventh to one half of the measured methane and do not track the differences among cores (Figure 7), so the modeling supports methylphosphonate as a source of methane but not as the primary substrate. Consider 'an important' or 'a' instead of 'a primary', unless the in vitro data alone carry 'primary'.",
+   "rationale": "Abstract claim",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z",
+   "mirror_index": 19
+  },
+  {
+   "paragraph": 35,
+   "kind": "replace_paragraph",
+   "old": "Metabolic models were developed using dereplicated medium and high quality",
+   "new": "Metabolic models were built for the representative MAG of each MPn-consumer and betaine-reducer species of the re-assembled MAG set (39 and 18 species; Table 4), one model per species and guild. Prodigal genes were annotated with the RAST service (53), and draft models were built with ModelSEEDpy, which implements the KBase modeling pipeline (52), from the current ModelSEED templates with our curations (Gram-negative v7, Gram-positive v7 and Archaea v6 templates for 31, 19 and 6 models, respectively). RAST alone was chosen over drafts that also used KOfam, eggNOG-mapper v2.1.13 and Bakta v1.12.0 annotations by criteria fixed in advance (gene-associated and gapfilled reactions, guild-pathway support, ATP production without a carbon source, and the fraction of blocked reactions): the added annotations raised the number of gene-associated reactions, but they also raised the fraction of blocked reactions by 2.7–6.5 percentage points, beyond the pre-set limit of 2, and the two that included eggNOG-mapper let one model make ATP from ammonia and oxygen. ATP production was corrected on 54 test media, and the models were gapfilled as in the original protocol: MPn consumers first on aerobic lactate with phosphate and then on lactate with MPn as the only phosphorus source, after a C–P lyase pathway and an MPn transporter were added where absent; betaine reducers on aerobic lactate, after which betaine reductase, glycine reductase and TMA export were added. Reactions that let a model oxidize ammonia (reversed nitrite and hydroxylamine reductases) or consume methane without annotation support were restricted to their reductive or methane-producing directions, and models that lost growth were gapfilled again. One MPn-consumer model (JASFMS01.1) could not grow and was excluded, leaving 38 MPn-consumer and 18 betaine-reducer models; none of the MPn-consumer models required MPn to grow.",
+   "rationale": "Methods for the 2026 models (models/README.md, annotation_comparison/RESULTS.md). The draft's KBase MS2 build of the 2020 MAGs and the methanogen medium sentence no longer apply: the methanogen model is not simulated (comment on P36).",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 37,
+   "kind": "replace",
+   "old": "for all methylphosphonate- and betaine- consuming members",
+   "new": "for the methylphosphonate-consuming members",
+   "rationale": "Figure S10 regenerated for the 2026 models (reassembly_2026/modelling_2026/figureS10/)",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 37,
+   "kind": "insert_before",
+   "old": "Glycerol and acetate are other candidate carbon sources",
+   "new": "For the betaine-reducing members, however, aerobic L-lactate required more reactions than 15 of the 22 media tested, including anaerobic pyruvate and fumarate (median 5.5 against 0; Figure S10). ",
+   "rationale": "Figure S10 regenerated: lactate is not among the cheapest media for the betaine reducers",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 37,
+   "kind": "comment",
+   "old": "Lactate was selected as the simulated carbon source",
+   "new": "Figure S10 is regenerated for the 2026 models (figureS10_final.py: MSATPCorrection core gap-filling of each arm-A draft on the 22 ATP test media of the original figure, run with the build code on TF). Aerobic L-lactate remains the cheapest medium for the MePn consumers, but for the betaine reducers it ranks 16 of 22 (anaerobic pyruvate and fumarate need none), and no betaine model grows without O2 although these organisms (Bacillota such as Halanaerobium, M55B127) are anaerobic Stickland fermenters. Simulating the betaine reducers on an anaerobic medium (e.g. pyruvate) would be more realistic; the protocol was kept to match the original analysis.",
+   "rationale": "S10 regenerated",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 157,
+   "kind": "replace_paragraph",
+   "old": "Figure S10.",
+   "new": "Figure S10. Core gap filling of the draft metabolic models: the number of reactions that ATP correction had to add or reverse for each draft to produce ATP on each of 22 test media (a single carbon source, with or without O~2~), for a) the 38 methylphosphonate-consuming and b) the 18 betaine-reducing models (species labels as in Table 4). Rows and columns are ordered by hierarchical clustering; grey cells had no gap-filling solution. The red box marks the aerobic L-lactate medium used for the simulations, which needed no reactions for most methylphosphonate consumers (median 0, tied for the lowest of the 22 media) but a median of 5.5 for the betaine reducers, more than 15 other media, including anaerobic pyruvate and fumarate (median 0).",
+   "rationale": "Figure S10 replaced by figureS10_final.png",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  },
+  {
+   "paragraph": 73,
+   "kind": "comment",
+   "old": "Roseovarius has been experimentally observed",
+   "new": "Consider deleting the closing Albimonas sentence: KOfam found no phnJ in any Albimonas MAG of the re-assembled set (the C–P lyase genes of the original Albimonas.1 are frameshifted), so Albimonas has no MPn-consumer model and no longer appears in these results. Reference 78 would then be uncited. (Not deleted here: the sentence ends inside an existing comment range and a citation link.)",
+   "rationale": "Albimonas",
+   "sources": "reassembly_2026/modelling_2026/simulations/consistent_basis_final.json (consistent_basis_final.py; fluxes from simulate_guilds.py on TF); models: reassembly_2026/modelling_2026/models/README.md, models_summary.tsv",
+   "origin": "modelling_2026",
+   "date": "2026-11-23T00:00:00Z"
+  }
+ ],
+ "facts": {
+  "n_mep": 38,
+  "n_bet": 18,
+  "drop_id": "JASFMS01.1",
+  "mmo_id": "Roseovarius.2",
+  "t07": "14",
+  "t33": "55",
+  "w07": "one seventh",
+  "w33": "one half",
+  "rho07": 0.028571428571428574,
+  "p07": 1.0,
+  "rho_b": 0.6,
+  "p_b": 0.24166666666666667,
+  "fold": 3.829294965279371,
+  "k": [
+   0.043241003804965546,
+   0.07650464017554942
+  ]
+ }
+}

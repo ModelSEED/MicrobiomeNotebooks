@@ -1,0 +1,1985 @@
+{
+ "source_model": "models/methanogen/R1_A_D1__concoct.bin.007.json",
+ "source_md5": "e8fd1042225c7b0e906a5cd11c8c2b05",
+ "code_md5": "ce9d220024c9eebca66fdbd59f4cc3f2",
+ "curated_model": "models/methanogen/R1_A_D1__concoct.bin.007__curated.json",
+ "curated_md5": "893a75cdb6d83f6c79617fe9d27f1183",
+ "rnf": {
+  "Na": 3,
+  "H": 0
+ },
+ "n_reactions": [
+  718,
+  715
+ ],
+ "n_genes": [
+  509,
+  522
+ ],
+ "changes": [
+  {
+   "action": "removed",
+   "id": "rxn24614_c0",
+   "equation": "cpd08701_c0 + cpd28067_c0 <-- cpd08702_c0 + cpd27742_c0",
+   "bounds": [
+    -1000.0,
+    0.0
+   ],
+   "gpr": "NODE_863_length_34910_cov_3.981226_32 and NODE_863_length_34910_cov_3.981226_34 and NODE_863_length_34910_cov_3.981226_27 and NODE_863_length_34910_cov_3.981226_28 and NODE_863_length_34910_cov_3.981226_29 and (NODE_863_length_34910_cov_3.981226_37 or NODE_227_length_79451_cov_3.692855_1) and (NODE_863_length_34910_cov_3.981226_38 or NODE_227_length_79451_cov_3.692855_2) and NODE_243_length_75999_cov_4.207376_12 and NODE_863_length_34910_cov_3.981226_31 and NODE_863_length_34910_cov_3.981226_30",
+   "gapfilled": null,
+   "note": "superseded by MCUR_FPO_c0 (wrong F420 pool, '<' only, no H+ translocation)"
+  },
+  {
+   "action": "added",
+   "id": "MCUR_FPO_c0",
+   "equation": "2 cpd00067_c0 + cpd00792_c0 + cpd08701_c0 <=> 2 cpd00067_e0 + cpd00649_c0 + cpd08702_c0",
+   "bounds": [
+    -1000,
+    1000
+   ],
+   "gpr": "NODE_863_length_34910_cov_3.981226_32 and NODE_863_length_34910_cov_3.981226_34 and NODE_863_length_34910_cov_3.981226_27 and NODE_863_length_34910_cov_3.981226_28 and NODE_863_length_34910_cov_3.981226_29 and (NODE_863_length_34910_cov_3.981226_37 or NODE_227_length_79451_cov_3.692855_1) and (NODE_863_length_34910_cov_3.981226_38 or NODE_227_length_79451_cov_3.692855_2) and NODE_243_length_75999_cov_4.207376_12 and NODE_863_length_34910_cov_3.981226_31 and NODE_863_length_34910_cov_3.981226_30",
+   "note": "ModelSEED rxn24614 written on coenzyme F420 cpd00792/cpd00649 + 2 H+ c->e (Baumer et al. 2000)"
+  },
+  {
+   "action": "removed",
+   "id": "rxn11938_c0",
+   "equation": "cpd00001_c0 + cpd00003_c0 + cpd00735_c0 --> cpd00004_c0 + cpd00011_c0 + cpd00643_c0",
+   "bounds": [
+    0.0,
+    1000.0
+   ],
+   "gpr": "NODE_404_length_54444_cov_3.878694_56 or (NODE_192_length_87463_cov_3.827860_9 and NODE_4070_length_11909_cov_3.770243_15) or NODE_4070_length_11909_cov_3.770243_16 or NODE_404_length_54444_cov_3.878694_55",
+   "gapfilled": null,
+   "note": "NAD-dependent formylmethanofuran dehydrogenase does not exist; replaced by ferredoxin form MCUR_FWD_c0"
+  },
+  {
+   "action": "added",
+   "id": "MCUR_FWD_c0",
+   "equation": "cpd00001_c0 + cpd00735_c0 + 2 cpd11621_c0 <=> cpd00011_c0 + cpd00067_c0 + cpd00643_c0 + 2 cpd11620_c0",
+   "bounds": [
+    -1000,
+    1000
+   ],
+   "gpr": "NODE_4070_length_11909_cov_3.770243_15 and NODE_4070_length_11909_cov_3.770243_16 and (NODE_404_length_54444_cov_3.878694_55 or NODE_192_length_87463_cov_3.827860_9) and (NODE_404_length_54444_cov_3.878694_56 or NODE_192_length_87463_cov_3.827860_10)",
+   "note": "ModelSEED rxn46184 written on the model's cpd00735/cpd00643 and ferredoxin cpd11620/cpd11621"
+  },
+  {
+   "action": "removed",
+   "id": "rxn03126_c0",
+   "equation": "cpd00067_c0 + cpd02935_c0 + cpd08702_c0 <=> cpd02246_c0 + cpd02817_c0 + cpd08701_c0",
+   "bounds": [
+    -1000.0,
+    1000.0
+   ],
+   "gpr": "NODE_209_length_84323_cov_3.905554_29 or NODE_209_length_84323_cov_3.905554_30 or NODE_192_length_87463_cov_3.827860_3",
+   "gapfilled": null,
+   "note": "superseded by MCUR_HDRDE_c0 (GPR held HdrA2B2C2 genes; no H+ translocation; reversible)"
+  },
+  {
+   "action": "added",
+   "id": "MCUR_HDRDE_c0",
+   "equation": "3 cpd00067_c0 + cpd02935_c0 + cpd08702_c0 --> 2 cpd00067_e0 + cpd02246_c0 + cpd02817_c0 + cpd08701_c0",
+   "bounds": [
+    0,
+    1000
+   ],
+   "gpr": "(NODE_664_length_40856_cov_4.023939_33 or NODE_1064_length_30654_cov_3.271628_33) and NODE_664_length_40856_cov_4.023939_32",
+   "note": "ModelSEED rxn03126 + 2 H+ c->e (Ide et al. 1999), forward only"
+  },
+  {
+   "action": "bounds",
+   "id": "rxn03127_c0",
+   "equation": "cpd02438_c0 + cpd02817_c0 <=> cpd00067_c0 + cpd01024_c0 + cpd02935_c0",
+   "before": [
+    -1000.0,
+    1000.0
+   ],
+   "after": [
+    0,
+    1000
+   ],
+   "note": "methyl-CoM reductase, methane-forming direction only"
+  },
+  {
+   "action": "restoichiometried+bounds+gpr",
+   "id": "rxa45615_c0",
+   "before": {
+    "equation": "4 cpd00067_c0 + 3 cpd00971_c0 + cpd08701_c0 + 2 cpd11620_c0 <-- 2 cpd00067_e0 + 3 cpd00971_e0 + cpd08702_c0 + 2 cpd11621_c0",
+    "bounds": [
+     -1000.0,
+     0.0
+    ],
+    "gpr": "NODE_835_length_35354_cov_4.305589_26 or NODE_835_length_35354_cov_4.305589_27 or NODE_835_length_35354_cov_4.305589_29 or NODE_835_length_35354_cov_4.305589_25 or NODE_835_length_35354_cov_4.305589_24"
+   },
+   "after": {
+    "equation": "2 cpd00067_c0 + 3 cpd00971_c0 + cpd08701_c0 + 2 cpd11620_c0 --> 3 cpd00971_e0 + cpd08702_c0 + 2 cpd11621_c0",
+    "bounds": [
+     0,
+     1000
+    ],
+    "gpr": "NODE_835_length_35354_cov_4.305589_25 and NODE_835_length_35354_cov_4.305589_24 and NODE_835_length_35354_cov_4.305589_29 and NODE_835_length_35354_cov_4.305589_28 and NODE_835_length_35354_cov_4.305589_26 and NODE_835_length_35354_cov_4.305589_27 and NODE_835_length_35354_cov_4.305589_30"
+   },
+   "note": "Rnf (rnfABCDEG + mmcA) Fd -> MP, 3 Na+/0 H+ per 2 e-, forward only (template: 3 Na+ + 2 H+, reverse only after ATP correction)"
+  },
+  {
+   "action": "bounds",
+   "id": "rxn40355_c0",
+   "equation": "cpd00792_c0 + 2 cpd11621_c0 <=> 2 cpd00067_c0 + cpd00649_c0 + 2 cpd11620_c0",
+   "before": [
+    -1000.0,
+    1000.0
+   ],
+   "after": [
+    -1000,
+    0
+   ],
+   "note": "F420:ferredoxin oxidoreductase, Fd(red) -> F420 direction only (uphill reverse)"
+  },
+  {
+   "action": "removed",
+   "id": "rxn05759_c0",
+   "equation": "2 cpd00067_c0 + 2 cpd11620_c0 <-- 2 cpd11621_c0 + cpd11640_c0",
+   "bounds": [
+    -100.0,
+    0.0
+   ],
+   "gpr": "",
+   "gapfilled": null,
+   "note": "no Ech or Fd-reducing hydrogenase gene; added by ATP-correction core gap-fill (H2.CO2 test)"
+  },
+  {
+   "action": "removed",
+   "id": "rxn06299_c0",
+   "equation": "cpd00649_c0 + cpd11640_c0 --> cpd00792_c0",
+   "bounds": [
+    0.0,
+    100.0
+   ],
+   "gpr": "",
+   "gapfilled": null,
+   "note": "no FrhA/FrhG (only FrhB/FpoF/FdhB-like proteins); added by ATP-correction core gap-fill"
+  },
+  {
+   "action": "removed",
+   "id": "rxn08518_c0",
+   "equation": "cpd00047_c0 + cpd00067_c0 --> cpd00011_c0 + cpd11640_c0",
+   "bounds": [
+    0.0,
+    100.0
+   ],
+   "gpr": "",
+   "gapfilled": "gapfill_2",
+   "note": "no FdhAB/Hyc genes; added by the CH4 gap-fill (gapfill_2) only to make CH4 possible apart from growth"
+  },
+  {
+   "action": "removed",
+   "id": "rxn10122_c0",
+   "equation": "cpd00004_c0 + 4.5 cpd00067_c0 + cpd15560_c0 <=> cpd00003_c0 + 3.5 cpd00067_e0 + cpd15561_c0",
+   "bounds": [
+    -1000.0,
+    1000.0
+   ],
+   "gpr": "NODE_863_length_34910_cov_3.981226_35 and NODE_863_length_34910_cov_3.981226_36",
+   "gapfilled": null,
+   "note": "GPR is Fpo subunits FpoK/FpoL (NODE_863_35/36), which belong to MCUR_FPO; methanogens have no ubiquinone; with the gene-associated quinone SDH rxn09272 it lets succinate alone yield ATP"
+  },
+  {
+   "action": "added",
+   "id": "rxn16596_c0",
+   "equation": "cpd00006_c0 + cpd00792_c0 --> cpd00005_c0 + cpd00067_c0 + cpd00649_c0",
+   "bounds": [
+    0,
+    1000
+   ],
+   "gpr": "NODE_209_length_84323_cov_3.905554_20",
+   "note": "template rxn16596 (identical equation); F420H2 -> NADPH direction only"
+  },
+  {
+   "action": "gpr",
+   "id": "rxn24608_c0",
+   "equation": "cpd00067_c0 + cpd00187_c0 + cpd27537_c0 --> cpd00013_c0 + cpd27512_c0",
+   "before": "(NODE_296_length_66342_cov_4.286295_29 or NODE_296_length_66342_cov_4.286295_15 or NODE_296_length_66342_cov_4.286295_30 or NODE_296_length_66342_cov_4.286295_14) and (NODE_296_length_66342_cov_4.286295_13 or NODE_296_length_66342_cov_4.286295_28)",
+   "after": "((NODE_296_length_66342_cov_4.286295_14 and NODE_296_length_66342_cov_4.286295_15) or (NODE_296_length_66342_cov_4.286295_29 and NODE_296_length_66342_cov_4.286295_30)) and (NODE_296_length_66342_cov_4.286295_13 or NODE_296_length_66342_cov_4.286295_28)",
+   "note": "MtmB is one Pyl protein split at the in-frame UAG (codon 202): pieces ANDed"
+  },
+  {
+   "action": "gpr",
+   "id": "rxn24610_c0",
+   "equation": "cpd00067_c0 + cpd00425_c0 + cpd27536_c0 <=> cpd00187_c0 + cpd27511_c0",
+   "before": "NODE_296_length_66342_cov_4.286295_25 and (NODE_296_length_66342_cov_4.286295_27 or NODE_296_length_66342_cov_4.286295_26)",
+   "after": "(NODE_296_length_66342_cov_4.286295_26 and NODE_296_length_66342_cov_4.286295_27) and NODE_296_length_66342_cov_4.286295_25",
+   "note": "MtbB split at the in-frame UAG (codon 376): pieces ANDed; MtbC"
+  },
+  {
+   "action": "gpr",
+   "id": "rxn24612_c0",
+   "equation": "cpd00067_c0 + cpd00441_c0 + cpd27540_c0 <=> cpd00425_c0 + cpd27515_c0",
+   "before": "(NODE_296_length_66342_cov_4.286295_19 or NODE_296_length_66342_cov_4.286295_20) and NODE_296_length_66342_cov_4.286295_21",
+   "after": "(NODE_296_length_66342_cov_4.286295_19 and NODE_296_length_66342_cov_4.286295_20) and NODE_296_length_66342_cov_4.286295_21",
+   "note": "MttB split at the in-frame UAG (codon 334): pieces ANDed; MttC"
+  },
+  {
+   "action": "gpr",
+   "id": "rxn08173_c0",
+   "equation": "cpd00008_c0 + cpd00009_c0 + 4 cpd00067_e0 <=> cpd00001_c0 + cpd00002_c0 + 3 cpd00067_c0",
+   "before": "NODE_2103_length_19284_cov_3.660176_6 or NODE_2103_length_19284_cov_3.660176_4 or NODE_2103_length_19284_cov_3.660176_1 or NODE_2103_length_19284_cov_3.660176_2 or NODE_863_length_34910_cov_3.981226_1 or NODE_863_length_34910_cov_3.981226_2 or NODE_2103_length_19284_cov_3.660176_3 or NODE_2103_length_19284_cov_3.660176_5",
+   "after": "NODE_2103_length_19284_cov_3.660176_1 and NODE_863_length_34910_cov_3.981226_1 and NODE_2103_length_19284_cov_3.660176_3 and NODE_863_length_34910_cov_3.981226_2 and NODE_2103_length_19284_cov_3.660176_4 and NODE_2103_length_19284_cov_3.660176_2 and NODE_2103_length_19284_cov_3.660176_6 and NODE_2103_length_19284_cov_3.660176_5",
+   "note": "A1AO ATP synthase subunits A,B,C,D,E,F,I,K are one complex (was OR)"
+  },
+  {
+   "action": "gpr",
+   "id": "rxn05209_c0",
+   "equation": "cpd00067_c0 + cpd00971_e0 <=> cpd00067_e0 + cpd00971_c0",
+   "before": "NODE_835_length_35354_cov_4.305589_14 or NODE_1984_length_20126_cov_3.374569_16",
+   "after": "NODE_835_length_35354_cov_4.305589_14 or NODE_1984_length_20126_cov_3.374569_16 or (NODE_192_length_87463_cov_3.827860_92 and NODE_8305_length_6837_cov_4.161401_8 and NODE_8305_length_6837_cov_4.161401_7 and NODE_8305_length_6837_cov_4.161401_6 and NODE_8305_length_6837_cov_4.161401_5 and NODE_8305_length_6837_cov_4.161401_4)",
+   "note": "add Mrp Na+/H+ antiporter mrpACDEFG (Jasso-Chavez et al. 2013)"
+  }
+ ],
+ "validation_curated": {
+  "free_atp": {
+   "water_H": 0.0,
+   "salts_O2": 0.0,
+   "salts_NO3": 0.0
+  },
+  "free_atp_pass": true,
+  "growth_max": {
+   "mixed": {
+    "growth": 3.022498304858299,
+    "CH4": 382.2618523461846,
+    "acetate": 0.0,
+    "CO2": 77.7041295114489,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00116_e0": -0.0,
+     "EX_cpd00187_e0": 100.0,
+     "EX_cpd00425_e0": 100.0,
+     "EX_cpd00441_e0": 100.0
+    },
+    "CH4_per_methyl": 0.637103087243641
+   },
+   "methanol": {
+    "growth": 0.0,
+    "CH4": 0.0,
+    "acetate": 0.0,
+    "CO2": 0.0,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00116_e0": -0.0
+    },
+    "CH4_per_methyl": null
+   },
+   "MMA": {
+    "growth": 0.5037497174763832,
+    "CH4": 63.7103087243641,
+    "acetate": 0.0,
+    "CO2": 12.950688251908158,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00187_e0": 100.0
+    },
+    "CH4_per_methyl": 0.637103087243641
+   },
+   "DMA": {
+    "growth": 1.0074994349527664,
+    "CH4": 127.4206174487282,
+    "acetate": 0.0,
+    "CO2": 25.901376503816316,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00425_e0": 100.0
+    },
+    "CH4_per_methyl": 0.637103087243641
+   },
+   "TMA": {
+    "growth": 1.5112491524291491,
+    "CH4": 191.13092617309232,
+    "acetate": 0.0,
+    "CO2": 38.852064755724435,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00441_e0": 100.0
+    },
+    "CH4_per_methyl": 0.6371030872436411
+   }
+  },
+  "growth_acetate_export_blocked": {
+   "mixed": {
+    "growth": 3.0224983048582983,
+    "CH4": 382.26185234618464,
+    "acetate": 0.0,
+    "CO2": 77.70412951144887,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00116_e0": -0.0,
+     "EX_cpd00187_e0": 100.0,
+     "EX_cpd00425_e0": 100.0,
+     "EX_cpd00441_e0": 100.0
+    },
+    "CH4_per_methyl": 0.6371030872436411
+   },
+   "methanol": {
+    "growth": 0.0,
+    "CH4": 0.0,
+    "acetate": 0.0,
+    "CO2": 0.0,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00116_e0": -0.0
+    },
+    "CH4_per_methyl": null
+   },
+   "MMA": {
+    "growth": 0.5037497174763832,
+    "CH4": 63.7103087243641,
+    "acetate": 0.0,
+    "CO2": 12.950688251908158,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00187_e0": 100.0
+    },
+    "CH4_per_methyl": 0.637103087243641
+   },
+   "DMA": {
+    "growth": 1.0074994349527664,
+    "CH4": 127.4206174487282,
+    "acetate": 0.0,
+    "CO2": 25.901376503816316,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00425_e0": 100.0
+    },
+    "CH4_per_methyl": 0.637103087243641
+   },
+   "TMA": {
+    "growth": 1.5112491524291491,
+    "CH4": 191.13092617309232,
+    "acetate": 0.0,
+    "CO2": 38.852064755724435,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00441_e0": 100.0
+    },
+    "CH4_per_methyl": 0.6371030872436411
+   }
+  },
+  "manuscript_DMA_H2": {
+   "growth": 1.220433176875366,
+   "CH4": 145.89685529933737,
+   "acetate": 0.0,
+   "CO2": -2.440199379102939,
+   "H2": -92.99344813065403,
+   "formate": 0.0,
+   "uptake": {
+    "EX_cpd00425_e0": 100.0
+   },
+   "CH4_per_methyl": 0.7294842764966869
+  },
+  "H2_CO2_only": {
+   "growth": 0.0,
+   "CH4": 0.0,
+   "acetate": 0.0,
+   "CO2": 0.0,
+   "H2": 0.0,
+   "formate": 0.0,
+   "uptake": {},
+   "CH4_per_methyl": null
+  },
+  "k": {
+   "methanol": {
+    "status": "infeasible"
+   },
+   "MMA": {
+    "status": "optimal",
+    "objective": "minimise 1*uptake(EX_cpd00187_e0)",
+    "uptake_per_g_biomass": {
+     "EX_cpd00187_e0": 198.5112775863504
+    },
+    "methyl_uptake_per_g_biomass": 198.5112775863504,
+    "k_mmol_CH4_per_g": 126.47214780294321,
+    "FVA_per_g_biomass": {
+     "EX_cpd01024_e0": [
+      126.47214449442198,
+      126.47216269128903
+     ],
+     "EX_cpd00029_e0": [
+      0.0,
+      1.8196867031044454e-05
+     ],
+     "EX_cpd00047_e0": [
+      0.0,
+      9.49401759466062e-06
+     ],
+     "EX_cpd11640_e0": [
+      0.0,
+      4.367248070472063e-05
+     ],
+     "EX_cpd00011_e0": [
+      25.708563471003085,
+      25.708592585990395
+     ]
+    },
+    "yield_g_per_mol_CH4": 7.906879240780383
+   },
+   "DMA": {
+    "status": "optimal",
+    "objective": "minimise 2*uptake(EX_cpd00425_e0)",
+    "uptake_per_g_biomass": {
+     "EX_cpd00425_e0": 99.2556387931752
+    },
+    "methyl_uptake_per_g_biomass": 198.5112775863504,
+    "k_mmol_CH4_per_g": 126.47214780294318,
+    "FVA_per_g_biomass": {
+     "EX_cpd01024_e0": [
+      126.47214449442187,
+      126.47216269128903
+     ],
+     "EX_cpd00029_e0": [
+      0.0,
+      1.819686709978287e-05
+     ],
+     "EX_cpd00047_e0": [
+      0.0,
+      9.494017589022768e-06
+     ],
+     "EX_cpd11640_e0": [
+      0.0,
+      4.3672480777579015e-05
+     ],
+     "EX_cpd00011_e0": [
+      25.70856347100317,
+      25.70859258599037
+     ]
+    },
+    "yield_g_per_mol_CH4": 7.906879240780385
+   },
+   "TMA": {
+    "status": "optimal",
+    "objective": "minimise 3*uptake(EX_cpd00441_e0)",
+    "uptake_per_g_biomass": {
+     "EX_cpd00441_e0": 66.1704258621168
+    },
+    "methyl_uptake_per_g_biomass": 198.5112775863504,
+    "k_mmol_CH4_per_g": 126.47214780294318,
+    "FVA_per_g_biomass": {
+     "EX_cpd01024_e0": [
+      126.47214449442195,
+      126.472162691289
+     ],
+     "EX_cpd00029_e0": [
+      0.0,
+      1.8196867050560093e-05
+     ],
+     "EX_cpd00047_e0": [
+      0.0,
+      9.494017563660908e-06
+     ],
+     "EX_cpd11640_e0": [
+      0.0,
+      4.367248120085154e-05
+     ],
+     "EX_cpd00011_e0": [
+      25.708563471003128,
+      25.70859258599032
+     ]
+    },
+    "yield_g_per_mol_CH4": 7.906879240780385
+   },
+   "mixed_methyl_weighted": {
+    "status": "optimal",
+    "objective": "minimise 1*uptake(EX_cpd00116_e0) + 1*uptake(EX_cpd00187_e0) + 2*uptake(EX_cpd00425_e0) + 3*uptake(EX_cpd00441_e0)",
+    "uptake_per_g_biomass": {
+     "EX_cpd00116_e0": -0.0,
+     "EX_cpd00187_e0": -0.0,
+     "EX_cpd00425_e0": 99.2556387931752,
+     "EX_cpd00441_e0": -0.0
+    },
+    "methyl_uptake_per_g_biomass": 198.5112775863504,
+    "k_mmol_CH4_per_g": 126.47214780294321,
+    "FVA_per_g_biomass": {
+     "EX_cpd01024_e0": [
+      126.4721444944219,
+      126.472162691289
+     ],
+     "EX_cpd00029_e0": [
+      0.0,
+      1.8196867091326095e-05
+     ],
+     "EX_cpd00047_e0": [
+      0.0,
+      9.494017712188135e-06
+     ],
+     "EX_cpd11640_e0": [
+      0.0,
+      4.367248150269343e-05
+     ],
+     "EX_cpd00011_e0": [
+      25.70856347100294,
+      25.708592585990537
+     ]
+    },
+    "yield_g_per_mol_CH4": 7.906879240780383
+   },
+   "mixed_unweighted": {
+    "status": "optimal",
+    "objective": "minimise 1*uptake(EX_cpd00116_e0) + 1*uptake(EX_cpd00187_e0) + 1*uptake(EX_cpd00425_e0) + 1*uptake(EX_cpd00441_e0)",
+    "uptake_per_g_biomass": {
+     "EX_cpd00116_e0": -0.0,
+     "EX_cpd00187_e0": -0.0,
+     "EX_cpd00425_e0": -0.0,
+     "EX_cpd00441_e0": 66.1704258621168
+    },
+    "methyl_uptake_per_g_biomass": 198.5112775863504,
+    "k_mmol_CH4_per_g": 126.47214780294318,
+    "FVA_per_g_biomass": {
+     "EX_cpd01024_e0": [
+      126.47214449442201,
+      126.472162691289
+     ],
+     "EX_cpd00029_e0": [
+      0.0,
+      1.8196866967727047e-05
+     ],
+     "EX_cpd00047_e0": [
+      0.0,
+      9.494017705691393e-06
+     ],
+     "EX_cpd11640_e0": [
+      0.0,
+      4.367248118003486e-05
+     ],
+     "EX_cpd00011_e0": [
+      25.708563471003192,
+      25.7085925859905
+     ]
+    },
+    "yield_g_per_mol_CH4": 7.906879240780385
+   }
+  },
+  "catabolic_per_mol_substrate": {
+   "methanol": {
+    "methanogenic": {
+     "status": "infeasible"
+    },
+    "CH4_export_blocked": {
+     "status": "infeasible"
+    },
+    "textbook_CH4_CO2_NH3": [
+     0.75,
+     0.25,
+     0.0
+    ]
+   },
+   "MMA": {
+    "methanogenic": {
+     "ATP": 0.6875,
+     "CH4": 0.75,
+     "CO2": 0.25,
+     "NH3": 1.0,
+     "acetate": 0.0,
+     "H2": 0.0,
+     "formate": 0.0
+    },
+    "CH4_export_blocked": {
+     "ATP": 0.0,
+     "CH4": 0.0,
+     "CO2": 0.0,
+     "NH3": 1.0,
+     "acetate": 0.5,
+     "H2": 1.0,
+     "formate": 0.0
+    },
+    "textbook_CH4_CO2_NH3": [
+     0.75,
+     0.25,
+     1.0
+    ]
+   },
+   "DMA": {
+    "methanogenic": {
+     "ATP": 1.375,
+     "CH4": 1.5,
+     "CO2": 0.5,
+     "NH3": 1.0,
+     "acetate": 0.0,
+     "H2": 0.0,
+     "formate": 0.0
+    },
+    "CH4_export_blocked": {
+     "ATP": 0.0,
+     "CH4": 0.0,
+     "CO2": 0.0,
+     "NH3": 1.0,
+     "acetate": 1.0,
+     "H2": 2.0,
+     "formate": 0.0
+    },
+    "textbook_CH4_CO2_NH3": [
+     1.5,
+     0.5,
+     1.0
+    ]
+   },
+   "TMA": {
+    "methanogenic": {
+     "ATP": 2.0625,
+     "CH4": 2.25,
+     "CO2": 0.75,
+     "NH3": 1.0,
+     "acetate": 0.0,
+     "H2": 0.0,
+     "formate": 0.0
+    },
+    "CH4_export_blocked": {
+     "ATP": 0.0,
+     "CH4": 0.0,
+     "CO2": 0.0,
+     "NH3": 1.0,
+     "acetate": 1.5,
+     "H2": 3.0,
+     "formate": 0.0
+    },
+    "textbook_CH4_CO2_NH3": [
+     2.25,
+     0.75,
+     1.0
+    ]
+   }
+  },
+  "atp_tests": {
+   "empty": {
+    "ATP": 0.0,
+    "threshold": 1e-05,
+    "pass": true
+   },
+   "H2.CO2": {
+    "ATP": 0.0,
+    "threshold": 1.2,
+    "pass": true
+   },
+   "Methanamine.H2": {
+    "ATP": 1.0,
+    "threshold": 0.6,
+    "pass": false
+   },
+   "Dimethylamine.H2": {
+    "ATP": 2.0,
+    "threshold": 1.2,
+    "pass": false
+   },
+   "Trimethylamine.H2": {
+    "ATP": 3.0,
+    "threshold": 1.7999999999999998,
+    "pass": false
+   }
+  },
+  "alt_substrates_ATP_per_mmol": {
+   "acetate": "infeasible",
+   "pyruvate": {
+    "ATP": 1.5625000000000002,
+    "CH4": 0.25,
+    "acetate": 1.0
+   },
+   "succinate": "infeasible",
+   "L-lactate": "no exchange",
+   "formate": {
+    "ATP": 0.5625000000000002,
+    "CH4": 0.25,
+    "acetate": 0.0
+   },
+   "ethanol": "no exchange",
+   "glycine betaine": "infeasible",
+   "H2 (+CO2)": "infeasible",
+   "methanol": "infeasible"
+  },
+  "aerobic_community_media": {
+   "MEDIA + MMA": {
+    "growth": 0.0,
+    "CH4": 0.0,
+    "acetate": 0.0,
+    "CO2": 0.0,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00187_e0": -0.0
+    },
+    "CH4_per_methyl": null,
+    "O2_uptake": -0.0
+   },
+   "MEDIA + MMA + H2S": {
+    "growth": 0.5037497174763834,
+    "CH4": 63.71030872436408,
+    "acetate": 0.0,
+    "CO2": 12.950688251908167,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00187_e0": 100.0
+    },
+    "CH4_per_methyl": 0.6371030872436408,
+    "O2_uptake": -0.0
+   },
+   "MEDIA + H2S (no methylamine)": {
+    "growth": 0.0,
+    "CH4": 0.0,
+    "acetate": 0.0,
+    "CO2": 0.0,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {},
+    "CH4_per_methyl": null,
+    "O2_uptake": -0.0
+   }
+  }
+ },
+ "validation_arm_A": {
+  "free_atp": {
+   "water_H": 0.0,
+   "salts_O2": 0.0,
+   "salts_NO3": 0.0
+  },
+  "free_atp_pass": true,
+  "growth_max": {
+   "mixed": {
+    "growth": 0.4184497830210367,
+    "CH4": 0.0,
+    "acetate": 140.47908918644535,
+    "CO2": -100.0,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00116_e0": -0.0,
+     "EX_cpd00187_e0": -0.0,
+     "EX_cpd00425_e0": -0.0,
+     "EX_cpd00441_e0": 66.35314911267524
+    },
+    "CH4_per_methyl": 0.0
+   },
+   "methanol": {
+    "growth": 0.0,
+    "CH4": 0.0,
+    "acetate": 0.0,
+    "CO2": 0.0,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00116_e0": -0.0
+    },
+    "CH4_per_methyl": null
+   },
+   "MMA": {
+    "growth": 0.2102134757314287,
+    "CH4": 0.0,
+    "acetate": 70.57142530286232,
+    "CO2": -50.236249189514,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00187_e0": 100.0
+    },
+    "CH4_per_methyl": 0.0
+   },
+   "DMA": {
+    "growth": 0.4184497830210365,
+    "CH4": 0.0,
+    "acetate": 140.47908918644535,
+    "CO2": -100.0,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00425_e0": 99.52972366901287
+    },
+    "CH4_per_methyl": 0.0
+   },
+   "TMA": {
+    "growth": 0.4184497830210366,
+    "CH4": 0.0,
+    "acetate": 140.47908918644532,
+    "CO2": -100.0,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00441_e0": 66.35314911267524
+    },
+    "CH4_per_methyl": 0.0
+   }
+  },
+  "growth_acetate_export_blocked": {
+   "mixed": {
+    "growth": 0.0,
+    "CH4": 0.0,
+    "acetate": 0.0,
+    "CO2": 0.0,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00116_e0": -0.0,
+     "EX_cpd00187_e0": -0.0,
+     "EX_cpd00425_e0": -0.0,
+     "EX_cpd00441_e0": -0.0
+    },
+    "CH4_per_methyl": null
+   },
+   "methanol": {
+    "growth": 0.0,
+    "CH4": 0.0,
+    "acetate": 0.0,
+    "CO2": 0.0,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00116_e0": -0.0
+    },
+    "CH4_per_methyl": null
+   },
+   "MMA": {
+    "growth": 0.0,
+    "CH4": 0.0,
+    "acetate": 0.0,
+    "CO2": 0.0,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00187_e0": -0.0
+    },
+    "CH4_per_methyl": null
+   },
+   "DMA": {
+    "growth": 0.0,
+    "CH4": 0.0,
+    "acetate": 0.0,
+    "CO2": 0.0,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00425_e0": -0.0
+    },
+    "CH4_per_methyl": null
+   },
+   "TMA": {
+    "growth": 0.0,
+    "CH4": 0.0,
+    "acetate": 0.0,
+    "CO2": 0.0,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00441_e0": -0.0
+    },
+    "CH4_per_methyl": null
+   }
+  },
+  "manuscript_DMA_H2": {
+   "growth": 1.3232862136389554,
+   "CH4": 229.49637697328347,
+   "acetate": 0.0,
+   "CO2": -86.73899160197762,
+   "H2": -429.4963769732835,
+   "formate": 0.0,
+   "uptake": {
+    "EX_cpd00425_e0": 100.0
+   },
+   "CH4_per_methyl": 1.1474818848664174
+  },
+  "H2_CO2_only": {
+   "growth": 0.5293144854555824,
+   "CH4": 51.798550789313374,
+   "acetate": 0.0,
+   "CO2": -74.69559664079108,
+   "H2": -251.79855078931337,
+   "formate": 0.0,
+   "uptake": {},
+   "CH4_per_methyl": null
+  },
+  "k": {
+   "methanol": {
+    "status": "infeasible"
+   },
+   "MMA": {
+    "status": "optimal",
+    "objective": "minimise 1*uptake(EX_cpd00187_e0)",
+    "uptake_per_g_biomass": {
+     "EX_cpd00187_e0": 475.70689582128114
+    },
+    "methyl_uptake_per_g_biomass": 475.70689582128114,
+    "k_mmol_CH4_per_g": 0.0,
+    "FVA_per_g_biomass": {
+     "EX_cpd01024_e0": [
+      0.0,
+      1.1892672568958318e-05
+     ],
+     "EX_cpd00029_e0": [
+      335.7131128597247,
+      335.71317415274024
+     ],
+     "EX_cpd00047_e0": [
+      0.0,
+      9.514138970580233e-06
+     ],
+     "EX_cpd11640_e0": [
+      0.0,
+      9.514138977519127e-06
+     ],
+     "EX_cpd00011_e0": [
+      -238.97733066745806,
+      -238.97730159648074
+     ]
+    },
+    "yield_g_per_mol_CH4": null
+   },
+   "DMA": {
+    "status": "optimal",
+    "objective": "minimise 2*uptake(EX_cpd00425_e0)",
+    "uptake_per_g_biomass": {
+     "EX_cpd00425_e0": 237.85344791064054
+    },
+    "methyl_uptake_per_g_biomass": 475.7068958212811,
+    "k_mmol_CH4_per_g": 0.0,
+    "FVA_per_g_biomass": {
+     "EX_cpd01024_e0": [
+      0.0,
+      1.1892672513447167e-05
+     ],
+     "EX_cpd00029_e0": [
+      335.7131128597281,
+      335.71317415274024
+     ],
+     "EX_cpd00047_e0": [
+      0.0,
+      9.514138897288166e-06
+     ],
+     "EX_cpd11640_e0": [
+      0.0,
+      9.514138904254165e-06
+     ],
+     "EX_cpd00011_e0": [
+      -238.9773306674581,
+      -238.97730159647986
+     ]
+    },
+    "yield_g_per_mol_CH4": null
+   },
+   "TMA": {
+    "status": "optimal",
+    "objective": "minimise 3*uptake(EX_cpd00441_e0)",
+    "uptake_per_g_biomass": {
+     "EX_cpd00441_e0": 158.56896527376017
+    },
+    "methyl_uptake_per_g_biomass": 475.70689582128057,
+    "k_mmol_CH4_per_g": 0.0,
+    "FVA_per_g_biomass": {
+     "EX_cpd01024_e0": [
+      0.0,
+      1.1892672457936015e-05
+     ],
+     "EX_cpd00029_e0": [
+      335.71311285972774,
+      335.71317415273984
+     ],
+     "EX_cpd00047_e0": [
+      0.0,
+      9.514138853486398e-06
+     ],
+     "EX_cpd11640_e0": [
+      0.0,
+      9.514138851751675e-06
+     ],
+     "EX_cpd00011_e0": [
+      -238.9773306674575,
+      -238.97730159648026
+     ]
+    },
+    "yield_g_per_mol_CH4": null
+   },
+   "mixed_methyl_weighted": {
+    "status": "optimal",
+    "objective": "minimise 1*uptake(EX_cpd00116_e0) + 1*uptake(EX_cpd00187_e0) + 2*uptake(EX_cpd00425_e0) + 3*uptake(EX_cpd00441_e0)",
+    "uptake_per_g_biomass": {
+     "EX_cpd00116_e0": -0.0,
+     "EX_cpd00187_e0": 475.7068958212815,
+     "EX_cpd00425_e0": -0.0,
+     "EX_cpd00441_e0": -0.0
+    },
+    "methyl_uptake_per_g_biomass": 475.7068958212815,
+    "k_mmol_CH4_per_g": 0.0,
+    "FVA_per_g_biomass": {
+     "EX_cpd01024_e0": [
+      0.0,
+      1.1892672457936015e-05
+     ],
+     "EX_cpd00029_e0": [
+      335.71311285972706,
+      335.7131741527403
+     ],
+     "EX_cpd00047_e0": [
+      0.0,
+      9.514139137113686e-06
+     ],
+     "EX_cpd11640_e0": [
+      0.0,
+      9.514139137981048e-06
+     ],
+     "EX_cpd00011_e0": [
+      -238.97733066745826,
+      -238.9773015964807
+     ]
+    },
+    "yield_g_per_mol_CH4": null
+   },
+   "mixed_unweighted": {
+    "status": "optimal",
+    "objective": "minimise 1*uptake(EX_cpd00116_e0) + 1*uptake(EX_cpd00187_e0) + 1*uptake(EX_cpd00425_e0) + 1*uptake(EX_cpd00441_e0)",
+    "uptake_per_g_biomass": {
+     "EX_cpd00116_e0": -0.0,
+     "EX_cpd00187_e0": -0.0,
+     "EX_cpd00425_e0": -0.0,
+     "EX_cpd00441_e0": 158.56896527376045
+    },
+    "methyl_uptake_per_g_biomass": 475.70689582128136,
+    "k_mmol_CH4_per_g": 0.0,
+    "FVA_per_g_biomass": {
+     "EX_cpd01024_e0": [
+      0.0,
+      1.1892672402424864e-05
+     ],
+     "EX_cpd00029_e0": [
+      335.71311285973076,
+      335.71317415274024
+     ],
+     "EX_cpd00047_e0": [
+      0.0,
+      9.514138751137713e-06
+     ],
+     "EX_cpd11640_e0": [
+      0.0,
+      9.514138679146689e-06
+     ],
+     "EX_cpd00011_e0": [
+      -238.97733066745812,
+      -238.97730159648088
+     ]
+    },
+    "yield_g_per_mol_CH4": null
+   }
+  },
+  "catabolic_per_mol_substrate": {
+   "methanol": {
+    "methanogenic": {
+     "status": "infeasible"
+    },
+    "CH4_export_blocked": {
+     "status": "infeasible"
+    },
+    "textbook_CH4_CO2_NH3": [
+     0.75,
+     0.25,
+     0.0
+    ]
+   },
+   "MMA": {
+    "methanogenic": {
+     "ATP": 0.25,
+     "CH4": 0.0,
+     "CO2": -0.5,
+     "NH3": 1.0,
+     "acetate": 0.75,
+     "H2": 0.0,
+     "formate": 0.0
+    },
+    "CH4_export_blocked": {
+     "ATP": 0.25,
+     "CH4": 0.0,
+     "CO2": -0.5,
+     "NH3": 1.0,
+     "acetate": 0.75,
+     "H2": 0.0,
+     "formate": 0.0
+    },
+    "textbook_CH4_CO2_NH3": [
+     0.75,
+     0.25,
+     1.0
+    ]
+   },
+   "DMA": {
+    "methanogenic": {
+     "ATP": 0.5,
+     "CH4": 0.0,
+     "CO2": -1.0,
+     "NH3": 1.0,
+     "acetate": 1.5,
+     "H2": 0.0,
+     "formate": 0.0
+    },
+    "CH4_export_blocked": {
+     "ATP": 0.5,
+     "CH4": 0.0,
+     "CO2": -1.0,
+     "NH3": 1.0,
+     "acetate": 1.5,
+     "H2": 0.0,
+     "formate": 0.0
+    },
+    "textbook_CH4_CO2_NH3": [
+     1.5,
+     0.5,
+     1.0
+    ]
+   },
+   "TMA": {
+    "methanogenic": {
+     "ATP": 0.75,
+     "CH4": 0.0,
+     "CO2": -1.5,
+     "NH3": 1.0,
+     "acetate": 2.25,
+     "H2": 0.0,
+     "formate": 0.0
+    },
+    "CH4_export_blocked": {
+     "ATP": 0.75,
+     "CH4": 0.0,
+     "CO2": -1.5,
+     "NH3": 1.0,
+     "acetate": 2.25,
+     "H2": 0.0,
+     "formate": 0.0
+    },
+    "textbook_CH4_CO2_NH3": [
+     2.25,
+     0.75,
+     1.0
+    ]
+   }
+  },
+  "atp_tests": {
+   "empty": {
+    "ATP": 0.0,
+    "threshold": 1e-05,
+    "pass": true
+   },
+   "H2.CO2": {
+    "ATP": 1.0,
+    "threshold": 1.2,
+    "pass": true
+   },
+   "Methanamine.H2": {
+    "ATP": 0.5,
+    "threshold": 0.6,
+    "pass": true
+   },
+   "Dimethylamine.H2": {
+    "ATP": 1.0,
+    "threshold": 1.2,
+    "pass": true
+   },
+   "Trimethylamine.H2": {
+    "ATP": 1.5,
+    "threshold": 1.7999999999999998,
+    "pass": true
+   }
+  },
+  "alt_substrates_ATP_per_mmol": {
+   "acetate": "infeasible",
+   "pyruvate": {
+    "ATP": 1.25,
+    "CH4": 0.0,
+    "acetate": 1.25
+   },
+   "succinate": {
+    "ATP": 0.125,
+    "CH4": 0.0,
+    "acetate": 1.75
+   },
+   "L-lactate": "no exchange",
+   "formate": {
+    "ATP": 0.25,
+    "CH4": 0.0,
+    "acetate": 0.25
+   },
+   "ethanol": "no exchange",
+   "glycine betaine": "infeasible",
+   "H2 (+CO2)": {
+    "ATP": 0.25,
+    "CH4": 0.0,
+    "acetate": 0.25
+   },
+   "methanol": "infeasible"
+  },
+  "aerobic_community_media": {
+   "MEDIA + MMA": {
+    "growth": 0.0,
+    "CH4": 0.0,
+    "acetate": 0.0,
+    "CO2": 0.0,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00187_e0": -0.0
+    },
+    "CH4_per_methyl": null,
+    "O2_uptake": -0.0
+   },
+   "MEDIA + MMA + H2S": {
+    "growth": 0.0,
+    "CH4": 0.0,
+    "acetate": 0.0,
+    "CO2": 0.0,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00187_e0": -0.0
+    },
+    "CH4_per_methyl": null,
+    "O2_uptake": -0.0
+   },
+   "MEDIA + H2S (no methylamine)": {
+    "growth": 0.0,
+    "CH4": 0.0,
+    "acetate": 0.0,
+    "CO2": 0.0,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {},
+    "CH4_per_methyl": null,
+    "O2_uptake": -0.0
+   }
+  }
+ },
+ "rnf_sensitivity": {
+  "Rnf_3Na_2H": {
+   "free_atp": {
+    "water_H": 0.0,
+    "salts_O2": 0.0,
+    "salts_NO3": 0.0
+   },
+   "k_MMA": {
+    "status": "optimal",
+    "objective": "minimise 1*uptake(EX_cpd00187_e0)",
+    "uptake_per_g_biomass": {
+     "EX_cpd00187_e0": 181.46018207951857
+    },
+    "methyl_uptake_per_g_biomass": 181.46018207951857,
+    "k_mmol_CH4_per_g": 113.68382617281931,
+    "FVA_per_g_biomass": {
+     "EX_cpd01024_e0": [
+      113.68382012414675,
+      113.68383978233298
+     ],
+     "EX_cpd00029_e0": [
+      0.0,
+      1.179491176543689e-05
+     ],
+     "EX_cpd00047_e0": [
+      0.0,
+      9.435929276000246e-06
+     ],
+     "EX_cpd11640_e0": [
+      0.0,
+      7.863274494035455e-05
+     ],
+     "EX_cpd00011_e0": [
+      21.44579556997312,
+      21.445827023071086
+     ]
+    },
+    "yield_g_per_mol_CH4": 8.796326035682728
+   },
+   "growth_MMA": {
+    "growth": 0.5510850857417217,
+    "CH4": 62.649461093895184,
+    "acetate": 0.0,
+    "CO2": 11.818462090478038,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00187_e0": 100.0
+    },
+    "CH4_per_methyl": 0.6264946109389519
+   },
+   "catabolic_MMA": {
+    "ATP": 0.8125,
+    "CH4": 0.75,
+    "CO2": 0.25,
+    "NH3": 1.0,
+    "acetate": 0.0,
+    "H2": 0.0,
+    "formate": 0.0
+   },
+   "catabolic_MMA_CH4_blocked": {
+    "ATP": 0.25,
+    "CH4": 0.0,
+    "CO2": 1.0,
+    "NH3": 1.0,
+    "acetate": 0.0,
+    "H2": 3.0,
+    "formate": 0.0
+   },
+   "reversible_H2_CO2": {
+    "growth": 0.45351246321147215,
+    "CH4": 78.98851675150173,
+    "acetate": 0.0,
+    "CO2": -100.0,
+    "H2": -356.6093013153005,
+    "formate": 0.0,
+    "uptake": {},
+    "CH4_per_methyl": null
+   },
+   "reversible_DMA_H2": {
+    "growth": 1.6628790317753979,
+    "CH4": 222.95789475550635,
+    "acetate": 0.0,
+    "CO2": -100.0,
+    "H2": -440.9007714894353,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00425_e0": 100.0
+    },
+    "CH4_per_methyl": 1.1147894737775317
+   }
+  },
+  "Rnf_3Na_0H": {
+   "free_atp": {
+    "water_H": 0.0,
+    "salts_O2": 0.0,
+    "salts_NO3": 0.0
+   },
+   "k_MMA": {
+    "status": "optimal",
+    "objective": "minimise 1*uptake(EX_cpd00187_e0)",
+    "uptake_per_g_biomass": {
+     "EX_cpd00187_e0": 198.51127758635045
+    },
+    "methyl_uptake_per_g_biomass": 198.51127758635045,
+    "k_mmol_CH4_per_g": 126.47214780294324,
+    "FVA_per_g_biomass": {
+     "EX_cpd01024_e0": [
+      126.4721444944219,
+      126.47216269128903
+     ],
+     "EX_cpd00029_e0": [
+      0.0,
+      1.8196866957318706e-05
+     ],
+     "EX_cpd00047_e0": [
+      0.0,
+      9.494017518115946e-06
+     ],
+     "EX_cpd11640_e0": [
+      0.0,
+      4.3672481197382096e-05
+     ],
+     "EX_cpd00011_e0": [
+      25.70856347100308,
+      25.708592585990623
+     ]
+    },
+    "yield_g_per_mol_CH4": 7.906879240780381
+   },
+   "growth_MMA": {
+    "growth": 0.5037497174763834,
+    "CH4": 63.71030872436409,
+    "acetate": 0.0,
+    "CO2": 12.950688251908161,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00187_e0": 100.0
+    },
+    "CH4_per_methyl": 0.637103087243641
+   },
+   "catabolic_MMA": {
+    "ATP": 0.6875,
+    "CH4": 0.75,
+    "CO2": 0.25,
+    "NH3": 1.0,
+    "acetate": 0.0,
+    "H2": 0.0,
+    "formate": 0.0
+   },
+   "catabolic_MMA_CH4_blocked": {
+    "ATP": 0.0,
+    "CH4": 0.0,
+    "CO2": 0.0,
+    "NH3": 1.0,
+    "acetate": 0.5,
+    "H2": 1.0,
+    "formate": 0.0
+   },
+   "reversible_H2_CO2": {
+    "growth": 0.7513122869463611,
+    "CH4": 65.19128621123846,
+    "acetate": 0.0,
+    "CO2": -100.0,
+    "H2": -328.11671628569843,
+    "formate": 0.0,
+    "uptake": {},
+    "CH4_per_methyl": null
+   },
+   "reversible_DMA_H2": {
+    "growth": 1.953411946060538,
+    "CH4": 209.49734414921997,
+    "acetate": 0.0,
+    "CO2": -100.0,
+    "H2": -413.1034623428159,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00425_e0": 100.0
+    },
+    "CH4_per_methyl": 1.0474867207460998
+   }
+  },
+  "Rnf_2Na_0H": {
+   "free_atp": {
+    "water_H": 0.0,
+    "salts_O2": 0.0,
+    "salts_NO3": 0.0
+   },
+   "k_MMA": {
+    "status": "optimal",
+    "objective": "minimise 1*uptake(EX_cpd00187_e0)",
+    "uptake_per_g_biomass": {
+     "EX_cpd00187_e0": 209.5944896657911
+    },
+    "methyl_uptake_per_g_biomass": 209.5944896657911,
+    "k_mmol_CH4_per_g": 134.78455686252371,
+    "FVA_per_g_biomass": {
+     "EX_cpd01024_e0": [
+      134.78454638279968,
+      134.78457258211037
+     ],
+     "EX_cpd00029_e0": [
+      0.0,
+      2.619931074415412e-05
+     ],
+     "EX_cpd00047_e0": [
+      0.0,
+      9.52702221669946e-06
+     ],
+     "EX_cpd11640_e0": [
+      0.0,
+      3.493241515495349e-05
+     ],
+     "EX_cpd00011_e0": [
+      28.47935876549984,
+      28.479393697914418
+     ]
+    },
+    "yield_g_per_mol_CH4": 7.419247599856493
+   },
+   "growth_MMA": {
+    "growth": 0.4771117797965736,
+    "CH4": 64.30729981377107,
+    "acetate": 0.0,
+    "CO2": 13.58784754807258,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00187_e0": 100.0
+    },
+    "CH4_per_methyl": 0.6430729981377107
+   },
+   "catabolic_MMA": {
+    "ATP": 0.625,
+    "CH4": 0.75,
+    "CO2": 0.25,
+    "NH3": 1.0,
+    "acetate": 0.0,
+    "H2": 0.0,
+    "formate": 0.0
+   },
+   "catabolic_MMA_CH4_blocked": {
+    "ATP": 0.0,
+    "CH4": 0.0,
+    "CO2": 0.0,
+    "NH3": 1.0,
+    "acetate": 0.5,
+    "H2": 1.0,
+    "formate": 0.0
+   },
+   "reversible_H2_CO2": {
+    "growth": 0.8988741417373313,
+    "CH4": 58.354663865510226,
+    "acetate": 0.0,
+    "CO2": -100.0,
+    "H2": -313.9984450186865,
+    "formate": 0.0,
+    "uptake": {},
+    "CH4_per_methyl": null
+   },
+   "reversible_DMA_H2": {
+    "growth": 2.0973729973871076,
+    "CH4": 202.82754901952376,
+    "acetate": 0.0,
+    "CO2": -100.0,
+    "H2": -399.3297050436015,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00425_e0": 100.0
+    },
+    "CH4_per_methyl": 1.0141377450976188
+   }
+  },
+  "Rnf_1Na_0H": {
+   "free_atp": {
+    "water_H": 0.0,
+    "salts_O2": 0.0,
+    "salts_NO3": 0.0
+   },
+   "k_MMA": {
+    "status": "optimal",
+    "objective": "minimise 1*uptake(EX_cpd00187_e0)",
+    "uptake_per_g_biomass": {
+     "EX_cpd00187_e0": 209.59448966579114
+    },
+    "methyl_uptake_per_g_biomass": 209.59448966579114,
+    "k_mmol_CH4_per_g": 134.78455686252377,
+    "FVA_per_g_biomass": {
+     "EX_cpd01024_e0": [
+      134.78454638279823,
+      134.78457258211066
+     ],
+     "EX_cpd00029_e0": [
+      0.0,
+      2.6199312294563227e-05
+     ],
+     "EX_cpd00047_e0": [
+      0.0,
+      9.527022199352225e-06
+     ],
+     "EX_cpd11640_e0": [
+      0.0,
+      3.4932415432509245e-05
+     ],
+     "EX_cpd00011_e0": [
+      28.479358765498564,
+      28.479393697914336
+     ]
+    },
+    "yield_g_per_mol_CH4": 7.419247599856489
+   },
+   "growth_MMA": {
+    "growth": 0.47711177979657315,
+    "CH4": 64.30729981377107,
+    "acetate": 0.0,
+    "CO2": 13.58784754807258,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00187_e0": 100.0
+    },
+    "CH4_per_methyl": 0.6430729981377107
+   },
+   "catabolic_MMA": {
+    "ATP": 0.6249999999999996,
+    "CH4": 0.75,
+    "CO2": 0.25,
+    "NH3": 1.0,
+    "acetate": 0.0,
+    "H2": 0.0,
+    "formate": 0.0
+   },
+   "catabolic_MMA_CH4_blocked": {
+    "ATP": 0.0,
+    "CH4": 0.0,
+    "CO2": 0.0,
+    "NH3": 1.0,
+    "acetate": 0.5,
+    "H2": 1.0,
+    "formate": 0.0
+   },
+   "reversible_H2_CO2": {
+    "growth": 2.1584028973484566,
+    "CH4": 0.0,
+    "acetate": 0.0,
+    "CO2": -100.0,
+    "H2": -193.49054908914786,
+    "formate": 0.0,
+    "uptake": {},
+    "CH4_per_methyl": null
+   },
+   "reversible_DMA_H2": {
+    "growth": 3.42032002391665,
+    "CH4": 141.5346815870926,
+    "acetate": 0.0,
+    "CO2": -100.0,
+    "H2": -272.7541410613711,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00425_e0": 100.0
+    },
+    "CH4_per_methyl": 0.707673407935463
+   }
+  }
+ },
+ "coupling_sensitivity": {
+  "used (2, 2, 2, 2, 3)": {
+   "couplings": [
+    2,
+    2,
+    2,
+    2,
+    3
+   ],
+   "free_atp": {
+    "water_H": 0.0,
+    "salts_O2": 0.0,
+    "salts_NO3": 0.0
+   },
+   "k_MMA": {
+    "status": "optimal",
+    "objective": "minimise 1*uptake(EX_cpd00187_e0)",
+    "uptake_per_g_biomass": {
+     "EX_cpd00187_e0": 198.5112775863505
+    },
+    "methyl_uptake_per_g_biomass": 198.5112775863505,
+    "k_mmol_CH4_per_g": 126.47214780294327,
+    "FVA_per_g_biomass": {
+     "EX_cpd01024_e0": [
+      126.47214449442201,
+      126.47216269128907
+     ],
+     "EX_cpd00029_e0": [
+      0.0,
+      1.819686706899153e-05
+     ],
+     "EX_cpd00047_e0": [
+      0.0,
+      9.494017624191576e-06
+     ],
+     "EX_cpd11640_e0": [
+      0.0,
+      4.3672481721268586e-05
+     ],
+     "EX_cpd00011_e0": [
+      25.708563471003135,
+      25.70859258599055
+     ]
+    },
+    "yield_g_per_mol_CH4": 7.90687924078038
+   },
+   "catabolic_MMA": {
+    "ATP": 0.6875,
+    "CH4": 0.75,
+    "CO2": 0.25,
+    "NH3": 1.0,
+    "acetate": 0.0,
+    "H2": 0.0,
+    "formate": 0.0
+   },
+   "catabolic_MMA_CH4_blocked": {
+    "ATP": 0.0,
+    "CH4": 0.0,
+    "CO2": 0.0,
+    "NH3": 1.0,
+    "acetate": 0.5,
+    "H2": 1.0,
+    "formate": 0.0
+   },
+   "growth_MMA": {
+    "growth": 0.5037497174763835,
+    "CH4": 63.710308724364104,
+    "acetate": 0.0,
+    "CO2": 12.950688251908172,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00187_e0": 100.0
+    },
+    "CH4_per_methyl": 0.6371030872436411
+   }
+  },
+  "iAF692 (1.8, 1.8, 1.8, 1.7) + iMB745 Rnf 3": {
+   "couplings": [
+    1.8,
+    1.8,
+    1.8,
+    1.7,
+    3
+   ],
+   "free_atp": {
+    "water_H": 0.0,
+    "salts_O2": 0.0,
+    "salts_NO3": 0.0
+   },
+   "k_MMA": {
+    "status": "optimal",
+    "objective": "minimise 1*uptake(EX_cpd00187_e0)",
+    "uptake_per_g_biomass": {
+     "EX_cpd00187_e0": 207.6124481286552
+    },
+    "methyl_uptake_per_g_biomass": 207.6124481286552,
+    "k_mmol_CH4_per_g": 133.2980257096718,
+    "FVA_per_g_biomass": {
+     "EX_cpd01024_e0": [
+      133.29801989652333,
+      133.2980412806054
+     ],
+     "EX_cpd00029_e0": [
+      0.0,
+      2.1384082112311468e-05
+     ],
+     "EX_cpd00047_e0": [
+      0.0,
+      9.504036516125446e-06
+     ],
+     "EX_cpd11640_e0": [
+      0.0,
+      5.215629753085871e-05
+     ],
+     "EX_cpd00011_e0": [
+      27.983853146893527,
+      27.983887570050147
+     ]
+    },
+    "yield_g_per_mol_CH4": 7.501986579891575
+   },
+   "catabolic_MMA": {
+    "ATP": 0.64375,
+    "CH4": 0.75,
+    "CO2": 0.25,
+    "NH3": 1.0,
+    "acetate": 0.0,
+    "H2": 0.0,
+    "formate": 0.0
+   },
+   "catabolic_MMA_CH4_blocked": {
+    "ATP": 0.07499999999999996,
+    "CH4": 0.0,
+    "CO2": 0.0,
+    "NH3": 1.0,
+    "acetate": 0.5,
+    "H2": 1.0,
+    "formate": 0.0
+   },
+   "growth_MMA": {
+    "growth": 0.4816666866624058,
+    "CH4": 64.20521838221785,
+    "acetate": 0.0,
+    "CO2": 13.47889762531154,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00187_e0": 100.0
+    },
+    "CH4_per_methyl": 0.6420521838221785
+   }
+  },
+  "iMAC868-like Mtr 2, Rnf 4": {
+   "couplings": [
+    2,
+    2,
+    2,
+    2,
+    4
+   ],
+   "free_atp": {
+    "water_H": 0.0,
+    "salts_O2": 0.0,
+    "salts_NO3": 0.0
+   },
+   "k_MMA": {
+    "status": "optimal",
+    "objective": "minimise 1*uptake(EX_cpd00187_e0)",
+    "uptake_per_g_biomass": {
+     "EX_cpd00187_e0": 189.27526752014995
+    },
+    "methyl_uptake_per_g_biomass": 189.27526752014995,
+    "k_mmol_CH4_per_g": 119.54514025329289,
+    "FVA_per_g_biomass": {
+     "EX_cpd01024_e0": [
+      119.5451402532929,
+      119.5451544489379
+     ],
+     "EX_cpd00029_e0": [
+      0.0,
+      1.4195644943879818e-05
+     ],
+     "EX_cpd00047_e0": [
+      0.0,
+      9.463763378861345e-06
+     ],
+     "EX_cpd11640_e0": [
+      0.0,
+      5.6782579950509504e-05
+     ],
+     "EX_cpd00011_e0": [
+      23.39956472477486,
+      23.39959311606492
+     ]
+    },
+    "yield_g_per_mol_CH4": 8.365041003600771
+   },
+   "catabolic_MMA": {
+    "ATP": 0.75,
+    "CH4": 0.75,
+    "CO2": 0.25,
+    "NH3": 1.0,
+    "acetate": 0.0,
+    "H2": 0.0,
+    "formate": 0.0
+   },
+   "catabolic_MMA_CH4_blocked": {
+    "ATP": 0.0,
+    "CH4": 0.0,
+    "CO2": 1.0,
+    "NH3": 1.0,
+    "acetate": 0.0,
+    "H2": 3.0,
+    "formate": 0.0
+   },
+   "growth_MMA": {
+    "growth": 0.5283310456256739,
+    "CH4": 63.159408949490086,
+    "acetate": 0.0,
+    "CO2": 12.362721498225886,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00187_e0": 100.0
+    },
+    "CH4_per_methyl": 0.6315940894949008
+   }
+  },
+  "half coupling (vesicle H+/2e- 0.9; all x0.5)": {
+   "couplings": [
+    1,
+    1,
+    1,
+    1,
+    1.5
+   ],
+   "free_atp": {
+    "water_H": 0.0,
+    "salts_O2": 0.0,
+    "salts_NO3": 0.0
+   },
+   "k_MMA": {
+    "status": "optimal",
+    "objective": "minimise 1*uptake(EX_cpd00187_e0)",
+    "uptake_per_g_biomass": {
+     "EX_cpd00187_e0": 319.1147214680032
+    },
+    "methyl_uptake_per_g_biomass": 319.1147214680032,
+    "k_mmol_CH4_per_g": 159.06583954516807,
+    "FVA_per_g_biomass": {
+     "EX_cpd01024_e0": [
+      159.0658076336936,
+      159.06595123532637
+     ],
+     "EX_cpd00029_e0": [
+      57.85880341246092,
+      57.858923080488374
+     ],
+     "EX_cpd00047_e0": [
+      0.0,
+      9.573441868269321e-06
+     ],
+     "EX_cpd11640_e0": [
+      0.0,
+      9.573442122379205e-05
+     ],
+     "EX_cpd00011_e0": [
+      -1.999460331686651,
+      -1.9993577590936293
+     ]
+    },
+    "yield_g_per_mol_CH4": 6.286704944690791
+   },
+   "catabolic_MMA": {
+    "ATP": 0.375,
+    "CH4": 0.5,
+    "CO2": 0.0,
+    "NH3": 1.0,
+    "acetate": 0.25,
+    "H2": 0.0,
+    "formate": 0.0
+   },
+   "catabolic_MMA_CH4_blocked": {
+    "ATP": 0.25,
+    "CH4": 0.0,
+    "CO2": 0.0,
+    "NH3": 1.0,
+    "acetate": 0.5,
+    "H2": 1.0,
+    "formate": 0.0
+   },
+   "growth_MMA": {
+    "growth": 0.31336692816920625,
+    "CH4": 49.84597351492516,
+    "acetate": 18.131062992910554,
+    "CO2": -0.6265625992794386,
+    "H2": 0.0,
+    "formate": 0.0,
+    "uptake": {
+     "EX_cpd00187_e0": 100.0
+    },
+    "CH4_per_methyl": 0.4984597351492516
+   }
+  }
+ },
+ "methanol_what_if": {
+  "growth": {
+   "growth": 0.5037497174763836,
+   "CH4": 63.71030872436408,
+   "acetate": 0.0,
+   "CO2": 12.950688251908161,
+   "H2": 0.0,
+   "formate": 0.0,
+   "uptake": {
+    "EX_cpd00116_e0": 100.0
+   },
+   "CH4_per_methyl": 0.6371030872436408
+  },
+  "k": {
+   "status": "optimal",
+   "objective": "minimise 1*uptake(EX_cpd00116_e0)",
+   "uptake_per_g_biomass": {
+    "EX_cpd00116_e0": 198.51127758635036
+   },
+   "methyl_uptake_per_g_biomass": 198.51127758635036,
+   "k_mmol_CH4_per_g": 126.47214780294318,
+   "FVA_per_g_biomass": {
+    "EX_cpd01024_e0": [
+     126.47214449442176,
+     126.472162691289
+    ],
+    "EX_cpd00029_e0": [
+     0.0,
+     1.8196867062919998e-05
+    ],
+    "EX_cpd00047_e0": [
+     0.0,
+     9.494017635426621e-06
+    ],
+    "EX_cpd11640_e0": [
+     0.0,
+     4.367248155473513e-05
+    ],
+    "EX_cpd00011_e0": [
+     25.708563471003103,
+     25.708592585990395
+    ]
+   },
+   "yield_g_per_mol_CH4": 7.906879240780385
+  },
+  "catabolic": {
+   "ATP": 0.6875,
+   "CH4": 0.75,
+   "CO2": 0.25,
+   "NH3": 0.0,
+   "acetate": 0.0,
+   "H2": 0.0,
+   "formate": 0.0
+  }
+ }
+}

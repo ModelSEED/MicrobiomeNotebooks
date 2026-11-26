@@ -1,0 +1,21 @@
+{
+  "_comment": "GET /jobs/{job_id}/result for a completed KBDLBuildGenome. Keys of 'genomes' and 'errors' are the archive member stem (<MAG name>), never the registry genome_id.",
+  "genomes": {
+    "bin.013.fasta__SRR23247753": {
+      "genome_id": "<registry id = prefix + integer; permanent>",
+      "prefix": "<'unk' whenever taxonomy.reason is not null; else derived from companion genus/species>",
+      "fasta_object_id": "1b5f1d8ff8b1ebfa1fec445905edb24338473f6b73276d00df7b20c4600f57e1",
+      "genome_object_id": "<sha256 of the stored Genome JSON>",
+      "taxonomy": {"genus": "<companion genus>", "species": "<companion s__ species>", "lineage": "d__Archaea;p__...;s__...", "ncbi_taxid": null, "ani": 0.9956, "reference": "<GCA_xxxxxxxxx.x_genomic.fna>", "reason": null, "source_database": "ref:cee67d7f33f57c07d569f9fb0a0537a0263094f380fa0b10faa56aafdfcc56ae"},
+      "skani_hits": [],
+      "non_coding_counts": {"tRNA": "<int>", "rRNA": "<int>", "tmRNA": "<int>", "ncRNA": "<int>", "misc_RNA": "<int>", "repeat_region": "<int, CRISPR arrays>"},
+      "non_coding_source": "called",
+      "cds_dropped_overlapping_rna": "<int>",
+      "gene_caller": "bakta"
+    }
+  },
+  "errors": {
+    "<MAG name>": {"code": "tool_failure", "message": "Bakta: <ToolUnavailableError | BaktaCallError | normalize rejection>  OR  skani failed for member '<MAG>' against 1 of 1 requested database(s): ..."}
+  },
+  "coordinate_convention": null
+}

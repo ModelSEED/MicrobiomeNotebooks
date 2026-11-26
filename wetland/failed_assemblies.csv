@@ -1,0 +1,42 @@
+read_library_ref,output_contigset_name,job_id,job_status,elapsed_hours,silent_hours,last_log,assembly_exists,recovered_by_retry,errormsg
+261700/624/1,SRR13021855_reads.MEGAHIT.assembly,6a5a9e707662238c12e46f44,error,6.6,,,no,no,Unexpected Job Error
+261700/516/1,SRR11837711_reads.MEGAHIT.assembly,6a5a9e701c6b2638b1d8ad96,zombie,362.4,346,2026-07-30 15:08:44,no,no,
+261700/560/1,SRR12172649_reads.MEGAHIT.assembly,6a5a9e7318fb5e2b773a34fb,zombie,353.6,346,2026-07-30 14:52:09,no,no,
+261700/619/1,SRR12951270_reads.MEGAHIT.assembly,6a5a9e742ec2f2e7dd4ac806,zombie,353.3,345,2026-07-30 15:11:08,no,no,
+261700/1308/1,SRR4242551_reads.MEGAHIT.assembly,6a5a9e742dd4414948d1abb5,zombie,350.6,346,2026-07-30 14:36:21,no,no,
+261700/1336/1,SRR5817588_reads.MEGAHIT.assembly,6a5a9e757662238c12e46f46,zombie,347.1,347,2026-07-30 14:08:26,no,no,
+261700/1327/1,SRR5817589_reads.MEGAHIT.assembly,6a5a9e7218fb5e2b773a34fa,zombie,354.6,345,2026-07-30 15:15:51,no,no,
+261700/1340/1,SRR5817590_reads.MEGAHIT.assembly,6a5a9e732f71c771f65d18bb,zombie,353.6,352,2026-07-30 09:09:11,no,no,
+261700/1402/1,SRR6193119_reads.MEGAHIT.assembly,6a5a9e72cf0aa852a1c35b13,zombie,355.1,346,2026-07-30 14:42:05,no,no,
+261700/1413/1,SRR6307338_reads.MEGAHIT.assembly,6a5a9e751c6b2638b1d8ad97,zombie,346.4,346,2026-07-30 14:53:24,no,no,
+261700/1437/1,SRR8554905_reads.MEGAHIT.assembly,6a5a9e727662238c12e46f45,zombie,356.6,346,2026-07-30 14:55:29,no,no,
+261700/263/1,SRR11241201_reads.MEGAHIT.assembly,6a2b1f8886d8f95657175516,error,36.5,,,yes,yes,Unexpected Job Error. Your job was killed by ./monitor_jobrunner_logs.py 
+261700/299/1,SRR11241202_reads.MEGAHIT.assembly,6a2b1f9daf4dcf4b5cc2171f,error,26.8,,,yes,yes,Unexpected Job Error. Your job was killed by ./monitor_jobrunner_logs.py 
+261700/280/1,SRR11241203_reads.MEGAHIT.assembly,6a2b1f90c7124703f7da83ae,error,31.3,,,yes,yes,Unexpected Job Error. Your job was killed by ./monitor_jobrunner_logs.py 
+261700/378/1,SRR11596268_reads.MEGAHIT.assembly,6a2b1fcb5422a53b16e57e1c,error,5.3,,,yes,yes,Unexpected Job Error. Your job was killed by ./monitor_jobrunner_logs.py 
+261700/387/1,SRR11596703_reads.MEGAHIT.assembly,6a2b1fd133369530ece7f475,error,3.3,,,yes,yes,Unexpected Job Error. Your job was killed by ./monitor_jobrunner_logs.py 
+261700/400/1,SRR11607806_reads.MEGAHIT.assembly,6a2b1fda9307ff8f869ad799,error,0.3,,,yes,yes,Unexpected Job Error. Your job was killed by ./monitor_jobrunner_logs.py 
+261700/396/1,SRR11668386_reads.MEGAHIT.assembly,6a2b1fd69307ff8f869ad798,error,1.7,,,yes,yes,Unexpected Job Error. Your job was killed by ./monitor_jobrunner_logs.py 
+261700/399/1,SRR11668419_reads.MEGAHIT.assembly,6a2b1fd902a986d9d3e65501,error,1.0,,,yes,yes,Unexpected Job Error. Your job was killed by ./monitor_jobrunner_logs.py 
+261700/404/1,SRR11826759_reads.MEGAHIT.assembly,6a2b1fdcacb2f408dd64ed7a,error,1.0,,,yes,yes,Unexpected Job Error. Your job was killed by ./monitor_jobrunner_logs.py 
+261700/408/1,SRR11827248_reads.MEGAHIT.assembly,6a2b1fdf9307ff8f869ad79b,error,1.0,,,yes,yes,Unexpected Job Error. Your job was killed by ./monitor_jobrunner_logs.py 
+261700/405/1,SRR11827249_reads.MEGAHIT.assembly,6a2b1fdd9307ff8f869ad79a,error,1.0,,,yes,yes,Unexpected Job Error. Your job was killed by ./monitor_jobrunner_logs.py 
+261700/410/1,SRR11828457_reads.MEGAHIT.assembly,6a2b1fe08c378b2039a3ff87,error,1.0,,,yes,yes,Unexpected Job Error. Your job was killed by ./monitor_jobrunner_logs.py 
+261700/407/1,SRR11828592_reads.MEGAHIT.assembly,6a2b1fde33369530ece7f478,error,1.0,,,yes,yes,Unexpected Job Error. Your job was killed by ./monitor_jobrunner_logs.py 
+261700/414/1,SRR11828804_reads.MEGAHIT.assembly,6a2b1fe15422a53b16e57e1d,error,1.0,,,yes,yes,Unexpected Job Error. Your job was killed by ./monitor_jobrunner_logs.py 
+261700/416/1,SRR11828890_reads.MEGAHIT.assembly,6a2b1fe24736259f1d6b89d2,error,1.0,,,yes,yes,Unexpected Job Error. Your job was killed by ./monitor_jobrunner_logs.py 
+261700/417/1,SRR11828899_reads.MEGAHIT.assembly,6a2b1fe302a986d9d3e65502,error,0.0,,,yes,yes,Job output contains an error
+261700/421/1,SRR11828906_reads.MEGAHIT.assembly,6a2b1fe633369530ece7f479,error,0.0,,,yes,yes,Job output contains an error
+261700/426/1,SRR11828907_reads.MEGAHIT.assembly,6a2b1fe8c10ca51db0895774,error,0.0,,,yes,yes,Job output contains an error
+261700/422/1,SRR11828957_reads.MEGAHIT.assembly,6a2b1fe7acb2f408dd64ed7b,error,0.0,,,yes,yes,Job output contains an error
+261700/428/1,SRR11828972_reads.MEGAHIT.assembly,6a2b1fe933369530ece7f47a,error,0.0,,,yes,yes,Job output contains an error
+261700/420/1,SRR11828999_reads.MEGAHIT.assembly,6a2b1fe486d8f95657175518,error,0.0,,,yes,yes,Job output contains an error
+261700/435/1,SRR11829002_reads.MEGAHIT.assembly,6a2b1fed9307ff8f869ad79c,error,0.0,,,yes,yes,Unexpected Job Error
+261700/438/1,SRR11829104_reads.MEGAHIT.assembly,6a2b1feeeca5e96ad85081c2,error,0.0,,,yes,yes,Unexpected Job Error
+261700/434/1,SRR11829146_reads.MEGAHIT.assembly,6a2b1fec02a986d9d3e65504,error,0.0,,,yes,yes,Unexpected Job Error
+261700/444/1,SRR11829259_reads.MEGAHIT.assembly,6a2b1ff33642ad3aa21badbf,error,0.0,,,yes,yes,Unexpected Job Error
+261700/439/1,SRR11829268_reads.MEGAHIT.assembly,6a2b1ff19307ff8f869ad79d,error,0.0,,,yes,yes,Unexpected Job Error
+261700/311/1,SRR11241200_reads.MEGAHIT.assembly,6a2b1fa4af4dcf4b5cc21720,terminated,408.6,,,yes,yes,
+261700/398/1,SRR11668400_reads.MEGAHIT.assembly,6a2b1fd702a986d9d3e65500,terminated,387.8,,,yes,yes,
+261700/430/1,SRR11829000_reads.MEGAHIT.assembly,6a2b1fea5422a53b16e57e1e,terminated,386.3,,,yes,yes,
+261700/431/1,SRR11829098_reads.MEGAHIT.assembly,6a2b1feb02a986d9d3e65503,terminated,386.3,,,yes,yes,

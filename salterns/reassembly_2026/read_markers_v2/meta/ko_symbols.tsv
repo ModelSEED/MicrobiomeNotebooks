@@ -1,0 +1,10 @@
+ko	kegg_symbol	kegg_name	cog	pmids	panel_gene	v2_label	checked
+K28067	dddP	dimethylpropiothetin dethiomethylase [EC:4.4.1.3]	COG0006	19220400	ddd (K28067)	dddP	KEGG REST get/ko 2026-11-25
+K28068	dddW	dimethylpropiothetin dethiomethylase [EC:4.4.1.3]	COG1917	21677693	ddd (K28068)	dddW	KEGG REST get/ko 2026-11-25
+K28069	dddY	dimethylpropiothetin dethiomethylase [EC:4.4.1.3]		21248856	ddd (K28069)	dddY	KEGG REST get/ko 2026-11-25
+K28072	dddX	DMSP lyase	COG1042	33970104	ddd (K28072)	dddX	KEGG REST get/ko 2026-11-25
+K28073	dddD	DMSP lyase	COG1804	17272727;19807777	ddd (K28073)	dddD	KEGG REST get/ko 2026-11-25
+K23996	phnY	methylphosphonate hydroxylase [EC:1.14.11.71]		30810303	mpnH/phnY*	phnY	KEGG REST get/ko 2026-11-25
+K28979	tdm	trimethylamine-oxide aldolase [EC:4.1.2.32]	COG0404 COG3665	24550299	tdm	tdm	KEGG REST get/ko 2026-11-25
+K24071	gsmt-sdmt	glycine/sarcosine/dimethylglycine N-methyltransferase [EC:2.1.1.156 2.1.1.157]	COG0500	10896953	gsdmt	gsdmt	KEGG REST get/ko 2026-11-25
+K18897	sdmt	sarcosine/dimethylglycine N-methyltransferase [EC:2.1.1.157]		10896953	sdmt	sdmt	KEGG REST get/ko 2026-11-25

@@ -1,0 +1,11 @@
+{
+ "rows": [
+  "Metagenome (reads)",
+  "MAGs"
+ ],
+ "have_reads": true,
+ "y_top": {
+  "Metagenome (reads)": 0.9000000000000001,
+  "MAGs": 0.6000000000000001
+ }
+}

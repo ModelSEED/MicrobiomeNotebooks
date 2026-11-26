@@ -1,0 +1,755 @@
+{
+ "tag": "R2_B_H2O__metabat2.bin.051__mepn_consumer__B",
+ "mag_id": "R2_B_H2O__metabat2.bin.051",
+ "guild": "mepn_consumer",
+ "arm": "B",
+ "arm_sources": [
+  "kofam"
+ ],
+ "status": "error",
+ "solver": "gurobi",
+ "versions": {
+  "cobra": "0.29.1",
+  "modelseedpy": "0.4.3",
+  "modelseedpy_file": "/home/andrew/venvs/salterns_modelling/lib/python3.12/site-packages/modelseedpy/__init__.py",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]"
+ },
+ "domain": "Archaea",
+ "phylum": "Halobacteriota",
+ "family": "Haloferacaceae",
+ "genus": "Haloquadratum",
+ "template_file": "ArchaeaTemplateV6.json",
+ "template_rule": "Archaea -> ArchaeaTemplateV6",
+ "template_md5": "7a47743e435dd1d16c745e26a8759bdb",
+ "core_template_md5": "7ab51b2bc12136c066349c92c0e0bb07",
+ "msdb": "/home/andrew/tf_runs/salterns_modelling/src/ModelSEEDDatabase",
+ "draft": {
+  "n_reactions": 795,
+  "n_metabolites": 846,
+  "n_genes": 562,
+  "n_gene_associated": 709,
+  "n_rast_supported": 540,
+  "n_extra_supported": 473,
+  "n_extra_only": 169,
+  "n_template_rxns_with_extra_evidence": 473,
+  "n_bakta_extra_genes_used": 0
+ },
+ "guild_pathway": {
+  "reactions": {
+   "rxn26456_c0": "PhnGHIL",
+   "rxn26457_c0": "PhnM",
+   "rxn26459_c0": "PhnJ C-P lyase"
+  },
+  "gene_supported": {
+   "rxn26456_c0": true,
+   "rxn26457_c0": true,
+   "rxn26459_c0": true
+  },
+  "fraction": 1.0,
+  "evidence": {
+   "rxn26456_c0": {
+    "rast": true,
+    "extra": {
+     "NODE_354_length_35165_cov_12.335207_28": [
+      "kofam:KO"
+     ],
+     "NODE_354_length_35165_cov_12.335207_30": [
+      "kofam:KO"
+     ],
+     "NODE_354_length_35165_cov_12.335207_33": [
+      "kofam:KO"
+     ]
+    },
+    "template_type": "conditional"
+   },
+   "rxn26457_c0": {
+    "rast": true,
+    "extra": {
+     "NODE_354_length_35165_cov_12.335207_34": [
+      "kofam:KO"
+     ]
+    },
+    "template_type": "conditional"
+   },
+   "rxn26459_c0": {
+    "rast": true,
+    "extra": {},
+    "template_type": "conditional"
+   }
+  }
+ },
+ "protocol": {
+  "cell5_disabled": [
+   "rxn23850_c0"
+  ],
+  "cell5_lb0": [
+   "rxn00929_c0",
+   "rxn14415_c0"
+  ],
+  "cell5_H_fixed": [],
+  "rxs43120_c_balance": {},
+  "rxs00001_c_balance": {},
+  "rxn26447_c_balance_before": {},
+  "rxn26447_c_H_fix": null,
+  "template_removed": [
+   "rxn23850_c",
+   "rxn09193_c",
+   "rxn05315_c",
+   "rxn05206_c"
+  ],
+  "template_lb0": [
+   "rxn09188_c",
+   "rxn00929_c",
+   "rxn00145_c",
+   "rxn00499_c",
+   "rxn00146_c",
+   "rxn08934_c",
+   "rxn08941_c",
+   "rxn08935_c",
+   "rxn08942_c",
+   "rxn11942_c",
+   "rxn11941_c",
+   "rxn11940_c",
+   "rxn04159_c",
+   "rxn04705_c",
+   "rxn14415_c",
+   "sul00003_c",
+   "rxn48579_c"
+  ],
+  "mepn_hand_added": [
+   "rxs00001_c0",
+   "rxs43120_c0",
+   "rxn04651_c0"
+  ],
+  "phn_transport_genes": {
+   "PhnC": 2,
+   "PhnD": 2,
+   "PhnE": 2
+  },
+  "rxs00001_gpr": "(NODE_3282_length_9218_cov_11.201298_8 or NODE_354_length_35165_cov_12.335207_26) and (NODE_3282_length_9218_cov_11.201298_7 or NODE_354_length_35165_cov_12.335207_27) and (NODE_3282_length_9218_cov_11.201298_9 or NODE_354_length_35165_cov_12.335207_25)",
+  "rxs43120_gpr": "NODE_354_length_35165_cov_12.335207_31"
+ },
+ "draft_free_atp_before_atp_correction": {
+  "water_H": 0.0,
+  "salts_O2": 0.0,
+  "salts_NO3": 0.0
+ },
+ "atp_correction": {
+  "selected_media": [
+   "Etho.O2",
+   "For.O2",
+   "Pyr",
+   "Fum",
+   "For.NO2",
+   "Pyr.DMSO",
+   "Pyr.TMAO",
+   "Pyr.SO3"
+  ],
+  "n_tests": 9,
+  "tests": [
+   {
+    "media": "empty",
+    "threshold": 1e-05
+   },
+   {
+    "media": "Etho.O2",
+    "threshold": 6.900000000000003
+   },
+   {
+    "media": "For.O2",
+    "threshold": 2.85
+   },
+   {
+    "media": "Pyr",
+    "threshold": 1.0
+   },
+   {
+    "media": "Fum",
+    "threshold": 1.5
+   },
+   {
+    "media": "For.NO2",
+    "threshold": 0.09999999999999998
+   },
+   {
+    "media": "Pyr.DMSO",
+    "threshold": 0.6
+   },
+   {
+    "media": "Pyr.TMAO",
+    "threshold": 0.6
+   },
+   {
+    "media": "Pyr.SO3",
+    "threshold": 0.6
+   }
+  ],
+  "core_gapfilling": [
+   [
+    "rxn14426_c0",
+    ">",
+    "new"
+   ],
+   [
+    "rxn13689_c0",
+    ">",
+    "new"
+   ],
+   [
+    "rxn60859_c0",
+    ">",
+    "new"
+   ],
+   [
+    "rxn00544_c0",
+    "<",
+    "new"
+   ],
+   [
+    "rxn00225_c0",
+    "<",
+    "new"
+   ],
+   [
+    "rxn00173_c0",
+    ">",
+    "new"
+   ],
+   [
+    "EX_cpd00106_e0",
+    "<",
+    "new"
+   ],
+   [
+    "rxn05561_c0",
+    ">",
+    "new"
+   ],
+   [
+    "rxn00500_c0",
+    "<",
+    "new"
+   ],
+   [
+    "EX_cpd00075_e0",
+    "<",
+    "new"
+   ],
+   [
+    "rxn00568_c0",
+    "<",
+    "new"
+   ],
+   [
+    "rxn05625_c0",
+    ">",
+    "new"
+   ]
+  ],
+  "expansion_filtered": [
+   [
+    "rxn27362_c0: cpd00047_c0 + cpd00180_e0 --> cpd00047_e0 + cpd00180_c0",
+    "<"
+   ]
+  ],
+  "reactions_added": [
+   "EX_cpd00075_e0",
+   "EX_cpd00106_e0",
+   "rxn00173_c0",
+   "rxn00225_c0",
+   "rxn00500_c0",
+   "rxn00544_c0",
+   "rxn00568_c0",
+   "rxn05561_c0",
+   "rxn05625_c0",
+   "rxn13689_c0",
+   "rxn14426_c0",
+   "rxn60859_c0"
+  ],
+  "reactions_removed": [],
+  "free_atp_after": {
+   "water_H": 0.0,
+   "salts_O2": 0.0,
+   "salts_NO3": 0.0
+  }
+ },
+ "gapfill_1": {
+  "medium": "lactate_Pi_noMePn",
+  "target": "bio1",
+  "minimum_obj": null,
+  "solution_found": true,
+  "gfmodel_solver_status_if_failed": null,
+  "solution": {
+   "new": {
+    "EX_cpd00048_e0": "<",
+    "rxn08968_c0": "<",
+    "rxn03086_c0": "<",
+    "rxn00211_c0": ">",
+    "rxn10603_c0": ">",
+    "rxn10479_c0": ">",
+    "rxn03030_c0": ">",
+    "rxn01048_c0": "<",
+    "rxn11537_c0": "<",
+    "rxn00361_c0": ">",
+    "rxn12303_c0": "<",
+    "rxn02212_c0": ">",
+    "rxn00178_c0": ">",
+    "rxn00300_c0": ">",
+    "rxn00272_c0": ">",
+    "rxn05039_c0": ">",
+    "rxn00295_c0": ">",
+    "rxn00499_c0": ">",
+    "rxn01637_c0": "<",
+    "rxn10567_c0": ">",
+    "rxn00609_c0": "<",
+    "rxn03536_c0": ">",
+    "rxn09562_c0": ">",
+    "rxn00310_c0": ">",
+    "rxn00422_c0": "<",
+    "rxn10598_c0": ">",
+    "rxn10424_c0": ">",
+    "rxn00299_c0": ">",
+    "rxn03617_c0": "<",
+    "rxn11535_c0": "<",
+    "rxn01972_c0": ">",
+    "rxn00979_c0": ">",
+    "rxn01116_c0": "<",
+    "rxn00606_c0": "<",
+    "rxn00137_c0": ">",
+    "rxn06023_c0": ">",
+    "rxn01730_c0": ">",
+    "rxn10475_c0": ">",
+    "rxn00548_c0": ">",
+    "rxn00529_c0": ">",
+    "rxn03150_c0": ">",
+    "rxn01631_c0": ">",
+    "rxn03880_c0": "<",
+    "rxn03923_c0": "<",
+    "rxn01213_c0": ">",
+    "rxn05153_c0": ">",
+    "rxn10499_c0": ">",
+    "rxn01332_c0": ">",
+    "rxn01790_c0": "<",
+    "rxn10436_c0": "<",
+    "rxn00430_c0": "<",
+    "rxn08656_c0": ">",
+    "rxn10420_c0": ">",
+    "rxn03622_c0": "<",
+    "rxn01011_c0": ">",
+    "rxn05038_c0": ">",
+    "rxn01466_c0": ">",
+    "rxn03866_c0": "<",
+    "rxn00623_c0": "<",
+    "rxn10437_c0": ">",
+    "rxn10425_c0": ">",
+    "rxn00905_c0": "<",
+    "rxn42902_c0": ">",
+    "rxn15949_c0": ">",
+    "rxn10506_c0": ">",
+    "rxn16238_c0": ">",
+    "rxn43971_c0": ">",
+    "rxn47516_c0": ">",
+    "rxn47122_c0": ">",
+    "rxn48557_c0": ">",
+    "rxn41725_c0": ">",
+    "rxn15947_c0": ">",
+    "rxn47256_c0": ">",
+    "rxn44994_c0": ">",
+    "rxn41413_c0": ">",
+    "rxn21234_c0": ">",
+    "rxn45998_c0": ">"
+   },
+   "reversed": {}
+  },
+  "integrated": {
+   "new": {
+    "EX_cpd00048_e0": "<",
+    "rxn08968_c0": "<",
+    "rxn03086_c0": "<",
+    "rxn00211_c0": ">",
+    "rxn10603_c0": ">",
+    "rxn10479_c0": ">",
+    "rxn03030_c0": ">",
+    "rxn01048_c0": "<",
+    "rxn11537_c0": "<",
+    "rxn00361_c0": ">",
+    "rxn12303_c0": "<",
+    "rxn02212_c0": ">",
+    "rxn00178_c0": ">",
+    "rxn00300_c0": ">",
+    "rxn00272_c0": ">",
+    "rxn05039_c0": ">",
+    "rxn00295_c0": ">",
+    "rxn00499_c0": ">",
+    "rxn01637_c0": "<",
+    "rxn10567_c0": ">",
+    "rxn00609_c0": "<",
+    "rxn03536_c0": ">",
+    "rxn09562_c0": ">",
+    "rxn00310_c0": ">",
+    "rxn10598_c0": ">",
+    "rxn10424_c0": ">",
+    "rxn00299_c0": ">",
+    "rxn03617_c0": "<",
+    "rxn11535_c0": "<",
+    "rxn01972_c0": ">",
+    "rxn00979_c0": ">",
+    "rxn01116_c0": "<",
+    "rxn00606_c0": "<",
+    "rxn00137_c0": ">",
+    "rxn06023_c0": ">",
+    "rxn01730_c0": ">",
+    "rxn10475_c0": ">",
+    "rxn00548_c0": ">",
+    "rxn00529_c0": ">",
+    "rxn03150_c0": ">",
+    "rxn01631_c0": ">",
+    "rxn03880_c0": "<",
+    "rxn03923_c0": "<",
+    "rxn01213_c0": ">",
+    "rxn05153_c0": ">",
+    "rxn10499_c0": ">",
+    "rxn01332_c0": ">",
+    "rxn01790_c0": "<",
+    "rxn10436_c0": "<",
+    "rxn00430_c0": "<",
+    "rxn08656_c0": ">",
+    "rxn10420_c0": ">",
+    "rxn03622_c0": "<",
+    "rxn05038_c0": ">",
+    "rxn01466_c0": ">",
+    "rxn03866_c0": "<",
+    "rxn00623_c0": "<",
+    "rxn10437_c0": ">",
+    "rxn10425_c0": ">",
+    "rxn00905_c0": "<",
+    "rxn42902_c0": ">",
+    "rxn15949_c0": ">",
+    "rxn10506_c0": ">",
+    "rxn16238_c0": ">",
+    "rxn43971_c0": ">",
+    "rxn47516_c0": ">",
+    "rxn47122_c0": ">",
+    "rxn48557_c0": ">",
+    "rxn41725_c0": ">",
+    "rxn15947_c0": ">",
+    "rxn47256_c0": ">",
+    "rxn44994_c0": ">",
+    "rxn41413_c0": ">",
+    "rxn21234_c0": ">",
+    "rxn45998_c0": ">"
+   },
+   "reversed": {},
+   "growth": 3.36716677536052
+  },
+  "added_reactions": {
+   "rxn00137_c0": [
+    0,
+    100
+   ],
+   "rxn00178_c0": [
+    0,
+    100
+   ],
+   "rxn00211_c0": [
+    0,
+    100
+   ],
+   "rxn00272_c0": [
+    0,
+    100
+   ],
+   "rxn00295_c0": [
+    0,
+    100
+   ],
+   "rxn00299_c0": [
+    0,
+    100
+   ],
+   "rxn00300_c0": [
+    0,
+    100
+   ],
+   "rxn00310_c0": [
+    0,
+    100
+   ],
+   "rxn00361_c0": [
+    0,
+    100
+   ],
+   "rxn00430_c0": [
+    -100,
+    0
+   ],
+   "rxn00499_c0": [
+    0,
+    100
+   ],
+   "rxn00529_c0": [
+    0,
+    100
+   ],
+   "rxn00548_c0": [
+    0,
+    100
+   ],
+   "rxn00606_c0": [
+    -100,
+    0
+   ],
+   "rxn00609_c0": [
+    -100,
+    0
+   ],
+   "rxn00623_c0": [
+    -100,
+    0
+   ],
+   "rxn00905_c0": [
+    -100,
+    0
+   ],
+   "rxn00979_c0": [
+    0,
+    100
+   ],
+   "rxn01048_c0": [
+    -100,
+    0
+   ],
+   "rxn01116_c0": [
+    -100,
+    0
+   ],
+   "rxn01213_c0": [
+    0,
+    100
+   ],
+   "rxn01332_c0": [
+    0,
+    100
+   ],
+   "rxn01466_c0": [
+    0,
+    100
+   ],
+   "rxn01631_c0": [
+    0,
+    100
+   ],
+   "rxn01637_c0": [
+    -100,
+    0
+   ],
+   "rxn01730_c0": [
+    0,
+    100
+   ],
+   "rxn01790_c0": [
+    -100,
+    0
+   ],
+   "rxn01972_c0": [
+    0,
+    100
+   ],
+   "rxn02212_c0": [
+    0,
+    100
+   ],
+   "rxn03030_c0": [
+    0,
+    100
+   ],
+   "rxn03086_c0": [
+    -100,
+    0
+   ],
+   "rxn03150_c0": [
+    0,
+    100
+   ],
+   "rxn03536_c0": [
+    0,
+    100
+   ],
+   "rxn03617_c0": [
+    -100,
+    0
+   ],
+   "rxn03622_c0": [
+    -100,
+    0
+   ],
+   "rxn03866_c0": [
+    -100,
+    0
+   ],
+   "rxn03880_c0": [
+    -100,
+    0
+   ],
+   "rxn03923_c0": [
+    -100,
+    0
+   ],
+   "rxn05038_c0": [
+    0,
+    100
+   ],
+   "rxn05039_c0": [
+    0,
+    100
+   ],
+   "rxn05153_c0": [
+    0,
+    100
+   ],
+   "rxn06023_c0": [
+    0,
+    100
+   ],
+   "rxn08656_c0": [
+    0,
+    100
+   ],
+   "rxn08968_c0": [
+    -100,
+    0
+   ],
+   "rxn09562_c0": [
+    0,
+    100
+   ],
+   "rxn10420_c0": [
+    0,
+    100
+   ],
+   "rxn10424_c0": [
+    0,
+    100
+   ],
+   "rxn10425_c0": [
+    0,
+    100
+   ],
+   "rxn10436_c0": [
+    -100,
+    0
+   ],
+   "rxn10437_c0": [
+    0,
+    100
+   ],
+   "rxn10475_c0": [
+    0,
+    100
+   ],
+   "rxn10479_c0": [
+    0,
+    100
+   ],
+   "rxn10499_c0": [
+    0,
+    100
+   ],
+   "rxn10506_c0": [
+    0,
+    100
+   ],
+   "rxn10567_c0": [
+    0,
+    100
+   ],
+   "rxn10598_c0": [
+    0,
+    100
+   ],
+   "rxn10603_c0": [
+    0,
+    100
+   ],
+   "rxn11535_c0": [
+    -100,
+    0
+   ],
+   "rxn11537_c0": [
+    -100,
+    0
+   ],
+   "rxn12303_c0": [
+    -100,
+    0
+   ],
+   "rxn15947_c0": [
+    0,
+    100
+   ],
+   "rxn15949_c0": [
+    0,
+    100
+   ],
+   "rxn16238_c0": [
+    0,
+    100
+   ],
+   "rxn21234_c0": [
+    0,
+    100
+   ],
+   "rxn41413_c0": [
+    0,
+    100
+   ],
+   "rxn41725_c0": [
+    0,
+    100
+   ],
+   "rxn42902_c0": [
+    0,
+    100
+   ],
+   "rxn43971_c0": [
+    0,
+    100
+   ],
+   "rxn44994_c0": [
+    0,
+    100
+   ],
+   "rxn45998_c0": [
+    0,
+    100
+   ],
+   "rxn47122_c0": [
+    0,
+    100
+   ],
+   "rxn47256_c0": [
+    0,
+    100
+   ],
+   "rxn47516_c0": [
+    0,
+    100
+   ],
+   "rxn48557_c0": [
+    0,
+    100
+   ]
+  },
+  "reversed_reactions": {}
+ },
+ "error": "ValueError: gapfilling test conditions fail even with every gapfilling candidate blocked: the model itself violates them (e.g. makes ATP on the empty medium) -- check its draft reactions before gapfilling with tests",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/andrew/tf_runs/salterns_modelling/code/build_model.py\", line 657, in main\n    ad, rv = gapfill_stage(model, gs_t, tests, med, mid, \"bio1\", mo, lab, rep, T)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/andrew/tf_runs/salterns_modelling/code/build_model.py\", line 478, in gapfill_stage\n    sol = gf.run_gapfilling(media=to_msmedia(medium, mid), target=target, minimum_obj=min_obj,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/andrew/venvs/salterns_modelling/lib/python3.12/site-packages/modelseedpy/core/msgapfill.py\", line 304, in run_gapfilling\n    self.prefilter(\n  File \"/home/andrew/venvs/salterns_modelling/lib/python3.12/site-packages/modelseedpy/core/msgapfill.py\", line 253, in prefilter\n    self.gfpkgmgr.getpkg(\"GapfillingPkg\").filter_database_based_on_tests(\n  File \"/home/andrew/venvs/salterns_modelling/lib/python3.12/site-packages/modelseedpy/fbapkg/gapfillingpkg.py\", line 908, in filter_database_based_on_tests\n    raise ValueError(\nValueError: gapfilling test conditions fail even with every gapfilling candidate blocked: the model itself violates them (e.g. makes ATP on the empty medium) -- check its draft reactions before gapfilling with tests\n",
+ "times_s": {
+  "load_biochem": 10.96,
+  "load_templates": 0.39,
+  "draft": 0.44,
+  "atp_correction": 16.26,
+  "gapfill_1": 166.45,
+  "gapfill_2": 154.54
+ }
+}

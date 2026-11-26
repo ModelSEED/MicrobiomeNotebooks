@@ -1,0 +1,26 @@
+{
+ "batch_files": 134,
+ "batches_by_state": {
+  "done": 134,
+  "superseded": 3
+ },
+ "mags_swept": 13164,
+ "of_census_mags": 13164,
+ "failed_mags": 0,
+ "rows": 70126,
+ "mags_with_hit": {
+  "gtdb_r232_consolidated": 9082,
+  "novel_all_representatives": 6766
+ },
+ "mags_without_hit": {
+  "gtdb_r232_consolidated": 4082,
+  "novel_all_representatives": 6398
+ },
+ "novel_pairs_vs_bruteforce_census": {
+  "kbdl_pairs": 19126,
+  "census_pairs": 19131,
+  "only_kbdl": 0,
+  "only_census": 5,
+  "max_abs_ani_diff": 1.1102230246251565e-16
+ }
+}

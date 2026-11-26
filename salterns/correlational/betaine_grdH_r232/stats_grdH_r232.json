@@ -1,0 +1,1088 @@
+{
+  "meta": {
+    "method": "modelled CH4 per core = fluxes_to_emissions(|sum_MAG 0.06 x TMA|) as in clauded_insights/figure7_corrected.py; x = measured CH4 of the 6 unrestored cores (raw areal = CH4_RAW; DNA-normalised = CH4_NORM, as submitted). notebook_basis_P74 = analysis(1).ipynb fit behind fits_betaine.json / P74 (x = DNA-normalised CH4, y = summed flux x constant).",
+    "unrestored_cores": [
+      "R1_A",
+      "R1_B",
+      "R1_C",
+      "R2_A",
+      "R2_B",
+      "R2_C"
+    ],
+    "measured_CH4_raw_umol_m2_d": {
+      "R1_A": 737.32,
+      "R1_B": 1347.13,
+      "R1_C": 490.47,
+      "R2_A": 1327.18,
+      "R2_B": 1607.09,
+      "R2_C": 1588.57
+    },
+    "measured_CH4_DNA_normalised": {
+      "R1_A": 154.04429155649183,
+      "R1_B": 350.7323023585634,
+      "R1_C": 263.0210073267493,
+      "R2_A": 589.3269001387226,
+      "R2_B": 5308.591017144301,
+      "R2_C": 5214.314339711316
+    },
+    "VW_DNA_ug_g": {
+      "R1_A": 4.775111110999999,
+      "R1_B": 3.7440000003333336,
+      "R1_C": 1.9644444443333335,
+      "R2_A": 2.376888889,
+      "R2_B": 1.9235555553333334,
+      "R2_C": 1.2405333336666664
+    },
+    "reproduction_of_figure7_stats_max_abs_diff": {
+      "raw_areal_basis_corrected/Betaine": 0.0,
+      "DNA_normalised_basis_as_submitted/Betaine": 0.0,
+      "raw_areal_basis_corrected/MePn": 0.0,
+      "DNA_normalised_basis_as_submitted/MePn": 0.0
+    },
+    "reproduction_of_fits_betaine_R2_0.86221939": 0.8622193868329645,
+    "methane_dic_equals_CH4_NORM": true,
+    "grdH9": [
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.27",
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.45",
+      "Salt_Pond_MetaG_R1_A_D2_MG_DASTool_bins_metabat.48",
+      "Salt_Pond_MetaG_R1_B_D1_MG_DASTool_bins_concoct_out.59",
+      "Salt_Pond_MetaG_R1_B_D2_MG_DASTool_bins_concoct_out.73",
+      "Salt_Pond_MetaG_R1_C_D1_MG_DASTool_bins_maxbin.047",
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_concoct_out.85",
+      "Salt_Pond_MetaG_R1_C_D2_MG_DASTool_bins_metabat.40",
+      "Salt_Pond_MetaG_R2_B_D2_MG_DASTool_bins_metabat.52"
+    ],
+    "set_definitions": {
+      "orig15_existing": "15 modelled betaine MAGs, TMA from saltern_fluxes_betaine.json",
+      "grdH9_existing": "9 grdH carriers, TMA subset of saltern_fluxes_betaine.json",
+      "grdH9_resim_same_settings_glpk": "9 grdH carriers re-simulated with the original settings (GLPK, as-run abundances); no structural model change was annotation-supported",
+      "grdH9_fva_min / grdH9_fva_max": "lowest / highest TMA export compatible with the same optimal lactate uptake in every core (alternative optima)",
+      "nonGrdH6_existing": "the 6 modelled MAGs without grdH (TMA from the hand-added, gene-less rxn17220_c0)",
+      "orig15_fva_min / orig15_fva_max": "FVA envelope for the original 15",
+      "grdH9_resim_gurobi": "solver sensitivity",
+      "SENS_*_current_abundance": "sensitivity: same models/settings with the current data/averaged_normalized_abundances_unrestored.csv (DNA-weighted depth merge)"
+    }
+  },
+  "betaine": {
+    "orig15_existing": {
+      "n_MAGs": 15,
+      "modelled_betaine_CH4_umol_m2_d_by_core": {
+        "R1_A": 5700.009211402108,
+        "R1_B": 4600.926519019973,
+        "R1_C": 2303.8857318742625,
+        "R2_A": 2640.566676093648,
+        "R2_B": 2715.156604275851,
+        "R2_C": 1903.1304713211266
+      },
+      "raw_areal": {
+        "n": 6,
+        "slope": -1.0052423389980734,
+        "intercept": 4499.774013005656,
+        "pearson_r2": 0.09680718805637227,
+        "spearman_rho": -0.08571428571428573,
+        "spearman_p": 0.8717434402332361,
+        "pearson_r": -0.3111385351517428,
+        "pearson_p": 0.5483524206143955
+      },
+      "DNA_normalised_as_submitted": {
+        "n": 6,
+        "slope": -0.3190012336545995,
+        "intercept": 3942.2365657696296,
+        "pearson_r2": 0.2952153695911271,
+        "spearman_rho": -0.4285714285714286,
+        "spearman_p": 0.3965014577259473,
+        "pearson_r": -0.5433372521658414,
+        "pearson_p": 0.265194875606621
+      },
+      "notebook_basis_P74": {
+        "n": 6,
+        "slope": 0.23693191752834938,
+        "intercept": 4632.1741610159215,
+        "pearson_r2": 0.8622193868329645,
+        "spearman_rho": 0.5428571428571429,
+        "spearman_p": 0.26570262390670546,
+        "pearson_r": 0.9285576917095483,
+        "pearson_p": 0.007473684228097389
+      },
+      "saturation": {
+        "n_cells": 90,
+        "n_cells_at_0p1_bound": 45,
+        "frac_cells_at_0p1_bound": 0.5,
+        "n_cells_zero": 24,
+        "summed_TMA_by_core": {
+          "R1_A": 0.7894900157475602,
+          "R1_B": 0.8127631844784299,
+          "R1_C": 0.7756677766746658,
+          "R2_A": 0.7347554630443351,
+          "R2_B": 0.9335653324298231,
+          "R2_C": 1.0146463339591183
+        },
+        "summed_TMA_CV": 0.11625291310052852,
+        "summed_abundance_by_core_sim_basis": {
+          "R1_A": 0.0182182532511705,
+          "R1_B": 0.014147042479242996,
+          "R1_C": 0.0165321613920231,
+          "R2_A": 0.0073779896534242355,
+          "R2_B": 0.06500375652450979,
+          "R2_C": 0.1271211754495671
+        },
+        "summed_abundance_CV": 1.0324143330646023,
+        "spearman_summedTMA_vs_summedAbundance": {
+          "rho": 0.8285714285714287,
+          "p": 0.04156268221574335
+        },
+        "modelled_CH4_vs_VW_DNA": {
+          "pearson_r2": 0.97606272486409,
+          "spearman_rho": 0.8285714285714287
+        },
+        "VW_DNA_CV": 0.45265911668043324,
+        "max_over_min_across_cores": {
+          "summed_flux": 1.3809306429041066,
+          "summed_abundance": 17.2297849984878,
+          "VW_DNA": 3.8492404689248603
+        }
+      }
+    },
+    "grdH9_existing": {
+      "n_MAGs": 9,
+      "modelled_betaine_CH4_umol_m2_d_by_core": {
+        "R1_A": 4032.1801089116098,
+        "R1_B": 3202.427489912622,
+        "R1_C": 1665.959403563486,
+        "R2_A": 1899.6407621762103,
+        "R2_B": 2035.861398201573,
+        "R2_C": 1312.9612608233842
+      },
+      "raw_areal": {
+        "n": 6,
+        "slope": -0.7052566029343482,
+        "intercept": 3192.4620882720305,
+        "pearson_r2": 0.09856826232607864,
+        "spearman_rho": -0.08571428571428573,
+        "spearman_p": 0.8717434402332361,
+        "pearson_r": -0.3139558286225606,
+        "pearson_p": 0.544539297303394
+      },
+      "DNA_normalised_as_submitted": {
+        "n": 6,
+        "slope": -0.21780871469222574,
+        "intercept": 2789.434076252761,
+        "pearson_r2": 0.284696062421898,
+        "spearman_rho": -0.4285714285714286,
+        "spearman_p": 0.3965014577259473,
+        "pearson_r": -0.5335691730431004,
+        "pearson_p": 0.27559876173288866
+      },
+      "notebook_basis_P74": {
+        "n": 6,
+        "slope": 0.17809454665317512,
+        "intercept": 3289.907631782601,
+        "pearson_r2": 0.9528072137425287,
+        "spearman_rho": 0.6377481392176932,
+        "spearman_p": 0.17307111024125982,
+        "pearson_r": 0.9761184424763876,
+        "pearson_p": 0.0008486830147304775
+      },
+      "saturation": {
+        "n_cells": 54,
+        "n_cells_at_0p1_bound": 33,
+        "frac_cells_at_0p1_bound": 0.6111111111111112,
+        "n_cells_zero": 12,
+        "summed_TMA_by_core": {
+          "R1_A": 0.5584843496943349,
+          "R1_B": 0.565715438836668,
+          "R1_C": 0.5608919785883141,
+          "R2_A": 0.5285878370227429,
+          "R2_B": 0.7,
+          "R2_C": 0.7
+        },
+        "summed_TMA_CV": 0.11641645243300341,
+        "summed_abundance_by_core_sim_basis": {
+          "R1_A": 0.0121751740497749,
+          "R1_B": 0.007806591260965894,
+          "R1_C": 0.0107514225508237,
+          "R2_A": 0.006092564669770933,
+          "R2_B": 0.050212594352964796,
+          "R2_C": 0.0885010646248047
+        },
+        "summed_abundance_CV": 1.042356392710348,
+        "spearman_summedTMA_vs_summedAbundance": {
+          "rho": 0.753702346348183,
+          "p": 0.08352328137325983
+        },
+        "modelled_CH4_vs_VW_DNA": {
+          "pearson_r2": 0.9729356059237974,
+          "spearman_rho": 0.8285714285714287
+        },
+        "VW_DNA_CV": 0.45265911668043324,
+        "max_over_min_across_cores": {
+          "summed_flux": 1.3242832145793053,
+          "summed_abundance": 14.526077181242648,
+          "VW_DNA": 3.8492404689248603
+        }
+      }
+    },
+    "grdH9_resim_same_settings_glpk": {
+      "n_MAGs": 9,
+      "modelled_betaine_CH4_umol_m2_d_by_core": {
+        "R1_A": 4032.1801089116084,
+        "R1_B": 3202.4274899126253,
+        "R1_C": 1665.9594035634723,
+        "R2_A": 1899.6407621762125,
+        "R2_B": 2035.8613982015725,
+        "R2_C": 1312.9612608233842
+      },
+      "raw_areal": {
+        "n": 6,
+        "slope": -0.7052566029343382,
+        "intercept": 3192.462088272017,
+        "pearson_r2": 0.09856826232607555,
+        "spearman_rho": -0.08571428571428573,
+        "spearman_p": 0.8717434402332361,
+        "pearson_r": -0.31395582862255567,
+        "pearson_p": 0.5445392973034009
+      },
+      "DNA_normalised_as_submitted": {
+        "n": 6,
+        "slope": -0.21780871469222526,
+        "intercept": 2789.434076252758,
+        "pearson_r2": 0.2846960624218957,
+        "spearman_rho": -0.4285714285714286,
+        "spearman_p": 0.3965014577259473,
+        "pearson_r": -0.5335691730430983,
+        "pearson_p": 0.2755987617328911
+      },
+      "notebook_basis_P74": {
+        "n": 6,
+        "slope": 0.17809454665317634,
+        "intercept": 3289.9076317825943,
+        "pearson_r2": 0.9528072137425326,
+        "spearman_rho": 0.6377481392176932,
+        "spearman_p": 0.17307111024125982,
+        "pearson_r": 0.9761184424763896,
+        "pearson_p": 0.0008486830147303359
+      },
+      "saturation": {
+        "n_cells": 54,
+        "n_cells_at_0p1_bound": 33,
+        "frac_cells_at_0p1_bound": 0.6111111111111112,
+        "n_cells_zero": 12,
+        "summed_TMA_by_core": {
+          "R1_A": 0.5584843496943347,
+          "R1_B": 0.5657154388366686,
+          "R1_C": 0.5608919785883094,
+          "R2_A": 0.5285878370227434,
+          "R2_B": 0.6999999999999998,
+          "R2_C": 0.7
+        },
+        "summed_TMA_CV": 0.1164164524330041,
+        "summed_abundance_by_core_sim_basis": {
+          "R1_A": 0.0121751740497749,
+          "R1_B": 0.007806591260965894,
+          "R1_C": 0.0107514225508237,
+          "R2_A": 0.006092564669770933,
+          "R2_B": 0.050212594352964796,
+          "R2_C": 0.0885010646248047
+        },
+        "summed_abundance_CV": 1.042356392710348,
+        "spearman_summedTMA_vs_summedAbundance": {
+          "rho": 0.753702346348183,
+          "p": 0.08352328137325983
+        },
+        "modelled_CH4_vs_VW_DNA": {
+          "pearson_r2": 0.9729356059237969,
+          "spearman_rho": 0.8285714285714287
+        },
+        "VW_DNA_CV": 0.45265911668043324,
+        "max_over_min_across_cores": {
+          "summed_flux": 1.3242832145793042,
+          "summed_abundance": 14.526077181242648,
+          "VW_DNA": 3.8492404689248603
+        }
+      }
+    },
+    "grdH9_fva_min": {
+      "n_MAGs": 9,
+      "modelled_betaine_CH4_umol_m2_d_by_core": {
+        "R1_A": 3051.8296424132486,
+        "R1_B": 2209.0586206295243,
+        "R1_C": 1273.6648469605304,
+        "R2_A": 1268.4130789906374,
+        "R2_B": 1745.0240556013953,
+        "R2_C": 1125.3953664200378
+      },
+      "raw_areal": {
+        "n": 6,
+        "slope": -0.4670090830417212,
+        "intercept": 2331.35066671093,
+        "pearson_r2": 0.0848997115386937,
+        "spearman_rho": -0.2,
+        "spearman_p": 0.7040000000000001,
+        "pearson_r": -0.2913755506879287,
+        "pearson_p": 0.5753055240695236
+      },
+      "DNA_normalised_as_submitted": {
+        "n": 6,
+        "slope": -0.1133616788253253,
+        "intercept": 2003.3542900400023,
+        "pearson_r2": 0.1514873175014757,
+        "spearman_rho": -0.5428571428571429,
+        "spearman_p": 0.26570262390670546,
+        "pearson_r": -0.38921371700066754,
+        "pearson_p": 0.4456598954606035
+      },
+      "notebook_basis_P74": {
+        "n": 6,
+        "slope": 0.24314219955366373,
+        "intercept": 2335.5869581048632,
+        "pearson_r2": 0.9080102318213665,
+        "spearman_rho": 0.48571428571428577,
+        "spearman_p": 0.3287230320699708,
+        "pearson_r": 0.9528957087852619,
+        "pearson_p": 0.0032759635399527273
+      },
+      "saturation": {
+        "n_cells": 54,
+        "n_cells_at_0p1_bound": 23,
+        "frac_cells_at_0p1_bound": 0.42592592592592593,
+        "n_cells_zero": 18,
+        "summed_TMA_by_core": {
+          "R1_A": 0.4226991471571739,
+          "R1_B": 0.3902347737526616,
+          "R1_C": 0.4288150086622746,
+          "R2_A": 0.352944482569924,
+          "R2_B": 0.6000000000000162,
+          "R2_C": 0.5999999999999968
+        },
+        "summed_TMA_CV": 0.21052161894033755,
+        "summed_abundance_by_core_sim_basis": {
+          "R1_A": 0.0121751740497749,
+          "R1_B": 0.007806591260965894,
+          "R1_C": 0.0107514225508237,
+          "R2_A": 0.006092564669770933,
+          "R2_B": 0.050212594352964796,
+          "R2_C": 0.0885010646248047
+        },
+        "summed_abundance_CV": 1.042356392710348,
+        "spearman_summedTMA_vs_summedAbundance": {
+          "rho": 0.9276336570439174,
+          "p": 0.007665844187473178
+        },
+        "modelled_CH4_vs_VW_DNA": {
+          "pearson_r2": 0.8803679652970455,
+          "spearman_rho": 0.7714285714285715
+        },
+        "VW_DNA_CV": 0.45265911668043324,
+        "max_over_min_across_cores": {
+          "summed_flux": 1.6999840757707454,
+          "summed_abundance": 14.526077181242648,
+          "VW_DNA": 3.8492404689248603
+        }
+      }
+    },
+    "grdH9_fva_max": {
+      "n_MAGs": 9,
+      "modelled_betaine_CH4_umol_m2_d_by_core": {
+        "R1_A": 4859.852032869694,
+        "R1_B": 3769.988884211673,
+        "R1_C": 2068.238505412402,
+        "R2_A": 1953.8739504863852,
+        "R2_B": 2269.3903524717375,
+        "R2_C": 1500.5271552267247
+      },
+      "raw_areal": {
+        "n": 6,
+        "slope": -1.0521655387472386,
+        "intercept": 3981.6482258295364,
+        "pearson_r2": 0.14136550794464897,
+        "spearman_rho": -0.2,
+        "spearman_p": 0.7040000000000001,
+        "pearson_r": -0.37598604753986414,
+        "pearson_p": 0.4625966579854907
+      },
+      "DNA_normalised_as_submitted": {
+        "n": 6,
+        "slope": -0.27390612880335174,
+        "intercept": 3279.3139782027183,
+        "pearson_r2": 0.2901128654889225,
+        "spearman_rho": -0.5428571428571429,
+        "spearman_p": 0.26570262390670546,
+        "pearson_r": -0.5386212634949743,
+        "pearson_p": 0.2701985838404341
+      },
+      "notebook_basis_P74": {
+        "n": 6,
+        "slope": 0.17146865716723433,
+        "intercept": 3853.108423354227,
+        "pearson_r2": 0.6129644997889558,
+        "spearman_rho": 0.4285714285714286,
+        "spearman_p": 0.3965014577259473,
+        "pearson_r": 0.7829204939129872,
+        "pearson_p": 0.0655704935934674
+      },
+      "saturation": {
+        "n_cells": 54,
+        "n_cells_at_0p1_bound": 35,
+        "frac_cells_at_0p1_bound": 0.6481481481481481,
+        "n_cells_zero": 6,
+        "summed_TMA_by_core": {
+          "R1_A": 0.6731225364138167,
+          "R1_B": 0.6659763328784563,
+          "R1_C": 0.6963305258291024,
+          "R2_A": 0.5436785869553153,
+          "R2_B": 0.7802953816667091,
+          "R2_C": 0.7999999999999999
+        },
+        "summed_TMA_CV": 0.12140929827537639,
+        "summed_abundance_by_core_sim_basis": {
+          "R1_A": 0.0121751740497749,
+          "R1_B": 0.007806591260965894,
+          "R1_C": 0.0107514225508237,
+          "R2_A": 0.006092564669770933,
+          "R2_B": 0.050212594352964796,
+          "R2_C": 0.0885010646248047
+        },
+        "summed_abundance_CV": 1.042356392710348,
+        "spearman_summedTMA_vs_summedAbundance": {
+          "rho": 0.942857142857143,
+          "p": 0.004804664723032055
+        },
+        "modelled_CH4_vs_VW_DNA": {
+          "pearson_r2": 0.959126280052083,
+          "spearman_rho": 0.7714285714285715
+        },
+        "VW_DNA_CV": 0.45265911668043324,
+        "max_over_min_across_cores": {
+          "summed_flux": 1.4714576207242671,
+          "summed_abundance": 14.526077181242648,
+          "VW_DNA": 3.8492404689248603
+        }
+      }
+    },
+    "nonGrdH6_existing": {
+      "n_MAGs": 6,
+      "modelled_betaine_CH4_umol_m2_d_by_core": {
+        "R1_A": 1667.8291024904995,
+        "R1_B": 1398.4990291073516,
+        "R1_C": 637.9263283107771,
+        "R2_A": 740.9259139174378,
+        "R2_B": 679.2952060742784,
+        "R2_C": 590.1692104977425
+      },
+      "raw_areal": {
+        "n": 6,
+        "slope": -0.2999857360637255,
+        "intercept": 1307.3119247336258,
+        "pearson_r2": 0.09084351051799128,
+        "spearman_rho": -0.2571428571428572,
+        "spearman_p": 0.6227871720116619,
+        "pearson_r": -0.30140257218210875,
+        "pearson_p": 0.5615863755949245
+      },
+      "DNA_normalised_as_submitted": {
+        "n": 6,
+        "slope": -0.10119251896237377,
+        "intercept": 1152.8024895168692,
+        "pearson_r2": 0.31302403808541635,
+        "spearman_rho": -0.5428571428571429,
+        "spearman_p": 0.26570262390670546,
+        "pearson_r": -0.5594855119530946,
+        "pearson_p": 0.24833793917128008
+      },
+      "notebook_basis_P74": {
+        "n": 6,
+        "slope": 0.05883737087517421,
+        "intercept": 1342.2665292333206,
+        "pearson_r2": 0.40811655819369247,
+        "spearman_rho": 0.3714285714285715,
+        "spearman_p": 0.4684781341107872,
+        "pearson_r": 0.6388400098566874,
+        "pearson_p": 0.17210057824453662
+      },
+      "saturation": {
+        "n_cells": 36,
+        "n_cells_at_0p1_bound": 12,
+        "frac_cells_at_0p1_bound": 0.3333333333333333,
+        "n_cells_zero": 12,
+        "summed_TMA_by_core": {
+          "R1_A": 0.23100566605322528,
+          "R1_B": 0.24704774564176196,
+          "R1_C": 0.21477579808635172,
+          "R2_A": 0.20616762602159225,
+          "R2_B": 0.23356533242982314,
+          "R2_C": 0.31464633395911845
+        },
+        "summed_TMA_CV": 0.14673913259358384,
+        "summed_abundance_by_core_sim_basis": {
+          "R1_A": 0.0060430792013956,
+          "R1_B": 0.006340451218277101,
+          "R1_C": 0.005780738841199401,
+          "R2_A": 0.0012854249836533023,
+          "R2_B": 0.014791162171544999,
+          "R2_C": 0.0386201108247624
+        },
+        "summed_abundance_CV": 1.0292446708488154,
+        "spearman_summedTMA_vs_summedAbundance": {
+          "rho": 0.942857142857143,
+          "p": 0.004804664723032055
+        },
+        "modelled_CH4_vs_VW_DNA": {
+          "pearson_r2": 0.9619868599540949,
+          "spearman_rho": 0.942857142857143
+        },
+        "VW_DNA_CV": 0.45265911668043324,
+        "max_over_min_across_cores": {
+          "summed_flux": 1.5261675173296367,
+          "summed_abundance": 30.0446243972949,
+          "VW_DNA": 3.8492404689248603
+        }
+      }
+    },
+    "orig15_fva_min": {
+      "n_MAGs": 15,
+      "modelled_betaine_CH4_umol_m2_d_by_core": {
+        "R1_A": 4696.071675114444,
+        "R1_B": 3582.725659658053,
+        "R1_C": 1899.2494920825598,
+        "R2_A": 1885.6004968349964,
+        "R2_B": 2377.2355334126746,
+        "R2_C": 1604.4113751434707
+      },
+      "raw_areal": {
+        "n": 6,
+        "slope": -0.8304529439389522,
+        "intercept": 3656.6083199363893,
+        "pearson_r2": 0.10017439572490489,
+        "spearman_rho": -0.2,
+        "spearman_p": 0.7040000000000001,
+        "pearson_r": -0.3165033897526295,
+        "pearson_p": 0.5410976832777323
+      },
+      "DNA_normalised_as_submitted": {
+        "n": 6,
+        "slope": -0.22194146188901703,
+        "intercept": 3113.66090437805,
+        "pearson_r2": 0.21666648388261528,
+        "spearman_rho": -0.5428571428571429,
+        "spearman_p": 0.26570262390670546,
+        "pearson_r": -0.46547447178402307,
+        "pearson_p": 0.35221465089324616
+      },
+      "notebook_basis_P74": {
+        "n": 6,
+        "slope": 0.2688718241396987,
+        "intercept": 3620.7455260622583,
+        "pearson_r2": 0.8188903264429742,
+        "spearman_rho": 0.3714285714285715,
+        "spearman_p": 0.4684781341107872,
+        "pearson_r": 0.9049255916609797,
+        "pearson_p": 0.013129019089461048
+      },
+      "saturation": {
+        "n_cells": 90,
+        "n_cells_at_0p1_bound": 34,
+        "frac_cells_at_0p1_bound": 0.37777777777777777,
+        "n_cells_zero": 36,
+        "summed_TMA_by_core": {
+          "R1_A": 0.6504378437356576,
+          "R1_B": 0.6328958969934857,
+          "R1_C": 0.6394356328061881,
+          "R2_A": 0.5246810386239573,
+          "R2_B": 0.8173763080624565,
+          "R2_C": 0.8553854528016451
+        },
+        "summed_TMA_CV": 0.1662756846176951,
+        "summed_abundance_by_core_sim_basis": {
+          "R1_A": 0.0182182532511705,
+          "R1_B": 0.014147042479242996,
+          "R1_C": 0.0165321613920231,
+          "R2_A": 0.0073779896534242355,
+          "R2_B": 0.06500375652450979,
+          "R2_C": 0.1271211754495671
+        },
+        "summed_abundance_CV": 1.0324143330646023,
+        "spearman_summedTMA_vs_summedAbundance": {
+          "rho": 1.0,
+          "p": 0.0
+        },
+        "modelled_CH4_vs_VW_DNA": {
+          "pearson_r2": 0.9321334939180591,
+          "spearman_rho": 0.7714285714285715
+        },
+        "VW_DNA_CV": 0.45265911668043324,
+        "max_over_min_across_cores": {
+          "summed_flux": 1.6302961034098014,
+          "summed_abundance": 17.2297849984878,
+          "VW_DNA": 3.8492404689248603
+        }
+      }
+    },
+    "orig15_fva_max": {
+      "n_MAGs": 15,
+      "modelled_betaine_CH4_umol_m2_d_by_core": {
+        "R1_A": 8592.840386032665,
+        "R1_B": 6841.9094638355145,
+        "R1_C": 3520.5100531752487,
+        "R2_A": 3053.7969529800403,
+        "R2_B": 3508.52412033043,
+        "R2_C": 2434.3537091514318
+      },
+      "raw_areal": {
+        "n": 6,
+        "slope": -2.0817712521218175,
+        "intercept": 7121.30790132758,
+        "pearson_r2": 0.1526512444201885,
+        "spearman_rho": -0.48571428571428577,
+        "spearman_p": 0.3287230320699708,
+        "pearson_r": -0.3907060844422422,
+        "pearson_p": 0.4437617583329604
+      },
+      "DNA_normalised_as_submitted": {
+        "n": 6,
+        "slope": -0.542321951341943,
+        "intercept": 5732.45594337075,
+        "pearson_r2": 0.31371615233088695,
+        "spearman_rho": -0.7714285714285715,
+        "spearman_p": 0.07239650145772594,
+        "pearson_r": -0.5601036978371835,
+        "pearson_p": 0.24770124174011612
+      },
+      "notebook_basis_P74": {
+        "n": 6,
+        "slope": 0.15934464620353442,
+        "intercept": 6677.939631002962,
+        "pearson_r2": 0.18555336618930163,
+        "spearman_rho": 0.3714285714285715,
+        "spearman_p": 0.4684781341107872,
+        "pearson_r": 0.43075905816279897,
+        "pearson_p": 0.3938258093851217
+      },
+      "saturation": {
+        "n_cells": 90,
+        "n_cells_at_0p1_bound": 58,
+        "frac_cells_at_0p1_bound": 0.6444444444444445,
+        "n_cells_zero": 6,
+        "summed_TMA_by_core": {
+          "R1_A": 1.1901667944877685,
+          "R1_B": 1.2086374561192854,
+          "R1_C": 1.1852784918658834,
+          "R2_A": 0.849739570882418,
+          "R2_B": 1.2063526949333774,
+          "R2_C": 1.2978658603661768
+        },
+        "summed_TMA_CV": 0.1229368571041819,
+        "summed_abundance_by_core_sim_basis": {
+          "R1_A": 0.0182182532511705,
+          "R1_B": 0.014147042479242996,
+          "R1_C": 0.0165321613920231,
+          "R2_A": 0.0073779896534242355,
+          "R2_B": 0.06500375652450979,
+          "R2_C": 0.1271211754495671
+        },
+        "summed_abundance_CV": 1.0324143330646023,
+        "spearman_summedTMA_vs_summedAbundance": {
+          "rho": 0.6571428571428573,
+          "p": 0.1561749271137024
+        },
+        "modelled_CH4_vs_VW_DNA": {
+          "pearson_r2": 0.9533409422487366,
+          "spearman_rho": 0.8285714285714287
+        },
+        "VW_DNA_CV": 0.45265911668043324,
+        "max_over_min_across_cores": {
+          "summed_flux": 1.5273689784958453,
+          "summed_abundance": 17.2297849984878,
+          "VW_DNA": 3.8492404689248603
+        }
+      }
+    },
+    "grdH9_resim_gurobi": {
+      "n_MAGs": 9,
+      "modelled_betaine_CH4_umol_m2_d_by_core": {
+        "R1_A": 3731.435446955972,
+        "R1_B": 2651.0808239517683,
+        "R1_C": 1280.5690131880847,
+        "R2_A": 1803.9102547322577,
+        "R2_B": 1748.6059478302668,
+        "R2_C": 1130.1638952969693
+      },
+      "raw_areal": {
+        "n": 6,
+        "slope": -0.6112601108764285,
+        "intercept": 2780.7238244215996,
+        "pearson_r2": 0.08370220359726907,
+        "spearman_rho": -0.2571428571428572,
+        "spearman_p": 0.6227871720116619,
+        "pearson_r": -0.28931333117792735,
+        "pearson_p": 0.5781380849079384
+      },
+      "DNA_normalised_as_submitted": {
+        "n": 6,
+        "slope": -0.19636829772094544,
+        "intercept": 2446.437770348526,
+        "pearson_r2": 0.26158672949201467,
+        "spearman_rho": -0.5428571428571429,
+        "spearman_p": 0.26570262390670546,
+        "pearson_r": -0.5114555009891033,
+        "pearson_p": 0.29971173440856463
+      },
+      "notebook_basis_P74": {
+        "n": 6,
+        "slope": 0.1502174932715588,
+        "intercept": 2849.51029280845,
+        "pearson_r2": 0.8223624650161869,
+        "spearman_rho": 0.6,
+        "spearman_p": 0.208,
+        "pearson_r": 0.9068420286996997,
+        "pearson_p": 0.012613380001332868
+      },
+      "saturation": {
+        "n_cells": 54,
+        "n_cells_at_0p1_bound": 28,
+        "frac_cells_at_0p1_bound": 0.5185185185185185,
+        "n_cells_zero": 12,
+        "summed_TMA_by_core": {
+          "R1_A": 0.5168291700099945,
+          "R1_B": 0.46831891008850635,
+          "R1_C": 0.43113948994770823,
+          "R2_A": 0.5019501785378201,
+          "R2_B": 0.601231579203996,
+          "R2_C": 0.6025423219354961
+        },
+        "summed_TMA_CV": 0.1223405007310719,
+        "summed_abundance_by_core_sim_basis": {
+          "R1_A": 0.0121751740497749,
+          "R1_B": 0.007806591260965894,
+          "R1_C": 0.0107514225508237,
+          "R2_A": 0.006092564669770933,
+          "R2_B": 0.050212594352964796,
+          "R2_C": 0.0885010646248047
+        },
+        "summed_abundance_CV": 1.042356392710348,
+        "spearman_summedTMA_vs_summedAbundance": {
+          "rho": 0.7714285714285715,
+          "p": 0.07239650145772594
+        },
+        "modelled_CH4_vs_VW_DNA": {
+          "pearson_r2": 0.9593936519906278,
+          "spearman_rho": 0.942857142857143
+        },
+        "VW_DNA_CV": 0.45265911668043324,
+        "max_over_min_across_cores": {
+          "summed_flux": 1.3975577185206969,
+          "summed_abundance": 14.526077181242648,
+          "VW_DNA": 3.8492404689248603
+        }
+      }
+    },
+    "SENS_grdH9_resim_glpk_current_abundance": {
+      "n_MAGs": 9,
+      "modelled_betaine_CH4_umol_m2_d_by_core": {
+        "R1_A": 4031.9741611479417,
+        "R1_B": 3198.6409214207024,
+        "R1_C": 1665.0110390880288,
+        "R2_A": 1964.0027918435726,
+        "R2_B": 1713.6364342459092,
+        "R2_C": 1127.2532495594842
+      },
+      "raw_areal": {
+        "n": 6,
+        "slope": -0.8945327031163333,
+        "intercept": 3341.6161726961036,
+        "pearson_r2": 0.1417730950628973,
+        "spearman_rho": -0.2571428571428572,
+        "spearman_p": 0.6227871720116619,
+        "pearson_r": -0.3765276816688214,
+        "pearson_p": 0.461899224900291
+      },
+      "DNA_normalised_as_submitted": {
+        "n": 6,
+        "slope": -0.2719424333126679,
+        "intercept": 2821.867137463587,
+        "pearson_r2": 0.3967742794278983,
+        "spearman_rho": -0.5428571428571429,
+        "spearman_p": 0.26570262390670546,
+        "pearson_r": -0.6299002138655759,
+        "pearson_p": 0.18011378093563263
+      },
+      "notebook_basis_P74": {
+        "n": 6,
+        "slope": 0.045192771879226226,
+        "intercept": 3358.6041908738653,
+        "pearson_r2": 0.8503165503420879,
+        "spearman_rho": 0.6,
+        "spearman_p": 0.208,
+        "pearson_r": 0.9221261032755161,
+        "pearson_p": 0.008860388645540155
+      },
+      "saturation": {
+        "n_cells": 54,
+        "n_cells_at_0p1_bound": 30,
+        "frac_cells_at_0p1_bound": 0.5555555555555556,
+        "n_cells_zero": 12,
+        "summed_TMA_by_core": {
+          "R1_A": 0.5584558245293482,
+          "R1_B": 0.5650465336818009,
+          "R1_C": 0.5605726850773651,
+          "R2_A": 0.5464970052853204,
+          "R2_B": 0.5892078434375658,
+          "R2_C": 0.600990522901485
+        },
+        "summed_TMA_CV": 0.033034720614440384,
+        "summed_abundance_by_core_sim_basis": {
+          "R1_A": 0.0121700061702622,
+          "R1_B": 0.007576254214437884,
+          "R1_C": 0.0106555682699965,
+          "R2_A": 0.007554677992586442,
+          "R2_B": 0.0139758819712517,
+          "R2_C": 0.011797965430790692
+        },
+        "summed_abundance_CV": 0.22316896128801064,
+        "spearman_summedTMA_vs_summedAbundance": {
+          "rho": 0.48571428571428577,
+          "p": 0.3287230320699708
+        },
+        "modelled_CH4_vs_VW_DNA": {
+          "pearson_r2": 0.9982076978766247,
+          "spearman_rho": 0.942857142857143
+        },
+        "VW_DNA_CV": 0.45265911668043324,
+        "max_over_min_across_cores": {
+          "summed_flux": 1.0997142108541182,
+          "summed_abundance": 1.8499639541177684,
+          "VW_DNA": 3.8492404689248603
+        }
+      }
+    },
+    "SENS_grdH9_fva_min_current_abundance": {
+      "n_MAGs": 9,
+      "modelled_betaine_CH4_umol_m2_d_by_core": {
+        "R1_A": 3049.2174824450776,
+        "R1_B": 2192.603523292787,
+        "R1_C": 1274.7911172140277,
+        "R2_A": 1354.8814210219089,
+        "R2_B": 1541.387277106689,
+        "R2_C": 774.3758305760158
+      },
+      "raw_areal": {
+        "n": 6,
+        "slope": -0.6712447875631963,
+        "intercept": 2491.931842505176,
+        "pearson_r2": 0.14861691603173016,
+        "spearman_rho": -0.08571428571428573,
+        "spearman_p": 0.8717434402332361,
+        "pearson_r": -0.3855086458585983,
+        "pearson_p": 0.45038358423763925
+      },
+      "DNA_normalised_as_submitted": {
+        "n": 6,
+        "slope": -0.1720990421162022,
+        "intercept": 2038.6330684284712,
+        "pearson_r2": 0.29583630952163353,
+        "spearman_rho": -0.4285714285714286,
+        "spearman_p": 0.3965014577259473,
+        "pearson_r": -0.5439083650042841,
+        "pearson_p": 0.2645913742039804
+      },
+      "notebook_basis_P74": {
+        "n": 6,
+        "slope": 0.08134841033556767,
+        "intercept": 2418.0639184302345,
+        "pearson_r2": 0.39344786676294585,
+        "spearman_rho": 0.08571428571428573,
+        "spearman_p": 0.8717434402332361,
+        "pearson_r": 0.6272542281746261,
+        "pearson_p": 0.18251457673473315
+      },
+      "saturation": {
+        "n_cells": 54,
+        "n_cells_at_0p1_bound": 20,
+        "frac_cells_at_0p1_bound": 0.37037037037037035,
+        "n_cells_zero": 18,
+        "summed_TMA_by_core": {
+          "R1_A": 0.42233734524810307,
+          "R1_B": 0.38732794677835086,
+          "R1_C": 0.4291941991452829,
+          "R2_A": 0.37700488114385855,
+          "R2_B": 0.5299825886613978,
+          "R2_C": 0.4128553504033108
+        },
+        "summed_TMA_CV": 0.11686961518041158,
+        "summed_abundance_by_core_sim_basis": {
+          "R1_A": 0.0121700061702622,
+          "R1_B": 0.007576254214437884,
+          "R1_C": 0.0106555682699965,
+          "R2_A": 0.007554677992586442,
+          "R2_B": 0.0139758819712517,
+          "R2_C": 0.011797965430790692
+        },
+        "summed_abundance_CV": 0.22316896128801064,
+        "spearman_summedTMA_vs_summedAbundance": {
+          "rho": 0.8285714285714287,
+          "p": 0.04156268221574335
+        },
+        "modelled_CH4_vs_VW_DNA": {
+          "pearson_r2": 0.9546734297463232,
+          "spearman_rho": 0.8285714285714287
+        },
+        "VW_DNA_CV": 0.45265911668043324,
+        "max_over_min_across_cores": {
+          "summed_flux": 1.4057711588597857,
+          "summed_abundance": 1.8499639541177684,
+          "VW_DNA": 3.8492404689248603
+        }
+      }
+    },
+    "SENS_grdH9_fva_max_current_abundance": {
+      "n_MAGs": 9,
+      "modelled_betaine_CH4_umol_m2_d_by_core": {
+        "R1_A": 4857.9461595050625,
+        "R1_B": 3736.130915187392,
+        "R1_C": 2067.005821472771,
+        "R2_A": 2030.5784617779211,
+        "R2_B": 2015.9914074207616,
+        "R2_C": 1160.1066388202046
+      },
+      "raw_areal": {
+        "n": 6,
+        "slope": -1.2748568449196747,
+        "intercept": 4152.731220630197,
+        "pearson_r2": 0.18505688532314746,
+        "spearman_rho": -0.6571428571428573,
+        "spearman_p": 0.1561749271137024,
+        "pearson_r": -0.4301823861144799,
+        "pearson_p": 0.3945305270758927
+      },
+      "DNA_normalised_as_submitted": {
+        "n": 6,
+        "slope": -0.3353174097862843,
+        "intercept": 3308.5567074052624,
+        "pearson_r2": 0.387688386069037,
+        "spearman_rho": -0.8857142857142858,
+        "spearman_p": 0.01884548104956266,
+        "pearson_r": -0.6226462768450776,
+        "pearson_p": 0.1867269498133651
+      },
+      "notebook_basis_P74": {
+        "n": 6,
+        "slope": 0.004318785060215938,
+        "intercept": 3928.100518464563,
+        "pearson_r2": 0.0012909738748922534,
+        "spearman_rho": -0.2571428571428572,
+        "spearman_p": 0.6227871720116619,
+        "pearson_r": 0.03593012489391393,
+        "pearson_p": 0.946128005085409
+      },
+      "saturation": {
+        "n_cells": 54,
+        "n_cells_at_0p1_bound": 32,
+        "frac_cells_at_0p1_bound": 0.5925925925925926,
+        "n_cells_zero": 6,
+        "summed_TMA_by_core": {
+          "R1_A": 0.6728585599995952,
+          "R1_B": 0.6599952526307308,
+          "R1_C": 0.6959155081927813,
+          "R2_A": 0.5650221338620639,
+          "R2_B": 0.6931680056614588,
+          "R2_C": 0.6185061748622156
+        },
+        "summed_TMA_CV": 0.07096528400047752,
+        "summed_abundance_by_core_sim_basis": {
+          "R1_A": 0.0121700061702622,
+          "R1_B": 0.007576254214437884,
+          "R1_C": 0.0106555682699965,
+          "R2_A": 0.007554677992586442,
+          "R2_B": 0.0139758819712517,
+          "R2_C": 0.011797965430790692
+        },
+        "summed_abundance_CV": 0.22316896128801064,
+        "spearman_summedTMA_vs_summedAbundance": {
+          "rho": 0.5428571428571429,
+          "p": 0.26570262390670546
+        },
+        "modelled_CH4_vs_VW_DNA": {
+          "pearson_r2": 0.984929769319424,
+          "spearman_rho": 0.942857142857143
+        },
+        "VW_DNA_CV": 0.45265911668043324,
+        "max_over_min_across_cores": {
+          "summed_flux": 1.2316606137816748,
+          "summed_abundance": 1.8499639541177684,
+          "VW_DNA": 3.8492404689248603
+        }
+      }
+    }
+  },
+  "MePn_comparator_existing": {
+    "n_MAGs": 20,
+    "modelled_MePn_CH4_umol_m2_d_by_core": {
+      "R1_A": 213.19707969177412,
+      "R1_B": 268.96193817072685,
+      "R1_C": 293.10718695939784,
+      "R2_A": 98.30643973070927,
+      "R2_B": 1350.4041117681334,
+      "R2_C": 886.7278529132113
+    },
+    "raw_areal": {
+      "n": 6,
+      "slope": 0.6472638887070047,
+      "intercept": -247.23652157917945,
+      "pearson_r2": 0.37042581234513705,
+      "spearman_rho": 0.6,
+      "spearman_p": 0.208,
+      "pearson_r": 0.6086261679759892,
+      "pearson_p": 0.19978616937952287
+    },
+    "DNA_normalised_as_submitted": {
+      "n": 6,
+      "slope": 0.1818958881073197,
+      "intercept": 158.29600457143573,
+      "pearson_r2": 0.8858749607566735,
+      "spearman_rho": 0.6,
+      "spearman_p": 0.208,
+      "pearson_r": 0.941209307623269,
+      "pearson_p": 0.005082917792386083
+    },
+    "abundance_response": {
+      "n_cells": 120,
+      "n_cells_zero": 6,
+      "summed_abundance_by_core_sim_basis": {
+        "R1_A": 0.013436753043785846,
+        "R1_B": 0.022925706371025527,
+        "R1_C": 0.04334446463064538,
+        "R2_A": 0.013554550867548826,
+        "R2_B": 0.20764105165385308,
+        "R2_C": 0.26804105517255633
+      },
+      "summed_abundance_CV": 1.0872978003803513,
+      "modelled_CH4_vs_VW_DNA": {
+        "pearson_r2": 0.2970882044277132,
+        "spearman_rho": -0.7714285714285715
+      },
+      "VW_DNA_CV": 0.45265911668043324,
+      "max_over_min_across_cores": {
+        "summed_flux": 17.282589887560203,
+        "summed_abundance": 19.948350192870326,
+        "VW_DNA": 3.8492404689248603
+      },
+      "summed_CH4_flux_by_core": {
+        "R1_A": 0.0017717546715520767,
+        "R1_B": 0.002850760956091439,
+        "R1_C": 0.005920965529428517,
+        "R2_A": 0.001641265739627526,
+        "R2_B": 0.02785895579353482,
+        "R2_C": 0.0283653226744857
+      },
+      "summed_CH4_flux_CV": 1.043786231981085,
+      "spearman_summedCH4flux_vs_summedAbundance": {
+        "rho": 0.942857142857143,
+        "p": 0.004804664723032055
+      }
+    },
+    "CH4_flux_per_unit_abundance_distinct_values": [
+      0.04321,
+      0.46974,
+      0.55344
+    ]
+  }
+}

@@ -1,0 +1,245 @@
+{
+ "params": {
+  "minimap2": "2.28 -x asm20 -c -N 200 -p 0.5",
+  "identity_min": 0.95,
+  "af_min": [
+   0.5,
+   0.8
+  ],
+  "tie": 0.01,
+  "seed": 20261125,
+  "assemblies": 20,
+  "gt_mags": 300,
+  "gt_per_band": 10
+ },
+ "ground_truth": {
+  "af50|1.0-2.0": {
+   "n": 3000,
+   "correct": 76.4,
+   "wrong": 3.33,
+   "ambiguous": 4.93,
+   "none": 15.33,
+   "precision": 95.82
+  },
+  "af50|2.0-2.5": {
+   "n": 3000,
+   "correct": 78.4,
+   "wrong": 3.5,
+   "ambiguous": 3.97,
+   "none": 14.13,
+   "precision": 95.73
+  },
+  "af50|ge2.5": {
+   "n": 2969,
+   "correct": 80.77,
+   "wrong": 3.13,
+   "ambiguous": 2.96,
+   "none": 13.14,
+   "precision": 96.27
+  },
+  "af80|1.0-2.0": {
+   "n": 3000,
+   "correct": 73.63,
+   "wrong": 2.87,
+   "ambiguous": 4.9,
+   "none": 18.6,
+   "precision": 96.25
+  },
+  "af80|2.0-2.5": {
+   "n": 3000,
+   "correct": 73.83,
+   "wrong": 2.93,
+   "ambiguous": 3.97,
+   "none": 19.27,
+   "precision": 96.18
+  },
+  "af80|ge2.5": {
+   "n": 2969,
+   "correct": 72.35,
+   "wrong": 2.32,
+   "ambiguous": 2.93,
+   "none": 22.4,
+   "precision": 96.89
+  }
+ },
+ "real": {
+  "af50|2.0-2.5": {
+   "contigs": {
+    "same_sample": 4.23,
+    "cross_sample": 17.01,
+    "ambiguous": 2.04,
+    "none": 76.72
+   },
+   "bp": {
+    "same_sample": 4.25,
+    "cross_sample": 17.05,
+    "ambiguous": 2.05,
+    "none": 76.66
+   },
+   "abund": {
+    "same_sample": 7.36,
+    "cross_sample": 20.06,
+    "ambiguous": 3.52,
+    "none": 69.06
+   }
+  },
+  "af50|ge2.5": {
+   "contigs": {
+    "same_sample": 2.71,
+    "cross_sample": 24.0,
+    "ambiguous": 1.93,
+    "none": 71.35
+   },
+   "bp": {
+    "same_sample": 2.63,
+    "cross_sample": 26.23,
+    "ambiguous": 1.79,
+    "none": 69.35
+   },
+   "abund": {
+    "same_sample": 4.38,
+    "cross_sample": 31.11,
+    "ambiguous": 2.86,
+    "none": 61.65
+   }
+  },
+  "af80|2.0-2.5": {
+   "contigs": {
+    "same_sample": 3.6,
+    "cross_sample": 13.89,
+    "ambiguous": 1.8,
+    "none": 80.7
+   },
+   "bp": {
+    "same_sample": 3.62,
+    "cross_sample": 13.92,
+    "ambiguous": 1.8,
+    "none": 80.66
+   },
+   "abund": {
+    "same_sample": 6.35,
+    "cross_sample": 16.22,
+    "ambiguous": 2.95,
+    "none": 74.47
+   }
+  },
+  "af80|ge2.5": {
+   "contigs": {
+    "same_sample": 1.96,
+    "cross_sample": 18.02,
+    "ambiguous": 1.66,
+    "none": 78.36
+   },
+   "bp": {
+    "same_sample": 1.85,
+    "cross_sample": 19.19,
+    "ambiguous": 1.54,
+    "none": 77.41
+   },
+   "abund": {
+    "same_sample": 3.06,
+    "cross_sample": 21.58,
+    "ambiguous": 2.36,
+    "none": 73.01
+   }
+  }
+ },
+ "ground_truth_by_length": {
+  "af50|1.0-1.5": {
+   "n": 1484,
+   "correct": 76.21,
+   "wrong": 2.7,
+   "ambiguous": 5.32,
+   "none": 15.77,
+   "precision": 96.58
+  },
+  "af50|1.5-2.0": {
+   "n": 1516,
+   "correct": 76.58,
+   "wrong": 3.96,
+   "ambiguous": 4.55,
+   "none": 14.91,
+   "precision": 95.09
+  },
+  "af50|2.0-2.5": {
+   "n": 3000,
+   "correct": 78.4,
+   "wrong": 3.5,
+   "ambiguous": 3.97,
+   "none": 14.13,
+   "precision": 95.73
+  },
+  "af50|2.5-5": {
+   "n": 2198,
+   "correct": 80.76,
+   "wrong": 3.59,
+   "ambiguous": 3.18,
+   "none": 12.47,
+   "precision": 95.74
+  },
+  "af50|5-10": {
+   "n": 591,
+   "correct": 82.74,
+   "wrong": 2.03,
+   "ambiguous": 1.86,
+   "none": 13.37,
+   "precision": 97.6
+  },
+  "af50|ge10": {
+   "n": 180,
+   "correct": 74.44,
+   "wrong": 1.11,
+   "ambiguous": 3.89,
+   "none": 20.56,
+   "precision": 98.53
+  },
+  "af80|1.0-1.5": {
+   "n": 1484,
+   "correct": 73.92,
+   "wrong": 2.22,
+   "ambiguous": 5.32,
+   "none": 18.53,
+   "precision": 97.08
+  },
+  "af80|1.5-2.0": {
+   "n": 1516,
+   "correct": 73.35,
+   "wrong": 3.5,
+   "ambiguous": 4.49,
+   "none": 18.67,
+   "precision": 95.45
+  },
+  "af80|2.0-2.5": {
+   "n": 3000,
+   "correct": 73.83,
+   "wrong": 2.93,
+   "ambiguous": 3.97,
+   "none": 19.27,
+   "precision": 96.18
+  },
+  "af80|2.5-5": {
+   "n": 2198,
+   "correct": 73.29,
+   "wrong": 2.68,
+   "ambiguous": 3.14,
+   "none": 20.88,
+   "precision": 96.47
+  },
+  "af80|5-10": {
+   "n": 591,
+   "correct": 71.91,
+   "wrong": 1.52,
+   "ambiguous": 1.86,
+   "none": 24.7,
+   "precision": 97.93
+  },
+  "af80|ge10": {
+   "n": 180,
+   "correct": 62.22,
+   "wrong": 0.56,
+   "ambiguous": 3.89,
+   "none": 33.33,
+   "precision": 99.12
+  }
+ }
+}
