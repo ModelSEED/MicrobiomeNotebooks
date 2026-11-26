@@ -1,0 +1,49 @@
+sample	ko	is_top_scoring	status	domain	n_genes	sum_depth
+R1_A_D1	K05915	False	kept_mag	Bacteria	1	4.12701
+R1_A_D2	K16967	False	unbinned		1	4.25204
+R1_B_D1	K05915	False	kept_mag	Bacteria	2	14.723
+R1_B_D1	K16967	False	kept_mag	Bacteria	2	10.2061
+R1_B_D1	K16967	False	other_bin	Bacteria	1	5.57926
+R1_B_D1	K16967	False	unbinned		5	18.0408
+R1_B_D2	K05915	False	unbinned		1	2.49943
+R1_B_D2	K16967	False	other_bin	Bacteria	1	8.2564
+R1_B_D2	K16967	False	unbinned		2	8.36368
+R1_C_D1	K05915	False	other_bin	Bacteria	1	5.81146
+R1_C_D1	K16967	False	unbinned		2	8.256
+R1_C_D2	K05915	False	kept_mag	Bacteria	1	4.69497
+R1_C_D2	K05915	False	unbinned		1	6.09982
+R1_C_D2	K16967	False	unbinned		6	24.3962
+R2A_A_D1	K05915	False	unbinned		1	6.33971
+R2A_A_D1	K16967	False	unbinned		2	7.17031
+R2A_A_D2	K05915	False	unbinned		2	5.34898
+R2A_A_D2	K16967	False	unbinned		3	13.2707
+R2A_A_H2O	K05915	False	unbinned		1	10.0549
+R2A_B_D1	K16967	False	unbinned		1	4.4406
+R2A_B_H2O	K05915	False	unbinned		2	17.2704
+R2A_C_D1	K05915	False	kept_mag	Bacteria	1	16.914
+R2A_C_D1	K05915	False	unbinned		2	11.838
+R2A_C_D1	K16967	False	unbinned		4	11.8754
+R2A_C_D2	K05915	False	kept_mag	Bacteria	1	18.8444
+R2A_C_H2O	K05915	False	unbinned		1	6.12951
+R2_A_D1	K05915	False	unbinned		1	3.77987
+R2_A_D1	K16967	False	unbinned		2	6.34851
+R2_B_D1	K05915	False	kept_mag	Bacteria	1	10.0977
+R2_B_D1	K16967	False	unbinned		2	8.26003
+R2_B_D2	K05915	False	kept_mag	Bacteria	2	12.0395
+R2_B_D2	K05915	False	unbinned		6	26.7288
+R2_B_D2	K16967	False	kept_mag	Bacteria	2	10.4023
+R2_B_D2	K16967	False	unbinned		3	12.8344
+R2_B_H2O	K16967	False	unbinned		1	24.5954
+R2_C_D1	K05915	False	kept_mag	Bacteria	2	11.5182
+R2_C_D1	K16967	False	kept_mag	Bacteria	3	16.8961
+R2_C_D1	K16967	False	unbinned		2	8.41547
+R2_C_D2	K05915	False	other_bin	Bacteria	1	4.68244
+R2_restored_C_black	K05915	False	unbinned		1	5.71479
+R2_restored_C_black	K16967	False	unbinned		3	13.1129
+R2_restored_D_shore	K05915	False	other_bin	Bacteria	1	4.51823
+R2_restored_H2O	K18049	True	unbinned		1	9.57657
+SF2_A_D1	K05915	False	unbinned		1	3.4101
+SF2_A_H2O	K05915	False	unbinned		3	20.5416
+SF2_B_H2O	K05915	False	unbinned		4	30.5638
+SF2_C_D2	K05915	False	kept_mag	Bacteria	1	11.4431
+SF2_C_H2O	K05915	False	unbinned		4	23.5591

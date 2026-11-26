@@ -1,0 +1,13 @@
+full-run chunks checked	0027,0046,0049,0063
+chunk_0027	reps	14540	candidates	220	tblout_rows_148_full	2403	pass1	2403	identical	2403
+chunk_0046	reps	25684	candidates	163	tblout_rows_148_full	1530	pass1	1530	identical	1530
+chunk_0049	reps	25767	candidates	116	tblout_rows_148_full	1423	pass1	1423	identical	1423
+chunk_0063	reps	21737	candidates	231	tblout_rows_148_full	2739	pass1	2739	identical	2739
+tblout rows of the 148 profiles: full run 8095, pass 1 8095, identical (all 18 fields) 8095
+representatives	87728	candidates	730
+panel/marker label identical	87728	of	87728	(reps with a panel/marker best KO in the full run: 282)
+marker rescue (both readings) identical	87728	of	87728
+candidate call rows identical (all 12 columns)	730	of	730
+reps passing a 148 KO or rescued in the full run but not candidates	0
+reps passing a 148 KO whose best KO is another KO (counted for that KO, as in the full run)	0
+differing reps	0

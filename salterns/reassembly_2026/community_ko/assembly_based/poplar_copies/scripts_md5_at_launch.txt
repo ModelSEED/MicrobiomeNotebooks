@@ -1,0 +1,6 @@
+8257be6da988f3eef6ca48c3cc8c0118  scripts/00_smoke_compare.py
+24e595e0fa01abb3947dca75f605e910  scripts/01_make_chunks.py
+aebf6cc604247836b68b41b9d2010c06  scripts/02_postprocess_chunk.py
+664d6c60b3bd99f6d966d6e747f592e3  scripts/03_aggregate.py
+cbf4cf45f12eae8470fe58f39a290de9  scripts/run_all.sh
+bec8e42076c0e244848da37df7fd78e4  scripts/run_chunk.sh

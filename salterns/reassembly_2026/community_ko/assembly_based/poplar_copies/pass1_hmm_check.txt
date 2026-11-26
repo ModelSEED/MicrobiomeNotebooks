@@ -1,0 +1,2 @@
+d92b324a95cd33d073f1f5e81ed07019  tmp/pass1_from_all.hmm
+d92b324a95cd33d073f1f5e81ed07019  db/pass1_148.hmm

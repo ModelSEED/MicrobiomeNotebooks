@@ -1,0 +1,11 @@
+ko	mag	source	n_genes	species_cluster	is_species_rep	rep_mag	domain	phylum	genus	mean_read_fraction_12_unrestored_core_samples
+K16967	R1_B_D1__concoct.bin.099_sub	kofam_rollout	2	coassembly|R1_sediment__metabat2.bin.258	False	R1_sediment__metabat2.bin.258	Bacteria	Pseudomonadota	JACKII01	0.00136015
+K16967	R2_B_D2__maxbin2.Bin.136_sub	kofam_rollout	2	coassembly|R1_sediment__metabat2.bin.258	False	R1_sediment__metabat2.bin.258	Bacteria	Pseudomonadota	JACKII01	0.00136015
+K16967	R2_C_D1__metabat2.bin.076	kofam_rollout	3	coassembly|R1_sediment__metabat2.bin.258	False	R1_sediment__metabat2.bin.258	Bacteria	Pseudomonadota	JACKII01	0.00136015
+K16967	R1_sediment__concoct.bin.098_sub	kofam_first_pass	2	coassembly|R2_sediment__concoct.bin.112	False	R2_sediment__concoct.bin.112	Bacteria	Pseudomonadota	CAJQQK01	0.000903007
+K16967	R1_sediment__metabat2.bin.121_sub	kofam_first_pass	1	first_pass|metabat2.bin.121_sub.fasta__R1_sediment	True	R1_sediment__metabat2.bin.121_sub	Bacteria	Pseudomonadota	Roseovarius	0.001135
+K16967	R1_sediment__metabat2.bin.258	kofam_first_pass	3	coassembly|R1_sediment__metabat2.bin.258	True	R1_sediment__metabat2.bin.258	Bacteria	Pseudomonadota	JACKII01	0.00136015
+K16967	R2A_sediment__concoct.bin.189_sub	kofam_first_pass	2	coassembly|R2A_sediment__concoct.bin.189_sub	True	R2A_sediment__concoct.bin.189_sub	Bacteria	Pseudomonadota		1.4673e-07
+K16967	R2A_sediment__concoct.bin.228_sub	kofam_first_pass	1	first_pass|concoct.bin.228_sub.fasta__R2A_sediment	True	R2A_sediment__concoct.bin.228_sub	Bacteria	Pseudomonadota		8.98925e-08
+K16967	R2_sediment__concoct.bin.112	kofam_first_pass	4	coassembly|R2_sediment__concoct.bin.112	True	R2_sediment__concoct.bin.112	Bacteria	Pseudomonadota	CAJQQK01	0.000903007
+K16967	R2_sediment__metabat2.bin.331	kofam_first_pass	3	coassembly|R1_sediment__metabat2.bin.258	False	R1_sediment__metabat2.bin.258	Bacteria	Pseudomonadota	JACKII01	0.00136015
