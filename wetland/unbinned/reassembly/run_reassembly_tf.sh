@@ -38,9 +38,14 @@ for r in "$@"; do
   until [ -e READS_OK ] || [ -e READS_FAIL ]; do sleep 60; done
   [ -e READS_OK ] || continue
   until [ "$(awk '/MemAvailable/{print $2 * 1024}' /proc/meminfo)" -gt $((MEM + 4000000000)) ]; do sleep 300; done
-  rm -rf megahit_out tmp; mkdir -p tmp; t0=$(date +%s)
-  python3 "$MH" -1 "${r}_1.fastq.gz" -2 "${r}_2.fastq.gz" --min-contig-len 1000 -t "$THREADS" -m "$MEM" \
-        -o megahit_out --tmp-dir "$d/tmp" > megahit.stdout 2>&1
+  t0=$(date +%s)
+  if [ -e megahit_out/options.json ]; then   # interrupted run: resume from MEGAHIT's checkpoints (options reloaded)
+    ev "RESUME $r"; python3 "$MH" --continue -o megahit_out >> megahit.stdout 2>&1
+  else
+    rm -rf megahit_out tmp; mkdir -p tmp
+    python3 "$MH" -1 "${r}_1.fastq.gz" -2 "${r}_2.fastq.gz" --min-contig-len 1000 -t "$THREADS" -m "$MEM" \
+          -o megahit_out --tmp-dir "$d/tmp" > megahit.stdout 2>&1
+  fi
   rc=$?; rm -rf tmp
   if [ $rc -eq 0 ] && [ -s megahit_out/final.contigs.fa ]; then
     cp megahit_out/final.contigs.fa "$r.min1000.fa" && rm -rf megahit_out/intermediate_contigs
