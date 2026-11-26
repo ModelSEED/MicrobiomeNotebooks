@@ -28,5 +28,20 @@
   "unmapped_pct": 41.44,
   "kbase_2kb_floor_reads_pct": 38.28,
   "gain_from_1kb_floor_reads_pct": 20.28
+ },
+ "SRR8556606": {
+  "reads_total": 61369938,
+  "reads_mapped_pct": 73.86,
+  "binned_reads_pct": 37.87,
+  "binned_depth_rel_binned": 1.0,
+  "unb_2.5_reads_pct": 17.59,
+  "unb_2.5_depth_rel_binned": 0.444,
+  "unb_2.0_reads_pct": 4.14,
+  "unb_2.0_depth_rel_binned": 0.352,
+  "unb_1.0_reads_pct": 14.26,
+  "unb_1.0_depth_rel_binned": 0.295,
+  "unmapped_pct": 26.14,
+  "kbase_2kb_floor_reads_pct": 59.6,
+  "gain_from_1kb_floor_reads_pct": 14.26
  }
 }
